@@ -16,10 +16,15 @@ from audit_logger import AuditedHTTPClient
 logger = logging.getLogger(__name__)
 
 
+def _date_from_run_dir(run_dir: str) -> str:
+    """Extract the target date (YYYY-MM-DD) from the run directory name."""
+    return Path(run_dir).name[:10]
+
+
 def _build_frontmatter(config: PipelineConfig, run_dir: str) -> str:
     """Build Jekyll frontmatter for the final post."""
-    tz = timezone(timedelta(hours=-7))
-    now = datetime.now(tz)
+    date_str = _date_from_run_dir(run_dir)
+    date_obj = datetime.strptime(date_str, "%Y-%m-%d")
 
     sources_down = []
     meta_path = Path(run_dir) / "run_meta.json"
@@ -33,8 +38,8 @@ def _build_frontmatter(config: PipelineConfig, run_dir: str) -> str:
     return (
         "---\n"
         "layout: post\n"
-        f'title: "Iran Conflict Brief -- {now.strftime("%B %d, %Y")}"\n'
-        f"date: {now.strftime('%Y-%m-%d')}\n"
+        f'title: "Iran Conflict Brief -- {date_obj.strftime("%B %d, %Y")}"\n'
+        f"date: {date_str}\n"
         "categories: [daily-brief]\n"
         f"sources_down: {json.dumps(sources_down)}\n"
         "---\n\n"
@@ -64,9 +69,8 @@ def run_publish(
     report_content = report_path.read_text()
     frontmatter = _build_frontmatter(config, run_dir)
 
-    # Determine post filename
-    tz = timezone(timedelta(hours=-7))
-    date_str = datetime.now(tz).strftime("%Y-%m-%d")
+    # Determine post filename from run_id target date
+    date_str = _date_from_run_dir(run_dir)
     post_filename = f"{date_str}-daily-brief.md"
     posts_dir = site_dir / "_posts"
     posts_dir.mkdir(parents=True, exist_ok=True)
