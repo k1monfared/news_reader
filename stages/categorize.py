@@ -14,6 +14,17 @@ from prompt_loader import load_prompt
 logger = logging.getLogger(__name__)
 
 
+def _parse_json_response(response_text: str) -> list[dict]:
+    """Parse LLM JSON response, stripping markdown code fences if present."""
+    text = response_text.strip()
+    if text.startswith("```"):
+        first_newline = text.index("\n")
+        text = text[first_newline + 1:]
+    if text.endswith("```"):
+        text = text[:-3].rstrip()
+    return json.loads(text)
+
+
 def run_categorize(
     run_dir: str,
     config: PipelineConfig,
@@ -67,7 +78,7 @@ def run_categorize(
             model=model,
         )
 
-        decisions = json.loads(response_text)
+        decisions = _parse_json_response(response_text)
         decision_map = {d["fetch_id"]: d for d in decisions}
     except Exception as e:
         logger.error(f"Categorization failed: {e}. Defaulting all to 'Other'.")
