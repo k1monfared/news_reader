@@ -426,6 +426,56 @@ main {
 }
 
 /* ===================================
+   Post Navigation (Prev/Next)
+   =================================== */
+
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2.5rem 0 0;
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.post-nav a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  max-width: 45%;
+  transition: color 0.15s ease;
+}
+
+.post-nav a:hover .post-nav-title {
+  color: var(--accent);
+}
+
+.post-nav-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.post-nav-title {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  margin-top: 0.15rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.post-nav-prev {
+  align-items: flex-start;
+}
+
+.post-nav-next {
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+/* ===================================
    About Page
    =================================== */
 
@@ -521,5 +571,19 @@ main {
 
   .post-content details > *:not(summary) {
     padding: 0 0.8rem;
+  }
+
+  .post-nav {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .post-nav a {
+    max-width: 100%;
+  }
+
+  .post-nav-next {
+    align-items: flex-start;
+    margin-left: 0;
   }
 }
