@@ -1,8 +1,12 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
+
+<div class="page-content" markdown="1">
+
+# About
 
 This is an automated daily intelligence digest covering the Iran conflict. The pipeline fetches news from multiple sources with different perspectives, deduplicates events, filters for importance, categorizes by topic, and produces a concise brief.
 
@@ -22,3 +26,5 @@ This is an automated daily intelligence digest covering the Iran conflict. The p
 - This is an automated system. AI can misclassify or miss nuance.
 - Farsi content is machine-translated.
 - Source availability varies. Check the header of each report for any sources that were unreachable.
+
+</div>

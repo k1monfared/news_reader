@@ -30,9 +30,15 @@ def run_editorial(
 
     report = report_path.read_text()
 
-    # Read raw categorized data for reference
+    # Read raw data for reference (prefer tracked, fall back to categorized)
+    tracked_path = run_path / "tracked_items.json"
     cat_path = run_path / "categorized_items.json"
-    raw_data = cat_path.read_text() if cat_path.exists() else "[]"
+    if tracked_path.exists():
+        raw_data = tracked_path.read_text()
+    elif cat_path.exists():
+        raw_data = cat_path.read_text()
+    else:
+        raw_data = "[]"
 
     # Load prompt
     template = load_prompt("editorial", config.paths.get("prompts_dir", "prompts"))

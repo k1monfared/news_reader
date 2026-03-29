@@ -46,6 +46,12 @@ class CategorizedItem(FilteredItem):
     secondary_category: str | None = None
 
 
+class TrackedItem(CategorizedItem):
+    story_status: str = "new"  # "new" | "continuation" | "development"
+    story_timeline: list[dict] = []  # [{date, summary, fetch_id}]
+    development_note: str | None = None
+
+
 # --- Audit models ---
 
 
@@ -122,6 +128,7 @@ class PipelineConfig(BaseModel):
     publish: dict
     paths: dict
     audit: dict = {}
+    development_tracking: dict = {}
 
 
 # --- Helper ---

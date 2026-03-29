@@ -1,4 +1,4 @@
-"""Summarize stage: produces the daily brief with expandable format."""
+"""Summarize stage: produces the daily executive brief with expandable format."""
 
 from __future__ import annotations
 
@@ -7,7 +7,7 @@ import logging
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-from models import PipelineConfig, CategorizedItem
+from models import PipelineConfig, TrackedItem, CategorizedItem
 from llm_client import AuditedLLMClient
 from audit_logger import AuditedHTTPClient
 from prompt_loader import load_prompt
@@ -39,6 +39,18 @@ def _build_debias_notes(config: PipelineConfig) -> str:
     return "\n".join(lines) if lines else "No specific debias notes."
 
 
+def _load_items(run_path: Path) -> list[TrackedItem]:
+    """Load items, preferring tracked_items.json, falling back to categorized_items.json."""
+    tracked_path = run_path / "tracked_items.json"
+    if tracked_path.exists():
+        raw = json.loads(tracked_path.read_text())
+        return [TrackedItem(**item) for item in raw]
+
+    cat_path = run_path / "categorized_items.json"
+    raw = json.loads(cat_path.read_text())
+    return [TrackedItem(**CategorizedItem(**item).model_dump()) for item in raw]
+
+
 def run_summarize(
     run_dir: str,
     config: PipelineConfig,
@@ -46,9 +58,7 @@ def run_summarize(
     http_client: AuditedHTTPClient,
 ) -> dict:
     run_path = Path(run_dir)
-    items_path = run_path / "categorized_items.json"
-    raw = json.loads(items_path.read_text())
-    all_items = [CategorizedItem(**item) for item in raw]
+    all_items = _load_items(run_path)
 
     included = [item for item in all_items if item.included]
     if not included:
@@ -58,26 +68,34 @@ def run_summarize(
         return {"items_summarized": 0}
 
     # Group by category, order by item count descending
-    categories: dict[str, list[CategorizedItem]] = {}
+    categories: dict[str, list[TrackedItem]] = {}
     for item in included:
         cat = item.primary_category
         categories.setdefault(cat, []).append(item)
     sorted_cats = sorted(categories.items(), key=lambda x: len(x[1]), reverse=True)
 
-    # Build items text for prompt
+    # Build items text for prompt, including tracking data
     items_text = ""
     for cat_name, cat_items in sorted_cats:
         items_text += f"\n## {cat_name}\n"
         for item in cat_items:
             sole = " [SOLE SOURCE]" if item.sole_source_flag else ""
+            status_tag = f' story_status="{item.story_status}"'
             items_text += (
-                f'<item fetch_id="{item.fetch_id}" source="{item.source}"{sole}>\n'
+                f'<item fetch_id="{item.fetch_id}" source="{item.source}"{sole}{status_tag}>\n'
                 f"Title: {item.title_en}\n"
                 f"Text: {item.text_en[:500]}\n"
                 f"URL: {item.source_url}\n"
                 f"Related sources: {', '.join(item.related_sources) if item.related_sources else 'none'}\n"
-                f"</item>\n"
             )
+            if item.story_status == "development":
+                if item.development_note:
+                    items_text += f"Development note: {item.development_note}\n"
+                if item.story_timeline:
+                    items_text += "Timeline:\n"
+                    for entry in item.story_timeline:
+                        items_text += f"  - {entry['date']}: {entry['summary']}\n"
+            items_text += f"</item>\n"
 
     # Detect sources down from run meta or fetch stage
     sources_down = []
@@ -85,9 +103,9 @@ def run_summarize(
     if meta_path.exists():
         meta = json.loads(meta_path.read_text())
         sources_down = meta.get("sources_down", [])
-    fetch_stage = meta.get("stages", {}).get("fetch", {}) if meta_path.exists() else {}
-    if fetch_stage.get("sources_down"):
-        sources_down = fetch_stage["sources_down"]
+        fetch_stage = meta.get("stages", {}).get("fetch", {})
+        if fetch_stage.get("sources_down"):
+            sources_down = fetch_stage["sources_down"]
 
     # Load prompt
     template = load_prompt("summarize", config.paths.get("prompts_dir", "prompts"))

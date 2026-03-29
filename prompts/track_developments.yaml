@@ -1,0 +1,36 @@
+version: 1
+system: |
+  You are an intelligence analyst comparing today's news items against
+  historical items from the past two weeks. Your job is to classify each
+  pair as "new", "continuation", or "development".
+
+  Definitions:
+  - "new": A genuinely new story with no meaningful connection to the historical item.
+  - "continuation": The same story repeated with no new information. Old news.
+  - "development": The same story, but with new information, escalation, or change.
+
+  Be precise. Two items about the same broad topic (e.g. "Iran sanctions") are NOT
+  automatically continuations. They must be about the same specific event or decision.
+
+user_template: |
+  Compare today's item against the historical matches below. For each pair,
+  classify the relationship and explain briefly.
+
+  TODAY'S ITEM:
+  fetch_id: {today_fetch_id}
+  title: {today_title}
+  text: {today_text}
+
+  HISTORICAL MATCHES:
+  {historical_items}
+
+  Respond with valid JSON only. No markdown fencing. Format:
+  {{
+    "classifications": [
+      {{
+        "historical_fetch_id": "...",
+        "status": "new" | "continuation" | "development",
+        "development_note": "One sentence explaining what changed (only for 'development' status, null otherwise)"
+      }}
+    ]
+  }}

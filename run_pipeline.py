@@ -127,6 +127,7 @@ def run_pipeline(target_date: str | None = None, backfill: bool = False) -> str:
         "dedup",
         "filter",
         "categorize",
+        "track_developments",
         "summarize",
         "editorial",
         "verify",
