@@ -1,0 +1,7 @@
+{
+  "user-prompt-submit-hook": {
+    "command": "bash -c 'if [ -f STATUS.log ]; then sed -i \"s/Last Updated:.*/Last Updated: $(date +%Y-%m-%d)/\" STATUS.log && /home/k1/public/update_project_status.sh > /dev/null 2>&1; fi'",
+    "when": "after",
+    "description": "Auto-update STATUS.log timestamp and sync master project status"
+  }
+}

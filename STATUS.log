@@ -1,0 +1,72 @@
+- Project Status
+    - Last Updated: YYYY-MM-DD
+    - Development Mode: [Claude Code | Manual | Hybrid]
+    - Stage: Initial Setup
+    - Next Milestone: [Description of next goal]
+
+- Development Stages
+    - [x] Initial Setup
+        - Created: YYYY-MM-DD
+        - Repository initialized
+        - Basic structure in place
+        - Template copied from claude_code_project_template
+    - [] Proof of Concept (POC)
+        - Target: YYYY-MM-DD
+        - Goal: Validate core concept and technology choices
+        - Success criteria:
+            - [] Key feature X works
+            - [] Technology stack validated
+            - [] Basic end-to-end flow demonstrated
+    - [] Minimum Viable Product (MVP)
+        - Goal: First usable version with core features
+        - Core features:
+            - [] Feature A
+            - [] Feature B
+            - [] Feature C
+        - Known issues:
+            - [List bugs that block demo/production]
+    - [] Beta Release
+        - Goal: Feature-complete but needs polish
+        - Missing features:
+            - [] Feature X
+            - [] Feature Y
+            - [] Feature Z
+        - Active users: N/A
+        - Stability: [Assessment]
+    - [] Production Ready
+        - Goal: Stable, documented, tested
+        - Deployment status: [Not deployed | Staging | Production]
+        - Documentation: [Complete | In Progress | Needed]
+        - Tests: [Coverage percentage or status]
+    - [] Maintenance Mode
+        - Core complete and stable
+        - Nice-to-haves queued:
+            - Enhancement A
+            - Enhancement B
+            - Enhancement C
+
+- Technical Details
+    - Tech Stack:
+        - [List technologies, languages, frameworks]
+    - Key Files:
+        - [Important files and their purposes]
+    - Architecture Notes:
+        - [Key design decisions]
+        - [Patterns used]
+        - [Dependencies]
+
+- Current Focus
+    - Active Tasks:
+        - [] Task 1
+        - [] Task 2
+    - Blockers:
+        - [Any blocking issues]
+    - Recent Progress:
+        - YYYY-MM-DD: [What was accomplished]
+        - YYYY-MM-DD: [What was accomplished]
+
+- Notes
+    - Use loglog format for all documentation
+    - Update "Last Updated" date when making changes
+    - Run /home/k1/public/update_project_status.sh after updates
+    - Convert to markdown: loglog STATUS.log > STATUS.md
