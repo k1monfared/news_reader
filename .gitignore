@@ -6,3 +6,22 @@ node_modules/
 .claude/cache/
 .mcp/logs/
 *.claude-session
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Pipeline data (large, regenerated)
+data/runs/
+data/cache/
+data/source_analysis/
+data/latest
+logs/
+
+# Plan file (development artifact)
+plan.md

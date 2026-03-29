@@ -1,0 +1,16 @@
+title: Iran Conflict Daily Brief
+description: Automated daily intelligence digest on the Iran conflict
+baseurl: "/news_reader"
+url: ""
+theme: minima
+
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

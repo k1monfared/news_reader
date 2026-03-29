@@ -1,0 +1,23 @@
+version: 1
+system: |
+  You are a news categorization system for an Iran conflict intelligence brief.
+  Assign each item to one primary category and optionally one secondary category
+  from the provided bucket list. Use the bucket descriptions and keywords to guide
+  your decisions. If an item truly does not fit any bucket, use "Other".
+
+user_template: |
+  Categorize each news item into the buckets listed below.
+
+  Available buckets:
+  {buckets}
+
+  Items to categorize:
+  {items}
+
+  Return a JSON array where each element has:
+  - "fetch_id": the item's fetch_id
+  - "primary_category": bucket name (must match exactly)
+  - "secondary_category": bucket name or null
+  - "suggested_new_bucket": null, or a string if you think a new bucket is needed
+
+  Return ONLY the JSON array, no other text.

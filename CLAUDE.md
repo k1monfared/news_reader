@@ -1,7 +1,7 @@
 # Claude Instructions
 
 ## Project Overview
-<!-- What this project does and its purpose -->
+Daily automated news digest pipeline for the Iran conflict. Fetches from 3 sources (Al Jazeera, Iran International, Reuters), translates Farsi, deduplicates, filters by importance, categorizes into topic buckets, produces an expandable-format blog post, reviews editorially, verifies links, and publishes to GitHub Pages.
 
 ## Project Stage Definitions
 
@@ -74,16 +74,29 @@ All project commands are defined in `.claude/commands.env`
 - Installation: `pip install loglog` or `cargo install loglog`
 
 ## Code Conventions
-<!-- Coding style, naming conventions, frameworks used -->
+- Python 3.11+, Pydantic v2 for data models
+- `from __future__ import annotations` in all files
+- Each pipeline stage: `run_{stage}(run_dir, config, llm_client, http_client) -> dict`
+- Config in config.yaml, prompts in prompts/*.yaml
+- All LLM calls go through `AuditedLLMClient`, all HTTP through `AuditedHTTPClient`
 
 ## Testing Instructions
-<!-- How to run tests, test patterns to follow -->
+- Run tests: `pytest tests/`
+- Tests use mocked LLM and HTTP clients (no network needed)
+- Golden dataset in `tests/golden/items.json`
 
 ## Architecture Notes
-<!-- Key directories, important files, design patterns -->
+- Pipeline stages in `stages/*.py`, each reads previous stage's JSON output
+- Run isolation: `data/runs/{YYYY-MM-DD-HHMMSS}/` per run
+- Audit trail: `audit/llm_calls.jsonl`, `audit/llm_inputs/`, `audit/llm_outputs/`, `audit/api_calls.jsonl`
+- Prompt templates in `prompts/*.yaml` with version tracking
+- Source fetchers in `stages/fetchers/` behind `BaseFetcher` interface
 
 ## Environment Setup
-<!-- Dependencies, environment variables, setup steps -->
+- Install deps: `pip install -r requirements.txt`
+- Env vars: `ANTHROPIC_AUTH_TOKEN` and `ANTHROPIC_BASE_URL` (Poe API)
+- See `.env.example` for template
+- Schedule: `bash schedule/setup.sh` to install cron job
 
 ## Project Status Tracking
 

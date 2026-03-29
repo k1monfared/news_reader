@@ -1,0 +1,117 @@
+[
+  {
+    "source": "reuters",
+    "source_url": "https://reuters.com/world/iran-us-ceasefire-talks",
+    "timestamp": "2026-03-29T06:00:00+00:00",
+    "title": "Iran and US begin indirect ceasefire talks in Oman",
+    "text": "Iran and the United States have begun indirect negotiations in Muscat, Oman, aimed at reaching a ceasefire agreement. The talks, mediated by Omani officials, focus on de-escalation in the Persian Gulf region. A senior US State Department official confirmed the discussions but declined to provide further details.",
+    "language": "en",
+    "fetch_id": "golden001",
+    "expected_included": true,
+    "expected_category": "Diplomacy",
+    "expected_confidence_min": 0.8
+  },
+  {
+    "source": "aljazeera",
+    "source_url": "https://aljazeera.com/news/iran-ceasefire-oman",
+    "timestamp": "2026-03-29T06:30:00+00:00",
+    "title": "Ceasefire talks between Iran and US underway in Oman, sources say",
+    "text": "Diplomatic sources confirm that Iranian and American delegations are holding indirect talks in Muscat. Al Jazeera's correspondent reports that the discussions are focused on a broader framework for ending hostilities in the region, including the status of Iranian-backed militias in Iraq and Syria.",
+    "language": "en",
+    "fetch_id": "golden002",
+    "expected_included": true,
+    "expected_category": "Diplomacy",
+    "expected_is_duplicate_of": "golden001"
+  },
+  {
+    "source": "iranintl",
+    "source_url": "https://ir.iranintl.com/news/ceasefire-oman",
+    "timestamp": "2026-03-29T07:00:00+00:00",
+    "title": "مذاکرات آتش‌بس ایران و آمریکا در عمان آغاز شد",
+    "text": "به گزارش ایران اینترنشنال، مذاکرات غیرمستقیم بین ایران و ایالات متحده در مسقط عمان آغاز شده است. منابع آگاه می‌گویند این مذاکرات بر کاهش تنش در منطقه خلیج فارس تمرکز دارد.",
+    "language": "fa",
+    "fetch_id": "golden003",
+    "expected_included": true,
+    "expected_category": "Diplomacy",
+    "expected_is_duplicate_of": "golden001"
+  },
+  {
+    "source": "reuters",
+    "source_url": "https://reuters.com/world/us-deploys-carrier-gulf",
+    "timestamp": "2026-03-29T04:00:00+00:00",
+    "title": "US deploys additional carrier strike group to Persian Gulf",
+    "text": "The United States has deployed the USS Eisenhower carrier strike group to the Persian Gulf, the Pentagon announced on Saturday. The deployment comes amid heightened tensions between Washington and Tehran. A Pentagon spokesperson said the move is a defensive precaution.",
+    "language": "en",
+    "fetch_id": "golden004",
+    "expected_included": true,
+    "expected_category": "Military Operations"
+  },
+  {
+    "source": "aljazeera",
+    "source_url": "https://aljazeera.com/news/iran-oil-prices-surge",
+    "timestamp": "2026-03-29T05:00:00+00:00",
+    "title": "Oil prices surge past $120 as Hormuz tensions escalate",
+    "text": "Brent crude surged past $120 per barrel on Friday as shipping companies reported disruptions near the Strait of Hormuz. Iran's navy conducted exercises in the strait earlier this week, raising fears of a blockade. OPEC members have so far declined to increase production to offset the price spike.",
+    "language": "en",
+    "fetch_id": "golden005",
+    "expected_included": true,
+    "expected_category": "Economy"
+  },
+  {
+    "source": "iranintl",
+    "source_url": "https://ir.iranintl.com/news/tehran-protests",
+    "timestamp": "2026-03-29T03:00:00+00:00",
+    "title": "اعتراضات گسترده در تهران علیه جنگ",
+    "text": "شاهدان عینی گزارش می‌دهند که هزاران نفر در تهران در اعتراض به ادامه جنگ و وضعیت اقتصادی به خیابان‌ها آمده‌اند. نیروهای امنیتی در مناطق مختلف شهر مستقر شده‌اند.",
+    "language": "fa",
+    "fetch_id": "golden006",
+    "expected_included": true,
+    "expected_category": "Inside Iran"
+  },
+  {
+    "source": "aljazeera",
+    "source_url": "https://aljazeera.com/news/celebrity-iran-reaction",
+    "timestamp": "2026-03-29T08:00:00+00:00",
+    "title": "Celebrities react to latest Iran developments on social media",
+    "text": "Several Hollywood celebrities have taken to social media to express their views on the Iran conflict. Posts from various public figures have gone viral, with some calling for peace and others criticizing US foreign policy.",
+    "language": "en",
+    "fetch_id": "golden007",
+    "expected_included": false,
+    "expected_category": "Other",
+    "expected_filter_reason": "Social media reactions by non-officials"
+  },
+  {
+    "source": "reuters",
+    "source_url": "https://reuters.com/world/iran-reaffirms-position",
+    "timestamp": "2026-03-29T07:30:00+00:00",
+    "title": "Iran's foreign minister reaffirms nuclear rights stance",
+    "text": "Iran's foreign minister reiterated the country's longstanding position that it has the right to peaceful nuclear energy, a stance unchanged for decades. No new proposals or developments were announced.",
+    "language": "en",
+    "fetch_id": "golden008",
+    "expected_included": false,
+    "expected_category": "Other",
+    "expected_filter_reason": "Restatement of known position with no new development"
+  },
+  {
+    "source": "aljazeera",
+    "source_url": "https://aljazeera.com/news/israel-iron-dome-upgrade",
+    "timestamp": "2026-03-29T05:30:00+00:00",
+    "title": "Israel announces major Iron Dome upgrade amid Iran threat",
+    "text": "The Israeli Ministry of Defense announced a significant upgrade to the Iron Dome missile defense system, specifically designed to counter potential Iranian ballistic missile threats. The upgrade includes new radar capabilities and extended range interceptors.",
+    "language": "en",
+    "fetch_id": "golden009",
+    "expected_included": true,
+    "expected_category": "Israel Policy"
+  },
+  {
+    "source": "reuters",
+    "source_url": "https://reuters.com/world/eu-sanctions-iran",
+    "timestamp": "2026-03-29T06:15:00+00:00",
+    "title": "EU imposes new sanctions on Iranian shipping entities",
+    "text": "The European Union has imposed sanctions on three Iranian shipping companies accused of transporting military equipment. The sanctions freeze assets and ban EU companies from doing business with the listed entities. Iran condemned the move as illegal.",
+    "language": "en",
+    "fetch_id": "golden010",
+    "expected_included": true,
+    "expected_category": "International"
+  }
+]

@@ -1,0 +1,238 @@
+# config.yaml
+# Iran War News Pipeline Configuration
+# All tunable parameters live here, not in code.
+
+# ---------------------------------------------------------------------------
+# Sources
+# ---------------------------------------------------------------------------
+# Each source specifies: name, type (rss/scrape), URL, language, max_items,
+# known_biases, reliability_notes, filter_instructions, debias_instructions.
+# Adding a new source means adding a config entry and (if scrape) a fetcher class.
+sources:
+  - name: aljazeera
+    type: rss
+    url: "https://www.aljazeera.com/xml/rss/all.xml"
+    language: en
+    max_items: 200
+    known_biases: "Pro-Arab, critical of Israel, editorializes framing"
+    reliability_notes: "Generally reliable"
+    filter_instructions: "Watch for editorialized framing of events"
+    debias_instructions: "Note when framing differs from wire services"
+
+  - name: iranintl
+    type: scrape
+    url: "https://ir.iranintl.com"
+    language: fa
+    max_items: 200
+    known_biases: "Anti-regime, pro-opposition, sometimes unverified"
+    reliability_notes: "Mixed, breaks stories early"
+    filter_instructions: "Flag unverified claims, check for sole-source"
+    debias_instructions: "Add verification caveats for unconfirmed claims"
+
+  - name: reuters
+    type: rss
+    url: "https://www.rss-bridge.org/bridge01/?action=display&bridge=Reuters&feed=world&format=Atom"
+    language: en
+    max_items: 200
+    known_biases: "Neutral wire service"
+    reliability_notes: "High, fact-checked"
+    filter_instructions: "Treat as anchor source"
+    debias_instructions: "Generally reliable, minimal debias needed"
+
+# ---------------------------------------------------------------------------
+# Models
+# ---------------------------------------------------------------------------
+models:
+  default: claude-sonnet-4-5
+  filter: haiku
+  categorize: haiku
+  dedup_translate: haiku
+  summarize: sonnet
+
+# ---------------------------------------------------------------------------
+# Dynamic Buckets
+# ---------------------------------------------------------------------------
+# Buckets are ordered dynamically in the report: buckets with more items or
+# higher-confidence items appear first. Empty buckets are omitted entirely.
+buckets:
+  - name: "Military Operations"
+    description: "Military operations, strikes, troop movements, and combat events"
+    keywords:
+      - strike
+      - airstrike
+      - missile
+      - drone
+      - military
+      - troops
+      - deployment
+      - offensive
+      - combat
+      - bombing
+      - casualties
+      - IRGC
+      - IDF
+      - Pentagon
+
+  - name: "Inside Iran"
+    description: "Protests, civilians, domestic governance, and internal developments in Iran"
+    keywords:
+      - protest
+      - Tehran
+      - IRGC domestic
+      - Khamenei
+      - Raisi
+      - Iranian people
+      - civil unrest
+      - crackdown
+      - dissent
+      - regime
+      - domestic policy
+
+  - name: "US Policy"
+    description: "United States policy decisions, statements, and actions related to the conflict"
+    keywords:
+      - White House
+      - Congress
+      - Biden
+      - State Department
+      - CENTCOM
+      - US military
+      - American
+      - Washington
+      - Pentagon policy
+      - executive order
+
+  - name: "Israel Policy"
+    description: "Israel policy decisions, statements, and actions related to the conflict"
+    keywords:
+      - Netanyahu
+      - Knesset
+      - IDF policy
+      - Mossad
+      - Israeli government
+      - Tel Aviv
+      - Jerusalem
+      - Israel defense
+      - Iron Dome
+      - Israeli military
+
+  - name: "Diplomacy"
+    description: "Diplomatic meetings, negotiations, proposals, and peace efforts"
+    keywords:
+      - negotiations
+      - ceasefire
+      - talks
+      - summit
+      - treaty
+      - UN resolution
+      - mediator
+      - diplomatic
+      - envoy
+      - peace process
+      - de-escalation
+      - JCPOA
+
+  - name: "Regional Actors"
+    description: "Actions and positions of regional players including Arab states, Turkey, and proxies"
+    keywords:
+      - Hezbollah
+      - Houthi
+      - Saudi Arabia
+      - UAE
+      - Turkey
+      - Iraq
+      - Syria
+      - proxy
+      - Gulf states
+      - Qatar
+      - Jordan
+      - Lebanon
+
+  - name: "International"
+    description: "European, UN, and other international responses and involvement"
+    keywords:
+      - EU
+      - United Nations
+      - NATO
+      - G7
+      - China
+      - Russia
+      - international community
+      - Security Council
+      - IAEA
+      - sanctions vote
+      - European
+
+  - name: "Economy"
+    description: "Oil markets, sanctions, Strait of Hormuz, financial impacts, and trade"
+    keywords:
+      - oil
+      - sanctions
+      - Hormuz
+      - crude
+      - OPEC
+      - trade
+      - economic
+      - markets
+      - energy
+      - inflation
+      - currency
+      - rial
+      - financial
+
+  - name: "Other"
+    description: "Catch-all for items that do not fit other buckets"
+    keywords: []
+
+# ---------------------------------------------------------------------------
+# Schedule
+# ---------------------------------------------------------------------------
+schedule:
+  timezone: "America/Vancouver"
+  run_hour: 8
+  run_minute: 0
+
+# ---------------------------------------------------------------------------
+# Budget
+# ---------------------------------------------------------------------------
+budget:
+  max_cost_per_run_usd: 10.00
+  alert_threshold_usd: 8.0
+
+# ---------------------------------------------------------------------------
+# Audit
+# ---------------------------------------------------------------------------
+# Tracks prompt versions per run and records cost breakdowns.
+# Each run writes a run_meta.json with prompt versions, token counts,
+# per-stage cost, and total cost for reproducibility and regression tracking.
+audit:
+  log_prompt_versions: true
+  log_token_counts: true
+  log_cost_per_stage: true
+  retention_days: 30
+
+# ---------------------------------------------------------------------------
+# Pipeline Settings
+# ---------------------------------------------------------------------------
+pipeline:
+  dedup_similarity_threshold: 0.85
+  filter_confidence_threshold: 0.5
+  max_report_bullets: 15
+  min_report_bullets: 3
+  cache_ttl_hours: 24
+
+# ---------------------------------------------------------------------------
+# Publish Settings
+# ---------------------------------------------------------------------------
+publish:
+  method: github_pages
+  branch: gh-pages
+  site_dir: site
+
+# ---------------------------------------------------------------------------
+# Paths
+# ---------------------------------------------------------------------------
+paths:
+  data_dir: data
+  prompts_dir: prompts
+  logs_dir: logs

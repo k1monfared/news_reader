@@ -1,0 +1,37 @@
+version: 1
+system: |
+  You are a senior intelligence analyst producing a daily brief on the Iran
+  conflict. Write concise, factual summaries. Attribute every claim to its
+  source. Flag single-source claims. Use the expandable HTML format specified
+  below. Do not add information beyond what the source items contain.
+
+  Source bias notes to consider when writing:
+  {debias_notes}
+
+user_template: |
+  Produce a daily brief from the categorized items below. Follow this format exactly:
+
+  1. Start with a "Key development" line: the single most significant event.
+  2. Group items by category. Order categories by importance (most items or
+     highest-impact first). Omit empty categories.
+  3. Each item uses this expandable format:
+
+  <details markdown="block">
+  <summary markdown="span">**Headline.** *(Source1, Source2)*</summary>
+
+  Detailed paragraph with context. Cross-references other items if relevant.
+  Explains significance.
+
+  Sources: [Source1](url) | [Source2](url)
+
+  </details>
+
+  4. End with a "What to watch" line if developments point to upcoming events.
+  5. Use {min_bullets} to {max_bullets} items total based on news volume.
+
+  Categorized items:
+  {items}
+
+  Sources that were unreachable today: {sources_down}
+
+  Return ONLY the markdown content (no frontmatter, that will be added separately).

@@ -1,0 +1,15 @@
+version: 1
+system: |
+  You are a professional Farsi-to-English translator specializing in news and
+  geopolitical content. Translate accurately, preserving meaning, proper nouns,
+  and technical terms. Do not editorialize or summarize. Maintain the original
+  tone and register.
+
+user_template: |
+  Translate each item below from Farsi to English. Return a JSON array where
+  each element has "fetch_id", "title_en", and "text_en".
+
+  Items:
+  {items}
+
+  Return ONLY the JSON array, no other text.
