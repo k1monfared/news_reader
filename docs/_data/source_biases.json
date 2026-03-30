@@ -1,0 +1,102 @@
+{
+  "aljazeera": {
+    "display_name": "Al Jazeera",
+    "biases": [
+      {
+        "pattern": "Pro-Arab, anti-Israel framing",
+        "detail": "Uses 'invasion' for Israeli ops but 'strikes' for Iranian ones. Labels conflict 'US-Israeli war on Iran' rather than neutral terms.",
+        "debias": "Watch for asymmetric language. Compare framing with wire services.",
+        "date_added": "2026-03-29",
+        "status": "confirmed"
+      },
+      {
+        "pattern": "Asymmetric casualty emphasis",
+        "detail": "Highlights Iranian civilian casualties (children, universities, residential areas) while underreporting impact of Iranian attacks on others.",
+        "debias": "Cross-reference casualty reporting with France24 and Reuters for balance.",
+        "date_added": "2026-03-29",
+        "status": "confirmed"
+      },
+      {
+        "pattern": "Selective attribution",
+        "detail": "Hedges Iranian claims with 'Iran says' but presents US/Israeli actions as direct facts without similar attribution.",
+        "debias": "Apply consistent attribution to all sides' claims.",
+        "date_added": "2026-03-29",
+        "status": "confirmed"
+      }
+    ],
+    "notes": "Generally reliable on facts, but editorializes framing"
+  },
+  "iranintl": {
+    "display_name": "Iran International",
+    "biases": [
+      {
+        "pattern": "Anti-regime, pro-opposition",
+        "detail": "Amplifies opposition voices and protests. Sometimes publishes unverified claims about regime weakness.",
+        "debias": "Flag unverified claims. Cross-check with other sources before including.",
+        "date_added": "2026-03-29",
+        "status": "confirmed"
+      }
+    ],
+    "notes": "Breaks stories early but mixed reliability"
+  },
+  "reuters": {
+    "display_name": "Reuters",
+    "biases": [
+      {
+        "pattern": "Wire service neutrality",
+        "detail": "Minimal editorializing. Can underplay significance by sticking to bare facts.",
+        "debias": "Use as baseline for factual accuracy. Supplement with analysis from other sources.",
+        "date_added": "2026-03-29",
+        "status": "confirmed"
+      }
+    ],
+    "notes": "High reliability, fact-checked. Treat as anchor source."
+  },
+  "france24": {
+    "display_name": "France 24",
+    "biases": [
+      {
+        "pattern": "European diplomatic lens",
+        "detail": "Emphasizes EU/French diplomatic angles and institutional responses over military details.",
+        "debias": "Good for diplomacy coverage, supplement with other sources for military ops.",
+        "date_added": "2026-03-29",
+        "status": "confirmed"
+      },
+      {
+        "pattern": "Interpretive journalism style",
+        "detail": "Embeds reporter opinions and atmospheric descriptions into reporting. Uses expert analysis segments that editorialize.",
+        "debias": "Separate factual claims from reporter commentary when summarizing.",
+        "date_added": "2026-03-29",
+        "status": "confirmed"
+      },
+      {
+        "pattern": "Selective distancing from Trump rhetoric",
+        "detail": "Uses quotation marks around Trump's inflammatory statements but not around other leaders' equally strong claims.",
+        "debias": "Apply consistent treatment to all leaders' rhetoric.",
+        "date_added": "2026-03-29",
+        "status": "confirmed"
+      }
+    ],
+    "notes": "Strong on diplomacy, moderate editorial tone"
+  },
+  "euronews": {
+    "display_name": "Euronews",
+    "biases": [
+      {
+        "pattern": "EU-centric news priority",
+        "detail": "Far less conflict coverage than other sources. Buries war news among European lifestyle and cultural stories.",
+        "debias": "Don't rely on for conflict volume. Use for European policy angles.",
+        "date_added": "2026-03-29",
+        "status": "confirmed"
+      },
+      {
+        "pattern": "Diplomatic process framing",
+        "detail": "Uses procedural language that frames the conflict as a negotiation rather than active warfare.",
+        "debias": "Supplement with sources that cover military and humanitarian dimensions.",
+        "date_added": "2026-03-29",
+        "status": "confirmed"
+      }
+    ],
+    "notes": "Reliable but limited conflict coverage"
+  }
+}

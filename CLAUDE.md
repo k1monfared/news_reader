@@ -91,7 +91,7 @@ All project commands are defined in `.claude/commands.env`
 - Audit trail: `audit/llm_calls.jsonl`, `audit/llm_inputs/`, `audit/llm_outputs/`, `audit/api_calls.jsonl`
 - Prompt templates in `prompts/*.yaml` with version tracking
 - Source fetchers in `stages/fetchers/` behind `BaseFetcher` interface
-- Bias tracking: `docs/_data/source_biases.yaml` (detected in editorial stage, displayed on About page)
+- Bias tracking: `docs/_data/source_biases.json` (detected in editorial stage, displayed on About page)
 
 ## Naming Convention
 - The conflict is called the "USrael war on Iran", not "Iran conflict"

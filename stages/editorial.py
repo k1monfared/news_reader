@@ -7,8 +7,6 @@ import logging
 from datetime import date
 from pathlib import Path
 
-import yaml
-
 from models import PipelineConfig
 from llm_client import AuditedLLMClient
 from audit_logger import AuditedHTTPClient
@@ -16,7 +14,7 @@ from prompt_loader import load_prompt
 
 logger = logging.getLogger(__name__)
 
-BIASES_PATH = Path("docs/_data/source_biases.yaml")
+BIASES_PATH = Path("docs/_data/source_biases.json")
 
 
 def _run_bias_detection(
@@ -31,10 +29,10 @@ def _run_bias_detection(
     """
     # Load existing biases
     if not BIASES_PATH.exists():
-        logger.info("No source_biases.yaml found, skipping bias detection")
+        logger.info("No source_biases.json found, skipping bias detection")
         return
 
-    biases_data = yaml.safe_load(BIASES_PATH.read_text()) or {}
+    biases_data = json.loads(BIASES_PATH.read_text()) or {}
 
     # Load today's items (prefer tracked, fall back to categorized)
     tracked_path = run_path / "tracked_items.json"
@@ -133,7 +131,7 @@ def _run_bias_detection(
         added += 1
 
     if added > 0:
-        BIASES_PATH.write_text(yaml.dump(biases_data, default_flow_style=False, allow_unicode=True))
+        BIASES_PATH.write_text(json.dumps(biases_data, indent=2, ensure_ascii=False) + "\n")
     logger.info(f"Bias detection: {len(new_biases)} candidates, {added} new pattern(s) added")
 
 
