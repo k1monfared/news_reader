@@ -365,6 +365,27 @@
         "debias": "Provide historical context without suggesting current situation has reached past crisis severity without evidence.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Negotiating position strength reversal questioning",
+        "detail": "Frames Iran as potentially having stronger negotiating position now than before war started, inverting conventional military pressure narrative.",
+        "debias": "Report negotiating dynamics without presuming military setbacks necessarily weaken diplomatic position.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Trump right people claim validation tracking",
+        "detail": "Monitors and reports Trump's repeated claims of talking to 'the right people' in Iran as ongoing story thread despite Iranian denials.",
+        "debias": "Report conflicting claims about negotiations without tracking one side's assertions as developing storyline.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Security appointment significance elevation",
+        "detail": "Treats Iran's appointment of new security boss Mohammad Zolghadr as major analytical focus with 'why it matters' framing implying strategic shift.",
+        "debias": "Report leadership changes without presuming bureaucratic appointments signal major policy shifts.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -620,6 +641,27 @@
         "pattern": "Canadian pipeline Asia-interest opportunism",
         "detail": "Reports Alberta premier claiming Middle East and Asia show interest in Canadian pipeline plans, framing crisis as Canadian export opportunity.",
         "debias": "Distinguish between long-term energy planning and crisis-driven opportunistic positioning.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Insider trading speculation amplification",
+        "detail": "Highlights unusually large oil futures trades placed immediately before Trump's attack delay announcement, implying potential market manipulation or information leakage.",
+        "debias": "Report trading patterns without speculative framing about impropriety unless investigations are confirmed.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Pakistani diplomatic self-promotion via neutral attribution",
+        "detail": "Features multiple stories positioning Pakistan as the central mediator while maintaining wire service attribution distancing, creating promotional effect through repetition.",
+        "debias": "Consolidate mediation venue coverage and include competing mediation offers to avoid amplifying single-country positioning.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Corporate planning paralysis framing",
+        "detail": "Frames US businesses as maintaining confidence 'at least until Iran war breaks out,' suggesting economic planning is hostage to military timing.",
+        "debias": "Report business forecasts without embedding assumptions that war escalation is inevitable or imminent.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -1241,6 +1283,34 @@
         "pattern": "Egypt Easter tourism energy crisis conflation",
         "detail": "Warns those vacationing in Egypt at Easter about energy crisis impacting tourism and daily life, extending war consequences to holiday planning.",
         "debias": "Distinguish between direct conflict impacts and indirect economic effects when advising travelers.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "European missile range vulnerability dramatization",
+        "detail": "Multiple language editions ask if Iranian missiles now threaten Berlin, Paris, Warsaw with specific 4,000km range figures, creating European threat expansion narrative.",
+        "debias": "Report missile capabilities factually without framing as newly directed threat to European capitals absent evidence of targeting intent.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Trump hellfire rhetoric direct quotation",
+        "detail": "Amplifies White House statement that Trump will 'unleash hell' if Iran doesn't make peace deal, platforming maximalist threat language without diplomatic context.",
+        "debias": "Contextualize extreme rhetoric with diplomatic norms and historical negotiation language rather than headline amplification.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Russian energy self-castration mockery amplification",
+        "detail": "Multiple language editions feature Russian claims that Europe committed 'self-castration' by rejecting Russian energy, amplifying adversary narrative framing.",
+        "debias": "Report Russian statements as attributed positions without headline amplification of derogatory characterizations.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Black rain environmental catastrophe localization",
+        "detail": "Details Tehran residents experiencing breathing difficulties and skin irritation from 'black rain' pollution, personalizing war environmental consequences.",
+        "debias": "Report environmental impacts without selective focus on one population's suffering to avoid humanitarian asymmetry.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
