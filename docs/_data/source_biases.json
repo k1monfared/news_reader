@@ -323,6 +323,48 @@
         "debias": "Report event cancellations or modifications due to conflict without using sports as proxy for broader societal impact claims.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Pakistan mediation venue self-promotion",
+        "detail": "Highlights Pakistan offering to 'host US-Iran talks' with questioning headline about whether 'latest peace push can work', elevating Pakistani mediator role.",
+        "debias": "Report mediation offers factually without amplifying host-country diplomatic positioning as primary frame.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Israel negotiation abandonment speculation",
+        "detail": "Questions 'where do reported US-Iran negotiations leave Israel', framing potential talks as diplomatically isolating or sidelining Israeli interests.",
+        "debias": "Present negotiations as involving multiple parties without framing talks as inherently excluding Israeli concerns.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "AWS infrastructure disruption war-consequence threading",
+        "detail": "Reports Amazon Web Services Bahrain region 'disrupted following drone activity', linking commercial cloud infrastructure to war impacts.",
+        "debias": "Report infrastructure disruptions without overemphasizing commercial service impacts relative to human consequences.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Iranian cluster munition penetration effectiveness highlighting",
+        "detail": "Asks 'What are Iran cluster munitions that are penetrating Israeli defences', framing Iranian weapons as overcoming Israeli systems with technical explainer focus.",
+        "debias": "Provide weapons information without effectiveness framing that implies tactical superiority.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "TSA worker crisis domestication",
+        "detail": "Reports 'long lines, unpaid TSA workers' framing US air travel system as 'in crisis', extending war impacts to domestic US infrastructure dysfunction.",
+        "debias": "Distinguish between war-zone impacts and domestic policy/budget issues when covering secondary effects.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "1973 embargo historical equivalence questioning",
+        "detail": "Asks 'How does current global oil crisis compare with 1973 oil embargo', inviting direct historical crisis parallelization.",
+        "debias": "Provide historical context without suggesting current situation has reached past crisis severity without evidence.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -536,6 +578,48 @@
         "pattern": "Gulf investment beneficiary highlighting",
         "detail": "Column specifically emphasizes Gulf money funding European defense startups in response to drone threats, creating investor-beneficiary narrative arc.",
         "debias": "Present defense investment flows within broader international defense financing patterns rather than emphasizing specific regional beneficiaries.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Japanese leader incremental policy response tracking",
+        "detail": "Tracks specific Japanese prime minister announcements on oil reserve release timing (starting day 26) and producer-country reserves (within March), emphasizing bureaucratic precision.",
+        "debias": "Summarize overall reserve release policy without excessive focus on implementation timing granularity.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Korean presidential public austerity appeal",
+        "detail": "Reports South Korean president asking citizens for energy conservation and reducing official vehicle use, framing leadership response as public sacrifice appeal.",
+        "debias": "Contextualize conservation requests within broader national energy strategy rather than symbolic leadership gestures.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Alternative oil arrival timeline specification",
+        "detail": "Specifies that US/alternative crude will arrive in Japan 'earliest June' per industry association, anchoring public expectations to specific delayed timeline.",
+        "debias": "Present supply timeline ranges without over-anchoring to single earliest-case estimate.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Singapore diplomatic Asian crisis warning",
+        "detail": "Quotes Singapore foreign minister warning Asian economy risks 'entering crisis' while questioning Iran attacks, positioning Southeast Asian diplomatic skepticism.",
+        "debias": "Include range of regional views rather than elevating single cautionary diplomatic voice.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "African refueling boom secondary benefit highlighting",
+        "detail": "Reports ship refueling demand 'surging' in Africa due to Cape of Good Hope rerouting, framing conflict as creating African commercial opportunities.",
+        "debias": "Acknowledge economic adaptations without framing disruption-driven shifts as positive developments.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Canadian pipeline Asia-interest opportunism",
+        "detail": "Reports Alberta premier claiming Middle East and Asia show interest in Canadian pipeline plans, framing crisis as Canadian export opportunity.",
+        "debias": "Distinguish between long-term energy planning and crisis-driven opportunistic positioning.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -1101,6 +1185,62 @@
         "pattern": "Patriot friendly-fire speculation seeding",
         "detail": "Questioning whether US Patriot missile caused Bahrain residential explosion plants friendly-fire narrative without evidence requirement.",
         "debias": "Report explosion investigations without speculative friendly-fire theories unless corroborated by multiple independent sources.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Israeli ex-leader proxy cowardice accusation",
+        "detail": "Amplifies former Israeli PM Bennett's accusation that Europeans are 'cowards' for not joining the war, using his voice to shame EU non-intervention across multiple language editions.",
+        "debias": "Note this represents one former leader's view, not Israeli government policy, and contextualize European non-combatant status as distinct from defensive support.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "German president international law invocation",
+        "detail": "Highlights German president's statement that war on Iran would be 'political catastrophe' and violate international law, elevating European anti-war legal framing.",
+        "debias": "Balance with perspectives on defensive action legality and note this represents one European position among varied views.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Netanyahu historical legacy persuasion dramatization",
+        "detail": "Frames Netanyahu as convincing Trump to attack Iran by promising he'll 'make history', portraying the war decision as ego-driven personal persuasion.",
+        "debias": "Present war rationale based on stated security objectives rather than personality-driven historical ambition narrative.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Iranian negotiator personalization humanization",
+        "detail": "Profiles specific Iranian negotiator as individual 'who has Trump's respect', humanizing and legitimizing Iranian diplomatic representatives.",
+        "debias": "Focus on negotiation substance and positions rather than personal rapport between individual diplomats.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Stagflation crisis inevitability questioning",
+        "detail": "Asks whether Iran war is 'pushing Europe into stagflation crisis', framing economic consequences as potentially catastrophic structural crisis.",
+        "debias": "Present economic impacts with range of forecasts and conditional language rather than crisis inevitability framing.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Israeli ministerial German ambassador attack amplification",
+        "detail": "Amplifies Israeli foreign minister's attack on German ambassador with sarcastic framing 'Good that a new one is coming', highlighting diplomatic tensions.",
+        "debias": "Contextualize diplomatic criticism within broader bilateral relations rather than amplifying interpersonal attacks.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "War-timing presidential pardon speculation",
+        "detail": "Speculates whether Netanyahu will extract pardon from Israeli president 'amid war' to escape corruption charges, linking war to domestic legal maneuvering.",
+        "debias": "Separate war coverage from domestic legal speculation unless direct causal connection is established.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Egypt Easter tourism energy crisis conflation",
+        "detail": "Warns those vacationing in Egypt at Easter about energy crisis impacting tourism and daily life, extending war consequences to holiday planning.",
+        "debias": "Distinguish between direct conflict impacts and indirect economic effects when advising travelers.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
