@@ -239,6 +239,27 @@
         "debias": "Report civilian casualties factually without rhetorical framing about weapon precision capabilities.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Cuba blockade victimization parallelization",
+        "detail": "Frames Cuban power grid collapse through lens of US sanctions as deliberate humanitarian harm, paralleling Iran war framing.",
+        "debias": "Present Cuban infrastructure issues as multi-causal including maintenance failures, separating from Middle East conflict narrative.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Allied enthusiasm deficit shaming",
+        "detail": "Repeatedly emphasizes Trump 'chastising' and criticizing allies' 'lack of enthusiasm' for Hormuz coalition, framing US as isolated demander.",
+        "debias": "Present coalition requests neutrally as diplomatic negotiations without emotional characterization of allied responses.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Tehran diplomatic rejection amplification",
+        "detail": "Highlights Iran's rejection of Trump negotiation claims in headlines and live updates, positioning Tehran as authoritative voice on talks status.",
+        "debias": "Attribute negotiation claims to specific officials with equal skepticism toward all parties' public statements.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -382,6 +403,27 @@
         "pattern": "Red Sea alternative route inadequacy",
         "detail": "Reuters notes Saudi Red Sea exports reached 'record highs' but immediately qualifies as 'insufficient to replace Hormuz,' framing alternatives as inherently inadequate.",
         "debias": "Report alternative route capacity data without preemptive inadequacy framing, allowing readers to assess sufficiency.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Swiss wealth flight tracking",
+        "detail": "Reports Gulf wealthy individuals moving assets to Switzerland as conflict metric, using financial flows as geopolitical anxiety indicator.",
+        "debias": "Note capital movement patterns without inferring broader regional sentiment from elite financial behavior.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Historical crisis playbook invocation",
+        "detail": "Explicitly frames market analysis through 2022 Russia-Ukraine invasion precedent, suggesting investors apply past conflict patterns.",
+        "debias": "Analyze current market conditions independently rather than overlaying previous crisis frameworks.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Japanese ministerial quotation anchoring",
+        "detail": "Prioritizes Japanese transport and finance minister statements on Persian Gulf impacts, centering Japanese policy perspective.",
+        "debias": "Balance Japanese official statements with perspectives from multiple affected economies.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -828,6 +870,20 @@
         "pattern": "Strategic nihilism accusation",
         "detail": "Amplifies characterization of Iranian strategy as 'nihilism' from Gulf officials, framing actions as irrational destruction.",
         "debias": "Describe strategic objectives neutrally without philosophical characterizations that imply irrationality.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Khamenei disappearance Nowruz deadline dramatization",
+        "detail": "Links Mojtaba's continued absence to approaching Nowruz holiday as crisis deadline, suggesting imminent leadership legitimacy collapse.",
+        "debias": "Report leadership succession speculation without artificial temporal urgency tied to cultural holidays.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "War-accelerated nuclear capability speculation",
+        "detail": "Frames conflict as potentially accelerating Iranian nuclear weapons development timeline through expert speculation.",
+        "debias": "Present nuclear program assessments based on verified intelligence rather than conflict-contingent speculation.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
