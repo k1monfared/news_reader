@@ -1,0 +1,39 @@
+aljazeera:
+  display_name: "Al Jazeera"
+  biases:
+    - observation: "Pro-Arab, critical of Israel, editorializes framing"
+      date_added: "2026-03-29"
+      status: confirmed
+  notes: "Generally reliable but watch for editorialized framing"
+
+iranintl:
+  display_name: "Iran International"
+  biases:
+    - observation: "Anti-regime, pro-opposition, sometimes unverified"
+      date_added: "2026-03-29"
+      status: confirmed
+  notes: "Mixed reliability, breaks stories early"
+
+reuters:
+  display_name: "Reuters"
+  biases:
+    - observation: "Neutral wire service"
+      date_added: "2026-03-29"
+      status: confirmed
+  notes: "High reliability, fact-checked"
+
+france24:
+  display_name: "France 24"
+  biases:
+    - observation: "French/European perspective, moderate editorial tone"
+      date_added: "2026-03-29"
+      status: confirmed
+  notes: "Strong on diplomacy coverage"
+
+euronews:
+  display_name: "Euronews"
+  biases:
+    - observation: "Pan-European perspective, EU-aligned framing"
+      date_added: "2026-03-29"
+      status: confirmed
+  notes: "Generally reliable, aggregates multiple European viewpoints"

@@ -39,6 +39,26 @@ sources:
     filter_instructions: "Treat as anchor source"
     debias_instructions: "Generally reliable, minimal debias needed"
 
+  - name: france24
+    type: rss
+    url: "https://www.france24.com/en/middle-east/rss"
+    language: en
+    max_items: 200
+    known_biases: "French/European perspective, moderate editorial tone"
+    reliability_notes: "Generally reliable, strong on diplomacy coverage"
+    filter_instructions: "Good for European diplomatic angles and UN coverage"
+    debias_instructions: "May emphasize European diplomatic efforts over other actors"
+
+  - name: euronews
+    type: rss
+    url: "https://www.euronews.com/rss"
+    language: en
+    max_items: 200
+    known_biases: "Pan-European perspective, EU-aligned framing"
+    reliability_notes: "Generally reliable, aggregates multiple European viewpoints"
+    filter_instructions: "Broad feed, many items will not be Iran-related, filter aggressively"
+    debias_instructions: "May overweight EU policy responses relative to other actors"
+
 # ---------------------------------------------------------------------------
 # Models
 # ---------------------------------------------------------------------------

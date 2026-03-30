@@ -20,11 +20,10 @@ system: |
   {debias_notes}
 
 user_template: |
-  Produce an executive brief from the items below. Follow this format exactly:
+  Produce an executive brief from the items below. Do NOT start with a heading
+  or title (the page template handles that). Follow this format exactly:
 
   **Key development:** One sentence, the single most important thing that happened.
-
-  ---
 
   ## Category Name
 

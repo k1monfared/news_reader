@@ -1,7 +1,7 @@
 # Claude Instructions
 
 ## Project Overview
-Daily automated news digest pipeline for the Iran conflict. Fetches from 3 sources (Al Jazeera, Iran International, Reuters), translates Farsi, deduplicates, filters by importance, categorizes into topic buckets, produces an expandable-format blog post, reviews editorially, verifies links, and publishes to GitHub Pages.
+Daily automated news digest pipeline covering the US-Israel war on Iran. Fetches from 5 sources (Al Jazeera, Iran International, Reuters, France 24, Euronews), translates Farsi, deduplicates, filters by importance, categorizes into topic buckets, produces an expandable-format blog post, reviews editorially, detects source biases, verifies links, and publishes to GitHub Pages.
 
 ## Project Stage Definitions
 
@@ -91,6 +91,31 @@ All project commands are defined in `.claude/commands.env`
 - Audit trail: `audit/llm_calls.jsonl`, `audit/llm_inputs/`, `audit/llm_outputs/`, `audit/api_calls.jsonl`
 - Prompt templates in `prompts/*.yaml` with version tracking
 - Source fetchers in `stages/fetchers/` behind `BaseFetcher` interface
+- Bias tracking: `site/_data/source_biases.yaml` (detected in editorial stage, displayed on About page)
+
+## Naming Convention
+- The conflict is called "US-Israel war on Iran", not "Iran conflict"
+- Site title: "War on Iran: Daily Brief"
+- Post titles: "Daily Brief: {Month Day, Year}" (no redundant conflict name)
+
+## Deploying Site Changes to GitHub Pages
+The live site is built from the `gh-pages` branch. The `site/` directory on master is the source of truth. A persistent worktree at `.gh-pages/` stays checked out on gh-pages.
+
+```bash
+# Sync site contents to the worktree
+rsync -av --delete site/ .gh-pages/ --exclude='.git'
+
+# Commit and push
+cd .gh-pages
+git add -A
+git commit -m "Deploy site changes"
+git push origin gh-pages
+cd ..
+```
+
+If the worktree is missing, recreate it: `git worktree add .gh-pages gh-pages`
+
+The pipeline's publish stage (`stages/publish.py`) only pushes new post files to gh-pages automatically. Layout, CSS, JS, data, and page changes require manual deployment using the steps above.
 
 ## Environment Setup
 - Install deps: `pip install -r requirements.txt`

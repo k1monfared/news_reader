@@ -8,17 +8,19 @@ permalink: /about/
 
 # About
 
-This is an automated daily intelligence digest covering the Iran conflict. The pipeline fetches news from multiple sources with different perspectives, deduplicates events, filters for importance, categorizes by topic, and produces a concise brief.
+This is an automated daily intelligence digest covering the US-Israel war on Iran. The pipeline fetches news from multiple sources with different perspectives, deduplicates events, filters for importance, categorizes by topic, and produces a concise brief.
 
 **Sources:**
-- **Al Jazeera** (English, RSS): Pro-Arab perspective, critical of Israel
-- **Iran International** (Farsi, web scrape): Anti-regime, pro-opposition
-- **Reuters** (English, RSS): Neutral wire service, fact-checked
+- **Al Jazeera** (English, RSS)
+- **Iran International** (Farsi, web scrape)
+- **Reuters** (English, RSS)
+- **France 24** (English, RSS)
+- **Euronews** (English, RSS)
 
-**Methodology:**
+**How it works:**
 - Items are deduplicated across sources using text similarity
 - Each item is evaluated for importance by an AI editor
-- Single-source claims are flagged
+- Single-source claims are flagged as unconfirmed
 - Contradictory claims across sources are merged with caveats
 - All source URLs are verified before publication
 
@@ -26,5 +28,49 @@ This is an automated daily intelligence digest covering the Iran conflict. The p
 - This is an automated system. AI can misclassify or miss nuance.
 - Farsi content is machine-translated.
 - Source availability varies. Check the header of each report for any sources that were unreachable.
+
+---
+
+# Bias Handling
+
+Every news source carries biases in how it frames, emphasizes, and omits information. This pipeline tracks those biases and uses them to produce more balanced reporting.
+
+**How bias handling works:**
+- Debias notes for each source are fed to the summarizer, prompting it to add caveats and flag editorial framing.
+- During the editorial stage, automated detection compares how different sources covered the same events, flagging new framing patterns.
+- Suggested biases are logged for review before being confirmed. Only confirmed patterns inform the pipeline's output.
+
+{% for source in site.data.source_biases %}
+{% assign key = source[0] %}
+{% assign info = source[1] %}
+
+### {{ info.display_name }}
+
+{% if info.notes %}_{{ info.notes }}_{% endif %}
+
+<table class="bias-table">
+  <thead>
+    <tr>
+      <th>Observation</th>
+      <th>Added</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for bias in info.biases %}
+    <tr>
+      <td>{{ bias.observation }}</td>
+      <td>{{ bias.date_added }}</td>
+      <td><span class="bias-status bias-status--{{ bias.status }}">{{ bias.status }}</span></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endfor %}
+
+---
+
+**Source code:** [github.com/k1monfared/news_reader](https://github.com/k1monfared/news_reader)
 
 </div>

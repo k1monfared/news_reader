@@ -74,7 +74,7 @@ class TestTranslatedItem:
 class TestConfig:
     def test_config_loads(self, sample_config: PipelineConfig):
         assert isinstance(sample_config, PipelineConfig)
-        assert len(sample_config.sources) == 3
+        assert len(sample_config.sources) == 5
         assert len(sample_config.buckets) == 9
 
     def test_config_source_fields(self, sample_config: PipelineConfig):

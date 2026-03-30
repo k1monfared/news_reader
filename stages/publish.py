@@ -35,13 +35,16 @@ def _build_frontmatter(config: PipelineConfig, run_dir: str) -> str:
         except (json.JSONDecodeError, KeyError):
             pass
 
+    generated_at = datetime.now(timezone(timedelta(hours=-7))).strftime("%Y-%m-%d %H:%M %Z")
+
     return (
         "---\n"
         "layout: post\n"
-        f'title: "Iran Conflict Brief -- {date_obj.strftime("%B %d, %Y")}"\n'
+        f'title: "Daily Brief: {date_obj.strftime("%B %d, %Y")}"\n'
         f"date: {date_str}\n"
         "categories: [daily-brief]\n"
         f"sources_down: {json.dumps(sources_down)}\n"
+        f'generated_at: "{generated_at}"\n'
         "---\n\n"
     )
 

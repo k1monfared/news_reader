@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Iran Conflict Brief -- March 29, 2026"
+title: "Daily Brief: March 29, 2026"
 date: 2026-03-29
 categories: [daily-brief]
 sources_down: []
 ---
-
-# Iran Conflict Daily Brief
 
 **Key development:** Pakistan hosts four-nation diplomatic summit on day 30 of conflict as foreign ministers from Turkiye, Egypt, and Saudi Arabia convene in Islamabad to prepare ground for de-escalation between the US and Iran.
 

@@ -4,7 +4,10 @@ from __future__ import annotations
 
 import json
 import logging
+from datetime import date
 from pathlib import Path
+
+import yaml
 
 from models import PipelineConfig
 from llm_client import AuditedLLMClient
@@ -12,6 +15,109 @@ from audit_logger import AuditedHTTPClient
 from prompt_loader import load_prompt
 
 logger = logging.getLogger(__name__)
+
+BIASES_PATH = Path("site/_data/source_biases.yaml")
+
+
+def _run_bias_detection(
+    run_path: Path,
+    config: PipelineConfig,
+    llm_client: AuditedLLMClient,
+) -> None:
+    """Detect new source biases by comparing how sources framed today's items.
+
+    Appends any new observations as status: suggested to the biases YAML.
+    This is non-fatal: any error is logged and silently skipped.
+    """
+    # Load existing biases
+    if not BIASES_PATH.exists():
+        logger.info("No source_biases.yaml found, skipping bias detection")
+        return
+
+    biases_data = yaml.safe_load(BIASES_PATH.read_text()) or {}
+
+    # Load today's items (prefer tracked, fall back to categorized)
+    tracked_path = run_path / "tracked_items.json"
+    cat_path = run_path / "categorized_items.json"
+    if tracked_path.exists():
+        items = json.loads(tracked_path.read_text())
+    elif cat_path.exists():
+        items = json.loads(cat_path.read_text())
+    else:
+        logger.info("No items found for bias detection")
+        return
+
+    if not items:
+        return
+
+    # Group items by source
+    by_source: dict[str, list[dict]] = {}
+    for item in items:
+        src = item.get("source", "unknown")
+        by_source.setdefault(src, []).append({
+            "title": item.get("title_en") or item.get("title", ""),
+            "text": item.get("text_en") or item.get("text", ""),
+        })
+
+    # Format existing biases for the prompt
+    existing_summary = []
+    for src_key, src_data in biases_data.items():
+        obs_list = [b["observation"] for b in src_data.get("biases", [])]
+        if obs_list:
+            existing_summary.append(f"{src_key}: {'; '.join(obs_list)}")
+    existing_biases_text = "\n".join(existing_summary) if existing_summary else "None yet."
+
+    items_by_source_text = json.dumps(by_source, indent=2, ensure_ascii=False)
+
+    # Load and render prompt
+    prompts_dir = config.paths.get("prompts_dir", "prompts")
+    template = load_prompt("detect_biases", prompts_dir)
+    system, user_msg, version = template.render(
+        existing_biases=existing_biases_text,
+        items_by_source=items_by_source_text,
+    )
+
+    model = config.models.get("default", "claude-sonnet-4-5")
+
+    response = llm_client.call(
+        stage="editorial",
+        prompt_name="detect_biases",
+        prompt_version=version,
+        system=system,
+        user_message=user_msg,
+        model=model,
+        max_tokens=2048,
+    )
+
+    # Strip markdown fences if present
+    text = response.strip()
+    if text.startswith("```"):
+        text = text.split("\n", 1)[1] if "\n" in text else text[3:]
+        if text.endswith("```"):
+            text = text[:-3]
+        text = text.strip()
+
+    result = json.loads(text)
+    new_biases = result.get("new_biases", [])
+
+    if not new_biases:
+        logger.info("Bias detection found no new observations")
+        return
+
+    today = date.today().isoformat()
+    for entry in new_biases:
+        src = entry.get("source", "")
+        obs = entry.get("observation", "")
+        if not src or not obs or src not in biases_data:
+            continue
+        biases_data[src]["biases"].append({
+            "observation": obs,
+            "date_added": today,
+            "status": "suggested",
+        })
+
+    BIASES_PATH.write_text(yaml.dump(biases_data, default_flow_style=False, allow_unicode=True))
+    logger.info(f"Bias detection added {len(new_biases)} suggested observation(s)")
 
 
 def run_editorial(
@@ -62,4 +168,11 @@ def run_editorial(
 
     (run_path / "report_edited.md").write_text(edited)
     logger.info("Editorial review complete")
+
+    # Bias detection (non-fatal)
+    try:
+        _run_bias_detection(run_path, config, llm_client)
+    except Exception as e:
+        logger.warning(f"Bias detection failed (non-fatal): {e}")
+
     return {"status": "completed"}

@@ -1,0 +1,26 @@
+version: 1
+system: |
+  You are a media bias analyst. You compare how different news sources frame
+  the same events to detect systematic patterns in coverage. You are precise,
+  evidence-based, and avoid speculation. Only flag biases you can support with
+  concrete framing differences in the provided items.
+
+user_template: |
+  Compare how these sources covered today's events. Look for systematic
+  framing differences: word choice, emphasis, omissions, or editorial tone
+  that reveal a pattern beyond what is already known.
+
+  Existing known biases:
+  {existing_biases}
+
+  Today's items grouped by source:
+  {items_by_source}
+
+  Return a JSON object with new bias observations not already captured above.
+  Only include observations supported by concrete evidence in today's items.
+  If nothing new is detected, return an empty list.
+
+  Format:
+  {{"new_biases": [{{"source": "source_name", "observation": "specific pattern observed"}}]}}
+
+  Return ONLY the JSON object, no other text.

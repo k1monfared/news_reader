@@ -22,7 +22,7 @@ def _build_frontmatter(config: PipelineConfig, sources_down: list[str]) -> str:
     return (
         "---\n"
         "layout: post\n"
-        f'title: "Iran Conflict Brief -- {now.strftime("%B %d, %Y")}"\n'
+        f'title: "Daily Brief: {now.strftime("%B %d, %Y")}"\n'
         f"date: {now.strftime('%Y-%m-%d')}\n"
         "categories: [daily-brief]\n"
         f"sources_down: {json.dumps(sources_down)}\n"
