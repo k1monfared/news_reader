@@ -36,6 +36,13 @@
         "debias": "Verify claims of regime change against observable changes in governance structures before presenting them as accomplished facts.",
         "date_added": "2026-03-29",
         "status": "suggested"
+      },
+      {
+        "pattern": "Conflict expansion threading",
+        "detail": "Systematically frames Iran conflict as a domino to other regime change targets (Cuba, Venezuela) and regional actors (Houthis, Kurds), creating a narrative of U.S. imperial expansion.",
+        "debias": "Report each conflict development separately without speculative linking to unrelated countries unless direct operational connections are confirmed.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -136,6 +143,34 @@
         "detail": "Frames ongoing military actions through bureaucratic time markers ('fifth week', 'one month mark') that normalize extended warfare as measured progression.",
         "debias": "Balance temporal framing with impact metrics rather than treating war duration as neutral chronological milestones.",
         "date_added": "2026-03-29",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Iranian disinformation meta-framing",
+        "detail": "Reports on Iranian state media disinformation as a distinct story category, positioning Iran's information warfare as newsworthy while not applying same scrutiny to other parties' information operations.",
+        "debias": "Apply consistent meta-coverage standards to all parties' information operations or avoid singling out one side's propaganda efforts.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Terrorism threat EU securitization",
+        "detail": "Frames Iran conflict primarily through lens of elevated terrorism risk to EU territory (Europol warnings), prioritizing European security concerns over conflict itself.",
+        "debias": "Balance EU security implications with on-ground conflict realities and impacts on populations directly affected by hostilities.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Military metrics quantification emphasis",
+        "detail": "Prominently features specific quantitative claims (30+ ships sunk, 1,000+ drones intercepted) in headlines without verification context, amplifying military success narratives.",
+        "debias": "Include verification status and independent confirmation for quantitative military claims, especially when sourced from conflict parties.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Cultural controversy amplification",
+        "detail": "Elevates peripheral cultural outrage stories (La Macarena video controversy, TIME magazine cover reactions) to equivalent news status as conflict developments.",
+        "debias": "Maintain proportionality between substantive conflict coverage and cultural/social media reaction stories.",
+        "date_added": "2026-03-30",
         "status": "suggested"
       }
     ],
