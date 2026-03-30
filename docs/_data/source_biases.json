@@ -162,6 +162,34 @@
         "debias": "Balance anti-war voices with diverse American public opinion including those supporting military action or conflicted views.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Democratic war clarity criticism",
+        "detail": "Platforms Democratic party complaints about lack of administration transparency on war objectives after specific day count.",
+        "debias": "Present congressional oversight concerns alongside administration statements without partisan framing.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Gulf civilian casualty specification",
+        "detail": "Emphasizes individual Gulf state casualties (woman in Bahrain) from Iranian missiles while minimizing Israeli context.",
+        "debias": "Report all civilian casualties with equivalent detail regardless of location.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Israeli public unity assumption",
+        "detail": "Frames Israeli domestic opinion as monolithically supportive of Iran war despite taking hits.",
+        "debias": "Present polling data on Israeli public opinion with methodology and dissenting voices included.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "White House contradiction highlighting",
+        "detail": "Emphasizes deleted social media posts and subsequent denials to suggest administration messaging confusion.",
+        "debias": "Report communication corrections without dramatizing as systematic inconsistency.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -270,6 +298,27 @@
         "pattern": "Commodity rerouting technical detailing",
         "detail": "Stories provide specific logistical details on Saudi oil export route changes from Hormuz to Red Sea, emphasizing supply chain adaptation over disruption.",
         "debias": "Report supply chain adjustments alongside their limitations and risks rather than framing them as complete solutions to conflict disruptions.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Iranian attrition strategy interpretation",
+        "detail": "Frames Iranian actions through specific military strategy lens of economic exhaustion via oil infrastructure attacks.",
+        "debias": "Present Iranian military actions without attributing unified strategic doctrine.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Israeli central bank decision meta-framing",
+        "detail": "Uses monetary policy meeting minutes to frame Iran attack concerns as influencing technical rate decisions.",
+        "debias": "Report central bank decisions with all stated factors without elevating geopolitical concerns.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Aramco catastrophization quotation",
+        "detail": "Elevates Saudi state oil company's specific warning about Hormuz closure being 'catastrophic' for world markets.",
+        "debias": "Include Saudi energy assessments alongside other technical market analyses without special prominence.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -541,6 +590,34 @@
         "pattern": "Spanish-Iran commerce hypocrisy framing",
         "detail": "Highlights perceived contradiction between Spain's public stance and trade relationships with Iran as 'double game' or duplicity.",
         "debias": "Report trade-diplomacy tensions neutrally, noting distinctions between official policy positions and commercial relationships without accusatory framing.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Trump contradiction meta-framing",
+        "detail": "Explicitly frames Trump's statements as contradictory or inconsistent across multiple language versions, emphasizing confusion over content.",
+        "debias": "Present Trump statements with their context and timing without editorializing about consistency.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Von der Leyen competence questioning",
+        "detail": "Amplifies former diplomat Araud's critique that EU Commission President is acting beyond her authority on Iran war positioning.",
+        "debias": "Report institutional debates about EU authority without elevating individual critiques to structural conclusions.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Russian energy company beneficiary highlighting",
+        "detail": "Emphasizes specific valuation gains for Russian oil companies from Iran conflict with precise euro figures.",
+        "debias": "Include Russian market effects alongside other regional economic impacts without isolated emphasis.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Ramstein base complicity questioning",
+        "detail": "Frames German-based US military facility's role in Iran operations as requiring explanation or justification.",
+        "debias": "Report military logistics infrastructure roles factually without implying controversy.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
