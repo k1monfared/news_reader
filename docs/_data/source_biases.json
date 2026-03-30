@@ -190,6 +190,27 @@
         "debias": "Report communication corrections without dramatizing as systematic inconsistency.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "BeiDou navigation system speculation",
+        "detail": "Al Jazeera frames China's BeiDou satellite system as potentially enabling Iranian precision, introducing technology-transfer speculation without attribution.",
+        "debias": "Report military capability speculation only when sourced to defense analysts, avoiding unattributed technology-conspiracy threading.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Strategic patience obituary framing",
+        "detail": "Al Jazeera declares Iran's 'strategic patience tactic failed' as established fact, forecasting 'far worse' consequences while treating policy shift as inevitable.",
+        "debias": "Present policy assessments as contested interpretations rather than obituaries of failed strategies.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Orphan pearl cultural mythology",
+        "detail": "Al Jazeera uses poetic descriptor 'orphan pearl' for Kharg Island oil facilities, culturally mythologizing infrastructure targets through literary framing.",
+        "debias": "Describe infrastructure with technical rather than literary language to avoid romanticizing potential targets.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -319,6 +340,20 @@
         "pattern": "Aramco catastrophization quotation",
         "detail": "Elevates Saudi state oil company's specific warning about Hormuz closure being 'catastrophic' for world markets.",
         "debias": "Include Saudi energy assessments alongside other technical market analyses without special prominence.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Results-over-deadlines diplomatic framing",
+        "detail": "Reuters highlights Israeli president's 'results over deadlines' statement as philosophical framing rather than noting it deflects timeline accountability.",
+        "debias": "Frame open-ended military commitments as accountability avoidance rather than strategic wisdom.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Red Sea alternative route inadequacy",
+        "detail": "Reuters notes Saudi Red Sea exports reached 'record highs' but immediately qualifies as 'insufficient to replace Hormuz,' framing alternatives as inherently inadequate.",
+        "debias": "Report alternative route capacity data without preemptive inadequacy framing, allowing readers to assess sufficiency.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -618,6 +653,41 @@
         "pattern": "Ramstein base complicity questioning",
         "detail": "Frames German-based US military facility's role in Iran operations as requiring explanation or justification.",
         "debias": "Report military logistics infrastructure roles factually without implying controversy.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Trump numerical precision amplification",
+        "detail": "Euronews prominently headlines Trump's specific claim of '28 mine-laying vessels destroyed' in Greek, while other language versions cite '16 vessels,' highlighting inconsistent US official statements through multilingual juxtaposition.",
+        "debias": "Note numerical discrepancies in official claims across time and sources, presenting ranges rather than single authoritative figures.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Pahlavi final-call dramatization",
+        "detail": "Euronews frames Pahlavi's statements with urgency language like 'wait for my final call' in Arabic coverage, amplifying succession drama timing rather than substantive political strategy.",
+        "debias": "Report opposition statements without theatrical framing, focusing on concrete actions rather than timing rhetoric.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Spanish energy exceptionalism highlighting",
+        "detail": "Euronews emphasizes Spain as the 'only EU country' managing energy price rises through renewable infrastructure, contrasting domestic policy success against regional crisis.",
+        "debias": "Contextualize national energy policy differences without exceptionalist framing, noting structural factors beyond policy choice.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Tourism daily-cost quantification",
+        "detail": "Euronews specifies precise daily tourism losses ('515 million euros per day') for Middle East travel industry, creating concrete economic impact framing through numerical precision.",
+        "debias": "Present economic impact estimates with uncertainty ranges and methodology transparency rather than false precision.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Lebanon displacement milestone tracking",
+        "detail": "Euronews highlights approaching displacement thresholds ('nearly 700,000 people') in Lebanon, creating crisis escalation narrative through numerical proximity to round figures.",
+        "debias": "Report displacement figures without milestone-proximity framing that suggests arbitrary thresholds of significance.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
