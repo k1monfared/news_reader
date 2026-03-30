@@ -53,6 +53,7 @@ Every news source carries biases in how it frames, emphasizes, and omits informa
     <tr>
       <th>Pattern</th>
       <th>How we counteract it</th>
+      <th>Added</th>
       <th>Status</th>
     </tr>
   </thead>
@@ -61,6 +62,7 @@ Every news source carries biases in how it frames, emphasizes, and omits informa
     <tr>
       <td><strong>{{ bias.pattern }}</strong><br><span class="bias-detail">{{ bias.detail }}</span></td>
       <td>{{ bias.debias }}</td>
+      <td class="bias-date">{{ bias.date_added }}</td>
       <td><span class="bias-status bias-status--{{ bias.status }}">{{ bias.status }}</span></td>
     </tr>
     {% endfor %}

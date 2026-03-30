@@ -558,6 +558,12 @@ main {
   font-weight: 600;
 }
 
+.bias-date {
+  white-space: nowrap;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
 .bias-detail {
   color: var(--text-secondary);
   font-size: 0.8rem;
