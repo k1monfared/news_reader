@@ -99,6 +99,27 @@
         "debias": "Present insurance market adjustments with historical precedents and alternative coverage mechanisms that typically emerge.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Conspiracy distraction meta-narrative",
+        "detail": "Story suggests Epstein files interest 'plummeted after war on Iran launched', implying conflict serves as deliberate distraction from scandals.",
+        "debias": "Avoid suggesting conflicts are deliberately timed to distract from unrelated domestic scandals without substantial evidence of coordination.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "CIA covert operation speculation threading",
+        "detail": "Headlines frame potential Kurdish arming as CIA planning to 'spark an uprising', emphasizing regime change conspiracy over defensive military support.",
+        "debias": "Present intelligence about potential military support programs as contingency planning rather than confirmed covert regime change operations.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Student evacuation humanization asymmetry",
+        "detail": "Pakistani students' escape from Iran receives detailed first-person 'praying' narrative treatment not typically extended to other nationals' evacuations.",
+        "debias": "Apply consistent humanization through personal narratives across all nationalities affected by conflict evacuations.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -186,6 +207,27 @@
         "pattern": "Central bank uncertainty quotation",
         "detail": "Systematically quotes central bank officials stating judgments are 'premature' or situations require 'monitoring' rather than providing economic analysis or forecasts.",
         "debias": "Supplement official caution statements with independent economic analysis and historical parallels to similar disruptions.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Japanese market-specific risk anchoring",
+        "detail": "Multiple stories frame events through impact on Japanese financial institutions, dollar-yen rates, and domestic economic indicators despite limited direct involvement.",
+        "debias": "When covering regional conflicts for specific markets, balance local economic impact framing with proportional attention to primary conflict dynamics.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Central bank official quotation prioritization",
+        "detail": "Fed officials' statements on Iran conflict's limited economic impact receive prominent coverage, normalizing financial market continuity despite war.",
+        "debias": "Present central bank assessments as one perspective on conflict impact rather than authoritative verdicts on the situation's severity.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Commodity rerouting technical detailing",
+        "detail": "Stories provide specific logistical details on Saudi oil export route changes from Hormuz to Red Sea, emphasizing supply chain adaptation over disruption.",
+        "debias": "Report supply chain adjustments alongside their limitations and risks rather than framing them as complete solutions to conflict disruptions.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -359,6 +401,41 @@
         "pattern": "Evacuation universalization framing",
         "detail": "Emphasizes mass evacuations and panic at borders across multiple countries (France, Greece, Azerbaijan border) suggesting region-wide exodus rather than targeted precautionary measures.",
         "debias": "Distinguish between emergency evacuations and routine precautionary travel advisories with specific numbers and contexts.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "War-naming linguistic variation",
+        "detail": "Headlines frame the conflict differently across languages: Russian uses 'War of Israel and USA against Iran' while English uses 'US-Israeli strikes', revealing linguistic audience targeting.",
+        "debias": "Use neutral conflict descriptors consistent across all language versions, avoiding unilateral war declarations in headline framing.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Athlete protest solidarity amplification",
+        "detail": "Iranian women footballers' anthem refusal is highlighted across multiple language editions as regime resistance symbolism during wartime.",
+        "debias": "Present athlete political actions as newsworthy events without amplifying them as proxy symbols for broader regime opposition narratives.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Exile figure democratic legitimacy questioning",
+        "detail": "Multiple stories quote Polish ex-minister and EU officials expressing skepticism about Iranian opposition's democratic credentials and legitimacy.",
+        "debias": "When covering exile opposition figures, present their claims alongside skeptical assessments without privileging either perspective as authoritative.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Religious warfare framing amplification",
+        "detail": "Stories highlight 'divine plan' military rhetoric and Netanyahu's biblical references to Amalek, emphasizing religious motivations for conflict.",
+        "debias": "Report religious rhetoric as one of multiple framings used by leaders without amplifying it as the primary driver of military action.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Tourism economic catastrophization",
+        "detail": "Multiple stories across languages emphasize €40 billion tourism losses and 'trips on hold' framing to quantify regional economic collapse.",
+        "debias": "Report tourism industry impacts with specific data while noting uncertainty in projections and distinguishing actual from potential losses.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
