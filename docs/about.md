@@ -18,11 +18,26 @@ This is an automated daily intelligence digest covering the US-Israel war on Ira
 - **Euronews** (English, RSS)
 
 **How it works:**
-- Items are deduplicated across sources using text similarity
-- Each item is evaluated for importance by an AI editor
-- Single-source claims are flagged as unconfirmed
-- Contradictory claims across sources are merged with caveats
-- All source URLs are verified before publication
+
+The pipeline runs daily, triggered by a cron job at 8 AM Vancouver time. It first checks for any missed dates since the last successful run and backfills those before running today's digest.
+
+Each run gets its own isolated directory. The pipeline flows through ten stages, each reading the previous stage's output and writing its own.
+
+The fetch stage pulls raw content from the five sources listed above. Al Jazeera, Reuters, France 24, and Euronews come through RSS feeds. Iran International gets scraped directly from its Farsi website, since it has no usable RSS feed. If a source is down, the pipeline logs it and continues with the others. It only aborts if every source fails.
+
+English items pass through untouched. Farsi items from Iran International get batched and sent to an LLM for translation. Both the title and body text are translated to English. If translation fails for a batch, the original text is kept as a fallback.
+
+The same event often appears across multiple sources. The dedup stage builds TF-IDF vectors from each item's English title and text, then computes pairwise cosine similarity. Items above a similarity threshold get clustered together. The longest item in each cluster becomes the "primary," and the others are marked as related sources. This preserves multi-source corroboration while avoiding repetition.
+
+Primary items go through an LLM call that judges relevance to the conflict. Each item gets an included/excluded decision, a confidence score, and a reason. Non-primary items inherit their cluster's decision. The filter also flags sole-source items with low confidence. Results are cached so re-runs don't waste LLM calls on already-seen articles.
+
+All included items get categorized into topic buckets: Military Operations, Inside Iran, US Policy, Israel Policy, Diplomacy, Regional Actors, International, Economy, or Other. If the LLM suggests a category not in the list, it gets logged for future consideration.
+
+Development tracking loads items from the past seven days and computes similarity against today's items. When a match is found, the LLM classifies the relationship: "new" (no prior coverage), "continuation" (same story, no new info), or "development" (same story with new information). Continuations get excluded from the report to avoid repetition. Developments get a timeline showing how the story evolved over previous days.
+
+The included, tracked items get organized by bucket and formatted into the daily brief. Buckets with more or higher-confidence items appear first. Empty buckets are omitted. An LLM pass reviews the draft for editorial quality, runs bias detection comparing how different sources framed the same events, and flags any remaining sole-source claims that need caveats. The verify stage checks that all article URLs in the report are still live. Dead links get flagged. The final stage generates a blog post and publishes it to this site.
+
+Every LLM call and HTTP request is logged to an audit trail with full input/output, token counts, and cost tracking. Each run stays within a configurable budget cap.
 
 **Limitations:**
 - This is an automated system. AI can misclassify or miss nuance.

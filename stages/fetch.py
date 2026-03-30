@@ -11,12 +11,16 @@ from llm_client import AuditedLLMClient
 from audit_logger import AuditedHTTPClient
 from stages.fetchers.rss import RSSFetcher
 from stages.fetchers.scrape_iranintl import IranIntlScraper
+from stages.fetchers.gdelt import GDELTFetcher
+from stages.fetchers.archive_france24 import France24ArchiveFetcher
 
 logger = logging.getLogger(__name__)
 
 FETCHER_MAP = {
     ("rss", None): RSSFetcher,
     ("scrape", "iranintl"): IranIntlScraper,
+    ("gdelt", None): GDELTFetcher,
+    ("archive", "france24"): France24ArchiveFetcher,
 }
 
 
