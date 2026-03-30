@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
-<article>
-  <header>
-    <h1>{{ page.title }}</h1>
-    <time datetime="{{ page.date | date_to_xmlschema }}">
+<article class="post">
+  <header class="post-header">
+    <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">
       {{ page.date | date: "%B %d, %Y" }}
     </time>
+    {% if page.generated_at %}
+    <span class="post-generated">Generated {{ page.generated_at }}</span>
+    {% endif %}
     {% if page.sources_down.size > 0 %}
     <p class="sources-down">
       <strong>Note:</strong> The following sources were unreachable for this report:
@@ -18,4 +20,19 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+
+  <nav class="post-nav">
+    {% if page.previous.url %}
+    <a href="{{ page.previous.url | relative_url }}" class="post-nav-prev">
+      <span class="post-nav-label">Previous</span>
+      <span class="post-nav-title">{{ page.previous.date | date: "%B %d, %Y" }}</span>
+    </a>
+    {% endif %}
+    {% if page.next.url %}
+    <a href="{{ page.next.url | relative_url }}" class="post-nav-next">
+      <span class="post-nav-label">Next</span>
+      <span class="post-nav-title">{{ page.next.date | date: "%B %d, %Y" }}</span>
+    </a>
+    {% endif %}
+  </nav>
 </article>

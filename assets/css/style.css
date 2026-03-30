@@ -1,0 +1,649 @@
+/* ===================================
+   CSS Custom Properties (Dark Default)
+   =================================== */
+
+:root {
+  --bg-primary: #1a1f2e;
+  --bg-secondary: #232839;
+  --bg-tertiary: #2a3045;
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0a8b8;
+  --text-muted: #6b7280;
+  --accent: #4ecdc4;
+  --accent-hover: #3dbdb5;
+  --border: #2e3548;
+  --border-light: #3a4058;
+  --code-bg: #1e2333;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --sources-down-bg: #3a2828;
+  --sources-down-border: #6b3a3a;
+  --category-accent: #4ecdc4;
+}
+
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f6f8;
+  --bg-tertiary: #ebedf0;
+  --text-primary: #1a1f2e;
+  --text-secondary: #4a5060;
+  --text-muted: #8890a0;
+  --accent: #0a9e94;
+  --accent-hover: #088880;
+  --border: #d8dce5;
+  --border-light: #e5e8ef;
+  --code-bg: #f0f2f5;
+  --shadow: rgba(0, 0, 0, 0.08);
+  --sources-down-bg: #fef2f2;
+  --sources-down-border: #e8aaaa;
+  --category-accent: #0a9e94;
+}
+
+/* ===================================
+   Reset and Base
+   =================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial,
+    sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* ===================================
+   Container
+   =================================== */
+
+.container {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+/* ===================================
+   Header
+   =================================== */
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  padding: 1.25rem 0;
+  background-color: var(--bg-secondary);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.site-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+
+.site-title:hover {
+  color: var(--accent);
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.site-nav a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+
+.site-nav a:hover {
+  color: var(--accent);
+}
+
+/* ===================================
+   Theme Toggle
+   =================================== */
+
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--border-light);
+  border-radius: 6px;
+  padding: 0.35rem 0.55rem;
+  cursor: pointer;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1;
+  transition: border-color 0.15s ease, color 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ===================================
+   Main Content
+   =================================== */
+
+main {
+  flex: 1;
+  padding: 2.5rem 1.5rem;
+}
+
+/* ===================================
+   Index / Post List
+   =================================== */
+
+.index-description {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  border-bottom: 1px solid var(--border);
+}
+
+.post-list li:last-child {
+  border-bottom: none;
+}
+
+.post-list-link {
+  display: block;
+  padding: 0.75rem 0;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.post-list-link:hover .post-list-date {
+  color: var(--accent);
+}
+
+.post-list-date {
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ===================================
+   Post
+   =================================== */
+
+.post-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-date {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  display: block;
+}
+
+.post-generated {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  display: block;
+  margin-top: 0.15rem;
+}
+
+.sources-down {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--sources-down-bg);
+  border: 1px solid var(--sources-down-border);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+}
+
+/* ===================================
+   Post Content Typography
+   =================================== */
+
+.post-content h2 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--category-accent);
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-content h2:first-child,
+.post-content p + h2 {
+  margin-top: 1.5rem;
+}
+
+.post-content h1,
+.post-content h3,
+.post-content h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.post-content h1 { font-size: 1.3rem; }
+.post-content h3 { font-size: 1.05rem; }
+.post-content h4 { font-size: 0.95rem; }
+
+.post-content p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.post-content a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s ease;
+}
+
+.post-content a:hover {
+  color: var(--accent-hover);
+}
+
+.post-content ul,
+.post-content ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.post-content li {
+  margin-bottom: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.post-content strong {
+  font-weight: 600;
+}
+
+/* ===================================
+   Details / Summary (Expandable Items)
+   =================================== */
+
+.post-content details {
+  margin-bottom: 0.5rem;
+  border-left: 2px solid var(--border-light);
+  background: transparent;
+  transition: border-color 0.15s ease;
+}
+
+.post-content details:hover {
+  border-left-color: var(--accent);
+}
+
+.post-content details[open] {
+  border-left-color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+
+.post-content details summary {
+  padding: 0.6rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--text-primary);
+  list-style: none;
+  display: block;
+  transition: background-color 0.1s ease;
+}
+
+.post-content details summary:hover {
+  background: var(--bg-secondary);
+}
+
+.post-content details summary::-webkit-details-marker {
+  display: none;
+}
+
+.post-content details[open] > summary {
+  background: var(--bg-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.post-content details > *:not(summary) {
+  padding: 0 0.75rem;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+}
+
+.post-content details > p:last-child {
+  padding-bottom: 0.75rem;
+}
+
+/* ===================================
+   Code Blocks
+   =================================== */
+
+.post-content code {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Consolas",
+    monospace;
+  font-size: 0.875em;
+  background: var(--code-bg);
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+  color: var(--accent);
+}
+
+.post-content pre {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+  margin-bottom: 1.25rem;
+}
+
+.post-content pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+}
+
+/* ===================================
+   Blockquotes
+   =================================== */
+
+.post-content blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 0.5rem 1rem;
+  margin: 0 0 1.25rem 0;
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  border-radius: 0 6px 6px 0;
+}
+
+.post-content blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ===================================
+   Tables
+   =================================== */
+
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.25rem;
+}
+
+.post-content th,
+.post-content td {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.post-content th {
+  background: var(--bg-secondary);
+  font-weight: 600;
+}
+
+/* ===================================
+   Horizontal Rule
+   =================================== */
+
+.post-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1.5rem 0;
+}
+
+/* ===================================
+   Post Navigation (Prev/Next)
+   =================================== */
+
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2.5rem 0 0;
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.post-nav a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  max-width: 45%;
+  transition: color 0.15s ease;
+}
+
+.post-nav a:hover .post-nav-title {
+  color: var(--accent);
+}
+
+.post-nav-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.post-nav-title {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  margin-top: 0.15rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.post-nav-prev {
+  align-items: flex-start;
+}
+
+.post-nav-next {
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+/* ===================================
+   About / Page Content
+   =================================== */
+
+.page-content h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  letter-spacing: -0.02em;
+}
+
+.page-content h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.page-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.page-content ul {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.page-content li {
+  margin-bottom: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.page-content a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.page-content strong {
+  font-weight: 600;
+}
+
+.page-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+/* ===================================
+   Bias Tables (About Page)
+   =================================== */
+
+.bias-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  font-size: 0.85rem;
+}
+
+.bias-table th,
+.bias-table td {
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.bias-table th {
+  background: var(--bg-secondary);
+  font-weight: 600;
+}
+
+.bias-status {
+  display: inline-block;
+  padding: 0.1em 0.45em;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.bias-status--confirmed {
+  background: rgba(78, 205, 196, 0.15);
+  color: var(--accent);
+}
+
+.bias-status--suggested {
+  background: rgba(234, 179, 8, 0.15);
+  color: #eab308;
+}
+
+[data-theme="light"] .bias-status--confirmed {
+  background: rgba(10, 158, 148, 0.12);
+  color: #0a9e94;
+}
+
+[data-theme="light"] .bias-status--suggested {
+  background: rgba(202, 138, 4, 0.12);
+  color: #ca8a04;
+}
+
+/* ===================================
+   Footer
+   =================================== */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0;
+  margin-top: auto;
+}
+
+.site-footer p {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* ===================================
+   Responsive
+   =================================== */
+
+@media (max-width: 600px) {
+  html {
+    font-size: 15px;
+  }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-nav {
+    gap: 1rem;
+  }
+
+  main {
+    padding: 1.5rem 1rem;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .post-content details summary {
+    padding: 0.5rem 0.6rem;
+  }
+
+  .post-content details > *:not(summary) {
+    padding: 0 0.6rem;
+  }
+
+  .post-nav {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .post-nav a {
+    max-width: 100%;
+  }
+
+  .post-nav-next {
+    align-items: flex-start;
+    margin-left: 0;
+  }
+}

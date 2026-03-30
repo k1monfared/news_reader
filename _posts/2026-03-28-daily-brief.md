@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Iran Conflict Brief -- March 28, 2026"
+title: "Daily Brief: March 28, 2026"
 date: 2026-03-28
 categories: [daily-brief]
 sources_down: []
