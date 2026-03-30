@@ -1,234 +1,74 @@
 aljazeera:
+  display_name: "Al Jazeera"
   biases:
-  - date_added: '2026-03-29'
-    observation: Pro-Arab, critical of Israel, editorializes framing
-    status: confirmed
-  - date_added: '2026-03-29'
-    observation: Systematically frames conflict as 'US-Israeli war on Iran' rather
-      than using neutral descriptors like 'conflict' or 'strikes.' This appears in
-      multiple headlines and characterizes the conflict as a coordinated campaign
-      rather than isolated actions.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Emphasizes civilian casualties and infrastructure damage in Iran/allied
-      states (universities, power plants, residential areas, children killed) while
-      minimal coverage of Iranian attacks' impacts. Creates asymmetric victim framing.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Consistently uses attribution ('Iran accuses,' 'IRGC spokesperson
-      says') when reporting Iranian claims but presents Israeli/US military actions
-      as factual statements without similar hedging language.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Frames Trump's statements about regime change and oil seizure as
-      factual developments ('Trump says Iran's had regime change') while consistently
-      using attribution for Iranian claims. Amplifies Trump's 'boatloads of oil' rhetoric
-      without quotation marks or distancing language, contrasting with France24's
-      use of quotes around inflammatory statements.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Systematically emphasizes Iran's accusations and warnings ('Iran
-      accuses US of plotting ground attack', 'IRGC spokesperson says Trump only understands
-      the language of force') while framing Israeli military actions as operational
-      decisions without equivalent attribution ('Netanyahu orders deeper Israeli invasion').
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Includes extensive non-conflict sports coverage (cricket ball-tampering,
-      MotoGP, CAF controversy) in same feed as war coverage, creating editorial equivalence
-      between regional conflict and international sports stories that dilutes perceived
-      severity of military developments.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Frames Trump's claim about regime change as factual statement in
-      headline ('Trump says Iran's had regime change') without quotation marks or
-      distancing language around 'had regime change,' while the text version uses
-      quotes. This inconsistency in headline vs. text treatment suggests editorial
-      ambiguity about whether to present this as Trump's claim or established fact.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Uses 'invasion' terminology for Israeli military operations ('orders
-      deeper Israeli invasion,' 'expand invasion') consistently across multiple headlines,
-      while avoiding similar terminology for Iranian cross-border attacks (described
-      as 'raids' or 'attacks'). This linguistic asymmetry frames Israeli actions as
-      aggressive territorial expansion while Iranian actions appear as discrete strikes.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Frames Trump's statements about 'regime change' and oil seizure in
-      headlines without quotation marks ('Trump says Iran's had regime change' as
-      he describes 'boatloads of oil'), presenting these as Trump's declarations rather
-      than contested claims. The text then characterizes the conflict as 'US-Israeli
-      war on Iran has effectively brought regime change,' blending Trump's assertion
-      with editorial framing that suggests this is an accomplished fact rather than
-      Trump's opinion.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Uses passive voice and attribution when reporting Iranian infrastructure
-      damage ('Power being restored after Iran's Ministry of Energy reported outages')
-      while using active voice for US/Israeli actions, creating asymmetric agency
-      framing where Iranian suffering is presented through official reports while
-      Western actions are presented as direct events.
-    status: suggested
-  display_name: Al Jazeera
-  notes: Generally reliable but watch for editorialized framing
-euronews:
-  biases:
-  - date_added: '2026-03-29'
-    observation: Pan-European perspective, EU-aligned framing
-    status: confirmed
-  - date_added: '2026-03-29'
-    observation: Provides significantly less coverage of the Iran conflict compared
-      to other sources (7 relevant items vs. 25+ for others), with greater emphasis
-      on European domestic stories (nightclub fire, German events, migration). Reflects
-      EU-centric news priority hierarchy.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: When covering conflict, emphasizes European institutional responses
-      (Pope's statements, MEPs' actions, European leaders' reactions to Jerusalem
-      incident) rather than military developments, framing through lens of European
-      diplomatic/religious concerns.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Embeds conflict coverage within broader European cultural/lifestyle
-      content (toy tourism, classical music sessions, aging research), creating a
-      news hierarchy where Middle East war competes with domestic European features
-      rather than dominating coverage. This dilutes conflict's perceived urgency compared
-      to sources with focused conflict coverage.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: 'Frames conflict through European institutional and religious lens
-      disproportionately: Pope''s statements receive standalone coverage, MEPs'' Venice
-      Biennale position gets dedicated article, Palm Sunday incident emphasized. This
-      creates European-mediated understanding of conflict rather than direct regional
-      focus.'
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Embeds conflict coverage within extensive European domestic and lifestyle
-      content (toy tourism, classical music sessions for students, aging research,
-      food history, robotics experiments), creating editorial equivalence where Middle
-      East war competes with cultural features. This hierarchy suggests conflict is
-      one story among many rather than dominant crisis, contrasting sharply with other
-      sources' focused conflict coverage.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: 'Frames conflict through European religious and institutional responses
-      disproportionately: Pope Leo XIV''s statements receive multiple standalone articles,
-      MEPs'' Venice Biennale position gets dedicated coverage, Palm Sunday incident
-      emphasized with ''first time in centuries'' framing. Creates understanding of
-      conflict mediated primarily through European Catholic and political institutions
-      rather than regional dynamics.'
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Uses neutral, procedural language for conflict developments ('Trump
-      says deal could be reached soon,' 'Iran wary of diplomacy') that emphasizes
-      diplomatic process and statements rather than military action consequences.
-      Contrasts with Al Jazeera's emphasis on casualties/damage and creates frame
-      where conflict is primarily diplomatic negotiation rather than active warfare.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Provides minimal substantive coverage of conflict casualties, damage,
-      or military operations (only 7 conflict-focused items vs. 25+ for other sources),
-      instead prioritizing European institutional reactions (Pope statements, MEP
-      positions on Venice Biennale, Palm Sunday incident). This creates a hierarchy
-      where European religious/political responses to the conflict receive more coverage
-      than the conflict's actual impacts.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Uses procedural, diplomatic language for conflict developments ('Trump
-      says deal could be reached soon,' 'Iran wary of diplomacy') that emphasizes
-      negotiation processes and statements over military consequences or casualties,
-      framing the conflict primarily as a diplomatic challenge rather than active
-      warfare with humanitarian impacts.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Emphasizes Palm Sunday incident as 'first time in centuries' that
-      church heads were barred, using historical rarity framing to elevate this religious
-      access issue to similar editorial prominence as military strikes and casualties
-      in other sources' coverage. This reflects prioritization of European Catholic
-      institutional concerns over regional humanitarian impacts.
-    status: suggested
-  display_name: Euronews
-  notes: Generally reliable, aggregates multiple European viewpoints
-france24:
-  biases:
-  - date_added: '2026-03-29'
-    observation: French/European perspective, moderate editorial tone
-    status: confirmed
-  - date_added: '2026-03-29'
-    observation: Uses direct quotation marks around Trump's more inflammatory statements
-      ('take the oil,' 'set on fire') which creates subtle distancing from these claims,
-      suggesting editorial skepticism not present in reporting other leaders' statements.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Includes multiple analytical segments with expert commentary ('shares
-      further insights,' 'brings you this analysis') positioning itself as interpretive
-      rather than just reporting, reflecting editorial/European perspective framing.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Includes casualty figures and damage reports from both sides more
-      consistently than Al Jazeera, though still emphasizes Iranian infrastructure
-      damage. Creates more balanced victimization narrative than Al Jazeera's asymmetric
-      focus.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Consistently includes expert analysis segments ('shares further insights',
-      'brings you this analysis') that provide interpretive framing beyond straight
-      reporting. This editorial approach positions France24 as analytical intermediary
-      rather than direct news conveyor, distinguishing it from wire service style.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Uses distancing quotation marks selectively for Trump's more aggressive
-      rhetoric ('take the oil', 'set on fire') while not applying same treatment to
-      other leaders' statements, suggesting editorial judgment about credibility or
-      inflammatory nature of specific claims.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Includes on-the-ground reporter perspectives with subjective assessments
-      ('Beirut holding its breath', 'history is repeating itself') that blend reporting
-      with atmospheric interpretation, creating more emotional/experiential framing
-      than straightforward factual reporting.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Consistently includes subjective assessments from reporters that
-      blend factual reporting with atmospheric interpretation ('Beirut holding its
-      breath,' 'history is repeating itself,' 'city holding its breath'), creating
-      emotional/experiential framing beyond straightforward news reporting. This distinguishes
-      France24's style as interpretive journalism rather than wire service objectivity.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Features multiple 'expert analysis' segments with named academics
-      and think tank fellows ('shares further insights,' 'brings you this analysis')
-      positioned as interpretive authorities, creating a news hierarchy where France24
-      serves as analytical intermediary rather than direct information conveyor. This
-      editorial structure emphasizes European institutional expertise as lens for
-      understanding conflict.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Consistently embeds subjective emotional assessments from reporters
-      directly into news reporting as factual descriptions ('Beirut holding its breath,'
-      'history is repeating itself,' 'city holding its breath'), blurring the line
-      between reporting atmospheric observations and making editorial judgments about
-      collective emotional states. This differs from quoting sources who express these
-      feelings.
-    status: suggested
-  - date_added: '2026-03-29'
-    observation: Uses quotation marks around Trump's territorial and resource seizure
-      statements ('take the oil,' 'set on fire,' 'boatloads of oil') while not applying
-      similar distancing punctuation to other leaders' inflammatory statements, suggesting
-      editorial judgment that specifically Trump's claims require skeptical framing.
-    status: suggested
-  display_name: France 24
-  notes: Strong on diplomacy coverage
+    - pattern: "Pro-Arab, anti-Israel framing"
+      detail: "Uses 'invasion' for Israeli ops but 'strikes' for Iranian ones. Labels conflict 'US-Israeli war on Iran' rather than neutral terms."
+      debias: "Watch for asymmetric language. Compare framing with wire services."
+      date_added: "2026-03-29"
+      status: confirmed
+    - pattern: "Asymmetric casualty emphasis"
+      detail: "Highlights Iranian civilian casualties (children, universities, residential areas) while underreporting impact of Iranian attacks on others."
+      debias: "Cross-reference casualty reporting with France24 and Reuters for balance."
+      date_added: "2026-03-29"
+      status: confirmed
+    - pattern: "Selective attribution"
+      detail: "Hedges Iranian claims with 'Iran says' but presents US/Israeli actions as direct facts without similar attribution."
+      debias: "Apply consistent attribution to all sides' claims."
+      date_added: "2026-03-29"
+      status: confirmed
+  notes: "Generally reliable on facts, but editorializes framing"
+
 iranintl:
+  display_name: "Iran International"
   biases:
-  - date_added: '2026-03-29'
-    observation: Anti-regime, pro-opposition, sometimes unverified
-    status: confirmed
-  display_name: Iran International
-  notes: Mixed reliability, breaks stories early
+    - pattern: "Anti-regime, pro-opposition"
+      detail: "Amplifies opposition voices and protests. Sometimes publishes unverified claims about regime weakness."
+      debias: "Flag unverified claims. Cross-check with other sources before including."
+      date_added: "2026-03-29"
+      status: confirmed
+  notes: "Breaks stories early but mixed reliability"
+
 reuters:
+  display_name: "Reuters"
   biases:
-  - date_added: '2026-03-29'
-    observation: Neutral wire service
-    status: confirmed
-  display_name: Reuters
-  notes: High reliability, fact-checked
+    - pattern: "Wire service neutrality"
+      detail: "Minimal editorializing. Can underplay significance by sticking to bare facts."
+      debias: "Use as baseline for factual accuracy. Supplement with analysis from other sources."
+      date_added: "2026-03-29"
+      status: confirmed
+  notes: "High reliability, fact-checked. Treat as anchor source."
+
+france24:
+  display_name: "France 24"
+  biases:
+    - pattern: "European diplomatic lens"
+      detail: "Emphasizes EU/French diplomatic angles and institutional responses over military details."
+      debias: "Good for diplomacy coverage, supplement with other sources for military ops."
+      date_added: "2026-03-29"
+      status: confirmed
+    - pattern: "Interpretive journalism style"
+      detail: "Embeds reporter opinions and atmospheric descriptions into reporting. Uses expert analysis segments that editorialize."
+      debias: "Separate factual claims from reporter commentary when summarizing."
+      date_added: "2026-03-29"
+      status: confirmed
+    - pattern: "Selective distancing from Trump rhetoric"
+      detail: "Uses quotation marks around Trump's inflammatory statements but not around other leaders' equally strong claims."
+      debias: "Apply consistent treatment to all leaders' rhetoric."
+      date_added: "2026-03-29"
+      status: confirmed
+  notes: "Strong on diplomacy, moderate editorial tone"
+
+euronews:
+  display_name: "Euronews"
+  biases:
+    - pattern: "EU-centric news priority"
+      detail: "Far less conflict coverage than other sources. Buries war news among European lifestyle and cultural stories."
+      debias: "Don't rely on for conflict volume. Use for European policy angles."
+      date_added: "2026-03-29"
+      status: confirmed
+    - pattern: "Diplomatic process framing"
+      detail: "Uses procedural language that frames the conflict as a negotiation rather than active warfare."
+      debias: "Supplement with sources that cover military and humanitarian dimensions."
+      date_added: "2026-03-29"
+      status: confirmed
+  notes: "Reliable but limited conflict coverage"

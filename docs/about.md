@@ -51,16 +51,16 @@ Every news source carries biases in how it frames, emphasizes, and omits informa
 <table class="bias-table">
   <thead>
     <tr>
-      <th>Observation</th>
-      <th>Added</th>
+      <th>Pattern</th>
+      <th>How we counteract it</th>
       <th>Status</th>
     </tr>
   </thead>
   <tbody>
     {% for bias in info.biases %}
     <tr>
-      <td>{{ bias.observation }}</td>
-      <td>{{ bias.date_added }}</td>
+      <td><strong>{{ bias.pattern }}</strong><br><span class="bias-detail">{{ bias.detail }}</span></td>
+      <td>{{ bias.debias }}</td>
       <td><span class="bias-status bias-status--{{ bias.status }}">{{ bias.status }}</span></td>
     </tr>
     {% endfor %}

@@ -62,9 +62,12 @@ def _run_bias_detection(
     # Format existing biases for the prompt
     existing_summary = []
     for src_key, src_data in biases_data.items():
-        obs_list = [b["observation"] for b in src_data.get("biases", [])]
-        if obs_list:
-            existing_summary.append(f"{src_key}: {'; '.join(obs_list)}")
+        patterns = []
+        for b in src_data.get("biases", []):
+            pattern = b.get("pattern", b.get("observation", ""))
+            patterns.append(pattern)
+        if patterns:
+            existing_summary.append(f"{src_key}: {'; '.join(patterns)}")
     existing_biases_text = "\n".join(existing_summary) if existing_summary else "None yet."
 
     items_by_source_text = json.dumps(by_source, indent=2, ensure_ascii=False)
@@ -105,19 +108,33 @@ def _run_bias_detection(
         return
 
     today = date.today().isoformat()
+    added = 0
     for entry in new_biases:
         src = entry.get("source", "")
-        obs = entry.get("observation", "")
-        if not src or not obs or src not in biases_data:
+        pattern = entry.get("pattern", "")
+        detail = entry.get("detail", "")
+        debias = entry.get("debias", "")
+        if not src or not pattern or src not in biases_data:
+            continue
+        # Skip if a similar pattern name already exists
+        existing_patterns = [
+            b.get("pattern", "").lower()
+            for b in biases_data[src].get("biases", [])
+        ]
+        if any(pattern.lower() in ep or ep in pattern.lower() for ep in existing_patterns if ep):
             continue
         biases_data[src]["biases"].append({
-            "observation": obs,
+            "pattern": pattern,
+            "detail": detail,
+            "debias": debias,
             "date_added": today,
             "status": "suggested",
         })
+        added += 1
 
-    BIASES_PATH.write_text(yaml.dump(biases_data, default_flow_style=False, allow_unicode=True))
-    logger.info(f"Bias detection added {len(new_biases)} suggested observation(s)")
+    if added > 0:
+        BIASES_PATH.write_text(yaml.dump(biases_data, default_flow_style=False, allow_unicode=True))
+    logger.info(f"Bias detection: {len(new_biases)} candidates, {added} new pattern(s) added")
 
 
 def run_editorial(
