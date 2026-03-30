@@ -19,6 +19,25 @@ aljazeera:
       says') when reporting Iranian claims but presents Israeli/US military actions
       as factual statements without similar hedging language.
     status: suggested
+  - date_added: '2026-03-29'
+    observation: Frames Trump's statements about regime change and oil seizure as
+      factual developments ('Trump says Iran's had regime change') while consistently
+      using attribution for Iranian claims. Amplifies Trump's 'boatloads of oil' rhetoric
+      without quotation marks or distancing language, contrasting with France24's
+      use of quotes around inflammatory statements.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Systematically emphasizes Iran's accusations and warnings ('Iran
+      accuses US of plotting ground attack', 'IRGC spokesperson says Trump only understands
+      the language of force') while framing Israeli military actions as operational
+      decisions without equivalent attribution ('Netanyahu orders deeper Israeli invasion').
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Includes extensive non-conflict sports coverage (cricket ball-tampering,
+      MotoGP, CAF controversy) in same feed as war coverage, creating editorial equivalence
+      between regional conflict and international sports stories that dilutes perceived
+      severity of military developments.
+    status: suggested
   display_name: Al Jazeera
   notes: Generally reliable but watch for editorialized framing
 euronews:
@@ -37,6 +56,20 @@ euronews:
       (Pope's statements, MEPs' actions, European leaders' reactions to Jerusalem
       incident) rather than military developments, framing through lens of European
       diplomatic/religious concerns.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Embeds conflict coverage within broader European cultural/lifestyle
+      content (toy tourism, classical music sessions, aging research), creating a
+      news hierarchy where Middle East war competes with domestic European features
+      rather than dominating coverage. This dilutes conflict's perceived urgency compared
+      to sources with focused conflict coverage.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: 'Frames conflict through European institutional and religious lens
+      disproportionately: Pope''s statements receive standalone coverage, MEPs'' Venice
+      Biennale position gets dedicated article, Palm Sunday incident emphasized. This
+      creates European-mediated understanding of conflict rather than direct regional
+      focus.'
     status: suggested
   display_name: Euronews
   notes: Generally reliable, aggregates multiple European viewpoints
@@ -60,6 +93,24 @@ france24:
       consistently than Al Jazeera, though still emphasizes Iranian infrastructure
       damage. Creates more balanced victimization narrative than Al Jazeera's asymmetric
       focus.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Consistently includes expert analysis segments ('shares further insights',
+      'brings you this analysis') that provide interpretive framing beyond straight
+      reporting. This editorial approach positions France24 as analytical intermediary
+      rather than direct news conveyor, distinguishing it from wire service style.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Uses distancing quotation marks selectively for Trump's more aggressive
+      rhetoric ('take the oil', 'set on fire') while not applying same treatment to
+      other leaders' statements, suggesting editorial judgment about credibility or
+      inflammatory nature of specific claims.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Includes on-the-ground reporter perspectives with subjective assessments
+      ('Beirut holding its breath', 'history is repeating itself') that blend reporting
+      with atmospheric interpretation, creating more emotional/experiential framing
+      than straightforward factual reporting.
     status: suggested
   display_name: France 24
   notes: Strong on diplomacy coverage
