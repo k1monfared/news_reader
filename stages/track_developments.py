@@ -128,7 +128,7 @@ def _classify_with_llm(
         historical_items=hist_text,
     )
 
-    model = config.models.get("categorize", "haiku")
+    model = config.models.get("default", "claude-sonnet-4-5")
 
     try:
         response = llm_client.call(

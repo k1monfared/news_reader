@@ -64,10 +64,6 @@ sources:
 # ---------------------------------------------------------------------------
 models:
   default: claude-sonnet-4-5
-  filter: haiku
-  categorize: haiku
-  dedup_translate: haiku
-  summarize: sonnet
 
 # ---------------------------------------------------------------------------
 # Dynamic Buckets
@@ -235,7 +231,7 @@ audit:
 # Development Tracking
 # ---------------------------------------------------------------------------
 development_tracking:
-  lookback_days: 14
+  lookback_days: 7
   similarity_threshold: 0.5
 
 # ---------------------------------------------------------------------------

@@ -70,6 +70,10 @@ user_template: |
   - Every item MUST use the <details><summary> format shown above.
   - The summary line is Level 1: skimmable, what you'd tell a friend.
   - The expanded content is Level 2: context, timeline, links.
+  - Items with story_status "development" MUST start the bold text with
+    "(Update)" to signal this is an evolving story, e.g.
+    **(Update) Iran fired more missiles at the same base they hit yesterday.**
+  - Items with story_status "continuation" should be OMITTED entirely.
   - Keep source URLs exactly as provided. Do not invent URLs.
 
   Categorized items (with development tracking data where available):
