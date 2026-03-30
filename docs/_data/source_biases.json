@@ -288,6 +288,13 @@
         "debias": "Report regional incidents without automatically categorizing them as war expansion unless direct operational links are established.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Winter energy crisis pre-positioning",
+        "detail": "EU gas storage urgency is framed in terms of 'winter' preparation during spring conflict, projecting crisis duration across seasons.",
+        "debias": "Specify actual timeline urgency and current supply status rather than seasonally extending crisis projections.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -480,6 +487,27 @@
         "pattern": "Venezuelan sanction relief expedience framing",
         "detail": "Reuters presents US permission for Venezuelan oil transactions as contradicting prior policy principles, emphasizing strategic inconsistency over energy pragmatism.",
         "debias": "Frame sanction adjustments as tactical policy shifts rather than highlighting contradictions that imply hypocrisy.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Sanctions exemption pragmatism normalization",
+        "detail": "US authorization to sell Iranian oil in transit is presented as technical sanction management rather than as significant policy reversal or market intervention.",
+        "debias": "Clarify when sanctions exemptions represent substantial policy shifts versus routine administrative adjustments, noting their strategic timing and market impact.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Corporate planning horizon extension",
+        "detail": "United Airlines reducing flights 'until fall' projects corporate assumption of prolonged conflict duration into operational planning timeframes.",
+        "debias": "Distinguish between corporate contingency planning windows and actual conflict duration predictions, noting planning conservatism.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Gulf investment beneficiary highlighting",
+        "detail": "Column specifically emphasizes Gulf money funding European defense startups in response to drone threats, creating investor-beneficiary narrative arc.",
+        "debias": "Present defense investment flows within broader international defense financing patterns rather than emphasizing specific regional beneficiaries.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -968,6 +996,41 @@
         "pattern": "Russian war profiteering data quantification",
         "detail": "Euronews provides specific data on Russian financial gains from Iran conflict oil price rises, framing Moscow as beneficiary of Middle East instability with monetary precision.",
         "debias": "When citing economic beneficiaries of conflict, provide comparable data on losses and disruptions to avoid selective profiteering narratives.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Ground force invasion speculation amplification",
+        "detail": "Multiple language versions prominently frame Trump as 'exploring options' or 'considering' ground force deployment to Iran, elevating unconfirmed deliberations to headline status.",
+        "debias": "Distinguish between confirmed military deployments and internal policy discussions, noting the source level and confirmation status of invasion claims.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Nuclear facility strike equivalence framing",
+        "detail": "Parallel headlines about Natanz and Dimona attacks frame them as symmetrical 'nuclear facility targeting' despite different operational statuses and strategic contexts.",
+        "debias": "Specify the distinct operational roles, enrichment activities, and strategic significance of each nuclear facility rather than treating them as equivalent targets.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Allied cowardice shaming amplification",
+        "detail": "Multiple language editions prominently feature Trump calling NATO countries 'cowards,' amplifying intra-alliance friction messaging during active conflict.",
+        "debias": "Contextualize alliance criticism within broader coalition coordination patterns and distinguish between rhetorical statements and actual policy shifts.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Swiss neutrality principled-actor positioning",
+        "detail": "Switzerland's weapons export freeze is framed as principled neutrality maintenance rather than as a practical or political decision affecting alliance cohesion.",
+        "debias": "Present weapons export decisions within their full political and contractual context rather than as purely principled neutrality stances.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Fossil fuel climate hypocrisy juxtaposition",
+        "detail": "Multiple language editions run stories about oil companies abandoning green promises amid war-driven energy crisis, creating moral inconsistency framing.",
+        "debias": "Separate corporate climate policy analysis from immediate conflict energy dynamics rather than implying causal moral hypocrisy.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
