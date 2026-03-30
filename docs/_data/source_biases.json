@@ -83,6 +83,13 @@
         "debias": "Ensure primary conflict developments receive proportional attention before covering secondary economic reactions from distant nations.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Japanese source attribution distancing",
+        "detail": "Uses Japanese language framing to report unconfirmed claims about Khamenei's death attributed to US-Israeli leaders, creating geographic and linguistic distance from direct editorial responsibility.",
+        "debias": "Translate content accurately while maintaining the same level of source attribution and verification standards as English-language reporting.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "High reliability, fact-checked. Treat as anchor source."
@@ -170,6 +177,13 @@
         "pattern": "Cultural controversy amplification",
         "detail": "Elevates peripheral cultural outrage stories (La Macarena video controversy, TIME magazine cover reactions) to equivalent news status as conflict developments.",
         "debias": "Maintain proportionality between substantive conflict coverage and cultural/social media reaction stories.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Trump direct attribution emphasis",
+        "detail": "Explicitly names Trump as the primary source of Khamenei death claim in headline ('sagt US-Präsident Trump'), foregrounding individual attribution over institutional verification.",
+        "debias": "Balance individual source attribution with verification status and institutional confirmation levels when reporting unconfirmed claims.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
