@@ -244,7 +244,7 @@ development_tracking:
 pipeline:
   dedup_similarity_threshold: 0.85
   filter_confidence_threshold: 0.5
-  max_report_bullets: 15
+  max_report_bullets: 10
   min_report_bullets: 3
   cache_ttl_hours: 24
 
