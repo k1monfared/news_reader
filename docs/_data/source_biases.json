@@ -232,6 +232,13 @@
         "debias": "Report legal analyses as one perspective among others without presenting single expert view as definitive international law determination.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Precision weaponry irony framing",
+        "detail": "Frames precise weapons striking civilian targets (classroom in Minab) as ironic contradiction to highlight targeting of civilians.",
+        "debias": "Report civilian casualties factually without rhetorical framing about weapon precision capabilities.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -765,6 +772,62 @@
         "pattern": "Ex-leader forum antiwar legitimization",
         "detail": "Coverage of Balkan ex-presidents criticizing Iran war at Baku Forum platforms former leaders' opposition as legitimate diplomatic perspective.",
         "debias": "Report international forum statements proportionally without elevating ex-officials' positions as representative diplomatic consensus.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Scope escalation avoidance appeal",
+        "detail": "Amplifies Tehran's calls to avoid expanding war scope, positioning Iran as restraint advocate despite ongoing strikes.",
+        "debias": "Balance restraint appeals with actual military actions taken by all parties.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Russia-Iran weapons transfer third-party attribution",
+        "detail": "Uses Zelenskyy as source to claim Russia supplying Iran with Shahed drones, adding cross-conflict weapons flow narrative.",
+        "debias": "Verify weapons transfer claims independently rather than relying solely on interested party statements.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "False flag operation pre-accusation",
+        "detail": "Amplifies Iranian claims warning of planned false flag attacks designed to blame Iran, seeding conspiracy skepticism.",
+        "debias": "Report actual attacks with evidence rather than pre-emptive accusations of staged operations.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Economic hostage-taking moralization",
+        "detail": "Frames Iranian actions as holding global economy 'hostage' or 'ransom' using charged language from Gulf state officials.",
+        "debias": "Describe economic impacts neutrally without hostage/ransom metaphors that assign moral culpability.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Turkish neutrality exit anxiety",
+        "detail": "Emphasizes Turkey's desire to stay out of war while noting weapons production increases, framing neutrality as unsustainable.",
+        "debias": "Report Turkish policy statements and actions separately without implying contradictions undermine neutrality.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Iranian missile technical capability highlighting",
+        "detail": "Provides detailed technical specifications of Iranian missiles (Sejil) emphasizing difficulty of interception to amplify threat perception.",
+        "debias": "Include technical details of all sides' weapons systems equally or omit technical specifications entirely.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Regime cohesion reversal narrative",
+        "detail": "Notes Israeli assumptions about regime collapse are failing with Iranian leadership appearing cohesive, reversing earlier predictions.",
+        "debias": "Report on regime stability assessments without framing as vindication or failure of previous predictions.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Strategic nihilism accusation",
+        "detail": "Amplifies characterization of Iranian strategy as 'nihilism' from Gulf officials, framing actions as irrational destruction.",
+        "debias": "Describe strategic objectives neutrally without philosophical characterizations that imply irrationality.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
