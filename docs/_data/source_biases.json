@@ -62,6 +62,20 @@
         "debias": "Use as baseline for factual accuracy. Supplement with analysis from other sources.",
         "date_added": "2026-03-29",
         "status": "confirmed"
+      },
+      {
+        "pattern": "Economic ripple effect prioritization",
+        "detail": "Multiple stories frame the Iran conflict primarily through global economic impacts (shipping, oil prices, supply chains, currency markets) rather than humanitarian or military dimensions.",
+        "debias": "Balance economic consequence coverage with direct conflict reporting including casualties, diplomatic efforts, and humanitarian impacts.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Third-party economic reaction framing",
+        "detail": "Heavy emphasis on how non-combatant nations (China, Korea, Russia, India) are economically responding to the conflict rather than the conflict itself.",
+        "debias": "Ensure primary conflict developments receive proportional attention before covering secondary economic reactions from distant nations.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "High reliability, fact-checked. Treat as anchor source."
