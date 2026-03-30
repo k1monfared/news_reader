@@ -498,6 +498,20 @@
         "debias": "Report national policy responses without treating each as confirmation of escalating global crisis narrative.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Indian remittance vulnerability dramatization",
+        "detail": "Frames Iran war as putting '$50bn in Indian remittances at risk' to humanize economic impact through diaspora worker lens.",
+        "debias": "Note remittance exposure without catastrophizing potential disruptions or implying inevitability of worker displacement.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Ukraine protector role repositioning",
+        "detail": "Reframes Ukraine as 'protector of US and Gulf allies' during Iran conflict to elevate its strategic importance beyond recipient status.",
+        "debias": "Describe Ukraine's military role factually without reframing its position in global alliance hierarchy.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -970,6 +984,27 @@
         "pattern": "Korean sanctions compliance tracking",
         "detail": "Highlighting South Korean imports of Russian naphtha as noteworthy compliance deviation during Middle East crisis period.",
         "debias": "Report sanctions compliance stories without implied crisis linkage unless connection is explicitly documented.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Trump administration internal division highlighting",
+        "detail": "Emphasizes 'route conflict' within Trump administration on Iran exit strategy to frame policy as incoherent or contested.",
+        "debias": "Present policy debates as normal governmental processes rather than dysfunction indicators when covering administration discussions.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Geopolitical risk consultancy industry amplification",
+        "detail": "Dedicates coverage to growth of geopolitical risk advisory sector during Iran war to frame conflict as business opportunity phenomenon.",
+        "debias": "Note economic sector impacts without elevating commercial risk analysis to primary narrative frame.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Safe-haven currency paradox framing",
+        "detail": "Juxtaposes 'crisis dollar buying' with 'dollar abandonment' narratives to create interpretive tension in currency market analysis.",
+        "debias": "Present currency movements as multi-causal without forcing contradictory narrative synthesis.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -1850,6 +1885,41 @@
         "pattern": "TotalEnergies war profiteering quantification",
         "detail": "Specifying $1 billion profit from Middle East oil positioning during war as corporate opportunism from price volatility.",
         "debias": "Report corporate earnings without moral judgment framing unless unethical conduct is documented.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Iranian ambassador exclusive access dramatization",
+        "detail": "Repeatedly emphasizes 'exclusive' interview access with Iranian UN ambassador across multiple languages to amplify diplomatic positioning as journalistic achievement.",
+        "debias": "Note the interview content without emphasizing exclusivity or access credentials when summarizing diplomatic statements.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Military capability damage denial meta-framing",
+        "detail": "Frames Iranian official denials of military damage as questioning truth itself rather than presenting as disputed claims ('does Iran lie about impact').",
+        "debias": "Present capability assessments as contested claims from multiple sources rather than truth-versus-lies framing.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Israeli opposition Trump-immunity framing",
+        "detail": "Platforms Israeli opposition leader claiming 'nobody can pressure Trump' to normalize unilateral decision-making as unchangeable reality.",
+        "debias": "Present political influence assessments as opinions rather than immutable facts about diplomatic leverage.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "European target expansion via ambassador quote",
+        "detail": "Amplifies Iranian ambassador statement that 'any base can be a target' to dramatize direct European military vulnerability threat.",
+        "debias": "Contextualize hypothetical targeting statements within broader diplomatic positioning rather than as immediate threat declarations.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Civilian infrastructure intelligence crowdsourcing",
+        "detail": "Amplifies Iranian text messages to civilians claiming 'victory in war' as IRGC psychological operation or hacking incident.",
+        "debias": "Report information operations as contested claims without amplifying their reach or treating as confirmed intelligence.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
