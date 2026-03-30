@@ -120,6 +120,27 @@
         "debias": "Apply consistent humanization through personal narratives across all nationalities affected by conflict evacuations.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Indonesian public anger projection",
+        "detail": "Al Jazeera frames Indonesian president's US ties through lens of 'public anger,' projecting domestic opposition as determining factor in bilateral relations.",
+        "debias": "Report Indonesian policy positions based on official statements and actions rather than presumed public sentiment.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Pakistan neutrality sustainability questioning",
+        "detail": "Al Jazeera frames Pakistan's position with presumption that neutrality cannot last, suggesting inevitable forced alignment between Iran and Saudi Arabia.",
+        "debias": "Report Pakistan's stated position without presuming its unsustainability or forcing binary alignment framework.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Ground invasion speculation via proxy source",
+        "detail": "Al Jazeera amplifies Iranian Kurd leader's claim that ground operation is 'highly likely,' using non-state actor to escalate invasion speculation.",
+        "debias": "Attribute invasion speculation clearly to specific sources without amplifying through headline prominence.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -436,6 +457,48 @@
         "pattern": "Tourism economic catastrophization",
         "detail": "Multiple stories across languages emphasize €40 billion tourism losses and 'trips on hold' framing to quantify regional economic collapse.",
         "debias": "Report tourism industry impacts with specific data while noting uncertainty in projections and distinguishing actual from potential losses.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Journalist first-person experience amplification",
+        "detail": "Euronews systematically emphasizes their own journalist's personal experience of events (Dubai airport drone attack) across multiple language editions, creating institutional self-referential narrative authority.",
+        "debias": "Present journalist experiences as one data point among many eyewitness accounts without institutional privilege.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Shifting justification critique meta-framing",
+        "detail": "Euronews highlights European diplomatic criticism of changing US war rationales ('like changing shirts'), positioning European skepticism as analytical frame.",
+        "debias": "Present multiple perspectives on war justifications without privileging European diplomatic skepticism as primary interpretive lens.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Historical border revision speculation threading",
+        "detail": "Euronews features speculation about Sykes-Picot agreement collapse and Middle East border redrawing, threading historical-deterministic framing into current conflict coverage.",
+        "debias": "Report territorial discussions as contemporary political claims without invoking grand historical inevitability frameworks.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Azerbaijan-Iran terror plot dramatization",
+        "detail": "Euronews emphasizes Azerbaijan's foiling of Iranian terrorist plots against Jewish facilities, amplifying regional conflict expansion through terrorism lens.",
+        "debias": "Report security incidents with equal weight to other regional developments without terrorism-focused escalation framing.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "European far-right disarray highlighting",
+        "detail": "Euronews emphasizes European far-right parties' confusion and division over Iran war, framing political opposition to Trump as disorganized rather than principled.",
+        "debias": "Report political party positions on their stated terms without characterizing disagreement as inherent disarray.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Spanish domestic political instrumentalization",
+        "detail": "Euronews frames Spanish PM Sánchez's criticism of opposition Iran war support through lens of domestic Spanish harm, localizing conflict to European electoral politics.",
+        "debias": "Report European leaders' positions on conflicts without reducing them to domestic political calculation framing.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
