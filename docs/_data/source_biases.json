@@ -442,6 +442,20 @@
         "debias": "Present multiple strategic factors in conflict analysis rather than reducing to single economic motive as primary explanatory logic.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "False flag preemptive accusation labeling",
+        "detail": "Headlines Diego Garcia missile claim as 'false flag attack' before explaining Iran's denial, pre-framing event as Western fabrication rather than disputed claim.",
+        "debias": "Label disputed incidents as 'unverified claims' or 'conflicting accounts' rather than adopting one side's characterization in headlines.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Iraq involuntary war participation victimization",
+        "detail": "Frames US strikes on Iran-aligned groups in Iraq as Iraq being 'pulled into' war, emphasizing Iraqi state victimhood rather than militia group targeting rationale.",
+        "debias": "Distinguish between strikes on non-state actors within a country and strikes targeting that country's sovereign forces or infrastructure.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -795,6 +809,34 @@
         "pattern": "Gulf deposit flight catastrophization",
         "detail": "S&P projection of potential $307 billion deposit outflow from Gulf banks quantifies hypothetical capital flight scenario as concrete risk metric.",
         "debias": "Report financial institution risk assessments with clear conditional framing and probability qualifications rather than presenting scenario modeling as predictive.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Japanese contingency budget war-preparedness dramatization",
+        "detail": "Frames Japan's consideration of supplementary budget as direct response to Iran conflict uncertainty, elevating fiscal contingency planning into war-preparation narrative.",
+        "debias": "Distinguish between routine fiscal planning processes and extraordinary war-driven emergency measures when covering budget discussions.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Oil futures intervention speculation amplification",
+        "detail": "Reports Japanese government hearings on potential oil futures market intervention, dramatizing policy consideration into imminent market manipulation expectation.",
+        "debias": "Clarify distinction between exploratory policy discussions and actual intervention decisions or capabilities.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Energy shock AI bubble collapse causation threading",
+        "detail": "Establishes speculative causal chain from energy price spikes to potential AI investment bubble collapse through columnist opinion framing.",
+        "debias": "When presenting second-order economic speculation, clearly mark as analytical scenario rather than causal prediction.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Indian tanker breakthrough exceptionalism highlighting",
+        "detail": "Singularizes one Indian-flagged tanker's Hormuz passage amid hundreds stranded, creating breakthrough narrative suggesting discriminatory treatment or special courage.",
+        "debias": "Contextualize individual vessel movements within overall traffic patterns and explain selection criteria rather than implying exceptionalism.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -1563,6 +1605,34 @@
         "pattern": "Exiled scientist award politicization",
         "detail": "Water Nobel prize framing emphasizes scientist's exile status from Iran rather than research achievement, converting scientific recognition into political commentary.",
         "debias": "Lead with scientific achievement details before political context when covering research awards to avoid subordinating merit to geopolitical narrative.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Negotiation denial amplification asymmetry",
+        "detail": "Amplifies Iranian denials of Trump's negotiation claims across multiple language editions while giving equal prominence to both conflicting narratives, creating confusion about diplomatic reality.",
+        "debias": "Present negotiation claim disputes with clear attribution and note the strategic incentives each side has for their public positions.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Civilian aircraft parking war-consequence threading",
+        "detail": "Frames Spanish airport aircraft storage expansion as direct consequence of Iran war disrupting flight routes, establishing causal link between conflict and European aviation infrastructure stress.",
+        "debias": "Clarify whether aircraft parking is due to route avoidance, insurance costs, or operational suspensions rather than implying direct war causation.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Agricultural uncertainty catastrophization localization",
+        "detail": "Anchors Iran war economic consequences to specific national agricultural sectors (Spanish farming) to domesticate global crisis through local victim framing.",
+        "debias": "When covering sector-specific impacts, provide comparative context across multiple economies rather than singularizing national victimhood.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Settler death ideological reframing",
+        "detail": "Platforms father's characterization of killed settler son as 'sacrifice for settlement expansion,' inverting typical victimization narrative into critique of Israeli policy.",
+        "debias": "Present family statements about casualties without elevating politically charged interpretations as primary framing.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
