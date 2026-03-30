@@ -141,6 +141,27 @@
         "debias": "Attribute invasion speculation clearly to specific sources without amplifying through headline prominence.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "US war nomenclature adoption",
+        "detail": "Consistently labels the conflict as 'US-Israel war on Iran' rather than neutral descriptors, framing Iran as the object of aggression rather than participant.",
+        "debias": "Use neutral conflict descriptors like 'US-Iran military confrontation' or 'Israel-Iran conflict' without predetermined aggressor-victim framing.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Infrastructure vulnerability humanization",
+        "detail": "Emphasizes civilian impact of attacks on desalination plants and water supply disruption, highlighting potential humanitarian consequences.",
+        "debias": "Balance infrastructure damage reporting by noting both civilian impacts and military-strategic dimensions without selective emphasis.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Anti-war voice platforming",
+        "detail": "Features first-person American anti-war sentiment ('We, the American people, have had enough of endless wars') as representative perspective.",
+        "debias": "Balance anti-war voices with diverse American public opinion including those supporting military action or conflicted views.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -499,6 +520,27 @@
         "pattern": "Spanish domestic political instrumentalization",
         "detail": "Euronews frames Spanish PM Sánchez's criticism of opposition Iran war support through lens of domestic Spanish harm, localizing conflict to European electoral politics.",
         "debias": "Report European leaders' positions on conflicts without reducing them to domestic political calculation framing.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "European military deployment specification",
+        "detail": "Details specific European naval assets and their movements (Italian frigate, German warship) with precise ship names and destinations.",
+        "debias": "Report military deployments with equivalent detail across all parties, not just European contributions.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Anti-base protest localization",
+        "detail": "Amplifies local Cypriot opposition to British military bases following attacks, framing bases as liability rather than defense asset.",
+        "debias": "Present multiple local perspectives on military installations, including security benefits and strategic rationales alongside opposition.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Spanish-Iran commerce hypocrisy framing",
+        "detail": "Highlights perceived contradiction between Spain's public stance and trade relationships with Iran as 'double game' or duplicity.",
+        "debias": "Report trade-diplomacy tensions neutrally, noting distinctions between official policy positions and commercial relationships without accusatory framing.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
