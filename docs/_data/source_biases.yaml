@@ -1,39 +1,79 @@
 aljazeera:
-  display_name: "Al Jazeera"
   biases:
-    - observation: "Pro-Arab, critical of Israel, editorializes framing"
-      date_added: "2026-03-29"
-      status: confirmed
-  notes: "Generally reliable but watch for editorialized framing"
-
-iranintl:
-  display_name: "Iran International"
-  biases:
-    - observation: "Anti-regime, pro-opposition, sometimes unverified"
-      date_added: "2026-03-29"
-      status: confirmed
-  notes: "Mixed reliability, breaks stories early"
-
-reuters:
-  display_name: "Reuters"
-  biases:
-    - observation: "Neutral wire service"
-      date_added: "2026-03-29"
-      status: confirmed
-  notes: "High reliability, fact-checked"
-
-france24:
-  display_name: "France 24"
-  biases:
-    - observation: "French/European perspective, moderate editorial tone"
-      date_added: "2026-03-29"
-      status: confirmed
-  notes: "Strong on diplomacy coverage"
-
+  - date_added: '2026-03-29'
+    observation: Pro-Arab, critical of Israel, editorializes framing
+    status: confirmed
+  - date_added: '2026-03-29'
+    observation: Systematically frames conflict as 'US-Israeli war on Iran' rather
+      than using neutral descriptors like 'conflict' or 'strikes.' This appears in
+      multiple headlines and characterizes the conflict as a coordinated campaign
+      rather than isolated actions.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Emphasizes civilian casualties and infrastructure damage in Iran/allied
+      states (universities, power plants, residential areas, children killed) while
+      minimal coverage of Iranian attacks' impacts. Creates asymmetric victim framing.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Consistently uses attribution ('Iran accuses,' 'IRGC spokesperson
+      says') when reporting Iranian claims but presents Israeli/US military actions
+      as factual statements without similar hedging language.
+    status: suggested
+  display_name: Al Jazeera
+  notes: Generally reliable but watch for editorialized framing
 euronews:
-  display_name: "Euronews"
   biases:
-    - observation: "Pan-European perspective, EU-aligned framing"
-      date_added: "2026-03-29"
-      status: confirmed
-  notes: "Generally reliable, aggregates multiple European viewpoints"
+  - date_added: '2026-03-29'
+    observation: Pan-European perspective, EU-aligned framing
+    status: confirmed
+  - date_added: '2026-03-29'
+    observation: Provides significantly less coverage of the Iran conflict compared
+      to other sources (7 relevant items vs. 25+ for others), with greater emphasis
+      on European domestic stories (nightclub fire, German events, migration). Reflects
+      EU-centric news priority hierarchy.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: When covering conflict, emphasizes European institutional responses
+      (Pope's statements, MEPs' actions, European leaders' reactions to Jerusalem
+      incident) rather than military developments, framing through lens of European
+      diplomatic/religious concerns.
+    status: suggested
+  display_name: Euronews
+  notes: Generally reliable, aggregates multiple European viewpoints
+france24:
+  biases:
+  - date_added: '2026-03-29'
+    observation: French/European perspective, moderate editorial tone
+    status: confirmed
+  - date_added: '2026-03-29'
+    observation: Uses direct quotation marks around Trump's more inflammatory statements
+      ('take the oil,' 'set on fire') which creates subtle distancing from these claims,
+      suggesting editorial skepticism not present in reporting other leaders' statements.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Includes multiple analytical segments with expert commentary ('shares
+      further insights,' 'brings you this analysis') positioning itself as interpretive
+      rather than just reporting, reflecting editorial/European perspective framing.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Includes casualty figures and damage reports from both sides more
+      consistently than Al Jazeera, though still emphasizes Iranian infrastructure
+      damage. Creates more balanced victimization narrative than Al Jazeera's asymmetric
+      focus.
+    status: suggested
+  display_name: France 24
+  notes: Strong on diplomacy coverage
+iranintl:
+  biases:
+  - date_added: '2026-03-29'
+    observation: Anti-regime, pro-opposition, sometimes unverified
+    status: confirmed
+  display_name: Iran International
+  notes: Mixed reliability, breaks stories early
+reuters:
+  biases:
+  - date_added: '2026-03-29'
+    observation: Neutral wire service
+    status: confirmed
+  display_name: Reuters
+  notes: High reliability, fact-checked
