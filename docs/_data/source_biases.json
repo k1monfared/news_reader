@@ -400,6 +400,34 @@
         "debias": "Distinguish between countries with direct energy import exposure versus those facing indirect spillover effects.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Trump Iran war cost accountability tracking",
+        "detail": "Foregrounding specific US war expenditure figures to emphasize financial burden and question sustainability of military operations.",
+        "debias": "Present war costs alongside human casualties to avoid privileging economic over humanitarian concerns.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Khamenei US base ultimatum countdown",
+        "detail": "Framing new leader's base closure demands as ticking-clock ultimatums to heighten escalation drama and US vulnerability.",
+        "debias": "Present leadership demands as negotiating positions rather than imminent action deadlines without supporting intelligence.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Gulf desalination plant vulnerability questioning",
+        "detail": "Highlighting proportion of Gulf water from desalination to emphasize civilian infrastructure fragility and Iranian leverage.",
+        "debias": "Contextualize infrastructure vulnerability discussions within international humanitarian law protections rather than as tactical advantages.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Southeast Asia office closure crisis contagion",
+        "detail": "Reporting regional business disruptions from oil crisis to expand geographic impact perception beyond direct conflict zone.",
+        "debias": "Distinguish between precautionary business measures and actual economic crisis when reporting distant secondary effects.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -704,6 +732,41 @@
         "pattern": "Multi-national coalition formation speculation via attribution",
         "detail": "Reuters uses Financial Times attribution to report UAE efforts for multinational Hormuz defense force, distancing from direct advocacy while amplifying coalition-building narratives.",
         "debias": "Distinguish between reported coalition proposals and actual multilateral commitments to avoid premature solidification.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Japanese ministerial domestic constraint anchoring",
+        "detail": "Consistently quoting Japanese officials on domestic economic/energy impacts to localize global crisis for Japanese audience.",
+        "debias": "Acknowledge audience-specific coverage focus while ensuring global context isn't lost in domestic impact framing.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "German economic downgrade war attribution",
+        "detail": "Linking German growth forecast reductions directly to commodity price increases from conflict to establish clear causality chain.",
+        "debias": "Distinguish between conflict-driven factors and pre-existing economic conditions when explaining forecast changes.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "US gasoline price percentage surge dramatization",
+        "detail": "Emphasizing 20% gasoline price increases over short timeframes to heighten domestic consumer impact perception.",
+        "debias": "Provide historical price volatility context and absolute price levels alongside percentage changes for proportionality.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Indian consumer energy rationing appeal",
+        "detail": "Reporting government calls for energy conservation as crisis preparation to signal supply shortage anxiety.",
+        "debias": "Clarify whether conservation appeals reflect actual shortages or precautionary planning to avoid panic amplification.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Democratic Senator investigation demand amplification",
+        "detail": "Highlighting opposition party calls for school bombing investigations to elevate domestic political accountability pressure.",
+        "debias": "Balance opposition demands with administration responses and investigation timelines to avoid one-sided accountability framing.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -1395,6 +1458,55 @@
         "pattern": "EU Black Sea grain corridor model advocacy",
         "detail": "Euronews amplifies EU envoy proposal to apply Black Sea grain corridor precedent to Hormuz blockage, positioning European diplomatic frameworks as universal conflict-resolution templates.",
         "debias": "Acknowledge material differences between Black Sea grain corridor context and Hormuz situation when presenting analogies.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Iranian diplomatic denial amplification",
+        "detail": "Prominent platforming of Iranian UN ambassador's direct denial of Hormuz blockade intentions to pre-emptively counter Western escalation narratives.",
+        "debias": "Balance Iranian diplomatic assurances with historical precedent of escalatory actions and military capabilities assessment.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Netanyahu nuclear scientist assassination boasting",
+        "detail": "Direct quotation of Netanyahu claiming killing of top Iranian nuclear scientists without contextualizing as propaganda or verifying claims.",
+        "debias": "Frame leadership boasts about extrajudicial killings as rhetorical posturing requiring independent verification.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "New leader retaliatory mandate dramatization",
+        "detail": "Framing new supreme leader's first statements as calls for Hormuz closure retaliation to suggest aggressive succession agenda.",
+        "debias": "Distinguish between leadership rhetoric for domestic audiences and actual policy implementation capacity.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Iranian oil price threat validation questioning",
+        "detail": "Posing Iranian claims of $200/barrel oil as open questions to explore rather than dismissing as unrealistic threats.",
+        "debias": "Provide market analyst consensus on oil price scenarios rather than treating Iranian threats as credible forecasts.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Quds Day observance speculation threading",
+        "detail": "Questioning whether Iran can proceed with planned Quds Day marches to suggest regime legitimacy crisis under military pressure.",
+        "debias": "Avoid using domestic cultural observances as proxy indicators for regime stability without supporting evidence.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Louvre Abu Dhabi art risk humanization",
+        "detail": "Highlighting French concerns about loaned artworks in Gulf conflict zone to personalize cultural heritage war consequences for European audiences.",
+        "debias": "Acknowledge cultural heritage concerns without elevating Western museum loans above human displacement and casualties.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Data center warfare modernization framing",
+        "detail": "Positioning cloud infrastructure as 'new strategic targets' to emphasize technological warfare evolution over traditional military targeting.",
+        "debias": "Contextualize infrastructure threats within broader civilian targeting patterns rather than treating as novel warfare category.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
