@@ -211,6 +211,27 @@
         "debias": "Describe infrastructure with technical rather than literary language to avoid romanticizing potential targets.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Kurdish casualty regionalization emphasis",
+        "detail": "Deaths in Iranian Kurdistan are highlighted with specific regional designation and official sourcing, emphasizing ethnic minority targeting within broader conflict.",
+        "debias": "Report regional casualties without disproportionately emphasizing ethnic dimensions that may not be primary military factors.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Hamas diplomatic mediation positioning",
+        "detail": "Hamas statements urging Iran to halt Gulf attacks are featured prominently, framing designated terrorist organization as regional peacemaking intermediary.",
+        "debias": "Report statements from armed groups in conflict context without positioning them as neutral diplomatic mediators.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "No quarter war crime framing",
+        "detail": "Expert analysis that US 'no quarter' threat violates international law is emphasized, framing policy statements through legal violation lens with analyst authority.",
+        "debias": "Report legal analyses as one perspective among others without presenting single expert view as definitive international law determination.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -688,6 +709,62 @@
         "pattern": "Lebanon displacement milestone tracking",
         "detail": "Euronews highlights approaching displacement thresholds ('nearly 700,000 people') in Lebanon, creating crisis escalation narrative through numerical proximity to round figures.",
         "debias": "Report displacement figures without milestone-proximity framing that suggests arbitrary thresholds of significance.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Civilian geolocation crowdsourcing amplification",
+        "detail": "Headlines emphasize how civilian smartphone videos and social media content directly enable military targeting operations, framing domestic populations as unwitting military intelligence assets.",
+        "debias": "Describe intelligence gathering methods neutrally without sensationalizing civilian surveillance role or implying systematic exploitation.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Leader physical disfigurement speculation",
+        "detail": "Defense official statements about new Iranian leader being 'wounded and possibly disfigured' are prominently featured, personalizing conflict through physical injury speculation.",
+        "debias": "Report leadership transitions and health status factually without emphasizing unconfirmed physical disfigurement claims.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Allied nation war entrapment questioning",
+        "detail": "Death of single French officer in Iraq generates multiple headlines asking whether France will be 'dragged into war,' framing minor incidents as potential catalysts for major escalation.",
+        "debias": "Report coalition casualties proportionally without amplifying speculation about broader war involvement based on isolated incidents.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Environmental warfare consequence dramatization",
+        "detail": "Black rain phenomenon in Iran receives explanatory coverage linking environmental disasters to military conflict, framing ecological damage as war byproduct.",
+        "debias": "Report environmental incidents with scientific context without automatically attributing causation to ongoing military operations.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Repatriation body count humanization",
+        "detail": "Specific numerical details about repatriation of 84 Iranian sailors' bodies from Sri Lanka emphasize human cost through logistical death aftermath.",
+        "debias": "Report casualty repatriation factually without using specific body counts as primary emotional framing device.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Cross-conflict retaliatory target expansion",
+        "detail": "Iranian lawmaker statement that Ukraine is 'legitimate war target' for drone support is prominently featured, framing geographically distant conflicts as interconnected threat networks.",
+        "debias": "Report threat statements in diplomatic context without amplifying speculative conflict expansion beyond primary theaters.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Marine deployment ground invasion speculation",
+        "detail": "Movement of 2,200 marines generates multiple headlines questioning whether Trump is 'preparing ground invasion,' framing routine force positioning as invasion harbinger.",
+        "debias": "Report troop deployments with military context and stated purposes without speculating about undeclared invasion intentions.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Ex-leader forum antiwar legitimization",
+        "detail": "Coverage of Balkan ex-presidents criticizing Iran war at Baku Forum platforms former leaders' opposition as legitimate diplomatic perspective.",
+        "debias": "Report international forum statements proportionally without elevating ex-officials' positions as representative diplomatic consensus.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
