@@ -260,6 +260,34 @@
         "debias": "Attribute negotiation claims to specific officials with equal skepticism toward all parties' public statements.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Pearl Harbor historical invocation via Trump",
+        "detail": "Al Jazeera highlights Trump's Pearl Harbor references during Japan meetings as ominous historical parallel-drawing, amplifying rhetoric that frames current events through past US war trauma.",
+        "debias": "Report historical analogies without amplifying them as definitive framing devices for current conflicts.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Iranian leadership decapitation vacuum speculation",
+        "detail": "Al Jazeera frames assassinations as creating fundamental questions about who actually leads Iran, suggesting command structure collapse rather than continuity or succession.",
+        "debias": "Cover leadership targeting without assuming organizational collapse; acknowledge institutional continuity mechanisms.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Multi-year LNG disruption timeline extension",
+        "detail": "Al Jazeera emphasizes Qatar's statement of up-to-five-year capacity reductions, anchoring long-term economic consequences over potential repair timelines or adaptive responses.",
+        "debias": "When reporting damage assessments, include potential recovery scenarios alongside worst-case duration estimates.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "PMF Iraq targeting widening war geography",
+        "detail": "Al Jazeera frames strikes on PMF fighters in northern Iraq as evidence of 'wider war' expansion, connecting peripheral incidents to central conflict escalation narrative.",
+        "debias": "Report regional incidents without automatically categorizing them as war expansion unless direct operational links are established.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -424,6 +452,34 @@
         "pattern": "Japanese ministerial quotation anchoring",
         "detail": "Prioritizes Japanese transport and finance minister statements on Persian Gulf impacts, centering Japanese policy perspective.",
         "debias": "Balance Japanese official statements with perspectives from multiple affected economies.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Japanese domestic political constraint framing",
+        "detail": "Reuters frames the Takaichi government's stance on Iran as creating internal political barriers to Bank of Japan normalization, tying foreign conflict to domestic monetary policy constraints.",
+        "debias": "When covering central bank decisions, separate war-driven inflation concerns from domestic political narratives about policy constraints.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Jones Act emergency suspension dramatization",
+        "detail": "Reuters emphasizes the US waiving domestic shipping protections (Jones Act) as signaling acute energy crisis urgency rather than routine policy flexibility.",
+        "debias": "Present regulatory waivers as policy tools without assuming they necessarily indicate crisis-level urgency.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Trump media treason accusation amplification",
+        "detail": "Reuters frames Trump administration rhetoric about 'treason' in war reporting as an escalating attack on press freedom, centering the controversy over the underlying reporting disputes.",
+        "debias": "Cover government-press tensions without elevating inflammatory rhetoric to the main narrative focus.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Venezuelan sanction relief expedience framing",
+        "detail": "Reuters presents US permission for Venezuelan oil transactions as contradicting prior policy principles, emphasizing strategic inconsistency over energy pragmatism.",
+        "debias": "Frame sanction adjustments as tactical policy shifts rather than highlighting contradictions that imply hypocrisy.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -884,6 +940,34 @@
         "pattern": "War-accelerated nuclear capability speculation",
         "detail": "Frames conflict as potentially accelerating Iranian nuclear weapons development timeline through expert speculation.",
         "debias": "Present nuclear program assessments based on verified intelligence rather than conflict-contingent speculation.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Nowruz cultural resilience juxtaposition",
+        "detail": "Euronews contrasts Iranian citizens celebrating traditional fire festivals during wartime to highlight civilian normalcy despite conflict, implying regime disconnect or popular defiance.",
+        "debias": "Report cultural observances during conflict without implying they necessarily signal political resistance or regime weakness.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Gulf airline loyalty program casualty highlighting",
+        "detail": "Euronews emphasizes changes to frequent flyer programs and travel disruptions as tangible war impacts on ordinary consumers, personalizing conflict consequences through lifestyle inconveniences.",
+        "debias": "Balance consumer impact coverage with proportional attention to more severe humanitarian consequences.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Orbán Ukraine veto parallelization",
+        "detail": "Euronews links Hungary's blocking of Ukraine loans to broader EU summit tensions including Iran war energy impacts, creating narrative continuity between separate crises as unified EU dysfunction.",
+        "debias": "Treat distinct policy disputes separately rather than bundling them into omnibus EU crisis narratives.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Russian war profiteering data quantification",
+        "detail": "Euronews provides specific data on Russian financial gains from Iran conflict oil price rises, framing Moscow as beneficiary of Middle East instability with monetary precision.",
+        "debias": "When citing economic beneficiaries of conflict, provide comparable data on losses and disruptions to avoid selective profiteering narratives.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
