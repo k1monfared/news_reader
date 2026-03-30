@@ -428,6 +428,20 @@
         "debias": "Distinguish between precautionary business measures and actual economic crisis when reporting distant secondary effects.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Diaspora confrontation solidarity framing",
+        "detail": "LA Iranian diaspora coverage frames community response as 'confronting' US war policy, positioning diaspora as unified opposition bloc.",
+        "debias": "Report diaspora perspectives with acknowledgment of diverse viewpoints within communities rather than monolithic 'confrontation' positioning.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Oil war logic reduction",
+        "detail": "Headline reduces complex military conflict to 'oil logic behind Trump war' as primary explanatory framework, economically deterministic framing.",
+        "debias": "Present multiple strategic factors in conflict analysis rather than reducing to single economic motive as primary explanatory logic.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -767,6 +781,20 @@
         "pattern": "Democratic Senator investigation demand amplification",
         "detail": "Highlighting opposition party calls for school bombing investigations to elevate domestic political accountability pressure.",
         "debias": "Balance opposition demands with administration responses and investigation timelines to avoid one-sided accountability framing.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Taiwan arms continuity reassurance",
+        "detail": "US official testimony that Iran conflict hasn't delayed Taiwan weapons supply framed as newsworthy reassurance to specific allied concern.",
+        "debias": "Report arms supply timelines factually without framing as reassurance narrative to specific parties, maintaining neutral procurement tracking.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Gulf deposit flight catastrophization",
+        "detail": "S&P projection of potential $307 billion deposit outflow from Gulf banks quantifies hypothetical capital flight scenario as concrete risk metric.",
+        "debias": "Report financial institution risk assessments with clear conditional framing and probability qualifications rather than presenting scenario modeling as predictive.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -1507,6 +1535,34 @@
         "pattern": "Data center warfare modernization framing",
         "detail": "Positioning cloud infrastructure as 'new strategic targets' to emphasize technological warfare evolution over traditional military targeting.",
         "debias": "Contextualize infrastructure threats within broader civilian targeting patterns rather than treating as novel warfare category.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "War resilience attribution reversal",
+        "detail": "Headlines frame Iran's continued functioning during conflict as 'regime resilience' or 'resistance despite pressure' rather than neutral operational continuity reporting.",
+        "debias": "Report operational continuity factually without attributing normative resilience characteristics to either side's ability to function during conflict.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "New leader wealth hypocrisy exposure",
+        "detail": "Multiple headlines in different languages spotlight Mojtaba Khamenei's foreign property holdings using 'piety at home, property abroad' framing to emphasize religious-financial contradiction.",
+        "debias": "Report leadership wealth and asset holdings without moralized contradiction framing, allowing readers to assess significance independently.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Airline cancellation war-causation threading",
+        "detail": "SAS flight cancellations attributed directly to fuel price doubling 'after' conflict events, creating causal chain from war to consumer disruption.",
+        "debias": "Report airline operational changes with full market context including pre-existing factors, avoiding singular war-to-consumer-impact causation.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Exiled scientist award politicization",
+        "detail": "Water Nobel prize framing emphasizes scientist's exile status from Iran rather than research achievement, converting scientific recognition into political commentary.",
+        "debias": "Lead with scientific achievement details before political context when covering research awards to avoid subordinating merit to geopolitical narrative.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
