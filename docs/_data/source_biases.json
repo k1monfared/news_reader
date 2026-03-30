@@ -22,6 +22,20 @@
         "debias": "Apply consistent attribution to all sides' claims.",
         "date_added": "2026-03-29",
         "status": "confirmed"
+      },
+      {
+        "pattern": "US-Israel attribution fusion",
+        "detail": "Systematically refers to military actions as 'US-Israeli' strikes/attacks/war rather than attributing them separately, implying equal responsibility and joint operation.",
+        "debias": "Attribute military actions to specific actors based on confirmed operational command rather than defaulting to hyphenated joint attribution.",
+        "date_added": "2026-03-29",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Regime change narrative amplification",
+        "detail": "Prominently features and legitimizes Trump's claim that war achieved 'regime change' in Iran without verification or Iranian perspective on actual governance continuity.",
+        "debias": "Verify claims of regime change against observable changes in governance structures before presenting them as accomplished facts.",
+        "date_added": "2026-03-29",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -75,6 +89,13 @@
         "debias": "Apply consistent treatment to all leaders' rhetoric.",
         "date_added": "2026-03-29",
         "status": "confirmed"
+      },
+      {
+        "pattern": "Casualty specification asymmetry",
+        "detail": "Provides precise nationality and injury details for US troops (nationality of wounded, concussion counts) while using aggregate numbers for Iranian or other casualties.",
+        "debias": "Apply consistent granularity standards when reporting casualties across all parties to avoid humanizing one side disproportionately.",
+        "date_added": "2026-03-29",
+        "status": "suggested"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -95,6 +116,13 @@
         "debias": "Supplement with sources that cover military and humanitarian dimensions.",
         "date_added": "2026-03-29",
         "status": "confirmed"
+      },
+      {
+        "pattern": "Conflict temporality normalization",
+        "detail": "Frames ongoing military actions through bureaucratic time markers ('fifth week', 'one month mark') that normalize extended warfare as measured progression.",
+        "debias": "Balance temporal framing with impact metrics rather than treating war duration as neutral chronological milestones.",
+        "date_added": "2026-03-29",
+        "status": "suggested"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
