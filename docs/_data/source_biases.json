@@ -43,6 +43,20 @@
         "debias": "Report each conflict development separately without speculative linking to unrelated countries unless direct operational connections are confirmed.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Succession speculation amplification",
+        "detail": "Multiple articles focus on who will succeed Khamenei and timeline speculation, treating regime transition as imminent political drama rather than unconfirmed possibility.",
+        "debias": "Present succession discussions as conditional speculation contingent on confirmed leadership vacuum, not inevitable outcome.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "US political unity framing",
+        "detail": "Headlines emphasize Republican support for Iran strikes 'despite antiwar MAGA wing,' framing internal US dissent as minority position overcome by consensus.",
+        "debias": "Present US political reactions with equal weight to supporting and opposing voices without suggesting consensus where division exists.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -88,6 +102,20 @@
         "pattern": "Japanese source attribution distancing",
         "detail": "Uses Japanese language framing to report unconfirmed claims about Khamenei's death attributed to US-Israeli leaders, creating geographic and linguistic distance from direct editorial responsibility.",
         "debias": "Translate content accurately while maintaining the same level of source attribution and verification standards as English-language reporting.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Infrastructure impact specificity",
+        "detail": "Japanese-language coverage emphasizes specific civilian infrastructure damage (airports, hotels) and commercial disruption over military or political dimensions.",
+        "debias": "Balance infrastructure impact reporting with proportional coverage of political, military, and diplomatic dimensions.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Energy chokepoint catastrophization",
+        "detail": "Headlines emphasize Strait of Hormuz closure and oil/gas transport suspension by specific companies, framing energy security as primary lens for conflict.",
+        "debias": "Present energy implications as one consequence among multiple rather than primary framework for understanding conflict.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -184,6 +212,27 @@
         "pattern": "Trump direct attribution emphasis",
         "detail": "Explicitly names Trump as the primary source of Khamenei death claim in headline ('sagt US-Präsident Trump'), foregrounding individual attribution over institutional verification.",
         "debias": "Balance individual source attribution with verification status and institutional confirmation levels when reporting unconfirmed claims.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Multilingual intensity variation",
+        "detail": "Same events described with varying dramatic intensity across language editions (e.g., 'Middle East burns' in Arabic vs. neutral phrasing in English).",
+        "debias": "Normalize dramatic language differences across language editions by using consistent neutral framing regardless of target audience.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Intelligence operation dramatization",
+        "detail": "Headlines highlight 'CIA tracked for months' details, emphasizing operational sophistication and planning rather than legal or diplomatic dimensions.",
+        "debias": "Balance intelligence operation details with equal attention to international law frameworks and diplomatic context.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Third-party leader reaction prioritization",
+        "detail": "Multiple headlines feature Putin, Zelensky, and other non-regional leaders' reactions, framing Middle East conflict through European geopolitical concerns.",
+        "debias": "Prioritize regional actors' responses over distant powers' reactions when covering Middle East events.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
