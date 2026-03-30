@@ -22,7 +22,7 @@ from models import load_config, RawItem, RunMeta
 from llm_client import AuditedLLMClient
 from audit_logger import AuditedHTTPClient
 from run_pipeline import create_run_dir, update_latest_symlink, get_timezone_offset
-from stages.fetchers.gdelt import GDELTFetcher
+from stages.fetchers.gdelt import gdelt_fetch_all_sources
 from stages.fetchers.archive_france24 import France24ArchiveFetcher
 
 logging.basicConfig(
@@ -70,23 +70,25 @@ def has_successful_run(data_dir: str, date_str: str) -> bool:
 
 
 def fetch_for_date(config, http_client, target_date: str) -> list[RawItem]:
-    """Fetch articles for all sources on a given date via GDELT + France24 archive."""
+    """Fetch articles for all sources on a given date via GDELT + France24 archive.
+
+    Uses a single batched GDELT query for all sources to avoid rate limits.
+    """
     all_items: list[RawItem] = []
     seen_urls: set[str] = set()
 
-    for source in config.sources:
-        # GDELT fetch for every source
-        try:
-            gdelt = GDELTFetcher(source, http_client, target_date)
-            items = gdelt.fetch()
-            for item in items:
-                if item.source_url not in seen_urls:
-                    seen_urls.add(item.source_url)
-                    all_items.append(item)
-        except Exception as e:
-            logger.error(f"GDELT fetch failed for {source.name}: {e}")
+    # Single GDELT query for all sources
+    try:
+        items = gdelt_fetch_all_sources(config, http_client, target_date)
+        for item in items:
+            if item.source_url not in seen_urls:
+                seen_urls.add(item.source_url)
+                all_items.append(item)
+    except Exception as e:
+        logger.error(f"GDELT batch fetch failed: {e}")
 
-        # France24 archive scraper (in addition to GDELT)
+    # France24 archive scraper (supplement GDELT with richer summaries)
+    for source in config.sources:
         if source.name == "france24":
             try:
                 archive = France24ArchiveFetcher(source, http_client, target_date)
@@ -259,7 +261,7 @@ def main() -> None:
     failures = 0
     skipped = 0
 
-    for date_str in dates:
+    for i, date_str in enumerate(dates):
         try:
             result = run_backfill_date(date_str, config, data_dir)
             if result is None:
@@ -272,6 +274,10 @@ def main() -> None:
         except Exception as e:
             logger.error(f"Backfill for {date_str} failed: {e}", exc_info=True)
             failures += 1
+
+        # Rate limit: pause between dates to avoid GDELT throttling
+        if i < len(dates) - 1:
+            time.sleep(2)
 
     logger.info(
         f"Backfill complete: {successes} succeeded, {skipped} skipped, {failures} failed"

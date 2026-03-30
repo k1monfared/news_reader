@@ -58,13 +58,12 @@ def run_verify(
             invalid += 1
             replacements[url] = True
 
-    # Replace invalid URLs in report
+    # Keep invalid URLs but mark them so readers know the link may be dead
     verified_report = report
     for url in replacements:
-        # Keep the source text but mark link as unavailable
         verified_report = verified_report.replace(
             f"]({url})",
-            f"](# \"link unavailable\")",
+            f"]({url} \"link may be dead\")",
         )
 
     (run_path / "report_verified.md").write_text(verified_report)
