@@ -78,6 +78,27 @@
         "debias": "Present multiple analytical perspectives on leadership targeting consequences without privileging predictions that serve specific narratives.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "International law framing priority",
+        "detail": "Prioritizes international law legality questions in headlines and leads ('Are US-Israeli attacks legal under international law?') establishing legal violation as primary frame for analyzing military actions.",
+        "debias": "Present legal analysis alongside military, strategic, and humanitarian dimensions rather than as primary interpretive lens.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "China-Iran solidarity highlighting",
+        "detail": "Highlights Iranian commitments to protect Chinese citizens prominently, emphasizing alternative power bloc solidarity narrative.",
+        "debias": "Present diplomatic statements about citizen protection in context of standard consular responsibilities rather than geopolitical alignment signaling.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Insurance market crisis amplification",
+        "detail": "Frames insurance coverage cancellations and war risk changes as existential economic threats ('will it spike energy cost?') rather than routine market risk adjustments.",
+        "debias": "Present insurance market adjustments with historical precedents and alternative coverage mechanisms that typically emerge.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -151,6 +172,20 @@
         "pattern": "MAGA coalition stress testing framing",
         "detail": "Frames Iran conflict primarily as test of Trump's domestic political coalition unity rather than as foreign policy action itself.",
         "debias": "Report domestic political reactions without making them the primary analytical frame for understanding military operations.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Japanese domestic impact anchoring",
+        "detail": "Consistently anchors Middle East events to specific Japanese domestic impacts (ship owner warnings, LNG procurement, intervention concerns, economic ministry statements) reflecting primary audience priorities.",
+        "debias": "When covering for international audiences, balance domestic impact details with broader regional and global implications.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Central bank uncertainty quotation",
+        "detail": "Systematically quotes central bank officials stating judgments are 'premature' or situations require 'monitoring' rather than providing economic analysis or forecasts.",
+        "debias": "Supplement official caution statements with independent economic analysis and historical parallels to similar disruptions.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -289,6 +324,41 @@
         "pattern": "Ammunition depletion vulnerability framing",
         "detail": "Focuses on US ammunition shortages to suggest operational unsustainability and question the attacker's capacity to continue operations.",
         "debias": "Present logistics challenges symmetrically for all parties or contextualize within overall military capability assessments.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Trump self-credit amplification",
+        "detail": "Amplifies Trump's personal claims of credit for military actions using direct quotes in headlines like 'I pushed Israel into battle' and 'everything been knocked out' without verification or counterbalancing skepticism.",
+        "debias": "Attribute claims to Trump explicitly and include verification status or alternative assessments of battlefield outcomes.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "European vulnerability speculation threading",
+        "detail": "Repeatedly threads European vulnerability themes across stories (European parliament considering regime change figure, Europe possibly joining war, Petraeus warning, Germany alignment with US) creating cumulative anxiety narrative.",
+        "debias": "Present European policy options and debates without cumulatively framing Europe as facing imminent involvement decisions.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Cross-conflict resource competition framing",
+        "detail": "Frames Middle East conflict as competing with Ukraine for resources and attention ('negligible impact' on Ukraine, ammunition depletion) rather than as separate policy challenges.",
+        "debias": "Present conflicts as distinct policy challenges without zero-sum resource competition framing unless explicitly stated by sources.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Energy price catastrophe anticipation",
+        "detail": "Emphasizes energy price doubling and shock preparation narratives across multiple stories, amplifying economic fear despite market mechanisms still functioning.",
+        "debias": "Report energy price movements with historical context and market stabilization factors alongside volatility.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Evacuation universalization framing",
+        "detail": "Emphasizes mass evacuations and panic at borders across multiple countries (France, Greece, Azerbaijan border) suggesting region-wide exodus rather than targeted precautionary measures.",
+        "debias": "Distinguish between emergency evacuations and routine precautionary travel advisories with specific numbers and contexts.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
