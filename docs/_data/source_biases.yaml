@@ -52,6 +52,22 @@ aljazeera:
       as 'raids' or 'attacks'). This linguistic asymmetry frames Israeli actions as
       aggressive territorial expansion while Iranian actions appear as discrete strikes.
     status: suggested
+  - date_added: '2026-03-29'
+    observation: Frames Trump's statements about 'regime change' and oil seizure in
+      headlines without quotation marks ('Trump says Iran's had regime change' as
+      he describes 'boatloads of oil'), presenting these as Trump's declarations rather
+      than contested claims. The text then characterizes the conflict as 'US-Israeli
+      war on Iran has effectively brought regime change,' blending Trump's assertion
+      with editorial framing that suggests this is an accomplished fact rather than
+      Trump's opinion.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Uses passive voice and attribution when reporting Iranian infrastructure
+      damage ('Power being restored after Iran's Ministry of Energy reported outages')
+      while using active voice for US/Israeli actions, creating asymmetric agency
+      framing where Iranian suffering is presented through official reports while
+      Western actions are presented as direct events.
+    status: suggested
   display_name: Al Jazeera
   notes: Generally reliable but watch for editorialized framing
 euronews:
@@ -108,6 +124,28 @@ euronews:
       Contrasts with Al Jazeera's emphasis on casualties/damage and creates frame
       where conflict is primarily diplomatic negotiation rather than active warfare.
     status: suggested
+  - date_added: '2026-03-29'
+    observation: Provides minimal substantive coverage of conflict casualties, damage,
+      or military operations (only 7 conflict-focused items vs. 25+ for other sources),
+      instead prioritizing European institutional reactions (Pope statements, MEP
+      positions on Venice Biennale, Palm Sunday incident). This creates a hierarchy
+      where European religious/political responses to the conflict receive more coverage
+      than the conflict's actual impacts.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Uses procedural, diplomatic language for conflict developments ('Trump
+      says deal could be reached soon,' 'Iran wary of diplomacy') that emphasizes
+      negotiation processes and statements over military consequences or casualties,
+      framing the conflict primarily as a diplomatic challenge rather than active
+      warfare with humanitarian impacts.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Emphasizes Palm Sunday incident as 'first time in centuries' that
+      church heads were barred, using historical rarity framing to elevate this religious
+      access issue to similar editorial prominence as military strikes and casualties
+      in other sources' coverage. This reflects prioritization of European Catholic
+      institutional concerns over regional humanitarian impacts.
+    status: suggested
   display_name: Euronews
   notes: Generally reliable, aggregates multiple European viewpoints
 france24:
@@ -163,6 +201,20 @@ france24:
       serves as analytical intermediary rather than direct information conveyor. This
       editorial structure emphasizes European institutional expertise as lens for
       understanding conflict.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Consistently embeds subjective emotional assessments from reporters
+      directly into news reporting as factual descriptions ('Beirut holding its breath,'
+      'history is repeating itself,' 'city holding its breath'), blurring the line
+      between reporting atmospheric observations and making editorial judgments about
+      collective emotional states. This differs from quoting sources who express these
+      feelings.
+    status: suggested
+  - date_added: '2026-03-29'
+    observation: Uses quotation marks around Trump's territorial and resource seizure
+      statements ('take the oil,' 'set on fire,' 'boatloads of oil') while not applying
+      similar distancing punctuation to other leaders' inflammatory statements, suggesting
+      editorial judgment that specifically Trump's claims require skeptical framing.
     status: suggested
   display_name: France 24
   notes: Strong on diplomacy coverage
