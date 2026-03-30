@@ -45,9 +45,7 @@ user_template: |
 
   </details>
 
-  ---
-
-  *What to watch: One sentence about what might happen next based on today's developments.*
+  **What to watch:** One sentence about what might happen next based on today's developments.
 
   Formatting rules:
   - Use {min_bullets} to {max_bullets} items total based on news volume.

@@ -81,6 +81,4 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/29/dozens-
 
 </details>
 
----
-
 **What to watch:** Outcomes from the Islamabad diplomatic talks and whether they produce concrete de-escalation proposals; any White House decision on Pentagon ground operation plans; Houthi activity in the Bab al-Mandeb strait and potential impact on global shipping.

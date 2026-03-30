@@ -91,31 +91,15 @@ All project commands are defined in `.claude/commands.env`
 - Audit trail: `audit/llm_calls.jsonl`, `audit/llm_inputs/`, `audit/llm_outputs/`, `audit/api_calls.jsonl`
 - Prompt templates in `prompts/*.yaml` with version tracking
 - Source fetchers in `stages/fetchers/` behind `BaseFetcher` interface
-- Bias tracking: `site/_data/source_biases.yaml` (detected in editorial stage, displayed on About page)
+- Bias tracking: `docs/_data/source_biases.yaml` (detected in editorial stage, displayed on About page)
 
 ## Naming Convention
-- The conflict is called "US-Israel war on Iran", not "Iran conflict"
-- Site title: "War on Iran: Daily Brief"
+- The conflict is called the "USrael war on Iran", not "Iran conflict"
+- Site title: "USrael War on Iran: Daily Brief"
 - Post titles: "Daily Brief: {Month Day, Year}" (no redundant conflict name)
 
-## Deploying Site Changes to GitHub Pages
-The live site is built from the `gh-pages` branch. The `site/` directory on master is the source of truth. A persistent worktree at `.gh-pages/` stays checked out on gh-pages.
-
-```bash
-# Sync site contents to the worktree
-rsync -av --delete site/ .gh-pages/ --exclude='.git'
-
-# Commit and push
-cd .gh-pages
-git add -A
-git commit -m "Deploy site changes"
-git push origin gh-pages
-cd ..
-```
-
-If the worktree is missing, recreate it: `git worktree add .gh-pages gh-pages`
-
-The pipeline's publish stage (`stages/publish.py`) only pushes new post files to gh-pages automatically. Layout, CSS, JS, data, and page changes require manual deployment using the steps above.
+## Deploying to GitHub Pages
+GitHub Pages is configured to build from the `docs/` directory on `master`. Everything is one branch, one push. The pipeline's publish stage commits new posts and pushes master automatically. Site changes (layouts, CSS, pages) deploy with any normal `git push origin master`.
 
 ## Environment Setup
 - Install deps: `pip install -r requirements.txt`

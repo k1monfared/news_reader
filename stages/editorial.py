@@ -16,7 +16,7 @@ from prompt_loader import load_prompt
 
 logger = logging.getLogger(__name__)
 
-BIASES_PATH = Path("site/_data/source_biases.yaml")
+BIASES_PATH = Path("docs/_data/source_biases.yaml")
 
 
 def _run_bias_detection(

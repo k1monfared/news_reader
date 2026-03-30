@@ -6,9 +6,6 @@ layout: default
     <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">
       {{ page.date | date: "%B %d, %Y" }}
     </time>
-    {% if page.generated_at %}
-    <span class="post-generated">Generated {{ page.generated_at }}</span>
-    {% endif %}
     {% if page.sources_down.size > 0 %}
     <p class="sources-down">
       <strong>Note:</strong> The following sources were unreachable for this report:
@@ -20,6 +17,12 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+
+  {% if page.generated_at %}
+  <footer class="post-footer">
+    <span class="post-generated">Generated {{ page.generated_at }}</span>
+  </footer>
+  {% endif %}
 
   <nav class="post-nav">
     {% if page.previous.url %}

@@ -206,21 +206,26 @@ main {
 
 .post-header {
   margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--border);
+  text-align: center;
 }
 
 .post-date {
-  color: var(--text-muted);
-  font-size: 0.9rem;
+  color: var(--text-primary);
+  font-size: 1.4rem;
+  font-weight: 600;
   display: block;
+  letter-spacing: -0.01em;
+}
+
+.post-footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
 }
 
 .post-generated {
   color: var(--text-muted);
   font-size: 0.75rem;
-  display: block;
-  margin-top: 0.15rem;
 }
 
 .sources-down {
@@ -427,9 +432,7 @@ main {
    =================================== */
 
 .post-content hr {
-  border: none;
-  border-top: 1px solid var(--border);
-  margin: 1.5rem 0;
+  display: none;
 }
 
 /* ===================================

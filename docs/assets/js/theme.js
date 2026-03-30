@@ -2,8 +2,8 @@
   var STORAGE_KEY = "theme-preference";
   var DARK = "dark";
   var LIGHT = "light";
-  var SUN = "\u2600\uFE0F";
-  var MOON = "\uD83C\uDF19";
+  var SUN = "\u263C";
+  var MOON = "\u263E";
 
   function getPreferred() {
     var stored = localStorage.getItem(STORAGE_KEY);

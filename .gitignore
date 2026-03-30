@@ -2,9 +2,6 @@ node_modules/
 .env
 .DS_Store
 
-# gh-pages worktree
-.gh-pages/
-
 # Claude Code
 .claude/cache/
 .mcp/logs/

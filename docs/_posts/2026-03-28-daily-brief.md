@@ -8,8 +8,6 @@ sources_down: []
 
 **Key development:** Pentagon prepares plans for potential weeks-long ground operations in Iran's strategic regions as the conflict enters its 30th day.
 
----
-
 ## Military Operations
 
 <details markdown="block">
@@ -82,7 +80,5 @@ Police in Tel Aviv dispersed protesters opposing the US-Israeli war on Iran on S
 Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/29/dozens-detained-in-tel-aviv-as-anti-war-protest-turns-violent)
 
 </details>
-
----
 
 **What to watch:** Decision on Pentagon ground operation plans; outcomes from the Islamabad diplomatic talks; potential Houthi escalation in Bab al-Mandeb; fate of stranded seafarers in Strait of Hormuz.

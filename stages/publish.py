@@ -1,11 +1,10 @@
-"""Publish stage: deploys the report to GitHub Pages via git."""
+"""Publish stage: writes the report as a Jekyll post and pushes to master."""
 
 from __future__ import annotations
 
 import json
 import logging
 import subprocess
-import shutil
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -56,8 +55,7 @@ def run_publish(
     http_client: AuditedHTTPClient,
 ) -> dict:
     run_path = Path(run_dir)
-    site_dir = Path(config.publish.get("site_dir", "site"))
-    branch = config.publish.get("branch", "gh-pages")
+    site_dir = Path(config.publish.get("site_dir", "docs"))
 
     # Find the best available report
     report_path = run_path / "report_verified.md"
@@ -83,39 +81,31 @@ def run_publish(
     post_path.write_text(frontmatter + report_content)
     logger.info(f"Wrote post to {post_path}")
 
-    # Git operations
+    # Git: commit the new post and push master
     try:
-        _git_publish(site_dir, branch, date_str)
+        _git_publish(date_str)
         return {"status": "published", "post": str(post_path)}
     except Exception as e:
         logger.error(f"Git publish failed: {e}. Retrying once...")
         try:
-            _git_publish(site_dir, branch, date_str)
+            _git_publish(date_str)
             return {"status": "published_retry", "post": str(post_path)}
         except Exception as e2:
             logger.error(f"Git publish retry failed: {e2}. Post is on disk.")
             return {"status": "failed_push", "post": str(post_path), "error": str(e2)}
 
 
-def _git_publish(site_dir: Path, branch: str, date_str: str) -> None:
-    """Add, commit, and push the site directory."""
+def _git_publish(date_str: str) -> None:
+    """Add, commit, and push from the repo root."""
     def run_git(*args: str) -> subprocess.CompletedProcess:
         return subprocess.run(
             ["git"] + list(args),
-            cwd=str(site_dir),
             capture_output=True,
             text=True,
             timeout=60,
         )
 
-    # Check if we're in a git repo
-    result = run_git("rev-parse", "--git-dir")
-    if result.returncode != 0:
-        # Initialize git in the site directory
-        run_git("init")
-        run_git("checkout", "-b", branch)
-
-    run_git("add", "-A")
+    run_git("add", "docs/_posts/", "docs/_data/")
 
     result = run_git("diff", "--cached", "--quiet")
     if result.returncode == 0:
@@ -123,4 +113,4 @@ def _git_publish(site_dir: Path, branch: str, date_str: str) -> None:
         return
 
     run_git("commit", "-m", f"Daily brief: {date_str}")
-    run_git("push", "-u", "origin", branch)
+    run_git("push", "origin", "master")

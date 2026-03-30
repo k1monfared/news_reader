@@ -253,8 +253,8 @@ pipeline:
 # ---------------------------------------------------------------------------
 publish:
   method: github_pages
-  branch: gh-pages
-  site_dir: site
+  branch: master
+  site_dir: docs
 
 # ---------------------------------------------------------------------------
 # Paths
