@@ -456,6 +456,27 @@
         "debias": "Distinguish between strikes on non-state actors within a country and strikes targeting that country's sovereign forces or infrastructure.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Medical supply chain warfare consequence threading",
+        "detail": "Connects Iran conflict to helium shortages causing MRI scan delays, extending war impact into healthcare infrastructure disruption.",
+        "debias": "Report supply chain disruptions factually without threading every secondary effect back to conflict as primary cause.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Historical trade disruption magnitude comparison",
+        "detail": "Frames current situation as 'worst trade disruption in 80 years,' creating historical equivalence with World War II-era disruptions.",
+        "debias": "Provide specific trade volume data rather than making sweeping historical comparisons to maximize perceived severity.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Australian visa ban contagion tracking",
+        "detail": "Reports Australia banning Iranian visitors as conflict spillover effect, suggesting geographic expansion of discrimination measures.",
+        "debias": "Report individual nations' policy changes without framing as part of spreading pattern unless explicitly coordinated.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -837,6 +858,76 @@
         "pattern": "Indian tanker breakthrough exceptionalism highlighting",
         "detail": "Singularizes one Indian-flagged tanker's Hormuz passage amid hundreds stranded, creating breakthrough narrative suggesting discriminatory treatment or special courage.",
         "debias": "Contextualize individual vessel movements within overall traffic patterns and explain selection criteria rather than implying exceptionalism.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Gulf existential crisis UN amplification",
+        "detail": "Highlights Gulf states' UN testimony that Iranian attacks create 'existential crisis,' elevating regional fears to international forum.",
+        "debias": "Report UN statements neutrally without amplifying rhetoric designed for diplomatic impact as objective threat assessment.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "German fiscal limit confession extraction",
+        "detail": "Quotes German Chancellor stating fiscal policy 'cannot compensate for all' energy price increases, framing as admission of state impotence.",
+        "debias": "Report government policy statements without extracting quotes that suggest institutional failure or helplessness.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Netanyahu electoral calculus reversal tracking",
+        "detail": "Reports Netanyahu shifting away from early elections despite Iran attacks failing to boost his support, suggesting political miscalculation.",
+        "debias": "Report electoral timing decisions factually without speculating on leader's poll-driven motivations or strategic failures.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "UK bond market resilience validation seeking",
+        "detail": "Features Bank of England official confirming gilt market 'functioned normally' despite conflict chaos, suggesting institutional stress-testing narrative.",
+        "debias": "Report market functioning data without framing as validation exercise or resilience test against crisis scenarios.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Turkish energy independence self-assurance amplification",
+        "detail": "Quotes Turkish energy minister claiming only 10% Middle East oil dependence means 'no supply problems,' highlighting national confidence claims.",
+        "debias": "Report national energy dependency figures without amplifying government reassurances as newsworthy confidence claims.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Middle East food import urgency specification",
+        "detail": "Features Maersk executive identifying 'pressing need' for food imports in region, elevating corporate logistics assessment to humanitarian crisis indicator.",
+        "debias": "Report supply chain assessments without elevating corporate operational concerns to humanitarian emergency framing.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Options market extreme scenario speculation quantification",
+        "detail": "Reports increased trading in options anticipating oil above $150, treating speculative hedging positions as probability indicators.",
+        "debias": "Report options activity as hedging behavior rather than treating strike prices as market predictions or likely scenarios.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Iraqi production cut cascade dramatization",
+        "detail": "Specifies 80% production cuts at southern Iraqi oil fields due to strait closure, quantifying knock-on production collapse.",
+        "debias": "Report production changes with context about typical operational adjustments rather than isolated dramatic percentage cuts.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Fertilizer inflation cascade pre-positioning",
+        "detail": "Analyzes Hormuz closure leading to fertilizer price increases causing food inflation resurgence, creating multi-step crisis chain prediction.",
+        "debias": "Report commodity price changes without constructing speculative causal chains to distant consumer impact scenarios.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Lyft driver subsidy war-consequence localization",
+        "detail": "Reports Lyft creating driver support program due to gasoline price increases, domesticating war impacts through gig economy worker vulnerability.",
+        "debias": "Report corporate responses to price changes without framing as war-specific victim support rather than normal business adjustment.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -1633,6 +1724,41 @@
         "pattern": "Settler death ideological reframing",
         "detail": "Platforms father's characterization of killed settler son as 'sacrifice for settlement expansion,' inverting typical victimization narrative into critique of Israeli policy.",
         "debias": "Present family statements about casualties without elevating politically charged interpretations as primary framing.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Trump diplomatic sincerity questioning",
+        "detail": "Repeatedly frames Trump's claims that Iran wants a deal as contradicted by Tehran's explicit rejections, suggesting performative posturing rather than genuine negotiation.",
+        "debias": "Present both sides' stated positions without speculating on hidden motives or sincerity.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "European missile range vulnerability mapping",
+        "detail": "Specifically highlights Portugal as outside Iranian missile range while emphasizing other European nations' exposure, creating geographic fear hierarchy.",
+        "debias": "Report missile capabilities factually without creating implicit safe/unsafe zone categorizations for European populations.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Spanish neutrality benefit exceptionalism",
+        "detail": "Questions whether Spain can uniquely access Hormuz Strait due to its war position, suggesting diplomatic stance creates material advantages.",
+        "debias": "Report transit restrictions factually without suggesting individual nations can negotiate special exemptions from blockades.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Petroleum market interpretive paralysis framing",
+        "detail": "Characterizes oil markets and traders as 'seeking direction' amid 'contradictory signals,' emphasizing confusion over concrete price movements.",
+        "debias": "Report actual market movements and prices rather than anthropomorphizing market sentiment or emphasizing trader uncertainty.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "US drone deployment sovereignty tension dramatization",
+        "detail": "Highlights Portugal requesting 'more information' before allowing US Reaper drones to land, framing as bureaucratic friction in wartime cooperation.",
+        "debias": "Report military deployment requests and responses neutrally without suggesting normal sovereignty procedures are obstacles.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
