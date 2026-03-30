@@ -295,6 +295,34 @@
         "debias": "Specify actual timeline urgency and current supply status rather than seasonally extending crisis projections.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Israeli capability miscalculation questioning",
+        "detail": "Framing question 'Did Israel miscalculate Iranian military capabilities' positions Israeli intelligence as overconfident and Iranian strength as underestimated.",
+        "debias": "Assess military capabilities of both sides without framing one as having misjudged the other based on ongoing conflict dynamics.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Iranian authority taunting resistance narrative",
+        "detail": "Describing Iranian officials as 'taunting' US, Israel, and EU amid attacks frames regime as defiantly resisting Western pressure rather than escalating conflict.",
+        "debias": "Report Iranian official statements as responses or threats without characterizing them as brave defiance against overwhelming odds.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Saudi-Iran diplomatic rupture escalation threading",
+        "detail": "Highlighting Saudi expulsion of Iranian military attache threads narrative of Iran losing regional allies and facing isolation.",
+        "debias": "Report diplomatic expulsions as bilateral actions without interpreting them as evidence of Iran's growing regional isolation.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Cricket normalization disruption humanization",
+        "detail": "Noting Pakistan cricket league in empty stadiums due to oil crisis humanizes conflict through sports disruption affecting ordinary life.",
+        "debias": "Report event cancellations or modifications due to conflict without using sports as proxy for broader societal impact claims.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1031,6 +1059,48 @@
         "pattern": "Fossil fuel climate hypocrisy juxtaposition",
         "detail": "Multiple language editions run stories about oil companies abandoning green promises amid war-driven energy crisis, creating moral inconsistency framing.",
         "debias": "Separate corporate climate policy analysis from immediate conflict energy dynamics rather than implying causal moral hypocrisy.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "European-Iran trade volume visualization",
+        "detail": "Multiple language versions highlighting which European countries conduct most business with Tehran, framing Europe as economically entangled with Iran during conflict.",
+        "debias": "Present trade data without implicit judgment about economic relationships, noting trade volumes existed before current conflict.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Hormuz hostage ultimatum countdown dramatization",
+        "detail": "Repeated multilingual coverage of Trump's 48-hour deadline frames the Strait closure as hostage-taking requiring immediate surrender or destruction.",
+        "debias": "Report deadline without hostage-crisis framing, noting maritime blockades as standard wartime actions by all parties historically.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Nuclear facility proximity casualty clustering",
+        "detail": "Emphasizing Iranian strikes hit cities 'near nuclear site' or 'with nuclear installations' suggests intentional nuclear targeting or contamination risk.",
+        "debias": "Report locations and casualties separately from nuclear facility proximity unless actual nuclear infrastructure was targeted or damaged.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Swiss neutrality arms export contradiction highlighting",
+        "detail": "Framing Switzerland halting US weapons exports due to Iran war as neutrality 'striking back' against American fighters implies moral superiority of non-involvement.",
+        "debias": "Report Swiss arms policy without heroic neutrality framing, noting it applies same export rules to all conflicts.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "WHO nuclear peace prescription moralization",
+        "detail": "Highlighting WHO statement that 'peace is best medicine' regarding nuclear risks medicalizes anti-war position as objective health recommendation.",
+        "debias": "Report WHO health warnings about conflict without elevating organizational statements to moral prescriptions for policy.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Patriot friendly-fire speculation seeding",
+        "detail": "Questioning whether US Patriot missile caused Bahrain residential explosion plants friendly-fire narrative without evidence requirement.",
+        "debias": "Report explosion investigations without speculative friendly-fire theories unless corroborated by multiple independent sources.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
