@@ -30,8 +30,8 @@
     "display_name": "Iran International",
     "biases": [
       {
-        "pattern": "Anti-regime, pro-opposition",
-        "detail": "Amplifies opposition voices and protests. Sometimes publishes unverified claims about regime weakness.",
+        "pattern": "Anti-regime, pro-king",
+        "detail": "Amplifies selective opposition voices and protests. Usually publishes unverified claims about regime weakness.",
         "debias": "Flag unverified claims. Cross-check with other sources before including.",
         "date_added": "2026-03-29",
         "status": "confirmed"
