@@ -477,6 +477,27 @@
         "debias": "Report individual nations' policy changes without framing as part of spreading pattern unless explicitly coordinated.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Trump oil seizure invasion motivation",
+        "detail": "Foregrounding Trump's stated desire to 'seize oil' as primary invasion motivation while framing domestic objectors as 'stupid people' per Trump's language.",
+        "debias": "Report stated motivations without amplifying inflammatory language or treating rhetoric as confirmed policy intent.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Kuwaiti worker individual casualty naming",
+        "detail": "Specifying single worker death at Kuwait power plant from Iranian attack to humanize regional civilian infrastructure targeting.",
+        "debias": "Report infrastructure attacks with proportional casualty context rather than selective individual victim highlighting.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Australian fuel tax relief crisis deepening",
+        "detail": "Framing Australian domestic fuel tax cut as evidence of 'deepening global energy crisis' spreading beyond conflict zone.",
+        "debias": "Report national policy responses without treating each as confirmation of escalating global crisis narrative.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -928,6 +949,27 @@
         "pattern": "Lyft driver subsidy war-consequence localization",
         "detail": "Reports Lyft creating driver support program due to gasoline price increases, domesticating war impacts through gig economy worker vulnerability.",
         "debias": "Report corporate responses to price changes without framing as war-specific victim support rather than normal business adjustment.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Japanese yen volatility dramatization",
+        "detail": "Multiple headlines emphasizing yen movement milestones (1-year-8-month highs) and intraday volatility patterns to frame Middle East conflict as destabilizing Japanese currency markets.",
+        "debias": "Report yen movements as standard market data without milestone framing or conflict-causation emphasis unless direct causation is established.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Airspace congestion technical framing",
+        "detail": "Framing Middle East conflict consequences through aviation technical terminology ('air overcrowding', EASA drone guidelines) rather than human or political impacts.",
+        "debias": "Balance technical aviation details with broader context about why airspace issues matter for people and economies.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Korean sanctions compliance tracking",
+        "detail": "Highlighting South Korean imports of Russian naphtha as noteworthy compliance deviation during Middle East crisis period.",
+        "debias": "Report sanctions compliance stories without implied crisis linkage unless connection is explicitly documented.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -1759,6 +1801,55 @@
         "pattern": "US drone deployment sovereignty tension dramatization",
         "detail": "Highlights Portugal requesting 'more information' before allowing US Reaper drones to land, framing as bureaucratic friction in wartime cooperation.",
         "debias": "Report military deployment requests and responses neutrally without suggesting normal sovereignty procedures are obstacles.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Deal imminence linguistic variation",
+        "detail": "Amplifying Trump's 'soon' language across multiple languages (presto, bientôt, hamarosan) to create anticipation narrative while juxtaposing Iranian warnings.",
+        "debias": "Report diplomatic language claims without repetitive translation amplification or false urgency framing.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Safe haven paradox questioning",
+        "detail": "Framing gold and silver price drops during conflict as puzzling contradiction requiring explanation of why traditional safe havens are failing.",
+        "debias": "Report commodity price movements as normal market reactions without assuming prices must rise during conflicts.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Spanish airspace closure sovereignty assertion",
+        "detail": "Highlighting Spain closing airspace to US military aircraft as principled national sovereignty exercise against war participation.",
+        "debias": "Report airspace restrictions as policy decisions without valorizing non-participation as moral superiority.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Easter commercial casualty humanization",
+        "detail": "Linking chocolate price increases ('Easter eggflation') to climate and budget cuts, humanizing consumer holiday experience as conflict collateral damage.",
+        "debias": "Report commodity price trends without conflating unrelated seasonal consumer issues with active military conflicts.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "European vacation planning disruption anchoring",
+        "detail": "Framing airline route cuts and fare increases as threatening European holiday plans, domesticating distant war through travel inconvenience.",
+        "debias": "Report transportation disruptions without centering European leisure concerns over conflict zone humanitarian impacts.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Chinese North Korea flight normalization",
+        "detail": "Highlighting resumption of China-North Korea flights after six years as geopolitical realignment signal during Middle East crisis.",
+        "debias": "Report flight resumptions as standalone regional developments without implied connection to unrelated conflicts.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "TotalEnergies war profiteering quantification",
+        "detail": "Specifying $1 billion profit from Middle East oil positioning during war as corporate opportunism from price volatility.",
+        "debias": "Report corporate earnings without moral judgment framing unless unethical conduct is documented.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
