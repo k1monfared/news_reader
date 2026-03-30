@@ -386,6 +386,20 @@
         "debias": "Report leadership changes without presuming bureaucratic appointments signal major policy shifts.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Hormuz strait toll economic injustice framing",
+        "detail": "Al Jazeera highlights US diplomat denouncement of Iranian 'tolls' in Hormuz strait, framing maritime access fees as illegitimate economic coercion rather than sovereign waterway management.",
+        "debias": "Present competing legal frameworks for waterway transit fees alongside unilateral denunciation positions.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Sri Lankan crisis contagion pre-positioning",
+        "detail": "Al Jazeera pre-positions Sri Lanka for 'new economic crisis' due to Iran war continuation, extending conflict economic consequences to vulnerable South Asian economies.",
+        "debias": "Distinguish between countries with direct energy import exposure versus those facing indirect spillover effects.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -662,6 +676,34 @@
         "pattern": "Corporate planning paralysis framing",
         "detail": "Frames US businesses as maintaining confidence 'at least until Iran war breaks out,' suggesting economic planning is hostage to military timing.",
         "debias": "Report business forecasts without embedding assumptions that war escalation is inevitable or imminent.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Japanese consumer product inflation anchoring",
+        "detail": "Reuters anchors broader Middle East conflict impact through specific Japanese consumer goods price increases (35% plastic wrap hike), making abstract geopolitical crisis tangible via household spending.",
+        "debias": "Balance consumer price specifics with broader economic context to avoid overweighting tangible inflation signals.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Chinese semiconductor military supply dramatization",
+        "detail": "Reuters elevates US administration claims about Chinese chip manufacturing technology transfer to Iranian military into headline prominence, amplifying tech-military nexus narratives.",
+        "debias": "Contextualize technology transfer claims with verification status and historical precedent for such accusations.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Tomahawk inventory depletion quantification",
+        "detail": "Reuters quantifies specific munitions expenditure (850+ Tomahawks over four weeks) to dramatize military sustainability concerns through precise weapons-count metrics.",
+        "debias": "Present munitions usage figures alongside total inventory capacity and production rates for proportionality.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Multi-national coalition formation speculation via attribution",
+        "detail": "Reuters uses Financial Times attribution to report UAE efforts for multinational Hormuz defense force, distancing from direct advocacy while amplifying coalition-building narratives.",
+        "debias": "Distinguish between reported coalition proposals and actual multilateral commitments to avoid premature solidification.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -1311,6 +1353,48 @@
         "pattern": "Black rain environmental catastrophe localization",
         "detail": "Details Tehran residents experiencing breathing difficulties and skin irritation from 'black rain' pollution, personalizing war environmental consequences.",
         "debias": "Report environmental impacts without selective focus on one population's suffering to avoid humanitarian asymmetry.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Cryptocurrency sanctions evasion technical focus",
+        "detail": "Euronews devotes multiple multilingual articles to Iranian cryptocurrency use for sanctions circumvention, elevating technical financial workarounds to strategic-level threat framing.",
+        "debias": "Contextualize cryptocurrency sanctions evasion within broader illicit finance mechanisms and effectiveness assessments.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "FBI director personal email breach dramatization",
+        "detail": "Euronews amplifies pro-Iranian hacker group claims of breaching FBI director's personal email across multiple language editions, elevating cyber-intrusion symbolic significance.",
+        "debias": "Distinguish between personal email breaches and classified system compromises when assessing intelligence damage.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Lagarde unthinkable shock quotation amplification",
+        "detail": "Euronews headlines ECB President Lagarde warning of 'unthinkable shock' from Iran war to dramatize economic uncertainty through central banker catastrophe language.",
+        "debias": "Balance central banker worst-case warnings with their institutional mandate to highlight downside risks.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Ukraine weapons diversion threat tracking",
+        "detail": "Euronews follows US official statements about potentially diverting Ukraine military aid to Middle East operations, threading cross-conflict resource competition narratives.",
+        "debias": "Separate stated contingency planning from actual resource reallocation decisions when reporting weapons flow shifts.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Red Cross humanitarian access destruction framing",
+        "detail": "Euronews platforms ICRC chief exclusive interview warning that 'possibility of rebuilding Iran is being destroyed,' elevating humanitarian infrastructure permanence concerns.",
+        "debias": "Balance long-term reconstruction concerns with immediate conflict resolution priorities to avoid fatalistic framing.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "EU Black Sea grain corridor model advocacy",
+        "detail": "Euronews amplifies EU envoy proposal to apply Black Sea grain corridor precedent to Hormuz blockage, positioning European diplomatic frameworks as universal conflict-resolution templates.",
+        "debias": "Acknowledge material differences between Black Sea grain corridor context and Hormuz situation when presenting analogies.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
