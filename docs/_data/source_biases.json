@@ -57,6 +57,27 @@
         "debias": "Present US political reactions with equal weight to supporting and opposing voices without suggesting consensus where division exists.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Pakistan protest contagion framing",
+        "detail": "Emphasizes deaths in Pakistani street protests over Khamenei killing to suggest regional Islamic solidarity and spillover destabilization.",
+        "debias": "Report regional reactions with equal attention to official government positions and actual bilateral relations, not just street-level sentiment.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Gaza victimization parallelization",
+        "detail": "Draws explicit parallels between Gaza experiences and Iranian civilian concerns to create unified victim narrative across separate conflicts.",
+        "debias": "Treat each conflict situation on its own terms without drawing analogies that suggest predetermined victim-aggressor frameworks.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Assassination backfire prediction framing",
+        "detail": "Frames Khamenei assassination as tactically counterproductive to suggest Western strategic incompetence and inevitable resistance strengthening.",
+        "debias": "Present multiple analytical perspectives on leadership targeting consequences without privileging predictions that serve specific narratives.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -116,6 +137,20 @@
         "pattern": "Energy chokepoint catastrophization",
         "detail": "Headlines emphasize Strait of Hormuz closure and oil/gas transport suspension by specific companies, framing energy security as primary lens for conflict.",
         "debias": "Present energy implications as one consequence among multiple rather than primary framework for understanding conflict.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Japanese domestic policy impact anchoring",
+        "detail": "Consistently frames Iran conflict through lens of Japanese interest rate decisions and domestic economic policy implications.",
+        "debias": "Balance Japanese-specific economic impacts with broader global market effects to avoid overweighting one nation's perspective.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "MAGA coalition stress testing framing",
+        "detail": "Frames Iran conflict primarily as test of Trump's domestic political coalition unity rather than as foreign policy action itself.",
+        "debias": "Report domestic political reactions without making them the primary analytical frame for understanding military operations.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
@@ -233,6 +268,27 @@
         "pattern": "Third-party leader reaction prioritization",
         "detail": "Multiple headlines feature Putin, Zelensky, and other non-regional leaders' reactions, framing Middle East conflict through European geopolitical concerns.",
         "debias": "Prioritize regional actors' responses over distant powers' reactions when covering Middle East events.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Regional sports disruption highlighting",
+        "detail": "Emphasizes peripheral impacts like Qatar postponing football matches to illustrate conflict's civilizational disruption beyond military metrics.",
+        "debias": "Include sports/cultural disruptions only when providing concrete casualty or strategic context to avoid sensationalizing secondary effects.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Death-of-leader's-widow emotionalization",
+        "detail": "Highlights widow of Khamenei dying from wounds to personalize leadership casualties and amplify emotional resonance of family targeting.",
+        "debias": "Report leadership family casualties factually without emphasizing familial relationships that serve to emotionalize rather than inform strategic impact.",
+        "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Ammunition depletion vulnerability framing",
+        "detail": "Focuses on US ammunition shortages to suggest operational unsustainability and question the attacker's capacity to continue operations.",
+        "debias": "Present logistics challenges symmetrically for all parties or contextualize within overall military capability assessments.",
         "date_added": "2026-03-30",
         "status": "suggested"
       }
