@@ -199,6 +199,15 @@ def run_pipeline(target_date: str | None = None, backfill: bool = False) -> str:
     return run_id
 
 
+def print_summary(data_dir: str, run_id: str) -> None:
+    """Print the headlines summary to the terminal."""
+    headlines_path = Path(data_dir) / "runs" / run_id / "headlines.txt"
+    if headlines_path.exists():
+        print("\n" + headlines_path.read_text())
+    else:
+        logger.warning("No headlines.txt found for this run.")
+
+
 def main() -> None:
     """Entry point. Handles backfill logic and runs the pipeline."""
     config = load_config()
@@ -216,7 +225,8 @@ def main() -> None:
                 logger.error(f"Backfill for {date} failed: {e}", exc_info=True)
 
     # Run today's pipeline
-    run_pipeline()
+    run_id = run_pipeline()
+    print_summary(data_dir, run_id)
 
 
 if __name__ == "__main__":

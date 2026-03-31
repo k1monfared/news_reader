@@ -140,8 +140,23 @@ def run_summarize(
     # Write draft report (without frontmatter for editorial stage)
     (run_path / "report.md").write_text(report_body)
 
+    # Write plain-text headlines for terminal output
+    _write_headlines(run_path, sorted_cats)
+
     logger.info(f"Summarized {len(included)} items into report")
     return {"items_summarized": len(included), "categories_used": len(sorted_cats)}
+
+
+def _write_headlines(run_path: Path, sorted_cats: list) -> None:
+    """Write a plain-text headlines file for terminal display."""
+    lines = []
+    for cat_name, items in sorted_cats:
+        lines.append(f"\n{cat_name}")
+        for item in items:
+            sole = " [SOLE SOURCE]" if item.sole_source_flag else ""
+            lines.append(f"  - {item.title_en}{sole} ({item.source})")
+    text = "\n".join(lines).strip() + "\n"
+    (run_path / "headlines.txt").write_text(text)
 
 
 def _fallback_report(sorted_cats: list) -> str:
