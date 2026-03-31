@@ -512,6 +512,27 @@
         "debias": "Describe Ukraine's military role factually without reframing its position in global alliance hierarchy.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "AI target selection dehumanization framing",
+        "detail": "Highlighting algorithmic target selection ('AI helped pick the first thousand targets') to frame military operations as mechanized dehumanization rather than precision warfare.",
+        "debias": "Present AI targeting as one tool among many used in modern warfare, noting both precision benefits and human oversight requirements.",
+        "date_added": "2026-03-31",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Cricket normalization disruption via disciplinary action",
+        "detail": "Framing Pakistani cricket disciplinary actions (ball tampering ban, social media fine) as connected to broader regional tensions and governance legitimacy questions.",
+        "debias": "Report sports disciplinary actions as standalone professional governance issues unless explicit political connections exist.",
+        "date_added": "2026-03-31",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Historical timeline accuracy meta-questioning",
+        "detail": "Publishing speculative content questioning fundamental historical chronology ('Is our timeline of human history accurate?') to cultivate epistemic uncertainty during crisis periods.",
+        "debias": "Separate academic historical debate from crisis coverage, avoiding legitimization of conspiracy-adjacent questioning during volatile periods.",
+        "date_added": "2026-03-31",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1040,6 +1061,20 @@
         "detail": "Provides precise nationality and injury details for US troops (nationality of wounded, concussion counts) while using aggregate numbers for Iranian or other casualties.",
         "debias": "Apply consistent granularity standards when reporting casualties across all parties to avoid humanizing one side disproportionately.",
         "date_added": "2026-03-29",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Buffer zone territorial permanence framing",
+        "detail": "Emphasizing Israeli statements about permanent population exclusion and systematic destruction in buffer zones as irreversible territorial transformation rather than temporary security measures.",
+        "debias": "Present buffer zone policies as contested security claims subject to negotiation rather than fait accompli territorial reconfigurations.",
+        "date_added": "2026-03-31",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Cultural heritage universalization appeal",
+        "detail": "Framing archaeological site destruction as crimes against 'all of humanity' rather than specific national heritage loss to elevate moral stakes beyond immediate parties.",
+        "debias": "Acknowledge both universal cultural value and specific national heritage claims without privileging one framing over the other.",
+        "date_added": "2026-03-31",
         "status": "suggested"
       }
     ],
@@ -1921,6 +1956,27 @@
         "detail": "Amplifies Iranian text messages to civilians claiming 'victory in war' as IRGC psychological operation or hacking incident.",
         "debias": "Report information operations as contested claims without amplifying their reach or treating as confirmed intelligence.",
         "date_added": "2026-03-30",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Green technology war-catalyst silver lining",
+        "detail": "Framing the Iran war as accelerating renewable energy adoption ('renewables boom') to find positive environmental outcomes within crisis.",
+        "debias": "Report energy transitions factually without suggesting geopolitical crises produce net positive environmental effects.",
+        "date_added": "2026-03-31",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Wildlife rescue distraction humanization",
+        "detail": "Emphasizing stranded whale rescue efforts during major geopolitical crisis as emotionally accessible counterpoint to war coverage.",
+        "debias": "Maintain proportional coverage of environmental stories without using animal welfare as emotional relief from human conflict.",
+        "date_added": "2026-03-31",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Hyperscaler data center geopolitical vulnerability",
+        "detail": "Highlighting major data center infrastructure projects during regional conflict to seed concerns about digital infrastructure exposure to warfare.",
+        "debias": "Report infrastructure development as commercial decisions without automatically linking to conflict vulnerability unless explicitly threatened.",
+        "date_added": "2026-03-31",
         "status": "suggested"
       }
     ],
