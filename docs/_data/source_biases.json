@@ -533,6 +533,34 @@
         "debias": "Separate academic historical debate from crisis coverage, avoiding legitimization of conspiracy-adjacent questioning during volatile periods.",
         "date_added": "2026-03-31",
         "status": "suggested"
+      },
+      {
+        "pattern": "Sexual harassment case geopolitical framing",
+        "detail": "Pakistani celebrity defamation case framed as nationally significant #MeToo moment rather than individual legal dispute.",
+        "debias": "Present celebrity legal cases as individual disputes without elevating them to represent broader national movements unless evidence supports such significance.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Sports failure political accountability demand",
+        "detail": "Italy's World Cup playoff loss framed as requiring ministerial resignation and federation leadership change.",
+        "debias": "Report sports outcomes as athletic results without automatically suggesting political or administrative consequences unless direct governance failures are documented.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Minerals-for-aid exploitation framing",
+        "detail": "US health agreements with African countries characterized as 'exploiting' and 'lopsided' based on mineral access components.",
+        "debias": "Present bilateral agreements with their full terms and let readers assess fairness rather than pre-labeling them as exploitative.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Protest conviction civil liberties crisis elevation",
+        "detail": "UK legal ruling on protest organizers framed as broader attack on dissent rather than specific police rule enforcement.",
+        "debias": "Report legal rulings on their specific grounds and violations without automatically generalizing to systemic rights suppression.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1075,6 +1103,27 @@
         "detail": "Framing archaeological site destruction as crimes against 'all of humanity' rather than specific national heritage loss to elevate moral stakes beyond immediate parties.",
         "debias": "Acknowledge both universal cultural value and specific national heritage claims without privileging one framing over the other.",
         "date_added": "2026-03-31",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Infrastructure-as-weapon scholarly framing",
+        "detail": "Desalination systems academically reframed as geopolitical leverage tools and wartime vulnerability axes through expert interview.",
+        "debias": "Present infrastructure analysis alongside practical humanitarian impacts rather than exclusively through strategic warfare lens.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Discriminatory planning policy attribution",
+        "detail": "Bedouin shelter shortage attributed to 'discriminatory planning policies' rather than security infrastructure challenges.",
+        "debias": "Present infrastructure gaps with multiple causal factors including planning, resources, and priorities rather than singular discrimination attribution.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Settler-army equivalence assertion",
+        "detail": "Palestinian official statement that settlers and Israeli army are 'one and the same' presented without qualification or context.",
+        "debias": "When reporting partisan claims of equivalence between civilian and military actors, note the distinction in roles and legal status.",
+        "date_added": "2026-04-01",
         "status": "suggested"
       }
     ],
@@ -1977,6 +2026,34 @@
         "detail": "Highlighting major data center infrastructure projects during regional conflict to seed concerns about digital infrastructure exposure to warfare.",
         "debias": "Report infrastructure development as commercial decisions without automatically linking to conflict vulnerability unless explicitly threatened.",
         "date_added": "2026-03-31",
+        "status": "suggested"
+      },
+      {
+        "pattern": "IQ tourism rebranding promotion",
+        "detail": "Swedish city's 'brain-boosting IQ tourism' campaign presented as innovative cultural approach rather than marketing initiative.",
+        "debias": "Present tourism marketing campaigns as promotional efforts rather than substantive cultural or educational movements.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Deficit structural weakness exposure",
+        "detail": "Germany's war-driven deficit increase characterized as 'exposing structural weaknesses' that predate the conflict.",
+        "debias": "Separate immediate crisis impacts from longer-term structural issues rather than using crises to validate pre-existing critiques.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Generation security reshaping personalization",
+        "detail": "Individual young German defense professional positioned as representative of generational security transformation.",
+        "debias": "Present individual profiles as personal stories rather than synecdoche for entire generational shifts in policy domains.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Tech anniversary institutional narrative control",
+        "detail": "Apple's 50th anniversary framed through company museum and 'shaping the future' language rather than critical assessment.",
+        "debias": "Balance corporate milestone coverage with independent analysis rather than adopting company-provided narrative framing.",
+        "date_added": "2026-04-01",
         "status": "suggested"
       }
     ],
