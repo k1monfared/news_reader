@@ -561,6 +561,27 @@
         "debias": "Report legal rulings on their specific grounds and violations without automatically generalizing to systemic rights suppression.",
         "date_added": "2026-04-01",
         "status": "suggested"
+      },
+      {
+        "pattern": "Anti-Trump birthright citizenship framing",
+        "detail": "Frames Trump's birthright citizenship restrictions through lens of opposition protests and individual impact stories rather than legal or policy analysis.",
+        "debias": "Present the legal and constitutional arguments on both sides without prioritizing protest perspectives over policy rationale.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Trillionaire wealth milestone speculation",
+        "detail": "Emphasizes Elon Musk's potential trillionaire status in context of SpaceX IPO to frame private space exploration as wealth accumulation rather than technological achievement.",
+        "debias": "Report corporate financial developments neutrally without speculative wealth calculations that frame technology achievements as personal enrichment.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "War-NASA mission contrast moralization",
+        "detail": "Quotes US senator positioning NASA moon mission as moral 'contrast' to war operations to frame space exploration as peace alternative.",
+        "debias": "Report space missions and military operations as separate policy domains without imposing contrasting moral frameworks.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1123,6 +1144,13 @@
         "pattern": "Settler-army equivalence assertion",
         "detail": "Palestinian official statement that settlers and Israeli army are 'one and the same' presented without qualification or context.",
         "debias": "When reporting partisan claims of equivalence between civilian and military actors, note the distinction in roles and legal status.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Ceasefire denial amplification asymmetry",
+        "detail": "Emphasizes Iranian denial of Trump's ceasefire claim with terms like 'baseless' in headlines while downplaying possibility Trump statement was strategic signaling.",
+        "debias": "Present competing claims about diplomatic communications with equal skepticism rather than validating one side's denial as definitive.",
         "date_added": "2026-04-01",
         "status": "suggested"
       }
@@ -2053,6 +2081,20 @@
         "pattern": "Tech anniversary institutional narrative control",
         "detail": "Apple's 50th anniversary framed through company museum and 'shaping the future' language rather than critical assessment.",
         "debias": "Balance corporate milestone coverage with independent analysis rather than adopting company-provided narrative framing.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "NATO defensive alliance limitation framing",
+        "detail": "Frames European reluctance to support US-Iran operations by emphasizing NATO's 'defensive alliance' character as institutional constraint rather than policy choice.",
+        "debias": "Present alliance charter limitations alongside political decision-making without using institutional definitions as explanatory endpoints.",
+        "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "April Fools cultural event reporting",
+        "detail": "Produces elaborate April Fools content (Bond casting reveal) that blurs line between news reporting and entertainment during serious geopolitical crisis.",
+        "debias": "Maintain clear separation between news and entertainment content especially during major ongoing conflicts.",
         "date_added": "2026-04-01",
         "status": "suggested"
       }
