@@ -582,6 +582,20 @@
         "debias": "Report space missions and military operations as separate policy domains without imposing contrasting moral frameworks.",
         "date_added": "2026-04-01",
         "status": "suggested"
+      },
+      {
+        "pattern": "Equal pay sports activism platforming",
+        "detail": "Amplifies athlete demands for gender pay equity in sports governance contexts, framing it as institutional injustice requiring correction.",
+        "debias": "Present pay equity discussions neutrally by including governance rationale and economic context alongside activist demands.",
+        "date_added": "2026-04-02",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Non-military coalition skepticism framing",
+        "detail": "Questions viability of diplomatic coalitions while emphasizing military action alternatives, suggesting non-force solutions are inadequate.",
+        "debias": "Present coalition efforts without predetermined skepticism, noting both diplomatic and military options as distinct approaches.",
+        "date_added": "2026-04-02",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1152,6 +1166,20 @@
         "detail": "Emphasizes Iranian denial of Trump's ceasefire claim with terms like 'baseless' in headlines while downplaying possibility Trump statement was strategic signaling.",
         "debias": "Present competing claims about diplomatic communications with equal skepticism rather than validating one side's denial as definitive.",
         "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Militia intimidation campaign documentation",
+        "detail": "Focuses on paramilitary online psychological operations designed to suppress dissent through public displays of force.",
+        "debias": "Report intimidation tactics factually while noting both state security concerns and civil liberties implications equally.",
+        "date_added": "2026-04-02",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Allied NATO faith erosion framing",
+        "detail": "Emphasizes how leadership contradictions undermine confidence in alliance commitments rather than focusing on policy substance.",
+        "debias": "Address alliance concerns substantively by separating rhetorical inconsistencies from actual policy commitments and actions.",
+        "date_added": "2026-04-02",
         "status": "suggested"
       }
     ],
@@ -2096,6 +2124,34 @@
         "detail": "Produces elaborate April Fools content (Bond casting reveal) that blurs line between news reporting and entertainment during serious geopolitical crisis.",
         "debias": "Maintain clear separation between news and entertainment content especially during major ongoing conflicts.",
         "date_added": "2026-04-01",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Cryptocurrency scam hoax conflation",
+        "detail": "Links viral misinformation narratives to financial fraud schemes, emphasizing digital deception over factual clarification.",
+        "debias": "Separate factual corrections from fraud analysis, prioritizing truth verification before exploring exploitation mechanisms.",
+        "date_added": "2026-04-02",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Ultra-rich offshore wealth moralization",
+        "detail": "Frames untaxed wealth accumulation as moral failing by quantifying it against global poverty statistics to emphasize inequality.",
+        "debias": "Present wealth distribution data objectively, including legal frameworks and policy debates without predetermined moral framing.",
+        "date_added": "2026-04-02",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Trillionaire milestone anticipation speculation",
+        "detail": "Projects future wealth milestones from IPO filings to create aspirational or critical narratives around individual accumulation.",
+        "debias": "Report financial developments factually without speculative projections about unprecedented personal wealth achievements.",
+        "date_added": "2026-04-02",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Bioluminescent technology utopian framing",
+        "detail": "Presents emerging biotechnology as transformative urban infrastructure solution without addressing feasibility or implementation barriers.",
+        "debias": "Balance technological innovation coverage by including practical limitations, scalability questions, and energy efficiency comparisons.",
+        "date_added": "2026-04-02",
         "status": "suggested"
       }
     ],
