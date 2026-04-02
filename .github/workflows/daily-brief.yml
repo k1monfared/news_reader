@@ -2,8 +2,8 @@ name: Daily Brief
 
 on:
   schedule:
-    # 7am PDT (14:00 UTC). Offset a few minutes to avoid the :00 stampede.
-    - cron: '7 14 * * *'
+    # 5am PDT (12:00 UTC). Offset a few minutes to avoid the :00 stampede.
+    - cron: '7 12 * * *'
   workflow_dispatch:
 
 permissions:
