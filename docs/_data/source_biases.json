@@ -596,6 +596,27 @@
         "debias": "Present coalition efforts without predetermined skepticism, noting both diplomatic and military options as distinct approaches.",
         "date_added": "2026-04-02",
         "status": "suggested"
+      },
+      {
+        "pattern": "Sports failure geopolitical deflection",
+        "detail": "Heavy sports defeats (Lakers 139-96 loss, Liverpool's fifth-place languishing) are framed alongside geopolitical coverage to normalize national decline narratives.",
+        "debias": "Report sports results separately from geopolitical stories without implied national trajectory parallels.",
+        "date_added": "2026-04-03",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Celebrity DUI diplomatic distraction",
+        "detail": "Tiger Woods' police bodycam footage claiming he was 'talking to the president' is positioned amid war coverage to suggest elite impunity during crisis.",
+        "debias": "Separate celebrity legal incidents from war coverage without implying crisis-era accountability erosion.",
+        "date_added": "2026-04-03",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Teapot refinery resilience valorization",
+        "detail": "China's small independent 'teapot' refineries are framed as heroic cushioning mechanisms against war-induced oil crisis rather than industrial capacity.",
+        "debias": "Describe refinery infrastructure capacity neutrally without ascribing crisis-resistance heroism to industrial actors.",
+        "date_added": "2026-04-03",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1180,6 +1201,27 @@
         "detail": "Emphasizes how leadership contradictions undermine confidence in alliance commitments rather than focusing on policy substance.",
         "debias": "Address alliance concerns substantively by separating rhetorical inconsistencies from actual policy commitments and actions.",
         "date_added": "2026-04-02",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Child soldier recruitment war crime pre-positioning",
+        "detail": "Iranian Revolutionary Guards recruiting children as young as 12 is framed as imminent war crime liability before deployment occurs.",
+        "debias": "Report recruitment campaigns with legal context but avoid pre-emptive war crime designation before battlefield deployment.",
+        "date_added": "2026-04-03",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Infrastructure trophy targeting dramatization",
+        "detail": "Destruction of Iran's 'tallest bridge in the Middle East' is emphasized through superlative framing to amplify symbolic loss.",
+        "debias": "Report infrastructure strikes with functional impact details rather than emphasizing symbolic height or age records.",
+        "date_added": "2026-04-03",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Non-military target trend accusation",
+        "detail": "Multiple strikes on civilian sites are aggregated as a 'disturbing trend' to suggest systematic targeting pattern rather than individual incidents.",
+        "debias": "Report each strike with available targeting rationale rather than pre-aggregating into pattern accusations.",
+        "date_added": "2026-04-03",
         "status": "suggested"
       }
     ],
@@ -2152,6 +2194,41 @@
         "detail": "Presents emerging biotechnology as transformative urban infrastructure solution without addressing feasibility or implementation barriers.",
         "debias": "Balance technological innovation coverage by including practical limitations, scalability questions, and energy efficiency comparisons.",
         "date_added": "2026-04-02",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Lignite dependency EU accession conditionality",
+        "detail": "Bosnia-Herzegovina's coal reliance is framed as potential EU membership disqualification rather than energy transition timeline discussion.",
+        "debias": "Report energy transition challenges with technical timelines rather than EU accession threat framing.",
+        "date_added": "2026-04-03",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Steel capacity weapons production causation",
+        "detail": "Israel claims 70% destruction of Iran's steel capacity is directly threaded to weapons production hindrance rather than industrial output.",
+        "debias": "Report industrial capacity damage separately from speculative weapons production impact claims.",
+        "date_added": "2026-04-03",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Easter egg safety bureaucratic normalization",
+        "detail": "Easter food safety guidelines are positioned alongside war coverage to normalize mundane regulatory continuity during crisis.",
+        "debias": "Separate seasonal consumer guidance from geopolitical crisis coverage without normalizing routine-amid-catastrophe.",
+        "date_added": "2026-04-03",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Chocolate capital alternative ranking distraction",
+        "detail": "Lesser-known European chocolate cities (Turin, Perugia, York) are promoted as Easter destinations amid war energy crisis coverage.",
+        "debias": "Report tourism features separately from energy crisis coverage without implicit crisis-tourism juxtaposition.",
+        "date_added": "2026-04-03",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Coal standby reactivation threat threading",
+        "detail": "Italy's four standby coal plants are positioned as potential crisis reactivation option to dramatize energy vulnerability.",
+        "debias": "Report existing energy infrastructure capacity without framing standby facilities as imminent crisis activation.",
+        "date_added": "2026-04-03",
         "status": "suggested"
       }
     ],
