@@ -617,6 +617,20 @@
         "debias": "Describe refinery infrastructure capacity neutrally without ascribing crisis-resistance heroism to industrial actors.",
         "date_added": "2026-04-03",
         "status": "suggested"
+      },
+      {
+        "pattern": "POW humanitarian appeal framing",
+        "detail": "Framing missing US pilot as potential prisoner to invoke humanitarian concern and war crime implications against Iran.",
+        "debias": "Present search operations neutrally as standard military recovery procedures without presuming captivity status or humanitarian violations.",
+        "date_added": "2026-04-04",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Cultural event war disruption universalization",
+        "detail": "Emphasizing how war disrupts religious and cultural observances (Good Friday, Easter) to humanize conflict impact beyond military targets.",
+        "debias": "Report religious observances factually without amplifying war-disruption framing unless directly prevented by military action.",
+        "date_added": "2026-04-04",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1222,6 +1236,27 @@
         "detail": "Multiple strikes on civilian sites are aggregated as a 'disturbing trend' to suggest systematic targeting pattern rather than individual incidents.",
         "debias": "Report each strike with available targeting rationale rather than pre-aggregating into pattern accusations.",
         "date_added": "2026-04-03",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Allied territory complicity verification",
+        "detail": "Geolocating evidence that Gulf allies' territory is being used for attacks despite their denials to expose hypocrisy.",
+        "debias": "Present evidence-based verification findings without framing as deliberate exposure of allied complicity.",
+        "date_added": "2026-04-04",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Child militia war crime pre-accusation",
+        "detail": "Framing Iranian recruitment of minors for defense as war crime preparation before actual combat deployment occurs.",
+        "debias": "Report recruitment programs factually, distinguishing between training, defensive positioning, and actual combat deployment.",
+        "date_added": "2026-04-04",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Tall bridge symbolic infrastructure targeting",
+        "detail": "Emphasizing record-breaking or symbolic status of infrastructure targets to suggest deliberate psychological warfare tactics.",
+        "debias": "Report infrastructure damage with factual descriptions without emphasizing symbolic or morale-impact dimensions.",
+        "date_added": "2026-04-04",
         "status": "suggested"
       }
     ],
@@ -2229,6 +2264,34 @@
         "detail": "Italy's four standby coal plants are positioned as potential crisis reactivation option to dramatize energy vulnerability.",
         "debias": "Report existing energy infrastructure capacity without framing standby facilities as imminent crisis activation.",
         "date_added": "2026-04-03",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Chocolate industry resilience celebration",
+        "detail": "Highlighting European chocolate production continuity and excellence during crisis to emphasize economic normalcy.",
+        "debias": "Report economic production data without framing continued operations as resilience or defiance of crisis conditions.",
+        "date_added": "2026-04-04",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Pope physical endurance ritualization",
+        "detail": "Emphasizing pontiff's personal performance of physically demanding ceremony as symbolic leadership during crisis period.",
+        "debias": "Report religious ceremonies factually without emphasizing physical exertion or crisis-period symbolism.",
+        "date_added": "2026-04-04",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Consumer refund justice litigation",
+        "detail": "Framing corporate price increase rulings as consumer justice victories to validate economic grievances during inflation.",
+        "debias": "Report legal rulings on their merits without framing as consumer vindication or justice narratives.",
+        "date_added": "2026-04-04",
+        "status": "suggested"
+      },
+      {
+        "pattern": "EU subsidy fraud political dynasty implication",
+        "detail": "Connecting subsidy fraud to politically influential families to suggest systemic corruption beyond individual cases.",
+        "debias": "Report fraud investigations factually without emphasizing political family connections unless directly relevant to charges.",
+        "date_added": "2026-04-04",
         "status": "suggested"
       }
     ],
