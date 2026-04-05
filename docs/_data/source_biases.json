@@ -631,6 +631,13 @@
         "debias": "Report religious observances factually without amplifying war-disruption framing unless directly prevented by military action.",
         "date_added": "2026-04-04",
         "status": "suggested"
+      },
+      {
+        "pattern": "Satellite blackout suppression narrative",
+        "detail": "Frames Planet Labs' image blackout as government censorship rather than operational security, implying information control conspiracy.",
+        "debias": "Present image restrictions as standard wartime operational security without conspiracy implications.",
+        "date_added": "2026-04-05",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1257,6 +1264,27 @@
         "detail": "Emphasizing record-breaking or symbolic status of infrastructure targets to suggest deliberate psychological warfare tactics.",
         "debias": "Report infrastructure damage with factual descriptions without emphasizing symbolic or morale-impact dimensions.",
         "date_added": "2026-04-04",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Rescue operation daring valorization",
+        "detail": "Emphasizes the 'miraculous' and 'most daring' nature of pilot rescue operations, amplifying US military capability narratives.",
+        "debias": "Report rescue operations factually without superlative language that valorizes military actions.",
+        "date_added": "2026-04-05",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Trump profanity amplification",
+        "detail": "Prominently features Trump's expletive-laden social media posts in headlines and ledes, maximizing shock value and controversy.",
+        "debias": "Paraphrase vulgar content professionally while preserving substantive meaning without sensationalism.",
+        "date_added": "2026-04-05",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Allied base evidence verification emphasis",
+        "detail": "Highlights geolocated video evidence of missiles launched from Kuwait despite denials, emphasizing exposure of allied complicity.",
+        "debias": "Report military operations from allied territory without emphasis on contradiction or complicity exposure.",
+        "date_added": "2026-04-05",
         "status": "suggested"
       }
     ],
@@ -2292,6 +2320,27 @@
         "detail": "Connecting subsidy fraud to politically influential families to suggest systemic corruption beyond individual cases.",
         "debias": "Report fraud investigations factually without emphasizing political family connections unless directly relevant to charges.",
         "date_added": "2026-04-04",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Pope physical feat ritualization",
+        "detail": "Emphasizes Pope Leo XIV carrying cross through all 14 stations as unprecedented physical achievement, personalizing religious ritual.",
+        "debias": "Report religious ceremonies focusing on symbolic significance rather than leader's physical endurance.",
+        "date_added": "2026-04-05",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Easter commercial inflation threading",
+        "detail": "Systematically links Easter holiday costs (chocolate, eggs, lamb) to war-driven price increases, domesticating conflict consequences.",
+        "debias": "Report holiday price increases with clear causal attribution without artificially linking all increases to single conflict.",
+        "date_added": "2026-04-05",
+        "status": "suggested"
+      },
+      {
+        "pattern": "NATO withdrawal legal process questioning",
+        "detail": "Fact-checks Trump's NATO withdrawal threats by emphasizing procedural complexity, implying limitation on executive authority.",
+        "debias": "Present treaty withdrawal processes neutrally without emphasizing constraints as obstacles to policy.",
+        "date_added": "2026-04-05",
         "status": "suggested"
       }
     ],
