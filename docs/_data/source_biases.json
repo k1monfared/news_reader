@@ -638,6 +638,20 @@
         "debias": "Present image restrictions as standard wartime operational security without conspiracy implications.",
         "date_added": "2026-04-05",
         "status": "suggested"
+      },
+      {
+        "pattern": "CIA Kurdish arms admission validation",
+        "detail": "Frames Trump's statement about arming Kurdish groups as confirmation of Iranian claims about Western-backed protests, treating unverified presidential claims as factual validation of conspiracy theories.",
+        "debias": "Verify the accuracy of Trump's claims independently and present Iranian assertions as unverified allegations rather than confirmed facts.",
+        "date_added": "2026-04-06",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Gig economy war victimization localization",
+        "detail": "Highlights specific vulnerable worker groups (Vietnamese gig workers, Lyft drivers) suffering from war-related fuel price increases to humanize distant economic impacts through individual vulnerability.",
+        "debias": "Balance coverage of specific worker hardships with broader economic context and comparative data on how different demographics are affected.",
+        "date_added": "2026-04-06",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1285,6 +1299,13 @@
         "detail": "Highlights geolocated video evidence of missiles launched from Kuwait despite denials, emphasizing exposure of allied complicity.",
         "debias": "Report military operations from allied territory without emphasis on contradiction or complicity exposure.",
         "date_added": "2026-04-05",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Multi-alignment strategy collapse framing",
+        "detail": "Emphasizes Iraq's inability to maintain neutrality between competing powers, framing diplomatic balancing acts as unsustainable rather than adaptive.",
+        "debias": "Present multi-alignment strategies as ongoing diplomatic choices rather than inevitable failures, acknowledging both constraints and agency.",
+        "date_added": "2026-04-06",
         "status": "suggested"
       }
     ],
@@ -2341,6 +2362,20 @@
         "detail": "Fact-checks Trump's NATO withdrawal threats by emphasizing procedural complexity, implying limitation on executive authority.",
         "debias": "Present treaty withdrawal processes neutrally without emphasizing constraints as obstacles to policy.",
         "date_added": "2026-04-05",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Cultural event attendance crisis conflation",
+        "detail": "Connects unrelated disruptions (Easter church suspensions in Dubai, festival cancellations) to war impacts, creating narrative of comprehensive cultural life devastation.",
+        "debias": "Distinguish between direct security-driven cancellations and precautionary measures, avoiding conflation of diverse cultural disruptions into single war-impact narrative.",
+        "date_added": "2026-04-06",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Artemis mission war-contrast juxtaposition",
+        "detail": "Positions space exploration achievements alongside war coverage to create implicit commentary on resource allocation priorities and human potential.",
+        "debias": "Cover space missions and conflicts as separate stories unless there is explicit connection, avoiding implied moral comparisons through juxtaposition.",
+        "date_added": "2026-04-06",
         "status": "suggested"
       }
     ],
