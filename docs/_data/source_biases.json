@@ -652,6 +652,34 @@
         "debias": "Balance coverage of specific worker hardships with broader economic context and comparative data on how different demographics are affected.",
         "date_added": "2026-04-06",
         "status": "suggested"
+      },
+      {
+        "pattern": "Stateless identity crisis dramatization",
+        "detail": "Highlighting multi-generational statelessness of ethnic communities to frame colonial border legacy victimization.",
+        "debias": "Present statelessness documentation challenges without attributing to broader historical grievance narratives.",
+        "date_added": "2026-04-07",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Anti-Muslim solidarity athlete valorization",
+        "detail": "Platforming athlete condemnation of anti-Muslim chants to frame sports racism as requiring collective resistance.",
+        "debias": "Report athlete statements on discrimination without positioning them as movement spokespeople.",
+        "date_added": "2026-04-07",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Iranian cultural identity erasure accusation",
+        "detail": "Framing military strikes on educational/cultural sites as deliberate attempt to destroy Iranian national identity.",
+        "debias": "Report strike targets factually without attributing intent to erase cultural identity.",
+        "date_added": "2026-04-07",
+        "status": "suggested"
+      },
+      {
+        "pattern": "God invocation militarism criticism",
+        "detail": "Highlighting religious rhetoric by US leaders to frame war justification as divine mandate hypocrisy.",
+        "debias": "Note religious language used without editorializing about theological legitimacy of military action.",
+        "date_added": "2026-04-07",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1306,6 +1334,27 @@
         "detail": "Emphasizes Iraq's inability to maintain neutrality between competing powers, framing diplomatic balancing acts as unsustainable rather than adaptive.",
         "debias": "Present multi-alignment strategies as ongoing diplomatic choices rather than inevitable failures, acknowledging both constraints and agency.",
         "date_added": "2026-04-06",
+        "status": "suggested"
+      },
+      {
+        "pattern": "War crime concern preemptive legal framing",
+        "detail": "Leading with expert legal assessment that threatened actions constitute war crimes before they occur.",
+        "debias": "Present legal expert analysis as one perspective rather than definitive pre-judgment of intent.",
+        "date_added": "2026-04-07",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Civilization extinction rhetoric amplification",
+        "detail": "Foregrounding Trump's 'whole civilization will die' language to dramatize existential threat framing.",
+        "debias": "Quote inflammatory rhetoric in context without elevating it to headline-level emphasis.",
+        "date_added": "2026-04-07",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Multi-alignment collapse inevitability",
+        "detail": "Framing Iraq's neutrality strategy as unsustainable under regional conflict pressure.",
+        "debias": "Present diplomatic balancing challenges without predicting inevitable policy failure.",
+        "date_added": "2026-04-07",
         "status": "suggested"
       }
     ],
@@ -2376,6 +2425,48 @@
         "detail": "Positions space exploration achievements alongside war coverage to create implicit commentary on resource allocation priorities and human potential.",
         "debias": "Cover space missions and conflicts as separate stories unless there is explicit connection, avoiding implied moral comparisons through juxtaposition.",
         "date_added": "2026-04-06",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Timely resource discovery fortuitousness",
+        "detail": "Framing gas discovery announcement as providential timing during energy crisis.",
+        "debias": "Report resource discoveries with standard context rather than war-timing coincidence emphasis.",
+        "date_added": "2026-04-07",
+        "status": "suggested"
+      },
+      {
+        "pattern": "EU electoral interference accusation platforming",
+        "detail": "Amplifying US official accusations of EU interference in member state elections.",
+        "debias": "Present interference claims as political allegations requiring verification, not established fact.",
+        "date_added": "2026-04-07",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Celebrity travel ban controversy elevation",
+        "detail": "Treating entertainment figure entry restrictions as significant political news during war coverage.",
+        "debias": "Proportion celebrity visa decisions appropriately relative to major geopolitical developments.",
+        "date_added": "2026-04-07",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Opposition leader EU loyalty questioning",
+        "detail": "Framing political leader's domestic focus as defiance of European parliamentary obligations.",
+        "debias": "Present campaign prioritization choices without suggesting institutional betrayal.",
+        "date_added": "2026-04-07",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Defense innovation urgency competitive framing",
+        "detail": "Positioning EU military technology development as existential race against adversary speed.",
+        "debias": "Report defense modernization programs without apocalyptic timeline pressure framing.",
+        "date_added": "2026-04-07",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Gulf regime trust deficit assertion",
+        "detail": "Platforming UAE diplomatic statement that there is 'no trust' in Iranian regime as regional consensus.",
+        "debias": "Attribute trust assessments to specific governments rather than presenting as unified Gulf position.",
+        "date_added": "2026-04-07",
         "status": "suggested"
       }
     ],
