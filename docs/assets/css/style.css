@@ -1,45 +1,17 @@
-/* ===================================
-   Override site_kit base colors with news_reader palette
-   =================================== */
-
+/* News reader specific variables (colors come from site_kit base.css) */
 :root {
-  --bg-dark: #1a1f2e;
-  --text-dark: #e0e0e0;
-  --bg-light: #f0f2f5;
-  --text-light: #2d3748;
-  --bg: var(--bg-dark);
-  --text: var(--text-dark);
-  --toggle-bg: var(--bg-light);
-  --toggle-text: var(--text-light);
-  --link: #4ecdc4;
-  --link-hover: #45b7aa;
-  --border: #2d3748;
-  --code-bg: #1e2333;
-  --header-bg: #151926;
-  --text-muted: #6b7280;
   --border-light: #3a4058;
   --shadow: rgba(0, 0, 0, 0.3);
   --sources-down-bg: #3a2828;
   --sources-down-border: #6b3a3a;
-  --category-accent: #4ecdc4;
+  --category-accent: var(--link);
 }
 
 [data-theme="light"] {
-  --bg: var(--bg-light);
-  --text: var(--text-light);
-  --toggle-bg: var(--bg-dark);
-  --toggle-text: var(--text-dark);
-  --link: #2b8a82;
-  --link-hover: #237a73;
-  --border: #d1d5db;
-  --code-bg: #e8ecf1;
-  --header-bg: #fff;
-  --text-muted: #8890a0;
   --border-light: #e5e8ef;
   --shadow: rgba(0, 0, 0, 0.08);
   --sources-down-bg: #fef2f2;
   --sources-down-border: #e8aaaa;
-  --category-accent: #0a9e94;
 }
 
 /* ===================================
