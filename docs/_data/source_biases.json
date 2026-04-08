@@ -680,6 +680,34 @@
         "debias": "Note religious language used without editorializing about theological legitimacy of military action.",
         "date_added": "2026-04-07",
         "status": "suggested"
+      },
+      {
+        "pattern": "Fishing industry fuel crisis localization",
+        "detail": "Frames India's fuel crisis through the lens of Mumbai's historic fishing dock becoming idle, using a specific local maritime economy as proxy for broader energy disruption.",
+        "debias": "Report fuel crisis impacts across multiple economic sectors and regions rather than anchoring on a single symbolic industry or location.",
+        "date_added": "2026-04-08",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Indigenous Muslim naming political skepticism",
+        "detail": "Frames BJP's designation of some Assamese Muslims as 'Indigenous' as a suspect electoral tactic, emphasizing skepticism over government motives in ethnic categorization.",
+        "debias": "Report the policy change neutrally, including both government rationale and community reactions without presuming ulterior motives.",
+        "date_added": "2026-04-08",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Cyberbullying investigation geopolitical timing",
+        "detail": "Reports China's probe into cyberbullying of an athlete during wartime context, potentially threading domestic social issues with international tensions.",
+        "debias": "Separate domestic social issues from geopolitical context unless there is explicit connection demonstrated in the reporting.",
+        "date_added": "2026-04-08",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Yemeni teacher salary collapse victimization",
+        "detail": "Frames Yemen's teachers as victims of economic collapse through hunger and multiple jobs, emphasizing protest over structural causes.",
+        "debias": "Include economic and governance context alongside individual hardship stories to show systemic factors.",
+        "date_added": "2026-04-08",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1355,6 +1383,34 @@
         "detail": "Framing Iraq's neutrality strategy as unsustainable under regional conflict pressure.",
         "debias": "Present diplomatic balancing challenges without predicting inevitable policy failure.",
         "date_added": "2026-04-07",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Constraint-over-strength ceasefire framing",
+        "detail": "Characterizes the US-Iran ceasefire as emerging 'from constraint' rather than strength, emphasizing limits of military escalation over diplomatic achievement.",
+        "debias": "Present ceasefires as diplomatic outcomes without characterizing them primarily as signs of weakness or constraint.",
+        "date_added": "2026-04-08",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Expectations disappointment base framing",
+        "detail": "Frames the ceasefire as failing to meet Netanyahu's base expectations of 'regime change' or 'something very dramatic,' emphasizing domestic political disappointment.",
+        "debias": "Report ceasefire terms objectively without framing through the lens of unmet maximalist expectations.",
+        "date_added": "2026-04-08",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Supply chain bypass scrutiny emphasis",
+        "detail": "Highlights that French arms to Israel 'bypassed public scrutiny' through supply chains, emphasizing opacity over declared defensive purposes.",
+        "debias": "Report arms transfer facts including stated purposes, actual uses, and oversight mechanisms without assuming deception.",
+        "date_added": "2026-04-08",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Survival-as-victory threshold lowering",
+        "detail": "Explicitly states 'for Iran, survival was always a victory,' reframing mere continuation as strategic success despite heavy losses.",
+        "debias": "Assess military and strategic outcomes by objective measures rather than adopting participants' self-declared victory definitions.",
+        "date_added": "2026-04-08",
         "status": "suggested"
       }
     ],
@@ -2467,6 +2523,41 @@
         "detail": "Platforming UAE diplomatic statement that there is 'no trust' in Iranian regime as regional consensus.",
         "debias": "Attribute trust assessments to specific governments rather than presenting as unified Gulf position.",
         "date_added": "2026-04-07",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Political execution acceleration tracking",
+        "detail": "Quantifies Iran's execution of political prisoners 'since the war began,' creating temporal causation between external conflict and internal repression.",
+        "debias": "Report execution statistics with historical context to show whether wartime rates represent acceleration or continuation of existing patterns.",
+        "date_added": "2026-04-08",
+        "status": "suggested"
+      },
+      {
+        "pattern": "European diplomatic exclusion framing",
+        "detail": "Emphasizes that Europeans 'find themselves excluded from the diplomatic process,' framing the ceasefire as a European marginalization event.",
+        "debias": "Report which parties participated in negotiations without framing non-participation as exclusion unless explicitly stated by excluded parties.",
+        "date_added": "2026-04-08",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Earnings season war impact preview",
+        "detail": "Previews corporate earnings through lens of who 'wins and loses from the Iran war,' financializing conflict into investment implications.",
+        "debias": "Report corporate performance and war impacts separately unless companies explicitly cite war as cause of results.",
+        "date_added": "2026-04-08",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Rare consensus irony highlighting",
+        "detail": "Notes that Israel's political forces achieve 'rare moment of consensus' in criticizing the ceasefire, using unity as evidence of problematic outcome.",
+        "debias": "Report political consensus without suggesting that agreement itself indicates the policy is flawed.",
+        "date_added": "2026-04-08",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Trump silent treatment virality amplification",
+        "detail": "Amplifies 'embarrassing moment' of Artemis II astronauts giving Trump 'the silent treatment' as a viral clip, emphasizing awkwardness over mission content.",
+        "debias": "Focus reporting on substantive aspects of space missions rather than amplifying viral social media moments of political awkwardness.",
+        "date_added": "2026-04-08",
         "status": "suggested"
       }
     ],
