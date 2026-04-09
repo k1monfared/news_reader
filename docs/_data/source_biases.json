@@ -708,6 +708,20 @@
         "debias": "Include economic and governance context alongside individual hardship stories to show systemic factors.",
         "date_added": "2026-04-08",
         "status": "suggested"
+      },
+      {
+        "pattern": "Sports heroism geopolitical proxy framing",
+        "detail": "Ball boy obstructing opponent's penalty notes framed as heroic national achievement rather than match interference incident.",
+        "debias": "Present sports incidents as sporting events first, avoiding projection of geopolitical significance onto youth athletic actions.",
+        "date_added": "2026-04-09",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Post-conflict trauma artistic legitimization",
+        "detail": "Ukrainian veterans' theater presented as authentic war experience representation deserving universal validation through audience emotional response.",
+        "debias": "Report artistic productions by conflict participants as cultural activities without prescribing their therapeutic or political significance.",
+        "date_added": "2026-04-09",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1203,6 +1217,13 @@
         "debias": "Present currency movements as multi-causal without forcing contradictory narrative synthesis.",
         "date_added": "2026-03-30",
         "status": "suggested"
+      },
+      {
+        "pattern": "Missing - no new patterns detected",
+        "detail": "All observed Reuters patterns fall under existing economic quantification, third-party attribution, and market impact framing already documented.",
+        "debias": "No new debias action required.",
+        "date_added": "2026-04-09",
+        "status": "suggested"
       }
     ],
     "notes": "High reliability, fact-checked. Treat as anchor source."
@@ -1411,6 +1432,13 @@
         "detail": "Explicitly states 'for Iran, survival was always a victory,' reframing mere continuation as strategic success despite heavy losses.",
         "debias": "Assess military and strategic outcomes by objective measures rather than adopting participants' self-declared victory definitions.",
         "date_added": "2026-04-08",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Geopolitical broker self-legitimization amplification",
+        "detail": "Pakistan's mediator role elevated through detailed diplomatic process coverage and ambassador platform access disproportionate to historical mediation track record.",
+        "debias": "Attribute mediation claims to specific officials and verify with outcome evidence rather than amplifying process participation as achievement.",
+        "date_added": "2026-04-09",
         "status": "suggested"
       }
     ],
@@ -2558,6 +2586,27 @@
         "detail": "Amplifies 'embarrassing moment' of Artemis II astronauts giving Trump 'the silent treatment' as a viral clip, emphasizing awkwardness over mission content.",
         "debias": "Focus reporting on substantive aspects of space missions rather than amplifying viral social media moments of political awkwardness.",
         "date_added": "2026-04-08",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Nuclear waste facility safety milestone normalization",
+        "detail": "Finnish nuclear waste repository operational launch presented as environmental achievement without acknowledging multi-century risk transfer to future generations.",
+        "debias": "Frame long-term nuclear waste solutions as risk management requiring ongoing oversight, not completed safety achievements.",
+        "date_added": "2026-04-09",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Celebrity luxury travel war-distraction juxtaposition",
+        "detail": "BTS world tour commercial analysis positioned alongside war coverage as entertainment news without acknowledging tonal dissonance amid regional crisis.",
+        "debias": "Maintain editorial boundaries between entertainment commerce coverage and active conflict reporting to avoid trivializing humanitarian consequences.",
+        "date_added": "2026-04-09",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Migration economic contribution reverse-threat modeling",
+        "detail": "Spanish border closure economic modeling framed as cautionary evidence against restrictive policy through quantified GDP loss projection.",
+        "debias": "Present migration economic studies as analytical tools for policy discussion without prescribing specific political outcomes through consequence dramatization.",
+        "date_added": "2026-04-09",
         "status": "suggested"
       }
     ],
