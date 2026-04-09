@@ -1,7 +1,7 @@
 title: "USrael War on Iran: Daily Brief"
 description: Automated daily intelligence digest on the USrael war on Iran
 baseurl: "/news_reader"
-url: ""
+url: "https://k1monfared.github.io"
 kramdown:
   parse_block_html: true
 
