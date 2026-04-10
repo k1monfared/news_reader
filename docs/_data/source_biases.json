@@ -722,6 +722,20 @@
         "debias": "Report artistic productions by conflict participants as cultural activities without prescribing their therapeutic or political significance.",
         "date_added": "2026-04-09",
         "status": "suggested"
+      },
+      {
+        "pattern": "Torpedo discovery security speculation",
+        "detail": "Prominently featuring unexplained military-like object discovery near strategic waterways without context, implying covert operations or escalation risk.",
+        "debias": "Clarify operational status and sourcing before suggesting security implications of unverified object discoveries.",
+        "date_added": "2026-04-10",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Sports failure political destabilization threading",
+        "detail": "Connecting sports controversies (goalkeeper striking referee) to broader regional instability narratives through selective emphasis and placement.",
+        "debias": "Report sports disciplinary actions as discrete events unless explicit political connections exist.",
+        "date_added": "2026-04-10",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1439,6 +1453,20 @@
         "detail": "Pakistan's mediator role elevated through detailed diplomatic process coverage and ambassador platform access disproportionate to historical mediation track record.",
         "debias": "Attribute mediation claims to specific officials and verify with outcome evidence rather than amplifying process participation as achievement.",
         "date_added": "2026-04-09",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Information war persistence framing",
+        "detail": "Characterizing ongoing disputed ceasefire interpretations as continuation of 'information war' rather than negotiation ambiguity.",
+        "debias": "Frame competing ceasefire interpretations as diplomatic disputes rather than weaponized disinformation campaigns.",
+        "date_added": "2026-04-10",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Toll proposal outrage amplification",
+        "detail": "Highlighting emotional reactions ('fuels outrage') to Iranian Strait of Hormuz toll proposal rather than technical feasibility analysis.",
+        "debias": "Focus on legal precedents and practical implementation challenges rather than reaction intensity.",
+        "date_added": "2026-04-10",
         "status": "suggested"
       }
     ],
@@ -2607,6 +2635,34 @@
         "detail": "Spanish border closure economic modeling framed as cautionary evidence against restrictive policy through quantified GDP loss projection.",
         "debias": "Present migration economic studies as analytical tools for policy discussion without prescribing specific political outcomes through consequence dramatization.",
         "date_added": "2026-04-09",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Overlooked institution warning elevation",
+        "detail": "Positioning expert analysis of lesser-known Iranian institutions as key to understanding strategy, suggesting hidden threat vectors.",
+        "debias": "Contextualize institutional analysis within broader governance structures rather than suggesting undiscovered strategic wildcards.",
+        "date_added": "2026-04-10",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Vatican-Pentagon tension dramatization",
+        "detail": "Amplifying denied reports of US threats to Vatican over Pope's Iran war criticism through denial coverage itself.",
+        "debias": "Report denied diplomatic incidents only if independently verified, not through the denial mechanism alone.",
+        "date_added": "2026-04-10",
+        "status": "suggested"
+      },
+      {
+        "pattern": "NATO obligation legalism questioning",
+        "detail": "Emphasizing Turkish official's statement that NATO is 'not obliged' to act, foregrounding alliance fragmentation interpretation.",
+        "debias": "Balance alliance limitation statements with treaty text and historical precedent rather than treating as alliance breakdown indicator.",
+        "date_added": "2026-04-10",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Unilateral ceasefire credit contestation",
+        "detail": "Highlighting that Russia announced ceasefire 'just to announce what it called its own' after ignoring Ukrainian calls, contesting ownership.",
+        "debias": "Report ceasefire implementations with timeline context without editorializing motivation attribution.",
+        "date_added": "2026-04-10",
         "status": "suggested"
       }
     ],
