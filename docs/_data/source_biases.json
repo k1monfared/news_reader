@@ -736,6 +736,27 @@
         "debias": "Report sports disciplinary actions as discrete events unless explicit political connections exist.",
         "date_added": "2026-04-10",
         "status": "suggested"
+      },
+      {
+        "pattern": "Makeshift resilience valorization",
+        "detail": "Framing improvised educational facilities under adversity as inspirational lifelines rather than evidence of institutional collapse.",
+        "debias": "Present makeshift solutions as crisis indicators requiring structural restoration, not permanent alternatives to destroyed infrastructure.",
+        "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Regional agreement normativity assertion",
+        "detail": "Advocating for specific governance arrangements as necessary and achievable based on principles, without exploring power asymmetries or enforcement mechanisms.",
+        "debias": "Acknowledge that proposed governance frameworks require buy-in from parties with conflicting interests and enforcement capacity.",
+        "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Diplomatic venue significance self-elevation",
+        "detail": "Emphasizing the location of negotiations as inherently meaningful or legitimizing for the host country's role.",
+        "debias": "Note venue selection as logistical convenience or neutral ground rather than validation of mediator effectiveness.",
+        "date_added": "2026-04-11",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1467,6 +1488,20 @@
         "detail": "Highlighting emotional reactions ('fuels outrage') to Iranian Strait of Hormuz toll proposal rather than technical feasibility analysis.",
         "debias": "Focus on legal precedents and practical implementation challenges rather than reaction intensity.",
         "date_added": "2026-04-10",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Non-clerical prominence highlighting",
+        "detail": "Emphasizing that a negotiator is not a cleric as a notable characteristic, implying clerical dominance as the default expectation.",
+        "debias": "Present negotiator profiles based on relevant experience and authority without framing clerical/non-clerical status as exceptional.",
+        "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Delegation size numerical emphasis",
+        "detail": "Highlighting the specific number of delegation members as an indicator of seriousness or commitment to negotiations.",
+        "debias": "Focus on negotiating mandate and authority rather than delegation headcount as a proxy for commitment.",
+        "date_added": "2026-04-11",
         "status": "suggested"
       }
     ],
@@ -2663,6 +2698,83 @@
         "detail": "Highlighting that Russia announced ceasefire 'just to announce what it called its own' after ignoring Ukrainian calls, contesting ownership.",
         "debias": "Report ceasefire implementations with timeline context without editorializing motivation attribution.",
         "date_added": "2026-04-10",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Group photography social commentary",
+        "detail": "Using photographic documentation of assembled groups as evidence of broader societal structures or cultural patterns.",
+        "debias": "Distinguish between artistic interpretation of group dynamics and empirical evidence about social organization.",
+        "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Retro aesthetic nostalgia commercialization",
+        "detail": "Framing throwback branding or design choices as meaningful cultural commentary rather than marketing strategy.",
+        "debias": "Present nostalgic aesthetics as commercial tactics targeting specific demographics rather than organic cultural movements.",
+        "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "AI travel planning inevitability framing",
+        "detail": "Positioning AI-driven trip planning as the emerging standard for future travel rather than one option among many.",
+        "debias": "Present AI integration as a business development in the travel sector without implying universal adoption or superiority.",
+        "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Space physiology impact cataloging",
+        "detail": "Systematically documenting bodily harms from space travel as scientific curiosity without questioning mission necessity.",
+        "debias": "Contextualize physical risks within cost-benefit analysis of space exploration goals rather than as isolated medical phenomena.",
+        "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Climate change species endangerment attribution",
+        "detail": "Establishing direct causation between climate factors and species status changes as primary driver without exploring ecosystem complexity.",
+        "debias": "Present climate factors as contributing causes while acknowledging multi-variable ecosystem dynamics affecting species survival.",
+        "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Sports resort fitness commodification",
+        "detail": "Framing active holidays as an emerging lifestyle trend rather than niche luxury market targeting affluent consumers.",
+        "debias": "Identify fitness-focused travel as a premium market segment rather than a democratized shift in vacation preferences.",
+        "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Raffle cultural access democratization",
+        "detail": "Presenting lottery-based art acquisition as expanding access to masterworks while obscuring that only one winner benefits.",
+        "debias": "Clarify that art raffles are fundraising mechanisms where most participants receive nothing, not genuine democratization.",
+        "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Tax burden reintegration dramatization",
+        "detail": "Highlighting bureaucratic difficulties faced by released hostages as surreal or absurd without contextualizing standard administrative processes.",
+        "debias": "Present post-release administrative challenges as systemic gaps in reintegration support rather than individual absurdities.",
+        "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Russian disinformation attribution certainty",
+        "detail": "Linking election interference content to specific Russian units with researcher attribution as definitive sourcing.",
+        "debias": "Note disinformation attribution as assessed likelihood by specific researchers rather than confirmed fact.",
+        "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Home cook entrepreneur transformation",
+        "detail": "Framing culinary startups as empowerment pathways for marginalized cooks without examining success rates or economic sustainability.",
+        "debias": "Present social enterprise culinary programs as pilot initiatives requiring evaluation of long-term viability and participant outcomes.",
+        "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Travel trend naming proliferation",
+        "detail": "Creating portmanteau labels for minor travel preference variations as if they represent distinct behavioral shifts.",
+        "debias": "Group minor travel variations under broader consumer preference categories rather than treating each as a unique trend.",
+        "date_added": "2026-04-11",
         "status": "suggested"
       }
     ],
