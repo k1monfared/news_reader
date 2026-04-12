@@ -757,6 +757,27 @@
         "debias": "Note venue selection as logistical convenience or neutral ground rather than validation of mediator effectiveness.",
         "date_added": "2026-04-11",
         "status": "suggested"
+      },
+      {
+        "pattern": "Sports achievement geopolitical distraction",
+        "detail": "Prominently featuring non-political sports stories (football matches, sprint records, UFC fights) alongside war coverage creates normalizing distraction from conflict consequences.",
+        "debias": "Clearly separate entertainment content from geopolitical coverage or acknowledge when sports stories serve as audience retention tactics during crisis periods.",
+        "date_added": "2026-04-12",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Cultural loss obituary valorization",
+        "detail": "Emphasizing the death of cultural figures (Bollywood singers) during war periods elevates civilian cultural casualties as symbolic losses beyond individual tragedy.",
+        "debias": "Report cultural figure deaths straightforwardly without framing them as war-related symbolic losses unless directly connected to conflict.",
+        "date_added": "2026-04-12",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Ceasefire fragility theatrical questioning",
+        "detail": "Repeatedly describing ceasefires as 'fragile' while simultaneously reporting violations frames peace agreements as inherently unstable rather than potentially viable.",
+        "debias": "Report ceasefire status factually based on actual violations rather than preemptively characterizing all agreements as fragile.",
+        "date_added": "2026-04-12",
+        "status": "suggested"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1502,6 +1523,13 @@
         "detail": "Highlighting the specific number of delegation members as an indicator of seriousness or commitment to negotiations.",
         "debias": "Focus on negotiating mandate and authority rather than delegation headcount as a proxy for commitment.",
         "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Trust deficit negotiation framing",
+        "detail": "Emphasizing Iran's claim that the US failed to 'earn' trust positions diplomatic failure as character-based rather than substantive disagreement.",
+        "debias": "Frame negotiation breakdowns around specific substantive disputes rather than abstract trust deficits.",
+        "date_added": "2026-04-12",
         "status": "suggested"
       }
     ],
@@ -2775,6 +2803,27 @@
         "detail": "Creating portmanteau labels for minor travel preference variations as if they represent distinct behavioral shifts.",
         "debias": "Group minor travel variations under broader consumer preference categories rather than treating each as a unique trend.",
         "date_added": "2026-04-11",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Record turnout democracy validation",
+        "detail": "Emphasizing expected record turnout in Hungarian elections frames high participation as inherently validating regardless of outcome or campaign conditions.",
+        "debias": "Report turnout figures factually without framing participation rates as automatic indicators of democratic health.",
+        "date_added": "2026-04-12",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Space achievement war contrast juxtaposition",
+        "detail": "Positioning Artemis II lunar mission success alongside war coverage creates implicit moral contrast between scientific progress and military conflict.",
+        "debias": "Report space achievements without framing them as morally superior alternatives to ongoing conflicts.",
+        "date_added": "2026-04-12",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Climate species endangerment war deflection",
+        "detail": "Highlighting penguin and seal endangerment from climate change during war coverage suggests environmental crises deserve equivalent or greater attention than human conflict.",
+        "debias": "Report environmental stories without implicit comparison to human conflict urgency.",
+        "date_added": "2026-04-12",
         "status": "suggested"
       }
     ],
