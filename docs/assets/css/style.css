@@ -531,8 +531,6 @@ main {
   word-wrap: break-word;
   overflow-wrap: break-word;
   word-break: break-word;
-  max-width: 0;
-  overflow: hidden;
 }
 
 .bias-table th:nth-child(1),
