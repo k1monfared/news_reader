@@ -316,6 +316,36 @@
         "detail_items": [
           "Emphasizing the location of negotiations as inherently meaningful or legitimizing for the host country's role."
         ]
+      },
+      {
+        "pattern": "Scare-quote ceasefire delegitimization",
+        "detail": "Using scare quotes around the word 'ceasefire' suggests the truce is not genuine or not a real ceasefire.",
+        "debias": "Refer to ceasefires without scare quotes unless there is specific evidence they are violated or false.",
+        "date_added": "2026-04-13",
+        "status": "suggested",
+        "example_text": "Attacks come as Palestinian groups meet mediators from Egypt, Turkiye and Qatar in Cairo to discuss fragile &#039;ceasefire&#039;.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/13/israeli-forces-kill-three-palestinians-in-gaza-arrest-dozens-in-west-bank?traffic_source=rss",
+        "unbiased_text": "Attacks come as Palestinian groups meet mediators from Egypt, Turkey and Qatar in Cairo to discuss fragile ceasefire."
+      },
+      {
+        "pattern": "Global crisis attribution to single conflict",
+        "detail": "Attributing worldwide economic problems directly to one specific war without acknowledging other contributing factors.",
+        "debias": "When discussing economic impacts, acknowledge multiple contributing factors rather than single-cause attribution.",
+        "date_added": "2026-04-13",
+        "status": "suggested",
+        "example_text": "Factory workers protest in national capital's suburb of Noida as living costs across the world rise due to the Iran war.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/13/tear-gas-fired-at-indian-workers-demanding-higher-wage-as-living-costs-rise?traffic_source=rss",
+        "unbiased_text": "Factory workers protest in national capital's suburb of Noida as living costs rise, exacerbated by the Iran war and other economic factors."
+      },
+      {
+        "pattern": "Mediator exceptionalism narrative construction",
+        "detail": "Framing one mediator country as uniquely capable due to special relationships while implying others failed.",
+        "debias": "Report on mediation efforts without implying one country has exceptional capabilities others lack.",
+        "date_added": "2026-04-13",
+        "status": "suggested",
+        "example_text": "Pakistan has been under the spotlight as it managed what others couldn't due to its ties with the Gulf, US and China.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/13/how-the-us-iran-talks-in-islamabad-unfolded?traffic_source=rss",
+        "unbiased_text": "Pakistan hosted the talks, leveraging its diplomatic relationships with the Gulf states, US and China."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -690,6 +720,16 @@
         "detail_items": [
           "Highlighting the specific number of delegation members as an indicator of seriousness or commitment to negotiations."
         ]
+      },
+      {
+        "pattern": "Non-clerical first historical milestone",
+        "detail": "Emphasizing that a political figure is the first non-clerical leader in a prominent role suggests religious leadership is the norm.",
+        "debias": "Report on political appointments without unnecessary religious comparisons unless directly relevant to the story.",
+        "date_added": "2026-04-13",
+        "status": "suggested",
+        "example_text": "The 70-member Iranian delegation taking part in negotiations in Pakistan today is being led by one of Tehran's most prominent non-clerical figures, Iranian Parliament Speaker Mohammad Bagher Ghalibaf.",
+        "example_url": "https://www.france24.com/en/who-is-iran-s-chief-negotiator-ghalibaf",
+        "unbiased_text": "The 70-member Iranian delegation taking part in negotiations in Pakistan today is being led by Iranian Parliament Speaker Mohammad Bagher Ghalibaf."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -1096,6 +1136,26 @@
         "detail_items": [
           "Highlighting penguin and seal endangerment from climate change during war coverage suggests environmental crises deserve equivalent or greater attention than human conflict."
         ]
+      },
+      {
+        "pattern": "Document destruction conspiracy insinuation",
+        "detail": "Reporting unverified accusations of document destruction as headline news before official response creates presumption of guilt.",
+        "debias": "Wait for official responses before prominently featuring unverified accusations, or clearly label them as unconfirmed allegations.",
+        "date_added": "2026-04-13",
+        "status": "suggested",
+        "example_text": "Hungarian Prime Minister-elect Peter Magyar has accused outgoing Foreign Minister Péter Szijjártó of shredding confidential sanctions-related documents at the Ministry of Foreign Affairs, citing insider sources during a press conference in Budapest on Monday. The ministry has not yet responded.",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/13/peter-magyar-accuses-outgoing-foreign-minister-of-destroying-confidential-documents",
+        "unbiased_text": "Hungarian Prime Minister-elect Peter Magyar has alleged, without providing evidence, that outgoing Foreign Minister Péter Szijjártó destroyed confidential sanctions-related documents. The ministry has not yet responded to the unverified claim."
+      },
+      {
+        "pattern": "Unpopularity ranking sensationalism",
+        "detail": "Presenting survey results as definitive global rankings with superlatives like 'most unpopular in the world' without methodological context.",
+        "debias": "Report survey findings with appropriate methodological caveats and avoid absolute superlatives.",
+        "date_added": "2026-04-13",
+        "status": "suggested",
+        "example_text": "Surveys show Friedrich Merz as the most unpopular leader across 24 democracies, far behind Narendra Modi, Lee Jae-myung and Andrej Babiš in approval.",
+        "example_url": "http://www.euronews.com/2026/04/13/german-chancellor-merz-the-most-unpopular-head-of-government-in-the-world-survey-shows",
+        "unbiased_text": "According to surveys of 24 democracies, Friedrich Merz has lower approval ratings than leaders including Narendra Modi, Lee Jae-myung and Andrej Babiš."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
