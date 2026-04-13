@@ -73,8 +73,11 @@ Every news source carries biases in how it frames, emphasizes, and omits informa
     {% for bias in info.biases %}
     <tr>
       <td>
-        <strong>{{ bias.pattern }}</strong><br>
-        <span class="bias-detail">{{ bias.detail }}</span>
+        <strong>{{ bias.pattern }}</strong>
+        <details class="bias-foldable">
+          <summary>Details</summary>
+          <span class="bias-detail">{{ bias.detail }}</span>
+        </details>
         {% if bias.example_text %}
         <details class="bias-foldable">
           <summary>Example</summary>
@@ -84,7 +87,10 @@ Every news source carries biases in how it frames, emphasizes, and omits informa
         {% endif %}
       </td>
       <td>
-        {{ bias.debias }}
+        <details class="bias-foldable">
+          <summary>Counteraction</summary>
+          {{ bias.debias }}
+        </details>
         {% if bias.unbiased_text %}
         <details class="bias-foldable">
           <summary>Unbiased version</summary>
