@@ -530,6 +530,9 @@ main {
   text-align: left;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 0;
+  overflow: hidden;
 }
 
 .bias-table th:nth-child(1),
@@ -590,6 +593,7 @@ main {
   border: 1px solid var(--border);
   border-radius: 6px;
   overflow: hidden;
+  max-width: 100%;
 }
 
 .bias-source-section > summary {
@@ -633,6 +637,8 @@ main {
   border-left: 2px solid var(--border-light);
   padding: 0;
   font-size: 0.8rem;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .bias-foldable summary {
@@ -655,6 +661,9 @@ main {
   font-size: 0.78rem;
   color: var(--text-muted);
   line-height: 1.5;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .bias-foldable a {
@@ -662,6 +671,7 @@ main {
   margin: 0.2rem 0.4rem;
   font-size: 0.72rem;
   color: var(--link);
+  word-break: break-all;
 }
 
 /* ===================================

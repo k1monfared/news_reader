@@ -84,7 +84,7 @@ Every news source carries biases in how it frames, emphasizes, and omits informa
         {% endif %}
       </td>
       <td>
-        {{ bias.debias }}
+        {{ bias.debias | truncate: 200 }}
         {% if bias.unbiased_text %}
         <details class="bias-foldable">
           <summary>Unbiased version</summary>
