@@ -10,7 +10,54 @@
         "status": "confirmed",
         "example_text": "the US-Israel war on Iran stretches into its fifth week",
         "example_url": "https://www.aljazeera.com/news/2026/3/30/trump-wants-to-invade-iran-to-seize-oil-calls-us-objectors-stupid",
-        "unbiased_text": "The conflict between the US, Israel, and Iran enters its fifth week"
+        "unbiased_text": "The conflict between the US, Israel, and Iran enters its fifth week",
+        "detail_items": [
+          "<strong>Pro-Arab, anti-Israel framing</strong>: Uses 'invasion' for Israeli ops but 'strikes' for Iranian ones. Labels conflict 'US-Israeli war on Iran' rather than neutral terms.",
+          "<strong>Asymmetric casualty emphasis</strong>: Highlights Iranian civilian casualties (children, universities, residential areas) while underreporting impact of Iranian attacks on others.",
+          "<strong>Selective attribution</strong>: Hedges Iranian claims with 'Iran says' but presents US/Israeli actions as direct facts without similar attribution.",
+          "<strong>US-Israel attribution fusion</strong>: Systematically refers to military actions as 'US-Israeli' strikes/attacks/war rather than attributing them separately, implying equal responsibility and joint operation.",
+          "<strong>US political unity framing</strong>: Headlines emphasize Republican support for Iran strikes 'despite antiwar MAGA wing,' framing internal US dissent as minority position overcome by consensus.",
+          "<strong>Pakistan protest contagion framing</strong>: Emphasizes deaths in Pakistani street protests over Khamenei killing to suggest regional Islamic solidarity and spillover destabilization.",
+          "<strong>Assassination backfire prediction framing</strong>: Frames Khamenei assassination as tactically counterproductive to suggest Western strategic incompetence and inevitable resistance strengthening.",
+          "<strong>International law framing priority</strong>: Prioritizes international law legality questions in headlines and leads ('Are US-Israeli attacks legal under international law?') establishing legal violation as primary frame for analyzing military actions.",
+          "<strong>Student evacuation humanization asymmetry</strong>: Pakistani students' escape from Iran receives detailed first-person 'praying' narrative treatment not typically extended to other nationals' evacuations.",
+          "<strong>US war nomenclature adoption</strong>: Consistently labels the conflict as 'US-Israel war on Iran' rather than neutral descriptors, framing Iran as the object of aggression rather than participant.",
+          "<strong>White House contradiction highlighting</strong>: Emphasizes deleted social media posts and subsequent denials to suggest administration messaging confusion.",
+          "<strong>BeiDou navigation system speculation</strong>: Al Jazeera frames China's BeiDou satellite system as potentially enabling Iranian precision, introducing technology-transfer speculation without attribution.",
+          "<strong>Strategic patience obituary framing</strong>: Al Jazeera declares Iran's 'strategic patience tactic failed' as established fact, forecasting 'far worse' consequences while treating policy shift as inevitable.",
+          "<strong>Orphan pearl cultural mythology</strong>: Al Jazeera uses poetic descriptor 'orphan pearl' for Kharg Island oil facilities, culturally mythologizing infrastructure targets through literary framing.",
+          "<strong>Hamas diplomatic mediation positioning</strong>: Hamas statements urging Iran to halt Gulf attacks are featured prominently, framing designated terrorist organization as regional peacemaking intermediary.",
+          "<strong>No quarter war crime framing</strong>: Expert analysis that US 'no quarter' threat violates international law is emphasized, framing policy statements through legal violation lens with analyst authority.",
+          "<strong>Precision weaponry irony framing</strong>: Frames precise weapons striking civilian targets (classroom in Minab) as ironic contradiction to highlight targeting of civilians.",
+          "<strong>Cuba blockade victimization parallelization</strong>: Frames Cuban power grid collapse through lens of US sanctions as deliberate humanitarian harm, paralleling Iran war framing.",
+          "<strong>Allied enthusiasm deficit shaming</strong>: Repeatedly emphasizes Trump 'chastising' and criticizing allies' 'lack of enthusiasm' for Hormuz coalition, framing US as isolated demander.",
+          "<strong>Israeli capability miscalculation questioning</strong>: Framing question 'Did Israel miscalculate Iranian military capabilities' positions Israeli intelligence as overconfident and Iranian strength as underestimated.",
+          "<strong>Israel negotiation abandonment speculation</strong>: Questions 'where do reported US-Iran negotiations leave Israel', framing potential talks as diplomatically isolating or sidelining Israeli interests.",
+          "<strong>Iranian cluster munition penetration effectiveness highlighting</strong>: Asks 'What are Iran cluster munitions that are penetrating Israeli defences', framing Iranian weapons as overcoming Israeli systems with technical explainer focus.",
+          "<strong>TSA worker crisis domestication</strong>: Reports 'long lines, unpaid TSA workers' framing US air travel system as 'in crisis', extending war impacts to domestic US infrastructure dysfunction.",
+          "<strong>Security appointment significance elevation</strong>: Treats Iran's appointment of new security boss Mohammad Zolghadr as major analytical focus with 'why it matters' framing implying strategic shift.",
+          "<strong>Hormuz strait toll economic injustice framing</strong>: Al Jazeera highlights US diplomat denouncement of Iranian 'tolls' in Hormuz strait, framing maritime access fees as illegitimate economic coercion rather than sovereign waterway management.",
+          "<strong>Khamenei US base ultimatum countdown</strong>: Framing new leader's base closure demands as ticking-clock ultimatums to heighten escalation drama and US vulnerability.",
+          "<strong>Diaspora confrontation solidarity framing</strong>: LA Iranian diaspora coverage frames community response as 'confronting' US war policy, positioning diaspora as unified opposition bloc.",
+          "<strong>Oil war logic reduction</strong>: Headline reduces complex military conflict to 'oil logic behind Trump war' as primary explanatory framework, economically deterministic framing.",
+          "<strong>False flag preemptive accusation labeling</strong>: Headlines Diego Garcia missile claim as 'false flag attack' before explaining Iran's denial, pre-framing event as Western fabrication rather than disputed claim.",
+          "<strong>Trump oil seizure invasion motivation</strong>: Foregrounding Trump's stated desire to 'seize oil' as primary invasion motivation while framing domestic objectors as 'stupid people' per Trump's language.",
+          "<strong>Kuwaiti worker individual casualty naming</strong>: Specifying single worker death at Kuwait power plant from Iranian attack to humanize regional civilian infrastructure targeting.",
+          "<strong>Australian fuel tax relief crisis deepening</strong>: Framing Australian domestic fuel tax cut as evidence of 'deepening global energy crisis' spreading beyond conflict zone.",
+          "<strong>AI target selection dehumanization framing</strong>: Highlighting algorithmic target selection ('AI helped pick the first thousand targets') to frame military operations as mechanized dehumanization rather than precision warfare.",
+          "<strong>Cricket normalization disruption via disciplinary action</strong>: Framing Pakistani cricket disciplinary actions (ball tampering ban, social media fine) as connected to broader regional tensions and governance legitimacy questions.",
+          "<strong>Sexual harassment case geopolitical framing</strong>: Pakistani celebrity defamation case framed as nationally significant #MeToo moment rather than individual legal dispute.",
+          "<strong>Minerals-for-aid exploitation framing</strong>: US health agreements with African countries characterized as 'exploiting' and 'lopsided' based on mineral access components.",
+          "<strong>Anti-Trump birthright citizenship framing</strong>: Frames Trump's birthright citizenship restrictions through lens of opposition protests and individual impact stories rather than legal or policy analysis.",
+          "<strong>Equal pay sports activism platforming</strong>: Amplifies athlete demands for gender pay equity in sports governance contexts, framing it as institutional injustice requiring correction.",
+          "<strong>Non-military coalition skepticism framing</strong>: Questions viability of diplomatic coalitions while emphasizing military action alternatives, suggesting non-force solutions are inadequate.",
+          "<strong>POW humanitarian appeal framing</strong>: Framing missing US pilot as potential prisoner to invoke humanitarian concern and war crime implications against Iran.",
+          "<strong>Iranian cultural identity erasure accusation</strong>: Framing military strikes on educational/cultural sites as deliberate attempt to destroy Iranian national identity.",
+          "<strong>Indigenous Muslim naming political skepticism</strong>: Frames BJP's designation of some Assamese Muslims as 'Indigenous' as a suspect electoral tactic, emphasizing skepticism over government motives in ethnic categorization.",
+          "<strong>Sports heroism geopolitical proxy framing</strong>: Ball boy obstructing opponent's penalty notes framed as heroic national achievement rather than match interference incident.",
+          "<strong>Sports failure political destabilization threading</strong>: Connecting sports controversies (goalkeeper striking referee) to broader regional instability narratives through selective emphasis and placement.",
+          "<strong>Makeshift resilience valorization</strong>: Framing improvised educational facilities under adversity as inspirational lifelines rather than evidence of institutional collapse."
+        ]
       },
       {
         "pattern": "Speculation and amplification",
@@ -20,7 +67,30 @@
         "status": "suggested",
         "example_text": "discussions within the administration over the past month have touched upon the possible seizure of Kharg Island",
         "example_url": "https://www.aljazeera.com/news/2026/3/30/trump-wants-to-invade-iran-to-seize-oil-calls-us-objectors-stupid",
-        "unbiased_text": "Unconfirmed reports suggest some administration officials have discussed the possibility of seizing Kharg Island, though no formal policy decision has been made"
+        "unbiased_text": "Unconfirmed reports suggest some administration officials have discussed the possibility of seizing Kharg Island, though no formal policy decision has been made",
+        "detail_items": [
+          "<strong>Succession speculation amplification</strong>: Multiple articles focus on who will succeed Khamenei and timeline speculation, treating regime transition as imminent political drama rather than unconfirmed possibility.",
+          "<strong>Regime change narrative amplification</strong>: Prominently features and legitimizes Trump's claim that war achieved 'regime change' in Iran without verification or Iranian perspective on actual governance continuity.",
+          "<strong>Insurance market crisis amplification</strong>: Frames insurance coverage cancellations and war risk changes as existential economic threats ('will it spike energy cost?') rather than routine market risk adjustments.",
+          "<strong>CIA covert operation speculation threading</strong>: Headlines frame potential Kurdish arming as CIA planning to 'spark an uprising', emphasizing regime change conspiracy over defensive military support.",
+          "<strong>Pakistan neutrality sustainability questioning</strong>: Al Jazeera frames Pakistan's position with presumption that neutrality cannot last, suggesting inevitable forced alignment between Iran and Saudi Arabia.",
+          "<strong>Ground invasion speculation via proxy source</strong>: Al Jazeera amplifies Iranian Kurd leader's claim that ground operation is 'highly likely,' using non-state actor to escalate invasion speculation.",
+          "<strong>Tehran diplomatic rejection amplification</strong>: Highlights Iran's rejection of Trump negotiation claims in headlines and live updates, positioning Tehran as authoritative voice on talks status.",
+          "<strong>Pearl Harbor historical invocation via Trump</strong>: Al Jazeera highlights Trump's Pearl Harbor references during Japan meetings as ominous historical parallel-drawing, amplifying rhetoric that frames current events through past US war trauma.",
+          "<strong>Iranian leadership decapitation vacuum speculation</strong>: Al Jazeera frames assassinations as creating fundamental questions about who actually leads Iran, suggesting command structure collapse rather than continuity or succession.",
+          "<strong>Winter energy crisis pre-positioning</strong>: EU gas storage urgency is framed in terms of 'winter' preparation during spring conflict, projecting crisis duration across seasons.",
+          "<strong>Pakistan mediation venue self-promotion</strong>: Highlights Pakistan offering to 'host US-Iran talks' with questioning headline about whether 'latest peace push can work', elevating Pakistani mediator role.",
+          "<strong>1973 embargo historical equivalence questioning</strong>: Asks 'How does current global oil crisis compare with 1973 oil embargo', inviting direct historical crisis parallelization.",
+          "<strong>Negotiating position strength reversal questioning</strong>: Frames Iran as potentially having stronger negotiating position now than before war started, inverting conventional military pressure narrative.",
+          "<strong>Sri Lankan crisis contagion pre-positioning</strong>: Al Jazeera pre-positions Sri Lanka for 'new economic crisis' due to Iran war continuation, extending conflict economic consequences to vulnerable South Asian economies.",
+          "<strong>Gulf desalination plant vulnerability questioning</strong>: Highlighting proportion of Gulf water from desalination to emphasize civilian infrastructure fragility and Iranian leverage.",
+          "<strong>Indian remittance vulnerability dramatization</strong>: Frames Iran war as putting '$50bn in Indian remittances at risk' to humanize economic impact through diaspora worker lens.",
+          "<strong>Historical timeline accuracy meta-questioning</strong>: Publishing speculative content questioning fundamental historical chronology ('Is our timeline of human history accurate?') to cultivate epistemic uncertainty during crisis periods.",
+          "<strong>Trillionaire wealth milestone speculation</strong>: Emphasizes Elon Musk's potential trillionaire status in context of SpaceX IPO to frame private space exploration as wealth accumulation rather than technological achievement.",
+          "<strong>Stateless identity crisis dramatization</strong>: Highlighting multi-generational statelessness of ethnic communities to frame colonial border legacy victimization.",
+          "<strong>Torpedo discovery security speculation</strong>: Prominently featuring unexplained military-like object discovery near strategic waterways without context, implying covert operations or escalation risk.",
+          "<strong>Ceasefire fragility theatrical questioning</strong>: Repeatedly describing ceasefires as 'fragile' while simultaneously reporting violations frames peace agreements as inherently unstable rather than potentially viable."
+        ]
       },
       {
         "pattern": "Conflict expansion and contagion framing",
@@ -30,7 +100,18 @@
         "status": "suggested",
         "example_text": "escalation on multiple fronts of the US-Israel war on Iran",
         "example_url": "https://www.aljazeera.com/economy/2026/3/30/oil-rises-above-116-a-barrel-as-iran-accuses-us-of-preparing-invasion",
-        "unbiased_text": "Military activity involving multiple parties in the region has intensified"
+        "unbiased_text": "Military activity involving multiple parties in the region has intensified",
+        "detail_items": [
+          "<strong>Conflict expansion threading</strong>: Systematically frames Iran conflict as a domino to other regime change targets (Cuba, Venezuela) and regional actors (Houthis, Kurds), creating a narrative of U.S. imperial expansion.",
+          "<strong>Indonesian public anger projection</strong>: Al Jazeera frames Indonesian president's US ties through lens of 'public anger,' projecting domestic opposition as determining factor in bilateral relations.",
+          "<strong>PMF Iraq targeting widening war geography</strong>: Al Jazeera frames strikes on PMF fighters in northern Iraq as evidence of 'wider war' expansion, connecting peripheral incidents to central conflict escalation narrative.",
+          "<strong>Saudi-Iran diplomatic rupture escalation threading</strong>: Highlighting Saudi expulsion of Iranian military attache threads narrative of Iran losing regional allies and facing isolation.",
+          "<strong>AWS infrastructure disruption war-consequence threading</strong>: Reports Amazon Web Services Bahrain region 'disrupted following drone activity', linking commercial cloud infrastructure to war impacts.",
+          "<strong>Medical supply chain warfare consequence threading</strong>: Connects Iran conflict to helium shortages causing MRI scan delays, extending war impact into healthcare infrastructure disruption.",
+          "<strong>Australian visa ban contagion tracking</strong>: Reports Australia banning Iranian visitors as conflict spillover effect, suggesting geographic expansion of discrimination measures.",
+          "<strong>Cyberbullying investigation geopolitical timing</strong>: Reports China's probe into cyberbullying of an athlete during wartime context, potentially threading domestic social issues with international tensions.",
+          "<strong>Regional agreement normativity assertion</strong>: Advocating for specific governance arrangements as necessary and achievable based on principles, without exploring power asymmetries or enforcement mechanisms."
+        ]
       },
       {
         "pattern": "Casualty and victimization emphasis",
@@ -40,7 +121,19 @@
         "status": "suggested",
         "example_text": "We are not talking about stone and mortar. We are talking about the memory and history of a people.",
         "example_url": "https://www.aljazeera.com/features/2026/4/1/irans-minister-civilisational-identity-under-fire-in-unprecedented-war",
-        "unbiased_text": "Iran's cultural minister stated that the damage to heritage sites represents a loss of historical and cultural significance, with at least 56 museums and monuments reportedly affected."
+        "unbiased_text": "Iran's cultural minister stated that the damage to heritage sites represents a loss of historical and cultural significance, with at least 56 museums and monuments reportedly affected.",
+        "detail_items": [
+          "<strong>Gaza victimization parallelization</strong>: Draws explicit parallels between Gaza experiences and Iranian civilian concerns to create unified victim narrative across separate conflicts.",
+          "<strong>Infrastructure vulnerability humanization</strong>: Emphasizes civilian impact of attacks on desalination plants and water supply disruption, highlighting potential humanitarian consequences.",
+          "<strong>Gulf civilian casualty specification</strong>: Emphasizes individual Gulf state casualties (woman in Bahrain) from Iranian missiles while minimizing Israeli context.",
+          "<strong>Kurdish casualty regionalization emphasis</strong>: Deaths in Iranian Kurdistan are highlighted with specific regional designation and official sourcing, emphasizing ethnic minority targeting within broader conflict.",
+          "<strong>Cricket normalization disruption humanization</strong>: Noting Pakistan cricket league in empty stadiums due to oil crisis humanizes conflict through sports disruption affecting ordinary life.",
+          "<strong>Iraq involuntary war participation victimization</strong>: Frames US strikes on Iran-aligned groups in Iraq as Iraq being 'pulled into' war, emphasizing Iraqi state victimhood rather than militia group targeting rationale.",
+          "<strong>Gig economy war victimization localization</strong>: Highlights specific vulnerable worker groups (Vietnamese gig workers, Lyft drivers) suffering from war-related fuel price increases to humanize distant economic impacts through individual vulnerability.",
+          "<strong>Yemeni teacher salary collapse victimization</strong>: Frames Yemen's teachers as victims of economic collapse through hunger and multiple jobs, emphasizing protest over structural causes.",
+          "<strong>Post-conflict trauma artistic legitimization</strong>: Ukrainian veterans' theater presented as authentic war experience representation deserving universal validation through audience emotional response.",
+          "<strong>Cultural loss obituary valorization</strong>: Emphasizing the death of cultural figures (Bollywood singers) during war periods elevates civilian cultural casualties as symbolic losses beyond individual tragedy."
+        ]
       },
       {
         "pattern": "Conspiracy distraction meta-narrative",
@@ -50,7 +143,10 @@
         "status": "suggested",
         "example_text": "No one in the market has ever seen the outages we are now suffering from",
         "example_url": "https://www.aljazeera.com/economy/2026/3/30/oil-rises-above-116-a-barrel-as-iran-accuses-us-of-preparing-invasion",
-        "unbiased_text": "Market participants described the current supply disruptions as among the most significant in recent years"
+        "unbiased_text": "Market participants described the current supply disruptions as among the most significant in recent years",
+        "detail_items": [
+          "Story suggests Epstein files interest 'plummeted after war on Iran launched', implying conflict serves as deliberate distraction from scandals."
+        ]
       },
       {
         "pattern": "Anti-war voice platforming",
@@ -60,7 +156,10 @@
         "status": "suggested",
         "example_text": "The only way to avoid grave economic consequences is to end the war as soon as possible.",
         "example_url": "https://www.aljazeera.com/opinions/2026/3/23/why-the-oil-and-gas-price-shock-from-the-iran-war-wont-just-fade-away",
-        "unbiased_text": "Analysts note that an end to hostilities would reduce economic disruption, though other policy options such as strategic reserve releases and production increases could also mitigate effects."
+        "unbiased_text": "Analysts note that an end to hostilities would reduce economic disruption, though other policy options such as strategic reserve releases and production increases could also mitigate effects.",
+        "detail_items": [
+          "Features first-person American anti-war sentiment ('We, the American people, have had enough of endless wars') as representative perspective."
+        ]
       },
       {
         "pattern": "Non-conflict topic politicization",
@@ -70,7 +169,15 @@
         "status": "suggested",
         "example_text": "For the GCC states, this will not be merely a market shock but an existential challenge to their role as reliable suppliers.",
         "example_url": "https://www.aljazeera.com/opinions/2026/3/23/why-the-oil-and-gas-price-shock-from-the-iran-war-wont-just-fade-away",
-        "unbiased_text": "Gulf Cooperation Council states face pressure on their oil supply reliability as the conflict disrupts regional shipping routes."
+        "unbiased_text": "Gulf Cooperation Council states face pressure on their oil supply reliability as the conflict disrupts regional shipping routes.",
+        "detail_items": [
+          "<strong>Democratic war clarity criticism</strong>: Platforms Democratic party complaints about lack of administration transparency on war objectives after specific day count.",
+          "<strong>Sports failure geopolitical deflection</strong>: Heavy sports defeats (Lakers 139-96 loss, Liverpool's fifth-place languishing) are framed alongside geopolitical coverage to normalize national decline narratives.",
+          "<strong>Celebrity DUI diplomatic distraction</strong>: Tiger Woods' police bodycam footage claiming he was 'talking to the president' is positioned amid war coverage to suggest elite impunity during crisis.",
+          "<strong>Cultural event war disruption universalization</strong>: Emphasizing how war disrupts religious and cultural observances (Good Friday, Easter) to humanize conflict impact beyond military targets.",
+          "<strong>Anti-Muslim solidarity athlete valorization</strong>: Platforming athlete condemnation of anti-Muslim chants to frame sports racism as requiring collective resistance.",
+          "<strong>Sports achievement geopolitical distraction</strong>: Prominently featuring non-political sports stories (football matches, sprint records, UFC fights) alongside war coverage creates normalizing distraction from conflict consequences."
+        ]
       },
       {
         "pattern": "Economic crisis escalation framing",
@@ -80,7 +187,14 @@
         "status": "suggested",
         "example_text": "plunging the world into its biggest energy crisis in decades",
         "example_url": "https://www.aljazeera.com/economy/2026/3/30/oil-rises-above-116-a-barrel-as-iran-accuses-us-of-preparing-invasion",
-        "unbiased_text": "Oil prices rose significantly, with analysts comparing the disruption to previous energy supply shocks"
+        "unbiased_text": "Oil prices rose significantly, with analysts comparing the disruption to previous energy supply shocks",
+        "detail_items": [
+          "<strong>Teapot refinery resilience valorization</strong>: China's small independent 'teapot' refineries are framed as heroic cushioning mechanisms against war-induced oil crisis rather than industrial capacity.",
+          "<strong>Multi-year LNG disruption timeline extension</strong>: Al Jazeera emphasizes Qatar's statement of up-to-five-year capacity reductions, anchoring long-term economic consequences over potential repair timelines or adaptive responses.",
+          "<strong>Trump Iran war cost accountability tracking</strong>: Foregrounding specific US war expenditure figures to emphasize financial burden and question sustainability of military operations.",
+          "<strong>Southeast Asia office closure crisis contagion</strong>: Reporting regional business disruptions from oil crisis to expand geographic impact perception beyond direct conflict zone.",
+          "<strong>Fishing industry fuel crisis localization</strong>: Frames India's fuel crisis through the lens of Mumbai's historic fishing dock becoming idle, using a specific local maritime economy as proxy for broader energy disruption."
+        ]
       },
       {
         "pattern": "European policy and institutional focus",
@@ -90,7 +204,11 @@
         "status": "suggested",
         "example_text": "Persistent high prices will force consumers and industries to curb their consumption.",
         "example_url": "https://www.aljazeera.com/opinions/2026/3/23/why-the-oil-and-gas-price-shock-from-the-iran-war-wont-just-fade-away",
-        "unbiased_text": "Sustained higher energy prices may lead to reduced consumption in some sectors, though the extent of demand destruction depends on price duration and alternative supply options."
+        "unbiased_text": "Sustained higher energy prices may lead to reduced consumption in some sectors, though the extent of demand destruction depends on price duration and alternative supply options.",
+        "detail_items": [
+          "<strong>War-NASA mission contrast moralization</strong>: Quotes US senator positioning NASA moon mission as moral 'contrast' to war operations to frame space exploration as peace alternative.",
+          "<strong>Iranian authority taunting resistance narrative</strong>: Describing Iranian officials as 'taunting' US, Israel, and EU amid attacks frames regime as defiantly resisting Western pressure rather than escalating conflict."
+        ]
       },
       {
         "pattern": "Trump rhetoric and policy framing",
@@ -100,7 +218,11 @@
         "status": "suggested",
         "example_text": "Trump also repeated claims that Iran's new Supreme Leader Mojtaba Khamenei was injured in the war.",
         "example_url": "https://www.aljazeera.com/news/2026/3/30/trump-wants-to-invade-iran-to-seize-oil-calls-us-objectors-stupid",
-        "unbiased_text": "Trump repeated unverified claims that Iran's Supreme Leader was injured. These claims have not been independently confirmed."
+        "unbiased_text": "Trump repeated unverified claims that Iran's Supreme Leader was injured. These claims have not been independently confirmed.",
+        "detail_items": [
+          "<strong>CIA Kurdish arms admission validation</strong>: Frames Trump's statement about arming Kurdish groups as confirmation of Iranian claims about Western-backed protests, treating unverified presidential claims as factual validation of conspiracy theories.",
+          "<strong>Trump right people claim validation tracking</strong>: Monitors and reports Trump's repeated claims of talking to 'the right people' in Iran as ongoing story thread despite Iranian denials."
+        ]
       },
       {
         "pattern": "Historical trade disruption magnitude comparison",
@@ -110,63 +232,90 @@
         "status": "suggested",
         "example_text": "close to its highest point of $147 recorded in July 2008",
         "example_url": "https://www.aljazeera.com/opinions/2026/3/23/why-the-oil-and-gas-price-shock-from-the-iran-war-wont-just-fade-away",
-        "unbiased_text": "Oil prices have risen toward levels last seen during the 2008 price spike, though market conditions and global supply dynamics differ significantly from that period."
+        "unbiased_text": "Oil prices have risen toward levels last seen during the 2008 price spike, though market conditions and global supply dynamics differ significantly from that period.",
+        "detail_items": [
+          "Frames current situation as 'worst trade disruption in 80 years,' creating historical equivalence with World War II-era disruptions."
+        ]
       },
       {
         "pattern": "China-Iran solidarity highlighting",
         "detail": "Highlights Iranian commitments to protect Chinese citizens prominently, emphasizing alternative power bloc solidarity narrative.",
         "debias": "Present diplomatic statements about citizen protection in context of standard consular responsibilities rather than geopolitical alignment signaling.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Highlights Iranian commitments to protect Chinese citizens prominently, emphasizing alternative power bloc solidarity narrative."
+        ]
       },
       {
         "pattern": "Israeli public unity assumption",
         "detail": "Frames Israeli domestic opinion as monolithically supportive of Iran war despite taking hits.",
         "debias": "Present polling data on Israeli public opinion with methodology and dissenting voices included.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Frames Israeli domestic opinion as monolithically supportive of Iran war despite taking hits."
+        ]
       },
       {
         "pattern": "Ukraine protector role repositioning",
         "detail": "Reframes Ukraine as 'protector of US and Gulf allies' during Iran conflict to elevate its strategic importance beyond recipient status.",
         "debias": "Describe Ukraine's military role factually without reframing its position in global alliance hierarchy.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Reframes Ukraine as 'protector of US and Gulf allies' during Iran conflict to elevate its strategic importance beyond recipient status."
+        ]
       },
       {
         "pattern": "Sports failure political accountability demand",
         "detail": "Italy's World Cup playoff loss framed as requiring ministerial resignation and federation leadership change.",
         "debias": "Report sports outcomes as athletic results without automatically suggesting political or administrative consequences unless direct governance failures are documented.",
         "date_added": "2026-04-01",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Italy's World Cup playoff loss framed as requiring ministerial resignation and federation leadership change."
+        ]
       },
       {
         "pattern": "Protest conviction civil liberties crisis elevation",
         "detail": "UK legal ruling on protest organizers framed as broader attack on dissent rather than specific police rule enforcement.",
         "debias": "Report legal rulings on their specific grounds and violations without automatically generalizing to systemic rights suppression.",
         "date_added": "2026-04-01",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "UK legal ruling on protest organizers framed as broader attack on dissent rather than specific police rule enforcement."
+        ]
       },
       {
         "pattern": "Satellite blackout suppression narrative",
         "detail": "Frames Planet Labs' image blackout as government censorship rather than operational security, implying information control conspiracy.",
         "debias": "Present image restrictions as standard wartime operational security without conspiracy implications.",
         "date_added": "2026-04-05",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Frames Planet Labs' image blackout as government censorship rather than operational security, implying information control conspiracy."
+        ]
       },
       {
         "pattern": "God invocation militarism criticism",
         "detail": "Highlighting religious rhetoric by US leaders to frame war justification as divine mandate hypocrisy.",
         "debias": "Note religious language used without editorializing about theological legitimacy of military action.",
         "date_added": "2026-04-07",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Highlighting religious rhetoric by US leaders to frame war justification as divine mandate hypocrisy."
+        ]
       },
       {
         "pattern": "Diplomatic venue significance self-elevation",
         "detail": "Emphasizing the location of negotiations as inherently meaningful or legitimizing for the host country's role.",
         "debias": "Note venue selection as logistical convenience or neutral ground rather than validation of mediator effectiveness.",
         "date_added": "2026-04-11",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Emphasizing the location of negotiations as inherently meaningful or legitimizing for the host country's role."
+        ]
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -182,14 +331,21 @@
         "status": "confirmed",
         "example_text": "Oil whiplash: Iran war shock to flip market to deficit in 2026, analysts say",
         "example_url": "https://www.investing.com/news/commodities-news/oil-whiplash-iran-war-shock-to-flip-market-to-deficit-in-2026-analysts-say-4608356",
-        "unbiased_text": "Analysts at major banks project the Iran conflict will shift oil markets into a supply deficit for 2026"
+        "unbiased_text": "Analysts at major banks project the Iran conflict will shift oil markets into a supply deficit for 2026",
+        "detail_items": [
+          "Minimal editorializing. Can underplay significance by sticking to bare facts."
+        ]
       },
       {
         "pattern": "Casualty and victimization emphasis",
         "detail": "[Economic ripple effect prioritization] Multiple stories frame the Iran conflict primarily through global economic impacts (shipping, oil prices, supply chains, currency markets) rather than humanitarian or military dimensions. | [Middle East food import urgency specification] Features Maersk executive identifying 'pressing need' for food imports in region, elevating corporate logistics assessment to humanitarian crisis indicator.",
         "debias": "Balance economic consequence coverage with direct conflict reporting including casualties, diplomatic efforts, and humanitarian impacts. Report supply chain assessments without elevating corporate operational concerns to humanitarian emergency framing.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "<strong>Economic ripple effect prioritization</strong>: Multiple stories frame the Iran conflict primarily through global economic impacts (shipping, oil prices, supply chains, currency markets) rather than humanitarian or military dimensions.",
+          "<strong>Middle East food import urgency specification</strong>: Features Maersk executive identifying 'pressing need' for food imports in region, elevating corporate logistics assessment to humanitarian crisis indicator."
+        ]
       },
       {
         "pattern": "Attribution and framing asymmetry",
@@ -199,91 +355,183 @@
         "status": "suggested",
         "example_text": "Iran war shock to flip market to deficit in 2026, analysts say",
         "example_url": "https://www.kitco.com/news/off-the-wire/2026-04-10/oil-whiplash-iran-war-shock-flip-market-deficit-2026-analysts-say",
-        "unbiased_text": "The Iran war has disrupted global oil supply, with analysts projecting a deficit of 750,000 barrels per day in 2026. The conflict has also stalled shipping through the Strait of Hormuz."
+        "unbiased_text": "The Iran war has disrupted global oil supply, with analysts projecting a deficit of 750,000 barrels per day in 2026. The conflict has also stalled shipping through the Strait of Hormuz.",
+        "detail_items": [
+          "<strong>Infrastructure impact specificity</strong>: Japanese-language coverage emphasizes specific civilian infrastructure damage (airports, hotels) and commercial disruption over military or political dimensions.",
+          "<strong>Third-party economic reaction framing</strong>: Heavy emphasis on how non-combatant nations (China, Korea, Russia, India) are economically responding to the conflict rather than the conflict itself.",
+          "<strong>Japanese source attribution distancing</strong>: Uses Japanese language framing to report unconfirmed claims about Khamenei's death attributed to US-Israeli leaders, creating geographic and linguistic distance from direct editorial responsibility.",
+          "<strong>Energy chokepoint catastrophization</strong>: Headlines emphasize Strait of Hormuz closure and oil/gas transport suspension by specific companies, framing energy security as primary lens for conflict.",
+          "<strong>MAGA coalition stress testing framing</strong>: Frames Iran conflict primarily as test of Trump's domestic political coalition unity rather than as foreign policy action itself.",
+          "<strong>Israeli central bank decision meta-framing</strong>: Uses monetary policy meeting minutes to frame Iran attack concerns as influencing technical rate decisions.",
+          "<strong>Results-over-deadlines diplomatic framing</strong>: Reuters highlights Israeli president's 'results over deadlines' statement as philosophical framing rather than noting it deflects timeline accountability.",
+          "<strong>Red Sea alternative route inadequacy</strong>: Reuters notes Saudi Red Sea exports reached 'record highs' but immediately qualifies as 'insufficient to replace Hormuz,' framing alternatives as inherently inadequate.",
+          "<strong>Japanese domestic political constraint framing</strong>: Reuters frames the Takaichi government's stance on Iran as creating internal political barriers to Bank of Japan normalization, tying foreign conflict to domestic monetary policy constraints.",
+          "<strong>Venezuelan sanction relief expedience framing</strong>: Reuters presents US permission for Venezuelan oil transactions as contradicting prior policy principles, emphasizing strategic inconsistency over energy pragmatism.",
+          "<strong>Korean presidential public austerity appeal</strong>: Reports South Korean president asking citizens for energy conservation and reducing official vehicle use, framing leadership response as public sacrifice appeal.",
+          "<strong>African refueling boom secondary benefit highlighting</strong>: Reports ship refueling demand 'surging' in Africa due to Cape of Good Hope rerouting, framing conflict as creating African commercial opportunities.",
+          "<strong>Canadian pipeline Asia-interest opportunism</strong>: Reports Alberta premier claiming Middle East and Asia show interest in Canadian pipeline plans, framing crisis as Canadian export opportunity.",
+          "<strong>Pakistani diplomatic self-promotion via neutral attribution</strong>: Features multiple stories positioning Pakistan as the central mediator while maintaining wire service attribution distancing, creating promotional effect through repetition.",
+          "<strong>Corporate planning paralysis framing</strong>: Frames US businesses as maintaining confidence 'at least until Iran war breaks out,' suggesting economic planning is hostage to military timing.",
+          "<strong>Multi-national coalition formation speculation via attribution</strong>: Reuters uses Financial Times attribution to report UAE efforts for multinational Hormuz defense force, distancing from direct advocacy while amplifying coalition-building narratives.",
+          "<strong>German economic downgrade war attribution</strong>: Linking German growth forecast reductions directly to commodity price increases from conflict to establish clear causality chain.",
+          "<strong>Energy shock AI bubble collapse causation threading</strong>: Establishes speculative causal chain from energy price spikes to potential AI investment bubble collapse through columnist opinion framing.",
+          "<strong>German fiscal limit confession extraction</strong>: Quotes German Chancellor stating fiscal policy 'cannot compensate for all' energy price increases, framing as admission of state impotence.",
+          "<strong>Airspace congestion technical framing</strong>: Framing Middle East conflict consequences through aviation technical terminology ('air overcrowding', EASA drone guidelines) rather than human or political impacts.",
+          "<strong>Safe-haven currency paradox framing</strong>: Juxtaposes 'crisis dollar buying' with 'dollar abandonment' narratives to create interpretive tension in currency market analysis.",
+          "<strong>Missing - no new patterns detected</strong>: All observed Reuters patterns fall under existing economic quantification, third-party attribution, and market impact framing already documented."
+        ]
       },
       {
         "pattern": "Japan-specific impact anchoring",
         "detail": "[Japanese ministerial quotation anchoring] Prioritizes Japanese transport and finance minister statements on Persian Gulf impacts, centering Japanese policy perspective. | [Japanese domestic policy impact anchoring] Consistently frames Iran conflict through lens of Japanese interest rate decisions and domestic economic policy implications. | [Japanese leader incremental policy response tracking] Tracks specific Japanese prime minister announcements on oil reserve release timing (starting day 26) and producer-country reserves (within March), emphasizing bureaucratic precision.",
         "debias": "Balance Japanese official statements with perspectives from multiple affected economies. Balance Japanese-specific economic impacts with broader global market effects to avoid overweighting one nation's perspective. Summarize overall reserve release policy without excessive focus on implementation timing granularity.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "<strong>Japanese ministerial quotation anchoring</strong>: Prioritizes Japanese transport and finance minister statements on Persian Gulf impacts, centering Japanese policy perspective.",
+          "<strong>Japanese domestic policy impact anchoring</strong>: Consistently frames Iran conflict through lens of Japanese interest rate decisions and domestic economic policy implications.",
+          "<strong>Japanese leader incremental policy response tracking</strong>: Tracks specific Japanese prime minister announcements on oil reserve release timing (starting day 26) and producer-country reserves (within March), emphasizing bureaucratic precision."
+        ]
       },
       {
         "pattern": "Economic crisis escalation framing",
         "detail": "[Japanese domestic impact anchoring] Consistently anchors Middle East events to specific Japanese domestic impacts (ship owner warnings, LNG procurement, intervention concerns, economic ministry statements) reflecting primary audience priorities. | [Japanese market-specific risk anchoring] Multiple stories frame events through impact on Japanese financial institutions, dollar-yen rates, and domestic economic indicators despite limited direct involvement. | [Central bank official quotation prioritization] Fed officials' statements on Iran conflict's limited economic impact receive prominent coverage, normalizing financial market continuity despite war. | [Commodity rerouting technical detailing] Stories provide specific logistical details on Saudi oil export route changes from Hormuz to Red Sea, emphasizing supply chain adaptation over disruption. | [Iranian attrition strategy interpretation] Frames Iranian actions through specific military strategy lens of economic exhaustion via oil infrastructure attacks. | [Aramco catastrophization quotation] Elevates Saudi state oil company's specific warning about Hormuz closure being 'catastrophic' for world markets. | [Historical crisis playbook invocation] Explicitly frames market analysis through 2022 Russia-Ukraine invasion precedent, suggesting investors apply past conflict patterns. | [Sanctions exemption pragmatism normalization] US authorization to sell Iranian oil in transit is presented as technical sanction management rather than as significant policy reversal or market intervention. | [Alternative oil arrival timeline specification] Specifies that US/alternative crude will arrive in Japan 'earliest June' per industry association, anchoring public expectations to specific delayed timeline. | [Japanese consumer product inflation anchoring] Reuters anchors broader Middle East conflict impact through specific Japanese consumer goods price increases (35% plastic wrap hike), making abstract geopolitical crisis tangible via household spending. | [Japanese ministerial domestic constraint anchoring] Consistently quoting Japanese officials on domestic economic/energy impacts to localize global crisis for Japanese audience. | [Indian consumer energy rationing appeal] Reporting government calls for energy conservation as crisis preparation to signal supply shortage anxiety. | [Gulf deposit flight catastrophization] S&P projection of potential $307 billion deposit outflow from Gulf banks quantifies hypothetical capital flight scenario as concrete risk metric. | [Lyft driver subsidy war-consequence localization] Reports Lyft creating driver support program due to gasoline price increases, domesticating war impacts through gig economy worker vulnerability. | [Korean sanctions compliance tracking] Highlighting South Korean imports of Russian naphtha as noteworthy compliance deviation during Middle East crisis period.",
         "debias": "When covering for international audiences, balance domestic impact details with broader regional and global implications. When covering regional conflicts for specific markets, balance local economic impact framing with proportional attention to primary conflict dynamics. Present central bank assessments as one perspective on conflict impact rather than authoritative verdicts on the situation's severity.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "<strong>Japanese domestic impact anchoring</strong>: Consistently anchors Middle East events to specific Japanese domestic impacts (ship owner warnings, LNG procurement, intervention concerns, economic ministry statements) reflecting primary audience priorities.",
+          "<strong>Japanese market-specific risk anchoring</strong>: Multiple stories frame events through impact on Japanese financial institutions, dollar-yen rates, and domestic economic indicators despite limited direct involvement.",
+          "<strong>Central bank official quotation prioritization</strong>: Fed officials' statements on Iran conflict's limited economic impact receive prominent coverage, normalizing financial market continuity despite war.",
+          "<strong>Commodity rerouting technical detailing</strong>: Stories provide specific logistical details on Saudi oil export route changes from Hormuz to Red Sea, emphasizing supply chain adaptation over disruption.",
+          "<strong>Iranian attrition strategy interpretation</strong>: Frames Iranian actions through specific military strategy lens of economic exhaustion via oil infrastructure attacks.",
+          "<strong>Aramco catastrophization quotation</strong>: Elevates Saudi state oil company's specific warning about Hormuz closure being 'catastrophic' for world markets.",
+          "<strong>Historical crisis playbook invocation</strong>: Explicitly frames market analysis through 2022 Russia-Ukraine invasion precedent, suggesting investors apply past conflict patterns.",
+          "<strong>Sanctions exemption pragmatism normalization</strong>: US authorization to sell Iranian oil in transit is presented as technical sanction management rather than as significant policy reversal or market intervention.",
+          "<strong>Alternative oil arrival timeline specification</strong>: Specifies that US/alternative crude will arrive in Japan 'earliest June' per industry association, anchoring public expectations to specific delayed timeline.",
+          "<strong>Japanese consumer product inflation anchoring</strong>: Reuters anchors broader Middle East conflict impact through specific Japanese consumer goods price increases (35% plastic wrap hike), making abstract geopolitical crisis tangible via household spending.",
+          "<strong>Japanese ministerial domestic constraint anchoring</strong>: Consistently quoting Japanese officials on domestic economic/energy impacts to localize global crisis for Japanese audience.",
+          "<strong>Indian consumer energy rationing appeal</strong>: Reporting government calls for energy conservation as crisis preparation to signal supply shortage anxiety.",
+          "<strong>Gulf deposit flight catastrophization</strong>: S&P projection of potential $307 billion deposit outflow from Gulf banks quantifies hypothetical capital flight scenario as concrete risk metric.",
+          "<strong>Lyft driver subsidy war-consequence localization</strong>: Reports Lyft creating driver support program due to gasoline price increases, domesticating war impacts through gig economy worker vulnerability.",
+          "<strong>Korean sanctions compliance tracking</strong>: Highlighting South Korean imports of Russian naphtha as noteworthy compliance deviation during Middle East crisis period."
+        ]
       },
       {
         "pattern": "European policy and institutional focus",
         "detail": "[Swiss wealth flight tracking] Reports Gulf wealthy individuals moving assets to Switzerland as conflict metric, using financial flows as geopolitical anxiety indicator. | [UK bond market resilience validation seeking] Features Bank of England official confirming gilt market 'functioned normally' despite conflict chaos, suggesting institutional stress-testing narrative.",
         "debias": "Note capital movement patterns without inferring broader regional sentiment from elite financial behavior. Report market functioning data without framing as validation exercise or resilience test against crisis scenarios.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "<strong>Swiss wealth flight tracking</strong>: Reports Gulf wealthy individuals moving assets to Switzerland as conflict metric, using financial flows as geopolitical anxiety indicator.",
+          "<strong>UK bond market resilience validation seeking</strong>: Features Bank of England official confirming gilt market 'functioned normally' despite conflict chaos, suggesting institutional stress-testing narrative."
+        ]
       },
       {
         "pattern": "Speculation and amplification",
         "detail": "[Japanese yen volatility dramatization] Multiple headlines emphasizing yen movement milestones (1-year-8-month highs) and intraday volatility patterns to frame Middle East conflict as destabilizing Japanese currency markets. | [Jones Act emergency suspension dramatization] Reuters emphasizes the US waiving domestic shipping protections (Jones Act) as signaling acute energy crisis urgency rather than routine policy flexibility. | [Trump media treason accusation amplification] Reuters frames Trump administration rhetoric about 'treason' in war reporting as an escalating attack on press freedom, centering the controversy over the underlying reporting disputes. | [Singapore diplomatic Asian crisis warning] Quotes Singapore foreign minister warning Asian economy risks 'entering crisis' while questioning Iran attacks, positioning Southeast Asian diplomatic skepticism. | [Insider trading speculation amplification] Highlights unusually large oil futures trades placed immediately before Trump's attack delay announcement, implying potential market manipulation or information leakage. | [Chinese semiconductor military supply dramatization] Reuters elevates US administration claims about Chinese chip manufacturing technology transfer to Iranian military into headline prominence, amplifying tech-military nexus narratives. | [US gasoline price percentage surge dramatization] Emphasizing 20% gasoline price increases over short timeframes to heighten domestic consumer impact perception. | [Democratic Senator investigation demand amplification] Highlighting opposition party calls for school bombing investigations to elevate domestic political accountability pressure. | [Japanese contingency budget war-preparedness dramatization] Frames Japan's consideration of supplementary budget as direct response to Iran conflict uncertainty, elevating fiscal contingency planning into war-preparation narrative. | [Oil futures intervention speculation amplification] Reports Japanese government hearings on potential oil futures market intervention, dramatizing policy consideration into imminent market manipulation expectation. | [Gulf existential crisis UN amplification] Highlights Gulf states' UN testimony that Iranian attacks create 'existential crisis,' elevating regional fears to international forum. | [Turkish energy independence self-assurance amplification] Quotes Turkish energy minister claiming only 10% Middle East oil dependence means 'no supply problems,' highlighting national confidence claims. | [Options market extreme scenario speculation quantification] Reports increased trading in options anticipating oil above $150, treating speculative hedging positions as probability indicators. | [Iraqi production cut cascade dramatization] Specifies 80% production cuts at southern Iraqi oil fields due to strait closure, quantifying knock-on production collapse. | [Fertilizer inflation cascade pre-positioning] Analyzes Hormuz closure leading to fertilizer price increases causing food inflation resurgence, creating multi-step crisis chain prediction. | [Geopolitical risk consultancy industry amplification] Dedicates coverage to growth of geopolitical risk advisory sector during Iran war to frame conflict as business opportunity phenomenon.",
         "debias": "Report yen movements as standard market data without milestone framing or conflict-causation emphasis unless direct causation is established. Present regulatory waivers as policy tools without assuming they necessarily indicate crisis-level urgency. Cover government-press tensions without elevating inflammatory rhetoric to the main narrative focus.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "<strong>Japanese yen volatility dramatization</strong>: Multiple headlines emphasizing yen movement milestones (1-year-8-month highs) and intraday volatility patterns to frame Middle East conflict as destabilizing Japanese currency markets.",
+          "<strong>Jones Act emergency suspension dramatization</strong>: Reuters emphasizes the US waiving domestic shipping protections (Jones Act) as signaling acute energy crisis urgency rather than routine policy flexibility.",
+          "<strong>Trump media treason accusation amplification</strong>: Reuters frames Trump administration rhetoric about 'treason' in war reporting as an escalating attack on press freedom, centering the controversy over the underlying reporting disputes.",
+          "<strong>Singapore diplomatic Asian crisis warning</strong>: Quotes Singapore foreign minister warning Asian economy risks 'entering crisis' while questioning Iran attacks, positioning Southeast Asian diplomatic skepticism.",
+          "<strong>Insider trading speculation amplification</strong>: Highlights unusually large oil futures trades placed immediately before Trump's attack delay announcement, implying potential market manipulation or information leakage.",
+          "<strong>Chinese semiconductor military supply dramatization</strong>: Reuters elevates US administration claims about Chinese chip manufacturing technology transfer to Iranian military into headline prominence, amplifying tech-military nexus narratives.",
+          "<strong>US gasoline price percentage surge dramatization</strong>: Emphasizing 20% gasoline price increases over short timeframes to heighten domestic consumer impact perception.",
+          "<strong>Democratic Senator investigation demand amplification</strong>: Highlighting opposition party calls for school bombing investigations to elevate domestic political accountability pressure.",
+          "<strong>Japanese contingency budget war-preparedness dramatization</strong>: Frames Japan's consideration of supplementary budget as direct response to Iran conflict uncertainty, elevating fiscal contingency planning into war-preparation narrative.",
+          "<strong>Oil futures intervention speculation amplification</strong>: Reports Japanese government hearings on potential oil futures market intervention, dramatizing policy consideration into imminent market manipulation expectation.",
+          "<strong>Gulf existential crisis UN amplification</strong>: Highlights Gulf states' UN testimony that Iranian attacks create 'existential crisis,' elevating regional fears to international forum.",
+          "<strong>Turkish energy independence self-assurance amplification</strong>: Quotes Turkish energy minister claiming only 10% Middle East oil dependence means 'no supply problems,' highlighting national confidence claims.",
+          "<strong>Options market extreme scenario speculation quantification</strong>: Reports increased trading in options anticipating oil above $150, treating speculative hedging positions as probability indicators.",
+          "<strong>Iraqi production cut cascade dramatization</strong>: Specifies 80% production cuts at southern Iraqi oil fields due to strait closure, quantifying knock-on production collapse.",
+          "<strong>Fertilizer inflation cascade pre-positioning</strong>: Analyzes Hormuz closure leading to fertilizer price increases causing food inflation resurgence, creating multi-step crisis chain prediction.",
+          "<strong>Geopolitical risk consultancy industry amplification</strong>: Dedicates coverage to growth of geopolitical risk advisory sector during Iran war to frame conflict as business opportunity phenomenon."
+        ]
       },
       {
         "pattern": "Gulf investment beneficiary highlighting",
         "detail": "Column specifically emphasizes Gulf money funding European defense startups in response to drone threats, creating investor-beneficiary narrative arc.",
         "debias": "Present defense investment flows within broader international defense financing patterns rather than emphasizing specific regional beneficiaries.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Column specifically emphasizes Gulf money funding European defense startups in response to drone threats, creating investor-beneficiary narrative arc."
+        ]
       },
       {
         "pattern": "Tomahawk inventory depletion quantification",
         "detail": "Reuters quantifies specific munitions expenditure (850+ Tomahawks over four weeks) to dramatize military sustainability concerns through precise weapons-count metrics.",
         "debias": "Present munitions usage figures alongside total inventory capacity and production rates for proportionality.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Reuters quantifies specific munitions expenditure (850+ Tomahawks over four weeks) to dramatize military sustainability concerns through precise weapons-count metrics."
+        ]
       },
       {
         "pattern": "Indian tanker breakthrough exceptionalism highlighting",
         "detail": "Singularizes one Indian-flagged tanker's Hormuz passage amid hundreds stranded, creating breakthrough narrative suggesting discriminatory treatment or special courage.",
         "debias": "Contextualize individual vessel movements within overall traffic patterns and explain selection criteria rather than implying exceptionalism.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Singularizes one Indian-flagged tanker's Hormuz passage amid hundreds stranded, creating breakthrough narrative suggesting discriminatory treatment or special courage."
+        ]
       },
       {
         "pattern": "Trump administration internal division highlighting",
         "detail": "Emphasizes 'route conflict' within Trump administration on Iran exit strategy to frame policy as incoherent or contested.",
         "debias": "Present policy debates as normal governmental processes rather than dysfunction indicators when covering administration discussions.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Emphasizes 'route conflict' within Trump administration on Iran exit strategy to frame policy as incoherent or contested."
+        ]
       },
       {
         "pattern": "Central bank uncertainty quotation",
         "detail": "Systematically quotes central bank officials stating judgments are 'premature' or situations require 'monitoring' rather than providing economic analysis or forecasts.",
         "debias": "Supplement official caution statements with independent economic analysis and historical parallels to similar disruptions.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Systematically quotes central bank officials stating judgments are 'premature' or situations require 'monitoring' rather than providing economic analysis or forecasts."
+        ]
       },
       {
         "pattern": "Corporate planning horizon extension",
         "detail": "United Airlines reducing flights 'until fall' projects corporate assumption of prolonged conflict duration into operational planning timeframes.",
         "debias": "Distinguish between corporate contingency planning windows and actual conflict duration predictions, noting planning conservatism.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "United Airlines reducing flights 'until fall' projects corporate assumption of prolonged conflict duration into operational planning timeframes."
+        ]
       },
       {
         "pattern": "Taiwan arms continuity reassurance",
         "detail": "US official testimony that Iran conflict hasn't delayed Taiwan weapons supply framed as newsworthy reassurance to specific allied concern.",
         "debias": "Report arms supply timelines factually without framing as reassurance narrative to specific parties, maintaining neutral procurement tracking.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "US official testimony that Iran conflict hasn't delayed Taiwan weapons supply framed as newsworthy reassurance to specific allied concern."
+        ]
       },
       {
         "pattern": "Netanyahu electoral calculus reversal tracking",
         "detail": "Reports Netanyahu shifting away from early elections despite Iran attacks failing to boost his support, suggesting political miscalculation.",
         "debias": "Report electoral timing decisions factually without speculating on leader's poll-driven motivations or strategic failures.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Reports Netanyahu shifting away from early elections despite Iran attacks failing to boost his support, suggesting political miscalculation."
+        ]
       }
     ],
     "notes": "High reliability, fact-checked. Treat as anchor source."
@@ -299,7 +547,11 @@
         "status": "confirmed",
         "example_text": "Europe pushes back on US military operations as concerns over Iran war mount",
         "example_url": "https://www.france24.com/en/europe-pushes-back-on-us-military-operations-as-concerns-over-iran-war-mount",
-        "unbiased_text": "Several European governments expressed reservations about the scope of US military operations in Iran"
+        "unbiased_text": "Several European governments expressed reservations about the scope of US military operations in Iran",
+        "detail_items": [
+          "<strong>European diplomatic lens</strong>: Emphasizes EU/French diplomatic angles and institutional responses over military details.",
+          "<strong>Supply chain bypass scrutiny emphasis</strong>: Highlights that French arms to Israel 'bypassed public scrutiny' through supply chains, emphasizing opacity over declared defensive purposes."
+        ]
       },
       {
         "pattern": "Selective distancing from Trump rhetoric",
@@ -309,7 +561,28 @@
         "status": "confirmed",
         "example_text": "'Blatantly racist': Death penalty law among 'worst legislation' in Israeli parliamentary history",
         "example_url": "https://www.france24.com/en/blatantly-racist-death-penalty-law-among-worst-legislation-in-israeli-parliamentary-history",
-        "unbiased_text": "Critics describe Israel's new death penalty legislation as discriminatory, while supporters argue it addresses security concerns"
+        "unbiased_text": "Critics describe Israel's new death penalty legislation as discriminatory, while supporters argue it addresses security concerns",
+        "detail_items": [
+          "<strong>Selective distancing from Trump rhetoric</strong>: Uses quotation marks around Trump's inflammatory statements but not around other leaders' equally strong claims.",
+          "<strong>Casualty specification asymmetry</strong>: Provides precise nationality and injury details for US troops (nationality of wounded, concussion counts) while using aggregate numbers for Iranian or other casualties.",
+          "<strong>Buffer zone territorial permanence framing</strong>: Emphasizing Israeli statements about permanent population exclusion and systematic destruction in buffer zones as irreversible territorial transformation rather than temporary security measures.",
+          "<strong>Cultural heritage universalization appeal</strong>: Framing archaeological site destruction as crimes against 'all of humanity' rather than specific national heritage loss to elevate moral stakes beyond immediate parties.",
+          "<strong>Infrastructure-as-weapon scholarly framing</strong>: Desalination systems academically reframed as geopolitical leverage tools and wartime vulnerability axes through expert interview.",
+          "<strong>Discriminatory planning policy attribution</strong>: Bedouin shelter shortage attributed to 'discriminatory planning policies' rather than security infrastructure challenges.",
+          "<strong>Ceasefire denial amplification asymmetry</strong>: Emphasizes Iranian denial of Trump's ceasefire claim with terms like 'baseless' in headlines while downplaying possibility Trump statement was strategic signaling.",
+          "<strong>Allied NATO faith erosion framing</strong>: Emphasizes how leadership contradictions undermine confidence in alliance commitments rather than focusing on policy substance.",
+          "<strong>Infrastructure trophy targeting dramatization</strong>: Destruction of Iran's 'tallest bridge in the Middle East' is emphasized through superlative framing to amplify symbolic loss.",
+          "<strong>Child militia war crime pre-accusation</strong>: Framing Iranian recruitment of minors for defense as war crime preparation before actual combat deployment occurs.",
+          "<strong>Multi-alignment strategy collapse framing</strong>: Emphasizes Iraq's inability to maintain neutrality between competing powers, framing diplomatic balancing acts as unsustainable rather than adaptive.",
+          "<strong>War crime concern preemptive legal framing</strong>: Leading with expert legal assessment that threatened actions constitute war crimes before they occur.",
+          "<strong>Civilization extinction rhetoric amplification</strong>: Foregrounding Trump's 'whole civilization will die' language to dramatize existential threat framing.",
+          "<strong>Multi-alignment collapse inevitability</strong>: Framing Iraq's neutrality strategy as unsustainable under regional conflict pressure.",
+          "<strong>Constraint-over-strength ceasefire framing</strong>: Characterizes the US-Iran ceasefire as emerging 'from constraint' rather than strength, emphasizing limits of military escalation over diplomatic achievement.",
+          "<strong>Expectations disappointment base framing</strong>: Frames the ceasefire as failing to meet Netanyahu's base expectations of 'regime change' or 'something very dramatic,' emphasizing domestic political disappointment.",
+          "<strong>Survival-as-victory threshold lowering</strong>: Explicitly states 'for Iran, survival was always a victory,' reframing mere continuation as strategic success despite heavy losses.",
+          "<strong>Information war persistence framing</strong>: Characterizing ongoing disputed ceasefire interpretations as continuation of 'information war' rather than negotiation ambiguity.",
+          "<strong>Trust deficit negotiation framing</strong>: Emphasizing Iran's claim that the US failed to 'earn' trust positions diplomatic failure as character-based rather than substantive disagreement."
+        ]
       },
       {
         "pattern": "Interpretive journalism style",
@@ -319,70 +592,104 @@
         "status": "confirmed",
         "example_text": "A fragile two-week truce between Iran and the United States hung in the balance on Wednesday",
         "example_url": "https://www.france24.com/en/middle-east/20260409-iran-us-truce-brink-israel-lebanon-strikes-tehran-escalation",
-        "unbiased_text": "The two-week truce between Iran and the United States faced new challenges on Wednesday. Iran's parliament speaker posted on X that the 'workable basis on which to negotiate' had been violated."
+        "unbiased_text": "The two-week truce between Iran and the United States faced new challenges on Wednesday. Iran's parliament speaker posted on X that the 'workable basis on which to negotiate' had been violated.",
+        "detail_items": [
+          "Embeds reporter opinions and atmospheric descriptions into reporting. Uses expert analysis segments that editorialize."
+        ]
       },
       {
         "pattern": "Settler-army equivalence assertion",
         "detail": "Palestinian official statement that settlers and Israeli army are 'one and the same' presented without qualification or context.",
         "debias": "When reporting partisan claims of equivalence between civilian and military actors, note the distinction in roles and legal status.",
         "date_added": "2026-04-01",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Palestinian official statement that settlers and Israeli army are 'one and the same' presented without qualification or context."
+        ]
       },
       {
         "pattern": "Militia intimidation campaign documentation",
         "detail": "Focuses on paramilitary online psychological operations designed to suppress dissent through public displays of force.",
         "debias": "Report intimidation tactics factually while noting both state security concerns and civil liberties implications equally.",
         "date_added": "2026-04-02",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Focuses on paramilitary online psychological operations designed to suppress dissent through public displays of force."
+        ]
       },
       {
         "pattern": "Speculation and amplification",
         "detail": "[Trump profanity amplification] Prominently features Trump's expletive-laden social media posts in headlines and ledes, maximizing shock value and controversy. | [Child soldier recruitment war crime pre-positioning] Iranian Revolutionary Guards recruiting children as young as 12 is framed as imminent war crime liability before deployment occurs. | [Rescue operation daring valorization] Emphasizes the 'miraculous' and 'most daring' nature of pilot rescue operations, amplifying US military capability narratives. | [Geopolitical broker self-legitimization amplification] Pakistan's mediator role elevated through detailed diplomatic process coverage and ambassador platform access disproportionate to historical mediation track record. | [Toll proposal outrage amplification] Highlighting emotional reactions ('fuels outrage') to Iranian Strait of Hormuz toll proposal rather than technical feasibility analysis.",
         "debias": "Paraphrase vulgar content professionally while preserving substantive meaning without sensationalism. Report recruitment campaigns with legal context but avoid pre-emptive war crime designation before battlefield deployment. Report rescue operations factually without superlative language that valorizes military actions.",
         "date_added": "2026-04-03",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "<strong>Trump profanity amplification</strong>: Prominently features Trump's expletive-laden social media posts in headlines and ledes, maximizing shock value and controversy.",
+          "<strong>Child soldier recruitment war crime pre-positioning</strong>: Iranian Revolutionary Guards recruiting children as young as 12 is framed as imminent war crime liability before deployment occurs.",
+          "<strong>Rescue operation daring valorization</strong>: Emphasizes the 'miraculous' and 'most daring' nature of pilot rescue operations, amplifying US military capability narratives.",
+          "<strong>Geopolitical broker self-legitimization amplification</strong>: Pakistan's mediator role elevated through detailed diplomatic process coverage and ambassador platform access disproportionate to historical mediation track record.",
+          "<strong>Toll proposal outrage amplification</strong>: Highlighting emotional reactions ('fuels outrage') to Iranian Strait of Hormuz toll proposal rather than technical feasibility analysis."
+        ]
       },
       {
         "pattern": "Non-military target trend accusation",
         "detail": "Multiple strikes on civilian sites are aggregated as a 'disturbing trend' to suggest systematic targeting pattern rather than individual incidents.",
         "debias": "Report each strike with available targeting rationale rather than pre-aggregating into pattern accusations.",
         "date_added": "2026-04-03",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Multiple strikes on civilian sites are aggregated as a 'disturbing trend' to suggest systematic targeting pattern rather than individual incidents."
+        ]
       },
       {
         "pattern": "Tall bridge symbolic infrastructure targeting",
         "detail": "Emphasizing record-breaking or symbolic status of infrastructure targets to suggest deliberate psychological warfare tactics.",
         "debias": "Report infrastructure damage with factual descriptions without emphasizing symbolic or morale-impact dimensions.",
         "date_added": "2026-04-04",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Emphasizing record-breaking or symbolic status of infrastructure targets to suggest deliberate psychological warfare tactics."
+        ]
       },
       {
         "pattern": "Allied territory complicity verification",
         "detail": "Geolocating evidence that Gulf allies' territory is being used for attacks despite their denials to expose hypocrisy.",
         "debias": "Present evidence-based verification findings without framing as deliberate exposure of allied complicity.",
         "date_added": "2026-04-04",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Geolocating evidence that Gulf allies' territory is being used for attacks despite their denials to expose hypocrisy."
+        ]
       },
       {
         "pattern": "Allied base evidence verification emphasis",
         "detail": "Highlights geolocated video evidence of missiles launched from Kuwait despite denials, emphasizing exposure of allied complicity.",
         "debias": "Report military operations from allied territory without emphasis on contradiction or complicity exposure.",
         "date_added": "2026-04-05",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Highlights geolocated video evidence of missiles launched from Kuwait despite denials, emphasizing exposure of allied complicity."
+        ]
       },
       {
         "pattern": "Non-clerical prominence highlighting",
         "detail": "Emphasizing that a negotiator is not a cleric as a notable characteristic, implying clerical dominance as the default expectation.",
         "debias": "Present negotiator profiles based on relevant experience and authority without framing clerical/non-clerical status as exceptional.",
         "date_added": "2026-04-11",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Emphasizing that a negotiator is not a cleric as a notable characteristic, implying clerical dominance as the default expectation."
+        ]
       },
       {
         "pattern": "Delegation size numerical emphasis",
         "detail": "Highlighting the specific number of delegation members as an indicator of seriousness or commitment to negotiations.",
         "debias": "Focus on negotiating mandate and authority rather than delegation headcount as a proxy for commitment.",
         "date_added": "2026-04-11",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Highlighting the specific number of delegation members as an indicator of seriousness or commitment to negotiations."
+        ]
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -398,7 +705,23 @@
         "status": "confirmed",
         "example_text": "A crisis is looming on European farms as the war on Iran threatens fertiliser supplies",
         "example_url": "http://www.euronews.com/2026/03/28/europes-farms-are-reeling-from-the-iran-war-regenerative-farmers-saw-it-coming",
-        "unbiased_text": "The conflict in Iran is disrupting global fertiliser supply chains, with European farmers among those affected by potential shortages"
+        "unbiased_text": "The conflict in Iran is disrupting global fertiliser supply chains, with European farmers among those affected by potential shortages",
+        "detail_items": [
+          "<strong>EU-centric news priority</strong>: Far less conflict coverage than other sources. Buries war news among European lifestyle and cultural stories.",
+          "<strong>Spanish airspace closure sovereignty assertion</strong>: Highlighting Spain closing airspace to US military aircraft as principled national sovereignty exercise against war participation.",
+          "<strong>IQ tourism rebranding promotion</strong>: Swedish city's 'brain-boosting IQ tourism' campaign presented as innovative cultural approach rather than marketing initiative.",
+          "<strong>April Fools cultural event reporting</strong>: Produces elaborate April Fools content (Bond casting reveal) that blurs line between news reporting and entertainment during serious geopolitical crisis.",
+          "<strong>Easter egg safety bureaucratic normalization</strong>: Easter food safety guidelines are positioned alongside war coverage to normalize mundane regulatory continuity during crisis.",
+          "<strong>Pope physical endurance ritualization</strong>: Emphasizing pontiff's personal performance of physically demanding ceremony as symbolic leadership during crisis period.",
+          "<strong>Pope physical feat ritualization</strong>: Emphasizes Pope Leo XIV carrying cross through all 14 stations as unprecedented physical achievement, personalizing religious ritual.",
+          "<strong>Cultural event attendance crisis conflation</strong>: Connects unrelated disruptions (Easter church suspensions in Dubai, festival cancellations) to war impacts, creating narrative of comprehensive cultural life devastation.",
+          "<strong>Artemis mission war-contrast juxtaposition</strong>: Positions space exploration achievements alongside war coverage to create implicit commentary on resource allocation priorities and human potential.",
+          "<strong>Celebrity travel ban controversy elevation</strong>: Treating entertainment figure entry restrictions as significant political news during war coverage.",
+          "<strong>Group photography social commentary</strong>: Using photographic documentation of assembled groups as evidence of broader societal structures or cultural patterns.",
+          "<strong>Raffle cultural access democratization</strong>: Presenting lottery-based art acquisition as expanding access to masterworks while obscuring that only one winner benefits.",
+          "<strong>Record turnout democracy validation</strong>: Emphasizing expected record turnout in Hungarian elections frames high participation as inherently validating regardless of outcome or campaign conditions.",
+          "<strong>Space achievement war contrast juxtaposition</strong>: Positioning Artemis II lunar mission success alongside war coverage creates implicit moral contrast between scientific progress and military conflict."
+        ]
       },
       {
         "pattern": "Diplomatic process framing",
@@ -408,7 +731,90 @@
         "status": "confirmed",
         "example_text": "Objectives of the war appear to constantly be shifting, but how successful has Washington been so far?",
         "example_url": "http://www.euronews.com/2026/03/28/how-successful-has-the-us-been-in-achieving-its-war-objectives-in-its-now-one-month-old-wa",
-        "unbiased_text": "Military analysts assess the extent to which the US has achieved its stated objectives one month into the conflict"
+        "unbiased_text": "Military analysts assess the extent to which the US has achieved its stated objectives one month into the conflict",
+        "detail_items": [
+          "<strong>Diplomatic process framing</strong>: Uses procedural language that frames the conflict as a negotiation rather than active warfare.",
+          "<strong>Iranian disinformation meta-framing</strong>: Reports on Iranian state media disinformation as a distinct story category, positioning Iran's information warfare as newsworthy while not applying same scrutiny to other parties' information operations.",
+          "<strong>Trump direct attribution emphasis</strong>: Explicitly names Trump as the primary source of Khamenei death claim in headline ('sagt US-Präsident Trump'), foregrounding individual attribution over institutional verification.",
+          "<strong>Multilingual intensity variation</strong>: Same events described with varying dramatic intensity across language editions (e.g., 'Middle East burns' in Arabic vs. neutral phrasing in English).",
+          "<strong>Third-party leader reaction prioritization</strong>: Multiple headlines feature Putin, Zelensky, and other non-regional leaders' reactions, framing Middle East conflict through European geopolitical concerns.",
+          "<strong>Ammunition depletion vulnerability framing</strong>: Focuses on US ammunition shortages to suggest operational unsustainability and question the attacker's capacity to continue operations.",
+          "<strong>Cross-conflict resource competition framing</strong>: Frames Middle East conflict as competing with Ukraine for resources and attention ('negligible impact' on Ukraine, ammunition depletion) rather than as separate policy challenges.",
+          "<strong>Evacuation universalization framing</strong>: Emphasizes mass evacuations and panic at borders across multiple countries (France, Greece, Azerbaijan border) suggesting region-wide exodus rather than targeted precautionary measures.",
+          "<strong>War-naming linguistic variation</strong>: Headlines frame the conflict differently across languages: Russian uses 'War of Israel and USA against Iran' while English uses 'US-Israeli strikes', revealing linguistic audience targeting.",
+          "<strong>Athlete protest solidarity amplification</strong>: Iranian women footballers' anthem refusal is highlighted across multiple language editions as regime resistance symbolism during wartime.",
+          "<strong>Religious warfare framing amplification</strong>: Stories highlight 'divine plan' military rhetoric and Netanyahu's biblical references to Amalek, emphasizing religious motivations for conflict.",
+          "<strong>Tourism economic catastrophization</strong>: Multiple stories across languages emphasize €40 billion tourism losses and 'trips on hold' framing to quantify regional economic collapse.",
+          "<strong>Journalist first-person experience amplification</strong>: Euronews systematically emphasizes their own journalist's personal experience of events (Dubai airport drone attack) across multiple language editions, creating institutional self-referential narrative authority.",
+          "<strong>Shifting justification critique meta-framing</strong>: Euronews highlights European diplomatic criticism of changing US war rationales ('like changing shirts'), positioning European skepticism as analytical frame.",
+          "<strong>Historical border revision speculation threading</strong>: Euronews features speculation about Sykes-Picot agreement collapse and Middle East border redrawing, threading historical-deterministic framing into current conflict coverage.",
+          "<strong>European far-right disarray highlighting</strong>: Euronews emphasizes European far-right parties' confusion and division over Iran war, framing political opposition to Trump as disorganized rather than principled.",
+          "<strong>Anti-base protest localization</strong>: Amplifies local Cypriot opposition to British military bases following attacks, framing bases as liability rather than defense asset.",
+          "<strong>Spanish-Iran commerce hypocrisy framing</strong>: Highlights perceived contradiction between Spain's public stance and trade relationships with Iran as 'double game' or duplicity.",
+          "<strong>Trump contradiction meta-framing</strong>: Explicitly frames Trump's statements as contradictory or inconsistent across multiple language versions, emphasizing confusion over content.",
+          "<strong>Trump numerical precision amplification</strong>: Euronews prominently headlines Trump's specific claim of '28 mine-laying vessels destroyed' in Greek, while other language versions cite '16 vessels,' highlighting inconsistent US official statements through multilingual juxtaposition.",
+          "<strong>Pahlavi final-call dramatization</strong>: Euronews frames Pahlavi's statements with urgency language like 'wait for my final call' in Arabic coverage, amplifying succession drama timing rather than substantive political strategy.",
+          "<strong>Tourism daily-cost quantification</strong>: Euronews specifies precise daily tourism losses ('515 million euros per day') for Middle East travel industry, creating concrete economic impact framing through numerical precision.",
+          "<strong>Civilian geolocation crowdsourcing amplification</strong>: Headlines emphasize how civilian smartphone videos and social media content directly enable military targeting operations, framing domestic populations as unwitting military intelligence assets.",
+          "<strong>Allied nation war entrapment questioning</strong>: Death of single French officer in Iraq generates multiple headlines asking whether France will be 'dragged into war,' framing minor incidents as potential catalysts for major escalation.",
+          "<strong>Environmental warfare consequence dramatization</strong>: Black rain phenomenon in Iran receives explanatory coverage linking environmental disasters to military conflict, framing ecological damage as war byproduct.",
+          "<strong>Cross-conflict retaliatory target expansion</strong>: Iranian lawmaker statement that Ukraine is 'legitimate war target' for drone support is prominently featured, framing geographically distant conflicts as interconnected threat networks.",
+          "<strong>Marine deployment ground invasion speculation</strong>: Movement of 2,200 marines generates multiple headlines questioning whether Trump is 'preparing ground invasion,' framing routine force positioning as invasion harbinger.",
+          "<strong>Russia-Iran weapons transfer third-party attribution</strong>: Uses Zelenskyy as source to claim Russia supplying Iran with Shahed drones, adding cross-conflict weapons flow narrative.",
+          "<strong>Economic hostage-taking moralization</strong>: Frames Iranian actions as holding global economy 'hostage' or 'ransom' using charged language from Gulf state officials.",
+          "<strong>Turkish neutrality exit anxiety</strong>: Emphasizes Turkey's desire to stay out of war while noting weapons production increases, framing neutrality as unsustainable.",
+          "<strong>Strategic nihilism accusation</strong>: Amplifies characterization of Iranian strategy as 'nihilism' from Gulf officials, framing actions as irrational destruction.",
+          "<strong>Russian war profiteering data quantification</strong>: Euronews provides specific data on Russian financial gains from Iran conflict oil price rises, framing Moscow as beneficiary of Middle East instability with monetary precision.",
+          "<strong>Ground force invasion speculation amplification</strong>: Multiple language versions prominently frame Trump as 'exploring options' or 'considering' ground force deployment to Iran, elevating unconfirmed deliberations to headline status.",
+          "<strong>Nuclear facility strike equivalence framing</strong>: Parallel headlines about Natanz and Dimona attacks frame them as symmetrical 'nuclear facility targeting' despite different operational statuses and strategic contexts.",
+          "<strong>Allied cowardice shaming amplification</strong>: Multiple language editions prominently feature Trump calling NATO countries 'cowards,' amplifying intra-alliance friction messaging during active conflict.",
+          "<strong>Fossil fuel climate hypocrisy juxtaposition</strong>: Multiple language editions run stories about oil companies abandoning green promises amid war-driven energy crisis, creating moral inconsistency framing.",
+          "<strong>European-Iran trade volume visualization</strong>: Multiple language versions highlighting which European countries conduct most business with Tehran, framing Europe as economically entangled with Iran during conflict.",
+          "<strong>Swiss neutrality arms export contradiction highlighting</strong>: Framing Switzerland halting US weapons exports due to Iran war as neutrality 'striking back' against American fighters implies moral superiority of non-involvement.",
+          "<strong>Israeli ex-leader proxy cowardice accusation</strong>: Amplifies former Israeli PM Bennett's accusation that Europeans are 'cowards' for not joining the war, using his voice to shame EU non-intervention across multiple language editions.",
+          "<strong>German president international law invocation</strong>: Highlights German president's statement that war on Iran would be 'political catastrophe' and violate international law, elevating European anti-war legal framing.",
+          "<strong>Stagflation crisis inevitability questioning</strong>: Asks whether Iran war is 'pushing Europe into stagflation crisis', framing economic consequences as potentially catastrophic structural crisis.",
+          "<strong>Israeli ministerial German ambassador attack amplification</strong>: Amplifies Israeli foreign minister's attack on German ambassador with sarcastic framing 'Good that a new one is coming', highlighting diplomatic tensions.",
+          "<strong>European missile range vulnerability dramatization</strong>: Multiple language editions ask if Iranian missiles now threaten Berlin, Paris, Warsaw with specific 4,000km range figures, creating European threat expansion narrative.",
+          "<strong>Trump hellfire rhetoric direct quotation</strong>: Amplifies White House statement that Trump will 'unleash hell' if Iran doesn't make peace deal, platforming maximalist threat language without diplomatic context.",
+          "<strong>Russian energy self-castration mockery amplification</strong>: Multiple language editions feature Russian claims that Europe committed 'self-castration' by rejecting Russian energy, amplifying adversary narrative framing.",
+          "<strong>Cryptocurrency sanctions evasion technical focus</strong>: Euronews devotes multiple multilingual articles to Iranian cryptocurrency use for sanctions circumvention, elevating technical financial workarounds to strategic-level threat framing.",
+          "<strong>FBI director personal email breach dramatization</strong>: Euronews amplifies pro-Iranian hacker group claims of breaching FBI director's personal email across multiple language editions, elevating cyber-intrusion symbolic significance.",
+          "<strong>Lagarde unthinkable shock quotation amplification</strong>: Euronews headlines ECB President Lagarde warning of 'unthinkable shock' from Iran war to dramatize economic uncertainty through central banker catastrophe language.",
+          "<strong>Red Cross humanitarian access destruction framing</strong>: Euronews platforms ICRC chief exclusive interview warning that 'possibility of rebuilding Iran is being destroyed,' elevating humanitarian infrastructure permanence concerns.",
+          "<strong>New leader retaliatory mandate dramatization</strong>: Framing new supreme leader's first statements as calls for Hormuz closure retaliation to suggest aggressive succession agenda.",
+          "<strong>Data center warfare modernization framing</strong>: Positioning cloud infrastructure as 'new strategic targets' to emphasize technological warfare evolution over traditional military targeting.",
+          "<strong>War resilience attribution reversal</strong>: Headlines frame Iran's continued functioning during conflict as 'regime resilience' or 'resistance despite pressure' rather than neutral operational continuity reporting.",
+          "<strong>New leader wealth hypocrisy exposure</strong>: Multiple headlines in different languages spotlight Mojtaba Khamenei's foreign property holdings using 'piety at home, property abroad' framing to emphasize religious-financial contradiction.",
+          "<strong>Exiled scientist award politicization</strong>: Water Nobel prize framing emphasizes scientist's exile status from Iran rather than research achievement, converting scientific recognition into political commentary.",
+          "<strong>Negotiation denial amplification asymmetry</strong>: Amplifies Iranian denials of Trump's negotiation claims across multiple language editions while giving equal prominence to both conflicting narratives, creating confusion about diplomatic reality.",
+          "<strong>Agricultural uncertainty catastrophization localization</strong>: Anchors Iran war economic consequences to specific national agricultural sectors (Spanish farming) to domesticate global crisis through local victim framing.",
+          "<strong>Settler death ideological reframing</strong>: Platforms father's characterization of killed settler son as 'sacrifice for settlement expansion,' inverting typical victimization narrative into critique of Israeli policy.",
+          "<strong>Petroleum market interpretive paralysis framing</strong>: Characterizes oil markets and traders as 'seeking direction' amid 'contradictory signals,' emphasizing confusion over concrete price movements.",
+          "<strong>US drone deployment sovereignty tension dramatization</strong>: Highlights Portugal requesting 'more information' before allowing US Reaper drones to land, framing as bureaucratic friction in wartime cooperation.",
+          "<strong>Deal imminence linguistic variation</strong>: Amplifying Trump's 'soon' language across multiple languages (presto, bientôt, hamarosan) to create anticipation narrative while juxtaposing Iranian warnings.",
+          "<strong>Safe haven paradox questioning</strong>: Framing gold and silver price drops during conflict as puzzling contradiction requiring explanation of why traditional safe havens are failing.",
+          "<strong>European vacation planning disruption anchoring</strong>: Framing airline route cuts and fare increases as threatening European holiday plans, domesticating distant war through travel inconvenience.",
+          "<strong>Iranian ambassador exclusive access dramatization</strong>: Repeatedly emphasizes 'exclusive' interview access with Iranian UN ambassador across multiple languages to amplify diplomatic positioning as journalistic achievement.",
+          "<strong>Military capability damage denial meta-framing</strong>: Frames Iranian official denials of military damage as questioning truth itself rather than presenting as disputed claims ('does Iran lie about impact').",
+          "<strong>Israeli opposition Trump-immunity framing</strong>: Platforms Israeli opposition leader claiming 'nobody can pressure Trump' to normalize unilateral decision-making as unchangeable reality.",
+          "<strong>Green technology war-catalyst silver lining</strong>: Framing the Iran war as accelerating renewable energy adoption ('renewables boom') to find positive environmental outcomes within crisis.",
+          "<strong>Tech anniversary institutional narrative control</strong>: Apple's 50th anniversary framed through company museum and 'shaping the future' language rather than critical assessment.",
+          "<strong>NATO defensive alliance limitation framing</strong>: Frames European reluctance to support US-Iran operations by emphasizing NATO's 'defensive alliance' character as institutional constraint rather than policy choice.",
+          "<strong>Bioluminescent technology utopian framing</strong>: Presents emerging biotechnology as transformative urban infrastructure solution without addressing feasibility or implementation barriers.",
+          "<strong>Consumer refund justice litigation</strong>: Framing corporate price increase rulings as consumer justice victories to validate economic grievances during inflation.",
+          "<strong>Timely resource discovery fortuitousness</strong>: Framing gas discovery announcement as providential timing during energy crisis.",
+          "<strong>Opposition leader EU loyalty questioning</strong>: Framing political leader's domestic focus as defiance of European parliamentary obligations.",
+          "<strong>Defense innovation urgency competitive framing</strong>: Positioning EU military technology development as existential race against adversary speed.",
+          "<strong>European diplomatic exclusion framing</strong>: Emphasizes that Europeans 'find themselves excluded from the diplomatic process,' framing the ceasefire as a European marginalization event.",
+          "<strong>Retro aesthetic nostalgia commercialization</strong>: Framing throwback branding or design choices as meaningful cultural commentary rather than marketing strategy.",
+          "<strong>AI travel planning inevitability framing</strong>: Positioning AI-driven trip planning as the emerging standard for future travel rather than one option among many.",
+          "<strong>Climate change species endangerment attribution</strong>: Establishing direct causation between climate factors and species status changes as primary driver without exploring ecosystem complexity.",
+          "<strong>Sports resort fitness commodification</strong>: Framing active holidays as an emerging lifestyle trend rather than niche luxury market targeting affluent consumers.",
+          "<strong>Russian disinformation attribution certainty</strong>: Linking election interference content to specific Russian units with researcher attribution as definitive sourcing.",
+          "<strong>Home cook entrepreneur transformation</strong>: Framing culinary startups as empowerment pathways for marginalized cooks without examining success rates or economic sustainability.",
+          "<strong>Travel trend naming proliferation</strong>: Creating portmanteau labels for minor travel preference variations as if they represent distinct behavioral shifts."
+        ]
       },
       {
         "pattern": "Conflict temporality normalization",
@@ -418,7 +824,10 @@
         "status": "suggested",
         "example_text": "One month has passed since the US and Israel fired the opening salvo in Iran, kickstarting a war which has destabilised the region, disrupted global supply chains and caused an international oil price crisis",
         "example_url": "https://www.euronews.com/2026/03/28/how-successful-has-the-us-been-in-achieving-its-war-objectives-in-its-now-one-month-old-wa",
-        "unbiased_text": "Since the US and Israel launched strikes on Iran one month ago, the war has destabilized the region, disrupted global supply chains, and caused an international oil price crisis. The humanitarian toll and legality of the campaign remain contested."
+        "unbiased_text": "Since the US and Israel launched strikes on Iran one month ago, the war has destabilized the region, disrupted global supply chains, and caused an international oil price crisis. The humanitarian toll and legality of the campaign remain contested.",
+        "detail_items": [
+          "Frames ongoing military actions through bureaucratic time markers ('fifth week', 'one month mark') that normalize extended warfare as measured progression."
+        ]
       },
       {
         "pattern": "European policy and institutional focus",
@@ -428,7 +837,19 @@
         "status": "suggested",
         "example_text": "The EU's Common Agricultural Policy (CAP) does reward farmers for environmental, climate and...friendly actions",
         "example_url": "http://www.euronews.com/2026/03/28/europes-farms-are-reeling-from-the-iran-war-regenerative-farmers-saw-it-coming",
-        "unbiased_text": "Some agricultural policies, including the EU's CAP, provide incentives for environmentally sustainable farming practices that may offer resilience during supply disruptions"
+        "unbiased_text": "Some agricultural policies, including the EU's CAP, provide incentives for environmentally sustainable farming practices that may offer resilience during supply disruptions",
+        "detail_items": [
+          "<strong>Terrorism threat EU securitization</strong>: Frames Iran conflict primarily through lens of elevated terrorism risk to EU territory (Europol warnings), prioritizing European security concerns over conflict itself.",
+          "<strong>Spanish domestic political instrumentalization</strong>: Euronews frames Spanish PM Sánchez's criticism of opposition Iran war support through lens of domestic Spanish harm, localizing conflict to European electoral politics.",
+          "<strong>Orbán Ukraine veto parallelization</strong>: Euronews links Hungary's blocking of Ukraine loans to broader EU summit tensions including Iran war energy impacts, creating narrative continuity between separate crises as unified EU dysfunction.",
+          "<strong>Swiss neutrality principled-actor positioning</strong>: Switzerland's weapons export freeze is framed as principled neutrality maintenance rather than as a practical or political decision affecting alliance cohesion.",
+          "<strong>European missile range vulnerability mapping</strong>: Specifically highlights Portugal as outside Iranian missile range while emphasizing other European nations' exposure, creating geographic fear hierarchy.",
+          "<strong>Deficit structural weakness exposure</strong>: Germany's war-driven deficit increase characterized as 'exposing structural weaknesses' that predate the conflict.",
+          "<strong>Generation security reshaping personalization</strong>: Individual young German defense professional positioned as representative of generational security transformation.",
+          "<strong>Lignite dependency EU accession conditionality</strong>: Bosnia-Herzegovina's coal reliance is framed as potential EU membership disqualification rather than energy transition timeline discussion.",
+          "<strong>EU subsidy fraud political dynasty implication</strong>: Connecting subsidy fraud to politically influential families to suggest systemic corruption beyond individual cases.",
+          "<strong>Migration economic contribution reverse-threat modeling</strong>: Spanish border closure economic modeling framed as cautionary evidence against restrictive policy through quantified GDP loss projection."
+        ]
       },
       {
         "pattern": "Speculation and amplification",
@@ -438,7 +859,40 @@
         "status": "suggested",
         "example_text": "disrupted global supply chains and caused an international oil price crisis, as attacks on energy infrastructure continue",
         "example_url": "http://www.euronews.com/2026/03/28/how-successful-has-the-us-been-in-achieving-its-war-objectives-in-its-now-one-month-old-wa",
-        "unbiased_text": "The conflict has disrupted supply chains and contributed to higher oil prices as military operations affecting energy infrastructure continue"
+        "unbiased_text": "The conflict has disrupted supply chains and contributed to higher oil prices as military operations affecting energy infrastructure continue",
+        "detail_items": [
+          "<strong>Trump self-credit amplification</strong>: Amplifies Trump's personal claims of credit for military actions using direct quotes in headlines like 'I pushed Israel into battle' and 'everything been knocked out' without verification or counterbalancing skepticism.",
+          "<strong>Military metrics quantification emphasis</strong>: Prominently features specific quantitative claims (30+ ships sunk, 1,000+ drones intercepted) in headlines without verification context, amplifying military success narratives.",
+          "<strong>Cultural controversy amplification</strong>: Elevates peripheral cultural outrage stories (La Macarena video controversy, TIME magazine cover reactions) to equivalent news status as conflict developments.",
+          "<strong>Intelligence operation dramatization</strong>: Headlines highlight 'CIA tracked for months' details, emphasizing operational sophistication and planning rather than legal or diplomatic dimensions.",
+          "<strong>European vulnerability speculation threading</strong>: Repeatedly threads European vulnerability themes across stories (European parliament considering regime change figure, Europe possibly joining war, Petraeus warning, Germany alignment with US) creating cumulative anxiety narrative.",
+          "<strong>Energy price catastrophe anticipation</strong>: Emphasizes energy price doubling and shock preparation narratives across multiple stories, amplifying economic fear despite market mechanisms still functioning.",
+          "<strong>Exile figure democratic legitimacy questioning</strong>: Multiple stories quote Polish ex-minister and EU officials expressing skepticism about Iranian opposition's democratic credentials and legitimacy.",
+          "<strong>Azerbaijan-Iran terror plot dramatization</strong>: Euronews emphasizes Azerbaijan's foiling of Iranian terrorist plots against Jewish facilities, amplifying regional conflict expansion through terrorism lens.",
+          "<strong>Von der Leyen competence questioning</strong>: Amplifies former diplomat Araud's critique that EU Commission President is acting beyond her authority on Iran war positioning.",
+          "<strong>Ramstein base complicity questioning</strong>: Frames German-based US military facility's role in Iran operations as requiring explanation or justification.",
+          "<strong>Leader physical disfigurement speculation</strong>: Defense official statements about new Iranian leader being 'wounded and possibly disfigured' are prominently featured, personalizing conflict through physical injury speculation.",
+          "<strong>False flag operation pre-accusation</strong>: Amplifies Iranian claims warning of planned false flag attacks designed to blame Iran, seeding conspiracy skepticism.",
+          "<strong>Regime cohesion reversal narrative</strong>: Notes Israeli assumptions about regime collapse are failing with Iranian leadership appearing cohesive, reversing earlier predictions.",
+          "<strong>Khamenei disappearance Nowruz deadline dramatization</strong>: Links Mojtaba's continued absence to approaching Nowruz holiday as crisis deadline, suggesting imminent leadership legitimacy collapse.",
+          "<strong>War-accelerated nuclear capability speculation</strong>: Frames conflict as potentially accelerating Iranian nuclear weapons development timeline through expert speculation.",
+          "<strong>Hormuz hostage ultimatum countdown dramatization</strong>: Repeated multilingual coverage of Trump's 48-hour deadline frames the Strait closure as hostage-taking requiring immediate surrender or destruction.",
+          "<strong>Patriot friendly-fire speculation seeding</strong>: Questioning whether US Patriot missile caused Bahrain residential explosion plants friendly-fire narrative without evidence requirement.",
+          "<strong>Netanyahu historical legacy persuasion dramatization</strong>: Frames Netanyahu as convincing Trump to attack Iran by promising he'll 'make history', portraying the war decision as ego-driven personal persuasion.",
+          "<strong>War-timing presidential pardon speculation</strong>: Speculates whether Netanyahu will extract pardon from Israeli president 'amid war' to escape corruption charges, linking war to domestic legal maneuvering.",
+          "<strong>Iranian diplomatic denial amplification</strong>: Prominent platforming of Iranian UN ambassador's direct denial of Hormuz blockade intentions to pre-emptively counter Western escalation narratives.",
+          "<strong>Iranian oil price threat validation questioning</strong>: Posing Iranian claims of $200/barrel oil as open questions to explore rather than dismissing as unrealistic threats.",
+          "<strong>Quds Day observance speculation threading</strong>: Questioning whether Iran can proceed with planned Quds Day marches to suggest regime legitimacy crisis under military pressure.",
+          "<strong>Trump diplomatic sincerity questioning</strong>: Repeatedly frames Trump's claims that Iran wants a deal as contradicted by Tehran's explicit rejections, suggesting performative posturing rather than genuine negotiation.",
+          "<strong>Trillionaire milestone anticipation speculation</strong>: Projects future wealth milestones from IPO filings to create aspirational or critical narratives around individual accumulation.",
+          "<strong>NATO withdrawal legal process questioning</strong>: Fact-checks Trump's NATO withdrawal threats by emphasizing procedural complexity, implying limitation on executive authority.",
+          "<strong>EU electoral interference accusation platforming</strong>: Amplifying US official accusations of EU interference in member state elections.",
+          "<strong>Trump silent treatment virality amplification</strong>: Amplifies 'embarrassing moment' of Artemis II astronauts giving Trump 'the silent treatment' as a viral clip, emphasizing awkwardness over mission content.",
+          "<strong>Vatican-Pentagon tension dramatization</strong>: Amplifying denied reports of US threats to Vatican over Pope's Iran war criticism through denial coverage itself.",
+          "<strong>NATO obligation legalism questioning</strong>: Emphasizing Turkish official's statement that NATO is 'not obliged' to act, foregrounding alliance fragmentation interpretation.",
+          "<strong>Space physiology impact cataloging</strong>: Systematically documenting bodily harms from space travel as scientific curiosity without questioning mission necessity.",
+          "<strong>Tax burden reintegration dramatization</strong>: Highlighting bureaucratic difficulties faced by released hostages as surreal or absurd without contextualizing standard administrative processes."
+        ]
       },
       {
         "pattern": "Conflict expansion and contagion framing",
@@ -448,7 +902,16 @@
         "status": "suggested",
         "example_text": "protest against US President Donald Trump on a range of different issues, in what they see as his authoritatian style of governance, hardline immigration policies, climate change denial and the war with Iran",
         "example_url": "http://www.euronews.com/2026/03/28/huge-crowds-protest-against-trump-on-no-kings-day-in-the-us-and-abroad",
-        "unbiased_text": "Protesters demonstrated against various Trump administration policies, including immigration enforcement, environmental policy, and the military campaign in Iran."
+        "unbiased_text": "Protesters demonstrated against various Trump administration policies, including immigration enforcement, environmental policy, and the military campaign in Iran.",
+        "detail_items": [
+          "<strong>Scope escalation avoidance appeal</strong>: Amplifies Tehran's calls to avoid expanding war scope, positioning Iran as restraint advocate despite ongoing strikes.",
+          "<strong>Regional sports disruption highlighting</strong>: Emphasizes peripheral impacts like Qatar postponing football matches to illustrate conflict's civilizational disruption beyond military metrics.",
+          "<strong>Ukraine weapons diversion threat tracking</strong>: Euronews follows US official statements about potentially diverting Ukraine military aid to Middle East operations, threading cross-conflict resource competition narratives.",
+          "<strong>European target expansion via ambassador quote</strong>: Amplifies Iranian ambassador statement that 'any base can be a target' to dramatize direct European military vulnerability threat.",
+          "<strong>Hyperscaler data center geopolitical vulnerability</strong>: Highlighting major data center infrastructure projects during regional conflict to seed concerns about digital infrastructure exposure to warfare.",
+          "<strong>Gulf regime trust deficit assertion</strong>: Platforming UAE diplomatic statement that there is 'no trust' in Iranian regime as regional consensus.",
+          "<strong>Celebrity luxury travel war-distraction juxtaposition</strong>: BTS world tour commercial analysis positioned alongside war coverage as entertainment news without acknowledging tonal dissonance amid regional crisis."
+        ]
       },
       {
         "pattern": "Casualty and victimization emphasis",
@@ -458,14 +921,32 @@
         "status": "suggested",
         "example_text": "its undertaking would 'probably' result in US service member casualties",
         "example_url": "https://www.euronews.com/2026/04/01/securing-irans-highly-enriched-uranium-stockpiles-could-prove-risky-experts-say",
-        "unbiased_text": "Military experts assess that securing the stockpiles would involve operational risks including potential casualties."
+        "unbiased_text": "Military experts assess that securing the stockpiles would involve operational risks including potential casualties.",
+        "detail_items": [
+          "<strong>Repatriation body count humanization</strong>: Specific numerical details about repatriation of 84 Iranian sailors' bodies from Sri Lanka emphasize human cost through logistical death aftermath.",
+          "<strong>Death-of-leader's-widow emotionalization</strong>: Highlights widow of Khamenei dying from wounds to personalize leadership casualties and amplify emotional resonance of family targeting.",
+          "<strong>Lebanon displacement milestone tracking</strong>: Euronews highlights approaching displacement thresholds ('nearly 700,000 people') in Lebanon, creating crisis escalation narrative through numerical proximity to round figures.",
+          "<strong>Nowruz cultural resilience juxtaposition</strong>: Euronews contrasts Iranian citizens celebrating traditional fire festivals during wartime to highlight civilian normalcy despite conflict, implying regime disconnect or popular defiance.",
+          "<strong>Gulf airline loyalty program casualty highlighting</strong>: Euronews emphasizes changes to frequent flyer programs and travel disruptions as tangible war impacts on ordinary consumers, personalizing conflict consequences through lifestyle inconveniences.",
+          "<strong>Nuclear facility proximity casualty clustering</strong>: Emphasizing Iranian strikes hit cities 'near nuclear site' or 'with nuclear installations' suggests intentional nuclear targeting or contamination risk.",
+          "<strong>Iranian negotiator personalization humanization</strong>: Profiles specific Iranian negotiator as individual 'who has Trump's respect', humanizing and legitimizing Iranian diplomatic representatives.",
+          "<strong>Louvre Abu Dhabi art risk humanization</strong>: Highlighting French concerns about loaned artworks in Gulf conflict zone to personalize cultural heritage war consequences for European audiences.",
+          "<strong>Civilian aircraft parking war-consequence threading</strong>: Frames Spanish airport aircraft storage expansion as direct consequence of Iran war disrupting flight routes, establishing causal link between conflict and European aviation infrastructure stress.",
+          "<strong>Easter commercial casualty humanization</strong>: Linking chocolate price increases ('Easter eggflation') to climate and budget cuts, humanizing consumer holiday experience as conflict collateral damage.",
+          "<strong>Civilian infrastructure intelligence crowdsourcing</strong>: Amplifies Iranian text messages to civilians claiming 'victory in war' as IRGC psychological operation or hacking incident.",
+          "<strong>Wildlife rescue distraction humanization</strong>: Emphasizing stranded whale rescue efforts during major geopolitical crisis as emotionally accessible counterpoint to war coverage."
+        ]
       },
       {
         "pattern": "Military capability and strategy speculation",
         "detail": "[European military deployment specification] Details specific European naval assets and their movements (Italian frigate, German warship) with precise ship names and destinations. | [Iranian missile technical capability highlighting] Provides detailed technical specifications of Iranian missiles (Sejil) emphasizing difficulty of interception to amplify threat perception.",
         "debias": "Report military deployments with equivalent detail across all parties, not just European contributions. Include technical details of all sides' weapons systems equally or omit technical specifications entirely.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "<strong>European military deployment specification</strong>: Details specific European naval assets and their movements (Italian frigate, German warship) with precise ship names and destinations.",
+          "<strong>Iranian missile technical capability highlighting</strong>: Provides detailed technical specifications of Iranian missiles (Sejil) emphasizing difficulty of interception to amplify threat perception."
+        ]
       },
       {
         "pattern": "Economic crisis escalation framing",
@@ -475,7 +956,21 @@
         "status": "suggested",
         "example_text": "Synthetic fertiliser can account for up to 12 per cent of total input costs. This rises sharply during price spikes.",
         "example_url": "http://www.euronews.com/2026/03/28/europes-farms-are-reeling-from-the-iran-war-regenerative-farmers-saw-it-coming",
-        "unbiased_text": "Synthetic fertiliser typically represents about 12% of farm input costs, a proportion that increases when global commodity prices rise"
+        "unbiased_text": "Synthetic fertiliser typically represents about 12% of farm input costs, a proportion that increases when global commodity prices rise",
+        "detail_items": [
+          "<strong>Earnings season war impact preview</strong>: Previews corporate earnings through lens of who 'wins and loses from the Iran war,' financializing conflict into investment implications.",
+          "<strong>Russian energy company beneficiary highlighting</strong>: Emphasizes specific valuation gains for Russian oil companies from Iran conflict with precise euro figures.",
+          "<strong>Spanish energy exceptionalism highlighting</strong>: Euronews emphasizes Spain as the 'only EU country' managing energy price rises through renewable infrastructure, contrasting domestic policy success against regional crisis.",
+          "<strong>Egypt Easter tourism energy crisis conflation</strong>: Warns those vacationing in Egypt at Easter about energy crisis impacting tourism and daily life, extending war consequences to holiday planning.",
+          "<strong>Airline cancellation war-causation threading</strong>: SAS flight cancellations attributed directly to fuel price doubling 'after' conflict events, creating causal chain from war to consumer disruption.",
+          "<strong>Spanish neutrality benefit exceptionalism</strong>: Questions whether Spain can uniquely access Hormuz Strait due to its war position, suggesting diplomatic stance creates material advantages.",
+          "<strong>TotalEnergies war profiteering quantification</strong>: Specifying $1 billion profit from Middle East oil positioning during war as corporate opportunism from price volatility.",
+          "<strong>Cryptocurrency scam hoax conflation</strong>: Links viral misinformation narratives to financial fraud schemes, emphasizing digital deception over factual clarification.",
+          "<strong>Chocolate capital alternative ranking distraction</strong>: Lesser-known European chocolate cities (Turin, Perugia, York) are promoted as Easter destinations amid war energy crisis coverage.",
+          "<strong>Coal standby reactivation threat threading</strong>: Italy's four standby coal plants are positioned as potential crisis reactivation option to dramatize energy vulnerability.",
+          "<strong>Chocolate industry resilience celebration</strong>: Highlighting European chocolate production continuity and excellence during crisis to emphasize economic normalcy.",
+          "<strong>Easter commercial inflation threading</strong>: Systematically links Easter holiday costs (chocolate, eggs, lamb) to war-driven price increases, domesticating conflict consequences."
+        ]
       },
       {
         "pattern": "Nuclear threat framing",
@@ -485,84 +980,122 @@
         "status": "suggested",
         "example_text": "Iran's stockpile could allow it to build as many as 10 nuclear bombs should the country decide to weaponise its programme.",
         "example_url": "https://www.euronews.com/2026/04/01/securing-irans-highly-enriched-uranium-stockpiles-could-prove-risky-experts-say",
-        "unbiased_text": "Experts estimate Iran's enriched uranium stockpile could theoretically be sufficient for multiple nuclear devices, though Iran maintains its program is peaceful."
+        "unbiased_text": "Experts estimate Iran's enriched uranium stockpile could theoretically be sufficient for multiple nuclear devices, though Iran maintains its program is peaceful.",
+        "detail_items": [
+          "<strong>WHO nuclear peace prescription moralization</strong>: Highlighting WHO statement that 'peace is best medicine' regarding nuclear risks medicalizes anti-war position as objective health recommendation.",
+          "<strong>Netanyahu nuclear scientist assassination boasting</strong>: Direct quotation of Netanyahu claiming killing of top Iranian nuclear scientists without contextualizing as propaganda or verifying claims.",
+          "<strong>Nuclear waste facility safety milestone normalization</strong>: Finnish nuclear waste repository operational launch presented as environmental achievement without acknowledging multi-century risk transfer to future generations."
+        ]
       },
       {
         "pattern": "EU Black Sea grain corridor model advocacy",
         "detail": "Euronews amplifies EU envoy proposal to apply Black Sea grain corridor precedent to Hormuz blockage, positioning European diplomatic frameworks as universal conflict-resolution templates.",
         "debias": "Acknowledge material differences between Black Sea grain corridor context and Hormuz situation when presenting analogies.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Euronews amplifies EU envoy proposal to apply Black Sea grain corridor precedent to Hormuz blockage, positioning European diplomatic frameworks as universal conflict-resolution templates."
+        ]
       },
       {
         "pattern": "Ex-leader forum antiwar legitimization",
         "detail": "Coverage of Balkan ex-presidents criticizing Iran war at Baku Forum platforms former leaders' opposition as legitimate diplomatic perspective.",
         "debias": "Report international forum statements proportionally without elevating ex-officials' positions as representative diplomatic consensus.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Coverage of Balkan ex-presidents criticizing Iran war at Baku Forum platforms former leaders' opposition as legitimate diplomatic perspective."
+        ]
       },
       {
         "pattern": "Black rain environmental catastrophe localization",
         "detail": "Details Tehran residents experiencing breathing difficulties and skin irritation from 'black rain' pollution, personalizing war environmental consequences.",
         "debias": "Report environmental impacts without selective focus on one population's suffering to avoid humanitarian asymmetry.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Details Tehran residents experiencing breathing difficulties and skin irritation from 'black rain' pollution, personalizing war environmental consequences."
+        ]
       },
       {
         "pattern": "Chinese North Korea flight normalization",
         "detail": "Highlighting resumption of China-North Korea flights after six years as geopolitical realignment signal during Middle East crisis.",
         "debias": "Report flight resumptions as standalone regional developments without implied connection to unrelated conflicts.",
         "date_added": "2026-03-30",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Highlighting resumption of China-North Korea flights after six years as geopolitical realignment signal during Middle East crisis."
+        ]
       },
       {
         "pattern": "Ultra-rich offshore wealth moralization",
         "detail": "Frames untaxed wealth accumulation as moral failing by quantifying it against global poverty statistics to emphasize inequality.",
         "debias": "Present wealth distribution data objectively, including legal frameworks and policy debates without predetermined moral framing.",
         "date_added": "2026-04-02",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Frames untaxed wealth accumulation as moral failing by quantifying it against global poverty statistics to emphasize inequality."
+        ]
       },
       {
         "pattern": "Steel capacity weapons production causation",
         "detail": "Israel claims 70% destruction of Iran's steel capacity is directly threaded to weapons production hindrance rather than industrial output.",
         "debias": "Report industrial capacity damage separately from speculative weapons production impact claims.",
         "date_added": "2026-04-03",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Israel claims 70% destruction of Iran's steel capacity is directly threaded to weapons production hindrance rather than industrial output."
+        ]
       },
       {
         "pattern": "Political execution acceleration tracking",
         "detail": "Quantifies Iran's execution of political prisoners 'since the war began,' creating temporal causation between external conflict and internal repression.",
         "debias": "Report execution statistics with historical context to show whether wartime rates represent acceleration or continuation of existing patterns.",
         "date_added": "2026-04-08",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Quantifies Iran's execution of political prisoners 'since the war began,' creating temporal causation between external conflict and internal repression."
+        ]
       },
       {
         "pattern": "Rare consensus irony highlighting",
         "detail": "Notes that Israel's political forces achieve 'rare moment of consensus' in criticizing the ceasefire, using unity as evidence of problematic outcome.",
         "debias": "Report political consensus without suggesting that agreement itself indicates the policy is flawed.",
         "date_added": "2026-04-08",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Notes that Israel's political forces achieve 'rare moment of consensus' in criticizing the ceasefire, using unity as evidence of problematic outcome."
+        ]
       },
       {
         "pattern": "Overlooked institution warning elevation",
         "detail": "Positioning expert analysis of lesser-known Iranian institutions as key to understanding strategy, suggesting hidden threat vectors.",
         "debias": "Contextualize institutional analysis within broader governance structures rather than suggesting undiscovered strategic wildcards.",
         "date_added": "2026-04-10",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Positioning expert analysis of lesser-known Iranian institutions as key to understanding strategy, suggesting hidden threat vectors."
+        ]
       },
       {
         "pattern": "Unilateral ceasefire credit contestation",
         "detail": "Highlighting that Russia announced ceasefire 'just to announce what it called its own' after ignoring Ukrainian calls, contesting ownership.",
         "debias": "Report ceasefire implementations with timeline context without editorializing motivation attribution.",
         "date_added": "2026-04-10",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Highlighting that Russia announced ceasefire 'just to announce what it called its own' after ignoring Ukrainian calls, contesting ownership."
+        ]
       },
       {
         "pattern": "Climate species endangerment war deflection",
         "detail": "Highlighting penguin and seal endangerment from climate change during war coverage suggests environmental crises deserve equivalent or greater attention than human conflict.",
         "debias": "Report environmental stories without implicit comparison to human conflict urgency.",
         "date_added": "2026-04-12",
-        "status": "suggested"
+        "status": "suggested",
+        "detail_items": [
+          "Highlighting penguin and seal endangerment from climate change during war coverage suggests environmental crises deserve equivalent or greater attention than human conflict."
+        ]
       }
     ],
     "notes": "Reliable but limited conflict coverage"

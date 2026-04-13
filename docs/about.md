@@ -75,8 +75,12 @@ Every news source carries biases in how it frames, emphasizes, and omits informa
       <td>
         <strong>{{ bias.pattern }}</strong>
         <details class="bias-foldable">
-          <summary>Details</summary>
-          <span class="bias-detail">{{ bias.detail }}</span>
+          <summary>Details ({{ bias.detail_items | size }})</summary>
+          <ul class="bias-detail-list">
+            {% for item in bias.detail_items %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
         </details>
         {% if bias.example_text %}
         <details class="bias-foldable">
