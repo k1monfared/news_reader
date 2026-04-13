@@ -10,7 +10,6 @@ from models import PipelineConfig, RawItem
 from llm_client import AuditedLLMClient
 from audit_logger import AuditedHTTPClient
 from stages.fetchers.rss import RSSFetcher
-from stages.fetchers.scrape_iranintl import IranIntlScraper
 from stages.fetchers.gdelt import GDELTFetcher
 from stages.fetchers.archive_france24 import France24ArchiveFetcher
 
@@ -18,7 +17,6 @@ logger = logging.getLogger(__name__)
 
 FETCHER_MAP = {
     ("rss", None): RSSFetcher,
-    ("scrape", "iranintl"): IranIntlScraper,
     ("gdelt", None): GDELTFetcher,
     ("archive", "france24"): France24ArchiveFetcher,
 }
@@ -28,8 +26,6 @@ def _get_fetcher(source_config, http_client, etag_cache):
     """Pick the right fetcher class for a source."""
     if source_config.type == "rss":
         return RSSFetcher(source_config, http_client, etag_cache)
-    if source_config.type == "scrape" and source_config.name == "iranintl":
-        return IranIntlScraper(source_config, http_client)
     raise ValueError(f"No fetcher for source type={source_config.type} name={source_config.name}")
 
 

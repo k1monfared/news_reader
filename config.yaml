@@ -19,16 +19,6 @@ sources:
     filter_instructions: "Watch for editorialized framing of events"
     debias_instructions: "Note when framing differs from wire services"
 
-  - name: iranintl
-    type: scrape
-    url: "https://ir.iranintl.com"
-    language: fa
-    max_items: 200
-    known_biases: "Anti-regime, pro-opposition, sometimes unverified"
-    reliability_notes: "Mixed, breaks stories early"
-    filter_instructions: "Flag unverified claims, check for sole-source"
-    debias_instructions: "Add verification caveats for unconfirmed claims"
-
   - name: reuters
     type: rss
     url: "https://www.rss-bridge.org/bridge01/?action=display&bridge=Reuters&feed=world&format=Atom"
@@ -232,7 +222,7 @@ audit:
 # ---------------------------------------------------------------------------
 development_tracking:
   lookback_days: 7
-  similarity_threshold: 0.5
+  similarity_threshold: 0.25
 
 # ---------------------------------------------------------------------------
 # Pipeline Settings

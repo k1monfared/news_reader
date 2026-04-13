@@ -24,18 +24,6 @@
     "expected_is_duplicate_of": "golden001"
   },
   {
-    "source": "iranintl",
-    "source_url": "https://ir.iranintl.com/news/ceasefire-oman",
-    "timestamp": "2026-03-29T07:00:00+00:00",
-    "title": "مذاکرات آتش‌بس ایران و آمریکا در عمان آغاز شد",
-    "text": "به گزارش ایران اینترنشنال، مذاکرات غیرمستقیم بین ایران و ایالات متحده در مسقط عمان آغاز شده است. منابع آگاه می‌گویند این مذاکرات بر کاهش تنش در منطقه خلیج فارس تمرکز دارد.",
-    "language": "fa",
-    "fetch_id": "golden003",
-    "expected_included": true,
-    "expected_category": "Diplomacy",
-    "expected_is_duplicate_of": "golden001"
-  },
-  {
     "source": "reuters",
     "source_url": "https://reuters.com/world/us-deploys-carrier-gulf",
     "timestamp": "2026-03-29T04:00:00+00:00",
@@ -56,17 +44,6 @@
     "fetch_id": "golden005",
     "expected_included": true,
     "expected_category": "Economy"
-  },
-  {
-    "source": "iranintl",
-    "source_url": "https://ir.iranintl.com/news/tehran-protests",
-    "timestamp": "2026-03-29T03:00:00+00:00",
-    "title": "اعتراضات گسترده در تهران علیه جنگ",
-    "text": "شاهدان عینی گزارش می‌دهند که هزاران نفر در تهران در اعتراض به ادامه جنگ و وضعیت اقتصادی به خیابان‌ها آمده‌اند. نیروهای امنیتی در مناطق مختلف شهر مستقر شده‌اند.",
-    "language": "fa",
-    "fetch_id": "golden006",
-    "expected_included": true,
-    "expected_category": "Inside Iran"
   },
   {
     "source": "aljazeera",

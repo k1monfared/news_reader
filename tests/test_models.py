@@ -45,23 +45,23 @@ class TestRawItem:
 class TestTranslatedItem:
     def test_translated_item_inherits(self):
         item = TranslatedItem(
-            source="iranintl",
-            source_url="https://ir.iranintl.com/news/1",
+            source="aljazeera",
+            source_url="https://aljazeera.com/news/1",
             timestamp="2026-03-29T05:00:00+00:00",
-            title="\u062a\u0638\u0627\u0647\u0631\u0627\u062a \u062f\u0631 \u062a\u0647\u0631\u0627\u0646",
-            text="\u0635\u062f\u0647\u0627 \u0646\u0641\u0631 \u062f\u0631 \u062a\u0647\u0631\u0627\u0646 \u0628\u0647 \u062e\u06cc\u0627\u0628\u0627\u0646\u200c\u0647\u0627 \u0622\u0645\u062f\u0646\u062f.",
-            language="fa",
-            fetch_id="ii001",
-            text_en="Hundreds took to the streets of Tehran.",
-            title_en="Protests in Tehran",
+            title="Iran strikes reported near Isfahan",
+            text="Explosions heard near Isfahan early Saturday.",
+            language="en",
+            fetch_id="aj001",
+            text_en="Explosions heard near Isfahan early Saturday.",
+            title_en="Iran strikes reported near Isfahan",
         )
         # Has all RawItem fields
-        assert item.source == "iranintl"
-        assert item.language == "fa"
-        assert item.fetch_id == "ii001"
+        assert item.source == "aljazeera"
+        assert item.language == "en"
+        assert item.fetch_id == "aj001"
         # Plus translated fields
-        assert item.text_en == "Hundreds took to the streets of Tehran."
-        assert item.title_en == "Protests in Tehran"
+        assert item.text_en == "Explosions heard near Isfahan early Saturday."
+        assert item.title_en == "Iran strikes reported near Isfahan"
         # Optional translation_call_id defaults to None
         assert item.translation_call_id is None
 
@@ -74,15 +74,15 @@ class TestTranslatedItem:
 class TestConfig:
     def test_config_loads(self, sample_config: PipelineConfig):
         assert isinstance(sample_config, PipelineConfig)
-        assert len(sample_config.sources) == 5
+        assert len(sample_config.sources) == 4
         assert len(sample_config.buckets) == 9
 
     def test_config_source_fields(self, sample_config: PipelineConfig):
         for src in sample_config.sources:
             assert src.name, "Every source must have a name"
-            assert src.type in ("rss", "scrape"), f"Unknown type: {src.type}"
+            assert src.type == "rss", f"Unknown type: {src.type}"
             assert src.url.startswith("http"), f"URL should be HTTP(S): {src.url}"
-            assert src.language in ("en", "fa"), f"Unexpected language: {src.language}"
+            assert src.language == "en", f"Unexpected language: {src.language}"
             # Bias and filter metadata must be present (even if empty)
             assert isinstance(src.known_biases, str)
             assert isinstance(src.filter_instructions, str)

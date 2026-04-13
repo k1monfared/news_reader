@@ -64,6 +64,21 @@ def _load_historical_items(
     return historical
 
 
+def _make_doc(item: CategorizedItem) -> str:
+    """Build a weighted document for TF-IDF: title repeated for emphasis, plus text."""
+    title = item.title_en or ""
+    text = item.text_en or ""
+    # Title is repeated to boost its weight in TF-IDF, since RSS text is often
+    # just the title again or very short.
+    return f"{title} {title} {title} {text}"
+
+
+def _is_live_blog(title: str) -> bool:
+    """Check if a title looks like a live blog/rolling coverage post."""
+    lower = title.lower()
+    return "live :" in lower or "live:" in lower or "live |" in lower
+
+
 def _compute_matches(
     today_items: list[CategorizedItem],
     historical_items: list[CategorizedItem],
@@ -71,16 +86,23 @@ def _compute_matches(
 ) -> dict[str, list[tuple[CategorizedItem, float]]]:
     """Use TF-IDF cosine similarity to find historical matches for today's items.
 
+    Uses two matching strategies:
+    1. Full-text TF-IDF at the configured threshold
+    2. Title-only TF-IDF at a lower threshold (titles are more distinctive for
+       short RSS items)
+    3. Live blog detection: items sharing a "live:" pattern are always matched
+
     Returns a dict mapping today's fetch_id to a list of (historical_item, score) tuples.
     """
     if not today_items or not historical_items:
         return {}
 
-    today_docs = [item.title_en + " " + item.text_en for item in today_items]
-    hist_docs = [item.title_en + " " + item.text_en for item in historical_items]
+    # Strategy 1: full-text TF-IDF (with title boost)
+    today_docs = [_make_doc(item) for item in today_items]
+    hist_docs = [_make_doc(item) for item in historical_items]
 
     all_docs = today_docs + hist_docs
-    vectorizer = TfidfVectorizer()
+    vectorizer = TfidfVectorizer(max_features=10000)
     tfidf_matrix = vectorizer.fit_transform(all_docs)
 
     today_matrix = tfidf_matrix[: len(today_docs)]
@@ -88,16 +110,54 @@ def _compute_matches(
 
     sim_matrix = cosine_similarity(today_matrix, hist_matrix)
 
+    # Strategy 2: title-only TF-IDF
+    today_titles = [item.title_en or "" for item in today_items]
+    hist_titles = [item.title_en or "" for item in historical_items]
+    title_vectorizer = TfidfVectorizer(max_features=5000)
+    try:
+        title_matrix = title_vectorizer.fit_transform(today_titles + hist_titles)
+        title_sim = cosine_similarity(
+            title_matrix[:len(today_titles)],
+            title_matrix[len(today_titles):]
+        )
+    except ValueError:
+        title_sim = np.zeros((len(today_items), len(historical_items)))
+
+    # Lower thresholds to catch more potential matches for LLM classification
+    text_threshold = threshold
+    title_threshold = max(threshold - 0.15, 0.2)
+
     matches: dict[str, list[tuple[CategorizedItem, float]]] = {}
     for i, today_item in enumerate(today_items):
         item_matches = []
+        seen_ids = set()
         for j, hist_item in enumerate(historical_items):
-            score = float(sim_matrix[i, j])
-            if score >= threshold:
-                item_matches.append((hist_item, score))
+            text_score = float(sim_matrix[i, j])
+            title_score = float(title_sim[i, j])
+            # Use the higher of text or title similarity
+            best_score = max(text_score, title_score)
+
+            matched = False
+            if text_score >= text_threshold:
+                matched = True
+            elif title_score >= title_threshold:
+                matched = True
+            # Live blog heuristic: if both are live blogs from the same source,
+            # they're almost certainly about the same running story
+            elif (_is_live_blog(today_item.title_en or "") and
+                  _is_live_blog(hist_item.title_en or "") and
+                  today_item.source == hist_item.source):
+                matched = True
+                best_score = max(best_score, 0.5)  # Ensure they get classified
+
+            if matched and hist_item.fetch_id not in seen_ids:
+                item_matches.append((hist_item, best_score))
+                seen_ids.add(hist_item.fetch_id)
+
         if item_matches:
             item_matches.sort(key=lambda x: x[1], reverse=True)
-            matches[today_item.fetch_id] = item_matches
+            # Limit to top 5 matches to keep LLM calls manageable
+            matches[today_item.fetch_id] = item_matches[:5]
 
     return matches
 

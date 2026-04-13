@@ -134,7 +134,7 @@ def mock_http_client(tmp_run_dir: str):
 
 @pytest.fixture
 def sample_raw_items() -> list[dict]:
-    """Five realistic RawItem dicts covering English and Farsi sources."""
+    """Three realistic RawItem dicts covering English sources."""
     return [
         {
             "source": "aljazeera",
@@ -178,30 +178,6 @@ def sample_raw_items() -> list[dict]:
             "language": "en",
             "fetch_id": "aj002",
         },
-        {
-            "source": "iranintl",
-            "source_url": "https://ir.iranintl.com/news/2026/03/29/protests-tehran",
-            "timestamp": "2026-03-29T05:00:00+00:00",
-            "title": "\u062a\u0638\u0627\u0647\u0631\u0627\u062a \u062f\u0631 \u062a\u0647\u0631\u0627\u0646 \u0639\u0644\u06cc\u0647 \u062c\u0646\u06af",
-            "text": (
-                "\u0635\u062f\u0647\u0627 \u0646\u0641\u0631 \u062f\u0631 \u062a\u0647\u0631\u0627\u0646 \u062f\u0631 \u0627\u0639\u062a\u0631\u0627\u0636 \u0628\u0647 \u062c\u0646\u06af \u0628\u0627 \u0627\u0633\u0631\u0627\u0626\u06cc\u0644 \u0628\u0647 \u062e\u06cc\u0627\u0628\u0627\u0646\u200c\u0647\u0627 \u0622\u0645\u062f\u0646\u062f. "
-                "\u0646\u06cc\u0631\u0648\u0647\u0627\u06cc \u0627\u0645\u0646\u06cc\u062a\u06cc \u0628\u0627 \u06af\u0627\u0632 \u0627\u0634\u06a9\u200c\u0622\u0648\u0631 \u0645\u0639\u062a\u0631\u0636\u0627\u0646 \u0631\u0627 \u067e\u0631\u0627\u06a9\u0646\u062f\u0647 \u06a9\u0631\u062f\u0646\u062f."
-            ),
-            "language": "fa",
-            "fetch_id": "ii001",
-        },
-        {
-            "source": "iranintl",
-            "source_url": "https://ir.iranintl.com/news/2026/03/29/irgc-statement",
-            "timestamp": "2026-03-29T04:30:00+00:00",
-            "title": "\u0628\u06cc\u0627\u0646\u06cc\u0647 \u0633\u067e\u0627\u0647 \u067e\u0627\u0633\u062f\u0627\u0631\u0627\u0646",
-            "text": (
-                "\u0633\u067e\u0627\u0647 \u067e\u0627\u0633\u062f\u0627\u0631\u0627\u0646 \u0627\u0646\u0642\u0644\u0627\u0628 \u0627\u0633\u0644\u0627\u0645\u06cc \u0627\u0639\u0644\u0627\u0645 \u06a9\u0631\u062f \u06a9\u0647 \u0622\u0645\u0627\u062f\u0647 \u067e\u0627\u0633\u062e "
-                "\u0642\u0627\u0637\u0639 \u0628\u0647 \u0647\u0631\u06af\u0648\u0646\u0647 \u062a\u062c\u0627\u0648\u0632 \u0627\u0633\u062a. \u0627\u06cc\u0646 \u0628\u06cc\u0627\u0646\u06cc\u0647 \u067e\u0633 \u0627\u0632 \u062d\u0645\u0644\u0647 \u067e\u0647\u067e\u0627\u062f\u06cc \u0628\u0647 \u0627\u0635\u0641\u0647\u0627\u0646 \u0635\u0627\u062f\u0631 \u0634\u062f."
-            ),
-            "language": "fa",
-            "fetch_id": "ii002",
-        },
     ]
 
 
@@ -209,7 +185,7 @@ def sample_raw_items() -> list[dict]:
 def sample_translated_items(sample_raw_items: list[dict]) -> list[dict]:
     """TranslatedItem dicts built from the raw items.
 
-    English items pass through as-is. Farsi items get mock translations.
+    English items pass through as-is.
     """
     items = []
     for raw in sample_raw_items:
@@ -217,20 +193,6 @@ def sample_translated_items(sample_raw_items: list[dict]) -> list[dict]:
         if raw["language"] == "en":
             item["text_en"] = raw["text"]
             item["title_en"] = raw["title"]
-        elif raw["fetch_id"] == "ii001":
-            item["text_en"] = (
-                "Hundreds of people took to the streets of Tehran to protest "
-                "the war with Israel. Security forces dispersed the protesters "
-                "with tear gas."
-            )
-            item["title_en"] = "Protests in Tehran against the war"
-        elif raw["fetch_id"] == "ii002":
-            item["text_en"] = (
-                "The Islamic Revolutionary Guard Corps announced it is ready "
-                "for a decisive response to any aggression. The statement was "
-                "issued after the drone attack on Isfahan."
-            )
-            item["title_en"] = "IRGC statement"
         item["translation_call_id"] = None
         items.append(item)
     return items
@@ -241,7 +203,7 @@ def sample_deduped_items(sample_translated_items: list[dict]) -> list[dict]:
     """DedupedItem dicts with two clusters.
 
     Cluster 1: items 0 and 2 (both about the Isfahan drone strike).
-    Cluster 2, 3, 4: each item is its own cluster.
+    Cluster 2: item 1 (oil prices) is its own cluster.
     """
     items = []
     for i, trans in enumerate(sample_translated_items):

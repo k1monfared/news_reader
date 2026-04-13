@@ -17,7 +17,6 @@ logger = logging.getLogger(__name__)
 # Map source names to their primary domains in GDELT
 SOURCE_DOMAINS = {
     "aljazeera": "aljazeera.com",
-    "iranintl": "iranintl.com",
     "reuters": "reuters.com",
     "france24": "france24.com",
     "euronews": "euronews.com",

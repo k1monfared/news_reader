@@ -31,7 +31,6 @@
             - [x] Publish to Jekyll site
             - [] First successful run with real data
         - Known issues:
-            - Iran International scraper selectors may need tuning for real site
             - RSS bridge for Reuters may be unreliable
     - [] Beta Release
         - Goal: Feature-complete but needs polish
@@ -69,7 +68,6 @@
 - Current Focus
     - Active Tasks:
         - [] Run first end-to-end pipeline test
-        - [] Tune Iran International scraper selectors
         - [] Verify cron scheduling works
     - Recent Progress:
         - 2026-03-29: Full pipeline implementation complete (14 phases)

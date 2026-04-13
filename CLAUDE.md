@@ -1,7 +1,7 @@
 # Claude Instructions
 
 ## Project Overview
-Daily automated news digest pipeline covering the US-Israel war on Iran. Fetches from 5 sources (Al Jazeera, Iran International, Reuters, France 24, Euronews), translates Farsi, deduplicates, filters by importance, categorizes into topic buckets, produces an expandable-format blog post, reviews editorially, detects source biases, verifies links, and publishes to GitHub Pages.
+Daily automated news digest pipeline covering the US-Israel war on Iran. Fetches from 4 sources (Al Jazeera, Reuters, France 24, Euronews), deduplicates, filters by importance, categorizes into topic buckets, produces an expandable-format blog post, reviews editorially, detects source biases, verifies links, and publishes to GitHub Pages.
 
 ## Project Stage Definitions
 

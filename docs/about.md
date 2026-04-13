@@ -12,7 +12,6 @@ This is an automated daily intelligence digest covering the US-Israel war on Ira
 
 **Sources:**
 - **Al Jazeera** (English, RSS)
-- **Iran International** (Farsi, web scrape)
 - **Reuters** (English, RSS)
 - **France 24** (English, RSS)
 - **Euronews** (English, RSS)
@@ -23,9 +22,7 @@ The pipeline runs daily, triggered by a cron job at 8 AM Vancouver time. It firs
 
 Each run gets its own isolated directory. The pipeline flows through ten stages, each reading the previous stage's output and writing its own.
 
-The fetch stage pulls raw content from the five sources listed above. Al Jazeera, Reuters, France 24, and Euronews come through RSS feeds. Iran International gets scraped directly from its Farsi website, since it has no usable RSS feed. If a source is down, the pipeline logs it and continues with the others. It only aborts if every source fails.
-
-English items pass through untouched. Farsi items from Iran International get batched and sent to an LLM for translation. Both the title and body text are translated to English. If translation fails for a batch, the original text is kept as a fallback.
+The fetch stage pulls raw content from the four sources listed above, all through RSS feeds. If a source is down, the pipeline logs it and continues with the others. It only aborts if every source fails.
 
 The same event often appears across multiple sources. The dedup stage builds TF-IDF vectors from each item's English title and text, then computes pairwise cosine similarity. Items above a similarity threshold get clustered together. The longest item in each cluster becomes the "primary," and the others are marked as related sources. This preserves multi-source corroboration while avoiding repetition.
 
@@ -41,7 +38,6 @@ Every LLM call and HTTP request is logged to an audit trail with full input/outp
 
 **Limitations:**
 - This is an automated system. AI can misclassify or miss nuance.
-- Farsi content is machine-translated.
 - Source availability varies. Check the header of each report for any sources that were unreachable.
 
 ---
@@ -59,7 +55,8 @@ Every news source carries biases in how it frames, emphasizes, and omits informa
 {% assign key = source[0] %}
 {% assign info = source[1] %}
 
-### {{ info.display_name }}
+<details class="bias-source-section">
+<summary><h3 class="bias-source-heading">{{ info.display_name }} <span class="bias-count">({{ info.biases | size }} patterns)</span></h3></summary>
 
 {% if info.notes %}_{{ info.notes }}_{% endif %}
 
@@ -75,14 +72,34 @@ Every news source carries biases in how it frames, emphasizes, and omits informa
   <tbody>
     {% for bias in info.biases %}
     <tr>
-      <td><strong>{{ bias.pattern }}</strong><br><span class="bias-detail">{{ bias.detail }}</span></td>
-      <td>{{ bias.debias }}</td>
+      <td>
+        <strong>{{ bias.pattern }}</strong><br>
+        <span class="bias-detail">{{ bias.detail | truncate: 200 }}</span>
+        {% if bias.example_text %}
+        <details class="bias-foldable">
+          <summary>Example</summary>
+          <blockquote>{{ bias.example_text }}</blockquote>
+          {% if bias.example_url %}<a href="{{ bias.example_url }}" target="_blank" rel="noopener">Source article</a>{% endif %}
+        </details>
+        {% endif %}
+      </td>
+      <td>
+        {{ bias.debias }}
+        {% if bias.unbiased_text %}
+        <details class="bias-foldable">
+          <summary>Unbiased version</summary>
+          <blockquote>{{ bias.unbiased_text }}</blockquote>
+        </details>
+        {% endif %}
+      </td>
       <td class="bias-date">{{ bias.date_added }}</td>
       <td><span class="bias-status bias-status--{{ bias.status }}">{{ bias.status }}</span></td>
     </tr>
     {% endfor %}
   </tbody>
 </table>
+
+</details>
 
 {% endfor %}
 

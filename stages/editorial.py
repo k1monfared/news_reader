@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 from datetime import date
 from pathlib import Path
 
@@ -16,6 +17,50 @@ logger = logging.getLogger(__name__)
 
 BIASES_PATH = Path("docs/_data/source_biases.json")
 
+# Stop words for bias dedup similarity
+_STOP = {
+    "a", "an", "the", "of", "in", "to", "for", "and", "or", "on", "by",
+    "with", "as", "at", "from", "is", "it", "that", "this", "be", "via",
+}
+
+
+def _tokenize(text: str) -> set[str]:
+    """Extract meaningful lowercase words."""
+    return set(re.findall(r"[a-z]+", text.lower())) - _STOP
+
+
+def _similarity(a: str, b: str) -> float:
+    """Jaccard similarity between two text strings."""
+    ta, tb = _tokenize(a), _tokenize(b)
+    if not ta or not tb:
+        return 0.0
+    return len(ta & tb) / len(ta | tb)
+
+
+def _find_duplicate(new_pattern: str, new_detail: str, existing_biases: list[dict]) -> dict | None:
+    """Check if a new bias duplicates an existing one.
+
+    Compares pattern names and detail text using word overlap.
+    Returns the matching existing bias, or None if no duplicate found.
+    """
+    new_combined = f"{new_pattern} {new_detail}"
+
+    for existing in existing_biases:
+        ep = existing.get("pattern", "")
+        ed = existing.get("detail", "")
+        existing_combined = f"{ep} {ed}"
+
+        # Check pattern name substring match
+        if new_pattern.lower() in ep.lower() or ep.lower() in new_pattern.lower():
+            return existing
+
+        # Check semantic similarity on pattern + detail
+        sim = _similarity(new_combined, existing_combined)
+        if sim >= 0.35:
+            return existing
+
+    return None
+
 
 def _run_bias_detection(
     run_path: Path,
@@ -24,7 +69,11 @@ def _run_bias_detection(
 ) -> None:
     """Detect new source biases by comparing how sources framed today's items.
 
-    Appends any new observations as status: suggested to the biases YAML.
+    Before adding a new bias, checks all existing biases for that source
+    for duplicates. If a duplicate is found, the existing bias is updated
+    to be more inclusive and its status is set to suggested.
+    If no duplicate exists, the new bias is appended with status: suggested.
+
     This is non-fatal: any error is logged and silently skipped.
     """
     # Load existing biases
@@ -55,6 +104,7 @@ def _run_bias_detection(
         by_source.setdefault(src, []).append({
             "title": item.get("title_en") or item.get("title", ""),
             "text": item.get("text_en") or item.get("text", ""),
+            "source_url": item.get("source_url", ""),
         })
 
     # Format existing biases for the prompt
@@ -87,7 +137,7 @@ def _run_bias_detection(
         system=system,
         user_message=user_msg,
         model=model,
-        max_tokens=2048,
+        max_tokens=4096,
     )
 
     # Strip markdown fences if present
@@ -107,32 +157,69 @@ def _run_bias_detection(
 
     today = date.today().isoformat()
     added = 0
+    updated = 0
+
     for entry in new_biases:
         src = entry.get("source", "")
         pattern = entry.get("pattern", "")
         detail = entry.get("detail", "")
         debias = entry.get("debias", "")
+        example_text = entry.get("example_text", "")
+        example_url = entry.get("example_url", "")
+        unbiased_text = entry.get("unbiased_text", "")
+
         if not src or not pattern or src not in biases_data:
             continue
-        # Skip if a similar pattern name already exists
-        existing_patterns = [
-            b.get("pattern", "").lower()
-            for b in biases_data[src].get("biases", [])
-        ]
-        if any(pattern.lower() in ep or ep in pattern.lower() for ep in existing_patterns if ep):
-            continue
-        biases_data[src]["biases"].append({
-            "pattern": pattern,
-            "detail": detail,
-            "debias": debias,
-            "date_added": today,
-            "status": "suggested",
-        })
-        added += 1
 
-    if added > 0:
+        source_biases = biases_data[src].get("biases", [])
+
+        # Check for duplicate against ALL existing biases for this source
+        duplicate = _find_duplicate(pattern, detail, source_biases)
+
+        if duplicate:
+            # Update existing bias to be more inclusive
+            old_detail = duplicate.get("detail", "")
+            if detail and detail.lower() not in old_detail.lower():
+                duplicate["detail"] = f"{old_detail} Also: {detail}"
+            # Update debias if the new one adds value
+            old_debias = duplicate.get("debias", "")
+            if debias and debias.lower() not in old_debias.lower():
+                duplicate["debias"] = f"{old_debias} {debias}"
+            # Add example if not already present
+            if example_text and not duplicate.get("example_text"):
+                duplicate["example_text"] = example_text
+                duplicate["example_url"] = example_url
+                duplicate["unbiased_text"] = unbiased_text
+            # Reset status to suggested so the user re-reviews
+            if duplicate.get("status") == "confirmed":
+                duplicate["status"] = "suggested"
+                logger.info(
+                    f"Bias '{duplicate['pattern']}' for {src} updated and "
+                    f"status reset to suggested"
+                )
+            updated += 1
+        else:
+            # Add as new bias
+            new_entry = {
+                "pattern": pattern,
+                "detail": detail,
+                "debias": debias,
+                "date_added": today,
+                "status": "suggested",
+            }
+            if example_text:
+                new_entry["example_text"] = example_text
+                new_entry["example_url"] = example_url
+                new_entry["unbiased_text"] = unbiased_text
+            source_biases.append(new_entry)
+            added += 1
+
+    if added > 0 or updated > 0:
         BIASES_PATH.write_text(json.dumps(biases_data, indent=2, ensure_ascii=False) + "\n")
-    logger.info(f"Bias detection: {len(new_biases)} candidates, {added} new pattern(s) added")
+    logger.info(
+        f"Bias detection: {len(new_biases)} candidates, "
+        f"{added} new, {updated} updated existing"
+    )
 
 
 def run_editorial(

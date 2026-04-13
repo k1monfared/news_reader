@@ -47,7 +47,7 @@ body {
    =================================== */
 
 .container {
-  max-width: 740px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 1.5rem;
   width: 100%;
@@ -520,6 +520,7 @@ main {
   border-collapse: collapse;
   margin-bottom: 1.5rem;
   font-size: 0.85rem;
+  table-layout: fixed;
 }
 
 .bias-table th,
@@ -527,7 +528,18 @@ main {
   padding: 0.5rem 0.7rem;
   border: 1px solid var(--border);
   text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
+
+.bias-table th:nth-child(1),
+.bias-table td:nth-child(1) { width: 38%; }
+.bias-table th:nth-child(2),
+.bias-table td:nth-child(2) { width: 34%; }
+.bias-table th:nth-child(3),
+.bias-table td:nth-child(3) { width: 14%; }
+.bias-table th:nth-child(4),
+.bias-table td:nth-child(4) { width: 14%; }
 
 .bias-table th {
   background: var(--code-bg);
@@ -571,6 +583,85 @@ main {
 [data-theme="light"] .bias-status--suggested {
   background: rgba(202, 138, 4, 0.12);
   color: #ca8a04;
+}
+
+.bias-source-section {
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.bias-source-section > summary {
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+  background: var(--code-bg);
+  list-style: none;
+  display: block;
+}
+
+.bias-source-section > summary::-webkit-details-marker {
+  display: none;
+}
+
+.bias-source-section > summary:hover {
+  background: var(--border-light);
+}
+
+.bias-source-heading {
+  display: inline;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.bias-count {
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.bias-source-section > .bias-table {
+  margin-bottom: 0;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.bias-foldable {
+  margin-top: 0.4rem;
+  border-left: 2px solid var(--border-light);
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+.bias-foldable summary {
+  cursor: pointer;
+  color: var(--link);
+  font-size: 0.75rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.bias-foldable summary:hover {
+  text-decoration: underline;
+}
+
+.bias-foldable blockquote {
+  margin: 0.3rem 0.4rem;
+  padding: 0.3rem 0.5rem;
+  background: var(--code-bg);
+  border-left: 2px solid var(--link);
+  border-radius: 0 4px 4px 0;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.bias-foldable a {
+  display: inline-block;
+  margin: 0.2rem 0.4rem;
+  font-size: 0.72rem;
+  color: var(--link);
 }
 
 /* ===================================
