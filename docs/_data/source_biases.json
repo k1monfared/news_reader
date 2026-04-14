@@ -346,6 +346,26 @@
         "example_text": "Pakistan has been under the spotlight as it managed what others couldn't due to its ties with the Gulf, US and China.",
         "example_url": "https://www.aljazeera.com/news/2026/4/13/how-the-us-iran-talks-in-islamabad-unfolded?traffic_source=rss",
         "unbiased_text": "Pakistan hosted the talks, leveraging its diplomatic relationships with the Gulf states, US and China."
+      },
+      {
+        "pattern": "Balancing act impossibility framing",
+        "detail": "Framing diplomatic balancing between competing powers as inherently difficult or precarious, emphasizing challenges over possibilities.",
+        "debias": "Present diplomatic multi-alignment as strategic choice without presuming difficulty or failure.",
+        "date_added": "2026-04-14",
+        "status": "suggested",
+        "example_text": "Pakistani officials and a number of analysts say it can do both. But the balancing act won't be easy.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/14/can-pakistan-juggle-us-iran-mediation-with-saudi-defence-commitments?traffic_source=rss",
+        "unbiased_text": "Pakistani officials and analysts assess the feasibility of simultaneous US-Iran mediation and Saudi defense commitments."
+      },
+      {
+        "pattern": "Hegemonic project presumption framing",
+        "detail": "Asserting expansionist intentions as established fact rather than contested interpretation or analysis.",
+        "debias": "Present territorial or political objectives as claims or interpretations rather than established intentions.",
+        "date_added": "2026-04-14",
+        "status": "suggested",
+        "example_text": "Israel wants to expand in the Middle East. Its failure to defeat Iran is a major setback for its hegemonic plans.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/4/14/iran-remains-an-obstacle-to-the-greater-israel-project?traffic_source=rss",
+        "unbiased_text": "Some analysts argue Israel seeks regional expansion, viewing Iran as an obstacle to such objectives."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -730,6 +750,26 @@
         "example_text": "The 70-member Iranian delegation taking part in negotiations in Pakistan today is being led by one of Tehran's most prominent non-clerical figures, Iranian Parliament Speaker Mohammad Bagher Ghalibaf.",
         "example_url": "https://www.france24.com/en/who-is-iran-s-chief-negotiator-ghalibaf",
         "unbiased_text": "The 70-member Iranian delegation taking part in negotiations in Pakistan today is being led by Iranian Parliament Speaker Mohammad Bagher Ghalibaf."
+      },
+      {
+        "pattern": "Indirect victim innocence emphasis",
+        "detail": "Highlighting civilian status through explicit denial of participation in conflict to amplify victimhood narrative.",
+        "debias": "Report civilian casualties without framing them through explicit declarations of non-belligerence.",
+        "date_added": "2026-04-14",
+        "status": "suggested",
+        "example_text": "Residents of Iraqi Kurdistan are exhausted. Just 24 hours before the ceasefire, a civilian was killed in a drone attack blamed on Iran by Kurdish authorities. In total, around 700 drone and missile attacks have targeted US positions and certain Kurdish interests. Victims' loved ones are devastated by the war between Iran and the United States, of which they are the indirect victims.",
+        "example_url": "https://www.france24.com/en/tv-shows/focus/20260414-residents-of-iraqi-kurdistan-in-despair-we-weren-t-at-war-with-anyone",
+        "unbiased_text": "Residents of Iraqi Kurdistan face ongoing drone attacks. A civilian was killed 24 hours before the ceasefire in an attack attributed to Iran by Kurdish authorities. Around 700 drone and missile attacks have targeted US positions and areas in Kurdistan."
+      },
+      {
+        "pattern": "Psychological misreading attribution",
+        "detail": "Asserting that leaders have fundamentally misunderstood cultural or national psychology, positioning expert as having superior insight.",
+        "debias": "Present expert assessments of diplomatic approaches without claims of psychological misreading.",
+        "date_added": "2026-04-14",
+        "status": "suggested",
+        "example_text": "Donald Trump hasn't read the psychology of the Iranians well at all",
+        "example_url": "https://www.france24.com/en/donald-trump-hasn-t-read-the-psychology-of-iranians-well-at-all-military-expert-says",
+        "unbiased_text": "The current approach may not align with Iranian negotiating patterns, according to military analysts."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -1156,6 +1196,26 @@
         "example_text": "Surveys show Friedrich Merz as the most unpopular leader across 24 democracies, far behind Narendra Modi, Lee Jae-myung and Andrej Babiš in approval.",
         "example_url": "http://www.euronews.com/2026/04/13/german-chancellor-merz-the-most-unpopular-head-of-government-in-the-world-survey-shows",
         "unbiased_text": "According to surveys of 24 democracies, Friedrich Merz has lower approval ratings than leaders including Narendra Modi, Lee Jae-myung and Andrej Babiš."
+      },
+      {
+        "pattern": "Border collapse catastrophe extrapolation",
+        "detail": "Projecting localized infrastructure failures into transnational catastrophe scenarios with borderless threat language.",
+        "debias": "Report infrastructure risks with specific geographic scope rather than apocalyptic cross-border projections.",
+        "date_added": "2026-04-14",
+        "status": "suggested",
+        "example_text": "Failure to repair the protective structure around the nuclear site could unleash 'highly radioactive dust' that 'does not recognise borders', experts warn.",
+        "example_url": "http://www.euronews.com/2026/04/14/chernobyl-could-face-catastrophic-collapse-as-repairs-stall-following-russian-drone-strike",
+        "unbiased_text": "Experts warn that failure to repair the protective structure could release radioactive material affecting the surrounding region."
+      },
+      {
+        "pattern": "AI danger withholding narrative",
+        "detail": "Framing AI model secrecy as evidence of unprecedented danger rather than corporate risk assessment or marketing strategy.",
+        "debias": "Report AI model restrictions as company decisions without amplifying danger claims as validation.",
+        "date_added": "2026-04-14",
+        "status": "suggested",
+        "example_text": "Anthropic's most powerful new AI model, Mythos, is too dangerous to release to the public, the company says, sparking urgent discussions with governments and financial regulators.",
+        "example_url": "http://www.euronews.com/next/2026/04/14/why-anthropics-new-mythos-ai-model-has-washington-and-wall-street-worked-up",
+        "unbiased_text": "Anthropic has restricted public access to its new AI model, Mythos, citing safety concerns and prompting discussions with regulators."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
