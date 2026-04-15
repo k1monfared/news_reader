@@ -366,6 +366,36 @@
         "example_text": "Israel wants to expand in the Middle East. Its failure to defeat Iran is a major setback for its hegemonic plans.",
         "example_url": "https://www.aljazeera.com/opinions/2026/4/14/iran-remains-an-obstacle-to-the-greater-israel-project?traffic_source=rss",
         "unbiased_text": "Some analysts argue Israel seeks regional expansion, viewing Iran as an obstacle to such objectives."
+      },
+      {
+        "pattern": "Asset freeze legitimacy presumption",
+        "detail": "Presenting frozen foreign assets as inherently belonging to the sanctioned nation with right of return, framing sanctions as temporary impediments rather than legal enforcement actions.",
+        "debias": "Clarify that frozen assets are held due to legal sanctions imposed for specific violations, not merely administrative delays.",
+        "date_added": "2026-04-15",
+        "status": "suggested",
+        "example_text": "Iran wants the US to release its frozen assets as part of talks. The money could help it rebuild its battered economy.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/15/what-are-irans-100bn-in-frozen-assets-and-where-are-they-held?traffic_source=rss",
+        "unbiased_text": "Iran is requesting the US lift sanctions that froze approximately $100 billion in assets, which were frozen due to violations of international agreements and could potentially aid Iran's economy if released as part of negotiations."
+      },
+      {
+        "pattern": "Distraction accusation during crisis",
+        "detail": "Alleging that media attention to one crisis enables or distracts from another simultaneous crisis, implying deliberate manipulation of focus.",
+        "debias": "Report concurrent events separately without implying causal connection between news coverage and policy actions.",
+        "date_added": "2026-04-15",
+        "status": "suggested",
+        "example_text": "As world focuses on Iran, Israel 'engineering starvation policy' in Gaza",
+        "example_url": "https://www.aljazeera.com/economy/2026/4/15/as-world-focuses-on-iran-israel-engineering-starvation-policy-in-gaza?traffic_source=rss",
+        "unbiased_text": "While international attention remains on US-Iran negotiations, humanitarian organizations report severe food and fuel shortages in Gaza amid ongoing restrictions."
+      },
+      {
+        "pattern": "Negotiator character delegitimization",
+        "detail": "Highlighting personal background or political views of diplomatic negotiators to cast doubt on their ability to negotiate fairly.",
+        "debias": "Report negotiator identities factually without suggesting their backgrounds disqualify them from diplomatic roles.",
+        "date_added": "2026-04-15",
+        "status": "suggested",
+        "example_text": "Israel's ambassador held talks with his Lebanese counterpart. But critics say Yechiel Leiter is a problematic negotiator",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/15/what-you-need-to-know-about-israels-ambassador-to-the-us?traffic_source=rss",
+        "unbiased_text": "Israel's ambassador Yechiel Leiter held talks with his Lebanese counterpart. Some observers have raised questions about his settler background and its potential impact on negotiations."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -770,6 +800,26 @@
         "example_text": "Donald Trump hasn't read the psychology of the Iranians well at all",
         "example_url": "https://www.france24.com/en/donald-trump-hasn-t-read-the-psychology-of-iranians-well-at-all-military-expert-says",
         "unbiased_text": "The current approach may not align with Iranian negotiating patterns, according to military analysts."
+      },
+      {
+        "pattern": "Symbolic performativity dismissal",
+        "detail": "Characterizing diplomatic meetings as merely symbolic or performative rather than substantive, preemptively delegitimizing potential outcomes.",
+        "debias": "Report on diplomatic meetings as exploratory or preliminary without prejudging their substantive value.",
+        "date_added": "2026-04-15",
+        "status": "suggested",
+        "example_text": "Israeli-Lebanese negotiations 'largely symbolic and performative', Middle East expert says",
+        "example_url": "https://www.france24.com/en/israeli-lebanese-negotiations-largely-symbolic-and-performative-middle-east-expert-says",
+        "unbiased_text": "Middle East expert Aaron David Miller suggests the Israeli-Lebanese negotiations face significant structural challenges, noting that 'none of the participants in today's meetings have the authority to negotiate' binding agreements."
+      },
+      {
+        "pattern": "Liberation alignment claim attribution",
+        "detail": "Amplifying claims that adversarial parties share objectives (like 'liberation') to suggest consensus where fundamental disagreement exists.",
+        "debias": "Distinguish between stated diplomatic positions and actual policy objectives, noting areas of fundamental disagreement.",
+        "date_added": "2026-04-15",
+        "status": "suggested",
+        "example_text": "Israel, Lebanon united in liberating Lebanon from Hezbollah, Israeli ambassador to US says",
+        "example_url": "https://www.france24.com/en/israel-lebanon-united-in-liberating-lebanon-from-hezbollah-israeli-ambassador-to-us-says",
+        "unbiased_text": "Israel's ambassador to the US stated that Lebanese officials expressed opposition to Hezbollah's influence, though Lebanon has not publicly endorsed Israeli military objectives or terminology regarding Hezbollah."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -1216,6 +1266,26 @@
         "example_text": "Anthropic's most powerful new AI model, Mythos, is too dangerous to release to the public, the company says, sparking urgent discussions with governments and financial regulators.",
         "example_url": "http://www.euronews.com/next/2026/04/14/why-anthropics-new-mythos-ai-model-has-washington-and-wall-street-worked-up",
         "unbiased_text": "Anthropic has restricted public access to its new AI model, Mythos, citing safety concerns and prompting discussions with regulators."
+      },
+      {
+        "pattern": "War profiteering beneficiary highlighting",
+        "detail": "Emphasizing how specific countries economically benefit from conflicts through increased exports, framing war-driven price spikes as windfalls.",
+        "debias": "Report economic impacts neutrally, noting both price increases and their causes without suggesting improper benefit.",
+        "date_added": "2026-04-15",
+        "status": "suggested",
+        "example_text": "Norway's oil exports jumped significantly in March, pushing revenues to multi-year highs as disruptions from the Iran war and the closure of the Strait of Hormuz drove up prices.",
+        "example_url": "http://www.euronews.com/business/2026/04/15/norways-crude-oil-exports-up-68-in-march-due-to-iran-war",
+        "unbiased_text": "Norway's oil exports increased 68% in March, with revenues reaching multi-year highs as global prices rose due to supply disruptions from the Iran conflict and Strait of Hormuz closure."
+      },
+      {
+        "pattern": "Corruption scandal domestic contrast framing",
+        "detail": "Juxtaposing a leader's international progressive positioning with domestic scandals to suggest hypocrisy or distraction tactics.",
+        "debias": "Report international positions and domestic issues separately without implying one is meant to obscure the other.",
+        "date_added": "2026-04-15",
+        "status": "suggested",
+        "example_text": "Pedro Sánchez is positioning himself as the ultimate progressive hero, famously defying Donald Trump over the war in Iran. But at home, the Spanish prime minister is fighting a massive wave of domestic corruption scandals.",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/15/watch-shadows-over-spain-will-corruption-topple-sanchez",
+        "unbiased_text": "Spanish Prime Minister Pedro Sánchez has opposed US policy on Iran while facing multiple corruption investigations involving his administration domestically."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
