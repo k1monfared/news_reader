@@ -21,6 +21,52 @@ from prompt_loader import load_prompt
 logger = logging.getLogger(__name__)
 
 
+_SUMMARY_LINE_RE = re.compile(
+    r'<summary[^>]*>\s*\*\*(.*?)\*\*',
+    re.DOTALL,
+)
+
+
+def _load_recent_brief_headlines(
+    posts_dir: str, run_date: str, lookback_days: int
+) -> list[tuple[str, str]]:
+    """Extract headline lines from recent published daily brief posts.
+
+    These capture what the reader actually saw on prior days, regardless of
+    whether the run data is still on disk. Returns a list of
+    (date, headline) pairs, most recent last.
+    """
+    posts_path = Path(posts_dir)
+    if not posts_path.exists():
+        return []
+
+    end_date = datetime.strptime(run_date, "%Y-%m-%d")
+    start_date = end_date - timedelta(days=lookback_days)
+
+    results: list[tuple[str, str]] = []
+    for post in sorted(posts_path.glob("*-daily-brief.md")):
+        try:
+            date_str = post.name[:10]
+            post_date = datetime.strptime(date_str, "%Y-%m-%d")
+        except ValueError:
+            continue
+        if post_date < start_date or post_date >= end_date:
+            continue
+
+        try:
+            content = post.read_text(encoding="utf-8")
+        except OSError:
+            continue
+
+        for match in _SUMMARY_LINE_RE.finditer(content):
+            headline = match.group(1).strip()
+            headline = re.sub(r'^\(Update\)\s*', '', headline)
+            if headline:
+                results.append((date_str, headline))
+
+    return results
+
+
 def _load_historical_items(
     data_dir: str, run_date: str, lookback_days: int
 ) -> list[CategorizedItem]:
@@ -165,27 +211,43 @@ def _compute_matches(
 def _classify_with_llm(
     today_item: CategorizedItem,
     matched_historical: list[tuple[CategorizedItem, float]],
+    recent_headlines: list[tuple[str, str]],
     llm_client: AuditedLLMClient,
     config: PipelineConfig,
-) -> list[dict]:
-    """Ask the LLM to classify the relationship between today's item and historical matches."""
+) -> dict | None:
+    """Ask the LLM to classify today's item against historical matches and recent headlines.
+
+    Returns a dict with keys: overall_status, matched_reference,
+    development_note, per_historical. Returns None on failure.
+    """
     template = load_prompt("track_developments", config.paths.get("prompts_dir", "prompts"))
 
-    hist_text = ""
-    for hist_item, score in matched_historical:
-        hist_text += (
-            f'<historical fetch_id="{hist_item.fetch_id}" source="{hist_item.source}" '
-            f'date="{hist_item.timestamp[:10]}" similarity="{score:.2f}">\n'
-            f"Title: {hist_item.title_en}\n"
-            f"Text: {hist_item.text_en[:400]}\n"
-            f"</historical>\n\n"
+    if matched_historical:
+        hist_text = ""
+        for hist_item, score in matched_historical:
+            hist_text += (
+                f'<historical fetch_id="{hist_item.fetch_id}" source="{hist_item.source}" '
+                f'date="{hist_item.timestamp[:10]}" similarity="{score:.2f}">\n'
+                f"Title: {hist_item.title_en}\n"
+                f"Text: {hist_item.text_en[:400]}\n"
+                f"</historical>\n\n"
+            )
+    else:
+        hist_text = "(no historical matches)"
+
+    if recent_headlines:
+        headlines_text = "\n".join(
+            f"- [{date}] {headline}" for date, headline in recent_headlines
         )
+    else:
+        headlines_text = "(no recent briefs available)"
 
     system, user_msg, version = template.render(
         today_fetch_id=today_item.fetch_id,
         today_title=today_item.title_en,
         today_text=today_item.text_en[:500],
         historical_items=hist_text,
+        recent_brief_headlines=headlines_text,
     )
 
     model = config.models.get("default", "claude-sonnet-4-5")
@@ -206,20 +268,20 @@ def _classify_with_llm(
         cleaned = re.sub(r'\s*```$', '', cleaned)
 
         result = json.loads(cleaned)
-        return result.get("classifications", [])
+        return result
     except (json.JSONDecodeError, Exception) as e:
         logger.warning(f"LLM classification failed for {today_item.fetch_id}: {e}")
-        return []
+        return None
 
 
 def _build_timeline(
     fetch_id: str,
     matched_historical: list[tuple[CategorizedItem, float]],
-    classifications: list[dict],
+    per_historical: list[dict],
 ) -> list[dict]:
     """Build a story timeline from historical matches classified as development."""
     dev_ids = set()
-    for c in classifications:
+    for c in per_historical:
         if c.get("status") == "development":
             dev_ids.add(c.get("historical_fetch_id"))
 
@@ -278,7 +340,21 @@ def run_track_developments(
         logger.error(f"Failed to load historical items: {e}. All items will be marked as new.")
         historical = []
 
-    # Compute TF-IDF matches
+    # Load recent brief headlines (survives machine changes since posts are in git)
+    posts_dir = Path(config.publish.get("site_dir", "docs")) / "_posts"
+    try:
+        recent_headlines = _load_recent_brief_headlines(
+            str(posts_dir), run_date, lookback_days
+        )
+        logger.info(
+            f"Loaded {len(recent_headlines)} recent brief headlines from past "
+            f"{lookback_days} days"
+        )
+    except Exception as e:
+        logger.warning(f"Failed to load recent brief headlines: {e}")
+        recent_headlines = []
+
+    # Compute TF-IDF matches against historical run items
     try:
         matches = _compute_matches(included, historical, similarity_threshold)
     except Exception as e:
@@ -289,46 +365,52 @@ def run_track_developments(
     status_counts = {"new": 0, "continuation": 0, "development": 0}
     tracked_map: dict[str, TrackedItem] = {}
 
+    # Cap how many recent headlines we show the LLM per item so the prompt
+    # stays small. Keep the most recent ones, which are most likely to clash
+    # with today's items.
+    max_headlines = 25
+    trimmed_headlines = (
+        recent_headlines[-max_headlines:]
+        if len(recent_headlines) > max_headlines
+        else recent_headlines
+    )
+
     for item in included:
         fetch_id = item.fetch_id
         matched = matches.get(fetch_id, [])
+        item_recent = trimmed_headlines
 
-        if not matched:
+        if not matched and not item_recent:
             tracked_map[fetch_id] = TrackedItem(
                 **item.model_dump(), story_status="new"
             )
             status_counts["new"] += 1
             continue
 
-        classifications = _classify_with_llm(item, matched, llm_client, config)
+        result = _classify_with_llm(
+            item, matched, item_recent, llm_client, config
+        )
 
-        if not classifications:
+        if not result:
             tracked_map[fetch_id] = TrackedItem(
                 **item.model_dump(), story_status="new"
             )
             status_counts["new"] += 1
             continue
 
-        # Determine overall status: development > continuation > new
-        statuses = [c.get("status", "new") for c in classifications]
+        overall = result.get("overall_status", "new")
+        per_historical = result.get("per_historical", []) or []
 
-        if "development" in statuses:
-            dev_notes = [
-                c.get("development_note")
-                for c in classifications
-                if c.get("status") == "development" and c.get("development_note")
-            ]
-            timeline = _build_timeline(fetch_id, matched, classifications)
+        if overall == "development":
+            timeline = _build_timeline(fetch_id, matched, per_historical)
             tracked_map[fetch_id] = TrackedItem(
                 **item.model_dump(),
                 story_status="development",
                 story_timeline=timeline,
-                development_note=dev_notes[0] if dev_notes else None,
+                development_note=result.get("development_note"),
             )
             status_counts["development"] += 1
-        elif "continuation" in statuses and all(s in ("continuation", "new") for s in statuses):
-            # If all matches are continuation (no new info), mark as continuation
-            # and set included=False
+        elif overall == "continuation":
             tracked_item = TrackedItem(
                 **item.model_dump(),
                 story_status="continuation",

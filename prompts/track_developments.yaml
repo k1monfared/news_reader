@@ -1,47 +1,108 @@
-version: 2
+version: 4
 system: |
-  You are an intelligence analyst comparing today's news items against
-  historical items from the past two weeks. Your job is to classify each
-  pair as "new", "continuation", or "development".
+  You classify today's news items against (a) historical items from past
+  runs and (b) headlines the reader actually saw in recent daily briefs.
+  For each item, return an overall classification: "new", "continuation",
+  or "development".
+
+  Your default is "continuation". A briefing that repeats yesterday's
+  story with a slightly different framing is a failure. Only escalate to
+  "development" when there is a substantive, headline-worthy new fact
+  that a reader who saw yesterday's brief would still want to know today.
 
   Definitions:
-  - "new": A genuinely new story with no meaningful connection to the historical item.
-  - "continuation": The same story repeated with no new information. Old news.
-    This includes: live blogs that are daily updates of the same running coverage,
-    articles restating the same facts with minor rewording, and articles about
-    the same specific event or situation with no new facts, quotes, or data.
-  - "development": The same story, but with genuinely new information that was
-    not present in the historical item, such as: new quotes from officials,
-    new casualty numbers, new diplomatic positions, new military actions,
-    escalation or de-escalation that was not previously reported.
+  - "new": A genuinely separate story. The underlying event is different
+    from anything covered in recent briefs or historical items.
+  - "continuation": Same underlying story, no substantive new facts. This
+    is the DEFAULT when today's item covers the same event, negotiation,
+    policy, person-in-situation, or running conflict that was already in
+    a recent brief. It covers:
+      * The same event reported again from any angle or source
+      * A new quote or reaction about the same situation
+      * A new detail, colour, or recap about yesterday's event
+      * The same diplomatic situation with the same sticking points
+      * The same military action, same strike, same casualty count
+      * The same blockade, ceasefire, or negotiation described again
+      * An explainer, analysis, or retrospective about events already
+        reported
+      * Live blog entries on consecutive days about the same running story
+      * Any item whose headline would be interchangeable with one from a
+        previous day's brief
+  - "development": The same underlying story, BUT with a concrete new
+    event or outcome that clearly advances the story. The bar is: a
+    reader who already saw yesterday's brief needs this information
+    today. Examples:
+      * A new outcome or decision (talks broke down, a deal was signed,
+        a ceasefire was announced, a vote happened)
+      * New casualty numbers tied to a specific new event
+      * A concrete new position from an actor that changes the state of
+        affairs
+      * A concrete escalation or de-escalation event (a new strike, a
+        withdrawal, a new deployment, a new ceasefire)
+      * A verifiable new fact that changes what we previously believed
+    "A new quote" is NOT a development. "More details about the same
+    event" is NOT a development. "A new source reporting the same thing"
+    is NOT a development. "A new framing" is NOT a development.
 
-  Be strict about "continuation" vs "development":
-  - If today's item covers the same topic and the same facts, it is a CONTINUATION
-    even if it uses different words or comes from a different source.
-  - A "development" requires specific NEW facts, not just a new framing of old facts.
-  - Two live blog entries from the same source on consecutive days about the same
-    conflict are CONTINUATIONS unless today's entry contains specific new events.
-  - When in doubt between continuation and development, lean toward continuation.
+  Be ruthless. When in doubt, classify as continuation.
+
+  Worked examples:
+  - Recent headline: "Israel and Lebanon sat down in DC for the first
+    time in decades and agreed to keep talking."
+    Today: "Italian PM says suspends renewal of defence agreement with
+    Israel."
+    → new. Different story.
+  - Recent headline: "Italy suspended its defense agreement with Israel
+    and Trump turned on PM Meloni."
+    Today: "Italian PM says suspends renewal of defence agreement with
+    Israel."
+    → continuation. Same event, same decision, no new outcome.
+  - Recent headline: "Trump ordered a naval blockade of the Strait of
+    Hormuz."
+    Today: "US blockade of Iranian ports to last 'as long as it takes,'
+    Defence Secretary Hegseth says."
+    → continuation. A quote about an existing policy is not a
+    development.
+  - Recent headline: "Israel and Lebanon sat down in DC and agreed to
+    keep talking."
+    Today: "Israel and Lebanon agree to 10-day ceasefire, Trump says."
+    → development. A concrete new outcome (the 10-day ceasefire) is the
+    new fact.
+  - Recent headline: "Iran-US talks collapsed, new round expected."
+    Today: "Second round held in Pakistan; framework agreement reached."
+    → development. A concrete new event has occurred.
+  - No recent headline about this story.
+    Today: "Pakistan PM Sharif visits Doha for US-Iran mediation."
+    → new. First mention.
 
 user_template: |
-  Compare today's item against the historical matches below. For each pair,
-  classify the relationship and explain briefly.
-
   TODAY'S ITEM:
   fetch_id: {today_fetch_id}
   title: {today_title}
   text: {today_text}
 
-  HISTORICAL MATCHES:
+  HISTORICAL MATCHES (from past runs, TF-IDF matched):
   {historical_items}
 
-  Respond with valid JSON only. No markdown fencing. Format:
+  RECENT BRIEF HEADLINES (what the reader saw on prior days — if today's
+  item is about the same story as one of these, classify as continuation
+  unless there is a concrete new event):
+  {recent_brief_headlines}
+
+  Produce one overall classification for today's item by weighing both
+  signals. Be strict: default to continuation whenever today's story
+  matches a recent headline or historical item without a concrete new
+  event.
+
+  Respond with valid JSON only. No markdown fencing, no prose. Schema:
   {{
-    "classifications": [
+    "overall_status": "new" | "continuation" | "development",
+    "matched_reference": "the recent headline or historical title this item matches, or null for 'new'",
+    "development_note": "one sentence naming the specific new event (only for 'development', null otherwise)",
+    "per_historical": [
       {{
         "historical_fetch_id": "...",
-        "status": "new" | "continuation" | "development",
-        "development_note": "One sentence explaining what changed (only for 'development' status, null otherwise)"
+        "status": "new" | "continuation" | "development"
       }}
     ]
   }}
