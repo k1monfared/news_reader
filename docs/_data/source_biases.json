@@ -446,6 +446,46 @@
         "example_text": "Hockey took centre stage in Ottawa on Tuesday as Canadian Prime Minister Mark Carney and Finnish President Alexander Stubb joined local players on the ice, combining sport with diplomacy during Stubb's first official visit to Canada.",
         "example_url": "http://www.euronews.com/video/2026/04/16/canadas-mark-carney-finlands-alexander-stubb-play-hockey",
         "unbiased_text": "Canadian Prime Minister Mark Carney and Finnish President Alexander Stubb played hockey with local players in Ottawa during Stubb's official visit to Canada."
+      },
+      {
+        "pattern": "Clarification as confusion narrative",
+        "detail": "Framing official clarifications as evidence of prior confusion or incompetence rather than routine communication.",
+        "debias": "Report clarifications neutrally without implying they represent correction of error unless substantiated.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "A US general had to clarify that the US military is only blockading Iranian ports, not the entire Strait of Hormuz.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/16/us-general-clarifies-iranian-ports-under-blockade-not-strait-of-hormuz?traffic_source=rss",
+        "unbiased_text": "A US general stated that the US military is blockading Iranian ports, not the entire Strait of Hormuz."
+      },
+      {
+        "pattern": "Displacement milestone omission framing",
+        "detail": "Emphasizing military developments while omitting context about returning populations or stabilization efforts.",
+        "debias": "Include information about population movements and stabilization alongside military developments.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Final convoy of US soldiers and equipment departs Qasrak air base in the northeastern governorate of Hasakah.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/16/syria-takes-control-of-all-bases-where-us-forces-were-deployed?traffic_source=rss",
+        "unbiased_text": "The final convoy of US soldiers and equipment departed Qasrak air base in the northeastern governorate of Hasakah, completing the US withdrawal from Syria."
+      },
+      {
+        "pattern": "Swarm phenomenon threat amplification",
+        "detail": "Presenting unusual but non-conflict natural phenomena as newsworthy threats during wartime.",
+        "debias": "Evaluate whether natural phenomena merit coverage based on actual impact rather than symbolic connection to conflict.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Residents in Israel have been documenting thousands of bees swarming the southern city of Netivot.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/16/thousands-of-bees-swarm-southern-israel?traffic_source=rss",
+        "unbiased_text": "Thousands of bees swarmed the southern Israeli city of Netivot, a natural phenomenon documented by residents."
+      },
+      {
+        "pattern": "Defense industry beneficiary war causation",
+        "detail": "Attributing defense industry growth primarily to conflict rather than multiple economic and strategic factors.",
+        "debias": "Acknowledge multiple factors driving defense industry growth including long-term planning and regional competition.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Turkiye has rapidly expanded its defence industry to become a leading global missile exporter amid rising conflict.",
+        "example_url": "https://www.aljazeera.com/economy/2026/4/16/turkiyes-roketsan-eyes-top-10-exporter-rank-amid-middle-east-conflict?traffic_source=rss",
+        "unbiased_text": "Turkiye has rapidly expanded its defence industry to become a leading global missile exporter, driven by technological advancement and regional demand."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -900,6 +940,26 @@
         "example_text": "The ​Lebanese government made ​it clear during U.S.-brokered talks ​with ‌Israel ⁠that ‌they no longer want to ⁠be \"occupied\" by Hezbollah",
         "example_url": "https://www.france24.com/en/israel-lebanon-united-in-liberating-lebanon-from-hezbollah-israeli-ambassador-to-us-says",
         "unbiased_text": "The Lebanese government indicated during U.S.-brokered talks with Israel that they want Hezbollah to reduce its military presence"
+      },
+      {
+        "pattern": "Hybrid actor sovereignty confusion assertion",
+        "detail": "Characterizing negotiations as complicated by non-state actors while implicitly legitimizing those actors as parallel authorities.",
+        "debias": "Clearly distinguish between recognized state authorities and non-state actors without blurring sovereignty lines.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "The central issue is that Israel is not confronting the Lebanese state, but rather Hezbollah, a hybrid political and militant group.",
+        "example_url": "https://www.france24.com/en/video/20260415-ambassadors-meet-for-historic-talks-in-us-amid-deeply-fraught-lebanon-israel-tensions-1",
+        "unbiased_text": "A key challenge is that Hezbollah, designated as a terrorist organization by multiple countries, operates within Lebanon despite not representing the Lebanese state."
+      },
+      {
+        "pattern": "Diplomatic futility preemptive framing",
+        "detail": "Describing peace talks as limited or symbolic before they occur or before outcomes are known.",
+        "debias": "Report on diplomatic efforts without prejudging their effectiveness or characterizing them as performative.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Israeli-Lebanese negotiations 'largely symbolic and performative', Middle East expert says",
+        "example_url": "https://www.france24.com/en/israeli-lebanese-negotiations-largely-symbolic-and-performative-middle-east-expert-says",
+        "unbiased_text": "Middle East expert assesses Israeli-Lebanese negotiations as they begin in Washington."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -1419,13 +1479,33 @@
       },
       {
         "pattern": "AI cognitive harm immediate quantification",
-        "detail": "Presenting short-term study results on AI use as demonstrating rapid measurable intellectual damage.",
-        "debias": "Report AI impact studies with appropriate caveats about study design, duration, and generalizability of findings.",
+        "detail": "Presenting short-term study results on AI use as demonstrating rapid measurable intellectual damage. Also: Already in existing biases list - should not be duplicated.",
+        "debias": "Report AI impact studies with appropriate caveats about study design, duration, and generalizability of findings. N/A",
         "date_added": "2026-04-16",
         "status": "suggested",
         "example_text": "Using AI for basic tasks damages a person's intellect in just 10 minutes, study shows",
         "example_url": "http://www.euronews.com/next/2026/04/16/using-ai-for-basic-tasks-damages-a-persons-intellect-in-just-10-minutes-study-shows",
         "unbiased_text": "A study found participants using AI for basic tasks performed worse on subsequent tests than those who did not use AI"
+      },
+      {
+        "pattern": "Litigation guilt institutional presumption",
+        "detail": "Treating court guilty verdicts of corporations as vindication of broader systemic accusations without noting legal nuances.",
+        "debias": "Report verdicts accurately while distinguishing between specific charges and broader claims about corporate behavior.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "​A Paris court ​on Monday found cement maker Lafarge, now owned by Switzerland's Holcim, guilty ​of ‌paying the Islamic State group and other jihadists to ⁠keep a plant operating in northern Syria ​during the country's ‌civil war.",
+        "example_url": "https://www.france24.com/en/middle-east/20260413-french-cement-maker-lafarge-found-guilty-of-financing-jihadists-in-syria",
+        "unbiased_text": "A Paris court found cement maker Lafarge guilty of making payments that benefited the Islamic State group and other armed groups to maintain operations at a plant in northern Syria during the civil war."
+      },
+      {
+        "pattern": "Resource depletion deadline sensationalism",
+        "detail": "Presenting finite timeframes for resource exhaustion as crisis countdowns without context about mitigation efforts or alternatives.",
+        "debias": "Include information about contingency planning, alternative sources, and industry responses alongside shortage timelines.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Europe has six weeks of jet fuel left caused by 'dire strait' crisis, IEA chief warns",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/16/europe-has-six-weeks-of-jet-fuel-left-caused-by-dire-strait-crisis-iea-chief-warns",
+        "unbiased_text": "IEA chief warns Europe faces potential jet fuel shortages within six weeks if Strait of Hormuz disruptions continue, though industry is exploring alternative supply routes and conservation measures."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
