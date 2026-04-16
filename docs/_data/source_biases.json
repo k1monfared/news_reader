@@ -486,6 +486,26 @@
         "example_text": "Turkiye has rapidly expanded its defence industry to become a leading global missile exporter amid rising conflict.",
         "example_url": "https://www.aljazeera.com/economy/2026/4/16/turkiyes-roketsan-eyes-top-10-exporter-rank-amid-middle-east-conflict?traffic_source=rss",
         "unbiased_text": "Turkiye has rapidly expanded its defence industry to become a leading global missile exporter, driven by technological advancement and regional demand."
+      },
+      {
+        "pattern": "Democratic dissent elevation framing",
+        "detail": "Framing bipartisan or cross-ideological congressional opposition to executive power as a unified resistance movement rather than routine legislative oversight.",
+        "debias": "Report legislative votes on their merits without amplifying the political theater or resistance narrative.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Lawmakers who represent  leftward and rightward flanks of their parties call for reform after Congress members resign.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/16/aoc-boebert-join-calls-for-sexual-misconduct-accountability-in-congress?traffic_source=rss",
+        "unbiased_text": "Lawmakers from both parties have called for reform following resignations of Congress members."
+      },
+      {
+        "pattern": "Blockade terminology asymmetry",
+        "detail": "Using aggressive terms like 'blockade' and 'energy blockade threats' for U.S. actions while using softer language for similar actions by other parties.",
+        "debias": "Use consistent terminology for similar military actions regardless of which party implements them.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Cuban president defiant amid US pressure and energy blockade threats",
+        "example_url": "https://www.aljazeera.com/news/2026/4/16/cuban-president-defiant-amid-us-pressure-and-energy-blockade-threats?traffic_source=rss",
+        "unbiased_text": "Cuban president responds to U.S. pressure and potential energy restrictions"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -960,6 +980,16 @@
         "example_text": "Israeli-Lebanese negotiations 'largely symbolic and performative', Middle East expert says",
         "example_url": "https://www.france24.com/en/israeli-lebanese-negotiations-largely-symbolic-and-performative-middle-east-expert-says",
         "unbiased_text": "Middle East expert assesses Israeli-Lebanese negotiations as they begin in Washington."
+      },
+      {
+        "pattern": "AI manipulation evidence framing",
+        "detail": "Emphasizing Israeli use of AI-generated images as unique misconduct without contextualizing broader AI manipulation trends in conflict zones.",
+        "debias": "Report AI manipulation incidents as part of broader information warfare patterns used by multiple parties.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "The Foreign Press Association has accused the Israeli military of discrediting a Lebanese journalist it killed in March, by using an AI-generated photo to present him as a 'Hezbollah terrorist.'",
+        "example_url": "https://www.france24.com/en/israeli-military-admit-to-posting-ai-photo-of-killed-lebanese-journalist",
+        "unbiased_text": "The Israeli military acknowledged posting an AI-altered photo of a Lebanese journalist killed in March, overlaying his press vest with military imagery."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -1506,6 +1536,43 @@
         "example_text": "Europe has six weeks of jet fuel left caused by 'dire strait' crisis, IEA chief warns",
         "example_url": "http://www.euronews.com/my-europe/2026/04/16/europe-has-six-weeks-of-jet-fuel-left-caused-by-dire-strait-crisis-iea-chief-warns",
         "unbiased_text": "IEA chief warns Europe faces potential jet fuel shortages within six weeks if Strait of Hormuz disruptions continue, though industry is exploring alternative supply routes and conservation measures."
+      },
+      {
+        "pattern": "European target vulnerability assertion",
+        "detail": "Framing release of data about European defense firms as establishing them as 'potential targets' rather than as information disclosure.",
+        "debias": "Report intelligence releases factually without presuming intent or future targeting.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Potential targets: Moscow releases data about European firms making drones for Ukraine",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/16/potential-targets-moscow-releases-data-about-european-firms-making-drones-for-ukraine",
+        "unbiased_text": "Moscow releases data about European firms producing drones for Ukraine"
+      },
+      {
+        "pattern": "Currency vindication nationalist narrative",
+        "detail": "This pattern already exists as 'Currency performance nationalist vindication' in the known biases list.",
+        "debias": "Skip - already covered.",
+        "date_added": "2026-04-16",
+        "status": "suggested"
+      },
+      {
+        "pattern": "Cognitive harm immediate attribution",
+        "detail": "Presenting preliminary study findings about AI effects on cognition as established fact with dramatic timeframes.",
+        "debias": "Report study findings with appropriate caveats about sample size, methodology, and need for replication.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Using AI for basic tasks damages a person's intellect in just 10 minutes, study shows.",
+        "example_url": "http://www.euronews.com/next/2026/04/16/using-ai-for-basic-tasks-damages-a-persons-intellect-in-just-10-minutes-study-shows",
+        "unbiased_text": "A study found participants who used AI for basic tasks performed worse than those who did not, though the long-term effects remain unclear."
+      },
+      {
+        "pattern": "Minister disappearance accountability speculation",
+        "detail": "Framing a government official's absence from public view as suspicious or accountability-avoiding rather than routine schedule changes.",
+        "debias": "Report absences from official events factually without implying wrongdoing unless evidence supports it.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Where is Szijjártó? Hungarian minister to skip EU meeting after vanishing from public view",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/16/where-is-szijjarto-hungarian-minister-to-skip-eu-meeting-after-vanishing-from-public-view",
+        "unbiased_text": "Hungarian Foreign Minister Szijjártó will not attend next week's EU Foreign Affairs Council meeting."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
