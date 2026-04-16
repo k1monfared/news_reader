@@ -8,6 +8,28 @@ kramdown:
 plugins:
   - jekyll-feed
 
+collections:
+  fa_posts:
+    output: true
+    permalink: /fa/daily-brief/:year/:month/:day/:slug:output_ext
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      lang: en
+  - scope:
+      path: ""
+      type: fa_posts
+    values:
+      lang: fa
+      layout: post
+  - scope:
+      path: "fa"
+    values:
+      lang: fa
+
 exclude:
   - Gemfile
   - Gemfile.lock

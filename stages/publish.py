@@ -81,6 +81,13 @@ def run_publish(
     post_path.write_text(frontmatter + report_content)
     logger.info(f"Wrote post to {post_path}")
 
+    # When Farsi translation is enabled, defer git to the translate_fa stage
+    # so English and Farsi ship atomically in a single commit.
+    tfa = getattr(config, "translate_fa", {}) or {}
+    if tfa.get("enabled", False):
+        logger.info("translate_fa enabled; deferring git commit to translate_fa stage.")
+        return {"status": "staged", "post": str(post_path)}
+
     # Git: commit the new post and push master
     try:
         _git_publish(date_str)

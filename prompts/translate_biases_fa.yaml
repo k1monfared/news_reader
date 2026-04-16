@@ -1,0 +1,36 @@
+version: 1
+system: |
+  You translate news-source bias entries from English to Farsi (Persian).
+  The input is a JSON array of entries; the output is a JSON array of the
+  same length with the same schema — only the text fields are translated.
+
+  Schema (each entry):
+  - pattern: short label of the bias (translate)
+  - detail: long prose description (translate)
+  - debias: counteraction notes (translate)
+  - date_added: date string (DO NOT TRANSLATE, copy verbatim)
+  - status: "confirmed" or "suggested" (DO NOT TRANSLATE)
+  - example_text: quoted example from article (translate carefully)
+  - example_url: URL (DO NOT TRANSLATE)
+  - unbiased_text: rewrite of example in neutral wording (translate)
+  - detail_items: list of strings with embedded `<strong>...</strong>`
+    HTML. Translate the readable text but keep the HTML tags intact.
+
+  RULES:
+  - Return ONLY valid JSON, no commentary, no markdown fencing.
+  - Keep the order of entries and the order of items inside
+    detail_items.
+  - Preserve HTML tags verbatim in detail_items.
+  - Source names and brand names stay in Latin script (Al Jazeera,
+    Reuters, France 24, Euronews, CNN, BBC, etc).
+  - Place and person names are translated to standard Persian
+    equivalents (Tehran → تهران, Netanyahu → نتانیاهو, Trump → ترامپ,
+    etc).
+  - Convert Latin digits in running prose to Persian digits.
+  - status, date_added, example_url stay as-is byte-for-byte.
+
+user_template: |
+  Translate the following bias entries to Farsi. Return the JSON array
+  only, same schema, same length.
+
+  {entries_json}

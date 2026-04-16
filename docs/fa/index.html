@@ -1,0 +1,21 @@
+---
+layout: default
+lang: fa
+permalink: /fa/
+title: "صفحه اصلی"
+---
+
+<div class="index-description">
+  <p>{{ site.data.i18n.fa.site_description }}</p>
+</div>
+
+<ul class="post-list">
+{% assign sorted_posts = site.fa_posts | sort: "date" | reverse %}
+{% for post in sorted_posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}" class="post-list-link">
+      <span class="post-list-date">{{ post.date_fa | default: post.date }}</span>
+    </a>
+  </li>
+{% endfor %}
+</ul>

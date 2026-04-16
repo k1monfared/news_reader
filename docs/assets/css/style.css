@@ -107,6 +107,18 @@ body {
   color: var(--link);
 }
 
+/* Language switcher — visually paired with nav links but slightly muted. */
+.site-nav a.lang-switch {
+  border: 1px solid var(--border-light);
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+  font-size: 0.82rem;
+}
+
+.site-nav a.lang-switch:hover {
+  border-color: var(--link);
+}
+
 /* ===================================
    Theme Toggle
    =================================== */

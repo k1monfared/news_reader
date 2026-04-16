@@ -22,7 +22,7 @@
     return (s.textContent || '').replace(/\s+/g, ' ').trim();
   }
 
-  function buildShareButton(absoluteUrl) {
+  function buildShareButton(absoluteUrl, label) {
     var btn = document.createElement('button');
     btn.className = 'item-share';
     btn.type = 'button';
@@ -36,7 +36,9 @@
       '<circle cx="18" cy="19" r="3"/>' +
       '<line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>' +
       '<line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>' +
-      '</svg><span class="item-share-label">Share</span>';
+      '</svg><span class="item-share-label"></span>';
+    btn.querySelector('.item-share-label').textContent = label;
+    btn.dataset.defaultLabel = label;
 
     btn.addEventListener('click', function (e) {
       e.preventDefault();
@@ -45,7 +47,7 @@
         var original = btn.querySelector('.item-share-label');
         if (!original) return;
         var prev = original.textContent;
-        original.textContent = 'Copied';
+        original.textContent = btn.dataset.copiedLabel || 'Copied';
         btn.classList.add('item-share--copied');
         setTimeout(function () {
           original.textContent = prev;
@@ -85,6 +87,9 @@
     var items = container.querySelectorAll('details');
     if (!items.length) return;
 
+    var main = document.querySelector('main');
+    var shareLabel = (main && main.dataset.shareLabel) || 'Share';
+
     var baseUrl = window.location.origin + window.location.pathname;
     var seen = Object.create(null);
 
@@ -98,7 +103,7 @@
 
       var footer = document.createElement('div');
       footer.className = 'item-share-wrap';
-      footer.appendChild(buildShareButton(baseUrl + '#' + id));
+      footer.appendChild(buildShareButton(baseUrl + '#' + id, shareLabel));
       details.appendChild(footer);
     });
 

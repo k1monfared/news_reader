@@ -249,3 +249,22 @@ paths:
   data_dir: data
   prompts_dir: prompts
   logs_dir: logs
+
+# ---------------------------------------------------------------------------
+# Farsi translation (post-publish stage)
+# ---------------------------------------------------------------------------
+# When enabled, publish skips git and translate_fa handles the atomic
+# English + Farsi commit/push. Category translations are fixed so every
+# day's Farsi brief uses the same section headers.
+translate_fa:
+  enabled: true
+  category_translations:
+    Diplomacy: دیپلماسی
+    Economy: اقتصاد
+    "US Policy": سیاست آمریکا
+    "Israel Policy": سیاست اسرائیل
+    "Military Operations": عملیات‌های نظامی
+    "Inside Iran": درون ایران
+    "Regional Actors": بازیگران منطقه‌ای
+    International: بین‌المللی
+    Other: سایر

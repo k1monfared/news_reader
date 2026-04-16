@@ -129,6 +129,7 @@ class PipelineConfig(BaseModel):
     paths: dict
     audit: dict = {}
     development_tracking: dict = {}
+    translate_fa: dict = {}
 
 
 # --- Helper ---

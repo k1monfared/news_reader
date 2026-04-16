@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+{% assign lang = page.lang | default: "en" %}
+{% assign t = site.data.i18n[lang] %}
+{% assign t_en = site.data.i18n.en %}
+{% if lang == "fa" %}{% assign dir = "rtl" %}{% else %}{% assign dir = "ltr" %}{% endif %}
+{% assign current_path = page.url %}
+{% if lang == "fa" %}
+  {% assign other_path = current_path | remove_first: "/fa" %}
+  {% if other_path == "" %}{% assign other_path = "/" %}{% endif %}
+{% else %}
+  {% assign other_path = "/fa" | append: current_path %}
+{% endif %}
+<html lang="{{ lang }}" dir="{{ dir }}" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{{ site.description }}">
+  <title>{% if page.title %}{{ page.title }} | {{ t.site_title }}{% else %}{{ t.site_title }}{% endif %}</title>
+  <meta name="description" content="{{ t.site_description }}">
   <link rel="stylesheet" href="https://k1monfared.github.io/site_kit/css/base.css">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% feed_meta %}
@@ -14,24 +25,27 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+      <a href="{% if lang == 'fa' %}{{ '/fa/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" class="site-title">{{ t.site_title }}</a>
       <nav class="site-nav">
-        <a href="{{ '/about/' | relative_url }}">About</a>
-        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <a href="{% if lang == 'fa' %}{{ '/fa/about/' | relative_url }}{% else %}{{ '/about/' | relative_url }}{% endif %}">{{ t.nav_about }}</a>
+        {% if lang == "en" %}
+        <a href="{{ '/feed.xml' | relative_url }}">{{ t.nav_rss }}</a>
+        {% endif %}
+        <a href="{{ other_path | relative_url }}" class="lang-switch" aria-label="{{ t.nav_switch_lang_aria }}">{{ t.nav_switch_lang }}</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="{{ t.theme_toggle_aria }}">
           <span class="theme-icon"></span>
         </button>
       </nav>
     </div>
   </header>
 
-  <main class="container">
+  <main class="container" data-share-label="{{ t.item_share }}">
     {{ content }}
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ t.footer_copyright_suffix }}</p>
     </div>
   </footer>
 </body>

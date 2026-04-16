@@ -1,14 +1,30 @@
 ---
 layout: default
 ---
+{% assign lang = page.lang | default: "en" %}
+{% assign t = site.data.i18n[lang] %}
+{% if lang == "fa" %}
+  {% assign sorted = site.fa_posts | sort: "date" %}
+{% else %}
+  {% assign sorted = site.posts | sort: "date" %}
+{% endif %}
+{% assign current_index = nil %}
+{% for p in sorted %}{% if p.url == page.url %}{% assign current_index = forloop.index0 %}{% endif %}{% endfor %}
+{% assign prev_post = nil %}
+{% assign next_post = nil %}
+{% if current_index %}
+  {% if current_index > 0 %}{% assign prev_post = sorted[current_index | minus: 1] %}{% endif %}
+  {% assign next_i = current_index | plus: 1 %}
+  {% if next_i < sorted.size %}{% assign next_post = sorted[next_i] %}{% endif %}
+{% endif %}
 <article class="post">
   <header class="post-header">
     <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">
-      {{ page.date | date: "%B %d, %Y" }}
+      {% if lang == "fa" and page.date_fa %}{{ page.date_fa }}{% else %}{{ page.date | date: "%B %d, %Y" }}{% endif %}
     </time>
     {% if page.sources_down.size > 0 %}
     <p class="sources-down">
-      <strong>Note:</strong> The following sources were unreachable for this report:
+      <strong>{{ t.post_note_label }}</strong> {{ t.post_sources_down_intro }}
       {{ page.sources_down | join: ", " }}
     </p>
     {% endif %}
@@ -20,21 +36,21 @@ layout: default
 
   {% if page.generated_at %}
   <footer class="post-footer">
-    <span class="post-generated">Generated {{ page.generated_at }}</span>
+    <span class="post-generated">{{ t.post_generated }} {{ page.generated_at }}</span>
   </footer>
   {% endif %}
 
   <nav class="post-nav">
-    {% if page.previous.url %}
-    <a href="{{ page.previous.url | relative_url }}" class="post-nav-prev">
-      <span class="post-nav-label">Previous</span>
-      <span class="post-nav-title">{{ page.previous.date | date: "%B %d, %Y" }}</span>
+    {% if prev_post %}
+    <a href="{{ prev_post.url | relative_url }}" class="post-nav-prev">
+      <span class="post-nav-label">{{ t.post_prev }}</span>
+      <span class="post-nav-title">{% if lang == "fa" and prev_post.date_fa %}{{ prev_post.date_fa }}{% else %}{{ prev_post.date | date: "%B %d, %Y" }}{% endif %}</span>
     </a>
     {% endif %}
-    {% if page.next.url %}
-    <a href="{{ page.next.url | relative_url }}" class="post-nav-next">
-      <span class="post-nav-label">Next</span>
-      <span class="post-nav-title">{{ page.next.date | date: "%B %d, %Y" }}</span>
+    {% if next_post %}
+    <a href="{{ next_post.url | relative_url }}" class="post-nav-next">
+      <span class="post-nav-label">{{ t.post_next }}</span>
+      <span class="post-nav-title">{% if lang == "fa" and next_post.date_fa %}{{ next_post.date_fa }}{% else %}{{ next_post.date | date: "%B %d, %Y" }}{% endif %}</span>
     </a>
     {% endif %}
   </nav>

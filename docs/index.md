@@ -1,11 +1,10 @@
 ---
 layout: default
+lang: en
 ---
 
-<div class="index-description" markdown="1">
-
-Automated daily intelligence digest covering the US-Israel war on Iran. Tracks military operations, diplomacy, economic impacts, and regional developments from multiple sources with different perspectives.
-
+<div class="index-description">
+  <p>{{ site.data.i18n.en.site_description }}</p>
 </div>
 
 <ul class="post-list">
