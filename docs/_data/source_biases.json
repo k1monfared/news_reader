@@ -416,6 +416,36 @@
         "example_text": "Life expectancy on the front line for Central Asian migrants forced to fight for Russia in Ukraine is just four months.",
         "example_url": "https://www.aljazeera.com/features/2026/4/16/sent-to-be-killed-how-russia-forces-migrants-to-fight-in-ukraine?traffic_source=rss",
         "unbiased_text": "Central Asian migrants coerced into fighting for Russia in Ukraine face high casualty rates, with some reports suggesting four-month survival periods on the front line."
+      },
+      {
+        "pattern": "Territorial withdrawal completion emphasis",
+        "detail": "Highlighting the complete withdrawal of foreign military forces as a definitive endpoint using territorial control language.",
+        "debias": "Report military withdrawals as operational changes without implying finality or emphasizing territorial control completion.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Syria takes control of all bases where US forces were deployed",
+        "example_url": "https://www.aljazeera.com/news/2026/4/16/syria-takes-control-of-all-bases-where-us-forces-were-deployed?traffic_source=rss",
+        "unbiased_text": "US forces complete withdrawal from Syrian bases"
+      },
+      {
+        "pattern": "Non-Western defense industry ascendancy narrative",
+        "detail": "Framing non-Western countries' defense industry growth as rising amid conflict, suggesting conflict-driven success.",
+        "debias": "Report defense industry developments with economic context rather than conflict-enablement framing.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Turkiye has rapidly expanded its defence industry to become a leading global missile exporter amid rising conflict.",
+        "example_url": "https://www.aljazeera.com/economy/2026/4/16/turkiyes-roketsan-eyes-top-10-exporter-rank-amid-middle-east-conflict?traffic_source=rss",
+        "unbiased_text": "Turkiye has expanded its defence industry to become a leading global missile exporter."
+      },
+      {
+        "pattern": "Athlete-official sport diplomacy equivalence",
+        "detail": "Presenting sports interactions between officials as noteworthy diplomatic moments on par with formal negotiations.",
+        "debias": "Report sports activities by officials as ceremonial events separate from policy discussions.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Hockey took centre stage in Ottawa on Tuesday as Canadian Prime Minister Mark Carney and Finnish President Alexander Stubb joined local players on the ice, combining sport with diplomacy during Stubb's first official visit to Canada.",
+        "example_url": "http://www.euronews.com/video/2026/04/16/canadas-mark-carney-finlands-alexander-stubb-play-hockey",
+        "unbiased_text": "Canadian Prime Minister Mark Carney and Finnish President Alexander Stubb played hockey with local players in Ottawa during Stubb's official visit to Canada."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -860,6 +890,16 @@
         "example_text": "Israel is \"heading to apartheid\" unless it divides the land with the Palestinians.",
         "example_url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260415-if-we-don-t-divide-the-land-we-re-heading-to-apartheid-ex-head-of-israel-s-shin-bet",
         "unbiased_text": "Former Shin Bet head Ami Ayalon argued that without a land division agreement with Palestinians, Israel risks creating an apartheid-like system."
+      },
+      {
+        "pattern": "Hostile actor geographic embeddedness assertion",
+        "detail": "Characterizing militant groups as occupying state territory through framing language suggesting foreign occupation parallels.",
+        "debias": "Describe armed groups' territorial presence without occupation language that conflates them with foreign invaders.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "The ​Lebanese government made ​it clear during U.S.-brokered talks ​with ‌Israel ⁠that ‌they no longer want to ⁠be \"occupied\" by Hezbollah",
+        "example_url": "https://www.france24.com/en/israel-lebanon-united-in-liberating-lebanon-from-hezbollah-israeli-ambassador-to-us-says",
+        "unbiased_text": "The Lebanese government indicated during U.S.-brokered talks with Israel that they want Hezbollah to reduce its military presence"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -1356,6 +1396,36 @@
         "example_text": "Top 10 currencies in 2026 include Hungarian forint: Why they're beating the US dollar",
         "example_url": "http://www.euronews.com/business/2026/04/16/top-10-currencies-in-2026-include-hungarian-forint-why-theyre-beating-the-us-dollar",
         "unbiased_text": "The Hungarian forint is among currencies appreciating against the US dollar in 2026, driven by interest rate differentials and regional economic factors."
+      },
+      {
+        "pattern": "Strategic resource depletion countdown",
+        "detail": "Quantifying remaining time until critical resource exhaustion to create urgency around geopolitical crisis impacts.",
+        "debias": "Report resource supply constraints with current status rather than countdown-to-depletion framing.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Europe has six weeks of jet fuel left caused by 'dire strait' crisis, IEA chief warns",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/16/europe-has-six-weeks-of-jet-fuel-left-caused-by-dire-strait-crisis-iea-chief-warns",
+        "unbiased_text": "Europe's jet fuel supplies are being affected by reduced tanker traffic through the Strait of Hormuz, IEA chief says"
+      },
+      {
+        "pattern": "Missing official accountability speculation",
+        "detail": "Using official's public absence to insinuate avoidance of accountability through conspiratorial framing.",
+        "debias": "Report official absences from scheduled events factually without speculating about motives or wrongdoing.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Where is Szijjártó? Hungarian minister to skip EU meeting after vanishing from public view",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/16/where-is-szijjarto-hungarian-minister-to-skip-eu-meeting-after-vanishing-from-public-view",
+        "unbiased_text": "Hungarian Foreign Minister Szijjártó will not attend next week's EU Foreign Affairs Council meeting"
+      },
+      {
+        "pattern": "AI cognitive harm immediate quantification",
+        "detail": "Presenting short-term study results on AI use as demonstrating rapid measurable intellectual damage.",
+        "debias": "Report AI impact studies with appropriate caveats about study design, duration, and generalizability of findings.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Using AI for basic tasks damages a person's intellect in just 10 minutes, study shows",
+        "example_url": "http://www.euronews.com/next/2026/04/16/using-ai-for-basic-tasks-damages-a-persons-intellect-in-just-10-minutes-study-shows",
+        "unbiased_text": "A study found participants using AI for basic tasks performed worse on subsequent tests than those who did not use AI"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
