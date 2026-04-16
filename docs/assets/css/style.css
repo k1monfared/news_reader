@@ -57,7 +57,13 @@ body {
    Header
    =================================== */
 
+/* The upstream site_kit makes every <header> sticky with z-index 100.
+   We want only the post-date to stick on an article page. Site-header
+   scrolling away also fixes a mobile bug: when it wrapped to two rows,
+   the post-header (shorter) only covered the top row, leaving the
+   About/RSS row visible behind the date. */
 .site-header {
+  position: static;
   border-bottom: 1px solid var(--border);
   padding: 1.25rem 0;
   background-color: var(--header-bg);
@@ -331,6 +337,49 @@ main {
 
 .post-content details > p:last-child {
   padding-bottom: 0.75rem;
+}
+
+/* ===================================
+   Per-item share button (inside each <details>)
+   =================================== */
+
+.post-content details .item-share-wrap {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.15rem 0.6rem 0.7rem;
+}
+
+.post-content details .item-share {
+  background: transparent;
+  border: 1px solid var(--border-light);
+  border-radius: 999px;
+  color: var(--text-muted);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  line-height: 1;
+  padding: 0.3rem 0.7rem;
+  transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+}
+
+.post-content details .item-share:hover,
+.post-content details .item-share:focus-visible {
+  border-color: var(--link);
+  color: var(--link);
+  outline: none;
+}
+
+.post-content details .item-share--copied {
+  border-color: var(--link);
+  color: var(--link);
+  background: var(--code-bg);
+}
+
+/* Briefly flash the anchored item when scrolled to via a share link. */
+.post-content details:target {
+  border-left-color: var(--link);
 }
 
 /* ===================================
@@ -742,17 +791,23 @@ main {
     padding: 0 0.6rem;
   }
 
+  /* Keep prev/next on opposite sides even on narrow screens. A single
+     missing neighbour (e.g. no next post) must still leave the other
+     pinned to its side, which margin-auto handles. */
   .post-nav {
-    flex-direction: column;
-    gap: 0.75rem;
+    flex-direction: row;
+    gap: 0.5rem;
   }
 
   .post-nav a {
-    max-width: 100%;
+    max-width: 48%;
+  }
+
+  .post-nav-prev {
+    margin-right: auto;
   }
 
   .post-nav-next {
-    align-items: flex-start;
-    margin-left: 0;
+    margin-left: auto;
   }
 }
