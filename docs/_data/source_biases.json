@@ -396,6 +396,26 @@
         "example_text": "Israel's ambassador held talks with his Lebanese counterpart. But critics say Yechiel Leiter is a problematic negotiator",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/15/what-you-need-to-know-about-israels-ambassador-to-the-us?traffic_source=rss",
         "unbiased_text": "Israel's ambassador Yechiel Leiter held talks with his Lebanese counterpart. Some observers have raised questions about his settler background and its potential impact on negotiations."
+      },
+      {
+        "pattern": "Vulnerability equivalence erasure framing",
+        "detail": "Framing legal migration status as conferring similar vulnerability to trafficking as illegal status, erasing distinctions between legal protections and illegal exploitation.",
+        "debias": "Distinguish between legal migration with inadequate protections and trafficking of undocumented persons, noting different policy solutions.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Debt, employer control and temporary visa rules can leave migrant workers trapped.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/4/16/legal-migrants-remain-vulnerable-to-trafficking?traffic_source=rss",
+        "unbiased_text": "Some legal migrant workers face debt bondage and employer control due to temporary visa restrictions that limit their ability to change employers."
+      },
+      {
+        "pattern": "Forced combatant victimhood universalization",
+        "detail": "Presenting migrants coerced into military service as universal victims without distinguishing voluntary military service or noting recruitment methods.",
+        "debias": "Specify the coercion mechanisms used and avoid implying all foreign fighters are equally coerced.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Life expectancy on the front line for Central Asian migrants forced to fight for Russia in Ukraine is just four months.",
+        "example_url": "https://www.aljazeera.com/features/2026/4/16/sent-to-be-killed-how-russia-forces-migrants-to-fight-in-ukraine?traffic_source=rss",
+        "unbiased_text": "Central Asian migrants coerced into fighting for Russia in Ukraine face high casualty rates, with some reports suggesting four-month survival periods on the front line."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -820,6 +840,26 @@
         "example_text": "Israel, Lebanon united in liberating Lebanon from Hezbollah, Israeli ambassador to US says",
         "example_url": "https://www.france24.com/en/israel-lebanon-united-in-liberating-lebanon-from-hezbollah-israeli-ambassador-to-us-says",
         "unbiased_text": "Israel's ambassador to the US stated that Lebanese officials expressed opposition to Hezbollah's influence, though Lebanon has not publicly endorsed Israeli military objectives or terminology regarding Hezbollah."
+      },
+      {
+        "pattern": "Magazine cover controversy amplification",
+        "detail": "Elevating diplomatic social media disputes over editorial choices to major news stories, amplifying controversy beyond its significance.",
+        "debias": "Report magazine covers as editorial decisions without disproportionate focus on diplomatic Twitter reactions.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Prominent left-leaning Italian weekly L'Espresso is at the centre of a diplomatic storm online, after the Israeli ambassador to Italy slammed its choice of front cover as \"manipulative\".",
+        "example_url": "https://www.france24.com/en/l-abuso-real-italian-magazine-cover-of-israeli-settler-sparks-online-storm",
+        "unbiased_text": "Italian weekly L'Espresso featured an armed Israeli settler on its cover, prompting criticism from Israel's ambassador to Italy."
+      },
+      {
+        "pattern": "Apartheid inevitability conditional framing",
+        "detail": "Presenting apartheid as an inevitable outcome contingent on specific policy failures, using authoritative sources to frame political preferences as predictions.",
+        "debias": "Report political opinions about potential outcomes as viewpoints rather than conditional certainties.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Israel is \"heading to apartheid\" unless it divides the land with the Palestinians.",
+        "example_url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260415-if-we-don-t-divide-the-land-we-re-heading-to-apartheid-ex-head-of-israel-s-shin-bet",
+        "unbiased_text": "Former Shin Bet head Ami Ayalon argued that without a land division agreement with Palestinians, Israel risks creating an apartheid-like system."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -1286,6 +1326,36 @@
         "example_text": "Pedro Sánchez is positioning himself as the ultimate progressive hero, famously defying Donald Trump over the war in Iran. But at home, the Spanish prime minister is fighting a massive wave of domestic corruption scandals.",
         "example_url": "http://www.euronews.com/my-europe/2026/04/15/watch-shadows-over-spain-will-corruption-topple-sanchez",
         "unbiased_text": "Spanish Prime Minister Pedro Sánchez has opposed US policy on Iran while facing multiple corruption investigations involving his administration domestically."
+      },
+      {
+        "pattern": "Jet fuel crisis deadline countdown",
+        "detail": "Emphasizing specific short-term depletion timelines for critical resources to heighten urgency and crisis perception.",
+        "debias": "Report supply concerns with context on reserve levels, alternative sources, and industry contingency planning.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Europe has six weeks of jet fuel left caused by 'dire strait' crisis, IEA chief warns",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/16/europe-has-six-weeks-of-jet-fuel-left-caused-by-dire-strait-crisis-iea-chief-warns",
+        "unbiased_text": "The IEA chief warned that Europe's jet fuel reserves are limited due to reduced tanker traffic through the Strait of Hormuz, with some estimates suggesting current consumption rates could deplete stocks within six weeks without resupply."
+      },
+      {
+        "pattern": "Document destruction post-election timing insinuation",
+        "detail": "Highlighting document destruction following electoral defeats with temporal proximity suggesting evidence concealment without direct allegation.",
+        "debias": "Report document destruction allegations with specific evidence and avoid implying guilt through timing alone.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "He faces accusations of sharing classified information with Russia and destroying sensitive documents.",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/16/where-is-szijjarto-hungarian-minister-to-skip-eu-meeting-after-vanishing-from-public-view",
+        "unbiased_text": "Szijjártó faces allegations of sharing classified information with Russia and destroying documents, according to opposition claims that have not been independently verified."
+      },
+      {
+        "pattern": "Currency performance nationalist vindication",
+        "detail": "Framing strong currency performance of politically controversial states as validation or ironic success amid international criticism.",
+        "debias": "Report currency movements with economic fundamentals rather than political narrative framing.",
+        "date_added": "2026-04-16",
+        "status": "suggested",
+        "example_text": "Top 10 currencies in 2026 include Hungarian forint: Why they're beating the US dollar",
+        "example_url": "http://www.euronews.com/business/2026/04/16/top-10-currencies-in-2026-include-hungarian-forint-why-theyre-beating-the-us-dollar",
+        "unbiased_text": "The Hungarian forint is among currencies appreciating against the US dollar in 2026, driven by interest rate differentials and regional economic factors."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
