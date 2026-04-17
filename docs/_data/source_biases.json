@@ -506,6 +506,26 @@
         "example_text": "Cuban president defiant amid US pressure and energy blockade threats",
         "example_url": "https://www.aljazeera.com/news/2026/4/16/cuban-president-defiant-amid-us-pressure-and-energy-blockade-threats?traffic_source=rss",
         "unbiased_text": "Cuban president responds to U.S. pressure and potential energy restrictions"
+      },
+      {
+        "pattern": "Temporal framing through competing clocks",
+        "detail": "Framing conflicts as contests between different timelines with predetermined winners and losers based on whose clock runs out first.",
+        "debias": "Present competing interests and timeframes without suggesting predetermined outcomes or inevitabilities.",
+        "date_added": "2026-04-17",
+        "status": "suggested",
+        "example_text": "Trump is racing against the midterms, Iran is betting on endurance, and Netanyahu needs a war with no end.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/4/17/the-three-clocks-of-the-iran-war?traffic_source=rss",
+        "unbiased_text": "Trump faces domestic political considerations including midterm elections, Iran has indicated it can sustain a prolonged conflict, and Netanyahu's government has not specified an endpoint for military operations."
+      },
+      {
+        "pattern": "Sport politicization through coaching dismissal",
+        "detail": "Framing routine sports personnel changes as politically significant by highlighting timing relative to major tournaments.",
+        "debias": "Report coaching changes as standard sports news without implying broader political significance unless explicitly stated.",
+        "date_added": "2026-04-17",
+        "status": "suggested",
+        "example_text": "Frenchman Herve Renard, who won AFCON with Zambia and Ivory Coast, departs Saudi role despite World Cup qualification.",
+        "example_url": "https://www.aljazeera.com/sports/2026/4/17/saudi-arabia-sack-coach-herve-renard-ahead-of-fifa-world-cup-2026?traffic_source=rss",
+        "unbiased_text": "Saudi Arabia has dismissed coach Herve Renard, who previously won the Africa Cup of Nations with Zambia and Ivory Coast. The team has already qualified for the 2026 World Cup."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -990,6 +1010,26 @@
         "example_text": "The Foreign Press Association has accused the Israeli military of discrediting a Lebanese journalist it killed in March, by using an AI-generated photo to present him as a 'Hezbollah terrorist.'",
         "example_url": "https://www.france24.com/en/israeli-military-admit-to-posting-ai-photo-of-killed-lebanese-journalist",
         "unbiased_text": "The Israeli military acknowledged posting an AI-altered photo of a Lebanese journalist killed in March, overlaying his press vest with military imagery."
+      },
+      {
+        "pattern": "Ceasefire violation quantification asymmetry",
+        "detail": "Emphasizing counts of alleged ceasefire violations by one party while presenting the ceasefire announcement as a diplomatic achievement.",
+        "debias": "Report violations factually from all parties or avoid selective counting that suggests blame before investigation.",
+        "date_added": "2026-04-17",
+        "status": "suggested",
+        "example_text": "the Lebanese army has already reported several alleged violations in the southern border region",
+        "example_url": "https://www.france24.com/en/lebanon-army-reports-number-of-ceasefire-violations",
+        "unbiased_text": "The Lebanese army has reported incidents in the southern border region during the ceasefire period that it characterizes as violations."
+      },
+      {
+        "pattern": "AI manipulation admission as discrediting proof",
+        "detail": "Presenting admission of using AI-altered images as definitive evidence of systematic delegitimization campaigns rather than isolated incidents.",
+        "debias": "Report AI image incidents as specific cases without generalizing to broader patterns unless multiple instances are documented.",
+        "date_added": "2026-04-17",
+        "status": "suggested",
+        "example_text": "The Foreign Press Association has accused the Israeli military of discrediting a Lebanese journalist it killed in March, by using an AI-generated photo to present him as a 'Hezbollah terrorist'.",
+        "example_url": "https://www.france24.com/en/israeli-military-admit-to-posting-ai-photo-of-killed-lebanese-journalist",
+        "unbiased_text": "The Israeli military posted an AI-altered photo of journalist Ali Shoeib after killing him in an airstrike. The Foreign Press Association criticized the action."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -1573,6 +1613,36 @@
         "example_text": "Where is Szijjártó? Hungarian minister to skip EU meeting after vanishing from public view",
         "example_url": "http://www.euronews.com/my-europe/2026/04/16/where-is-szijjarto-hungarian-minister-to-skip-eu-meeting-after-vanishing-from-public-view",
         "unbiased_text": "Hungarian Foreign Minister Szijjártó will not attend next week's EU Foreign Affairs Council meeting."
+      },
+      {
+        "pattern": "Conditional opening announcement framing",
+        "detail": "Framing partial or conditional reopening of strategic resources as full restoration while burying the conditions in qualifying language.",
+        "debias": "State conditions of access prominently alongside any reopening announcements to avoid overstating normalization.",
+        "date_added": "2026-04-17",
+        "status": "suggested",
+        "example_text": "Iran and US declare Strait of Hormuz 'completely open,' but Iran adds that passage is on a 'coordinated route' set by Tehran.",
+        "example_url": "http://www.euronews.com/2026/04/17/trump-says-thank-you-after-iran-announces-opening-of-strait-of-hormuz",
+        "unbiased_text": "Iran announced ships may transit the Strait of Hormuz on routes coordinated with Iranian authorities. The US acknowledged the announcement."
+      },
+      {
+        "pattern": "Mission incompleteness assertion framing",
+        "detail": "Highlighting one party's statement that military objectives remain unfinished to cast doubt on ceasefire durability or sincerity.",
+        "debias": "Report statements about ongoing military objectives without editorializing about ceasefire implications.",
+        "date_added": "2026-04-17",
+        "status": "suggested",
+        "example_text": "Military operation against Hezbollah 'still not complete,' Israel's defence minister says",
+        "example_url": "http://www.euronews.com/2026/04/17/military-operation-against-hezbollah-still-not-complete-israels-defence-minister-says",
+        "unbiased_text": "Israel's defence minister stated that military operations against Hezbollah have not achieved all objectives. A 10-day ceasefire is currently in effect."
+      },
+      {
+        "pattern": "Minimization versus warning narrative contrast",
+        "detail": "Framing official government minimization of crisis risks as contradicting expert warnings to suggest inadequate preparation or denial.",
+        "debias": "Present both official assessments and expert warnings without suggesting which perspective is more credible.",
+        "date_added": "2026-04-17",
+        "status": "suggested",
+        "example_text": "EU officials and the International Energy Agency have contrasting narratives over jet fuel supply. While the European commission minimises the risk, it acknowledges that the market remains 'tight' and says the EU is prepared to respond appropriately.",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/17/eu-downplays-jet-fuel-shortage-risks-despite-iea-warning",
+        "unbiased_text": "The European Commission and International Energy Agency have different assessments of jet fuel supply risks. The Commission describes the market as tight but manageable, while the IEA has issued warnings about potential shortages."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
