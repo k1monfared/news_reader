@@ -526,6 +526,36 @@
         "example_text": "Frenchman Herve Renard, who won AFCON with Zambia and Ivory Coast, departs Saudi role despite World Cup qualification.",
         "example_url": "https://www.aljazeera.com/sports/2026/4/17/saudi-arabia-sack-coach-herve-renard-ahead-of-fifa-world-cup-2026?traffic_source=rss",
         "unbiased_text": "Saudi Arabia has dismissed coach Herve Renard, who previously won the Africa Cup of Nations with Zambia and Ivory Coast. The team has already qualified for the 2026 World Cup."
+      },
+      {
+        "pattern": "Reciprocal action prerequisite framing",
+        "detail": "Framing one party's cooperation as contingent on the other party's prior action, emphasizing conditions rather than mutual steps.",
+        "debias": "Present both parties' positions and conditions neutrally without suggesting one side's demands are more justified prerequisites.",
+        "date_added": "2026-04-18",
+        "status": "suggested",
+        "example_text": "Iran's Deputy Foreign Minister said talks with the US cannot happen until the two sides agree on a shared 'framework'.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/18/irans-deputy-fm-says-no-date-for-more-us-talks-until-framework-agreed?traffic_source=rss",
+        "unbiased_text": "Iran's Deputy Foreign Minister said further talks with the US require agreement on a shared framework, while both sides continue negotiations on terms."
+      },
+      {
+        "pattern": "Blockade-closure equivalence asymmetry",
+        "detail": "Treating Iran's strait closure and US port blockade as morally equivalent retaliatory measures rather than examining their legal or strategic differences.",
+        "debias": "Distinguish between types of maritime restrictions and their legal frameworks rather than presenting them as symmetrical actions.",
+        "date_added": "2026-04-18",
+        "status": "suggested",
+        "example_text": "Iran closes Strait of Hormuz again over US blockade of its ports",
+        "example_url": "https://www.aljazeera.com/news/2026/4/18/iran-closes-strait-of-hormuz-again-over-us-blockade-of-its-ports?traffic_source=rss",
+        "unbiased_text": "Iran closes Strait of Hormuz again, citing US restrictions on its ports as justification"
+      },
+      {
+        "pattern": "Deterrent capability validation narrative",
+        "detail": "Framing a state's coercive action as demonstrating strategic learning or deterrent effectiveness rather than as escalatory behavior.",
+        "debias": "Report strategic actions factually without editorializing about what lessons actors have supposedly learned.",
+        "date_added": "2026-04-18",
+        "status": "suggested",
+        "example_text": "Donald Heflin, a senior fellow at Tufts University, says Iran has shown it doesn't need nuclear weapons as a deterrent.",
+        "example_url": "https://www.aljazeera.com/video/quotable/2026/4/18/iran-has-learned-that-the-strait-of-hormuz-is-its-strongest-deterrent?traffic_source=rss",
+        "unbiased_text": "Donald Heflin, a senior fellow at Tufts University, says Iran's control of the Strait of Hormuz provides it with strategic leverage in the current conflict."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1030,6 +1060,46 @@
         "example_text": "The Foreign Press Association has accused the Israeli military of discrediting a Lebanese journalist it killed in March, by using an AI-generated photo to present him as a 'Hezbollah terrorist'.",
         "example_url": "https://www.france24.com/en/israeli-military-admit-to-posting-ai-photo-of-killed-lebanese-journalist",
         "unbiased_text": "The Israeli military posted an AI-altered photo of journalist Ali Shoeib after killing him in an airstrike. The Foreign Press Association criticized the action."
+      },
+      {
+        "pattern": "Mediation initiative self-attribution prominence",
+        "detail": "Emphasizing a country's or region's own mediation role or security initiative as newsworthy while minimizing other actors' contributions.",
+        "debias": "Report all diplomatic initiatives proportionally without emphasizing one's own country's role more prominently.",
+        "date_added": "2026-04-18",
+        "status": "suggested",
+        "example_text": "French President Emmanuel Macron and British Prime Minister Keir Starmer on Friday hosted a video conference with their European allies to discuss the possible deployment of a multinational force to the Strait of Hormuz",
+        "example_url": "https://www.france24.com/en/europe-welcomes-hormuz-strait-reopening",
+        "unbiased_text": "Multiple countries held discussions Friday about a possible multinational force to secure the Strait of Hormuz"
+      },
+      {
+        "pattern": "Defense investment inadequacy self-criticism",
+        "detail": "Framing current crises as vindication for claims about insufficient military or defense spending, particularly in one's own region.",
+        "debias": "Report defense policy debates without using current events as proof of previously held positions about spending levels.",
+        "date_added": "2026-04-18",
+        "status": "suggested",
+        "example_text": "'Wake-up call for Europeans to step up: There's been a lack of investment' in defence",
+        "example_url": "https://www.france24.com/en/video/20260417-wake-up-call-for-europeans-to-step-up-there-s-been-a-lack-of-investment-in-defence",
+        "unbiased_text": "Analysts discuss European defense spending levels in light of current Middle East security challenges"
+      },
+      {
+        "pattern": "AI manipulation as definitive discrediting",
+        "detail": "Treating the use of AI-altered imagery by an actor as conclusive proof of broader deception or illegitimacy rather than as one disputed claim.",
+        "debias": "Report disputed imagery incidents factually without extrapolating to character judgments about the actor's overall credibility.",
+        "date_added": "2026-04-18",
+        "status": "suggested",
+        "example_text": "The Foreign Press Association has accused the Israeli military of discrediting a Lebanese journalist it killed in March, by using an AI-generated photo to present him as a 'Hezbollah terrorist'.",
+        "example_url": "https://www.france24.com/en/middle-east/20260417-press-association-israeli-army-use-ai-doctored-image-slain-journalist",
+        "unbiased_text": "The Foreign Press Association says the Israeli military posted an altered photo of a Lebanese journalist it killed in March, showing him in a Hezbollah uniform rather than his press vest; the IDF later acknowledged the image was edited."
+      },
+      {
+        "pattern": "Ceasefire violation accusation immediacy emphasis",
+        "detail": "Highlighting that violations occurred almost immediately after a ceasefire began to suggest bad faith, rather than reporting violations neutrally.",
+        "debias": "Report ceasefire violations with standard detail about timing without emphasizing speed as evidence of intent.",
+        "date_added": "2026-04-18",
+        "status": "suggested",
+        "example_text": "A 10-day ceasefire agreement between Lebanon and Israel came into effect this Friday, though the Lebanese army has already reported several alleged violations in the southern border region",
+        "example_url": "https://www.france24.com/en/lebanon-army-reports-number-of-ceasefire-violations",
+        "unbiased_text": "A 10-day ceasefire agreement between Lebanon and Israel came into effect Friday; the Lebanese army reported several alleged violations in the southern border region."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
