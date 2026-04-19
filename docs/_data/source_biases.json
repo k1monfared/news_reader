@@ -556,6 +556,26 @@
         "example_text": "Donald Heflin, a senior fellow at Tufts University, says Iran has shown it doesn't need nuclear weapons as a deterrent.",
         "example_url": "https://www.aljazeera.com/video/quotable/2026/4/18/iran-has-learned-that-the-strait-of-hormuz-is-its-strongest-deterrent?traffic_source=rss",
         "unbiased_text": "Donald Heflin, a senior fellow at Tufts University, says Iran's control of the Strait of Hormuz provides it with strategic leverage in the current conflict."
+      },
+      {
+        "pattern": "Siege terminology escalation",
+        "detail": "Using the term 'siege' instead of 'blockade' to characterize US naval restrictions on Iranian ports, implying a more severe humanitarian crisis.",
+        "debias": "Use neutral terms like 'blockade' or 'naval restrictions' that describe the military action without humanitarian crisis implications.",
+        "date_added": "2026-04-19",
+        "status": "suggested",
+        "example_text": "Tehran is threatening to keep the Strait of Hormuz shut unless Washington lifts the 'US siege' on Iranian ports.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/19/iran-warns-hormuz-will-stay-shut-unless-us-lifts-siege-on-its-ports?traffic_source=rss",
+        "unbiased_text": "Tehran is threatening to keep the Strait of Hormuz shut unless Washington lifts the US blockade on Iranian ports."
+      },
+      {
+        "pattern": "Occupation permanence insinuation framing",
+        "detail": "Framing temporary military zones as potential long-term occupations through speculative language about permanence.",
+        "debias": "Report on military zones as they are currently established without speculating about long-term permanence.",
+        "date_added": "2026-04-19",
+        "status": "suggested",
+        "example_text": "The Israeli 'Yellow Line' in Lebanon raises fears that a temporary military zone could become a longer-term occupation.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/19/does-israels-yellow-line-violate-the-lebanon-ceasefire?traffic_source=rss",
+        "unbiased_text": "The Israeli 'Yellow Line' in Lebanon is a temporary military zone established under the ceasefire agreement."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1100,6 +1120,26 @@
         "example_text": "A 10-day ceasefire agreement between Lebanon and Israel came into effect this Friday, though the Lebanese army has already reported several alleged violations in the southern border region",
         "example_url": "https://www.france24.com/en/lebanon-army-reports-number-of-ceasefire-violations",
         "unbiased_text": "A 10-day ceasefire agreement between Lebanon and Israel came into effect Friday; the Lebanese army reported several alleged violations in the southern border region."
+      },
+      {
+        "pattern": "Oscillation strategy delegitimization",
+        "detail": "Characterizing a party's negotiation approach as duplicitous by describing it as oscillating between competing positions.",
+        "debias": "Describe negotiation strategies as pursuing multiple objectives or balancing interests without implying deception.",
+        "date_added": "2026-04-19",
+        "status": "suggested",
+        "example_text": "Hussein Ibish, Senior Resident Scholar at the Arab Gulf States Institute in Washington, analyses Israel's strategy in Lebanon, which he describes as oscillating between negotiations and continued presence in the south.",
+        "example_url": "https://www.france24.com/en/israel-s-double-game-between-negotiations-with-lebanon-and-occupation-in-the-south",
+        "unbiased_text": "Hussein Ibish, Senior Resident Scholar at the Arab Gulf States Institute in Washington, analyses Israel's strategy in Lebanon, which involves both negotiations and maintaining military presence in the south."
+      },
+      {
+        "pattern": "Denial as guilt implication",
+        "detail": "Presenting a party's denial of responsibility as suspicious by pairing it with an accusation from another party without equal weight.",
+        "debias": "Present denials and accusations with equal prominence and note that responsibility has not been confirmed.",
+        "date_added": "2026-04-19",
+        "status": "suggested",
+        "example_text": "A French peacekeeper serving with United Nations Interim Force in Lebanon was killed and three others wounded in an ambush in southern Lebanon, with Emmanuel Macron blaming Hezbollah, which denies responsibility.",
+        "example_url": "https://www.france24.com/en/middle-east-hezbollah-blamed-after-french-peacekeeper-killed-in-lebanon",
+        "unbiased_text": "A French peacekeeper serving with United Nations Interim Force in Lebanon was killed and three others wounded in an ambush in southern Lebanon. Emmanuel Macron said Hezbollah was responsible, while Hezbollah has denied involvement."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -1713,6 +1753,36 @@
         "example_text": "EU officials and the International Energy Agency have contrasting narratives over jet fuel supply. While the European commission minimises the risk, it acknowledges that the market remains 'tight' and says the EU is prepared to respond appropriately.",
         "example_url": "http://www.euronews.com/my-europe/2026/04/17/eu-downplays-jet-fuel-shortage-risks-despite-iea-warning",
         "unbiased_text": "The European Commission and International Energy Agency have different assessments of jet fuel supply risks. The Commission describes the market as tight but manageable, while the IEA has issued warnings about potential shortages."
+      },
+      {
+        "pattern": "Hardline faction ascendancy assertion",
+        "detail": "Attributing policy decisions to hardline factions gaining control without evidence of internal power shifts.",
+        "debias": "Report policy changes as decisions by the government without attributing them to specific internal factions unless confirmed.",
+        "date_added": "2026-04-19",
+        "status": "suggested",
+        "example_text": "The Strait of Hormuz is blocked again by Iran as the IRGC's hardline position appears to prevail in Tehran, setting the stage for the 3-day countdown towards the end of the ceasefire, with no new talks in sight.",
+        "example_url": "http://www.euronews.com/2026/04/19/harduz-standoff-reignites-as-the-irgc-appears-to-now-shape-irans-decisions",
+        "unbiased_text": "The Strait of Hormuz is blocked again by Iran, setting the stage for the 3-day countdown towards the end of the ceasefire, with no new talks in sight."
+      },
+      {
+        "pattern": "Iceberg metaphor catastrophe amplification",
+        "detail": "Using 'tip of the iceberg' metaphor to suggest current crises are minimal compared to impending catastrophe.",
+        "debias": "Report current impacts and forecasts without metaphors that exaggerate the scale of future effects.",
+        "date_added": "2026-04-19",
+        "status": "suggested",
+        "example_text": "\"The full-fledged impact is coming\" and what the world has seen until now in energy costs is \"the tip of the iceberg,\" Qatar's finance minister says, warning of wider energy and supply shock as Iran tightens control over Hormuz.",
+        "example_url": "http://www.euronews.com/business/2026/04/19/global-shock-feared-as-iran-tightens-grip-on-hormuz-qatar-says-impact-not-far-away",
+        "unbiased_text": "Qatar's finance minister warned that energy costs could increase further as Iran continues restrictions on the Strait of Hormuz, potentially affecting global supply chains."
+      },
+      {
+        "pattern": "Security check failure scandal elevation",
+        "detail": "Framing a failed security check as grounds for resignation to elevate an appointment controversy into a political crisis.",
+        "debias": "Report appointment controversies as disputes over vetting procedures without suggesting they constitute resignation-worthy scandals.",
+        "date_added": "2026-04-19",
+        "status": "suggested",
+        "example_text": "Opposition leaders demanded Starmer's resignation on Thursday after it emerged that US envoy Peter Mandelson was appointed despite having failed his security check.",
+        "example_url": "http://www.euronews.com/2026/04/18/starmer-faces-calls-to-step-down-after-appointing-epstein-associate",
+        "unbiased_text": "Opposition leaders criticized Starmer on Thursday after it emerged that US envoy Peter Mandelson was appointed despite questions about his security clearance."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
