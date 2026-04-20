@@ -11,6 +11,7 @@ FROM_ADDR = "USrael War Daily Brief <usreal_war_daily_brief@k1monfared.com>"
 ALLOWED_ORIGINS = "https://k1monfared.github.io"
 SUCCESS_URL = "https://k1monfared.github.io/news_reader/subscribed/"
 CONFIRMATION_SENT_URL = "https://k1monfared.github.io/news_reader/confirmation-sent/"
+BLOCKED_URL = "https://k1monfared.github.io/news_reader/blocked/"
 ERROR_URL = "https://k1monfared.github.io/news_reader/subscribe/?err=1"
 # AUDIENCE_ID and AUDIENCE_ID_FA are intentionally NOT set here. Use:
 #   wrangler secret put AUDIENCE_ID
@@ -24,3 +25,12 @@ ERROR_URL = "https://k1monfared.github.io/news_reader/subscribe/?err=1"
 [[kv_namespaces]]
 binding = "SUBSCRIBE_KV"
 id = "c9c411f9e2d4492492c1d5863d01cea8"
+
+# D1 database for the audit log (every subscribe / confirm attempt gets a row).
+# Create one with: npx wrangler d1 create subscribe-audit
+# Apply the schema with: npx wrangler d1 execute subscribe-audit --remote --file=./schema.sql
+# Then paste the printed database_id below.
+[[d1_databases]]
+binding = "AUDIT_DB"
+database_name = "subscribe-audit"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
