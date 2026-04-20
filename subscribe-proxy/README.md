@@ -1,8 +1,17 @@
-# subscribe-proxy
+# subscribe-proxy (vendored from newsletter_base)
 
-A generic Cloudflare Worker that implements **double-opt-in subscribe** for a static site backed by [Resend](https://resend.com). The Worker holds the privileged Resend API key and a KV namespace for pending confirmation tokens, so your static site can stay fully static while still protecting against bad-actor subscribe spam.
+> **This directory is a copy of [newsletter_base/subscribe-proxy](https://github.com/k1monfared/newsletter_base/tree/master/subscribe-proxy).** The Python portion of `newsletter_base` is pip-installed via `requirements.txt`, but the Worker source and schema are vendored here because wrangler deploys from a local directory. When newsletter_base ships updates to the Worker, sync with:
+>
+> ```bash
+> # From the repo root, with newsletter_base cloned adjacent:
+> cp ../newsletter_base/subscribe-proxy/src/worker.ts subscribe-proxy/src/worker.ts
+> cp ../newsletter_base/subscribe-proxy/schema.sql subscribe-proxy/schema.sql
+> cd subscribe-proxy && npx wrangler deploy
+> ```
+>
+> Do not hand-edit `worker.ts` or `schema.sql` here; push upstream first, then sync.
 
-Reusable across projects. Nothing in the Worker code references a specific site, audience, or list.
+A Cloudflare Worker that implements **double-opt-in subscribe** for a static site backed by [Resend](https://resend.com). The Worker holds the privileged Resend API key and a KV namespace for pending confirmation tokens, so your static site can stay fully static while still protecting against bad-actor subscribe spam.
 
 ## Why this exists
 

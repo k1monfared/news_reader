@@ -1,10 +1,10 @@
 """Mailer stage: after publish + translate_fa, send the day's post(s) as
 email broadcasts to subscribers via Resend.
 
-This stage is project-specific glue. The reusable parts live in
-`resend_broadcast/` (HTTP wrapper) and `subscribe-proxy/` (Worker that
-accepts subscribe form submissions). Everything here is about converting
-a Jekyll post into email-safe HTML and handing it off.
+This stage is project-specific glue. The reusable primitives come from the
+`newsletter_base` library (pinned in requirements.txt). This module keeps
+only the Jekyll-specific logic: frontmatter parsing, bilingual post path
+resolution, Shamsi date formatting, and the project's custom email shell.
 
 Runs last in the pipeline. Failures do not unpublish: the posts are already
 on disk and pushed. A mail failure is logged and surfaced in run_meta.
@@ -14,15 +14,19 @@ from __future__ import annotations
 
 import logging
 import os
-import re
 from datetime import datetime
 from pathlib import Path
-
-import markdown as md_lib
 
 from models import PipelineConfig
 from llm_client import AuditedLLMClient
 from audit_logger import AuditedHTTPClient
+
+# Installed via `newsletter-base` dep in requirements.txt.
+from newsletter.render import (
+    _flatten_details,
+    _md_to_html as _markdown_to_html,
+    _text_fallback_from_markdown as _plain_text_fallback,
+)
 from resend_broadcast import BroadcastError, send_broadcast
 
 logger = logging.getLogger(__name__)
@@ -64,30 +68,6 @@ def _split_frontmatter(markdown: str) -> tuple[dict, str]:
         key, _, value = line.partition(":")
         fm[key.strip()] = value.strip().strip('"')
     return fm, body
-
-
-def _flatten_details(markdown_body: str) -> str:
-    """Strip <details>/<summary> wrappers, keeping their content as plain
-    markdown. Gmail and most other clients strip <details>/<summary> anyway,
-    so we want the content to flow as normal paragraphs. The summary line
-    in these posts is already **bold**, so no extra formatting is needed.
-    """
-    pattern = re.compile(
-        r'<details[^>]*>\s*<summary[^>]*>(.*?)</summary>\s*(.*?)\s*</details>',
-        re.DOTALL,
-    )
-
-    def replace(match: re.Match[str]) -> str:
-        summary = match.group(1).strip()
-        body = match.group(2).strip()
-        return f"\n\n{summary}\n\n{body}\n\n"
-
-    return pattern.sub(replace, markdown_body)
-
-
-def _markdown_to_html(body: str) -> str:
-    flattened = _flatten_details(body)
-    return md_lib.markdown(flattened, extensions=["extra"])
 
 
 # ---------------------------------------------------------------------------
@@ -133,17 +113,6 @@ def _wrap_email_html(
         f'{footer}'
         f'</body></html>'
     )
-
-
-def _plain_text_fallback(body_markdown: str) -> str:
-    """Cheap markdown-to-text fallback. Resend will generate one if omitted,
-    but shipping our own keeps the sections + links in a sensible order."""
-    text = _flatten_details(body_markdown)
-    text = re.sub(r'<[^>]+>', '', text)
-    text = re.sub(r'\*\*(.*?)\*\*', r'\1', text)
-    text = re.sub(r'\*(.*?)\*', r'\1', text)
-    text = re.sub(r'\n{3,}', '\n\n', text)
-    return text.strip() + "\n"
 
 
 # ---------------------------------------------------------------------------

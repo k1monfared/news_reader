@@ -7,3 +7,6 @@ pydantic>=2.0
 scikit-learn>=1.4
 jdatetime>=5.0
 markdown>=3.5
+# Provides `newsletter` and `resend_broadcast` packages. Pinned to a commit
+# for stability; bump by editing the hash. See docs at https://github.com/k1monfared/newsletter_base
+newsletter-base @ git+https://github.com/k1monfared/newsletter_base.git@98a57c1
