@@ -24,9 +24,10 @@ Get each daily brief delivered to your inbox. One email per day, no tracking, un
 {% endif %}
 
 **What happens when you subscribe:**
-- Your email is added to the sender's audience. It is never written to this GitHub repository.
-- You will get one email per day with the full brief, usually by 9 AM Pacific.
-- Each email includes an "Unsubscribe" link. Clicking it removes you immediately, no confirmation page or second click required.
+- You will get a one-time confirmation email. Click the link inside to finish subscribing. If you don't click it, nothing else happens.
+- After confirmation, you get one email per day with the full brief, usually by 9 AM Pacific.
+- Your email is stored with the sending provider, never in this GitHub repository.
+- Each daily email includes an "Unsubscribe" link. Clicking it removes you immediately, no confirmation page or second click required.
 
 **Prefer RSS?** The [feed]({{ "/feed.xml" | relative_url }}) carries the same content.
 

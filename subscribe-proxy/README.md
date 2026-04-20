@@ -1,36 +1,51 @@
 # subscribe-proxy
 
-A generic Cloudflare Worker that accepts a subscribe form submission from a static site and forwards it to [Resend](https://resend.com)'s audience contacts API. The Worker holds the privileged Resend API key, so your static site can stay fully static.
+A generic Cloudflare Worker that implements **double-opt-in subscribe** for a static site backed by [Resend](https://resend.com). The Worker holds the privileged Resend API key and a KV namespace for pending confirmation tokens, so your static site can stay fully static while still protecting against bad-actor subscribe spam.
 
 Reusable across projects. Nothing in the Worker code references a specific site, audience, or list.
 
 ## Why this exists
 
-Static sites cannot safely hold API keys. If you want a subscribe form on a GitHub Pages or similar static site, you need a tiny server-side component to call Resend without exposing the key. This Worker is that component, in ~150 lines of TypeScript.
+Static sites cannot safely hold API keys. Resend's API also auto-confirms contacts on add, which means a naive subscribe proxy can be used to spam arbitrary addresses. This Worker fixes both: it holds the API key server-side and inserts a confirmation step so only people who click a link actually join the list.
+
+## Flow
+
+1. **POST /** with `email` (and optional `list=fa` to route to a non-default segment). Worker generates a random token, stores `{token, email, list}` in KV with a 24h TTL, rate-limits the address so resubmissions within 24h do not trigger another email, sends a confirmation email via Resend, redirects to `CONFIRMATION_SENT_URL`.
+2. **GET /confirm?token=...** (clicked from the confirmation email). Worker looks up the token, POSTs the email to Resend's `/audiences/{id}/contacts`, deletes the token, redirects to `SUCCESS_URL`.
 
 ## Features
 
-- No-JS-friendly: returns a 303 redirect after success so a plain HTML form ends up on a static thank-you page.
-- Origin-locked: only accepts submissions from origins listed in `ALLOWED_ORIGINS`.
-- Multi-audience: supports per-list routing via a `list=fa` form field that picks `AUDIENCE_ID_FA`, falling back to `AUDIENCE_ID`.
-- JSON or form: supports both `application/x-www-form-urlencoded` and `application/json`.
+- Double opt-in: Resend audience is only touched after the subscriber clicks the link in the confirmation email.
+- Rate-limited: one confirmation email per address per 24h. Prevents abuse.
+- No-JS-friendly: plain HTML forms work, redirects instead of JSON where appropriate.
+- Origin-locked: only accepts submissions from origins in `ALLOWED_ORIGINS`.
+- Multi-list: `list=fa` form field picks `AUDIENCE_ID_FA` and switches confirmation email copy to Farsi. Add new languages in the `TEMPLATES` object in `src/worker.ts`.
+- JSON or form: both `application/x-www-form-urlencoded` and `application/json` supported.
 
 ## Deploy
 
-1. Install [wrangler](https://developers.cloudflare.com/workers/wrangler/): `npm install`.
+1. Install deps: `npm install`.
 2. Log in: `npx wrangler login`.
-3. Edit `wrangler.toml`:
-   - `ALLOWED_ORIGINS`: comma-separated list of origins that may POST to this Worker.
-   - `SUCCESS_URL`: where to redirect after a successful subscribe.
-   - `ERROR_URL`: optional, where to redirect on failure.
-4. Set secrets:
+3. Create the KV namespace:
+   ```
+   npx wrangler kv namespace create SUBSCRIBE_KV
+   ```
+   Wrangler prints an `id = "..."`. Paste that into `wrangler.toml` under `[[kv_namespaces]]`, replacing `REPLACE_WITH_KV_NAMESPACE_ID`.
+4. Edit `wrangler.toml` vars:
+   - `SITE_NAME`: used in confirmation email subject and body.
+   - `FROM_ADDR`: sender address, must be on a verified Resend domain.
+   - `ALLOWED_ORIGINS`: comma-separated list of origins permitted to POST.
+   - `SUCCESS_URL`: where to redirect after confirmation succeeds.
+   - `CONFIRMATION_SENT_URL`: where to redirect after POST / (the "check your email" page).
+   - `ERROR_URL`: optional, shown on bad-token or failed subscribe.
+5. Set secrets:
    ```
    npx wrangler secret put RESEND_API_KEY
    npx wrangler secret put AUDIENCE_ID
-   # Optional per-list audiences:
+   # Optional per-list audience overrides:
    npx wrangler secret put AUDIENCE_ID_FA
    ```
-5. Deploy: `npx wrangler deploy`. Wrangler prints the Worker URL, e.g. `https://subscribe-proxy.<you>.workers.dev`.
+6. Deploy: `npx wrangler deploy`. Wrangler prints the Worker URL, e.g. `https://subscribe-proxy.<you>.workers.dev`.
 
 ## Use it from a static site
 
@@ -76,9 +91,16 @@ npm install
 npx wrangler dev          # local server at http://localhost:8787
 ```
 
-Test a submit:
+Subscribe (should 303 and send a confirmation email):
 ```
-curl -X POST http://localhost:8787 \
+curl -i -X POST http://localhost:8787 \
   -H "Origin: https://k1monfared.github.io" \
-  -d "email=test@example.com"
+  -d "email=YOU@example.com&list=en"
 ```
+
+Then click the link in the confirmation email, or hit the confirm endpoint directly with the token you extract from the email:
+```
+curl -i "http://localhost:8787/confirm?token=<token-from-email>"
+```
+
+Expected: 303 to `SUCCESS_URL`, and `YOU@example.com` appears in the Resend segment.

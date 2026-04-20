@@ -8,7 +8,7 @@ permalink: /subscribed/
 
 # You're subscribed
 
-Thanks for signing up. The next daily brief will land in your inbox.
+Thanks for confirming. The next daily brief will land in your inbox.
 
 If you change your mind, the "Unsubscribe" link at the bottom of any email will remove you immediately. No confirmation page, no second click.
 
