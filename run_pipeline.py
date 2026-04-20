@@ -133,6 +133,7 @@ def run_pipeline(target_date: str | None = None, backfill: bool = False) -> str:
         "verify",
         "publish",
         "translate_fa",
+        "mailer",
     ]
 
     try:

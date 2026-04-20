@@ -268,3 +268,22 @@ translate_fa:
     "Regional Actors": بازیگران منطقه‌ای
     International: بین‌المللی
     Other: سایر
+
+# ---------------------------------------------------------------------------
+# Mailer (post-publish stage). Sends each daily brief as an email broadcast
+# via Resend. Disabled by default. Requires:
+#   - RESEND_API_KEY in the environment (GitHub Secret in CI).
+#   - A verified sending domain in Resend.
+#   - One audience per language, created manually in the Resend dashboard.
+#   - The subscribe-proxy Cloudflare Worker deployed so the public form can
+#     add subscribers to those audiences.
+# ---------------------------------------------------------------------------
+mailer:
+  enabled: true
+  from_addr: "Daily Brief <brief@k1monfared.com>"
+  reply_to: null
+  site_base_url: "https://k1monfared.github.io/news_reader"
+  site_title_en: "USrael War on Iran: Daily Brief"
+  site_title_fa: "جنگ آمریکا و اسرائیل علیه ایران: گزارش روزانه"
+  audience_id_en: "7ec60861-ef0c-497d-84a7-8ca2ac58bf53"
+  audience_id_fa: "c678f5df-c304-41fa-b641-e58ba5653cf7"

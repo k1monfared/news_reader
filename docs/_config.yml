@@ -2,6 +2,10 @@ title: "USrael War on Iran: Daily Brief"
 description: Automated daily intelligence digest on the USrael war on Iran
 baseurl: "/news_reader"
 url: "https://k1monfared.github.io"
+
+# Subscribe form target. Points at the deployed Cloudflare Worker
+# (see subscribe-proxy/). Set to empty string to hide subscribe pages.
+subscribe_proxy_url: "https://subscribe-proxy.usraelwar.workers.dev"
 kramdown:
   parse_block_html: true
 

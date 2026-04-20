@@ -1,0 +1,16 @@
+name = "subscribe-proxy"
+main = "src/worker.ts"
+compatibility_date = "2025-01-01"
+
+# Non-secret config. Override per-deployment by editing this file or passing
+# --var on the wrangler deploy command. Secrets (RESEND_API_KEY) are set with
+# `wrangler secret put RESEND_API_KEY`, never committed.
+[vars]
+ALLOWED_ORIGINS = "https://k1monfared.github.io"
+SUCCESS_URL = "https://k1monfared.github.io/news_reader/subscribed/"
+ERROR_URL = "https://k1monfared.github.io/news_reader/subscribe/?err=1"
+# AUDIENCE_ID and AUDIENCE_ID_FA are intentionally NOT set here. Use:
+#   wrangler secret put AUDIENCE_ID
+#   wrangler secret put AUDIENCE_ID_FA
+# to keep them out of the repo (even though audience IDs are not strictly
+# secrets, treating them as secrets keeps the Worker config portable).
