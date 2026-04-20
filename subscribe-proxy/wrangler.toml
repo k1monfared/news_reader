@@ -13,6 +13,13 @@ SUCCESS_URL = "https://k1monfared.github.io/news_reader/subscribed/"
 CONFIRMATION_SENT_URL = "https://k1monfared.github.io/news_reader/confirmation-sent/"
 BLOCKED_URL = "https://k1monfared.github.io/news_reader/blocked/"
 ERROR_URL = "https://k1monfared.github.io/news_reader/subscribe/?err=1"
+
+# Per-language redirects. When the subscribe form submits with list=fa, or the
+# token in KV was stored with list="fa", these are used instead of the defaults.
+SUCCESS_URL_FA = "https://k1monfared.github.io/news_reader/fa/subscribed/"
+CONFIRMATION_SENT_URL_FA = "https://k1monfared.github.io/news_reader/fa/confirmation-sent/"
+BLOCKED_URL_FA = "https://k1monfared.github.io/news_reader/fa/blocked/"
+ERROR_URL_FA = "https://k1monfared.github.io/news_reader/fa/subscribe/?err=1"
 # AUDIENCE_ID and AUDIENCE_ID_FA are intentionally NOT set here. Use:
 #   wrangler secret put AUDIENCE_ID
 #   wrangler secret put AUDIENCE_ID_FA

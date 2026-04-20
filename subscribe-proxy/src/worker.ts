@@ -177,6 +177,22 @@ function resolveAudience(env: Env, list: string): string | null {
   return env.AUDIENCE_ID || null;
 }
 
+/**
+ * Resolve a per-language URL. For a given base name like
+ * "CONFIRMATION_SENT_URL" and a list like "fa", look for
+ * CONFIRMATION_SENT_URL_FA first and fall back to CONFIRMATION_SENT_URL.
+ * Returns empty string if neither is set (caller should treat as error).
+ */
+function resolveUrl(env: Env, base: string, list: string): string {
+  if (list) {
+    const key = `${base}_${list.toUpperCase()}`;
+    const specific = env[key];
+    if (typeof specific === "string" && specific) return specific;
+  }
+  const fallback = env[base];
+  return typeof fallback === "string" ? fallback : "";
+}
+
 function templateFor(list: string): { subject: string; html: string; text: string } {
   return TEMPLATES[list] || TEMPLATES.en;
 }
@@ -282,15 +298,21 @@ async function handleSubscribe(req: Request, env: Env): Promise<Response> {
   const parsed = await parseSubscribeBody(req);
   if (!parsed) {
     await logEvent(env, req, "subscribe_attempt", "invalid_email", {});
-    return respondRedirect(req, env.ERROR_URL || `${env.CONFIRMATION_SENT_URL}?err=1`, "Invalid email", false);
+    const errorUrl = resolveUrl(env, "ERROR_URL", "")
+      || `${resolveUrl(env, "CONFIRMATION_SENT_URL", "")}?err=1`;
+    return respondRedirect(req, errorUrl, "Invalid email", false);
   }
 
-  const audience = resolveAudience(env, parsed.list);
+  const list = parsed.list;
+  const confirmationSentUrl = resolveUrl(env, "CONFIRMATION_SENT_URL", list);
+  const errorUrl = resolveUrl(env, "ERROR_URL", list) || `${confirmationSentUrl}?err=1`;
+
+  const audience = resolveAudience(env, list);
   if (!audience) {
     await logEvent(env, req, "subscribe_attempt", "list_not_configured", {
-      email: parsed.email, list: parsed.list,
+      email: parsed.email, list,
     });
-    return respondRedirect(req, env.ERROR_URL || `${env.CONFIRMATION_SENT_URL}?err=1`, "List not configured", false);
+    return respondRedirect(req, errorUrl, "List not configured", false);
   }
 
   // Permanent block: if the address previously clicked the "never email me
@@ -301,9 +323,9 @@ async function handleSubscribe(req: Request, env: Env): Promise<Response> {
   const isBlocked = await env.SUBSCRIBE_KV.get(blockKey);
   if (isBlocked) {
     await logEvent(env, req, "subscribe_attempt", "blocked", {
-      email: parsed.email, list: parsed.list,
+      email: parsed.email, list,
     });
-    return respondRedirect(req, env.CONFIRMATION_SENT_URL, "Already pending", true);
+    return respondRedirect(req, confirmationSentUrl, "Already pending", true);
   }
 
   // Rate-limit per email: if we've already queued a confirmation for this
@@ -314,9 +336,9 @@ async function handleSubscribe(req: Request, env: Env): Promise<Response> {
   const existing = await env.SUBSCRIBE_KV.get(rateKey);
   if (existing) {
     await logEvent(env, req, "subscribe_attempt", "rate_limited", {
-      email: parsed.email, list: parsed.list,
+      email: parsed.email, list,
     });
-    return respondRedirect(req, env.CONFIRMATION_SENT_URL, "Already pending", true);
+    return respondRedirect(req, confirmationSentUrl, "Already pending", true);
   }
 
   const token = generateToken();
@@ -342,15 +364,15 @@ async function handleSubscribe(req: Request, env: Env): Promise<Response> {
     // after the rate-limit window expires. We don't leak the failure through
     // the redirect since the user can't do anything useful with that info.
     await logEvent(env, req, "subscribe_attempt", "send_failed", {
-      email: parsed.email, list: parsed.list, tokenPrefix,
+      email: parsed.email, list, tokenPrefix,
     });
-    return respondRedirect(req, env.ERROR_URL || `${env.CONFIRMATION_SENT_URL}?err=1`, "Send failed", false);
+    return respondRedirect(req, errorUrl, "Send failed", false);
   }
 
   await logEvent(env, req, "subscribe_attempt", "pending", {
-    email: parsed.email, list: parsed.list, tokenPrefix,
+    email: parsed.email, list, tokenPrefix,
   });
-  return respondRedirect(req, env.CONFIRMATION_SENT_URL, "Confirmation sent", true);
+  return respondRedirect(req, confirmationSentUrl, "Confirmation sent", true);
 }
 
 async function handleConfirm(req: Request, env: Env): Promise<Response> {
@@ -359,13 +381,19 @@ async function handleConfirm(req: Request, env: Env): Promise<Response> {
   const tokenPrefix = token.slice(0, 8) || null;
   if (!/^[a-f0-9]{64}$/.test(token)) {
     await logEvent(env, req, "confirm_attempt", "bad_token", { tokenPrefix });
-    return Response.redirect(env.ERROR_URL || `${env.SUCCESS_URL}?err=bad_token`, 303);
+    return Response.redirect(
+      resolveUrl(env, "ERROR_URL", "") || `${resolveUrl(env, "SUCCESS_URL", "")}?err=bad_token`,
+      303,
+    );
   }
   const tokenKey = `token:${token}`;
   const raw = await env.SUBSCRIBE_KV.get(tokenKey);
   if (!raw) {
     await logEvent(env, req, "confirm_attempt", "expired_token", { tokenPrefix });
-    return Response.redirect(env.ERROR_URL || `${env.SUCCESS_URL}?err=expired`, 303);
+    return Response.redirect(
+      resolveUrl(env, "ERROR_URL", "") || `${resolveUrl(env, "SUCCESS_URL", "")}?err=expired`,
+      303,
+    );
   }
   let record: { email: string; audience: string; list?: string };
   try {
@@ -373,16 +401,23 @@ async function handleConfirm(req: Request, env: Env): Promise<Response> {
   } catch {
     await env.SUBSCRIBE_KV.delete(tokenKey);
     await logEvent(env, req, "confirm_attempt", "bad_token", { tokenPrefix });
-    return Response.redirect(env.ERROR_URL || `${env.SUCCESS_URL}?err=bad_token`, 303);
+    return Response.redirect(
+      resolveUrl(env, "ERROR_URL", "") || `${resolveUrl(env, "SUCCESS_URL", "")}?err=bad_token`,
+      303,
+    );
   }
+
+  const list = record.list || "";
+  const successUrl = resolveUrl(env, "SUCCESS_URL", list);
+  const errorUrl = resolveUrl(env, "ERROR_URL", list) || `${successUrl}?err=1`;
 
   const resp = await addToResendAudience(record.email, record.audience, env.RESEND_API_KEY);
   // Treat any 2xx or 422 (already-exists) as success.
   if (!((resp.status >= 200 && resp.status < 300) || resp.status === 422)) {
     await logEvent(env, req, "confirm_attempt", "resend_error", {
-      email: record.email, list: record.list, tokenPrefix,
+      email: record.email, list, tokenPrefix,
     });
-    return Response.redirect(env.ERROR_URL || `${env.SUCCESS_URL}?err=resend`, 303);
+    return Response.redirect(errorUrl, 303);
   }
 
   // Clean up: delete the token so it can't be reused, and the rate-limit
@@ -391,9 +426,9 @@ async function handleConfirm(req: Request, env: Env): Promise<Response> {
   await env.SUBSCRIBE_KV.delete(`rl:${record.email}`);
 
   await logEvent(env, req, "confirm_attempt", "confirmed", {
-    email: record.email, list: record.list, tokenPrefix,
+    email: record.email, list, tokenPrefix,
   });
-  return Response.redirect(env.SUCCESS_URL, 303);
+  return Response.redirect(successUrl, 303);
 }
 
 async function handleBlock(req: Request, env: Env): Promise<Response> {
@@ -402,7 +437,10 @@ async function handleBlock(req: Request, env: Env): Promise<Response> {
   const tokenPrefix = token.slice(0, 8) || null;
   if (!/^[a-f0-9]{64}$/.test(token)) {
     await logEvent(env, req, "block_attempt", "bad_token", { tokenPrefix });
-    return Response.redirect(env.ERROR_URL || `${env.BLOCKED_URL}?err=bad_token`, 303);
+    return Response.redirect(
+      resolveUrl(env, "ERROR_URL", "") || `${resolveUrl(env, "BLOCKED_URL", "")}?err=bad_token`,
+      303,
+    );
   }
   const tokenKey = `token:${token}`;
   const raw = await env.SUBSCRIBE_KV.get(tokenKey);
@@ -411,7 +449,7 @@ async function handleBlock(req: Request, env: Env): Promise<Response> {
     // subscriber to land on the "blocked" page so their intent is honored
     // visually, but we have no email to actually block here.
     await logEvent(env, req, "block_attempt", "expired_token", { tokenPrefix });
-    return Response.redirect(env.BLOCKED_URL, 303);
+    return Response.redirect(resolveUrl(env, "BLOCKED_URL", ""), 303);
   }
   let record: { email: string; list?: string };
   try {
@@ -419,17 +457,21 @@ async function handleBlock(req: Request, env: Env): Promise<Response> {
   } catch {
     await env.SUBSCRIBE_KV.delete(tokenKey);
     await logEvent(env, req, "block_attempt", "bad_token", { tokenPrefix });
-    return Response.redirect(env.ERROR_URL || `${env.BLOCKED_URL}?err=bad_token`, 303);
+    return Response.redirect(
+      resolveUrl(env, "ERROR_URL", "") || `${resolveUrl(env, "BLOCKED_URL", "")}?err=bad_token`,
+      303,
+    );
   }
 
+  const list = record.list || "";
   await env.SUBSCRIBE_KV.put(`block:${record.email}`, "1", { expirationTtl: BLOCK_TTL_SECONDS });
   await env.SUBSCRIBE_KV.delete(tokenKey);
   await env.SUBSCRIBE_KV.delete(`rl:${record.email}`);
 
   await logEvent(env, req, "block_attempt", "blocked", {
-    email: record.email, list: record.list, tokenPrefix,
+    email: record.email, list, tokenPrefix,
   });
-  return Response.redirect(env.BLOCKED_URL, 303);
+  return Response.redirect(resolveUrl(env, "BLOCKED_URL", list), 303);
 }
 
 export default {

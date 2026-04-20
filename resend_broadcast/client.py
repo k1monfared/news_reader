@@ -69,8 +69,11 @@ def send_broadcast(
         "Content-Type": "application/json",
     }
 
+    # Resend renamed the field from "audience_id" to "segment_id" in their
+    # Broadcast API. Sending the new field name is what enables per-recipient
+    # {{{RESEND_UNSUBSCRIBE_URL}}} substitution. The id value is the same.
     create_payload: dict[str, Any] = {
-        "audience_id": audience_id,
+        "segment_id": audience_id,
         "from": from_addr,
         "subject": subject,
         "html": html,
