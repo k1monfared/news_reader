@@ -280,7 +280,7 @@ translate_fa:
 # ---------------------------------------------------------------------------
 mailer:
   enabled: true
-  from_addr: "Daily Brief <brief@k1monfared.com>"
+  from_addr: "USrael War Daily Brief <usreal_war_daily_brief@k1monfared.com>"
   reply_to: null
   site_base_url: "https://k1monfared.github.io/news_reader"
   site_title_en: "USrael War on Iran: Daily Brief"

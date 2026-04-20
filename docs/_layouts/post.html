@@ -8,15 +8,15 @@ layout: default
 {% else %}
   {% assign sorted = site.posts | sort: "date" %}
 {% endif %}
-{% assign current_index = nil %}
-{% for p in sorted %}{% if p.url == page.url %}{% assign current_index = forloop.index0 %}{% endif %}{% endfor %}
 {% assign prev_post = nil %}
 {% assign next_post = nil %}
-{% if current_index %}
-  {% if current_index > 0 %}{% assign prev_post = sorted[current_index | minus: 1] %}{% endif %}
-  {% assign next_i = current_index | plus: 1 %}
-  {% if next_i < sorted.size %}{% assign next_post = sorted[next_i] %}{% endif %}
-{% endif %}
+{% assign found = false %}
+{% for p in sorted %}
+  {% if found and next_post == nil %}{% assign next_post = p %}{% endif %}
+  {% if p.url == page.url %}{% assign found = true %}
+  {% elsif found == false %}{% assign prev_post = p %}
+  {% endif %}
+{% endfor %}
 <article class="post">
   <header class="post-header">
     <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">

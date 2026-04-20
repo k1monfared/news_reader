@@ -118,7 +118,7 @@ def _wrap_email_html(
         f'<div class="email-footer">'
         f'<p>{generated_label}: {datetime.utcnow().strftime("%Y-%m-%d %H:%M")} UTC</p>'
         f'<p><a href="{canonical_url}">{view_online_label}</a> &middot; '
-        f'<a href="{{{{RESEND_UNSUBSCRIBE_URL}}}}">{unsubscribe_label}</a></p>'
+        f'<a href="{{{{{{RESEND_UNSUBSCRIBE_URL}}}}}}">{unsubscribe_label}</a></p>'
         f"</div>"
     )
     return (
@@ -165,10 +165,11 @@ def _send_for_language(
     raw = post_path.read_text(encoding="utf-8")
     frontmatter, body = _split_frontmatter(raw)
 
-    title = frontmatter.get("title") or f"Daily Brief: {date_str}"
     if lang == "fa":
+        subject = frontmatter.get("title") or f"USrael War Daily Brief: {date_str}"
         date_display = frontmatter.get("date_fa", date_str)
     else:
+        subject = f"USrael War Daily Brief: {date_str}"
         try:
             date_display = datetime.strptime(date_str, "%Y-%m-%d").strftime("%B %d, %Y")
         except ValueError:
@@ -187,7 +188,7 @@ def _send_for_language(
 
     html = _wrap_email_html(
         body_html=body_html,
-        subject=title,
+        subject=subject,
         date_display=date_display,
         canonical_url=canonical,
         site_title=site_title,
@@ -204,7 +205,7 @@ def _send_for_language(
         api_key=api_key,
         audience_id=audience_id,
         from_addr=mailer_cfg["from_addr"],
-        subject=title,
+        subject=subject,
         html=html,
         text=text,
         reply_to=mailer_cfg.get("reply_to"),
