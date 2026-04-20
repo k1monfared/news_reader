@@ -33,4 +33,4 @@ id = "c9c411f9e2d4492492c1d5863d01cea8"
 [[d1_databases]]
 binding = "AUDIT_DB"
 database_name = "subscribe-audit"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "223bb434-6f80-4bcc-be62-4c51f63287a6"
