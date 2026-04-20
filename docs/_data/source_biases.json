@@ -576,6 +576,36 @@
         "example_text": "The Israeli 'Yellow Line' in Lebanon raises fears that a temporary military zone could become a longer-term occupation.",
         "example_url": "https://www.aljazeera.com/news/2026/4/19/does-israels-yellow-line-violate-the-lebanon-ceasefire?traffic_source=rss",
         "unbiased_text": "The Israeli 'Yellow Line' in Lebanon is a temporary military zone established under the ceasefire agreement."
+      },
+      {
+        "pattern": "Technofascism ideological labeling",
+        "detail": "Uses loaded ideological terms like 'technofascism' in headlines to frame technology companies and their leaders as extremist threats without neutral descriptors.",
+        "debias": "Use neutral descriptive language for technology advocacy positions and avoid ideological labeling in headlines.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "'Technofascism': Critics accuse Palantir of pushing AI war doctrine",
+        "example_url": "https://www.aljazeera.com/news/2026/4/20/technofascism-critics-accuse-palantir-of-pushing-ai-war-doctrine?traffic_source=rss",
+        "unbiased_text": "Critics raise concerns over Palantir's AI military doctrine advocacy"
+      },
+      {
+        "pattern": "University surveillance corporate militarism conflation",
+        "detail": "Frames security monitoring of student activism as militarized surveillance by emphasizing ex-military backgrounds of security firm personnel.",
+        "debias": "Report security monitoring activities factually without emphasizing military backgrounds to imply militarization intent.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "Investigation reveals how Horus, a company led by ex-military intelligence officials, was hired during protest movement.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/20/uk-universities-pay-to-spy-on-students-social-media-accounts?traffic_source=rss",
+        "unbiased_text": "Investigation reveals how Horus, a security firm, was hired by universities to monitor social media during protest movement."
+      },
+      {
+        "pattern": "Doping risk nationalist credibility undermining",
+        "detail": "Emphasizes national-level athletic integrity failures through 'extremely high' risk categorizations to question country's sporting credibility.",
+        "debias": "Report anti-doping data without amplifying language that generalizes to national credibility questions.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "India in 'extremely high' doping risk bracket: Athletics Integrity Unit",
+        "example_url": "https://www.aljazeera.com/sports/2026/4/20/india-in-extremely-high-doping-risk-bracket-athletics-integrity-unit?traffic_source=rss",
+        "unbiased_text": "India ranked in high doping risk category by Athletics Integrity Unit"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1140,6 +1170,26 @@
         "example_text": "A French peacekeeper serving with United Nations Interim Force in Lebanon was killed and three others wounded in an ambush in southern Lebanon, with Emmanuel Macron blaming Hezbollah, which denies responsibility.",
         "example_url": "https://www.france24.com/en/middle-east-hezbollah-blamed-after-french-peacekeeper-killed-in-lebanon",
         "unbiased_text": "A French peacekeeper serving with United Nations Interim Force in Lebanon was killed and three others wounded in an ambush in southern Lebanon. Emmanuel Macron said Hezbollah was responsible, while Hezbollah has denied involvement."
+      },
+      {
+        "pattern": "Ceasefire fragility through verb choice",
+        "detail": "Describes ceasefires as 'meant to be broken' in expert quotes, normalizing violation expectation rather than presenting it as one analysis among multiple perspectives.",
+        "debias": "Present expert skepticism as one analytical perspective rather than inevitable historical pattern.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "ceasefires in the Middle East, particularly in Lebanon, are often 'meant to be broken', reflecting a deeply pessimistic outlook",
+        "example_url": "https://www.france24.com/en/ceasefire-in-the-middle-east-especially-in-lebanon-are-meant-to-be-broken-analyst-says",
+        "unbiased_text": "ceasefires in the Middle East, particularly in Lebanon, have historically faced challenges in implementation, according to one analyst's assessment"
+      },
+      {
+        "pattern": "Regime entrenchment despite conflict framing",
+        "detail": "Emphasizes authoritarian durability through conflict survival narratives that portray regimes as strengthened rather than weakened by external pressure.",
+        "debias": "Report regime stability assessments without framing conflict as a source of internal political strengthening.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "the longer the conflict drags on, the less unpopular the Islamic Republic becomes domestically",
+        "example_url": "https://www.france24.com/en/iran-prolonged-conflict-reshapes-view-of-the-regime-analyst-says",
+        "unbiased_text": "analysts differ on how prolonged conflict affects domestic perceptions of the Islamic Republic"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -1783,6 +1833,26 @@
         "example_text": "Opposition leaders demanded Starmer's resignation on Thursday after it emerged that US envoy Peter Mandelson was appointed despite having failed his security check.",
         "example_url": "http://www.euronews.com/2026/04/18/starmer-faces-calls-to-step-down-after-appointing-epstein-associate",
         "unbiased_text": "Opposition leaders criticized Starmer on Thursday after it emerged that US envoy Peter Mandelson was appointed despite questions about his security clearance."
+      },
+      {
+        "pattern": "Kremlin Trojan horse attribution",
+        "detail": "Labels political figures as covert foreign agents ('Trojan horse') based on policy positions rather than documented coordination evidence.",
+        "debias": "Report political positions and their implications without espionage metaphors absent concrete evidence of foreign direction.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "a 'practical Trojan horse for Kremlin', says expert",
+        "example_url": "https://www.euronews.com/video/2026/04/20/bulgarias-radev-pro-eu-on-surface-but-a-practical-trojan-horse-for-kremlin-says-expert",
+        "unbiased_text": "an analyst says his policies align with some Kremlin interests"
+      },
+      {
+        "pattern": "Fossil fuel revival fear negation narrative",
+        "detail": "Frames absence of coal increase as debunking 'fears' or predicted scenarios rather than reporting energy data neutrally.",
+        "debias": "Report energy transition data without positioning it as refutation of feared scenarios.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "Fears of a 'coal comeback' triggered by the Iran war energy crisis are not supported by the data",
+        "example_url": "https://www.euronews.com/2026/04/20/solar-and-wind-outpace-coal-as-iran-war-energy-crisis-fails-to-spark-fossil-fuel-revival",
+        "unbiased_text": "Coal use has not increased during the energy crisis, while solar and wind capacity continue to grow"
       }
     ],
     "notes": "Reliable but limited conflict coverage"

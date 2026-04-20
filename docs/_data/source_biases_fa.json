@@ -635,6 +635,39 @@
         "example_url": "https://www.aljazeera.com/news/2026/4/19/does-israels-yellow-line-violate-the-lebanon-ceasefire?traffic_source=rss",
         "unbiased_text": "«خط زرد» اسرائیل در لبنان یک منطقه نظامی موقت است که تحت توافق آتش‌بس مستقر شده است.",
         "pattern_en": "Occupation permanence insinuation framing"
+      },
+      {
+        "pattern": "برچسب‌زنی ایدئولوژیک تکنوفاشیسم",
+        "detail": "استفاده از اصطلاحات ایدئولوژیک بارگذاری‌شده مانند «تکنوفاشیسم» در تیترها برای قاب‌بندی شرکت‌های فناوری و رهبران آن‌ها به‌عنوان تهدیدات افراطی بدون توصیف‌کننده‌های خنثی.",
+        "debias": "از زبان توصیفی خنثی برای مواضع حمایتی فناوری استفاده کنید و از برچسب‌زنی ایدئولوژیک در تیترها اجتناب نمایید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "«تکنوفاشیسم»: منتقدان Palantir را به پیش بردن دکترین جنگ هوش مصنوعی متهم می‌کنند",
+        "example_url": "https://www.aljazeera.com/news/2026/4/20/technofascism-critics-accuse-palantir-of-pushing-ai-war-doctrine?traffic_source=rss",
+        "unbiased_text": "منتقدان نگرانی‌هایی را درباره حمایت Palantir از دکترین نظامی هوش مصنوعی مطرح می‌کنند",
+        "pattern_en": "Technofascism ideological labeling"
+      },
+      {
+        "pattern": "تلفیق نظارت دانشگاهی با نظامی‌گری شرکتی",
+        "detail": "نظارت امنیتی بر فعالیت‌های دانشجویی را با تأکید بر پیشینه نظامی پرسنل شرکت‌های امنیتی به عنوان نظارت نظامی‌شده قاب‌بندی می‌کند.",
+        "debias": "فعالیت‌های نظارت امنیتی را به صورت واقعی گزارش کنید بدون تأکید بر پیشینه نظامی که دلالت بر قصد نظامی‌سازی داشته باشد.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "تحقیقات نشان می‌دهد که چگونه Horus، شرکتی به رهبری مقامات سابق اطلاعات نظامی، در طول جنبش اعتراضی استخدام شد.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/20/uk-universities-pay-to-spy-on-students-social-media-accounts?traffic_source=rss",
+        "unbiased_text": "تحقیقات نشان می‌دهد که چگونه Horus، یک شرکت امنیتی، توسط دانشگاه‌ها برای نظارت بر رسانه‌های اجتماعی در طول جنبش اعتراضی استخدام شد.",
+        "pattern_en": "University surveillance corporate militarism conflation"
+      },
+      {
+        "pattern": "تضعیف اعتبار ملی از طریق ریسک دوپینگ",
+        "detail": "با استفاده از دسته‌بندی ریسک «بسیار بالا»، بر شکست‌های یکپارچگی ورزشی در سطح ملی تأکید می‌کند تا اعتبار ورزشی کشور را زیر سؤال ببرد.",
+        "debias": "داده‌های ضد دوپینگ را بدون استفاده از زبان تقویت‌کننده‌ای که به سؤالات اعتبار ملی تعمیم می‌یابد، گزارش دهید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "India در دسته ریسک دوپینگ «بسیار بالا»: واحد یکپارچگی دوومیدانی",
+        "example_url": "https://www.aljazeera.com/sports/2026/4/20/india-in-extremely-high-doping-risk-bracket-athletics-integrity-unit?traffic_source=rss",
+        "unbiased_text": "India در رده ریسک دوپینگ بالا توسط واحد یکپارچگی دوومیدانی قرار گرفت",
+        "pattern_en": "Doping risk nationalist credibility undermining"
       }
     ]
   },
@@ -1232,6 +1265,28 @@
         "example_url": "https://www.france24.com/en/middle-east-hezbollah-blamed-after-french-peacekeeper-killed-in-lebanon",
         "unbiased_text": "یک نیروی حافظ صلح فرانسوی در خدمت نیروی موقت سازمان ملل در لبنان در کمینی در جنوب لبنان کشته و سه نفر دیگر زخمی شدند. امانوئل مکرون گفت حزب‌الله مسئول است، در حالی که حزب‌الله دخالت خود را انکار کرده است.",
         "pattern_en": "Denial as guilt implication"
+      },
+      {
+        "pattern": "شکنندگی آتش‌بس از طریق انتخاب فعل",
+        "detail": "آتش‌بس‌ها را در نقل‌قول‌های کارشناسان به عنوان «موضوعی که قرار است نقض شود» توصیف می‌کند و انتظار نقض را عادی‌سازی می‌کند به جای اینکه آن را به عنوان یکی از تحلیل‌های متعدد ارائه دهد.",
+        "debias": "تردید کارشناسان را به عنوان یک دیدگاه تحلیلی ارائه دهید نه به عنوان الگوی تاریخی اجتناب‌ناپذیر.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "آتش‌بس‌ها در خاورمیانه، به ویژه در لبنان، اغلب «برای نقض شدن طراحی شده‌اند»، که منعکس‌کننده دیدگاهی عمیقاً بدبینانه است",
+        "example_url": "https://www.france24.com/en/ceasefire-in-the-middle-east-especially-in-lebanon-are-meant-to-be-broken-analyst-says",
+        "unbiased_text": "آتش‌بس‌ها در خاورمیانه، به ویژه در لبنان، از نظر تاریخی با چالش‌هایی در اجرا مواجه بوده‌اند، بر اساس ارزیابی یکی از تحلیلگران",
+        "pattern_en": "Ceasefire fragility through verb choice"
+      },
+      {
+        "pattern": "تثبیت رژیم علی‌رغم چارچوب‌بندی درگیری",
+        "detail": "بر پایداری اقتدارگرایی از طریق روایت‌های بقای درگیری تأکید می‌کند که رژیم‌ها را به‌جای تضعیف‌شده، تقویت‌شده توسط فشار خارجی به تصویر می‌کشد.",
+        "debias": "ارزیابی‌های ثبات رژیم را بدون چارچوب‌بندی درگیری به‌عنوان منبع تقویت سیاسی داخلی گزارش کنید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "هرچه درگیری طولانی‌تر شود، جمهوری اسلامی در داخل کشور محبوبیت کمتری از دست می‌دهد",
+        "example_url": "https://www.france24.com/en/iran-prolonged-conflict-reshapes-view-of-the-regime-analyst-says",
+        "unbiased_text": "تحلیلگران در مورد تأثیر درگیری طولانی‌مدت بر ادراکات داخلی از جمهوری اسلامی اختلاف نظر دارند",
+        "pattern_en": "Regime entrenchment despite conflict framing"
       }
     ]
   },
@@ -1928,6 +1983,28 @@
         "example_url": "http://www.euronews.com/2026/04/18/starmer-faces-calls-to-step-down-after-appointing-epstein-associate",
         "unbiased_text": "رهبران اپوزیسیون روز پنج‌شنبه از استارمر انتقاد کردند، پس از آنکه مشخص شد پیتر مندلسون، فرستاده به ایالات متحده، علی‌رغم سؤالاتی درباره مجوز امنیتی‌اش منصوب شده است.",
         "pattern_en": "Security check failure scandal elevation"
+      },
+      {
+        "pattern": "انتساب اسب تروا به کرملین",
+        "detail": "برچسب زدن به شخصیت‌های سیاسی به‌عنوان عوامل مخفی خارجی («اسب تروا») بر اساس مواضع سیاسی به‌جای شواهد مستند هماهنگی.",
+        "debias": "مواضع سیاسی و پیامدهای آن‌ها را بدون استفاده از استعاره‌های جاسوسی در غیاب شواهد مشخص از هدایت خارجی گزارش کنید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "«یک اسب تروای عملی برای کرملین»، کارشناس می‌گوید",
+        "example_url": "https://www.euronews.com/video/2026/04/20/bulgarias-radev-pro-eu-on-surface-but-a-practical-trojan-horse-for-kremlin-says-expert",
+        "unbiased_text": "یک تحلیلگر می‌گوید سیاست‌های او با برخی منافع کرملین همسو است",
+        "pattern_en": "Kremlin Trojan horse attribution"
+      },
+      {
+        "pattern": "روایت نفی ترس از احیای سوخت‌های فسیلی",
+        "detail": "عدم افزایش زغال‌سنگ را به‌عنوان رد «ترس‌ها» یا سناریوهای پیش‌بینی‌شده قاب‌بندی می‌کند به‌جای گزارش خنثی داده‌های انرژی.",
+        "debias": "داده‌های انتقال انرژی را بدون موضع‌گیری به‌عنوان رد سناریوهای ترس‌آور گزارش دهید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "ترس‌ها از «بازگشت زغال‌سنگ» که توسط بحران انرژی جنگ ایران آغاز شده بود توسط داده‌ها پشتیبانی نمی‌شود",
+        "example_url": "https://www.euronews.com/2026/04/20/solar-and-wind-outpace-coal-as-iran-war-energy-crisis-fails-to-spark-fossil-fuel-revival",
+        "unbiased_text": "مصرف زغال‌سنگ در طول بحران انرژی افزایش نیافته است، درحالی‌که ظرفیت انرژی خورشیدی و بادی به رشد خود ادامه می‌دهد",
+        "pattern_en": "Fossil fuel revival fear negation narrative"
       }
     ]
   }
