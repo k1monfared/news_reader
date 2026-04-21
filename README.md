@@ -1,22 +1,25 @@
-# Iran Conflict Daily Brief
+# USrael War on Iran: Daily Brief
 
-**Status**: 🟡 MVP | **Mode**: 🤖 Claude Code | **Updated**: 2026-03-29
+**Status**: 🟡 MVP | **Mode**: 🤖 Claude Code | **Updated**: 2026-04-20
 
-Automated daily news digest pipeline for the Iran conflict. Fetches from 3 sources, translates Farsi, deduplicates, filters by importance, categorizes, and publishes an expandable-format blog post to GitHub Pages.
+Automated daily news digest pipeline covering the US-Israel war on Iran. Fetches from 4 RSS sources, deduplicates events, filters by importance, categorizes, runs an editorial pass, verifies links, publishes a blog post, and optionally translates to Farsi and emails subscribers. Published to GitHub Pages.
 
 ## Pipeline
 
 ```
-cron (daily 8am Pacific)
-  -> fetch       (Al Jazeera RSS, Iran Intl scrape, Reuters RSS)
-  -> translate   (Farsi -> English via LLM)
-  -> dedup       (TF-IDF cosine similarity clustering)
-  -> filter      (LLM importance classification with source bias awareness)
-  -> categorize  (LLM topic bucketing)
-  -> summarize   (LLM report generation with expandable format)
-  -> editorial   (LLM review for contradictions and coherence)
-  -> verify      (HTTP HEAD checks on all URLs)
-  -> publish     (git push to gh-pages)
+cron (daily 8am Pacific) via GitHub Actions
+  -> fetch               (Al Jazeera, Reuters, France 24, Euronews RSS)
+  -> translate           (any non-English items -> English via LLM)
+  -> dedup               (TF-IDF cosine similarity clustering)
+  -> filter              (LLM importance classification with source bias awareness)
+  -> categorize          (LLM topic bucketing)
+  -> track_developments  (LLM comparison against the last 7 days of posts)
+  -> summarize           (LLM report generation with expandable format)
+  -> editorial           (LLM review for contradictions, bias detection)
+  -> verify              (HTTP HEAD checks on all URLs)
+  -> publish             (write Jekyll post to docs/_posts/)
+  -> translate_fa        (LLM translation to Farsi, write docs/_fa_posts/, git commit + push)
+  -> mailer              (send broadcast to Resend audiences via newsletter_base)
 ```
 
 ## Setup
@@ -54,19 +57,30 @@ run_pipeline.py          # orchestrator with backfill
 prompt_loader.py         # YAML prompt template loader
 
 stages/
-  fetch.py               # source fetching
-  translate.py           # Farsi translation
+  fetch.py               # RSS source fetching
+  fetchers/              # per-source fetcher classes behind BaseFetcher
+  translate.py           # non-English -> English translation
   dedup.py               # TF-IDF deduplication
   filter.py              # importance filtering
   categorize.py          # topic bucketing
+  track_developments.py  # cross-day story tracking
   summarize.py           # report generation
-  editorial.py           # editorial review
+  editorial.py           # editorial review + bias detection
   verify.py              # URL verification
-  publish.py             # GitHub Pages deployment
+  publish.py             # write Jekyll post
+  translate_fa.py        # Farsi translation + atomic commit/push
+  mailer.py              # send broadcast via newsletter_base / Resend
 
 prompts/*.yaml           # versioned prompt templates
-site/                    # Jekyll blog structure
-data/runs/               # per-run output and audit trails
+docs/                    # Jekyll site (GitHub Pages builds from here)
+  _posts/                # published English daily briefs
+  _fa_posts/             # Farsi parallel posts
+  _data/                 # i18n strings, source bias records
+  subscribe.md, ...      # subscribe / confirmation / blocked pages
+
+subscribe-proxy/         # Cloudflare Worker (vendored from newsletter_base)
+scripts/                 # one-off maintenance helpers
+data/runs/               # per-run output and audit trails (gitignored)
 ```
 
 ## What each run saves
