@@ -606,6 +606,36 @@
         "example_text": "India in 'extremely high' doping risk bracket: Athletics Integrity Unit",
         "example_url": "https://www.aljazeera.com/sports/2026/4/20/india-in-extremely-high-doping-risk-bracket-athletics-integrity-unit?traffic_source=rss",
         "unbiased_text": "India ranked in high doping risk category by Athletics Integrity Unit"
+      },
+      {
+        "pattern": "Triple-leader predator equivalence framing",
+        "detail": "Groups democratically elected Western leaders with authoritarian figures under a single condemnatory label implying moral equivalence.",
+        "debias": "Report on human rights criticisms separately for each leader without conflating democratic and authoritarian contexts.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "Global rights group says leaders of three countries behind devastating wars inspire other states to carry out abuses.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/20/predators-amnesty-slams-netanyahu-putin-trump-as-human-rights-decline?traffic_source=rss",
+        "unbiased_text": "Global rights group issued separate criticisms of leaders in Israel, Russia, and the United States, citing concerns over military operations and human rights impacts in their respective contexts."
+      },
+      {
+        "pattern": "Christian desecration outcry amplification",
+        "detail": "Emphasizes religious symbol destruction to mobilize interfaith opposition against military actions while highlighting former political allies' condemnation.",
+        "debias": "Report the incident factually, noting the military's response and any disciplinary actions without amplifying political reactions.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "Some of Donald Trump's former MAGA allies denounce the desecration of Christian religious symbol by Israeli soldier.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/20/outcry-grows-over-israeli-soldier-smashing-jesus-statue-in-lebanon?traffic_source=rss",
+        "unbiased_text": "Various political figures criticized an Israeli soldier's destruction of a Jesus statue in Lebanon, which the Israeli military confirmed and said it is investigating."
+      },
+      {
+        "pattern": "ICC compliance reversal celebration",
+        "detail": "Frames election results as validation of international law enforcement by emphasizing new leader's commitment to arrest warrants previous government opposed.",
+        "debias": "Report the policy position change without celebratory framing, noting it as a shift in diplomatic approach.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "Hungary's election winner says he would enact an ICC arrest warrant for Israeli PM Benjamin Netanyahu and detain him.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/20/hungarys-incoming-pm-says-netanyahu-would-be-arrested-if-he-visits?traffic_source=rss",
+        "unbiased_text": "Hungary's incoming prime minister stated his government would comply with the ICC arrest warrant for Israeli PM Benjamin Netanyahu if he visits the country."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1190,6 +1220,26 @@
         "example_text": "the longer the conflict drags on, the less unpopular the Islamic Republic becomes domestically",
         "example_url": "https://www.france24.com/en/iran-prolonged-conflict-reshapes-view-of-the-regime-analyst-says",
         "unbiased_text": "analysts differ on how prolonged conflict affects domestic perceptions of the Islamic Republic"
+      },
+      {
+        "pattern": "Territorial doctrine buffer zone permanence insinuation",
+        "detail": "Frames military security zones as tools for territorial expansion rather than temporary security measures.",
+        "debias": "Report on security doctrines by presenting stated military objectives without interpreting unstated territorial ambitions.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "Drawing on recent developments in Gaza, Syria, and Lebanon, he argues that this doctrine operates as a legal façade for expanding occupation under the language of self-defence.",
+        "example_url": "https://www.france24.com/en/hierarchy-of-sovereignty-israel-claims-authority-over-which-lebanese-areas-are-inhabitable",
+        "unbiased_text": "The analyst stated that Israel's Yellow Line doctrine designates areas where it claims security concerns require restricting access, which critics say exceeds defensive military needs."
+      },
+      {
+        "pattern": "Negotiation ritual tactical dismissal",
+        "detail": "Characterizes diplomatic positioning as performative maneuvering rather than substantive engagement in peace processes.",
+        "debias": "Report on pre-negotiation actions without dismissing them as merely tactical or ritualistic.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "According to Townsend, US–Iran negotiations are shaped by tactical manoeuvering: a pre-negotiation ritual in which both sides position themselves strategically through public posturing and calculated obstruction.",
+        "example_url": "https://www.france24.com/en/us-military-leverage-a-risky-tactic-bombs-military-escalation-will-not-bring-iran-to-the-table",
+        "unbiased_text": "Townsend noted that both the US and Iran are taking public positions before formal negotiations, which is common in diplomatic processes."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -1853,6 +1903,26 @@
         "example_text": "Fears of a 'coal comeback' triggered by the Iran war energy crisis are not supported by the data",
         "example_url": "https://www.euronews.com/2026/04/20/solar-and-wind-outpace-coal-as-iran-war-energy-crisis-fails-to-spark-fossil-fuel-revival",
         "unbiased_text": "Coal use has not increased during the energy crisis, while solar and wind capacity continue to grow"
+      },
+      {
+        "pattern": "Pipeline conditionality leverage assertion",
+        "detail": "Frames energy infrastructure access as bargaining chip while attributing responsibility for opening blocked pipelines to one party.",
+        "debias": "Report infrastructure disputes neutrally, presenting positions of all parties without suggesting who 'should' act.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "'If Druzhba is operational, Zelenskyy should open it,' Magyar says about pipeline",
+        "example_url": "http://www.euronews.com/2026/04/20/if-druzhba-is-operational-zelenskyy-should-open-it-magyar-says-about-pipeline",
+        "unbiased_text": "Magyar stated that Hungary's position on EU matters could change if the Druzhba pipeline resumes operations, which requires action from multiple parties including Ukraine."
+      },
+      {
+        "pattern": "Middle power diplomatic ascendancy narrative",
+        "detail": "Presents regional powers hosting summits as evidence of shifting global influence away from traditional powers.",
+        "debias": "Report diplomatic gatherings factually without interpreting them as indicators of geopolitical power shifts.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "At the Antalya summit, Erdoğan brought together leaders of 150 countries to tackle crises, promote alternatives to the Strait of Hormuz, and showcase the growing diplomatic clout of middle powers.",
+        "example_url": "http://www.euronews.com/2026/04/20/turkey-rallies-global-middle-powers-in-antalya-amid-hormuz-crisis",
+        "unbiased_text": "Turkey hosted a summit in Antalya attended by leaders from 150 countries to discuss regional crises and trade route alternatives."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

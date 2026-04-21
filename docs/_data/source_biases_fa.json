@@ -668,6 +668,41 @@
         "example_url": "https://www.aljazeera.com/sports/2026/4/20/india-in-extremely-high-doping-risk-bracket-athletics-integrity-unit?traffic_source=rss",
         "unbiased_text": "India در رده ریسک دوپینگ بالا توسط واحد یکپارچگی دوومیدانی قرار گرفت",
         "pattern_en": "Doping risk nationalist credibility undermining"
+      },
+      {
+        "pattern": "قاب‌بندی هم‌ارزی غارتگران سه‌گانه رهبران",
+        "detail": "رهبران منتخب دموکراتیک غربی را در کنار چهره‌های اقتدارگرا تحت یک برچسب محکومیت‌آمیز واحد قرار می‌دهد که هم‌ارزی اخلاقی را القا می‌کند.",
+        "debias": "انتقادات مربوط به حقوق بشر را برای هر رهبر به‌طور جداگانه گزارش کنید بدون اینکه زمینه‌های دموکراتیک و اقتدارگرا را با هم درآمیزید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "گروه جهانی حقوق بشر می‌گوید رهبران سه کشور در پشت جنگ‌های ویرانگر، کشورهای دیگر را به انجام نقض حقوق بشر ترغیب می‌کنند.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/20/predators-amnesty-slams-netanyahu-putin-trump-as-human-rights-decline?traffic_source=rss",
+        "unbiased_text": "گروه جهانی حقوق بشر انتقادات جداگانه‌ای از رهبران اسرائیل، روسیه و ایالات متحده منتشر کرد و نگرانی‌هایی درباره عملیات نظامی و تأثیرات حقوق بشری در زمینه‌های مربوط به هر کدام مطرح نمود.",
+        "detail_items": [],
+        "pattern_en": "Triple-leader predator equivalence framing"
+      },
+      {
+        "pattern": "تقویت اعتراض به هتک حرمت مسیحی",
+        "detail": "بر تخریب نمادهای مذهبی تأکید می‌کند تا مخالفت بین‌ادیانی علیه اقدامات نظامی را بسیج کند، در حالی که محکومیت متحدان سیاسی سابق را برجسته می‌سازد.",
+        "debias": "این رویداد را به صورت واقعی گزارش دهید، با اشاره به واکنش ارتش و هرگونه اقدامات انضباطی، بدون تقویت واکنش‌های سیاسی.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "برخی از متحدان سابق دونالد ترامپ در جنبش MAGA هتک حرمت به نماد مذهبی مسیحی توسط سرباز اسرائیلی را محکوم می‌کنند.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/20/outcry-grows-over-israeli-soldier-smashing-jesus-statue-in-lebanon?traffic_source=rss",
+        "unbiased_text": "چندین چهره سیاسی تخریب مجسمه عیسی توسط یک سرباز اسرائیلی در لبنان را مورد انتقاد قرار دادند، واقعه‌ای که ارتش اسرائیل آن را تأیید کرد و اعلام نمود در حال بررسی است.",
+        "detail_items": [],
+        "pattern_en": "Christian desecration outcry amplification"
+      },
+      {
+        "pattern": "جشن از تغییر موضع در اجرای حکم دادگاه بین‌المللی",
+        "detail": "نتایج انتخابات را به عنوان تأییدی بر اجرای قوانین بین‌المللی قاب می‌کند با تأکید بر تعهد رهبر جدید به اجرای احکام بازداشت که دولت قبلی با آن مخالف بود.",
+        "debias": "تغییر موضع سیاسی را بدون قاب‌بندی جشن‌گرایانه گزارش کنید و آن را به عنوان تغییر در رویکرد دیپلماتیک ذکر نمایید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "برنده انتخابات مجارستان می‌گوید که حکم بازداشت دادگاه بین‌المللی کیفری علیه نخست‌وزیر اسرائیل بنیامین نتانیاهو را اجرا خواهد کرد و او را بازداشت می‌کند.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/20/hungarys-incoming-pm-says-netanyahu-would-be-arrested-if-he-visits?traffic_source=rss",
+        "unbiased_text": "نخست‌وزیر آتی مجارستان اعلام کرد که دولت او در صورت سفر بنیامین نتانیاهو نخست‌وزیر اسرائیل به این کشور، حکم بازداشت دادگاه بین‌المللی کیفری را اجرا خواهد کرد.",
+        "pattern_en": "ICC compliance reversal celebration"
       }
     ]
   },
@@ -1287,6 +1322,28 @@
         "example_url": "https://www.france24.com/en/iran-prolonged-conflict-reshapes-view-of-the-regime-analyst-says",
         "unbiased_text": "تحلیلگران در مورد تأثیر درگیری طولانی‌مدت بر ادراکات داخلی از جمهوری اسلامی اختلاف نظر دارند",
         "pattern_en": "Regime entrenchment despite conflict framing"
+      },
+      {
+        "pattern": "تلقین دائمی بودن منطقه حائل در دکترین سرزمینی",
+        "detail": "مناطق امنیتی نظامی را به‌عنوان ابزاری برای گسترش سرزمینی به‌جای اقدامات امنیتی موقت قاب‌بندی می‌کند.",
+        "debias": "با ارائه اهداف نظامی اعلام‌شده بدون تفسیر جاه‌طلبی‌های سرزمینی بیان‌نشده، درباره دکترین‌های امنیتی گزارش دهید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "با استناد به تحولات اخیر در غزه، سوریه و لبنان، وی استدلال می‌کند که این دکترین به‌عنوان نمایی حقوقی برای گسترش اشغال تحت عنوان دفاع از خود عمل می‌کند.",
+        "example_url": "https://www.france24.com/en/hierarchy-of-sovereignty-israel-claims-authority-over-which-lebanese-areas-are-inhabitable",
+        "unbiased_text": "تحلیلگر اظهار داشت که دکترین خط زرد اسرائیل مناطقی را مشخص می‌کند که در آن‌ها ادعای نگرانی‌های امنیتی برای محدود کردن دسترسی را دارد، که منتقدان می‌گویند فراتر از نیازهای نظامی دفاعی است.",
+        "pattern_en": "Territorial doctrine buffer zone permanence insinuation"
+      },
+      {
+        "pattern": "رد کردن تاکتیکی آیین مذاکره",
+        "detail": "موضع‌گیری دیپلماتیک را به‌جای درگیری ماهوی در فرایندهای صلح، به‌عنوان مانورهای نمایشی توصیف می‌کند.",
+        "debias": "درباره اقدامات پیش از مذاکره گزارش دهید بدون اینکه آن‌ها را صرفاً تاکتیکی یا تشریفاتی بخوانید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "به گفته تاونسند، مذاکرات ایالات متحده و ایران توسط مانورهای تاکتیکی شکل می‌گیرد: یک آیین پیش از مذاکره که در آن هر دو طرف خود را از طریق موضع‌گیری عمومی و انسداد محاسبه‌شده به‌صورت راهبردی جای می‌دهند.",
+        "example_url": "https://www.france24.com/en/us-military-leverage-a-risky-tactic-bombs-military-escalation-will-not-bring-iran-to-the-table",
+        "unbiased_text": "تاونسند اشاره کرد که هم ایالات متحده و هم ایران پیش از مذاکرات رسمی، موضع‌های عمومی اتخاذ می‌کنند که این امر در فرایندهای دیپلماتیک رایج است.",
+        "pattern_en": "Negotiation ritual tactical dismissal"
       }
     ]
   },
@@ -2005,6 +2062,28 @@
         "example_url": "https://www.euronews.com/2026/04/20/solar-and-wind-outpace-coal-as-iran-war-energy-crisis-fails-to-spark-fossil-fuel-revival",
         "unbiased_text": "مصرف زغال‌سنگ در طول بحران انرژی افزایش نیافته است، درحالی‌که ظرفیت انرژی خورشیدی و بادی به رشد خود ادامه می‌دهد",
         "pattern_en": "Fossil fuel revival fear negation narrative"
+      },
+      {
+        "pattern": "ادعای اهرم شرطی‌سازی خط لوله",
+        "detail": "دسترسی به زیرساخت انرژی را به‌عنوان ابزار چانه‌زنی قاب‌بندی می‌کند و در عین حال مسئولیت باز کردن خطوط لوله مسدود شده را به یک طرف نسبت می‌دهد.",
+        "debias": "اختلافات زیرساختی را به‌طور بی‌طرفانه گزارش کنید و مواضع همه طرف‌ها را بدون پیشنهاد اینکه چه کسی «باید» اقدام کند، ارائه دهید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "«اگر دروژبا فعال است، زلنسکی باید آن را باز کند»، ماگیار درباره خط لوله می‌گوید",
+        "example_url": "http://www.euronews.com/2026/04/20/if-druzhba-is-operational-zelenskyy-should-open-it-magyar-says-about-pipeline",
+        "unbiased_text": "ماگیار اظهار داشت که موضع مجارستان در مورد مسائل اتحادیه اروپا می‌تواند تغییر کند اگر خط لوله دروژبا عملیات خود را از سر بگیرد، که نیازمند اقدام طرف‌های متعدد از جمله اوکراین است.",
+        "pattern_en": "Pipeline conditionality leverage assertion"
+      },
+      {
+        "pattern": "روایت برتری دیپلماتیک قدرت‌های میانه",
+        "detail": "میزبانی قدرت‌های منطقه‌ای از اجلاس‌ها را به عنوان شاهدی بر جابه‌جایی نفوذ جهانی از قدرت‌های سنتی ارائه می‌دهد.",
+        "debias": "گردهمایی‌های دیپلماتیک را به صورت واقعی گزارش کنید بدون اینکه آنها را به عنوان نشانگر تغییرات ژئوپلیتیکی قدرت تفسیر نمایید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "در اجلاس آنتالیا، اردوغان رهبران ۱۵۰ کشور را گردهم آورد تا بحران‌ها را حل و فصل کنند، جایگزین‌هایی برای تنگه هرمز ترویج دهند و نفوذ دیپلماتیک روزافزون قدرت‌های میانه را به نمایش بگذارند.",
+        "example_url": "http://www.euronews.com/2026/04/20/turkey-rallies-global-middle-powers-in-antalya-amid-hormuz-crisis",
+        "unbiased_text": "ترکیه اجلاسی را در آنتالیا میزبانی کرد که رهبران ۱۵۰ کشور برای بحث درباره بحران‌های منطقه‌ای و مسیرهای جایگزین تجاری در آن حضور داشتند.",
+        "pattern_en": "Middle power diplomatic ascendancy narrative"
       }
     ]
   }
