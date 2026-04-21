@@ -84,20 +84,26 @@ def _wrap_email_html(
     site_title: str,
     lang: str,
     labels: dict,
+    sponsor_url: str | None = None,
 ) -> str:
     direction = "rtl" if lang == "fa" else "ltr"
     generated_label = labels.get("generated", "Generated")
     view_online_label = labels.get("view_online", "View online")
     unsubscribe_label = labels.get("unsubscribe", "Unsubscribe")
+    sponsor_label = labels.get("sponsor", "Sponsor")
     header = (
         f'<div class="email-header">'
         f'<strong>{site_title}</strong> &middot; {date_display}'
         f"</div>"
     )
+    sponsor_link = (
+        f'<a href="{sponsor_url}">{sponsor_label}</a> &middot; ' if sponsor_url else ""
+    )
     footer = (
         f'<div class="email-footer">'
         f'<p>{generated_label}: {datetime.utcnow().strftime("%Y-%m-%d %H:%M")} UTC</p>'
         f'<p><a href="{canonical_url}">{view_online_label}</a> &middot; '
+        f'{sponsor_link}'
         f'<a href="{{{{{{RESEND_UNSUBSCRIBE_URL}}}}}}">{unsubscribe_label}</a></p>'
         f"</div>"
     )
@@ -163,6 +169,7 @@ def _send_for_language(
         site_title=site_title,
         lang=lang,
         labels=labels,
+        sponsor_url=mailer_cfg.get("sponsor_url"),
     )
     text = _plain_text_fallback(body)
 
@@ -217,11 +224,13 @@ def run_mailer(
         "generated": "Generated",
         "view_online": "View online",
         "unsubscribe": "Unsubscribe",
+        "sponsor": "Sponsor",
     }
     fa_labels = mailer_cfg.get("labels_fa") or {
         "generated": "تولید شده در",
         "view_online": "مشاهده آنلاین",
         "unsubscribe": "لغو اشتراک",
+        "sponsor": "حمایت مالی",
     }
 
     results: list[dict] = []

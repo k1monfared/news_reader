@@ -31,6 +31,9 @@
         {% if site.subscribe_proxy_url and site.subscribe_proxy_url != "" %}
         <a href="{% if lang == 'fa' %}{{ '/fa/subscribe/' | relative_url }}{% else %}{{ '/subscribe/' | relative_url }}{% endif %}">{{ t.nav_subscribe }}</a>
         {% endif %}
+        {% if site.sponsor_url and site.sponsor_url != "" %}
+        <a href="{{ site.sponsor_url }}" rel="external noopener">{{ t.nav_sponsor }}</a>
+        {% endif %}
         {% if lang == "en" %}
         <a href="{{ '/feed.xml' | relative_url }}">{{ t.nav_rss }}</a>
         {% endif %}

@@ -6,6 +6,10 @@ url: "https://k1monfared.github.io"
 # Subscribe form target. Points at the deployed Cloudflare Worker
 # (see subscribe-proxy/). Set to empty string to hide subscribe pages.
 subscribe_proxy_url: "https://subscribe-proxy.usraelwar.workers.dev"
+
+# Sponsor link shown in the nav bar and About page. Set to empty string
+# to hide.
+sponsor_url: "https://k1monfared.github.io/sponsor.html"
 kramdown:
   parse_block_html: true
 

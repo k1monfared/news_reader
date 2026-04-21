@@ -287,3 +287,6 @@ mailer:
   site_title_fa: "جنگ آمریکا و اسرائیل علیه ایران: گزارش روزانه"
   audience_id_en: "7ec60861-ef0c-497d-84a7-8ca2ac58bf53"
   audience_id_fa: "c678f5df-c304-41fa-b641-e58ba5653cf7"
+  # Sponsor link shown in each email footer between "View online" and
+  # "Unsubscribe". Set to null to hide.
+  sponsor_url: "https://k1monfared.github.io/sponsor.html"

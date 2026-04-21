@@ -115,6 +115,14 @@ Every news source carries biases in how it frames, emphasizes, and omits informa
 
 ---
 
+# Support this project
+
+This pipeline runs on free tiers of GitHub, Cloudflare, and Resend, but the LLM calls cost a few dollars a day. If you find the daily brief useful, you can help cover the bill.
+
+**[Sponsor this project]({{ site.sponsor_url }})**
+
+---
+
 **Source code:** [github.com/k1monfared/news_reader](https://github.com/k1monfared/news_reader)
 
 </div>
