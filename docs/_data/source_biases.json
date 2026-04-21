@@ -656,6 +656,36 @@
         "example_text": "Donald Trump has released various social media comments throughout the day, preaching about winning the war.",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/20/trump-boasts-on-winning-war-on-social-media-posts?traffic_source=rss",
         "unbiased_text": "Donald Trump made various unverified claims on social media throughout the day about the conflict's status."
+      },
+      {
+        "pattern": "All-women cohort historic milestone emphasis",
+        "detail": "Highlighting the gender composition of award winners as the primary newsworthy element rather than their environmental achievements.",
+        "debias": "Lead with the environmental work accomplished, mentioning gender composition as secondary context if relevant.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "First all-women cohort of winners hails from Colombia, Nigeria, Papua New Guinea, South Korea, the UK and the US.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/21/six-women-win-2026-goldman-prize-worlds-top-environmental-award?traffic_source=rss",
+        "unbiased_text": "Six environmental activists from Colombia, Nigeria, Papua New Guinea, South Korea, the UK and the US won the Goldman Prize for their conservation work."
+      },
+      {
+        "pattern": "Defamation lawsuit amount sensationalism",
+        "detail": "Emphasizing the monetary value of legal actions to dramatize disputes rather than focusing on substantive legal or factual claims.",
+        "debias": "Report the legal dispute's basis and claims without leading with dollar amounts as the primary framing.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "The Atlantic defends its reporting as Kash Patel denies allegations and files a $250m US defamation lawsuit.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/20/fbi-director-kash-patel-sues-atlantic-for-false-reporting-on-drinking?traffic_source=rss",
+        "unbiased_text": "The Atlantic defends its reporting as Kash Patel denies allegations and files a defamation lawsuit over stories about his conduct."
+      },
+      {
+        "pattern": "MAGA ally defection amplification",
+        "detail": "Highlighting splits within political coalitions by emphasizing former allies' criticism as validation of wrongdoing.",
+        "debias": "Report criticism from various sources without framing internal political fractures as especially significant.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "Some of Donald Trump's former MAGA allies denounce the desecration of Christian religious symbol by Israeli soldier.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/20/outcry-grows-over-israeli-soldier-smashing-jesus-statue-in-lebanon?traffic_source=rss",
+        "unbiased_text": "Political figures and religious leaders across multiple groups denounce the desecration of Christian religious symbol by Israeli soldier."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1270,6 +1300,16 @@
         "example_text": "The Israeli military confirmed a viral photo of one of its soldiers smashing a statue of Jesus with a sledgehammer in southern Lebanon is \"authentic,\" and said its launched an investigation into the incident.",
         "example_url": "https://www.france24.com/en/israel-confirms-its-soldier-destroyed-jesus-statue-in-lebanon",
         "unbiased_text": "The Israeli military acknowledged the incident after a photo circulated showing a soldier destroying a statue of Jesus in southern Lebanon and said it opened an investigation."
+      },
+      {
+        "pattern": "Authenticity confirmation framing as investigation",
+        "detail": "Treating military confirmation of already-verified incidents as if it constitutes new investigative revelation.",
+        "debias": "Report confirmations as administrative acknowledgments rather than investigative breakthroughs.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "The Israeli military confirmed a viral photo of one of its soldiers smashing a statue of Jesus with a sledgehammer in southern Lebanon is \"authentic,\" and said its launched an investigation into the incident.",
+        "example_url": "https://www.france24.com/en/israel-confirms-its-soldier-destroyed-jesus-statue-in-lebanon",
+        "unbiased_text": "The Israeli military acknowledged the viral photo of a soldier destroying a Jesus statue in southern Lebanon and said it would investigate the incident."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -1973,6 +2013,26 @@
         "example_text": "The winning robot ran the half marathon nearly seven minutes faster than the current human record set by Jacob Kiplimo.",
         "example_url": "http://www.euronews.com/next/2026/04/20/humanoid-robot-smashes-human-half-marathon-world-record-in-beijing-race",
         "unbiased_text": "The humanoid robot completed the half marathon in a time that demonstrated significant advances in robotic endurance and mobility."
+      },
+      {
+        "pattern": "Rescue restranding narrative repetition",
+        "detail": "Framing animal rescue attempts as cyclical failures through emphasis on repeated strandings rather than ongoing efforts.",
+        "debias": "Report rescue developments neutrally without framing pattern as inherently futile or comedic.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "Timmy, the whale stranded off Germany's coast, swims off and gets stuck...again",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/20/timmy-the-whale-stranded-off-germanys-coast-swims-off-and-gets-stuckagain",
+        "unbiased_text": "A whale that temporarily left shallow waters near Germany's coast has become stranded again, prompting continued rescue efforts."
+      },
+      {
+        "pattern": "Corporate business event promotional framing",
+        "detail": "Presenting commercial conferences as newsworthy events through institutional language rather than critical distance.",
+        "debias": "Clearly distinguish between news coverage and event promotion when reporting on business forums.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "The European Economic Congress in Katowice is one of the leading economic events in Central Europe, bringing together top figures from business, politics, science and local governance.",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/20/european-economic-congress-2026-central-europes-top-business-forum",
+        "unbiased_text": "Business and political figures are gathering at the European Economic Congress in Katowice for discussions on economic issues."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

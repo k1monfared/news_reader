@@ -725,6 +725,39 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/20/trump-boasts-on-winning-war-on-social-media-posts?traffic_source=rss",
         "unbiased_text": "دونالد ترامپ طی روز، ادعاهای تأییدنشده مختلفی در رسانه‌های اجتماعی درباره وضعیت درگیری مطرح کرد.",
         "pattern_en": "Social media evidence validation"
+      },
+      {
+        "pattern": "تأکید بر نقطه عطف تاریخی گروه تمام‌زنان",
+        "detail": "برجسته‌سازی ترکیب جنسیتی برندگان جایزه به‌عنوان عنصر اصلی خبری به‌جای دستاوردهای زیست‌محیطی آن‌ها.",
+        "debias": "با کار زیست‌محیطی انجام‌شده آغاز کنید و ترکیب جنسیتی را در صورت مرتبط بودن به‌عنوان زمینه ثانویه ذکر کنید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "نخستین گروه تمام‌زنان برندگان از کلمبیا، نیجریه، پاپوآ گینه نو، کره جنوبی، بریتانیا و ایالات متحده هستند.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/21/six-women-win-2026-goldman-prize-worlds-top-environmental-award?traffic_source=rss",
+        "unbiased_text": "شش فعال زیست‌محیطی از کلمبیا، نیجریه، پاپوآ گینه نو، کره جنوبی، بریتانیا و ایالات متحده جایزه Goldman را برای کارهای حفاظت محیط زیست خود دریافت کردند.",
+        "pattern_en": "All-women cohort historic milestone emphasis"
+      },
+      {
+        "pattern": "سنسیشن‌سازی با مبلغ دعوای حقوقی",
+        "detail": "تأکید بر ارزش پولی اقدامات قانونی برای دراماتیک جلوه دادن اختلافات به جای تمرکز بر ادعاهای حقوقی یا واقعی اساسی.",
+        "debias": "اختلاف حقوقی را بر اساس مبانی و ادعاهای آن گزارش کنید بدون اینکه با مبالغ دلاری به عنوان چارچوب اولیه شروع کنید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "مجله The Atlantic از گزارش‌های خود دفاع می‌کند در حالی که کش پاتل ادعاها را رد کرده و شکایت ۲۵۰ میلیون دلاری افترا علیه این نشریه آمریکایی مطرح می‌کند.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/20/fbi-director-kash-patel-sues-atlantic-for-false-reporting-on-drinking?traffic_source=rss",
+        "unbiased_text": "مجله The Atlantic از گزارش‌های خود دفاع می‌کند در حالی که کش پاتل ادعاها را رد کرده و شکایت افترا بر علیه گزارش‌های مربوط به رفتار وی مطرح می‌کند.",
+        "pattern_en": "Defamation lawsuit amount sensationalism"
+      },
+      {
+        "pattern": "تقویت انشقاق متحدان MAGA",
+        "detail": "برجسته‌سازی شکاف‌های درون ائتلاف‌های سیاسی با تأکید بر انتقاد متحدان سابق به‌عنوان تأیید اشتباه بودن اقدامات.",
+        "debias": "انتقادها را از منابع مختلف بدون قاب‌بندی شکاف‌های سیاسی درونی به‌عنوان امری ویژه مهم گزارش کنید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "برخی از متحدان سابق MAGA دونالد ترامپ، هتک حرمت به نماد مذهبی مسیحی توسط سرباز اسرائیلی را محکوم می‌کنند.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/20/outcry-grows-over-israeli-soldier-smashing-jesus-statue-in-lebanon?traffic_source=rss",
+        "unbiased_text": "چهره‌های سیاسی و رهبران مذهبی از گروه‌های متعدد، هتک حرمت به نماد مذهبی مسیحی توسط سرباز اسرائیلی را محکوم می‌کنند.",
+        "pattern_en": "MAGA ally defection amplification"
       }
     ]
   },
@@ -1378,6 +1411,17 @@
         "unbiased_text": "ارتش اسرائیل پس از انتشار عکسی که سربازی را هنگام تخریب مجسمه عیسی در جنوب لبنان نشان می‌داد، این حادثه را به رسمیت شناخت و اعلام کرد که تحقیقاتی را آغاز کرده است.",
         "detail_items": [],
         "pattern_en": "Authentication confirmation as revelation"
+      },
+      {
+        "pattern": "قاب‌بندی تأیید اصالت به‌عنوان تحقیق",
+        "detail": "برخورد با تأیید نظامی حوادث از پیش تأیید‌شده به‌گونه‌ای که گویی افشای تحقیقاتی جدیدی را تشکیل می‌دهد.",
+        "debias": "تأییدیه‌ها را به‌عنوان تصدیق‌های اداری گزارش کنید نه دستاوردهای تحقیقاتی.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "ارتش اسرائیل تصویر پرطرفدار یکی از سربازانش را که در حال خرد کردن مجسمه عیسی با چکش بزرگ در جنوب لبنان است «اصیل» تأیید کرد و اعلام کرد که تحقیقاتی درباره این حادثه آغاز کرده است.",
+        "example_url": "https://www.france24.com/en/israel-confirms-its-soldier-destroyed-jesus-statue-in-lebanon",
+        "unbiased_text": "ارتش اسرائیل تصویر پرطرفدار یک سرباز در حال تخریب مجسمه عیسی در جنوب لبنان را تصدیق کرد و اعلام نمود که به این حادثه رسیدگی خواهد کرد.",
+        "pattern_en": "Authenticity confirmation framing as investigation"
       }
     ]
   },
@@ -2141,6 +2185,28 @@
         "example_url": "http://www.euronews.com/next/2026/04/20/humanoid-robot-smashes-human-half-marathon-world-record-in-beijing-race",
         "unbiased_text": "ربات انسان‌نما نیم‌ماراتن را در زمانی تکمیل کرد که پیشرفت‌های قابل‌توجهی در استقامت و تحرک روباتیک را نشان داد.",
         "pattern_en": "Robotic achievement anthropomorphization"
+      },
+      {
+        "pattern": "تکرار روایت نجات و گیر افتادن مجدد",
+        "detail": "قاب‌بندی تلاش‌های نجات حیوانات به‌عنوان شکست‌های چرخه‌ای از طریق تأکید بر گیر افتادن‌های مکرر به‌جای تلاش‌های مستمر.",
+        "debias": "گزارش تحولات نجات را به‌صورت خنثی و بدون قاب‌بندی الگو به‌عنوان ذاتاً بی‌فایده یا کمیک ارائه دهید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "تیمی، نهنگی که در سواحل آلمان گیر افتاده، شنا می‌کند و دوباره... گیر می‌افتد",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/20/timmy-the-whale-stranded-off-germanys-coast-swims-off-and-gets-stuckagain",
+        "unbiased_text": "نهنگی که به‌طور موقت آب‌های کم‌عمق نزدیک سواحل آلمان را ترک کرده بود، دوباره گیر افتاده است و تلاش‌های نجات همچنان ادامه دارد.",
+        "pattern_en": "Rescue restranding narrative repetition"
+      },
+      {
+        "pattern": "قاب‌بندی تبلیغی رویدادهای تجاری شرکتی",
+        "detail": "ارائه کنفرانس‌های تجاری به‌عنوان رویدادهای خبری از طریق زبان نهادی به‌جای فاصله انتقادی.",
+        "debias": "هنگام گزارش درباره مجامع تجاری، به‌وضوح بین پوشش خبری و تبلیغ رویداد تمایز قائل شوید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "کنگره اقتصادی اروپا در کاتوویتسه یکی از پیشروترین رویدادهای اقتصادی در اروپای مرکزی است که چهره‌های برجسته از حوزه تجارت، سیاست، علم و حکمرانی محلی را گرد هم می‌آورد.",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/20/european-economic-congress-2026-central-europes-top-business-forum",
+        "unbiased_text": "چهره‌های تجاری و سیاسی در کنگره اقتصادی اروپا در کاتوویتسه برای بحث درباره مسائل اقتصادی گرد هم می‌آیند.",
+        "pattern_en": "Corporate business event promotional framing"
       }
     ]
   }
