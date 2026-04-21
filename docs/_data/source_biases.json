@@ -636,6 +636,26 @@
         "example_text": "Hungary's election winner says he would enact an ICC arrest warrant for Israeli PM Benjamin Netanyahu and detain him.",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/20/hungarys-incoming-pm-says-netanyahu-would-be-arrested-if-he-visits?traffic_source=rss",
         "unbiased_text": "Hungary's incoming prime minister stated his government would comply with the ICC arrest warrant for Israeli PM Benjamin Netanyahu if he visits the country."
+      },
+      {
+        "pattern": "Gender milestone celebratory framing",
+        "detail": "Emphasizing the gender composition of award recipients as a newsworthy achievement in itself, rather than focusing primarily on their accomplishments.",
+        "debias": "Report on recipients' achievements and impact without foregrounding demographic composition as the primary angle.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "First all-women cohort of winners hails from Colombia, Nigeria, Papua New Guinea, South Korea, the UK and the US.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/21/six-women-win-2026-goldman-prize-worlds-top-environmental-award?traffic_source=rss",
+        "unbiased_text": "Winners from Colombia, Nigeria, Papua New Guinea, South Korea, the UK and the US were recognized for their environmental advocacy work."
+      },
+      {
+        "pattern": "Social media evidence validation",
+        "detail": "Treating social media posts by political leaders as newsworthy evidence of policy positions or events rather than unverified claims.",
+        "debias": "Verify claims from social media through official channels and contextualize posts as statements requiring confirmation.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "Donald Trump has released various social media comments throughout the day, preaching about winning the war.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/20/trump-boasts-on-winning-war-on-social-media-posts?traffic_source=rss",
+        "unbiased_text": "Donald Trump made various unverified claims on social media throughout the day about the conflict's status."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1240,6 +1260,16 @@
         "example_text": "According to Townsend, US–Iran negotiations are shaped by tactical manoeuvering: a pre-negotiation ritual in which both sides position themselves strategically through public posturing and calculated obstruction.",
         "example_url": "https://www.france24.com/en/us-military-leverage-a-risky-tactic-bombs-military-escalation-will-not-bring-iran-to-the-table",
         "unbiased_text": "Townsend noted that both the US and Iran are taking public positions before formal negotiations, which is common in diplomatic processes."
+      },
+      {
+        "pattern": "Authentication confirmation as revelation",
+        "detail": "Framing military confirmation of documented incidents as significant news rather than routine acknowledgment of evidence.",
+        "debias": "Report confirmations as procedural acknowledgments while focusing on the incident's substantive implications.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "The Israeli military confirmed a viral photo of one of its soldiers smashing a statue of Jesus with a sledgehammer in southern Lebanon is \"authentic,\" and said its launched an investigation into the incident.",
+        "example_url": "https://www.france24.com/en/israel-confirms-its-soldier-destroyed-jesus-statue-in-lebanon",
+        "unbiased_text": "The Israeli military acknowledged the incident after a photo circulated showing a soldier destroying a statue of Jesus in southern Lebanon and said it opened an investigation."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -1923,6 +1953,26 @@
         "example_text": "At the Antalya summit, Erdoğan brought together leaders of 150 countries to tackle crises, promote alternatives to the Strait of Hormuz, and showcase the growing diplomatic clout of middle powers.",
         "example_url": "http://www.euronews.com/2026/04/20/turkey-rallies-global-middle-powers-in-antalya-amid-hormuz-crisis",
         "unbiased_text": "Turkey hosted a summit in Antalya attended by leaders from 150 countries to discuss regional crises and trade route alternatives."
+      },
+      {
+        "pattern": "Geographic exceptionalism in disaster naming",
+        "detail": "Highlighting national terminology innovations for weather phenomena as culturally significant developments.",
+        "debias": "Report weather terminology changes as technical classification updates without cultural exceptionalism.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "'Kokushobi' will be used in weather forecasts to warn that extreme heat is on the way.",
+        "example_url": "http://www.euronews.com/2026/04/20/japan-announces-new-name-for-days-over-40c-after-hottest-summer-ever",
+        "unbiased_text": "Japan's weather agency will use a new term in forecasts to warn of days exceeding 40 degrees Celsius."
+      },
+      {
+        "pattern": "Robotic achievement anthropomorphization",
+        "detail": "Framing technological capabilities as competitions with humans rather than engineering milestones.",
+        "debias": "Report technological capabilities as engineering achievements without competitive human framing.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "The winning robot ran the half marathon nearly seven minutes faster than the current human record set by Jacob Kiplimo.",
+        "example_url": "http://www.euronews.com/next/2026/04/20/humanoid-robot-smashes-human-half-marathon-world-record-in-beijing-race",
+        "unbiased_text": "The humanoid robot completed the half marathon in a time that demonstrated significant advances in robotic endurance and mobility."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

@@ -703,6 +703,28 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/20/hungarys-incoming-pm-says-netanyahu-would-be-arrested-if-he-visits?traffic_source=rss",
         "unbiased_text": "نخست‌وزیر آتی مجارستان اعلام کرد که دولت او در صورت سفر بنیامین نتانیاهو نخست‌وزیر اسرائیل به این کشور، حکم بازداشت دادگاه بین‌المللی کیفری را اجرا خواهد کرد.",
         "pattern_en": "ICC compliance reversal celebration"
+      },
+      {
+        "pattern": "قاب‌بندی جشن‌گیرانه نقطه عطف جنسیتی",
+        "detail": "تأکید بر ترکیب جنسیتی دریافت‌کنندگان جایزه به عنوان یک دستاورد خبری در خود، به جای تمرکز اولیه بر دستاوردهای آنان.",
+        "debias": "گزارش دستاوردها و تأثیرات دریافت‌کنندگان بدون برجسته‌سازی ترکیب جمعیت‌شناختی به عنوان زاویه اصلی خبر.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "نخستین گروه تمام‌زن برندگان از کلمبیا، نیجریه، پاپوآ گینه نو، کره جنوبی، بریتانیا و ایالات متحده هستند.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/21/six-women-win-2026-goldman-prize-worlds-top-environmental-award?traffic_source=rss",
+        "unbiased_text": "برندگان از کلمبیا، نیجریه، پاپوآ گینه نو، کره جنوبی، بریتانیا و ایالات متحده برای کار حمایت‌گری زیست‌محیطی‌شان شناخته شدند.",
+        "pattern_en": "Gender milestone celebratory framing"
+      },
+      {
+        "pattern": "اعتبارسنجی شواهد رسانه‌های اجتماعی",
+        "detail": "برخورد با پست‌های رسانه‌های اجتماعی رهبران سیاسی به‌عنوان شواهد خبری از مواضع سیاسی یا رویدادها به‌جای ادعاهای تأییدنشده.",
+        "debias": "ادعاهای مطرح‌شده در رسانه‌های اجتماعی را از طریق کانال‌های رسمی تأیید کنید و پست‌ها را به‌عنوان بیانیه‌هایی که نیاز به تأیید دارند زمینه‌سازی کنید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "دونالد ترامپ طی روز، نظرات مختلفی در رسانه‌های اجتماعی منتشر کرده و درباره پیروزی در جنگ موعظه کرده است.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/20/trump-boasts-on-winning-war-on-social-media-posts?traffic_source=rss",
+        "unbiased_text": "دونالد ترامپ طی روز، ادعاهای تأییدنشده مختلفی در رسانه‌های اجتماعی درباره وضعیت درگیری مطرح کرد.",
+        "pattern_en": "Social media evidence validation"
       }
     ]
   },
@@ -1344,6 +1366,18 @@
         "example_url": "https://www.france24.com/en/us-military-leverage-a-risky-tactic-bombs-military-escalation-will-not-bring-iran-to-the-table",
         "unbiased_text": "تاونسند اشاره کرد که هم ایالات متحده و هم ایران پیش از مذاکرات رسمی، موضع‌های عمومی اتخاذ می‌کنند که این امر در فرایندهای دیپلماتیک رایج است.",
         "pattern_en": "Negotiation ritual tactical dismissal"
+      },
+      {
+        "pattern": "تأیید احراز هویت به‌عنوان افشاگری",
+        "detail": "قاب‌بندی تأیید نظامی حوادث مستندشده به‌عنوان خبر مهم به‌جای پذیرش معمول شواهد.",
+        "debias": "تأییدیه‌ها را به‌عنوان اقرارهای رویه‌ای گزارش کنید و بر پیامدهای اساسی حادثه تمرکز نمایید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "ارتش اسرائیل تأیید کرد که یک عکس پرطرفدار از یکی از سربازانش که مجسمه عیسی را با پتک در جنوب لبنان خرد می‌کند «معتبر» است و گفت که تحقیقاتی درباره این حادثه آغاز کرده است.",
+        "example_url": "https://www.france24.com/en/israel-confirms-its-soldier-destroyed-jesus-statue-in-lebanon",
+        "unbiased_text": "ارتش اسرائیل پس از انتشار عکسی که سربازی را هنگام تخریب مجسمه عیسی در جنوب لبنان نشان می‌داد، این حادثه را به رسمیت شناخت و اعلام کرد که تحقیقاتی را آغاز کرده است.",
+        "detail_items": [],
+        "pattern_en": "Authentication confirmation as revelation"
       }
     ]
   },
@@ -2084,6 +2118,29 @@
         "example_url": "http://www.euronews.com/2026/04/20/turkey-rallies-global-middle-powers-in-antalya-amid-hormuz-crisis",
         "unbiased_text": "ترکیه اجلاسی را در آنتالیا میزبانی کرد که رهبران ۱۵۰ کشور برای بحث درباره بحران‌های منطقه‌ای و مسیرهای جایگزین تجاری در آن حضور داشتند.",
         "pattern_en": "Middle power diplomatic ascendancy narrative"
+      },
+      {
+        "pattern": "استثناگرایی جغرافیایی در نام‌گذاری بلایا",
+        "detail": "برجسته‌سازی نوآوری‌های اصطلاح‌شناسی ملی برای پدیده‌های آب‌وهوایی به‌عنوان تحولات فرهنگی مهم.",
+        "debias": "تغییرات اصطلاح‌شناسی آب‌وهوایی را به‌عنوان به‌روزرسانی‌های طبقه‌بندی فنی گزارش کنید، بدون استثناگرایی فرهنگی.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "«کوکوشوبی» در پیش‌بینی‌های آب‌وهوا برای هشدار درباره گرمای شدید استفاده خواهد شد.",
+        "example_url": "http://www.euronews.com/2026/04/20/japan-announces-new-name-for-days-over-40c-after-hottest-summer-ever",
+        "unbiased_text": "سازمان هواشناسی ژاپن از اصطلاح جدیدی در پیش‌بینی‌ها برای هشدار درباره روزهای بالای ۴۰ درجه سلسیوس استفاده خواهد کرد.",
+        "detail_items": [],
+        "pattern_en": "Geographic exceptionalism in disaster naming"
+      },
+      {
+        "pattern": "انسان‌انگاری دستاوردهای روباتیک",
+        "detail": "قاب‌بندی قابلیت‌های فناوری به‌عنوان رقابت با انسان‌ها به‌جای نقاط عطف مهندسی.",
+        "debias": "قابلیت‌های فناوری را به‌عنوان دستاوردهای مهندسی بدون قاب‌بندی رقابتی با انسان گزارش کنید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "ربات برنده نیم‌ماراتن را نزدیک به هفت دقیقه سریع‌تر از رکورد فعلی انسانی که توسط Jacob Kiplimo ثبت شده، دوید.",
+        "example_url": "http://www.euronews.com/next/2026/04/20/humanoid-robot-smashes-human-half-marathon-world-record-in-beijing-race",
+        "unbiased_text": "ربات انسان‌نما نیم‌ماراتن را در زمانی تکمیل کرد که پیشرفت‌های قابل‌توجهی در استقامت و تحرک روباتیک را نشان داد.",
+        "pattern_en": "Robotic achievement anthropomorphization"
       }
     ]
   }
