@@ -28,6 +28,7 @@
       <a href="{% if lang == 'fa' %}{{ '/fa/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" class="site-title">{{ t.site_title }}</a>
       <nav class="site-nav">
         <a href="{% if lang == 'fa' %}{{ '/fa/about/' | relative_url }}{% else %}{{ '/about/' | relative_url }}{% endif %}">{{ t.nav_about }}</a>
+        <a href="{% if lang == 'fa' %}{{ '/fa/bias/' | relative_url }}{% else %}{{ '/bias/' | relative_url }}{% endif %}">{{ t.nav_bias }}</a>
         {% if site.subscribe_proxy_url and site.subscribe_proxy_url != "" %}
         <a href="{% if lang == 'fa' %}{{ '/fa/subscribe/' | relative_url }}{% else %}{{ '/subscribe/' | relative_url }}{% endif %}">{{ t.nav_subscribe }}</a>
         {% endif %}

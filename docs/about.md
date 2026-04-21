@@ -44,80 +44,28 @@ Every LLM call and HTTP request is logged to an audit trail with full input/outp
 
 # Bias Handling
 
-Every news source carries biases in how it frames, emphasizes, and omits information. This pipeline tracks those biases and uses them to produce more balanced reporting.
+Every news source carries biases in how it frames, emphasizes, and omits information. This pipeline tracks those biases and uses them to produce more balanced reporting. Debias notes feed into the summarizer, automated detection runs in the editorial stage, and only confirmed patterns inform the output.
 
-**How bias handling works:**
-- Debias notes for each source are fed to the summarizer, prompting it to add caveats and flag editorial framing.
-- During the editorial stage, automated detection compares how different sources covered the same events, flagging new framing patterns.
-- Suggested biases are logged for review before being confirmed. Only confirmed patterns inform the pipeline's output.
-
-{% for source in site.data.source_biases %}
-{% assign key = source[0] %}
-{% assign info = source[1] %}
-
-<details class="bias-source-section">
-<summary><h3 class="bias-source-heading">{{ info.display_name }} <span class="bias-count">({{ info.biases | size }} patterns)</span></h3></summary>
-
-{% if info.notes %}_{{ info.notes }}_{% endif %}
-
-<table class="bias-table">
-  <thead>
-    <tr>
-      <th>Pattern</th>
-      <th>How we counteract it</th>
-      <th>Added</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for bias in info.biases %}
-    <tr>
-      <td>
-        <strong>{{ bias.pattern }}</strong>
-        <details class="bias-foldable">
-          <summary>Details ({{ bias.detail_items | size }})</summary>
-          <ul class="bias-detail-list">
-            {% for item in bias.detail_items %}
-            <li>{{ item }}</li>
-            {% endfor %}
-          </ul>
-        </details>
-        {% if bias.example_text %}
-        <details class="bias-foldable">
-          <summary>Example</summary>
-          <blockquote>{{ bias.example_text }}</blockquote>
-          {% if bias.example_url %}<a href="{{ bias.example_url }}" target="_blank" rel="noopener">Source article</a>{% endif %}
-        </details>
-        {% endif %}
-      </td>
-      <td>
-        <details class="bias-foldable">
-          <summary>Counteraction</summary>
-          {{ bias.debias }}
-        </details>
-        {% if bias.unbiased_text %}
-        <details class="bias-foldable">
-          <summary>Unbiased version</summary>
-          <blockquote>{{ bias.unbiased_text }}</blockquote>
-        </details>
-        {% endif %}
-      </td>
-      <td class="bias-date">{{ bias.date_added }}</td>
-      <td><span class="bias-status bias-status--{{ bias.status }}">{{ bias.status }}</span></td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-
-</details>
-
-{% endfor %}
+See the full list of detected patterns per source, with examples and counteractions, on the [Bias Handling page]({{ '/bias/' | relative_url }}).
 
 ---
 
+# What it costs to run
+
+Hosting, email, and the code itself are on free tiers (GitHub Pages, Cloudflare, Resend). The LLM calls are the only real expense. Measured across 40 runs from February to April 2026:
+
+- **Median day:** about **$0.61** (16 LLM calls, roughly 127k input tokens and 15k output)
+- **Busy day:** up to **$1.00**
+- **Monthly:** around **$18** at the median, up to **$30** at the top of the range
+- **Yearly:** around **$220**, up to **$365**
+
+Two stages eat most of the bill: `editorial` (one long-context review of the full brief) and, on busy news days, `track_developments` (one LLM call per story pair checked against the last seven days).
+
+Full per-stage breakdown and methodology: [COSTS.md on GitHub](https://github.com/k1monfared/news_reader/blob/master/COSTS.md).
+
 # Support this project
 
-This pipeline runs on free tiers of GitHub, Cloudflare, and Resend, but the LLM calls cost a few dollars a day. If you find the daily brief useful, you can help cover the bill.
+If you find the daily brief useful, you can help cover the LLM bill.
 
 **[Sponsor this project]({{ site.sponsor_url }})**
 

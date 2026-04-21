@@ -6,26 +6,26 @@ Per-stage LLM token usage and estimated cost for the daily brief pipeline. Numbe
 
 - **Data**: every completed pipeline run writes `data/runs/{run_id}/audit/llm_calls.jsonl` (one line per LLM call with `stage`, `tokens_in`, `tokens_out`, `model`) and a summary `run_meta.json` with `total_cost_usd`.
 - **Pricing model** (from `llm_client.py`): Claude Sonnet 4.5 at **$3 per million input tokens**, **$15 per million output tokens**. All calls in recorded history use this one model.
-- **Analysis scope**: 36 unique run dates covering February to April 2026. One run per date (the latest, if multiple).
+- **Analysis scope**: 40 unique run dates covering February to April 2026. One run per date (the latest, if multiple).
 
 ## Verification
 
-Summing cost for every call in each run's `llm_calls.jsonl` matches `run_meta.total_cost_usd` to the penny for 35 of 36 runs. One run (2026-03-28) has a $0.30 gap, consistent with a budget-cap rejection excluded from the reported total. Methodology is sound.
+Summing cost for every call in each run's `llm_calls.jsonl` matches `run_meta.total_cost_usd` to the penny for 39 of 40 runs. One run (2026-03-28) has a $0.30 gap, consistent with a budget-cap rejection excluded from the reported total. Methodology is sound.
 
 ## Cost per pipeline run
 
-### Distribution across 36 runs
+### Distribution across 40 runs
 
 | metric | value |
 |---|---:|
-| median | $0.595 |
-| mean | $0.572 |
-| stdev | $0.257 |
-| min | $0.020 |
+| median | $0.610 |
+| mean | $0.584 |
+| stdev | $0.248 |
+| min | $0.021 |
 | max | $1.015 |
-| median calls | 15 |
-| median input tokens | 122,114 |
-| median output tokens | 15,428 |
+| median calls | 16 |
+| median input tokens | 127,368 |
+| median output tokens | 15,275 |
 
 Variance comes mostly from two sources: (1) how many new vs continuation stories there are on a given day, which drives `track_developments` calls, and (2) how often the filter cache hits.
 
