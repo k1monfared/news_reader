@@ -686,6 +686,26 @@
         "example_text": "Some of Donald Trump's former MAGA allies denounce the desecration of Christian religious symbol by Israeli soldier.",
         "example_url": "https://www.aljazeera.com/news/2026/4/20/outcry-grows-over-israeli-soldier-smashing-jesus-statue-in-lebanon?traffic_source=rss",
         "unbiased_text": "Political figures and religious leaders across multiple groups denounce the desecration of Christian religious symbol by Israeli soldier."
+      },
+      {
+        "pattern": "Victory boasting selective amplification",
+        "detail": "Amplifying self-congratulatory or triumphalist statements from political leaders through dedicated coverage without equivalent scrutiny of contradictory facts.",
+        "debias": "Present boastful claims alongside verifiable evidence or expert assessment of their accuracy.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "Donald Trump has released various social media comments throughout the day, preaching about winning the war.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/20/trump-boasts-on-winning-war-on-social-media-posts?traffic_source=rss",
+        "unbiased_text": "Donald Trump released social media comments claiming success in the conflict, though the war's outcome remains uncertain with negotiations ongoing."
+      },
+      {
+        "pattern": "Mistake admission magnification framing",
+        "detail": "Amplifying political leaders' acknowledgments of errors while emphasizing resistance to consequences like resignation calls.",
+        "debias": "Report acknowledgments of mistakes alongside context about standard accountability processes.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "PM insists he did not know security officials had recommended Mandelson be sidelined due to Epstein links.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/20/uk-pm-starmer-admits-mistaken-call-on-mandelson-rejects-calls-to-resign?traffic_source=rss",
+        "unbiased_text": "The PM said he was unaware of security recommendations regarding Mandelson's Epstein connections when making the appointment."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1310,6 +1330,16 @@
         "example_text": "The Israeli military confirmed a viral photo of one of its soldiers smashing a statue of Jesus with a sledgehammer in southern Lebanon is \"authentic,\" and said its launched an investigation into the incident.",
         "example_url": "https://www.france24.com/en/israel-confirms-its-soldier-destroyed-jesus-statue-in-lebanon",
         "unbiased_text": "The Israeli military acknowledged the viral photo of a soldier destroying a Jesus statue in southern Lebanon and said it would investigate the incident."
+      },
+      {
+        "pattern": "Bilateral visit diplomatic priority revelation",
+        "detail": "Framing a leader's first foreign visit destination as revealing strategic priorities or alliances through emphasis on sequence and symbolism.",
+        "debias": "Report diplomatic visits factually without inferring unstated strategic meanings from scheduling choices.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "Péter Magyar has made his first diplomatic priority clear. Before Brussels or Vienna, Hungary's prime minister-elect is heading to Warsaw to meet Donald Tusk.",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/20/watch-magyar-visits-tusk-will-there-be-a-warsaw-on-the-danube",
+        "unbiased_text": "Hungary's prime minister-elect Péter Magyar will visit Warsaw to meet Donald Tusk before traveling to Brussels or Vienna."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -2033,6 +2063,56 @@
         "example_text": "The European Economic Congress in Katowice is one of the leading economic events in Central Europe, bringing together top figures from business, politics, science and local governance.",
         "example_url": "http://www.euronews.com/my-europe/2026/04/20/european-economic-congress-2026-central-europes-top-business-forum",
         "unbiased_text": "Business and political figures are gathering at the European Economic Congress in Katowice for discussions on economic issues."
+      },
+      {
+        "pattern": "Punishment refund legitimacy framing",
+        "detail": "Describing policy reversals through refund mechanisms while embedding characterization of original policy as 'unlawful' in the framing.",
+        "debias": "Report refund programs neutrally, noting legal challenges separately from administrative implementation.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "A long-awaited refund portal opened on Monday for US businesses hit by Trump's tariffs, with $127bn in eligible claims already registered.",
+        "example_url": "http://www.euronews.com/business/2026/04/20/businesses-start-claiming-refunds-on-trumps-unlawful-tariffs",
+        "unbiased_text": "A refund portal opened on Monday for US businesses to claim relief from tariffs, with $127bn in eligible claims already registered."
+      },
+      {
+        "pattern": "Mythical creature naming anthropomorphization",
+        "detail": "Assigning proper names and persistent identity to animals in news coverage to create narrative continuity and emotional engagement.",
+        "debias": "Refer to animals by species and location rather than persistent proper names when covering wildlife incidents.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "Timmy, the whale stranded off Germany's coast, swims off and gets stuck...again",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/20/timmy-the-whale-stranded-off-germanys-coast-swims-off-and-gets-stuckagain",
+        "unbiased_text": "A whale stranded off Germany's coast swam away temporarily before becoming stranded again."
+      },
+      {
+        "pattern": "Political cycle document timing suspicion",
+        "detail": "Emphasizing the temporal proximity of administrative actions to electoral events to suggest intentional manipulation without direct evidence.",
+        "debias": "Report timing of events factually without implying causation unless evidence of intentional coordination exists.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "Document destruction post-election timing insinuation",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/20/european-economic-congress-2026-central-europes-top-business-forum",
+        "unbiased_text": "Documents were destroyed following the election."
+      },
+      {
+        "pattern": "Technology milestone human comparison sensationalism",
+        "detail": "Framing technological achievements as 'smashing' or 'beating' human records to create competition narrative between humans and machines.",
+        "debias": "Report technological capabilities as distinct categories without framing them as competitive victories over humans.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "Humanoid robot smashes human half-marathon world record in Beijing race",
+        "example_url": "http://www.euronews.com/next/2026/04/20/humanoid-robot-smashes-human-half-marathon-world-record-in-beijing-race",
+        "unbiased_text": "A humanoid robot completed a half-marathon in Beijing faster than the current human record holder."
+      },
+      {
+        "pattern": "Alternative route beneficiary highlighting",
+        "detail": "Emphasizing which actors stand to gain from disrupted infrastructure by highlighting alternative routes they control or benefit from.",
+        "debias": "Report on alternative routes as logistical developments without emphasizing particular beneficiaries.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "An Egypt–Italy cargo corridor linking Europe and the Gulf is gaining traction as companies look for alternative trade routes amid disruption to key shipping lanes in the region.",
+        "example_url": "http://www.euronews.com/business/2026/04/20/egyptitaly-cargo-route-gains-traction-as-firms-seek-alternatives-to-disrupted-trade",
+        "unbiased_text": "Companies are using an Egypt-Italy cargo corridor as shipping routes through the Strait of Hormuz remain disrupted."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

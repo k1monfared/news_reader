@@ -758,6 +758,28 @@
         "example_url": "https://www.aljazeera.com/news/2026/4/20/outcry-grows-over-israeli-soldier-smashing-jesus-statue-in-lebanon?traffic_source=rss",
         "unbiased_text": "چهره‌های سیاسی و رهبران مذهبی از گروه‌های متعدد، هتک حرمت به نماد مذهبی مسیحی توسط سرباز اسرائیلی را محکوم می‌کنند.",
         "pattern_en": "MAGA ally defection amplification"
+      },
+      {
+        "pattern": "تقویت انتخابی لاف‌زنی پیروزی",
+        "detail": "تقویت بیانات خودستایانه یا پیروزمندانه رهبران سیاسی از طریق پوشش اختصاصی بدون بررسی معادل حقایق متناقض.",
+        "debias": "ادعاهای لاف‌زنانه را در کنار شواهد قابل تأیید یا ارزیابی کارشناسان از دقت آن‌ها ارائه دهید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "دونالد ترامپ طی روز نظرات مختلفی در رسانه‌های اجتماعی منتشر کرده و درباره پیروزی در جنگ موعظه می‌کند.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/20/trump-boasts-on-winning-war-on-social-media-posts?traffic_source=rss",
+        "unbiased_text": "دونالد ترامپ نظراتی در رسانه‌های اجتماعی منتشر کرد و ادعای موفقیت در درگیری را مطرح کرد، هرچند نتیجه جنگ با ادامه مذاکرات همچنان نامشخص است.",
+        "pattern_en": "Victory boasting selective amplification"
+      },
+      {
+        "pattern": "قاب‌بندی بزرگ‌نمایی اعتراف به اشتباه",
+        "detail": "بزرگ‌نمایی اعتراف رهبران سیاسی به اشتباهات در حالی که بر مقاومت آن‌ها در برابر پیامدهایی مانند فراخوان‌های استعفا تأکید می‌شود.",
+        "debias": "اعتراف به اشتباهات را در کنار زمینه‌ای درباره فرایندهای استاندارد پاسخگویی گزارش کنید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "نخست‌وزیر اصرار دارد که از توصیه مقامات امنیتی برای کنار گذاشتن مندلسون به دلیل پیوندهای وی با اپستین اطلاع نداشته است.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/20/uk-pm-starmer-admits-mistaken-call-on-mandelson-rejects-calls-to-resign?traffic_source=rss",
+        "unbiased_text": "نخست‌وزیر گفت که هنگام انتصاب از توصیه‌های امنیتی درباره ارتباطات مندلسون با اپستین بی‌اطلاع بوده است.",
+        "pattern_en": "Mistake admission magnification framing"
       }
     ]
   },
@@ -1422,6 +1444,17 @@
         "example_url": "https://www.france24.com/en/israel-confirms-its-soldier-destroyed-jesus-statue-in-lebanon",
         "unbiased_text": "ارتش اسرائیل تصویر پرطرفدار یک سرباز در حال تخریب مجسمه عیسی در جنوب لبنان را تصدیق کرد و اعلام نمود که به این حادثه رسیدگی خواهد کرد.",
         "pattern_en": "Authenticity confirmation framing as investigation"
+      },
+      {
+        "pattern": "افشای اولویت دیپلماتیک در بازدید دوجانبه",
+        "detail": "قاب‌بندی مقصد اولین سفر خارجی یک رهبر به‌عنوان افشاگر اولویت‌ها یا اتحادهای راهبردی از طریق تأکید بر توالی و نمادگرایی.",
+        "debias": "بازدیدهای دیپلماتیک را به‌صورت واقعی گزارش کنید بدون استنباط معانی راهبردی بیان‌نشده از انتخاب‌های زمان‌بندی.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "پتر مجار اولویت دیپلماتیک اول خود را روشن کرده است. پیش از بروکسل یا وین، نخست‌وزیر منتخب مجارستان در حال رفتن به ورشو برای ملاقات با دونالد توسک است.",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/20/watch-magyar-visits-tusk-will-there-be-a-warsaw-on-the-danube",
+        "unbiased_text": "پتر مجار، نخست‌وزیر منتخب مجارستان، پیش از سفر به بروکسل یا وین، برای ملاقات با دونالد توسک به ورشو خواهد رفت.",
+        "pattern_en": "Bilateral visit diplomatic priority revelation"
       }
     ]
   },
@@ -2207,6 +2240,62 @@
         "example_url": "http://www.euronews.com/my-europe/2026/04/20/european-economic-congress-2026-central-europes-top-business-forum",
         "unbiased_text": "چهره‌های تجاری و سیاسی در کنگره اقتصادی اروپا در کاتوویتسه برای بحث درباره مسائل اقتصادی گرد هم می‌آیند.",
         "pattern_en": "Corporate business event promotional framing"
+      },
+      {
+        "pattern": "قاب‌بندی مشروعیت بازپرداخت مجازات",
+        "detail": "توصیف تغییر خط‌مشی‌ها از طریق مکانیسم‌های بازپرداخت در حالی که توصیف خط‌مشی اولیه به عنوان «غیرقانونی» در قاب‌بندی تعبیه شده است.",
+        "debias": "برنامه‌های بازپرداخت را به صورت خنثی گزارش کنید و چالش‌های حقوقی را جداگانه از اجرای اداری ذکر نمایید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "یک پورتال بازپرداخت طولانی انتظار روز دوشنبه برای کسب‌وکارهای آمریکایی که از تعرفه‌های Trump آسیب دیده‌اند، باز شد و ۱۲۷ میلیارد دلار مطالبات واجد شرایط از قبل ثبت شده است.",
+        "example_url": "http://www.euronews.com/business/2026/04/20/businesses-start-claiming-refunds-on-trumps-unlawful-tariffs",
+        "unbiased_text": "یک پورتال بازپرداخت روز دوشنبه برای کسب‌وکارهای آمریکایی جهت درخواست معافیت از تعرفه‌ها باز شد و ۱۲۷ میلیارد دلار مطالبات واجد شرایط ثبت گردید.",
+        "pattern_en": "Punishment refund legitimacy framing"
+      },
+      {
+        "pattern": "انسان‌انگاری با نام‌گذاری موجودات افسانه‌ای",
+        "detail": "اختصاص دادن نام‌های خاص و هویت پایدار به حیوانات در پوشش خبری برای ایجاد پیوستگی روایی و درگیری عاطفی.",
+        "debias": "به حیوانات با نام گونه و موقعیت مکانی اشاره کنید به جای نام‌های خاص پایدار هنگام پوشش حوادث مربوط به حیات وحش.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "تیمی، نهنگی که در سواحل آلمان گیر افتاده بود، شنا می‌کند و دوباره... گیر می‌افتد",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/20/timmy-the-whale-stranded-off-germanys-coast-swims-off-and-gets-stuckagain",
+        "unbiased_text": "نهنگی که در سواحل آلمان گیر افتاده بود، به طور موقت شنا کرد و سپس دوباره گیر افتاد.",
+        "pattern_en": "Mythical creature naming anthropomorphization"
+      },
+      {
+        "pattern": "سوءظن به زمان‌بندی اسناد در چرخه سیاسی",
+        "detail": "تأکید بر نزدیکی زمانی اقدامات اداری به رویدادهای انتخاباتی برای القای دستکاری عمدی بدون شواهد مستقیم.",
+        "debias": "زمان‌بندی رویدادها را به صورت واقعی گزارش کنید بدون اینکه رابطه علّی را القا کنید مگر اینکه شواهدی از هماهنگی عمدی وجود داشته باشد.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "کنایه به زمان‌بندی امحای اسناد پس از انتخابات",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/20/european-economic-congress-2026-central-europes-top-business-forum",
+        "unbiased_text": "اسناد پس از انتخابات امحا شدند.",
+        "pattern_en": "Political cycle document timing suspicion"
+      },
+      {
+        "pattern": "هیجان‌انگیزی مقایسه دستاوردهای فناوری با انسان",
+        "detail": "چارچوب‌بندی دستاوردهای فناوری به‌عنوان «شکستن» یا «پیروز شدن» بر رکوردهای انسانی برای ایجاد روایت رقابتی میان انسان‌ها و ماشین‌ها.",
+        "debias": "گزارش قابلیت‌های فناوری را به‌عنوان دسته‌بندی‌های متمایز و بدون چارچوب‌بندی آن‌ها به‌صورت پیروزی‌های رقابتی بر انسان‌ها ارائه دهید.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "ربات انسان‌نما رکورد جهانی نیم‌ماراتن انسان را در مسابقه پکن می‌شکند",
+        "example_url": "http://www.euronews.com/next/2026/04/20/humanoid-robot-smashes-human-half-marathon-world-record-in-beijing-race",
+        "unbiased_text": "یک ربات انسان‌نما نیم‌ماراتن را در پکن سریع‌تر از رکورددار فعلی انسانی به پایان رساند.",
+        "pattern_en": "Technology milestone human comparison sensationalism"
+      },
+      {
+        "pattern": "برجسته‌سازی ذینفعان مسیرهای جایگزین",
+        "detail": "تأکید بر این‌که کدام بازیگران از اختلال در زیرساخت‌ها سود می‌برند، با برجسته کردن مسیرهای جایگزینی که آن‌ها کنترل می‌کنند یا از آن منتفع می‌شوند.",
+        "debias": "در مورد مسیرهای جایگزین به‌عنوان تحولات لجستیکی گزارش دهید بدون تأکید بر ذینفعان خاص.",
+        "date_added": "2026-04-20",
+        "status": "suggested",
+        "example_text": "یک کریدور حمل بار مصر–ایتالیا که اروپا و خلیج‌فارس را به هم متصل می‌کند، در حال جلب توجه است، زیرا شرکت‌ها به دنبال مسیرهای تجاری جایگزین در میان اختلال در خطوط کشتیرانی کلیدی منطقه هستند.",
+        "example_url": "http://www.euronews.com/business/2026/04/20/egyptitaly-cargo-route-gains-traction-as-firms-seek-alternatives-to-disrupted-trade",
+        "unbiased_text": "شرکت‌ها از یک کریدور حمل بار مصر–ایتالیا استفاده می‌کنند، زیرا مسیرهای کشتیرانی از طریق تنگه هرمز همچنان مختل باقی مانده است.",
+        "detail_items": [],
+        "pattern_en": "Alternative route beneficiary highlighting"
       }
     ]
   }
