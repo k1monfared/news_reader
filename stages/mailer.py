@@ -177,6 +177,7 @@ def _send_for_language(
     if not api_key:
         raise RuntimeError("RESEND_API_KEY not set in environment")
 
+    reply_to = mailer_cfg.get(f"reply_to_{lang}") or mailer_cfg.get("reply_to")
     result = send_broadcast(
         api_key=api_key,
         audience_id=audience_id,
@@ -184,7 +185,7 @@ def _send_for_language(
         subject=subject,
         html=html,
         text=text,
-        reply_to=mailer_cfg.get("reply_to"),
+        reply_to=reply_to,
         name=f"daily-brief-{lang}-{date_str}",
     )
     logger.info(

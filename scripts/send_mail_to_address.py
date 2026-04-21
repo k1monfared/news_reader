@@ -118,7 +118,7 @@ def main() -> int:
         "html": html,
         "text": text,
     }
-    reply_to = mailer_cfg.get("reply_to")
+    reply_to = mailer_cfg.get(f"reply_to_{lang}") or mailer_cfg.get("reply_to")
     if reply_to:
         payload["reply_to"] = reply_to
 

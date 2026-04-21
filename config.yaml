@@ -281,7 +281,8 @@ translate_fa:
 mailer:
   enabled: true
   from_addr: "USrael War Daily Brief <usreal_war_daily_brief@k1monfared.com>"
-  reply_to: null
+  reply_to_en: "usrael.opposing330@passmail.net"
+  reply_to_fa: "usrael_fa.unguided127@passmail.net"
   site_base_url: "https://k1monfared.github.io/news_reader"
   site_title_en: "USrael War on Iran: Daily Brief"
   site_title_fa: "جنگ آمریکا و اسرائیل علیه ایران: گزارش روزانه"
