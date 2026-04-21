@@ -706,6 +706,36 @@
         "example_text": "PM insists he did not know security officials had recommended Mandelson be sidelined due to Epstein links.",
         "example_url": "https://www.aljazeera.com/news/2026/4/20/uk-pm-starmer-admits-mistaken-call-on-mandelson-rejects-calls-to-resign?traffic_source=rss",
         "unbiased_text": "The PM said he was unaware of security recommendations regarding Mandelson's Epstein connections when making the appointment."
+      },
+      {
+        "pattern": "US escalation attribution asymmetry",
+        "detail": "Attributing diplomatic complications solely to 'US escalations' while omitting Iranian actions that may have contributed to tensions.",
+        "debias": "Present actions by both parties that complicated negotiations without assigning unilateral blame.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "But a series of escalations by the US is complicating those efforts, say analysts.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/21/pakistan-races-against-time-to-get-iran-back-to-us-talks-as-truce-end-nears?traffic_source=rss",
+        "unbiased_text": "But a series of escalatory actions by both sides is complicating those efforts, say analysts."
+      },
+      {
+        "pattern": "Economic beneficiary war attribution reversal",
+        "detail": "Framing China as a 'winner' of the war while simultaneously highlighting economic risks, creating ambiguous causation.",
+        "debias": "Clearly separate economic performance from war impact and acknowledge mixed effects.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "China's economy beats expectations despite the Iran war, but weak demand and structural risks remain.",
+        "example_url": "https://www.aljazeera.com/video/counting-the-cost/2026/4/21/is-china-a-winner-of-the-iran-war-or-facing-economic-risks?traffic_source=rss",
+        "unbiased_text": "China's economy beats expectations, with weak demand and structural risks persisting independently of the Iran war."
+      },
+      {
+        "pattern": "Personal dream destruction victimization narrative",
+        "detail": "Framing war impact through personal aspiration loss narrative to amplify emotional victimization.",
+        "debias": "Report personal impacts alongside broader humanitarian consequences without centering individual dreams as primary loss.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "My dreams in Iran were already dead before the ceasefire came",
+        "example_url": "https://www.aljazeera.com/features/2026/4/21/my-dreams-in-iran-were-already-dead-before-the-ceasefire-came?traffic_source=rss",
+        "unbiased_text": "The conflict had already caused severe disruption to daily life in Iran before the ceasefire came"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1340,6 +1370,26 @@
         "example_text": "Péter Magyar has made his first diplomatic priority clear. Before Brussels or Vienna, Hungary's prime minister-elect is heading to Warsaw to meet Donald Tusk.",
         "example_url": "http://www.euronews.com/my-europe/2026/04/20/watch-magyar-visits-tusk-will-there-be-a-warsaw-on-the-danube",
         "unbiased_text": "Hungary's prime minister-elect Péter Magyar will visit Warsaw to meet Donald Tusk before traveling to Brussels or Vienna."
+      },
+      {
+        "pattern": "Negotiation ritual necessity framing",
+        "detail": "Portraying negotiations as the only viable path while dismissing alternatives as non-existent, removing agency from assessment.",
+        "debias": "Present negotiations as one option among several without declaring absolute necessity.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "Within this context, he frames negotiation with Israel not as a matter of choice, but of necessity — the only viable path toward stability, dignity, and the basic conditions for the Lebanese people to live and thrive.",
+        "example_url": "https://www.france24.com/en/video/20260421-ghassan-salam%C3%A9-lebanon-negotiating-with-israel-to-give-serenity-prosperity-to-fellow-countrymen",
+        "unbiased_text": "Within this context, he frames negotiation with Israel as a path toward stability, dignity, and basic conditions for the Lebanese people to live and thrive."
+      },
+      {
+        "pattern": "Authentication as newsworthy revelation framing",
+        "detail": "Treating confirmation of already-circulated content as investigative discovery rather than administrative verification.",
+        "debias": "Report authentication as confirmation of existing information without treating verification itself as revelation.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "The Israeli military has confirmed a viral photo of one of its soldiers smashing a statue of Jesus with a sledgehammer in southern Lebanon is \"authentic,\" and said it has launched an investigation into the incident.",
+        "example_url": "https://www.france24.com/en/israel-confirms-its-soldier-destroyed-jesus-statue-in-lebanon",
+        "unbiased_text": "The Israeli military verified a circulated photo showing one of its soldiers smashing a statue of Jesus with a sledgehammer in southern Lebanon and said it has launched an investigation into the incident."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -2113,6 +2163,36 @@
         "example_text": "An Egypt–Italy cargo corridor linking Europe and the Gulf is gaining traction as companies look for alternative trade routes amid disruption to key shipping lanes in the region.",
         "example_url": "http://www.euronews.com/business/2026/04/20/egyptitaly-cargo-route-gains-traction-as-firms-seek-alternatives-to-disrupted-trade",
         "unbiased_text": "Companies are using an Egypt-Italy cargo corridor as shipping routes through the Strait of Hormuz remain disrupted."
+      },
+      {
+        "pattern": "Hospital billing outrage amplification framing",
+        "detail": "Elevating political criticism of medical billing practices to suggest systemic injustice beyond routine administrative procedures.",
+        "debias": "Report billing disputes factually without amplifying political characterizations as definitive assessments.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "'Insult of top of mockery': Meloni criticises Swiss hospital for billing victims of bar fire",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/21/insult-of-top-of-mockery-meloni-criticises-swiss-hospital-for-billing-victims-of-bar-fire",
+        "unbiased_text": "Meloni criticises Swiss hospital for billing victims of bar fire"
+      },
+      {
+        "pattern": "Relief rally reversal narrative sensationalism",
+        "detail": "Emphasizing market recovery as exceptional or surprising to dramatize financial volatility rather than reporting normal market cycles.",
+        "debias": "Report market movements as part of typical volatility cycles without framing recovery as exceptional reversal.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "The stock markets that were supposed to pay the highest price for the Iran war are now the ones leading the 2026 league table, and the rebound from March's Hormuz panic has been one of the most aggressive relief rallies in years.",
+        "example_url": "http://www.euronews.com/business/2026/04/21/the-iran-wars-biggest-losers-are-now-2026s-top-performing-markets",
+        "unbiased_text": "Stock markets heavily affected by the Iran war in March have since recovered, with several now showing strong performance in 2026."
+      },
+      {
+        "pattern": "Economic data fabrication conspiracy elevation",
+        "detail": "Presenting intelligence claims of data manipulation as confirmed fact to construct deception narrative.",
+        "debias": "Report intelligence assessments as claims requiring verification rather than established deception.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "Swedish intelligence said Russia has been covering up a weak, debt-driven economy hit by war costs and sanctions, warning of rising inflation and banking risks.",
+        "example_url": "http://www.euronews.com/2026/04/21/russia-faked-economic-data-to-appear-more-resilient-to-its-war-and-sanctions-intel-report-",
+        "unbiased_text": "Swedish intelligence assessed that Russia's economic data may understate the impact of war costs and sanctions, citing concerns about inflation and banking risks."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

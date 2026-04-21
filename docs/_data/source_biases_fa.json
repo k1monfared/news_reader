@@ -780,6 +780,39 @@
         "example_url": "https://www.aljazeera.com/news/2026/4/20/uk-pm-starmer-admits-mistaken-call-on-mandelson-rejects-calls-to-resign?traffic_source=rss",
         "unbiased_text": "نخست‌وزیر گفت که هنگام انتصاب از توصیه‌های امنیتی درباره ارتباطات مندلسون با اپستین بی‌اطلاع بوده است.",
         "pattern_en": "Mistake admission magnification framing"
+      },
+      {
+        "pattern": "عدم تقارن در انتساب تشدید اوضاع به ایالات متحده",
+        "detail": "انتساب پیچیدگی‌های دیپلماتیک صرفاً به «تشدید اوضاع توسط ایالات متحده» در حالی که اقدامات ایران که ممکن است به تنش‌ها کمک کرده باشند، حذف می‌شوند.",
+        "debias": "اقدامات هر دو طرف که مذاکرات را پیچیده کرده‌اند را بدون تخصیص سرزنش یک‌جانبه ارائه دهید.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "اما تحلیلگران می‌گویند که یک سری تشدید اوضاع از سوی ایالات متحده، این تلاش‌ها را پیچیده می‌کند.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/21/pakistan-races-against-time-to-get-iran-back-to-us-talks-as-truce-end-nears?traffic_source=rss",
+        "unbiased_text": "اما تحلیلگران می‌گویند که یک سری اقدامات تشدیدکننده از سوی هر دو طرف، این تلاش‌ها را پیچیده می‌کند.",
+        "pattern_en": "US escalation attribution asymmetry"
+      },
+      {
+        "pattern": "وارونگی انتساب جنگ به ذی‌نفع اقتصادی",
+        "detail": "چارچوب‌بندی چین به‌عنوان «برنده» جنگ و در عین حال برجسته‌سازی ریسک‌های اقتصادی، که علیت مبهمی ایجاد می‌کند.",
+        "debias": "عملکرد اقتصادی را به‌وضوح از تأثیر جنگ جدا کنید و اثرات مختلط را تصدیق نمایید.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "اقتصاد چین علی‌رغم جنگ ایران از انتظارات فراتر رفت، اما تقاضای ضعیف و ریسک‌های ساختاری همچنان باقی است.",
+        "example_url": "https://www.aljazeera.com/video/counting-the-cost/2026/4/21/is-china-a-winner-of-the-iran-war-or-facing-economic-risks?traffic_source=rss",
+        "unbiased_text": "اقتصاد چین از انتظارات فراتر رفت، و تقاضای ضعیف و ریسک‌های ساختاری مستقل از جنگ ایران همچنان ادامه دارند.",
+        "pattern_en": "Economic beneficiary war attribution reversal"
+      },
+      {
+        "pattern": "روایت قربانی‌سازی از طریق نابودی رویاهای شخصی",
+        "detail": "قاب‌بندی تأثیرات جنگ از طریق روایت از دست دادن آرزوهای شخصی برای تقویت احساسی قربانی‌سازی.",
+        "debias": "تأثیرات شخصی را در کنار پیامدهای انسانی گسترده‌تر گزارش کنید بدون اینکه رویاهای فردی را به عنوان اصلی‌ترین از دست رفته در مرکز قرار دهید.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "رویاهای من در ایران قبل از آتش‌بس مرده بودند",
+        "example_url": "https://www.aljazeera.com/features/2026/4/21/my-dreams-in-iran-were-already-dead-before-the-ceasefire-came?traffic_source=rss",
+        "unbiased_text": "درگیری‌ها قبل از آتش‌بس موجب اختلال شدید در زندگی روزمره در ایران شده بود",
+        "pattern_en": "Personal dream destruction victimization narrative"
       }
     ]
   },
@@ -1455,6 +1488,29 @@
         "example_url": "http://www.euronews.com/my-europe/2026/04/20/watch-magyar-visits-tusk-will-there-be-a-warsaw-on-the-danube",
         "unbiased_text": "پتر مجار، نخست‌وزیر منتخب مجارستان، پیش از سفر به بروکسل یا وین، برای ملاقات با دونالد توسک به ورشو خواهد رفت.",
         "pattern_en": "Bilateral visit diplomatic priority revelation"
+      },
+      {
+        "pattern": "قاب‌بندی مذاکره به‌عنوان ضرورت آیینی",
+        "detail": "نمایش مذاکرات به‌عنوان تنها مسیر قابل‌اجرا در حالی که گزینه‌های دیگر را به‌عنوان ناموجود رد می‌کند، و عاملیت را از ارزیابی حذف می‌کند.",
+        "debias": "مذاکرات را به‌عنوان یکی از چندین گزینه بدون اعلام ضرورت مطلق ارائه دهید.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "در این بستر، او مذاکره با اسرائیل را نه به‌عنوان یک انتخاب، بلکه به‌عنوان یک ضرورت قاب می‌کند — تنها مسیر قابل‌اجرا به‌سوی ثبات، کرامت، و شرایط اساسی برای زندگی و شکوفایی مردم لبنان.",
+        "example_url": "https://www.france24.com/en/video/20260421-ghassan-salam%C3%A9-lebanon-negotiating-with-israel-to-give-serenity-prosperity-to-fellow-countrymen",
+        "unbiased_text": "در این بستر، او مذاکره با اسرائیل را به‌عنوان مسیری به‌سوی ثبات، کرامت، و شرایط اساسی برای زندگی و شکوفایی مردم لبنان قاب می‌کند.",
+        "detail_items": [],
+        "pattern_en": "Negotiation ritual necessity framing"
+      },
+      {
+        "pattern": "قاب‌بندی تأیید اصالت به‌عنوان افشای خبری",
+        "detail": "برخورد با تأیید محتوای از پیش منتشرشده به‌عنوان کشف تحقیقاتی به‌جای تأیید اداری.",
+        "debias": "تأیید اصالت را به‌عنوان تأیید اطلاعات موجود گزارش کنید بدون اینکه خود فرآیند تأیید را به‌عنوان افشاگری معرفی کنید.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "ارتش اسرائیل تأیید کرده است که یک عکس پرطرفدار از یکی از سربازانش که در حال خردکردن یک مجسمهٔ عیسی با چکش بزرگ در جنوب لبنان است «اصیل» است و اعلام کرده که تحقیقاتی دربارهٔ این حادثه آغاز کرده است.",
+        "example_url": "https://www.france24.com/en/israel-confirms-its-soldier-destroyed-jesus-statue-in-lebanon",
+        "unbiased_text": "ارتش اسرائیل یک عکس منتشرشده را که یکی از سربازانش را در حال خردکردن یک مجسمهٔ عیسی با چکش بزرگ در جنوب لبنان نشان می‌دهد، تأیید کرد و اعلام کرد که تحقیقاتی دربارهٔ این حادثه آغاز کرده است.",
+        "pattern_en": "Authentication as newsworthy revelation framing"
       }
     ]
   },
@@ -2296,6 +2352,39 @@
         "unbiased_text": "شرکت‌ها از یک کریدور حمل بار مصر–ایتالیا استفاده می‌کنند، زیرا مسیرهای کشتیرانی از طریق تنگه هرمز همچنان مختل باقی مانده است.",
         "detail_items": [],
         "pattern_en": "Alternative route beneficiary highlighting"
+      },
+      {
+        "pattern": "قاب‌بندی تشدیدکننده خشم از صورت‌حساب بیمارستان",
+        "detail": "برجسته‌سازی انتقادات سیاسی از شیوه‌های صورت‌حساب پزشکی به‌گونه‌ای که بی‌عدالتی سیستماتیک فراتر از رویه‌های اداری معمول را القا کند.",
+        "debias": "اختلافات صورت‌حساب را به‌صورت واقعی گزارش کنید بدون تشدید توصیفات سیاسی به‌عنوان ارزیابی‌های قطعی.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "«توهین روی توهین»: ملونی از بیمارستان سوئیسی به دلیل صدور صورت‌حساب برای قربانیان آتش‌سوزی بار انتقاد می‌کند",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/21/insult-of-top-of-mockery-meloni-criticises-swiss-hospital-for-billing-victims-of-bar-fire",
+        "unbiased_text": "ملونی از بیمارستان سوئیسی به دلیل صدور صورت‌حساب برای قربانیان آتش‌سوزی بار انتقاد می‌کند",
+        "pattern_en": "Hospital billing outrage amplification framing"
+      },
+      {
+        "pattern": "سنسیشنالیسم روایت بازگشت رالی تسکین",
+        "detail": "تأکید بر بهبود بازار به‌عنوان امری استثنائی یا شگفت‌انگیز برای نمایش دراماتیک نوسانات مالی به‌جای گزارش چرخه‌های عادی بازار.",
+        "debias": "حرکات بازار را به‌عنوان بخشی از چرخه‌های نوسان معمول گزارش کنید بدون اینکه بهبود را به‌عنوان بازگشت استثنائی قاب‌بندی کنید.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "بازارهای سهامی که قرار بود بالاترین بهای جنگ ایران را بپردازند، اکنون بازارهایی هستند که جدول رده‌بندی ۲۰۲۶ را رهبری می‌کنند، و بازگشت از وحشت هرمز در مارس یکی از تهاجمی‌ترین رالی‌های تسکین در سال‌های اخیر بوده است.",
+        "example_url": "http://www.euronews.com/business/2026/04/21/the-iran-wars-biggest-losers-are-now-2026s-top-performing-markets",
+        "unbiased_text": "بازارهای سهامی که به‌شدت تحت تأثیر جنگ ایران در مارس قرار گرفتند، از آن زمان بهبود یافته‌اند و چندین مورد اکنون عملکرد قوی در سال ۲۰۲۶ را نشان می‌دهند.",
+        "pattern_en": "Relief rally reversal narrative sensationalism"
+      },
+      {
+        "pattern": "ارتقای توطئه جعل داده‌های اقتصادی",
+        "detail": "ارائه ادعاهای اطلاعاتی درباره دستکاری داده‌ها به‌عنوان واقعیت تأییدشده برای ساخت روایت فریب.",
+        "debias": "ارزیابی‌های اطلاعاتی را به‌عنوان ادعاهایی که نیاز به راستی‌آزمایی دارند گزارش کنید، نه به‌عنوان فریب اثبات‌شده.",
+        "date_added": "2026-04-21",
+        "status": "suggested",
+        "example_text": "سازمان اطلاعات سوئد گفت روسیه اقتصاد ضعیف و مبتنی بر بدهی خود را که تحت تأثیر هزینه‌های جنگ و تحریم‌ها قرار گرفته، پنهان کرده است و نسبت به تورم رو به افزایش و ریسک‌های بانکی هشدار داد.",
+        "example_url": "http://www.euronews.com/2026/04/21/russia-faked-economic-data-to-appear-more-resilient-to-its-war-and-sanctions-intel-report-",
+        "unbiased_text": "سازمان اطلاعات سوئد ارزیابی کرد که داده‌های اقتصادی روسیه ممکن است تأثیر هزینه‌های جنگ و تحریم‌ها را کمتر از واقعیت نشان دهد و نگرانی‌هایی درباره تورم و ریسک‌های بانکی بیان کرد.",
+        "pattern_en": "Economic data fabrication conspiracy elevation"
       }
     ]
   }
