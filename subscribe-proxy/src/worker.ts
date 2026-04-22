@@ -67,7 +67,13 @@ export interface Env {
   [key: string]: string | KVNamespace | D1Database | undefined;
 }
 
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+// Strict character class: rejects whitespace, HTML-active characters
+// (`<`, `>`, `"`, `'`), and other punctuation that is legal per RFC 5322 but
+// almost never seen in practice. The goal is defense in depth — even though
+// the email is HTML-escaped before substitution into the confirmation email
+// body, a tight input filter prevents weird payloads from reaching any
+// downstream system that might not escape.
+const EMAIL_RE = /^[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}$/;
 const TOKEN_TTL_SECONDS = 60 * 60 * 24; // 24h
 const RATE_LIMIT_TTL_SECONDS = 60 * 60 * 24; // 24h
 const BLOCK_TTL_SECONDS = 10 * 365 * 24 * 60 * 60; // 10 years, effectively permanent
@@ -207,6 +213,15 @@ function fillTemplate(tpl: string, vars: Record<string, string>): string {
   return tpl.replace(/{(\w+)}/g, (_, k) => vars[k] ?? `{${k}}`);
 }
 
+function escapeHtml(s: string): string {
+  return s
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
 async function sendConfirmationEmail(
   env: Env,
   to: string,
@@ -215,18 +230,25 @@ async function sendConfirmationEmail(
   list: string,
 ): Promise<boolean> {
   const tpl = templateFor(list);
-  const vars = {
+  // Two vars sets: one raw (for subject and plain text), one with every user-
+  // controllable field HTML-escaped before substitution into the HTML body.
+  const varsText = {
     email: to,
     confirm_url: confirmUrl,
     block_url: blockUrl,
     site_name: env.SITE_NAME,
   };
+  const varsHtml = {
+    ...varsText,
+    email:     escapeHtml(to),
+    site_name: escapeHtml(env.SITE_NAME || ""),
+  };
   const payload = {
     from: env.FROM_ADDR,
     to,
-    subject: fillTemplate(tpl.subject, vars),
-    html: fillTemplate(tpl.html, vars),
-    text: fillTemplate(tpl.text, vars),
+    subject: fillTemplate(tpl.subject, varsText),
+    html: fillTemplate(tpl.html, varsHtml),
+    text: fillTemplate(tpl.text, varsText),
   };
   const resp = await fetch("https://api.resend.com/emails", {
     method: "POST",
