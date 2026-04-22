@@ -813,6 +813,51 @@
         "example_url": "https://www.aljazeera.com/features/2026/4/21/my-dreams-in-iran-were-already-dead-before-the-ceasefire-came?traffic_source=rss",
         "unbiased_text": "درگیری‌ها قبل از آتش‌بس موجب اختلال شدید در زندگی روزمره در ایران شده بود",
         "pattern_en": "Personal dream destruction victimization narrative"
+      },
+      {
+        "pattern": "انحراف رتوریک رشد در عملکرد ضعیف ورزشی",
+        "detail": "قاب‌بندی شکست‌های مستمر ورزشی به عنوان شاهدی بر «رشد» علی‌رغم ناتوانی مداوم در دستیابی به موفقیت در لحظات سرنوشت‌ساز.",
+        "debias": "گزارش نتایج ورزشی به صورت واقعی بدون قاب‌بندی مجدد شکست‌های مکرر به عنوان پیشرفت یا دستاوردهای تکاملی.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "Arsenal رشد کرده است، اما هنوز یاد نگرفته است که چگونه تسلط یابد",
+        "example_url": "https://www.aljazeera.com/opinions/2026/4/22/arsenal-have-grown-but-they-still-have-not-learned-how-to-dominate?traffic_source=rss",
+        "unbiased_text": "چالش قهرمانی Arsenal به دلیل از دست دادن امتیاز در لحظات سرنوشت‌ساز تضعیف شده است",
+        "pattern_en": "Sports underperformance growth rhetoric deflection"
+      },
+      {
+        "pattern": "برچسب‌زنی نمایشگاه ایدئولوژی مذهبی",
+        "detail": "توصیف جنبش‌های سیاسی به‌عنوان ادیان یا سیستم‌های اعتقادی برای غیرمشروع جلوه دادن آن‌ها به‌عنوان امری غیرمنطقی به‌جای سیاسی.",
+        "debias": "نمایشگاه‌ها و چیدمان‌های هنری سیاسی را با اصطلاحات خنثی و بدون قاب‌بندی ایمان مذهبی توصیف کنید.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "یک گالری در نیویورک به یک چیدمان به‌سبک کلیسا تبدیل شده است که «ترامپیسم» را به‌عنوان یک باور مدرن آمریکایی بررسی می‌کند.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/22/new-york-exhibit-casts-trumpism-as-a-modern-faith?traffic_source=rss",
+        "unbiased_text": "یک گالری در نیویورک چیدمانی ایجاد کرده است که حمایت سیاسی از ترامپ را بررسی می‌کند",
+        "pattern_en": "Religious ideology exhibition labeling"
+      },
+      {
+        "pattern": "برجسته‌سازی فعالیت سیاسی ورزشکاران",
+        "detail": "برجسته کردن اقدامات سیاسی فردی ورزشکاران به‌عنوان بیانیه‌های همبستگی خبری برای تقویت علل سیاسی خاص.",
+        "debias": "اظهارات سیاسی ورزشکاران را بدون برجسته‌سازی آن‌ها به‌عنوان نماینده جنبش‌های گسترده‌تر یا مواضع اخلاقی استثنایی گزارش کنید.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "تصویر نمایه بازیکن NBA کودک فلسطینی را نشان می‌دهد که توسط سربازان اسرائیلی در کرانه باختری اشغالی از رفتن به مدرسه منع شده است.",
+        "example_url": "https://www.aljazeera.com/sports/2026/4/22/kyrie-irving-changes-instagram-photo-to-show-solidarity-with-palestine?traffic_source=rss",
+        "unbiased_text": "بازیکن NBA کایری ایروینگ تصویر نمایه اینستاگرام خود را تغییر داد تا کودک فلسطینی را نشان دهد",
+        "detail_items": [],
+        "pattern_en": "Athlete activism platform elevation"
+      },
+      {
+        "pattern": "ادغام مسائل متعدد در یک مساله بزرگ ورزشی",
+        "detail": "جمع‌آوری چندین مشکل نامرتبط در یک روایت بحرانی واحد برای معرفی یک رویداد ورزشی به‌عنوان امری اساساً مشکل‌دار.",
+        "debias": "مسائل خاص مربوط به رویدادهای ورزشی را به‌طور جداگانه گزارش کنید به‌جای این‌که آن‌ها را در یک قالب‌بندی بحرانی جامع دسته‌بندی کنید.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "از جنگ آمریکا و اسرائیل علیه ایران تا قیمت‌های گزاف بلیت و خشونت در کشورهای میزبان، این‌هاست آن‌چه اشتباه پیش رفته است.",
+        "example_url": "https://www.aljazeera.com/sports/2026/4/22/five-major-issues-affecting-the-fifa-world-cup-with-50-days-to-go?traffic_source=rss",
+        "unbiased_text": "چندین چالش جداگانه جام جهانی FIFA پیش رو را تحت تأثیر قرار داده است، از جمله درگیری‌های منطقه‌ای، قیمت‌گذاری بلیت، و نگرانی‌های امنیتی در کشورهای میزبان",
+        "pattern_en": "Sports event mega-issue amalgamation"
       }
     ]
   },
@@ -1511,6 +1556,28 @@
         "example_url": "https://www.france24.com/en/israel-confirms-its-soldier-destroyed-jesus-statue-in-lebanon",
         "unbiased_text": "ارتش اسرائیل یک عکس منتشرشده را که یکی از سربازانش را در حال خردکردن یک مجسمهٔ عیسی با چکش بزرگ در جنوب لبنان نشان می‌دهد، تأیید کرد و اعلام کرد که تحقیقاتی دربارهٔ این حادثه آغاز کرده است.",
         "pattern_en": "Authentication as newsworthy revelation framing"
+      },
+      {
+        "pattern": "قاب‌بندی قیمت انسانی بسته شدن مرز",
+        "detail": "تأکید بر رنج غیرنظامیان ناشی از بسته شدن مرزها برای نسبت دادن مقصر به اختلافات دیپلماتیک به‌جای گزارش وضعیت به‌طور خنثی.",
+        "debias": "واقعیت‌های بسته شدن مرز و اختلافات دیپلماتیک را بدون قرار دادن هزینه انسانی در پیش‌زمینه به‌عنوان چارچوب روایی اصلی گزارش دهید.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "ساکنان بهای بسته ماندن مرز افغانستان و پاکستان را می‌پردازند",
+        "example_url": "https://www.france24.com/en/tv-shows/focus/20260422-residents-pay-the-price-as-afghanistan-pakistan-border-remains-closed",
+        "unbiased_text": "مرز افغانستان و پاکستان به مدت ۶ ماه در میان اختلافات دیپلماتیک بسته مانده است",
+        "pattern_en": "Border closure humanitarian price framing"
+      },
+      {
+        "pattern": "رسوایی مشارکت جشن‌واره‌ای جنایتکاران جنگی",
+        "detail": "برجسته‌سازی حضور افراد متهم به جنایات جنگی در جشن‌های ملی به منظور رسوایی موضع اخلاقی کشور میزبان.",
+        "debias": "مشارکت در رویدادهای ملی را به صورت واقعی گزارش دهید و اتهامات را به طور جداگانه و بدون قاب‌بندی رسوایی در تیتر ذکر کنید.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "یک خاخام افراطی متهم به جنایات جنگی برای مشارکت در جشن‌های روز استقلال اسرائیل انتخاب شده است.",
+        "example_url": "https://www.france24.com/en/tv-shows/press-review/20260422-rabbi-who-bulldozed-palestinian-homes-selected-for-israel-s-national-celebration",
+        "unbiased_text": "خاخامی که با اتهامات جنایات جنگی مواجه است در جشن‌های روز استقلال اسرائیل شرکت خواهد کرد",
+        "pattern_en": "War crimes celebratory participation scandal"
       }
     ]
   },
@@ -2385,6 +2452,50 @@
         "example_url": "http://www.euronews.com/2026/04/21/russia-faked-economic-data-to-appear-more-resilient-to-its-war-and-sanctions-intel-report-",
         "unbiased_text": "سازمان اطلاعات سوئد ارزیابی کرد که داده‌های اقتصادی روسیه ممکن است تأثیر هزینه‌های جنگ و تحریم‌ها را کمتر از واقعیت نشان دهد و نگرانی‌هایی درباره تورم و ریسک‌های بانکی بیان کرد.",
         "pattern_en": "Economic data fabrication conspiracy elevation"
+      },
+      {
+        "pattern": "برون‌یابی بحران محصولات مصرفی زنجیره تأمین",
+        "detail": "تقویت اختلالات زنجیره تأمین مرتبط با جنگ از طریق مثال‌های غیرمنتظره محصولات مصرفی برای شخصی‌سازی تأثیرات اقتصادی.",
+        "debias": "اختلالات زنجیره تأمین را با بخش‌های نمایندگی گزارش کنید بدون اینکه محصولات مصرفی تحریک‌آمیز برای ایجاد تأثیر انتخاب شود.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "Karex، بزرگ‌ترین تولیدکننده کاندوم در جهان، می‌گوید اختلالات حمل‌ونقل و افزایش هزینه‌های تولید ناشی از جنگ ایران باعث افزایش قیمت‌ها شده است.",
+        "example_url": "http://www.euronews.com/health/2026/04/22/worlds-largest-condom-maker-warns-prices-could-rise-as-the-iran-war-impacts-supply-chains",
+        "unbiased_text": "تولیدکنندگان متعدد از اختلالات حمل‌ونقل و افزایش هزینه‌ها به دلیل درگیری ایران گزارش می‌دهند",
+        "pattern_en": "Supply chain consumer product crisis extrapolation"
+      },
+      {
+        "pattern": "اتهام تداوم بحران به دلیل وابستگی به یارانه",
+        "detail": "قاب‌بندی یارانه‌های انرژی دولت به‌عنوان عاملی که بحران را عمیق‌تر می‌کند نه اینکه آن را تسکین دهد، برای انتقاد از رویکرد سیاستی.",
+        "debias": "سیاست‌های یارانه انرژی و اهداف اعلام‌شده آن‌ها را بدون ادعای اینکه مشکلی را که قرار است برطرف کنند بدتر می‌کنند، گزارش کنید.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "اروپا با یارانه دادن راه خود را به سمت یک بحران انرژی عمیق‌تر هموار می‌کند",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/22/europe-subsidising-energy-crisis-hormuz-fuel-petrol",
+        "unbiased_text": "دولت‌های اروپایی یارانه‌های انرژی را در واکنش به افزایش قیمت‌ها اجرا کرده‌اند",
+        "pattern_en": "Subsidy dependency crisis perpetuation accusation"
+      },
+      {
+        "pattern": "قطعیت‌گرایی سلامت روان شهری-روستایی",
+        "detail": "ارائه محل رشد جغرافیایی به عنوان عامل علّی قطعی پیامدهای خاص سلامت روان از طریق چارچوب‌بندی مطالعه بزرگ.",
+        "debias": "یافته‌های تحقیقات سلامت روان در مورد همبستگی‌های جغرافیایی را بدون ادعای علیت قطعی در تیترها گزارش دهید.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "محل رشد کودکان سلامت روان آنها را شکل می‌دهد، مطالعه بزرگ نشان می‌دهد",
+        "example_url": "http://www.euronews.com/health/2026/04/22/mental-health-study-children",
+        "unbiased_text": "یک مطالعه همبستگی‌هایی بین موقعیت جغرافیایی کودکان و الگوهای خاص سلامت روان یافت",
+        "pattern_en": "Urban-rural mental health determinism"
+      },
+      {
+        "pattern": "قاب‌بندی رمزآلود و کم‌نمایی جانشینی مدیرعامل",
+        "detail": "توصیف مدیران اجرایی ورودی به‌عنوان چهره‌های ناشناخته یا مرموز برای ایجاد جذابیت پیرامون تغییرات رهبری شرکت‌ها.",
+        "debias": "گزارش انتصاب‌های مدیریتی با مدارک و تجربه واقعی آن‌ها به‌جای تأکید بر شهرت عمومی‌شان.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "جان ترنوس، مدیرعامل آینده Apple که کم‌نمایی دارد اما عمیقاً در شرکت جا افتاده است، تقریباً تمام حرفه خود را در این شرکت گذرانده است.",
+        "example_url": "http://www.euronews.com/next/2026/04/22/john-ternus-profile",
+        "unbiased_text": "جان ترنوس که بیشتر دوران حرفه‌ای خود را در Apple کار کرده است، مدیرعامل جدید این شرکت خواهد شد",
+        "pattern_en": "CEO succession low-profile mystery framing"
       }
     ]
   }

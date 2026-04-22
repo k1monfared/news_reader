@@ -736,6 +736,46 @@
         "example_text": "My dreams in Iran were already dead before the ceasefire came",
         "example_url": "https://www.aljazeera.com/features/2026/4/21/my-dreams-in-iran-were-already-dead-before-the-ceasefire-came?traffic_source=rss",
         "unbiased_text": "The conflict had already caused severe disruption to daily life in Iran before the ceasefire came"
+      },
+      {
+        "pattern": "Sports underperformance growth rhetoric deflection",
+        "detail": "Framing persistent sports failures as evidence of 'growth' despite continued inability to achieve success at decisive moments.",
+        "debias": "Report sports results factually without reframing repeated failures as progress or developmental achievements.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "Arsenal have grown, but they still have not learned how to dominate",
+        "example_url": "https://www.aljazeera.com/opinions/2026/4/22/arsenal-have-grown-but-they-still-have-not-learned-how-to-dominate?traffic_source=rss",
+        "unbiased_text": "Arsenal's title challenge has been undermined by dropped points in decisive moments"
+      },
+      {
+        "pattern": "Religious ideology exhibition labeling",
+        "detail": "Characterizing political movements as religious faiths or belief systems to delegitimize them as irrational rather than political.",
+        "debias": "Describe political exhibitions and art installations using neutral terminology without religious faith framing.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "A New York gallery has transformed into a chapel-style installation exploring 'Trumpism' as a modern American belief.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/22/new-york-exhibit-casts-trumpism-as-a-modern-faith?traffic_source=rss",
+        "unbiased_text": "A New York gallery has created an installation examining political support for Trump"
+      },
+      {
+        "pattern": "Athlete activism platform elevation",
+        "detail": "Highlighting individual athlete political gestures as newsworthy solidarity statements to amplify particular political causes.",
+        "debias": "Report athlete political statements without elevating them to represent broader movements or exceptional moral stands.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "NBA player's profile image shows a Palestinian child blocked from school by Israeli soldiers in the occupied West Bank.",
+        "example_url": "https://www.aljazeera.com/sports/2026/4/22/kyrie-irving-changes-instagram-photo-to-show-solidarity-with-palestine?traffic_source=rss",
+        "unbiased_text": "NBA player Kyrie Irving changed his Instagram profile image to show a Palestinian child"
+      },
+      {
+        "pattern": "Sports event mega-issue amalgamation",
+        "detail": "Aggregating multiple unrelated problems into a single crisis narrative to frame a sporting event as fundamentally problematic.",
+        "debias": "Report specific issues with sporting events separately rather than bundling them into a comprehensive crisis framing.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "From the US-Israel war on Iran to exorbitant ticket prices and violence in host nations, here's what's gone wrong.",
+        "example_url": "https://www.aljazeera.com/sports/2026/4/22/five-major-issues-affecting-the-fifa-world-cup-with-50-days-to-go?traffic_source=rss",
+        "unbiased_text": "Several separate challenges face the upcoming FIFA World Cup, including regional conflicts, ticket pricing, and security concerns in host nations"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1390,6 +1430,26 @@
         "example_text": "The Israeli military has confirmed a viral photo of one of its soldiers smashing a statue of Jesus with a sledgehammer in southern Lebanon is \"authentic,\" and said it has launched an investigation into the incident.",
         "example_url": "https://www.france24.com/en/israel-confirms-its-soldier-destroyed-jesus-statue-in-lebanon",
         "unbiased_text": "The Israeli military verified a circulated photo showing one of its soldiers smashing a statue of Jesus with a sledgehammer in southern Lebanon and said it has launched an investigation into the incident."
+      },
+      {
+        "pattern": "Border closure humanitarian price framing",
+        "detail": "Emphasizing civilian suffering from border closures to attribute blame for diplomatic disputes rather than reporting status neutrally.",
+        "debias": "Report border closure facts and diplomatic disputes without foregrounding humanitarian cost as primary narrative frame.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "Residents pay the price as Afghanistan-Pakistan border remains closed",
+        "example_url": "https://www.france24.com/en/tv-shows/focus/20260422-residents-pay-the-price-as-afghanistan-pakistan-border-remains-closed",
+        "unbiased_text": "The Afghanistan-Pakistan border has remained closed for six months amid diplomatic disputes"
+      },
+      {
+        "pattern": "War crimes celebratory participation scandal",
+        "detail": "Highlighting alleged war criminals' inclusion in national celebrations to scandalize the host nation's moral standing.",
+        "debias": "Report participation in national events factually, noting accusations separately without scandal framing in headline.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "An extremist rabbi accused of war crimes has been selected to participate in Israeli Independence Day celebrations.",
+        "example_url": "https://www.france24.com/en/tv-shows/press-review/20260422-rabbi-who-bulldozed-palestinian-homes-selected-for-israel-s-national-celebration",
+        "unbiased_text": "A rabbi facing war crimes accusations will participate in Israeli Independence Day celebrations"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -2193,6 +2253,46 @@
         "example_text": "Swedish intelligence said Russia has been covering up a weak, debt-driven economy hit by war costs and sanctions, warning of rising inflation and banking risks.",
         "example_url": "http://www.euronews.com/2026/04/21/russia-faked-economic-data-to-appear-more-resilient-to-its-war-and-sanctions-intel-report-",
         "unbiased_text": "Swedish intelligence assessed that Russia's economic data may understate the impact of war costs and sanctions, citing concerns about inflation and banking risks."
+      },
+      {
+        "pattern": "Supply chain consumer product crisis extrapolation",
+        "detail": "Amplifying war-related supply disruptions through unexpected consumer product examples to personalize economic impact.",
+        "debias": "Report supply chain disruptions with representative sectors without selecting provocative consumer products for impact.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "Karex, the world's largest condom producer, says shipping disruptions and increased manufacturing costs caused by the Iran war are upping prices.",
+        "example_url": "http://www.euronews.com/health/2026/04/22/worlds-largest-condom-maker-warns-prices-could-rise-as-the-iran-war-impacts-supply-chains",
+        "unbiased_text": "Multiple manufacturers report shipping disruptions and increased costs due to the Iran conflict"
+      },
+      {
+        "pattern": "Subsidy dependency crisis perpetuation accusation",
+        "detail": "Framing government energy subsidies as deepening rather than alleviating crisis to criticize policy approach.",
+        "debias": "Report energy subsidy policies and their stated goals without asserting they worsen the problem they address.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "Europe is subsidising its way into a deeper energy crisis",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/22/europe-subsidising-energy-crisis-hormuz-fuel-petrol",
+        "unbiased_text": "European governments have implemented energy subsidies in response to rising prices"
+      },
+      {
+        "pattern": "Urban-rural mental health determinism",
+        "detail": "Presenting geographic upbringing as causal determinant of specific mental health outcomes through major study framing.",
+        "debias": "Report mental health research findings on geographic correlations without deterministic causation claims in headlines.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "Where children grow up shapes their mental health, major study finds",
+        "example_url": "http://www.euronews.com/health/2026/04/22/mental-health-study-children",
+        "unbiased_text": "A study found correlations between children's geographic location and certain mental health patterns"
+      },
+      {
+        "pattern": "CEO succession low-profile mystery framing",
+        "detail": "Characterizing incoming executives as unknown or mysterious figures to create intrigue around corporate leadership changes.",
+        "debias": "Report executive appointments with their actual credentials and experience rather than emphasizing their public profile.",
+        "date_added": "2026-04-22",
+        "status": "suggested",
+        "example_text": "Low-profile but deeply embedded at Apple, incoming CEO John Ternus has spent nearly his entire career at the company.",
+        "example_url": "http://www.euronews.com/next/2026/04/22/john-ternus-profile",
+        "unbiased_text": "John Ternus, who has worked at Apple for most of his career, will become the company's new CEO"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
