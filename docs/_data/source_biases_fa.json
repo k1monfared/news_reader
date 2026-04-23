@@ -858,6 +858,40 @@
         "example_url": "https://www.aljazeera.com/sports/2026/4/22/five-major-issues-affecting-the-fifa-world-cup-with-50-days-to-go?traffic_source=rss",
         "unbiased_text": "چندین چالش جداگانه جام جهانی FIFA پیش رو را تحت تأثیر قرار داده است، از جمله درگیری‌های منطقه‌ای، قیمت‌گذاری بلیت، و نگرانی‌های امنیتی در کشورهای میزبان",
         "pattern_en": "Sports event mega-issue amalgamation"
+      },
+      {
+        "pattern": "قاب‌بندی تعقیب هدفمند روزنامه‌نگاران",
+        "detail": "توصیف کشته شدن روزنامه‌نگاران به‌عنوان عملیات «تعقیب» عمدی به‌جای حوادث رزمی، که بدون ارائه شواهدی از شکار از پیش برنامه‌ریزی‌شده، هدف‌گیری عمدی را القا می‌کند.",
+        "debias": "مرگ روزنامه‌نگاران را با اقدامات مشخص مشاهده‌شده گزارش کنید نه تفسیر قصد از طریق واژگان تعقیب.",
+        "date_added": "2026-04-23",
+        "status": "suggested",
+        "example_text": "جزئیات چگونگی «تعقیب» و کشته شدن آمال خلیل، روزنامه‌نگار لبنانی، توسط نیروهای اسرائیلی منتشر شده است.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/23/how-lebanese-journalist-amal-khalil-was-pursued-and-killed-by-israel?traffic_source=rss",
+        "unbiased_text": "جزئیات چگونگی کشته شدن آمال خلیل، روزنامه‌نگار لبنانی، توسط نیروهای اسرائیلی منتشر شده است.",
+        "pattern_en": "Journalist targeting pursuit framing"
+      },
+      {
+        "pattern": "تلویح به زمان‌بندی بستن پرونده کودک مفقودشده",
+        "detail": "ارائه بستن پرونده کودک مفقودشده توسط مقامات با تأکید زمانی که نشان‌دهنده رهاسازی زودهنگام یا پنهان‌کاری عمدی است.",
+        "debias": "به‌روزرسانی وضعیت پرونده را با زمینه واقعی خط زمانی گزارش دهید، نه به شکل تلویحی که نشان از بستن عجولانه یا مشکوک باشد.",
+        "date_added": "2026-04-23",
+        "status": "suggested",
+        "example_text": "پس از نزدیک به هفت هفته جستجو برای یافتن بقایا، مقامات به والدین کودک هفت‌ساله می‌گویند که پرونده‌اش بسته شده است.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/23/makan-nasiri-the-only-missing-child-from-the-school-bombed-in-irans-minab?traffic_source=rss",
+        "unbiased_text": "پس از هفت هفته جستجو برای یافتن بقایا، مقامات به والدین کودک هفت‌ساله اطلاع داده‌اند که جستجوها به پایان رسیده است.",
+        "pattern_en": "Missing child case closure timing insinuation"
+      },
+      {
+        "pattern": "روایت محرومیت از حق رأی از طریق حذف نام از فهرست رأی‌دهندگان",
+        "detail": "قاب‌بندی حذف ثبت‌نام رأی‌دهندگان به‌عنوان هدف‌گیری قومی/مذهبی بدون ارائه داده‌های مقایسه‌ای یا توضیحات اداری درباره این حذف‌ها.",
+        "debias": "تغییرات فهرست رأی‌دهندگان را با زمینه‌ای درباره علل، جمعیت‌شناسی متأثران به‌صورت متناسب و توضیحات رسمی گزارش دهید.",
+        "date_added": "2026-04-23",
+        "status": "suggested",
+        "example_text": "میلیون‌ها نفر در بنگال غربی در انتخابات ایالتی رأی می‌دهند، اما بیش از ۹ میلیون نام از فهرست‌ها حذف شده است.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/23/why-indian-muslim-voters-say-theyve-been-frozen-out-of-this-state-electio?traffic_source=rss",
+        "unbiased_text": "بنگال غربی در حال برگزاری انتخابات ایالتی است که در آن بیش از ۹ میلیون نام از فهرست رأی‌دهندگان حذف شده است و رأی‌دهندگان متأثر از جمله مسلمانان نگرانی‌هایی درباره این روند ابراز کرده‌اند.",
+        "detail_items": [],
+        "pattern_en": "Voter roll deletion disenfranchisement narrative"
       }
     ]
   },
@@ -1578,6 +1612,28 @@
         "example_url": "https://www.france24.com/en/tv-shows/press-review/20260422-rabbi-who-bulldozed-palestinian-homes-selected-for-israel-s-national-celebration",
         "unbiased_text": "خاخامی که با اتهامات جنایات جنگی مواجه است در جشن‌های روز استقلال اسرائیل شرکت خواهد کرد",
         "pattern_en": "War crimes celebratory participation scandal"
+      },
+      {
+        "pattern": "قاب‌بندی ابزار اجبار از طریق بازداشت ارز",
+        "detail": "توصیف بازداشت‌های مالی به عنوان اهرم تسلیحاتی که کشوری را به اراده کشور دیگر «خم می‌کند»، با تأکید بر سلطه به جای شرایط سیاست‌گذاری.",
+        "debias": "بازداشت‌های مالی را با شرایط اعلام‌شده و اهداف سیاسی گزارش کنید به جای استفاده از استعاره‌های اجبار.",
+        "date_added": "2026-04-23",
+        "status": "suggested",
+        "example_text": "واشنگتن از پول نفتی خود عراق برای خم کردن بغداد به اراده‌اش استفاده می‌کند",
+        "example_url": "https://www.france24.com/en/middle-east/20260423-washington-uses-iraq-own-oil-money-to-bend-baghdad-to-its-will-iran-war",
+        "unbiased_text": "واشنگتن انتقال درآمدهای نفتی عراق را برای فشار بر بغداد در خصوص سیاست شبه‌نظامیان مسدود کرده است",
+        "pattern_en": "Currency withheld as coercion tool framing"
+      },
+      {
+        "pattern": "فرض باج‌خواهی سوخت فسیلی از سوی خودکامگان",
+        "detail": "فرض اینکه وابستگی به سوخت‌های فسیلی به معنای «باج‌خواهی از رژیم‌های اقتدارگرای جنگ‌طلب» است به‌عنوان ویژگی ذاتی، نه واقعیت ژئوپلیتیکی اتفاقی.",
+        "debias": "امنیت انرژی را بدون فرض نیت تامین‌کننده یا توصیف تمام تجارت سوخت فسیلی به‌عنوان اجبار مورد بحث قرار دهید.",
+        "date_added": "2026-04-23",
+        "status": "suggested",
+        "example_text": "اتحادیه اروپا «باید» برای پایان دادن به «باج‌خواهی سوخت فسیلی از رژیم‌های اقتدارگرای جنگ‌طلب» به انرژی‌های تجدیدپذیر روی بیاورد",
+        "example_url": "https://www.france24.com/en/video/20260423-eu-must-shift-to-renewables-to-end-fossil-fuel-blackmail-from-war-driving-authoritarian-regimes-1",
+        "unbiased_text": "مقامات اتحادیه اروپا می‌گویند گذار به انرژی‌های تجدیدپذیر وابستگی انرژی به کشورهایی که در حال حاضر درگیر درگیری هستند را کاهش خواهد داد",
+        "pattern_en": "Fossil fuel blackmail from autocracy premise"
       }
     ]
   },
@@ -2496,6 +2552,29 @@
         "example_url": "http://www.euronews.com/next/2026/04/22/john-ternus-profile",
         "unbiased_text": "جان ترنوس که بیشتر دوران حرفه‌ای خود را در Apple کار کرده است، مدیرعامل جدید این شرکت خواهد شد",
         "pattern_en": "CEO succession low-profile mystery framing"
+      },
+      {
+        "pattern": "تقابل بحران نابرابری مصرف لوکس",
+        "detail": "برجسته‌سازی مصرف نخبگان در زمان کمبود منابع از طریق مقایسه استفاده از جت خصوصی با لغو پروازهای انبوه برای قاب‌بندی نابرابری به‌عنوان علت بحران.",
+        "debias": "الگوهای مصرف و تخصیص منابع را جدا از علل کمبود گزارش دهید مگر اینکه ارتباط علی مستقیم مستند شده باشد.",
+        "date_added": "2026-04-23",
+        "status": "suggested",
+        "example_text": "«جت‌ها را زمین‌گیر کنید» — قانون‌گذاران اتحادیه اروپا پروازهای لوکس را در بحران انرژی هدف می‌گیرند",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/23/ground-the-jets-eu-lawmakers-take-aim-at-luxury-flights-in-energy-crunch",
+        "unbiased_text": "قانون‌گذاران اتحادیه اروپا محدودیت‌هایی را برای هوانوردی خصوصی در طول کمبود سوخت که پروازهای تجاری را تحت تأثیر قرار داده پیشنهاد می‌کنند",
+        "pattern_en": "Luxury consumption inequity crisis juxtaposition"
+      },
+      {
+        "pattern": "ثبت معامله ملکی تبعیدی با توجیه‌سازی",
+        "detail": "ارائه خریدهای عظیم لوکس توسط میلیاردرهای مناطق درگیری با هیجان‌آفرینی قیمتی، در حالی که بررسی منابع مالی یا بستر جابجایی را حذف می‌کند.",
+        "debias": "معاملات بزرگ املاک را با زمینه متناسب درباره شرایط خریدار و منابع ثروت گزارش دهید.",
+        "date_added": "2026-04-23",
+        "status": "suggested",
+        "example_text": "میلیاردر اوکراینی رینات اخمتوف یک آپارتمان لوکس وسیع در موناکو به قیمت ۴۷۱ میلیون یورو خریداری کرده است که گمان می‌رود یکی از گران‌ترین معاملات مسکونی منفرد ثبت‌شده باشد.",
+        "example_url": "http://www.euronews.com/business/2026/04/23/ukrainian-billionaire-rinat-akhmetov-buys-471m-monaco-apartment-in-record-deal",
+        "unbiased_text": "میلیاردر اوکراینی رینات اخمتوف یک آپارتمان در موناکو به قیمت ۴۷۱ میلیون یورو خریداری کرده است.",
+        "detail_items": [],
+        "pattern_en": "Record property transaction exile vindication"
       }
     ]
   }

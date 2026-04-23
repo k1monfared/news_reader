@@ -776,6 +776,36 @@
         "example_text": "From the US-Israel war on Iran to exorbitant ticket prices and violence in host nations, here's what's gone wrong.",
         "example_url": "https://www.aljazeera.com/sports/2026/4/22/five-major-issues-affecting-the-fifa-world-cup-with-50-days-to-go?traffic_source=rss",
         "unbiased_text": "Several separate challenges face the upcoming FIFA World Cup, including regional conflicts, ticket pricing, and security concerns in host nations"
+      },
+      {
+        "pattern": "Journalist targeting pursuit framing",
+        "detail": "Characterizing journalist deaths as deliberate 'pursuit' operations rather than combat incidents, implying intentional targeting without establishing evidence of premeditated hunting.",
+        "debias": "Report journalist deaths with specific actions observed rather than interpreting intent through pursuit language.",
+        "date_added": "2026-04-23",
+        "status": "suggested",
+        "example_text": "Details of how Lebanese journalist Amal Khalil was \"pursued\" and killed by Israeli forces have been released.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/23/how-lebanese-journalist-amal-khalil-was-pursued-and-killed-by-israel?traffic_source=rss",
+        "unbiased_text": "Details of how Lebanese journalist Amal Khalil was killed by Israeli forces have been released."
+      },
+      {
+        "pattern": "Missing child case closure timing insinuation",
+        "detail": "Presenting authorities' closure of a missing child case with temporal emphasis suggesting premature abandonment or deliberate cover-up.",
+        "debias": "Report case status updates with factual timeline context rather than insinuating rushed or suspicious closure.",
+        "date_added": "2026-04-23",
+        "status": "suggested",
+        "example_text": "After nearly seven weeks of searching for remains, authorities tell the seven-year-old's parents his case is closed.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/23/makan-nasiri-the-only-missing-child-from-the-school-bombed-in-irans-minab?traffic_source=rss",
+        "unbiased_text": "After seven weeks of searching for remains, authorities have informed the seven-year-old's parents that the search has concluded."
+      },
+      {
+        "pattern": "Voter roll deletion disenfranchisement narrative",
+        "detail": "Framing voter registration deletions as ethnic/religious targeting without presenting comparative data or administrative explanations for the removals.",
+        "debias": "Report voter roll changes with context about causes, affected demographics proportionally, and official explanations.",
+        "date_added": "2026-04-23",
+        "status": "suggested",
+        "example_text": "Millions in West Bengal are voting in a state election, but more than 9 million names have been deleted from the rolls.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/23/why-indian-muslim-voters-say-theyve-been-frozen-out-of-this-state-electio?traffic_source=rss",
+        "unbiased_text": "West Bengal is holding a state election in which more than 9 million names have been removed from voter rolls, with affected voters including Muslims raising concerns about the process."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1450,6 +1480,26 @@
         "example_text": "An extremist rabbi accused of war crimes has been selected to participate in Israeli Independence Day celebrations.",
         "example_url": "https://www.france24.com/en/tv-shows/press-review/20260422-rabbi-who-bulldozed-palestinian-homes-selected-for-israel-s-national-celebration",
         "unbiased_text": "A rabbi facing war crimes accusations will participate in Israeli Independence Day celebrations"
+      },
+      {
+        "pattern": "Currency withheld as coercion tool framing",
+        "detail": "Characterizing financial holds as weaponized leverage 'bending' a country to another's will, emphasizing dominance rather than policy conditions.",
+        "debias": "Report financial holds with stated conditions and policy objectives rather than coercion metaphors.",
+        "date_added": "2026-04-23",
+        "status": "suggested",
+        "example_text": "Washington uses Iraq's own oil money to bend Baghdad to its will",
+        "example_url": "https://www.france24.com/en/middle-east/20260423-washington-uses-iraq-own-oil-money-to-bend-baghdad-to-its-will-iran-war",
+        "unbiased_text": "Washington has blocked Iraq oil revenue transfers to pressure Baghdad on militia policy"
+      },
+      {
+        "pattern": "Fossil fuel blackmail from autocracy premise",
+        "detail": "Presuming that fossil fuel dependency constitutes 'blackmail from war-driving authoritarian regimes' as inherent characteristic rather than contingent geopolitical reality.",
+        "debias": "Discuss energy security challenges without presuming supplier intent or characterizing all fossil fuel trade as coercion.",
+        "date_added": "2026-04-23",
+        "status": "suggested",
+        "example_text": "EU 'must' shift to renewables to end fossil fuel 'blackmail from war-driving authoritarian regimes'",
+        "example_url": "https://www.france24.com/en/video/20260423-eu-must-shift-to-renewables-to-end-fossil-fuel-blackmail-from-war-driving-authoritarian-regimes-1",
+        "unbiased_text": "EU officials say shift to renewables would reduce energy dependence on countries currently in conflict"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -2293,6 +2343,26 @@
         "example_text": "Low-profile but deeply embedded at Apple, incoming CEO John Ternus has spent nearly his entire career at the company.",
         "example_url": "http://www.euronews.com/next/2026/04/22/john-ternus-profile",
         "unbiased_text": "John Ternus, who has worked at Apple for most of his career, will become the company's new CEO"
+      },
+      {
+        "pattern": "Luxury consumption inequity crisis juxtaposition",
+        "detail": "Highlighting elite consumption during resource shortages by juxtaposing private jet use with mass flight cancellations to frame inequality as crisis cause.",
+        "debias": "Report consumption patterns and resource allocation separately from shortage causes unless direct causal link established.",
+        "date_added": "2026-04-23",
+        "status": "suggested",
+        "example_text": "'Ground the jets' — EU lawmakers take aim at luxury flights in energy crunch",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/23/ground-the-jets-eu-lawmakers-take-aim-at-luxury-flights-in-energy-crunch",
+        "unbiased_text": "EU lawmakers propose restrictions on private aviation during fuel shortage affecting commercial flights"
+      },
+      {
+        "pattern": "Record property transaction exile vindication",
+        "detail": "Presenting massive luxury purchases by conflict-region billionaires with price sensationalism while omitting source-of-funds scrutiny or displacement context.",
+        "debias": "Report major property transactions with proportional context about buyer's circumstances and wealth sources.",
+        "date_added": "2026-04-23",
+        "status": "suggested",
+        "example_text": "Ukrainian billionaire Rinat Akhmetov has purchased a vast luxury apartment in Monaco for €471 million in what is believed to be one of the most expensive single residential transactions ever recorded.",
+        "example_url": "http://www.euronews.com/business/2026/04/23/ukrainian-billionaire-rinat-akhmetov-buys-471m-monaco-apartment-in-record-deal",
+        "unbiased_text": "Ukrainian billionaire Rinat Akhmetov has purchased an apartment in Monaco for €471 million."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
