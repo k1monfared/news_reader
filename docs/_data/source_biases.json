@@ -806,6 +806,46 @@
         "example_text": "Millions in West Bengal are voting in a state election, but more than 9 million names have been deleted from the rolls.",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/23/why-indian-muslim-voters-say-theyve-been-frozen-out-of-this-state-electio?traffic_source=rss",
         "unbiased_text": "West Bengal is holding a state election in which more than 9 million names have been removed from voter rolls, with affected voters including Muslims raising concerns about the process."
+      },
+      {
+        "pattern": "Activist action legitimizing labeling",
+        "detail": "Framing direct action breaking and entering as activism by pro-Palestine advocates rather than as potential criminal trespass or property damage.",
+        "debias": "Report actions neutrally noting both claimed motivations and legal status without characterizing participants' political alignment as legitimizing.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "Pro-Palestine activists have broken into a UK factory where they said drones were being made for Israel's military.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/24/pro-palestinian-activists-break-into-suspected-elbit-systems-drone-factory?traffic_source=rss",
+        "unbiased_text": "Individuals broke into a UK factory they said produces drones for Israel's military, with police investigating the incident."
+      },
+      {
+        "pattern": "Economic strain local victimization emphasis",
+        "detail": "Highlighting local residents' inconveniences from diplomatic talks to frame negotiations as imposing hardship on ordinary people.",
+        "debias": "Report diplomatic logistics without emphasizing local inconvenience as a primary narrative frame of the negotiations.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "As Pakistan hosts US-Iran talks, twin-city residents face road closures, halted courts and growing economic strain.",
+        "example_url": "https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume?traffic_source=rss",
+        "unbiased_text": "Pakistan is hosting US-Iran talks, with security measures in place in the capital region."
+      },
+      {
+        "pattern": "Cargo blockade humanitarian victimization framing",
+        "detail": "Presenting stranded commercial cargo containers as humanitarian crisis evidence requiring alternative routes.",
+        "debias": "Report commercial shipping disruptions as economic/logistical issues without framing routine cargo as humanitarian concern.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "With 3,000 containers stuck in Pakistan, Iran explores more land routes",
+        "example_url": "https://www.aljazeera.com/news/2026/4/24/with-3000-containers-stuck-in-pakistan-iran-explores-more-land-routes?traffic_source=rss",
+        "unbiased_text": "Iran is exploring land transit options after 3,000 shipping containers were stranded in Pakistan due to maritime disruptions."
+      },
+      {
+        "pattern": "Military pact ominous question framing",
+        "detail": "Using speculative question headlines about military cooperation to suggest threatening implications without stating them directly.",
+        "debias": "Report military agreements with factual details about their scope rather than posing suggestive questions about deployments.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "Russian troops, warships in India soon? Why their new military pact matters",
+        "example_url": "https://www.aljazeera.com/features/2026/4/24/russian-troops-warships-in-india-soon-why-their-new-military-pact-matters?traffic_source=rss",
+        "unbiased_text": "India and Russia signed a military cooperation agreement allowing for deployment of soldiers and warships during peacetime and wartime."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1500,6 +1540,36 @@
         "example_text": "EU 'must' shift to renewables to end fossil fuel 'blackmail from war-driving authoritarian regimes'",
         "example_url": "https://www.france24.com/en/video/20260423-eu-must-shift-to-renewables-to-end-fossil-fuel-blackmail-from-war-driving-authoritarian-regimes-1",
         "unbiased_text": "EU officials say shift to renewables would reduce energy dependence on countries currently in conflict"
+      },
+      {
+        "pattern": "Blockade global reach triumph narrative",
+        "detail": "Amplifying official claims that a military operation has achieved global scope as evidence of decisive success.",
+        "debias": "Report military operation scope claims as official statements without characterizing them as validated achievements.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "Defense Secretary Pete Hegseth said Operation Epic Fury has achieved a decisive result in just weeks",
+        "example_url": "https://www.france24.com/en/us-defense-secretary-hegseth-us-blockade-has-gone-global",
+        "unbiased_text": "Defense Secretary Pete Hegseth stated that Operation Epic Fury is entering a new phase focused on preventing Iran from developing nuclear weapons."
+      },
+      {
+        "pattern": "Humanitarian funding crisis equivalence deflection",
+        "detail": "Comparing bank bailouts to absence of humanitarian funding to suggest misplaced priorities without examining budget mechanisms.",
+        "debias": "Report humanitarian funding shortfalls without creating false equivalences to unrelated financial sector interventions.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "the world bailed out the banks, no one is bailing out the children",
+        "example_url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260424-the-world-bailed-out-the-banks-no-one-is-bailing-out-the-children-unicef-says",
+        "unbiased_text": "UNICEF is facing a significant funding shortfall for humanitarian operations supporting children affected by conflicts."
+      },
+      {
+        "pattern": "Strategic waterway percentage dramatization",
+        "detail": "Leading with percentage of global oil supply affected to dramatize geopolitical standoff impact.",
+        "debias": "Report shipping disruptions with context about alternative routes and actual supply impacts rather than leading with percentages.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "Hormuz standoff chokes 20% of oil supply",
+        "example_url": "https://www.france24.com/en/hormuz-standoff-chokes-20-of-oil-supply",
+        "unbiased_text": "The Strait of Hormuz standoff has disrupted maritime traffic through the waterway that typically handles a significant portion of global oil shipments."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -2363,6 +2433,46 @@
         "example_text": "Ukrainian billionaire Rinat Akhmetov has purchased a vast luxury apartment in Monaco for €471 million in what is believed to be one of the most expensive single residential transactions ever recorded.",
         "example_url": "http://www.euronews.com/business/2026/04/23/ukrainian-billionaire-rinat-akhmetov-buys-471m-monaco-apartment-in-record-deal",
         "unbiased_text": "Ukrainian billionaire Rinat Akhmetov has purchased an apartment in Monaco for €471 million."
+      },
+      {
+        "pattern": "Interest rate dilemma uncertainty amplification",
+        "detail": "Framing central bank rate decisions as heightened dilemmas due to conflict to emphasize policy paralysis.",
+        "debias": "Report central bank deliberations as routine assessments of economic conditions without characterizing them as exceptional dilemmas.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "The European Central Bank faces heightened uncertainty ahead of next week's rate decision, with President Christine Lagarde warning the \"stop-start nature\" of the Iran war is making the economic outlook harder to assess.",
+        "example_url": "http://www.euronews.com/business/2026/04/24/ecb-interest-rate-dilemma-eurozone-growth-stalls-as-iran-war-fuels-inflation",
+        "unbiased_text": "The European Central Bank will decide on interest rates next week, with President Christine Lagarde noting ongoing geopolitical developments as one factor affecting economic forecasts."
+      },
+      {
+        "pattern": "Shareholder approval celebrity opposition amplification",
+        "detail": "Elevating celebrity reactions to corporate mergers to suggest broader opposition momentum beyond actual stakeholder votes.",
+        "debias": "Report shareholder votes on corporate mergers with voting margins rather than focusing on celebrity commentary.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "'Block The Merger': Celebrities react as shareholders approve Paramount takeover of Warner Bros",
+        "example_url": "http://www.euronews.com/culture/2026/04/24/block-the-merger-celebrities-react-as-shareholders-approve-paramount-takeover-of-warner-br",
+        "unbiased_text": "Warner Bros. Discovery shareholders voted to approve a merger with Paramount Skydance, advancing the $111 billion deal."
+      },
+      {
+        "pattern": "Eurovison boycott crisis escalation labeling",
+        "detail": "Characterizing broadcaster decisions not to air an entertainment event as a crisis to amplify controversy.",
+        "debias": "Report broadcaster decisions about event coverage without labeling participation choices as crises.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "Eurovision crisis: Slovenia to broadcast films about Palestine instead of this year's Eurovision",
+        "example_url": "http://www.euronews.com/culture/2026/04/24/eurovision-crisis-slovenia-to-broadcast-films-about-palestine-instead-of-this-years-eurovi",
+        "unbiased_text": "Slovenia's public broadcaster will not air this year's Eurovision Song Contest, joining Ireland and Spain in declining to broadcast the event."
+      },
+      {
+        "pattern": "AI partnership rivalry framing narrative",
+        "detail": "Presenting business discussions about AI partnerships as strategic moves to rival competitors without confirmation of intent.",
+        "debias": "Report business partnership discussions as exploratory talks without characterizing them as competitive maneuvers.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "Elon Musk's xAI discussed partnership with Mistral to try and rival OpenAI and Anthropic, report",
+        "example_url": "http://www.euronews.com/next/2026/04/24/elon-musks-xai-discussed-partnership-with-mistral-to-try-and-rival-openai-and-anthropic-re",
+        "unbiased_text": "Elon Musk's xAI reportedly discussed a partnership with European AI company Mistral, according to sources."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

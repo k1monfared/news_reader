@@ -892,6 +892,50 @@
         "unbiased_text": "بنگال غربی در حال برگزاری انتخابات ایالتی است که در آن بیش از ۹ میلیون نام از فهرست رأی‌دهندگان حذف شده است و رأی‌دهندگان متأثر از جمله مسلمانان نگرانی‌هایی درباره این روند ابراز کرده‌اند.",
         "detail_items": [],
         "pattern_en": "Voter roll deletion disenfranchisement narrative"
+      },
+      {
+        "pattern": "برچسب‌زنی مشروع‌سازی اقدامات فعالانه",
+        "detail": "قاب‌بندی اقدامات مستقیم شامل نفوذ و ورود غیرمجاز به عنوان فعالیت‌گری توسط حامیان فلسطین به جای توصیف آن به عنوان تجاوز احتمالی به ملک یا خسارت به اموال.",
+        "debias": "اقدامات را به صورت خنثی گزارش کنید و هم انگیزه‌های ادعا شده و هم وضعیت قانونی را ذکر کنید بدون اینکه همسویی سیاسی شرکت‌کنندگان را به عنوان عامل مشروعیت‌بخش توصیف کنید.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "فعالان طرفدار فلسطین به کارخانه‌ای در بریتانیا نفوذ کرده‌اند که به گفته آنها در آنجا پهپادهایی برای ارتش اسرائیل ساخته می‌شود.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/24/pro-palestinian-activists-break-into-suspected-elbit-systems-drone-factory?traffic_source=rss",
+        "unbiased_text": "افرادی به کارخانه‌ای در بریتانیا نفوذ کردند که به گفته آنها پهپادهایی برای ارتش اسرائیل تولید می‌کند و پلیس در حال بررسی این حادثه است.",
+        "pattern_en": "Activist action legitimizing labeling"
+      },
+      {
+        "pattern": "تأکید بر قربانی‌سازی محلی در فشار اقتصادی",
+        "detail": "برجسته‌سازی ناراحتی‌های ساکنان محلی از مذاکرات دیپلماتیک برای قاب‌بندی مذاکرات به‌عنوان تحمیل سختی بر مردم عادی.",
+        "debias": "گزارش لجستیک دیپلماتیک بدون تأکید بر ناراحتی محلی به‌عنوان چارچوب روایی اصلی مذاکرات.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "در حالی که پاکستان میزبان مذاکرات آمریکا و ایران است، ساکنان شهرهای دوقلو با بسته شدن جاده‌ها، تعطیلی دادگاه‌ها و فشار اقتصادی روزافزون روبه‌رو هستند.",
+        "example_url": "https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume?traffic_source=rss",
+        "unbiased_text": "پاکستان میزبان مذاکرات آمریکا و ایران است و اقدامات امنیتی در منطقه پایتخت اعمال شده است.",
+        "pattern_en": "Economic strain local victimization emphasis"
+      },
+      {
+        "pattern": "قاب‌بندی قربانی‌سازی انسان‌دوستانه محاصره بار",
+        "detail": "ارائه کانتینرهای بار تجاری متوقف‌شده به‌عنوان شواهد بحران انسان‌دوستانه که نیازمند مسیرهای جایگزین است.",
+        "debias": "اختلالات حمل‌ونقل دریایی تجاری را به‌عنوان مسائل اقتصادی/لجستیکی گزارش کنید بدون اینکه بار عادی را در قالب نگرانی انسان‌دوستانه قاب‌بندی کنید.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "با ۳٬۰۰۰ کانتینر گرفتار در پاکستان، ایران مسیرهای زمینی بیشتری را بررسی می‌کند",
+        "example_url": "https://www.aljazeera.com/news/2026/4/24/with-3000-containers-stuck-in-pakistan-iran-explores-more-land-routes?traffic_source=rss",
+        "unbiased_text": "ایران در حال بررسی گزینه‌های ترانزیت زمینی است پس از اینکه ۳٬۰۰۰ کانتینر حمل‌ونقل دریایی به‌دلیل اختلالات دریایی در پاکستان سرگردان ماندند.",
+        "pattern_en": "Cargo blockade humanitarian victimization framing"
+      },
+      {
+        "pattern": "چارچوب‌بندی پرسشی شوم پیمان نظامی",
+        "detail": "استفاده از تیترهای پرسشی حدسی درباره همکاری‌های نظامی برای القای پیامدهای تهدیدآمیز بدون بیان مستقیم آن‌ها.",
+        "debias": "توافق‌های نظامی را با جزئیات واقعی درباره محدوده آن‌ها گزارش کنید، نه با طرح پرسش‌های القایی درباره استقرار نیروها.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "نیروهای روسی، کشتی‌های جنگی به زودی در هند؟ چرا پیمان نظامی جدیدشان اهمیت دارد",
+        "example_url": "https://www.aljazeera.com/features/2026/4/24/russian-troops-warships-in-india-soon-why-their-new-military-pact-matters?traffic_source=rss",
+        "unbiased_text": "هند و روسیه یک توافق همکاری نظامی امضا کردند که اجازه استقرار سربازان و کشتی‌های جنگی را در زمان صلح و جنگ می‌دهد.",
+        "pattern_en": "Military pact ominous question framing"
       }
     ]
   },
@@ -1634,6 +1678,39 @@
         "example_url": "https://www.france24.com/en/video/20260423-eu-must-shift-to-renewables-to-end-fossil-fuel-blackmail-from-war-driving-authoritarian-regimes-1",
         "unbiased_text": "مقامات اتحادیه اروپا می‌گویند گذار به انرژی‌های تجدیدپذیر وابستگی انرژی به کشورهایی که در حال حاضر درگیر درگیری هستند را کاهش خواهد داد",
         "pattern_en": "Fossil fuel blackmail from autocracy premise"
+      },
+      {
+        "pattern": "روایت پیروزی دامنه جهانی محاصره",
+        "detail": "تقویت ادعاهای رسمی مبنی بر اینکه یک عملیات نظامی به دامنه جهانی دست یافته است به عنوان شواهدی از موفقیت قاطع.",
+        "debias": "ادعاهای مربوط به دامنه عملیات نظامی را به عنوان بیانیه‌های رسمی گزارش کنید بدون اینکه آنها را به عنوان دستاوردهای تأیید شده توصیف کنید.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "وزیر دفاع پیت هگسث گفت که عملیات خشم حماسی در عرض چند هفته به نتیجه قاطعی دست یافته است",
+        "example_url": "https://www.france24.com/en/us-defense-secretary-hegseth-us-blockade-has-gone-global",
+        "unbiased_text": "وزیر دفاع پیت هگسث اعلام کرد که عملیات خشم حماسی وارد مرحله جدیدی شده است که بر جلوگیری از توسعه سلاح‌های هسته‌ای توسط ایران متمرکز است.",
+        "pattern_en": "Blockade global reach triumph narrative"
+      },
+      {
+        "pattern": "انحراف هم‌ارزی بحران بودجه بشردوستانه",
+        "detail": "مقایسه نجات بانک‌ها با غیبت بودجه بشردوستانه برای القای اولویت‌های نادرست بدون بررسی مکانیزم‌های بودجه‌ای.",
+        "debias": "کمبودهای بودجه بشردوستانه را بدون ایجاد هم‌ارزی‌های نادرست با مداخلات نامرتبط بخش مالی گزارش دهید.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "جهان بانک‌ها را نجات داد، هیچ‌کس کودکان را نجات نمی‌دهد",
+        "example_url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260424-the-world-bailed-out-the-banks-no-one-is-bailing-out-the-children-unicef-says",
+        "unbiased_text": "UNICEF با کمبود قابل‌توجه بودجه برای عملیات بشردوستانه حمایت از کودکان آسیب‌دیده از درگیری‌ها مواجه است.",
+        "pattern_en": "Humanitarian funding crisis equivalence deflection"
+      },
+      {
+        "pattern": "نمایش دراماتیک درصدی آبراه استراتژیک",
+        "detail": "شروع خبر با درصد تأمین نفت جهانی تحت تأثیر، برای دراماتیک‌سازی تأثیر رویارویی ژئوپلیتیکی.",
+        "debias": "اختلالات کشتیرانی را با زمینه‌ای درباره مسیرهای جایگزین و تأثیرات واقعی عرضه گزارش کنید، نه اینکه با درصدها شروع کنید.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "رویارویی هرمز ۲۰ درصد عرضه نفت را خفه می‌کند",
+        "example_url": "https://www.france24.com/en/hormuz-standoff-chokes-20-of-oil-supply",
+        "unbiased_text": "رویارویی در تنگه هرمز موجب اختلال در تردد دریایی از طریق این آبراه شده که معمولاً بخش قابل توجهی از محموله‌های نفتی جهان را انتقال می‌دهد.",
+        "pattern_en": "Strategic waterway percentage dramatization"
       }
     ]
   },
@@ -2575,6 +2652,51 @@
         "unbiased_text": "میلیاردر اوکراینی رینات اخمتوف یک آپارتمان در موناکو به قیمت ۴۷۱ میلیون یورو خریداری کرده است.",
         "detail_items": [],
         "pattern_en": "Record property transaction exile vindication"
+      },
+      {
+        "pattern": "تقویت عدم‌قطعیت معمای نرخ بهره",
+        "detail": "قاب‌بندی تصمیمات نرخ بهره بانک مرکزی به‌عنوان معماهای تشدیدشده به دلیل درگیری برای تأکید بر فلج سیاست‌گذاری.",
+        "debias": "گزارش مشورت‌های بانک مرکزی را به‌عنوان ارزیابی‌های معمول شرایط اقتصادی ارائه دهید بدون اینکه آن‌ها را به‌عنوان معماهای استثنایی توصیف کنید.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "بانک مرکزی اروپا پیش از تصمیم نرخ بهره هفته آینده با عدم‌قطعیت تشدیدشده روبه‌رو است، با هشدار کریستین لاگارد رئیس بانک مبنی بر اینکه «ماهیت متناوب» جنگ ایران ارزیابی چشم‌انداز اقتصادی را دشوارتر می‌کند.",
+        "example_url": "http://www.euronews.com/business/2026/04/24/ecb-interest-rate-dilemma-eurozone-growth-stalls-as-iran-war-fuels-inflation",
+        "unbiased_text": "بانک مرکزی اروپا هفته آینده درباره نرخ بهره تصمیم‌گیری خواهد کرد، در حالی که کریستین لاگارد رئیس بانک به تحولات ژئوپلیتیکی جاری به‌عنوان یکی از عوامل مؤثر بر پیش‌بینی‌های اقتصادی اشاره کرد.",
+        "pattern_en": "Interest rate dilemma uncertainty amplification"
+      },
+      {
+        "pattern": "تقویت مخالفت‌های سلبریتی‌ها در مقابل تصویب سهامداران",
+        "detail": "برجسته‌سازی واکنش‌های سلبریتی‌ها به ادغام‌های شرکتی به گونه‌ای که حاکی از حرکت مخالفت گسترده‌تر فراتر از رأی‌گیری واقعی سهامداران باشد.",
+        "debias": "گزارش رأی‌گیری سهامداران درباره ادغام‌های شرکتی با ذکر حاشیه آرا به جای تمرکز بر نظرات سلبریتی‌ها.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "«ادغام را مسدود کنید»: واکنش سلبریتی‌ها همزمان با تصویب تملک Warner Bros توسط Paramount از سوی سهامداران",
+        "example_url": "http://www.euronews.com/culture/2026/04/24/block-the-merger-celebrities-react-as-shareholders-approve-paramount-takeover-of-warner-br",
+        "unbiased_text": "سهامداران Warner Bros. Discovery به ادغام با Paramount Skydance رأی مثبت دادند و این قرارداد ۱۱۱ میلیارد دلاری را پیش بردند.",
+        "detail_items": [],
+        "pattern_en": "Shareholder approval celebrity opposition amplification"
+      },
+      {
+        "pattern": "برچسب‌زنی بحران تحریم یوروویژن",
+        "detail": "توصیف تصمیم رسانه‌های پخش‌کننده برای عدم پخش یک رویداد سرگرمی به عنوان بحران، به منظور تشدید جنجال.",
+        "debias": "تصمیمات رسانه‌های پخش‌کننده درباره پوشش رویداد را بدون برچسب‌زنی انتخاب‌های مشارکت به عنوان بحران گزارش دهید.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "بحران یوروویژن: اسلوونی به جای یوروویژن امسال، فیلم‌هایی درباره فلسطین پخش خواهد کرد",
+        "example_url": "http://www.euronews.com/culture/2026/04/24/eurovision-crisis-slovenia-to-broadcast-films-about-palestine-instead-of-this-years-eurovi",
+        "unbiased_text": "صدا و سیمای عمومی اسلوونی امسال مسابقات آواز یوروویژن را پخش نخواهد کرد و به ایرلند و اسپانیا در امتناع از پخش این رویداد می‌پیوندد.",
+        "pattern_en": "Eurovison boycott crisis escalation labeling"
+      },
+      {
+        "pattern": "روایت رقابت‌محور در مشارکت‌های هوش مصنوعی",
+        "detail": "ارائه بحث‌های تجاری درباره مشارکت‌های هوش مصنوعی به عنوان حرکت‌های استراتژیک برای رقابت با رقبا بدون تأیید نیت واقعی.",
+        "debias": "گزارش بحث‌های مشارکت تجاری را به عنوان مذاکرات اکتشافی ارائه دهید بدون اینکه آن‌ها را به عنوان مانورهای رقابتی توصیف کنید.",
+        "date_added": "2026-04-24",
+        "status": "suggested",
+        "example_text": "xAI ایلان ماسک درباره مشارکت با Mistral گفتگو کرد تا سعی کند با OpenAI و Anthropic رقابت کند، گزارش",
+        "example_url": "http://www.euronews.com/next/2026/04/24/elon-musks-xai-discussed-partnership-with-mistral-to-try-and-rival-openai-and-anthropic-re",
+        "unbiased_text": "xAI ایلان ماسک طبق گزارش‌ها درباره مشارکت با شرکت اروپایی هوش مصنوعی Mistral بحث کرده است، به گفته منابع.",
+        "pattern_en": "AI partnership rivalry framing narrative"
       }
     ]
   }
