@@ -936,6 +936,40 @@
         "example_url": "https://www.aljazeera.com/features/2026/4/24/russian-troops-warships-in-india-soon-why-their-new-military-pact-matters?traffic_source=rss",
         "unbiased_text": "هند و روسیه یک توافق همکاری نظامی امضا کردند که اجازه استقرار سربازان و کشتی‌های جنگی را در زمان صلح و جنگ می‌دهد.",
         "pattern_en": "Military pact ominous question framing"
+      },
+      {
+        "pattern": "تشدید تهدید با تأکید بر هماهنگی بی‌سابقه",
+        "detail": "چارچوب‌بندی حملات هماهنگ به‌عنوان استثنایی یا بی‌سابقه برای افزایش ادراک تهدید بدون ارائه زمینه تاریخی مقایسه‌ای.",
+        "debias": "گزارش واقعی حملات هماهنگ همراه با زمینه تاریخی درباره فراوانی و مقیاس عملیات‌های مشابه.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "«مقیاس و هماهنگی حملات مالی بی‌سابقه به نظر می‌رسد»",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/25/scale-and-coordination-of-mali-attacks-appear-unprecedented?traffic_source=rss",
+        "unbiased_text": "حملات مالی هماهنگی در چندین شهر را نشان می‌دهد",
+        "pattern_en": "Unprecedented coordination threat amplification"
+      },
+      {
+        "pattern": "قاب‌بندی بیهودگی انتخابات بدون حاکمیت",
+        "detail": "توصیف اعمال دموکراتیک تحت اشغال به عنوان مشارکتی که ذاتاً بی‌معنا و بدون قدرت واقعی است.",
+        "debias": "فرآیندهای انتخاباتی را با زمینه‌ای درباره محدودیت‌ها گزارش کنید بدون آنکه از پیش درباره اهمیت آن برای شرکت‌کنندگان قضاوت کنید.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "انتخابات مشارکت بدون قدرت را ارائه می‌دهند و نشان می‌دهند که چگونه اشغال زندگی سیاسی فلسطینی را شکل می‌دهد و محدود می‌کند.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/4/25/elections-without-sovereignty-what-palestines-local-vote-really-represent?traffic_source=rss",
+        "unbiased_text": "انتخابات در چارچوب محدودیت‌هایی که توسط اشغال اسرائیل و صلاحیت محدود تشکیلات خودگردان فلسطین تحمیل شده، برگزار می‌شود.",
+        "detail_items": [],
+        "pattern_en": "Elections without sovereignty futility framing"
+      },
+      {
+        "pattern": "ادعای نقض حقوق بین‌الملل توسط شخص ثالث",
+        "detail": "ارتقای تفسیرهای صنعت کشتیرانی از حقوق بین‌الملل به اعلامیه‌های مرجع بدون رسیدگی قانونی.",
+        "debias": "نظرات حقوقی را به‌طور شفاف به منابع خود نسبت دهید و توجه داشته باشید که تعیین مسائل حقوقی نیازمند صلاحیت قضایی مناسب است.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "توقیف کشتی‌ها توسط آمریکا و ایران حقوق بین‌الملل را نقض می‌کند، نهاد کشتیرانی می‌گوید",
+        "example_url": "https://www.aljazeera.com/economy/2026/4/25/capture-of-ships-by-us-iran-violates-international-law-shipping-body-says?traffic_source=rss",
+        "unbiased_text": "نهاد صنعت کشتیرانی می‌گوید توقیف کشتی‌ها توسط آمریکا و ایران ممکن است حقوق بین‌الملل را نقض کند",
+        "pattern_en": "International law violation assertion by third party"
       }
     ]
   },
@@ -1711,6 +1745,39 @@
         "example_url": "https://www.france24.com/en/hormuz-standoff-chokes-20-of-oil-supply",
         "unbiased_text": "رویارویی در تنگه هرمز موجب اختلال در تردد دریایی از طریق این آبراه شده که معمولاً بخش قابل توجهی از محموله‌های نفتی جهان را انتقال می‌دهد.",
         "pattern_en": "Strategic waterway percentage dramatization"
+      },
+      {
+        "pattern": "قاب‌بندی مشروطیت اعتبار حاکمیت به میزان مشارکت",
+        "detail": "وابسته کردن ادعاهای مشروعیت به معیارهای میزان مشارکت رای‌دهندگان که ناظران آن را به عنوان آزمون اعتبار قاب می‌کنند.",
+        "debias": "انتخابات و آمار مشارکت را بدون مشروط کردن مشروعیت حاکمیت به معیارهای تأیید خارجی گزارش کنید.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "رأی‌گیری «اعتبار حاکمیت فلسطینی را فراهم می‌کند» اگر میزان مشارکت رای‌دهندگان بالا باشد",
+        "example_url": "https://www.france24.com/en/elections-in-west-bank-provide-credibility-to-palestinian-sovereignty-expert-says",
+        "unbiased_text": "رأی‌گیری ترکیب شوراهای محلی را تعیین خواهد کرد و انتظار می‌رود میزان مشارکت رای‌دهندگان منعکس‌کننده سطوح مشارکت عمومی باشد",
+        "pattern_en": "Sovereignty credibility conditional turnout framing"
+      },
+      {
+        "pattern": "استعاره فشارسنج که انتخابات را به نظرسنجی افکار عمومی تقلیل می‌دهد",
+        "detail": "قاب‌بندی انتخابات دموکراتیک در درجه اول به‌عنوان ابزار سنجش احساسات عمومی به‌جای فرآیندهای انتخاب حاکمیت.",
+        "debias": "انتخابات را به‌عنوان فرآیندهای انتخاب مقامات گزارش دهید و ضمناً اشاره کنید که ممکن است نگرش‌های سیاسی را نیز منعکس کنند.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "رأی‌گیری به‌عنوان «فشارسنج» افکار عمومی فلسطینیان عمل می‌کند",
+        "example_url": "https://www.france24.com/en/elections-in-west-bank-barometer-on-palestinian-public-opinion",
+        "unbiased_text": "رأی‌گیری اعضای شورای محلی را انتخاب خواهد کرد و ممکن است ترجیحات سیاسی را در میان رأی‌دهندگان شرکت‌کننده نشان دهد",
+        "pattern_en": "Barometer metaphor reducing elections to opinion polling"
+      },
+      {
+        "pattern": "پنهان‌کردن روایت رهبری از طریق حدس‌وگمان درباره غیبت",
+        "detail": "ساختن روایت‌های پنهان‌شدن یا ترس از غیبت عمومی رهبر بدون تأیید شرایط یا دلایل واقعی.",
+        "debias": "حقایق تأییدشده درباره حضور و فعالیت‌های رهبر را بدون حدس‌زدن درباره انگیزه‌های ترس یا پنهان‌شدن گزارش دهید.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "مجتبی خامنه‌ای در پنهان زندگی می‌کند، از جانش می‌ترسد و با یادداشت‌های دست‌نویس در تصمیم‌گیری‌ها شرکت می‌کند",
+        "example_url": "https://www.france24.com/en/mojtaba-khamenei-remains-out-of-the-spotlight-in-iran",
+        "unbiased_text": "مجتبی خامنه‌ای از زمان معرفی به‌عنوان رهبر معظم انقلاب به‌طور عمومی ظاهر نشده است، بنابر گزارش‌های رسانه‌ای",
+        "pattern_en": "Hiding leadership narrative through absence speculation"
       }
     ]
   },
@@ -2697,6 +2764,28 @@
         "example_url": "http://www.euronews.com/next/2026/04/24/elon-musks-xai-discussed-partnership-with-mistral-to-try-and-rival-openai-and-anthropic-re",
         "unbiased_text": "xAI ایلان ماسک طبق گزارش‌ها درباره مشارکت با شرکت اروپایی هوش مصنوعی Mistral بحث کرده است، به گفته منابع.",
         "pattern_en": "AI partnership rivalry framing narrative"
+      },
+      {
+        "pattern": "روایت‌سازی فوریت و سرعت مسابقه هوش مصنوعی",
+        "detail": "قاب‌بندی توسعه هوش مصنوعی به‌عنوان یک مسابقه در حال شتاب که نیازمند توجه فوری است، از طریق زبان تیتری که حاکی از رقابت سریع است.",
+        "debias": "گزارش پیشرفت‌های هوش مصنوعی و جدول زمانی آن را به‌صورت واقعی و بدون قاب‌بندی فوریت رقابتی در تیترها ارائه دهید.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "DeepSeek چین مدل جدید هوش مصنوعی V4 را منتشر می‌کند. همه‌چیزهایی که باید بدانید در حالی که مسابقه هوش مصنوعی سرعت می‌گیرد",
+        "example_url": "http://www.euronews.com/next/2026/04/24/chinas-deepseek-releases-new-ai-model-v4-heres-everything-to-know-as-the-ai-race-speeds-up",
+        "unbiased_text": "DeepSeek چین مدل جدید هوش مصنوعی V4 را منتشر می‌کند، جدیدترین نسخه پس از انتشار سال گذشته",
+        "pattern_en": "AI race speed urgency narrative construction"
+      },
+      {
+        "pattern": "قاب‌بندی قطعی‌نگر مهاجرت قهرمانان صنعتی",
+        "detail": "ارائه تصمیمات مکان‌یابی شرکتی به‌عنوان پیامدهای اجتناب‌ناپذیر ناشی از مقررات، به‌جای انتخاب‌های تجاری پیچیده چندعاملی.",
+        "debias": "عوامل مکان‌یابی تجاری را به‌عنوان مصالحه‌های پیچیده شامل مقررات، بازارها، استعدادها و زیرساخت‌ها گزارش کنید.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "مقررات اتحادیه اروپا در حال هدایت غول‌های صنعتی به سمت ایالات متحده و چین است",
+        "example_url": "http://www.euronews.com/next/2026/04/25/can-europe-keep-its-industrial-champions-in-the-ai-era",
+        "unbiased_text": "Siemens مقررات اتحادیه اروپا را در کنار سیاست مالیاتی و دسترسی به بازار، جزو عواملی ذکر کرد که بر تصمیمات مکان‌یابی شرکتی تأثیر می‌گذارد",
+        "pattern_en": "Industrial champion exodus deterministic framing"
       }
     ]
   }

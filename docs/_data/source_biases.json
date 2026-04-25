@@ -846,6 +846,36 @@
         "example_text": "Russian troops, warships in India soon? Why their new military pact matters",
         "example_url": "https://www.aljazeera.com/features/2026/4/24/russian-troops-warships-in-india-soon-why-their-new-military-pact-matters?traffic_source=rss",
         "unbiased_text": "India and Russia signed a military cooperation agreement allowing for deployment of soldiers and warships during peacetime and wartime."
+      },
+      {
+        "pattern": "Unprecedented coordination threat amplification",
+        "detail": "Framing coordinated attacks as exceptional or unprecedented to heighten threat perception without comparative historical context.",
+        "debias": "Report coordinated attacks factually with historical context about frequency and scale of similar operations.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "'Scale and coordination of Mali attacks appear unprecedented'",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/25/scale-and-coordination-of-mali-attacks-appear-unprecedented?traffic_source=rss",
+        "unbiased_text": "Mali attacks show coordination across multiple cities"
+      },
+      {
+        "pattern": "Elections without sovereignty futility framing",
+        "detail": "Characterizing democratic exercises under occupation as inherently meaningless participation without genuine power.",
+        "debias": "Report electoral processes with context about constraints without prejudging their significance to participants.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "The elections offer participation without power, revealing how occupation shapes and limits Palestinian political life.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/4/25/elections-without-sovereignty-what-palestines-local-vote-really-represent?traffic_source=rss",
+        "unbiased_text": "The elections take place within constraints imposed by Israeli occupation and limited Palestinian Authority jurisdiction."
+      },
+      {
+        "pattern": "International law violation assertion by third party",
+        "detail": "Elevating shipping industry interpretations of international law to authoritative declarations without legal adjudication.",
+        "debias": "Attribute legal opinions clearly to their sources while noting that legal determinations require proper jurisdiction.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "Capture of ships by US, Iran violates international law, shipping body says",
+        "example_url": "https://www.aljazeera.com/economy/2026/4/25/capture-of-ships-by-us-iran-violates-international-law-shipping-body-says?traffic_source=rss",
+        "unbiased_text": "Shipping industry body says capture of ships by US and Iran may violate international law"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1570,6 +1600,36 @@
         "example_text": "Hormuz standoff chokes 20% of oil supply",
         "example_url": "https://www.france24.com/en/hormuz-standoff-chokes-20-of-oil-supply",
         "unbiased_text": "The Strait of Hormuz standoff has disrupted maritime traffic through the waterway that typically handles a significant portion of global oil shipments."
+      },
+      {
+        "pattern": "Sovereignty credibility conditional turnout framing",
+        "detail": "Making legitimacy claims dependent on voter participation metrics that observers frame as credibility tests.",
+        "debias": "Report elections and turnout figures without conditioning sovereign legitimacy on external approval metrics.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "the vote would provide \"credibility to Palestinian sovereignty\" if voter turnout is high",
+        "example_url": "https://www.france24.com/en/elections-in-west-bank-provide-credibility-to-palestinian-sovereignty-expert-says",
+        "unbiased_text": "The vote will determine local council composition with voter turnout expected to reflect public engagement levels"
+      },
+      {
+        "pattern": "Barometer metaphor reducing elections to opinion polling",
+        "detail": "Framing democratic elections primarily as measurement tools for public sentiment rather than governance selection processes.",
+        "debias": "Report elections as selection processes for officials while noting they may also reflect political attitudes.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "the vote serves as a \"barometer\" on Palestinian public opinion",
+        "example_url": "https://www.france24.com/en/elections-in-west-bank-barometer-on-palestinian-public-opinion",
+        "unbiased_text": "The vote will select local council members and may indicate political preferences among participating voters"
+      },
+      {
+        "pattern": "Hiding leadership narrative through absence speculation",
+        "detail": "Constructing hiding or fear narratives from leader's public absence without confirming actual circumstances or reasons.",
+        "debias": "Report confirmed facts about leader appearances and activities without speculating about fear or hiding motivations.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "Mojtaba Khamenei lives in hiding, fearing for his life and participates in decision making by hand-written notes",
+        "example_url": "https://www.france24.com/en/mojtaba-khamenei-remains-out-of-the-spotlight-in-iran",
+        "unbiased_text": "Mojtaba Khamenei has not appeared publicly since being named supreme leader, according to media reports"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -2473,6 +2533,26 @@
         "example_text": "Elon Musk's xAI discussed partnership with Mistral to try and rival OpenAI and Anthropic, report",
         "example_url": "http://www.euronews.com/next/2026/04/24/elon-musks-xai-discussed-partnership-with-mistral-to-try-and-rival-openai-and-anthropic-re",
         "unbiased_text": "Elon Musk's xAI reportedly discussed a partnership with European AI company Mistral, according to sources."
+      },
+      {
+        "pattern": "AI race speed urgency narrative construction",
+        "detail": "Framing AI development as an accelerating race requiring immediate attention through headline language suggesting rapid competition.",
+        "debias": "Report AI developments and timelines factually without competitive urgency framing in headlines.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "China's DeepSeek releases new AI model V4. Here's everything to know as the AI race speeds up",
+        "example_url": "http://www.euronews.com/next/2026/04/24/chinas-deepseek-releases-new-ai-model-v4-heres-everything-to-know-as-the-ai-race-speeds-up",
+        "unbiased_text": "China's DeepSeek releases new AI model V4, its latest version following last year's release"
+      },
+      {
+        "pattern": "Industrial champion exodus deterministic framing",
+        "detail": "Presenting corporate location decisions as inevitable outcomes driven by regulation rather than complex multi-factor business choices.",
+        "debias": "Report business location factors as complex trade-offs including regulation, markets, talent, and infrastructure.",
+        "date_added": "2026-04-25",
+        "status": "suggested",
+        "example_text": "EU regulations are driving industrial giants toward the US and China",
+        "example_url": "http://www.euronews.com/next/2026/04/25/can-europe-keep-its-industrial-champions-in-the-ai-era",
+        "unbiased_text": "Siemens cited EU regulations among factors influencing corporate location decisions alongside tax policy and market access"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
