@@ -970,6 +970,50 @@
         "example_url": "https://www.aljazeera.com/economy/2026/4/25/capture-of-ships-by-us-iran-violates-international-law-shipping-body-says?traffic_source=rss",
         "unbiased_text": "نهاد صنعت کشتیرانی می‌گوید توقیف کشتی‌ها توسط آمریکا و ایران ممکن است حقوق بین‌الملل را نقض کند",
         "pattern_en": "International law violation assertion by third party"
+      },
+      {
+        "pattern": "زمینه‌سازی سیاسی دستاوردهای ورزشی",
+        "detail": "شکستن رکورد جهانی ماراتن در چارچوب ملی‌گرایانه به جای دستاورد ورزشی فردی قاب‌بندی می‌شود.",
+        "debias": "دستاوردهای ورزشی را با تمرکز بر موفقیت شخصی ورزشکار و تمرینات او گزارش دهید نه قاب‌بندی هویت ملی.",
+        "date_added": "2026-04-26",
+        "status": "suggested",
+        "example_text": "ورزشکار کنیایی رکورد جهانی قبلی کلوین کیپتوم با زمان ۲:۰۰:۳۵ را می‌شکند؛ آسفا از اتیوپی عنوان قهرمانی بانوان خود را حفظ می‌کند.",
+        "example_url": "https://www.aljazeera.com/sports/2026/4/26/kenyas-sawe-is-worlds-first-man-to-run-a-sub-two-hour-marathon-in-london?traffic_source=rss",
+        "unbiased_text": "سباستین ساوه رکورد جهانی قبلی کلوین کیپتوم با زمان ۲:۰۰:۳۵ را می‌شکند؛ تیگست آسفا عنوان قهرمانی بانوان ماراتن لندن را حفظ می‌کند.",
+        "pattern_en": "Athletic achievement political contextualization"
+      },
+      {
+        "pattern": "فوریت تدوین جدول زمانی حوادث امنیتی",
+        "detail": "ایجاد جدول‌های زمانی جامع از تلاش‌های ترور، خشونت سیاسی را به‌عنوان الگویی منظم به‌جای حوادث مجزا قاب‌بندی می‌کند.",
+        "debias": "حوادث امنیتی را به‌صورت جداگانه با زمینه گزارش کنید به‌جای تدوین آن‌ها در جدول‌های زمانی که الگو را تداعی می‌کنند.",
+        "date_added": "2026-04-26",
+        "status": "suggested",
+        "example_text": "جدول زمانی تلاش‌های ترور علیه Trump را نشان می‌دهد، از جمله حوادثی در دوران ریاست‌جمهوری و تجمعات انتخاباتی او.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/26/timeline-trump-assassination-attempts-and-security-incidents?traffic_source=rss",
+        "unbiased_text": "حادثه امنیتی در شام خبرنگاران کاخ سفید رخ داد، مظنون بازداشت شد و رئیس‌جمهور آسیب ندید.",
+        "pattern_en": "Security incident timeline compilation urgency"
+      },
+      {
+        "pattern": "روایت بزرگ‌نمایی شکست حکومت نظامی",
+        "detail": "مرگ وزیر دفاع به عنوان «ضربه بزرگ» به حکومت نظامی توصیف می‌شود به جای گزارش خنثی تلفات.",
+        "debias": "تلفات نظامی را به صورت واقعی گزارش کنید بدون توصیف تأثیر استراتژیک یا آسیب‌پذیری دولتی.",
+        "date_added": "2026-04-26",
+        "status": "suggested",
+        "example_text": "مرگ وزیر با نفوذ به عنوان یک ضربه بزرگ برای حکومت نظامی مالی در جریان درگیری با گروه‌های مسلح دیده می‌شود.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/26/malis-defence-minister-sadio-camara-killed-amid-coordinated-attacks?traffic_source=rss",
+        "unbiased_text": "سادیو کامارا، وزیر دفاع مالی، در جریان حملات هماهنگ گروه‌های مسلح کشته شد.",
+        "pattern_en": "Military government setback magnification narrative"
+      },
+      {
+        "pattern": "ارتقای قهرمانی یادبود پاکسازان",
+        "detail": "کارگران پاکسازی چورنوبیل از طریق دریچه یادبودی قاب‌بندی می‌شوند که بر فداکاری و روایت بقای آنها تأکید دارد.",
+        "debias": "گزارش سالگردهای فاجعه را با تمرکز بر واقعیات و درس‌های آموخته‌شده ارائه دهید نه با قاب‌بندی قهرمانی بازماندگان.",
+        "date_added": "2026-04-26",
+        "status": "suggested",
+        "example_text": "حدود ۶۰۰٬۰۰۰ سرباز، آتش‌نشان، مهندس، معدنچی و پزشک پس از انفجار نیروگاه هسته‌ای به پاکسازی پرداختند.",
+        "example_url": "https://www.aljazeera.com/gallery/2026/4/26/survivors-return-to-chernobyl-40-years-after-devastating-explosion?traffic_source=rss",
+        "unbiased_text": "تقریباً ۶۰۰٬۰۰۰ نفر در عملیات پاکسازی فاجعه چورنوبیل مشارکت داشتند.",
+        "pattern_en": "Liquidator commemoration heroism elevation"
       }
     ]
   },
@@ -1778,6 +1822,17 @@
         "example_url": "https://www.france24.com/en/mojtaba-khamenei-remains-out-of-the-spotlight-in-iran",
         "unbiased_text": "مجتبی خامنه‌ای از زمان معرفی به‌عنوان رهبر معظم انقلاب به‌طور عمومی ظاهر نشده است، بنابر گزارش‌های رسانه‌ای",
         "pattern_en": "Hiding leadership narrative through absence speculation"
+      },
+      {
+        "pattern": "تفسیر سیاسی فضای جشن‌واره‌ای",
+        "detail": "فضای انتخاباتی به‌عنوان «جشن‌واره‌ای و شادمانه» توصیف می‌شود تا با وجود مشارکت سیاسی محدود، مشروعیت را القا کند.",
+        "debias": "فضای انتخابات را به‌صورت واقعی و بدون صفت‌هایی که جشن یا تأیید سیاسی را نشان می‌دهند، گزارش دهید.",
+        "date_added": "2026-04-26",
+        "status": "suggested",
+        "example_text": "فضایی جشن‌واره‌ای و شادمانه بر کرانه باختری حاکم شده است؛ تشکیلات خودگردان فلسطین در حال برگزاری انتخابات محلی است",
+        "example_url": "https://www.france24.com/en/festive-mood-in-west-bank-as-local-elections-underway",
+        "unbiased_text": "تشکیلات خودگردان فلسطین در حال برگزاری انتخابات محلی در کرانه باختری است و رأی‌دهندگان در رقابت‌های شهرداری شرکت می‌کنند.",
+        "pattern_en": "Festive mood political interpretation"
       }
     ]
   },
@@ -2786,6 +2841,28 @@
         "example_url": "http://www.euronews.com/next/2026/04/25/can-europe-keep-its-industrial-champions-in-the-ai-era",
         "unbiased_text": "Siemens مقررات اتحادیه اروپا را در کنار سیاست مالیاتی و دسترسی به بازار، جزو عواملی ذکر کرد که بر تصمیمات مکان‌یابی شرکتی تأثیر می‌گذارد",
         "pattern_en": "Industrial champion exodus deterministic framing"
+      },
+      {
+        "pattern": "قاب‌بندی تحول طعنه‌آمیز پناهگاه حیات‌وحش",
+        "detail": "منطقه فاجعه هسته‌ای به‌عنوان مکانی که به پناهگاه حیات‌وحش «شکوفا شده» توصیف می‌شود و تضاد طعنه‌آمیزی بین فاجعه انسانی و بازیابی طبیعت ایجاد می‌کند.",
+        "debias": "بازیابی محیط‌زیست در مناطق فاجعه‌دیده سابق را بدون پیشنهاد روایت‌های تحول طعنه‌آمیز یا متناقض‌نما گزارش کنید.",
+        "date_added": "2026-04-26",
+        "status": "suggested",
+        "example_text": "«طبیعت یک بازنشانی کارخانه‌ای انجام داده است»: چرنوبیل به پناهگاه حیات‌وحش غیرمنتظره‌ای شکوفا شده است",
+        "example_url": "http://www.euronews.com/2026/04/26/nature-has-performed-a-factory-reset-chernobyl-has-flourished-into-an-unlikely-wildlife-re",
+        "unbiased_text": "جمعیت حیات‌وحش در منطقه ممنوعه چرنوبیل افزایش یافته است، جایی که سکونت انسانی به دلیل سطوح تشعشع همچنان محدود است.",
+        "pattern_en": "Wildlife refuge ironic transformation framing"
+      },
+      {
+        "pattern": "تأکید بر دوگانگی آزادی فردی در برابر سلامت عمومی",
+        "detail": "واکنش‌های عمومی به قانون‌گذاری سیگار به‌عنوان تقسیم‌شده میان منافع سلامت و نگرانی‌های آزادی قاب‌بندی می‌شود و صدای مخالفان برجسته‌تر می‌گردد.",
+        "debias": "تحولات قانون‌گذاری را با بحث واقع‌بینانه درباره اهداف سیاست‌گذاری گزارش کنید بدون آنکه مخالفت را به‌عنوان نگرانی با وزن برابر برجسته سازید.",
+        "date_added": "2026-04-26",
+        "status": "suggested",
+        "example_text": "واکنش عمومی متفاوت است: برخی از آن به‌عنوان گامی مثبت برای سلامت عمومی استقبال می‌کنند، در حالی که دیگران نگرانی‌هایی درباره آزادی فردی مطرح می‌کنند.",
+        "example_url": "http://www.euronews.com/video/2026/04/26/opinions-divided-across-uk-on-historic-anti-smoking-law",
+        "unbiased_text": "بریتانیا در حال اجرای قانونی است که فروش سیگار را به هر فردی که پس از سال ۲۰۰۸ متولد شده ممنوع می‌کند تا نرخ مصرف سیگار را کاهش دهد.",
+        "pattern_en": "Personal freedom versus public health dichotomy emphasis"
       }
     ]
   }

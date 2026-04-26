@@ -876,6 +876,46 @@
         "example_text": "Capture of ships by US, Iran violates international law, shipping body says",
         "example_url": "https://www.aljazeera.com/economy/2026/4/25/capture-of-ships-by-us-iran-violates-international-law-shipping-body-says?traffic_source=rss",
         "unbiased_text": "Shipping industry body says capture of ships by US and Iran may violate international law"
+      },
+      {
+        "pattern": "Athletic achievement political contextualization",
+        "detail": "Marathon world record breaking is framed within nationalistic context rather than as individual athletic achievement.",
+        "debias": "Report athletic achievements focusing on the athlete's personal accomplishment and training rather than national identity framing.",
+        "date_added": "2026-04-26",
+        "status": "suggested",
+        "example_text": "Kenyan athlete breaks Kelvin Kiptum's previous world record of 2:00:35; Ethiopia's Assefa retains her women's crown.",
+        "example_url": "https://www.aljazeera.com/sports/2026/4/26/kenyas-sawe-is-worlds-first-man-to-run-a-sub-two-hour-marathon-in-london?traffic_source=rss",
+        "unbiased_text": "Sebastian Sawe breaks Kelvin Kiptum's previous world record of 2:00:35; Tigst Assefa retains her London Marathon women's title."
+      },
+      {
+        "pattern": "Security incident timeline compilation urgency",
+        "detail": "Creating comprehensive timelines of assassination attempts frames political violence as patterned rather than isolated incidents.",
+        "debias": "Report security incidents individually with context rather than compiling them into pattern-suggesting timelines.",
+        "date_added": "2026-04-26",
+        "status": "suggested",
+        "example_text": "Timeline reveals assassination attempts on Trump, including incidents during his presidency and campaign rallies.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/26/timeline-trump-assassination-attempts-and-security-incidents?traffic_source=rss",
+        "unbiased_text": "Security incident occurred at White House correspondents' dinner, with suspect in custody and president unharmed."
+      },
+      {
+        "pattern": "Military government setback magnification narrative",
+        "detail": "Defense minister death is characterized as 'big blow' to military government rather than neutral reporting of casualty.",
+        "debias": "Report military casualties factually without characterizing strategic impact or governmental vulnerability.",
+        "date_added": "2026-04-26",
+        "status": "suggested",
+        "example_text": "Death of influential minister seen as a big blow for Mali's military government during fighting with armed groups.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/26/malis-defence-minister-sadio-camara-killed-amid-coordinated-attacks?traffic_source=rss",
+        "unbiased_text": "Mali's Defence Minister Sadio Camara was killed during coordinated attacks by armed groups."
+      },
+      {
+        "pattern": "Liquidator commemoration heroism elevation",
+        "detail": "Chornobyl cleanup workers are framed through commemorative lens emphasizing their sacrifice and survival narrative.",
+        "debias": "Report disaster anniversaries with focus on facts and lessons learned rather than survivor heroism framing.",
+        "date_added": "2026-04-26",
+        "status": "suggested",
+        "example_text": "About 600,000 soldiers, firefighters, engineers, miners and medics cleaned up after the nuclear plant explosion.",
+        "example_url": "https://www.aljazeera.com/gallery/2026/4/26/survivors-return-to-chernobyl-40-years-after-devastating-explosion?traffic_source=rss",
+        "unbiased_text": "Approximately 600,000 personnel participated in the Chornobyl disaster cleanup operation."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1630,6 +1670,16 @@
         "example_text": "Mojtaba Khamenei lives in hiding, fearing for his life and participates in decision making by hand-written notes",
         "example_url": "https://www.france24.com/en/mojtaba-khamenei-remains-out-of-the-spotlight-in-iran",
         "unbiased_text": "Mojtaba Khamenei has not appeared publicly since being named supreme leader, according to media reports"
+      },
+      {
+        "pattern": "Festive mood political interpretation",
+        "detail": "Electoral atmosphere is characterized as 'festive and cheerful' to suggest legitimacy despite limited political participation.",
+        "debias": "Report election atmosphere factually without adjectives suggesting celebration or political validation.",
+        "date_added": "2026-04-26",
+        "status": "suggested",
+        "example_text": "A festive and cheerful mood has taken hold of the West Bank as the Palestinian Authority holds local elections",
+        "example_url": "https://www.france24.com/en/festive-mood-in-west-bank-as-local-elections-underway",
+        "unbiased_text": "The Palestinian Authority is holding local elections in the West Bank with voters participating in municipal contests."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -2553,6 +2603,26 @@
         "example_text": "EU regulations are driving industrial giants toward the US and China",
         "example_url": "http://www.euronews.com/next/2026/04/25/can-europe-keep-its-industrial-champions-in-the-ai-era",
         "unbiased_text": "Siemens cited EU regulations among factors influencing corporate location decisions alongside tax policy and market access"
+      },
+      {
+        "pattern": "Wildlife refuge ironic transformation framing",
+        "detail": "Nuclear disaster zone is characterized as having 'flourished' into wildlife refuge, creating ironic contrast between human catastrophe and nature recovery.",
+        "debias": "Report environmental recovery in former disaster zones without suggesting ironic or paradoxical transformation narratives.",
+        "date_added": "2026-04-26",
+        "status": "suggested",
+        "example_text": "'Nature has performed a factory reset': Chernobyl has flourished into an unlikely wildlife refuge",
+        "example_url": "http://www.euronews.com/2026/04/26/nature-has-performed-a-factory-reset-chernobyl-has-flourished-into-an-unlikely-wildlife-re",
+        "unbiased_text": "Wildlife populations have increased in the Chernobyl exclusion zone, where human habitation remains restricted due to radiation levels."
+      },
+      {
+        "pattern": "Personal freedom versus public health dichotomy emphasis",
+        "detail": "Public reactions to smoking legislation are framed as divided between health benefits and freedom concerns, elevating opposition voices.",
+        "debias": "Report legislative developments with factual discussion of policy goals without emphasizing opposition as equally weighted concern.",
+        "date_added": "2026-04-26",
+        "status": "suggested",
+        "example_text": "Public reaction is mixed: some welcome it as a good step for public health, while others raise concerns about personal freedom.",
+        "example_url": "http://www.euronews.com/video/2026/04/26/opinions-divided-across-uk-on-historic-anti-smoking-law",
+        "unbiased_text": "The UK is implementing legislation to ban cigarette sales to anyone born after 2008 to reduce smoking rates."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
