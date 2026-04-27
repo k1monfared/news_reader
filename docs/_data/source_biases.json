@@ -916,6 +916,46 @@
         "example_text": "About 600,000 soldiers, firefighters, engineers, miners and medics cleaned up after the nuclear plant explosion.",
         "example_url": "https://www.aljazeera.com/gallery/2026/4/26/survivors-return-to-chernobyl-40-years-after-devastating-explosion?traffic_source=rss",
         "unbiased_text": "Approximately 600,000 personnel participated in the Chornobyl disaster cleanup operation."
+      },
+      {
+        "pattern": "Water targeting war crime universalization",
+        "detail": "Frames water infrastructure targeting as an escalating universal trend in warfare without specifying perpetrators or conflicts, implying systematic pattern rather than isolated incidents.",
+        "debias": "Specify which conflicts involve water infrastructure targeting, identify responsible parties, and provide context on frequency and scale rather than suggesting universal phenomenon.",
+        "date_added": "2026-04-27",
+        "status": "suggested",
+        "example_text": "We explore why water infrastructure is increasingly being targeted in the midst of war and conflict.",
+        "example_url": "https://www.aljazeera.com/video/the-stream/2026/4/27/how-does-targeting-water-supply-during-war-worsen-the-scarcity-crisis?traffic_source=rss",
+        "unbiased_text": "We examine specific instances where water infrastructure has been targeted in recent conflicts, including the parties responsible and military objectives claimed."
+      },
+      {
+        "pattern": "US military humiliation attribution by third party",
+        "detail": "Amplifies foreign leader's characterization of US as 'humiliated' in conflict, elevating third-party subjective assessment to headline status as if factual.",
+        "debias": "Report foreign assessments as opinions clearly attributed to their sources, avoid elevating subjective characterizations to headline assertions.",
+        "date_added": "2026-04-27",
+        "status": "suggested",
+        "example_text": "'Clearly stronger': Germany's Merz says Iran 'humiliated' US in its war",
+        "example_url": "https://www.aljazeera.com/news/2026/4/27/iran-very-skilful-as-us-humiliated-says-german-chancellor?traffic_source=rss",
+        "unbiased_text": "Germany's Merz offers assessment of US-Iran conflict, describing Iran's military strategy and US challenges"
+      },
+      {
+        "pattern": "Sovereignty bombing impossibility assertion",
+        "detail": "Presents military action as inherently incapable of achieving political outcomes through headline declarative statement framing military force as futile.",
+        "debias": "Present analysis of military-political dynamics without asserting absolute impossibilities, acknowledge complexity of sovereignty and force relationships.",
+        "date_added": "2026-04-27",
+        "status": "suggested",
+        "example_text": "Lebanon cannot be bombed into sovereignty",
+        "example_url": "https://www.aljazeera.com/opinions/2026/4/27/lebanon-cannot-be-bombed-into-sovereignty?traffic_source=rss",
+        "unbiased_text": "Analysis: The relationship between military pressure and Lebanese sovereignty remains disputed among analysts"
+      },
+      {
+        "pattern": "World Cup commercialization dystopia labeling",
+        "detail": "Adopts activist characterization of sporting event economics as 'dystopian' without qualification, framing commercial practices through catastrophic lens.",
+        "debias": "Report criticism of pricing policies as stakeholder perspectives, avoid adopting emotionally loaded dystopian framing as editorial stance.",
+        "date_added": "2026-04-27",
+        "status": "suggested",
+        "example_text": "Peter Moore accuses FIFA of undermining the spirit of the World Cup through extortionate ticket prices and greed.",
+        "example_url": "https://www.aljazeera.com/sports/2026/4/27/fifa-world-cup-2026-dynamic-pricing-match-tickets-peter-moore?traffic_source=rss",
+        "unbiased_text": "Peter Moore criticizes FIFA's dynamic pricing model for World Cup tickets, arguing it increases costs for fans and contradicts the tournament's accessibility goals."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1680,6 +1720,26 @@
         "example_text": "A festive and cheerful mood has taken hold of the West Bank as the Palestinian Authority holds local elections",
         "example_url": "https://www.france24.com/en/festive-mood-in-west-bank-as-local-elections-underway",
         "unbiased_text": "The Palestinian Authority is holding local elections in the West Bank with voters participating in municipal contests."
+      },
+      {
+        "pattern": "Parliamentary bill framing as fait accompli",
+        "detail": "Reports proposed legislation as if enacted policy, presenting parliamentary commission proposals with language suggesting implementation rather than deliberation.",
+        "debias": "Clearly distinguish between proposed bills, committee recommendations, and enacted law, emphasizing legislative process stage.",
+        "date_added": "2026-04-27",
+        "status": "suggested",
+        "example_text": "The bill also proposes that any profits made from the strait should be paid in the Iranian rial currency.",
+        "example_url": "https://www.france24.com/en/middle-east/20260427-middle-east-war-live-putin-iran-foreign-minister-us-iran-talks",
+        "unbiased_text": "The proposed bill includes a provision that would require profits from the strait to be paid in Iranian rial currency, though the measure has not been voted on."
+      },
+      {
+        "pattern": "Trial legitimacy through in absentia participation emphasis",
+        "detail": "Highlights defendants tried in absentia while emphasizing physical presence of one defendant, creating legitimacy impression through procedural participation detail.",
+        "debias": "Report trial proceedings with clear context on absentia limitations, avoid suggesting legitimacy through selective emphasis on procedural elements.",
+        "date_added": "2026-04-27",
+        "status": "suggested",
+        "example_text": "Assad and his brother Maher al-Assad, who fled Syria, are being tried in absentia, while former security official Atif Najib appeared in court in handcuffs.",
+        "example_url": "https://www.france24.com/en/middle-east/20260426-syria-first-trial-bashar-al-assad-allies-ouster",
+        "unbiased_text": "A Syrian court began proceedings involving Assad and his brother in absentia, as both have fled the country. Former security official Atif Najib was present at the hearing."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -2623,6 +2683,26 @@
         "example_text": "Public reaction is mixed: some welcome it as a good step for public health, while others raise concerns about personal freedom.",
         "example_url": "http://www.euronews.com/video/2026/04/26/opinions-divided-across-uk-on-historic-anti-smoking-law",
         "unbiased_text": "The UK is implementing legislation to ban cigarette sales to anyone born after 2008 to reduce smoking rates."
+      },
+      {
+        "pattern": "Mural speculation as evidence narrative",
+        "detail": "Elevates viral social media content and artistic representation as deepening evidence of factual claims about official's status without verification.",
+        "debias": "Distinguish between speculation, artwork, and verified information; avoid framing symbolic representations as investigative evidence.",
+        "date_added": "2026-04-27",
+        "status": "suggested",
+        "example_text": "A viral mural showing the Islamic Republic's new ayatollah among dead Iranian leaders has deepened speculation he was killed or gravely wounded in the 28 February strikes on Tehran.",
+        "example_url": "http://www.euronews.com/2026/04/27/mystery-deepens-over-mojtaba-khameneis-condition-after-iran-unveils-martyr-mural",
+        "unbiased_text": "A mural has circulated online showing Iran's new supreme leader alongside deceased Iranian officials, prompting unverified speculation about his condition, though Iranian authorities have not confirmed his status."
+      },
+      {
+        "pattern": "Phone diplomacy trivialization through modality emphasis",
+        "detail": "Highlights communication medium rather than diplomatic substance to suggest negotiation casualness or inadequacy through technology choice focus.",
+        "debias": "Focus on diplomatic substance and positions rather than communication modality; avoid suggesting seriousness through technology choice.",
+        "date_added": "2026-04-27",
+        "status": "suggested",
+        "example_text": "President Donald Trump said he told top US envoys not to travel to Pakistan to negotiate with Iran, telling Fox News that ″they can call us anytime they want\".",
+        "example_url": "https://www.france24.com/en/middle-east/20260425-middle-east-war-live-us-envoys-expected-in-islamabad-as-iran-rules-out-direct-talks",
+        "unbiased_text": "President Donald Trump canceled planned envoy travel to Pakistan, stating that communication with Iran could continue through other channels."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
