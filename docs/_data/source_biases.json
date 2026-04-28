@@ -956,6 +956,16 @@
         "example_text": "Peter Moore accuses FIFA of undermining the spirit of the World Cup through extortionate ticket prices and greed.",
         "example_url": "https://www.aljazeera.com/sports/2026/4/27/fifa-world-cup-2026-dynamic-pricing-match-tickets-peter-moore?traffic_source=rss",
         "unbiased_text": "Peter Moore criticizes FIFA's dynamic pricing model for World Cup tickets, arguing it increases costs for fans and contradicts the tournament's accessibility goals."
+      },
+      {
+        "pattern": "Leadership survival speculation amplification",
+        "detail": "Amplifying unverified speculation about a leader's physical appearance or public absence to suggest vulnerability or legitimacy crisis.",
+        "debias": "Report confirmed facts about leadership transitions without speculating on unverified claims about health or whereabouts.",
+        "date_added": "2026-04-28",
+        "status": "suggested",
+        "example_text": "First sighting of Goita since rebel attacks comes as Russia seeks to dampen speculation over ally's military government.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/28/malis-military-leader-goita-emerges-as-russia-declares-it-halted-coup?traffic_source=rss",
+        "unbiased_text": "Goita made a public appearance as Russia announced it had helped prevent a coup attempt against Mali's military government."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1740,6 +1750,16 @@
         "example_text": "Assad and his brother Maher al-Assad, who fled Syria, are being tried in absentia, while former security official Atif Najib appeared in court in handcuffs.",
         "example_url": "https://www.france24.com/en/middle-east/20260426-syria-first-trial-bashar-al-assad-allies-ouster",
         "unbiased_text": "A Syrian court began proceedings involving Assad and his brother in absentia, as both have fled the country. Former security official Atif Najib was present at the hearing."
+      },
+      {
+        "pattern": "Destruction documentation as vindication narrative",
+        "detail": "Framing video documentation of destruction as validating observer testimony rather than as neutral evidence.",
+        "debias": "Present video evidence as documentation without implying it validates particular narratives or observer claims.",
+        "date_added": "2026-04-28",
+        "status": "suggested",
+        "example_text": "Many videos document the Israeli army's destruction of houses and infrastructure in southern Lebanon, where it is creating a buffer zone along the border. Our Observers, many of whom wanted to return home after a ceasefire was announced, describe empty villages and razed homes.",
+        "example_url": "https://www.france24.com/en/middle-east/20260428-israel-destroyed-houses-roads-trees-people-returning-southern-lebanon",
+        "unbiased_text": "Videos show extensive destruction of houses and infrastructure in southern Lebanon where Israeli forces have established a buffer zone. Residents returning after the ceasefire found widespread damage to villages and homes."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -2703,6 +2723,36 @@
         "example_text": "President Donald Trump said he told top US envoys not to travel to Pakistan to negotiate with Iran, telling Fox News that ″they can call us anytime they want\".",
         "example_url": "https://www.france24.com/en/middle-east/20260425-middle-east-war-live-us-envoys-expected-in-islamabad-as-iran-rules-out-direct-talks",
         "unbiased_text": "President Donald Trump canceled planned envoy travel to Pakistan, stating that communication with Iran could continue through other channels."
+      },
+      {
+        "pattern": "AI catastrophe instantaneous agency attribution",
+        "detail": "Attributing human-like deliberate decision-making to AI systems when describing technical failures or errors.",
+        "debias": "Describe AI errors as system malfunctions or programming outcomes rather than deliberate choices.",
+        "date_added": "2026-04-28",
+        "status": "suggested",
+        "example_text": "The AI system, powered by Anthropic's Claude Opus model, had been handling a routine task when it independently chose to 'fix' an issue by wiping the data - without any human approval.",
+        "example_url": "http://www.euronews.com/next/2026/04/28/an-ai-agent-deleted-a-companys-entire-database-in-9-seconds-then-wrote-an-apology",
+        "unbiased_text": "The AI system, powered by Anthropic's Claude Opus model, was handling a routine task when it executed a command that deleted the data without human approval due to its programming."
+      },
+      {
+        "pattern": "Corporate merger superlative historical positioning",
+        "detail": "Framing potential business deals with absolute historical superlatives before completion or verification.",
+        "debias": "Report proposed mergers with conditional language and cite comparable historical deals for context.",
+        "date_added": "2026-04-28",
+        "status": "suggested",
+        "example_text": "Deutsche Telekom already owns 53% of T-Mobile US. Now it wants the rest — in what could become the biggest corporate merger in history.",
+        "example_url": "http://www.euronews.com/business/2026/04/28/deutsche-telekom-eyes-full-t-mobile-merger-in-what-could-be-the-biggest-deal-in-history",
+        "unbiased_text": "Deutsche Telekom already owns 53% of T-Mobile US and is now considering acquiring the remaining shares in what would be one of the largest telecom mergers."
+      },
+      {
+        "pattern": "Viral authenticity skepticism elevation",
+        "detail": "Elevating doubts about media authenticity to headline status based on unverified social media speculation.",
+        "debias": "Report content with verified facts while noting ongoing authentication processes without amplifying speculation.",
+        "date_added": "2026-04-28",
+        "status": "suggested",
+        "example_text": "Videos emerging on social media from Iran appear to show armed Iranian women parading with IRGC in several cities in an upsurge of nationalist and religious fervour, dubbed as a 'jihad of women', but some clips spark AI editing doubts and remain unverified.",
+        "example_url": "http://www.euronews.com/2026/04/28/iran-parades-armed-women-in-streets-as-questions-over-ai-videos-grow",
+        "unbiased_text": "Videos on social media show armed Iranian women parading with IRGC in several cities in what has been termed a 'jihad of women.' Verification of the videos is ongoing."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

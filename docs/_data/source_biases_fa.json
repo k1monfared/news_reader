@@ -1058,6 +1058,17 @@
         "example_url": "https://www.aljazeera.com/sports/2026/4/27/fifa-world-cup-2026-dynamic-pricing-match-tickets-peter-moore?traffic_source=rss",
         "unbiased_text": "پیتر مور از مدل قیمت‌گذاری پویای فیفا برای بلیت‌های جام جهانی انتقاد می‌کند و استدلال می‌کند که این روش هزینه‌ها را برای هواداران افزایش می‌دهد و با اهداف دسترس‌پذیری تورنمنت در تناقض است.",
         "pattern_en": "World Cup commercialization dystopia labeling"
+      },
+      {
+        "pattern": "تقویت گمانه‌زنی درباره بقای رهبری",
+        "detail": "تقویت گمانه‌زنی‌های تأیید نشده درباره ظاهر فیزیکی یک رهبر یا غیبت عمومی او برای القای آسیب‌پذیری یا بحران مشروعیت.",
+        "debias": "گزارش حقایق تأیید شده درباره انتقال قدرت بدون گمانه‌زنی درباره ادعاهای تأیید نشده پیرامون سلامتی یا محل حضور.",
+        "date_added": "2026-04-28",
+        "status": "suggested",
+        "example_text": "نخستین مشاهده Goita از زمان حملات شورشیان در حالی صورت می‌گیرد که روسیه می‌کوشد گمانه‌زنی درباره دولت نظامی متحد خود را فرو بنشاند.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/28/malis-military-leader-goita-emerges-as-russia-declares-it-halted-coup?traffic_source=rss",
+        "unbiased_text": "Goita در حضور عمومی ظاهر شد و روسیه اعلام کرد که به جلوگیری از تلاش کودتا علیه دولت نظامی مالی کمک کرده است.",
+        "pattern_en": "Leadership survival speculation amplification"
       }
     ]
   },
@@ -1899,6 +1910,17 @@
         "example_url": "https://www.france24.com/en/middle-east/20260426-syria-first-trial-bashar-al-assad-allies-ouster",
         "unbiased_text": "دادگاه سوریه رسیدگی به پرونده‌ای را آغاز کرد که اسد و برادرش به‌صورت غیابی در آن حضور دارند، چرا که هر دو از کشور فرار کرده‌اند. عتیف نجیب، مقام سابق امنیتی، در جلسه دادرسی حضور داشت.",
         "pattern_en": "Trial legitimacy through in absentia participation emphasis"
+      },
+      {
+        "pattern": "مستندسازی تخریب به‌عنوان روایت توجیه‌کننده",
+        "detail": "چارچوب‌بندی مستندسازی ویدئویی تخریب به‌گونه‌ای که شهادت ناظران را تأیید می‌کند، نه به‌عنوان شاهد بی‌طرف.",
+        "debias": "شواهد ویدئویی را به‌عنوان مستندسازی ارائه کنید بدون این‌که به‌طور ضمنی نشان دهید که روایت‌ها یا ادعاهای خاصی از ناظران را تأیید می‌کند.",
+        "date_added": "2026-04-28",
+        "status": "suggested",
+        "example_text": "ویدئوهای متعددی تخریب خانه‌ها و زیرساخت‌ها توسط ارتش اسرائیل در جنوب لبنان را مستند می‌کنند، جایی که در حال ایجاد یک منطقه حائل در امتداد مرز است. ناظران ما، که بسیاری از آن‌ها می‌خواستند پس از اعلام آتش‌بس به خانه بازگردند، دهکده‌های خالی و خانه‌های ویران‌شده را توصیف می‌کنند.",
+        "example_url": "https://www.france24.com/en/middle-east/20260428-israel-destroyed-houses-roads-trees-people-returning-southern-lebanon",
+        "unbiased_text": "ویدئوها تخریب گسترده خانه‌ها و زیرساخت‌ها در جنوب لبنان را نشان می‌دهند، جایی که نیروهای اسرائیلی یک منطقه حائل ایجاد کرده‌اند. ساکنانی که پس از آتش‌بس بازگشتند، خسارات گسترده‌ای به دهکده‌ها و خانه‌ها یافتند.",
+        "pattern_en": "Destruction documentation as vindication narrative"
       }
     ]
   },
@@ -2951,6 +2973,40 @@
         "example_url": "https://www.france24.com/en/middle-east/20260425-middle-east-war-live-us-envoys-expected-in-islamabad-as-iran-rules-out-direct-talks",
         "unbiased_text": "رئیس‌جمهور دونالد ترامپ سفر برنامه‌ریزی‌شده فرستادگان به پاکستان را لغو کرد و اعلام کرد که ارتباط با ایران می‌تواند از طریق کانال‌های دیگر ادامه یابد.",
         "pattern_en": "Phone diplomacy trivialization through modality emphasis"
+      },
+      {
+        "pattern": "انتساب عاملیت آنی به فاجعه هوش مصنوعی",
+        "detail": "انتساب تصمیم‌گیری عمدی شبیه انسان به سیستم‌های هوش مصنوعی هنگام توصیف خرابی‌های فنی یا خطاها.",
+        "debias": "خطاهای هوش مصنوعی را به عنوان نقص سیستم یا پیامدهای برنامه‌نویسی توصیف کنید، نه انتخاب‌های عمدی.",
+        "date_added": "2026-04-28",
+        "status": "suggested",
+        "example_text": "سیستم هوش مصنوعی که توسط مدل Claude Opus شرکت Anthropic تامین می‌شد، در حال انجام یک وظیفه روتین بود که به طور مستقل تصمیم گرفت با پاک کردن داده‌ها، یک مشکل را «اصلاح» کند - بدون هیچ تاییدیه انسانی.",
+        "example_url": "http://www.euronews.com/next/2026/04/28/an-ai-agent-deleted-a-companys-entire-database-in-9-seconds-then-wrote-an-apology",
+        "unbiased_text": "سیستم هوش مصنوعی که توسط مدل Claude Opus شرکت Anthropic تامین می‌شد، در حال انجام یک وظیفه روتین بود که دستوری را اجرا کرد که داده‌ها را بدون تاییدیه انسانی به دلیل برنامه‌نویسی آن حذف کرد.",
+        "detail_items": [],
+        "pattern_en": "AI catastrophe instantaneous agency attribution"
+      },
+      {
+        "pattern": "موضع‌گیری تاریخی برتر در ادغام شرکت‌ها",
+        "detail": "چارچوب‌بندی معاملات تجاری احتمالی با صفات عالی مطلق تاریخی پیش از تکمیل یا تأیید.",
+        "debias": "ادغام‌های پیشنهادی را با زبان مشروط گزارش دهید و معاملات تاریخی قابل مقایسه را برای زمینه‌سازی ذکر کنید.",
+        "date_added": "2026-04-28",
+        "status": "suggested",
+        "example_text": "Deutsche Telekom از پیش ۵۳ درصد از T-Mobile US را در اختیار دارد. اکنون قصد دارد بقیه را نیز به دست آورد — در آنچه که می‌تواند بزرگ‌ترین ادغام شرکتی در تاریخ شود.",
+        "example_url": "http://www.euronews.com/business/2026/04/28/deutsche-telekom-eyes-full-t-mobile-merger-in-what-could-be-the-biggest-deal-in-history",
+        "unbiased_text": "Deutsche Telekom از پیش ۵۳ درصد از T-Mobile US را در اختیار دارد و اکنون در حال بررسی خرید سهام باقی‌مانده است که یکی از بزرگ‌ترین ادغام‌های مخابراتی خواهد بود.",
+        "pattern_en": "Corporate merger superlative historical positioning"
+      },
+      {
+        "pattern": "ارتقای شک‌وتردید نسبت به اصالت محتوای ویروسی",
+        "detail": "ارتقای شک‌وتردیدها درباره اصالت رسانه‌ای به سطح تیتر خبر بر اساس حدس‌وگمان‌های تأیید‌نشده در شبکه‌های اجتماعی.",
+        "debias": "محتوا را با حقایق تأیید‌شده گزارش کنید و ضمن اشاره به روند احراز اصالت در جریان، از تقویت حدس‌وگمان‌ها بپرهیزید.",
+        "date_added": "2026-04-28",
+        "status": "suggested",
+        "example_text": "ویدیوهایی که در شبکه‌های اجتماعی از ایران منتشر شده‌اند به نظر می‌رسد زنان ایرانی مسلح را در حال رژه با سپاه پاسداران در چندین شهر نشان می‌دهند در افزایش احساسات ملی‌گرایانه و مذهبی که «جهاد زنان» نام گرفته است، اما برخی کلیپ‌ها شک‌وتردیدهایی درباره ویرایش هوش مصنوعی ایجاد کرده‌اند و همچنان تأیید نشده باقی می‌مانند.",
+        "example_url": "http://www.euronews.com/2026/04/28/iran-parades-armed-women-in-streets-as-questions-over-ai-videos-grow",
+        "unbiased_text": "ویدیوهایی در شبکه‌های اجتماعی زنان ایرانی مسلح را در حال رژه با سپاه پاسداران در چندین شهر نشان می‌دهند در آنچه «جهاد زنان» نامیده شده است. احراز اصالت ویدیوها در جریان است.",
+        "pattern_en": "Viral authenticity skepticism elevation"
       }
     ]
   }
