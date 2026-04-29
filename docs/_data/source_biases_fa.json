@@ -1069,6 +1069,39 @@
         "example_url": "https://www.aljazeera.com/news/2026/4/28/malis-military-leader-goita-emerges-as-russia-declares-it-halted-coup?traffic_source=rss",
         "unbiased_text": "Goita در حضور عمومی ظاهر شد و روسیه اعلام کرد که به جلوگیری از تلاش کودتا علیه دولت نظامی مالی کمک کرده است.",
         "pattern_en": "Leadership survival speculation amplification"
+      },
+      {
+        "pattern": "تجمیع تلفات بر اساس واحد خانوادگی",
+        "detail": "تیترهایی که به جای ذکر تعداد کل کشته‌شدگان، بر روابط خانوادگی قربانیان تأکید می‌کنند تا تأثیر عاطفی را به حداکثر برسانند.",
+        "debias": "تعداد تلفات را بدون تأکید بر روابط خانوادگی گزارش کنید، مگر اینکه مستقیماً به ماهیت حادثه مرتبط باشد.",
+        "date_added": "2026-04-29",
+        "status": "suggested",
+        "example_text": "حمله اسرائیل پنج عضو یک خانواده را در لبنان کشت",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/29/israeli-strike-kills-five-family-members-in-lebanon?traffic_source=rss",
+        "unbiased_text": "حمله اسرائیل پنج نفر را در لبنان کشت",
+        "pattern_en": "Family unit casualty aggregation"
+      },
+      {
+        "pattern": "تضعیف روایت از طریق برتری تکنولوژیکی",
+        "detail": "قاب‌بندی سیستم‌های دفاعی پیشرفته طرف مقابل به‌عنوان آسیب‌پذیر در برابر جایگزین‌های کم‌هزینه برای القای محرومیت تکنولوژیکی.",
+        "debias": "گزارش تحولات فناوری نظامی بدون تأکید بر تفاوت‌های هزینه‌ای که برتری جایگزین‌های ارزان‌تر را القا می‌کند.",
+        "date_added": "2026-04-29",
+        "status": "suggested",
+        "example_text": "پهپادهای کم‌هزینه که در برابر اختلال مصون و برای رادار نامرئی هستند، در حال نفوذ به سیستم‌های چندمیلیارد دلاری اسرائیل هستند.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/29/how-hezbollahs-fibre-optic-drones-test-israels-sophisticated-radar-system?traffic_source=rss",
+        "unbiased_text": "پهپادهای فیبرنوری که شناسایی آن‌ها توسط رادارهای معمولی دشوار است، علیه سیستم‌های دفاعی اسرائیل به کار گرفته شده‌اند.",
+        "pattern_en": "Technological superiority undermining narrative"
+      },
+      {
+        "pattern": "قاب‌بندی جابجایی احیای زیست‌محیطی",
+        "detail": "ارائه گزارش‌های بهبود محیط زیست از مناطق مجاور مناطق درگیری در حالی که تأثیرات انسانی جاری حذف می‌شوند.",
+        "debias": "هنگام پوشش بهبود محیط زیست، وضعیت‌های انسانی همزمان را بدون جابجایی تصدیق کنید.",
+        "date_added": "2026-04-29",
+        "status": "suggested",
+        "example_text": "باران‌های بسیار مورد نیاز در حال بازگرداندن حیات به اکوسیستم باستانی تالاب‌های هورالعظیم هستند، پس از سال‌ها ویرانی.",
+        "example_url": "https://www.aljazeera.com/gallery/2026/4/29/iraqs-marshes-revived-long-awaited-rains-bring-life-back-to-wetlands?traffic_source=rss",
+        "unbiased_text": "بارندگی اخیر به بهبود اکوسیستم تالاب‌های هورالعظیم پس از سال‌ها خشکسالی کمک کرده است.",
+        "pattern_en": "Ecological revival displacement framing"
       }
     ]
   },
@@ -1921,6 +1954,17 @@
         "example_url": "https://www.france24.com/en/middle-east/20260428-israel-destroyed-houses-roads-trees-people-returning-southern-lebanon",
         "unbiased_text": "ویدئوها تخریب گسترده خانه‌ها و زیرساخت‌ها در جنوب لبنان را نشان می‌دهند، جایی که نیروهای اسرائیلی یک منطقه حائل ایجاد کرده‌اند. ساکنانی که پس از آتش‌بس بازگشتند، خسارات گسترده‌ای به دهکده‌ها و خانه‌ها یافتند.",
         "pattern_en": "Destruction documentation as vindication narrative"
+      },
+      {
+        "pattern": "ماندگاری تاریخی از طریق صدای نیاکان",
+        "detail": "برجسته‌سازی مورخانی که پیوندهای خانوادگی با درگیری‌ها دارند به عنوان منابع معتبر برای القای اجتناب‌ناپذیر بودن تداوم گروهی.",
+        "debias": "تحلیل تاریخی را بر اساس تخصص ارائه دهید نه بر اساس پیوندهای شخصی یا نیاکانی به موضوع مورد بحث.",
+        "date_added": "2026-04-29",
+        "status": "suggested",
+        "example_text": "رشید خالدی سال‌ها را صرف نگارش مجموعه‌ای از کتاب‌ها درباره منطقه و درگیری‌های آن کرده است، اغلب از دریچه چشم خانواده خودش. او می‌گوید که میلیون‌ها نفر سرزمین خود را ترک نخواهند کرد، بنابراین مبنایی برای دو ملت وجود دارد تا راه‌حلی پیدا کنند.",
+        "example_url": "https://www.france24.com/en/tv-shows/perspective/20260429-despite-everything-the-palestinians-have-not-given-up-historian-rashid-khalidi",
+        "unbiased_text": "مورخ رشید خالدی که متخصص تاریخ فلسطین است، استدلال می‌کند که واقعیت‌های جمعیتی نشان می‌دهند هر دو جمعیت در منطقه باقی خواهند ماند و این امر شرایطی را برای راه‌حل‌های مذاکره‌ای بالقوه ایجاد می‌کند.",
+        "pattern_en": "Historical permanence through ancestral voice"
       }
     ]
   },
@@ -3007,6 +3051,28 @@
         "example_url": "http://www.euronews.com/2026/04/28/iran-parades-armed-women-in-streets-as-questions-over-ai-videos-grow",
         "unbiased_text": "ویدیوهایی در شبکه‌های اجتماعی زنان ایرانی مسلح را در حال رژه با سپاه پاسداران در چندین شهر نشان می‌دهند در آنچه «جهاد زنان» نامیده شده است. احراز اصالت ویدیوها در جریان است.",
         "pattern_en": "Viral authenticity skepticism elevation"
+      },
+      {
+        "pattern": "قاب‌بندی بی‌اعتبارسازی دیپلماسی توییتری",
+        "detail": "توصیف ارتباطات عمومی دولت‌ها در رسانه‌های اجتماعی به‌عنوان نامشروع در مقایسه با کانال‌های دیپلماتیک سنتی.",
+        "debias": "گزارش ارتباطات دیپلماتیک در تمام کانال‌ها بدون تعیین سلسله‌مراتب مشروعیت برای رسانه مورد استفاده.",
+        "date_added": "2026-04-29",
+        "status": "suggested",
+        "example_text": "یک منبع دیپلماتیک ارشد اوکراینی به یورونیوز گفت که «اگر اسرائیل از طریق کانال‌های دیپلماتیک به درخواست‌های دیگر پاسخ می‌داد، نیازی به توییت‌ها نبود»، در حالی که وزیر امور خارجه اسرائیل ساعر به کی‌یف حمله کرد و آن را «دیپلماسی توییتری» خواند.",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/29/ukraine-formally-asks-israel-to-seize-vessel-carrying-grain-stolen-by-russia",
+        "unbiased_text": "یک منبع دیپلماتیک اوکراینی گفت اسرائیل به درخواست‌های پیشین از طریق کانال‌های سنتی پاسخ نداده بود، در حالی که وزیر امور خارجه اسرائیل ساعر از استفاده اوکراین از رسانه‌های اجتماعی برای ارتباط درخواست‌های دیپلماتیک انتقاد کرد.",
+        "pattern_en": "Twitter diplomacy delegitimization framing"
+      },
+      {
+        "pattern": "تقابل نمایش وحدت در برابر محتوا",
+        "detail": "قاب‌بندی دیدارهای دیپلماتیک به‌عنوان نمایش‌های صوری که شکاف‌های زیرین را از طریق غیبت و تأکید بر نشانه‌ها پنهان می‌کنند.",
+        "debias": "گزارش دیدارهای دیپلماتیک بر اساس نتایج و تعهدات اعلام‌شده به‌جای گمانه‌زنی درباره حرکات نمادین.",
+        "date_added": "2026-04-29",
+        "status": "suggested",
+        "example_text": "رهبران خلیج فارس در عربستان سعودی گردهم آمدند تا پیامدهای جنگ ایران را بررسی کنند، وحدت را به نمایش گذاشتند اما از اقدامات مشخص خودداری کردند چرا که شکاف‌ها و عدم قطعیت همچنان پابرجاست.",
+        "example_url": "http://www.euronews.com/2026/04/29/gulf-unity-on-display-in-jeddah-but-absences-and-signals-reveal-limits-to-coordination",
+        "unbiased_text": "رهبران خلیج فارس در عربستان سعودی گردهم آمدند تا درباره واکنش‌ها به جنگ ایران بحث کنند، هرچند این نشست تعهدات سیاسی مشخصی تولید نکرد.",
+        "pattern_en": "Unity performance versus substance dichotomy"
       }
     ]
   }

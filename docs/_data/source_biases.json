@@ -966,6 +966,36 @@
         "example_text": "First sighting of Goita since rebel attacks comes as Russia seeks to dampen speculation over ally's military government.",
         "example_url": "https://www.aljazeera.com/news/2026/4/28/malis-military-leader-goita-emerges-as-russia-declares-it-halted-coup?traffic_source=rss",
         "unbiased_text": "Goita made a public appearance as Russia announced it had helped prevent a coup attempt against Mali's military government."
+      },
+      {
+        "pattern": "Family unit casualty aggregation",
+        "detail": "Headlines emphasizing family relationship of casualties rather than total death toll to maximize emotional impact.",
+        "debias": "Report casualty numbers without emphasizing familial relationships unless directly relevant to the incident's nature.",
+        "date_added": "2026-04-29",
+        "status": "suggested",
+        "example_text": "Israeli strike kills five family members in Lebanon",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/4/29/israeli-strike-kills-five-family-members-in-lebanon?traffic_source=rss",
+        "unbiased_text": "Israeli strike kills five people in Lebanon"
+      },
+      {
+        "pattern": "Technological superiority undermining narrative",
+        "detail": "Framing opponent's advanced defense systems as vulnerable to low-cost alternatives to suggest technological disadvantage.",
+        "debias": "Report on military technology developments without emphasizing cost disparities that imply superiority of cheaper alternatives.",
+        "date_added": "2026-04-29",
+        "status": "suggested",
+        "example_text": "Immune to jamming and invisible to radar, the low-cost drones are piercing through Israel's multibillion-dollar systems.",
+        "example_url": "https://www.aljazeera.com/news/2026/4/29/how-hezbollahs-fibre-optic-drones-test-israels-sophisticated-radar-system?traffic_source=rss",
+        "unbiased_text": "Fibre-optic drones, which are difficult to detect by conventional radar, have been used against Israel's defense systems."
+      },
+      {
+        "pattern": "Ecological revival displacement framing",
+        "detail": "Presenting environmental recovery stories from conflict-adjacent regions while omitting ongoing humanitarian impacts.",
+        "debias": "When covering environmental recovery, acknowledge concurrent humanitarian situations without displacement.",
+        "date_added": "2026-04-29",
+        "status": "suggested",
+        "example_text": "Much-needed rain is bringing life back to the ancient ecosystem of the Huwaizah Marshes, after years of devastation.",
+        "example_url": "https://www.aljazeera.com/gallery/2026/4/29/iraqs-marshes-revived-long-awaited-rains-bring-life-back-to-wetlands?traffic_source=rss",
+        "unbiased_text": "Recent rainfall has contributed to the recovery of the Huwaizah Marshes ecosystem after years of drought."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1760,6 +1790,16 @@
         "example_text": "Many videos document the Israeli army's destruction of houses and infrastructure in southern Lebanon, where it is creating a buffer zone along the border. Our Observers, many of whom wanted to return home after a ceasefire was announced, describe empty villages and razed homes.",
         "example_url": "https://www.france24.com/en/middle-east/20260428-israel-destroyed-houses-roads-trees-people-returning-southern-lebanon",
         "unbiased_text": "Videos show extensive destruction of houses and infrastructure in southern Lebanon where Israeli forces have established a buffer zone. Residents returning after the ceasefire found widespread damage to villages and homes."
+      },
+      {
+        "pattern": "Historical permanence through ancestral voice",
+        "detail": "Elevating historians with family connections to conflicts as authoritative voices to suggest inevitability of group persistence.",
+        "debias": "Present historical analysis based on expertise rather than personal or ancestral connections to the subject matter.",
+        "date_added": "2026-04-29",
+        "status": "suggested",
+        "example_text": "Rashid Khalidi has spent years writing a series of books on the region and its conflicts, often through the eyes of his own family. He says that millions of people are not going to leave their land, so there's a basis for the two peoples to figure something out.",
+        "example_url": "https://www.france24.com/en/tv-shows/perspective/20260429-despite-everything-the-palestinians-have-not-given-up-historian-rashid-khalidi",
+        "unbiased_text": "Historian Rashid Khalidi, who specializes in Palestinian history, argues that demographic realities suggest both populations will remain in the region, creating conditions for potential negotiated solutions."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -2753,6 +2793,26 @@
         "example_text": "Videos emerging on social media from Iran appear to show armed Iranian women parading with IRGC in several cities in an upsurge of nationalist and religious fervour, dubbed as a 'jihad of women', but some clips spark AI editing doubts and remain unverified.",
         "example_url": "http://www.euronews.com/2026/04/28/iran-parades-armed-women-in-streets-as-questions-over-ai-videos-grow",
         "unbiased_text": "Videos on social media show armed Iranian women parading with IRGC in several cities in what has been termed a 'jihad of women.' Verification of the videos is ongoing."
+      },
+      {
+        "pattern": "Twitter diplomacy delegitimization framing",
+        "detail": "Characterizing public social media communication by governments as illegitimate compared to traditional diplomatic channels.",
+        "debias": "Report on diplomatic communications across all channels without assigning legitimacy hierarchies to the medium used.",
+        "date_added": "2026-04-29",
+        "status": "suggested",
+        "example_text": "A senior Ukrainian diplomatic source told Euronews that \"if Israel responded to other requests via diplomatic channels, there would have been no need for tweets\", as Israeli FM Sa'ar lashed out at Kyiv over what he said was \"Twitter diplomacy\".",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/29/ukraine-formally-asks-israel-to-seize-vessel-carrying-grain-stolen-by-russia",
+        "unbiased_text": "A Ukrainian diplomatic source said Israel had not responded to previous requests through traditional channels, while Israeli FM Sa'ar criticized Ukraine's use of social media to communicate diplomatic requests."
+      },
+      {
+        "pattern": "Unity performance versus substance dichotomy",
+        "detail": "Framing diplomatic meetings as performative displays that mask underlying divisions through absence and signal emphasis.",
+        "debias": "Report on diplomatic meetings based on stated outcomes and commitments rather than speculation about symbolic gestures.",
+        "date_added": "2026-04-29",
+        "status": "suggested",
+        "example_text": "Gulf leaders met in Saudi Arabia to address the fallout from the Iran war, projecting unity but stopping short of concrete steps as divisions and uncertainty persist.",
+        "example_url": "http://www.euronews.com/2026/04/29/gulf-unity-on-display-in-jeddah-but-absences-and-signals-reveal-limits-to-coordination",
+        "unbiased_text": "Gulf leaders met in Saudi Arabia to discuss responses to the Iran war, though the meeting did not produce specific policy commitments."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
