@@ -996,6 +996,26 @@
         "example_text": "Much-needed rain is bringing life back to the ancient ecosystem of the Huwaizah Marshes, after years of devastation.",
         "example_url": "https://www.aljazeera.com/gallery/2026/4/29/iraqs-marshes-revived-long-awaited-rains-bring-life-back-to-wetlands?traffic_source=rss",
         "unbiased_text": "Recent rainfall has contributed to the recovery of the Huwaizah Marshes ecosystem after years of drought."
+      },
+      {
+        "pattern": "Western feminist hypocrisy narrative",
+        "detail": "Frames Western activists as hypocritical by contrasting previous support with current silence, implying selective concern based on geopolitical alignment rather than addressing the underlying claims.",
+        "debias": "Report on Western responses to events without characterizing entire movements as hypocritical or making sweeping generalizations about activist consistency.",
+        "date_added": "2026-04-30",
+        "status": "suggested",
+        "example_text": "Those who backed Iranian women's protests against compulsory hijab are silent as those same women are killed.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/4/30/why-are-western-feminists-silent-on-the-war-on-iranian-women?traffic_source=rss",
+        "unbiased_text": "Some Western feminist groups that previously supported Iranian women's protests against compulsory hijab have not issued statements on recent casualties among Iranian women."
+      },
+      {
+        "pattern": "Cost dispute amplification through extreme range",
+        "detail": "Headlines competing cost estimates with such extreme variance ($25bn vs $1 trillion) that the disparity itself becomes the story, emphasizing controversy over substantive analysis.",
+        "debias": "Report cost estimates with context about methodology and scope differences rather than framing wildly divergent figures as equally valid competing claims.",
+        "date_added": "2026-04-30",
+        "status": "suggested",
+        "example_text": "$25bn or $1 trillion: How much has Iran war really cost the US?",
+        "example_url": "https://www.aljazeera.com/news/2026/4/30/25bn-or-1-trillion-how-much-has-iran-war-really-cost-the-us?traffic_source=rss",
+        "unbiased_text": "US officials estimate direct military costs of the Iran conflict at $25bn, while some analysts argue total economic impact including indirect costs could exceed $1 trillion."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1800,6 +1820,16 @@
         "example_text": "Rashid Khalidi has spent years writing a series of books on the region and its conflicts, often through the eyes of his own family. He says that millions of people are not going to leave their land, so there's a basis for the two peoples to figure something out.",
         "example_url": "https://www.france24.com/en/tv-shows/perspective/20260429-despite-everything-the-palestinians-have-not-given-up-historian-rashid-khalidi",
         "unbiased_text": "Historian Rashid Khalidi, who specializes in Palestinian history, argues that demographic realities suggest both populations will remain in the region, creating conditions for potential negotiated solutions."
+      },
+      {
+        "pattern": "Entertainment-propaganda equivalence blurring framing",
+        "detail": "Frames content creators as deliberately blurring lines between categories, treating entertainment format as evidence of propaganda intent rather than analyzing content substance.",
+        "debias": "Analyze content on its factual claims and messaging without presuming format choice indicates deceptive intent.",
+        "date_added": "2026-04-30",
+        "status": "suggested",
+        "example_text": "Viral pro-Iran AI memes blur lines between propaganda and entertainment",
+        "example_url": "https://www.france24.com/en/viral-pro-iran-ai-memes-blur-lines-between-propaganda-and-entertainment",
+        "unbiased_text": "Viral AI-generated content about the Iran conflict uses entertainment formats while promoting political perspectives."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -2813,6 +2843,36 @@
         "example_text": "Gulf leaders met in Saudi Arabia to address the fallout from the Iran war, projecting unity but stopping short of concrete steps as divisions and uncertainty persist.",
         "example_url": "http://www.euronews.com/2026/04/29/gulf-unity-on-display-in-jeddah-but-absences-and-signals-reveal-limits-to-coordination",
         "unbiased_text": "Gulf leaders met in Saudi Arabia to discuss responses to the Iran war, though the meeting did not produce specific policy commitments."
+      },
+      {
+        "pattern": "Maritime freedom coalition terminology valorization",
+        "detail": "Uses terminology like 'maritime freedom coalition' that frames one side's military coordination as principled defense of universal rights rather than strategic interest.",
+        "debias": "Describe military coalitions by their stated operational goals without adopting value-laden terminology that presumes moral legitimacy.",
+        "date_added": "2026-04-30",
+        "status": "suggested",
+        "example_text": "US seeks 'maritime freedom' coalition to restart Strait of Hormuz shipping",
+        "example_url": "http://www.euronews.com/2026/04/30/us-seeks-maritime-freedom-coalition-to-restart-strait-of-hormuz-shipping",
+        "unbiased_text": "US seeks multinational naval coalition to reopen Strait of Hormuz shipping."
+      },
+      {
+        "pattern": "Royal endorsement recruitment causation assertion",
+        "detail": "Attributes military recruitment success directly to royal participation without evidence, suggesting symbolic gestures drive substantive policy outcomes.",
+        "debias": "Report recruitment trends and royal involvement separately unless causal connection is substantiated with evidence.",
+        "date_added": "2026-04-30",
+        "status": "suggested",
+        "example_text": "The royal seal of approval, together with recruitment campaigns running across the media, has proven so successful that the military is now working overtime to arm, train and accommodate the influx of newcomers.",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/30/royal-recruits-boost-volunteers-as-the-netherlands-builds-up-its-military-reservists",
+        "unbiased_text": "Netherlands military recruitment has increased following campaigns that included royal participation, with the military expanding training capacity for new reservists."
+      },
+      {
+        "pattern": "Stolen resource accusation through descriptive certainty",
+        "detail": "Presents disputed claims about resource origin as established fact in headlines and descriptions, treating allegation as confirmed truth.",
+        "debias": "Attribute contested claims to their source and use conditional language until independently verified.",
+        "date_added": "2026-04-30",
+        "status": "suggested",
+        "example_text": "Israel halts Russian grain ship amid stolen Ukrainian wheat row",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/30/israel-halts-russian-grain-ship-amid-stolen-ukrainian-wheat-row",
+        "unbiased_text": "Israel halts Russian grain ship amid dispute over Ukrainian allegations that wheat was taken without authorization."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

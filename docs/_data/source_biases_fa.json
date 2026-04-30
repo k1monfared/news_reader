@@ -1102,6 +1102,28 @@
         "example_url": "https://www.aljazeera.com/gallery/2026/4/29/iraqs-marshes-revived-long-awaited-rains-bring-life-back-to-wetlands?traffic_source=rss",
         "unbiased_text": "بارندگی اخیر به بهبود اکوسیستم تالاب‌های هورالعظیم پس از سال‌ها خشکسالی کمک کرده است.",
         "pattern_en": "Ecological revival displacement framing"
+      },
+      {
+        "pattern": "روایت ریاکاری فمینیست‌های غربی",
+        "detail": "فعالان غربی را با مقایسه حمایت قبلی و سکوت فعلی به عنوان ریاکار معرفی می‌کند و نشان می‌دهد که نگرانی‌ها بر اساس همسویی ژئوپلیتیکی انتخابی است، نه بر اساس رسیدگی به ادعاهای اساسی.",
+        "debias": "واکنش‌های غربی به رویدادها را بدون توصیف کل جنبش‌ها به عنوان ریاکار یا تعمیم‌های گسترده درباره ثبات فعالان گزارش کنید.",
+        "date_added": "2026-04-30",
+        "status": "suggested",
+        "example_text": "کسانی که از اعتراضات زنان ایرانی علیه حجاب اجباری حمایت کردند، اکنون که همان زنان کشته می‌شوند، ساکت‌اند.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/4/30/why-are-western-feminists-silent-on-the-war-on-iranian-women?traffic_source=rss",
+        "unbiased_text": "برخی گروه‌های فمینیستی غربی که پیش‌تر از اعتراضات زنان ایرانی علیه حجاب اجباری حمایت کرده بودند، درباره تلفات اخیر در میان زنان ایرانی بیانیه‌ای منتشر نکرده‌اند.",
+        "pattern_en": "Western feminist hypocrisy narrative"
+      },
+      {
+        "pattern": "تقویت اختلاف هزینه‌ها از طریق دامنه افراطی",
+        "detail": "تیترهایی که برآوردهای رقیب هزینه را با چنان واریانس شدیدی (۲۵ میلیارد دلار در مقابل ۱ تریلیون دلار) رقابت می‌دهند که خود این تفاوت تبدیل به خبر می‌شود و بر جنجال به جای تحلیل ماهوی تأکید می‌کند.",
+        "debias": "برآوردهای هزینه را با زمینه‌ای درباره تفاوت‌های روش‌شناسی و دامنه گزارش کنید به جای آنکه ارقام کاملاً متفاوت را به عنوان ادعاهای رقیب به یک اندازه معتبر قاب‌بندی کنید.",
+        "date_added": "2026-04-30",
+        "status": "suggested",
+        "example_text": "۲۵ میلیارد دلار یا ۱ تریلیون دلار: جنگ ایران واقعاً چقدر برای آمریکا هزینه داشته است؟",
+        "example_url": "https://www.aljazeera.com/news/2026/4/30/25bn-or-1-trillion-how-much-has-iran-war-really-cost-the-us?traffic_source=rss",
+        "unbiased_text": "مقامات آمریکایی هزینه‌های مستقیم نظامی درگیری با ایران را ۲۵ میلیارد دلار برآورد می‌کنند، در حالی که برخی تحلیلگران استدلال می‌کنند تأثیر کل اقتصادی از جمله هزینه‌های غیرمستقیم می‌تواند از ۱ تریلیون دلار فراتر رود.",
+        "pattern_en": "Cost dispute amplification through extreme range"
       }
     ]
   },
@@ -1965,6 +1987,17 @@
         "example_url": "https://www.france24.com/en/tv-shows/perspective/20260429-despite-everything-the-palestinians-have-not-given-up-historian-rashid-khalidi",
         "unbiased_text": "مورخ رشید خالدی که متخصص تاریخ فلسطین است، استدلال می‌کند که واقعیت‌های جمعیتی نشان می‌دهند هر دو جمعیت در منطقه باقی خواهند ماند و این امر شرایطی را برای راه‌حل‌های مذاکره‌ای بالقوه ایجاد می‌کند.",
         "pattern_en": "Historical permanence through ancestral voice"
+      },
+      {
+        "pattern": "قاب‌بندی مساوی‌سازی سرگرمی و تبلیغات",
+        "detail": "محتوا را به گونه‌ای قاب می‌کند که گویی تولیدکنندگان عمداً مرزهای بین دسته‌بندی‌ها را محو می‌کنند و قالب سرگرمی را به عنوان شاهدی بر قصد تبلیغاتی تلقی می‌کند به جای تحلیل محتوای اصلی مطلب.",
+        "debias": "محتوا را بر اساس ادعاهای واقعی و پیام‌رسانی آن تحلیل کنید بدون اینکه پیش‌فرض بگیرید انتخاب قالب نشان‌دهنده قصد فریبکارانه است.",
+        "date_added": "2026-04-30",
+        "status": "suggested",
+        "example_text": "میم‌های هوش مصنوعی طرفدار ایران که وایرال شده‌اند مرزها را بین تبلیغات و سرگرمی محو می‌کنند",
+        "example_url": "https://www.france24.com/en/viral-pro-iran-ai-memes-blur-lines-between-propaganda-and-entertainment",
+        "unbiased_text": "محتوای تولیدشده با هوش مصنوعی درباره درگیری ایران که وایرال شده است، از قالب‌های سرگرمی استفاده می‌کند در حالی که دیدگاه‌های سیاسی را ترویج می‌دهد.",
+        "pattern_en": "Entertainment-propaganda equivalence blurring framing"
       }
     ]
   },
@@ -3073,6 +3106,40 @@
         "example_url": "http://www.euronews.com/2026/04/29/gulf-unity-on-display-in-jeddah-but-absences-and-signals-reveal-limits-to-coordination",
         "unbiased_text": "رهبران خلیج فارس در عربستان سعودی گردهم آمدند تا درباره واکنش‌ها به جنگ ایران بحث کنند، هرچند این نشست تعهدات سیاسی مشخصی تولید نکرد.",
         "pattern_en": "Unity performance versus substance dichotomy"
+      },
+      {
+        "pattern": "ارزش‌گذاری اصطلاح ائتلاف آزادی دریانوردی",
+        "detail": "استفاده از اصطلاحاتی مانند «ائتلاف آزادی دریانوردی» که هماهنگی نظامی یک طرف را به‌عنوان دفاع اصولی از حقوق جهانی به‌جای منافع استراتژیک قاب‌بندی می‌کند.",
+        "debias": "ائتلاف‌های نظامی را بر اساس اهداف عملیاتی اعلام‌شده آن‌ها توصیف کنید، بدون اتخاذ اصطلاحات ارزش‌بار که مشروعیت اخلاقی را پیش‌فرض می‌گیرند.",
+        "date_added": "2026-04-30",
+        "status": "suggested",
+        "example_text": "ایالات متحده به دنبال ائتلاف «آزادی دریانوردی» برای از سرگیری کشتیرانی در تنگه هرمز است",
+        "example_url": "http://www.euronews.com/2026/04/30/us-seeks-maritime-freedom-coalition-to-restart-strait-of-hormuz-shipping",
+        "unbiased_text": "ایالات متحده به دنبال ائتلاف دریایی چندملیتی برای بازگشایی کشتیرانی در تنگه هرمز است.",
+        "detail_items": [],
+        "pattern_en": "Maritime freedom coalition terminology valorization"
+      },
+      {
+        "pattern": "ادعای علیت استخدام از طریق تأیید سلطنتی",
+        "detail": "موفقیت استخدام نظامی را مستقیماً به مشارکت سلطنتی نسبت می‌دهد بدون ارائه شواهد، و نشان می‌دهد که اقدامات نمادین منجر به نتایج سیاستی ماهوی می‌شوند.",
+        "debias": "روندهای استخدام و مشارکت سلطنتی را جداگانه گزارش کنید مگر اینکه ارتباط علّی با شواهد اثبات شود.",
+        "date_added": "2026-04-30",
+        "status": "suggested",
+        "example_text": "مُهر تأیید سلطنتی، همراه با کمپین‌های استخدامی که در رسانه‌ها اجرا می‌شوند، آنقدر موفق بوده است که اکنون ارتش برای مسلح کردن، آموزش دادن و اسکان موج ورودی‌های جدید، اضافه‌کاری می‌کند.",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/30/royal-recruits-boost-volunteers-as-the-netherlands-builds-up-its-military-reservists",
+        "unbiased_text": "استخدام نظامی هلند پس از کمپین‌هایی که شامل مشارکت سلطنتی بود، افزایش یافته و ارتش در حال توسعه ظرفیت آموزشی برای ذخیره‌نویسان جدید است.",
+        "pattern_en": "Royal endorsement recruitment causation assertion"
+      },
+      {
+        "pattern": "اتهام سرقت منابع از طریق قطعیت توصیفی",
+        "detail": "ادعاهای مورد مناقشه درباره منشأ منابع را به عنوان واقعیت ثابت‌شده در تیترها و توضیحات ارائه می‌دهد و اتهام را به عنوان حقیقت تأییدشده تلقی می‌کند.",
+        "debias": "ادعاهای مورد مناقشه را به منبع آن‌ها نسبت دهید و تا زمان تأیید مستقل از زبان شرطی استفاده کنید.",
+        "date_added": "2026-04-30",
+        "status": "suggested",
+        "example_text": "اسرائیل کشتی غلات روسیه را در میان مناقشه گندم دزدیده‌شده اوکراینی متوقف می‌کند",
+        "example_url": "http://www.euronews.com/my-europe/2026/04/30/israel-halts-russian-grain-ship-amid-stolen-ukrainian-wheat-row",
+        "unbiased_text": "اسرائیل کشتی غلات روسیه را در میان اختلاف بر سر ادعاهای اوکراین مبنی بر برداشت غیرمجاز گندم متوقف می‌کند.",
+        "pattern_en": "Stolen resource accusation through descriptive certainty"
       }
     ]
   }
