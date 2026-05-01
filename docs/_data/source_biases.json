@@ -1016,6 +1016,26 @@
         "example_text": "$25bn or $1 trillion: How much has Iran war really cost the US?",
         "example_url": "https://www.aljazeera.com/news/2026/4/30/25bn-or-1-trillion-how-much-has-iran-war-really-cost-the-us?traffic_source=rss",
         "unbiased_text": "US officials estimate direct military costs of the Iran conflict at $25bn, while some analysts argue total economic impact including indirect costs could exceed $1 trillion."
+      },
+      {
+        "pattern": "Moral calculation versus conviction dichotomy",
+        "detail": "Framing political leaders' policy responses as driven by opportunistic calculation rather than genuine moral principles to delegitimize their positions.",
+        "debias": "Present policy responses neutrally without attributing hidden motivations, focusing on actions and stated reasoning rather than presumed internal calculations.",
+        "date_added": "2026-05-01",
+        "status": "suggested",
+        "example_text": "The Italian PM's response to Israel's genocidal war on Gaza reflects not moral conviction, but political calculation.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/1/giorgia-melonis-moral-retreat-on-gaza?traffic_source=rss",
+        "unbiased_text": "The Italian PM's response to Israel's war on Gaza has evolved over time, reflecting changing policy considerations."
+      },
+      {
+        "pattern": "Suspect identity withheld transparency criticism",
+        "detail": "Criticizing authorities for not releasing suspect names even when standard privacy regulations apply, implying concealment without legitimate basis.",
+        "debias": "Note when privacy regulations or legal procedures explain non-disclosure of suspect identities without framing it as suspicious withholding.",
+        "date_added": "2026-05-01",
+        "status": "suggested",
+        "example_text": "Australian authorities appeal for calm after riots over killing of five-year-old Kumanjayi Little Baby.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/1/riots-erupt-over-australian-aboriginal-girls-murder-as-suspect-arrested?traffic_source=rss",
+        "unbiased_text": "Australian authorities have arrested a suspect and appealed for calm after the killing of five-year-old Kumanjayi Little Baby."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1830,6 +1850,26 @@
         "example_text": "Viral pro-Iran AI memes blur lines between propaganda and entertainment",
         "example_url": "https://www.france24.com/en/viral-pro-iran-ai-memes-blur-lines-between-propaganda-and-entertainment",
         "unbiased_text": "Viral AI-generated content about the Iran conflict uses entertainment formats while promoting political perspectives."
+      },
+      {
+        "pattern": "Deadline approaching stalemate emphasis",
+        "detail": "Highlighting approaching deadlines alongside stalled negotiations to create urgency pressure framing and suggest crisis escalation from procedural timelines.",
+        "debias": "Report deadlines as procedural facts without dramatizing the temporal pressure or framing lack of agreement as crisis intensification.",
+        "date_added": "2026-05-01",
+        "status": "suggested",
+        "example_text": "With the deadline approaching and no agreement in sight, a decision remains out of reach.",
+        "example_url": "https://www.france24.com/en/us-administration-says-war-terminated-no-approval-needed",
+        "unbiased_text": "Congress has not yet reached an agreement on authorization as the War Powers Resolution deadline approaches."
+      },
+      {
+        "pattern": "Fragility assertion through conditional structure",
+        "detail": "Describing situations or agreements as inherently fragile through conditional language that emphasizes precariousness over current stability.",
+        "debias": "Describe current conditions factually without emphasizing hypothetical fragility through 'despite' or conditional framing structures.",
+        "date_added": "2026-05-01",
+        "status": "suggested",
+        "example_text": "despite a fragile situation that many Lebanese would find hard to describe as a true ceasefire",
+        "example_url": "https://www.france24.com/en/at-least-15-killed-in-southern-lebanon",
+        "unbiased_text": "amid an ongoing ceasefire that has seen continued incidents"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -2873,6 +2913,26 @@
         "example_text": "Israel halts Russian grain ship amid stolen Ukrainian wheat row",
         "example_url": "http://www.euronews.com/my-europe/2026/04/30/israel-halts-russian-grain-ship-amid-stolen-ukrainian-wheat-row",
         "unbiased_text": "Israel halts Russian grain ship amid dispute over Ukrainian allegations that wheat was taken without authorization."
+      },
+      {
+        "pattern": "Privacy regulation compliance framing as suspicious",
+        "detail": "Presenting routine compliance with privacy laws as notable or potentially suspicious by explicitly mentioning the regulatory justification.",
+        "debias": "Report on arrests and detentions without highlighting standard privacy compliance as if it requires special explanation or raises questions.",
+        "date_added": "2026-05-01",
+        "status": "suggested",
+        "example_text": "the suspect's name was not released, in line with Dutch privacy regulations",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/01/man-detained-for-plotting-attack-on-dutch-princesses-with-axe-to-appear-in-court",
+        "unbiased_text": "A suspect has been detained and will appear in court over an alleged plot to attack Dutch princesses."
+      },
+      {
+        "pattern": "Confiscation as loss narrative construction",
+        "detail": "Framing temporary security confiscation as permanent loss or disappearance to create victim narrative around inconvenience or bureaucratic process.",
+        "debias": "Report confiscations factually, distinguishing between temporary security holds and actual losses, with clear status of items.",
+        "date_added": "2026-05-01",
+        "status": "suggested",
+        "example_text": "The Oscar belonging to the co-director of the documentary 'Mr Nobody Against Putin' has gone missing after the US' TSA would not allow him to carry statuette on his Lufthansa flight",
+        "example_url": "http://www.euronews.com/culture/2026/05/01/mr-nobody-against-putin-directors-oscar-lost-after-being-confiscated-at-us-airport",
+        "unbiased_text": "The Oscar belonging to the co-director of 'Mr Nobody Against Putin' was confiscated by TSA at a US airport and has not yet been returned."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

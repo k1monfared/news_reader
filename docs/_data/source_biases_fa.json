@@ -1124,6 +1124,28 @@
         "example_url": "https://www.aljazeera.com/news/2026/4/30/25bn-or-1-trillion-how-much-has-iran-war-really-cost-the-us?traffic_source=rss",
         "unbiased_text": "مقامات آمریکایی هزینه‌های مستقیم نظامی درگیری با ایران را ۲۵ میلیارد دلار برآورد می‌کنند، در حالی که برخی تحلیلگران استدلال می‌کنند تأثیر کل اقتصادی از جمله هزینه‌های غیرمستقیم می‌تواند از ۱ تریلیون دلار فراتر رود.",
         "pattern_en": "Cost dispute amplification through extreme range"
+      },
+      {
+        "pattern": "دوگانگی محاسبه اخلاقی در برابر اعتقاد",
+        "detail": "قاب‌بندی واکنش‌های سیاست‌گذاری رهبران سیاسی به‌عنوان محاسبات فرصت‌طلبانه به‌جای اصول اخلاقی واقعی برای بی‌اعتبار کردن مواضع آن‌ها.",
+        "debias": "ارائه واکنش‌های سیاست‌گذاری به‌صورت بی‌طرفانه بدون نسبت دادن انگیزه‌های پنهان، با تمرکز بر اقدامات و استدلال‌های بیان‌شده به‌جای محاسبات درونی فرض‌شده.",
+        "date_added": "2026-05-01",
+        "status": "suggested",
+        "example_text": "واکنش نخست‌وزیر ایتالیا به جنگ نسل‌کشانه اسرائیل در غزه نه از روی اعتقاد اخلاقی، بلکه از روی محاسبه سیاسی است.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/1/giorgia-melonis-moral-retreat-on-gaza?traffic_source=rss",
+        "unbiased_text": "واکنش نخست‌وزیر ایتالیا به جنگ اسرائیل در غزه در طول زمان تغییر کرده است و منعکس‌کننده ملاحظات سیاست‌گذاری در حال تغییر است.",
+        "pattern_en": "Moral calculation versus conviction dichotomy"
+      },
+      {
+        "pattern": "انتقاد از شفافیت در خصوص پنهان‌سازی هویت مظنون",
+        "detail": "انتقاد از مقامات به دلیل عدم افشای نام مظنونان حتی زمانی که مقررات استاندارد حفظ حریم خصوصی اعمال می‌شود، به گونه‌ای که نشان‌دهنده پنهان‌کاری بدون مبنای قانونی باشد.",
+        "debias": "توجه داشته باشید که مقررات حفظ حریم خصوصی یا رویه‌های قانونی می‌توانند عدم افشای هویت مظنونان را توضیح دهند، بدون اینکه آن را به عنوان پنهان‌کاری مشکوک قلمداد کنید.",
+        "date_added": "2026-05-01",
+        "status": "suggested",
+        "example_text": "مقامات استرالیا پس از شورش‌ها در پی قتل کومانجایی کوچولو، دختر ۵ ساله، درخواست آرامش کردند.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/1/riots-erupt-over-australian-aboriginal-girls-murder-as-suspect-arrested?traffic_source=rss",
+        "unbiased_text": "مقامات استرالیا یک مظنون را دستگیر کرده و پس از قتل کومانجایی کوچولو، دختر ۵ ساله، درخواست آرامش کرده‌اند.",
+        "pattern_en": "Suspect identity withheld transparency criticism"
       }
     ]
   },
@@ -1998,6 +2020,28 @@
         "example_url": "https://www.france24.com/en/viral-pro-iran-ai-memes-blur-lines-between-propaganda-and-entertainment",
         "unbiased_text": "محتوای تولیدشده با هوش مصنوعی درباره درگیری ایران که وایرال شده است، از قالب‌های سرگرمی استفاده می‌کند در حالی که دیدگاه‌های سیاسی را ترویج می‌دهد.",
         "pattern_en": "Entertainment-propaganda equivalence blurring framing"
+      },
+      {
+        "pattern": "تأکید بر بن‌بست با نزدیک شدن به ضرب‌الاجل",
+        "detail": "برجسته کردن نزدیک شدن به ضرب‌الاجل در کنار مذاکرات متوقف شده برای ایجاد قاب‌بندی فشار فوریت و پیشنهاد تشدید بحران از جدول‌های زمانی رویه‌ای.",
+        "debias": "گزارش ضرب‌الاجل‌ها به عنوان حقایق رویه‌ای بدون نمایشی کردن فشار زمانی یا قاب‌بندی عدم توافق به عنوان تشدید بحران.",
+        "date_added": "2026-05-01",
+        "status": "suggested",
+        "example_text": "با نزدیک شدن به ضرب‌الاجل و نبود توافقی در افق، رسیدن به تصمیم همچنان دور از دسترس است.",
+        "example_url": "https://www.france24.com/en/us-administration-says-war-terminated-no-approval-needed",
+        "unbiased_text": "کنگره هنوز به توافقی درباره مجوز نرسیده است در حالی که ضرب‌الاجل قانون اختیارات جنگ نزدیک می‌شود.",
+        "pattern_en": "Deadline approaching stalemate emphasis"
+      },
+      {
+        "pattern": "تأکید بر شکنندگی از طریق ساختار شرطی",
+        "detail": "توصیف موقعیت‌ها یا توافق‌ها به عنوان ذاتاً شکننده از طریق زبان شرطی که بر ناپایداری تأکید می‌کند نه بر ثبات موجود.",
+        "debias": "شرایط فعلی را به صورت واقعی توصیف کنید بدون تأکید بر شکنندگی فرضی از طریق ساختارهای قالب‌بندی «علی‌رغم» یا شرطی.",
+        "date_added": "2026-05-01",
+        "status": "suggested",
+        "example_text": "علی‌رغم وضعیت شکننده‌ای که بسیاری از لبنانی‌ها به سختی می‌توانند آن را آتش‌بس واقعی توصیف کنند",
+        "example_url": "https://www.france24.com/en/at-least-15-killed-in-southern-lebanon",
+        "unbiased_text": "در میان آتش‌بس جاری که شاهد حوادث مستمر بوده است",
+        "pattern_en": "Fragility assertion through conditional structure"
       }
     ]
   },
@@ -3140,6 +3184,29 @@
         "example_url": "http://www.euronews.com/my-europe/2026/04/30/israel-halts-russian-grain-ship-amid-stolen-ukrainian-wheat-row",
         "unbiased_text": "اسرائیل کشتی غلات روسیه را در میان اختلاف بر سر ادعاهای اوکراین مبنی بر برداشت غیرمجاز گندم متوقف می‌کند.",
         "pattern_en": "Stolen resource accusation through descriptive certainty"
+      },
+      {
+        "pattern": "قاب‌بندی انطباق با مقررات حریم خصوصی به‌عنوان مشکوک",
+        "detail": "ارائه انطباق معمول با قوانین حریم خصوصی به‌عنوان امری قابل توجه یا بالقوه مشکوک از طریق ذکر صریح توجیه قانونی.",
+        "debias": "گزارش دستگیری‌ها و بازداشت‌ها را بدون برجسته‌سازی انطباق استاندارد با حریم خصوصی انجام دهید، گویی که نیاز به توضیح ویژه دارد یا سؤال برانگیز است.",
+        "date_added": "2026-05-01",
+        "status": "suggested",
+        "example_text": "نام مظنون منتشر نشد، مطابق با مقررات حریم خصوصی هلند",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/01/man-detained-for-plotting-attack-on-dutch-princesses-with-axe-to-appear-in-court",
+        "unbiased_text": "یک مظنون در ارتباط با یک توطئه ادعایی برای حمله به شاهزاده‌خانم‌های هلندی بازداشت شده و در دادگاه حاضر خواهد شد.",
+        "detail_items": [],
+        "pattern_en": "Privacy regulation compliance framing as suspicious"
+      },
+      {
+        "pattern": "ساخت روایت از ضبط به‌عنوان از دست دادن",
+        "detail": "قاب‌بندی ضبط موقت امنیتی به‌عنوان از دست دادن یا ناپدید شدن دائمی برای ایجاد روایت قربانی‌سازی پیرامون ناراحتی یا فرآیند بوروکراتیک.",
+        "debias": "ضبط‌ها را واقع‌بینانه گزارش کنید، با تمایز میان نگهداری موقت امنیتی و از دست دادن واقعی، همراه با وضعیت روشن اقلام.",
+        "date_added": "2026-05-01",
+        "status": "suggested",
+        "example_text": "جایزه اسکار متعلق به کارگردان مشترک مستند «آقای هیچ‌کس علیه پوتین» پس از آن‌که TSA آمریکا اجازه حمل مجسمه را در پرواز Lufthansa به او نداد، گم شده است",
+        "example_url": "http://www.euronews.com/culture/2026/05/01/mr-nobody-against-putin-directors-oscar-lost-after-being-confiscated-at-us-airport",
+        "unbiased_text": "جایزه اسکار متعلق به کارگردان مشترک «آقای هیچ‌کس علیه پوتین» توسط TSA در فرودگاه آمریکا ضبط شد و هنوز بازگردانده نشده است.",
+        "pattern_en": "Confiscation as loss narrative construction"
       }
     ]
   }
