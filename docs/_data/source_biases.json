@@ -1036,6 +1036,46 @@
         "example_text": "Australian authorities appeal for calm after riots over killing of five-year-old Kumanjayi Little Baby.",
         "example_url": "https://www.aljazeera.com/news/2026/5/1/riots-erupt-over-australian-aboriginal-girls-murder-as-suspect-arrested?traffic_source=rss",
         "unbiased_text": "Australian authorities have arrested a suspect and appealed for calm after the killing of five-year-old Kumanjayi Little Baby."
+      },
+      {
+        "pattern": "War causation corporate bankruptcy attribution",
+        "detail": "Attributing a corporation's bankruptcy to a distant military conflict rather than to pre-existing business model failures or market conditions.",
+        "debias": "Present the military conflict as one contextual factor among multiple causes of business failure, emphasizing pre-existing vulnerabilities.",
+        "date_added": "2026-05-03",
+        "status": "suggested",
+        "example_text": "Was the Iran war the final blow in the collapse of Spirit Airlines?",
+        "example_url": "https://www.aljazeera.com/news/2026/5/3/was-the-iran-war-the-final-blow-in-the-collapse-of-spirit-airlines?traffic_source=rss",
+        "unbiased_text": "Spirit Airlines shuts down after 34 years amid multiple financial pressures including the Iran war's impact on fuel costs"
+      },
+      {
+        "pattern": "Celebratory achievement political spite framing",
+        "detail": "Framing a competitor nation's diplomatic achievement as occurring 'despite pressure' to emphasize defiance rather than routine diplomacy.",
+        "debias": "Report diplomatic visits as standard bilateral engagements without emphasizing adversarial framing unless pressure is documented and material.",
+        "date_added": "2026-05-03",
+        "status": "suggested",
+        "example_text": "Taiwan's leader visits Eswatini despite pressure from China to block trip",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/3/taiwans-leader-visits-eswatini-despite-pressure-from-china-to-block-trip?traffic_source=rss",
+        "unbiased_text": "Taiwan's leader William Lai Ching-te visits Eswatini, the only African country that recognises Taiwan"
+      },
+      {
+        "pattern": "Abduction versus detention terminology asymmetry",
+        "detail": "Using the term 'abduction' for the seizure of activists by Israeli forces rather than neutral terms like 'detention' or 'arrest'.",
+        "debias": "Use neutral legal terminology like 'detained' or 'seized' for state actions, reserving 'abduction' for non-state actors or clearly illegal seizures.",
+        "date_added": "2026-05-03",
+        "status": "suggested",
+        "example_text": "Gaza aid flotilla activists appear in Israeli court after abduction",
+        "example_url": "https://www.aljazeera.com/news/2026/5/3/gaza-flotilla-activists-appear-in-israeli-court-allege-torture-in-custody?traffic_source=rss",
+        "unbiased_text": "Gaza aid flotilla activists appear in Israeli court after detention"
+      },
+      {
+        "pattern": "Death penalty celebration symbolism amplification",
+        "detail": "Highlighting symbolic celebration imagery (birthday cake with noose) to characterize policy as macabre rather than reporting policy substance.",
+        "debias": "Report policy details and implementation separately from personal celebrations, avoiding sensationalism of symbolic imagery.",
+        "date_added": "2026-05-03",
+        "status": "suggested",
+        "example_text": "Ben-Gvir celebrated his 50th birthday with a cake referencing the newly-passed death penalty for Palestinian detainees.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/3/ben-gvir-celebrates-birthday-with-cake-decorated-with-death-penalty-noose?traffic_source=rss",
+        "unbiased_text": "Israel's National Security Minister Ben-Gvir marked his 50th birthday following the passage of death penalty legislation for certain detainees."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1870,6 +1910,36 @@
         "example_text": "despite a fragile situation that many Lebanese would find hard to describe as a true ceasefire",
         "example_url": "https://www.france24.com/en/at-least-15-killed-in-southern-lebanon",
         "unbiased_text": "amid an ongoing ceasefire that has seen continued incidents"
+      },
+      {
+        "pattern": "Hospitalization urgency medicalization of political detention",
+        "detail": "Emphasizing severe medical deterioration and urgent hospitalization to characterize imprisonment as causing life-threatening harm.",
+        "debias": "Report medical transfers with available facts about condition and treatment without dramatic language implying imminent death unless medically confirmed.",
+        "date_added": "2026-05-03",
+        "status": "suggested",
+        "example_text": "Iran's imprisoned Nobel Peace Prize laureate Narges Mohammadi has been urgently transferred from prison to hospital after what her foundation described as a severe deterioration in her health. She reportedly fainted twice on Friday.",
+        "example_url": "https://www.france24.com/en/iranian-nobel-laureate-narges-mohammadi-hospitalised",
+        "unbiased_text": "Imprisoned Nobel Peace Prize laureate Narges Mohammadi was transferred from prison to hospital after fainting twice on Friday, according to her foundation."
+      },
+      {
+        "pattern": "Kinetic complexity romanticism narrative",
+        "detail": "Using literary language ('kinetic,' 'obscured by haze,' 'blur into a single flow') to frame military reporting as sophisticated observation rather than factual description.",
+        "debias": "Use precise technical language to describe military movements and capabilities without aesthetic embellishment or narrative dramatization.",
+        "date_added": "2026-05-03",
+        "status": "suggested",
+        "example_text": "That complexity is not theoretical. It is kinetic, obscured by haze and shaped by 'about 300 small speedboats… bouncing along the water' at high speeds, forming a dense and ambiguous maritime ecosystem where smugglers, civilians and military actors blur into a single, indistinguishable flow.",
+        "example_url": "https://www.france24.com/en/tv-shows/spotlight/20260501-iran-s-most-potent-weapon-telegraph-s-adrian-blomfield-offers-rare-frontline-glimpse-of-hormuz",
+        "unbiased_text": "Approximately 300 small speedboats operate in the strait at high speeds, including smugglers, civilian vessels and military craft that are difficult to distinguish from one another."
+      },
+      {
+        "pattern": "Toll payment prohibition as sanctions expansion",
+        "detail": "Framing warnings against paying transit tolls as extending sanctions to humanitarian transactions, emphasizing secondary enforcement reach.",
+        "debias": "Report sanctions guidance as technical legal clarification about existing prohibitions rather than as expansionary enforcement action.",
+        "date_added": "2026-05-03",
+        "status": "suggested",
+        "example_text": "The US Treasury on Friday warned shippers not to pay tolls to Iran for passage through the Strait of Hormuz, including charitable donations to organisations such as the Iranian Red Crescent Society",
+        "example_url": "https://www.france24.com/en/middle-east/20260501-middle-east-war-live-iran-supreme-leader-nuclear-missile-capabilities",
+        "unbiased_text": "The US Treasury issued guidance Friday clarifying that payments for Strait of Hormuz passage, including to charitable organizations, are prohibited under existing sanctions."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"

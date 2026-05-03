@@ -1146,6 +1146,50 @@
         "example_url": "https://www.aljazeera.com/news/2026/5/1/riots-erupt-over-australian-aboriginal-girls-murder-as-suspect-arrested?traffic_source=rss",
         "unbiased_text": "مقامات استرالیا یک مظنون را دستگیر کرده و پس از قتل کومانجایی کوچولو، دختر ۵ ساله، درخواست آرامش کرده‌اند.",
         "pattern_en": "Suspect identity withheld transparency criticism"
+      },
+      {
+        "pattern": "انتساب ورشکستگی شرکت به جنگ",
+        "detail": "نسبت دادن ورشکستگی یک شرکت به یک درگیری نظامی دوردست به‌جای اشاره به شکست‌های از پیش موجود در مدل کسب‌وکار یا شرایط بازار.",
+        "debias": "درگیری نظامی را به‌عنوان یکی از عوامل زمینه‌ای در میان علل متعدد شکست تجاری ارائه دهید و بر آسیب‌پذیری‌های از پیش موجود تأکید کنید.",
+        "date_added": "2026-05-03",
+        "status": "suggested",
+        "example_text": "آیا جنگ ایران ضربه نهایی در فروپاشی Spirit Airlines بود؟",
+        "example_url": "https://www.aljazeera.com/news/2026/5/3/was-the-iran-war-the-final-blow-in-the-collapse-of-spirit-airlines?traffic_source=rss",
+        "unbiased_text": "Spirit Airlines پس از ۳۴ سال در میان فشارهای مالی متعدد از جمله تأثیر جنگ ایران بر هزینه‌های سوخت تعطیل شد",
+        "pattern_en": "War causation corporate bankruptcy attribution"
+      },
+      {
+        "pattern": "قاب‌بندی دستاورد جشن‌آمیز با لحن کینه‌توزی سیاسی",
+        "detail": "قاب‌بندی دستاورد دیپلماتیک یک کشور رقیب به‌صورت اتفاقی که «علی‌رغم فشار» رخ می‌دهد تا بر سرپیچی تأکید شود به‌جای دیپلماسی معمول.",
+        "debias": "سفرهای دیپلماتیک را به‌عنوان تعاملات دوجانبه استاندارد گزارش دهید بدون تأکید بر قاب‌بندی تخاصم‌آمیز، مگر اینکه فشار مستند و محسوس باشد.",
+        "date_added": "2026-05-03",
+        "status": "suggested",
+        "example_text": "رهبر تایوان علی‌رغم فشار چین برای مسدود کردن سفر، از اسواتینی بازدید می‌کند",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/3/taiwans-leader-visits-eswatini-despite-pressure-from-china-to-block-trip?traffic_source=rss",
+        "unbiased_text": "رهبر تایوان ویلیام لای چینگ-ته از اسواتینی، تنها کشور آفریقایی که تایوان را به رسمیت می‌شناسد، بازدید می‌کند",
+        "pattern_en": "Celebratory achievement political spite framing"
+      },
+      {
+        "pattern": "عدم تقارن در واژگان ربودن در مقابل بازداشت",
+        "detail": "استفاده از واژه «ربودن» برای دستگیری فعالان توسط نیروهای اسرائیلی به جای واژگان خنثی مانند «بازداشت» یا «دستگیری».",
+        "debias": "از واژگان حقوقی خنثی مانند «بازداشت شده» یا «دستگیر شده» برای اقدامات دولتی استفاده کنید و واژه «ربودن» را برای بازیگران غیردولتی یا دستگیری‌های آشکارا غیرقانونی محفوظ نگه دارید.",
+        "date_added": "2026-05-03",
+        "status": "suggested",
+        "example_text": "فعالان کاروان کمک غزه پس از ربوده شدن در دادگاه اسرائیل حاضر می‌شوند",
+        "example_url": "https://www.aljazeera.com/news/2026/5/3/gaza-flotilla-activists-appear-in-israeli-court-allege-torture-in-custody?traffic_source=rss",
+        "unbiased_text": "فعالان کاروان کمک غزه پس از بازداشت در دادگاه اسرائیل حاضر می‌شوند",
+        "pattern_en": "Abduction versus detention terminology asymmetry"
+      },
+      {
+        "pattern": "تقویت نمادگرایی جشن مجازات اعدام",
+        "detail": "برجسته‌سازی تصاویر نمادین جشن (کیک تولد با طناب دار) برای توصیف سیاست به‌عنوان وحشتناک به‌جای گزارش محتوای واقعی سیاست.",
+        "debias": "جزئیات سیاست و اجرای آن را جداگانه از جشن‌های شخصی گزارش کنید و از هیجان‌زدگی درباره تصاویر نمادین پرهیز نمایید.",
+        "date_added": "2026-05-03",
+        "status": "suggested",
+        "example_text": "بن‌گویر تولد ۵۰سالگی خود را با کیکی که به مجازات اعدام تازه تصویب‌شده برای زندانیان فلسطینی اشاره داشت جشن گرفت.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/3/ben-gvir-celebrates-birthday-with-cake-decorated-with-death-penalty-noose?traffic_source=rss",
+        "unbiased_text": "بن‌گویر، وزیر امنیت ملی اسرائیل، تولد ۵۰سالگی خود را پس از تصویب قانون مجازات اعدام برای برخی زندانیان جشن گرفت.",
+        "pattern_en": "Death penalty celebration symbolism amplification"
       }
     ]
   },
@@ -2042,6 +2086,41 @@
         "example_url": "https://www.france24.com/en/at-least-15-killed-in-southern-lebanon",
         "unbiased_text": "در میان آتش‌بس جاری که شاهد حوادث مستمر بوده است",
         "pattern_en": "Fragility assertion through conditional structure"
+      },
+      {
+        "pattern": "پزشکی‌سازی فوریت بستری برای بازداشت سیاسی",
+        "detail": "تأکید بر وخامت شدید پزشکی و بستری فوری برای توصیف زندان به عنوان عاملی که آسیب تهدیدکننده حیات ایجاد می‌کند.",
+        "debias": "انتقال پزشکی را با حقایق موجود درباره وضعیت و درمان، بدون زبان دراماتیک که مرگ قریب‌الوقوع را بدون تأیید پزشکی تلقین کند، گزارش دهید.",
+        "date_added": "2026-05-03",
+        "status": "suggested",
+        "example_text": "نرگس محمدی، برنده زندانی جایزه صلح نوبل ایران، پس از آنچه بنیاد او به عنوان وخامت شدید سلامتی‌اش توصیف کرد، به فوریت از زندان به بیمارستان منتقل شده است. بنا بر گزارش‌ها او روز جمعه دو بار از هوش رفته است.",
+        "example_url": "https://www.france24.com/en/iranian-nobel-laureate-narges-mohammadi-hospitalised",
+        "unbiased_text": "نرگس محمدی، برنده زندانی جایزه صلح نوبل، پس از دو بار از هوش رفتن در روز جمعه، از زندان به بیمارستان منتقل شد، به گفته بنیاد او.",
+        "detail_items": [],
+        "pattern_en": "Hospitalization urgency medicalization of political detention"
+      },
+      {
+        "pattern": "روایت رمانتیک پیچیدگی جنبشی",
+        "detail": "استفاده از زبان ادبی («جنبشی»، «مبهم شده توسط مه»، «تبدیل به یک جریان واحد») برای قاب‌بندی گزارش‌های نظامی به عنوان مشاهدۀ پیچیده به جای توصیف واقعی.",
+        "debias": "از زبان فنی دقیق برای توصیف حرکات و قابلیت‌های نظامی بدون تزیینات زیباشناختی یا نمایش‌سازی روایی استفاده کنید.",
+        "date_added": "2026-05-03",
+        "status": "suggested",
+        "example_text": "این پیچیدگی نظری نیست. جنبشی است، با مه مبهم شده و توسط «حدود ۳۰۰ قایق تندرو کوچک... که روی آب می‌پرند» با سرعت بالا شکل گرفته، و یک اکوسیستم دریایی متراکم و مبهم را تشکیل می‌دهد که در آن قاچاقچیان، غیرنظامیان و بازیگران نظامی به یک جریان واحد و غیرقابل تشخیص تبدیل می‌شوند.",
+        "example_url": "https://www.france24.com/en/tv-shows/spotlight/20260501-iran-s-most-potent-weapon-telegraph-s-adrian-blomfield-offers-rare-frontline-glimpse-of-hormuz",
+        "unbiased_text": "تقریباً ۳۰۰ قایق تندرو کوچک با سرعت بالا در تنگه عملیات انجام می‌دهند، از جمله قاچاقچیان، کشتی‌های غیرنظامی و شناورهای نظامی که تشخیص آن‌ها از یکدیگر دشوار است.",
+        "pattern_en": "Kinetic complexity romanticism narrative"
+      },
+      {
+        "pattern": "ممنوعیت پرداخت عوارض به‌عنوان گسترش تحریم‌ها",
+        "detail": "قاب‌بندی هشدارها علیه پرداخت عوارض تردد به‌عنوان گسترش تحریم‌ها به معاملات بشردوستانه، با تأکید بر دامنهٔ اجرای ثانویه.",
+        "debias": "راهنمای تحریم‌ها را به‌عنوان روشن‌سازی حقوقی فنی دربارهٔ ممنوعیت‌های موجود گزارش کنید، نه به‌عنوان اقدام اجرایی توسعه‌گرا.",
+        "date_added": "2026-05-03",
+        "status": "suggested",
+        "example_text": "وزارت خزانه‌داری ایالات متحده روز جمعه به کشتی‌رانان هشدار داد که عوارض عبور از تنگهٔ هرمز را به ایران، از جمله کمک‌های خیریه به سازمان‌هایی مانند جمعیت هلال‌احمر ایران، پرداخت نکنند",
+        "example_url": "https://www.france24.com/en/middle-east/20260501-middle-east-war-live-iran-supreme-leader-nuclear-missile-capabilities",
+        "unbiased_text": "وزارت خزانه‌داری ایالات متحده روز جمعه راهنمایی صادر کرد که روشن می‌سازد پرداخت‌ها برای عبور از تنگهٔ هرمز، از جمله به سازمان‌های خیریه، طبق تحریم‌های موجود ممنوع است.",
+        "detail_items": [],
+        "pattern_en": "Toll payment prohibition as sanctions expansion"
       }
     ]
   },
