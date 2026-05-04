@@ -1190,6 +1190,17 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/3/ben-gvir-celebrates-birthday-with-cake-decorated-with-death-penalty-noose?traffic_source=rss",
         "unbiased_text": "بن‌گویر، وزیر امنیت ملی اسرائیل، تولد ۵۰سالگی خود را پس از تصویب قانون مجازات اعدام برای برخی زندانیان جشن گرفت.",
         "pattern_en": "Death penalty celebration symbolism amplification"
+      },
+      {
+        "pattern": "بی‌اعتبارسازی اجرا با نقل‌قول ترسناک",
+        "detail": "استفاده از علامت نقل‌قول دور کلمه «اجرا کردن» برای القای این مفهوم که رعایت آتش‌بس توسط اسرائیل نمایشی است نه واقعی.",
+        "debias": "رعایت آتش‌بس را به‌صورت واقعی با استناد به نقض‌های خاص یا اقدامات رعایت گزارش کنید، بدون اینکه از طریق نشانه‌گذاری تردید ایجاد کنید.",
+        "date_added": "2026-05-04",
+        "status": "suggested",
+        "example_text": "«اسرائیل توافق آتش‌بس در غزه را اجرا نمی‌کند»",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/4/israel-is-not-implementing-the-ceasefire-agreement-in",
+        "unbiased_text": "اسرائیل توافق آتش‌بس در غزه را اجرا نمی‌کند",
+        "pattern_en": "Scare-quote implementation delegitimization"
       }
     ]
   },
@@ -2121,6 +2132,28 @@
         "unbiased_text": "وزارت خزانه‌داری ایالات متحده روز جمعه راهنمایی صادر کرد که روشن می‌سازد پرداخت‌ها برای عبور از تنگهٔ هرمز، از جمله به سازمان‌های خیریه، طبق تحریم‌های موجود ممنوع است.",
         "detail_items": [],
         "pattern_en": "Toll payment prohibition as sanctions expansion"
+      },
+      {
+        "pattern": "قاب‌بندی نوآوری در تغییر تاکتیک",
+        "detail": "قاب‌بندی پذیرش فناوری نظامی به‌عنوان تکامل تاکتیکی پیچیده به‌جای خرید ساده تسلیحات.",
+        "debias": "استقرار فناوری نظامی را به‌صورت واقعی گزارش کنید بدون اینکه آن را به‌عنوان نوآوری استراتژیک یا پیچیدگی تاکتیکی توصیف کنید.",
+        "date_added": "2026-05-04",
+        "status": "suggested",
+        "example_text": "حزب‌الله از آن زمان تاکتیک‌های خود را تغییر داده است و تحلیلگران به استفاده فزاینده از پهپادهای فیبر نوری اشاره می‌کنند که می‌توانند از سیستم‌های مختل‌کننده اسرائیلی فرار کنند.",
+        "example_url": "https://www.france24.com/en/tv-shows/spotlight/20260504-hezbollah-deploys-hard-to-jam-fibre-optic-drones-shifting-battlefield-tactics",
+        "unbiased_text": "حزب‌الله استفاده خود از پهپادهای فیبر نوری را افزایش داده است که مختل کردن الکترونیکی آن‌ها دشوار است.",
+        "pattern_en": "Tactical shift innovation framing"
+      },
+      {
+        "pattern": "روایت همبستگی ورزشکاران درباره جوایز نقدی",
+        "detail": "برجسته‌سازی انتقادات جمعی ورزشکاران از جوایز مسابقات به‌عنوان یک کمپین فشار متحد برای برابری.",
+        "debias": "نگرانی‌های ورزشکاران درباره جوایز نقدی را با استناد به خواسته‌های مشخص و پاسخ‌های برگزارکنندگان مسابقات گزارش کنید، بدون اینکه آن را به‌عنوان فشار یک جنبش جمعی قاب‌بندی کنید.",
+        "date_added": "2026-05-04",
+        "status": "suggested",
+        "example_text": "بازیکنان با درخواست از برگزارکنندگان برای افزایش جوایز نقدی، به فشار بر تورنمنت‌های گرند اسلم ادامه می‌دهند.",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/4/tennis-stars-sinner-sabalenka-and-gauff-criticise-roland-garros-prize-money",
+        "unbiased_text": "چندین بازیکن برتر از برگزارکنندگان مسابقات گرند اسلم درخواست افزایش جوایز نقدی کرده‌اند.",
+        "pattern_en": "Prize money athlete solidarity narrative"
       }
     ]
   },
@@ -3286,6 +3319,40 @@
         "example_url": "http://www.euronews.com/culture/2026/05/01/mr-nobody-against-putin-directors-oscar-lost-after-being-confiscated-at-us-airport",
         "unbiased_text": "جایزه اسکار متعلق به کارگردان مشترک «آقای هیچ‌کس علیه پوتین» توسط TSA در فرودگاه آمریکا ضبط شد و هنوز بازگردانده نشده است.",
         "pattern_en": "Confiscation as loss narrative construction"
+      },
+      {
+        "pattern": "تقویت بحث‌انگیز زیست‌محیطی پروازهای ارواح",
+        "detail": "برجسته‌سازی اصطلاح «پروازهای ارواح» برای تأکید بر اتلاف زیست‌محیطی ناشی از پرواز برای رعایت مقررات.",
+        "debias": "گزارش سیاست‌های اسلات خطوط هوایی با توضیح قوانین و تأثیرات زیست‌محیطی بدون استفاده از اصطلاحات احساسی.",
+        "date_added": "2026-05-04",
+        "status": "suggested",
+        "example_text": "شرکت‌های هواپیمایی همچنین می‌توانند «اسلات» فرودگاه‌ها را بدون مجازات پس دهند و نیاز به انجام «پروازهای ارواح» بحث‌برانگیز را از بین ببرند.",
+        "example_url": "http://www.euronews.com/travel/2026/05/04/uk-airlines-to-group-passengers-from-different-flights-on-same-day-to-save-on-jet-fuel",
+        "unbiased_text": "شرکت‌های هواپیمایی خواهند توانست اسلات‌های فرودگاهی را بدون جریمه بازگردانند و نیاز به انجام پروازهایی با مسافران اندک برای حفظ آن اسلات‌ها را حذف کنند.",
+        "pattern_en": "Ghost flight environmental controversy amplification"
+      },
+      {
+        "pattern": "جشن گرفتن از زیرکی در دور زدن احراز هویت سنی",
+        "detail": "چارچوب‌بندی دور زدن اقدامات امنیتی توسط کودکان به‌عنوان خلاقیت یا اثربخشی شگفت‌انگیز به‌جای شکست سیاست.",
+        "debias": "اثربخشی احراز هویت سنی را با بیان نرخ‌های واقعی دور زدن بدون توصیف روش‌های فرار به‌عنوان خلاقانه یا زیرکانه گزارش دهید.",
+        "date_added": "2026-05-04",
+        "status": "suggested",
+        "example_text": "یک گزارش جدید نشان می‌دهد که کودکان در سراسر بریتانیا با استفاده از تاریخ تولدهای جعلی، کارت‌های شناسایی قرضی و برخی موهای صورت خلاقانه شگفت‌انگیز، اقدامات امنیتی آنلاین را دور می‌زنند.",
+        "example_url": "http://www.euronews.com/next/2026/05/04/children-are-drawing-moustaches-on-their-faces-to-fool-online-age-checks-and-its-working",
+        "unbiased_text": "یک گزارش جدید نشان می‌دهد که کودکان در سراسر بریتانیا با استفاده از تاریخ تولدهای جعلی، کارت‌های شناسایی قرضی و کشیدن موهای صورت، اقدامات امنیتی آنلاین را دور می‌زنند.",
+        "detail_items": [],
+        "pattern_en": "Age verification circumvention ingenuity celebration"
+      },
+      {
+        "pattern": "اصطلاح‌شناسی سراب اقتصادی برای تحریف آماری",
+        "detail": "استفاده از واژه «سراب» برای توصیف داده‌های اقتصادی مثبت به‌عنوان موهوم، زمانی که توسط رفتار خاص شرکت‌ها هدایت می‌شوند.",
+        "debias": "آمار اقتصادی را با توضیح عوامل مؤثر گزارش کنید، بدون اینکه داده‌های قانونی را فریبنده یا موهوم توصیف کنید.",
+        "date_added": "2026-05-04",
+        "status": "suggested",
+        "example_text": "تولید ناخالص داخلی ایرلند در سال ۲۰۲۵ به میزان ۱۲٫۳٪ افزایش یافت — اما این یک سراب بود. شرکت‌های چندملیتی داروسازی تنها در ماه مارس ۲۵٫۴ میلیارد یورو صادرات به آمریکا را پیش از اعمال تعرفه‌های ترامپ به‌صورت پیش‌دستانه انجام دادند.",
+        "example_url": "http://www.euronews.com/business/2026/05/04/irish-economic-miracle-explained-why-all-that-glitter-isnt-gold",
+        "unbiased_text": "تولید ناخالص داخلی ایرلند در سال ۲۰۲۵ به میزان ۱۲٫۳٪ افزایش یافت که عمدتاً توسط شرکت‌های داروسازی که ۲۵٫۴ میلیارد یورو صادرات به آمریکا را پیش از اعمال تعرفه‌ها تسریع کردند، هدایت شد.",
+        "pattern_en": "Economic mirage terminology for statistical distortion"
       }
     ]
   }

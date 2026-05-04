@@ -1076,6 +1076,16 @@
         "example_text": "Ben-Gvir celebrated his 50th birthday with a cake referencing the newly-passed death penalty for Palestinian detainees.",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/3/ben-gvir-celebrates-birthday-with-cake-decorated-with-death-penalty-noose?traffic_source=rss",
         "unbiased_text": "Israel's National Security Minister Ben-Gvir marked his 50th birthday following the passage of death penalty legislation for certain detainees."
+      },
+      {
+        "pattern": "Scare-quote implementation delegitimization",
+        "detail": "Using quotation marks around 'implementing' to suggest Israel's ceasefire compliance is performative rather than genuine.",
+        "debias": "Report ceasefire compliance factually by citing specific violations or compliance measures without casting doubt through punctuation.",
+        "date_added": "2026-05-04",
+        "status": "suggested",
+        "example_text": "'Israel is not implementing the ceasefire agreement in Gaza'",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/4/israel-is-not-implementing-the-ceasefire-agreement-in",
+        "unbiased_text": "Israel is not implementing the ceasefire agreement in Gaza"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1940,6 +1950,26 @@
         "example_text": "The US Treasury on Friday warned shippers not to pay tolls to Iran for passage through the Strait of Hormuz, including charitable donations to organisations such as the Iranian Red Crescent Society",
         "example_url": "https://www.france24.com/en/middle-east/20260501-middle-east-war-live-iran-supreme-leader-nuclear-missile-capabilities",
         "unbiased_text": "The US Treasury issued guidance Friday clarifying that payments for Strait of Hormuz passage, including to charitable organizations, are prohibited under existing sanctions."
+      },
+      {
+        "pattern": "Tactical shift innovation framing",
+        "detail": "Framing military technology adoption as sophisticated tactical evolution rather than simple weapon acquisition.",
+        "debias": "Report military technology deployment factually without characterizing it as strategic innovation or tactical sophistication.",
+        "date_added": "2026-05-04",
+        "status": "suggested",
+        "example_text": "Hezbollah has since shifted tactics, with analysts pointing to an increased use of fibre optic drones that can evade Israeli jamming systems.",
+        "example_url": "https://www.france24.com/en/tv-shows/spotlight/20260504-hezbollah-deploys-hard-to-jam-fibre-optic-drones-shifting-battlefield-tactics",
+        "unbiased_text": "Hezbollah has increased its use of fibre optic drones, which are difficult to jam electronically."
+      },
+      {
+        "pattern": "Prize money athlete solidarity narrative",
+        "detail": "Elevating athletes' collective criticism of tournament compensation as a unified pressure campaign for equity.",
+        "debias": "Report athlete compensation concerns by citing specific demands and tournament responses without framing as collective movement pressure.",
+        "date_added": "2026-05-04",
+        "status": "suggested",
+        "example_text": "Players keep up the pressure on the Grand Slam tournaments by asking organisers to increase prize money.",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/4/tennis-stars-sinner-sabalenka-and-gauff-criticise-roland-garros-prize-money",
+        "unbiased_text": "Several top-ranked players have asked Grand Slam organizers to increase prize money."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -3003,6 +3033,36 @@
         "example_text": "The Oscar belonging to the co-director of the documentary 'Mr Nobody Against Putin' has gone missing after the US' TSA would not allow him to carry statuette on his Lufthansa flight",
         "example_url": "http://www.euronews.com/culture/2026/05/01/mr-nobody-against-putin-directors-oscar-lost-after-being-confiscated-at-us-airport",
         "unbiased_text": "The Oscar belonging to the co-director of 'Mr Nobody Against Putin' was confiscated by TSA at a US airport and has not yet been returned."
+      },
+      {
+        "pattern": "Ghost flight environmental controversy amplification",
+        "detail": "Highlighting 'ghost flights' terminology to emphasize environmental waste of regulatory compliance flying.",
+        "debias": "Report airline slot policies by explaining the rules and environmental impacts without using emotionally charged terminology.",
+        "date_added": "2026-05-04",
+        "status": "suggested",
+        "example_text": "Carriers will also be able to hand back 'slots' at airports without punishment, removing the need to operate controversial 'ghost flights'.",
+        "example_url": "http://www.euronews.com/travel/2026/05/04/uk-airlines-to-group-passengers-from-different-flights-on-same-day-to-save-on-jet-fuel",
+        "unbiased_text": "Carriers will be able to return airport slots without penalty, eliminating the need to operate flights with few passengers to maintain those slots."
+      },
+      {
+        "pattern": "Age verification circumvention ingenuity celebration",
+        "detail": "Framing children's evasion of safety measures as creative or surprisingly effective rather than as policy failure.",
+        "debias": "Report age verification effectiveness by stating factual bypass rates without characterizing evasion methods as creative or ingenious.",
+        "date_added": "2026-05-04",
+        "status": "suggested",
+        "example_text": "A new report reveals that children across the UK are outwitting online safety measures with fake birthdays, borrowed IDs, and some surprisingly creative facial hair.",
+        "example_url": "http://www.euronews.com/next/2026/05/04/children-are-drawing-moustaches-on-their-faces-to-fool-online-age-checks-and-its-working",
+        "unbiased_text": "A new report reveals that children across the UK are bypassing online safety measures using fake birthdays, borrowed IDs, and drawn-on facial hair."
+      },
+      {
+        "pattern": "Economic mirage terminology for statistical distortion",
+        "detail": "Using 'mirage' to characterize positive economic data as illusory when driven by specific corporate behavior.",
+        "debias": "Report economic statistics by explaining contributing factors without characterizing legitimate data as deceptive or illusory.",
+        "date_added": "2026-05-04",
+        "status": "suggested",
+        "example_text": "Ireland's GDP soared 12.3% in 2025 — but it was a mirage. Pharma multinationals front-loaded €25.4bn of exports to the US in March alone, ahead of Trump's tariffs.",
+        "example_url": "http://www.euronews.com/business/2026/05/04/irish-economic-miracle-explained-why-all-that-glitter-isnt-gold",
+        "unbiased_text": "Ireland's GDP increased 12.3% in 2025, largely driven by pharmaceutical companies accelerating €25.4bn in US exports ahead of tariffs."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
