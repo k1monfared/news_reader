@@ -1086,6 +1086,26 @@
         "example_text": "'Israel is not implementing the ceasefire agreement in Gaza'",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/4/israel-is-not-implementing-the-ceasefire-agreement-in",
         "unbiased_text": "Israel is not implementing the ceasefire agreement in Gaza"
+      },
+      {
+        "pattern": "Resource wealth mapping materialization",
+        "detail": "Foregrounding a country's natural resource reserves in isolation creates a narrative of latent extraction potential divorced from sovereignty, governance, or social context.",
+        "debias": "When reporting on natural resources, embed them within discussions of national development priorities, governance structures, and local communities' relationship to extraction.",
+        "date_added": "2026-05-05",
+        "status": "suggested",
+        "example_text": "The West African country holds Africa's third-largest gold reserves, plus vast lithium and uranium deposits.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/5/mapping-malis-gold-and-natural-resource-wealth?traffic_source=rss",
+        "unbiased_text": "Mali's government manages Africa's third-largest gold reserves alongside lithium and uranium deposits, with ongoing debates about how extraction revenues should benefit local communities and national development."
+      },
+      {
+        "pattern": "Gift metaphor militarization legitimization",
+        "detail": "Framing military blockades or aggressive actions as 'gifts' uses celebratory language to normalize coercion and recast hostility as benevolence.",
+        "debias": "Report military actions with neutral operational language rather than value-laden metaphors that justify or celebrate coercive force.",
+        "date_added": "2026-05-05",
+        "status": "suggested",
+        "example_text": "US Defense Secretary Pete Hegseth says the US has gifted the world a 'powerful red, white, and blue dome'.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/5/hegseth-says-us-blockade-on-iran-gift-to-the?traffic_source=rss",
+        "unbiased_text": "US Defense Secretary Pete Hegseth characterized the US naval presence in the region as protective, describing it as a 'powerful red, white, and blue dome'."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -1970,6 +1990,26 @@
         "example_text": "Players keep up the pressure on the Grand Slam tournaments by asking organisers to increase prize money.",
         "example_url": "https://www.aljazeera.com/sports/2026/5/4/tennis-stars-sinner-sabalenka-and-gauff-criticise-roland-garros-prize-money",
         "unbiased_text": "Several top-ranked players have asked Grand Slam organizers to increase prize money."
+      },
+      {
+        "pattern": "Between life and death urgency escalation",
+        "detail": "Using the phrase 'between life and death' rather than medical status descriptions amplifies drama and immediacy beyond clinical assessment.",
+        "debias": "Report medical emergencies using specific clinical information—condition severity, procedures required—rather than dramatic binary life-death framing.",
+        "date_added": "2026-05-05",
+        "status": "suggested",
+        "example_text": "Jailed Iranian Nobel Peace Prize winner Narges Mohammadi is fighting for her life after being hospitalised under guard for the last five days with a heart condition, her supporters said on Tuesday.",
+        "example_url": "https://www.france24.com/en/middle-east/20260505-iran-nobel-winner-mohammadi-between-life-and-death-after-hospitalisation-say-supporters",
+        "unbiased_text": "Jailed Iranian Nobel Peace Prize winner Narges Mohammadi was hospitalised under guard five days ago with a heart condition that her supporters describe as serious, following two fainting episodes on Friday."
+      },
+      {
+        "pattern": "Ceasefire continuity assertion despite violations",
+        "detail": "Declaring a ceasefire 'not over' or 'continuing' despite documented violations obscures the functional collapse of agreements through semantic insistence.",
+        "debias": "Report ceasefires as operational agreements whose status depends on compliance, noting violations as substantive changes rather than maintaining nominal continuity.",
+        "date_added": "2026-05-05",
+        "status": "suggested",
+        "example_text": "US ​Defence ​Secretary Pete Hegseth told a Pentagon press conference on Tuesday ⁠that ‌the US-Iran 'ceasefire is not over'.",
+        "example_url": "https://www.france24.com/en/middle-east/20260505-middle-east-war-live-saudi-arabia-calls-for-de-escalation-after-us%E2%80%93iran-clashes",
+        "unbiased_text": "US Defence Secretary Pete Hegseth told a Pentagon press conference on Tuesday that the US maintains the April ceasefire framework remains formally in effect, despite recent military exchanges in the Strait of Hormuz."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -3063,6 +3103,26 @@
         "example_text": "Ireland's GDP soared 12.3% in 2025 — but it was a mirage. Pharma multinationals front-loaded €25.4bn of exports to the US in March alone, ahead of Trump's tariffs.",
         "example_url": "http://www.euronews.com/business/2026/05/04/irish-economic-miracle-explained-why-all-that-glitter-isnt-gold",
         "unbiased_text": "Ireland's GDP increased 12.3% in 2025, largely driven by pharmaceutical companies accelerating €25.4bn in US exports ahead of tariffs."
+      },
+      {
+        "pattern": "Point to prove coaching narrative",
+        "detail": "Framing sporting contests as opportunities for coaches to prove something shifts focus from team competition to individual redemption narratives.",
+        "debias": "Report sporting events as team competitions focused on tactics and performance rather than personalizing them as coaching vindication opportunities.",
+        "date_added": "2026-05-05",
+        "status": "suggested",
+        "example_text": "Atlético Madrid and Arsenal meet tonight in London for a match that will decide who gets to play in the Champions League final, with each team's head coach going into the game with a point to prove.",
+        "example_url": "http://www.euronews.com/2026/05/05/simeone-and-arteta-face-off-in-quest-for-champions-league-glory",
+        "unbiased_text": "Atlético Madrid and Arsenal meet tonight in London for a match that will decide who advances to the Champions League final, with both coaches seeking to lead their teams to the competition's showcase match."
+      },
+      {
+        "pattern": "Purge survival gatekeeping framing",
+        "detail": "Introducing cultural commentary with 'in the purge, you survive' creates an exclusionary gatekeeping narrative that divides audiences into worthy and unworthy based on prior knowledge.",
+        "debias": "Introduce lesser-known cultural subjects with welcoming framing that invites discovery rather than suggesting punishment for ignorance.",
+        "date_added": "2026-05-05",
+        "status": "suggested",
+        "example_text": "Heard of them? Good. In the purge, you survive.",
+        "example_url": "http://www.euronews.com/culture/2026/05/05/wales-finest-and-most-underestimated-musical-export-an-introduction-to-super-furry-animals",
+        "unbiased_text": "Whether you've heard of them or are discovering them now, Super Furry Animals deserve wider recognition as one of Wales' finest musical exports."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
