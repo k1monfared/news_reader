@@ -1106,6 +1106,56 @@
         "example_text": "US Defense Secretary Pete Hegseth says the US has gifted the world a 'powerful red, white, and blue dome'.",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/5/hegseth-says-us-blockade-on-iran-gift-to-the?traffic_source=rss",
         "unbiased_text": "US Defense Secretary Pete Hegseth characterized the US naval presence in the region as protective, describing it as a 'powerful red, white, and blue dome'."
+      },
+      {
+        "pattern": "Secret detention accusation framing",
+        "detail": "Framing authorities' custody as 'secret detention' despite official acknowledgment, using NGO investigation as truth arbiter.",
+        "debias": "Report detention status factually without presuming concealment intent; note both official and investigative accounts neutrally.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "RSF says investigation found Atiana Serge Oulon held at Ouagadougou villa, contradicting authorities' account.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/6/burkina-faso-authorities-accused-of-secretly-detaining-prominent-journalist?traffic_source=rss",
+        "unbiased_text": "RSF says investigation found Atiana Serge Oulon held at Ouagadougou villa, differing from authorities' account of his location."
+      },
+      {
+        "pattern": "Third-party mediation shaping attribution",
+        "detail": "Attributing potential peace outcomes to specific third-party mediators rather than direct negotiations between principals.",
+        "debias": "Report mediation efforts factually without overstating third-party influence on outcome; maintain focus on principal parties' decisions.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "Analysts say shared US and Chinese interests in reopening the Strait of Hormuz could create a path towards peace.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/6/araghchi-in-beijing-how-china-could-shape-the-direction-of-the-us-iran-war?traffic_source=rss",
+        "unbiased_text": "Analysts say shared interests in reopening the Strait of Hormuz could facilitate negotiations between the US and Iran."
+      },
+      {
+        "pattern": "Operation naming through scare quotes",
+        "detail": "Using quotation marks around military operation names to imply illegitimacy or mockery of official designations.",
+        "debias": "Use operation names without scare quotes as they are official designations, regardless of editorial stance on the operation.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "Donald Trump announced 'Project Freedom', an operation to escort stranded ships through the strait. Then paused it.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/6/what-happened-to-trumps-project?traffic_source=rss",
+        "unbiased_text": "Donald Trump announced Project Freedom, an operation to escort stranded ships through the strait, then paused it."
+      },
+      {
+        "pattern": "Think tank ideological pre-labeling",
+        "detail": "Identifying think tanks by their presumed ideological position before describing their actual policy positions or influence.",
+        "debias": "Describe think tank positions and influence first; note ideological characterizations only when relevant and attributed to credible sources.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "FDD's talking points on the US-Israel war on Iran have been picked up by the Trump administration.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/6/what-is-the-fdd-the-pro-israel-think-tank-shaping-trumps-iran-policy?traffic_source=rss",
+        "unbiased_text": "The Foundation for Defense of Democracies' talking points on the Iran conflict have been picked up by the Trump administration."
+      },
+      {
+        "pattern": "Geopolitical concern as booking deterrent narrative",
+        "detail": "Attributing low commercial bookings to 'geopolitical concerns' as a primary factor without quantifying relative impact versus other factors.",
+        "debias": "Report booking figures factually and list multiple contributing factors without emphasizing geopolitical concerns as primary driver.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "Report says several factors, including visa barriers and geopolitical concerns are to be blamed for low booking numbers.",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/6/low-us-hotel-bookings-paint-grim-hospitality-picture-at-the-world-cup?traffic_source=rss",
+        "unbiased_text": "Report says several factors, including visa barriers and travel logistics, have affected booking numbers."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2010,6 +2060,16 @@
         "example_text": "US ​Defence ​Secretary Pete Hegseth told a Pentagon press conference on Tuesday ⁠that ‌the US-Iran 'ceasefire is not over'.",
         "example_url": "https://www.france24.com/en/middle-east/20260505-middle-east-war-live-saudi-arabia-calls-for-de-escalation-after-us%E2%80%93iran-clashes",
         "unbiased_text": "US Defence Secretary Pete Hegseth told a Pentagon press conference on Tuesday that the US maintains the April ceasefire framework remains formally in effect, despite recent military exchanges in the Strait of Hormuz."
+      },
+      {
+        "pattern": "International waters detention emphasis",
+        "detail": "Repeatedly emphasizing that detention occurred 'in international waters' to suggest jurisdictional illegitimacy regardless of legal complexities.",
+        "debias": "Note location of detention factually once; avoid repetition that suggests predetermined legal conclusion about jurisdiction.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "The two men were seized in international waters last week while participating in a humanitarian aid flotilla seeking to break Israel's blockade of the Gaza Strip.",
+        "example_url": "https://www.france24.com/en/middle-east/20260506-israeli-court-rejects-appeal-by-detained-gaza-aid-flotilla-activists",
+        "unbiased_text": "The two men were seized last week while participating in a humanitarian aid flotilla seeking to reach the Gaza Strip."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -3123,6 +3183,46 @@
         "example_text": "Heard of them? Good. In the purge, you survive.",
         "example_url": "http://www.euronews.com/culture/2026/05/05/wales-finest-and-most-underestimated-musical-export-an-introduction-to-super-furry-animals",
         "unbiased_text": "Whether you've heard of them or are discovering them now, Super Furry Animals deserve wider recognition as one of Wales' finest musical exports."
+      },
+      {
+        "pattern": "Negotiator division amplification before talks",
+        "detail": "Emphasizing divisions and difficulties among negotiating parties immediately before crucial talks, framing agreement as unlikely.",
+        "debias": "Report upcoming negotiations factually without pre-emptively emphasizing divisions; allow outcomes to speak for themselves.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "MEPs and EU countries are facing growing pressure just hours before key talks on implementing the EU–US trade deal. However, officials warn that the Parliament's demands may be too ambitious to secure an agreement this evening.",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/06/divisions-in-brussels-as-eu-negotiators-face-crunch-talks-on-us-trade-deal",
+        "unbiased_text": "MEPs and EU countries are preparing for key talks on implementing the EU–US trade deal this evening, with negotiations focused on Parliament's proposed provisions."
+      },
+      {
+        "pattern": "Conditional mission framing through headline structure",
+        "detail": "Structuring headlines to emphasize conditionality or preliminary nature of military deployments rather than deployment itself.",
+        "debias": "Report military movements factually; note conditions or prerequisites separately without making them the primary frame.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "French carrier group moves south of Suez ahead of conditional UK-French Hormuz mission",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/06/french-carrier-group-moves-south-of-suez-ahead-of-conditional-uk-french-hormuz-mission",
+        "unbiased_text": "French carrier group moves south of Suez as UK-French Hormuz mission planning continues"
+      },
+      {
+        "pattern": "Disease variant geographic attribution sensationalism",
+        "detail": "Emphasizing geographic origin of disease variant with implications of increased danger without clinical evidence of differential severity.",
+        "debias": "Report disease variants factually by scientific designation; avoid geographic naming that implies heightened threat without evidence.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "South African authorities have detected the Andean variant, which is contagious between humans.",
+        "example_url": "http://www.euronews.com/health/2026/05/06/we-dont-know-what-were-dealing-with-canary-islands-oppose-hantavirus-cruise-ship",
+        "unbiased_text": "South African authorities have detected a variant that is contagious between humans."
+      },
+      {
+        "pattern": "Gender emissions gap deterministic causation",
+        "detail": "Attributing emissions differences to demographic categories with causal certainty rather than correlation, implying fixed behavioral patterns.",
+        "debias": "Report emissions research as correlation studies; avoid language suggesting demographic determinism of environmental behavior.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "Rich white men's jobs, diets and hobbies found to be 'bad for the planet'",
+        "example_url": "http://www.euronews.com/2026/05/06/gender-emissions-gap-rich-white-mens-jobs-diets-and-hobbies-found-to-be-bad-for-the-planet",
+        "unbiased_text": "Study finds correlation between higher incomes, certain occupations and increased carbon emissions"
       }
     ],
     "notes": "Reliable but limited conflict coverage"

@@ -1224,6 +1224,63 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/5/hegseth-says-us-blockade-on-iran-gift-to-the?traffic_source=rss",
         "unbiased_text": "وزیر دفاع ایالات متحده پیت هگست حضور نیروی دریایی آمریکا در منطقه را حمایتی توصیف کرد و آن را «گنبد قدرتمند قرمز، سفید و آبی» خواند.",
         "pattern_en": "Gift metaphor militarization legitimization"
+      },
+      {
+        "pattern": "قاب‌بندی اتهام بازداشت مخفیانه",
+        "detail": "قاب‌بندی بازداشت توسط مقامات به‌عنوان «بازداشت مخفیانه» علی‌رغم اعلام رسمی آن، و استفاده از تحقیقات سازمان‌های غیردولتی به‌عنوان داور حقیقت.",
+        "debias": "وضعیت بازداشت را به‌صورت واقعی گزارش کنید بدون پیش‌فرض قصد پنهان‌کاری؛ هم گزارش رسمی و هم گزارش تحقیقاتی را به‌طور بی‌طرفانه ذکر کنید.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "گزارشگران بدون مرز می‌گوید تحقیقات نشان می‌دهد آتیانا سرژ اولون در ویلایی در اواگادوگو نگهداری می‌شود، در تناقض با روایت مقامات.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/6/burkina-faso-authorities-accused-of-secretly-detaining-prominent-journalist?traffic_source=rss",
+        "unbiased_text": "گزارشگران بدون مرز می‌گوید تحقیقات نشان می‌دهد آتیانا سرژ اولون در ویلایی در اواگادوگو نگهداری می‌شود، متفاوت از روایت مقامات درباره محل نگهداری وی.",
+        "pattern_en": "Secret detention accusation framing"
+      },
+      {
+        "pattern": "شکل‌دهی انتساب از طریق میانجی‌گری شخص ثالث",
+        "detail": "انتساب نتایج احتمالی صلح به میانجیان خاص شخص ثالث به جای مذاکرات مستقیم بین طرف‌های اصلی.",
+        "debias": "تلاش‌های میانجی‌گری را به صورت واقعی گزارش کنید بدون اغراق در تأثیر شخص ثالث بر نتیجه؛ تمرکز را بر تصمیمات طرف‌های اصلی حفظ کنید.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "تحلیلگران می‌گویند منافع مشترک ایالات متحده و چین در بازگشایی تنگه هرمز می‌تواند مسیری به سوی صلح ایجاد کند.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/6/araghchi-in-beijing-how-china-could-shape-the-direction-of-the-us-iran-war?traffic_source=rss",
+        "unbiased_text": "تحلیلگران می‌گویند منافع مشترک در بازگشایی تنگه هرمز می‌تواند مذاکرات بین ایالات متحده و ایران را تسهیل کند.",
+        "detail_items": [],
+        "pattern_en": "Third-party mediation shaping attribution"
+      },
+      {
+        "pattern": "نام‌گذاری عملیات با گیومه‌های تمسخرآمیز",
+        "detail": "استفاده از علائم نقل قول در اطراف نام‌های عملیات نظامی برای القای غیرمشروع بودن یا تمسخر نام‌گذاری‌های رسمی.",
+        "debias": "از نام‌های عملیات بدون گیومه‌های تمسخرآمیز استفاده کنید زیرا آن‌ها نام‌گذاری‌های رسمی هستند، صرف‌نظر از موضع سردبیری درباره عملیات.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "دونالد ترامپ «پروژه آزادی»، عملیاتی برای اسکورت کشتی‌های گرفتار در تنگه، را اعلام کرد. سپس آن را متوقف کرد.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/6/what-happened-to-trumps-project?traffic_source=rss",
+        "unbiased_text": "دونالد ترامپ پروژه آزادی، عملیاتی برای اسکورت کشتی‌های گرفتار در تنگه، را اعلام کرد و سپس آن را متوقف کرد.",
+        "pattern_en": "Operation naming through scare quotes"
+      },
+      {
+        "pattern": "برچسب‌زنی ایدئولوژیک پیشینی به اندیشکده‌ها",
+        "detail": "شناسایی اندیشکده‌ها بر اساس موضع ایدئولوژیک فرضی‌شان پیش از توصیف مواضع سیاستی واقعی یا نفوذشان.",
+        "debias": "ابتدا مواضع و نفوذ اندیشکده را توصیف کنید؛ توصیفات ایدئولوژیک را تنها زمانی ذکر کنید که مرتبط باشند و به منابع معتبر نسبت داده شوند.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "نکات گفتمانی FDD درباره جنگ آمریکا و اسرائیل علیه ایران توسط دولت ترامپ اتخاذ شده است.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/6/what-is-the-fdd-the-pro-israel-think-tank-shaping-trumps-iran-policy?traffic_source=rss",
+        "unbiased_text": "نکات گفتمانی بنیاد دفاع از دموکراسی‌ها درباره درگیری با ایران توسط دولت ترامپ اتخاذ شده است.",
+        "detail_items": [],
+        "pattern_en": "Think tank ideological pre-labeling"
+      },
+      {
+        "pattern": "روایت نگرانی‌های ژئوپولیتیکی به‌عنوان بازدارنده رزرو",
+        "detail": "نسبت دادن رزروهای تجاری پایین به «نگرانی‌های ژئوپولیتیکی» به‌عنوان عامل اصلی بدون کمی‌سازی تأثیر نسبی در مقایسه با عوامل دیگر.",
+        "debias": "گزارش ارقام رزرو را به‌صورت واقعی ارائه دهید و عوامل مؤثر متعدد را فهرست کنید بدون تأکید بر نگرانی‌های ژئوپولیتیکی به‌عنوان محرک اصلی.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "گزارش می‌گوید چندین عامل، از جمله موانع ویزا و نگرانی‌های ژئوپولیتیکی، باعث کاهش شمار رزروها شده‌اند.",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/6/low-us-hotel-bookings-paint-grim-hospitality-picture-at-the-world-cup?traffic_source=rss",
+        "unbiased_text": "گزارش می‌گوید چندین عامل، از جمله موانع ویزا و مسائل لجستیکی سفر، بر شمار رزروها تأثیر گذاشته‌اند.",
+        "pattern_en": "Geopolitical concern as booking deterrent narrative"
       }
     ]
   },
@@ -2199,6 +2256,17 @@
         "example_url": "https://www.france24.com/en/middle-east/20260505-middle-east-war-live-saudi-arabia-calls-for-de-escalation-after-us%E2%80%93iran-clashes",
         "unbiased_text": "وزیر دفاع آمریکا، پیت هگست، در کنفرانس خبری پنتاگون روز سه‌شنبه گفت که آمریکا معتقد است چارچوب آتش‌بس آوریل از نظر رسمی همچنان به قوت خود باقی است، علی‌رغم تبادلات نظامی اخیر در تنگه هرمز.",
         "pattern_en": "Ceasefire continuity assertion despite violations"
+      },
+      {
+        "pattern": "تأکید بر بازداشت در آب‌های بین‌المللی",
+        "detail": "تأکید مکرر بر اینکه بازداشت در «آب‌های بین‌المللی» صورت گرفته است تا عدم مشروعیت صلاحیتی را بدون توجه به پیچیدگی‌های حقوقی القا کند.",
+        "debias": "محل بازداشت را یک‌بار به‌صورت واقعی ذکر کنید؛ از تکرارهایی که نتیجه‌گیری حقوقی از پیش تعیین‌شده درباره صلاحیت را القا می‌کند، پرهیز کنید.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "این دو مرد هفته گذشته در آب‌های بین‌المللی در حالی دستگیر شدند که در یک کاروان کمک‌رسانی بشردوستانه شرکت داشتند که قصد شکستن محاصره اسرائیل علیه نوار غزه را داشت.",
+        "example_url": "https://www.france24.com/en/middle-east/20260506-israeli-court-rejects-appeal-by-detained-gaza-aid-flotilla-activists",
+        "unbiased_text": "این دو مرد هفته گذشته در حالی دستگیر شدند که در یک کاروان کمک‌رسانی بشردوستانه شرکت داشتند که قصد رسیدن به نوار غزه را داشت.",
+        "pattern_en": "International waters detention emphasis"
       }
     ]
   },
@@ -3420,6 +3488,50 @@
         "example_url": "http://www.euronews.com/culture/2026/05/05/wales-finest-and-most-underestimated-musical-export-an-introduction-to-super-furry-animals",
         "unbiased_text": "چه از آنها شنیده باشید و چه اکنون آنها را کشف می‌کنید، Super Furry Animals به عنوان یکی از بهترین صادرات موسیقی ولز شایسته شناخت گسترده‌تر هستند.",
         "pattern_en": "Purge survival gatekeeping framing"
+      },
+      {
+        "pattern": "تقویت شکاف میان مذاکره‌کنندگان پیش از گفت‌وگوها",
+        "detail": "تأکید بر اختلافات و مشکلات میان طرف‌های مذاکره‌کننده بلافاصله پیش از گفت‌وگوهای حیاتی، با قاب‌بندی توافق به عنوان امری بعید.",
+        "debias": "گزارش مذاکرات پیش‌رو را به صورت واقع‌بینانه و بدون تأکید پیشاپیش بر اختلافات انجام دهید؛ اجازه دهید نتایج خود سخن بگویند.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "نمایندگان پارلمان اروپا و کشورهای عضو اتحادیه اروپا تنها چند ساعت پیش از گفت‌وگوهای کلیدی درباره اجرای توافق تجاری اتحادیه اروپا و ایالات متحده با فشارهای فزاینده‌ای مواجه هستند. با این حال، مقامات هشدار می‌دهند که خواسته‌های پارلمان ممکن است برای دستیابی به توافق امشب بیش از حد جاه‌طلبانه باشد.",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/06/divisions-in-brussels-as-eu-negotiators-face-crunch-talks-on-us-trade-deal",
+        "unbiased_text": "نمایندگان پارلمان اروپا و کشورهای عضو اتحادیه اروپا برای گفت‌وگوهای کلیدی امشب درباره اجرای توافق تجاری اتحادیه اروپا و ایالات متحده آماده می‌شوند، در حالی که مذاکرات بر مفاد پیشنهادی پارلمان متمرکز است.",
+        "pattern_en": "Negotiator division amplification before talks"
+      },
+      {
+        "pattern": "چارچوب‌بندی مأموریت مشروط از طریق ساختار تیتر",
+        "detail": "ساختاردهی تیترها به گونه‌ای که بر مشروط بودن یا ماهیت مقدماتی استقرارهای نظامی تأکید شود به جای خود استقرار.",
+        "debias": "حرکات نظامی را واقع‌بینانه گزارش کنید؛ شرایط یا پیش‌نیازها را به طور جداگانه ذکر کنید بدون اینکه آن‌ها را چارچوب اصلی قرار دهید.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "گروه ناوهواپیمابر فرانسه به جنوب سوئز حرکت می‌کند پیش از مأموریت مشروط بریتانیا-فرانسه در هرمز",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/06/french-carrier-group-moves-south-of-suez-ahead-of-conditional-uk-french-hormuz-mission",
+        "unbiased_text": "گروه ناوهواپیمابر فرانسه به جنوب سوئز حرکت می‌کند در حالی که برنامه‌ریزی مأموریت بریتانیا-فرانسه در هرمز ادامه دارد",
+        "pattern_en": "Conditional mission framing through headline structure"
+      },
+      {
+        "pattern": "هیجان‌آفرینی در انتساب جغرافیایی گونه‌های بیماری",
+        "detail": "تأکید بر منشأ جغرافیایی گونه بیماری با تلویح خطر افزایش‌یافته بدون شواهد بالینی مبنی بر شدت متفاوت.",
+        "debias": "گزارش واقعی گونه‌های بیماری بر اساس نام‌گذاری علمی؛ از نام‌گذاری جغرافیایی که بدون شواهد تهدید افزایش‌یافته را تلویح می‌کند، اجتناب کنید.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "مقامات آفریقای جنوبی گونه آندی را که بین انسان‌ها مسری است، شناسایی کرده‌اند.",
+        "example_url": "http://www.euronews.com/health/2026/05/06/we-dont-know-what-were-dealing-with-canary-islands-oppose-hantavirus-cruise-ship",
+        "unbiased_text": "مقامات آفریقای جنوبی گونه‌ای را که بین انسان‌ها مسری است، شناسایی کرده‌اند.",
+        "pattern_en": "Disease variant geographic attribution sensationalism"
+      },
+      {
+        "pattern": "علیت قطعی شکاف جنسیتی در انتشار گازها",
+        "detail": "نسبت دادن تفاوت‌های انتشار گازها به دسته‌بندی‌های جمعیت‌شناختی با قطعیت علّی به جای همبستگی، که نشان‌دهنده الگوهای رفتاری ثابت است.",
+        "debias": "تحقیقات انتشار گازها را به‌عنوان مطالعات همبستگی گزارش کنید؛ از زبانی که نشان‌دهنده قطعیت جمعیت‌شناختی رفتار زیست‌محیطی است اجتناب کنید.",
+        "date_added": "2026-05-06",
+        "status": "suggested",
+        "example_text": "مشخص شد که شغل‌ها، رژیم‌های غذایی و سرگرمی‌های مردان سفیدپوست ثروتمند «برای کره زمین مضر» هستند",
+        "example_url": "http://www.euronews.com/2026/05/06/gender-emissions-gap-rich-white-mens-jobs-diets-and-hobbies-found-to-be-bad-for-the-planet",
+        "unbiased_text": "مطالعه همبستگی بین درآمدهای بالاتر، برخی مشاغل و افزایش انتشار کربن را نشان می‌دهد",
+        "pattern_en": "Gender emissions gap deterministic causation"
       }
     ]
   }
