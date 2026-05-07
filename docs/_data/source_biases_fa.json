@@ -1281,6 +1281,17 @@
         "example_url": "https://www.aljazeera.com/sports/2026/5/6/low-us-hotel-bookings-paint-grim-hospitality-picture-at-the-world-cup?traffic_source=rss",
         "unbiased_text": "گزارش می‌گوید چندین عامل، از جمله موانع ویزا و مسائل لجستیکی سفر، بر شمار رزروها تأثیر گذاشته‌اند.",
         "pattern_en": "Geopolitical concern as booking deterrent narrative"
+      },
+      {
+        "pattern": "قاب‌بندی انتساب مسئولیت جنگ",
+        "detail": "انتساب جنگ یا درگیری به بازیگران خاص در تیترها از طریق قاب‌بندی مالکیتی یا انتسابی که مالکیت و مسئولیت را قبل از توصیف بی‌طرفانه تعیین می‌کند.",
+        "debias": "از توصیف‌کننده‌های بی‌طرف درگیری بدون انتساب مالکیتی در تیترها استفاده کنید و انتساب را برای بیانیه‌های واقعی در متن حفظ کنید.",
+        "date_added": "2026-05-07",
+        "status": "suggested",
+        "example_text": "جنگ آمریکا و اسرائیل علیه ایران، پترای اردن را تقریباً خالی از گردشگران کرده است",
+        "example_url": "https://www.aljazeera.com/gallery/2026/5/7/us-israel-war-on-iran-leaves-jordans-petra-nearly-empty-of-tourists?traffic_source=rss",
+        "unbiased_text": "درگیری خاورمیانه پترای اردن را تقریباً خالی از گردشگران کرده است",
+        "pattern_en": "War authorship attribution framing"
       }
     ]
   },
@@ -2267,6 +2278,28 @@
         "example_url": "https://www.france24.com/en/middle-east/20260506-israeli-court-rejects-appeal-by-detained-gaza-aid-flotilla-activists",
         "unbiased_text": "این دو مرد هفته گذشته در حالی دستگیر شدند که در یک کاروان کمک‌رسانی بشردوستانه شرکت داشتند که قصد رسیدن به نوار غزه را داشت.",
         "pattern_en": "International waters detention emphasis"
+      },
+      {
+        "pattern": "قاب‌بندی نمایشی درگیری به‌عنوان رقابت",
+        "detail": "توصیف درگیری نظامی به‌عنوان یک رقابت روان‌شناختی یا نمایشی بر سر عزم و اهرم فشار، به‌جای یک اختلاف نظامی یا سیاسی.",
+        "debias": "درگیری‌ها را بر اساس اهداف مشخص نظامی، سیاسی یا اقتصادی قاب‌بندی کنید، نه پویایی‌های انتزاعی روان‌شناختی.",
+        "date_added": "2026-05-07",
+        "status": "suggested",
+        "example_text": "در روایت بن طالبلو، درگیری صرفاً نظامی یا اقتصادی نیست، بلکه روان‌شناختی و نمایشی است: رقابتی بر سر اهرم فشار، روایت‌ها و عزم درک‌شده.",
+        "example_url": "https://www.france24.com/en/tv-shows/spotlight/20260507-us-war-on-iran-a-game-of-high-risk-high-reward-for-both-trump-and-the-islamic-republic",
+        "unbiased_text": "در روایت بن طالبلو، درگیری شامل ابعاد نظامی، اقتصادی و دیپلماتیک است، چرا که هر دو طرف به دنبال پیشبرد اهداف راهبردی خود هستند.",
+        "pattern_en": "Performative contest framing of conflict"
+      },
+      {
+        "pattern": "قاب‌بندی آرمان نفوذ بدون درگیری",
+        "detail": "توصیف سیاست خارجی یک کشور به‌عنوان تلاش برای کسب منافع در عین اجتناب از مسئولیت‌های متناظر از طریق فرمول‌بندی آرزوهای متناقض.",
+        "debias": "اهداف سیاست خارجی را مستقیماً و بدون القای آرمان‌های متناقض یا غیرممکن توصیف کنید.",
+        "date_added": "2026-05-07",
+        "status": "suggested",
+        "example_text": "او استدلال می‌کند که چین نفوذ بدون درگیری، ثبات بدون گسترش نظامی بیش از حد، و اهرم دیپلماتیک بدون تحمل بار پلیسی جهانی به سبک آمریکا می‌خواهد.",
+        "example_url": "https://www.france24.com/en/china-s-key-priorities-open-hormuz-avoid-getting-dragged-into-conflicts",
+        "unbiased_text": "بر اساس گفته‌ی این تحلیلگر، چین به دنبال حفظ نفوذ منطقه‌ای و تضمین امنیت انرژی در عین محدود کردن مشارکت نظامی است.",
+        "pattern_en": "Influence without entanglement aspiration framing"
       }
     ]
   },
@@ -3532,6 +3565,28 @@
         "example_url": "http://www.euronews.com/2026/05/06/gender-emissions-gap-rich-white-mens-jobs-diets-and-hobbies-found-to-be-bad-for-the-planet",
         "unbiased_text": "مطالعه همبستگی بین درآمدهای بالاتر، برخی مشاغل و افزایش انتشار کربن را نشان می‌دهد",
         "pattern_en": "Gender emissions gap deterministic causation"
+      },
+      {
+        "pattern": "سنسیشن‌سازی تقویمی مصرف بیش از حد منابع زیست‌محیطی",
+        "detail": "قاب‌بندی معیارهای مصرف منابع به‌عنوان تاریخ‌های تقویمی گسسته که در آن منابع «به پایان می‌رسند» برای ایجاد فوریت از طریق روایت ضرب‌الاجل زمانی.",
+        "debias": "داده‌های ردپای بوم‌شناختی را به‌عنوان معیارهای پیوسته به‌جای رویدادهای تقویمی گسسته ارائه دهید.",
+        "date_added": "2026-05-07",
+        "status": "suggested",
+        "example_text": "پرتغال به‌تازگی منابع طبیعی خود را برای سال ۲۰۲۶ به پایان رسانده است.",
+        "example_url": "http://www.euronews.com/2026/05/07/portugal-has-just-used-up-its-natural-resources-for-2026-is-the-rest-of-europe-doing-any-b",
+        "unbiased_text": "ردپای بوم‌شناختی پرتغال بر اساس محاسبات مصرف بیش از حد، از ظرفیت زیستی آن برای سال فراتر رفته است.",
+        "pattern_en": "Ecological overshoot calendar sensationalism"
+      },
+      {
+        "pattern": "تشدید شکایات جبران خسارت گردشگران",
+        "detail": "ارتقای ادعاهای جبران خسارت تک‌تک گردشگران به روایت‌های گسترده‌تر درباره مشکلات همه‌گیر از طریق برون‌یابی از مورد به پیامد.",
+        "debias": "پرونده‌های حقوقی فردی را به‌عنوان حوادث مجزا گزارش دهید بدون برون‌یابی به پیامدهای سیستماتیک در سطح کل صنعت.",
+        "date_added": "2026-05-07",
+        "status": "suggested",
+        "example_text": "یک گردشگر پس از ادعای اینکه مهمانان حوله‌گذار استفاده از صندلی‌های آفتابی را در تعطیلات یونان غیرممکن کرده‌اند، غرامت دریافت کرده است – و این حکم می‌تواند برای استراحتگاه‌هایی که در مقابله با «جنگ‌های صندلی آفتابی» شکست می‌خورند، مشکل‌ساز باشد.",
+        "example_url": "http://www.euronews.com/travel/2026/05/07/sunbed-wars-german-tourist-wins-900-payout-after-6-am-towel-dash-ruined-greek-holiday",
+        "unbiased_text": "یک گردشگر آلمانی ۹۰۰ یورو غرامت از یک تورگردان دریافت کرد پس از ادعای اینکه صندلی‌های آفتابی به دلیل رزرو حوله‌ای در ساعات اولیه صبح در یک استراحتگاه یونانی در دسترس نبوده‌اند.",
+        "pattern_en": "Tourist compensation grievance amplification"
       }
     ]
   }
