@@ -1166,6 +1166,26 @@
         "example_text": "US-Israel war on Iran leaves Jordan's Petra nearly empty of tourists",
         "example_url": "https://www.aljazeera.com/gallery/2026/5/7/us-israel-war-on-iran-leaves-jordans-petra-nearly-empty-of-tourists?traffic_source=rss",
         "unbiased_text": "Middle East conflict leaves Jordan's Petra nearly empty of tourists"
+      },
+      {
+        "pattern": "Secret detention discovery narrative elevation",
+        "detail": "Framing the discovery of a living detainee previously presumed dead as a dramatic revelation rather than routine disclosure of undocumented detention.",
+        "debias": "Report detainee discoveries factually without narrative dramatization of the family's prior presumption.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "A Gaza family's nightmare ends after discovering their 'martyred' son alive in an Israeli prison.",
+        "example_url": "https://www.aljazeera.com/features/2026/5/8/after-18-months-of-mourning-a-gaza-son-is-found-alive-in-israeli-prison",
+        "unbiased_text": "A Gaza family learned their son, previously unaccounted for, is detained in an Israeli prison."
+      },
+      {
+        "pattern": "Price objection political validation framing",
+        "detail": "Using a political figure's personal price objection to validate broader criticism of commercial pricing rather than presenting it as individual opinion.",
+        "debias": "Report political figures' personal opinions as their views, not as validation of systemic criticism.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "Trump says he would not pay $1,000 to watch US at World Cup",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/8/trump-says-he-would-not-pay-1000-to-watch-us-at-world-cup",
+        "unbiased_text": "Trump stated he finds World Cup ticket prices too high for his personal preference."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2100,6 +2120,36 @@
         "example_text": "China, she argues, wants influence without entanglement, stability without military overreach, and diplomatic leverage without assuming the burdens of American-style global policing.",
         "example_url": "https://www.france24.com/en/china-s-key-priorities-open-hormuz-avoid-getting-dragged-into-conflicts",
         "unbiased_text": "China seeks to maintain regional influence and ensure energy security while limiting military involvement, according to the analyst."
+      },
+      {
+        "pattern": "Economic asphyxiation proximity framing",
+        "detail": "Describing an economy as being 'on the verge' of collapse or 'asphyxiation' to emphasize imminent crisis rather than current economic strain.",
+        "debias": "Report current economic conditions and challenges without predictive language of imminent total collapse.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "Iran on the verge of economic asphyxiation -- rare footage from Tehran",
+        "example_url": "https://www.france24.com/en/did-donald-trump-liberate-the-iranian-people-iran-on-the-verge-of-economic-asphyxiation",
+        "unbiased_text": "Iran faces severe economic challenges including high inflation and restricted trade -- footage from Tehran"
+      },
+      {
+        "pattern": "Religious desecration viral documentation emphasis",
+        "detail": "Highlighting that evidence of religious site desecration 'went viral' to emphasize public outrage rather than reporting the incident itself.",
+        "debias": "Report desecration incidents based on their factual occurrence, not their social media spread or virality.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "The Israeli military says it has launched an investigation after a photo showing one of its soldiers desecrating a statue of the Virgin Mary in south Lebanon went viral",
+        "example_url": "https://www.france24.com/en/photo-shows-israeli-soldier-desecrating-a-virgin-mary-statue-in-lebanon",
+        "unbiased_text": "The Israeli military says it has launched an investigation after a photo showed one of its soldiers desecrating a statue of the Virgin Mary in south Lebanon"
+      },
+      {
+        "pattern": "Qualitative military edge doctrine exposure",
+        "detail": "Framing US policy to maintain Israel's military superiority as a deliberate mechanism to keep neighboring militaries weak rather than as stated security policy.",
+        "debias": "Report military aid policies and their stated objectives without interpreting unstated intentions to weaken other nations.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "But the US legal imperative to ensure Israel has a 'qualitative military edge' (QME) has kept the Lebanese military under-funded, under-equipped and unable to perform its role.",
+        "example_url": "https://www.france24.com/en/middle-east/20260507-keeping-the-lebanese-army-weak-a-hardened-us-military-doctrine-at-israel-service-qme",
+        "unbiased_text": "US policy requires maintaining Israel's military advantage, which has resulted in limited military aid to Lebanon."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -3273,6 +3323,36 @@
         "example_text": "A tourist has won compensation after claiming towel-hogging guests made sun loungers impossible to use on a Greek holiday – and the ruling could spell trouble for resorts that fail to tackle the 'sunbed wars'.",
         "example_url": "http://www.euronews.com/travel/2026/05/07/sunbed-wars-german-tourist-wins-900-payout-after-6-am-towel-dash-ruined-greek-holiday",
         "unbiased_text": "A German tourist won €900 in compensation from a tour operator after claiming sun loungers were unavailable due to early-morning towel reservations at a Greek resort."
+      },
+      {
+        "pattern": "Commodity futures war speculation amplification",
+        "detail": "Attributing extreme commodity price increases specifically to war speculation rather than to multiple market factors including supply-demand fundamentals.",
+        "debias": "Report commodity price changes with all contributing factors, not just conflict-related speculation.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "Potato futures soar 700% in less than a month on Iran war speculation",
+        "example_url": "http://www.euronews.com/business/2026/05/08/potato-futures-soar-700-in-less-than-a-month-on-iran-war-speculation",
+        "unbiased_text": "Potato futures have risen 700% in less than a month amid market volatility and trading activity related to Middle East conflict concerns"
+      },
+      {
+        "pattern": "Internet blackout border escape dramatization",
+        "detail": "Framing citizens crossing borders to access internet as a dramatic act of desperation requiring risk-taking rather than as routine cross-border connectivity seeking.",
+        "debias": "Report cross-border internet access seeking factually without emphasizing danger or desperation unless documented.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "Desperate to communicate with the outside world, Iranians are increasingly travelling to the border with Iraq, where Iraqi SIM cards and impromptu hotspots became a hot commodity",
+        "example_url": "http://www.euronews.com/2026/05/08/exclusive-iranians-risk-arrest-at-iraq-border-to-escape-tehrans-total-internet-blackout",
+        "unbiased_text": "Iranians are traveling to the border with Iraq to purchase Iraqi SIM cards and access internet services unavailable domestically"
+      },
+      {
+        "pattern": "Job cuts defensive narrative construction",
+        "detail": "Framing corporate workforce reductions as defensive measures against external threats rather than as strategic business decisions.",
+        "debias": "Report corporate restructuring decisions with stated reasons without casting them primarily as defensive responses to competitors.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "Commerzbank wants to cut a further 3,000 jobs and at the same time significantly increase its profit targets. The reorganisation is the bank's response to the takeover ambitions of the major Italian bank UniCredit.",
+        "example_url": "http://www.euronews.com/business/2026/05/08/commerzbank-axes-3000-jobs-in-an-attempt-to-fight-off-unicredit-takeover-bid",
+        "unbiased_text": "Commerzbank announced plans to cut 3,000 jobs and increase profit targets as part of a restructuring occurring amid UniCredit's interest in acquisition"
       }
     ],
     "notes": "Reliable but limited conflict coverage"

@@ -1292,6 +1292,28 @@
         "example_url": "https://www.aljazeera.com/gallery/2026/5/7/us-israel-war-on-iran-leaves-jordans-petra-nearly-empty-of-tourists?traffic_source=rss",
         "unbiased_text": "درگیری خاورمیانه پترای اردن را تقریباً خالی از گردشگران کرده است",
         "pattern_en": "War authorship attribution framing"
+      },
+      {
+        "pattern": "ارتقای روایت کشف بازداشت مخفی",
+        "detail": "قاب‌بندی کشف بازداشتی زنده که پیش از این مرده فرض می‌شد به عنوان یک افشای دراماتیک به جای افشای معمول بازداشت مستندنشده.",
+        "debias": "کشف بازداشتی‌ها را به صورت واقع‌گرایانه و بدون دراماتیزه کردن روایت فرض قبلی خانواده گزارش دهید.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "کابوس یک خانواده غزه‌ای با کشف پسر «شهیدشان» زنده در زندان اسرائیل پایان می‌یابد.",
+        "example_url": "https://www.aljazeera.com/features/2026/5/8/after-18-months-of-mourning-a-gaza-son-is-found-alive-in-israeli-prison",
+        "unbiased_text": "یک خانواده غزه‌ای متوجه شدند پسرشان که پیش از این سرنوشت او نامعلوم بود، در زندان اسرائیل بازداشت است.",
+        "pattern_en": "Secret detention discovery narrative elevation"
+      },
+      {
+        "pattern": "قاب‌بندی اعتبارسنجی سیاسی با اعتراض به قیمت",
+        "detail": "استفاده از اعتراض شخصی یک چهره سیاسی به قیمت برای اعتباربخشی به انتقاد گسترده‌تر از قیمت‌گذاری تجاری، به‌جای ارائه آن به‌عنوان نظر فردی.",
+        "debias": "نظرات شخصی چهره‌های سیاسی را به‌عنوان دیدگاه آنها گزارش کنید، نه به‌عنوان اعتبارسنجی انتقاد سیستماتیک.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "ترامپ می‌گوید برای تماشای آمریکا در جام جهانی هزار دلار پرداخت نخواهد کرد",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/8/trump-says-he-would-not-pay-1000-to-watch-us-at-world-cup",
+        "unbiased_text": "ترامپ اظهار داشت که قیمت بلیت‌های جام جهانی را برای ترجیح شخصی خود بسیار بالا می‌یابد.",
+        "pattern_en": "Price objection political validation framing"
       }
     ]
   },
@@ -2300,6 +2322,39 @@
         "example_url": "https://www.france24.com/en/china-s-key-priorities-open-hormuz-avoid-getting-dragged-into-conflicts",
         "unbiased_text": "بر اساس گفته‌ی این تحلیلگر، چین به دنبال حفظ نفوذ منطقه‌ای و تضمین امنیت انرژی در عین محدود کردن مشارکت نظامی است.",
         "pattern_en": "Influence without entanglement aspiration framing"
+      },
+      {
+        "pattern": "قاب‌بندی مجاورتی خفگی اقتصادی",
+        "detail": "توصیف یک اقتصاد به عنوان «در آستانه» فروپاشی یا «خفگی» برای تأکید بر بحران قریب‌الوقوع به جای فشار اقتصادی فعلی.",
+        "debias": "شرایط و چالش‌های اقتصادی فعلی را بدون زبان پیش‌بینی‌کننده فروپاشی کامل قریب‌الوقوع گزارش کنید.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "ایران در آستانه خفگی اقتصادی -- تصاویر نادر از تهران",
+        "example_url": "https://www.france24.com/en/did-donald-trump-liberate-the-iranian-people-iran-on-the-verge-of-economic-asphyxiation",
+        "unbiased_text": "ایران با چالش‌های اقتصادی شدیدی از جمله تورم بالا و محدودیت‌های تجاری مواجه است -- تصاویری از تهران",
+        "pattern_en": "Economic asphyxiation proximity framing"
+      },
+      {
+        "pattern": "تأکید بر مستندسازی ویروسی هتک حرمت مذهبی",
+        "detail": "تأکید بر اینکه شواهد هتک حرمت مکان‌های مذهبی «وایرال شده» برای تأکید بر خشم عمومی به‌جای گزارش خود واقعه.",
+        "debias": "واقعه‌های هتک حرمت را بر اساس وقوع واقعی آن‌ها گزارش کنید، نه انتشار آن‌ها در شبکه‌های اجتماعی یا وایرال شدنشان.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "ارتش اسرائیل می‌گوید پس از اینکه عکسی از یکی از سربازانش که در حال هتک حرمت مجسمه‌ای از حضرت مریم باکره در جنوب لبنان بود وایرال شد، تحقیقات را آغاز کرده است",
+        "example_url": "https://www.france24.com/en/photo-shows-israeli-soldier-desecrating-a-virgin-mary-statue-in-lebanon",
+        "unbiased_text": "ارتش اسرائیل می‌گوید پس از اینکه عکسی یکی از سربازانش را در حال هتک حرمت مجسمه‌ای از حضرت مریم باکره در جنوب لبنان نشان داد، تحقیقات را آغاز کرده است",
+        "pattern_en": "Religious desecration viral documentation emphasis"
+      },
+      {
+        "pattern": "افشای دکترین برتری نظامی کیفی",
+        "detail": "قاب‌بندی سیاست ایالات متحده برای حفظ برتری نظامی اسرائیل به‌عنوان سازوکاری عمدی برای ضعیف نگه‌داشتن ارتش‌های همسایه، به‌جای آنکه صرفاً سیاست امنیتی اعلام‌شده باشد.",
+        "debias": "سیاست‌های کمک نظامی و اهداف اعلام‌شده آن‌ها را بدون تفسیر نیات اعلام‌نشده برای تضعیف کشورهای دیگر گزارش کنید.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "اما الزام قانونی ایالات متحده برای اطمینان از داشتن «برتری نظامی کیفی» (QME) توسط اسرائیل، ارتش لبنان را کم‌بودجه، کم‌تجهیز و ناتوان از انجام نقش خود نگه داشته است.",
+        "example_url": "https://www.france24.com/en/middle-east/20260507-keeping-the-lebanese-army-weak-a-hardened-us-military-doctrine-at-israel-service-qme",
+        "unbiased_text": "سیاست ایالات متحده ایجاب می‌کند که برتری نظامی اسرائیل حفظ شود، که این امر منجر به محدود بودن کمک نظامی به لبنان شده است.",
+        "pattern_en": "Qualitative military edge doctrine exposure"
       }
     ]
   },
@@ -3587,6 +3642,39 @@
         "example_url": "http://www.euronews.com/travel/2026/05/07/sunbed-wars-german-tourist-wins-900-payout-after-6-am-towel-dash-ruined-greek-holiday",
         "unbiased_text": "یک گردشگر آلمانی ۹۰۰ یورو غرامت از یک تورگردان دریافت کرد پس از ادعای اینکه صندلی‌های آفتابی به دلیل رزرو حوله‌ای در ساعات اولیه صبح در یک استراحتگاه یونانی در دسترس نبوده‌اند.",
         "pattern_en": "Tourist compensation grievance amplification"
+      },
+      {
+        "pattern": "تقویت گمانه‌زنی جنگی در بازار آتی کالاها",
+        "detail": "نسبت دادن افزایش شدید قیمت کالاها به‌طور مشخص به گمانه‌زنی جنگی به‌جای در نظر گرفتن عوامل متعدد بازار از جمله مبانی عرضه و تقاضا.",
+        "debias": "تغییرات قیمت کالاها را با تمام عوامل مؤثر گزارش کنید، نه فقط گمانه‌زنی‌های مرتبط با درگیری.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "قراردادهای آتی سیب‌زمینی با گمانه‌زنی جنگ ایران ۷۰۰ درصد در کمتر از یک ماه افزایش می‌یابد",
+        "example_url": "http://www.euronews.com/business/2026/05/08/potato-futures-soar-700-in-less-than-a-month-on-iran-war-speculation",
+        "unbiased_text": "قراردادهای آتی سیب‌زمینی ۷۰۰ درصد در کمتر از یک ماه افزایش یافته است در میان نوسانات بازار و فعالیت معاملاتی مرتبط با نگرانی‌های درگیری خاورمیانه",
+        "pattern_en": "Commodity futures war speculation amplification"
+      },
+      {
+        "pattern": "نمایش نمایشی فرار از قطعی اینترنت از مرز",
+        "detail": "قاب‌بندی عبور شهروندان از مرزها برای دسترسی به اینترنت به‌عنوان یک اقدام نمایشی و ناامیدانه که نیازمند ریسک‌پذیری است، به‌جای آنکه به‌عنوان جستجوی معمول برای اتصال فرامرزی ارائه شود.",
+        "debias": "گزارش جستجوی دسترسی به اینترنت فرامرزی را به‌صورت واقعی بیان کنید، بدون تأکید بر خطر یا ناامیدی، مگر آنکه مستند باشد.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "ایرانیان که برای برقراری ارتباط با دنیای خارج ناامید شده‌اند، به‌طور فزاینده‌ای به مرز عراق سفر می‌کنند، جایی که سیم‌کارت‌های عراقی و هات‌اسپات‌های موقت به کالایی پرطرفدار تبدیل شده‌اند",
+        "example_url": "http://www.euronews.com/2026/05/08/exclusive-iranians-risk-arrest-at-iraq-border-to-escape-tehrans-total-internet-blackout",
+        "unbiased_text": "ایرانیان برای خرید سیم‌کارت‌های عراقی و دسترسی به خدمات اینترنتی که در داخل کشور در دسترس نیست، به مرز عراق سفر می‌کنند",
+        "pattern_en": "Internet blackout border escape dramatization"
+      },
+      {
+        "pattern": "ساخت روایت تدافعی برای کاهش نیروی کار",
+        "detail": "قاب‌بندی کاهش نیروی کار شرکت‌ها به‌عنوان اقدامات تدافعی در برابر تهدیدات خارجی به‌جای تصمیمات استراتژیک کسب‌وکار.",
+        "debias": "تصمیمات تجدید ساختار شرکت‌ها را با دلایل اعلام‌شده گزارش کنید بدون اینکه آن‌ها را عمدتاً به‌عنوان پاسخ‌های تدافعی به رقبا معرفی کنید.",
+        "date_added": "2026-05-08",
+        "status": "suggested",
+        "example_text": "کومرتس‌بانک می‌خواهد ۳۰۰۰ شغل دیگر را حذف کند و در عین حال اهداف سودآوری خود را به‌طور قابل‌توجهی افزایش دهد. این تجدید ساختار پاسخ بانک به جاه‌طلبی‌های تصاحب بانک بزرگ ایتالیایی UniCredit است.",
+        "example_url": "http://www.euronews.com/business/2026/05/08/commerzbank-axes-3000-jobs-in-an-attempt-to-fight-off-unicredit-takeover-bid",
+        "unbiased_text": "کومرتس‌بانک برنامه‌هایی برای حذف ۳۰۰۰ شغل و افزایش اهداف سودآوری را به‌عنوان بخشی از تجدید ساختاری اعلام کرد که در شرایطی رخ می‌دهد که UniCredit علاقه‌مندی به خرید نشان داده است",
+        "pattern_en": "Job cuts defensive narrative construction"
       }
     ]
   }
