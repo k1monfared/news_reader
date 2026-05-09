@@ -1314,6 +1314,29 @@
         "example_url": "https://www.aljazeera.com/sports/2026/5/8/trump-says-he-would-not-pay-1000-to-watch-us-at-world-cup",
         "unbiased_text": "ترامپ اظهار داشت که قیمت بلیت‌های جام جهانی را برای ترجیح شخصی خود بسیار بالا می‌یابد.",
         "pattern_en": "Price objection political validation framing"
+      },
+      {
+        "pattern": "قاب‌بندی کم‌اهمیت‌جلوه‌دادن شیوع بیماری در کشتی توسط رئیس‌جمهور",
+        "detail": "ارائه اظهارات اطمینان‌بخش یک رهبر درباره شیوع یک بیماری به‌عنوان خبر قابل انتشار، در حالی که بر فعالیت‌های پیگیری WHO تأکید می‌شود تا تردید درباره این اطمینان‌بخشی ایجاد شود.",
+        "debias": "واقعیت‌های شیوع بیماری و واکنش‌های رسمی بهداشتی را بدون قاب‌بندی اظهارات سیاسی به‌عنوان رقیب پایش بهداشت عمومی گزارش دهید.",
+        "date_added": "2026-05-09",
+        "status": "suggested",
+        "example_text": "رئیس‌جمهور ایالات متحده، دونالد ترامپ، می‌گوید خوشه‌ای از هانتاویروس در یک کشتی کروز «تحت کنترل بسیار خوب» است.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/9/trump-says-hantavirus-is-under-control-as-who-tracks-cruise-outbreak?traffic_source=rss",
+        "unbiased_text": "رئیس‌جمهور ایالات متحده، دونالد ترامپ، گفت که شیوع هانتاویروس در یک کشتی کروز تحت کنترل است، در حالی که WHO وضعیت را رصد می‌کند.",
+        "pattern_en": "Cruise outbreak presidential minimization framing"
+      },
+      {
+        "pattern": "قاب‌بندی نادرست موقعیت جغرافیایی نظامی ایالات متحده",
+        "detail": "قرار دادن اقدامات نظامی ایالات متحده در موقعیت‌های جغرافیایی نادرست (اقیانوس آرام شرقی به جای خلیج فارس) برای مبهم کردن صحنه واقعی عملیات.",
+        "debias": "از شناسه‌های جغرافیایی دقیق برای عملیات نظامی استفاده کنید و موقعیت‌ها را در برابر گزارش‌های استاندارد نظامی تأیید کنید.",
+        "date_added": "2026-05-09",
+        "status": "suggested",
+        "example_text": "این کشتارها سومین حمله تنها در ماه مه توسط ارتش ایالات متحده در اقیانوس آرام شرقی است.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/9/us-military-kills-two-people-in-new-eastern-pacific-ocean-attack?traffic_source=rss",
+        "unbiased_text": "این کشتارها سومین حمله تنها در ماه مه توسط ارتش ایالات متحده در تنگه هرمز است.",
+        "detail_items": [],
+        "pattern_en": "US military geographic mislocation framing"
       }
     ]
   },
@@ -2355,6 +2378,18 @@
         "example_url": "https://www.france24.com/en/middle-east/20260507-keeping-the-lebanese-army-weak-a-hardened-us-military-doctrine-at-israel-service-qme",
         "unbiased_text": "سیاست ایالات متحده ایجاب می‌کند که برتری نظامی اسرائیل حفظ شود، که این امر منجر به محدود بودن کمک نظامی به لبنان شده است.",
         "pattern_en": "Qualitative military edge doctrine exposure"
+      },
+      {
+        "pattern": "قاب‌بندی علیت تک‌عاملی فروپاشی گردشگری",
+        "detail": "نسبت دادن پیامدهای اقتصادی پیچیده مانند کاهش گردشگری صرفاً به یک جنگ اخیر، در حالی که سایر عوامل کمک‌کننده منطقه‌ای یا روندهای بلندمدت نادیده گرفته می‌شوند.",
+        "debias": "داده‌های گردشگری را با عوامل کمک‌کننده متعدد ارائه دهید و مقایسه‌های پایه قبل از درگیری را برای زمینه‌سازی فراهم کنید.",
+        "date_added": "2026-05-09",
+        "status": "suggested",
+        "example_text": "از زمان آغاز جنگ خاورمیانه در اواخر فوریه، شهر باستانی پترا در اردن تقریباً توسط انبوه معمول گردشگرانی که هر سال به این مکان سرازیر می‌شوند، متروک شده است.",
+        "example_url": "https://www.france24.com/en/jordan-sees-collapse-in-tourism-since-iran-war",
+        "unbiased_text": "شهر باستانی پترا در اردن از اواخر فوریه، زمانی که جنگ خاورمیانه آغاز شد، کاهش قابل توجهی در بازدیدهای گردشگری را تجربه کرده است.",
+        "detail_items": [],
+        "pattern_en": "Tourism collapse singular causation framing"
       }
     ]
   },
@@ -3675,6 +3710,28 @@
         "example_url": "http://www.euronews.com/business/2026/05/08/commerzbank-axes-3000-jobs-in-an-attempt-to-fight-off-unicredit-takeover-bid",
         "unbiased_text": "کومرتس‌بانک برنامه‌هایی برای حذف ۳۰۰۰ شغل و افزایش اهداف سودآوری را به‌عنوان بخشی از تجدید ساختاری اعلام کرد که در شرایطی رخ می‌دهد که UniCredit علاقه‌مندی به خرید نشان داده است",
         "pattern_en": "Job cuts defensive narrative construction"
+      },
+      {
+        "pattern": "سنسیشن‌سازی علیت جنگ و آینده‌نگاری سیب‌زمینی",
+        "detail": "نسبت دادن نوسانات شدید قیمت کالاها به گمانه‌زنی‌های جنگ در حالی که تناقضات عرضه بیش از حد را که روایت علیت را تضعیف می‌کند، تصدیق می‌شود.",
+        "debias": "تغییرات قیمت کالاها را با تمام عوامل مرتبط عرضه و تقاضا گزارش کنید و بین کمبودهای واقعی و الگوهای معاملات سفته‌بازانه تمایز قائل شوید.",
+        "date_added": "2026-05-09",
+        "status": "suggested",
+        "example_text": "قراردادهای مالی مرتبط با سیب‌زمینی در عرض چند هفته بیش از ٧٠٠ درصد افزایش یافته‌اند، با وجود عرضه بیش از حد فعلی در اروپا، به دلیل معاملات سفته‌بازانه پیرامون محیط بی‌ثباتی که توسط جنگ ایران ایجاد شده است.",
+        "example_url": "http://www.euronews.com/business/2026/05/08/potato-futures-soar-700-in-less-than-a-month-on-iran-war-speculation",
+        "unbiased_text": "آینده‌نگاری سیب‌زمینی در عرض چند هفته بیش از ٧٠٠ درصد افزایش یافته است به دلیل معاملات سفته‌بازانه، با وجود شرایط عرضه بیش از حد فعلی در اروپا.",
+        "pattern_en": "Potato futures war causation sensationalism"
+      },
+      {
+        "pattern": "قاب‌بندی حتمیت اجتناب‌ناپذیر نیروی کار روباتیک",
+        "detail": "ارائه اتوماسیون به عنوان نیرویی غیرقابل توقف از طریق ادعاهای توسعه‌دهندگان، در حالی که نقش انتخاب‌های سیاستی درباره جابجایی نیروی کار را به حداقل می‌رساند.",
+        "debias": "توسعه‌های اتوماسیون را به عنوان انتخاب‌های فناورانه و سیاستی گزارش کنید تا فرایندهای اجتناب‌ناپذیر، و دیدگاه‌های کارگری و نظارتی را نیز لحاظ نمایید.",
+        "date_added": "2026-05-09",
+        "status": "suggested",
+        "example_text": "توسعه‌دهندگان ادعا می‌کنند برای به حداقل رساندن تأثیرات اجتماعی انقلابی که آن را «غیرقابل توقف» می‌دانند، تلاش می‌کنند.",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/08/of-robots-and-men-european-ai-driven-technology-aims-to-recast-e-commerce-logistics",
+        "unbiased_text": "توسعه‌دهندگان می‌گویند هدفشان به حداقل رساندن تأثیرات اجتماعی است در حالی که روبات‌های مبتنی بر هوش مصنوعی به طور فزاینده‌ای وظایف انبارداری را انجام می‌دهند.",
+        "pattern_en": "Robot workforce inevitability determinism framing"
       }
     ]
   }

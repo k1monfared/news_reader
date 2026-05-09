@@ -1186,6 +1186,26 @@
         "example_text": "Trump says he would not pay $1,000 to watch US at World Cup",
         "example_url": "https://www.aljazeera.com/sports/2026/5/8/trump-says-he-would-not-pay-1000-to-watch-us-at-world-cup",
         "unbiased_text": "Trump stated he finds World Cup ticket prices too high for his personal preference."
+      },
+      {
+        "pattern": "Cruise outbreak presidential minimization framing",
+        "detail": "Presenting a leader's reassuring statements about a disease outbreak as newsworthy while emphasizing WHO tracking activity to create doubt about the reassurance.",
+        "debias": "Report outbreak facts and official health responses without framing political statements as competing with public health monitoring.",
+        "date_added": "2026-05-09",
+        "status": "suggested",
+        "example_text": "US President Donald Trump says a hantavirus cruise ship cluster is 'under very good control.'",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/9/trump-says-hantavirus-is-under-control-as-who-tracks-cruise-outbreak?traffic_source=rss",
+        "unbiased_text": "US President Donald Trump said a hantavirus outbreak on a cruise ship is under control, while the WHO monitors the situation."
+      },
+      {
+        "pattern": "US military geographic mislocation framing",
+        "detail": "Placing US military actions in incorrect geographic locations (eastern Pacific Ocean instead of Persian Gulf) to obscure the actual theater of operations.",
+        "debias": "Use accurate geographic identifiers for military operations and verify locations against standard military reporting.",
+        "date_added": "2026-05-09",
+        "status": "suggested",
+        "example_text": "The killings mark the third attack in May alone by the US military in the eastern Pacific Ocean.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/9/us-military-kills-two-people-in-new-eastern-pacific-ocean-attack?traffic_source=rss",
+        "unbiased_text": "The killings mark the third attack in May alone by the US military in the Strait of Hormuz."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2150,6 +2170,16 @@
         "example_text": "But the US legal imperative to ensure Israel has a 'qualitative military edge' (QME) has kept the Lebanese military under-funded, under-equipped and unable to perform its role.",
         "example_url": "https://www.france24.com/en/middle-east/20260507-keeping-the-lebanese-army-weak-a-hardened-us-military-doctrine-at-israel-service-qme",
         "unbiased_text": "US policy requires maintaining Israel's military advantage, which has resulted in limited military aid to Lebanon."
+      },
+      {
+        "pattern": "Tourism collapse singular causation framing",
+        "detail": "Attributing complex economic impacts like tourism decline solely to a recent war while omitting other contributing regional factors or longer-term trends.",
+        "debias": "Present tourism data with multiple contributing factors and provide pre-conflict baseline comparisons for context.",
+        "date_added": "2026-05-09",
+        "status": "suggested",
+        "example_text": "Since the Middle East war erupted in late February, Jordan's ancient city of Petra has been all but abandoned by the usual crowds of tourists that flock to the site every year.",
+        "example_url": "https://www.france24.com/en/jordan-sees-collapse-in-tourism-since-iran-war",
+        "unbiased_text": "Jordan's ancient city of Petra has seen a significant decline in tourist visits since late February, when the Middle East war began."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -3353,6 +3383,26 @@
         "example_text": "Commerzbank wants to cut a further 3,000 jobs and at the same time significantly increase its profit targets. The reorganisation is the bank's response to the takeover ambitions of the major Italian bank UniCredit.",
         "example_url": "http://www.euronews.com/business/2026/05/08/commerzbank-axes-3000-jobs-in-an-attempt-to-fight-off-unicredit-takeover-bid",
         "unbiased_text": "Commerzbank announced plans to cut 3,000 jobs and increase profit targets as part of a restructuring occurring amid UniCredit's interest in acquisition"
+      },
+      {
+        "pattern": "Potato futures war causation sensationalism",
+        "detail": "Attributing extreme commodity price movements to war speculation while acknowledging oversupply contradictions that undermine the causation narrative.",
+        "debias": "Report commodity price changes with all relevant supply-demand factors and distinguish between actual shortages and speculative trading patterns.",
+        "date_added": "2026-05-09",
+        "status": "suggested",
+        "example_text": "Potato-linked financial contracts have risen over 700% in a few weeks, despite a current oversupply in Europe, due to speculative trading surrounding the volatile environment caused by the Iran war.",
+        "example_url": "http://www.euronews.com/business/2026/05/08/potato-futures-soar-700-in-less-than-a-month-on-iran-war-speculation",
+        "unbiased_text": "Potato futures have risen over 700% in a few weeks due to speculative trading, despite current oversupply conditions in Europe."
+      },
+      {
+        "pattern": "Robot workforce inevitability determinism framing",
+        "detail": "Presenting automation as an unstoppable force through developer claims while minimizing agency in policy choices about labor displacement.",
+        "debias": "Report automation developments as technological and policy choices rather than inevitable processes, including labor and regulatory perspectives.",
+        "date_added": "2026-05-09",
+        "status": "suggested",
+        "example_text": "Developers claim to work to minimise the social impact of a revolution they consider to be 'unstoppable'.",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/08/of-robots-and-men-european-ai-driven-technology-aims-to-recast-e-commerce-logistics",
+        "unbiased_text": "Developers say they aim to minimize social impacts as AI-driven robots increasingly perform warehouse tasks."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
