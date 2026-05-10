@@ -1337,6 +1337,29 @@
         "unbiased_text": "این کشتارها سومین حمله تنها در ماه مه توسط ارتش ایالات متحده در تنگه هرمز است.",
         "detail_items": [],
         "pattern_en": "US military geographic mislocation framing"
+      },
+      {
+        "pattern": "روایت قربانی شدن مادران در نسل‌کشی",
+        "detail": "قاب‌بندی درگیری جاری به‌طور انحصاری از طریق از دست دادن شخصی مادران برای ساختن روایت مستمر نسل‌کشی.",
+        "debias": "تلفات مادران را به‌عنوان بخشی از کل تلفات غیرنظامی گزارش کنید بدون قاب‌بندی نسل‌کشی یا زبان مالکیت شخصی.",
+        "date_added": "2026-05-10",
+        "status": "suggested",
+        "example_text": "نسل‌کشی هنوز مادران غزه را می‌گیرد. حالا می‌خواهد مادر من را بگیرد.",
+        "example_url": "https://www.aljazeera.com/features/2026/5/10/the-genocide-is-still-taking-gazas-mothers?traffic_source=rss",
+        "unbiased_text": "درگیری جاری همچنان منجر به تلفات غیرنظامی در غزه می‌شود، از جمله مادران و اعضای خانواده.",
+        "detail_items": [],
+        "pattern_en": "Maternal genocide victimization narrative"
+      },
+      {
+        "pattern": "استعاره زندان با دیوار دریایی",
+        "detail": "تبدیل ویژگی جغرافیایی به استعاره محصوریت برای تأکید بر محاصره به‌عنوان به دام‌افتادگی فیزیکی.",
+        "debias": "سیاست‌های محاصره دریایی را مستقیماً و بدون تبدیل استعاری ویژگی‌های طبیعی توصیف کنید.",
+        "date_added": "2026-05-10",
+        "status": "suggested",
+        "example_text": "چگونه دریای غزه به دیوار تبدیل شد؟",
+        "example_url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/5/10/how-did-gazas-sea-become-a-wall?traffic_source=rss",
+        "unbiased_text": "اسرائیل به مدت ۱۸ سال محاصره دریایی را در اطراف نوار غزه اعمال کرده است.",
+        "pattern_en": "Sea-as-wall imprisonment metaphor"
       }
     ]
   },
@@ -2390,6 +2413,28 @@
         "unbiased_text": "شهر باستانی پترا در اردن از اواخر فوریه، زمانی که جنگ خاورمیانه آغاز شد، کاهش قابل توجهی در بازدیدهای گردشگری را تجربه کرده است.",
         "detail_items": [],
         "pattern_en": "Tourism collapse singular causation framing"
+      },
+      {
+        "pattern": "تأکید بر تناقض نقض آتش‌بس",
+        "detail": "ساختاربندی تیترها برای تأکید بر تناقض میان وضعیت رسمی آتش‌بس و خشونت جاری به منظور ایجاد اثر بی‌اعتبارسازی.",
+        "debias": "نقض‌ها و وضعیت آتش‌بس را به طور جداگانه و بدون قاب‌بندی متناقض گزارش کنید.",
+        "date_added": "2026-05-10",
+        "status": "suggested",
+        "example_text": "حملات اسرائیل علی‌رغم آتش‌بس چندین نفر را در لبنان کشت",
+        "example_url": "https://www.france24.com/en/israel-strikes-kill-several-in-lebanon-despite-truce",
+        "unbiased_text": "اسرائیل روز شنبه حملاتی در لبنان انجام داد که منجر به کشته شدن چند نفر شد و تبادل آتش روزانه سه هفته پس از اعلام آتش‌بس همچنان ادامه دارد.",
+        "pattern_en": "Violation-despite-truce contradiction emphasis"
+      },
+      {
+        "pattern": "قاب‌بندی دیپلماتیک پرسش به‌عنوان ادعا",
+        "detail": "طرح پرسش درباره جدیت دیپلماتیک در تیتر به‌منظور القای پاسخ از طریق ساختار پرسشی.",
+        "debias": "مواضع دیپلماتیک را مستقیماً بیان کنید بدون قالب پرسشی که حاوی قضاوت ضمنی باشد.",
+        "date_added": "2026-05-10",
+        "status": "suggested",
+        "example_text": "ایران آمریکا را در انتظار پاسخ به طرح آتش‌بس نگه می‌دارد",
+        "example_url": "https://www.france24.com/en/middle-east/20260509-iran-keeps-us-waiting-for-response-on-ceasefire-plan",
+        "unbiased_text": "ایران هنوز به پیشنهاد آتش‌بس آمریکا پاسخ نداده است و مذاکرات از طریق میانجی‌گری پاکستان ادامه دارد.",
+        "pattern_en": "Question-as-assertion diplomatic framing"
       }
     ]
   },
@@ -3732,6 +3777,29 @@
         "example_url": "http://www.euronews.com/my-europe/2026/05/08/of-robots-and-men-european-ai-driven-technology-aims-to-recast-e-commerce-logistics",
         "unbiased_text": "توسعه‌دهندگان می‌گویند هدفشان به حداقل رساندن تأثیرات اجتماعی است در حالی که روبات‌های مبتنی بر هوش مصنوعی به طور فزاینده‌ای وظایف انبارداری را انجام می‌دهند.",
         "pattern_en": "Robot workforce inevitability determinism framing"
+      },
+      {
+        "pattern": "روایت اجتناب‌ناپذیری سکولاریزاسیون کلیساها",
+        "detail": "قاب‌بندی تغییر کاربری ساختمان‌های مذهبی به‌عنوان تکامل طبیعی به‌جای بحران نهادی یا از دست رفتن جامعه.",
+        "debias": "ارائه تبدیل ساختمان‌ها به‌طور خنثی با اذعان به نیازهای عملی و تأثیر بر جامعه.",
+        "date_added": "2026-05-10",
+        "status": "suggested",
+        "example_text": "سنگ‌نوردی به‌جای دعا: کلیساها نقش‌های جدید می‌یابند",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/10/bouldering-instead-of-praying-churches-find-new-roles",
+        "unbiased_text": "یک کلیسا در ورتسبورگ در حال تبدیل به مرکز سنگ‌نوردی است که بازتاب کاهش حضور مذهبی و چالش حفظ ساختمان‌های تاریخی است.",
+        "detail_items": [],
+        "pattern_en": "Church secularization inevitability narrative"
+      },
+      {
+        "pattern": "تفسیر سیاسی از عادی‌سازی جشن‌ها",
+        "detail": "خواندن معنای سیاسی در حضور عمومی در رویدادهای سرگرمی به عنوان شاخصی از ثبات رژیم یا حل بحران.",
+        "debias": "رویدادهای عمومی را به عنوان فعالیت‌های اجتماعی گزارش کنید بدون اینکه نتیجه‌گیری‌هایی درباره ثبات رژیم ارائه دهید.",
+        "date_added": "2026-05-10",
+        "status": "suggested",
+        "example_text": "هواداران فینال جام امیر را پر می‌کنند؛ شب‌های فوتبال و ورزشگاه‌های پر از جمعیت به قطر بازمی‌گردند",
+        "example_url": "http://www.euronews.com/2026/05/10/fans-pack-amir-cup-final-as-football-nights-and-packed-stadiums-return-to-qatar",
+        "unbiased_text": "هزاران نفر در فینال جام امیر قطر در دوحه حضور یافتند و گردهمایی‌های عمومی پس از هفته‌ها تنش منطقه‌ای از سر گرفته شد.",
+        "pattern_en": "Festive normalcy political interpretation"
       }
     ]
   }

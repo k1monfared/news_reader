@@ -1206,6 +1206,26 @@
         "example_text": "The killings mark the third attack in May alone by the US military in the eastern Pacific Ocean.",
         "example_url": "https://www.aljazeera.com/news/2026/5/9/us-military-kills-two-people-in-new-eastern-pacific-ocean-attack?traffic_source=rss",
         "unbiased_text": "The killings mark the third attack in May alone by the US military in the Strait of Hormuz."
+      },
+      {
+        "pattern": "Maternal genocide victimization narrative",
+        "detail": "Framing ongoing conflict exclusively through personal maternal loss to construct continuous genocide narrative.",
+        "debias": "Report maternal casualties as part of overall civilian toll without genocide framing or personal possessive language.",
+        "date_added": "2026-05-10",
+        "status": "suggested",
+        "example_text": "The genocide is still taking Gaza's mothers. It now wants to take mine.",
+        "example_url": "https://www.aljazeera.com/features/2026/5/10/the-genocide-is-still-taking-gazas-mothers?traffic_source=rss",
+        "unbiased_text": "Ongoing conflict continues to result in civilian casualties in Gaza, including mothers and family members."
+      },
+      {
+        "pattern": "Sea-as-wall imprisonment metaphor",
+        "detail": "Transforming geographic feature into metaphor of confinement to emphasize blockade as physical entrapment.",
+        "debias": "Describe naval blockade policies directly without metaphorical transformation of natural features.",
+        "date_added": "2026-05-10",
+        "status": "suggested",
+        "example_text": "How did Gaza's sea become a wall?",
+        "example_url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/5/10/how-did-gazas-sea-become-a-wall?traffic_source=rss",
+        "unbiased_text": "Israel has enforced a naval blockade around the Gaza Strip for 18 years."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2180,6 +2200,26 @@
         "example_text": "Since the Middle East war erupted in late February, Jordan's ancient city of Petra has been all but abandoned by the usual crowds of tourists that flock to the site every year.",
         "example_url": "https://www.france24.com/en/jordan-sees-collapse-in-tourism-since-iran-war",
         "unbiased_text": "Jordan's ancient city of Petra has seen a significant decline in tourist visits since late February, when the Middle East war began."
+      },
+      {
+        "pattern": "Violation-despite-truce contradiction emphasis",
+        "detail": "Structuring headlines to emphasize paradox between official ceasefire status and ongoing violence for delegitimization effect.",
+        "debias": "Report violations and ceasefire status separately without paradoxical framing.",
+        "date_added": "2026-05-10",
+        "status": "suggested",
+        "example_text": "Israel strikes kill several in Lebanon despite truce",
+        "example_url": "https://www.france24.com/en/israel-strikes-kill-several-in-lebanon-despite-truce",
+        "unbiased_text": "Israel carried out strikes in Lebanon on Saturday that killed several people, with daily exchanges of fire continuing three weeks after a ceasefire was announced."
+      },
+      {
+        "pattern": "Question-as-assertion diplomatic framing",
+        "detail": "Posing question about diplomatic seriousness in headline to imply answer through interrogative structure.",
+        "debias": "State diplomatic positions directly without question format that implies judgment.",
+        "date_added": "2026-05-10",
+        "status": "suggested",
+        "example_text": "Iran keeps US waiting for response on ceasefire plan",
+        "example_url": "https://www.france24.com/en/middle-east/20260509-iran-keeps-us-waiting-for-response-on-ceasefire-plan",
+        "unbiased_text": "Iran has not yet responded to the US ceasefire proposal, with negotiations ongoing through Pakistani mediators."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -3403,6 +3443,26 @@
         "example_text": "Developers claim to work to minimise the social impact of a revolution they consider to be 'unstoppable'.",
         "example_url": "http://www.euronews.com/my-europe/2026/05/08/of-robots-and-men-european-ai-driven-technology-aims-to-recast-e-commerce-logistics",
         "unbiased_text": "Developers say they aim to minimize social impacts as AI-driven robots increasingly perform warehouse tasks."
+      },
+      {
+        "pattern": "Church secularization inevitability narrative",
+        "detail": "Framing religious building repurposing as natural evolution rather than institutional crisis or community loss.",
+        "debias": "Present building conversions neutrally acknowledging both practical needs and community impact.",
+        "date_added": "2026-05-10",
+        "status": "suggested",
+        "example_text": "Bouldering instead of praying: churches find new roles",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/10/bouldering-instead-of-praying-churches-find-new-roles",
+        "unbiased_text": "A church in Würzburg is being converted into a bouldering center, reflecting declining religious attendance and the challenge of maintaining historic buildings."
+      },
+      {
+        "pattern": "Festive normalcy political interpretation",
+        "detail": "Reading political meaning into public entertainment attendance as indicator of regime stability or crisis resolution.",
+        "debias": "Report public events as social activities without extrapolating regime stability conclusions.",
+        "date_added": "2026-05-10",
+        "status": "suggested",
+        "example_text": "Fans pack Amir Cup final as football nights and packed stadiums return to Qatar",
+        "example_url": "http://www.euronews.com/2026/05/10/fans-pack-amir-cup-final-as-football-nights-and-packed-stadiums-return-to-qatar",
+        "unbiased_text": "Thousands attended Qatar's Amir Cup final in Doha, with public gatherings resuming after weeks of regional tensions."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
