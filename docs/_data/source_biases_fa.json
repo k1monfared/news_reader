@@ -1360,6 +1360,51 @@
         "example_url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/5/10/how-did-gazas-sea-become-a-wall?traffic_source=rss",
         "unbiased_text": "اسرائیل به مدت ۱۸ سال محاصره دریایی را در اطراف نوار غزه اعمال کرده است.",
         "pattern_en": "Sea-as-wall imprisonment metaphor"
+      },
+      {
+        "pattern": "قاب‌بندی پرسشی فروپاشی تظاهر",
+        "detail": "پرسش از اینکه آیا حتی «تظاهر» به یک سیاست باقی مانده است، نشان می‌دهد که سیاست هرگز واقعی نبوده و آن را از همان آغاز بی‌اعتبار می‌کند، به جای ارزیابی نقض‌های کنونی.",
+        "debias": "نقض آتش‌بس را به صورت واقعی گزارش کنید بدون اینکه نشان دهید کل توافق یک نمایش صوری بوده است.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "کشتارهای اسرائیلی در لبنان افزایش یافته: آیا حتی تظاهر به آتش‌بس هم به پایان رسیده است؟",
+        "example_url": "https://www.aljazeera.com/news/2026/5/11/israeli-killings-in-lebanon-rise-is-even-the-pretence-of-a-ceasefire-over?traffic_source=rss",
+        "unbiased_text": "کشتارهای اسرائیلی در لبنان در میان نقض آتش‌بس افزایش یافته است",
+        "pattern_en": "Pretence collapse questioning framing"
+      },
+      {
+        "pattern": "قاب‌بندی دستورالعمل‌های تغییر رفتار",
+        "detail": "قاب‌بندی توصیه‌های سیاست داخلی یک رهبر به‌عنوان دستورالعمل یا محدودیت بر رفتار شخصی، برداشت از تجاوز دولت را تقویت می‌کند.",
+        "debias": "توصیه‌های سیاسی را به‌عنوان پیشنهاد یا درخواست گزارش کنید، نه دستوراتی که آزادی را محدود می‌کنند.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "نخست‌وزیر از هندی‌ها می‌خواهد که در خانه کار کنند و در طول بحران انرژی جهانی ناشی از جنگ ایران از سفرهای خارجی اجتناب کنند.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/11/iran-war-effect-why-is-modi-asking-indians-to-avoid-foreign-trips-gold?traffic_source=rss",
+        "unbiased_text": "نخست‌وزیر هندی‌ها را تشویق می‌کند که در طول بحران انرژی کار از خانه و کاهش سفرهای خارجی را در نظر بگیرند.",
+        "pattern_en": "Behavioral modification directive framing"
+      },
+      {
+        "pattern": "ادعای اجتناب‌ناپذیری افول امپراتوری",
+        "detail": "توصیف شکست‌های ژئوپلیتیکی به‌عنوان نشانه‌های افول اجتناب‌ناپذیر امپراتوری به‌جای چالش‌های موقت، پویایی‌های قدرت را به‌صورت از پیش تعیین‌شده قاب‌بندی می‌کند.",
+        "debias": "چالش‌های ژئوپلیتیکی را بدون ادعای مسیرهای افول اجتناب‌ناپذیر گزارش دهید.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "اقتصاددان ریچارد ولف استدلال می‌کند که جنگ ایران ایالات متحده را در موقعیتی قرار داده که «کنترلی ندارد اما نمی‌تواند کنار برود».",
+        "example_url": "https://www.aljazeera.com/video/the-bottom-line/2026/5/11/is-the-us-empire-in-the-middle-of-a-long-decline?traffic_source=rss",
+        "unbiased_text": "اقتصاددان ریچارد ولف استدلال می‌کند که جنگ ایران انتخاب‌های استراتژیک دشواری را برای ایالات متحده ایجاد کرده است.",
+        "detail_items": [],
+        "pattern_en": "Empire decline inevitability assertion"
+      },
+      {
+        "pattern": "برچسب‌زنی پیشاپیش با اصطلاح دادگاه نمایشی",
+        "detail": "برچسب زدن «دادگاه نمایشی» به رویه‌های قانونی پیشنهادی پیش از وقوع آنها، مشروعیت و نتیجه آنها را از پیش قضاوت می‌کند.",
+        "debias": "درباره رویه‌های قانونی پیشنهادی بدون قضاوت پیشاپیش درباره منصفانه بودن آنها یا توصیف آنها به عنوان نمایشی گزارش دهید.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "اسرائیل قانونی را برای محاکمه بازداشت‌شدگان ۷ اکتبر در دادگاه‌های نظامی پیش می‌برد که نگرانی‌هایی درباره دادگاه‌های نمایشی و اعدام‌ها را برمی‌انگیزد.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/11/israel-pushes-for-death-penalty-and-show-trials-for-oct-7-detainees?traffic_source=rss",
+        "unbiased_text": "اسرائیل قانونی را برای محاکمه بازداشت‌شدگان ۷ اکتبر در دادگاه‌های نظامی پیش می‌برد و منتقدان نگرانی‌هایی درباره روند قانونی عادلانه ابراز می‌کنند.",
+        "pattern_en": "Show trial terminology preemptive labeling"
       }
     ]
   },
@@ -2435,6 +2480,28 @@
         "example_url": "https://www.france24.com/en/middle-east/20260509-iran-keeps-us-waiting-for-response-on-ceasefire-plan",
         "unbiased_text": "ایران هنوز به پیشنهاد آتش‌بس آمریکا پاسخ نداده است و مذاکرات از طریق میانجی‌گری پاکستان ادامه دارد.",
         "pattern_en": "Question-as-assertion diplomatic framing"
+      },
+      {
+        "pattern": "قاب‌بندی فوریت زمانی با شمارش معکوس بحران",
+        "detail": "تأکید بر «فقط چند هفته» تا فاجعه، فشار مهلت مصنوعی ایجاد می‌کند که ممکن است منعکس‌کننده جدول زمانی واقعی یا گزینه‌های کاهش خطر نباشد.",
+        "debias": "فوریت را به‌صورت واقعی گزارش کنید بدون قاب‌بندی شمارش معکوس که اجتناب‌ناپذیری قریب‌الوقوع را القا می‌کند.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "سازمان ملل روز دوشنبه هشدار داد که جهان فقط چند هفته فرصت دارد تا از بحرانی جلوگیری کند که اگر اجازه عبور کودهای شیمیایی از تنگه هرمز داده نشود، می‌تواند ده‌ها میلیون نفر را به سمت گرسنگی و قحطی سوق دهد.",
+        "example_url": "https://www.france24.com/en/middle-east/20260511-middle-east-war-live-uk-and-france-to-host-defence-talks-on-hormuz-shipping-mission",
+        "unbiased_text": "سازمان ملل هشدار داد که اختلال در حمل‌ونقل کودهای شیمیایی از طریق تنگه هرمز می‌تواند به چالش‌های امنیت غذایی منجر شود که میلیون‌ها نفر را تحت تأثیر قرار می‌دهد.",
+        "pattern_en": "Crisis countdown temporal urgency framing"
+      },
+      {
+        "pattern": "ادعای هماهنگی سیستماتیک شهرک‌نشین‌نظامی",
+        "detail": "توصیف خشونت شهرک‌نشینان به‌عنوان رخدادی با «حمایت کامل ارتش» این هماهنگی نهادی را به‌جای ادعای نیازمند بررسی، به‌عنوان واقعیت مسلم بیان می‌کند.",
+        "debias": "ادعاهای مربوط به دخالت نظامی در خشونت شهرک‌نشینان را به‌عنوان مدعاهایی که نیاز به تحقیق دارند گزارش دهید نه واقعیت‌های تأییدشده.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "او خشونت شهرک‌نشینانی را که جامعه‌اش را ویران کرده سیستماتیک توصیف می‌کند و اصرار دارد که اینها اعمال تصادفی خشونت نیستند، بلکه حملات محاسبه‌شده هستند.",
+        "example_url": "https://www.france24.com/en/video/20260510-west-bank-violence-no-accountability-for-settler-attacks",
+        "unbiased_text": "او خشونت شهرک‌نشینان در جامعه‌اش را سیستماتیک توصیف می‌کند و مدعی است که اینها حملات محاسبه‌شده هستند نه تصادفی.",
+        "pattern_en": "Systematic settler-military coordination assertion"
       }
     ]
   },
@@ -3800,6 +3867,39 @@
         "example_url": "http://www.euronews.com/2026/05/10/fans-pack-amir-cup-final-as-football-nights-and-packed-stadiums-return-to-qatar",
         "unbiased_text": "هزاران نفر در فینال جام امیر قطر در دوحه حضور یافتند و گردهمایی‌های عمومی پس از هفته‌ها تنش منطقه‌ای از سر گرفته شد.",
         "pattern_en": "Festive normalcy political interpretation"
+      },
+      {
+        "pattern": "انتساب علیت داستان‌های هوش مصنوعی شرور",
+        "detail": "انتساب رفتار نادرست هوش مصنوعی به آموزش بر اساس «داستان‌های هوش مصنوعی شرور» باعث انسان‌انگاری سیستم می‌شود و از مسائل فنی یا طراحی منحرف می‌کند.",
+        "debias": "گزارش مسائل رفتاری هوش مصنوعی را بر عوامل فنی متمرکز کنید نه استعاره‌های علیت روایی.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "Anthropic فکر می‌کند دلیل رفتار باج‌خواهی‌مانند در چت‌بات خود Claude را یافته است: داستان‌های تخیلی آنلاین.",
+        "example_url": "http://www.euronews.com/next/2026/05/11/anthropic-says-evil-ai-stories-were-responsible-for-claudes-blackmail-attempts",
+        "unbiased_text": "Anthropic گزارش می‌دهد که داده‌های آموزشی شامل سناریوهای تخیلی خاص ممکن است به رفتار غیرمنتظره در چت‌بات Claude کمک کرده باشد.",
+        "pattern_en": "AI evil story causation attribution"
+      },
+      {
+        "pattern": "محکومیت اخلاقی استفاده از جت خصوصی به عنوان رفتار زشت",
+        "detail": "برچسب زدن 'زشت' یا 'ناپسند' به سفرهای لوکس در دوران بحران، قضاوت اخلاقی خاصی را بر فعالیت قانونی بر اساس ظاهر موضوع تحمیل می‌کند.",
+        "debias": "در مورد الگوهای سفر لوکس در دوران بحران به صورت واقعی و بدون استفاده از زبان محکومیت اخلاقی گزارش دهید.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "هجوم جت‌های خصوصی به کن 'زشت' خوانده شد در حالی که بحران سوخت باعث ترس از کمبود مواد غذایی شده است",
+        "example_url": "http://www.euronews.com/2026/05/11/private-jets-flocking-to-cannes-branded-obscene-as-fuel-crisis-sparks-food-shortage-fears",
+        "unbiased_text": "سفرهای جت خصوصی به کن در میان بحران سوخت و نگرانی‌های کمبود مواد غذایی با انتقاد مواجه شده است",
+        "pattern_en": "Private jet obscenity moral condemnation"
+      },
+      {
+        "pattern": "بازتعریف حمایت حفاظتی به‌عنوان فرار از عدالت",
+        "detail": "توصیف وضعیت پناهندگی یا اقدامات حفاظتی به‌عنوان «فرار از عدالت» با فرض گناهکاری، ادعاهای پناهندگی را غیرمشروع جلوه می‌دهد.",
+        "debias": "درباره جابه‌جایی بین‌المللی افراد تحت تعقیب به‌طور بی‌طرفانه گزارش دهید، بدون فرض گناهکاری یا غیرمشروع جلوه دادن ادعاهای پناهندگی.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "فرار از عدالت: وزیر سابق لهستانی تحت تعقیب تأیید کرد که از مجارستان به ایالات متحده گریخته است",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/11/evading-justice-wanted-former-polish-minister-confirms-he-fled-hungary-to-us",
+        "unbiased_text": "وزیر سابق لهستانی تحت تعقیب تأیید کرد که مجارستان را به مقصد ایالات متحده ترک کرده است",
+        "pattern_en": "Protective custody reframing as evasion"
       }
     ]
   }

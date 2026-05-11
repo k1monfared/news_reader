@@ -1226,6 +1226,46 @@
         "example_text": "How did Gaza's sea become a wall?",
         "example_url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/5/10/how-did-gazas-sea-become-a-wall?traffic_source=rss",
         "unbiased_text": "Israel has enforced a naval blockade around the Gaza Strip for 18 years."
+      },
+      {
+        "pattern": "Pretence collapse questioning framing",
+        "detail": "Questioning whether even the 'pretence' of a policy remains suggests the policy was never genuine, delegitimizing it from inception rather than assessing current violations.",
+        "debias": "Report on ceasefire violations factually without suggesting the entire agreement was performative theater.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "Israeli killings in Lebanon rise: Is even the pretence of a ceasefire over?",
+        "example_url": "https://www.aljazeera.com/news/2026/5/11/israeli-killings-in-lebanon-rise-is-even-the-pretence-of-a-ceasefire-over?traffic_source=rss",
+        "unbiased_text": "Israeli killings in Lebanon rise amid ceasefire violations"
+      },
+      {
+        "pattern": "Behavioral modification directive framing",
+        "detail": "Framing a leader's domestic policy recommendations as directives or restrictions on personal behavior amplifies governmental overreach perception.",
+        "debias": "Report policy recommendations as suggestions or appeals rather than commands restricting freedom.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "PM urges Indians to work from home and avoid foreign trips during the global energy crisis due to the Iran war.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/11/iran-war-effect-why-is-modi-asking-indians-to-avoid-foreign-trips-gold?traffic_source=rss",
+        "unbiased_text": "PM encourages Indians to consider working from home and reducing foreign travel during the energy crisis."
+      },
+      {
+        "pattern": "Empire decline inevitability assertion",
+        "detail": "Characterizing geopolitical setbacks as symptoms of inevitable imperial decline rather than temporary challenges frames power dynamics as predetermined.",
+        "debias": "Report geopolitical challenges without asserting inevitable decline trajectories.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "Iran war has put the US in a situation where 'it's not in control but can't walk away', argues economist Richard Wolff.",
+        "example_url": "https://www.aljazeera.com/video/the-bottom-line/2026/5/11/is-the-us-empire-in-the-middle-of-a-long-decline?traffic_source=rss",
+        "unbiased_text": "Economist Richard Wolff argues the Iran war presents difficult strategic choices for the US."
+      },
+      {
+        "pattern": "Show trial terminology preemptive labeling",
+        "detail": "Labeling proposed legal proceedings as 'show trials' before they occur prejudges their legitimacy and outcome.",
+        "debias": "Report on proposed legal proceedings without prejudging their fairness or characterizing them as theatrical.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "Israel advances legislation to try October 7 detainees in military courts, raising fears of show trials and executions.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/11/israel-pushes-for-death-penalty-and-show-trials-for-oct-7-detainees?traffic_source=rss",
+        "unbiased_text": "Israel advances legislation to try October 7 detainees in military courts, with critics expressing concerns about due process."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2220,6 +2260,26 @@
         "example_text": "Iran keeps US waiting for response on ceasefire plan",
         "example_url": "https://www.france24.com/en/middle-east/20260509-iran-keeps-us-waiting-for-response-on-ceasefire-plan",
         "unbiased_text": "Iran has not yet responded to the US ceasefire proposal, with negotiations ongoing through Pakistani mediators."
+      },
+      {
+        "pattern": "Crisis countdown temporal urgency framing",
+        "detail": "Emphasizing 'just weeks' until catastrophe creates artificial deadline pressure that may not reflect actual timelines or mitigation options.",
+        "debias": "Report urgency factually without countdown framing that implies imminent inevitability.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "The world has just weeks to prevent a crisis that could tip tens of millions of people into hunger and starvation if fertilisers are not allowed through the Hormuz strait, the UN warned Monday.",
+        "example_url": "https://www.france24.com/en/middle-east/20260511-middle-east-war-live-uk-and-france-to-host-defence-talks-on-hormuz-shipping-mission",
+        "unbiased_text": "The UN warned that disruption to fertilizer shipments through the Hormuz strait could lead to food security challenges affecting millions."
+      },
+      {
+        "pattern": "Systematic settler-military coordination assertion",
+        "detail": "Describing settler violence as occurring with 'full support of military' asserts institutional coordination as established fact rather than allegation.",
+        "debias": "Report allegations of military involvement in settler violence as claims requiring investigation rather than confirmed facts.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "He describes the settler violence devastating his community as systematic, insisting these are not random acts of brutality, but calculated attacks.",
+        "example_url": "https://www.france24.com/en/video/20260510-west-bank-violence-no-accountability-for-settler-attacks",
+        "unbiased_text": "He describes the settler violence in his community as systematic and claims these are calculated rather than random attacks."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -3463,6 +3523,36 @@
         "example_text": "Fans pack Amir Cup final as football nights and packed stadiums return to Qatar",
         "example_url": "http://www.euronews.com/2026/05/10/fans-pack-amir-cup-final-as-football-nights-and-packed-stadiums-return-to-qatar",
         "unbiased_text": "Thousands attended Qatar's Amir Cup final in Doha, with public gatherings resuming after weeks of regional tensions."
+      },
+      {
+        "pattern": "AI evil story causation attribution",
+        "detail": "Attributing AI misbehavior to training on 'evil AI stories' anthropomorphizes the system and deflects from technical or design issues.",
+        "debias": "Report on AI behavior issues focusing on technical factors rather than narrative causation metaphors.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "Anthropic think they have found the reason for blackmail-like behaviour in its chatbot Claude: fictional stories online.",
+        "example_url": "http://www.euronews.com/next/2026/05/11/anthropic-says-evil-ai-stories-were-responsible-for-claudes-blackmail-attempts",
+        "unbiased_text": "Anthropic reports that training data including certain fictional scenarios may have contributed to unexpected behavior in its chatbot Claude."
+      },
+      {
+        "pattern": "Private jet obscenity moral condemnation",
+        "detail": "Labeling luxury travel as 'obscene' during crisis periods imposes specific moral judgment on legal activity based on optics.",
+        "debias": "Report on luxury travel patterns during crises factually without moral condemnation language.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "Private jets flocking to Cannes branded 'obscene' as fuel crisis sparks food shortage fears",
+        "example_url": "http://www.euronews.com/2026/05/11/private-jets-flocking-to-cannes-branded-obscene-as-fuel-crisis-sparks-food-shortage-fears",
+        "unbiased_text": "Private jet travel to Cannes faces criticism amid fuel crisis and food shortage concerns"
+      },
+      {
+        "pattern": "Protective custody reframing as evasion",
+        "detail": "Characterizing refugee status or protective measures as 'evading justice' delegitimizes asylum claims by presuming guilt.",
+        "debias": "Report on international movement of wanted individuals neutrally without presuming guilt or delegitimizing asylum claims.",
+        "date_added": "2026-05-11",
+        "status": "suggested",
+        "example_text": "Evading justice: Wanted former Polish minister confirms he fled Hungary to US",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/11/evading-justice-wanted-former-polish-minister-confirms-he-fled-hungary-to-us",
+        "unbiased_text": "Wanted former Polish minister confirms he left Hungary for US"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
