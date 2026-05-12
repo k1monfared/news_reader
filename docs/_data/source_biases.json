@@ -1266,6 +1266,36 @@
         "example_text": "Israel advances legislation to try October 7 detainees in military courts, raising fears of show trials and executions.",
         "example_url": "https://www.aljazeera.com/news/2026/5/11/israel-pushes-for-death-penalty-and-show-trials-for-oct-7-detainees?traffic_source=rss",
         "unbiased_text": "Israel advances legislation to try October 7 detainees in military courts, with critics expressing concerns about due process."
+      },
+      {
+        "pattern": "Superpower bilateralism G2 framing",
+        "detail": "Framing US-China relations as potentially forming an exclusive 'Group of Two' superpower arrangement that sidelines other nations and multilateral institutions.",
+        "debias": "Present bilateral meetings as routine diplomatic engagement without suggesting the formation of exclusive power-sharing arrangements that exclude other stakeholders.",
+        "date_added": "2026-05-12",
+        "status": "suggested",
+        "example_text": "The leaders' upcoming meeting in Beijing has revived the idea of a 'Group of Two' between the superpowers.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/12/trump-xi-meeting-could-china-us-form-a-g2?traffic_source=rss",
+        "unbiased_text": "The leaders' upcoming meeting in Beijing will address bilateral relations between the two major powers."
+      },
+      {
+        "pattern": "Contemporary art relevance questioning framing",
+        "detail": "Presenting contemporary art's relevance as inherently questionable rather than as a subject of legitimate artistic and cultural debate.",
+        "debias": "Frame artistic discussions as exploring diverse perspectives on art's role without presuming its irrelevance as the default position.",
+        "date_added": "2026-05-12",
+        "status": "suggested",
+        "example_text": "Is contemporary art relevant today?",
+        "example_url": "https://www.aljazeera.com/video/doha-debates/2026/5/12/is-it-time-to-reconsider-contemporary-art?traffic_source=rss",
+        "unbiased_text": "Experts debate the role and impact of contemporary art in today's society."
+      },
+      {
+        "pattern": "Intimidation justification through election timing",
+        "detail": "Attributing legitimacy concerns to an election by highlighting intimidation reports immediately after stating the electoral outcome.",
+        "debias": "Report election results and separately detail any documented irregularities without structurally linking them to delegitimize the outcome.",
+        "date_added": "2026-05-12",
+        "status": "suggested",
+        "example_text": "The 81-year-old, who has been in power since 1986, won a January election amid reports of intimidation and abductions.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/12/ugandas-yoweri-museveni-sworn-in-for-seventh-term-as-president?traffic_source=rss",
+        "unbiased_text": "The 81-year-old, who has been in power since 1986, was sworn in for a seventh term after winning January's election. Opposition groups reported incidents of intimidation and abductions during the campaign period."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2213,8 +2243,8 @@
       },
       {
         "pattern": "Religious desecration viral documentation emphasis",
-        "detail": "Highlighting that evidence of religious site desecration 'went viral' to emphasize public outrage rather than reporting the incident itself.",
-        "debias": "Report desecration incidents based on their factual occurrence, not their social media spread or virality.",
+        "detail": "Highlighting that evidence of religious site desecration 'went viral' to emphasize public outrage rather than reporting the incident itself. Also: Highlighting that evidence of religious site desecration 'went viral' rather than focusing on the act itself or institutional response.",
+        "debias": "Report desecration incidents based on their factual occurrence, not their social media spread or virality. Report incidents of desecration with focus on the actions and responses rather than social media virality metrics.",
         "date_added": "2026-05-08",
         "status": "suggested",
         "example_text": "The Israeli military says it has launched an investigation after a photo showing one of its soldiers desecrating a statue of the Virgin Mary in south Lebanon went viral",
@@ -2280,6 +2310,16 @@
         "example_text": "He describes the settler violence devastating his community as systematic, insisting these are not random acts of brutality, but calculated attacks.",
         "example_url": "https://www.france24.com/en/video/20260510-west-bank-violence-no-accountability-for-settler-attacks",
         "unbiased_text": "He describes the settler violence in his community as systematic and claims these are calculated rather than random attacks."
+      },
+      {
+        "pattern": "Blackmail terminology for territorial control",
+        "detail": "Using 'blackmail' to characterize one nation's control over strategic infrastructure that affects others, implying illegitimate coercion.",
+        "debias": "Describe strategic control over waterways or infrastructure without moral language, focusing on geopolitical leverage and affected parties.",
+        "date_added": "2026-05-12",
+        "status": "suggested",
+        "example_text": "Qatar's top diplomat said on Tuesday that Iran should not use the Strait of Hormuz as a means to blackmail Gulf countries or as a 'weapon'.",
+        "example_url": "https://www.france24.com/en/middle-east/20260512-middle-east-live-us-iran-talks-deadlocked-strait-of-hormuz-still-closed",
+        "unbiased_text": "Qatar's top diplomat said on Tuesday that Iran should not use control of the Strait of Hormuz to pressure Gulf countries economically."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -3553,6 +3593,36 @@
         "example_text": "Evading justice: Wanted former Polish minister confirms he fled Hungary to US",
         "example_url": "http://www.euronews.com/my-europe/2026/05/11/evading-justice-wanted-former-polish-minister-confirms-he-fled-hungary-to-us",
         "unbiased_text": "Wanted former Polish minister confirms he left Hungary for US"
+      },
+      {
+        "pattern": "Fertilizer crisis food apocalypse framing",
+        "detail": "Presenting fertilizer supply disruption as directly causing imminent food price catastrophe through dramatic farmer union warnings.",
+        "debias": "Report agricultural input costs and supply chain issues with specific data while distinguishing between potential and certain outcomes.",
+        "date_added": "2026-05-12",
+        "status": "suggested",
+        "example_text": "Food prices could skyrocket, if no measures taken to tackle fertilizer crisis, farmer unions warn... 'Less fertilizers means less production for wheat. That's the basis for bread,' warns COPA President, Massimiliano Giansanti.",
+        "example_url": "http://www.euronews.com/video/2026/05/12/food-prices-could-skyrocket-if-no-measures-taken-to-tackle-fertilizer-crisis-farmer-unions",
+        "unbiased_text": "Farmer unions report that fertilizer costs have tripled due to supply disruptions, potentially affecting crop yields. Agricultural organizations are calling for policy interventions to address input supply issues."
+      },
+      {
+        "pattern": "Suspect identity patient zero labeling",
+        "detail": "Identifying a presumed disease origin individual by name and profession before confirmation, creating presumptive blame narrative.",
+        "debias": "Report epidemiological investigations without naming individuals until causation is confirmed and relevant to public health response.",
+        "date_added": "2026-05-12",
+        "status": "suggested",
+        "example_text": "A Dutch ornithologist is suspected of being the 'patient zero' in the hantavirus outbreak that has spread among passengers aboard a cruise ship.",
+        "example_url": "http://www.euronews.com/health/2026/05/12/what-we-know-about-the-presumed-hantavirus-patient-zero",
+        "unbiased_text": "Health authorities are investigating the initial source of the hantavirus outbreak among cruise ship passengers."
+      },
+      {
+        "pattern": "Smear campaign defensive framing",
+        "detail": "Presenting accusations against a location as a 'smear campaign' through the language of authorities denying responsibility.",
+        "debias": "Report competing claims about outbreak origins with evidence for each position without adopting defensive language from one party.",
+        "date_added": "2026-05-12",
+        "status": "suggested",
+        "example_text": "'Smear campaign': Ushuaia rejects claims it was ground zero for Hantavirus outbreak",
+        "example_url": "http://www.euronews.com/health/2026/05/12/smear-campaign-ushuaia-rejects-claims-it-was-ground-zero-for-hantavirus-outbreak",
+        "unbiased_text": "Ushuaia authorities dispute claims linking the city to the hantavirus outbreak origin"
       }
     ],
     "notes": "Reliable but limited conflict coverage"

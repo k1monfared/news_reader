@@ -1405,6 +1405,39 @@
         "example_url": "https://www.aljazeera.com/news/2026/5/11/israel-pushes-for-death-penalty-and-show-trials-for-oct-7-detainees?traffic_source=rss",
         "unbiased_text": "اسرائیل قانونی را برای محاکمه بازداشت‌شدگان ۷ اکتبر در دادگاه‌های نظامی پیش می‌برد و منتقدان نگرانی‌هایی درباره روند قانونی عادلانه ابراز می‌کنند.",
         "pattern_en": "Show trial terminology preemptive labeling"
+      },
+      {
+        "pattern": "قاب‌بندی دوجانبه‌گرایی ابرقدرت G2",
+        "detail": "قاب‌بندی روابط آمریکا و چین به‌عنوان تشکیل‌دهنده بالقوه یک ترتیب انحصاری «گروه دونفره» ابرقدرت که سایر کشورها و نهادهای چندجانبه را کنار می‌گذارد.",
+        "debias": "دیدارهای دوجانبه را به‌عنوان تعامل دیپلماتیک معمول ارائه دهید، بدون اینکه پیشنهاد تشکیل ترتیبات انحصاری تقسیم قدرت که سایر ذینفعان را حذف می‌کند.",
+        "date_added": "2026-05-12",
+        "status": "suggested",
+        "example_text": "دیدار آتی رهبران در پکن ایده «گروه دونفره» میان ابرقدرت‌ها را دوباره زنده کرده است.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/12/trump-xi-meeting-could-china-us-form-a-g2?traffic_source=rss",
+        "unbiased_text": "دیدار آتی رهبران در پکن به بررسی روابط دوجانبه میان این دو قدرت بزرگ خواهد پرداخت.",
+        "pattern_en": "Superpower bilateralism G2 framing"
+      },
+      {
+        "pattern": "قاب‌بندی زیر سؤال بردن ارتباط هنر معاصر",
+        "detail": "ارائه ارتباط هنر معاصر به عنوان موضوعی ذاتاً قابل تردید به جای اینکه آن را موضوع بحث مشروع هنری و فرهنگی در نظر بگیریم.",
+        "debias": "بحث‌های هنری را به گونه‌ای قاب‌بندی کنید که دیدگاه‌های متنوع درباره نقش هنر را بررسی کند بدون اینکه بی‌ارتباطی آن را به عنوان موضع پیش‌فرض فرض کنید.",
+        "date_added": "2026-05-12",
+        "status": "suggested",
+        "example_text": "آیا هنر معاصر امروز مرتبط است؟",
+        "example_url": "https://www.aljazeera.com/video/doha-debates/2026/5/12/is-it-time-to-reconsider-contemporary-art?traffic_source=rss",
+        "unbiased_text": "کارشناسان درباره نقش و تأثیر هنر معاصر در جامعه امروز بحث می‌کنند.",
+        "pattern_en": "Contemporary art relevance questioning framing"
+      },
+      {
+        "pattern": "توجیه ارعاب از طریق زمان‌بندی انتخابات",
+        "detail": "نسبت دادن نگرانی‌های مشروعیت به یک انتخابات با برجسته کردن گزارش‌های ارعاب بلافاصله پس از بیان نتیجه انتخاباتی.",
+        "debias": "نتایج انتخابات را گزارش دهید و به طور جداگانه هرگونه بی‌نظمی مستند را بدون پیوند ساختاری که موجب بی‌اعتبار کردن نتیجه شود، شرح دهید.",
+        "date_added": "2026-05-12",
+        "status": "suggested",
+        "example_text": "این فرد ۸۱ ساله که از سال ۱۹۸۶ در قدرت است، در انتخابات ژانویه در میان گزارش‌هایی از ارعاب و ربودن پیروز شد.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/12/ugandas-yoweri-museveni-sworn-in-for-seventh-term-as-president?traffic_source=rss",
+        "unbiased_text": "این فرد ۸۱ ساله که از سال ۱۹۸۶ در قدرت است، پس از پیروزی در انتخابات ژانویه برای دوره هفتم سوگند یاد کرد. گروه‌های مخالف در دوره مبارزات انتخاباتی حوادثی از ارعاب و ربودن را گزارش کردند.",
+        "pattern_en": "Intimidation justification through election timing"
       }
     ]
   },
@@ -2502,6 +2535,17 @@
         "example_url": "https://www.france24.com/en/video/20260510-west-bank-violence-no-accountability-for-settler-attacks",
         "unbiased_text": "او خشونت شهرک‌نشینان در جامعه‌اش را سیستماتیک توصیف می‌کند و مدعی است که اینها حملات محاسبه‌شده هستند نه تصادفی.",
         "pattern_en": "Systematic settler-military coordination assertion"
+      },
+      {
+        "pattern": "اصطلاح باج‌خواهی برای کنترل سرزمینی",
+        "detail": "استفاده از واژه «باج‌خواهی» برای توصیف کنترل یک کشور بر زیرساخت‌های استراتژیک که بر دیگران تأثیر می‌گذارد، به معنای اجبار نامشروع.",
+        "debias": "کنترل استراتژیک بر آبراه‌ها یا زیرساخت‌ها را بدون زبان اخلاقی توصیف کنید و بر اهرم ژئوپلیتیکی و طرف‌های تحت تأثیر تمرکز کنید.",
+        "date_added": "2026-05-12",
+        "status": "suggested",
+        "example_text": "دیپلمات ارشد قطر روز سه‌شنبه گفت که ایران نباید از تنگه هرمز به عنوان ابزاری برای باج‌خواهی از کشورهای خلیج یا به عنوان «سلاح» استفاده کند.",
+        "example_url": "https://www.france24.com/en/middle-east/20260512-middle-east-live-us-iran-talks-deadlocked-strait-of-hormuz-still-closed",
+        "unbiased_text": "دیپلمات ارشد قطر روز سه‌شنبه گفت که ایران نباید از کنترل تنگه هرمز برای اعمال فشار اقتصادی بر کشورهای خلیج استفاده کند.",
+        "pattern_en": "Blackmail terminology for territorial control"
       }
     ]
   },
@@ -3900,6 +3944,39 @@
         "example_url": "http://www.euronews.com/my-europe/2026/05/11/evading-justice-wanted-former-polish-minister-confirms-he-fled-hungary-to-us",
         "unbiased_text": "وزیر سابق لهستانی تحت تعقیب تأیید کرد که مجارستان را به مقصد ایالات متحده ترک کرده است",
         "pattern_en": "Protective custody reframing as evasion"
+      },
+      {
+        "pattern": "قاب‌بندی بحران کود به‌عنوان آخرالزمان غذایی",
+        "detail": "ارائه اختلال در تأمین کود به‌عنوان عاملی که مستقیماً منجر به فاجعه قریب‌الوقوع افزایش قیمت مواد غذایی می‌شود، از طریق هشدارهای نمایشی اتحادیه‌های کشاورزان.",
+        "debias": "گزارش هزینه‌های نهاده‌های کشاورزی و مسائل زنجیره تأمین را با داده‌های مشخص ارائه دهید، درحالی‌که بین پیامدهای بالقوه و قطعی تمایز قائل شوید.",
+        "date_added": "2026-05-12",
+        "status": "suggested",
+        "example_text": "قیمت مواد غذایی می‌تواند به شدت افزایش یابد، اگر اقدامی برای مقابله با بحران کود انجام نشود، اتحادیه‌های کشاورزان هشدار می‌دهند... «کمتر کود یعنی کمتر تولید برای گندم. این اساس نان است»، رئیس COPA، ماسیمیلیانو جانسانتی هشدار می‌دهد.",
+        "example_url": "http://www.euronews.com/video/2026/05/12/food-prices-could-skyrocket-if-no-measures-taken-to-tackle-fertilizer-crisis-farmer-unions",
+        "unbiased_text": "اتحادیه‌های کشاورزان گزارش می‌دهند که هزینه‌های کود به دلیل اختلالات تأمین سه برابر شده است و به‌طور بالقوه می‌تواند بر میزان محصول تأثیر بگذارد. سازمان‌های کشاورزی خواستار مداخلات سیاستی برای رسیدگی به مسائل تأمین نهاده‌ها هستند.",
+        "pattern_en": "Fertilizer crisis food apocalypse framing"
+      },
+      {
+        "pattern": "برچسب‌زنی بیمار صفر با شناسایی مظنون",
+        "detail": "شناسایی فرد مظنون به منشأ بیماری با ذکر نام و شغل پیش از تأیید، که روایتی مبتنی بر سرزنش پیشینی ایجاد می‌کند.",
+        "debias": "تحقیقات اپیدمیولوژیک را بدون نام‌بردن از افراد گزارش کنید تا زمانی که علیت تأیید شود و برای واکنش بهداشت عمومی مرتبط باشد.",
+        "date_added": "2026-05-12",
+        "status": "suggested",
+        "example_text": "یک پرنده‌شناس هلندی مظنون به «بیمار صفر» شیوع ویروس هانتا است که در میان مسافران کشتی کروز گسترش یافته است.",
+        "example_url": "http://www.euronews.com/health/2026/05/12/what-we-know-about-the-presumed-hantavirus-patient-zero",
+        "unbiased_text": "مقامات بهداشتی در حال بررسی منبع اولیه شیوع ویروس هانتا در میان مسافران کشتی کروز هستند.",
+        "pattern_en": "Suspect identity patient zero labeling"
+      },
+      {
+        "pattern": "قاب‌بندی دفاعی کمپین تخریب",
+        "detail": "ارائه اتهامات علیه یک مکان به‌عنوان «کمپین تخریب» از طریق زبان مقامات که مسئولیت را رد می‌کنند.",
+        "debias": "ادعاهای رقیب درباره منشأ شیوع را با شواهد هر موضع گزارش کنید بدون اینکه زبان دفاعی یکی از طرفین را اتخاذ کنید.",
+        "date_added": "2026-05-12",
+        "status": "suggested",
+        "example_text": "«کمپین تخریب»: اوشوایا ادعاهای مبنی بر اینکه نقطه صفر شیوع ویروس هانتا بوده را رد می‌کند",
+        "example_url": "http://www.euronews.com/health/2026/05/12/smear-campaign-ushuaia-rejects-claims-it-was-ground-zero-for-hantavirus-outbreak",
+        "unbiased_text": "مقامات اوشوایا ادعاهای مربوط به ارتباط شهر با منشأ شیوع ویروس هانتا را رد می‌کنند",
+        "pattern_en": "Smear campaign defensive framing"
       }
     ]
   }
