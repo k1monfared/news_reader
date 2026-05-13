@@ -1438,6 +1438,39 @@
         "example_url": "https://www.aljazeera.com/news/2026/5/12/ugandas-yoweri-museveni-sworn-in-for-seventh-term-as-president?traffic_source=rss",
         "unbiased_text": "این فرد ۸۱ ساله که از سال ۱۹۸۶ در قدرت است، پس از پیروزی در انتخابات ژانویه برای دوره هفتم سوگند یاد کرد. گروه‌های مخالف در دوره مبارزات انتخاباتی حوادثی از ارعاب و ربودن را گزارش کردند.",
         "pattern_en": "Intimidation justification through election timing"
+      },
+      {
+        "pattern": "قاب‌بندی مالکیتی در نام‌گذاری جنگ",
+        "detail": "برچسب زدن درگیری‌ها به عنوان «جنگ آمریکا و اسرائیل علیه ایران» به جای اصطلاحات توصیفی خنثی، به طور سیستماتیک مالکیت متجاوز و قربانی بودن را به یک طرف نسبت می‌دهد.",
+        "debias": "از توصیف‌کننده‌های خنثی درگیری مانند «درگیری آمریکا و ایران» یا «جنگ خاورمیانه» بدون ساختارهای مالکیتی که از پیش مقصر را تعیین می‌کنند، استفاده کنید.",
+        "date_added": "2026-05-13",
+        "status": "suggested",
+        "example_text": "در میان جنگ آمریکا و اسرائیل علیه ایران، آریزونا منتظر تیم ایرانی پیش از جام جهانی است",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/13/amid-us-israel-war-on-iran-arizona-awaits-iranian-team-before-world-cup?traffic_source=rss",
+        "unbiased_text": "در میان درگیری خاورمیانه، آریزونا منتظر تیم ایرانی پیش از جام جهانی است",
+        "pattern_en": "War naming possessive framing"
+      },
+      {
+        "pattern": "وارونه‌سازی روایت حمایت مشروط",
+        "detail": "چارچوب‌بندی حمایت دیپلماتیک به‌عنوان «مشروط به پیشرفت» طرف حمایت‌شونده را در موضع طرفی تحت نظارت قرار می‌دهد، نه حمایت‌کننده را به‌عنوان تحمیل‌کننده شرایط.",
+        "debias": "مشروطیت را به‌عنوان الزامات متقابل ارائه دهید یا صرفاً شرایط را بدون چارچوب‌بندی یک طرف به‌عنوان درخواست‌کننده تحت نظارت بیان کنید.",
+        "date_added": "2026-05-13",
+        "status": "suggested",
+        "example_text": "حمایت واشنگتن مشروط به پیشرفت روشن در مهار فعالیت شبه‌نظامیان طرفدار ایران است.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/13/why-trump-decided-to-back-iraqs-prime-minister-designate-ali-al-zaidi?traffic_source=rss",
+        "unbiased_text": "واشنگتن حمایت خود را به الزاماتی مرتبط کرده که فعالیت شبه‌نظامیان طرفدار ایران مهار شود.",
+        "pattern_en": "Conditional support narrative inversion"
+      },
+      {
+        "pattern": "قاب‌بندی برجسته‌سازی رویارویی فعالان",
+        "detail": "برجسته کردن رویاروییهای فعالان به عنوان رویدادهای خبری، دیدگاه فعال را مشروع می‌سازد و طرف مقابل را به عنوان کسی که باید به آنها پاسخگو باشد قاب می‌بندد.",
+        "debias": "اقدامات فعالان را به عنوان یک دیدگاه در میان دیدگاههای متعدد گزارش کنید بدون اینکه خود رویارویی را به سطح تیتر خبر ارتقا دهید.",
+        "date_added": "2026-05-13",
+        "status": "suggested",
+        "example_text": "فعال با ولیعهد سابق ایران بر سر جنگ علیه ایران رویارویی می‌کند",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/13/activist-confronts-irans-former-crown-prince-over-war-on-iran?traffic_source=rss",
+        "unbiased_text": "ولیعهد سابق ایران توسط فعالی درباره موضع وی در قبال درگیری جاری مورد پرسش قرار گرفت",
+        "pattern_en": "Activist confrontation elevation framing"
       }
     ]
   },
@@ -2546,6 +2579,28 @@
         "example_url": "https://www.france24.com/en/middle-east/20260512-middle-east-live-us-iran-talks-deadlocked-strait-of-hormuz-still-closed",
         "unbiased_text": "دیپلمات ارشد قطر روز سه‌شنبه گفت که ایران نباید از کنترل تنگه هرمز برای اعمال فشار اقتصادی بر کشورهای خلیج استفاده کند.",
         "pattern_en": "Blackmail terminology for territorial control"
+      },
+      {
+        "pattern": "استعاره فوریت دستگاه حیات‌بخش برای آتش‌بس",
+        "detail": "استفاده از استعاره‌های پزشکی مانند «دستگاه حیات‌بخش» برای توافق‌های دیپلماتیک، فوریت مصنوعی ایجاد می‌کند و مذاکرات را به‌عنوان سناریوهای بیمار در حال احتضار قاب می‌بندد.",
+        "debias": "وضعیت آتش‌بس را با ارزیابی‌های واقعی از رعایت و نقض‌ها بدون تشبیهات پزشکی دراماتیک توصیف کنید.",
+        "date_added": "2026-05-13",
+        "status": "suggested",
+        "example_text": "ترامپ می‌گوید آتش‌بس ایران روی «دستگاه حیات‌بخش» است پس از رد پیشنهاد متقابل تهران",
+        "example_url": "https://www.france24.com/en/middle-east/20260511-trump-says-iran-ceasefire-on-life-support-after-rejecting-tehran-counteroffer",
+        "unbiased_text": "ترامپ می‌گوید آتش‌بس ایران شکننده است پس از رد پیشنهاد متقابل تهران",
+        "pattern_en": "Ceasefire life support metaphor urgency"
+      },
+      {
+        "pattern": "اتهام باج‌خواهی از طریق بیانیه دیپلماتیک",
+        "detail": "نقل‌قول توصیفات شخص ثالث از اقدامات به‌عنوان «باج‌خواهی» بدون نشانگرهای انتساب، این اتهام را به‌عنوان ارزیابی واقعی قالب‌بندی می‌کند.",
+        "debias": "توصیفاتی مانند «باج‌خواهی» را به‌صراحت به منبع خود نسبت دهید و با قالب‌بندی طرف متهم متعادل کنید.",
+        "date_added": "2026-05-13",
+        "status": "suggested",
+        "example_text": "دیپلمات ارشد قطر روز سه‌شنبه گفت که ایران نباید از تنگه هرمز به‌عنوان ابزاری برای باج‌خواهی از کشورهای خلیج‌فارس یا به‌عنوان «سلاح» استفاده کند.",
+        "example_url": "https://www.france24.com/en/middle-east/20260512-middle-east-live-us-iran-talks-deadlocked-strait-of-hormuz-still-closed",
+        "unbiased_text": "دیپلمات ارشد قطر روز سه‌شنبه گفت که ایران نباید از تنگه هرمز برای اعمال فشار بر کشورهای خلیج‌فارس استفاده کند و چنین اقداماتی را «باج‌خواهی» توصیف کرد.",
+        "pattern_en": "Blackmail accusation through diplomatic statement"
       }
     ]
   },
@@ -3977,6 +4032,28 @@
         "example_url": "http://www.euronews.com/health/2026/05/12/smear-campaign-ushuaia-rejects-claims-it-was-ground-zero-for-hantavirus-outbreak",
         "unbiased_text": "مقامات اوشوایا ادعاهای مربوط به ارتباط شهر با منشأ شیوع ویروس هانتا را رد می‌کنند",
         "pattern_en": "Smear campaign defensive framing"
+      },
+      {
+        "pattern": "درج حمایت از شکستن انحصار",
+        "detail": "گنجاندن درخواست‌های شرکتی برای «شکستن انحصارها» به‌عنوان گزارش واقعی به‌جای حمایت تجاری، موضع رقابتی یک طرف را به‌عنوان منافع عمومی جا می‌اندازد.",
+        "debias": "شکایات رقابتی شرکتی را به‌عنوان اختلافات تجاری ارائه دهید بدون اینکه چارچوب زبان حمایتی یک طرف را بپذیرید.",
+        "date_added": "2026-05-13",
+        "status": "suggested",
+        "example_text": "شرکت هواپیمایی ارزان‌قیمت اپراتور فرودگاهی Fraport را متهم می‌کند که کاهش مالیاتی تصمیم‌گرفته‌شده توسط دولت یونان را برای خود نگه داشته و از یونان می‌خواهد «انحصار Fraport را بشکند».",
+        "example_url": "http://www.euronews.com/travel/2026/05/13/ryanair-issues-angry-statement-against-fraport-greece-for-thessaloniki-and-the-german-mono",
+        "unbiased_text": "شرکت هواپیمایی ارزان‌قیمت اپراتور فرودگاهی Fraport را متهم می‌کند که کاهش مالیاتی تصمیم‌گرفته‌شده توسط دولت یونان را منتقل نکرده و موقعیت بازار Fraport را مورد اعتراض قرار می‌دهد.",
+        "pattern_en": "Monopoly breaking advocacy insertion"
+      },
+      {
+        "pattern": "ادعای سمی بودن برند بدون انتساب",
+        "detail": "گزارش اینکه یک برند به عنوان یک دلیل تجاری «سمی» است، بدون علامت نقل قول یا انتساب روشن، توصیف ذهنی را به عنوان واقعیت عینی ارائه می‌دهد.",
+        "debias": "توصیف‌هایی مانند «سمی» را به طور واضح به منبع خود نسبت دهید و به عنوان دلیل ادعا شده به جای واقعیت ثابت شده ارائه کنید.",
+        "date_added": "2026-05-13",
+        "status": "suggested",
+        "example_text": "توسعه‌دهنده املاک استرالیایی می‌گوید طرح هتل Trump به دلیل برند «سمی» لغو شد",
+        "example_url": "http://www.euronews.com/2026/05/13/australian-property-developer-says-trump-hotel-plan-scrapped-due-to-toxic-brand",
+        "unbiased_text": "توسعه‌دهنده املاک استرالیایی به آنچه برند «سمی» Trump می‌نامد به عنوان دلیل لغو طرح هتل اشاره می‌کند",
+        "pattern_en": "Toxic brand assertion without attribution"
       }
     ]
   }

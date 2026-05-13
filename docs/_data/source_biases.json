@@ -1296,6 +1296,36 @@
         "example_text": "The 81-year-old, who has been in power since 1986, won a January election amid reports of intimidation and abductions.",
         "example_url": "https://www.aljazeera.com/news/2026/5/12/ugandas-yoweri-museveni-sworn-in-for-seventh-term-as-president?traffic_source=rss",
         "unbiased_text": "The 81-year-old, who has been in power since 1986, was sworn in for a seventh term after winning January's election. Opposition groups reported incidents of intimidation and abductions during the campaign period."
+      },
+      {
+        "pattern": "War naming possessive framing",
+        "detail": "Labeling conflicts as 'US-Israel war on Iran' rather than neutral descriptive terms systematically assigns aggressor ownership and victimhood to one side.",
+        "debias": "Use neutral conflict descriptors like 'US-Iran conflict' or 'Middle East war' without possessive constructions that pre-assign blame.",
+        "date_added": "2026-05-13",
+        "status": "suggested",
+        "example_text": "Amid US-Israel war on Iran, Arizona awaits Iranian team before World Cup",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/13/amid-us-israel-war-on-iran-arizona-awaits-iranian-team-before-world-cup?traffic_source=rss",
+        "unbiased_text": "Amid Middle East conflict, Arizona awaits Iranian team before World Cup"
+      },
+      {
+        "pattern": "Conditional support narrative inversion",
+        "detail": "Framing diplomatic support as 'conditional on progress' positions the supported party as under scrutiny rather than the supporter as imposing terms.",
+        "debias": "Present conditionality as mutual requirements or simply state terms without framing one side as scrutinized supplicant.",
+        "date_added": "2026-05-13",
+        "status": "suggested",
+        "example_text": "Support from Washington is conditional on clear progress in curbing pro-Iran militia activity.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/13/why-trump-decided-to-back-iraqs-prime-minister-designate-ali-al-zaidi?traffic_source=rss",
+        "unbiased_text": "Washington has linked its support to requirements that pro-Iran militia activity be curbed."
+      },
+      {
+        "pattern": "Activist confrontation elevation framing",
+        "detail": "Highlighting activist confrontations as newsworthy events legitimizes the activist's perspective and frames the confronted party as accountable to them.",
+        "debias": "Report activist actions as one perspective among many without elevating confrontation itself to headline status.",
+        "date_added": "2026-05-13",
+        "status": "suggested",
+        "example_text": "Activist confronts Iran's former crown prince over war on Iran",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/13/activist-confronts-irans-former-crown-prince-over-war-on-iran?traffic_source=rss",
+        "unbiased_text": "Iran's former crown prince questioned by activist about position on current conflict"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2320,6 +2350,26 @@
         "example_text": "Qatar's top diplomat said on Tuesday that Iran should not use the Strait of Hormuz as a means to blackmail Gulf countries or as a 'weapon'.",
         "example_url": "https://www.france24.com/en/middle-east/20260512-middle-east-live-us-iran-talks-deadlocked-strait-of-hormuz-still-closed",
         "unbiased_text": "Qatar's top diplomat said on Tuesday that Iran should not use control of the Strait of Hormuz to pressure Gulf countries economically."
+      },
+      {
+        "pattern": "Ceasefire life support metaphor urgency",
+        "detail": "Using medical metaphors like 'life support' for diplomatic agreements creates artificial urgency and frames negotiations as terminal patient scenarios.",
+        "debias": "Describe ceasefire status with factual assessments of compliance and violations without dramatic medical analogies.",
+        "date_added": "2026-05-13",
+        "status": "suggested",
+        "example_text": "Trump says Iran ceasefire on 'life support' after rejecting Tehran counteroffer",
+        "example_url": "https://www.france24.com/en/middle-east/20260511-trump-says-iran-ceasefire-on-life-support-after-rejecting-tehran-counteroffer",
+        "unbiased_text": "Trump says Iran ceasefire is fragile after rejecting Tehran counteroffer"
+      },
+      {
+        "pattern": "Blackmail accusation through diplomatic statement",
+        "detail": "Quoting third-party characterizations of actions as 'blackmail' without attribution markers frames the accusation as factual assessment.",
+        "debias": "Attribute characterizations like 'blackmail' clearly to their source and balance with the accused party's framing.",
+        "date_added": "2026-05-13",
+        "status": "suggested",
+        "example_text": "Qatar's top diplomat said on Tuesday that Iran should not use the Strait of Hormuz as a means to blackmail Gulf countries or as a 'weapon'.",
+        "example_url": "https://www.france24.com/en/middle-east/20260512-middle-east-live-us-iran-talks-deadlocked-strait-of-hormuz-still-closed",
+        "unbiased_text": "Qatar's top diplomat said on Tuesday that Iran should not use the Strait of Hormuz to pressure Gulf countries, characterizing such actions as 'blackmail'."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -3623,6 +3673,26 @@
         "example_text": "'Smear campaign': Ushuaia rejects claims it was ground zero for Hantavirus outbreak",
         "example_url": "http://www.euronews.com/health/2026/05/12/smear-campaign-ushuaia-rejects-claims-it-was-ground-zero-for-hantavirus-outbreak",
         "unbiased_text": "Ushuaia authorities dispute claims linking the city to the hantavirus outbreak origin"
+      },
+      {
+        "pattern": "Monopoly breaking advocacy insertion",
+        "detail": "Including corporate calls to 'break monopolies' as factual reporting rather than commercial advocacy embeds one party's competitive position as public interest.",
+        "debias": "Present corporate competitive complaints as business disputes without adopting the framing of one side's advocacy language.",
+        "date_added": "2026-05-13",
+        "status": "suggested",
+        "example_text": "Low-cost airline accuses airport operator Fraport of keeping for itself the tax cut decided by the Greek government and calls on Greece to 'break Fraport's monopoly'.",
+        "example_url": "http://www.euronews.com/travel/2026/05/13/ryanair-issues-angry-statement-against-fraport-greece-for-thessaloniki-and-the-german-mono",
+        "unbiased_text": "Low-cost airline accuses airport operator Fraport of not passing on the tax cut decided by the Greek government and disputes Fraport's market position."
+      },
+      {
+        "pattern": "Toxic brand assertion without attribution",
+        "detail": "Reporting that a brand is 'toxic' as a business reason without quotation marks or clear attribution presents subjective characterization as objective fact.",
+        "debias": "Attribute characterizations like 'toxic' clearly to their source and present as claimed reason rather than established fact.",
+        "date_added": "2026-05-13",
+        "status": "suggested",
+        "example_text": "Australian property developer says Trump hotel plan scrapped due to 'toxic' brand",
+        "example_url": "http://www.euronews.com/2026/05/13/australian-property-developer-says-trump-hotel-plan-scrapped-due-to-toxic-brand",
+        "unbiased_text": "Australian property developer cites what it calls the 'toxic' Trump brand as reason for scrapping hotel plan"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
