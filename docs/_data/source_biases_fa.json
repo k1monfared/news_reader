@@ -1471,6 +1471,106 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/13/activist-confronts-irans-former-crown-prince-over-war-on-iran?traffic_source=rss",
         "unbiased_text": "ولیعهد سابق ایران توسط فعالی درباره موضع وی در قبال درگیری جاری مورد پرسش قرار گرفت",
         "pattern_en": "Activist confrontation elevation framing"
+      },
+      {
+        "pattern": "ادعای بیهودگی حقوق بین‌الملل",
+        "detail": "چارچوب‌بندی حقوق بین‌الملل به‌عنوان نهادی که ذاتاً ناتوان از جلوگیری از جنایات دسته‌جامع است، از طریق پرسش‌های لفاظی‌گرایانه در تیترها.",
+        "debias": "گزارش واقعی از مکانیسم‌های حقوق بین‌الملل بدون پیش‌فرض گرفتن ناکارآمدی آن‌ها.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "چرا حقوق بین‌الملل نمی‌تواند جنایات دسته‌جامع را متوقف کند",
+        "example_url": "https://www.aljazeera.com/video/all-hail/2026/5/14/why-international-law-cant-stop-mass-atrocities?traffic_source=rss",
+        "unbiased_text": "نقش و محدودیت‌های حقوق بین‌الملل در جلوگیری از جنایات دسته‌جامع",
+        "pattern_en": "International law futility assertion"
+      },
+      {
+        "pattern": "تحت‌الشعاع قرار دادن رویدادها از طریق ساختار تیتر",
+        "detail": "چارچوب‌بندی رویدادهای دیپلماتیک مهم به‌عنوان کم‌اهمیت یا منحرف‌شده توسط درگیری‌های دیگر از طریق ساختار «تحت‌الشعاع قرار گرفتن توسط».",
+        "debias": "به‌صورت مستقل درباره رویدادها گزارش دهید یا رابطه آن‌ها را بدون چارچوب‌بندی سلسله‌مراتبی توصیف کنید.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "نشست بریکس تحت‌الشعاع جنگ با ایران قرار گرفت",
+        "example_url": "https://www.aljazeera.com/video/2026/5/14/brics-meeting-overshadowed-by-war-on-iran?traffic_source=rss",
+        "unbiased_text": "نشست بریکس در حالی برگزار می‌شود که جنگ با ایران ادامه دارد",
+        "pattern_en": "Event overshadowing through headline structure"
+      },
+      {
+        "pattern": "تأکید بر موانع بوروکراتیک در ورزش",
+        "detail": "برجسته‌سازی تأخیرهای اداری به‌عنوان موانع بالقوه برای شرکت در رویدادهای ورزشی با فوریت زمانی.",
+        "debias": "وضعیت ویزا را به‌صورت واقعی گزارش کنید بدون تأکید بر فشار شمارش معکوس مگر اینکه به‌عنوان مشکل تأیید شده باشد.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "ایران هنوز کمتر از یک ماه مانده به جام جهانی منتظر ویزای آمریکاست",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/14/iran-still-waiting-on-us-visas-for-world-cup-2026?traffic_source=rss",
+        "unbiased_text": "تیم جام جهانی ایران در انتظار پردازش ویزای آمریکا پیش از برگزاری مسابقات است",
+        "pattern_en": "Bureaucratic obstacle emphasis in sports"
+      },
+      {
+        "pattern": "تشدید بحران برنامه‌ریزی رویدادهای ورزشی",
+        "detail": "قاب‌بندی تعارضات لجستیکی بین رویدادهای ورزشی به‌عنوان آشفتگی یا بحران سیستماتیک به‌جای مسائل برنامه‌ریزی.",
+        "debias": "تعارضات برنامه‌ریزی را به‌عنوان مسائل لجستیکی بدون استفاده از واژگان بحران‌زا گزارش کنید.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "پایان سری آ در هرج‌ومرج، که با تداخل با فینال تنیس اوپن ایتالیا بدتر شده است",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/14/serie-a-fixtures-in-chaos-for-final-weekend-extending-italy-football-crisis?traffic_source=rss",
+        "unbiased_text": "آخرین هفته سری آ با تعارض برنامه‌ریزی با فینال تنیس اوپن ایتالیا روبه‌رو است",
+        "pattern_en": "Sports scheduling crisis amplification"
+      },
+      {
+        "pattern": "علیت فروپاشی دولت به دلیل حادثه جزئی",
+        "detail": "نسبت دادن استعفاهای سیاسی به حوادث جزئی خاص به جای زمینه سیاسی گسترده‌تر.",
+        "debias": "استعفاها را با زمینه سیاسی کامل گزارش کنید نه با علیت تک‌حادثه‌ای.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "نخست‌وزیر لتونی پس از حادثه پهپاد استعفا می‌دهد",
+        "example_url": "https://www.aljazeera.com/news/2026/5/14/latvian-prime-minister-resigns-after-drone-incident?traffic_source=rss",
+        "unbiased_text": "نخست‌وزیر لتونی در میان نگرانی‌های امنیتی از جمله حوادث اخیر پهپاد استعفا می‌دهد",
+        "pattern_en": "Minor incident government collapse causation"
+      },
+      {
+        "pattern": "قاب‌بندی رقابتی برتری‌جویانه در روابط",
+        "detail": "تأکید بر اعلامیه‌های اهمیت روابط به‌عنوان ادعاهای رقابتی از طریق نقل‌قول عبارات «مهم‌ترین».",
+        "debias": "بیانیه‌های دیپلماتیک را بدون تأکید بر قاب‌بندی رقابتی برتری‌جویانه گزارش کنید.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "ترامپ و شی «مهم‌ترین» رابطه را ستایش می‌کنند",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/14/trump-and-xi-hail-most-important-relationship?traffic_source=rss",
+        "unbiased_text": "ترامپ و شی بر اهمیت روابط آمریکا و چین تأکید می‌کنند",
+        "pattern_en": "Relationship superlative competitive framing"
+      },
+      {
+        "pattern": "ساخت روایت بازگشت پیشگامانه",
+        "detail": "قاب‌بندی بازگشت از بازنشستگی چهره‌های برجسته به‌عنوان رویدادهایی بسیار مورد انتظار از طریق توصیف‌کننده‌های ستایش‌آمیز.",
+        "debias": "گزارش بازگشت به مسابقات را به‌صورت واقعی و بدون زبان تبلیغاتی انجام دهید.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "رزمی‌کاران هنرهای رزمی مختلط پیشگام پس از بازنشستگی طولانی برای مبارزه‌ای بسیار مورد انتظار که از Netflix نمایش داده می‌شود، بازمی‌گردند.",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/14/ronda-rousey-vs-gina-carano-netflix-mma-fight-card-start-how-to-watch?traffic_source=rss",
+        "unbiased_text": "رزمی‌کاران هنرهای رزمی مختلط Ronda Rousey و Gina Carano از بازنشستگی بازمی‌گردند برای مبارزه‌ای در Netflix.",
+        "detail_items": [],
+        "pattern_en": "Trailblazer comeback narrative construction"
+      },
+      {
+        "pattern": "چیدمان چالش رهبری با تسویه‌حساب مالیاتی",
+        "detail": "قاب‌بندی اعلامیه‌های تسویه‌حساب مالیاتی به‌عنوان عاملی که از طریق ساختار «هموار کردن راه» امکان چالش‌های سیاسی را فراهم می‌کند.",
+        "debias": "گزارش تسویه‌حساب‌ها و تحولات احتمالی سیاسی را به‌طور جداگانه و بدون پیوند علّی ارائه دهید.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "رینر می‌گوید که توسط HMRC تبرئه شده است و این امر راه را برای یک چالش احتمالی رهبری حزب کارگر هموار می‌کند.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/14/labours-angela-rayner-says-she-has-been-cleared-over-uk-tax-affairs?traffic_source=rss",
+        "unbiased_text": "رینر می‌گوید که توسط HMRC در امور مالیاتی تبرئه شده است.",
+        "pattern_en": "Tax clearance leadership challenge setup"
+      },
+      {
+        "pattern": "قربانی‌سازی از طریق فریب در درگیری",
+        "detail": "چارچوب‌بندی استخدام خارجی برای خدمت نظامی به عنوان به دام انداختن فریبکارانه از طریق زبان «فریب دادن به».",
+        "debias": "شرایط استخدام را به صورت واقعی گزارش کنید بدون پیش‌فرض قرار دادن فریب.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "زیمبابوه‌ای‌هایی که به جنگ روسیه فریب خوردند در حالی که خانواده‌ها برای بازگشت آنها التماس می‌کنند",
+        "example_url": "https://www.aljazeera.com/features/2026/5/14/zimbabweans-lured-into-russias-war-as-families-plead-for-their-return?traffic_source=rss",
+        "unbiased_text": "زیمبابوه‌ای‌هایی که برای جنگیدن در جنگ روسیه استخدام شده‌اند در حالی که خانواده‌ها خواستار بازگشت آنها هستند",
+        "pattern_en": "Lured into conflict victimization"
       }
     ]
   },
@@ -2601,6 +2701,72 @@
         "example_url": "https://www.france24.com/en/middle-east/20260512-middle-east-live-us-iran-talks-deadlocked-strait-of-hormuz-still-closed",
         "unbiased_text": "دیپلمات ارشد قطر روز سه‌شنبه گفت که ایران نباید از تنگه هرمز برای اعمال فشار بر کشورهای خلیج‌فارس استفاده کند و چنین اقداماتی را «باج‌خواهی» توصیف کرد.",
         "pattern_en": "Blackmail accusation through diplomatic statement"
+      },
+      {
+        "pattern": "پارادوکس تأیید اقدام مخفیانه",
+        "detail": "گزارش‌دهی درباره اقدامات مخفیانه ادعایی در حالی که بر مخفی بودن و فقدان تأیید آن‌ها تأکید می‌شود، تنش ذاتی اعتبار ایجاد می‌کند.",
+        "debias": "اقدامات مخفیانه ادعایی را با استناد روشن و اذعان به وضعیت تأیید نشده گزارش دهید.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "امارات متحده عربی و عربستان سعودی در آوریل به طور مخفیانه یک سری حملات هوایی علیه ایران را در جریان جنگ آمریکا و اسرائیل علیه تهران انجام دادند، که Wall Street Journal و Reuters این هفته گزارش کردند.",
+        "example_url": "https://www.france24.com/en/middle-east/20260514-why-did-saudi-arabia-and-the-uae-allegedly-carry-out-secret-bombing-raids-iran",
+        "unbiased_text": "Wall Street Journal و Reuters این هفته گزارش دادند که امارات متحده عربی و عربستان سعودی گویا در آوریل حملات هوایی علیه ایران را در جریان درگیری آمریکا و اسرائیل با تهران انجام داده‌اند، هرچند هیچ یک از این دو کشور این گزارش‌ها را تأیید نکرده‌اند.",
+        "pattern_en": "Secret action verification paradox"
+      },
+      {
+        "pattern": "القای زمان‌بندی نابسامانی انتخاباتی",
+        "detail": "تأکید بر فاصله زمانی از آخرین انتخابات برای القای نابسامانی یا عدم مشروعیت بدون اتهام صریح.",
+        "debias": "گزارش زمان‌بندی انتخابات را به‌صورت واقعی و بدون القای نابهنجاری از طریق تأکید بر مدت زمان ارائه دهید.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "حزب فتح قرار است کمیته مرکزی جدید خود را برای اولین بار در ۱۰ سال انتخاب کند.",
+        "example_url": "https://www.france24.com/en/the-fatah-party-elects-new-central-commitee-for-the-first-time-in-10-years",
+        "unbiased_text": "حزب فتح در حال برگزاری انتخابات برای کمیته مرکزی خود است.",
+        "pattern_en": "Electoral dysfunction timing insinuation"
+      },
+      {
+        "pattern": "قاب‌بندی انحلال ائتلاف و انتخابات زودهنگام",
+        "detail": "قاب‌بندی پیشنهادهای انحلال پارلمان به عنوان تصرف کنترل به جای رویه استاندارد قانون‌گذاری.",
+        "debias": "پیشنهادهای انحلال را به عنوان اقدامات قانون‌گذاری بدون زبان تصرف کنترل گزارش دهید.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "ائتلاف حاکم نخست‌وزیر اسرائیل بنیامین نتانیاهو روز چهارشنبه با ارائه طرحی برای انحلال زودهنگام پارلمان اسرائیل، کنترل جدول زمانی انتخابات را به دست گرفت",
+        "example_url": "https://www.france24.com/en/netanyahu-s-coalition-seeks-to-dissolve-parliament-and-trigger-early-election-in-israel",
+        "unbiased_text": "ائتلاف حاکم نخست‌وزیر اسرائیل بنیامین نتانیاهو روز چهارشنبه طرحی برای انحلال زودهنگام پارلمان اسرائیل ارائه کرد",
+        "pattern_en": "Coalition dissolution early election framing"
+      },
+      {
+        "pattern": "تأکید بر تناقض «علی‌رغم مذاکرات جاری»",
+        "detail": "ساختاردهی تیترها به گونه‌ای که اقدامات صورت‌گرفته در طول مذاکرات را ذاتاً متناقض یا تضعیف‌کننده نشان دهد.",
+        "debias": "گزارش رویدادهای همزمان بدون القای تناقض خودکار بین دیپلماسی و اقدامات نظامی.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "اسرائیل حملات تازه‌ای را علیه لبنان علی‌رغم آتش‌بس و مذاکرات جاری آغاز می‌کند",
+        "example_url": "https://www.france24.com/en/israel-launches-fresh-strikes-on-lebanon-despite-ceasifre-and-ongoing-talks",
+        "unbiased_text": "اسرائیل حملات تازه‌ای را علیه لبنان آغاز می‌کند در حالی که مذاکرات آتش‌بس ادامه دارد",
+        "pattern_en": "Despite-ongoing-talks contradiction emphasis"
+      },
+      {
+        "pattern": "دوگانگی سطحی-عمقی سیاست خاندانی",
+        "detail": "رد تفسیرهای سطحی رویدادها برای پیشنهاد روایت‌های پنهان عمیق‌تر از طریق ساختار «در نگاه اول».",
+        "debias": "تفسیرهای متعدد را بدون اولویت دادن به خوانش‌های توطئه‌گرایانه عمیق‌تر ارائه دهید.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "در نگاه اول، جنجال پیرامون تلاش ادعایی محمود عباس برای ارتقای پسرش به رهبری عالی فتح، داستانی آشنا از سیاست خاندانی به نظر می‌رسد. اما به گفته دکتر مصطفی، داستان واقعی بسیار عمیق‌تر است.",
+        "example_url": "https://www.france24.com/en/video/20260514-who-will-rule-over-palestine-after-mahmoud-abbas-his-son-elevated-to-top-leadership",
+        "unbiased_text": "جنجال پیرامون تلاش ادعایی محمود عباس برای ارتقای پسرش به رهبری عالی فتح، تحلیل پویایی‌های جانشینی در درون این جنبش را برانگیخته است.",
+        "pattern_en": "Dynastic politics surface-depth dichotomy"
+      },
+      {
+        "pattern": "قاب‌بندی خطای تحقیقات مقدماتی",
+        "detail": "گزارش یافته‌های تحقیقات مقدماتی نظامی مبنی بر وجود خطا با استفاده از عبارت «به گفته» که ادعا را تقویت می‌کند در حالی که از آن فاصله می‌گیرد.",
+        "debias": "یافته‌های تحقیقات را با وضعیت روشن به‌عنوان مقدماتی و قابل بازبینی بیشتر گزارش کنید.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "به گفته رسانه‌های آمریکایی، یک تحقیق مقدماتی نظامی آمریکا دریافته است که حمله به اشتباه انجام شده است: هدف واقعی یک پایگاه نظامی سپاه پاسداران انقلاب اسلامی در مجاورت بوده است.",
+        "example_url": "https://www.france24.com/en/iranians-mourn-children-killed-in-us-bombing-of-school",
+        "unbiased_text": "رسانه‌های آمریکایی گزارش دادند که یک تحقیق مقدماتی نظامی آمریکا در حال بررسی این موضوع است که آیا حمله به هدفی غیرعمدی اصابت کرده است، با یک پایگاه نظامی سپاه پاسداران انقلاب اسلامی در مجاورت به‌عنوان هدف مورد نظر.",
+        "pattern_en": "Preliminary investigation error framing"
       }
     ]
   },
@@ -4054,6 +4220,61 @@
         "example_url": "http://www.euronews.com/2026/05/13/australian-property-developer-says-trump-hotel-plan-scrapped-due-to-toxic-brand",
         "unbiased_text": "توسعه‌دهنده املاک استرالیایی به آنچه برند «سمی» Trump می‌نامد به عنوان دلیل لغو طرح هتل اشاره می‌کند",
         "pattern_en": "Toxic brand assertion without attribution"
+      },
+      {
+        "pattern": "قاب‌بندی رقابتی برتری در هوش مصنوعی فیزیکی",
+        "detail": "قاب‌بندی توسعه فناوری به‌عنوان رقابت ملی برای کسب «برتری» در حوزه‌های نوظهور.",
+        "debias": "گزارش توسعه فناوری بدون قاب‌بندی ناسیونالیستی رقابتی.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "این پروژه منعکس‌کننده جاه‌طلبی گسترده‌تر کره جنوبی برای تبدیل صنعت تراشه، قدرت تولیدی و دانش صنعتی خود به برتری در «هوش مصنوعی فیزیکی» است. اما آیا می‌تواند در حوزه‌ای که هنوز تحت سلطه ایالات متحده و چین است، به آنها برسد؟",
+        "example_url": "http://www.euronews.com/next/2026/05/14/inside-the-korean-hotel-training-humanoid-robots-with-cameras-on-workers-hands",
+        "unbiased_text": "این پروژه منعکس‌کننده توسعه قابلیت‌های هوش مصنوعی فیزیکی کره جنوبی با استفاده از صنعت تراشه و تخصص تولیدی این کشور است.",
+        "pattern_en": "Physical AI edge competitive framing"
+      },
+      {
+        "pattern": "قاب‌بندی وارونگی سیاست به‌عنوان سیگنال متناقض",
+        "detail": "توصیف تغییرات سیاسی به‌عنوان ارسال سیگنال‌های متناقض، زمانی که حرکتی در جهت مخالف وجود دارد.",
+        "debias": "تغییرات سیاسی و روندهای بازار را به‌طور جداگانه گزارش کنید بدون توصیف آن‌ها به‌عنوان متناقض.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "«سیگنال متناقض»: آلمان قانون گرمایش تجدیدپذیر را لغو می‌کند درست زمانی که پمپ‌های حرارتی شتاب می‌گیرند",
+        "example_url": "http://www.euronews.com/2026/05/14/contradictory-signal-germany-scraps-renewable-heating-law-just-as-heat-pumps-gain-momentum",
+        "unbiased_text": "آلمان قانون گرمایش تجدیدپذیر را لغو می‌کند در حالی که فروش پمپ‌های حرارتی افزایش می‌یابد",
+        "pattern_en": "Contradictory signal policy reversal framing"
+      },
+      {
+        "pattern": "اجازه عملی از طریق توصیف قانون",
+        "detail": "توصیف قانونگذاری به عنوان اجازه دادن اقدامات به صورت «عملی» برای القای هدفی فراتر از هدف اعلام‌شده.",
+        "debias": "قانونگذاری را بر اساس هدف اعلام‌شده آن گزارش کنید بدون اینکه اجازه‌های اعلام‌نشده را استنباط کنید.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "دومای دولتی روسیه قانونی را تصویب کرد که استفاده از نیروهای مسلح «برای حفاظت از شهروندان روسی در خارج از کشور» را مجاز می‌کند، که عملاً به ولادیمیر پوتین اجازه حمله به کشورهای دیگر را می‌دهد.",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/14/russian-parliament-approves-law-allowing-putin-to-invade-other-countries",
+        "unbiased_text": "دومای دولتی روسیه قانونی را تصویب کرد که استفاده از نیروهای مسلح «برای حفاظت از شهروندان روسی در خارج از کشور» را مجاز می‌کند.",
+        "pattern_en": "De facto permission through law description"
+      },
+      {
+        "pattern": "مشخص کردن روش کاهش جمعیت زندان",
+        "detail": "نسبت دادن کاهش جمعیت زندان به روش‌های خاص و بحث‌برانگیز در تیتر خبر.",
+        "debias": "گزارش آمار جمعیت زندان با زمینه کامل عوامل مؤثر.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "جمعیت زندان‌های روسیه ۴۰٪ کاهش یافته است، تا حدی با فرستادن محکومان برای جنگیدن در اوکراین",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/14/russias-prison-population-falls-by-40-partly-by-sending-convicts-to-fight-in-ukraine",
+        "unbiased_text": "جمعیت زندان‌های روسیه طی ۲۰ سال ۴۰٪ کاهش یافته است، با کاهش‌های اخیر از جمله استخدام محکومان برای خدمت نظامی",
+        "pattern_en": "Prison population reduction method specification"
+      },
+      {
+        "pattern": "لفاظی مارپیچ جنگ هوش مصنوعی",
+        "detail": "استفاده از استعاره‌های مارپیچی یا آبشاری برای توصیف کاربردهای نظامی هوش مصنوعی به عنوان ذاتاً تشدیدکننده.",
+        "debias": "گزارش نگرانی‌های نظامی هوش مصنوعی بدون استعاره‌هایی که تشدید اجتناب‌ناپذیر را پیش‌فرض می‌گیرند.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "پاپ افزایش جنگ‌های هدایت‌شده با هوش مصنوعی را محکوم می‌کند و می‌گوید که به مارپیچ نابودی منجر می‌شود",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/14/pope-decries-rise-of-ai-directed-warfare-saying-it-leads-to-a-spiral-of-annihilation",
+        "unbiased_text": "پاپ جنگ‌های هدایت‌شده با هوش مصنوعی را نقد می‌کند و درباره خطرات آن برای بشریت هشدار می‌دهد",
+        "pattern_en": "AI warfare spiral rhetoric"
       }
     ]
   }

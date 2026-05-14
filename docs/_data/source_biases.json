@@ -1326,6 +1326,96 @@
         "example_text": "Activist confronts Iran's former crown prince over war on Iran",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/13/activist-confronts-irans-former-crown-prince-over-war-on-iran?traffic_source=rss",
         "unbiased_text": "Iran's former crown prince questioned by activist about position on current conflict"
+      },
+      {
+        "pattern": "International law futility assertion",
+        "detail": "Framing international law as inherently incapable of preventing atrocities through rhetorical questioning in headlines.",
+        "debias": "Report on international law mechanisms factually without presupposing their ineffectiveness.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "Why international law can't stop mass atrocities",
+        "example_url": "https://www.aljazeera.com/video/all-hail/2026/5/14/why-international-law-cant-stop-mass-atrocities?traffic_source=rss",
+        "unbiased_text": "The role and limitations of international law in preventing mass atrocities"
+      },
+      {
+        "pattern": "Event overshadowing through headline structure",
+        "detail": "Framing major diplomatic events as diminished or distracted by other conflicts through 'overshadowed by' construction.",
+        "debias": "Report on events independently or describe their relationship without hierarchical framing.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "BRICS meeting overshadowed by war on Iran",
+        "example_url": "https://www.aljazeera.com/video/2026/5/14/brics-meeting-overshadowed-by-war-on-iran?traffic_source=rss",
+        "unbiased_text": "BRICS meeting takes place as war with Iran continues"
+      },
+      {
+        "pattern": "Bureaucratic obstacle emphasis in sports",
+        "detail": "Highlighting administrative delays as potential barriers to participation in sporting events with timing urgency.",
+        "debias": "Report visa status factually without emphasizing countdown pressure unless confirmed as problematic.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "Iran still waiting for US visas less than a month before World Cup",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/14/iran-still-waiting-on-us-visas-for-world-cup-2026?traffic_source=rss",
+        "unbiased_text": "Iran's World Cup team awaits US visa processing ahead of tournament"
+      },
+      {
+        "pattern": "Sports scheduling crisis amplification",
+        "detail": "Framing logistical conflicts between sporting events as systematic chaos or crisis rather than scheduling issues.",
+        "debias": "Report scheduling conflicts as logistical matters without crisis language.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "Serie A finish in chaos, worsened by clash with Italian Open tennis final",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/14/serie-a-fixtures-in-chaos-for-final-weekend-extending-italy-football-crisis?traffic_source=rss",
+        "unbiased_text": "Serie A final weekend faces scheduling conflict with Italian Open tennis final"
+      },
+      {
+        "pattern": "Minor incident government collapse causation",
+        "detail": "Attributing political resignations to specific minor incidents rather than broader political context.",
+        "debias": "Report resignations with full political context rather than single-incident causation.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "Latvian prime minister resigns after drone incident",
+        "example_url": "https://www.aljazeera.com/news/2026/5/14/latvian-prime-minister-resigns-after-drone-incident?traffic_source=rss",
+        "unbiased_text": "Latvian prime minister resigns amid security concerns including recent drone incidents"
+      },
+      {
+        "pattern": "Relationship superlative competitive framing",
+        "detail": "Emphasizing declarations of relationship importance as competitive claims through quotation of 'most important' language.",
+        "debias": "Report diplomatic statements without emphasizing superlative competitive framing.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "Trump and Xi hail 'most important' relationship",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/14/trump-and-xi-hail-most-important-relationship?traffic_source=rss",
+        "unbiased_text": "Trump and Xi emphasize importance of US-China relationship"
+      },
+      {
+        "pattern": "Trailblazer comeback narrative construction",
+        "detail": "Framing returns from retirement by notable figures as highly-anticipated events through laudatory descriptors.",
+        "debias": "Report on returns to competition factually without promotional language.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "Trailblazing mixed martial arts fighters end lengthy retirements for highly-anticipated bout to be shown on Netflix.",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/14/ronda-rousey-vs-gina-carano-netflix-mma-fight-card-start-how-to-watch?traffic_source=rss",
+        "unbiased_text": "Mixed martial arts fighters Ronda Rousey and Gina Carano return from retirement for bout on Netflix."
+      },
+      {
+        "pattern": "Tax clearance leadership challenge setup",
+        "detail": "Framing tax clearance announcements as enabling political challenges through 'paving the way' construction.",
+        "debias": "Report clearances and potential political developments separately without causal linkage.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "Rayner says she has been cleared by HMRC, paving the way for a potential Labour leadership challenge.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/14/labours-angela-rayner-says-she-has-been-cleared-over-uk-tax-affairs?traffic_source=rss",
+        "unbiased_text": "Rayner says she has been cleared by HMRC over tax affairs."
+      },
+      {
+        "pattern": "Lured into conflict victimization",
+        "detail": "Framing foreign recruitment for military service as deceptive entrapment through 'lured into' language.",
+        "debias": "Report recruitment circumstances factually without presupposing deception.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "Zimbabweans lured into Russia's war as families plead for their return",
+        "example_url": "https://www.aljazeera.com/features/2026/5/14/zimbabweans-lured-into-russias-war-as-families-plead-for-their-return?traffic_source=rss",
+        "unbiased_text": "Zimbabweans recruited to fight in Russia's war as families seek their return"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2370,6 +2460,66 @@
         "example_text": "Qatar's top diplomat said on Tuesday that Iran should not use the Strait of Hormuz as a means to blackmail Gulf countries or as a 'weapon'.",
         "example_url": "https://www.france24.com/en/middle-east/20260512-middle-east-live-us-iran-talks-deadlocked-strait-of-hormuz-still-closed",
         "unbiased_text": "Qatar's top diplomat said on Tuesday that Iran should not use the Strait of Hormuz to pressure Gulf countries, characterizing such actions as 'blackmail'."
+      },
+      {
+        "pattern": "Secret action verification paradox",
+        "detail": "Reporting on alleged secret actions while emphasizing their secrecy and lack of confirmation creates inherent credibility tension.",
+        "debias": "Report alleged secret actions with clear attribution and acknowledgment of unverified status.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "The United Arab Emirates and Saudi Arabia in April secretly carried out a series of air strikes against Iran during the US-Israeli war against Tehran, the Wall Street Journal and Reuters reported this week.",
+        "example_url": "https://www.france24.com/en/middle-east/20260514-why-did-saudi-arabia-and-the-uae-allegedly-carry-out-secret-bombing-raids-iran",
+        "unbiased_text": "The Wall Street Journal and Reuters reported this week that the United Arab Emirates and Saudi Arabia allegedly carried out air strikes against Iran in April during the US-Israeli conflict with Tehran, though neither country has confirmed these reports."
+      },
+      {
+        "pattern": "Electoral dysfunction timing insinuation",
+        "detail": "Emphasizing the interval since last elections to suggest dysfunction or illegitimacy without explicit accusation.",
+        "debias": "Report electoral timing factually without implying impropriety through emphasis on duration.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "The Fatah party is due to elect its new central committee for the first time in 10 years.",
+        "example_url": "https://www.france24.com/en/the-fatah-party-elects-new-central-commitee-for-the-first-time-in-10-years",
+        "unbiased_text": "The Fatah party is holding elections for its central committee."
+      },
+      {
+        "pattern": "Coalition dissolution early election framing",
+        "detail": "Framing parliamentary dissolution proposals as seizing control rather than standard legislative procedure.",
+        "debias": "Report dissolution proposals as legislative actions without control-seizure language.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "Israeli Prime Minister Benjamin Netanyahu's ruling coalition seized control of the electoral timetable on Wednesday by submitting a motion to dissolve Israel's parliament early",
+        "example_url": "https://www.france24.com/en/netanyahu-s-coalition-seeks-to-dissolve-parliament-and-trigger-early-election-in-israel",
+        "unbiased_text": "Israeli Prime Minister Benjamin Netanyahu's ruling coalition submitted a motion to dissolve Israel's parliament early on Wednesday"
+      },
+      {
+        "pattern": "Despite-ongoing-talks contradiction emphasis",
+        "detail": "Structuring headlines to emphasize actions occurring during negotiations as inherently contradictory or undermining.",
+        "debias": "Report concurrent events without implying automatic contradiction between diplomacy and military actions.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "Israel launches fresh strikes on Lebanon despite ceasifre and ongoing talks",
+        "example_url": "https://www.france24.com/en/israel-launches-fresh-strikes-on-lebanon-despite-ceasifre-and-ongoing-talks",
+        "unbiased_text": "Israel launches fresh strikes on Lebanon as ceasefire negotiations continue"
+      },
+      {
+        "pattern": "Dynastic politics surface-depth dichotomy",
+        "detail": "Dismissing surface interpretations of events to suggest deeper hidden narratives through 'at first glance' construction.",
+        "debias": "Present multiple interpretations without privileging deeper conspiracy readings.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "At first glance, the controversy surrounding Mahmoud Abbas's alleged attempt to elevate his son into Fatah's top leadership appears to be a familiar story of dynastic politics. But according to Dr. Mustafa, the real story runs much deeper.",
+        "example_url": "https://www.france24.com/en/video/20260514-who-will-rule-over-palestine-after-mahmoud-abbas-his-son-elevated-to-top-leadership",
+        "unbiased_text": "The controversy surrounding Mahmoud Abbas's alleged attempt to elevate his son into Fatah's top leadership has prompted analysis of succession dynamics within the movement."
+      },
+      {
+        "pattern": "Preliminary investigation error framing",
+        "detail": "Reporting preliminary military investigations finding errors with 'according to' attribution that distances the claim while amplifying it.",
+        "debias": "Report investigation findings with clear status as preliminary and subject to further review.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "According to US media, a preliminary American military investigation found that the strike was made in error: the actual target was an adjacent Islamic Revolutionary Guards Military Base.",
+        "example_url": "https://www.france24.com/en/iranians-mourn-children-killed-in-us-bombing-of-school",
+        "unbiased_text": "US media reported that a preliminary American military investigation is examining whether the strike hit an unintended target, with an adjacent Islamic Revolutionary Guards Military Base as the intended objective."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -3693,6 +3843,56 @@
         "example_text": "Australian property developer says Trump hotel plan scrapped due to 'toxic' brand",
         "example_url": "http://www.euronews.com/2026/05/13/australian-property-developer-says-trump-hotel-plan-scrapped-due-to-toxic-brand",
         "unbiased_text": "Australian property developer cites what it calls the 'toxic' Trump brand as reason for scrapping hotel plan"
+      },
+      {
+        "pattern": "Physical AI edge competitive framing",
+        "detail": "Framing technological development as national competition for 'edge' in emerging fields.",
+        "debias": "Report technological development without competitive nationalism framing.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "The project reflects South Korea's wider ambition to turn its chip industry, manufacturing strength and industrial know-how into an edge in 'physical AI'. But can it catch up in a field still dominated by the US and China?",
+        "example_url": "http://www.euronews.com/next/2026/05/14/inside-the-korean-hotel-training-humanoid-robots-with-cameras-on-workers-hands",
+        "unbiased_text": "The project reflects South Korea's development of physical AI capabilities using its chip industry and manufacturing expertise."
+      },
+      {
+        "pattern": "Contradictory signal policy reversal framing",
+        "detail": "Characterizing policy changes as sending contradictory signals when momentum exists in opposing direction.",
+        "debias": "Report policy changes and market trends separately without characterizing as contradictory.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "'Contradictory signal': Germany scraps renewable heating law just as heat pumps gain momentum",
+        "example_url": "http://www.euronews.com/2026/05/14/contradictory-signal-germany-scraps-renewable-heating-law-just-as-heat-pumps-gain-momentum",
+        "unbiased_text": "Germany scraps renewable heating law as heat pump sales increase"
+      },
+      {
+        "pattern": "De facto permission through law description",
+        "detail": "Describing legislation as permitting actions 'de facto' to suggest intent beyond stated purpose.",
+        "debias": "Report legislation based on its stated purpose without inferring unstated permissions.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "Russia's State Duma approved a law allowing the use of the armed forces \"to protect Russian citizens abroad,\" which de facto permits Vladimir Putin to invade other countries.",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/14/russian-parliament-approves-law-allowing-putin-to-invade-other-countries",
+        "unbiased_text": "Russia's State Duma approved a law allowing the use of armed forces \"to protect Russian citizens abroad.\""
+      },
+      {
+        "pattern": "Prison population reduction method specification",
+        "detail": "Attributing prison population decreases partly to specific controversial methods in headline.",
+        "debias": "Report prison population statistics with full context of contributing factors.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "Russia's prison population falls by 40%, partly by sending convicts to fight in Ukraine",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/14/russias-prison-population-falls-by-40-partly-by-sending-convicts-to-fight-in-ukraine",
+        "unbiased_text": "Russia's prison population falls by 40% over 20 years, with recent decreases including recruitment of convicts for military service"
+      },
+      {
+        "pattern": "AI warfare spiral rhetoric",
+        "detail": "Using metaphors of spiraling or cascading to describe AI military applications as inherently escalatory.",
+        "debias": "Report on AI military concerns without metaphors that presuppose inevitable escalation.",
+        "date_added": "2026-05-14",
+        "status": "suggested",
+        "example_text": "Pope decries rise of AI-directed warfare, saying it leads to a spiral of annihilation",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/14/pope-decries-rise-of-ai-directed-warfare-saying-it-leads-to-a-spiral-of-annihilation",
+        "unbiased_text": "Pope criticizes AI-directed warfare, warning of dangers to humanity"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
