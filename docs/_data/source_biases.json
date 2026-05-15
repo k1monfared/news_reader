@@ -1416,6 +1416,56 @@
         "example_text": "Zimbabweans lured into Russia's war as families plead for their return",
         "example_url": "https://www.aljazeera.com/features/2026/5/14/zimbabweans-lured-into-russias-war-as-families-plead-for-their-return?traffic_source=rss",
         "unbiased_text": "Zimbabweans recruited to fight in Russia's war as families seek their return"
+      },
+      {
+        "pattern": "Anniversary displacement permanence framing",
+        "detail": "Emphasizing multi-generational refugee status through anniversary commemoration to assert perpetual displacement rather than resettlement.",
+        "debias": "Report displacement figures without generational continuity framing that presumes permanent refugee identity.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "78 years ago, 800,000 Palestinians were displaced by zionist militias. Today, their grandchildren are still refugees.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/15/78-years-later-palestinians-are-still-denied-their-right-to-return?traffic_source=rss",
+        "unbiased_text": "78 years ago, 800,000 Palestinians were displaced during the 1948 Arab-Israeli War. Their descendants number in the millions today."
+      },
+      {
+        "pattern": "Summit disagreement foregrounding",
+        "detail": "Leading with what parties disagreed on rather than what they agreed to, emphasizing diplomatic failure over progress.",
+        "debias": "Present both agreements and disagreements with equal prominence when summarizing diplomatic meetings.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "US touted trade deals; China said it warned Washington over Taiwan. Neither side confirmed the other's claims.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/15/trump-xi-summit-china-us-disagree-on-what-they-agreed-on?traffic_source=rss",
+        "unbiased_text": "The US and China announced trade deals following the summit, though the two sides offered different accounts of discussions on Taiwan."
+      },
+      {
+        "pattern": "Injury-despite-selection contradiction emphasis",
+        "detail": "Highlighting a player's injury problems or lack of playing time while noting their selection, creating doubt about merit-based decisions.",
+        "debias": "Report player selections without emphasizing contradictory fitness concerns unless they affect tournament participation.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "The country's top goalscorer has not started for Napoli this season and made just seven substitute appearances.",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/15/lukaku-included-in-belgiums-world-cup-squad-despite-injury-plagued-season?traffic_source=rss",
+        "unbiased_text": "Belgium's top international goalscorer Lukaku has been included in the World Cup squad after recovering from injury."
+      },
+      {
+        "pattern": "Bloc disunity amplification through meeting collapse",
+        "detail": "Emphasizing organizational dysfunction by highlighting repeated meeting failures without joint statements due to internal disagreements.",
+        "debias": "Report organizational disagreements without counting sequential failures to imply systemic collapse.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "Second BRICS meeting in a row collapses without joint position because of disagreements over the war on Iran.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/15/why-the-iran-conflict-is-becoming-a-problem-for-brics?traffic_source=rss",
+        "unbiased_text": "BRICS members were unable to agree on a joint statement regarding the Iran conflict at their recent meeting."
+      },
+      {
+        "pattern": "Wealth milestone celebratory athletic contextualization",
+        "detail": "Framing personal wealth achievements of athletes as newsworthy sports milestones rather than business or celebrity news.",
+        "debias": "Report athlete wealth stories in business or entertainment sections rather than framing them as sports achievements.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "Beckham and his wife Victoria's collective wealth reached the milestone this year, according to Sunday Times Rich List.",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/15/david-beckham-becomes-first-british-billionaire-sportsman?traffic_source=rss",
+        "unbiased_text": "Beckham and his wife Victoria's combined wealth reached one billion pounds, according to the Sunday Times Rich List."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2520,6 +2570,56 @@
         "example_text": "According to US media, a preliminary American military investigation found that the strike was made in error: the actual target was an adjacent Islamic Revolutionary Guards Military Base.",
         "example_url": "https://www.france24.com/en/iranians-mourn-children-killed-in-us-bombing-of-school",
         "unbiased_text": "US media reported that a preliminary American military investigation is examining whether the strike hit an unintended target, with an adjacent Islamic Revolutionary Guards Military Base as the intended objective."
+      },
+      {
+        "pattern": "Exception-only passage framing",
+        "detail": "Presenting passage rights as universal except for targeted entities, emphasizing exclusion over general policy.",
+        "debias": "Report passage policies stating who can pass rather than emphasizing who cannot.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "Iran's Foreign Minister Abbas Araghchi on Friday said all vessels can pass through the Strait of Hormuz, except those at war with Tehran.",
+        "example_url": "https://www.france24.com/en/middle-east/20260515-middle-east-live-trump-says-he-won-t-be-much-more-patient-with-iran",
+        "unbiased_text": "Iran's Foreign Minister Abbas Araghchi said vessels from countries not at war with Tehran can pass through the Strait of Hormuz."
+      },
+      {
+        "pattern": "Secret visit denial amplification",
+        "detail": "Giving equal or greater prominence to official denials of meetings than to initial claims, suggesting concealment.",
+        "debias": "Report visit claims and denials with attribution to sources without implying one version reveals hidden truth.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "Earlier, Israeli Prime Minister Benjamin Netanyahu had announced he had quietly visited the UAE during the Israeli-US war with Iran, though the UAE swiftly denied that any secret visit had occurred.",
+        "example_url": "https://www.france24.com/en/tv-shows/a-propos/20260514-abu-dhabi-doesn-t-want-to-appear-too-much-in-cooperation-with-israel-analyst-says",
+        "unbiased_text": "Israeli Prime Minister Benjamin Netanyahu said he visited the UAE during the war with Iran, but UAE officials said no such visit occurred."
+      },
+      {
+        "pattern": "Economic collapse enumeration escalation",
+        "detail": "Listing multiple economic hardship indicators in rapid succession to create cumulative crisis impression.",
+        "debias": "Report economic indicators separately or grouped by category rather than listing them to maximize alarm.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "Prices for some goods have tripled or quadrupled within a matter of months. At least two million people have lost their jobs, the currency has lost 60% of its value, the international internet has been shut down for more than 75 days, and there is no end in sight.",
+        "example_url": "https://www.france24.com/en/middle-east/20260514-iran-economy-collapse-internet-blackout-small-businesses-war-inflation",
+        "unbiased_text": "Iran's economy has been affected by inflation, unemployment, currency depreciation, and internet restrictions during the recent conflict."
+      },
+      {
+        "pattern": "Trial in-absentia futility insinuation",
+        "detail": "Noting that defendants are absent and being tried in absentia to suggest the proceedings lack legitimacy or effectiveness.",
+        "debias": "Report trials of absent defendants factually without suggesting their absence undermines judicial proceedings.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "A trial is underway in Damascus of Assad himself and his brother Maher, although neither are in the country and are being tried in absentia.",
+        "example_url": "https://www.france24.com/en/tv-shows/middle-east-matters/20260514-syria-prosecuting-assad-era-security-officials",
+        "unbiased_text": "Damascus courts have begun trials of Assad and his brother Maher, who are currently outside Syria."
+      },
+      {
+        "pattern": "Clandestine counterattack attribution narrative",
+        "detail": "Describing alleged military actions as secret counterattacks following prior strikes, creating action-reaction sequence without confirmation.",
+        "debias": "Report alleged military actions with clear attribution to sources and without presuming they were responses to specific prior events.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "Analysts say these raids – which neither country has confirmed – would have been clandestine counterattacks following Tehran's drone and missile strikes against Gulf state infrastructure.",
+        "example_url": "https://www.france24.com/en/middle-east/20260514-why-did-saudi-arabia-and-the-uae-allegedly-carry-out-secret-bombing-raids-iran",
+        "unbiased_text": "Reports suggest UAE and Saudi Arabia may have conducted air strikes on Iran in April, though neither country has confirmed this. Analysts note Iran previously struck Gulf infrastructure."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -3893,6 +3993,56 @@
         "example_text": "Pope decries rise of AI-directed warfare, saying it leads to a spiral of annihilation",
         "example_url": "http://www.euronews.com/my-europe/2026/05/14/pope-decries-rise-of-ai-directed-warfare-saying-it-leads-to-a-spiral-of-annihilation",
         "unbiased_text": "Pope criticizes AI-directed warfare, warning of dangers to humanity"
+      },
+      {
+        "pattern": "Disappearance verb choice catastrophism",
+        "detail": "Using present progressive disappearing rather than shrinking to suggest complete erasure rather than gradual reduction.",
+        "debias": "Use precise verbs like shrinking or declining rather than disappearing when describing gradual environmental changes.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "The world's largest lake is disappearing – and it's taking ecosystems and livelihoods with it",
+        "example_url": "http://www.euronews.com/2026/05/15/the-worlds-largest-lake-is-shrinking-can-central-asian-nations-save-it-before-its-too-late",
+        "unbiased_text": "The world's largest lake is shrinking, affecting ecosystems and livelihoods in the region."
+      },
+      {
+        "pattern": "Futuristic venue superlative promotional labeling",
+        "detail": "Using promotional language like most futuristic venue in headlines for commercial venue announcements.",
+        "debias": "Describe venue features factually without promotional superlatives when reporting commercial developments.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "A large, shiny orb, prominent on Abu Dhabi's desert skyline, is soon to become its next defining feature.",
+        "example_url": "http://www.euronews.com/culture/2026/05/15/sphere-abu-dhabi-the-worlds-most-futuristic-venue-is-heading-to-yas-island",
+        "unbiased_text": "Abu Dhabi plans to build a large spherical entertainment venue on Yas Island, similar to the Sphere in Las Vegas."
+      },
+      {
+        "pattern": "Sports riot government building targeting escalation",
+        "detail": "Highlighting that riots spread to target government buildings to elevate sports violence into political crisis.",
+        "debias": "Report sports violence incidents factually without emphasizing political dimensions unless directly relevant.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "Fans rioted after a disputed referee decision ended a Libyan league match in Tarhunah, with violence spreading to Tripoli where the Government of National Unity's headquarters was set on fire.",
+        "example_url": "http://www.euronews.com/2026/05/15/libya-football-riots-spread-to-tripoli-as-fans-torch-government-building",
+        "unbiased_text": "Riots broke out in Libya following a disputed referee decision, with violence spreading from Tarhunah to Tripoli where buildings were damaged."
+      },
+      {
+        "pattern": "Airline ranking European absence emphasis",
+        "detail": "Highlighting that no European airlines achieved top rankings to suggest regional competitive decline.",
+        "debias": "Report airline rankings with geographical distribution factually without emphasizing regional absences as failures.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "Asian and Middle Eastern carriers have once again dominated Skytrax's prestigious 5-star airline rankings, with no European airline earning a place among the world's top-rated operators.",
+        "example_url": "http://www.euronews.com/travel/2026/05/15/the-world-has-10-five-star-airlines-and-none-are-european",
+        "unbiased_text": "Skytrax awarded its 5-star airline rating to 10 carriers, all based in Asia and the Middle East."
+      },
+      {
+        "pattern": "Viral moment political reading insertion",
+        "detail": "Interpreting casual celebrity interactions as politically significant moments requiring analysis.",
+        "debias": "Report celebrity political interactions factually without inserting significance to casual exchanges.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "When Donald Tusk met George and Amal Clooney this week during the ImpactCEE'26 conference in Poznan the moment swiftly went viral as the Polish leader ingratiated himself with the Hollywood star.",
+        "example_url": "http://www.euronews.com/culture/2026/05/15/my-name-is-donald-its-not-my-fault-what-did-polands-prime-minister-confess-to-the-clooneys",
+        "unbiased_text": "Polish Prime Minister Donald Tusk met actor George Clooney at a conference in Poznan, with video of their interaction shared widely on social media."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

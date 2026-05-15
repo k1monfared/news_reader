@@ -1571,6 +1571,63 @@
         "example_url": "https://www.aljazeera.com/features/2026/5/14/zimbabweans-lured-into-russias-war-as-families-plead-for-their-return?traffic_source=rss",
         "unbiased_text": "زیمبابوه‌ای‌هایی که برای جنگیدن در جنگ روسیه استخدام شده‌اند در حالی که خانواده‌ها خواستار بازگشت آنها هستند",
         "pattern_en": "Lured into conflict victimization"
+      },
+      {
+        "pattern": "قاب‌بندی دائمی جابه‌جایی از طریق بزرگداشت سالگرد",
+        "detail": "تأکید بر وضعیت پناهندگی چندنسلی از طریق بزرگداشت سالگرد برای اثبات جابه‌جایی دائمی به‌جای اسکان مجدد.",
+        "debias": "آمار جابه‌جایی را بدون قاب‌بندی تداوم نسلی که هویت دائمی پناهندگی را مفروض می‌گیرد، گزارش کنید.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "۷۸ سال پیش، ۸۰۰,۰۰۰ فلسطینی توسط شبه‌نظامیان صهیونیست آواره شدند. امروز، نوه‌های آنها هنوز پناهنده هستند.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/15/78-years-later-palestinians-are-still-denied-their-right-to-return?traffic_source=rss",
+        "unbiased_text": "۷۸ سال پیش، ۸۰۰,۰۰۰ فلسطینی در جریان جنگ اعراب و اسرائیل در سال ۱۹۴۸ آواره شدند. نوادگان آنها امروز میلیون‌ها نفر هستند.",
+        "detail_items": [],
+        "pattern_en": "Anniversary displacement permanence framing"
+      },
+      {
+        "pattern": "برجسته‌سازی اختلاف‌نظر در اجلاس",
+        "detail": "آغاز خبر با موضوعاتی که طرفین بر سر آن اختلاف دارند به‌جای آنچه توافق کرده‌اند، با تأکید بر شکست دیپلماتیک به‌جای پیشرفت.",
+        "debias": "هنگام خلاصه‌سازی نشست‌های دیپلماتیک، توافقات و اختلاف‌نظرها را با برجستگی یکسان ارائه دهید.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "آمریکا از توافقات تجاری سخن گفت؛ چین اعلام کرد که واشنگتن را درباره تایوان هشدار داده است. هیچ‌یک از دو طرف ادعاهای طرف دیگر را تأیید نکردند.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/15/trump-xi-summit-china-us-disagree-on-what-they-agreed-on?traffic_source=rss",
+        "unbiased_text": "آمریکا و چین پس از اجلاس، توافقات تجاری را اعلام کردند، اگرچه دو طرف گزارش‌های متفاوتی از گفت‌وگوها درباره تایوان ارائه دادند.",
+        "pattern_en": "Summit disagreement foregrounding"
+      },
+      {
+        "pattern": "تأکید بر تناقض مصدومیت-علی‌رغم-انتخاب",
+        "detail": "برجسته‌سازی مشکلات مصدومیت یا کمبود زمان بازی یک بازیکن در حالی که به انتخاب او اشاره می‌شود، و ایجاد تردید درباره تصمیمات مبتنی بر شایستگی.",
+        "debias": "انتخاب بازیکنان را بدون تأکید بر نگرانی‌های متناقض آمادگی جسمانی گزارش کنید، مگر اینکه بر مشارکت در تورنمنت تأثیر بگذارد.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "بهترین گلزن این کشور امسال برای Napoli بازی آغازگر نداشته و تنها هفت بار به‌عنوان بازیکن ذخیره به میدان رفته است.",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/15/lukaku-included-in-belgiums-world-cup-squad-despite-injury-plagued-season?traffic_source=rss",
+        "unbiased_text": "لوکاکو، بهترین گلزن تیم ملی بلژیک، پس از بهبودی از مصدومیت در فهرست تیم جام جهانی قرار گرفته است.",
+        "pattern_en": "Injury-despite-selection contradiction emphasis"
+      },
+      {
+        "pattern": "تقویت تصویر اختلاف درون بلوک از طریق فروپاشی جلسات",
+        "detail": "تأکید بر اختلال عملکرد سازمانی از طریق برجسته‌سازی شکست‌های مکرر جلسات بدون صدور بیانیه مشترک به دلیل اختلافات داخلی.",
+        "debias": "اختلافات سازمانی را بدون شمردن شکست‌های متوالی برای القای فروپاشی سیستماتیک گزارش دهید.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "دومین جلسه متوالی BRICS بدون موضع مشترک فروپاشید زیرا اختلافاتی بر سر جنگ علیه ایران وجود دارد.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/15/why-the-iran-conflict-is-becoming-a-problem-for-brics?traffic_source=rss",
+        "unbiased_text": "اعضای BRICS نتوانستند بر سر بیانیه مشترک درباره درگیری ایران در جلسه اخیر خود به توافق برسند.",
+        "pattern_en": "Bloc disunity amplification through meeting collapse"
+      },
+      {
+        "pattern": "زمینه‌سازی ورزشی جشن‌گونه برای نقاط عطف ثروت",
+        "detail": "قاب‌بندی دستاوردهای ثروت شخصی ورزشکاران به‌عنوان نقاط عطف خبری ورزشی به‌جای اخبار تجاری یا مشاهیر.",
+        "debias": "اخبار مربوط به ثروت ورزشکاران را در بخش‌های تجاری یا سرگرمی گزارش دهید به‌جای اینکه آن‌ها را به‌عنوان دستاوردهای ورزشی قاب‌بندی کنید.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "ثروت جمعی بکهام و همسرش ویکتوریا امسال به این نقطه عطف رسید، طبق فهرست ثروتمندان ساندی تایمز.",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/15/david-beckham-becomes-first-british-billionaire-sportsman?traffic_source=rss",
+        "unbiased_text": "ثروت ترکیبی بکهام و همسرش ویکتوریا به یک میلیارد پوند رسید، طبق فهرست ثروتمندان ساندی تایمز.",
+        "detail_items": [],
+        "pattern_en": "Wealth milestone celebratory athletic contextualization"
       }
     ]
   },
@@ -2767,6 +2824,63 @@
         "example_url": "https://www.france24.com/en/iranians-mourn-children-killed-in-us-bombing-of-school",
         "unbiased_text": "رسانه‌های آمریکایی گزارش دادند که یک تحقیق مقدماتی نظامی آمریکا در حال بررسی این موضوع است که آیا حمله به هدفی غیرعمدی اصابت کرده است، با یک پایگاه نظامی سپاه پاسداران انقلاب اسلامی در مجاورت به‌عنوان هدف مورد نظر.",
         "pattern_en": "Preliminary investigation error framing"
+      },
+      {
+        "pattern": "چارچوب‌بندی مبتنی بر استثنا",
+        "detail": "ارائه حقوق عبور به‌عنوان حقی جهانی به‌استثنای نهادهای هدف، با تأکید بر محرومیت به‌جای سیاست عمومی.",
+        "debias": "سیاست‌های عبور را با بیان این‌که چه کسانی می‌توانند عبور کنند گزارش دهید، نه با تأکید بر این‌که چه کسانی نمی‌توانند.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "عباس عراقچی، وزیر امور خارجه ایران، روز جمعه گفت که همه کشتی‌ها می‌توانند از تنگه هرمز عبور کنند، به‌جز آن‌هایی که با تهران در حال جنگ هستند.",
+        "example_url": "https://www.france24.com/en/middle-east/20260515-middle-east-live-trump-says-he-won-t-be-much-more-patient-with-iran",
+        "unbiased_text": "عباس عراقچی، وزیر امور خارجه ایران، گفت که کشتی‌های کشورهایی که با تهران در حال جنگ نیستند می‌توانند از تنگه هرمز عبور کنند.",
+        "detail_items": [],
+        "pattern_en": "Exception-only passage framing"
+      },
+      {
+        "pattern": "تقویت انکار بازدید محرمانه",
+        "detail": "اختصاص اهمیت برابر یا بیشتر به تکذیب‌های رسمی دیدارها نسبت به ادعاهای اولیه، که نشان‌دهنده پنهان‌کاری است.",
+        "debias": "گزارش ادعاهای بازدید و تکذیب‌ها با ارجاع به منابع بدون القای اینکه یک نسخه حقیقت پنهان را آشکار می‌کند.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "پیش‌تر، بنیامین نتانیاهو، نخست‌وزیر اسرائیل، اعلام کرده بود که به صورت محرمانه در جریان جنگ اسرائیل و آمریکا با ایران از امارات بازدید کرده است، هرچند امارات به سرعت وقوع چنین بازدید محرمانه‌ای را تکذیب کرد.",
+        "example_url": "https://www.france24.com/en/tv-shows/a-propos/20260514-abu-dhabi-doesn-t-want-to-appear-too-much-in-cooperation-with-israel-analyst-says",
+        "unbiased_text": "بنیامین نتانیاهو، نخست‌وزیر اسرائیل، گفت که در جریان جنگ با ایران از امارات بازدید کرده است، اما مقامات اماراتی گفتند چنین بازدیدی صورت نگرفته است.",
+        "pattern_en": "Secret visit denial amplification"
+      },
+      {
+        "pattern": "تشدید بحران با فهرست‌سازی فروپاشی اقتصادی",
+        "detail": "فهرست کردن چندین شاخص سختی اقتصادی به صورت پی‌درپی برای ایجاد تصویری از بحران انباشته.",
+        "debias": "شاخص‌های اقتصادی را به صورت جداگانه یا دسته‌بندی شده بر اساس موضوع گزارش دهید، نه به صورت فهرست‌وار برای بیشینه کردن هشدار.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "قیمت برخی کالاها ظرف چند ماه سه یا چهار برابر شده است. حداقل ۲ میلیون نفر شغل خود را از دست داده‌اند، ارزش پول ملی ۶۰٪ کاهش یافته، اینترنت بین‌المللی بیش از ۷۵ روز قطع بوده و پایانی در افق دیده نمی‌شود.",
+        "example_url": "https://www.france24.com/en/middle-east/20260514-iran-economy-collapse-internet-blackout-small-businesses-war-inflation",
+        "unbiased_text": "اقتصاد ایران تحت تأثیر تورم، بیکاری، کاهش ارزش پول ملی و محدودیت‌های اینترنتی در جریان درگیری اخیر قرار گرفته است.",
+        "detail_items": [],
+        "pattern_en": "Economic collapse enumeration escalation"
+      },
+      {
+        "pattern": "القای بی‌فایده بودن محاکمه غیابی",
+        "detail": "اشاره به غیبت متهمان و محاکمه آن‌ها در غیاب به منظور القای این نکته که روند دادرسی فاقد مشروعیت یا اثربخشی است.",
+        "debias": "محاکمه متهمان غایب را به صورت واقعی گزارش کنید بدون اینکه غیبت آن‌ها را به عنوان عاملی برای تضعیف روند قضایی نشان دهید.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "محاکمه‌ای در دمشق در جریان است که خود اسد و برادرش ماهر متهم هستند، اگرچه هیچ‌کدام در کشور حضور ندارند و به صورت غیابی محاکمه می‌شوند.",
+        "example_url": "https://www.france24.com/en/tv-shows/middle-east-matters/20260514-syria-prosecuting-assad-era-security-officials",
+        "unbiased_text": "دادگاه‌های دمشق محاکمه اسد و برادرش ماهر را آغاز کرده‌اند که در حال حاضر خارج از سوریه هستند.",
+        "pattern_en": "Trial in-absentia futility insinuation"
+      },
+      {
+        "pattern": "روایت انتساب ضدحمله مخفیانه",
+        "detail": "توصیف اقدامات نظامی ادعایی به‌عنوان ضدحمله‌های مخفی در پی حملات پیشین، ایجاد توالی عمل-واکنش بدون تأیید.",
+        "debias": "اقدامات نظامی ادعایی را با انتساب روشن به منابع و بدون پیش‌فرض قرار دادن آن‌ها به‌عنوان واکنش به رویدادهای خاص پیشین گزارش کنید.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "تحلیلگران می‌گویند این حملات – که هیچ‌یک از کشورها آن‌ها را تأیید نکرده‌اند – ضدحمله‌های مخفیانه در پی حملات پهپادی و موشکی تهران علیه زیرساخت‌های کشورهای حاشیه خلیج فارس بوده است.",
+        "example_url": "https://www.france24.com/en/middle-east/20260514-why-did-saudi-arabia-and-the-uae-allegedly-carry-out-secret-bombing-raids-iran",
+        "unbiased_text": "گزارش‌ها نشان می‌دهد امارات متحده عربی و عربستان سعودی ممکن است در آوریل حملات هوایی به ایران انجام داده باشند، هرچند هیچ‌یک از کشورها این موضوع را تأیید نکرده‌اند. تحلیلگران اشاره می‌کنند ایران پیش‌تر به زیرساخت‌های خلیج فارس حمله کرده بود.",
+        "pattern_en": "Clandestine counterattack attribution narrative"
       }
     ]
   },
@@ -4275,6 +4389,61 @@
         "example_url": "http://www.euronews.com/my-europe/2026/05/14/pope-decries-rise-of-ai-directed-warfare-saying-it-leads-to-a-spiral-of-annihilation",
         "unbiased_text": "پاپ جنگ‌های هدایت‌شده با هوش مصنوعی را نقد می‌کند و درباره خطرات آن برای بشریت هشدار می‌دهد",
         "pattern_en": "AI warfare spiral rhetoric"
+      },
+      {
+        "pattern": "فاجعه‌سازی در انتخاب فعل ناپدید شدن",
+        "detail": "استفاده از عبارت «در حال ناپدید شدن» به‌جای «کوچک شدن» برای القای محو کامل به‌جای کاهش تدریجی.",
+        "debias": "هنگام توصیف تغییرات تدریجی زیست‌محیطی، از افعال دقیق مانند «کوچک شدن» یا «کاهش یافتن» به‌جای «ناپدید شدن» استفاده کنید.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "بزرگ‌ترین دریاچه جهان در حال ناپدید شدن است – و اکوسیستم‌ها و معیشت‌ها را با خود می‌برد",
+        "example_url": "http://www.euronews.com/2026/05/15/the-worlds-largest-lake-is-shrinking-can-central-asian-nations-save-it-before-its-too-late",
+        "unbiased_text": "بزرگ‌ترین دریاچه جهان در حال کوچک شدن است و بر اکوسیستم‌ها و معیشت‌های منطقه تأثیر می‌گذارد.",
+        "pattern_en": "Disappearance verb choice catastrophism"
+      },
+      {
+        "pattern": "برچسب‌گذاری تبلیغاتی با صفت برترین برای مکان‌های آینده‌نگر",
+        "detail": "استفاده از زبان تبلیغاتی مانند آینده‌نگرترین مکان در تیترها برای اعلام مکان‌های تجاری.",
+        "debias": "ویژگی‌های مکان را به صورت واقعی و بدون صفات برتری تبلیغاتی هنگام گزارش توسعه‌های تجاری توصیف کنید.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "یک کره بزرگ و براق که در افق بیابانی ابوظبی برجسته است، به زودی به ویژگی تعریف‌کننده بعدی آن تبدیل خواهد شد.",
+        "example_url": "http://www.euronews.com/culture/2026/05/15/sphere-abu-dhabi-the-worlds-most-futuristic-venue-is-heading-to-yas-island",
+        "unbiased_text": "ابوظبی قصد دارد یک مکان سرگرمی کروی بزرگ در جزیره یاس بسازد که شبیه به Sphere در لاس‌وگاس است.",
+        "pattern_en": "Futuristic venue superlative promotional labeling"
+      },
+      {
+        "pattern": "تشدید خشونت ورزشی با هدف قرار دادن ساختمان‌های دولتی",
+        "detail": "تأکید بر گسترش شورش‌ها به سمت ساختمان‌های دولتی برای تبدیل خشونت ورزشی به بحران سیاسی.",
+        "debias": "حوادث خشونت ورزشی را به‌صورت واقعی گزارش کنید بدون تأکید بر ابعاد سیاسی، مگر آنکه مستقیماً مرتبط باشد.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "هواداران پس از یک تصمیم مناقشه‌برانگیز داوری که به پایان مسابقه لیگ لیبی در ترهونه انجامید، دست به شورش زدند و خشونت به طرابلس گسترش یافت جایی که مقر دولت وحدت ملی به آتش کشیده شد.",
+        "example_url": "http://www.euronews.com/2026/05/15/libya-football-riots-spread-to-tripoli-as-fans-torch-government-building",
+        "unbiased_text": "شورش‌هایی در لیبی پس از یک تصمیم مناقشه‌برانگیز داوری رخ داد و خشونت از ترهونه به طرابلس گسترش یافت جایی که ساختمان‌ها آسیب دیدند.",
+        "pattern_en": "Sports riot government building targeting escalation"
+      },
+      {
+        "pattern": "تأکید بر غیبت اروپایی‌ها در رتبه‌بندی خطوط هوایی",
+        "detail": "برجسته‌سازی این‌که هیچ خط هوایی اروپایی به رتبه‌های برتر دست نیافته است تا افول رقابتی منطقه‌ای را القا کند.",
+        "debias": "رتبه‌بندی خطوط هوایی را همراه با توزیع جغرافیایی به‌صورت واقعی گزارش دهید بدون آنکه غیبت منطقه‌ای را به‌عنوان شکست برجسته کنید.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "شرکت‌های هواپیمایی آسیایی و خاورمیانه‌ای یک‌بار دیگر بر رتبه‌بندی‌های معتبر ۵ ستاره‌ای Skytrax مسلط شده‌اند، در حالی که هیچ خط هوایی اروپایی جایگاهی در میان اپراتورهای برتر جهان به دست نیاورده است.",
+        "example_url": "http://www.euronews.com/travel/2026/05/15/the-world-has-10-five-star-airlines-and-none-are-european",
+        "unbiased_text": "Skytrax رتبه ۵ ستاره‌ای خطوط هوایی را به ۱۰ شرکت اعطا کرد که همگی در آسیا و خاورمیانه مستقر هستند.",
+        "pattern_en": "Airline ranking European absence emphasis"
+      },
+      {
+        "pattern": "درج تفسیر سیاسی از لحظات پرطرفدار",
+        "detail": "تفسیر تعاملات معمولی مشاهیر به‌عنوان لحظات سیاسی مهم که نیازمند تحلیل هستند.",
+        "debias": "تعاملات سیاسی مشاهیر را به‌صورت واقعی گزارش دهید بدون اینکه به مبادلات معمولی اهمیت خاصی بدهید.",
+        "date_added": "2026-05-15",
+        "status": "suggested",
+        "example_text": "زمانی که دونالد توسک این هفته در طول کنفرانس ImpactCEE'26 در پوزنان با جورج و امل کلونی دیدار کرد، این لحظه به‌سرعت پرطرفدار شد چراکه رهبر لهستانی خود را به ستاره هالیوود نزدیک کرد.",
+        "example_url": "http://www.euronews.com/culture/2026/05/15/my-name-is-donald-its-not-my-fault-what-did-polands-prime-minister-confess-to-the-clooneys",
+        "unbiased_text": "دونالد توسک، نخست‌وزیر لهستان، با بازیگر جورج کلونی در کنفرانسی در پوزنان دیدار کرد و ویدیوی تعامل آن‌ها به‌طور گسترده در رسانه‌های اجتماعی به اشتراک گذاشته شد.",
+        "pattern_en": "Viral moment political reading insertion"
       }
     ]
   }
