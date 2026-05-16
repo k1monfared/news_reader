@@ -1466,6 +1466,26 @@
         "example_text": "Beckham and his wife Victoria's collective wealth reached the milestone this year, according to Sunday Times Rich List.",
         "example_url": "https://www.aljazeera.com/sports/2026/5/15/david-beckham-becomes-first-british-billionaire-sportsman?traffic_source=rss",
         "unbiased_text": "Beckham and his wife Victoria's combined wealth reached one billion pounds, according to the Sunday Times Rich List."
+      },
+      {
+        "pattern": "Social media influence investment attribution",
+        "detail": "Attributing investment decisions to social media influencers rather than economic fundamentals or diaspora networks.",
+        "debias": "Report investment trends based on economic data and structural factors rather than social media influence claims.",
+        "date_added": "2026-05-16",
+        "status": "suggested",
+        "example_text": "Zimbabwean digital influencers appear to influence diaspora investment decisions through social media.",
+        "example_url": "https://www.aljazeera.com/features/2026/5/16/zimbabwes-diaspora-reshapes-real-estate-and-farming-investment-trends?traffic_source=rss",
+        "unbiased_text": "Zimbabwean diaspora members are investing in real estate and farming, with some using social media to share information about opportunities."
+      },
+      {
+        "pattern": "Mission complete career exit framing",
+        "detail": "Framing an athlete's departure as a completed mission rather than retirement, contract expiration, or transfer.",
+        "debias": "Report player departures with standard terminology about contracts, transfers, or career decisions without mission metaphors.",
+        "date_added": "2026-05-16",
+        "status": "suggested",
+        "example_text": "Robert Lewandowski to leave Barcelona with his 'mission complete'",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/16/robert-lewandowski-to-leave-barcelona-with-his-mission-complete?traffic_source=rss",
+        "unbiased_text": "Robert Lewandowski to leave Barcelona after three La Liga titles and Copa del Rey victory"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2620,6 +2640,16 @@
         "example_text": "Analysts say these raids – which neither country has confirmed – would have been clandestine counterattacks following Tehran's drone and missile strikes against Gulf state infrastructure.",
         "example_url": "https://www.france24.com/en/middle-east/20260514-why-did-saudi-arabia-and-the-uae-allegedly-carry-out-secret-bombing-raids-iran",
         "unbiased_text": "Reports suggest UAE and Saudi Arabia may have conducted air strikes on Iran in April, though neither country has confirmed this. Analysts note Iran previously struck Gulf infrastructure."
+      },
+      {
+        "pattern": "Weapon-depth specification precision",
+        "detail": "Including specific depth measurements in accident descriptions to add technical precision that implies investigative detail.",
+        "debias": "Report diving accidents with available facts without emphasizing technical depth specifications unless relevant to cause.",
+        "date_added": "2026-05-16",
+        "status": "suggested",
+        "example_text": "Five Italians died during the incident while reportedly \"attempting to explore caves at a depth of 50 metres,\" the Italian Ministry of Foreign Affairs said earlier this week.",
+        "example_url": "https://www.france24.com/en/tv-shows/a-propos/20260514-abu-dhabi-doesn-t-want-to-appear-too-much-in-cooperation-with-israel-analyst-says",
+        "unbiased_text": "Five Italians died during a cave diving incident in the Maldives, the Italian Ministry of Foreign Affairs said earlier this week."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -4043,6 +4073,36 @@
         "example_text": "When Donald Tusk met George and Amal Clooney this week during the ImpactCEE'26 conference in Poznan the moment swiftly went viral as the Polish leader ingratiated himself with the Hollywood star.",
         "example_url": "http://www.euronews.com/culture/2026/05/15/my-name-is-donald-its-not-my-fault-what-did-polands-prime-minister-confess-to-the-clooneys",
         "unbiased_text": "Polish Prime Minister Donald Tusk met actor George Clooney at a conference in Poznan, with video of their interaction shared widely on social media."
+      },
+      {
+        "pattern": "GDP-market cap equivalence sensationalism",
+        "detail": "Comparing individual company market capitalizations to national GDP figures to dramatize corporate size.",
+        "debias": "Report market valuations without comparing fundamentally different economic metrics like market cap and GDP.",
+        "date_added": "2026-05-16",
+        "status": "suggested",
+        "example_text": "Nvidia's market capitalisation ($5.7 trillion) has overtaken Germany's GDP ($5.45 trillion). The combined value of the five largest US companies now exceeds the total GDP of Europe's five largest economies.",
+        "example_url": "http://www.euronews.com/business/2026/05/16/nvidia-surpasses-germany-how-the-market-caps-of-tech-giants-compare-to-top-economies",
+        "unbiased_text": "Nvidia's market capitalisation has reached $5.7 trillion, making it one of the world's most valuable companies."
+      },
+      {
+        "pattern": "Hypothermia cause-of-death emphasis",
+        "detail": "Foregrounding medical cause of death in migration tragedy headlines rather than broader circumstances.",
+        "debias": "Report migration tragedies with focus on circumstances of crossing rather than clinical causes of death.",
+        "date_added": "2026-05-16",
+        "status": "suggested",
+        "example_text": "Baby dies of hypothermia as migrants reach Lampedusa overnight",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/16/migrants-arrive-overnight-in-lampedusa-newborn-dies-of-hypothermia-investigation-opened",
+        "unbiased_text": "Baby dies after Mediterranean crossing to Lampedusa"
+      },
+      {
+        "pattern": "Interdisciplinary validation narrative archaeology",
+        "detail": "Emphasizing interdisciplinary methodology as newsworthy validation for archaeological findings.",
+        "debias": "Report archaeological discoveries based on findings themselves rather than emphasizing methodological approaches.",
+        "date_added": "2026-05-16",
+        "status": "suggested",
+        "example_text": "Interdisciplinary work made it possible to identify the body of a doctor among the victims of the eruption of Vesuvius in 79 AD.",
+        "example_url": "http://www.euronews.com/culture/2026/05/15/extraordinary-discovery-in-pompeii-a-doctor-identified-thanks-to-his-instruments",
+        "unbiased_text": "Archaeologists identified the body of a doctor among the victims of the eruption of Vesuvius in 79 AD based on medical instruments found in a case."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

@@ -1628,6 +1628,28 @@
         "unbiased_text": "ثروت ترکیبی بکهام و همسرش ویکتوریا به یک میلیارد پوند رسید، طبق فهرست ثروتمندان ساندی تایمز.",
         "detail_items": [],
         "pattern_en": "Wealth milestone celebratory athletic contextualization"
+      },
+      {
+        "pattern": "انتساب سرمایه‌گذاری به تأثیرگذاران رسانه‌های اجتماعی",
+        "detail": "نسبت دادن تصمیمات سرمایه‌گذاری به اینفلوئنسرهای رسانه‌های اجتماعی به جای بنیان‌های اقتصادی یا شبکه‌های دیاسپورا.",
+        "debias": "گزارش روندهای سرمایه‌گذاری بر اساس داده‌های اقتصادی و عوامل ساختاری به جای ادعاهای مربوط به نفوذ رسانه‌های اجتماعی.",
+        "date_added": "2026-05-16",
+        "status": "suggested",
+        "example_text": "به نظر می‌رسد اینفلوئنسرهای دیجیتال زیمبابوه‌ای از طریق رسانه‌های اجتماعی بر تصمیمات سرمایه‌گذاری دیاسپورا تأثیر می‌گذارند.",
+        "example_url": "https://www.aljazeera.com/features/2026/5/16/zimbabwes-diaspora-reshapes-real-estate-and-farming-investment-trends?traffic_source=rss",
+        "unbiased_text": "اعضای دیاسپورای زیمبابوه در املاک و مستغلات و کشاورزی سرمایه‌گذاری می‌کنند و برخی از آن‌ها از رسانه‌های اجتماعی برای به اشتراک‌گذاری اطلاعات درباره فرصت‌ها استفاده می‌کنند.",
+        "pattern_en": "Social media influence investment attribution"
+      },
+      {
+        "pattern": "قاب‌بندی خروج شغلی به‌عنوان تکمیل ماموریت",
+        "detail": "قاب‌بندی خروج یک ورزشکار به‌عنوان تکمیل ماموریت به‌جای بازنشستگی، پایان قرارداد یا نقل‌وانتقال.",
+        "debias": "خروج بازیکنان را با اصطلاحات استاندارد درباره قراردادها، نقل‌وانتقالات یا تصمیمات شغلی بدون استعاره‌های ماموریتی گزارش کنید.",
+        "date_added": "2026-05-16",
+        "status": "suggested",
+        "example_text": "رابرت لواندوفسکی بارسلونا را با «تکمیل ماموریتش» ترک می‌کند",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/16/robert-lewandowski-to-leave-barcelona-with-his-mission-complete?traffic_source=rss",
+        "unbiased_text": "رابرت لواندوفسکی پس از کسب سه عنوان لالیگا و قهرمانی کوپا دل ری بارسلونا را ترک می‌کند",
+        "pattern_en": "Mission complete career exit framing"
       }
     ]
   },
@@ -2881,6 +2903,17 @@
         "example_url": "https://www.france24.com/en/middle-east/20260514-why-did-saudi-arabia-and-the-uae-allegedly-carry-out-secret-bombing-raids-iran",
         "unbiased_text": "گزارش‌ها نشان می‌دهد امارات متحده عربی و عربستان سعودی ممکن است در آوریل حملات هوایی به ایران انجام داده باشند، هرچند هیچ‌یک از کشورها این موضوع را تأیید نکرده‌اند. تحلیلگران اشاره می‌کنند ایران پیش‌تر به زیرساخت‌های خلیج فارس حمله کرده بود.",
         "pattern_en": "Clandestine counterattack attribution narrative"
+      },
+      {
+        "pattern": "دقت مشخصات عمق سلاح",
+        "detail": "گنجاندن اندازه‌گیری‌های دقیق عمق در توصیف حوادث برای افزودن دقت فنی که نشان‌دهنده جزئیات تحقیقاتی است.",
+        "debias": "حوادث غواصی را با حقایق موجود گزارش دهید بدون تأکید بر مشخصات فنی عمق، مگر اینکه به علت حادثه مرتبط باشد.",
+        "date_added": "2026-05-16",
+        "status": "suggested",
+        "example_text": "پنج ایتالیایی در جریان این حادثه جان خود را از دست دادند در حالی که گزارش شده بود «در تلاش برای کاوش غارها در عمق ۵۰ متری» بودند، وزارت امور خارجه ایتالیا اوایل این هفته اعلام کرد.",
+        "example_url": "https://www.france24.com/en/tv-shows/a-propos/20260514-abu-dhabi-doesn-t-want-to-appear-too-much-in-cooperation-with-israel-analyst-says",
+        "unbiased_text": "پنج ایتالیایی طی یک حادثه غواصی در غار در مالدیو جان خود را از دست دادند، وزارت امور خارجه ایتالیا اوایل این هفته اعلام کرد.",
+        "pattern_en": "Weapon-depth specification precision"
       }
     ]
   },
@@ -4444,6 +4477,40 @@
         "example_url": "http://www.euronews.com/culture/2026/05/15/my-name-is-donald-its-not-my-fault-what-did-polands-prime-minister-confess-to-the-clooneys",
         "unbiased_text": "دونالد توسک، نخست‌وزیر لهستان، با بازیگر جورج کلونی در کنفرانسی در پوزنان دیدار کرد و ویدیوی تعامل آن‌ها به‌طور گسترده در رسانه‌های اجتماعی به اشتراک گذاشته شد.",
         "pattern_en": "Viral moment political reading insertion"
+      },
+      {
+        "pattern": "هیجان‌آفرینی با برابری تولید ناخالص داخلی و ارزش بازار",
+        "detail": "مقایسه ارزش بازار شرکت‌های منفرد با ارقام تولید ناخالص داخلی کشورها برای نمایش دراماتیک اندازه شرکت‌ها.",
+        "debias": "ارزش‌گذاری بازار را بدون مقایسه شاخص‌های اقتصادی اساساً متفاوت مانند ارزش بازار و تولید ناخالص داخلی گزارش کنید.",
+        "date_added": "2026-05-16",
+        "status": "suggested",
+        "example_text": "ارزش بازار Nvidia (۵.۷ تریلیون دلار) از تولید ناخالص داخلی آلمان (۵.۴۵ تریلیون دلار) پیشی گرفته است. ارزش ترکیبی پنج شرکت بزرگ آمریکایی اکنون از مجموع تولید ناخالص داخلی پنج اقتصاد بزرگ اروپا بیشتر است.",
+        "example_url": "http://www.euronews.com/business/2026/05/16/nvidia-surpasses-germany-how-the-market-caps-of-tech-giants-compare-to-top-economies",
+        "unbiased_text": "ارزش بازار Nvidia به ۵.۷ تریلیون دلار رسیده و آن را به یکی از ارزشمندترین شرکت‌های جهان تبدیل کرده است.",
+        "pattern_en": "GDP-market cap equivalence sensationalism"
+      },
+      {
+        "pattern": "تأکید بر هیپوترمی به‌عنوان علت مرگ",
+        "detail": "برجسته‌سازی علت پزشکی مرگ در تیترهای فاجعه مهاجرت به‌جای شرایط گسترده‌تر.",
+        "debias": "فجایع مهاجرت را با تمرکز بر شرایط عبور به‌جای علل بالینی مرگ گزارش کنید.",
+        "date_added": "2026-05-16",
+        "status": "suggested",
+        "example_text": "نوزادی از هیپوترمی می‌میرد درحالی‌که مهاجران شبانه به لامپدوزا می‌رسند",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/16/migrants-arrive-overnight-in-lampedusa-newborn-dies-of-hypothermia-investigation-opened",
+        "unbiased_text": "نوزادی پس از عبور از دریای مدیترانه به لامپدوزا جان خود را از دست می‌دهد",
+        "pattern_en": "Hypothermia cause-of-death emphasis"
+      },
+      {
+        "pattern": "روایت باستان‌شناسی اعتبارسنجی میان‌رشته‌ای",
+        "detail": "تأکید بر روش‌شناسی میان‌رشته‌ای به‌عنوان اعتبارسنجی خبری برای یافته‌های باستان‌شناسی.",
+        "debias": "کشفیات باستان‌شناسی را بر اساس خود یافته‌ها گزارش کنید نه بر اساس تأکید بر رویکردهای روش‌شناختی.",
+        "date_added": "2026-05-16",
+        "status": "suggested",
+        "example_text": "کار میان‌رشته‌ای امکان شناسایی جسد یک پزشک را در میان قربانیان فوران وزوو در سال ۷۹ میلادی فراهم کرد.",
+        "example_url": "http://www.euronews.com/culture/2026/05/15/extraordinary-discovery-in-pompeii-a-doctor-identified-thanks-to-his-instruments",
+        "unbiased_text": "باستان‌شناسان جسد یک پزشک را در میان قربانیان فوران وزوو در سال ۷۹ میلادی بر اساس ابزارهای پزشکی یافت‌شده در یک جعبه شناسایی کردند.",
+        "detail_items": [],
+        "pattern_en": "Interdisciplinary validation narrative archaeology"
       }
     ]
   }
