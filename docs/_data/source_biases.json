@@ -1486,6 +1486,26 @@
         "example_text": "Robert Lewandowski to leave Barcelona with his 'mission complete'",
         "example_url": "https://www.aljazeera.com/sports/2026/5/16/robert-lewandowski-to-leave-barcelona-with-his-mission-complete?traffic_source=rss",
         "unbiased_text": "Robert Lewandowski to leave Barcelona after three La Liga titles and Copa del Rey victory"
+      },
+      {
+        "pattern": "Genocide declaration career benefit narrative",
+        "detail": "Framing public condemnation of alleged genocide as professionally advantageous rather than morally principled or career-risking.",
+        "debias": "Report career outcomes neutrally without implying that genocide condemnation is primarily motivated by professional calculation.",
+        "date_added": "2026-05-17",
+        "status": "suggested",
+        "example_text": "Javier Bardem says condemning the Gaza genocide has led to more work",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/17/javier-bardem-says-condemning-the-gaza-genocide-has-led-to-more-work?traffic_source=rss",
+        "unbiased_text": "Javier Bardem discusses professional impact of his public statements on Gaza conflict"
+      },
+      {
+        "pattern": "Geometry transformation military capability framing",
+        "detail": "Describing military strikes as fundamentally altering the spatial or conceptual framework of warfare itself.",
+        "debias": "Report military developments in concrete operational terms rather than abstract transformational language.",
+        "date_added": "2026-05-17",
+        "status": "suggested",
+        "example_text": "Israel's attacks on Doha and Tehran demonstrate a new capability that may make warfare more unpredictable.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/17/the-strike-that-changed-the-geometry-of-war?traffic_source=rss",
+        "unbiased_text": "Israel's attacks on Doha and Tehran demonstrated long-range strike capabilities."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2573,8 +2593,8 @@
       },
       {
         "pattern": "Dynastic politics surface-depth dichotomy",
-        "detail": "Dismissing surface interpretations of events to suggest deeper hidden narratives through 'at first glance' construction.",
-        "debias": "Present multiple interpretations without privileging deeper conspiracy readings.",
+        "detail": "Dismissing surface interpretations of events to suggest deeper hidden narratives through 'at first glance' construction. Also: Framing succession questions as superficial while asserting that deeper structural power dynamics are the real story.",
+        "debias": "Present multiple interpretations without privileging deeper conspiracy readings. Report succession debates and structural issues as distinct analytical layers without dismissing either as surface appearance.",
         "date_added": "2026-05-14",
         "status": "suggested",
         "example_text": "At first glance, the controversy surrounding Mahmoud Abbas's alleged attempt to elevate his son into Fatah's top leadership appears to be a familiar story of dynastic politics. But according to Dr. Mustafa, the real story runs much deeper.",
@@ -2603,8 +2623,8 @@
       },
       {
         "pattern": "Secret visit denial amplification",
-        "detail": "Giving equal or greater prominence to official denials of meetings than to initial claims, suggesting concealment.",
-        "debias": "Report visit claims and denials with attribution to sources without implying one version reveals hidden truth.",
+        "detail": "Giving equal or greater prominence to official denials of meetings than to initial claims, suggesting concealment. Also: Treating a denial of an alleged secret meeting as newsworthy evidence of the relationship's sensitivity rather than as refutation.",
+        "debias": "Report visit claims and denials with attribution to sources without implying one version reveals hidden truth. Report denials straightforwardly without implying that denial itself confirms the underlying claim.",
         "date_added": "2026-05-15",
         "status": "suggested",
         "example_text": "Earlier, Israeli Prime Minister Benjamin Netanyahu had announced he had quietly visited the UAE during the Israeli-US war with Iran, though the UAE swiftly denied that any secret visit had occurred.",
@@ -2650,6 +2670,16 @@
         "example_text": "Five Italians died during the incident while reportedly \"attempting to explore caves at a depth of 50 metres,\" the Italian Ministry of Foreign Affairs said earlier this week.",
         "example_url": "https://www.france24.com/en/tv-shows/a-propos/20260514-abu-dhabi-doesn-t-want-to-appear-too-much-in-cooperation-with-israel-analyst-says",
         "unbiased_text": "Five Italians died during a cave diving incident in the Maldives, the Italian Ministry of Foreign Affairs said earlier this week."
+      },
+      {
+        "pattern": "Active partner accusation escalation",
+        "detail": "Framing third-party states as actively participating in military operations based on diplomatic or economic relations rather than documented combat involvement.",
+        "debias": "Distinguish between diplomatic alignment, logistical support, and active military participation with specific evidence.",
+        "date_added": "2026-05-17",
+        "status": "suggested",
+        "example_text": "Iran's Foreign Minister Abbas Araghchi accused the United Arab Emirates on Thursday of playing an active role in the US-Israeli war against his country.",
+        "example_url": "https://www.france24.com/en/iran-accuses-united-arab-emirates-of-being-active-partner-in-us-israeli-war",
+        "unbiased_text": "Iran's Foreign Minister Abbas Araghchi accused the United Arab Emirates on Thursday of supporting the US and Israel in the conflict."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"

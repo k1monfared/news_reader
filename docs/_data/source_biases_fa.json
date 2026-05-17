@@ -1650,6 +1650,29 @@
         "example_url": "https://www.aljazeera.com/sports/2026/5/16/robert-lewandowski-to-leave-barcelona-with-his-mission-complete?traffic_source=rss",
         "unbiased_text": "رابرت لواندوفسکی پس از کسب سه عنوان لالیگا و قهرمانی کوپا دل ری بارسلونا را ترک می‌کند",
         "pattern_en": "Mission complete career exit framing"
+      },
+      {
+        "pattern": "روایت منفعت شغلی از اعلام نسل‌کشی",
+        "detail": "چارچوب‌بندی محکومیت عمومی نسل‌کشی ادعایی به‌عنوان امری سودمند از نظر حرفه‌ای به‌جای اینکه اصولی اخلاقی یا خطرساز برای شغل تلقی شود.",
+        "debias": "پیامدهای شغلی را به‌طور خنثی گزارش کنید بدون اینکه تلویحاً نشان دهید محکومیت نسل‌کشی عمدتاً از روی محاسبات حرفه‌ای انجام می‌شود.",
+        "date_added": "2026-05-17",
+        "status": "suggested",
+        "example_text": "خاویر باردم می‌گوید محکوم کردن نسل‌کشی غزه منجر به پیشنهادهای کاری بیشتری شده است",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/17/javier-bardem-says-condemning-the-gaza-genocide-has-led-to-more-work?traffic_source=rss",
+        "unbiased_text": "خاویر باردم درباره تأثیر حرفه‌ای اظهارات عمومی‌اش در مورد درگیری غزه صحبت می‌کند",
+        "pattern_en": "Genocide declaration career benefit narrative"
+      },
+      {
+        "pattern": "قاب‌بندی قابلیت نظامی با تحول هندسی",
+        "detail": "توصیف حملات نظامی به عنوان تغییر بنیادین در چارچوب فضایی یا مفهومی خود جنگ.",
+        "debias": "تحولات نظامی را به جای زبان انتزاعی و تحول‌گرایانه، با اصطلاحات عملیاتی مشخص گزارش دهید.",
+        "date_added": "2026-05-17",
+        "status": "suggested",
+        "example_text": "حملات اسرائیل به دوحه و تهران قابلیت جدیدی را نشان می‌دهد که ممکن است جنگ را غیرقابل پیش‌بینی‌تر کند.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/17/the-strike-that-changed-the-geometry-of-war?traffic_source=rss",
+        "unbiased_text": "حملات اسرائیل به دوحه و تهران قابلیت‌های حمله دوربرد را نشان داد.",
+        "detail_items": [],
+        "pattern_en": "Geometry transformation military capability framing"
       }
     ]
   },
@@ -2914,6 +2937,17 @@
         "example_url": "https://www.france24.com/en/tv-shows/a-propos/20260514-abu-dhabi-doesn-t-want-to-appear-too-much-in-cooperation-with-israel-analyst-says",
         "unbiased_text": "پنج ایتالیایی طی یک حادثه غواصی در غار در مالدیو جان خود را از دست دادند، وزارت امور خارجه ایتالیا اوایل این هفته اعلام کرد.",
         "pattern_en": "Weapon-depth specification precision"
+      },
+      {
+        "pattern": "تشدید اتهام مشارکت فعال شریک",
+        "detail": "قاب‌بندی کشورهای شخص ثالث به‌عنوان مشارکت‌کننده فعال در عملیات نظامی بر اساس روابط دیپلماتیک یا اقتصادی به‌جای مستندسازی دخالت رزمی واقعی.",
+        "debias": "تمایز بین همسویی دیپلماتیک، پشتیبانی لجستیکی و مشارکت فعال نظامی را با شواهد مشخص برقرار کنید.",
+        "date_added": "2026-05-17",
+        "status": "suggested",
+        "example_text": "عباس عراقچی، وزیر امور خارجه ایران، روز پنج‌شنبه امارات متحده عربی را متهم کرد که نقش فعالی در جنگ آمریکا و اسرائیل علیه کشورش ایفا می‌کند.",
+        "example_url": "https://www.france24.com/en/iran-accuses-united-arab-emirates-of-being-active-partner-in-us-israeli-war",
+        "unbiased_text": "عباس عراقچی، وزیر امور خارجه ایران، روز پنج‌شنبه امارات متحده عربی را به حمایت از آمریکا و اسرائیل در درگیری متهم کرد.",
+        "pattern_en": "Active partner accusation escalation"
       }
     ]
   },
