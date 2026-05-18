@@ -1506,6 +1506,36 @@
         "example_text": "Israel's attacks on Doha and Tehran demonstrate a new capability that may make warfare more unpredictable.",
         "example_url": "https://www.aljazeera.com/opinions/2026/5/17/the-strike-that-changed-the-geometry-of-war?traffic_source=rss",
         "unbiased_text": "Israel's attacks on Doha and Tehran demonstrated long-range strike capabilities."
+      },
+      {
+        "pattern": "Sector domination exclusivity framing",
+        "detail": "Frames industry as exclusively controlled by a small number of powers, emphasizing barriers to entry and geopolitical dominance rather than market dynamics.",
+        "debias": "Present industry entry as competitive challenge with technical and economic factors rather than exclusive geopolitical gatekeeping.",
+        "date_added": "2026-05-18",
+        "status": "suggested",
+        "example_text": "The agreement reflects India's ambition to enter a sector dominated by a handful of global powers.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/18/tata-asml-deal-how-significant-is-it-for-indias-semiconductor-push?traffic_source=rss",
+        "unbiased_text": "The agreement reflects India's ambition to enter the semiconductor sector, which requires substantial technological expertise and capital investment."
+      },
+      {
+        "pattern": "War maturation psychological framing",
+        "detail": "Attributes psychological significance to economic indicators during conflict, suggesting collective emotional dependence on market performance.",
+        "debias": "Report on economic indicators objectively without attributing collective psychological states to entire populations.",
+        "date_added": "2026-05-18",
+        "status": "suggested",
+        "example_text": "The capital market is not Iranian economy's main financing engine, but it still matters politically and psychologically.",
+        "example_url": "https://www.aljazeera.com/economy/2026/5/18/iran-eyes-challenging-stock-market-reopening-after-lengthy-war-closure?traffic_source=rss",
+        "unbiased_text": "The capital market is not Iran's main financing engine, but it still matters for political signaling and investor confidence."
+      },
+      {
+        "pattern": "Binary regional allegiance ultimatum",
+        "detail": "Frames regional policy choices as binary either-or decisions between two parties, erasing nuanced or multi-aligned options.",
+        "debias": "Present regional policy options as involving multiple stakeholders and complex trade-offs rather than forced binary choices.",
+        "date_added": "2026-05-18",
+        "status": "suggested",
+        "example_text": "The Gulf does not have to choose Iran or Israel. It has to choose stability or permanent war.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/18/the-gulf-does-not-have-to-choose-iran-or-israel?traffic_source=rss",
+        "unbiased_text": "Gulf states face complex regional security considerations involving multiple actors and interests."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2680,6 +2710,26 @@
         "example_text": "Iran's Foreign Minister Abbas Araghchi accused the United Arab Emirates on Thursday of playing an active role in the US-Israeli war against his country.",
         "example_url": "https://www.france24.com/en/iran-accuses-united-arab-emirates-of-being-active-partner-in-us-israeli-war",
         "unbiased_text": "Iran's Foreign Minister Abbas Araghchi accused the United Arab Emirates on Thursday of supporting the US and Israel in the conflict."
+      },
+      {
+        "pattern": "Application disclosure surveillance framing",
+        "detail": "Emphasizes bureaucratic disclosure requirements as mechanisms of control or monitoring, implying invasive oversight.",
+        "debias": "Report administrative requirements neutrally as standard regulatory procedures without surveillance implications.",
+        "date_added": "2026-05-18",
+        "status": "suggested",
+        "example_text": "It's not clear what the new body will do, but earlier this month Iranian media said vessels seeking transit would have to apply to it for a permit - disclosing ownership, insurance, crew, and cargo.",
+        "example_url": "https://www.france24.com/en/iran-sets-up-new-strait-of-hormuz-managing-body-amid-stalled-talks-with-us",
+        "unbiased_text": "The new body's functions are unclear, though reports indicate vessels may need to provide standard transit information including ownership, insurance, crew, and cargo details."
+      },
+      {
+        "pattern": "Truce scope exclusion emphasis",
+        "detail": "Highlights military actions that fall outside ceasefire terms to suggest agreement ineffectiveness or bad faith, rather than reporting scope clarity.",
+        "debias": "Report ceasefire terms and their scope clearly without implying violations when actions fall outside agreed parameters.",
+        "date_added": "2026-05-18",
+        "status": "suggested",
+        "example_text": "The announcement came even as Israel carried out new strikes in southern Lebanon that it insists are not subject to the truce.",
+        "example_url": "https://www.france24.com/en/israel-lebanon-extending-ceasefire-us-says-despite-new-israeli-strikes",
+        "unbiased_text": "The announcement came as Israel carried out strikes in southern Lebanon that fall outside the ceasefire's defined scope."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -4133,6 +4183,26 @@
         "example_text": "Interdisciplinary work made it possible to identify the body of a doctor among the victims of the eruption of Vesuvius in 79 AD.",
         "example_url": "http://www.euronews.com/culture/2026/05/15/extraordinary-discovery-in-pompeii-a-doctor-identified-thanks-to-his-instruments",
         "unbiased_text": "Archaeologists identified the body of a doctor among the victims of the eruption of Vesuvius in 79 AD based on medical instruments found in a case."
+      },
+      {
+        "pattern": "Fiscal flexibility crisis parity framing",
+        "detail": "Frames economic challenges as equivalent to security emergencies to justify relaxing budget constraints, creating crisis equivalence.",
+        "debias": "Report budget policy proposals on their merits without elevating economic issues to emergency crisis status for advocacy purposes.",
+        "date_added": "2026-05-18",
+        "status": "suggested",
+        "example_text": "Meloni urges EU to treat energy crisis like defence emergency, relax fiscal rules",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/18/meloni-urges-eu-to-treat-energy-crisis-like-defence-emergency-relax-fiscal-rules",
+        "unbiased_text": "Meloni calls for budget flexibility to address energy costs, proposing EU fiscal rule adjustments"
+      },
+      {
+        "pattern": "Visa absence diplomatic barrier narrative",
+        "detail": "Frames administrative processing delays as diplomatic obstacles or political barriers, implying intentional obstruction.",
+        "debias": "Report visa processing status factually as administrative matters without implying political obstruction unless explicitly documented.",
+        "date_added": "2026-05-18",
+        "status": "suggested",
+        "example_text": "Iran heads to World Cup training camp in Turkey with no US visas issued",
+        "example_url": "http://www.euronews.com/2026/05/18/iran-heads-to-world-cup-training-camp-in-turkey-with-no-us-visas-issued",
+        "unbiased_text": "Iran's team travels to Turkey training camp while awaiting US visa processing"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
