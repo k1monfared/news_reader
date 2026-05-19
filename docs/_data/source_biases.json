@@ -1536,6 +1536,46 @@
         "example_text": "The Gulf does not have to choose Iran or Israel. It has to choose stability or permanent war.",
         "example_url": "https://www.aljazeera.com/opinions/2026/5/18/the-gulf-does-not-have-to-choose-iran-or-israel?traffic_source=rss",
         "unbiased_text": "Gulf states face complex regional security considerations involving multiple actors and interests."
+      },
+      {
+        "pattern": "Geopolitical tool attribution framing",
+        "detail": "Characterizing routine diplomatic or commercial developments as calculated geopolitical instruments rather than neutral activities.",
+        "debias": "Report the development factually without attributing strategic intent unless explicitly stated by officials.",
+        "date_added": "2026-05-19",
+        "status": "suggested",
+        "example_text": "Experts say Israel is using the new flight as a geopolitical tool to cement its footprint in Latin America.",
+        "example_url": "https://www.aljazeera.com/economy/2026/5/19/flight-to-argentina-how-significant-is-it-for-israels-latam-outreach?traffic_source=rss",
+        "unbiased_text": "A new flight route between Israel and Argentina has been established, which experts say may strengthen commercial and diplomatic ties in Latin America."
+      },
+      {
+        "pattern": "Open-ended legitimacy question framing",
+        "detail": "Posing fundamental legitimacy questions as headlines without context, inviting reader doubt about established concepts.",
+        "debias": "Frame discussions of contested concepts with specific context rather than universal questioning.",
+        "date_added": "2026-05-19",
+        "status": "suggested",
+        "example_text": "Resistance: who gets to decide? Who decides if resistance is legitimate?",
+        "example_url": "https://www.aljazeera.com/video/doha-debates/2026/5/19/resistance-who-gets-to-decide?traffic_source=rss",
+        "unbiased_text": "Debate examines different perspectives on when armed resistance against governments is considered legitimate under international law."
+      },
+      {
+        "pattern": "Broadcasting rights struggle dramatization",
+        "detail": "Framing routine commercial negotiations over broadcasting rights as crisis or struggle narratives.",
+        "debias": "Report ongoing negotiations factually without crisis framing unless deals collapse after deadlines.",
+        "date_added": "2026-05-19",
+        "status": "suggested",
+        "example_text": "With the World Cup weeks away, FIFA is struggling to find broadcast rights buyers in the world's most populous country.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/19/why-has-fifa-not-signed-a-world-cup-broadcast-deal-in-india?traffic_source=rss",
+        "unbiased_text": "FIFA has not yet finalized broadcast rights for the World Cup in India, with negotiations continuing weeks before the tournament."
+      },
+      {
+        "pattern": "Hero martyrdom narrative construction",
+        "detail": "Framing deceased individuals as heroes through headline labeling and tribute emphasis rather than factual reporting.",
+        "debias": "Report the individual's actions and death factually, allowing readers to form their own assessments.",
+        "date_added": "2026-05-19",
+        "status": "suggested",
+        "example_text": "Who was Amin Abdullah, the 'hero' guard killed in San Diego shooting? Tributes have poured in for the guard, who was among the three people killed in the shooting at the San Diego mosque.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/19/who-was-amin-abdullah-the-hero-guard-killed-in-san-diego-shooting?traffic_source=rss",
+        "unbiased_text": "Amin Abdullah, a security guard killed in the San Diego mosque shooting, has been remembered by community members for his service."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2730,6 +2770,36 @@
         "example_text": "The announcement came even as Israel carried out new strikes in southern Lebanon that it insists are not subject to the truce.",
         "example_url": "https://www.france24.com/en/israel-lebanon-extending-ceasefire-us-says-despite-new-israeli-strikes",
         "unbiased_text": "The announcement came as Israel carried out strikes in southern Lebanon that fall outside the ceasefire's defined scope."
+      },
+      {
+        "pattern": "Pause claim attribution skepticism",
+        "detail": "Presenting a leader's claim about military action being paused with implicit doubt through framing as 'claim' or 'says' rather than reported fact.",
+        "debias": "Either verify the claim independently or present it as unconfirmed statement without editorializing the credibility.",
+        "date_added": "2026-05-19",
+        "status": "suggested",
+        "example_text": "After issuing thinly veiled threats against Iran over the weekend, US President Trump appeared to strike a different tone on May 18. He described ongoing peace talks with Tehran as 'very positive' and even claimed he had paused a planned US military strike.",
+        "example_url": "https://www.france24.com/en/trump-says-holding-off-on-strike-on-iran-at-request-of-gulf-allies",
+        "unbiased_text": "US President Trump stated he had postponed a planned military strike on Iran at the request of Gulf allies, describing ongoing negotiations as positive."
+      },
+      {
+        "pattern": "Strategy failure assertion framing",
+        "detail": "Declaring a diplomatic strategy has failed based on lack of immediate results rather than reporting ongoing negotiations neutrally.",
+        "debias": "Report the status of negotiations factually without declaring success or failure unless parties formally end talks.",
+        "date_added": "2026-05-19",
+        "status": "suggested",
+        "example_text": "Late on May 18, Donald Trump said he had called of strikes on Iran following advice from Gulf countries. This comes amid stalled talks between the US and Iran, with neither party willing to compromise on their demands... where the talks stand, and where the Gulf countries' interests lie after weeks of conflict.",
+        "example_url": "https://www.france24.com/en/stalled-us-iran-talks-show-trump-s-strategy-of-pressure-is-not-paying-off",
+        "unbiased_text": "US-Iran negotiations continue without agreement as of May 18, with both parties maintaining their initial positions after weeks of discussions."
+      },
+      {
+        "pattern": "Secret base exposure sensationalism",
+        "detail": "Emphasizing the secretive nature of military facilities through headline focus on concealment rather than strategic purpose.",
+        "debias": "Report military installations factually, focusing on operational purpose rather than secrecy as the primary angle.",
+        "date_added": "2026-05-19",
+        "status": "suggested",
+        "example_text": "Israel built two secret military bases in Iraq to aid Iran war, New York Times reports. A new report by the New York Times claims Israel built a second secret military base in Iraq's western desert to support its strikes on Iran",
+        "example_url": "https://www.france24.com/en/israel-built-two-secret-military-bases-in-iraq-to-aid-iran-war-new-york-times-reports",
+        "unbiased_text": "According to the New York Times, Israel established two military bases in Iraq to support operations against Iran, with US knowledge of the installations."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -4203,6 +4273,36 @@
         "example_text": "Iran heads to World Cup training camp in Turkey with no US visas issued",
         "example_url": "http://www.euronews.com/2026/05/18/iran-heads-to-world-cup-training-camp-in-turkey-with-no-us-visas-issued",
         "unbiased_text": "Iran's team travels to Turkey training camp while awaiting US visa processing"
+      },
+      {
+        "pattern": "Cultural preference shift catastrophism",
+        "detail": "Framing gradual consumer preference changes as shocking cultural upheavals requiring dramatic exclamations.",
+        "debias": "Report consumption trend changes factually with context and data rather than cultural crisis framing.",
+        "date_added": "2026-05-19",
+        "status": "suggested",
+        "example_text": "For the first time in France's recorded history, beer has overtaken wine as the drink of choice. Oh. Mon. Dieu.",
+        "example_url": "http://www.euronews.com/culture/2026/05/19/pint-or-pichet-beer-consumption-overtakes-wine-for-the-first-time-in-france",
+        "unbiased_text": "Beer consumption has overtaken wine consumption in France for the first time in recorded statistics, reflecting changing beverage preferences."
+      },
+      {
+        "pattern": "Real estate exile narrative",
+        "detail": "Framing high-value property transactions as vindication or evidence of exile rather than routine real estate activity.",
+        "debias": "Report property transactions factually without imposing exile or vindication narratives unless explicitly stated by parties.",
+        "date_added": "2026-05-19",
+        "status": "suggested",
+        "example_text": "Record property transaction exile vindication",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/19/money-love-and-murder-mango-founders-son-arrested-for-alleged-murder-of-his-father",
+        "unbiased_text": "A high-value property transaction occurred involving individuals who had relocated from their country of origin."
+      },
+      {
+        "pattern": "Child recruitment formalization alarm",
+        "detail": "Emphasizing formal recruitment age minimums as escalation while treating informal involvement differently in conflict zones.",
+        "debias": "Report recruitment policies with context about enforcement, scope, and comparison to other militarized regions.",
+        "date_added": "2026-05-19",
+        "status": "suggested",
+        "example_text": "Iranian state TV has broadcast live weapons training, including simulated shooting at Trump, Netanyahu and the UAE flag, as the IRGC formally recruits children as young as 12 for checkpoints.",
+        "example_url": "http://www.euronews.com/2026/05/19/iranian-tv-teaches-viewers-to-shoot-as-irgc-ramps-up-child-recruitment",
+        "unbiased_text": "Iranian state television broadcast weapons training segments while the IRGC announced recruitment of teenagers for checkpoint duties."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
