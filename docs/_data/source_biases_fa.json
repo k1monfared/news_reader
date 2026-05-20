@@ -1751,6 +1751,28 @@
         "example_url": "https://www.aljazeera.com/news/2026/5/19/who-was-amin-abdullah-the-hero-guard-killed-in-san-diego-shooting?traffic_source=rss",
         "unbiased_text": "امین عبدالله، نگهبان امنیتی کشته‌شده در تیراندازی مسجد San Diego، توسط اعضای جامعه به خاطر خدماتش به یاد آورده شده است.",
         "pattern_en": "Hero martyrdom narrative construction"
+      },
+      {
+        "pattern": "قاب‌بندی پارادوکس پیروزی پوچ",
+        "detail": "قاب‌بندی یک پیروزی سیاسی به‌عنوان امری که در نهایت خودشکن یا پرهزینه برای پیروز است، از طریق ساختار تیتری که موفقیت را به‌مثابه شکست ارائه می‌دهد.",
+        "debias": "نتیجه انتخاباتی و پیامدهای سیاسی آن را به‌طور جداگانه گزارش کنید، بدون قاب‌بندی پارادوکسی که پیش‌داوری درباره پیامدهای بلندمدت باشد.",
+        "date_added": "2026-05-20",
+        "status": "suggested",
+        "example_text": "شکست مسی: پیروزی پوچ لابی اسرائیل در کنتاکی",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/20/massie-defeated-the-israel-lobbys-pyrrhic-victory-in-kentucky?traffic_source=rss",
+        "unbiased_text": "توماس مسی در انتخابات مقدماتی کنتاکی توسط رقیب حمایت‌شده از AIPAC شکست خورد",
+        "pattern_en": "Pyrrhic victory paradox framing"
+      },
+      {
+        "pattern": "اصطلاح‌شناسی تحقیرآمیز «رنگین‌شده»",
+        "detail": "استفاده از توصیف‌کننده‌های تحقیرآمیز مانند «رنگین‌شده» یا مشابه آن برای بی‌اعتبارسازی پیشاپیش بیانیه‌های رسمی قبل از اینکه خوانندگان با آنها مواجه شوند.",
+        "debias": "بیانیه‌های رسمی را به‌صورت خنثی ارائه دهید و به خوانندگان اجازه دهید صحت آنها را در برابر واقعیت‌های گزارش‌شده ارزیابی کنند.",
+        "date_added": "2026-05-20",
+        "status": "suggested",
+        "example_text": "سفیر اسرائیل نزد مسیحیان سخنرانی رنگین‌شده‌ای ارائه می‌دهد",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/20/israels-ambassador-to-christians-gives-rose-coloured-spiel?traffic_source=rss",
+        "unbiased_text": "سفیر اسرائیل نزد مسیحیان بیانیه‌ای برای جوامع مسیحی منطقه‌ای و جهانی منتشر می‌کند",
+        "pattern_en": "Rose-coloured terminology dismissal"
       }
     ]
   },
@@ -3081,6 +3103,17 @@
         "example_url": "https://www.france24.com/en/israel-built-two-secret-military-bases-in-iraq-to-aid-iran-war-new-york-times-reports",
         "unbiased_text": "طبق گزارش نیویورک تایمز، اسرائیل دو پایگاه نظامی در عراق برای پشتیبانی از عملیات علیه ایران ایجاد کرده است که آمریکا از وجود این تأسیسات اطلاع داشته است.",
         "pattern_en": "Secret base exposure sensationalism"
+      },
+      {
+        "pattern": "نمایش اولتیماتوم با تأکید بر گذر زمان",
+        "detail": "تشدید فوریت زمانی از طریق تکرار استعاره‌های «ساعت در حال تیک‌تاک است» برای افزایش روایت فشار در زمینه‌های دیپلماتیک.",
+        "debias": "ضرب‌الاجل‌ها و بازه‌های زمانی را به‌صورت واقعی گزارش کنید بدون نمایش استعاری که حاکی از فاجعه قریب‌الوقوع باشد.",
+        "date_added": "2026-05-20",
+        "status": "suggested",
+        "example_text": "ترامپ هشدار جدیدی به ایران برای پذیرش توافق صلح صادر کرد... «برای ایران، ساعت در حال تیک‌تاک است، و بهتر است سریع حرکت کنند، سریع، وگرنه چیزی از آن‌ها باقی نخواهد ماند.»",
+        "example_url": "https://www.france24.com/en/middle-east/20260517-middle-east-live-uss-ford-returns-from-iran-war-after-longest-deployment-since-vietnam",
+        "unbiased_text": "ترامپ به ایران هشدار داد که به سرعت توافق صلح را بپذیرد وگرنه با اقدام نظامی روبرو خواهد شد",
+        "pattern_en": "Clock ticking ultimatum dramatization"
       }
     ]
   },
@@ -4735,6 +4768,29 @@
         "unbiased_text": "تلویزیون دولتی ایران بخش‌هایی از آموزش سلاح را پخش کرد در حالی که سپاه پاسداران استخدام نوجوانان برای وظایف ایست‌های بازرسی را اعلام کرد.",
         "detail_items": [],
         "pattern_en": "Child recruitment formalization alarm"
+      },
+      {
+        "pattern": "جشن برتری اروپا در رتبه‌بندی قابلیت زندگی",
+        "detail": "قاب‌بندی تسلط شهرهای اروپایی در رتبه‌بندی‌های کیفیت زندگی به عنوان تأییدی بر برتری قاره‌ای به جای گزارش روش‌شناسی و معیارها.",
+        "debias": "نتایج رتبه‌بندی را با توجه یکسان به روش‌شناسی، وزن معیارها و شهرهای همه مناطق گزارش کنید.",
+        "date_added": "2026-05-20",
+        "status": "suggested",
+        "example_text": "لیسبون در مطالعه جهانی قابل‌زیست‌ترین شهرهای دنیا برای خارجی‌نشینان صدر جدول است... و اروپا جایگاه‌های برتر را تسخیر کرده است.",
+        "example_url": "http://www.euronews.com/travel/2026/05/20/lisbon-tops-global-study-of-the-worlds-most-livable-cities-for-expats",
+        "unbiased_text": "لیسبون بالاترین رتبه را در مطالعه جهانی شهرهای قابل زندگی برای خارجی‌نشینان کسب کرد و چندین شهر اروپایی در جایگاه‌های برتر قرار گرفتند",
+        "pattern_en": "Livability ranking celebratory European dominance"
+      },
+      {
+        "pattern": "قاب‌بندی پیش‌گویانه صفت عالی برای عرضه اولیه تاریخی",
+        "detail": "توصیف رویدادهای مالی آینده به‌عنوان رکوردشکن از طریق صفات عالی پیش از وقوع آن‌ها.",
+        "debias": "عرضه‌های اولیه پیش‌بینی‌شده را با محدوده ارزش‌گذاری مورد انتظار گزارش کنید بدون اینکه قبل از تکمیل، آن‌ها را رکورد تاریخی اعلام کنید.",
+        "date_added": "2026-05-20",
+        "status": "suggested",
+        "example_text": "طبق گزارش‌ها Goldman Sachs نقش پیشتاز تضمین‌کنندگی برای ورود احتمالی SpaceX به بازار سهام امسال را به دست آورده است، اقدامی که زمینه را برای بزرگ‌ترین عرضه اولیه در تاریخ فراهم می‌کند.",
+        "example_url": "http://www.euronews.com/business/2026/05/20/goldman-sachs-reportedly-selected-to-lead-spacex-ipo-in-landmark-wall-street-deal",
+        "unbiased_text": "طبق گزارش‌ها Goldman Sachs نقش پیشتاز تضمین‌کنندگی برای ورود احتمالی SpaceX به بازار سهام را به دست آورده است که می‌تواند بیش از ۲۰۰ میلیارد دلار ارزش‌گذاری شود",
+        "detail_items": [],
+        "pattern_en": "Historic IPO superlative anticipatory framing"
       }
     ]
   }

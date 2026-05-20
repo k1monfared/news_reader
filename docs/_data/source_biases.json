@@ -1576,6 +1576,26 @@
         "example_text": "Who was Amin Abdullah, the 'hero' guard killed in San Diego shooting? Tributes have poured in for the guard, who was among the three people killed in the shooting at the San Diego mosque.",
         "example_url": "https://www.aljazeera.com/news/2026/5/19/who-was-amin-abdullah-the-hero-guard-killed-in-san-diego-shooting?traffic_source=rss",
         "unbiased_text": "Amin Abdullah, a security guard killed in the San Diego mosque shooting, has been remembered by community members for his service."
+      },
+      {
+        "pattern": "Pyrrhic victory paradox framing",
+        "detail": "Framing a political victory as ultimately self-defeating or costly to the victor through headline structure that presents success as failure.",
+        "debias": "Report the electoral outcome and its political implications separately without paradoxical framing that prejudges long-term consequences.",
+        "date_added": "2026-05-20",
+        "status": "suggested",
+        "example_text": "Massie defeated: The Israel lobby's pyrrhic victory in Kentucky",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/20/massie-defeated-the-israel-lobbys-pyrrhic-victory-in-kentucky?traffic_source=rss",
+        "unbiased_text": "Thomas Massie defeated in Kentucky primary by AIPAC-backed challenger"
+      },
+      {
+        "pattern": "Rose-coloured terminology dismissal",
+        "detail": "Using 'rose-coloured' or similar dismissive descriptors to preemptively delegitimize official statements before readers encounter them.",
+        "debias": "Present official statements neutrally and allow readers to assess their accuracy against reported facts.",
+        "date_added": "2026-05-20",
+        "status": "suggested",
+        "example_text": "Israel's ambassador to Christians gives rose-coloured spiel",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/20/israels-ambassador-to-christians-gives-rose-coloured-spiel?traffic_source=rss",
+        "unbiased_text": "Israel's ambassador to Christians releases statement to regional and global Christian communities"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2800,6 +2820,16 @@
         "example_text": "Israel built two secret military bases in Iraq to aid Iran war, New York Times reports. A new report by the New York Times claims Israel built a second secret military base in Iraq's western desert to support its strikes on Iran",
         "example_url": "https://www.france24.com/en/israel-built-two-secret-military-bases-in-iraq-to-aid-iran-war-new-york-times-reports",
         "unbiased_text": "According to the New York Times, Israel established two military bases in Iraq to support operations against Iran, with US knowledge of the installations."
+      },
+      {
+        "pattern": "Clock ticking ultimatum dramatization",
+        "detail": "Amplifying temporal urgency through repeated 'clock is ticking' metaphors to heighten pressure narrative in diplomatic contexts.",
+        "debias": "Report deadlines and timeframes factually without metaphorical dramatization that implies imminent catastrophe.",
+        "date_added": "2026-05-20",
+        "status": "suggested",
+        "example_text": "Trump issues new warning to Iran to accept peace deal... 'For Iran, the Clock is Ticking, and they better get moving, FAST, or there won't be anything left of them.'",
+        "example_url": "https://www.france24.com/en/middle-east/20260517-middle-east-live-uss-ford-returns-from-iran-war-after-longest-deployment-since-vietnam",
+        "unbiased_text": "Trump warned Iran to accept a peace deal quickly or face military action"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -4303,6 +4333,26 @@
         "example_text": "Iranian state TV has broadcast live weapons training, including simulated shooting at Trump, Netanyahu and the UAE flag, as the IRGC formally recruits children as young as 12 for checkpoints.",
         "example_url": "http://www.euronews.com/2026/05/19/iranian-tv-teaches-viewers-to-shoot-as-irgc-ramps-up-child-recruitment",
         "unbiased_text": "Iranian state television broadcast weapons training segments while the IRGC announced recruitment of teenagers for checkpoint duties."
+      },
+      {
+        "pattern": "Livability ranking celebratory European dominance",
+        "detail": "Framing European cities' dominance in quality-of-life rankings as validation of continental superiority rather than reporting methodology and criteria.",
+        "debias": "Report ranking results with equal attention to methodology, criteria weights, and cities across all regions.",
+        "date_added": "2026-05-20",
+        "status": "suggested",
+        "example_text": "Lisbon tops global study of the world's most livable cities for expats... with Europe dominating the top spots.",
+        "example_url": "http://www.euronews.com/travel/2026/05/20/lisbon-tops-global-study-of-the-worlds-most-livable-cities-for-expats",
+        "unbiased_text": "Lisbon ranked highest in global study of livable cities for expats, with several European cities in top positions"
+      },
+      {
+        "pattern": "Historic IPO superlative anticipatory framing",
+        "detail": "Describing expected future financial events as already-record-breaking through superlatives before they occur.",
+        "debias": "Report anticipated IPOs with expected valuation ranges without declaring them historic records before completion.",
+        "date_added": "2026-05-20",
+        "status": "suggested",
+        "example_text": "Goldman Sachs has reportedly secured the leading underwriting role for SpaceX's expected stock market debut this year in a move that paves the way for the largest IPO in history.",
+        "example_url": "http://www.euronews.com/business/2026/05/20/goldman-sachs-reportedly-selected-to-lead-spacex-ipo-in-landmark-wall-street-deal",
+        "unbiased_text": "Goldman Sachs has reportedly secured the lead underwriting role for SpaceX's expected stock market debut, which could be valued at over $200 billion"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
