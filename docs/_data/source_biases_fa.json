@@ -1773,6 +1773,28 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/20/israels-ambassador-to-christians-gives-rose-coloured-spiel?traffic_source=rss",
         "unbiased_text": "سفیر اسرائیل نزد مسیحیان بیانیه‌ای برای جوامع مسیحی منطقه‌ای و جهانی منتشر می‌کند",
         "pattern_en": "Rose-coloured terminology dismissal"
+      },
+      {
+        "pattern": "حواس‌پرتی آتش‌سازی در جریان مراسم اهدای جام",
+        "detail": "قاب‌بندی فعالیت شخصی یک مربی در طول یک رویداد ورزشی از راه دور به‌عنوان خبری قابل توجه، تضادی نمادین ایجاد می‌کند که بی‌توجهی یا اولویت‌های غیرمتعارف را نشان می‌دهد.",
+        "debias": "نتیجه ورزشی و دستاورد تیم را بدون تأکید بر فعالیت‌های شخصی غیرمرتبط چهره‌های غایب گزارش کنید.",
+        "date_added": "2026-05-21",
+        "status": "suggested",
+        "example_text": "آرتتا به‌جای تماشای تاج‌گذاری Arsenal در لیگ برتر «آتش درست کرد»",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/21/arteta-built-a-fire-over-watching-arsenal-crowned-premier-league-winners?traffic_source=rss",
+        "unbiased_text": "آرتتا در بازی حضور نداشت، درحالی‌که Arsenal آماده دریافت جام لیگ برتر بود",
+        "pattern_en": "Fire-building distraction over trophy ceremony"
+      },
+      {
+        "pattern": "تأکید بر اختلال در سلسله‌مراتب پس از بازگشت از بازنشستگی",
+        "detail": "برجسته کردن انتخاب دروازه‌بان به عنوان اختلال در سلسله‌مراتب مستقر پس از بازگشت از بازنشستگی، این تصمیم را به صورت تضعیف‌کننده و بحث‌برانگیز قالب‌بندی می‌کند.",
+        "debias": "گزارش انتخاب‌های تیم و تصمیمات ترکیب بدون تأکید بر روایت‌های اختلال سلسله‌مراتبی.",
+        "date_added": "2026-05-21",
+        "status": "suggested",
+        "example_text": "مانوئل نویر به عنوان بازیکن اصلی آلمان در جام جهانی پس از بازگشتش بازی خواهد کرد، علی‌رغم اینکه اولیور باومان مدت‌ها به عنوان گزینه اول معرفی شده بود.",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/21/germany-make-neuer-first-choice-world-cup-keeper-to-cap-retirement-u-turn?traffic_source=rss",
+        "unbiased_text": "مانوئل نویر پس از بازگشت از بازنشستگی، به عنوان دروازه‌بان آلمان در جام جهانی بازی خواهد کرد.",
+        "pattern_en": "Retirement reversal hierarchy disruption emphasis"
       }
     ]
   },
@@ -3114,6 +3136,17 @@
         "example_url": "https://www.france24.com/en/middle-east/20260517-middle-east-live-uss-ford-returns-from-iran-war-after-longest-deployment-since-vietnam",
         "unbiased_text": "ترامپ به ایران هشدار داد که به سرعت توافق صلح را بپذیرد وگرنه با اقدام نظامی روبرو خواهد شد",
         "pattern_en": "Clock ticking ultimatum dramatization"
+      },
+      {
+        "pattern": "اصطلاح‌شناسی ربودن برای بازداشت قانونی",
+        "detail": "استفاده از اصطلاحاتی مانند «بازداشت شده» یا «ربوده شده» برای فعالانی که هنگام تلاش برای شکستن محاصره دریایی رهگیری شده‌اند، مشروعیت اقدام اجرایی را زیر سوال می‌برد.",
+        "debias": "از اصطلاحات خنثی برای توصیف اجرای اقدامات امنیتی دریایی اعلام‌شده بدون استفاده از واژگان بارگذاری‌شده استفاده کنید.",
+        "date_added": "2026-05-21",
+        "status": "suggested",
+        "example_text": "فعالان بازداشت‌شده از ناوگان Global Sumud در مسیر غزه",
+        "example_url": "https://www.france24.com/en/middle-east/20260521-france-condemns-israel-37-french-nationals-deported-over-gaza-flotilla",
+        "unbiased_text": "فعالان ناوگان در مسیر غزه که توسط نیروهای اسرائیلی رهگیری شدند",
+        "pattern_en": "Abduction terminology for lawful detention"
       }
     ]
   },
@@ -4791,6 +4824,29 @@
         "unbiased_text": "طبق گزارش‌ها Goldman Sachs نقش پیشتاز تضمین‌کنندگی برای ورود احتمالی SpaceX به بازار سهام را به دست آورده است که می‌تواند بیش از ۲۰۰ میلیارد دلار ارزش‌گذاری شود",
         "detail_items": [],
         "pattern_en": "Historic IPO superlative anticipatory framing"
+      },
+      {
+        "pattern": "افشای محدودیت سیاسی از منبع واحد",
+        "detail": "ارائه ادعای یک نماینده مجلس درباره محدود کردن اقدام نظامی توسط مقامات سیاسی به عنوان واقعیت ثابت‌شده بدون تأیید یا تصدیق رسمی.",
+        "debias": "ادعاها درباره پویایی‌های داخلی سیاسی-نظامی را به‌طور واضح به منبع خاصی که آن‌ها را مطرح می‌کند نسبت دهید و فقدان تأیید رسمی را ذکر کنید.",
+        "date_added": "2026-05-21",
+        "status": "suggested",
+        "example_text": "در مصاحبه‌ای اختصاصی، یک عضو ارشد کمیسیون امنیت ملی مجلس ایران به Euronews می‌گوید که مقامات سیاسی به‌طور فعال ارتش را از حمله به دارایی‌های دریایی آمریکا منع کرده‌اند",
+        "example_url": "http://www.euronews.com/2026/05/21/tehran-politicians-are-holding-back-military-from-striking-us-fleet-iranian-mp-tells-euron",
+        "unbiased_text": "یک عضو کمیسیون امنیت ملی مجلس ایران در مصاحبه‌ای ادعا کرد که مقامات سیاسی ارتش را از حمله به دارایی‌های دریایی آمریکا منع کرده‌اند، هرچند این روایت به‌طور مستقل قابل تأیید نبود.",
+        "detail_items": [],
+        "pattern_en": "Political restraint revelation from single source"
+      },
+      {
+        "pattern": "قاب‌بندی هیجان‌انگیز انفجار جسد",
+        "detail": "تأکید بر خطر تجمع گاز تجزیه در پستاندار دریایی با اصطلاحات دراماتیک مانند «بسیار انفجاری» روایتی حساس‌شده از تهدید ایجاد می‌کند.",
+        "debias": "مدیریت تجزیه پستانداران دریایی را با استفاده از اصطلاحات علمی و بدون تأکید هیجان‌انگیز بر انفجار گزارش دهید.",
+        "date_added": "2026-05-21",
+        "status": "suggested",
+        "example_text": "نهنگ گوژپشت مرده «تیمی» در سواحل دانمارک در معرض خطر انفجار است.",
+        "example_url": "http://www.euronews.com/2026/05/21/highly-explosive-whale-timmy-to-be-towed-out-to-sea",
+        "unbiased_text": "نهنگ گوژپشت مرده در سواحل دانمارک دچار تجمع گازهای تجزیه شده است و مقامات قصد دارند آن را به دریای آزاد یدک بکشند.",
+        "pattern_en": "Explosive corpse sensationalism framing"
       }
     ]
   }

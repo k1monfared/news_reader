@@ -1596,6 +1596,26 @@
         "example_text": "Israel's ambassador to Christians gives rose-coloured spiel",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/20/israels-ambassador-to-christians-gives-rose-coloured-spiel?traffic_source=rss",
         "unbiased_text": "Israel's ambassador to Christians releases statement to regional and global Christian communities"
+      },
+      {
+        "pattern": "Fire-building distraction over trophy ceremony",
+        "detail": "Framing a manager's personal activity during a remote sporting event as newsworthy creates symbolic contrast suggesting disengagement or unconventional priorities.",
+        "debias": "Report the sporting result and team achievement without emphasizing irrelevant personal activities of absent figures.",
+        "date_added": "2026-05-21",
+        "status": "suggested",
+        "example_text": "Arteta 'built a fire' instead of watching Arsenal's Premier League crowning",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/21/arteta-built-a-fire-over-watching-arsenal-crowned-premier-league-winners?traffic_source=rss",
+        "unbiased_text": "Arteta was not present at the match as Arsenal prepared to lift the Premier League trophy"
+      },
+      {
+        "pattern": "Retirement reversal hierarchy disruption emphasis",
+        "detail": "Highlighting a goalkeeper selection as disrupting established hierarchy after a retirement reversal frames the decision as controversial undermining.",
+        "debias": "Report team selections and roster decisions without emphasizing hierarchical disruption narratives.",
+        "date_added": "2026-05-21",
+        "status": "suggested",
+        "example_text": "Manuel Neuer to start for Germany in World Cup on his return, despite Oliver ⁠Baumann long being labelled first choice.",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/21/germany-make-neuer-first-choice-world-cup-keeper-to-cap-retirement-u-turn?traffic_source=rss",
+        "unbiased_text": "Manuel Neuer will start as Germany's goalkeeper in the World Cup following his return from retirement."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2830,6 +2850,16 @@
         "example_text": "Trump issues new warning to Iran to accept peace deal... 'For Iran, the Clock is Ticking, and they better get moving, FAST, or there won't be anything left of them.'",
         "example_url": "https://www.france24.com/en/middle-east/20260517-middle-east-live-uss-ford-returns-from-iran-war-after-longest-deployment-since-vietnam",
         "unbiased_text": "Trump warned Iran to accept a peace deal quickly or face military action"
+      },
+      {
+        "pattern": "Abduction terminology for lawful detention",
+        "detail": "Using terms like 'detained' or 'abducted' for activists intercepted during attempted blockade breach implies illegitimacy of enforcement action.",
+        "debias": "Use neutral terms describing enforcement of stated maritime security measures without loaded terminology.",
+        "date_added": "2026-05-21",
+        "status": "suggested",
+        "example_text": "detained activists from the Gaza-bound Global Sumud Flotilla",
+        "example_url": "https://www.france24.com/en/middle-east/20260521-france-condemns-israel-37-french-nationals-deported-over-gaza-flotilla",
+        "unbiased_text": "activists from the Gaza-bound flotilla who were intercepted by Israeli forces"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -4353,6 +4383,26 @@
         "example_text": "Goldman Sachs has reportedly secured the leading underwriting role for SpaceX's expected stock market debut this year in a move that paves the way for the largest IPO in history.",
         "example_url": "http://www.euronews.com/business/2026/05/20/goldman-sachs-reportedly-selected-to-lead-spacex-ipo-in-landmark-wall-street-deal",
         "unbiased_text": "Goldman Sachs has reportedly secured the lead underwriting role for SpaceX's expected stock market debut, which could be valued at over $200 billion"
+      },
+      {
+        "pattern": "Political restraint revelation from single source",
+        "detail": "Presenting a single MP's claim about political authorities restraining military action as established fact without corroboration or official confirmation.",
+        "debias": "Attribute claims about internal political-military dynamics clearly to the specific source making them and note lack of official confirmation.",
+        "date_added": "2026-05-21",
+        "status": "suggested",
+        "example_text": "In an exclusive interview, a senior member of Iran's parliamentary National Security Commission tells Euronews that political authorities have actively restrained the military from attacking US naval assets",
+        "example_url": "http://www.euronews.com/2026/05/21/tehran-politicians-are-holding-back-military-from-striking-us-fleet-iranian-mp-tells-euron",
+        "unbiased_text": "A member of Iran's parliamentary National Security Commission claimed in an interview that political authorities have restrained the military from attacking US naval assets, though this account could not be independently verified."
+      },
+      {
+        "pattern": "Explosive corpse sensationalism framing",
+        "detail": "Emphasizing decomposition gas buildup risk in marine mammal with dramatic terminology like 'highly explosive' creates sensational threat narrative.",
+        "debias": "Report marine mammal decomposition management using scientific terminology without sensational explosion emphasis.",
+        "date_added": "2026-05-21",
+        "status": "suggested",
+        "example_text": "The dead humpback whale 'Timmy' off the Danish coast is at risk of exploding.",
+        "example_url": "http://www.euronews.com/2026/05/21/highly-explosive-whale-timmy-to-be-towed-out-to-sea",
+        "unbiased_text": "The dead humpback whale off the Danish coast has built up decomposition gases and authorities plan to tow it to open sea."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
