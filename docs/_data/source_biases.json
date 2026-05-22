@@ -1616,6 +1616,36 @@
         "example_text": "Manuel Neuer to start for Germany in World Cup on his return, despite Oliver ⁠Baumann long being labelled first choice.",
         "example_url": "https://www.aljazeera.com/sports/2026/5/21/germany-make-neuer-first-choice-world-cup-keeper-to-cap-retirement-u-turn?traffic_source=rss",
         "unbiased_text": "Manuel Neuer will start as Germany's goalkeeper in the World Cup following his return from retirement."
+      },
+      {
+        "pattern": "Modi inaction governmental branding substitution",
+        "detail": "Framing government heat protection response as mere branding exercise instead of substantive action, attributing climate denial culpability to leader.",
+        "debias": "Report on specific government heat protection measures or lack thereof without attributing systemic policy failure to single leader's past statements.",
+        "date_added": "2026-05-22",
+        "status": "suggested",
+        "example_text": "Modi denied climate change for years. Now, as heat deaths mount, his government offers branding instead of protection.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/22/india-is-being-left-to-die-in-the-heat?traffic_source=rss",
+        "unbiased_text": "India faces mounting heat-related deaths, with critics arguing that government measures focus on awareness campaigns rather than infrastructure protection."
+      },
+      {
+        "pattern": "Western ideological tyranny accusation platforming",
+        "detail": "Amplifying government official's characterization of human rights advocacy as tyranny without contextualizing the framing as political rhetoric.",
+        "debias": "Report the official statement as attributed political rhetoric while noting the international human rights standards being referenced.",
+        "date_added": "2026-05-22",
+        "status": "suggested",
+        "example_text": "Senegal PM slams West's 'homosexual tyranny', defends LGBTQ crackdown",
+        "example_url": "https://www.aljazeera.com/news/2026/5/22/senegal-pm-slams-wests-homosexual-tyranny-defends-lgbtq-crackdown?traffic_source=rss",
+        "unbiased_text": "Senegal's Prime Minister defended new legislation restricting LGBTQ rights, criticizing international pressure from Western countries and human rights organizations."
+      },
+      {
+        "pattern": "Corporate campaign militarism normalization protest",
+        "detail": "Framing corporate marketing campaign as normalizing military violence worthy of activist destruction response.",
+        "debias": "Report on the protest action and corporate campaign separately, allowing readers to assess the proportionality of the response.",
+        "date_added": "2026-05-22",
+        "status": "suggested",
+        "example_text": "South Korean activists smash Starbucks cups to protest 'Tank Day' campaign",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/22/south-korean-activists-smash-starbucks-cups-to-protest-tank-day-campaign?traffic_source=rss",
+        "unbiased_text": "South Korean activists protested a Starbucks marketing campaign by destroying cups, objecting to what they described as military-themed promotion."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2860,6 +2890,26 @@
         "example_text": "detained activists from the Gaza-bound Global Sumud Flotilla",
         "example_url": "https://www.france24.com/en/middle-east/20260521-france-condemns-israel-37-french-nationals-deported-over-gaza-flotilla",
         "unbiased_text": "activists from the Gaza-bound flotilla who were intercepted by Israeli forces"
+      },
+      {
+        "pattern": "Identity erasure campaign archaeological assertion",
+        "detail": "Presenting destruction of cultural sites as deliberate erasure strategy based on NGO documentation without verification of intent.",
+        "debias": "Report documented destruction of specific sites while noting claimed intent as allegations requiring verification through multiple sources.",
+        "date_added": "2026-05-22",
+        "status": "suggested",
+        "example_text": "'The aim is to erase our identity': How south Lebanon's cultural heritage is going up in smoke",
+        "example_url": "https://www.france24.com/en/middle-east/20260520-aim-erase-identity-south-lebanon-cultural-heritage-going-up-smoke",
+        "unbiased_text": "NGOs have documented extensive damage to cultural and religious sites in southern Lebanon during Israeli military operations, with local groups claiming the destruction targets the historical connection between residents and their land."
+      },
+      {
+        "pattern": "Peak readiness assertion without operational detail",
+        "detail": "Highlighting military preparedness statement as newsworthy development without context on what constitutes peak or baseline readiness.",
+        "debias": "Report military readiness statements as routine communications unless accompanied by specific operational changes or deployment information.",
+        "date_added": "2026-05-22",
+        "status": "suggested",
+        "example_text": "The US Central Command (CENTCOM), which oversees military operations in the Middle East, on Thursday said the USS Abraham Lincoln is maintaining \"peak readiness\" in the region.",
+        "example_url": "https://www.france24.com/en/middle-east/20260522-middle-east-live-nato-allies-to-sound-out-us-top-diplomat-after-trump-iran-ire",
+        "unbiased_text": "US Central Command reported that the USS Abraham Lincoln carrier group continues operations in the Middle East."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -4403,6 +4453,26 @@
         "example_text": "The dead humpback whale 'Timmy' off the Danish coast is at risk of exploding.",
         "example_url": "http://www.euronews.com/2026/05/21/highly-explosive-whale-timmy-to-be-towed-out-to-sea",
         "unbiased_text": "The dead humpback whale off the Danish coast has built up decomposition gases and authorities plan to tow it to open sea."
+      },
+      {
+        "pattern": "Calibrated-to-old-calendar inadequacy framing",
+        "detail": "Characterizing city infrastructure as outdated through temporal metaphor suggesting systemic failure to adapt to climate change.",
+        "debias": "Report specific infrastructure limitations and adaptation efforts without metaphorical framing that presumes comprehensive failure.",
+        "date_added": "2026-05-22",
+        "status": "suggested",
+        "example_text": "Experts warn that European cities are \"calibrated to the old calendar\", meaning they're struggling to adapt to soaring May temperatures.",
+        "example_url": "http://www.euronews.com/2026/05/22/exceptionally-high-temperatures-to-hit-parts-of-europe-this-weekend-which-city-can-cope-th",
+        "unbiased_text": "Experts note that European cities' infrastructure was designed for historical temperature ranges and faces challenges adapting to higher May temperatures."
+      },
+      {
+        "pattern": "Quantum computing market cap sports comparison",
+        "detail": "Using major sports brand market value as measurement unit for tech stock gains to dramatize financial impact through incongruous comparison.",
+        "debias": "Report market capitalization changes in standard financial terms without comparisons to unrelated consumer brands.",
+        "date_added": "2026-05-22",
+        "status": "suggested",
+        "example_text": "IBM adds market value of Adidas after Trump's quantum computing push",
+        "example_url": "http://www.euronews.com/business/2026/05/22/ibm-adds-market-value-of-adidas-after-trumps-quantum-computing-push",
+        "unbiased_text": "IBM shares rose over 12% after federal quantum computing investment announcement, adding more than $27 billion in market capitalization."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

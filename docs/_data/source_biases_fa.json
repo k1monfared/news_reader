@@ -1795,6 +1795,40 @@
         "example_url": "https://www.aljazeera.com/sports/2026/5/21/germany-make-neuer-first-choice-world-cup-keeper-to-cap-retirement-u-turn?traffic_source=rss",
         "unbiased_text": "مانوئل نویر پس از بازگشت از بازنشستگی، به عنوان دروازه‌بان آلمان در جام جهانی بازی خواهد کرد.",
         "pattern_en": "Retirement reversal hierarchy disruption emphasis"
+      },
+      {
+        "pattern": "جایگزینی برندسازی دولتی به جای اقدام مودی",
+        "detail": "قاب‌بندی واکنش دولت به حفاظت در برابر گرما به عنوان صرفاً یک تمرین برندسازی به جای اقدام ماهوی، و نسبت دادن مسئولیت انکار تغییرات اقلیمی به رهبر.",
+        "debias": "گزارش اقدامات مشخص دولت برای حفاظت در برابر گرما یا فقدان آن‌ها بدون نسبت دادن شکست سیاست‌های سیستماتیک به اظهارات گذشته یک رهبر.",
+        "date_added": "2026-05-22",
+        "status": "suggested",
+        "example_text": "مودی سال‌ها تغییرات اقلیمی را انکار کرد. اکنون، در حالی که مرگ‌های ناشی از گرما افزایش می‌یابد، دولت او به جای حفاظت، برندسازی ارائه می‌دهد.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/22/india-is-being-left-to-die-in-the-heat?traffic_source=rss",
+        "unbiased_text": "هند با افزایش مرگ‌های ناشی از گرما روبه‌روست و منتقدان استدلال می‌کنند که اقدامات دولت بر کمپین‌های آگاهی‌رسانی متمرکز است تا زیرساخت‌های حفاظتی.",
+        "detail_items": [],
+        "pattern_en": "Modi inaction governmental branding substitution"
+      },
+      {
+        "pattern": "سکوسازی برای اتهام استبداد ایدئولوژیک غربی",
+        "detail": "تقویت و بزرگ‌نمایی توصیف یک مقام دولتی از دفاع از حقوق بشر به عنوان استبداد، بدون زمینه‌سازی برای این چارچوب‌بندی به عنوان یک بیان سیاسی.",
+        "debias": "بیانیه مقام رسمی را به عنوان یک بیان سیاسی منتسب گزارش کنید و در عین حال به استانداردهای بین‌المللی حقوق بشری که به آنها اشاره می‌شود، توجه نمایید.",
+        "date_added": "2026-05-22",
+        "status": "suggested",
+        "example_text": "نخست‌وزیر سنگال 'استبداد همجنس‌گرایانه' غرب را محکوم کرد و از سرکوب LGBTQ دفاع نمود",
+        "example_url": "https://www.aljazeera.com/news/2026/5/22/senegal-pm-slams-wests-homosexual-tyranny-defends-lgbtq-crackdown?traffic_source=rss",
+        "unbiased_text": "نخست‌وزیر سنگال از قانون جدیدی که حقوق LGBTQ را محدود می‌کند دفاع کرد و از فشارهای بین‌المللی کشورهای غربی و سازمان‌های حقوق بشری انتقاد نمود.",
+        "pattern_en": "Western ideological tyranny accusation platforming"
+      },
+      {
+        "pattern": "عادی‌سازی نظامی‌گری کمپین شرکتی اعتراض",
+        "detail": "چارچوب‌بندی کمپین بازاریابی شرکتی به عنوان عادی‌سازی خشونت نظامی که شایسته واکنش تخریبی فعالان است.",
+        "debias": "گزارش اقدام اعتراضی و کمپین شرکتی را به طور جداگانه ارائه دهید تا خوانندگان بتوانند تناسب واکنش را ارزیابی کنند.",
+        "date_added": "2026-05-22",
+        "status": "suggested",
+        "example_text": "فعالان کره جنوبی لیوان‌های Starbucks را برای اعتراض به کمپین «روز تانک» خرد می‌کنند",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/22/south-korean-activists-smash-starbucks-cups-to-protest-tank-day-campaign?traffic_source=rss",
+        "unbiased_text": "فعالان کره جنوبی با تخریب لیوان‌ها به کمپین بازاریابی Starbucks اعتراض کردند و به آنچه توصیف کردند تبلیغات با مضمون نظامی اعتراض نمودند.",
+        "pattern_en": "Corporate campaign militarism normalization protest"
       }
     ]
   },
@@ -3147,6 +3181,28 @@
         "example_url": "https://www.france24.com/en/middle-east/20260521-france-condemns-israel-37-french-nationals-deported-over-gaza-flotilla",
         "unbiased_text": "فعالان ناوگان در مسیر غزه که توسط نیروهای اسرائیلی رهگیری شدند",
         "pattern_en": "Abduction terminology for lawful detention"
+      },
+      {
+        "pattern": "ادعای باستان‌شناسانه کمپین محو هویت",
+        "detail": "ارائه تخریب مکان‌های فرهنگی به‌عنوان استراتژی عمدی محو هویت بر اساس مستندات سازمان‌های غیردولتی بدون تأیید قصد و نیت.",
+        "debias": "گزارش تخریب مستند مکان‌های خاص با ذکر ادعای قصد به‌عنوان اتهاماتی که نیازمند تأیید از طریق منابع متعدد هستند.",
+        "date_added": "2026-05-22",
+        "status": "suggested",
+        "example_text": "«هدف محو کردن هویت ماست»: چگونه میراث فرهنگی جنوب لبنان در دود می‌رود",
+        "example_url": "https://www.france24.com/en/middle-east/20260520-aim-erase-identity-south-lebanon-cultural-heritage-going-up-smoke",
+        "unbiased_text": "سازمان‌های غیردولتی آسیب‌های گسترده‌ای به مکان‌های فرهنگی و مذهبی در جنوب لبنان در جریان عملیات نظامی اسرائیل را مستند کرده‌اند، در حالی که گروه‌های محلی ادعا می‌کنند این تخریب‌ها پیوند تاریخی بین ساکنان و سرزمین‌شان را هدف قرار می‌دهد.",
+        "pattern_en": "Identity erasure campaign archaeological assertion"
+      },
+      {
+        "pattern": "ادعای آمادگی اوج بدون جزئیات عملیاتی",
+        "detail": "برجسته‌سازی بیانیه آمادگی نظامی به‌عنوان یک تحول خبری بدون زمینه‌ای درباره اینکه چه چیزی آمادگی اوج یا پایه را تشکیل می‌دهد.",
+        "debias": "بیانیه‌های آمادگی نظامی را به‌عنوان ارتباطات معمول گزارش کنید مگر اینکه با تغییرات عملیاتی مشخص یا اطلاعات استقرار همراه باشد.",
+        "date_added": "2026-05-22",
+        "status": "suggested",
+        "example_text": "فرماندهی مرکزی ایالات متحده (CENTCOM)، که نظارت بر عملیات نظامی در خاورمیانه را بر عهده دارد، روز پنج‌شنبه اعلام کرد که ناو USS Abraham Lincoln «آمادگی اوج» را در منطقه حفظ می‌کند.",
+        "example_url": "https://www.france24.com/en/middle-east/20260522-middle-east-live-nato-allies-to-sound-out-us-top-diplomat-after-trump-iran-ire",
+        "unbiased_text": "فرماندهی مرکزی ایالات متحده گزارش داد که گروه ناو هواپیمابر USS Abraham Lincoln به عملیات خود در خاورمیانه ادامه می‌دهد.",
+        "pattern_en": "Peak readiness assertion without operational detail"
       }
     ]
   },
@@ -4847,6 +4903,28 @@
         "example_url": "http://www.euronews.com/2026/05/21/highly-explosive-whale-timmy-to-be-towed-out-to-sea",
         "unbiased_text": "نهنگ گوژپشت مرده در سواحل دانمارک دچار تجمع گازهای تجزیه شده است و مقامات قصد دارند آن را به دریای آزاد یدک بکشند.",
         "pattern_en": "Explosive corpse sensationalism framing"
+      },
+      {
+        "pattern": "قاب‌بندی ناکارآمدی تنظیم‌شده با تقویم قدیمی",
+        "detail": "توصیف زیرساخت‌های شهری به‌عنوان قدیمی از طریق استعاره زمانی که نشان‌دهنده شکست سیستماتیک در سازگاری با تغییرات آب‌وهوایی است.",
+        "debias": "محدودیت‌های خاص زیرساخت و تلاش‌های سازگاری را بدون قاب‌بندی استعاری که شکست جامع را پیش‌فرض می‌گیرد، گزارش کنید.",
+        "date_added": "2026-05-22",
+        "status": "suggested",
+        "example_text": "کارشناسان هشدار می‌دهند که شهرهای اروپایی «با تقویم قدیمی تنظیم شده‌اند»، به این معنا که برای سازگاری با دماهای بالای ماه مه تلاش می‌کنند.",
+        "example_url": "http://www.euronews.com/2026/05/22/exceptionally-high-temperatures-to-hit-parts-of-europe-this-weekend-which-city-can-cope-th",
+        "unbiased_text": "کارشناسان اشاره می‌کنند که زیرساخت‌های شهرهای اروپایی برای دامنه‌های دمایی تاریخی طراحی شده‌اند و با چالش‌هایی در سازگاری با دماهای بالاتر ماه مه مواجه هستند.",
+        "pattern_en": "Calibrated-to-old-calendar inadequacy framing"
+      },
+      {
+        "pattern": "مقایسه ارزش بازار محاسبات کوانتومی با برندهای ورزشی",
+        "detail": "استفاده از ارزش بازار برندهای بزرگ ورزشی به‌عنوان واحد اندازه‌گیری برای سودهای سهام فناوری، به‌منظور نمایش تأثیر مالی از طریق مقایسه‌ای ناهمگون و چشمگیر.",
+        "debias": "گزارش تغییرات ارزش بازار را با اصطلاحات استاندارد مالی و بدون مقایسه با برندهای مصرفی غیرمرتبط ارائه دهید.",
+        "date_added": "2026-05-22",
+        "status": "suggested",
+        "example_text": "آی‌بی‌ام پس از حمایت ترامپ از محاسبات کوانتومی، ارزش بازار معادل آدیداس اضافه می‌کند",
+        "example_url": "http://www.euronews.com/business/2026/05/22/ibm-adds-market-value-of-adidas-after-trumps-quantum-computing-push",
+        "unbiased_text": "سهام آی‌بی‌ام پس از اعلام سرمایه‌گذاری فدرال در محاسبات کوانتومی، بیش از ۱۲ درصد افزایش یافت و بیش از ۲۷ میلیارد دلار به ارزش بازار آن اضافه شد.",
+        "pattern_en": "Quantum computing market cap sports comparison"
       }
     ]
   }
