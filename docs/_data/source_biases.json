@@ -1646,6 +1646,36 @@
         "example_text": "South Korean activists smash Starbucks cups to protest 'Tank Day' campaign",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/22/south-korean-activists-smash-starbucks-cups-to-protest-tank-day-campaign?traffic_source=rss",
         "unbiased_text": "South Korean activists protested a Starbucks marketing campaign by destroying cups, objecting to what they described as military-themed promotion."
+      },
+      {
+        "pattern": "Party naming as criticism vehicle",
+        "detail": "Using satirical political party names in headlines to amplify anti-government narratives without attribution to critics.",
+        "debias": "Report on political movements using their actual names and clearly attribute criticism to specific sources.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "Cockroach Janta Party's founder says Indian government took website down",
+        "example_url": "https://www.aljazeera.com/news/2026/5/23/cockroach-janta-partys-founder-says-indian-government-took-website-down?traffic_source=rss",
+        "unbiased_text": "Founder of satirical political group says Indian government took website down"
+      },
+      {
+        "pattern": "Economic barrier exclusion narrative for sports",
+        "detail": "Framing expensive tickets and travel costs as deliberately excluding specific national groups from sporting events.",
+        "debias": "Report on ticket and travel costs without implying intentional exclusion of particular nationalities.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "Expensive tickets and transport prices and a US travel ban mean few Haitians will be able to attend the matches.",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/23/world-cup-2026-haiti-fans-feel-excluded-from-first-tournament-since-1974?traffic_source=rss",
+        "unbiased_text": "High ticket and transport costs, combined with US travel restrictions, make it difficult for Haitians to attend the matches."
+      },
+      {
+        "pattern": "Rift eruption dramatic escalation framing",
+        "detail": "Describing political disagreements as erupting rifts to amplify perceived instability and crisis.",
+        "debias": "Report on political tensions using neutral language that describes the actual actions without dramatic metaphors.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "Senegal's President Faye sacks PM Sonko as deepening rift erupts",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/23/senegals-president-faye-sacks-pm-sonko-as-deepening-rift-erupts?traffic_source=rss",
+        "unbiased_text": "Senegal's President Faye dismisses PM Sonko amid political tensions"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2910,6 +2940,26 @@
         "example_text": "The US Central Command (CENTCOM), which oversees military operations in the Middle East, on Thursday said the USS Abraham Lincoln is maintaining \"peak readiness\" in the region.",
         "example_url": "https://www.france24.com/en/middle-east/20260522-middle-east-live-nato-allies-to-sound-out-us-top-diplomat-after-trump-iran-ire",
         "unbiased_text": "US Central Command reported that the USS Abraham Lincoln carrier group continues operations in the Middle East."
+      },
+      {
+        "pattern": "Rape allegation headline prominence without verification",
+        "detail": "Leading with rape allegations in headlines before investigation or verification, potentially prejudicing cases.",
+        "debias": "Report allegations of sexual assault with appropriate context about investigation status and use precise attribution.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "Freed Gaza flotilla activists allege Israeli abuse including rape",
+        "example_url": "https://www.france24.com/en/freed-gaza-flotilla-activists-allege-israeli-abuse-including-rape",
+        "unbiased_text": "Freed Gaza flotilla activists report alleged mistreatment in Israeli custody, claims under investigation"
+      },
+      {
+        "pattern": "Mass wedding sacrifice ceremony sensationalism",
+        "detail": "Highlighting state-sponsored mass weddings with readiness-for-sacrifice rhetoric to portray nation as fanatical.",
+        "debias": "Report on state ceremonies factually without emphasizing dramatic elements designed to portray extremism.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "In the capital, Iranian authorities held mass public weddings for couples who signed up to a state-sponsored scheme declaring their readiness to sacrifice their lives in the war against the US and Israel.",
+        "example_url": "https://www.france24.com/en/us-iran-trade-threats-as-tehran-stages-mass-weddings-for-couples-ready-for-sacrifice",
+        "unbiased_text": "In the capital, Iranian authorities held mass public weddings as part of a state-sponsored program."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -4473,6 +4523,36 @@
         "example_text": "IBM adds market value of Adidas after Trump's quantum computing push",
         "example_url": "http://www.euronews.com/business/2026/05/22/ibm-adds-market-value-of-adidas-after-trumps-quantum-computing-push",
         "unbiased_text": "IBM shares rose over 12% after federal quantum computing investment announcement, adding more than $27 billion in market capitalization."
+      },
+      {
+        "pattern": "Obsession labeling for cultural practices",
+        "detail": "Characterizing national cultural traditions as obsessions to imply irrationality or excess.",
+        "debias": "Describe cultural practices and traditions neutrally without pathologizing language.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "Germany is well-known for its obsession with beer, with the Oktoberfest festival attracting millions of visitors each year.",
+        "example_url": "http://www.euronews.com/2026/05/23/inside-germanys-beer-obsession-from-a-5000-metre-beer-pipeline-to-home-brewing-championshi",
+        "unbiased_text": "Germany is well-known for its beer culture, with the Oktoberfest festival attracting millions of visitors each year."
+      },
+      {
+        "pattern": "Uproar headline before substantive reporting",
+        "detail": "Beginning headlines with reaction words like 'uproar' before explaining the underlying event or decision.",
+        "debias": "Lead with the substantive news event before characterizing reactions to it.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "Uproar as Paris attacks coordinator Mohamed Bakkali granted prison leave",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/23/uproar-as-paris-attacks-coordinator-mohamed-bakkali-granted-prison-leave",
+        "unbiased_text": "Paris attacks coordinator Mohamed Bakkali granted prison leave, sparking criticism"
+      },
+      {
+        "pattern": "Geek culture fest promotional framing",
+        "detail": "Reporting on entertainment conventions with enthusiastic promotional language rather than neutral event coverage.",
+        "debias": "Report on entertainment events with the same neutral tone used for other commercial gatherings.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "MomoCon opened this week in Atlanta, with organisers expecting around 65,000 gamers, anime fans and cosplayers to attend one of the country's biggest celebrations of geek culture, providing a major boost to local businesses.",
+        "example_url": "http://www.euronews.com/video/2026/05/22/usa-momocon-in-atlanta-unites-65000-fans-for-a-huge-geek-culture-fest",
+        "unbiased_text": "MomoCon opened this week in Atlanta, with organisers expecting around 65,000 attendees at the gaming and entertainment convention."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

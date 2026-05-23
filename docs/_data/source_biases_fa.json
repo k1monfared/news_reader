@@ -1829,6 +1829,39 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/22/south-korean-activists-smash-starbucks-cups-to-protest-tank-day-campaign?traffic_source=rss",
         "unbiased_text": "فعالان کره جنوبی با تخریب لیوان‌ها به کمپین بازاریابی Starbucks اعتراض کردند و به آنچه توصیف کردند تبلیغات با مضمون نظامی اعتراض نمودند.",
         "pattern_en": "Corporate campaign militarism normalization protest"
+      },
+      {
+        "pattern": "استفاده از نام حزب به‌عنوان ابزار انتقاد",
+        "detail": "استفاده از نام‌های طنزآمیز احزاب سیاسی در تیترها برای تقویت روایت‌های ضددولتی بدون انتساب به منتقدان.",
+        "debias": "گزارش جنبش‌های سیاسی با استفاده از نام‌های واقعی آن‌ها و انتساب صریح انتقادات به منابع مشخص.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "بنیان‌گذار حزب جانتای سوسک می‌گوید دولت هند وب‌سایت را از دسترس خارج کرده است",
+        "example_url": "https://www.aljazeera.com/news/2026/5/23/cockroach-janta-partys-founder-says-indian-government-took-website-down?traffic_source=rss",
+        "unbiased_text": "بنیان‌گذار گروه سیاسی طنزآمیز می‌گوید دولت هند وب‌سایت را از دسترس خارج کرده است",
+        "pattern_en": "Party naming as criticism vehicle"
+      },
+      {
+        "pattern": "روایت حذف از طریق موانع اقتصادی در ورزش",
+        "detail": "چارچوب‌بندی بلیت‌های گران و هزینه‌های سفر به‌عنوان ابزاری برای حذف عمدی گروه‌های ملی خاص از رویدادهای ورزشی.",
+        "debias": "گزارش هزینه‌های بلیت و سفر بدون القای حذف عمدی ملیت‌های خاص.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "بلیت‌های گران و قیمت‌های حمل‌ونقل و ممنوعیت سفر به آمریکا به این معناست که هائیتی‌های کمی می‌توانند در مسابقات شرکت کنند.",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/23/world-cup-2026-haiti-fans-feel-excluded-from-first-tournament-since-1974?traffic_source=rss",
+        "unbiased_text": "هزینه‌های بالای بلیت و حمل‌ونقل، همراه با محدودیت‌های سفر به آمریکا، حضور هائیتی‌ها در مسابقات را دشوار می‌سازد.",
+        "pattern_en": "Economic barrier exclusion narrative for sports"
+      },
+      {
+        "pattern": "قاب‌بندی تشدید دراماتیک شکاف فوران‌یافته",
+        "detail": "توصیف اختلافات سیاسی به‌عنوان شکاف‌های فوران‌یافته برای تقویت درک بی‌ثباتی و بحران.",
+        "debias": "گزارش تنش‌های سیاسی را با زبانی خنثی که اقدامات واقعی را بدون استعاره‌های دراماتیک توصیف می‌کند، ارائه دهید.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "رئیس‌جمهور سنگال، فای، نخست‌وزیر سونکو را با فوران شکاف عمیق‌شونده اخراج می‌کند",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/23/senegals-president-faye-sacks-pm-sonko-as-deepening-rift-erupts?traffic_source=rss",
+        "unbiased_text": "رئیس‌جمهور سنگال، فای، نخست‌وزیر سونکو را در میان تنش‌های سیاسی برکنار می‌کند",
+        "pattern_en": "Rift eruption dramatic escalation framing"
       }
     ]
   },
@@ -3203,6 +3236,28 @@
         "example_url": "https://www.france24.com/en/middle-east/20260522-middle-east-live-nato-allies-to-sound-out-us-top-diplomat-after-trump-iran-ire",
         "unbiased_text": "فرماندهی مرکزی ایالات متحده گزارش داد که گروه ناو هواپیمابر USS Abraham Lincoln به عملیات خود در خاورمیانه ادامه می‌دهد.",
         "pattern_en": "Peak readiness assertion without operational detail"
+      },
+      {
+        "pattern": "برجستگی تیتر ادعای تجاوز بدون تأیید",
+        "detail": "آغاز خبر با ادعاهای تجاوز در تیترها پیش از تحقیقات یا تأیید، که به‌طور بالقوه می‌تواند پرونده‌ها را مخدوش کند.",
+        "debias": "ادعاهای تعرض جنسی را با زمینه مناسب درباره وضعیت تحقیقات گزارش دهید و از انتساب دقیق استفاده کنید.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "فعالان آزادشده کاروان دریایی غزه ادعای سوءاستفاده اسرائیلی از جمله تجاوز را مطرح می‌کنند",
+        "example_url": "https://www.france24.com/en/freed-gaza-flotilla-activists-allege-israeli-abuse-including-rape",
+        "unbiased_text": "فعالان آزادشده کاروان دریایی غزه بدرفتاری ادعایی در بازداشت اسرائیل را گزارش می‌کنند، ادعاهایی که در دست بررسی است",
+        "pattern_en": "Rape allegation headline prominence without verification"
+      },
+      {
+        "pattern": "هیجان‌آفرینی درباره مراسم ازدواج دسته‌جمعی با رویکرد فداکاری",
+        "detail": "برجسته‌سازی مراسم ازدواج دسته‌جمعی حمایت‌شده توسط دولت همراه با بیانات آمادگی برای فداکاری، به منظور نشان دادن ملت به عنوان متعصب و افراطی.",
+        "debias": "گزارش واقعی از مراسم دولتی بدون تأکید بر عناصر دراماتیک طراحی‌شده برای به تصویر کشیدن افراط‌گرایی.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "در پایتخت، مقامات ایرانی مراسم ازدواج دسته‌جمعی عمومی را برای زوج‌هایی که در یک طرح حمایت‌شده توسط دولت ثبت‌نام کردند و آمادگی خود را برای فدا کردن جان در جنگ علیه ایالات متحده و اسرائیل اعلام کردند، برگزار کردند.",
+        "example_url": "https://www.france24.com/en/us-iran-trade-threats-as-tehran-stages-mass-weddings-for-couples-ready-for-sacrifice",
+        "unbiased_text": "در پایتخت، مقامات ایرانی مراسم ازدواج دسته‌جمعی عمومی را به عنوان بخشی از یک برنامه حمایت‌شده توسط دولت برگزار کردند.",
+        "pattern_en": "Mass wedding sacrifice ceremony sensationalism"
       }
     ]
   },
@@ -4925,6 +4980,40 @@
         "example_url": "http://www.euronews.com/business/2026/05/22/ibm-adds-market-value-of-adidas-after-trumps-quantum-computing-push",
         "unbiased_text": "سهام آی‌بی‌ام پس از اعلام سرمایه‌گذاری فدرال در محاسبات کوانتومی، بیش از ۱۲ درصد افزایش یافت و بیش از ۲۷ میلیارد دلار به ارزش بازار آن اضافه شد.",
         "pattern_en": "Quantum computing market cap sports comparison"
+      },
+      {
+        "pattern": "برچسب‌زنی وسواسی برای شیوه‌های فرهنگی",
+        "detail": "توصیف سنت‌های فرهنگی ملی به‌عنوان وسواس برای القای غیرمنطقی بودن یا افراط.",
+        "debias": "شیوه‌های فرهنگی و سنت‌ها را به‌طور خنثی و بدون زبان بیماری‌انگاری توصیف کنید.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "آلمان به‌خاطر وسواس خود نسبت به آبجو شناخته شده است و جشنواره Oktoberfest میلیون‌ها بازدیدکننده را هر ساله جذب می‌کند.",
+        "example_url": "http://www.euronews.com/2026/05/23/inside-germanys-beer-obsession-from-a-5000-metre-beer-pipeline-to-home-brewing-championshi",
+        "unbiased_text": "آلمان به‌خاطر فرهنگ آبجوی خود شناخته شده است و جشنواره Oktoberfest میلیون‌ها بازدیدکننده را هر ساله جذب می‌کند.",
+        "detail_items": [],
+        "pattern_en": "Obsession labeling for cultural practices"
+      },
+      {
+        "pattern": "تیتر واکنش‌محور قبل از گزارش موضوعی",
+        "detail": "آغاز تیترها با واژگان واکنشی مانند «خشم» یا «جنجال» پیش از توضیح رویداد یا تصمیم اصلی.",
+        "debias": "ابتدا خبر اصلی را بیان کنید و سپس واکنش‌ها به آن را مشخص کنید.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "خشم و جنجال پس از اعطای مرخصی زندان به محمد بکالی هماهنگ‌کننده حملات پاریس",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/23/uproar-as-paris-attacks-coordinator-mohamed-bakkali-granted-prison-leave",
+        "unbiased_text": "محمد بکالی هماهنگ‌کننده حملات پاریس مرخصی زندان دریافت کرد و انتقادهایی را برانگیخت",
+        "pattern_en": "Uproar headline before substantive reporting"
+      },
+      {
+        "pattern": "قاب‌بندی تبلیغاتی جشنواره فرهنگ گیک",
+        "detail": "گزارش درباره کنوانسیون‌های سرگرمی با زبان تبلیغاتی مشتاقانه به‌جای پوشش خبری بی‌طرفانه رویداد.",
+        "debias": "درباره رویدادهای سرگرمی با همان لحن بی‌طرفانه‌ای گزارش دهید که برای سایر گردهمایی‌های تجاری استفاده می‌شود.",
+        "date_added": "2026-05-23",
+        "status": "suggested",
+        "example_text": "MomoCon این هفته در Atlanta افتتاح شد و برگزارکنندگان انتظار دارند حدود ۶۵٬۰۰۰ گیمر، طرفدار انیمه و cosplayer در یکی از بزرگ‌ترین جشن‌های فرهنگ گیک کشور شرکت کنند که رونق قابل‌توجهی به کسب‌وکارهای محلی می‌بخشد.",
+        "example_url": "http://www.euronews.com/video/2026/05/22/usa-momocon-in-atlanta-unites-65000-fans-for-a-huge-geek-culture-fest",
+        "unbiased_text": "MomoCon این هفته در Atlanta افتتاح شد و برگزارکنندگان انتظار دارند حدود ۶۵٬۰۰۰ نفر در این کنوانسیون بازی و سرگرمی شرکت کنند.",
+        "pattern_en": "Geek culture fest promotional framing"
       }
     ]
   }
