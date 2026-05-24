@@ -1862,6 +1862,28 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/23/senegals-president-faye-sacks-pm-sonko-as-deepening-rift-erupts?traffic_source=rss",
         "unbiased_text": "رئیس‌جمهور سنگال، فای، نخست‌وزیر سونکو را در میان تنش‌های سیاسی برکنار می‌کند",
         "pattern_en": "Rift eruption dramatic escalation framing"
+      },
+      {
+        "pattern": "خودبرتربینی با قیاس به امپراتوری‌های باستانی",
+        "detail": "مقامات ایرانی با اشاره به پیروزی‌های نظامی ایران باستان بر روم، مذاکرات کنونی را به‌عنوان تأیید تاریخی برتری ایران بر غرب قلمداد می‌کنند.",
+        "debias": "اظهارات دیپلماتیک را به‌طور مستقیم گزارش کنید، بدون تقویت مقایسه‌های تاریخی که مذاکرات را به‌صورت رویارویی تمدنی نشان می‌دهند.",
+        "date_added": "2026-05-24",
+        "status": "suggested",
+        "example_text": "سخنگوی وزارت امور خارجه ایران با اشاره به پیروزی ایران باستان بر روم، مقایسه‌ای با مذاکرات امروز ایران و آمریکا انجام داد.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/24/iran-hints-us-will-end-war-in-persian-style-peace-on-tehrans-terms?traffic_source=rss",
+        "unbiased_text": "سخنگوی وزارت امور خارجه ایران درباره مذاکرات جاری ایران و آمریکا اظهار نظر کرد.",
+        "pattern_en": "Ancient empire analogy self-elevation"
+      },
+      {
+        "pattern": "قاب‌بندی رقابت منابع بین آواره‌ها و جامعه محلی",
+        "detail": "پوشش خبری بر تعارض میان جمعیت‌های آواره و جوامع محلی بر سر منابع کمیاب تأکید می‌کند و بحران انسانی را به‌عنوان رقابت بین گروهی به‌جای شکست سیستماتیک قاب می‌بندد.",
+        "debias": "تمرکز بر شکست‌های زیربنایی کمک‌های بشردوستانه و اقتصادی به‌جای قاب‌بندی کمبود منابع به‌عنوان رقابت میان گروه‌های قربانی.",
+        "date_added": "2026-05-24",
+        "status": "suggested",
+        "example_text": "کاهش کمک‌های بشردوستانه به یمن و بحران اقتصادی داخلی، رنج شدیدی را در میان آوارگان اردوگاه مریمه به همراه دارد.",
+        "example_url": "https://www.aljazeera.com/features/2026/5/24/yemen-war-sees-scramble-for-scant-resources-between-displaced-and-locals?traffic_source=rss",
+        "unbiased_text": "کاهش کمک‌های بشردوستانه به یمن و بحران اقتصادی داخلی باعث رنج شدید در اردوگاه آوارگان مریمه شده است.",
+        "pattern_en": "Displaced-local resource competition framing"
       }
     ]
   },
@@ -3258,6 +3280,28 @@
         "example_url": "https://www.france24.com/en/us-iran-trade-threats-as-tehran-stages-mass-weddings-for-couples-ready-for-sacrifice",
         "unbiased_text": "در پایتخت، مقامات ایرانی مراسم ازدواج دسته‌جمعی عمومی را به عنوان بخشی از یک برنامه حمایت‌شده توسط دولت برگزار کردند.",
         "pattern_en": "Mass wedding sacrifice ceremony sensationalism"
+      },
+      {
+        "pattern": "توصیف رابطه دفاعی به‌عنوان پراگماتیسم سرد",
+        "detail": "روابط دفاعی دوجانبه به‌عنوان صرفاً معامله‌گرا و بدون احساس توصیف می‌شوند تا نبود همسویی استراتژیک واقعی یا ارزش‌های مشترک را نشان دهند.",
+        "debias": "درباره همکاری‌های دفاعی بر اساس اهداف و اقدامات اعلام‌شده گزارش دهید، نه بر اساس توصیف کیفیت احساسی رابطه.",
+        "date_added": "2026-05-24",
+        "status": "suggested",
+        "example_text": "«رابطه‌ای سرد و پراگماتیک»: روابط امارات و اسرائیل توسط دفاع و فناوری هدایت می‌شود",
+        "example_url": "https://www.france24.com/en/tv-shows/middle-east-matters/20260522-cold-pragmatic-relationship-uae-israel-ties-driven-by-defence-and-technology",
+        "unbiased_text": "روابط امارات و اسرائیل بر همکاری‌های دفاعی و فناوری متمرکز است",
+        "pattern_en": "Cold pragmatism defense relationship characterization"
+      },
+      {
+        "pattern": "ادعای از دست دادن کنترل و اختلال در عملکرد دولت",
+        "detail": "اقدامات بحث‌برانگیز مقامات به عنوان شواهدی مبنی بر از دست دادن کنترل رهبر بر دولت خود چارچوب‌بندی می‌شود، نه به عنوان تصمیمات سیاسی یا تساهل عمدی.",
+        "debias": "در مورد اقدامات بحث‌برانگیز مقامات و هرگونه واکنش رهبری گزارش دهید، بدون حدس و گمان درباره پویایی‌های کنترل داخلی.",
+        "date_added": "2026-05-24",
+        "status": "suggested",
+        "example_text": "ویدیوی بن گویر از کشتی‌ها: نتانیاهو «کنترل دولت را از دست داده است»",
+        "example_url": "https://www.france24.com/en/tv-shows/a-propos/20260521-ben-gvir-netanyahu-has-lost-control-of-the-government",
+        "unbiased_text": "ویدیوی بن گویر از کشتی‌ها موجب انتقاد از دولت نتانیاهو شد",
+        "pattern_en": "Lost control government dysfunction assertion"
       }
     ]
   },
@@ -5014,6 +5058,28 @@
         "example_url": "http://www.euronews.com/video/2026/05/22/usa-momocon-in-atlanta-unites-65000-fans-for-a-huge-geek-culture-fest",
         "unbiased_text": "MomoCon این هفته در Atlanta افتتاح شد و برگزارکنندگان انتظار دارند حدود ۶۵٬۰۰۰ نفر در این کنوانسیون بازی و سرگرمی شرکت کنند.",
         "pattern_en": "Geek culture fest promotional framing"
+      },
+      {
+        "pattern": "قهرمان‌سازی از اقتصاد دایره‌ای منابع ادراری",
+        "detail": "پروژه‌های آزمایشی بازیافت زباله در مقیاس کوچک با زبانی پرشور به عنوان راه‌حل‌های نوآورانه برای بحران‌های بزرگ منابع سیاره‌ای تصویر می‌شوند.",
+        "debias": "پروژه‌های آزمایشی پایداری را با بافت مقیاس مناسب و شواهد اثربخشی گزارش دهید.",
+        "date_added": "2026-05-24",
+        "status": "suggested",
+        "example_text": "ادرار برای سیاره: چگونه هواداران فوتبال مشکل کود سوئد را با استفاده از ادرار حل می‌کنند",
+        "example_url": "http://www.euronews.com/2026/05/24/pee-for-the-planet-how-football-fans-are-tackling-swedens-fertiliser-problem-using-urine",
+        "unbiased_text": "هواداران فوتبال سوئدی در یک برنامه آزمایشی برای بازیافت ادرار به عنوان کود شرکت می‌کنند",
+        "pattern_en": "Urine resource circular economy heroism"
+      },
+      {
+        "pattern": "فاجعه‌سازی درصدی دستمزد جوانان برای استقلال",
+        "detail": "مقرون‌به‌صرفه بودن مسکن از طریق درصدهای دقیق دستمزد جوانان کمی‌سازی می‌شود تا غیرممکن بودن استقلال را برجسته کرده و به عنوان بحران جمعیتی قاب‌بندی شود.",
+        "debias": "هزینه‌های مسکن را نسبت به درآمد با زمینه‌ای درباره عرضه مسکن، سطح دستمزدها و عوامل سیاستی که به این وضعیت کمک می‌کنند، گزارش کنید.",
+        "date_added": "2026-05-24",
+        "status": "suggested",
+        "example_text": "اجاره متوسط اکنون ۹۸.۷ درصد از حقوق کارگران جوان را برای آپارتمان‌های یک نفره در اسپانیا می‌بلعد",
+        "example_url": "http://www.euronews.com/business/2026/05/22/average-rent-now-swallows-987-of-young-workers-pay-for-one-person-flats-in-spain",
+        "unbiased_text": "اجاره متوسط برای آپارتمان‌های یک نفره در اسپانیا تقریباً تمام دستمزد کارگران جوان را مصرف می‌کند، به گفته شورای جوانان اسپانیا",
+        "pattern_en": "Youth emancipation wage percentage catastrophism"
       }
     ]
   }

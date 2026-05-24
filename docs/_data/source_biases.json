@@ -1676,6 +1676,26 @@
         "example_text": "Senegal's President Faye sacks PM Sonko as deepening rift erupts",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/23/senegals-president-faye-sacks-pm-sonko-as-deepening-rift-erupts?traffic_source=rss",
         "unbiased_text": "Senegal's President Faye dismisses PM Sonko amid political tensions"
+      },
+      {
+        "pattern": "Ancient empire analogy self-elevation",
+        "detail": "Iranian officials invoke ancient Persian military victories over Rome to frame current negotiations as historical vindication of Iranian superiority over the West.",
+        "debias": "Report diplomatic statements directly without amplifying historical comparisons that frame negotiations as civilizational contests.",
+        "date_added": "2026-05-24",
+        "status": "suggested",
+        "example_text": "Iran's foreign ministry spokesman invoked ancient Persia's victory over Rome in comparison to today's US-Iran talks.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/24/iran-hints-us-will-end-war-in-persian-style-peace-on-tehrans-terms?traffic_source=rss",
+        "unbiased_text": "Iran's foreign ministry spokesman commented on the ongoing US-Iran talks."
+      },
+      {
+        "pattern": "Displaced-local resource competition framing",
+        "detail": "Coverage emphasizes conflict between displaced populations and local communities over scarce resources, framing humanitarian crisis as inter-group competition rather than systemic failure.",
+        "debias": "Focus on the underlying aid and economic failures rather than framing resource scarcity as competition between victim groups.",
+        "date_added": "2026-05-24",
+        "status": "suggested",
+        "example_text": "Reduced aid to Yemen and a domestic economic crisis see extreme suffering among the displaced at the Maryamah camp.",
+        "example_url": "https://www.aljazeera.com/features/2026/5/24/yemen-war-sees-scramble-for-scant-resources-between-displaced-and-locals?traffic_source=rss",
+        "unbiased_text": "Reduced aid to Yemen and a domestic economic crisis have caused extreme suffering at the Maryamah displacement camp."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -2923,8 +2943,8 @@
       },
       {
         "pattern": "Identity erasure campaign archaeological assertion",
-        "detail": "Presenting destruction of cultural sites as deliberate erasure strategy based on NGO documentation without verification of intent.",
-        "debias": "Report documented destruction of specific sites while noting claimed intent as allegations requiring verification through multiple sources.",
+        "detail": "Presenting destruction of cultural sites as deliberate erasure strategy based on NGO documentation without verification of intent. Also: Destruction of cultural sites is labeled as a systematic campaign to erase identity and historical connections based on archaeological significance claims.",
+        "debias": "Report documented destruction of specific sites while noting claimed intent as allegations requiring verification through multiple sources. Report on documented destruction of specific sites without attributing coordinated identity erasure motives unless explicitly stated by perpetrators.",
         "date_added": "2026-05-22",
         "status": "suggested",
         "example_text": "'The aim is to erase our identity': How south Lebanon's cultural heritage is going up in smoke",
@@ -2960,6 +2980,26 @@
         "example_text": "In the capital, Iranian authorities held mass public weddings for couples who signed up to a state-sponsored scheme declaring their readiness to sacrifice their lives in the war against the US and Israel.",
         "example_url": "https://www.france24.com/en/us-iran-trade-threats-as-tehran-stages-mass-weddings-for-couples-ready-for-sacrifice",
         "unbiased_text": "In the capital, Iranian authorities held mass public weddings as part of a state-sponsored program."
+      },
+      {
+        "pattern": "Cold pragmatism defense relationship characterization",
+        "detail": "Bilateral defense relationships are characterized as purely transactional and emotionless to suggest lack of genuine strategic alignment or shared values.",
+        "debias": "Report on defense cooperation based on stated objectives and actions rather than characterizing the emotional quality of the relationship.",
+        "date_added": "2026-05-24",
+        "status": "suggested",
+        "example_text": "'Cold, pragmatic relationship': UAE-Israel ties driven by defence and technology",
+        "example_url": "https://www.france24.com/en/tv-shows/middle-east-matters/20260522-cold-pragmatic-relationship-uae-israel-ties-driven-by-defence-and-technology",
+        "unbiased_text": "UAE-Israel ties focus on defense and technology cooperation"
+      },
+      {
+        "pattern": "Lost control government dysfunction assertion",
+        "detail": "Officials' controversial actions are framed as evidence that a leader has lost control of their government rather than as policy decisions or deliberate tolerance.",
+        "debias": "Report on controversial actions by officials and any leadership response without speculating about internal control dynamics.",
+        "date_added": "2026-05-24",
+        "status": "suggested",
+        "example_text": "Ben Gvir's flotilla video: Netanyahu has 'lost control of the government'",
+        "example_url": "https://www.france24.com/en/tv-shows/a-propos/20260521-ben-gvir-netanyahu-has-lost-control-of-the-government",
+        "unbiased_text": "Ben Gvir's flotilla video prompts criticism of Netanyahu's government"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -4553,6 +4593,26 @@
         "example_text": "MomoCon opened this week in Atlanta, with organisers expecting around 65,000 gamers, anime fans and cosplayers to attend one of the country's biggest celebrations of geek culture, providing a major boost to local businesses.",
         "example_url": "http://www.euronews.com/video/2026/05/22/usa-momocon-in-atlanta-unites-65000-fans-for-a-huge-geek-culture-fest",
         "unbiased_text": "MomoCon opened this week in Atlanta, with organisers expecting around 65,000 attendees at the gaming and entertainment convention."
+      },
+      {
+        "pattern": "Urine resource circular economy heroism",
+        "detail": "Small-scale experimental waste recycling projects are framed as innovative planetary solutions to major resource crises through enthusiastic language.",
+        "debias": "Report on experimental sustainability projects with appropriate scale context and evidence of effectiveness.",
+        "date_added": "2026-05-24",
+        "status": "suggested",
+        "example_text": "Pee for the planet: How Football fans are tackling Sweden's fertiliser problem using urine",
+        "example_url": "http://www.euronews.com/2026/05/24/pee-for-the-planet-how-football-fans-are-tackling-swedens-fertiliser-problem-using-urine",
+        "unbiased_text": "Swedish football fans participate in an experimental program to recycle urine as fertilizer"
+      },
+      {
+        "pattern": "Youth emancipation wage percentage catastrophism",
+        "detail": "Housing affordability is quantified through precise percentages of youth wages to emphasize impossibility of independence and frame as demographic crisis.",
+        "debias": "Report housing costs relative to income with context on housing supply, wage levels, and policy factors contributing to the situation.",
+        "date_added": "2026-05-24",
+        "status": "suggested",
+        "example_text": "Average rent now swallows 98.7% of young workers' pay for one-person flats in Spain",
+        "example_url": "http://www.euronews.com/business/2026/05/22/average-rent-now-swallows-987-of-young-workers-pay-for-one-person-flats-in-spain",
+        "unbiased_text": "Average rent for one-person flats in Spain consumes nearly all of young workers' wages, according to Spain's Youth Council"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
