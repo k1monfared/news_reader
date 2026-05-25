@@ -1696,6 +1696,36 @@
         "example_text": "Reduced aid to Yemen and a domestic economic crisis see extreme suffering among the displaced at the Maryamah camp.",
         "example_url": "https://www.aljazeera.com/features/2026/5/24/yemen-war-sees-scramble-for-scant-resources-between-displaced-and-locals?traffic_source=rss",
         "unbiased_text": "Reduced aid to Yemen and a domestic economic crisis have caused extreme suffering at the Maryamah displacement camp."
+      },
+      {
+        "pattern": "Question headline sabotage framing",
+        "detail": "Using question-format headlines to insinuate destructive intent by one party toward diplomatic efforts involving others.",
+        "debias": "Replace speculative question headlines with factual statements about what parties have actually said or done regarding negotiations.",
+        "date_added": "2026-05-25",
+        "status": "suggested",
+        "example_text": "Could Israel sabotage US-Iran deal?",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/25/could-israel-sabotage-us-iran-deal?traffic_source=rss",
+        "unbiased_text": "Israel has stated it will continue striking regional threats as US-Iran negotiations progress."
+      },
+      {
+        "pattern": "War economic winner celebration framing",
+        "detail": "Framing certain countries or industries as 'winners' of conflict through increased economic activity stemming from war disruption.",
+        "debias": "Report economic shifts from conflict without celebratory language, focusing on causation and impact rather than competitive positioning.",
+        "date_added": "2026-05-25",
+        "status": "suggested",
+        "example_text": "Could Brazilian oil emerge as one of the big winners of the Iran war?",
+        "example_url": "https://www.aljazeera.com/news/2026/5/25/could-brazilian-oil-emerge-as-one-of-the-big-winners-of-the-iran-war?traffic_source=rss",
+        "unbiased_text": "Brazilian oil exports to China and India have increased as Strait of Hormuz disruptions affect other suppliers."
+      },
+      {
+        "pattern": "Entanglement advantage opportunism framing",
+        "detail": "Portraying non-state actors as strategically exploiting a state's external conflicts or commitments for their own benefit.",
+        "debias": "Report on separatist or insurgent activity based on documented actions without attributing strategic calculation to external factors.",
+        "date_added": "2026-05-25",
+        "status": "suggested",
+        "example_text": "Baloch separatists 'take advantage' of Pakistan's entanglements",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/25/baloch-separatists-take-advantage-of-pakistans-entanglements?traffic_source=rss",
+        "unbiased_text": "Baloch separatist activity has increased during a period when Pakistan faces multiple security challenges."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4613,6 +4643,46 @@
         "example_text": "Average rent now swallows 98.7% of young workers' pay for one-person flats in Spain",
         "example_url": "http://www.euronews.com/business/2026/05/22/average-rent-now-swallows-987-of-young-workers-pay-for-one-person-flats-in-spain",
         "unbiased_text": "Average rent for one-person flats in Spain consumes nearly all of young workers' wages, according to Spain's Youth Council"
+      },
+      {
+        "pattern": "Palace status loss devastating impact framing",
+        "detail": "Amplifying the significance of luxury hotel classification changes through emotional language suggesting catastrophic consequences.",
+        "debias": "Report classification changes factually, noting the criteria and impact without dramatic characterizations of severity.",
+        "date_added": "2026-05-25",
+        "status": "suggested",
+        "example_text": "'Devastating blow': Three major luxury hotels in France lose 'palace' status",
+        "example_url": "http://www.euronews.com/travel/2026/05/25/devastating-blow-three-major-luxury-hotels-in-france-lose-palace-status",
+        "unbiased_text": "Three luxury hotels in France no longer meet criteria for 'palace' classification following review by France's Palace Commission."
+      },
+      {
+        "pattern": "Age representation animal comparison sensationalism",
+        "detail": "Using absurd statistical comparisons (e.g., to talking animals or repeated actor names) to dramatize demographic underrepresentation in media.",
+        "debias": "Present representation statistics directly with context about industry demographics without trivializing comparisons.",
+        "date_added": "2026-05-25",
+        "status": "suggested",
+        "example_text": "Films more likely to star a 'Chris' or a talking animal than a woman over 60, study reveals",
+        "example_url": "http://www.euronews.com/culture/2026/05/25/films-more-likely-to-star-a-chris-or-a-talking-animal-than-a-woman-over-60-study-reveals",
+        "unbiased_text": "Study finds women over 60 are underrepresented as lead actors in top-grossing films compared to younger demographics."
+      },
+      {
+        "pattern": "Navigational services fee euphemism framing",
+        "detail": "Presenting imposed transit fees by a blockading power through official euphemistic terminology rather than describing the coercive context.",
+        "debias": "Clarify that fees are imposed unilaterally by a party controlling passage through disputed or blockaded waters.",
+        "date_added": "2026-05-25",
+        "status": "suggested",
+        "example_text": "Iran says it is charging fees for 'navigational services' through Strait of Hormuz",
+        "example_url": "http://www.euronews.com/2026/05/25/iran-says-it-is-charging-fees-for-navigational-services-through-strait-of-hormuz",
+        "unbiased_text": "Iran has announced it will charge fees for passage through the Strait of Hormuz, which it effectively closed earlier in the conflict."
+      },
+      {
+        "pattern": "Trust erosion generational contribution paradox",
+        "detail": "Emphasizing the contradiction of continued financial participation in systems that participants reportedly distrust, particularly along generational lines.",
+        "debias": "Report survey findings on trust and participation separately without framing mandatory or expected contributions as paradoxical.",
+        "date_added": "2026-05-25",
+        "status": "suggested",
+        "example_text": "Young Europeans are putting money into a pension system they don't trust, study shows",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/25/young-europeans-are-putting-money-into-a-pension-system-they-dont-trust-study-shows",
+        "unbiased_text": "Study shows younger Europeans express lower confidence in pension systems while continuing mandatory contributions."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

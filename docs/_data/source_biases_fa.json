@@ -1884,6 +1884,39 @@
         "example_url": "https://www.aljazeera.com/features/2026/5/24/yemen-war-sees-scramble-for-scant-resources-between-displaced-and-locals?traffic_source=rss",
         "unbiased_text": "کاهش کمک‌های بشردوستانه به یمن و بحران اقتصادی داخلی باعث رنج شدید در اردوگاه آوارگان مریمه شده است.",
         "pattern_en": "Displaced-local resource competition framing"
+      },
+      {
+        "pattern": "سوء استفاده از عنوان پرسشی برای قاب‌بندی خرابکارانه",
+        "detail": "استفاده از عناوین به شکل پرسش برای القای نیت مخرب یک طرف نسبت به تلاش‌های دیپلماتیک شامل طرف‌های دیگر.",
+        "debias": "عناوین پرسشی گمانه‌زنانه را با بیانیه‌های واقعی درباره آنچه طرف‌ها واقعاً درباره مذاکرات گفته یا انجام داده‌اند جایگزین کنید.",
+        "date_added": "2026-05-25",
+        "status": "suggested",
+        "example_text": "آیا اسرائیل می‌تواند توافق آمریکا و ایران را خراب کند؟",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/25/could-israel-sabotage-us-iran-deal?traffic_source=rss",
+        "unbiased_text": "اسرائیل اعلام کرده است که به حملات علیه تهدیدات منطقه‌ای ادامه خواهد داد در حالی که مذاکرات آمریکا و ایران پیش می‌رود.",
+        "pattern_en": "Question headline sabotage framing"
+      },
+      {
+        "pattern": "قاب‌بندی جشن‌گیری برندگان اقتصادی جنگ",
+        "detail": "قاب‌بندی کشورها یا صنایع خاص به‌عنوان «برندگان» درگیری از طریق افزایش فعالیت اقتصادی ناشی از اختلال جنگ.",
+        "debias": "تحولات اقتصادی ناشی از درگیری را بدون زبان جشن‌گرایانه گزارش کنید و بر علیت و تأثیر تمرکز کنید نه موضع‌گیری رقابتی.",
+        "date_added": "2026-05-25",
+        "status": "suggested",
+        "example_text": "آیا نفت برزیل می‌تواند به‌عنوان یکی از برندگان بزرگ جنگ ایران ظهور کند؟",
+        "example_url": "https://www.aljazeera.com/news/2026/5/25/could-brazilian-oil-emerge-as-one-of-the-big-winners-of-the-iran-war?traffic_source=rss",
+        "unbiased_text": "صادرات نفت برزیل به چین و هند افزایش یافته است زیرا اختلالات تنگه هرمز بر سایر تأمین‌کنندگان تأثیر گذاشته است.",
+        "pattern_en": "War economic winner celebration framing"
+      },
+      {
+        "pattern": "قاب‌بندی فرصت‌طلبی از مزیت درگیری",
+        "detail": "به تصویر کشیدن بازیگران غیردولتی به‌عنوان عناصری که به‌طور استراتژیک از درگیری‌ها یا تعهدات خارجی یک دولت برای منافع خود سوءاستفاده می‌کنند.",
+        "debias": "گزارش فعالیت‌های جدایی‌طلبانه یا شورشی را بر اساس اقدامات مستند ارائه دهید، بدون آنکه محاسبات استراتژیک را به عوامل خارجی نسبت دهید.",
+        "date_added": "2026-05-25",
+        "status": "suggested",
+        "example_text": "جدایی‌طلبان بلوچ از درگیری‌های پاکستان «سوءاستفاده می‌کنند»",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/25/baloch-separatists-take-advantage-of-pakistans-entanglements?traffic_source=rss",
+        "unbiased_text": "فعالیت جدایی‌طلبان بلوچ در دوره‌ای افزایش یافته است که پاکستان با چالش‌های امنیتی متعددی روبه‌روست.",
+        "pattern_en": "Entanglement advantage opportunism framing"
       }
     ]
   },
@@ -5080,6 +5113,52 @@
         "example_url": "http://www.euronews.com/business/2026/05/22/average-rent-now-swallows-987-of-young-workers-pay-for-one-person-flats-in-spain",
         "unbiased_text": "اجاره متوسط برای آپارتمان‌های یک نفره در اسپانیا تقریباً تمام دستمزد کارگران جوان را مصرف می‌کند، به گفته شورای جوانان اسپانیا",
         "pattern_en": "Youth emancipation wage percentage catastrophism"
+      },
+      {
+        "pattern": "قاب‌بندی تأثیر ویرانگر از دست دادن وضعیت کاخ",
+        "detail": "بزرگ‌نمایی اهمیت تغییرات رده‌بندی هتل‌های لوکس از طریق زبان عاطفی که پیامدهای فاجعه‌بار را تداعی می‌کند.",
+        "debias": "تغییرات رده‌بندی را به‌صورت واقعی گزارش کنید، با ذکر معیارها و تأثیر بدون توصیف‌های نمایشی از شدت آن.",
+        "date_added": "2026-05-25",
+        "status": "suggested",
+        "example_text": "«ضربه ویرانگر»: سه هتل لوکس بزرگ در فرانسه وضعیت «کاخ» خود را از دست دادند",
+        "example_url": "http://www.euronews.com/travel/2026/05/25/devastating-blow-three-major-luxury-hotels-in-france-lose-palace-status",
+        "unbiased_text": "سه هتل لوکس در فرانسه دیگر معیارهای رده‌بندی «کاخ» را برآورده نمی‌کنند، پس از بازبینی توسط کمیسیون کاخ‌های فرانسه.",
+        "detail_items": [],
+        "pattern_en": "Palace status loss devastating impact framing"
+      },
+      {
+        "pattern": "سنسیونالیسم مقایسه حیوانی در بازنمایی سنی",
+        "detail": "استفاده از مقایسه‌های آماری پوچ (مانند مقایسه با حیوانات سخنگو یا نام‌های تکراری بازیگران) برای نمایش چشمگیر کم‌بازنمایی جمعیت‌شناختی در رسانه.",
+        "debias": "ارائه مستقیم آمار بازنمایی همراه با زمینه‌ای درباره جمعیت‌شناسی صنعت، بدون مقایسه‌های کوچک‌کننده.",
+        "date_added": "2026-05-25",
+        "status": "suggested",
+        "example_text": "مطالعه نشان می‌دهد: احتمال ایفای نقش اصلی توسط یک «کریس» یا حیوان سخنگو در فیلم‌ها بیشتر از زنان بالای ۶۰ سال است",
+        "example_url": "http://www.euronews.com/culture/2026/05/25/films-more-likely-to-star-a-chris-or-a-talking-animal-than-a-woman-over-60-study-reveals",
+        "unbiased_text": "مطالعه نشان می‌دهد زنان بالای ۶۰ سال به‌عنوان بازیگران اصلی در فیلم‌های پرفروش در مقایسه با گروه‌های سنی جوان‌تر کم‌بازنمایی شده‌اند.",
+        "pattern_en": "Age representation animal comparison sensationalism"
+      },
+      {
+        "pattern": "قاب‌بندی تعبیری هزینه خدمات ناوبری",
+        "detail": "ارائه هزینه‌های عبور تحمیل‌شده توسط قدرت محاصره‌کننده از طریق اصطلاحات رسمی تعبیری به جای توصیف زمینه اجباری.",
+        "debias": "روشن کنید که هزینه‌ها به‌صورت یک‌جانبه توسط طرفی که کنترل عبور از آب‌های مورد مناقشه یا محاصره‌شده را در دست دارد، تحمیل می‌شوند.",
+        "date_added": "2026-05-25",
+        "status": "suggested",
+        "example_text": "ایران می‌گوید که برای «خدمات ناوبری» از طریق تنگه هرمز هزینه دریافت می‌کند",
+        "example_url": "http://www.euronews.com/2026/05/25/iran-says-it-is-charging-fees-for-navigational-services-through-strait-of-hormuz",
+        "unbiased_text": "ایران اعلام کرده است که برای عبور از تنگه هرمز، که پیش‌تر در جریان درگیری به‌طور عملی آن را بسته بود، هزینه دریافت خواهد کرد.",
+        "detail_items": [],
+        "pattern_en": "Navigational services fee euphemism framing"
+      },
+      {
+        "pattern": "تناقض مشارکت نسلی در فرسایش اعتماد",
+        "detail": "تأکید بر تناقض مشارکت مالی مستمر در نظام‌هایی که شرکت‌کنندگان بنا بر گزارش‌ها به آن‌ها اعتماد ندارند، به ویژه در میان نسل‌های مختلف.",
+        "debias": "یافته‌های نظرسنجی درباره اعتماد و مشارکت را به طور جداگانه گزارش کنید بدون اینکه مشارکت‌های اجباری یا مورد انتظار را به صورت متناقض چارچوب‌بندی کنید.",
+        "date_added": "2026-05-25",
+        "status": "suggested",
+        "example_text": "جوانان اروپایی در حال واریز پول به نظام بازنشستگی هستند که به آن اعتماد ندارند، مطالعه نشان می‌دهد",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/25/young-europeans-are-putting-money-into-a-pension-system-they-dont-trust-study-shows",
+        "unbiased_text": "مطالعه نشان می‌دهد اروپایی‌های جوان‌تر اعتماد کمتری به نظام‌های بازنشستگی ابراز می‌کنند در حالی که همچنان مشارکت‌های اجباری را ادامه می‌دهند.",
+        "pattern_en": "Trust erosion generational contribution paradox"
       }
     ]
   }
