@@ -1726,6 +1726,26 @@
         "example_text": "Baloch separatists 'take advantage' of Pakistan's entanglements",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/25/baloch-separatists-take-advantage-of-pakistans-entanglements?traffic_source=rss",
         "unbiased_text": "Baloch separatist activity has increased during a period when Pakistan faces multiple security challenges."
+      },
+      {
+        "pattern": "Settler society violence reward framing",
+        "detail": "Characterizing an entire nation as a 'settler society rewarded for its violence' that has abandoned moral pretense, essentializing collective identity through conflict behavior.",
+        "debias": "Describe specific policies or actions by government actors rather than attributing collective motivations or character traits to entire societies.",
+        "date_added": "2026-05-26",
+        "status": "suggested",
+        "example_text": "A settler society rewarded for its violence has stopped pretending to mourn it.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/26/israel-is-no-longer-shooting-and-crying?traffic_source=rss",
+        "unbiased_text": "Israeli government policies have shifted away from expressions of regret over civilian casualties during military operations."
+      },
+      {
+        "pattern": "Shadow-of-war pilgrimage context insertion",
+        "detail": "Inserting conflict framing into religious event coverage by noting the pilgrimage unfolds 'under the shadow of war' when the event itself is not directly affected.",
+        "debias": "Report on religious observances based on their own merits and direct impacts, mentioning regional conflicts only when they materially affect the event.",
+        "date_added": "2026-05-26",
+        "status": "suggested",
+        "example_text": "Temperatures near 44°C test worshippers' endurance as the annual pilgrimage unfolds under the shadow of war.",
+        "example_url": "https://www.aljazeera.com/gallery/2026/5/26/hajj-pilgrims-gather-at-mount-arafat-under-scorching-desert-sun?traffic_source=rss",
+        "unbiased_text": "Temperatures near 44°C test worshippers' endurance during the annual pilgrimage to Mecca."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3030,6 +3050,26 @@
         "example_text": "Ben Gvir's flotilla video: Netanyahu has 'lost control of the government'",
         "example_url": "https://www.france24.com/en/tv-shows/a-propos/20260521-ben-gvir-netanyahu-has-lost-control-of-the-government",
         "unbiased_text": "Ben Gvir's flotilla video prompts criticism of Netanyahu's government"
+      },
+      {
+        "pattern": "Buying time military rebuilding insinuation",
+        "detail": "Framing diplomatic engagement as tactical deception where one party seeks to 'buy time to rebuild its military' rather than genuine negotiation.",
+        "debias": "Report on stated negotiating positions and observable military activities separately without attributing hidden motives to diplomatic engagement.",
+        "date_added": "2026-05-26",
+        "status": "suggested",
+        "example_text": "Iran looking to 'buy time to rebuild its military' amid talks to end war",
+        "example_url": "https://www.france24.com/en/iran-looking-to-buy-time-to-rebuild-its-military-amid-talks-to-end-war",
+        "unbiased_text": "Iran continues diplomatic talks while maintaining its military posture in the region."
+      },
+      {
+        "pattern": "Staged injury recovery miraculous mockery",
+        "detail": "Highlighting alleged inconsistencies in injury presentation to delegitimize claims of abuse, using terms like 'staged' and 'miraculous recovery' to cast doubt on all allegations.",
+        "debias": "Report competing claims about injuries with equal weight, presenting evidence from both sides without sarcasm or insinuation about credibility.",
+        "date_added": "2026-05-26",
+        "status": "suggested",
+        "example_text": "Israel's foreign ministry has mocked the activists from the Global Sumud Flotilla online, alleging that injuries were 'staged' for the cameras after an activist pictured in a neck brace displayed a 'miraculous recovery' when returning home without it.",
+        "example_url": "https://www.france24.com/en/posing-for-cameras-israel-mocks-flotilla-activists-online-as-torture-rape-allegations-mount",
+        "unbiased_text": "Israel's foreign ministry disputed activists' injury claims, pointing to photographs showing one activist without a neck brace upon return home, while activists have reported abuse, torture, and sexual violence during detention."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -4683,6 +4723,26 @@
         "example_text": "Young Europeans are putting money into a pension system they don't trust, study shows",
         "example_url": "http://www.euronews.com/my-europe/2026/05/25/young-europeans-are-putting-money-into-a-pension-system-they-dont-trust-study-shows",
         "unbiased_text": "Study shows younger Europeans express lower confidence in pension systems while continuing mandatory contributions."
+      },
+      {
+        "pattern": "Breaking silence vow threat elevation",
+        "detail": "Framing a leader's first extended statement as 'breaking silence' with emphasis on threatening declarations, suggesting prior concealment and aggressive intent.",
+        "debias": "Report on official statements by their content and context without dramatic framing about the act of speaking itself.",
+        "date_added": "2026-05-26",
+        "status": "suggested",
+        "example_text": "In his longest statement while still not appearing in public, Iran's new ayatollah said US military bases would have no place in the region",
+        "example_url": "http://www.euronews.com/2026/05/26/ayatollah-mojtaba-khamenei-breaks-silence-to-vow-no-us-military-bases-in-the-region",
+        "unbiased_text": "Iran's ayatollah issued a statement saying US military bases would have no place in the region."
+      },
+      {
+        "pattern": "Looks-like consumer product mockery framing",
+        "detail": "Delegitimizing expensive products through crowdsourced aesthetic criticism comparing luxury items to mass-market alternatives, using 'says the internet' attribution.",
+        "debias": "Report on product specifications, pricing, and market reception using expert analysis rather than amplifying social media ridicule.",
+        "date_added": "2026-05-26",
+        "status": "suggested",
+        "example_text": "Ferrari's €550,000 electric car looks like a Nissan, says the internet",
+        "example_url": "http://www.euronews.com/next/2026/05/26/ferraris-550000-electric-car-looks-like-a-nissan-says-the-internet",
+        "unbiased_text": "Ferrari unveiled its first fully electric car, the Luce, priced at €550,000, with design drawing mixed reactions and shares falling nearly 8%."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

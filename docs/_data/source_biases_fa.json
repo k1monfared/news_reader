@@ -1917,6 +1917,28 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/25/baloch-separatists-take-advantage-of-pakistans-entanglements?traffic_source=rss",
         "unbiased_text": "فعالیت جدایی‌طلبان بلوچ در دوره‌ای افزایش یافته است که پاکستان با چالش‌های امنیتی متعددی روبه‌روست.",
         "pattern_en": "Entanglement advantage opportunism framing"
+      },
+      {
+        "pattern": "قاب‌بندی پاداش خشونت جامعه شهرک‌نشین",
+        "detail": "توصیف یک کشور به‌عنوان «جامعه شهرک‌نشینی که برای خشونتش پاداش گرفته» و تظاهر اخلاقی را کنار گذاشته، و ذات‌گرایی هویت جمعی از طریق رفتار درگیری.",
+        "debias": "به جای نسبت دادن انگیزه‌ها یا ویژگی‌های شخصیتی جمعی به کل جوامع، سیاست‌ها یا اقدامات خاص بازیگران دولتی را توصیف کنید.",
+        "date_added": "2026-05-26",
+        "status": "suggested",
+        "example_text": "جامعه شهرک‌نشینی که برای خشونتش پاداش گرفته دیگر وانمود نمی‌کند که برای آن عزا می‌گیرد.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/26/israel-is-no-longer-shooting-and-crying?traffic_source=rss",
+        "unbiased_text": "سیاست‌های دولت اسرائیل از ابراز تأسف در مورد تلفات غیرنظامیان در طول عملیات نظامی فاصله گرفته است.",
+        "pattern_en": "Settler society violence reward framing"
+      },
+      {
+        "pattern": "درج زمینه زیارت در سایه جنگ",
+        "detail": "درج چارچوب‌بندی درگیری در پوشش رویداد مذهبی با اشاره به اینکه زیارت «در سایه جنگ» انجام می‌شود، در حالی که رویداد به طور مستقیم تحت تأثیر قرار نگرفته است.",
+        "debias": "گزارش مراسم مذهبی بر اساس ارزش‌های ذاتی و تأثیرات مستقیم آن‌ها، با ذکر درگیری‌های منطقه‌ای تنها زمانی که به طور ملموس بر رویداد تأثیر می‌گذارند.",
+        "date_added": "2026-05-26",
+        "status": "suggested",
+        "example_text": "دمای نزدیک به ۴۴ درجه سانتیگراد استقامت زائران را در حالی که زیارت سالانه در سایه جنگ برگزار می‌شود، به آزمون می‌گذارد.",
+        "example_url": "https://www.aljazeera.com/gallery/2026/5/26/hajj-pilgrims-gather-at-mount-arafat-under-scorching-desert-sun?traffic_source=rss",
+        "unbiased_text": "دمای نزدیک به ۴۴ درجه سانتیگراد استقامت زائران را در طول زیارت سالانه به مکه به آزمون می‌گذارد.",
+        "pattern_en": "Shadow-of-war pilgrimage context insertion"
       }
     ]
   },
@@ -3335,6 +3357,29 @@
         "example_url": "https://www.france24.com/en/tv-shows/a-propos/20260521-ben-gvir-netanyahu-has-lost-control-of-the-government",
         "unbiased_text": "ویدیوی بن گویر از کشتی‌ها موجب انتقاد از دولت نتانیاهو شد",
         "pattern_en": "Lost control government dysfunction assertion"
+      },
+      {
+        "pattern": "تلویح به خرید زمان برای بازسازی نظامی",
+        "detail": "قاب‌بندی تعامل دیپلماتیک به عنوان فریب تاکتیکی که در آن یک طرف به دنبال «خرید زمان برای بازسازی ارتش خود» است تا مذاکره واقعی.",
+        "debias": "مواضع اعلام‌شده مذاکره و فعالیت‌های نظامی قابل مشاهده را به طور جداگانه گزارش کنید بدون اینکه انگیزه‌های پنهان به تعامل دیپلماتیک نسبت دهید.",
+        "date_added": "2026-05-26",
+        "status": "suggested",
+        "example_text": "ایران به دنبال «خرید زمان برای بازسازی ارتش خود» در میان مذاکرات برای پایان جنگ است",
+        "example_url": "https://www.france24.com/en/iran-looking-to-buy-time-to-rebuild-its-military-amid-talks-to-end-war",
+        "unbiased_text": "ایران در حالی به مذاکرات دیپلماتیک ادامه می‌دهد که موضع نظامی خود را در منطقه حفظ می‌کند.",
+        "detail_items": [],
+        "pattern_en": "Buying time military rebuilding insinuation"
+      },
+      {
+        "pattern": "مسخره‌سازی بهبود معجزه‌آسای آسیب‌های ساختگی",
+        "detail": "برجسته‌سازی تناقضات ادعایی در نحوه ارائه آسیب‌ها برای بی‌اعتبار کردن ادعاهای سوءاستفاده، با استفاده از اصطلاحاتی مانند «ساختگی» و «بهبود معجزه‌آسا» برای ایجاد تردید نسبت به تمام اتهامات.",
+        "debias": "ادعاهای رقیب درباره آسیب‌ها را با وزن برابر گزارش کنید و شواهد هر دو طرف را بدون طنز یا کنایه درباره اعتبار ارائه دهید.",
+        "date_added": "2026-05-26",
+        "status": "suggested",
+        "example_text": "وزارت امور خارجه اسرائیل فعالان ناوگان همبستگی جهانی را به صورت آنلاین مسخره کرده و مدعی شده که آسیب‌ها برای دوربین‌ها «ساختگی» بوده‌اند، پس از آنکه فعالی که در تصویر با گردنبند طبی دیده شده بود، هنگام بازگشت به خانه بدون آن «بهبود معجزه‌آسایی» از خود نشان داد.",
+        "example_url": "https://www.france24.com/en/posing-for-cameras-israel-mocks-flotilla-activists-online-as-torture-rape-allegations-mount",
+        "unbiased_text": "وزارت امور خارجه اسرائیل ادعاهای آسیب‌دیدگی فعالان را رد کرد و به عکس‌هایی اشاره کرد که یکی از فعالان را بدون گردنبند طبی هنگام بازگشت به خانه نشان می‌دهد، در حالی که فعالان گزارش‌هایی از سوءاستفاده، شکنجه و خشونت جنسی در طول بازداشت ارائه داده‌اند.",
+        "pattern_en": "Staged injury recovery miraculous mockery"
       }
     ]
   },
@@ -5159,6 +5204,29 @@
         "example_url": "http://www.euronews.com/my-europe/2026/05/25/young-europeans-are-putting-money-into-a-pension-system-they-dont-trust-study-shows",
         "unbiased_text": "مطالعه نشان می‌دهد اروپایی‌های جوان‌تر اعتماد کمتری به نظام‌های بازنشستگی ابراز می‌کنند در حالی که همچنان مشارکت‌های اجباری را ادامه می‌دهند.",
         "pattern_en": "Trust erosion generational contribution paradox"
+      },
+      {
+        "pattern": "افزایش تهدید با شکستن سکوت",
+        "detail": "قاب‌بندی اولین بیانیه مفصل یک رهبر به‌عنوان «شکستن سکوت» با تأکید بر اعلامیه‌های تهدیدآمیز، که نشان‌دهنده پنهان‌کاری قبلی و نیت تهاجمی است.",
+        "debias": "درباره بیانیه‌های رسمی بر اساس محتوا و زمینه آن‌ها گزارش دهید، بدون قاب‌بندی نمایشی درباره خود عمل سخن گفتن.",
+        "date_added": "2026-05-26",
+        "status": "suggested",
+        "example_text": "در طولانی‌ترین بیانیه خود در حالی که هنوز در ملأ عام ظاهر نشده، آیت‌الله جدید ایران گفت پایگاه‌های نظامی آمریکا جایی در منطقه نخواهند داشت",
+        "example_url": "http://www.euronews.com/2026/05/26/ayatollah-mojtaba-khamenei-breaks-silence-to-vow-no-us-military-bases-in-the-region",
+        "unbiased_text": "آیت‌الله ایران بیانیه‌ای صادر کرد که در آن گفت پایگاه‌های نظامی آمریکا جایی در منطقه نخواهند داشت.",
+        "pattern_en": "Breaking silence vow threat elevation"
+      },
+      {
+        "pattern": "قاب‌بندی تمسخرآمیز با مقایسه با محصولات مصرفی",
+        "detail": "بی‌اعتبارسازی محصولات گران‌قیمت از طریق انتقاد زیبایی‌شناختی جمع‌سپاری که اقلام لوکس را با جایگزین‌های بازار انبوه مقایسه می‌کند، با استفاده از انتساب «اینترنت می‌گوید».",
+        "debias": "گزارش مشخصات فنی محصول، قیمت‌گذاری و واکنش بازار با استفاده از تحلیل کارشناسی به جای تقویت تمسخر رسانه‌های اجتماعی.",
+        "date_added": "2026-05-26",
+        "status": "suggested",
+        "example_text": "خودروی برقی ۵۵۰٬۰۰۰ یورویی Ferrari شبیه Nissan است، اینترنت می‌گوید",
+        "example_url": "http://www.euronews.com/next/2026/05/26/ferraris-550000-electric-car-looks-like-a-nissan-says-the-internet",
+        "unbiased_text": "Ferrari اولین خودروی تمام‌برقی خود به نام Luce را با قیمت ۵۵۰٬۰۰۰ یورو رونمایی کرد که طراحی آن واکنش‌های متفاوتی برانگیخت و سهام آن نزدیک به ۸ درصد سقوط کرد.",
+        "detail_items": [],
+        "pattern_en": "Looks-like consumer product mockery framing"
       }
     ]
   }
