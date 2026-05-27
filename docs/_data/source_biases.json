@@ -1746,6 +1746,26 @@
         "example_text": "Temperatures near 44°C test worshippers' endurance as the annual pilgrimage unfolds under the shadow of war.",
         "example_url": "https://www.aljazeera.com/gallery/2026/5/26/hajj-pilgrims-gather-at-mount-arafat-under-scorching-desert-sun?traffic_source=rss",
         "unbiased_text": "Temperatures near 44°C test worshippers' endurance during the annual pilgrimage to Mecca."
+      },
+      {
+        "pattern": "Holiday affordability crisis framing",
+        "detail": "Frames rising costs of religious or cultural holiday items as a crisis that makes celebrations impossible for ordinary families.",
+        "debias": "Report price increases factually without presuming they render celebrations impossible for all families.",
+        "date_added": "2026-05-27",
+        "status": "suggested",
+        "example_text": "At a Nigerian sheep market, human rights advocate Sadaatu Madaki says that rising prices make Eid difficult for families",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/27/nigerias-eid-crisis-when-a-ram-becomes-a-luxury?traffic_source=rss",
+        "unbiased_text": "At a Nigerian sheep market, human rights advocate Sadaatu Madaki says that rising prices have increased costs for families purchasing animals for Eid."
+      },
+      {
+        "pattern": "Tentative emergence peace narrative",
+        "detail": "Describes cities or regions as tentatively emerging from violence, emphasizing fragility and potential reversal rather than progress.",
+        "debias": "Report security improvements directly without emphasizing tentativeness or implying imminent return to violence.",
+        "date_added": "2026-05-27",
+        "status": "suggested",
+        "example_text": "Mogadishu has been tentatively emerging from the waves of violence that have rocked the city over recent decades.",
+        "example_url": "https://www.aljazeera.com/gallery/2026/5/27/mogadishu-gathers-for-eid-with-prayers-family-meals-and-outings?traffic_source=rss",
+        "unbiased_text": "Mogadishu has experienced reduced violence in recent years compared to previous decades."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3070,6 +3090,36 @@
         "example_text": "Israel's foreign ministry has mocked the activists from the Global Sumud Flotilla online, alleging that injuries were 'staged' for the cameras after an activist pictured in a neck brace displayed a 'miraculous recovery' when returning home without it.",
         "example_url": "https://www.france24.com/en/posing-for-cameras-israel-mocks-flotilla-activists-online-as-torture-rape-allegations-mount",
         "unbiased_text": "Israel's foreign ministry disputed activists' injury claims, pointing to photographs showing one activist without a neck brace upon return home, while activists have reported abuse, torture, and sexual violence during detention."
+      },
+      {
+        "pattern": "Pledged-versus-delivered funding gap amplification",
+        "detail": "Emphasizes disparity between publicly pledged funds and actual disbursements to highlight donor hypocrisy or ineffectiveness.",
+        "debias": "Report funding status factually with context about typical disbursement timelines for international reconstruction projects.",
+        "date_added": "2026-05-27",
+        "status": "suggested",
+        "example_text": "Four months after its creation, the Gaza reconstruction fund of US President Donald Trump's so-called Board of Peace has yet to receive any of the billions of dollars pledged by donor countries.",
+        "example_url": "https://www.france24.com/en/middle-east/20260527-trump-board-of-peace-official-gaza-fund-is-empty-despite-billions-pledged-source-says",
+        "unbiased_text": "Four months after its creation, the Gaza reconstruction fund managed by the Board of Peace has not yet received disbursements from donor countries, though billions have been pledged."
+      },
+      {
+        "pattern": "Scare-quote authority delegitimization",
+        "detail": "Uses quotation marks around titles or organizations to question their legitimacy or authority without direct editorial comment.",
+        "debias": "Use standard formatting for official titles and organizations, adding factual context about controversies if relevant.",
+        "date_added": "2026-05-27",
+        "status": "suggested",
+        "example_text": "the Gaza reconstruction fund of US President Donald Trump's so-called Board of Peace",
+        "example_url": "https://www.france24.com/en/middle-east/20260527-trump-board-of-peace-official-gaza-fund-is-empty-despite-billions-pledged-source-says",
+        "unbiased_text": "the Gaza reconstruction fund of US President Donald Trump's Board of Peace"
+      },
+      {
+        "pattern": "Miraculous recovery mockery framing",
+        "detail": "Highlights apparent inconsistencies in injury presentation as evidence of deception through sarcastic language about miraculous recoveries.",
+        "debias": "Report factual discrepancies in medical presentation neutrally, allowing readers to draw conclusions without editorial mockery.",
+        "date_added": "2026-05-27",
+        "status": "suggested",
+        "example_text": "Israel's foreign ministry has mocked the activists from the Global Sumud Flotilla online, alleging that injuries were 'staged' for the cameras after an activist pictured in a neck brace displayed a 'miraculous recovery' when returning home without it.",
+        "example_url": "https://www.france24.com/en/posing-for-cameras-israel-mocks-flotilla-activists-online-as-torture-rape-allegations-mount",
+        "unbiased_text": "Israel's foreign ministry questioned the severity of activist injuries, noting that one activist photographed wearing a neck brace was later seen without one upon returning home."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -4743,6 +4793,26 @@
         "example_text": "Ferrari's €550,000 electric car looks like a Nissan, says the internet",
         "example_url": "http://www.euronews.com/next/2026/05/26/ferraris-550000-electric-car-looks-like-a-nissan-says-the-internet",
         "unbiased_text": "Ferrari unveiled its first fully electric car, the Luce, priced at €550,000, with design drawing mixed reactions and shares falling nearly 8%."
+      },
+      {
+        "pattern": "Infrastructure record-breaking sensationalism",
+        "detail": "Frames routine infrastructure projects or events as record-breaking achievements to amplify newsworthiness beyond substantive significance.",
+        "debias": "Report infrastructure developments with factual context about comparative scale rather than superlative framing.",
+        "date_added": "2026-05-27",
+        "status": "suggested",
+        "example_text": "Greenpeace used a robot more than 2,300 metres below the ocean surface to unfurl a 'Listen to the Science' banner in protest against deep-sea mining.",
+        "example_url": "http://www.euronews.com/video/2026/05/27/greenpeace-stages-record-deep-sea-protest-against-seabed-mining",
+        "unbiased_text": "Greenpeace used a robot at a depth of more than 2,300 metres to unfurl a banner protesting against deep-sea mining."
+      },
+      {
+        "pattern": "Graveyard metaphor threat amplification",
+        "detail": "Uses graveyard imagery to dramatize military threats and escalate perception of imminent violence.",
+        "debias": "Report military threats using direct quotations without metaphorical headline amplification.",
+        "date_added": "2026-05-27",
+        "status": "suggested",
+        "example_text": "An IRGC Navy official threatened to turn Iran's entire Gulf coastline into a killing ground if the US resumed strikes",
+        "example_url": "http://www.euronews.com/2026/05/27/irgc-warns-irans-coast-will-become-a-graveyard-if-us-strikes-resume",
+        "unbiased_text": "An IRGC Navy official warned of military retaliation if the US resumed strikes on Iran's Gulf coastline."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

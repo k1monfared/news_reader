@@ -1939,6 +1939,30 @@
         "example_url": "https://www.aljazeera.com/gallery/2026/5/26/hajj-pilgrims-gather-at-mount-arafat-under-scorching-desert-sun?traffic_source=rss",
         "unbiased_text": "دمای نزدیک به ۴۴ درجه سانتیگراد استقامت زائران را در طول زیارت سالانه به مکه به آزمون می‌گذارد.",
         "pattern_en": "Shadow-of-war pilgrimage context insertion"
+      },
+      {
+        "pattern": "قاب‌بندی بحران مقرون‌به‌صرفه بودن تعطیلات",
+        "detail": "افزایش هزینه‌های اقلام مربوط به تعطیلات مذهبی یا فرهنگی را به‌عنوان بحرانی قاب می‌بندد که جشن گرفتن را برای خانواده‌های عادی غیرممکن می‌کند.",
+        "debias": "افزایش قیمت‌ها را به‌صورت واقعی گزارش کنید بدون اینکه پیش‌فرض بگیرید که جشن‌ها را برای همه خانواده‌ها غیرممکن می‌کند.",
+        "date_added": "2026-05-27",
+        "status": "suggested",
+        "example_text": "در یک بازار گوسفند در نیجریه، مدافع حقوق بشر سادااتو مادَکی می‌گوید که افزایش قیمت‌ها عید را برای خانواده‌ها دشوار می‌کند",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/27/nigerias-eid-crisis-when-a-ram-becomes-a-luxury?traffic_source=rss",
+        "unbiased_text": "در یک بازار گوسفند در نیجریه، مدافع حقوق بشر سادااتو مادَکی می‌گوید که افزایش قیمت‌ها هزینه‌های خانواده‌هایی را که برای عید دام خریداری می‌کنند، افزایش داده است.",
+        "detail_items": [],
+        "pattern_en": "Holiday affordability crisis framing"
+      },
+      {
+        "pattern": "روایت صلح در حال ظهور با تردید",
+        "detail": "شهرها یا مناطق را به‌صورت در حال خروج محتاطانه از خشونت توصیف می‌کند، با تأکید بر شکنندگی و احتمال بازگشت به وضعیت قبل به‌جای پیشرفت.",
+        "debias": "بهبود امنیت را مستقیماً گزارش کنید بدون تأکید بر تردید یا القای بازگشت قریب‌الوقوع به خشونت.",
+        "date_added": "2026-05-27",
+        "status": "suggested",
+        "example_text": "موگادیشو به‌صورت محتاطانه در حال خروج از موج‌های خشونتی است که طی دهه‌های اخیر این شهر را تکان داده است.",
+        "example_url": "https://www.aljazeera.com/gallery/2026/5/27/mogadishu-gathers-for-eid-with-prayers-family-meals-and-outings?traffic_source=rss",
+        "unbiased_text": "موگادیشو در سال‌های اخیر در مقایسه با دهه‌های گذشته کاهش خشونت را تجربه کرده است.",
+        "detail_items": [],
+        "pattern_en": "Tentative emergence peace narrative"
       }
     ]
   },
@@ -3380,6 +3404,40 @@
         "example_url": "https://www.france24.com/en/posing-for-cameras-israel-mocks-flotilla-activists-online-as-torture-rape-allegations-mount",
         "unbiased_text": "وزارت امور خارجه اسرائیل ادعاهای آسیب‌دیدگی فعالان را رد کرد و به عکس‌هایی اشاره کرد که یکی از فعالان را بدون گردنبند طبی هنگام بازگشت به خانه نشان می‌دهد، در حالی که فعالان گزارش‌هایی از سوءاستفاده، شکنجه و خشونت جنسی در طول بازداشت ارائه داده‌اند.",
         "pattern_en": "Staged injury recovery miraculous mockery"
+      },
+      {
+        "pattern": "تقویت شکاف بین بودجه متعهدشده و تحویل‌داده‌شده",
+        "detail": "بر تفاوت میان بودجه‌های متعهدشده عمومی و پرداخت‌های واقعی تأکید می‌کند تا ریاکاری یا ناکارآمدی اهداکنندگان را برجسته سازد.",
+        "debias": "وضعیت بودجه را به‌صورت واقع‌بینانه و با زمینه‌ای درباره جدول زمانی معمول پرداخت‌ها برای پروژه‌های بازسازی بین‌المللی گزارش دهید.",
+        "date_added": "2026-05-27",
+        "status": "suggested",
+        "example_text": "چهار ماه پس از ایجاد آن، صندوق بازسازی غزه متعلق به آنچه رئیس‌جمهور آمریکا Donald Trump آن را «هیئت صلح» می‌نامد، هنوز هیچ‌یک از میلیاردها دلار متعهدشده توسط کشورهای اهداکننده را دریافت نکرده است.",
+        "example_url": "https://www.france24.com/en/middle-east/20260527-trump-board-of-peace-official-gaza-fund-is-empty-despite-billions-pledged-source-says",
+        "unbiased_text": "چهار ماه پس از ایجاد آن، صندوق بازسازی غزه که توسط هیئت صلح مدیریت می‌شود، هنوز پرداختی از کشورهای اهداکننده دریافت نکرده است، هرچند میلیاردها دلار متعهد شده است.",
+        "pattern_en": "Pledged-versus-delivered funding gap amplification"
+      },
+      {
+        "pattern": "بی‌اعتبارسازی مقام با گیومه‌های ترس‌آور",
+        "detail": "استفاده از علامت نقل‌قول در اطراف عناوین یا سازمان‌ها برای زیر سوال بردن مشروعیت یا اقتدار آن‌ها بدون اظهارنظر مستقیم سردبیری.",
+        "debias": "از قالب‌بندی استاندارد برای عناوین رسمی و سازمان‌ها استفاده کنید و در صورت مرتبط بودن، زمینه واقعی درباره اختلافات را اضافه کنید.",
+        "date_added": "2026-05-27",
+        "status": "suggested",
+        "example_text": "صندوق بازسازی غزه متعلق به به‌اصطلاح «هیئت صلح» رئیس‌جمهور آمریکا دونالد ترامپ",
+        "example_url": "https://www.france24.com/en/middle-east/20260527-trump-board-of-peace-official-gaza-fund-is-empty-despite-billions-pledged-source-says",
+        "unbiased_text": "صندوق بازسازی غزه متعلق به هیئت صلح رئیس‌جمهور آمریکا دونالد ترامپ",
+        "pattern_en": "Scare-quote authority delegitimization"
+      },
+      {
+        "pattern": "قاب‌بندی تمسخرآمیز بهبودی معجزه‌آسا",
+        "detail": "ناهماهنگی‌های ظاهری در ارائه آسیب‌ها را با استفاده از زبان طعنه‌آمیز درباره بهبودی معجزه‌آسا به‌عنوان شواهدی از فریبکاری برجسته می‌کند.",
+        "debias": "تناقضات واقعی در ارائه پزشکی را به‌صورت بی‌طرفانه گزارش کنید و به خوانندگان اجازه دهید بدون تمسخر تحریریه نتیجه‌گیری کنند.",
+        "date_added": "2026-05-27",
+        "status": "suggested",
+        "example_text": "وزارت امور خارجه اسرائیل فعالان کاروان دریایی Sumud جهانی را در فضای آنلاین مورد تمسخر قرار داده و مدعی شده که آسیب‌ها برای دوربین‌ها «ساختگی» بوده‌اند، پس از آنکه فعالی که در تصویر با گردنبند طبی دیده شد، پس از بازگشت به خانه بدون آن «بهبودی معجزه‌آسا» نشان داد.",
+        "example_url": "https://www.france24.com/en/posing-for-cameras-israel-mocks-flotilla-activists-online-as-torture-rape-allegations-mount",
+        "unbiased_text": "وزارت امور خارجه اسرائیل شدت آسیب‌های فعالان را زیر سؤال برد و اشاره کرد که یکی از فعالان که در عکس با گردنبند طبی دیده شده بود، بعداً پس از بازگشت به خانه بدون آن مشاهده شد.",
+        "detail_items": [],
+        "pattern_en": "Miraculous recovery mockery framing"
       }
     ]
   },
@@ -5227,6 +5285,29 @@
         "unbiased_text": "Ferrari اولین خودروی تمام‌برقی خود به نام Luce را با قیمت ۵۵۰٬۰۰۰ یورو رونمایی کرد که طراحی آن واکنش‌های متفاوتی برانگیخت و سهام آن نزدیک به ۸ درصد سقوط کرد.",
         "detail_items": [],
         "pattern_en": "Looks-like consumer product mockery framing"
+      },
+      {
+        "pattern": "هیجان‌انگیزی رکوردشکنی زیرساختی",
+        "detail": "پروژه‌ها یا رویدادهای معمول زیرساختی را به‌عنوان دستاوردهای رکوردشکن قاب‌بندی می‌کند تا ارزش خبری را فراتر از اهمیت واقعی تقویت کند.",
+        "debias": "تحولات زیرساختی را با زمینه واقعی درباره مقیاس مقایسه‌ای گزارش کنید نه با قاب‌بندی برترین‌ها.",
+        "date_added": "2026-05-27",
+        "status": "suggested",
+        "example_text": "Greenpeace از یک ربات در بیش از ۲۳۰۰ متری زیر سطح اقیانوس برای گشودن بنری با عنوان «به علم گوش دهید» در اعتراض به استخراج اعماق دریا استفاده کرد.",
+        "example_url": "http://www.euronews.com/video/2026/05/27/greenpeace-stages-record-deep-sea-protest-against-seabed-mining",
+        "unbiased_text": "Greenpeace از یک ربات در عمق بیش از ۲۳۰۰ متر برای گشودن بنری در اعتراض به استخراج اعماق دریا استفاده کرد.",
+        "detail_items": [],
+        "pattern_en": "Infrastructure record-breaking sensationalism"
+      },
+      {
+        "pattern": "تشدید تهدید با استعاره گورستان",
+        "detail": "از تصاویر گورستان برای نمایش دراماتیک تهدیدهای نظامی و تشدید درک خطر قریب‌الوقوع خشونت استفاده می‌کند.",
+        "debias": "تهدیدهای نظامی را با استفاده از نقل‌قول‌های مستقیم بدون تشدید استعاری در تیتر گزارش کنید.",
+        "date_added": "2026-05-27",
+        "status": "suggested",
+        "example_text": "یک مقام نیروی دریایی سپاه تهدید کرد که در صورت از سرگیری حملات آمریکا، کل خط ساحلی خلیج‌فارس ایران را به میدان کشتار تبدیل خواهد کرد",
+        "example_url": "http://www.euronews.com/2026/05/27/irgc-warns-irans-coast-will-become-a-graveyard-if-us-strikes-resume",
+        "unbiased_text": "یک مقام نیروی دریایی سپاه در صورت از سرگیری حملات آمریکا به خط ساحلی خلیج‌فارس ایران، هشدار به اقدام متقابل نظامی داد.",
+        "pattern_en": "Graveyard metaphor threat amplification"
       }
     ]
   }
