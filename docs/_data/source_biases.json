@@ -1766,6 +1766,46 @@
         "example_text": "Mogadishu has been tentatively emerging from the waves of violence that have rocked the city over recent decades.",
         "example_url": "https://www.aljazeera.com/gallery/2026/5/27/mogadishu-gathers-for-eid-with-prayers-family-meals-and-outings?traffic_source=rss",
         "unbiased_text": "Mogadishu has experienced reduced violence in recent years compared to previous decades."
+      },
+      {
+        "pattern": "Sporting fixture pandemic disruption framing",
+        "detail": "Framing disease outbreaks primarily through their impact on major sporting events rather than public health consequences.",
+        "debias": "Lead with public health context and implications before mentioning event-related impacts.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "World Cup hosts agree steps to counter Ebola threat after WHO declares public health emergency ​of international concern",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/28/us-mexico-canada-announce-ebola-related-travel-measures-for-world-cup?traffic_source=rss",
+        "unbiased_text": "The WHO declared a public health emergency of international concern after an Ebola outbreak, prompting World Cup host countries to implement travel measures."
+      },
+      {
+        "pattern": "Invasive species catastrophe labeling",
+        "detail": "Describing plant spread through sensationalist framing using terms like 'poisonous invasion' and 'devil's trumpet' to amplify threat perception.",
+        "debias": "Report on invasive species using neutral scientific terminology and factual impact assessment.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "Poisonous invasion: What is the 'devil's trumpet' harming crops in Iraq?",
+        "example_url": "https://www.aljazeera.com/news/2026/5/28/poisonous-invasion-what-is-the-devils-trumpet-harming-crops-in-iraq?traffic_source=rss",
+        "unbiased_text": "Iraq's Interior Ministry asks farmers to report sightings of datura, an invasive plant species affecting crops."
+      },
+      {
+        "pattern": "Criminal nickname humanization narrative",
+        "detail": "Using whimsical or celebrity-referencing nicknames for suspects to create entertainment framing around serious criminal allegations.",
+        "debias": "Refer to criminal cases using legal identifiers and focus on substantive allegations rather than colorful monikers.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "Gold Rush: Did CIA agent steal $40m in gold bars via work expenses?",
+        "example_url": "https://www.aljazeera.com/news/2026/5/28/gold-rush-how-cia-agent-stole-40m-in-gold-bars-via-work-expenses?traffic_source=rss",
+        "unbiased_text": "FBI says ex-CIA official David Rush repeatedly lied about his credentials in US government job applications and is accused of theft."
+      },
+      {
+        "pattern": "Religious attire brand integration celebration",
+        "detail": "Highlighting sports team branding on religious garments during holy celebrations as noteworthy cultural content.",
+        "debias": "Report on religious observances focusing on their spiritual significance rather than consumer brand visibility.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "Mamdani wears Arsenal thobe during Eid al-Adha celebrations",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/28/mamdani-wears-arsenal-thobe-during-eid-al-adha-celebrations?traffic_source=rss",
+        "unbiased_text": "Muslims celebrate Eid al-Adha with prayers and gatherings around the world."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3120,6 +3160,26 @@
         "example_text": "Israel's foreign ministry has mocked the activists from the Global Sumud Flotilla online, alleging that injuries were 'staged' for the cameras after an activist pictured in a neck brace displayed a 'miraculous recovery' when returning home without it.",
         "example_url": "https://www.france24.com/en/posing-for-cameras-israel-mocks-flotilla-activists-online-as-torture-rape-allegations-mount",
         "unbiased_text": "Israel's foreign ministry questioned the severity of activist injuries, noting that one activist photographed wearing a neck brace was later seen without one upon returning home."
+      },
+      {
+        "pattern": "Miraculous recovery scare-quote mockery",
+        "detail": "Using quotation marks and skeptical framing to delegitimize injury claims by highlighting recovery without medical context or documentation.",
+        "debias": "Report on injury claims and recoveries with medical verification and avoid sarcastic framing devices.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "Israel's foreign ministry has mocked the activists from the Global Sumud Flotilla online, alleging that injuries were \"staged\" for the cameras after an activist pictured in a neck brace displayed a \"miraculous recovery\" when returning home without it.",
+        "example_url": "https://www.france24.com/en/posing-for-cameras-israel-mocks-flotilla-activists-online-as-torture-rape-allegations-mount",
+        "unbiased_text": "Israel's foreign ministry questioned flotilla activists' injury claims, while multiple activists have alleged abuse during detention, claims that require independent investigation."
+      },
+      {
+        "pattern": "Deal proximity countdown reversal framing",
+        "detail": "Alternating between imminent breakthrough and collapsing talks narratives to create dramatic tension around diplomatic negotiations.",
+        "debias": "Report on negotiation status factually without oscillating between extreme optimism and pessimism.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "While Iran and the United States are still exploring a possible deal to end the conflict, both sides are now downplaying hopes of an imminent breakthrough after appearing close to an agreement just days ago.",
+        "example_url": "https://www.france24.com/en/nuclear-issue-remains-key-obstacle-in-iran-us-deal",
+        "unbiased_text": "Iran and the United States continue negotiations, with both sides managing expectations about the timeline for reaching an agreement."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -4596,8 +4656,8 @@
       },
       {
         "pattern": "Cultural preference shift catastrophism",
-        "detail": "Framing gradual consumer preference changes as shocking cultural upheavals requiring dramatic exclamations.",
-        "debias": "Report consumption trend changes factually with context and data rather than cultural crisis framing.",
+        "detail": "Framing gradual consumer preference changes as shocking cultural upheavals requiring dramatic exclamations. Also: Treating generational changes in social behaviors as alarming societal decline rather than evolving cultural norms.",
+        "debias": "Report consumption trend changes factually with context and data rather than cultural crisis framing. Report on changing social patterns as neutral demographic trends without catastrophic framing.",
         "date_added": "2026-05-19",
         "status": "suggested",
         "example_text": "For the first time in France's recorded history, beer has overtaken wine as the drink of choice. Oh. Mon. Dieu.",
@@ -4813,6 +4873,26 @@
         "example_text": "An IRGC Navy official threatened to turn Iran's entire Gulf coastline into a killing ground if the US resumed strikes",
         "example_url": "http://www.euronews.com/2026/05/27/irgc-warns-irans-coast-will-become-a-graveyard-if-us-strikes-resume",
         "unbiased_text": "An IRGC Navy official warned of military retaliation if the US resumed strikes on Iran's Gulf coastline."
+      },
+      {
+        "pattern": "Corporate endorsement procurement timing insinuation",
+        "detail": "Suggesting impropriety by emphasizing temporal proximity between political statements and contract awards without establishing causal evidence.",
+        "debias": "Report contract awards with full procurement context and avoid implying corruption through timeline juxtaposition alone.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "Dell Technologies has secured a $9.7 billion (€8.3bn) defence contract to supply Microsoft software across the entire US military, just weeks after US President Donald Trump publicly endorsed the company at the White House.",
+        "example_url": "http://www.euronews.com/business/2026/05/28/dell-lands-97bn-pentagon-contract-just-weeks-after-trump-said-go-out-and-buy",
+        "unbiased_text": "Dell Technologies secured a $9.7 billion defence contract to supply Microsoft software to the US military following a competitive procurement process."
+      },
+      {
+        "pattern": "Animal celebrity nomenclature preservation narrative",
+        "detail": "Creating human interest stories around animals nicknamed after political figures and their fate during religious observances.",
+        "debias": "Report on religious practices and animal welfare without sensationalizing celebrity-associated nicknames.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "Viral 'Donald Trump' buffalo spared from Eid sacrifice and sent to zoo",
+        "example_url": "http://www.euronews.com/video/2026/05/28/viral-donald-trump-buffalo-spared-from-eid-sacrifice-and-sent-to-zoo",
+        "unbiased_text": "A rare albino buffalo in Bangladesh was transferred to the national zoo rather than being sacrificed during Eid al-Adha celebrations."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

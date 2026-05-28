@@ -1963,6 +1963,51 @@
         "unbiased_text": "موگادیشو در سال‌های اخیر در مقایسه با دهه‌های گذشته کاهش خشونت را تجربه کرده است.",
         "detail_items": [],
         "pattern_en": "Tentative emergence peace narrative"
+      },
+      {
+        "pattern": "قاب‌بندی اختلال همه‌گیری از منظر رویدادهای ورزشی",
+        "detail": "قاب‌بندی شیوع بیماری‌ها در درجه اول از طریق تأثیرشان بر رویدادهای ورزشی بزرگ به جای پیامدهای بهداشت عمومی.",
+        "debias": "ابتدا با زمینه و پیامدهای بهداشت عمومی آغاز کنید و سپس تأثیرات مرتبط با رویداد را ذکر کنید.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "میزبانان جام جهانی پس از اعلام وضعیت اضطراری بهداشت عمومی با اهمیت بین‌المللی توسط WHO، درباره اقداماتی برای مقابله با تهدید ابولا توافق کردند",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/28/us-mexico-canada-announce-ebola-related-travel-measures-for-world-cup?traffic_source=rss",
+        "unbiased_text": "WHO پس از شیوع ابولا، وضعیت اضطراری بهداشت عمومی با اهمیت بین‌المللی اعلام کرد که کشورهای میزبان جام جهانی را به اجرای اقدامات سفری واداشت.",
+        "pattern_en": "Sporting fixture pandemic disruption framing"
+      },
+      {
+        "pattern": "برچسب‌زنی فاجعه‌آمیز به گونه‌های مهاجم",
+        "detail": "توصیف گسترش گیاهان از طریق چارچوب‌بندی هیجان‌انگیز با استفاده از اصطلاحاتی مانند «تهاجم سمی» و «شیپور شیطان» برای تشدید ادراک تهدید.",
+        "debias": "گزارش درباره گونه‌های مهاجم با استفاده از اصطلاحات علمی خنثی و ارزیابی واقعی تأثیرات.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "تهاجم سمی: «شیپور شیطان» چیست که به محصولات کشاورزی در عراق آسیب می‌زند؟",
+        "example_url": "https://www.aljazeera.com/news/2026/5/28/poisonous-invasion-what-is-the-devils-trumpet-harming-crops-in-iraq?traffic_source=rss",
+        "unbiased_text": "وزارت کشور عراق از کشاورزان می‌خواهد مشاهدات گیاه داتوره، یک گونه گیاهی مهاجم که بر محصولات کشاورزی تأثیر می‌گذارد، را گزارش دهند.",
+        "pattern_en": "Invasive species catastrophe labeling"
+      },
+      {
+        "pattern": "روایت انسانی‌سازی لقب‌های جنایی",
+        "detail": "استفاده از لقب‌های عجیب‌غریب یا ارجاع‌دهنده به افراد مشهور برای مظنونان به‌منظور ایجاد چارچوبی سرگرم‌کننده پیرامون اتهامات جدی جنایی.",
+        "debias": "به پرونده‌های جنایی با استفاده از شناسه‌های حقوقی اشاره کنید و بر اتهامات اساسی تمرکز کنید، نه لقب‌های رنگارنگ.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "هجوم طلا: آیا مامور CIA چهل میلیون دلار شمش طلا از طریق هزینه‌های کاری سرقت کرده است؟",
+        "example_url": "https://www.aljazeera.com/news/2026/5/28/gold-rush-how-cia-agent-stole-40m-in-gold-bars-via-work-expenses?traffic_source=rss",
+        "unbiased_text": "FBI می‌گوید دیوید راش، مقام سابق CIA، به‌طور مکرر درباره مدارک خود در درخواست‌های شغلی دولت ایالات متحده دروغ گفته و متهم به سرقت است.",
+        "pattern_en": "Criminal nickname humanization narrative"
+      },
+      {
+        "pattern": "جشن ادغام برند لباس مذهبی",
+        "detail": "برجسته‌سازی برندسازی تیم‌های ورزشی روی لباس‌های مذهبی در طول جشن‌های مقدس به‌عنوان محتوای فرهنگی قابل توجه.",
+        "debias": "گزارش مراسم مذهبی با تمرکز بر اهمیت معنوی آن‌ها به‌جای نمایان‌سازی برندهای تجاری.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "ممدانی در جشن عید قربان ثوب Arsenal می‌پوشد",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/28/mamdani-wears-arsenal-thobe-during-eid-al-adha-celebrations?traffic_source=rss",
+        "unbiased_text": "مسلمانان در سراسر جهان عید قربان را با نماز و گردهمایی جشن می‌گیرند.",
+        "detail_items": [],
+        "pattern_en": "Religious attire brand integration celebration"
       }
     ]
   },
@@ -3438,6 +3483,28 @@
         "unbiased_text": "وزارت امور خارجه اسرائیل شدت آسیب‌های فعالان را زیر سؤال برد و اشاره کرد که یکی از فعالان که در عکس با گردنبند طبی دیده شده بود، بعداً پس از بازگشت به خانه بدون آن مشاهده شد.",
         "detail_items": [],
         "pattern_en": "Miraculous recovery mockery framing"
+      },
+      {
+        "pattern": "تمسخر بهبودی معجزه‌آسا با علامت نقل‌قول",
+        "detail": "استفاده از علامت نقل‌قول و چارچوب‌بندی شکاک برای بی‌اعتبار کردن ادعاهای آسیب‌دیدگی با برجسته کردن بهبودی بدون زمینه یا مستندات پزشکی.",
+        "debias": "گزارش ادعاهای آسیب‌دیدگی و بهبودی را با تأیید پزشکی ارائه دهید و از ابزارهای چارچوب‌بندی طعنه‌آمیز پرهیز کنید.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "وزارت خارجه اسرائیل فعالان ناوگان جهانی صمود را به‌صورت آنلاین مسخره کرده و ادعا کرده که آسیب‌دیدگی‌ها برای دوربین «ساختگی» بوده‌اند، پس از اینکه فعالی که در تصویر با گردنبند طبی دیده شده بود، هنگام بازگشت به خانه بدون آن «بهبودی معجزه‌آسا»یی را نشان داد.",
+        "example_url": "https://www.france24.com/en/posing-for-cameras-israel-mocks-flotilla-activists-online-as-torture-rape-allegations-mount",
+        "unbiased_text": "وزارت خارجه اسرائیل ادعاهای آسیب‌دیدگی فعالان ناوگان را زیر سؤال برد، درحالی‌که فعالان متعددی ادعای سوءاستفاده در دوران بازداشت کرده‌اند، ادعاهایی که نیازمند تحقیق مستقل هستند.",
+        "pattern_en": "Miraculous recovery scare-quote mockery"
+      },
+      {
+        "pattern": "قاب‌بندی معکوس شمارش معکوس نزدیکی به توافق",
+        "detail": "نوسان بین روایت‌های پیشرفت قریب‌الوقوع و فروپاشی مذاکرات برای ایجاد کشش دراماتیک پیرامون مذاکرات دیپلماتیک.",
+        "debias": "گزارش وضعیت مذاکرات به صورت واقع‌بینانه بدون نوسان بین خوش‌بینی و بدبینی افراطی.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "در حالی که ایران و ایالات متحده هنوز در حال بررسی توافق احتمالی برای پایان دادن به مناقشه هستند، هر دو طرف اکنون امیدها به پیشرفت قریب‌الوقوع را کاهش می‌دهند، پس از آنکه تنها چند روز پیش به نظر می‌رسید به توافق نزدیک شده‌اند.",
+        "example_url": "https://www.france24.com/en/nuclear-issue-remains-key-obstacle-in-iran-us-deal",
+        "unbiased_text": "ایران و ایالات متحده به مذاکرات ادامه می‌دهند و هر دو طرف انتظارات را در مورد جدول زمانی دستیابی به توافق مدیریت می‌کنند.",
+        "pattern_en": "Deal proximity countdown reversal framing"
       }
     ]
   },
@@ -5308,6 +5375,29 @@
         "example_url": "http://www.euronews.com/2026/05/27/irgc-warns-irans-coast-will-become-a-graveyard-if-us-strikes-resume",
         "unbiased_text": "یک مقام نیروی دریایی سپاه در صورت از سرگیری حملات آمریکا به خط ساحلی خلیج‌فارس ایران، هشدار به اقدام متقابل نظامی داد.",
         "pattern_en": "Graveyard metaphor threat amplification"
+      },
+      {
+        "pattern": "القای زمان‌بندی تأمین حمایت شرکتی",
+        "detail": "تلویح به رفتار نامناسب از طریق تأکید بر نزدیکی زمانی بین اظهارات سیاسی و اعطای قراردادها بدون ارائه شواهد علّی.",
+        "debias": "اعطای قراردادها را با زمینه کامل تدارکاتی گزارش دهید و از تلویح به فساد صرفاً از طریق کنارهم‌گذاری زمانی خودداری کنید.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "Dell Technologies قراردادی دفاعی به ارزش ۹.۷ میلیارد دلار (۸.۳ میلیارد یورو) برای تأمین نرم‌افزار Microsoft در سراسر ارتش ایالات متحده به دست آورده است، تنها چند هفته پس از آنکه دونالد ترامپ، رئیس‌جمهور آمریکا، علناً از این شرکت در کاخ سفید حمایت کرد.",
+        "example_url": "http://www.euronews.com/business/2026/05/28/dell-lands-97bn-pentagon-contract-just-weeks-after-trump-said-go-out-and-buy",
+        "unbiased_text": "Dell Technologies قراردادی دفاعی به ارزش ۹.۷ میلیارد دلار برای تأمین نرم‌افزار Microsoft به ارتش ایالات متحده را پس از یک فرآیند تدارکاتی رقابتی به دست آورد.",
+        "pattern_en": "Corporate endorsement procurement timing insinuation"
+      },
+      {
+        "pattern": "روایت حفاظت از نام‌گذاری حیوانات بر اساس چهره‌های مشهور",
+        "detail": "خلق داستان‌های جذاب انسانی پیرامون حیواناتی که به نام چهره‌های سیاسی لقب گرفته‌اند و سرنوشت آن‌ها در طول مناسبت‌های مذهبی.",
+        "debias": "گزارش درباره رسوم مذهبی و رفاه حیوانات بدون هیجان‌زدگی درباره نام‌های مستعار مرتبط با چهره‌های مشهور.",
+        "date_added": "2026-05-28",
+        "status": "suggested",
+        "example_text": "گاومیش وایرال 'Donald Trump' از قربانی عید نجات یافت و به باغ وحش فرستاده شد",
+        "example_url": "http://www.euronews.com/video/2026/05/28/viral-donald-trump-buffalo-spared-from-eid-sacrifice-and-sent-to-zoo",
+        "unbiased_text": "یک گاومیش آلبینوی نادر در بنگلادش به جای قربانی شدن در مراسم عید قربان، به باغ وحش ملی منتقل شد.",
+        "detail_items": [],
+        "pattern_en": "Animal celebrity nomenclature preservation narrative"
       }
     ]
   }
