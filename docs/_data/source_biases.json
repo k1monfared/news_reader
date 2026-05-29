@@ -1806,6 +1806,26 @@
         "example_text": "Mamdani wears Arsenal thobe during Eid al-Adha celebrations",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/28/mamdani-wears-arsenal-thobe-during-eid-al-adha-celebrations?traffic_source=rss",
         "unbiased_text": "Muslims celebrate Eid al-Adha with prayers and gatherings around the world."
+      },
+      {
+        "pattern": "Question headline open-ended failure framing",
+        "detail": "Using question headlines that suggest unfinished business or failure before analysis is presented, priming readers toward negative interpretations of political initiatives.",
+        "debias": "State the actual status or outcomes of policies directly in headlines without presupposing failure through rhetorical questions.",
+        "date_added": "2026-05-29",
+        "status": "suggested",
+        "example_text": "Colombia's 'Total Peace' plan: A failure or unfinished business for Petro?",
+        "example_url": "https://www.aljazeera.com/news/longform/2026/5/29/colombias-total-peace-plan-a-failure-or-unfinished-business-for-petro?traffic_source=rss",
+        "unbiased_text": "Colombia's 'Total Peace' plan: Progress and challenges as Petro's term ends"
+      },
+      {
+        "pattern": "Ritual participation fatality causation emphasis",
+        "detail": "Framing spiritual or traditional practices through death counts without contextualizing prevalence, safety records, or comparing risks to other activities.",
+        "debias": "Provide context on the overall safety record of practices, prevalence of incidents, and comparative risk data when reporting deaths.",
+        "date_added": "2026-05-29",
+        "status": "suggested",
+        "example_text": "Kambo: What is the frog poison 'spiritual ritual' killing detoxers?",
+        "example_url": "https://www.aljazeera.com/news/2026/5/29/kambo-what-is-the-frog-poison-spiritual-ritual-killing?traffic_source=rss",
+        "unbiased_text": "Kambo: What is the traditional medicine practice and what are its health risks?"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3180,6 +3200,26 @@
         "example_text": "While Iran and the United States are still exploring a possible deal to end the conflict, both sides are now downplaying hopes of an imminent breakthrough after appearing close to an agreement just days ago.",
         "example_url": "https://www.france24.com/en/nuclear-issue-remains-key-obstacle-in-iran-us-deal",
         "unbiased_text": "Iran and the United States continue negotiations, with both sides managing expectations about the timeline for reaching an agreement."
+      },
+      {
+        "pattern": "Territorial control percentage expansion threat framing",
+        "detail": "Highlighting incremental percentage increases in territorial control as threatening escalation without context on overall conflict trajectory or comparison to past territorial holdings.",
+        "debias": "Provide historical context on territorial control patterns and compare current percentages to previous periods to assess actual escalation.",
+        "date_added": "2026-05-29",
+        "status": "suggested",
+        "example_text": "\"Right now, we are tightening the grip on Hamas,\" Netanyahu said Thursday. \"We are now in 60% of the territory of the Gaza Strip.\"",
+        "example_url": "http://www.euronews.com/2026/05/29/netanyahu-vows-to-increase-israels-control-of-the-gaza-strip-to-70",
+        "unbiased_text": "Netanyahu stated that Israeli forces currently control 60% of Gaza's territory and plan to expand operations to 70%."
+      },
+      {
+        "pattern": "Injury device removal recovery mockery",
+        "detail": "Using sarcastic language to dismiss injury claims by emphasizing removal of medical devices without medical explanation for recovery progression.",
+        "debias": "Report on injury claims and recovery factually, consulting medical experts on typical healing timelines rather than using mockery to suggest fabrication.",
+        "date_added": "2026-05-29",
+        "status": "suggested",
+        "example_text": "'Posing for cameras': Israel mocks flotilla activists online as torture, rape allegations mount",
+        "example_url": "https://www.france24.com/en/posing-for-cameras-israel-mocks-flotilla-activists-online-as-torture-rape-allegations-mount",
+        "unbiased_text": "Israel disputes flotilla activists' injury claims amid allegations of abuse during detention"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -4656,8 +4696,8 @@
       },
       {
         "pattern": "Cultural preference shift catastrophism",
-        "detail": "Framing gradual consumer preference changes as shocking cultural upheavals requiring dramatic exclamations. Also: Treating generational changes in social behaviors as alarming societal decline rather than evolving cultural norms.",
-        "debias": "Report consumption trend changes factually with context and data rather than cultural crisis framing. Report on changing social patterns as neutral demographic trends without catastrophic framing.",
+        "detail": "Framing gradual consumer preference changes as shocking cultural upheavals requiring dramatic exclamations. Also: Treating generational changes in social behaviors as alarming societal decline rather than evolving cultural norms. Also: Framing changes in consumer preferences or cultural trends as catastrophic declines rather than normal market evolution or demographic shifts.",
+        "debias": "Report consumption trend changes factually with context and data rather than cultural crisis framing. Report on changing social patterns as neutral demographic trends without catastrophic framing. Present market or cultural changes as evolutionary trends with multiple factors rather than catastrophic collapses.",
         "date_added": "2026-05-19",
         "status": "suggested",
         "example_text": "For the first time in France's recorded history, beer has overtaken wine as the drink of choice. Oh. Mon. Dieu.",
@@ -4893,6 +4933,26 @@
         "example_text": "Viral 'Donald Trump' buffalo spared from Eid sacrifice and sent to zoo",
         "example_url": "http://www.euronews.com/video/2026/05/28/viral-donald-trump-buffalo-spared-from-eid-sacrifice-and-sent-to-zoo",
         "unbiased_text": "A rare albino buffalo in Bangladesh was transferred to the national zoo rather than being sacrificed during Eid al-Adha celebrations."
+      },
+      {
+        "pattern": "AI agent simulation society collapse extrapolation",
+        "detail": "Presenting AI behavior in experimental simulations as predictive of real-world outcomes without acknowledging fundamental differences between simulated and actual societies.",
+        "debias": "Clearly distinguish between experimental simulation findings and real-world applicability, noting the limitations of abstract models.",
+        "date_added": "2026-05-29",
+        "status": "suggested",
+        "example_text": "A new experiment suggests that when advanced AI agents are left to run simulated societies without human oversight, rule-breaking, instability and even systemic collapse can emerge rapidly.",
+        "example_url": "http://www.euronews.com/next/2026/05/29/ai-agents-in-simulated-worlds",
+        "unbiased_text": "A new experiment found that AI agents in simplified simulated environments exhibited rule-breaking behavior, though researchers caution against drawing direct parallels to real-world AI deployment."
+      },
+      {
+        "pattern": "Tribute post trivialization political focus accusation",
+        "detail": "Criticizing government social media posts on cultural or commemorative topics by asserting they demonstrate inattention to serious policy issues.",
+        "debias": "Acknowledge that governments can address multiple topics simultaneously rather than suggesting commemorative posts indicate policy neglect.",
+        "date_added": "2026-05-29",
+        "status": "suggested",
+        "example_text": "The White House has paid a lengthy tribute to Harambe, 10 years after the gorilla's death. The post has caused backlash, with many saying that the Trump administration is not focused on \"the key issues of the day\"...",
+        "example_url": "http://www.euronews.com/culture/2026/05/29/trump-administration-mocked-for-harambe-tribute-post-10-years-after-gorillas-death",
+        "unbiased_text": "The White House posted a tribute to Harambe on the 10th anniversary of the gorilla's death, generating mixed reactions on social media."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
