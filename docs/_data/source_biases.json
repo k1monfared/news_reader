@@ -1826,6 +1826,36 @@
         "example_text": "Kambo: What is the frog poison 'spiritual ritual' killing detoxers?",
         "example_url": "https://www.aljazeera.com/news/2026/5/29/kambo-what-is-the-frog-poison-spiritual-ritual-killing?traffic_source=rss",
         "unbiased_text": "Kambo: What is the traditional medicine practice and what are its health risks?"
+      },
+      {
+        "pattern": "Foreign political narrative religious misattribution",
+        "detail": "Framing international political conflicts as causing religious division within domestic Muslim communities, implying foreign policy debates are wrongly perceived as faith issues.",
+        "debias": "Report on political divisions within communities without characterizing the discourse as religious versus political, allowing readers to assess the nature of disagreements.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "Divisive foreign political narratives are being wrongly cast as religious discourse within our Muslim communities.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/30/how-the-iran-war-is-dividing-muslims-in-the-philippines?traffic_source=rss",
+        "unbiased_text": "Foreign political narratives regarding the Iran conflict have created divisions within Muslim communities in the Philippines."
+      },
+      {
+        "pattern": "Coaching dismissal sports crisis amplification",
+        "detail": "Describing a manager's firing after poor performance as a 'sacking' and emphasizing the 'disastrous' nature of results to heighten drama.",
+        "debias": "Report coaching changes using neutral terminology and factual performance metrics without dramatic modifiers.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "Liverpool sack Arne Slot after disastrous Premier League title defence",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/30/liverpool-sack-manager-arne-slot-a-year-after-winning-the-premier-league?traffic_source=rss",
+        "unbiased_text": "Liverpool parts ways with manager Arne Slot following a fifth-place finish in the Premier League, one year after winning the title."
+      },
+      {
+        "pattern": "Envoy departure administrative uncertainty framing",
+        "detail": "Emphasizing an envoy's departure from a formal post while noting their continued policy role creates ambiguity about actual policy change.",
+        "debias": "Clarify the substantive impact of personnel changes by distinguishing between title changes and actual policy shifts.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "Trump envoy Tom Barrack to exit formal Syria post but retain key role managing US policy in Syria and Iraq.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/30/rubio-says-trump-envoy-barrack-to-step-down-from-syria-post?traffic_source=rss",
+        "unbiased_text": "Tom Barrack will no longer hold the formal title of Syria envoy but will continue to manage US policy in Syria and Iraq."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3220,6 +3250,36 @@
         "example_text": "'Posing for cameras': Israel mocks flotilla activists online as torture, rape allegations mount",
         "example_url": "https://www.france24.com/en/posing-for-cameras-israel-mocks-flotilla-activists-online-as-torture-rape-allegations-mount",
         "unbiased_text": "Israel disputes flotilla activists' injury claims amid allegations of abuse during detention"
+      },
+      {
+        "pattern": "Betrayal accusation diplomatic credibility attack",
+        "detail": "Amplifying accusations that a party is 'betraying diplomacy' frames negotiation difficulties as character flaws rather than substantive disagreements.",
+        "debias": "Report on diplomatic impasses by focusing on specific disputed terms rather than characterizing parties' intentions or credibility.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "An adviser to Iran's Supreme Leader ‌Mojtaba Khamenei ‌on Saturday said that US President Donald Trump was \"betraying ‌diplomacy for the third ‌time\"",
+        "example_url": "https://www.france24.com/en/middle-east/20260530-middle-east-live-pentagon-chief-says-us-more-than-capable-of-restarting-war-with-iran",
+        "unbiased_text": "An adviser to Iran's Supreme Leader Mojtaba Khamenei said negotiations had reached an impasse for the third time."
+      },
+      {
+        "pattern": "Truth-lies mixture delegitimization phrase",
+        "detail": "Using the phrase 'mixture of truth and lies' to characterize opposing statements suggests deliberate deception rather than disputed facts.",
+        "debias": "Report conflicting accounts by specifying which claims are disputed and by whom, without suggesting intentional dishonesty.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "Trump says he's making final decision on Iran deal as Tehran slams 'mixture of truth and lies'",
+        "example_url": "https://www.france24.com/en/middle-east/20260529-trump-says-he-s-making-final-decision-on-iran-deal-as-tehran-slams-mixture-of-truth-and-lies",
+        "unbiased_text": "Trump says he's making final decision on Iran deal as Tehran disputes accuracy of US statements"
+      },
+      {
+        "pattern": "Empty fund pledge-reality gap scandal",
+        "detail": "Emphasizing that billions pledged to a reconstruction fund remain unfulfilled creates scandal narrative around international commitments.",
+        "debias": "Report on fund status by providing timeline context for typical disbursement processes and any stated reasons for delays.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "Four months after its creation, the Gaza reconstruction fund of US President Donald Trump's so-called Board of Peace has yet to receive any of the billions of dollars pledged by donor countries.",
+        "example_url": "https://www.france24.com/en/middle-east/20260527-trump-board-of-peace-official-gaza-fund-is-empty-despite-billions-pledged-source-says",
+        "unbiased_text": "Four months after its creation, the Gaza reconstruction fund has not yet received disbursements from the billions of dollars pledged by donor countries, which typically undergo review processes before release."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -4953,6 +5013,26 @@
         "example_text": "The White House has paid a lengthy tribute to Harambe, 10 years after the gorilla's death. The post has caused backlash, with many saying that the Trump administration is not focused on \"the key issues of the day\"...",
         "example_url": "http://www.euronews.com/culture/2026/05/29/trump-administration-mocked-for-harambe-tribute-post-10-years-after-gorillas-death",
         "unbiased_text": "The White House posted a tribute to Harambe on the 10th anniversary of the gorilla's death, generating mixed reactions on social media."
+      },
+      {
+        "pattern": "Sanctioned monetization tool scandal elevation",
+        "detail": "Highlighting that sanctioned individuals' social media accounts retained monetization features frames platform oversight as enabling sanctions evasion.",
+        "debias": "Report on sanctions compliance issues by clarifying platform enforcement timelines and whether monetization tools resulted in actual financial benefit.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "Researchers from the Dutch non-profit WHAT TO FIX found monetisation tools were still active on social media accounts linked to three individuals sanctioned by the EU over pro-Russian interference activities.",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/30/accounts-linked-to-eu-sanctioned-figures-displayed-monetisation-tools-after-sanctions-repo",
+        "unbiased_text": "Researchers found monetization tools remained on some social media accounts linked to EU-sanctioned individuals, though the accounts have since been removed."
+      },
+      {
+        "pattern": "Massive attack warning escalation rhetoric",
+        "detail": "Using leaders' warnings of 'massive' potential attacks amplifies threat perception without specifying intelligence basis or probability.",
+        "debias": "Report security warnings by including the specific indicators cited and the assessed likelihood rather than amplifying dramatic language.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "Zelenskyy warns Russia may be preparing 'massive' new attack",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/30/zelenskyy-warns-russia-may-be-preparing-massive-new-attack",
+        "unbiased_text": "Zelenskyy said intelligence indicates Russia may be preparing a large-scale attack following last weekend's missile deployment."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

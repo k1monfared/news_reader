@@ -2030,6 +2030,40 @@
         "example_url": "https://www.aljazeera.com/news/2026/5/29/kambo-what-is-the-frog-poison-spiritual-ritual-killing?traffic_source=rss",
         "unbiased_text": "کامبو: این شیوه طب سنتی چیست و خطرات بهداشتی آن کدامند؟",
         "pattern_en": "Ritual participation fatality causation emphasis"
+      },
+      {
+        "pattern": "انتساب نادرست مذهبی به روایت‌های سیاسی خارجی",
+        "detail": "قاب‌بندی درگیری‌های سیاسی بین‌المللی به‌عنوان عاملی که باعث شکاف مذهبی در جوامع مسلمان داخلی می‌شود، با این تلویح که مناظرات سیاست خارجی به اشتباه به‌عنوان مسائل دینی درک می‌شوند.",
+        "debias": "درباره شکاف‌های سیاسی درون جوامع گزارش دهید بدون اینکه گفتمان را به‌عنوان مذهبی در برابر سیاسی توصیف کنید، و به خوانندگان اجازه دهید ماهیت اختلافات را ارزیابی کنند.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "روایت‌های سیاسی خارجی تفرقه‌انگیز به اشتباه به‌عنوان گفتمان مذهبی در جوامع مسلمان ما معرفی می‌شوند.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/5/30/how-the-iran-war-is-dividing-muslims-in-the-philippines?traffic_source=rss",
+        "unbiased_text": "روایت‌های سیاسی خارجی در خصوص درگیری ایران باعث ایجاد شکاف در میان جوامع مسلمان در فیلیپین شده است.",
+        "pattern_en": "Foreign political narrative religious misattribution"
+      },
+      {
+        "pattern": "تشدید بحران ورزشی در اخراج مربی",
+        "detail": "توصیف اخراج یک مربی پس از عملکرد ضعیف به عنوان «اخراج ناگهانی» و تأکید بر ماهیت «فاجعه‌بار» نتایج برای افزایش جنجال.",
+        "debias": "تغییرات مربیگری را با اصطلاحات خنثی و معیارهای عملکردی واقعی بدون صفات نمایشی گزارش دهید.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "لیورپول آرنه اسلات را پس از دفاع فاجعه‌بار از عنوان قهرمانی لیگ برتر اخراج کرد",
+        "example_url": "https://www.aljazeera.com/sports/2026/5/30/liverpool-sack-manager-arne-slot-a-year-after-winning-the-premier-league?traffic_source=rss",
+        "unbiased_text": "لیورپول پس از کسب رتبه پنجم در لیگ برتر، یک سال پس از قهرمانی، با مربی خود آرنه اسلات از هم جدا شد.",
+        "pattern_en": "Coaching dismissal sports crisis amplification"
+      },
+      {
+        "pattern": "قاب‌بندی عدم قطعیت اداری خروج فرستاده",
+        "detail": "تأکید بر خروج یک فرستاده از یک پست رسمی در حالی که نقش سیاستگذاری مستمر آن‌ها ذکر می‌شود، ابهامی درباره تغییر واقعی سیاست ایجاد می‌کند.",
+        "debias": "تأثیر ماهوی تغییرات پرسنلی را با تمایز میان تغییرات عنوان و تغییرات واقعی سیاست روشن کنید.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "فرستاده ترامپ، تام بَرَک، از پست رسمی سوریه خارج می‌شود اما نقش کلیدی خود در مدیریت سیاست ایالات متحده در سوریه و عراق را حفظ می‌کند.",
+        "example_url": "https://www.aljazeera.com/news/2026/5/30/rubio-says-trump-envoy-barrack-to-step-down-from-syria-post?traffic_source=rss",
+        "unbiased_text": "تام بَرَک دیگر عنوان رسمی فرستاده سوریه را نخواهد داشت اما به مدیریت سیاست ایالات متحده در سوریه و عراق ادامه خواهد داد.",
+        "detail_items": [],
+        "pattern_en": "Envoy departure administrative uncertainty framing"
       }
     ]
   },
@@ -3550,6 +3584,40 @@
         "example_url": "https://www.france24.com/en/posing-for-cameras-israel-mocks-flotilla-activists-online-as-torture-rape-allegations-mount",
         "unbiased_text": "اسرائیل ادعاهای آسیب‌دیدگی فعالان کاروان دریایی را رد می‌کند در میان اتهامات سوءرفتار در طول بازداشت",
         "pattern_en": "Injury device removal recovery mockery"
+      },
+      {
+        "pattern": "حمله به اعتبار دیپلماتیک با اتهام خیانت",
+        "detail": "تقویت اتهاماتی که یک طرف «به دیپلماسی خیانت می‌کند» باعث می‌شود مشکلات مذاکره به‌جای اختلاف‌های اساسی، به‌عنوان نقص‌های شخصیتی جلوه داده شود.",
+        "debias": "بن‌بست‌های دیپلماتیک را با تمرکز بر شرایط مشخص مورد اختلاف گزارش کنید، نه با توصیف نیات یا اعتبار طرف‌ها.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "یک مشاور رهبر معظم انقلاب ایران مجتبی خامنه‌ای روز شنبه گفت که رئیس‌جمهور آمریکا دونالد ترامپ «برای سومین بار به دیپلماسی خیانت می‌کند»",
+        "example_url": "https://www.france24.com/en/middle-east/20260530-middle-east-live-pentagon-chief-says-us-more-than-capable-of-restarting-war-with-iran",
+        "unbiased_text": "یک مشاور رهبر معظم انقلاب ایران مجتبی خامنه‌ای گفت که مذاکرات برای سومین بار به بن‌بست رسیده است.",
+        "detail_items": [],
+        "pattern_en": "Betrayal accusation diplomatic credibility attack"
+      },
+      {
+        "pattern": "عبارت بی‌اعتبارسازی آمیخته از حقیقت و دروغ",
+        "detail": "استفاده از عبارت «آمیخته از حقیقت و دروغ» برای توصیف اظهارات طرف مقابل، به‌جای اختلاف بر سر واقعیات، فریب عمدی را القا می‌کند.",
+        "debias": "گزارش روایت‌های متضاد با مشخص کردن اینکه کدام ادعاها مورد اختلاف هستند و توسط چه کسانی، بدون اینکه نادرستی عمدی را پیشنهاد دهید.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "ترامپ می‌گوید در حال اتخاذ تصمیم نهایی درباره توافق ایران است در حالی که تهران «آمیخته از حقیقت و دروغ» را محکوم می‌کند",
+        "example_url": "https://www.france24.com/en/middle-east/20260529-trump-says-he-s-making-final-decision-on-iran-deal-as-tehran-slams-mixture-of-truth-and-lies",
+        "unbiased_text": "ترامپ می‌گوید در حال اتخاذ تصمیم نهایی درباره توافق ایران است در حالی که تهران صحت اظهارات آمریکا را به چالش می‌کشد",
+        "pattern_en": "Truth-lies mixture delegitimization phrase"
+      },
+      {
+        "pattern": "رسوایی شکاف میان وعده‌های صندوق خالی و واقعیت",
+        "detail": "تأکید بر اینکه میلیاردها دلار وعده داده شده به صندوق بازسازی همچنان محقق نشده‌اند، روایت رسوایی را پیرامون تعهدات بین‌المللی ایجاد می‌کند.",
+        "debias": "گزارش وضعیت صندوق را با ارائه زمینه زمانی برای فرآیندهای معمول پرداخت و هرگونه دلیل اعلام‌شده برای تأخیرها انجام دهید.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "چهار ماه پس از تأسیس، صندوق بازسازی غزه متعلق به آنچه رئیس‌جمهور آمریکا دونالد ترامپ آن را هیئت صلح می‌نامد، هنوز هیچ‌یک از میلیاردها دلار وعده داده شده توسط کشورهای اهداکننده را دریافت نکرده است.",
+        "example_url": "https://www.france24.com/en/middle-east/20260527-trump-board-of-peace-official-gaza-fund-is-empty-despite-billions-pledged-source-says",
+        "unbiased_text": "چهار ماه پس از تأسیس، صندوق بازسازی غزه هنوز پرداخت‌هایی از میلیاردها دلار وعده داده شده توسط کشورهای اهداکننده دریافت نکرده است که معمولاً قبل از آزادسازی فرآیندهای بررسی را طی می‌کنند.",
+        "pattern_en": "Empty fund pledge-reality gap scandal"
       }
     ]
   },
@@ -5466,6 +5534,30 @@
         "example_url": "http://www.euronews.com/culture/2026/05/29/trump-administration-mocked-for-harambe-tribute-post-10-years-after-gorillas-death",
         "unbiased_text": "کاخ سفید در دهمین سالگرد مرگ گوریل هارامبه، پستی به یاد او منتشر کرد که واکنش‌های متفاوتی در رسانه‌های اجتماعی به دنبال داشت.",
         "pattern_en": "Tribute post trivialization political focus accusation"
+      },
+      {
+        "pattern": "ارتقای رسوایی ابزار کسب درآمد افراد تحریم‌شده",
+        "detail": "تأکید بر اینکه حساب‌های رسانه‌های اجتماعی افراد تحریم‌شده همچنان دارای امکانات کسب درآمد بودند، نظارت پلتفرم را به عنوان تسهیل‌کننده دور زدن تحریم‌ها قاب می‌کند.",
+        "debias": "گزارش مسائل رعایت تحریم‌ها با روشن کردن جدول زمانی اجرای پلتفرم و اینکه آیا ابزارهای کسب درآمد منجر به منفعت مالی واقعی شده‌اند یا خیر.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "محققان سازمان غیرانتفاعی هلندی WHAT TO FIX دریافتند که ابزارهای کسب درآمد همچنان در حساب‌های رسانه‌های اجتماعی مرتبط با سه فرد تحریم‌شده توسط اتحادیه اروپا به دلیل فعالیت‌های مداخله‌گرایانه طرفدار روسیه فعال بودند.",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/30/accounts-linked-to-eu-sanctioned-figures-displayed-monetisation-tools-after-sanctions-repo",
+        "unbiased_text": "محققان دریافتند که ابزارهای کسب درآمد در برخی حساب‌های رسانه‌های اجتماعی مرتبط با افراد تحریم‌شده اتحادیه اروپا باقی مانده بود، هرچند این حساب‌ها از آن زمان حذف شده‌اند.",
+        "detail_items": [],
+        "pattern_en": "Sanctioned monetization tool scandal elevation"
+      },
+      {
+        "pattern": "لفاظی تشدید هشدار حمله گسترده",
+        "detail": "استفاده از هشدارهای رهبران درباره حملات «گسترده» احتمالی، درک تهدید را بدون مشخص کردن مبنای اطلاعاتی یا احتمال وقوع، تقویت می‌کند.",
+        "debias": "هشدارهای امنیتی را با ذکر شاخص‌های مشخص ارائه‌شده و احتمال ارزیابی‌شده گزارش کنید به‌جای تقویت زبان دراماتیک.",
+        "date_added": "2026-05-30",
+        "status": "suggested",
+        "example_text": "زلنسکی هشدار می‌دهد روسیه ممکن است در حال آماده‌سازی حمله «گسترده» جدید باشد",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/30/zelenskyy-warns-russia-may-be-preparing-massive-new-attack",
+        "unbiased_text": "زلنسکی گفت اطلاعات نشان می‌دهد روسیه ممکن است پس از استقرار موشکی آخر هفته گذشته، در حال آماده‌سازی یک حمله در مقیاس بزرگ باشد.",
+        "detail_items": [],
+        "pattern_en": "Massive attack warning escalation rhetoric"
       }
     ]
   }
