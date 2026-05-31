@@ -1856,6 +1856,16 @@
         "example_text": "Trump envoy Tom Barrack to exit formal Syria post but retain key role managing US policy in Syria and Iraq.",
         "example_url": "https://www.aljazeera.com/news/2026/5/30/rubio-says-trump-envoy-barrack-to-step-down-from-syria-post?traffic_source=rss",
         "unbiased_text": "Tom Barrack will no longer hold the formal title of Syria envoy but will continue to manage US policy in Syria and Iraq."
+      },
+      {
+        "pattern": "Medieval heritage capture strategic symbolism",
+        "detail": "Emphasizing the seizure of ancient historical landmarks as military achievements to frame territorial expansion through cultural heritage symbolism.",
+        "debias": "Report military positions and territorial control using contemporary geographical markers rather than highlighting symbolic heritage sites.",
+        "date_added": "2026-05-31",
+        "status": "suggested",
+        "example_text": "Israeli forces cross Lebanon's Litani River and seize 12th century castle",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/31/israeli-forces-cross-lebanons-litani-river-and-seize-12th-century-castle?traffic_source=rss",
+        "unbiased_text": "Israeli forces cross Lebanon's Litani River and establish military position on strategic hilltop"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3280,6 +3290,26 @@
         "example_text": "Four months after its creation, the Gaza reconstruction fund of US President Donald Trump's so-called Board of Peace has yet to receive any of the billions of dollars pledged by donor countries.",
         "example_url": "https://www.france24.com/en/middle-east/20260527-trump-board-of-peace-official-gaza-fund-is-empty-despite-billions-pledged-source-says",
         "unbiased_text": "Four months after its creation, the Gaza reconstruction fund has not yet received disbursements from the billions of dollars pledged by donor countries, which typically undergo review processes before release."
+      },
+      {
+        "pattern": "Mine-laying accusation without verification",
+        "detail": "Presenting allegations of mine deployment as established fact without independent confirmation or evidence presentation.",
+        "debias": "Attribute mine-laying claims clearly to the accusing party and note absence of independent verification.",
+        "date_added": "2026-05-31",
+        "status": "suggested",
+        "example_text": "Washington said the attacks were defensive, targeting missile sites and vessels allegedly laying mines.",
+        "example_url": "https://www.france24.com/en/middle-east/20260526-iran-says-us-violated-ceasefire-with-strikes-near-hormuz-war",
+        "unbiased_text": "Washington said the attacks were defensive, targeting what it described as missile sites and vessels it claimed were laying mines."
+      },
+      {
+        "pattern": "Rebuilding time purchase insinuation",
+        "detail": "Attributing diplomatic engagement to tactical deception for military reconstitution without evidence of such intent.",
+        "debias": "Report diplomatic negotiations as stated objectives without speculative attribution of hidden military motives.",
+        "date_added": "2026-05-31",
+        "status": "suggested",
+        "example_text": "Iran looking to 'buy time to rebuild its military' amid talks to end war",
+        "example_url": "https://www.france24.com/en/iran-looking-to-buy-time-to-rebuild-its-military-amid-talks-to-end-war",
+        "unbiased_text": "Iran engaged in talks to end war as both sides assess military positions"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -5033,6 +5063,26 @@
         "example_text": "Zelenskyy warns Russia may be preparing 'massive' new attack",
         "example_url": "http://www.euronews.com/my-europe/2026/05/30/zelenskyy-warns-russia-may-be-preparing-massive-new-attack",
         "unbiased_text": "Zelenskyy said intelligence indicates Russia may be preparing a large-scale attack following last weekend's missile deployment."
+      },
+      {
+        "pattern": "Commercial vessel strike compliance framing",
+        "detail": "Framing military action against civilian ships through emphasis on warning counts to justify force as procedurally legitimate.",
+        "debias": "Report vessel strikes with context on international maritime law and commercial shipping rights rather than warning tallies.",
+        "date_added": "2026-05-31",
+        "status": "suggested",
+        "example_text": "According to the US Central Command, the Gambia-flagged cargo ship Lian Star ignored more than 20 warnings from US forces overnight as it tried to enter an Iranian port.",
+        "example_url": "http://www.euronews.com/2026/05/31/us-military-says-it-struck-a-commercial-ship-trying-to-breach-blockade-and-reach-iran",
+        "unbiased_text": "The US Central Command said it struck the Gambia-flagged cargo ship Lian Star as it approached an Iranian port under blockade."
+      },
+      {
+        "pattern": "Sabotage incident quantification without attribution",
+        "detail": "Presenting alleged hostile acts as verified incidents through numerical aggregation while obscuring lack of evidence or perpetrator identification.",
+        "debias": "Clearly indicate investigation status and evidence levels when reporting suspected sabotage rather than treating allegations as confirmed incidents.",
+        "date_added": "2026-05-31",
+        "status": "suggested",
+        "example_text": "Ten suspected sabotage incidents have reportedly impacted the German navy over the last year.",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/30/who-is-behind-the-suspected-sabotage-attempts-targeting-the-german-navy",
+        "unbiased_text": "German authorities are investigating ten incidents affecting the navy over the past year that they suspect may be sabotage."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

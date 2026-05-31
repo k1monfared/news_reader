@@ -2064,6 +2064,17 @@
         "unbiased_text": "تام بَرَک دیگر عنوان رسمی فرستاده سوریه را نخواهد داشت اما به مدیریت سیاست ایالات متحده در سوریه و عراق ادامه خواهد داد.",
         "detail_items": [],
         "pattern_en": "Envoy departure administrative uncertainty framing"
+      },
+      {
+        "pattern": "تصرف میراث قرون‌وسطایی با نمادگرایی استراتژیک",
+        "detail": "تأکید بر تصرف نشانه‌های تاریخی باستانی به‌عنوان دستاوردهای نظامی برای قاب‌بندی گسترش سرزمینی از طریق نمادگرایی میراث فرهنگی.",
+        "debias": "موقعیت‌های نظامی و کنترل سرزمینی را با استفاده از نشانه‌های جغرافیایی معاصر گزارش کنید نه برجسته‌سازی مکان‌های میراثی نمادین.",
+        "date_added": "2026-05-31",
+        "status": "suggested",
+        "example_text": "نیروهای اسرائیلی از رودخانه لیطانی لبنان عبور کرده و قلعه قرن ۱۲ میلادی را تصرف می‌کنند",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/31/israeli-forces-cross-lebanons-litani-river-and-seize-12th-century-castle?traffic_source=rss",
+        "unbiased_text": "نیروهای اسرائیلی از رودخانه لیطانی لبنان عبور کرده و موضع نظامی در تپه‌ای استراتژیک برقرار می‌کنند",
+        "pattern_en": "Medieval heritage capture strategic symbolism"
       }
     ]
   },
@@ -3618,6 +3629,28 @@
         "example_url": "https://www.france24.com/en/middle-east/20260527-trump-board-of-peace-official-gaza-fund-is-empty-despite-billions-pledged-source-says",
         "unbiased_text": "چهار ماه پس از تأسیس، صندوق بازسازی غزه هنوز پرداخت‌هایی از میلیاردها دلار وعده داده شده توسط کشورهای اهداکننده دریافت نکرده است که معمولاً قبل از آزادسازی فرآیندهای بررسی را طی می‌کنند.",
         "pattern_en": "Empty fund pledge-reality gap scandal"
+      },
+      {
+        "pattern": "اتهام مین‌گذاری بدون تأیید",
+        "detail": "ارائه ادعاهای مربوط به استقرار مین به عنوان واقعیت مسلم بدون تأیید مستقل یا ارائه مدرک.",
+        "debias": "ادعاهای مین‌گذاری را به‌طور واضح به طرف متهم‌کننده نسبت دهید و فقدان تأیید مستقل را ذکر کنید.",
+        "date_added": "2026-05-31",
+        "status": "suggested",
+        "example_text": "واشنگتن گفت که حملات دفاعی بودند و پایگاه‌های موشکی و کشتی‌هایی را هدف قرار دادند که گفته می‌شود در حال مین‌گذاری بودند.",
+        "example_url": "https://www.france24.com/en/middle-east/20260526-iran-says-us-violated-ceasefire-with-strikes-near-hormuz-war",
+        "unbiased_text": "واشنگتن گفت که حملات دفاعی بودند و آنچه را که به عنوان پایگاه‌های موشکی و کشتی‌هایی که ادعا می‌کرد در حال مین‌گذاری بودند، توصیف کرد، هدف قرار داد.",
+        "pattern_en": "Mine-laying accusation without verification"
+      },
+      {
+        "pattern": "القای خرید زمان برای بازسازی",
+        "detail": "نسبت دادن تعامل دیپلماتیک به فریب تاکتیکی برای بازسازی نظامی بدون شواهدی مبنی بر چنین قصدی.",
+        "debias": "مذاکرات دیپلماتیک را با اهداف اعلام‌شده گزارش کنید بدون نسبت دادن حدسی انگیزه‌های نظامی پنهان.",
+        "date_added": "2026-05-31",
+        "status": "suggested",
+        "example_text": "ایران به دنبال «خرید زمان برای بازسازی ارتش خود» در میان مذاکرات برای پایان جنگ",
+        "example_url": "https://www.france24.com/en/iran-looking-to-buy-time-to-rebuild-its-military-amid-talks-to-end-war",
+        "unbiased_text": "ایران درگیر مذاکرات برای پایان جنگ در حالی که هر دو طرف موقعیت‌های نظامی را ارزیابی می‌کنند",
+        "pattern_en": "Rebuilding time purchase insinuation"
       }
     ]
   },
@@ -5558,6 +5591,28 @@
         "unbiased_text": "زلنسکی گفت اطلاعات نشان می‌دهد روسیه ممکن است پس از استقرار موشکی آخر هفته گذشته، در حال آماده‌سازی یک حمله در مقیاس بزرگ باشد.",
         "detail_items": [],
         "pattern_en": "Massive attack warning escalation rhetoric"
+      },
+      {
+        "pattern": "قاب‌بندی انطباق با حمله به کشتی تجاری",
+        "detail": "قاب‌بندی اقدام نظامی علیه کشتی‌های غیرنظامی از طریق تأکید بر تعداد هشدارها برای توجیه زور به عنوان مشروع رویه‌ای.",
+        "debias": "حملات به کشتی‌ها را با زمینه‌ای درباره حقوق بین‌المللی دریایی و حقوق کشتیرانی تجاری گزارش کنید نه با شمارش هشدارها.",
+        "date_added": "2026-05-31",
+        "status": "suggested",
+        "example_text": "به گفته فرماندهی مرکزی ایالات متحده، کشتی باری به پرچم گامبیا به نام لیان استار بیش از ۲۰ هشدار نیروهای آمریکایی را در طول شب نادیده گرفت در حالی که تلاش می‌کرد وارد بندر ایرانی شود.",
+        "example_url": "http://www.euronews.com/2026/05/31/us-military-says-it-struck-a-commercial-ship-trying-to-breach-blockade-and-reach-iran",
+        "unbiased_text": "فرماندهی مرکزی ایالات متحده اعلام کرد که کشتی باری به پرچم گامبیا به نام لیان استار را هنگام نزدیک شدن به بندر ایرانی تحت محاصره مورد حمله قرار داد.",
+        "pattern_en": "Commercial vessel strike compliance framing"
+      },
+      {
+        "pattern": "کمی‌سازی حوادث خرابکاری بدون انتساب",
+        "detail": "ارائه اقدامات خصمانه ادعایی به عنوان حوادث تأیید شده از طریق تجمیع عددی، در حالی که فقدان شواهد یا شناسایی عامل را مبهم می‌سازد.",
+        "debias": "هنگام گزارش خرابکاری مشکوک، وضعیت تحقیقات و سطوح شواهد را به وضوح مشخص کنید تا ادعاها به عنوان حوادث تأیید شده تلقی نشوند.",
+        "date_added": "2026-05-31",
+        "status": "suggested",
+        "example_text": "بر اساس گزارش‌ها، ده حادثه مشکوک به خرابکاری در سال گذشته بر نیروی دریایی آلمان تأثیر گذاشته است.",
+        "example_url": "http://www.euronews.com/my-europe/2026/05/30/who-is-behind-the-suspected-sabotage-attempts-targeting-the-german-navy",
+        "unbiased_text": "مقامات آلمانی در حال بررسی ده حادثه‌ای هستند که طی سال گذشته نیروی دریایی را تحت تأثیر قرار داده و آنها مشکوک به خرابکاری می‌باشند.",
+        "pattern_en": "Sabotage incident quantification without attribution"
       }
     ]
   }
