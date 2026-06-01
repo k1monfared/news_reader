@@ -2075,6 +2075,28 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/31/israeli-forces-cross-lebanons-litani-river-and-seize-12th-century-castle?traffic_source=rss",
         "unbiased_text": "نیروهای اسرائیلی از رودخانه لیطانی لبنان عبور کرده و موضع نظامی در تپه‌ای استراتژیک برقرار می‌کنند",
         "pattern_en": "Medieval heritage capture strategic symbolism"
+      },
+      {
+        "pattern": "زیر سؤال بردن هدفمندی از طریق تیتر",
+        "detail": "استفاده از پرسش‌های تیتر برای ایجاد تردید درباره مشروعیت نهادی با قاب‌بندی وجود به‌عنوان بی‌هدف به‌جای گزارش بحث‌ها درباره اثربخشی.",
+        "debias": "انتقادات مشخص از عملکرد نهادی را گزارش کنید بدون آنکه القا کنید خود نهاد فاقد هدف است.",
+        "date_added": "2026-06-01",
+        "status": "suggested",
+        "example_text": "همزمان با پیشروی اسرائیل به فراسوی لیطانی، لبنانی‌ها هدف یونیفیل را زیر سؤال می‌برند",
+        "example_url": "https://www.aljazeera.com/features/2026/6/1/as-israel-pushes-past-the-litani-lebanese-question-the-purpose-of-unifil",
+        "unbiased_text": "همزمان با پیشروی اسرائیل به فراسوی لیطانی، لبنانی‌ها درباره اثربخشی یونیفیل بحث می‌کنند",
+        "pattern_en": "Purposelessness questioning through headline"
+      },
+      {
+        "pattern": "روایت‌سازی تردید نسبت به نوسازی",
+        "detail": "قاب‌بندی دستاوردهای زیرساختی به‌عنوان غیرقانع‌کننده از طریق اظهارات تردید عمومی علی‌رغم تکمیل موفقیت‌آمیز.",
+        "debias": "تکمیل زیرساخت و نرخ استفاده را جداگانه از نظرسنجی درباره میزان رضایت گزارش دهید.",
+        "date_added": "2026-06-01",
+        "status": "suggested",
+        "example_text": "تک‌ریل جدید مصر یک سفر مدرن ارائه می‌دهد، اما قاهره هنوز متقاعد نشده است",
+        "example_url": "https://www.aljazeera.com/features/2026/6/1/egypts-new-monorail-offers-a-modern-ride-but-cairo-is-still-not-convinced",
+        "unbiased_text": "تک‌ریل جدید مصر برای مسافران افتتاح شد و داده‌های اولیه تعداد مسافران هنوز در حال جمع‌آوری است",
+        "pattern_en": "Modernization skepticism narrative construction"
       }
     ]
   },
@@ -3651,6 +3673,17 @@
         "example_url": "https://www.france24.com/en/iran-looking-to-buy-time-to-rebuild-its-military-amid-talks-to-end-war",
         "unbiased_text": "ایران درگیر مذاکرات برای پایان جنگ در حالی که هر دو طرف موقعیت‌های نظامی را ارزیابی می‌کنند",
         "pattern_en": "Rebuilding time purchase insinuation"
+      },
+      {
+        "pattern": "اصطلاح‌شناسی گسترش از طریق نقطه عطف عبور از رودخانه",
+        "detail": "قاب‌بندی پیشروی سرزمینی از طریق نشانه‌های جغرافیایی برای تأکید بر تشدید به جای گزارش موقعیت‌های نظامی.",
+        "debias": "موقعیت‌های سرزمینی را بدون قاب‌بندی نقطه عطف که حرکت تدریجی را نمایشی می‌کند، گزارش کنید.",
+        "date_added": "2026-06-01",
+        "status": "suggested",
+        "example_text": "نیروهای اسرائیلی عمیق‌تر به لبنان نفوذ می‌کنند و از رودخانه لیطانی عبور می‌کنند",
+        "example_url": "https://www.france24.com/en/israeli-troops-push-deeper-into-lebanon-crossing-the-litani-river-as-talks-expected",
+        "unbiased_text": "نیروهای اسرائیلی در شمال رودخانه لیطانی در جنوب لبنان پیشروی می‌کنند",
+        "pattern_en": "Expansion terminology through river crossing milestone"
       }
     ]
   },
@@ -5613,6 +5646,28 @@
         "example_url": "http://www.euronews.com/my-europe/2026/05/30/who-is-behind-the-suspected-sabotage-attempts-targeting-the-german-navy",
         "unbiased_text": "مقامات آلمانی در حال بررسی ده حادثه‌ای هستند که طی سال گذشته نیروی دریایی را تحت تأثیر قرار داده و آنها مشکوک به خرابکاری می‌باشند.",
         "pattern_en": "Sabotage incident quantification without attribution"
+      },
+      {
+        "pattern": "قاب‌بندی بحرانی نسبت حقوق",
+        "detail": "ارائه نسبت دستمزد به اجاره به‌عنوان امری ذاتاً نگران‌کننده از طریق تأکید بر درصد، بدون زمینه اقتصادی یا مقایسه تاریخی فراتر از سال‌های اخیر.",
+        "debias": "شاخص‌های مقرون‌به‌صرفه بودن مسکن را با شاخص‌های اقتصادی گسترده‌تر و مقایسه‌های بین‌المللی گزارش دهید.",
+        "date_added": "2026-06-01",
+        "status": "suggested",
+        "example_text": "اسپانیایی‌ها اکنون نیمی از حقوق خود را صرف اجاره می‌کنند، بیش از ۷۰٪ در مادرید و بارسلونا",
+        "example_url": "http://www.euronews.com/business/2026/06/01/spaniards-now-spend-half-their-salary-on-rent-over-70-in-madrid-and-barcelona",
+        "unbiased_text": "نسبت اجاره به درآمد اسپانیا در سطح ملی به ۵۰٪ و در شهرهای بزرگ به ۷۰٪ رسیده است، بنابر داده‌های جدید",
+        "pattern_en": "Salary proportion crisis framing"
+      },
+      {
+        "pattern": "نمایش افت اقتصادی با استفاده از فعل «تخت شدن»",
+        "detail": "استفاده از استعاره‌های فیزیولوژیکی که نشان‌دهنده شکست قریب‌الوقوع هستند برای توصیف شاخص‌های اقتصادی پایدار یا با کاهش جزئی.",
+        "debias": "داده‌های اقتصادی را با ارقام دقیق گزارش کنید نه با استعاره‌های پزشکی.",
+        "date_added": "2026-06-01",
+        "status": "suggested",
+        "example_text": "فعالیت کارخانه‌های چین در ماه می تخت می‌شود و شک و تردید بر اقتصاد سایه می‌اندازد",
+        "example_url": "http://www.euronews.com/business/2026/06/01/chinas-factory-activity-flatlines-in-may-casting-doubt-over-the-economy",
+        "unbiased_text": "فعالیت تولیدی چین در ماه می رشد بسیار اندکی را نشان می‌دهد و به پایین‌ترین سطح خود در سه ماه اخیر می‌رسد",
+        "pattern_en": "Flatline verb economic stagnation dramatization"
       }
     ]
   }

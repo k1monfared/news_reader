@@ -1866,6 +1866,26 @@
         "example_text": "Israeli forces cross Lebanon's Litani River and seize 12th century castle",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/5/31/israeli-forces-cross-lebanons-litani-river-and-seize-12th-century-castle?traffic_source=rss",
         "unbiased_text": "Israeli forces cross Lebanon's Litani River and establish military position on strategic hilltop"
+      },
+      {
+        "pattern": "Purposelessness questioning through headline",
+        "detail": "Using headline interrogatives to cast doubt on institutional legitimacy by framing existence as purposeless rather than reporting on effectiveness debates.",
+        "debias": "Report specific criticisms of institutional performance without suggesting the institution itself lacks purpose.",
+        "date_added": "2026-06-01",
+        "status": "suggested",
+        "example_text": "As Israel pushes past the Litani, Lebanese question the purpose of UNIFIL",
+        "example_url": "https://www.aljazeera.com/features/2026/6/1/as-israel-pushes-past-the-litani-lebanese-question-the-purpose-of-unifil",
+        "unbiased_text": "As Israel pushes past the Litani, Lebanese debate UNIFIL's effectiveness"
+      },
+      {
+        "pattern": "Modernization skepticism narrative construction",
+        "detail": "Framing infrastructure achievements as unconvincing through public doubt assertions despite successful completion.",
+        "debias": "Report infrastructure completion and adoption rates separately from opinion polling on satisfaction.",
+        "date_added": "2026-06-01",
+        "status": "suggested",
+        "example_text": "Egypt's new monorail offers a modern ride, but Cairo is still not convinced",
+        "example_url": "https://www.aljazeera.com/features/2026/6/1/egypts-new-monorail-offers-a-modern-ride-but-cairo-is-still-not-convinced",
+        "unbiased_text": "Egypt's new monorail opens to passengers, with initial ridership data still being collected"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3310,6 +3330,16 @@
         "example_text": "Iran looking to 'buy time to rebuild its military' amid talks to end war",
         "example_url": "https://www.france24.com/en/iran-looking-to-buy-time-to-rebuild-its-military-amid-talks-to-end-war",
         "unbiased_text": "Iran engaged in talks to end war as both sides assess military positions"
+      },
+      {
+        "pattern": "Expansion terminology through river crossing milestone",
+        "detail": "Framing territorial advance through geographic markers to emphasize escalation rather than reporting military positions.",
+        "debias": "Report territorial positions without milestone framing that dramatizes incremental movement.",
+        "date_added": "2026-06-01",
+        "status": "suggested",
+        "example_text": "Israeli troops push deeper into Lebanon, crossing the Litani river",
+        "example_url": "https://www.france24.com/en/israeli-troops-push-deeper-into-lebanon-crossing-the-litani-river-as-talks-expected",
+        "unbiased_text": "Israeli troops advance north of the Litani river in southern Lebanon"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -5083,6 +5113,26 @@
         "example_text": "Ten suspected sabotage incidents have reportedly impacted the German navy over the last year.",
         "example_url": "http://www.euronews.com/my-europe/2026/05/30/who-is-behind-the-suspected-sabotage-attempts-targeting-the-german-navy",
         "unbiased_text": "German authorities are investigating ten incidents affecting the navy over the past year that they suspect may be sabotage."
+      },
+      {
+        "pattern": "Salary proportion crisis framing",
+        "detail": "Presenting wage-to-rent ratios as inherently alarming through percentage emphasis without economic context or historical comparison beyond recent years.",
+        "debias": "Report housing affordability metrics with broader economic indicators and international comparisons.",
+        "date_added": "2026-06-01",
+        "status": "suggested",
+        "example_text": "Spaniards now spend half their salary on rent, over 70% in Madrid and Barcelona",
+        "example_url": "http://www.euronews.com/business/2026/06/01/spaniards-now-spend-half-their-salary-on-rent-over-70-in-madrid-and-barcelona",
+        "unbiased_text": "Spanish rent-to-income ratios reach 50% nationally and 70% in major cities, according to new data"
+      },
+      {
+        "pattern": "Flatline verb economic stagnation dramatization",
+        "detail": "Using physiological metaphors suggesting imminent failure to characterize stable or marginally declining economic indicators.",
+        "debias": "Report economic data changes with precise figures rather than medical metaphors.",
+        "date_added": "2026-06-01",
+        "status": "suggested",
+        "example_text": "China's factory activity flatlines in May casting doubt over the economy",
+        "example_url": "http://www.euronews.com/business/2026/06/01/chinas-factory-activity-flatlines-in-may-casting-doubt-over-the-economy",
+        "unbiased_text": "China's manufacturing activity shows minimal growth in May, reaching its lowest reading in three months"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
