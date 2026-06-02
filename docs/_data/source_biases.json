@@ -1886,6 +1886,36 @@
         "example_text": "Egypt's new monorail offers a modern ride, but Cairo is still not convinced",
         "example_url": "https://www.aljazeera.com/features/2026/6/1/egypts-new-monorail-offers-a-modern-ride-but-cairo-is-still-not-convinced",
         "unbiased_text": "Egypt's new monorail opens to passengers, with initial ridership data still being collected"
+      },
+      {
+        "pattern": "Conspiracy proximity US-separatist attribution",
+        "detail": "Framing US involvement in foreign separatist movements through questioning rather than assertion creates conspiratorial atmosphere without making direct claims.",
+        "debias": "Report confirmed facts about separatist movements and international involvement without speculative connection questions.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "Alberta will vote in a referendum over whether to separate from Canada, but how is the US President involved?",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/2/could-trumps-government-be-influencing-canadas-separatist-movement?traffic_source=rss",
+        "unbiased_text": "Alberta will vote in a referendum over whether to separate from Canada. The US President has commented on Alberta's autonomy discussions."
+      },
+      {
+        "pattern": "Document stripping confinement narrative",
+        "detail": "Emphasizing removal of identity documents to frame medical evacuation as imprisonment rather than administrative processing.",
+        "debias": "Report medical evacuation logistics neutrally, distinguishing between security measures and deliberate detention.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "Palestinian patients stripped of their documents are confined inside a Baghdad medical centre.",
+        "example_url": "https://www.aljazeera.com/features/2026/6/2/trapped-gaza-patients-flown-to-iraq-stuck-in-administrative-limbo?traffic_source=rss",
+        "unbiased_text": "Palestinian patients evacuated to Baghdad are awaiting document processing at a medical centre."
+      },
+      {
+        "pattern": "Chinese diplomatic scorecard quantification",
+        "detail": "Tallying foreign leader visits as evidence of growing influence frames diplomacy as competitive achievement rather than routine engagement.",
+        "debias": "Report diplomatic visits as part of standard international relations without competitive tallying.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "China has hosted 26 leaders from 23 countries this year, underscoring its growing diplomatic and economic influence.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/2/every-world-leader-who-has-visited-china-in-2026-in-one-chart?traffic_source=rss",
+        "unbiased_text": "China has hosted 26 leaders from 23 countries this year as part of ongoing diplomatic engagement."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3340,6 +3370,36 @@
         "example_text": "Israeli troops push deeper into Lebanon, crossing the Litani river",
         "example_url": "https://www.france24.com/en/israeli-troops-push-deeper-into-lebanon-crossing-the-litani-river-as-talks-expected",
         "unbiased_text": "Israeli troops advance north of the Litani river in southern Lebanon"
+      },
+      {
+        "pattern": "Healthy consensus paradox framing",
+        "detail": "Using 'healthy' to describe political consensus on military action creates normative approval while maintaining analytical distance.",
+        "debias": "Describe political consensus on military matters without value-laden adjectives suggesting health or pathology.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "there's a healthy political consensus in Israel about the merits and desirability of the military campaign in Lebanon",
+        "example_url": "https://www.france24.com/en/tv-shows/a-propos/20260601-healthy-consensus-in-israel-on-pursuing-lebanon-campaign-expert-says",
+        "unbiased_text": "there's a broad political consensus in Israel about the military campaign in Lebanon"
+      },
+      {
+        "pattern": "Rumour mongering accusation deflection",
+        "detail": "Characterizing contradictory reporting as 'rumour mongering' dismisses critical claims through source delegitimization without addressing substance.",
+        "debias": "Report conflicting claims neutrally, noting which sources dispute which information without characterizing dissent as rumor.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "Tehran has outright denied the reports, calling it 'rumour mongering' by a foreign media outlet and accusing it of publishing 'wishful thinking in place of reality'",
+        "example_url": "https://www.france24.com/en/iran-rejects-reports-president-masoud-pezeshkian-resigned-over-power-struggle",
+        "unbiased_text": "Tehran has denied the reports, stating that claims about the president's resignation are inaccurate"
+      },
+      {
+        "pattern": "Offensive weapon category restriction narrative",
+        "detail": "Distinguishing between 'offensive' and defensive weapons in exhibition bans creates artificial categorization that frames exclusion as partial rather than substantive.",
+        "debias": "Report exhibition restrictions without parsing weapon categories, focusing on what is included or excluded.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "France has banned the display of Israeli offensive weapons at the 2026 Eurosatory international defence and security exhibition, organisers said Monday. While the Israeli defence ministry denounced the 'disgraceful decision', Eurosatory organisers said Israeli defence systems were authorised to participate",
+        "example_url": "https://www.france24.com/en/middle-east/20260601-france-bans-israeli-offensive-weapons-from-major-defence-show",
+        "unbiased_text": "France has restricted Israeli weapons displays at the 2026 Eurosatory defence exhibition, though some Israeli defence systems remain authorized to participate, organisers said Monday."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -5133,6 +5193,46 @@
         "example_text": "China's factory activity flatlines in May casting doubt over the economy",
         "example_url": "http://www.euronews.com/business/2026/06/01/chinas-factory-activity-flatlines-in-may-casting-doubt-over-the-economy",
         "unbiased_text": "China's manufacturing activity shows minimal growth in May, reaching its lowest reading in three months"
+      },
+      {
+        "pattern": "Trump card military capability teaser",
+        "detail": "Using 'trump cards' metaphor for unrevealed military capabilities creates suspense narrative around potential escalation.",
+        "debias": "Report statements about military capabilities without game metaphors that dramatize strategic ambiguity.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "A senior IRGC general said Iran had not revealed all its military capabilities and was ready for direct confrontation with the US and NATO",
+        "example_url": "http://www.euronews.com/2026/06/02/irgc-says-iran-has-more-trump-cards-up-its-sleeve-as-talks-hang-by-a-thread",
+        "unbiased_text": "A senior IRGC general said Iran maintains additional military capabilities and is prepared for potential confrontation with the US and NATO"
+      },
+      {
+        "pattern": "Loaves-and-fishes miracle economic framing",
+        "detail": "Invoking biblical multiplication miracle to describe event economic returns blends religious validation with financial reporting.",
+        "debias": "Report economic impact projections using standard financial terminology without religious miracle comparisons.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "In what it hails as a loaves-and-fishes miracle, the Spanish Bishops' Conference says Pope Leon XIV's trip to Spain will bring in five times its cost",
+        "example_url": "http://www.euronews.com/business/2026/06/02/25-million-invested-150-million-earned-the-miraculous-return-on-the-popes-visit",
+        "unbiased_text": "The Spanish Bishops' Conference projects Pope Leon XIV's trip to Spain will generate five times its cost in economic returns"
+      },
+      {
+        "pattern": "Deportation era declaration amplification",
+        "detail": "Platforming 'era of deportations' language from right-wing politicians frames policy shift as epochal transformation rather than regulatory change.",
+        "debias": "Report migration policy changes using neutral descriptive language rather than epochal declarations from partisan sources.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "MEP Charlie Weimers told Euronews' flagship morning show Europe Today that an 'era of deportations' has begun in the EU",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/02/the-era-of-deportations-has-begun-right-wing-mep-tells-euronews",
+        "unbiased_text": "MEP Charlie Weimers told Euronews that the EU has adopted stricter migration laws including provisions for deportations"
+      },
+      {
+        "pattern": "Good versus bad species framing",
+        "detail": "Categorizing organisms as 'good bugs' versus pests anthropomorphizes ecological intervention as moral struggle.",
+        "debias": "Describe pest control and disease prevention strategies using scientific terminology without moral characterizations of species.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "Google plans to release millions of mosquitoes into the United States in a new project aimed at curbing mosquito-borne diseases by releasing more 'good bugs' instead of fighting them.",
+        "example_url": "http://www.euronews.com/health/2026/06/02/good-vs-bad-mosquito-what-is-googles-plan-to-fight-pest-borne-deadly-diseases",
+        "unbiased_text": "Google plans to release millions of mosquitoes into the United States in a project aimed at curbing mosquito-borne diseases by releasing sterile or modified mosquitoes."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

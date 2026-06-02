@@ -2097,6 +2097,39 @@
         "example_url": "https://www.aljazeera.com/features/2026/6/1/egypts-new-monorail-offers-a-modern-ride-but-cairo-is-still-not-convinced",
         "unbiased_text": "تک‌ریل جدید مصر برای مسافران افتتاح شد و داده‌های اولیه تعداد مسافران هنوز در حال جمع‌آوری است",
         "pattern_en": "Modernization skepticism narrative construction"
+      },
+      {
+        "pattern": "نزدیکی به تئوری توطئه در انتساب جنبش‌های جدایی‌طلبانه به ایالات متحده",
+        "detail": "چارچوب‌بندی دخالت ایالات متحده در جنبش‌های جدایی‌طلبانه خارجی از طریق پرسش به جای اظهار مستقیم، فضایی توطئه‌گرایانه بدون ارائه ادعای صریح ایجاد می‌کند.",
+        "debias": "گزارش حقایق تأیید‌شده درباره جنبش‌های جدایی‌طلبانه و دخالت بین‌المللی بدون طرح پرسش‌های گمانه‌زنانه درباره ارتباط آنها.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "آلبرتا درباره جدایی از کانادا رفراندوم برگزار خواهد کرد، اما رئیس‌جمهور ایالات متحده چگونه در آن دخیل است؟",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/2/could-trumps-government-be-influencing-canadas-separatist-movement?traffic_source=rss",
+        "unbiased_text": "آلبرتا درباره جدایی از کانادا رفراندوم برگزار خواهد کرد. رئیس‌جمهور ایالات متحده درباره بحث‌های خودمختاری آلبرتا اظهارنظر کرده است.",
+        "pattern_en": "Conspiracy proximity US-separatist attribution"
+      },
+      {
+        "pattern": "روایت محدودیت از طریق ضبط اسناد",
+        "detail": "تأکید بر ضبط اسناد هویتی برای ترسیم تخلیه پزشکی به‌عنوان زندانی‌سازی به‌جای پردازش اداری.",
+        "debias": "گزارش خنثی از لجستیک تخلیه پزشکی، با تمایز میان اقدامات امنیتی و بازداشت عمدی.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "بیماران فلسطینی که اسنادشان ضبط شده، درون یک مرکز پزشکی در بغداد محبوس هستند.",
+        "example_url": "https://www.aljazeera.com/features/2026/6/2/trapped-gaza-patients-flown-to-iraq-stuck-in-administrative-limbo?traffic_source=rss",
+        "unbiased_text": "بیماران فلسطینی تخلیه‌شده به بغداد در انتظار پردازش اسناد در یک مرکز پزشکی هستند.",
+        "pattern_en": "Document stripping confinement narrative"
+      },
+      {
+        "pattern": "کمی‌سازی کارنامه دیپلماتیک چین",
+        "detail": "شمارش بازدیدهای رهبران خارجی به‌عنوان شاهدی بر نفوذ رو به رشد، دیپلماسی را به‌جای تعامل روتین، چارچوبی رقابتی و دستاوردمحور می‌سازد.",
+        "debias": "بازدیدهای دیپلماتیک را به‌عنوان بخشی از روابط بین‌المللی استاندارد بدون شمارش رقابتی گزارش دهید.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "چین امسال میزبان ۲۶ رهبر از ۲۳ کشور بوده است که نفوذ دیپلماتیک و اقتصادی رو به رشد آن را برجسته می‌کند.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/2/every-world-leader-who-has-visited-china-in-2026-in-one-chart?traffic_source=rss",
+        "unbiased_text": "چین امسال میزبان ۲۶ رهبر از ۲۳ کشور به‌عنوان بخشی از تعاملات دیپلماتیک جاری بوده است.",
+        "pattern_en": "Chinese diplomatic scorecard quantification"
       }
     ]
   },
@@ -3684,6 +3717,39 @@
         "example_url": "https://www.france24.com/en/israeli-troops-push-deeper-into-lebanon-crossing-the-litani-river-as-talks-expected",
         "unbiased_text": "نیروهای اسرائیلی در شمال رودخانه لیطانی در جنوب لبنان پیشروی می‌کنند",
         "pattern_en": "Expansion terminology through river crossing milestone"
+      },
+      {
+        "pattern": "قاب‌بندی پارادوکس اجماع سالم",
+        "detail": "استفاده از واژه «سالم» برای توصیف اجماع سیاسی درباره اقدام نظامی، تأیید هنجاری ایجاد می‌کند در حالی که فاصله تحلیلی حفظ می‌شود.",
+        "debias": "اجماع سیاسی در مسائل نظامی را بدون صفت‌های ارزشی که نشان‌دهنده سلامت یا بیماری باشند توصیف کنید.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "اجماع سیاسی سالمی در اسرائیل درباره شایستگی‌ها و مطلوبیت کمپین نظامی در لبنان وجود دارد",
+        "example_url": "https://www.france24.com/en/tv-shows/a-propos/20260601-healthy-consensus-in-israel-on-pursuing-lebanon-campaign-expert-says",
+        "unbiased_text": "اجماع سیاسی گسترده‌ای در اسرائیل درباره کمپین نظامی در لبنان وجود دارد",
+        "pattern_en": "Healthy consensus paradox framing"
+      },
+      {
+        "pattern": "انحراف اتهام با شایعه‌پراکنی",
+        "detail": "توصیف گزارش‌های متناقض به عنوان «شایعه‌پراکنی» با بی‌اعتبارسازی منبع، ادعاهای انتقادی را بدون پرداختن به محتوا رد می‌کند.",
+        "debias": "ادعاهای متناقض را به طور بی‌طرفانه گزارش کنید و ذکر کنید کدام منابع کدام اطلاعات را رد می‌کنند، بدون اینکه مخالفت را شایعه توصیف کنید.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "تهران این گزارش‌ها را صراحتاً رد کرده و آن را «شایعه‌پراکنی» توسط یک رسانه خارجی خوانده و آن را متهم کرده که «آرزوها را به جای واقعیت منتشر می‌کند»",
+        "example_url": "https://www.france24.com/en/iran-rejects-reports-president-masoud-pezeshkian-resigned-over-power-struggle",
+        "unbiased_text": "تهران این گزارش‌ها را رد کرده و اعلام کرده است که ادعاها درباره استعفای رئیس‌جمهور نادرست است",
+        "pattern_en": "Rumour mongering accusation deflection"
+      },
+      {
+        "pattern": "روایت محدودیت دسته‌بندی سلاح‌های تهاجمی",
+        "detail": "تمایز میان سلاح‌های «تهاجمی» و دفاعی در ممنوعیت‌های نمایشگاهی، دسته‌بندی مصنوعی ایجاد می‌کند که محرومیت را جزئی به جای ماهوی جلوه می‌دهد.",
+        "debias": "محدودیت‌های نمایشگاهی را بدون تفکیک دسته‌بندی سلاح‌ها گزارش کنید و بر آنچه شامل یا مستثنی شده تمرکز کنید.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "فرانسه نمایش سلاح‌های تهاجمی اسرائیلی را در نمایشگاه بین‌المللی دفاعی و امنیتی یوروساتوری ۲۰۲۶ ممنوع کرده است، برگزارکنندگان روز دوشنبه اعلام کردند. در حالی که وزارت دفاع اسرائیل این «تصمیم شرم‌آور» را محکوم کرد، برگزارکنندگان یوروساتوری گفتند که سیستم‌های دفاعی اسرائیلی مجاز به شرکت هستند",
+        "example_url": "https://www.france24.com/en/middle-east/20260601-france-bans-israeli-offensive-weapons-from-major-defence-show",
+        "unbiased_text": "فرانسه نمایش سلاح‌های اسرائیلی را در نمایشگاه دفاعی یوروساتوری ۲۰۲۶ محدود کرده است، هرچند برخی سیستم‌های دفاعی اسرائیلی همچنان مجاز به شرکت هستند، برگزارکنندگان روز دوشنبه اعلام کردند.",
+        "pattern_en": "Offensive weapon category restriction narrative"
       }
     ]
   },
@@ -5668,6 +5734,50 @@
         "example_url": "http://www.euronews.com/business/2026/06/01/chinas-factory-activity-flatlines-in-may-casting-doubt-over-the-economy",
         "unbiased_text": "فعالیت تولیدی چین در ماه می رشد بسیار اندکی را نشان می‌دهد و به پایین‌ترین سطح خود در سه ماه اخیر می‌رسد",
         "pattern_en": "Flatline verb economic stagnation dramatization"
+      },
+      {
+        "pattern": "استفاده از استعاره «برگ برنده» برای قابلیت‌های نظامی",
+        "detail": "استفاده از استعاره «برگ‌های برنده» برای قابلیت‌های نظامی فاش‌نشده، روایتی پرتعلیق درباره تشدید احتمالی درگیری ایجاد می‌کند.",
+        "debias": "اظهارات درباره قابلیت‌های نظامی را بدون استعاره‌های بازی که ابهام استراتژیک را دراماتیک می‌کنند، گزارش کنید.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "یک فرمانده ارشد سپاه پاسداران گفت ایران همه قابلیت‌های نظامی خود را فاش نکرده و برای رویارویی مستقیم با آمریکا و ناتو آماده است",
+        "example_url": "http://www.euronews.com/2026/06/02/irgc-says-iran-has-more-trump-cards-up-its-sleeve-as-talks-hang-by-a-thread",
+        "unbiased_text": "یک فرمانده ارشد سپاه پاسداران گفت ایران قابلیت‌های نظامی بیشتری در اختیار دارد و برای رویارویی احتمالی با آمریکا و ناتو آماده است",
+        "pattern_en": "Trump card military capability teaser"
+      },
+      {
+        "pattern": "قاب‌بندی اقتصادی معجزه نان و ماهی",
+        "detail": "استناد به معجزه تکثیر کتاب‌مقدس برای توصیف بازده اقتصادی یک رویداد، تأیید مذهبی را با گزارش‌دهی مالی درهم می‌آمیزد.",
+        "debias": "پیش‌بینی‌های تأثیر اقتصادی را با استفاده از اصطلاحات مالی استاندارد و بدون مقایسه با معجزات مذهبی گزارش دهید.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "کنفرانس اسقف‌های اسپانیا می‌گوید که سفر پاپ لئون چهاردهم به اسپانیا، که آن را معجزه نان و ماهی می‌خواند، پنج برابر هزینه‌اش بازده اقتصادی خواهد داشت",
+        "example_url": "http://www.euronews.com/business/2026/06/02/25-million-invested-150-million-earned-the-miraculous-return-on-the-popes-visit",
+        "unbiased_text": "کنفرانس اسقف‌های اسپانیا پیش‌بینی می‌کند که سفر پاپ لئون چهاردهم به اسپانیا پنج برابر هزینه‌اش بازده اقتصادی ایجاد خواهد کرد",
+        "pattern_en": "Loaves-and-fishes miracle economic framing"
+      },
+      {
+        "pattern": "تقویت اعلامیه‌های عصر اخراج",
+        "detail": "پلتفرم دادن به زبان «عصر اخراج‌ها» از سوی سیاستمداران جناح راست، تغییر سیاست را به‌عنوان یک تحول دوره‌ساز به جای یک تغییر مقرراتی قاب می‌کند.",
+        "debias": "تغییرات سیاست مهاجرت را با استفاده از زبان توصیفی خنثی گزارش کنید به جای اعلامیه‌های دوره‌ساز از منابع حزبی.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "نماینده پارلمان اروپا چارلی ویمرز به برنامه صبحگاهی شاخص Euronews به نام Europe Today گفت که «عصر اخراج‌ها» در اتحادیه اروپا آغاز شده است",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/02/the-era-of-deportations-has-begun-right-wing-mep-tells-euronews",
+        "unbiased_text": "نماینده پارلمان اروپا چارلی ویمرز به Euronews گفت که اتحادیه اروپا قوانین سخت‌گیرانه‌تری در زمینه مهاجرت از جمله مقررات مربوط به اخراج را تصویب کرده است",
+        "pattern_en": "Deportation era declaration amplification"
+      },
+      {
+        "pattern": "قاب‌بندی گونه‌های خوب در برابر بد",
+        "detail": "دسته‌بندی موجودات زنده به عنوان «حشرات خوب» در برابر آفات، مداخله اکولوژیک را به صورت مبارزه اخلاقی انسان‌انگاری می‌کند.",
+        "debias": "استراتژی‌های کنترل آفات و پیشگیری از بیماری را با استفاده از اصطلاحات علمی و بدون ویژگی‌های اخلاقی برای گونه‌ها توصیف کنید.",
+        "date_added": "2026-06-02",
+        "status": "suggested",
+        "example_text": "Google قصد دارد میلیون‌ها پشه را در ایالات متحده در یک پروژه جدید با هدف کاهش بیماری‌های منتقله از پشه آزاد کند و این کار را با رهاسازی «حشرات خوب» به جای مبارزه با آن‌ها انجام دهد.",
+        "example_url": "http://www.euronews.com/health/2026/06/02/good-vs-bad-mosquito-what-is-googles-plan-to-fight-pest-borne-deadly-diseases",
+        "unbiased_text": "Google قصد دارد میلیون‌ها پشه را در ایالات متحده در یک پروژه با هدف کاهش بیماری‌های منتقله از پشه با رهاسازی پشه‌های عقیم یا اصلاح‌شده آزاد کند.",
+        "pattern_en": "Good versus bad species framing"
       }
     ]
   }
