@@ -1916,6 +1916,26 @@
         "example_text": "China has hosted 26 leaders from 23 countries this year, underscoring its growing diplomatic and economic influence.",
         "example_url": "https://www.aljazeera.com/news/2026/6/2/every-world-leader-who-has-visited-china-in-2026-in-one-chart?traffic_source=rss",
         "unbiased_text": "China has hosted 26 leaders from 23 countries this year as part of ongoing diplomatic engagement."
+      },
+      {
+        "pattern": "Qualification questioning through headline structure",
+        "detail": "Using 'Doesn't seem qualified' in headline format to delegitimize appointees through rhetorical questioning rather than direct assertion.",
+        "debias": "State qualifications objectively based on verifiable credentials and relevant experience without framing through subjective questioning.",
+        "date_added": "2026-06-03",
+        "status": "suggested",
+        "example_text": "'Doesn't seem qualified': Who is Bill Pulte, acting US intelligence chief?",
+        "example_url": "https://www.aljazeera.com/news/2026/6/3/doesnt-seem-qualified-who-is-bill-pulte-acting-us-intelligence-chief?traffic_source=rss",
+        "unbiased_text": "Bill Pulte appointed acting US intelligence chief: Background and qualifications"
+      },
+      {
+        "pattern": "Embedding assumption through modal verb",
+        "detail": "Using phrases like 'won't be allowed to embed' to presume hostile intent in visa decisions without direct evidence of such framing by authorities.",
+        "debias": "Report visa restrictions and stated rationales without inserting terminology that assumes covert operational intent.",
+        "date_added": "2026-06-03",
+        "status": "suggested",
+        "example_text": "Squad's visas for the US haven't been issued, with Marco Rubio saying IRGC-linked members won't be allowed to 'embed'.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/3/irans-world-cup-squad-to-depart-for-mexico-on-june-6-despite-us-visa-delay?traffic_source=rss",
+        "unbiased_text": "Squad's visas for the US haven't been issued, with Marco Rubio stating that individuals linked to the IRGC will not receive entry approval."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3400,6 +3420,36 @@
         "example_text": "France has banned the display of Israeli offensive weapons at the 2026 Eurosatory international defence and security exhibition, organisers said Monday. While the Israeli defence ministry denounced the 'disgraceful decision', Eurosatory organisers said Israeli defence systems were authorised to participate",
         "example_url": "https://www.france24.com/en/middle-east/20260601-france-bans-israeli-offensive-weapons-from-major-defence-show",
         "unbiased_text": "France has restricted Israeli weapons displays at the 2026 Eurosatory defence exhibition, though some Israeli defence systems remain authorized to participate, organisers said Monday."
+      },
+      {
+        "pattern": "Permission-seeking subordination framing",
+        "detail": "Describing military actions as requiring 'permission' from allies rather than coordination, suggesting hierarchical control rather than strategic consultation.",
+        "debias": "Frame military consultations as coordination between sovereign allies rather than permission-seeking relationships.",
+        "date_added": "2026-06-03",
+        "status": "suggested",
+        "example_text": "Israel has been very, very intensively asking the US for permission... to allow it to operate with no limitations",
+        "example_url": "https://www.france24.com/en/is-israel-seeking-free-reign-from-us-in-lebanon",
+        "unbiased_text": "Israel has been intensively requesting US support for expanded operational freedom across Lebanon"
+      },
+      {
+        "pattern": "Symbolic resonance insertion framing",
+        "detail": "Emphasizing symbolic or historical meaning of military targets to suggest psychological warfare intent beyond tactical objectives.",
+        "debias": "Report military operations based on stated tactical objectives without inserting interpretations of symbolic intent.",
+        "date_added": "2026-06-03",
+        "status": "suggested",
+        "example_text": "the seizure of Beaufort Castle has powerful symbolic resonance within the history of the conflict",
+        "example_url": "https://www.france24.com/en/most-extreme-right-wing-fringes-of-netanyahu-govt-call-for-far-greater-military-action-in-lebanon",
+        "unbiased_text": "Israeli forces captured Beaufort Castle, a strategic position in southern Lebanon"
+      },
+      {
+        "pattern": "Wishful thinking dismissal framing",
+        "detail": "Characterizing reports as 'wishful thinking' when denying claims, framing journalistic reporting as motivated by desire rather than evidence.",
+        "debias": "Report denials and counterclaims neutrally without adopting one side's characterization of the other's motives.",
+        "date_added": "2026-06-03",
+        "status": "suggested",
+        "example_text": "Tehran has outright denied the reports, calling it 'rumour mongering' by a foreign media outlet and accusing it of publishing 'wishful thinking in place of reality'",
+        "example_url": "https://www.france24.com/en/iran-rejects-reports-president-masoud-pezeshkian-resigned-over-power-struggle",
+        "unbiased_text": "Tehran denied the reports, stating they were inaccurate and published without verification"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"

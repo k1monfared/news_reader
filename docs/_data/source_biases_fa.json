@@ -2130,6 +2130,28 @@
         "example_url": "https://www.aljazeera.com/news/2026/6/2/every-world-leader-who-has-visited-china-in-2026-in-one-chart?traffic_source=rss",
         "unbiased_text": "چین امسال میزبان ۲۶ رهبر از ۲۳ کشور به‌عنوان بخشی از تعاملات دیپلماتیک جاری بوده است.",
         "pattern_en": "Chinese diplomatic scorecard quantification"
+      },
+      {
+        "pattern": "زیر سؤال بردن صلاحیت از طریق ساختار تیتر",
+        "detail": "استفاده از عبارت «به نظر نمی‌رسد واجد شرایط باشد» در قالب تیتر برای بی‌اعتبار کردن افراد منصوب شده از طریق پرسش بلاغی به جای بیان مستقیم.",
+        "debias": "صلاحیت‌ها را به صورت عینی بر اساس مدارک قابل تأیید و تجربیات مرتبط بیان کنید بدون قاب‌بندی از طریق پرسش‌های ذهنی.",
+        "date_added": "2026-06-03",
+        "status": "suggested",
+        "example_text": "«به نظر نمی‌رسد واجد شرایط باشد»: بیل پولت، رئیس سرویس اطلاعاتی ایالات متحده کیست؟",
+        "example_url": "https://www.aljazeera.com/news/2026/6/3/doesnt-seem-qualified-who-is-bill-pulte-acting-us-intelligence-chief?traffic_source=rss",
+        "unbiased_text": "بیل پولت به عنوان سرپرست رئیس سرویس اطلاعاتی ایالات متحده منصوب شد: سوابق و صلاحیت‌ها",
+        "pattern_en": "Qualification questioning through headline structure"
+      },
+      {
+        "pattern": "جاسازی فرض از طریق فعل وجهی",
+        "detail": "استفاده از عباراتی مانند «اجازه جاسازی داده نخواهد شد» برای فرض نیت خصمانه در تصمیمات ویزا بدون شواهد مستقیم از چنین چارچوب‌بندی توسط مقامات.",
+        "debias": "محدودیت‌های ویزا و دلایل اعلام‌شده را بدون درج واژگانی که نیت عملیاتی پنهان را فرض می‌کند، گزارش دهید.",
+        "date_added": "2026-06-03",
+        "status": "suggested",
+        "example_text": "ویزای تیم ملی صادر نشده است و مارکو روبیو گفته است که اعضای مرتبط با سپاه اجازه «جاسازی» نخواهند داشت.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/3/irans-world-cup-squad-to-depart-for-mexico-on-june-6-despite-us-visa-delay?traffic_source=rss",
+        "unbiased_text": "ویزای تیم ملی آمریکا صادر نشده است و مارکو روبیو اعلام کرده است که افراد مرتبط با سپاه تأییدیه ورود دریافت نخواهند کرد.",
+        "pattern_en": "Embedding assumption through modal verb"
       }
     ]
   },
@@ -3750,6 +3772,39 @@
         "example_url": "https://www.france24.com/en/middle-east/20260601-france-bans-israeli-offensive-weapons-from-major-defence-show",
         "unbiased_text": "فرانسه نمایش سلاح‌های اسرائیلی را در نمایشگاه دفاعی یوروساتوری ۲۰۲۶ محدود کرده است، هرچند برخی سیستم‌های دفاعی اسرائیلی همچنان مجاز به شرکت هستند، برگزارکنندگان روز دوشنبه اعلام کردند.",
         "pattern_en": "Offensive weapon category restriction narrative"
+      },
+      {
+        "pattern": "چارچوب‌بندی تبعیت و درخواست اجازه",
+        "detail": "توصیف اقدامات نظامی به‌عنوان نیازمند «اجازه» از متحدان به‌جای هماهنگی، که نشان‌دهنده کنترل سلسله‌مراتبی است به‌جای مشاوره استراتژیک.",
+        "debias": "مشاوره‌های نظامی را به‌عنوان هماهنگی میان متحدان مستقل چارچوب‌بندی کنید به‌جای روابط درخواست اجازه.",
+        "date_added": "2026-06-03",
+        "status": "suggested",
+        "example_text": "اسرائیل به‌طور بسیار بسیار فشرده از ایالات متحده درخواست اجازه می‌کند... تا به آن اجازه دهد بدون محدودیت عملیات کند",
+        "example_url": "https://www.france24.com/en/is-israel-seeking-free-reign-from-us-in-lebanon",
+        "unbiased_text": "اسرائیل به‌طور فشرده درخواست حمایت ایالات متحده برای آزادی عملیاتی گسترده‌تر در سراسر لبنان را داشته است",
+        "pattern_en": "Permission-seeking subordination framing"
+      },
+      {
+        "pattern": "قاب‌بندی درج طنین نمادین",
+        "detail": "تأکید بر معنای نمادین یا تاریخی اهداف نظامی برای القای قصد جنگ روان‌شناختی فراتر از اهداف تاکتیکی.",
+        "debias": "عملیات‌های نظامی را بر اساس اهداف تاکتیکی اعلام‌شده گزارش کنید، بدون درج تفسیرهایی درباره قصد نمادین.",
+        "date_added": "2026-06-03",
+        "status": "suggested",
+        "example_text": "تسخیر قلعه بوفور طنین نمادین قدرتمندی در تاریخ این درگیری دارد",
+        "example_url": "https://www.france24.com/en/most-extreme-right-wing-fringes-of-netanyahu-govt-call-for-far-greater-military-action-in-lebanon",
+        "unbiased_text": "نیروهای اسرائیلی قلعه بوفور، یک موضع استراتژیک در جنوب لبنان، را تصرف کردند",
+        "pattern_en": "Symbolic resonance insertion framing"
+      },
+      {
+        "pattern": "قاب‌بندی رد ادعا با آرزوپروری",
+        "detail": "توصیف گزارش‌ها به عنوان «آرزوپروری» هنگام رد ادعاها، و قاب‌بندی گزارشگری خبری به‌عنوان برخاسته از خواسته به‌جای شواهد.",
+        "debias": "ردیه‌ها و ادعاهای متقابل را به‌طور خنثی گزارش کنید بدون پذیرش توصیف یک طرف از انگیزه‌های طرف دیگر.",
+        "date_added": "2026-06-03",
+        "status": "suggested",
+        "example_text": "تهران این گزارش‌ها را به‌طور کامل رد کرد و آن را «شایعه‌پراکنی» توسط یک رسانه خارجی خواند و آن را به انتشار «آرزوپروری به‌جای واقعیت» متهم کرد",
+        "example_url": "https://www.france24.com/en/iran-rejects-reports-president-masoud-pezeshkian-resigned-over-power-struggle",
+        "unbiased_text": "تهران این گزارش‌ها را رد کرد و اعلام کرد که آن‌ها نادرست بوده و بدون تأیید منتشر شده‌اند",
+        "pattern_en": "Wishful thinking dismissal framing"
       }
     ]
   },
