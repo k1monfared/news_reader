@@ -1936,6 +1936,26 @@
         "example_text": "Squad's visas for the US haven't been issued, with Marco Rubio saying IRGC-linked members won't be allowed to 'embed'.",
         "example_url": "https://www.aljazeera.com/sports/2026/6/3/irans-world-cup-squad-to-depart-for-mexico-on-june-6-despite-us-visa-delay?traffic_source=rss",
         "unbiased_text": "Squad's visas for the US haven't been issued, with Marco Rubio stating that individuals linked to the IRGC will not receive entry approval."
+      },
+      {
+        "pattern": "Animal prediction spectacle framing",
+        "detail": "Treating animal-based event predictions as newsworthy content rather than entertainment trivializes sports coverage.",
+        "debias": "Exclude or clearly label animal prediction segments as entertainment novelty rather than presenting them as sports news.",
+        "date_added": "2026-06-04",
+        "status": "suggested",
+        "example_text": "Shark predicts winning start for Brazil at FIFA World Cup.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/4/shark-predicts-winning-start-for-brazil-at-fifa-world-cup?traffic_source=rss",
+        "unbiased_text": "A shark at an aquarium was part of a promotional event related to Brazil's World Cup match."
+      },
+      {
+        "pattern": "Biolab conspiracy protest legitimization",
+        "detail": "Elevating protests against foreign health facilities without substantiating underlying conspiracy-adjacent concerns frames legitimate disease preparedness as suspicious.",
+        "debias": "Clarify the scientific purpose of health facilities while reporting objections, avoiding amplification of unverified threat narratives.",
+        "date_added": "2026-06-04",
+        "status": "suggested",
+        "example_text": "The plan has drawn backlash from  Kenyans as well as the country's union of healthcare workers.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/4/why-is-a-us-ebola-facility-in-kenya-sparking-protests?traffic_source=rss",
+        "unbiased_text": "Some Kenyans and healthcare workers have raised concerns about the facility, though the US maintains it is for disease surveillance and preparedness."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3450,6 +3470,16 @@
         "example_text": "Tehran has outright denied the reports, calling it 'rumour mongering' by a foreign media outlet and accusing it of publishing 'wishful thinking in place of reality'",
         "example_url": "https://www.france24.com/en/iran-rejects-reports-president-masoud-pezeshkian-resigned-over-power-struggle",
         "unbiased_text": "Tehran denied the reports, stating they were inaccurate and published without verification"
+      },
+      {
+        "pattern": "Resignation rumor elevation despite denial",
+        "detail": "Amplifying unverified resignation claims and treating denials as newsworthy elevates speculation over confirmed facts.",
+        "debias": "Report only confirmed leadership changes; if covering denials, lead with the denial rather than the rumor.",
+        "date_added": "2026-06-04",
+        "status": "suggested",
+        "example_text": "Over the last 24 hours, reports have surfaced claiming Iranian President Masoud Pezeshkian resigned due to an alleged power struggle between his government and the Islamic Revolutionary Guard Corps which is 'excluding' him from decision-making in the Iran war. Tehran has outright denied the reports, calling it 'rumour mongering'",
+        "example_url": "https://www.france24.com/en/iran-rejects-reports-president-masoud-pezeshkian-resigned-over-power-struggle",
+        "unbiased_text": "Iran denied reports that President Masoud Pezeshkian had resigned, calling them false rumors."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -5283,6 +5313,36 @@
         "example_text": "Google plans to release millions of mosquitoes into the United States in a new project aimed at curbing mosquito-borne diseases by releasing more 'good bugs' instead of fighting them.",
         "example_url": "http://www.euronews.com/health/2026/06/02/good-vs-bad-mosquito-what-is-googles-plan-to-fight-pest-borne-deadly-diseases",
         "unbiased_text": "Google plans to release millions of mosquitoes into the United States in a project aimed at curbing mosquito-borne diseases by releasing sterile or modified mosquitoes."
+      },
+      {
+        "pattern": "Politeness energy cost individualization",
+        "detail": "Framing individual user behavior like politeness in AI prompts as significant environmental factors deflects from systemic data center energy consumption.",
+        "debias": "Focus on institutional and infrastructure-level energy consumption while noting individual actions as marginal contributors.",
+        "date_added": "2026-06-04",
+        "status": "suggested",
+        "example_text": "That extra 'please' you put there can make a huge difference",
+        "example_url": "http://www.euronews.com/2026/06/04/be-less-polite-how-to-cut-your-ai-impact-as-un-report-reveals-data-centre-energy-use-rival",
+        "unbiased_text": "Individual prompt variations have minimal impact compared to overall data center operations, though cumulative user behavior can contribute marginally to energy use."
+      },
+      {
+        "pattern": "Treasure hunt promotional journalism",
+        "detail": "Presenting commercial tourism promotions as news coverage provides free marketing under the guise of travel journalism.",
+        "debias": "Clearly label promotional content or avoid covering commercial marketing campaigns as newsworthy events.",
+        "date_added": "2026-06-04",
+        "status": "suggested",
+        "example_text": "This Finnish ski resort is launching a summer-long treasure hunt for a €20,000 gold bar",
+        "example_url": "http://www.euronews.com/travel/2026/06/04/this-finnish-ski-resort-is-launching-a-summer-long-treasure-hunt-for-a-20000-gold-bar",
+        "unbiased_text": "A Finnish ski resort announced a promotional treasure hunt as part of its summer marketing campaign."
+      },
+      {
+        "pattern": "Teen sanctions badge of honor",
+        "detail": "Treating sanctions against minors as legitimizing achievements frames serious international penalties as personal validation.",
+        "debias": "Report sanctions factually without framing them as honorific achievements or personal victories.",
+        "date_added": "2026-06-04",
+        "status": "suggested",
+        "example_text": "Alexander Browder said Moscow's decision to sanction him was 'a badge of honour' and that he had 'exposed their Achilles' heel'.",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/04/british-teenager-sanctioned-by-russia-over-his-report-on-alleged-moscow-backed-crypto-laun",
+        "unbiased_text": "Alexander Browder was sanctioned by Russia following his report on alleged crypto laundering. He said the sanctions indicated his research had impact."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

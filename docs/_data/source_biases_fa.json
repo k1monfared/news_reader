@@ -2152,6 +2152,29 @@
         "example_url": "https://www.aljazeera.com/sports/2026/6/3/irans-world-cup-squad-to-depart-for-mexico-on-june-6-despite-us-visa-delay?traffic_source=rss",
         "unbiased_text": "ویزای تیم ملی آمریکا صادر نشده است و مارکو روبیو اعلام کرده است که افراد مرتبط با سپاه تأییدیه ورود دریافت نخواهند کرد.",
         "pattern_en": "Embedding assumption through modal verb"
+      },
+      {
+        "pattern": "قاب‌بندی نمایشی پیش‌بینی حیوانات",
+        "detail": "برخورد با پیش‌بینی‌های رویدادها توسط حیوانات به عنوان محتوای خبری به جای سرگرمی، پوشش ورزشی را کم‌اهمیت جلوه می‌دهد.",
+        "debias": "بخش‌های پیش‌بینی حیوانات را حذف کنید یا به وضوح آن‌ها را به عنوان تفریح تازگی برچسب بزنید تا به جای ارائه به عنوان اخبار ورزشی، به عنوان سرگرمی معرفی شوند.",
+        "date_added": "2026-06-04",
+        "status": "suggested",
+        "example_text": "کوسه پیروزی برزیل در آغاز جام جهانی FIFA را پیش‌بینی می‌کند.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/4/shark-predicts-winning-start-for-brazil-at-fifa-world-cup?traffic_source=rss",
+        "unbiased_text": "کوسه‌ای در یک آکواریوم بخشی از یک رویداد تبلیغاتی مرتبط با بازی جام جهانی برزیل بود.",
+        "pattern_en": "Animal prediction spectacle framing"
+      },
+      {
+        "pattern": "مشروعیت‌بخشی به اعتراضات توطئه‌محور آزمایشگاه‌های زیستی",
+        "detail": "برجسته کردن اعتراضات علیه تأسیسات بهداشتی خارجی بدون اثبات نگرانی‌های مرتبط با توطئه، آمادگی مشروع برای مقابله با بیماری را به عنوان امری مشکوک جلوه می‌دهد.",
+        "debias": "هدف علمی تأسیسات بهداشتی را در حین گزارش اعتراضات روشن کنید و از تقویت روایت‌های تهدید تأیید نشده بپرهیزید.",
+        "date_added": "2026-06-04",
+        "status": "suggested",
+        "example_text": "این طرح واکنش منفی کنیاییان و همچنین اتحادیه کارکنان بهداشتی این کشور را برانگیخته است.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/4/why-is-a-us-ebola-facility-in-kenya-sparking-protests?traffic_source=rss",
+        "unbiased_text": "برخی از کنیاییان و کارکنان بهداشتی نگرانی‌هایی درباره این تأسیسات ابراز کرده‌اند، هرچند ایالات متحده تأکید می‌کند که این تأسیسات برای نظارت و آمادگی در برابر بیماری‌هاست.",
+        "detail_items": [],
+        "pattern_en": "Biolab conspiracy protest legitimization"
       }
     ]
   },
@@ -3805,6 +3828,17 @@
         "example_url": "https://www.france24.com/en/iran-rejects-reports-president-masoud-pezeshkian-resigned-over-power-struggle",
         "unbiased_text": "تهران این گزارش‌ها را رد کرد و اعلام کرد که آن‌ها نادرست بوده و بدون تأیید منتشر شده‌اند",
         "pattern_en": "Wishful thinking dismissal framing"
+      },
+      {
+        "pattern": "تقویت شایعات استعفا علی‌رغم تکذیب",
+        "detail": "تقویت ادعاهای تأیید نشده استعفا و تبدیل تکذیبیه‌ها به خبر، حدس و گمان را بر حقایق تأیید شده ارتقا می‌دهد.",
+        "debias": "تنها تغییرات تأیید شده رهبری را گزارش کنید؛ اگر تکذیبیه‌ها را پوشش می‌دهید، با تکذیبیه آغاز کنید نه شایعه.",
+        "date_added": "2026-06-04",
+        "status": "suggested",
+        "example_text": "طی ۲۴ ساعت گذشته، گزارش‌هایی منتشر شده که ادعا می‌کنند مسعود پزشکیان رئیس‌جمهور ایران به دلیل کشمکش قدرت میان دولت وی و سپاه پاسداران انقلاب اسلامی که او را از تصمیم‌گیری در جنگ ایران «حذف» می‌کند، استعفا داده است. تهران این گزارش‌ها را صریحاً تکذیب کرده و آن را «شایعه‌پراکنی» خوانده است.",
+        "example_url": "https://www.france24.com/en/iran-rejects-reports-president-masoud-pezeshkian-resigned-over-power-struggle",
+        "unbiased_text": "ایران گزارش‌هایی مبنی بر استعفای مسعود پزشکیان رئیس‌جمهور را تکذیب کرد و آنها را شایعات کاذب خواند.",
+        "pattern_en": "Resignation rumor elevation despite denial"
       }
     ]
   },
@@ -5833,6 +5867,39 @@
         "example_url": "http://www.euronews.com/health/2026/06/02/good-vs-bad-mosquito-what-is-googles-plan-to-fight-pest-borne-deadly-diseases",
         "unbiased_text": "Google قصد دارد میلیون‌ها پشه را در ایالات متحده در یک پروژه با هدف کاهش بیماری‌های منتقله از پشه با رهاسازی پشه‌های عقیم یا اصلاح‌شده آزاد کند.",
         "pattern_en": "Good versus bad species framing"
+      },
+      {
+        "pattern": "فردی‌سازی هزینه انرژی ادب",
+        "detail": "قاب‌بندی رفتار فردی کاربر مانند ادب در درخواست‌های هوش مصنوعی به عنوان عوامل زیست‌محیطی قابل توجه، توجه را از مصرف انرژی سیستماتیک مراکز داده منحرف می‌کند.",
+        "debias": "بر مصرف انرژی در سطح نهادی و زیرساخت تمرکز کنید و در عین حال اقدامات فردی را به عنوان عوامل حاشیه‌ای ذکر کنید.",
+        "date_added": "2026-06-04",
+        "status": "suggested",
+        "example_text": "آن «لطفا»ی اضافی که در آنجا می‌گذارید می‌تواند تفاوت بزرگی ایجاد کند",
+        "example_url": "http://www.euronews.com/2026/06/04/be-less-polite-how-to-cut-your-ai-impact-as-un-report-reveals-data-centre-energy-use-rival",
+        "unbiased_text": "تغییرات فردی در درخواست‌ها در مقایسه با عملیات کلی مراکز داده تأثیر بسیار کمی دارند، اگرچه رفتار تجمعی کاربران می‌تواند به طور حاشیه‌ای به مصرف انرژی کمک کند.",
+        "pattern_en": "Politeness energy cost individualization"
+      },
+      {
+        "pattern": "روزنامه‌نگاری تبلیغاتی گنج‌یابی",
+        "detail": "ارائه تبلیغات تجاری گردشگری به عنوان پوشش خبری، بازاریابی رایگان را تحت پوشش روزنامه‌نگاری سفر فراهم می‌کند.",
+        "debias": "محتوای تبلیغاتی را به وضوح برچسب‌گذاری کنید یا از پوشش کمپین‌های بازاریابی تجاری به عنوان رویدادهای خبری خودداری کنید.",
+        "date_added": "2026-06-04",
+        "status": "suggested",
+        "example_text": "این مرکز اسکی فنلاندی در حال راه‌اندازی یک گنج‌یابی تمام تابستانه برای یک شمش طلای ۲۰٬۰۰۰ یورویی است",
+        "example_url": "http://www.euronews.com/travel/2026/06/04/this-finnish-ski-resort-is-launching-a-summer-long-treasure-hunt-for-a-20000-gold-bar",
+        "unbiased_text": "یک مرکز اسکی فنلاندی یک گنج‌یابی تبلیغاتی را به عنوان بخشی از کمپین بازاریابی تابستانی خود اعلام کرد.",
+        "pattern_en": "Treasure hunt promotional journalism"
+      },
+      {
+        "pattern": "نشان افتخار دانستن تحریم‌های نوجوانان",
+        "detail": "برخورد با تحریم‌های اعمال‌شده علیه افراد نوجوان به‌عنوان دستاوردهای مشروعیت‌بخش، مجازات‌های جدی بین‌المللی را به‌صورت تأییدیه شخصی قاب می‌بندد.",
+        "debias": "تحریم‌ها را به‌صورت واقعی گزارش کنید بدون اینکه آن‌ها را به‌عنوان دستاوردهای افتخارآمیز یا پیروزی‌های شخصی قاب‌بندی کنید.",
+        "date_added": "2026-06-04",
+        "status": "suggested",
+        "example_text": "الکساندر براودر گفت تصمیم مسکو برای تحریم او «نشان افتخار» است و اینکه او «پاشنه آشیل آن‌ها را افشا کرده» است.",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/04/british-teenager-sanctioned-by-russia-over-his-report-on-alleged-moscow-backed-crypto-laun",
+        "unbiased_text": "الکساندر براودر پس از انتشار گزارشش درباره پولشویی ارز دیجیتال مورد ادعا، توسط روسیه تحریم شد. او گفت این تحریم‌ها نشان می‌دهد تحقیقات او تأثیرگذار بوده است.",
+        "pattern_en": "Teen sanctions badge of honor"
       }
     ]
   }
