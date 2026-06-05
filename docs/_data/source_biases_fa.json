@@ -2175,6 +2175,39 @@
         "unbiased_text": "برخی از کنیاییان و کارکنان بهداشتی نگرانی‌هایی درباره این تأسیسات ابراز کرده‌اند، هرچند ایالات متحده تأکید می‌کند که این تأسیسات برای نظارت و آمادگی در برابر بیماری‌هاست.",
         "detail_items": [],
         "pattern_en": "Biolab conspiracy protest legitimization"
+      },
+      {
+        "pattern": "قاب‌بندی مشروط وجود آتش‌بس",
+        "detail": "زیر سؤال بردن وجود آتش‌بس‌ها از طریق تیترهای پرسشی در حالی که همزمان نقض‌ها گزارش می‌شوند، به‌گونه‌ای که نشان می‌دهد توافق‌ها بی‌معنا هستند تا صرفاً نقض‌شده.",
+        "debias": "آتش‌بس‌ها را به‌عنوان توافق‌های رسمی گزارش کنید و در عین حال نقض‌های خاص را مستند کنید، بدون آنکه وجود خود توافق‌ها را زیر سؤال ببرید.",
+        "date_added": "2026-06-05",
+        "status": "suggested",
+        "example_text": "غزه، ایران، لبنان: اگر آتش‌بس‌ها برقرار است، چرا حملات ادامه دارد؟",
+        "example_url": "https://www.aljazeera.com/news/2026/6/5/gaza-iran-lebanon-if-ceasefires-are-in-place-why-do-strikes-continue?traffic_source=rss",
+        "unbiased_text": "غزه، ایران، لبنان: حملات علی‌رغم آتش‌بس‌ها ادامه دارد",
+        "pattern_en": "Ceasefire existence conditional framing"
+      },
+      {
+        "pattern": "تقویت وتوی سیاسی هواداران",
+        "detail": "برجسته‌سازی مخالفت هواداران با انتصابات مدیریتی به عنوان بحران‌های سیاسی خبری صرفاً بر اساس سوابق مربیگری تیم ملی.",
+        "debias": "واکنش هواداران را به عنوان احساسات جامعه گزارش کنید بدون اینکه اختلاف نظرهای معمول هواداران را به عنوان مناقشات سیاسی شایسته پوشش بین‌المللی قاب‌بندی کنید.",
+        "date_added": "2026-06-05",
+        "status": "suggested",
+        "example_text": "هواداران Celtic پس از نقش کین در اسرائیل با احتمال مدیریت او مخالفت می‌کنند",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/5/celtic-fans-oppose-potential-keane-appointment-after-israel-role?traffic_source=rss",
+        "unbiased_text": "هواداران Celtic درباره احتمال انتصاب کین به عنوان مربی دچار اختلاف نظر هستند",
+        "pattern_en": "Fandom political veto amplification"
+      },
+      {
+        "pattern": "ارتقای بحران دیپلماتیک در فرآیند اداری",
+        "detail": "قاب‌بندی رویه‌های معمول درخواست ویزا به‌عنوان رویدادهای دیپلماتیک خبری که نیازمند توجه و حل‌وفصل فوری بین‌المللی هستند.",
+        "debias": "گزارش پردازش ویزا را به‌عنوان رویه‌های اداری استاندارد ارائه دهید بدون آنکه نشان دهید که این موارد موانع یا بحران‌های دیپلماتیک فوق‌العاده‌ای را نمایندگی می‌کنند.",
+        "date_added": "2026-06-05",
+        "status": "suggested",
+        "example_text": "فوتبالیست‌های ایران گذرنامه‌های خود را برای تأیید ویزای جام جهانی به سفارت آمریکا تحویل دادند",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/5/iran-footballers-hand-passports-to-us-embassy-for-world-cup-visa-approval?traffic_source=rss",
+        "unbiased_text": "فوتبالیست‌های ایران پیش از جام جهانی برای دریافت ویزای آمریکا درخواست دادند",
+        "pattern_en": "Administrative process diplomatic crisis elevation"
       }
     ]
   },
@@ -3839,6 +3872,28 @@
         "example_url": "https://www.france24.com/en/iran-rejects-reports-president-masoud-pezeshkian-resigned-over-power-struggle",
         "unbiased_text": "ایران گزارش‌هایی مبنی بر استعفای مسعود پزشکیان رئیس‌جمهور را تکذیب کرد و آنها را شایعات کاذب خواند.",
         "pattern_en": "Resignation rumor elevation despite denial"
+      },
+      {
+        "pattern": "برجسته‌سازی عنوان تحقیقات شکنجه",
+        "detail": "برجسته کردن آغاز تحقیقات مقدماتی به عنوان یافته‌های مستقر شده از طریق استفاده از اصطلاحات جنایی جدی در عنوان پیش از ارائه مدارک.",
+        "debias": "گزارش آغاز تحقیقات را به عنوان گام‌های رویه‌ای بیان کنید بدون اینکه از طریق تأکید عنوان بر جرایم ادعایی که در حال بررسی هستند، نتیجه‌گیری را القا کنید.",
+        "date_added": "2026-06-05",
+        "status": "suggested",
+        "example_text": "فرانسه تحقیقات درباره شکنجه و «جنایت جنگی» در مورد رفتار Israel با فعالان ناوگان کمک غزه را آغاز می‌کند",
+        "example_url": "https://www.france24.com/en/middle-east/20260605-france-opens-torture-war-crime-probe-over-israel-s-treatment-of-gaza-flotilla-activists",
+        "unbiased_text": "فرانسه تحقیقات درباره رفتار نیروهای اسرائیلی با فعالان ناوگان کمک غزه را آغاز می‌کند",
+        "pattern_en": "Torture probe headline elevation"
+      },
+      {
+        "pattern": "برچسب‌زنی پارادوکس جنگ آتش‌بس",
+        "detail": "ایجاد اصطلاح‌شناسی متناقض برای توصیف عملیات‌های نظامی در جریان در طول آتش‌بس، که نشان می‌دهد خود توافقات ساختارهای بی‌معنایی هستند.",
+        "debias": "نقض آتش‌بس را به‌عنوان شکست توافقات توصیف کنید به‌جای ایجاد اصطلاحات متناقضی که مفهوم آتش‌بس را تضعیف می‌کنند.",
+        "date_added": "2026-06-05",
+        "status": "suggested",
+        "example_text": "«جنگ آتش‌بس» در لبنان ادامه دارد در حالی که «رهبری جهانی آشفته» تأثیر خود را می‌گذارد",
+        "example_url": "https://www.france24.com/en/a-ceasefire-war-in-lebanon-continues-as-chaotic-global-leadership-takes-its-toll",
+        "unbiased_text": "نقض آتش‌بس در لبنان در میان مذاکرات جاری ادامه دارد",
+        "pattern_en": "Ceasefire war paradox labeling"
       }
     ]
   },
@@ -5900,6 +5955,39 @@
         "example_url": "http://www.euronews.com/my-europe/2026/06/04/british-teenager-sanctioned-by-russia-over-his-report-on-alleged-moscow-backed-crypto-laun",
         "unbiased_text": "الکساندر براودر پس از انتشار گزارشش درباره پولشویی ارز دیجیتال مورد ادعا، توسط روسیه تحریم شد. او گفت این تحریم‌ها نشان می‌دهد تحقیقات او تأثیرگذار بوده است.",
         "pattern_en": "Teen sanctions badge of honor"
+      },
+      {
+        "pattern": "انتساب اعتراضات به جنگ ترکیبی",
+        "detail": "مقامات دولتی که جنبش‌های مخالف داخلی را به کمپین‌های جنگ ترکیبی خارجی نسبت می‌دهند بدون اینکه مدارک پشتیبان ارائه دهند.",
+        "debias": "ادعاهای دولت را به عنوان اظهاراتی که نیاز به راستی‌آزمایی دارند گزارش کنید نه اینکه توضیحات جنگ ترکیبی برای مخالفت‌های داخلی را به عنوان واقعیت ثابت شده بپذیرید.",
+        "date_added": "2026-06-05",
+        "status": "suggested",
+        "example_text": "راما ادعا می‌کند «جنگ ترکیبی» پشت اعتراضات علیه توسعه ساحلی مرتبط با کوشنر است",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/05/rama-alleges-hybrid-war-behind-protests-against-kushner-linked-coastal-development",
+        "unbiased_text": "نخست‌وزیر آلبانی راما مدعی دخالت خارجی در اعتراضات علیه پروژه توسعه ساحلی است",
+        "pattern_en": "Hybrid war protest attribution"
+      },
+      {
+        "pattern": "قاب‌بندی دستور تنوع تأمین‌کنندگان",
+        "detail": "ارائه الزامات نظارتی پیشنهادی به‌عنوان راه‌حل‌هایی برای وابستگی، درحالی‌که آن‌ها را به‌عنوان کنترل‌های مداخله‌گرایانه بر تصمیمات منبع‌یابی کسب‌وکار قاب‌بندی می‌کند.",
+        "debias": "پیشنهادهای نظارتی را با توصیف مکانیسم‌ها و اهداف اعلام‌شده‌شان گزارش کنید، بدون اینکه آن‌ها را به‌عنوان راه‌حل‌های حمایتی یا دستورات سنگین توصیف کنید.",
+        "date_added": "2026-06-05",
+        "status": "suggested",
+        "example_text": "کمیسیون اروپا در حال آماده‌سازی ابزار جدیدی برای مهار وابستگی این بلوک به چین است، و رئیس تجارت، ماروش شِفچوویچ، روز جمعه گفت که ممکن است از شرکت‌ها خواسته شود حداقل از سه تأمین‌کننده مختلف خرید کنند.",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/05/trade-commissioner-pledges-new-tool-to-diversify-suppliers-and-cut-reliance-on-china",
+        "unbiased_text": "کمیسیون اروپا در حال توسعه اقداماتی برای کاهش وابستگی اتحادیه اروپا به تأمین‌کنندگان منفرد است، که طی آن احتمالاً از شرکت‌ها خواسته می‌شود منبع‌یابی خود را در سراسر کشورهای متعدد متنوع کنند.",
+        "pattern_en": "Supplier diversity mandate framing"
+      },
+      {
+        "pattern": "هیجان‌آفرینی درباره تعطیلی به دلیل افزایش گردشگر",
+        "detail": "چارچوب‌بندی تنظیمات عملیاتی موقت برای مدیریت گردشگری به عنوان تعطیلی‌های چشمگیر، با تأکید بر عدم آمادگی به جای مدیریت سازگارانه.",
+        "debias": "اقدامات مدیریت گردشگری را به عنوان تنظیمات ظرفیتی گزارش کنید بدون اینکه نشان دهید مقاصد گردشگری تحت فشار یا بدون آمادگی برای علاقه بازدیدکنندگان هستند.",
+        "date_added": "2026-06-05",
+        "status": "suggested",
+        "example_text": "«هیچ‌کدام از ما نمی‌توانستیم این را پیش‌بینی کنیم»: جزیره اسکاتلندی پس از افزایش بازدیدکنندگان یکشنبه‌ها تعطیل می‌شود",
+        "example_url": "http://www.euronews.com/travel/2026/06/05/none-of-us-could-have-predicted-this-scottish-island-closes-on-sundays-after-visitor-surge",
+        "unbiased_text": "جزیره اسکاتلندی برنامه کشتی را برای تعطیلی یکشنبه‌ها تنظیم می‌کند تا گردشگری افزایش یافته را مدیریت کند",
+        "pattern_en": "Visitor surge closure sensationalism"
       }
     ]
   }
