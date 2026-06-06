@@ -2208,6 +2208,40 @@
         "example_url": "https://www.aljazeera.com/sports/2026/6/5/iran-footballers-hand-passports-to-us-embassy-for-world-cup-visa-approval?traffic_source=rss",
         "unbiased_text": "فوتبالیست‌های ایران پیش از جام جهانی برای دریافت ویزای آمریکا درخواست دادند",
         "pattern_en": "Administrative process diplomatic crisis elevation"
+      },
+      {
+        "pattern": "تأکید بر زمان‌بندی تراژدی در رویاهای شخصی",
+        "detail": "تأکید بر نزدیکی زمانی بین رویداد شادی‌بخش پیش‌روی قربانی و مرگ او برای به حداکثر رساندن تأثیر عاطفی و روایت قربانی‌سازی.",
+        "debias": "مرگ‌ها را به‌صورت واقعی گزارش کنید بدون تأکید بر زمان‌بندی نسبت به جشن‌های برنامه‌ریزی‌شده یا نقاط عطف شخصی.",
+        "date_added": "2026-06-06",
+        "status": "suggested",
+        "example_text": "مهند فروانه هرگز فرصت نکرد لباس عروسی‌اش را بپوشد، اسرائیل او را ساعاتی قبل از عروسی‌اش در یک حمله هوایی کشت.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/6/groom-killed-hours-before-his-wedding-in-gaza?traffic_source=rss",
+        "unbiased_text": "مهند فروانه در یک حمله هوایی اسرائیل در روزی که قرار بود ازدواج کند، کشته شد.",
+        "pattern_en": "Personal dream timing tragedy emphasis"
+      },
+      {
+        "pattern": "مشروعیت‌بخشی طنزآمیز به نام‌گذاری حزبی",
+        "detail": "برخورد با جنبش‌های اعتراضی طنزآمیز با نام‌های غیرمتعارف به‌عنوان نهادهای سیاسی مشروع از طریق پوشش خبری بی‌طرفانه‌ای که چارچوب‌بندی آن‌ها را عادی‌سازی می‌کند.",
+        "debias": "ماهیت طنزآمیز یا اعتراضی جنبش‌های دارای نام‌های نمادین را روشن کنید و در عین حال خواسته‌های سیاسی واقعی آن‌ها را گزارش دهید.",
+        "date_added": "2026-06-06",
+        "status": "suggested",
+        "example_text": "رهبر «حزب سوسک» برای نخستین تظاهرات در دهلی نو به هند بازگشت.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/6/cockroach-party-leader-returns-to-india-for-first-new-delhi-protest?traffic_source=rss",
+        "unbiased_text": "رهبر جنبش اعتراضی جوانان طنزآمیز که از برندینگ «حزب سوسک» استفاده می‌کند، برای نخستین تظاهرات در دهلی نو به هند بازگشت.",
+        "pattern_en": "Party naming satirical legitimization"
+      },
+      {
+        "pattern": "قاب‌بندی تشدید بحران ویزای اداری",
+        "detail": "قاب‌بندی تاخیرها یا رد‌های معمول در پردازش ویزا به عنوان بحران‌های عمدی دیپلماتیک یا کمپین‌های تبعیض‌آمیز.",
+        "debias": "مسائل ویزا را به عنوان موضوعات اداری گزارش کنید مگر اینکه شواهد روشنی از سیاست تبعیض‌آمیز وجود داشته باشد.",
+        "date_added": "2026-06-06",
+        "status": "suggested",
+        "example_text": "مقامات ایرانی می‌گویند تعداد «زیادی» از کارکنان کلیدی ویزا دریافت نکرده‌اند در حالی که تیم قرار است به مکزیک سفر کند.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/6/iran-2026-world-cup-squad-heads-to-mexico-as-us-visa-dispute-erupts?traffic_source=rss",
+        "unbiased_text": "مقامات ایرانی گفتند برخی از اعضای کادر هنوز ویزای آمریکا را پیش از حضور تیم در جام جهانی دریافت نکرده‌اند.",
+        "detail_items": [],
+        "pattern_en": "Administrative visa crisis escalation framing"
       }
     ]
   },
@@ -3894,6 +3928,17 @@
         "example_url": "https://www.france24.com/en/a-ceasefire-war-in-lebanon-continues-as-chaotic-global-leadership-takes-its-toll",
         "unbiased_text": "نقض آتش‌بس در لبنان در میان مذاکرات جاری ادامه دارد",
         "pattern_en": "Ceasefire war paradox labeling"
+      },
+      {
+        "pattern": "عدم تقارن انتساب دوجانبه در سرزنش دیپلماتیک",
+        "detail": "انتساب بیانیه‌های دیپلماتیک انتقادی به یک طرف در حالی که موضع طرف دیگر از طریق نقل قول غیرمستقیم یا توصیف خصمانه چارچوب‌بندی می‌شود.",
+        "debias": "بیانیه‌های دیپلماتیک همه طرف‌ها را با مستقیم بودن و انتساب یکسان ارائه دهید.",
+        "date_added": "2026-06-06",
+        "status": "suggested",
+        "example_text": "رئیس‌جمهور و نخست‌وزیر لبنان روز جمعه از ایران به دلیل مخالفت با آخرین توافق آتش‌بس میان دولت لبنان و اسرائیل انتقاد کردند و گفتند کشورشان نباید توسط تهران به عنوان «ابزار چانه‌زنی» در مذاکرات با واشنگتن مورد استفاده قرار گیرد.",
+        "example_url": "https://www.france24.com/en/middle-east/20260605-not-your-country-lebanese-leaders-rebuke-iran-as-israel-hezbollah-trade-attacks",
+        "unbiased_text": "رئیس‌جمهور و نخست‌وزیر لبنان گفتند ایران نباید لبنان را در مذاکرات خود با واشنگتن مورد استفاده قرار دهد، در حالی که ایران گفت لبنان با تهدیداتی روبرو است که نیازمند هماهنگی منطقه‌ای است.",
+        "pattern_en": "Diplomatic rebuke bilateral attribution asymmetry"
       }
     ]
   },
@@ -5988,6 +6033,28 @@
         "example_url": "http://www.euronews.com/travel/2026/06/05/none-of-us-could-have-predicted-this-scottish-island-closes-on-sundays-after-visitor-surge",
         "unbiased_text": "جزیره اسکاتلندی برنامه کشتی را برای تعطیلی یکشنبه‌ها تنظیم می‌کند تا گردشگری افزایش یافته را مدیریت کند",
         "pattern_en": "Visitor surge closure sensationalism"
+      },
+      {
+        "pattern": "قاب‌بندی ملی کوچک‌شمارانه با استعاره خوراکی",
+        "detail": "استفاده از استعاره‌های خوراکی برای توصیف نقش ژئوپلیتیکی یک کشور به گونه‌ای که حاکمیت آن را کوچک جلوه داده یا آن را به یک شیء قابل مصرف تقلیل دهد.",
+        "debias": "نقش‌های دیپلماتیک ملی را بدون استعاره‌های خوراکی که عاملیت کاهش‌یافته یا شیءواره‌سازی را به ذهن متبادر می‌کنند، توصیف کنید.",
+        "date_added": "2026-06-06",
+        "status": "suggested",
+        "example_text": "مونته‌نگرو، «کلوچه بالکان»، می‌تواند روند گسترش اتحادیه اروپا را برای بقیه کشورهای نامزد احیا کند، درحالی‌که نخست‌وزیر بر ورود در سال ۲۰۲۸ تأکید می‌کند.",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/06/montenegro-the-cookie-of-the-balkans-if-you-like-it-you-take-more-pm-tells-euronews",
+        "unbiased_text": "مونته‌نگرو می‌تواند به‌عنوان الگویی برای گسترش اتحادیه اروپا عمل کند، نخست‌وزیر گفت و هدف الحاق کشور در سال ۲۰۲۸ را مجدداً تأیید کرد.",
+        "pattern_en": "Cookie metaphor diminutive national framing"
+      },
+      {
+        "pattern": "قاب‌بندی تهدید مهاجرتی با استعاره تهاجم",
+        "detail": "استفاده از اصطلاحات نظامی تهاجم برای توصیف جریان‌های مهاجرتی، که به طور ضمنی مهاجران را به عنوان نیروهای متخاصم به جای افرادی که به دنبال ورود هستند قاب می‌کند.",
+        "debias": "مهاجرت را با اصطلاحات جمعیتی خنثی به جای زبان تهاجم نظامی توصیف کنید.",
+        "date_added": "2026-06-06",
+        "status": "suggested",
+        "example_text": "هگسث می‌گوید اروپا توسط مهاجران خطرناک مورد تهاجم قرار گرفته است",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/6/hegseth-says-europe-is-being-invaded-by-dangerous?traffic_source=rss",
+        "unbiased_text": "هگسث گفت اروپا با چالش‌هایی ناشی از افزایش مهاجرت غیرمجاز روبرو است.",
+        "pattern_en": "Invasion metaphor migration threat framing"
       }
     ]
   }

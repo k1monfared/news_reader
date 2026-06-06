@@ -1986,6 +1986,36 @@
         "example_text": "Iran footballers hand passports to US embassy for World Cup visa approval",
         "example_url": "https://www.aljazeera.com/sports/2026/6/5/iran-footballers-hand-passports-to-us-embassy-for-world-cup-visa-approval?traffic_source=rss",
         "unbiased_text": "Iran footballers apply for US visas ahead of World Cup"
+      },
+      {
+        "pattern": "Personal dream timing tragedy emphasis",
+        "detail": "Emphasizing the temporal proximity between a victim's anticipated joyful event and their death to maximize emotional impact and victimization narrative.",
+        "debias": "Report deaths factually without emphasizing the timing relative to planned celebrations or personal milestones.",
+        "date_added": "2026-06-06",
+        "status": "suggested",
+        "example_text": "Muhannad Farwana never got to wear his wedding suit, Israel killed him in an air strike hours before his wedding.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/6/groom-killed-hours-before-his-wedding-in-gaza?traffic_source=rss",
+        "unbiased_text": "Muhannad Farwana was killed in an Israeli air strike on the day he was scheduled to be married."
+      },
+      {
+        "pattern": "Party naming satirical legitimization",
+        "detail": "Treating satirical protest movements with unconventional names as legitimate political entities through neutral coverage that normalizes their framing.",
+        "debias": "Clarify the satirical or protest nature of movements with symbolic names while reporting their actual political demands.",
+        "date_added": "2026-06-06",
+        "status": "suggested",
+        "example_text": "'Cockroach Party' leader returns to India for first New Delhi protest.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/6/cockroach-party-leader-returns-to-india-for-first-new-delhi-protest?traffic_source=rss",
+        "unbiased_text": "Leader of satirical youth protest movement using 'Cockroach Party' branding returns to India for first New Delhi demonstration."
+      },
+      {
+        "pattern": "Administrative visa crisis escalation framing",
+        "detail": "Framing routine visa processing delays or denials as deliberate diplomatic crises or discrimination campaigns.",
+        "debias": "Report visa issues as administrative matters unless there is clear evidence of discriminatory policy.",
+        "date_added": "2026-06-06",
+        "status": "suggested",
+        "example_text": "Iranian officials say a 'large' number of key staff denied visas as the team is set to travel to Mexico.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/6/iran-2026-world-cup-squad-heads-to-mexico-as-us-visa-dispute-erupts?traffic_source=rss",
+        "unbiased_text": "Iranian officials said some staff members have not yet received US visas ahead of the team's World Cup participation."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3530,6 +3560,16 @@
         "example_text": "A 'ceasefire war' in Lebanon continues as 'chaotic global leadership' takes its toll",
         "example_url": "https://www.france24.com/en/a-ceasefire-war-in-lebanon-continues-as-chaotic-global-leadership-takes-its-toll",
         "unbiased_text": "Ceasefire violations continue in Lebanon amid ongoing negotiations"
+      },
+      {
+        "pattern": "Diplomatic rebuke bilateral attribution asymmetry",
+        "detail": "Attributing critical diplomatic statements to one party while framing the other party's position through indirect quotation or hostile characterization.",
+        "debias": "Present diplomatic statements from all parties with equal directness and attribution.",
+        "date_added": "2026-06-06",
+        "status": "suggested",
+        "example_text": "Lebanon's president and prime minister criticised Iran on Friday for opposing the latest ceasefire deal between the Lebanese government and Israel, saying their country should not be used by Tehran as a 'bargaining chip' in talks with Washington.",
+        "example_url": "https://www.france24.com/en/middle-east/20260605-not-your-country-lebanese-leaders-rebuke-iran-as-israel-hezbollah-trade-attacks",
+        "unbiased_text": "Lebanon's president and prime minister said Iran should not use Lebanon in its negotiations with Washington, while Iran said Lebanon faces threats requiring regional coordination."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -5423,6 +5463,26 @@
         "example_text": "'None of us could have predicted this': Scottish island closes on Sundays after visitor surge",
         "example_url": "http://www.euronews.com/travel/2026/06/05/none-of-us-could-have-predicted-this-scottish-island-closes-on-sundays-after-visitor-surge",
         "unbiased_text": "Scottish island adjusts ferry schedule to Sunday closures to manage increased tourism"
+      },
+      {
+        "pattern": "Cookie metaphor diminutive national framing",
+        "detail": "Using food metaphors to characterize a nation's geopolitical role in ways that diminish its sovereignty or reduce it to a consumable object.",
+        "debias": "Describe national diplomatic roles without food metaphors that imply diminished agency or objectification.",
+        "date_added": "2026-06-06",
+        "status": "suggested",
+        "example_text": "'Cookie of the Balkans' Montenegro can revitalise the EU enlargement process for the rest of candidates, as PM doubles down on 2028 entry.",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/06/montenegro-the-cookie-of-the-balkans-if-you-like-it-you-take-more-pm-tells-euronews",
+        "unbiased_text": "Montenegro could serve as a model for EU enlargement, the prime minister said, reaffirming the country's 2028 accession goal."
+      },
+      {
+        "pattern": "Invasion metaphor migration threat framing",
+        "detail": "Using military invasion terminology to characterize migration flows, implicitly framing migrants as hostile forces rather than people seeking entry.",
+        "debias": "Describe migration using neutral demographic terms rather than military invasion language.",
+        "date_added": "2026-06-06",
+        "status": "suggested",
+        "example_text": "Hegseth says Europe is being 'invaded by dangerous migrants'",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/6/hegseth-says-europe-is-being-invaded-by-dangerous?traffic_source=rss",
+        "unbiased_text": "Hegseth said Europe faces challenges from increased unauthorized migration."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
