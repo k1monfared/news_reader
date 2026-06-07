@@ -2016,6 +2016,36 @@
         "example_text": "Iranian officials say a 'large' number of key staff denied visas as the team is set to travel to Mexico.",
         "example_url": "https://www.aljazeera.com/sports/2026/6/6/iran-2026-world-cup-squad-heads-to-mexico-as-us-visa-dispute-erupts?traffic_source=rss",
         "unbiased_text": "Iranian officials said some staff members have not yet received US visas ahead of the team's World Cup participation."
+      },
+      {
+        "pattern": "War economic impact household cost individualization",
+        "detail": "Translating geopolitical conflict into personalized household financial burden through precise dollar amounts to emphasize individual victimization.",
+        "debias": "Report economic impacts through aggregate indicators and market data without converting to individual household cost figures that personalize distant conflicts.",
+        "date_added": "2026-06-07",
+        "status": "suggested",
+        "example_text": "On average, US households have spent $750 more in expenses due to the war, hitting middle and lower-income people hard.",
+        "example_url": "https://www.aljazeera.com/economy/2026/6/7/100-days-into-iran-war-americans-face-higher-prices?traffic_source=rss",
+        "unbiased_text": "The war has contributed to rising energy and commodity prices in the United States, affecting consumer costs."
+      },
+      {
+        "pattern": "World Cup logistical policy reversal vindication",
+        "detail": "Framing FIFA's policy change on water bottles as a victory resulting from public backlash and official criticism rather than routine operational adjustment.",
+        "debias": "Report policy changes as administrative updates without constructing narratives of grassroots triumph over institutional decisions.",
+        "date_added": "2026-06-07",
+        "status": "suggested",
+        "example_text": "New York Mayor Mamdani was among those critical of FIFA's decision to ban water bottles at World Cup stadiums.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/7/fifa-u-turns-on-water-bottle-policy-in-us-canada-stadiums-after-backlash?traffic_source=rss",
+        "unbiased_text": "FIFA reversed its water bottle policy at World Cup stadiums following feedback from officials and the public."
+      },
+      {
+        "pattern": "Visa denial diplomatic crisis construction",
+        "detail": "Elevating routine visa processing decisions into international diplomatic incidents that suggest deliberate political exclusion.",
+        "debias": "Report visa denials as administrative matters without inferring broader diplomatic significance unless officials explicitly frame them as such.",
+        "date_added": "2026-06-07",
+        "status": "suggested",
+        "example_text": "Iran's ambassador to Mexico expressed concern over the reported denial of US visas to the World Cup delegation.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/7/iran-criticizes-us-refusal-to-grant-visas-for-world-cup-delegation?traffic_source=rss",
+        "unbiased_text": "Iran's ambassador to Mexico said some World Cup delegation members did not receive US visas."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3570,6 +3600,46 @@
         "example_text": "Lebanon's president and prime minister criticised Iran on Friday for opposing the latest ceasefire deal between the Lebanese government and Israel, saying their country should not be used by Tehran as a 'bargaining chip' in talks with Washington.",
         "example_url": "https://www.france24.com/en/middle-east/20260605-not-your-country-lebanese-leaders-rebuke-iran-as-israel-hezbollah-trade-attacks",
         "unbiased_text": "Lebanon's president and prime minister said Iran should not use Lebanon in its negotiations with Washington, while Iran said Lebanon faces threats requiring regional coordination."
+      },
+      {
+        "pattern": "Infant victim bullet specification horror amplification",
+        "detail": "Including graphic anatomical details of infant injury (bullet striking face) to maximize emotional impact and reader horror.",
+        "debias": "Report infant casualties with necessary factual detail but without graphic anatomical specifications designed to shock.",
+        "date_added": "2026-06-07",
+        "status": "suggested",
+        "example_text": "Israeli troops shot at a car in the occupied West Bank, killing a 7-month-old Palestinian baby and wounding his parents, the Palestinian health ministry said, with the bullet striking the boy in the face.",
+        "example_url": "https://www.france24.com/en/israeli-troops-kill-infant-injure-parents-in-west-bank",
+        "unbiased_text": "Israeli troops shot at a car in the occupied West Bank, killing a 7-month-old Palestinian baby and wounding his parents, the Palestinian health ministry said."
+      },
+      {
+        "pattern": "Tourism-dependent luxury sector pivot narrative",
+        "detail": "Framing hospitality industry shifts to local clientele as desperate survival measures rather than routine market adaptation strategies.",
+        "debias": "Report business model adjustments as market responses without implying desperation or sector distress as the primary driver.",
+        "date_added": "2026-06-07",
+        "status": "suggested",
+        "example_text": "Once reserved for wealthy travellers, Dubai's top-notch hotels have become almost exclusively reliant on residents, drawn in by dizzying staycation offers as war drives tourists away.",
+        "example_url": "https://www.france24.com/en/dubai-luxury-hotels-court-local-residents-as-tourism-slumps",
+        "unbiased_text": "Dubai luxury hotels have increased their focus on local residents through staycation packages as international tourism has declined during the regional conflict."
+      },
+      {
+        "pattern": "Sovereign autonomy assertion through third-party rebuke",
+        "detail": "Highlighting statements where one country tells another not to use it as a bargaining chip to construct narratives of sovereign independence.",
+        "debias": "Report diplomatic tensions without emphasizing sovereignty assertion language that frames one party as reclaiming autonomy from external control.",
+        "date_added": "2026-06-07",
+        "status": "suggested",
+        "example_text": "Lebanon's president and prime minister criticised Iran on Friday for opposing the latest ceasefire deal between the Lebanese government and Israel, saying their country should not be used by Tehran as a 'bargaining chip' in talks with Washington.",
+        "example_url": "https://www.france24.com/en/middle-east/20260605-not-your-country-lebanese-leaders-rebuke-iran-as-israel-hezbollah-trade-attacks",
+        "unbiased_text": "Lebanon's president and prime minister criticized Iran's opposition to the ceasefire deal, saying Lebanon's interests should be prioritized in negotiations."
+      },
+      {
+        "pattern": "Civil society resilience valorization under repression",
+        "detail": "Constructing narratives that elevate civilian courage in documenting or resisting authoritarian crackdowns as heroic acts of witness.",
+        "debias": "Report civil society activity and government response factually without valorizing one side's actions through courage or heroism framing.",
+        "date_added": "2026-06-07",
+        "status": "suggested",
+        "example_text": "Civilians are effectively 'risking their lives' so that 'the world can know what is happening in Iran,' underscoring both the scale of repression and the resilience of civil society under authoritarian rule.",
+        "example_url": "https://www.france24.com/en/us-war-on-iran-not-about-the-iranian-people-europe-can-put-the-issue-of-human-rights-on-the-table",
+        "unbiased_text": "Civilians continue to document events in Iran despite government restrictions, providing information to international observers."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
