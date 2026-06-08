@@ -2275,6 +2275,28 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/7/iran-criticizes-us-refusal-to-grant-visas-for-world-cup-delegation?traffic_source=rss",
         "unbiased_text": "سفیر ایران در مکزیک گفت برخی از اعضای هیئت جام جهانی ویزای آمریکا دریافت نکردند.",
         "pattern_en": "Visa denial diplomatic crisis construction"
+      },
+      {
+        "pattern": "شخصی‌سازی قربانی‌سازی با نام کودکانه",
+        "detail": "استفاده از نام‌های غیررسمی و کوچک‌شده (مانند «بچه سام») به‌جای نام‌های رسمی در تیترها برای تشدید تأثیر عاطفی و قاب‌بندی قربانی‌سازی تلفات فلسطینی.",
+        "debias": "از نام کامل و رسمی کودک همان‌طور که توسط اعضای خانواده یا منابع رسمی ارائه شده استفاده کنید، بدون به‌کارگیری اصطلاحات کوچک‌شده.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "«زندگی‌ها در یک لحظه تغییر کرد»: خانواده بچه سام که توسط اسرائیل به ضرب گلوله کشته شد، در سوگ هستند",
+        "example_url": "https://www.aljazeera.com/news/2026/6/8/lives-turned-in-a-second-family-of-baby-sam-shot-dead-by-israel-grieve?traffic_source=rss",
+        "unbiased_text": "«زندگی‌ها در یک لحظه تغییر کرد»: خانواده کودک هفت‌ماهه‌ای که توسط اسرائیل به ضرب گلوله کشته شد، در سوگ هستند",
+        "pattern_en": "Baby name personalization victimization"
+      },
+      {
+        "pattern": "سیاسی‌سازی آسیب‌پذیری اقلیمی در ورزش",
+        "detail": "قاب‌بندی شرایط اقلیمی مسابقات ورزشی به‌عنوان یک بحران سیاسی یا اجتماعی گسترده‌تر که نیازمند هشدارهای کارشناسی است، به‌جای در نظر گرفتن آن به‌عنوان ملاحظات استاندارد برنامه‌ریزی محل برگزاری.",
+        "debias": "شرایط اقلیمی را به‌عنوان ملاحظات لجستیکی برای رویداد ارائه دهید، بدون اینکه آن‌ها را به سطح هشدارهای بحرانی ارتقا دهید.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "کارشناسان اقلیمی هشدار می‌دهند که ۲۵ درصد از بازی‌های جام جهانی ممکن است در شرایط بسیار گرم برگزار شود که بر هواداران و بازیکنان تأثیر می‌گذارد.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/8/how-extreme-weather-and-heat-could-affect-players-at-world-cup-2026?traffic_source=rss",
+        "unbiased_text": "تحلیل‌ها نشان می‌دهد که ۲۵ درصد از بازی‌های جام جهانی در شرایط گرم برگزار خواهد شد و برگزارکنندگان پروتکل‌های مدیریت گرما را برای هواداران و بازیکنان آماده می‌کنند.",
+        "pattern_en": "Climate vulnerability sports politicization"
       }
     ]
   },
@@ -4017,6 +4039,39 @@
         "example_url": "https://www.france24.com/en/us-war-on-iran-not-about-the-iranian-people-europe-can-put-the-issue-of-human-rights-on-the-table",
         "unbiased_text": "شهروندان علی‌رغم محدودیت‌های دولتی به مستندسازی رویدادها در ایران ادامه می‌دهند و اطلاعاتی را در اختیار ناظران بین‌المللی قرار می‌دهند.",
         "pattern_en": "Civil society resilience valorization under repression"
+      },
+      {
+        "pattern": "انتساب ابتکار سیاسی از طریق پذیرش",
+        "detail": "قاب‌بندی پذیرش شرایط مذاکره توسط یک طرف به‌عنوان واگذاری مزیت یا ابتکار سیاسی به طرف مقابل.",
+        "debias": "پذیرش چارچوب‌های مذاکره را به‌عنوان گام‌های رویه‌ای گزارش کنید بدون آنکه انتقال مزیت راهبردی را مطرح کنید.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "زمانی که ترامپ پیشنهاد ۱۴ بندی ایران را به‌عنوان مبنای مذاکرات پذیرفت، ابتکار سیاسی را به ایران داد",
+        "example_url": "https://www.france24.com/en/once-trump-accepted-iranian-14-point-proposal-as-basis-of-talks-he-gave-iran-political-initiative",
+        "unbiased_text": "ترامپ پیشنهاد ۱۴ بندی ایران را به‌عنوان مبنای مذاکرات پذیرفت و چارچوب مذاکره را مشخص کرد",
+        "pattern_en": "Political initiative attribution through acceptance"
+      },
+      {
+        "pattern": "شخصی‌سازی بحران با استعاره کابوس",
+        "detail": "استفاده از استعاره‌های کابوس شخصی برای توصیف موقعیت‌های ژئوپلیتیکی به‌عنوان بحران‌های روانی برای رهبران منفرد به‌جای چالش‌های سیاستی.",
+        "debias": "چالش‌ها و پیچیدگی‌های سیاستی را بدون استعاره‌هایی که نشان‌دهنده پریشانی روانی شخصی هستند، توصیف کنید.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "اسرائیل و ایران برای نخستین‌بار از زمان آتش‌بس حملات متقابل انجام دادند؛ در «کابوسی خودساخته برای ترامپ»",
+        "example_url": "https://www.france24.com/en/israel-iran-trade-strikes-for-first-time-since-truce-in-self-created-nightmare-for-trump",
+        "unbiased_text": "اسرائیل و ایران برای نخستین‌بار از زمان آتش‌بس حملات متقابل انجام دادند و تلاش‌های دیپلماتیک ترامپ را پیچیده کردند",
+        "pattern_en": "Nightmare metaphor crisis personalization"
+      },
+      {
+        "pattern": "استعاره زمین بازی و کاهش حاکمیت",
+        "detail": "استفاده از استعاره‌های زمین بازی برای توصیف یک کشور به عنوان فضایی منفعل که قدرت‌های خارجی در آن بازی می‌کنند، که باعث کاهش درک حاکمیت ملی و عاملیت آن کشور می‌شود.",
+        "debias": "پویایی‌های ژئوپلیتیکی را بدون استعاره‌هایی که کشورها را به فضاها یا اشیای منفعل تبدیل می‌کنند، توصیف کنید.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "لبنان «زمین بازی دیگران»: حملات تازه به بیروت موجب نگرانی شد",
+        "example_url": "https://www.france24.com/en/lebanon-a-playground-for-others-fresh-strikes-on-beirut-trigger-concern",
+        "unbiased_text": "لبنان تحت تأثیر اقدامات قدرت‌های خارجی: حملات تازه به بیروت موجب نگرانی شد",
+        "pattern_en": "Playground metaphor sovereignty diminishment"
       }
     ]
   },
@@ -6133,6 +6188,40 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/6/hegseth-says-europe-is-being-invaded-by-dangerous?traffic_source=rss",
         "unbiased_text": "هگسث گفت اروپا با چالش‌هایی ناشی از افزایش مهاجرت غیرمجاز روبرو است.",
         "pattern_en": "Invasion metaphor migration threat framing"
+      },
+      {
+        "pattern": "قاب‌بندی رسوایی تأخیر در امحای کالاهای تقلبی",
+        "detail": "قاب‌بندی زمان پردازش قانونی معمول برای امحای کالاهای تقلبی به عنوان رسوایی از طریق تأکید بر مدت زمان چندساله.",
+        "debias": "گزارش امحای کالاهای تقلبی با زمینه جدول زمانی قانونی عادی بدون مفاهیم رسوایی‌آمیز.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "تقریباً ۳۸۰۰۰ جفت کفش ورزشی تقلبی که در سال ۲۰۱۱ در کانتینرهایی از چین توقیف شده بودند، پس از سال‌ها دعاوی حقوقی در لوآور امحا شدند که مقیاس جعل و تقلب در فرانسه را برجسته می‌کند.",
+        "example_url": "http://www.euronews.com/business/2026/06/08/le-havre-38000-fake-trainers-destroyed-after-15-year-court-case",
+        "unbiased_text": "تقریباً ۳۸۰۰۰ جفت کفش ورزشی تقلبی که در سال ۲۰۱۱ از کانتینرهای با مبدأ چین توقیف شده بودند، پس از تکمیل روند قانونی در لوآور امحا شدند.",
+        "pattern_en": "Counterfeit destruction delay scandal framing"
+      },
+      {
+        "pattern": "قاب‌بندی نامتقارن فشار سود",
+        "detail": "تأکید بر کاهش سود صنعت ناشی از عوامل خارجی و در عین حال برجسته‌سازی افزایش درآمد و تقاضای رکوردی، که روایتی نامتقارن از قربانی‌سازی ایجاد می‌کند.",
+        "debias": "ارائه هم‌زمان فشارهای سود و رشد درآمد/تقاضا با برجستگی برابر برای نمایش تصویر کامل صنعت.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "پیش‌بینی می‌شود درآمدها به شدت افزایش یابد و ترافیک مسافری به رکوردهای جدید برسد، اما صنعت جهانی هواپیمایی شاهد فشار بر سودها به دلیل شوک قیمت سوخت جت ناشی از جنگ ایران است",
+        "example_url": "http://www.euronews.com/business/2026/06/08/the-jet-fuel-shock-wipes-out-half-of-the-global-airline-industrys-expected-profits",
+        "unbiased_text": "صنعت جهانی هواپیمایی رشد قوی درآمد و ترافیک مسافری رکوردی را پیش‌بینی می‌کند، اما حاشیه سود پایین‌تری را به دلیل افزایش هزینه‌های سوخت جت ناشی از درگیری خاورمیانه پیش‌بینی می‌کند.",
+        "pattern_en": "Profit squeeze asymmetric framing"
+      },
+      {
+        "pattern": "تقویت رد دعوت از سوی افراد مشهور به‌منظور بی‌اعتبارسازی رویداد",
+        "detail": "تأکید بر امتناع افراد مشهور از شرکت در رویدادها به‌عنوان شاهدی بر نامشروع بودن یا محبوبیت پایین رویداد، به‌جای اینکه آن را تداخل معمول برنامه‌های زمانی در نظر بگیریم.",
+        "debias": "گزارش شرکت‌کنندگان تأییدشده و جزئیات رویداد بدون قاب‌بندی عدم حضور به‌عنوان رد جمعی.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "جشن تولد هشتاد سالگی پرزرق‌وبرق دونالد ترامپ با مبارزه قفس در چمن کاخ سفید در حال تبدیل شدن به دافع سلبریتی‌هاست... آدام سندلر، جرد لتو و دوین «د راک» جانسون از جمله افراد مشهوری هستند که دعوت‌نامه‌ها را رد کرده‌اند",
+        "example_url": "http://www.euronews.com/culture/2026/06/08/donald-trumps-freedom-250-birthday-cage-fight-event-snubbed-by-celebrities",
+        "unbiased_text": "رویداد UFC جشن تولد هشتاد سالگی دونالد ترامپ در چمن کاخ سفید با عدم حضور چند سلبریتی به دلیل تداخل برنامه‌های زمانی برگزار خواهد شد.",
+        "detail_items": [],
+        "pattern_en": "Celebrity snub amplification event delegitimization"
       }
     ]
   }

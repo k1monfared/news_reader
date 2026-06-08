@@ -2046,6 +2046,26 @@
         "example_text": "Iran's ambassador to Mexico expressed concern over the reported denial of US visas to the World Cup delegation.",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/7/iran-criticizes-us-refusal-to-grant-visas-for-world-cup-delegation?traffic_source=rss",
         "unbiased_text": "Iran's ambassador to Mexico said some World Cup delegation members did not receive US visas."
+      },
+      {
+        "pattern": "Baby name personalization victimization",
+        "detail": "Using informal diminutive names (like 'baby Sam') instead of formal names in headlines to heighten emotional impact and victimization framing of Palestinian casualties.",
+        "debias": "Use the child's full formal name as provided by family members or official sources without diminutive terms.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "'Lives turned in a second': Family of baby Sam, shot dead by Israel, grieve",
+        "example_url": "https://www.aljazeera.com/news/2026/6/8/lives-turned-in-a-second-family-of-baby-sam-shot-dead-by-israel-grieve?traffic_source=rss",
+        "unbiased_text": "'Lives turned in a second': Family of seven-month-old shot dead by Israel grieves"
+      },
+      {
+        "pattern": "Climate vulnerability sports politicization",
+        "detail": "Framing sports tournament climate conditions as a broader political or social crisis requiring expert warnings rather than standard venue planning considerations.",
+        "debias": "Present climate conditions as logistical considerations for the event without elevating them to crisis-level warnings.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "Climate experts warn that 25% of World Cup games could be played in very hot conditions, affecting fans and players.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/8/how-extreme-weather-and-heat-could-affect-players-at-world-cup-2026?traffic_source=rss",
+        "unbiased_text": "Analysis shows that 25% of World Cup games will be played in hot conditions, with organizers preparing heat management protocols for fans and players."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3640,6 +3660,36 @@
         "example_text": "Civilians are effectively 'risking their lives' so that 'the world can know what is happening in Iran,' underscoring both the scale of repression and the resilience of civil society under authoritarian rule.",
         "example_url": "https://www.france24.com/en/us-war-on-iran-not-about-the-iranian-people-europe-can-put-the-issue-of-human-rights-on-the-table",
         "unbiased_text": "Civilians continue to document events in Iran despite government restrictions, providing information to international observers."
+      },
+      {
+        "pattern": "Political initiative attribution through acceptance",
+        "detail": "Framing one party's acceptance of negotiation terms as ceding political advantage or initiative to the opposing party.",
+        "debias": "Report acceptance of negotiation frameworks as procedural steps without asserting strategic advantage transfer.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "Once Trump accepted Iranian 14-point proposal as basis of talks, he gave Iran political initiative",
+        "example_url": "https://www.france24.com/en/once-trump-accepted-iranian-14-point-proposal-as-basis-of-talks-he-gave-iran-political-initiative",
+        "unbiased_text": "Trump accepted Iranian 14-point proposal as basis for talks, establishing the negotiation framework"
+      },
+      {
+        "pattern": "Nightmare metaphor crisis personalization",
+        "detail": "Using personal nightmare metaphors to characterize geopolitical situations as psychological crises for individual leaders rather than policy challenges.",
+        "debias": "Describe policy challenges and complications without metaphors suggesting personal psychological distress.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "Israel, Iran trade strikes for first time since truce in 'self-created nightmare for Trump'",
+        "example_url": "https://www.france24.com/en/israel-iran-trade-strikes-for-first-time-since-truce-in-self-created-nightmare-for-trump",
+        "unbiased_text": "Israel, Iran trade strikes for first time since truce, complicating Trump's diplomatic efforts"
+      },
+      {
+        "pattern": "Playground metaphor sovereignty diminishment",
+        "detail": "Using playground metaphors to characterize a country as a passive space where external powers play, diminishing perception of national sovereignty and agency.",
+        "debias": "Describe geopolitical dynamics without metaphors that reduce nations to passive spaces or objects.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "Lebanon 'a playground for others': fresh strikes on Beirut trigger concern",
+        "example_url": "https://www.france24.com/en/lebanon-a-playground-for-others-fresh-strikes-on-beirut-trigger-concern",
+        "unbiased_text": "Lebanon affected by external powers' actions: fresh strikes on Beirut trigger concern"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -5553,6 +5603,36 @@
         "example_text": "Hegseth says Europe is being 'invaded by dangerous migrants'",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/6/hegseth-says-europe-is-being-invaded-by-dangerous?traffic_source=rss",
         "unbiased_text": "Hegseth said Europe faces challenges from increased unauthorized migration."
+      },
+      {
+        "pattern": "Counterfeit destruction delay scandal framing",
+        "detail": "Framing routine legal processing time for counterfeit goods destruction as scandal through emphasis on years-long duration.",
+        "debias": "Report counterfeit goods destruction with normal legal timeline context without scandal implications.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "Seized in 2011 in containers from China, almost 38,000 pairs of fake trainers have been destroyed in Le Havre after years of legal wrangling, highlighting the scale of counterfeiting in France.",
+        "example_url": "http://www.euronews.com/business/2026/06/08/le-havre-38000-fake-trainers-destroyed-after-15-year-court-case",
+        "unbiased_text": "Almost 38,000 pairs of counterfeit trainers seized in 2011 from containers originating in China have been destroyed in Le Havre following completion of legal proceedings."
+      },
+      {
+        "pattern": "Profit squeeze asymmetric framing",
+        "detail": "Emphasizing industry profit reductions from external factors while simultaneously highlighting revenue increases and record demand, creating asymmetric victimization narrative.",
+        "debias": "Present both profit pressures and revenue/demand growth with equal prominence to show complete industry picture.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "Revenues are forecast to rise strongly and passenger traffic to hit new records, yet the global airline industry is seeing profits squeezed by an Iran war-driven jet fuel price shock",
+        "example_url": "http://www.euronews.com/business/2026/06/08/the-jet-fuel-shock-wipes-out-half-of-the-global-airline-industrys-expected-profits",
+        "unbiased_text": "The global airline industry forecasts strong revenue growth and record passenger traffic, but projects lower profit margins due to increased jet fuel costs driven by Middle East conflict."
+      },
+      {
+        "pattern": "Celebrity snub amplification event delegitimization",
+        "detail": "Emphasizing celebrity refusals to attend events as evidence of the event's illegitimacy or unpopularity rather than routine scheduling conflicts.",
+        "debias": "Report confirmed attendees and event details without framing non-attendance as collective rejection.",
+        "date_added": "2026-06-08",
+        "status": "suggested",
+        "example_text": "Donald Trump's extravagant 80th birthday cage fight on the White House lawn is proving to be celebrity repellent... Adam Sandler, Jared Leto and Dwayne 'The Rock' Johnson are among the celebrities who have declined invites",
+        "example_url": "http://www.euronews.com/culture/2026/06/08/donald-trumps-freedom-250-birthday-cage-fight-event-snubbed-by-celebrities",
+        "unbiased_text": "Donald Trump's 80th birthday UFC event on the White House lawn will proceed with several celebrities unable to attend due to scheduling conflicts."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
