@@ -2066,6 +2066,26 @@
         "example_text": "Climate experts warn that 25% of World Cup games could be played in very hot conditions, affecting fans and players.",
         "example_url": "https://www.aljazeera.com/sports/2026/6/8/how-extreme-weather-and-heat-could-affect-players-at-world-cup-2026?traffic_source=rss",
         "unbiased_text": "Analysis shows that 25% of World Cup games will be played in hot conditions, with organizers preparing heat management protocols for fans and players."
+      },
+      {
+        "pattern": "Skin thickness political psychology attribution",
+        "detail": "Attributing political leader's responses to psychological vulnerability ('thin skin') rather than strategic calculation.",
+        "debias": "Describe the political response factually without psychological speculation about emotional sensitivity.",
+        "date_added": "2026-06-09",
+        "status": "suggested",
+        "example_text": "A student parody account has rattled India's most powerful man and exposed just how thin his skin has become.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/6/9/modi-is-using-a-cannon-to-kill-a-cockroach?traffic_source=rss",
+        "unbiased_text": "A student parody account has prompted a response from India's prime minister, raising questions about the government's approach to online criticism."
+      },
+      {
+        "pattern": "Historic ceremony milestone geographic distribution",
+        "detail": "Emphasizing the unprecedented geographic spread of opening ceremonies as historically significant.",
+        "debias": "Report the multi-country hosting arrangement without elevating it to historic status.",
+        "date_added": "2026-06-09",
+        "status": "suggested",
+        "example_text": "The 2026 World Cup begins with historic ceremonies across the US, Canada and Mexico, launching a record tournament.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/9/world-cup-opening-ceremony-whos-performing-when-it-starts-how-to-watch?traffic_source=rss",
+        "unbiased_text": "The 2026 World Cup begins with opening ceremonies across the US, Canada and Mexico for the expanded tournament."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3690,6 +3710,26 @@
         "example_text": "Lebanon 'a playground for others': fresh strikes on Beirut trigger concern",
         "example_url": "https://www.france24.com/en/lebanon-a-playground-for-others-fresh-strikes-on-beirut-trigger-concern",
         "unbiased_text": "Lebanon affected by external powers' actions: fresh strikes on Beirut trigger concern"
+      },
+      {
+        "pattern": "Recolonisation scare-quote elevation to direct accusation",
+        "detail": "Removing quotation marks from 'recolonisation' to transform attributed rhetoric into editorial assertion.",
+        "debias": "Maintain attribution markers when reporting politicians' characterizations of policies.",
+        "date_added": "2026-06-09",
+        "status": "suggested",
+        "example_text": "France on Tuesday banned Israel's Finance Minister Bezalel Smotrich from entry, slamming the far-right politician's calls for the annexation of the occupied West Bank, new settlements in the area and the \"recolonisation\" of Gaza.",
+        "example_url": "https://www.france24.com/en/middle-east/20260609-france-bans-israel-s-finance-minister-slams-him-for-promoting-recolonisation-of-gaza",
+        "unbiased_text": "France on Tuesday banned Israel's Finance Minister Bezalel Smotrich from entry, citing the far-right politician's calls for the annexation of the occupied West Bank, new settlements in the area and what he termed the 'recolonisation' of Gaza."
+      },
+      {
+        "pattern": "Failed war leader composite characterization",
+        "detail": "Combining humiliation and failure descriptors into a single compound characterization of leadership.",
+        "debias": "Report specific political challenges separately without merging them into character judgment.",
+        "date_added": "2026-06-09",
+        "status": "suggested",
+        "example_text": "Netanyahu comes out of Iran flare-up a 'humiliated, failed war leader'",
+        "example_url": "https://www.france24.com/en/netanyahu-comes-out-of-iran-flare-up-a-humiliated-failed-war-leader",
+        "unbiased_text": "Netanyahu faces domestic criticism following Iran flare-up and Trump tensions"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -5633,6 +5673,36 @@
         "example_text": "Donald Trump's extravagant 80th birthday cage fight on the White House lawn is proving to be celebrity repellent... Adam Sandler, Jared Leto and Dwayne 'The Rock' Johnson are among the celebrities who have declined invites",
         "example_url": "http://www.euronews.com/culture/2026/06/08/donald-trumps-freedom-250-birthday-cage-fight-event-snubbed-by-celebrities",
         "unbiased_text": "Donald Trump's 80th birthday UFC event on the White House lawn will proceed with several celebrities unable to attend due to scheduling conflicts."
+      },
+      {
+        "pattern": "Oversight weakness scandal construction from audit",
+        "detail": "Framing routine audit findings about monitoring gaps as scandals through 'weak oversight' terminology.",
+        "debias": "Report audit findings as technical recommendations without scandal framing.",
+        "date_added": "2026-06-09",
+        "status": "suggested",
+        "example_text": "EU auditors flag weak oversight of €527 million Balkans transport fund",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/09/eu-auditors-flag-weak-oversight-of-527-million-balkans-transport-fund",
+        "unbiased_text": "EU auditors recommend improved monitoring mechanisms for €527 million Balkans transport fund"
+      },
+      {
+        "pattern": "Too little dismissal quantification softening",
+        "detail": "Using quotation-marked 'too little' to editorially dismiss positive economic data while appearing to attribute judgment.",
+        "debias": "Report economic data with analyst assessments clearly attributed without editorial dismissal.",
+        "date_added": "2026-06-09",
+        "status": "suggested",
+        "example_text": "German industrial output rises for the first time this year but is still 'too little'",
+        "example_url": "http://www.euronews.com/business/2026/06/09/german-industrial-output-rises-for-the-first-time-this-year-but-is-still-too-little",
+        "unbiased_text": "German industrial output rises 0.4% for the first time this year, though economists note challenges remain"
+      },
+      {
+        "pattern": "Biggest-ever superlative threat amplification",
+        "detail": "Using 'biggest ever' historical comparisons to amplify the threat significance of current actions.",
+        "debias": "Report the scale of actions with specific numbers without historical superlative framing.",
+        "date_added": "2026-06-09",
+        "status": "suggested",
+        "example_text": "The Pentagon has added 188 Chinese companies to its military blacklist — its biggest ever expansion",
+        "example_url": "http://www.euronews.com/next/2026/06/09/us-puts-alibaba-byd-and-baidu-on-chinese-military-blacklist",
+        "unbiased_text": "The Pentagon has added 188 Chinese companies to its military blacklist, expanding the list significantly"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
