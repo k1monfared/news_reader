@@ -2320,6 +2320,28 @@
         "example_url": "https://www.aljazeera.com/sports/2026/6/9/world-cup-opening-ceremony-whos-performing-when-it-starts-how-to-watch?traffic_source=rss",
         "unbiased_text": "جام جهانی ۲۰۲۶ با مراسم افتتاحیه در سراسر ایالات متحده، کانادا و مکزیک برای رقابت‌های گسترده‌شده آغاز می‌شود.",
         "pattern_en": "Historic ceremony milestone geographic distribution"
+      },
+      {
+        "pattern": "پنهان‌سازی هویت با ساختار مجهول",
+        "detail": "استفاده از فعل مجهول برای مبهم کردن جزئیات کلیدی درباره عاملان یا قربانیان و در عین حال تأکید بر جنبه‌های خاصی از یک رویداد.",
+        "debias": "از ساختار فعل معلوم استفاده کنید و تمام اطلاعات شناسایی مرتبط موجود را به شیوه‌ای متعادل بگنجانید.",
+        "date_added": "2026-06-10",
+        "status": "suggested",
+        "example_text": "وزارت امور خارجه آمریکا مرگ را تأیید می‌کند، اما از ارائه اطلاعات بیشتر درباره مرگ این فرد در یانگون خودداری می‌کند.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/10/thai-woman-in-custody-after-us-diplomat-found-dead-in-myanmar?traffic_source=rss",
+        "unbiased_text": "وزارت امور خارجه آمریکا مرگ یک دیپلمات آمریکایی در یانگون را تأیید کرد و اعلام داشت که یک زن تایلندی بازداشت شده است، اما از ارائه جزئیات بیشتر درباره این مرگ خودداری کرد.",
+        "pattern_en": "Passive construction identity withholding"
+      },
+      {
+        "pattern": "زیر سؤال بردن تناسب اقدامات دیپلماتیک",
+        "detail": "قاب‌بندی تحریم‌ها یا اقدامات دیپلماتیک به‌عنوان ناکافی بودن بدون ارائه معیارهای عینی برای کفایت.",
+        "debias": "گزارش تحریم‌ها و دامنه آن‌ها بدون قضاوت سردبیرانه درباره این‌که آیا استانداردهای بیان‌نشده کفایت را برآورده می‌کنند یا خیر.",
+        "date_added": "2026-06-10",
+        "status": "suggested",
+        "example_text": "تحریم‌های علیه شهرک‌نشینان کافی نیست: دولت اسرائیل را هدف بگیرید، فعالان می‌گویند",
+        "example_url": "https://www.aljazeera.com/news/2026/6/10/sanctions-on-settlers-not-enough-target-israeli-govt-say-campaigners?traffic_source=rss",
+        "unbiased_text": "فعالان خواستار گسترش تحریم‌ها فراتر از شهرک‌نشینان فردی به مقامات دولت اسرائیل هستند",
+        "pattern_en": "Diplomatic gesture proportionality questioning"
       }
     ]
   },
@@ -4117,6 +4139,17 @@
         "example_url": "https://www.france24.com/en/netanyahu-comes-out-of-iran-flare-up-a-humiliated-failed-war-leader",
         "unbiased_text": "نتانیاهو پس از تنش با ایران و تنش‌های با ترامپ با انتقادات داخلی روبه‌رو است",
         "pattern_en": "Failed war leader composite characterization"
+      },
+      {
+        "pattern": "پیش‌قضاوت بیهودگی توافق",
+        "detail": "توصیف توافقات دیپلماتیک احتمالی به عنوان ناکارآمد پیش از نهایی شدن یا اجرای آن‌ها.",
+        "debias": "گزارش شرایط توافق پیشنهادی به صورت عینی و بدون پیش‌قضاوت درباره نتایج یا اثربخشی آن.",
+        "date_added": "2026-06-10",
+        "status": "suggested",
+        "example_text": "به جای پرداختن به اختلافات بنیادین پیرامون برنامه هسته‌ای ایران، تحریم‌ها، یا رقابت‌های منطقه‌ای، این توافق صرفاً وضعیت موجود را تثبیت می‌کند: «تنها کاری که این توافق انجام می‌دهد اساساً تثبیت آتش‌بس است. هیچ چیزی را حل نخواهد کرد.»",
+        "example_url": "https://www.france24.com/en/us-iran-deal-wouldn-t-resolve-anything-trump-trapped-between-unwinnable-war-unpresentable-deal",
+        "unbiased_text": "توافق پیشنهادی آتش‌بس فعلی را تثبیت خواهد کرد اما بر اساس گفته تحلیلگران، به صورت فوری به موضوعات گسترده‌تر از جمله برنامه هسته‌ای ایران، تحریم‌ها، یا رقابت‌های منطقه‌ای نخواهد پرداخت.",
+        "pattern_en": "Deal dismissal futility pre-framing"
       }
     ]
   },
@@ -6300,6 +6333,28 @@
         "example_url": "http://www.euronews.com/next/2026/06/09/us-puts-alibaba-byd-and-baidu-on-chinese-military-blacklist",
         "unbiased_text": "پنتاگون ۱۸۸ شرکت چینی را به فهرست سیاه نظامی خود اضافه کرده و این فهرست را به طور قابل توجهی گسترش داده است",
         "pattern_en": "Biggest-ever superlative threat amplification"
+      },
+      {
+        "pattern": "فاجعه‌آمیزسازی با اتکا به اعتماد نهادی",
+        "detail": "قاب‌بندی حوادث منفرد به عنوان تهدیدهای وجودی برای کل نظام‌های حکمرانی یا نهادهای عمومی.",
+        "debias": "گزارش انتقادات نهادی و فراخوان‌ها برای اصلاحات بدون القای فروپاشی سیستمی ناشی از موارد فردی.",
+        "date_added": "2026-06-10",
+        "status": "suggested",
+        "example_text": "امانوئل مکرون می‌گوید اعتماد به نهادهای فرانسه پس از قتل دختر «در خطر است»",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/10/trust-in-frances-institutions-at-stake-after-girls-killing-emmanuel-macron-says",
+        "unbiased_text": "امانوئل مکرون گفت قتل این دختر پرسش‌هایی درباره نظام قضایی فرانسه برانگیخته است",
+        "pattern_en": "Institutional trust stakes catastrophism"
+      },
+      {
+        "pattern": "قاب‌بندی فاجعه‌آمیز فلج بوروکراتیک",
+        "detail": "ارائه رویه‌ها یا فرآیندهای اداری به‌عنوان تهدیدات وجودی که نیازمند اقدام فوری و چشمگیر هستند.",
+        "debias": "گزارش اصلاحات رویه‌ای پیشنهادی و اهداف اعلام‌شده آن‌ها بدون قاب‌بندی آخرالزمانی.",
+        "date_added": "2026-06-10",
+        "status": "suggested",
+        "example_text": "«اروپا نمی‌تواند فلج بوروکراتیک را تحمل کند»: اتحادیه اروپا به توافق ساده‌سازی دفاعی دست یافت",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/10/europe-cannot-afford-bureaucratic-paralysis-eu-strikes-defence-simplification-deal",
+        "unbiased_text": "کشورهای عضو اتحادیه اروپا بر اقداماتی برای ساده‌سازی مجوزهای دفاعی و رویه‌های تدارکات در سراسر اروپا توافق کردند",
+        "pattern_en": "Bureaucratic paralysis catastrophe framing"
       }
     ]
   }

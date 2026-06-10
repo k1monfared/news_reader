@@ -2086,6 +2086,26 @@
         "example_text": "The 2026 World Cup begins with historic ceremonies across the US, Canada and Mexico, launching a record tournament.",
         "example_url": "https://www.aljazeera.com/sports/2026/6/9/world-cup-opening-ceremony-whos-performing-when-it-starts-how-to-watch?traffic_source=rss",
         "unbiased_text": "The 2026 World Cup begins with opening ceremonies across the US, Canada and Mexico for the expanded tournament."
+      },
+      {
+        "pattern": "Passive construction identity withholding",
+        "detail": "Using passive voice to obscure key details about perpetrators or victims while emphasizing certain aspects of an incident.",
+        "debias": "Use active voice construction and include all relevant identifying information available in balanced manner.",
+        "date_added": "2026-06-10",
+        "status": "suggested",
+        "example_text": "US State Department confirms the fatality, but refuses to provide more information about the person's death in Yangon.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/10/thai-woman-in-custody-after-us-diplomat-found-dead-in-myanmar?traffic_source=rss",
+        "unbiased_text": "The US State Department confirmed a US diplomat died in Yangon and said a Thai woman is in custody, but declined to provide additional details about the death."
+      },
+      {
+        "pattern": "Diplomatic gesture proportionality questioning",
+        "detail": "Framing sanctions or diplomatic measures as insufficient without providing objective criteria for adequacy.",
+        "debias": "Report on sanctions and their scope without editorial judgment on whether they meet unstated standards of sufficiency.",
+        "date_added": "2026-06-10",
+        "status": "suggested",
+        "example_text": "Sanctions on settlers not enough: Target Israeli gov't, say campaigners",
+        "example_url": "https://www.aljazeera.com/news/2026/6/10/sanctions-on-settlers-not-enough-target-israeli-govt-say-campaigners?traffic_source=rss",
+        "unbiased_text": "Campaigners call for sanctions to extend beyond individual settlers to include Israeli government officials"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3730,6 +3750,16 @@
         "example_text": "Netanyahu comes out of Iran flare-up a 'humiliated, failed war leader'",
         "example_url": "https://www.france24.com/en/netanyahu-comes-out-of-iran-flare-up-a-humiliated-failed-war-leader",
         "unbiased_text": "Netanyahu faces domestic criticism following Iran flare-up and Trump tensions"
+      },
+      {
+        "pattern": "Deal dismissal futility pre-framing",
+        "detail": "Characterizing potential diplomatic agreements as ineffective before they are finalized or implemented.",
+        "debias": "Report on proposed agreement terms objectively without prejudging outcomes or effectiveness.",
+        "date_added": "2026-06-10",
+        "status": "suggested",
+        "example_text": "Rather than addressing the fundamental disputes surrounding Iran's nuclear programme, sanctions, or regional rivalries, the deal would merely restore the status quo: 'All this deal would do is to basically consolidate the ceasefire. It would not resolve anything.'",
+        "example_url": "https://www.france24.com/en/us-iran-deal-wouldn-t-resolve-anything-trump-trapped-between-unwinnable-war-unpresentable-deal",
+        "unbiased_text": "The proposed deal would consolidate the current ceasefire but would not immediately address broader issues including Iran's nuclear programme, sanctions, or regional rivalries, according to analysts."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -5703,6 +5733,26 @@
         "example_text": "The Pentagon has added 188 Chinese companies to its military blacklist — its biggest ever expansion",
         "example_url": "http://www.euronews.com/next/2026/06/09/us-puts-alibaba-byd-and-baidu-on-chinese-military-blacklist",
         "unbiased_text": "The Pentagon has added 188 Chinese companies to its military blacklist, expanding the list significantly"
+      },
+      {
+        "pattern": "Institutional trust stakes catastrophism",
+        "detail": "Framing single incidents as existential threats to entire systems of governance or public institutions.",
+        "debias": "Report on institutional criticism and calls for reform without implying systemic collapse from individual cases.",
+        "date_added": "2026-06-10",
+        "status": "suggested",
+        "example_text": "Trust in France's institutions 'at stake' after girl's killing, Emmanuel Macron says",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/10/trust-in-frances-institutions-at-stake-after-girls-killing-emmanuel-macron-says",
+        "unbiased_text": "Emmanuel Macron said the girl's killing has raised questions about France's judicial system"
+      },
+      {
+        "pattern": "Bureaucratic paralysis catastrophe framing",
+        "detail": "Presenting administrative procedures or processes as existential threats requiring urgent dramatic action.",
+        "debias": "Report on proposed procedural reforms and their stated objectives without apocalyptic framing.",
+        "date_added": "2026-06-10",
+        "status": "suggested",
+        "example_text": "'Europe cannot afford bureaucratic paralysis': EU strikes defence simplification deal",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/10/europe-cannot-afford-bureaucratic-paralysis-eu-strikes-defence-simplification-deal",
+        "unbiased_text": "EU member states agreed on measures to streamline defence permits and procurement procedures across Europe"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
