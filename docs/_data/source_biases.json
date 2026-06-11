@@ -2106,6 +2106,16 @@
         "example_text": "Sanctions on settlers not enough: Target Israeli gov't, say campaigners",
         "example_url": "https://www.aljazeera.com/news/2026/6/10/sanctions-on-settlers-not-enough-target-israeli-govt-say-campaigners?traffic_source=rss",
         "unbiased_text": "Campaigners call for sanctions to extend beyond individual settlers to include Israeli government officials"
+      },
+      {
+        "pattern": "UFO designation presidential dismissal framing",
+        "detail": "Describing a military UFC event at the White House as occurring 'in front of Donald Trump' frames the president as merely a spectator prop rather than event organizer or host.",
+        "debias": "Describe the president's role at events with neutral framing that acknowledges their organizational authority without editorializing.",
+        "date_added": "2026-06-11",
+        "status": "suggested",
+        "example_text": "Fight time, undercard, stats and how to watch as Topuria and Gaethje tussle in front of Donald Trump at the White House.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/11/ilia-topuria-vs-justin-gaethje-title-fight-at-ufc-freedom-250-all-to-know?traffic_source=rss",
+        "unbiased_text": "Fight time, undercard, stats and how to watch as Topuria and Gaethje compete at the White House-hosted UFC event."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3760,6 +3770,16 @@
         "example_text": "Rather than addressing the fundamental disputes surrounding Iran's nuclear programme, sanctions, or regional rivalries, the deal would merely restore the status quo: 'All this deal would do is to basically consolidate the ceasefire. It would not resolve anything.'",
         "example_url": "https://www.france24.com/en/us-iran-deal-wouldn-t-resolve-anything-trump-trapped-between-unwinnable-war-unpresentable-deal",
         "unbiased_text": "The proposed deal would consolidate the current ceasefire but would not immediately address broader issues including Iran's nuclear programme, sanctions, or regional rivalries, according to analysts."
+      },
+      {
+        "pattern": "Proportional response scare-quote skepticism",
+        "detail": "Using quotation marks around 'proportional response' when describing military action delegitimizes the characterization by treating it as merely claimed rather than factual.",
+        "debias": "Present military characterizations without scare quotes while attributing claims clearly to their sources.",
+        "date_added": "2026-06-11",
+        "status": "suggested",
+        "example_text": "Washington called the attacks a \"proportional response\", while Iranian media reported explosions on Qeshm Island.",
+        "example_url": "https://www.france24.com/en/middle-east/20260610-us-iran-airstrikes-trump-tehran-downing-army-helicopter",
+        "unbiased_text": "Washington characterized the attacks as proportional, while Iranian media reported explosions on Qeshm Island."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -5753,6 +5773,36 @@
         "example_text": "'Europe cannot afford bureaucratic paralysis': EU strikes defence simplification deal",
         "example_url": "http://www.euronews.com/my-europe/2026/06/10/europe-cannot-afford-bureaucratic-paralysis-eu-strikes-defence-simplification-deal",
         "unbiased_text": "EU member states agreed on measures to streamline defence permits and procurement procedures across Europe"
+      },
+      {
+        "pattern": "Fiscal tightening urgency through authority quotation",
+        "detail": "Highlighting institutional warnings to 'tighten' rather than 'relax' fiscal policy frames government spending as necessarily problematic regardless of crisis context.",
+        "debias": "Present fiscal policy recommendations neutrally while noting the specific economic conditions and trade-offs involved.",
+        "date_added": "2026-06-11",
+        "status": "suggested",
+        "example_text": "The IMF has urged euro area countries to tighten their fiscal policies rather than relaxing them further in response to the energy crisis, with an extra adjustment effort required from high-debt nations.",
+        "example_url": "http://www.euronews.com/business/2026/06/11/imf-warns-against-further-relaxation-of-euro-area-fiscal-rules",
+        "unbiased_text": "The IMF has recommended that euro area countries maintain fiscal discipline despite the energy crisis, particularly for high-debt nations."
+      },
+      {
+        "pattern": "Mortality milestone quantification without intervention context",
+        "detail": "Presenting 200,000 preventable deaths as a single dramatic figure emphasizes scale while obscuring the timeframe, baseline comparison, or intervention feasibility.",
+        "debias": "Provide mortality figures with timeframes, year-over-year comparisons, and specific intervention costs or barriers.",
+        "date_added": "2026-06-11",
+        "status": "suggested",
+        "example_text": "Heat kills thousands of Europeans every year, deaths the WHO says could be prevented with the right policies in place.",
+        "example_url": "http://www.euronews.com/health/2026/06/11/who-says-europe-must-act-after-200000-preventable-heat-related-deaths",
+        "unbiased_text": "Heat-related mortality in Europe has reached 200,000 deaths over the study period, which WHO officials say could be reduced through policy interventions."
+      },
+      {
+        "pattern": "Judicial capacity incredulity through rhetorical questioning",
+        "detail": "Using question headlines asking 'Can [institution] really do [task]?' pre-frames the answer as 'probably not' through skeptical emphasis.",
+        "debias": "Present institutional capacity challenges directly without pre-framing the answer through skeptical question structure.",
+        "date_added": "2026-06-11",
+        "status": "suggested",
+        "example_text": "Can France's justice system really review 70,000 child sexual abuse cases in five weeks?",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/11/can-frances-justice-system-really-review-70000-child-sexual-abuse-cases-in-five-weeks",
+        "unbiased_text": "France's justice system faces significant challenges in reviewing 70,000 child sexual abuse cases within the five-week deadline."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

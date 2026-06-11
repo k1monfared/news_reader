@@ -2342,6 +2342,18 @@
         "example_url": "https://www.aljazeera.com/news/2026/6/10/sanctions-on-settlers-not-enough-target-israeli-govt-say-campaigners?traffic_source=rss",
         "unbiased_text": "فعالان خواستار گسترش تحریم‌ها فراتر از شهرک‌نشینان فردی به مقامات دولت اسرائیل هستند",
         "pattern_en": "Diplomatic gesture proportionality questioning"
+      },
+      {
+        "pattern": "قاب‌بندی کنار گذاشتن نقش ریاست‌جمهوری با عنوان UFO",
+        "detail": "توصیف یک رویداد نظامی UFC در کاخ سفید به‌عنوان رویدادی که «در حضور دونالد ترامپ» رخ می‌دهد، رئیس‌جمهور را صرفاً به‌عنوان یک تماشاگر یا ابزار صحنه‌آرایی قاب می‌بندد، نه سازمان‌دهنده یا میزبان رویداد.",
+        "debias": "نقش رئیس‌جمهور در رویدادها را با قاب‌بندی خنثی توصیف کنید که اقتدار سازمانی آن‌ها را بدون سردبیری اظهارنظر به رسمیت بشناسد.",
+        "date_added": "2026-06-11",
+        "status": "suggested",
+        "example_text": "زمان مبارزه، کارت مقدماتی، آمارها و نحوه تماشای نبرد توپوریا و گیتجی در حضور دونالد ترامپ در کاخ سفید.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/11/ilia-topuria-vs-justin-gaethje-title-fight-at-ufc-freedom-250-all-to-know?traffic_source=rss",
+        "unbiased_text": "زمان مبارزه، کارت مقدماتی، آمارها و نحوه تماشای رقابت توپوریا و گیتجی در رویداد UFC که کاخ سفید میزبان آن است.",
+        "detail_items": [],
+        "pattern_en": "UFO designation presidential dismissal framing"
       }
     ]
   },
@@ -4150,6 +4162,17 @@
         "example_url": "https://www.france24.com/en/us-iran-deal-wouldn-t-resolve-anything-trump-trapped-between-unwinnable-war-unpresentable-deal",
         "unbiased_text": "توافق پیشنهادی آتش‌بس فعلی را تثبیت خواهد کرد اما بر اساس گفته تحلیلگران، به صورت فوری به موضوعات گسترده‌تر از جمله برنامه هسته‌ای ایران، تحریم‌ها، یا رقابت‌های منطقه‌ای نخواهد پرداخت.",
         "pattern_en": "Deal dismissal futility pre-framing"
+      },
+      {
+        "pattern": "شک‌آفرینی با گیومه در مورد واکنش متناسب",
+        "detail": "استفاده از گیومه دور عبارت «واکنش متناسب» هنگام توصیف اقدام نظامی، این توصیف را غیرمشروع می‌کند و آن را صرفاً ادعایی می‌داند نه واقعیتی.",
+        "debias": "توصیفات نظامی را بدون گیومه ارائه دهید و ادعاها را به‌طور شفاف به منابعشان نسبت دهید.",
+        "date_added": "2026-06-11",
+        "status": "suggested",
+        "example_text": "واشنگتن حملات را یک «واکنش متناسب» نامید، در حالی که رسانه‌های ایرانی انفجارهایی در جزیره قشم گزارش دادند.",
+        "example_url": "https://www.france24.com/en/middle-east/20260610-us-iran-airstrikes-trump-tehran-downing-army-helicopter",
+        "unbiased_text": "واشنگتن حملات را متناسب توصیف کرد، در حالی که رسانه‌های ایرانی انفجارهایی در جزیره قشم گزارش دادند.",
+        "pattern_en": "Proportional response scare-quote skepticism"
       }
     ]
   },
@@ -6355,6 +6378,40 @@
         "example_url": "http://www.euronews.com/my-europe/2026/06/10/europe-cannot-afford-bureaucratic-paralysis-eu-strikes-defence-simplification-deal",
         "unbiased_text": "کشورهای عضو اتحادیه اروپا بر اقداماتی برای ساده‌سازی مجوزهای دفاعی و رویه‌های تدارکات در سراسر اروپا توافق کردند",
         "pattern_en": "Bureaucratic paralysis catastrophe framing"
+      },
+      {
+        "pattern": "فوریت انقباض مالی از طریق نقل‌قول از مرجع",
+        "detail": "تأکید بر هشدارهای نهادی برای «سخت‌گیری» به جای «نرم‌کردن» سیاست مالی، هزینه‌کرد دولت را صرف‌نظر از بافت بحرانی به‌طور ذاتی مشکل‌ساز قلمداد می‌کند.",
+        "debias": "توصیه‌های سیاست مالی را به‌طور بی‌طرفانه ارائه دهید و شرایط اقتصادی مشخص و مبادلات مربوطه را ذکر کنید.",
+        "date_added": "2026-06-11",
+        "status": "suggested",
+        "example_text": "صندوق بین‌المللی پول از کشورهای منطقه یورو خواسته است که سیاست‌های مالی خود را سخت‌گیرانه‌تر کنند به جای آنکه در واکنش به بحران انرژی بیشتر آنها را نرم کنند، و کشورهای با بدهی بالا باید تلاش تعدیل بیشتری انجام دهند.",
+        "example_url": "http://www.euronews.com/business/2026/06/11/imf-warns-against-further-relaxation-of-euro-area-fiscal-rules",
+        "unbiased_text": "صندوق بین‌المللی پول توصیه کرده است که کشورهای منطقه یورو با وجود بحران انرژی، نظم مالی را حفظ کنند، به‌ویژه کشورهای با بدهی بالا.",
+        "pattern_en": "Fiscal tightening urgency through authority quotation"
+      },
+      {
+        "pattern": "کمی‌سازی نقطه عطف مرگ‌ومیر بدون بستر مداخله",
+        "detail": "ارائه ۲۰۰٬۰۰۰ مرگ قابل پیشگیری به عنوان یک رقم تکان‌دهنده واحد، بر مقیاس تأکید می‌کند در حالی که بازه زمانی، مقایسه خط پایه یا امکان‌پذیری مداخله را مبهم می‌سازد.",
+        "debias": "ارقام مرگ‌ومیر را با بازه‌های زمانی، مقایسه‌های سال به سال و هزینه‌های خاص مداخله یا موانع آن ارائه دهید.",
+        "date_added": "2026-06-11",
+        "status": "suggested",
+        "example_text": "گرما هر ساله هزاران اروپایی را می‌کشد، مرگ‌هایی که WHO می‌گوید با سیاست‌های مناسب می‌توان از آنها پیشگیری کرد.",
+        "example_url": "http://www.euronews.com/health/2026/06/11/who-says-europe-must-act-after-200000-preventable-heat-related-deaths",
+        "unbiased_text": "مرگ‌ومیر مرتبط با گرما در اروپا به ۲۰۰٬۰۰۰ مرگ در طول دوره مطالعه رسیده است که مقامات WHO می‌گویند می‌توان از طریق مداخلات سیاستی آن را کاهش داد.",
+        "pattern_en": "Mortality milestone quantification without intervention context"
+      },
+      {
+        "pattern": "بی‌اعتمادی به ظرفیت قضایی از طریق پرسش بلاغی",
+        "detail": "استفاده از تیترهای پرسشی با عبارت «آیا [نهاد] واقعاً می‌تواند [کار] را انجام دهد؟» از پیش پاسخ را به صورت «احتمالاً نه» با تأکید تردیدآمیز قاب‌بندی می‌کند.",
+        "debias": "چالش‌های ظرفیت نهادی را به‌طور مستقیم بدون قاب‌بندی پیشاپیش پاسخ از طریق ساختار پرسش تردیدآمیز ارائه دهید.",
+        "date_added": "2026-06-11",
+        "status": "suggested",
+        "example_text": "آیا سیستم قضایی فرانسه واقعاً می‌تواند ۷۰٬۰۰۰ پرونده سوءاستفاده جنسی از کودکان را در پنج هفته بررسی کند؟",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/11/can-frances-justice-system-really-review-70000-child-sexual-abuse-cases-in-five-weeks",
+        "unbiased_text": "سیستم قضایی فرانسه با چالش‌های قابل توجهی در بررسی ۷۰٬۰۰۰ پرونده سوءاستفاده جنسی از کودکان در مهلت پنج هفته‌ای مواجه است.",
+        "detail_items": [],
+        "pattern_en": "Judicial capacity incredulity through rhetorical questioning"
       }
     ]
   }
