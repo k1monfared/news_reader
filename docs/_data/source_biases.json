@@ -2116,6 +2116,46 @@
         "example_text": "Fight time, undercard, stats and how to watch as Topuria and Gaethje tussle in front of Donald Trump at the White House.",
         "example_url": "https://www.aljazeera.com/sports/2026/6/11/ilia-topuria-vs-justin-gaethje-title-fight-at-ufc-freedom-250-all-to-know?traffic_source=rss",
         "unbiased_text": "Fight time, undercard, stats and how to watch as Topuria and Gaethje compete at the White House-hosted UFC event."
+      },
+      {
+        "pattern": "Comedian survival framing",
+        "detail": "Framing a comedian's work as a survival mechanism through their cultural identity during conflict, elevating entertainment to existential necessity.",
+        "debias": "Report on comedians' work and career without framing their comedy as a survival strategy or existential response to geopolitical events.",
+        "date_added": "2026-06-12",
+        "status": "suggested",
+        "example_text": "He's become one of the most prominent Palestinian voices in comedy, but can Mo Amer laugh through this moment?",
+        "example_url": "https://www.aljazeera.com/video/the-take-2/2026/6/12/why-mo-amer-jokes-to-survive-2?traffic_source=rss",
+        "unbiased_text": "Mo Amer has become one of the most prominent Palestinian voices in comedy, continuing to perform and create new material."
+      },
+      {
+        "pattern": "Matriarchal society discovery celebration",
+        "detail": "Presenting archaeological findings of female-led societies as newsworthy discoveries that validate contemporary gender politics.",
+        "debias": "Report archaeological findings based on their scholarly significance without framing them as validation of contemporary social movements.",
+        "date_added": "2026-06-12",
+        "status": "suggested",
+        "example_text": "Archaeologists have discovered evidence of an ancient female-led society in the ruins of a city in present-day Turkiye.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/12/archaeologists-find-ancient-female-led-society-in-turkiye?traffic_source=rss",
+        "unbiased_text": "Archaeologists have discovered evidence of social structures in the ruins of an ancient city in present-day Turkiye, with researchers analyzing patterns of governance and authority distribution."
+      },
+      {
+        "pattern": "AI prediction spectacle technology validation",
+        "detail": "Treating AI model predictions of sporting outcomes as legitimate forecasting worthy of news coverage, validating speculative technology.",
+        "debias": "Avoid treating AI-generated predictions as newsworthy content; report on actual outcomes and expert analysis instead.",
+        "date_added": "2026-06-12",
+        "status": "suggested",
+        "example_text": "We asked four AI models to predict the winner of the 2026 FIFA World Cup.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/12/video-ai-models-predict-world-cup-results?traffic_source=rss",
+        "unbiased_text": "The 2026 FIFA World Cup has begun, with sports analysts offering various predictions based on team performance, player fitness, and tournament history."
+      },
+      {
+        "pattern": "Celebrity Palestine denial backlash amplification",
+        "detail": "Amplifying social media backlash against celebrity statements on Palestine to construct narrative of widespread condemnation.",
+        "debias": "Report celebrity statements and measure actual response magnitude rather than amplifying selective backlash as representative.",
+        "date_added": "2026-06-12",
+        "status": "suggested",
+        "example_text": "US actor Jerry Seinfeld is facing backlash after saying Palestine 'doesn't exist'.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/12/backlash-after-us-actor-jerry-seinfeld-says-palestine-doesnt?traffic_source=rss",
+        "unbiased_text": "US actor Jerry Seinfeld said Palestine 'doesn't exist' in a recent interview, generating responses on social media."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3780,6 +3820,16 @@
         "example_text": "Washington called the attacks a \"proportional response\", while Iranian media reported explosions on Qeshm Island.",
         "example_url": "https://www.france24.com/en/middle-east/20260610-us-iran-airstrikes-trump-tehran-downing-army-helicopter",
         "unbiased_text": "Washington characterized the attacks as proportional, while Iranian media reported explosions on Qeshm Island."
+      },
+      {
+        "pattern": "Boy who cried wolf self-awareness projection",
+        "detail": "Attributing skepticism about announced deals to a fable pattern while amplifying the very narrative that creates the skepticism.",
+        "debias": "Report on diplomatic announcements and their verification status without meta-commentary about credibility patterns.",
+        "date_added": "2026-06-12",
+        "status": "suggested",
+        "example_text": "Trump touts Iran deal: \"some people's response to this will be 'the boy who cried wolf'\"",
+        "example_url": "https://www.france24.com/en/trump-touts-iran-deal-some-people-s-response-to-this-will-be-the-boy-who-cried-wolf",
+        "unbiased_text": "Trump announced progress toward an Iran deal on Thursday, though confirmation from Iranian officials has not been received."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -5803,6 +5853,36 @@
         "example_text": "Can France's justice system really review 70,000 child sexual abuse cases in five weeks?",
         "example_url": "http://www.euronews.com/my-europe/2026/06/11/can-frances-justice-system-really-review-70000-child-sexual-abuse-cases-in-five-weeks",
         "unbiased_text": "France's justice system faces significant challenges in reviewing 70,000 child sexual abuse cases within the five-week deadline."
+      },
+      {
+        "pattern": "Spy animal sensationalism narrative",
+        "detail": "Elevating claims about wildlife surveillance to headline-level threat reporting without verification of operational feasibility or evidence.",
+        "debias": "Report on security claims with appropriate skepticism and verification, especially regarding technologically implausible scenarios.",
+        "date_added": "2026-06-12",
+        "status": "suggested",
+        "example_text": "China claims 'spy sea turtles' are studying its coastline",
+        "example_url": "http://www.euronews.com/2026/06/12/china-claims-spy-sea-turtles-are-studying-its-coastline",
+        "unbiased_text": "Chinese state media reported claims that foreign intelligence agencies could theoretically attach tracking devices to marine animals, though no specific evidence of such operations was provided."
+      },
+      {
+        "pattern": "Referee communication meme celebration",
+        "detail": "Elevating communication difficulties during sporting events to entertainment spectacle through internet meme validation.",
+        "debias": "Report on officiating decisions and their substance rather than celebrating communication failures as viral entertainment.",
+        "date_added": "2026-06-12",
+        "status": "suggested",
+        "example_text": "'Wait, what?': Players were left speechless as the referee explained the VAR decision in an apparent shaky English after a controversial red card.",
+        "example_url": "http://www.euronews.com/2026/06/12/nobody-knew-what-the-ref-was-saying-and-the-internet-loved-it-world-cups-first-meme-is-alr",
+        "unbiased_text": "A referee's VAR explanation during a match involved communication challenges, with the controversial red card decision requiring additional clarification to players."
+      },
+      {
+        "pattern": "Body double conspiracy legitimization",
+        "detail": "Treating internet speculation about celebrity body doubles as worthy of investigation and news coverage, legitimizing conspiracy thinking.",
+        "debias": "Avoid amplifying baseless conspiracy theories by treating them as newsworthy topics requiring investigation or debunking.",
+        "date_added": "2026-06-12",
+        "status": "suggested",
+        "example_text": "The internet is convinced Shakira was replaced by a body double at the 2026 World Cup. We review the footage to see how much truth there is to it.",
+        "example_url": "http://www.euronews.com/culture/2026/06/12/did-shakira-use-a-body-double-at-the-2026-world-cup-opening-ceremony",
+        "unbiased_text": "Shakira performed at the 2026 World Cup opening ceremony in Mexico City."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
