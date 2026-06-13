@@ -2156,6 +2156,26 @@
         "example_text": "US actor Jerry Seinfeld is facing backlash after saying Palestine 'doesn't exist'.",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/12/backlash-after-us-actor-jerry-seinfeld-says-palestine-doesnt?traffic_source=rss",
         "unbiased_text": "US actor Jerry Seinfeld said Palestine 'doesn't exist' in a recent interview, generating responses on social media."
+      },
+      {
+        "pattern": "Toxic alternative normalization framing",
+        "detail": "Framing dangerous substitute products as established alternatives rather than crisis-driven health hazards, normalizing life-threatening behaviors through neutral terminology.",
+        "debias": "Emphasize the health risks and crisis conditions forcing these dangerous substitutions rather than presenting them as viable alternatives.",
+        "date_added": "2026-06-13",
+        "status": "suggested",
+        "example_text": "Smokers in Gaza turn to toxic molokhia nicotine cigarettes as tobacco prices surge, causing serious health risks.",
+        "example_url": "https://www.aljazeera.com/features/longform/2026/6/13/molokhia-cigarettes-gazas-toxic-alternative-to-tobacco?traffic_source=rss",
+        "unbiased_text": "Desperate smokers in Gaza are poisoning themselves with makeshift molokhia cigarettes after tobacco became unaffordable, exposing them to severe health risks."
+      },
+      {
+        "pattern": "Equipment theft conspiracy setup",
+        "detail": "Presenting theft of sports equipment as potentially meaningful sabotage through headline framing rather than as routine crime, implying targeted disruption without evidence.",
+        "debias": "Report equipment thefts as criminal incidents without implying coordinated targeting unless evidence supports such conclusions.",
+        "date_added": "2026-06-13",
+        "status": "suggested",
+        "example_text": "England training equipment stolen ahead of squad's arrival in Kansas City",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/13/england-training-equipment-stolen-ahead-of-squads-arrival-in-kansas-city?traffic_source=rss",
+        "unbiased_text": "Training equipment bound for England's World Cup squad was stolen in Kansas City, local police confirmed."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3830,6 +3850,16 @@
         "example_text": "Trump touts Iran deal: \"some people's response to this will be 'the boy who cried wolf'\"",
         "example_url": "https://www.france24.com/en/trump-touts-iran-deal-some-people-s-response-to-this-will-be-the-boy-who-cried-wolf",
         "unbiased_text": "Trump announced progress toward an Iran deal on Thursday, though confirmation from Iranian officials has not been received."
+      },
+      {
+        "pattern": "Population cap catastrophism labeling",
+        "detail": "Framing demographic policy proposals as inherently catastrophic through loaded terminology in headlines, prejudging voter referendums before results.",
+        "debias": "Present referendum proposals neutrally, allowing readers to evaluate policy merits without pre-loaded catastrophic framing.",
+        "date_added": "2026-06-13",
+        "status": "suggested",
+        "example_text": "Swiss voters set to vote on capping population at 10 million",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/13/swiss-voters-set-to-vote-on-capping-population-at-10-million",
+        "unbiased_text": "Swiss voters will decide Sunday whether to cap the country's population at 10 million, a measure supporters say would preserve quality of life."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -5883,6 +5913,26 @@
         "example_text": "The internet is convinced Shakira was replaced by a body double at the 2026 World Cup. We review the footage to see how much truth there is to it.",
         "example_url": "http://www.euronews.com/culture/2026/06/12/did-shakira-use-a-body-double-at-the-2026-world-cup-opening-ceremony",
         "unbiased_text": "Shakira performed at the 2026 World Cup opening ceremony in Mexico City."
+      },
+      {
+        "pattern": "Fetal remains sensationalism quantification",
+        "detail": "Leading with estimated body counts and macabre discovery framing before establishing facts, amplifying shock value through projection rather than confirmed evidence.",
+        "debias": "Report forensic discoveries with confirmed facts first, avoiding sensational projections and macabre framing in headlines.",
+        "date_added": "2026-06-13",
+        "status": "suggested",
+        "example_text": "A macabre discovery was made in Lutoryż near Rzeszów, where renovation work on a plot uncovered human remains identified as foetuses.",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/13/humans-remains-found-in-polish-village-estimation-over-30-bodies",
+        "unbiased_text": "Human remains identified as fetal tissue were discovered during renovation work on property in Lutoryż near Rzeszów, prompting a police investigation."
+      },
+      {
+        "pattern": "Medical risk sports excitement warning",
+        "detail": "Medicalizing ordinary fan behavior by emphasizing cardiac risks of watching sports, creating health panic around normal emotional engagement with events.",
+        "debias": "Present medical advice for at-risk populations without implying that normal sports viewing poses danger to healthy individuals.",
+        "date_added": "2026-06-13",
+        "status": "suggested",
+        "example_text": "Watching your team play can send your heart racing as fast as if you were sprinting, and for some fans that carries genuine medical risks.",
+        "example_url": "http://www.euronews.com/health/2026/06/13/too-much-football-fever-why-some-world-cup-fans-should-limit-their-excitement",
+        "unbiased_text": "Doctors advise that fans with pre-existing heart conditions should monitor their stress levels during intense matches, as emotional excitement can affect cardiovascular health."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
