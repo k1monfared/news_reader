@@ -2176,6 +2176,36 @@
         "example_text": "England training equipment stolen ahead of squad's arrival in Kansas City",
         "example_url": "https://www.aljazeera.com/sports/2026/6/13/england-training-equipment-stolen-ahead-of-squads-arrival-in-kansas-city?traffic_source=rss",
         "unbiased_text": "Training equipment bound for England's World Cup squad was stolen in Kansas City, local police confirmed."
+      },
+      {
+        "pattern": "Export control sovereignty threat framing",
+        "detail": "Presenting technology export controls as barring foreigners from access rather than as national security measures, framing them as discriminatory restrictions.",
+        "debias": "Describe export controls neutrally as regulatory measures without presuming discriminatory intent or framing access as an entitlement.",
+        "date_added": "2026-06-14",
+        "status": "suggested",
+        "example_text": "Foreigners barred from accessing top AI models, underscoring Donald Trump's policy of export controls over high tech.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/14/us-asks-anthropic-to-block-global-access-to-top-ai-models-why-it-matters?traffic_source=rss",
+        "unbiased_text": "The US government has directed Anthropic to restrict access to its most advanced AI models as part of export control policies."
+      },
+      {
+        "pattern": "Name removal celebration framing",
+        "detail": "Highlighting removal of political figure's name from institutions as newsworthy achievement rather than routine administrative action.",
+        "debias": "Report name changes as administrative updates without celebratory or vindictive framing unless there is broader significance.",
+        "date_added": "2026-06-14",
+        "status": "suggested",
+        "example_text": "Trump's name has been removed from the Kennedy Center after a court ruling, but adorns many other things and places.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/14/donald-trumps-name-removed-from-kennedy-center?traffic_source=rss",
+        "unbiased_text": "A court ruling resulted in the removal of Trump's name from the Kennedy Center; his name remains on other properties and venues."
+      },
+      {
+        "pattern": "Historical continuity systemic abuse assertion",
+        "detail": "Framing current allegations as part of a longstanding pattern to suggest systematic institutional behavior rather than isolated incidents.",
+        "debias": "Report allegations based on current evidence without presuming systematic historical patterns unless comprehensively documented.",
+        "date_added": "2026-06-14",
+        "status": "suggested",
+        "example_text": "Sexual violence against Palestinians in Israeli custody is often framed as a post-October 7 issue. But historical record",
+        "example_url": "https://www.aljazeera.com/video/2026/6/14/sexual-violence-in-israeli-prisons-what-history-tells-us?traffic_source=rss",
+        "unbiased_text": "Reports of sexual violence against Palestinians in Israeli custody have emerged, with some analysts examining whether similar allegations have occurred historically."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3860,6 +3890,16 @@
         "example_text": "Swiss voters set to vote on capping population at 10 million",
         "example_url": "http://www.euronews.com/my-europe/2026/06/13/swiss-voters-set-to-vote-on-capping-population-at-10-million",
         "unbiased_text": "Swiss voters will decide Sunday whether to cap the country's population at 10 million, a measure supporters say would preserve quality of life."
+      },
+      {
+        "pattern": "Commitment fulfillment capability questioning",
+        "detail": "Using diplomatic statements to question a party's ability or willingness to honor agreements, casting doubt on negotiation sincerity.",
+        "debias": "Report diplomatic concerns without embedding them as rhetorical questions that presume bad faith or incapacity.",
+        "date_added": "2026-06-14",
+        "status": "suggested",
+        "example_text": "Iran's ⁠top ​negotiator on Sunday questioned the United States willingness to fulfill its commitments after Israel ​attacked ⁠Beirut's southern suburbs. In a post on X, Baqer Qalibaf referred to the ongoing peace negotiations between Tehran and Washington and warned that 'if you lack the will and ability to fulfill your commitments, speaking of continuing the path is not possible'.",
+        "example_url": "https://www.france24.com/en/middle-east/20260614-middle-east-war-live-trump-says-iran-deal-to-be-signed-sunday",
+        "unbiased_text": "Iran's top negotiator expressed concern about US commitment to peace negotiations following Israeli strikes on Beirut, stating that progress requires both parties to fulfill their obligations."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -5933,6 +5973,26 @@
         "example_text": "Watching your team play can send your heart racing as fast as if you were sprinting, and for some fans that carries genuine medical risks.",
         "example_url": "http://www.euronews.com/health/2026/06/13/too-much-football-fever-why-some-world-cup-fans-should-limit-their-excitement",
         "unbiased_text": "Doctors advise that fans with pre-existing heart conditions should monitor their stress levels during intense matches, as emotional excitement can affect cardiovascular health."
+      },
+      {
+        "pattern": "Compensation as vindication narrative",
+        "detail": "Framing financial compensation for administrative errors as vindication or moral victory rather than standard remedial action.",
+        "debias": "Report compensation as routine administrative remedy without suggesting it represents broader vindication or victory.",
+        "date_added": "2026-06-14",
+        "status": "suggested",
+        "example_text": "Full tournament salary will be paid to Somali referee Omar Artan by FIFA after his entry into the US was refused by border officials over 'association with suspected membres of terror organisations'.",
+        "example_url": "http://www.euronews.com/2026/06/14/after-refused-entry-into-us-somali-referee-omar-artan-will-be-paid-full-world-cup-fee-by-f",
+        "unbiased_text": "FIFA will pay the full tournament salary to Somali referee Omar Artan, who was unable to enter the US after being denied entry by border officials."
+      },
+      {
+        "pattern": "Festive mood celebration political neutralization",
+        "detail": "Describing public celebrations during politically sensitive periods as apolitical festive atmosphere to minimize underlying tensions.",
+        "debias": "Report celebrations with appropriate context about timing and political circumstances without minimizing their significance.",
+        "date_added": "2026-06-14",
+        "status": "suggested",
+        "example_text": "Australian supporters filled downtown Vancouver with chants and celebrations after the Socceroos defeated Turkey 2-0 in their opening match of the 2026 World Cup.",
+        "example_url": "http://www.euronews.com/video/2026/06/14/vancouver-turns-green-and-gold-after-australias-world-cup-win",
+        "unbiased_text": "Australian fans celebrated in downtown Vancouver following their team's 2-0 victory over Turkey in the World Cup opening match."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
