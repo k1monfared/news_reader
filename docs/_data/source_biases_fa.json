@@ -2454,6 +2454,41 @@
         "example_url": "https://www.aljazeera.com/video/2026/6/14/sexual-violence-in-israeli-prisons-what-history-tells-us?traffic_source=rss",
         "unbiased_text": "گزارش‌هایی از خشونت جنسی علیه فلسطینیان در بازداشت اسرائیل منتشر شده است و برخی تحلیلگران در حال بررسی این موضوع هستند که آیا اتهامات مشابهی در گذشته رخ داده است یا خیر.",
         "pattern_en": "Historical continuity systemic abuse assertion"
+      },
+      {
+        "pattern": "پارادوکس اعلام تکمیل قطعی توافق‌نامه",
+        "detail": "توصیف یک توافق به‌عنوان هم‌زمان «تکمیل‌شده» و نیازمند مراسم امضای بیشتر، که باعث سردرگمی درباره وضعیت واقعی آن می‌شود در حالی که حس پیشرفت را القا می‌کند.",
+        "debias": "مرحله دقیق مذاکرات را با تمایز بین توافقات اولیه، اسناد امضاشده و جدول‌های زمانی اجرا روشن کنید.",
+        "date_added": "2026-06-15",
+        "status": "suggested",
+        "example_text": "توافق با جمهوری اسلامی ایران اکنون تکمیل شده است",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/15/trump-says-iran-deal-all?traffic_source=rss",
+        "unbiased_text": "آمریکا و ایران به یک توافق اولیه رسیده‌اند و امضای رسمی برای روز جمعه برنامه‌ریزی شده است.",
+        "detail_items": [],
+        "pattern_en": "Tentative deal completion declaration paradox"
+      },
+      {
+        "pattern": "قاب‌بندی ادعای پیوند جدایی‌ناپذیر",
+        "detail": "ارائه ادعای یک طرف مبنی بر اینکه مسائل متعدد لزوماً به هم مرتبط هستند، به عنوان یک واقعیت ثابت به جای یک موضع مذاکره‌ای.",
+        "debias": "ادعاهای پیوند را به طرف‌های خاص نسبت دهید و توجه داشته باشید که بازیگران مختلف ممکن است ارتباطات میان مسائل را متفاوت ببینند.",
+        "date_added": "2026-06-15",
+        "status": "suggested",
+        "example_text": "سخنگوی وزارت امور خارجه ایران می‌گوید پایان دادن به جنگ در لبنان بخش «جدایی‌ناپذیر» توافق ایران و آمریکا است.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/15/iran-says-lebanon-assets-release-key-parts-of-peace-deal-with-us?traffic_source=rss",
+        "unbiased_text": "سخنگوی وزارت امور خارجه ایران اظهار داشت که از دیدگاه تهران، پایان دادن به جنگ در لبنان باید در توافق ایران و آمریکا گنجانده شود.",
+        "detail_items": [],
+        "pattern_en": "Inseparable linkage assertion framing"
+      },
+      {
+        "pattern": "تأکید وحشت‌آور بر سن سه‌ساله",
+        "detail": "برجسته‌سازی سن کم خاص کودکان کشته‌شده در تیترها به‌منظور به حداکثر رساندن تأثیر احساسی و قاب‌بندی حوادث به‌عنوان فجایعی ویژه.",
+        "debias": "گزارش تلفات کودکان با اطلاعات واقعی سنی در بافت متن بدون استفاده از سن به‌عنوان ابزار اصلی قاب‌بندی احساسی در تیترها.",
+        "date_added": "2026-06-15",
+        "status": "suggested",
+        "example_text": "نیروهای اسرائیلی پسر فلسطینی سه‌ساله را در مزرعه خانوادگی در غزه می‌کشند",
+        "example_url": "https://www.aljazeera.com/news/2026/6/15/israeli-forces-kill-three-year-old-palestinian-boy-on-family-farm-in-gaza",
+        "unbiased_text": "نیروهای اسرائیلی یک کودک فلسطینی را کشتند و پدرش را در مزرعه‌ای در غزه زخمی کردند، به گفته اعضای خانواده.",
+        "pattern_en": "Three-year-old age specification horror emphasis"
       }
     ]
   },
@@ -4306,6 +4341,52 @@
         "example_url": "https://www.france24.com/en/middle-east/20260614-middle-east-war-live-trump-says-iran-deal-to-be-signed-sunday",
         "unbiased_text": "مذاکره‌کننده ارشد ایران پس از حملات اسرائیل به بیروت، نگرانی خود را درباره تعهد ایالات متحده به مذاکرات صلح ابراز کرد و اظهار داشت که پیشرفت مستلزم انجام تعهدات توسط هر دو طرف است.",
         "pattern_en": "Commitment fulfillment capability questioning"
+      },
+      {
+        "pattern": "انتساب تحقیر از طریق قاب‌بندی شخص ثالث",
+        "detail": "توصیف یک رویداد به‌عنوان تحقیرآمیز با استناد به منبعی از کشور طرف ذی‌نفع، که اعتبار می‌بخشد به تفسیری ذهنی.",
+        "debias": "جزئیات محتوایی رویداد را ارائه دهید و ذکر کنید که توصیفاتی مانند «تحقیر» تفسیری هستند نه واقعیت محض.",
+        "date_added": "2026-06-15",
+        "status": "suggested",
+        "example_text": "به گزارش روزنامه اسرائیلی هاآرتص، بنیامین نتانیاهو نخست‌وزیر اسرائیل توسط دونالد ترامپ تحقیر شده است.",
+        "example_url": "https://www.france24.com/en/middle-east/20260615-what-we-know-us-iran-memorandum-understanding",
+        "unbiased_text": "روزنامه اسرائیلی هاآرتص درباره واکنش‌های داخل اسرائیل به توافق آمریکا و ایران گزارش داد، توافقی که بدون مشارکت مستقیم نتانیاهو به دست آمد.",
+        "pattern_en": "Humiliation attribution through third-party framing"
+      },
+      {
+        "pattern": "تقویت بیانیه‌های اشغال نامحدود",
+        "detail": "برجسته‌سازی بیانیه‌ها درباره حضور نظامی دائمی به‌عنوان چالش‌های مستقیم برای توافقات صلح، با تأکید بر موانع احتمالی به‌جای ظرافت‌های دیپلماتیک.",
+        "debias": "بیانیه‌های مربوط به استقرار نظامی را در کنار واکنش‌های دیپلماتیک گزارش کنید و روشن کنید که آیا این بیانیه‌ها سیاست رسمی هستند یا موضع‌گیری.",
+        "date_added": "2026-06-15",
+        "status": "suggested",
+        "example_text": "اسرائیل کاتز، وزیر دفاع اسرائیل، روز دوشنبه گفت که نیروهای زمینی اسرائیل در سرزمین‌هایی که در لبنان، سوریه و غزه در اختیار دارند باقی خواهند ماند و این موضوع احتمالاً با یادداشت تفاهمی که یک روز قبل اعلام شده بود، در تضاد است",
+        "example_url": "https://www.france24.com/en/middle-east/20260615-isreal-to-stay-indefinitely-in-lands-seized-in-lebanon-syria-and-gaza-says-defence-minister",
+        "unbiased_text": "اسرائیل کاتز، وزیر دفاع اسرائیل، اعلام کرد که نیروهای اسرائیلی موقعیت‌های فعلی خود را در لبنان، سوریه و غزه حفظ خواهند کرد. رابطه بین این بیانیه و یادداشت تفاهم آمریکا-ایران هنوز مشخص نیست زیرا جزئیات توافق به‌طور کامل افشا نشده است.",
+        "pattern_en": "Indefinite occupation declaration amplification"
+      },
+      {
+        "pattern": "گمانه‌زنی درباره لغو از طریق جنجال افراد مشهور",
+        "detail": "چارچوب‌بندی تبلیغات تجاری توسط افراد مشهور به‌عنوان رسوایی‌هایی که به‌طور بالقوه می‌توانند پایان‌دهنده شغل باشند، از طریق اصطلاح‌سازی ترکیبی تحریک‌آمیز.",
+        "debias": "واکنش‌های عمومی به تبلیغات افراد مشهور را به‌طور واقعی و بدون گمانه‌زنی درباره پیامدهای شغلی یا استفاده از زبان تحریک‌آمیز گزارش کنید.",
+        "date_added": "2026-06-15",
+        "status": "suggested",
+        "example_text": "«گوینوساید»: آیا Gwyneth Paltrow می‌تواند به خاطر تبلیغ املاک اسرائیل لغو شود؟",
+        "example_url": "https://www.france24.com/en/middle-east/20260615-what-we-know-us-iran-memorandum-understanding",
+        "unbiased_text": "Gwyneth Paltrow پس از حضور در یک تبلیغ برای املاک اسرائیل در رسانه‌های اجتماعی با انتقاد مواجه شده است.",
+        "detail_items": [],
+        "pattern_en": "Cancellation speculation through celebrity controversy"
+      },
+      {
+        "pattern": "توصیف تحقیرآمیز آتش‌بس به‌عنوان ترتیبی صرفاً مصلحتی",
+        "detail": "برچسب زدن به توافقات صلح به‌عنوان صرفاً ترتیبات «مصلحتی» به‌جای دستاوردهای دیپلماتیک، که مشروعیت و پایداری آن‌ها را تضعیف می‌کند.",
+        "debias": "توافقات را بر اساس شرایط و اهداف اعلام‌شده آن‌ها توصیف کنید بدون این‌که انگیزه‌های زیربنایی طرف‌ها را بدبینانه توصیف کنید.",
+        "date_added": "2026-06-15",
+        "status": "suggested",
+        "example_text": "روزنامه‌ها درباره «آتش‌بس مصلحتی» آمریکا و ایران بحث می‌کنند.",
+        "example_url": "https://www.france24.com/en/middle-east/20260615-what-we-know-us-iran-memorandum-understanding",
+        "unbiased_text": "روزنامه‌ها درباره توافق آمریکا و ایران برای پایان دادن به خصومت‌ها بحث می‌کنند.",
+        "detail_items": [],
+        "pattern_en": "Truce of convenience dismissive characterization"
       }
     ]
   },

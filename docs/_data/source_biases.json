@@ -2206,6 +2206,36 @@
         "example_text": "Sexual violence against Palestinians in Israeli custody is often framed as a post-October 7 issue. But historical record",
         "example_url": "https://www.aljazeera.com/video/2026/6/14/sexual-violence-in-israeli-prisons-what-history-tells-us?traffic_source=rss",
         "unbiased_text": "Reports of sexual violence against Palestinians in Israeli custody have emerged, with some analysts examining whether similar allegations have occurred historically."
+      },
+      {
+        "pattern": "Tentative deal completion declaration paradox",
+        "detail": "Describing a deal as simultaneously 'complete' and requiring further signing ceremonies, creating confusion about its actual status while projecting momentum.",
+        "debias": "Clarify the precise stage of negotiations by distinguishing between preliminary agreements, signed documents, and implementation timelines.",
+        "date_added": "2026-06-15",
+        "status": "suggested",
+        "example_text": "The Deal with the Islamic Republic of Iran is now complete",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/15/trump-says-iran-deal-all?traffic_source=rss",
+        "unbiased_text": "The US and Iran have reached a preliminary agreement, with formal signing scheduled for Friday."
+      },
+      {
+        "pattern": "Inseparable linkage assertion framing",
+        "detail": "Presenting one party's claim that multiple issues are necessarily connected as established fact rather than a negotiating position.",
+        "debias": "Attribute linkage claims to specific parties and note that different actors may view issue connections differently.",
+        "date_added": "2026-06-15",
+        "status": "suggested",
+        "example_text": "Iran's foreign ministry spokesperson says ending the war in Lebanon is an 'inseparable' part of the US-Iran agreement.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/15/iran-says-lebanon-assets-release-key-parts-of-peace-deal-with-us?traffic_source=rss",
+        "unbiased_text": "Iran's foreign ministry spokesperson stated that, from Tehran's perspective, ending the war in Lebanon should be included in the US-Iran agreement."
+      },
+      {
+        "pattern": "Three-year-old age specification horror emphasis",
+        "detail": "Foregrounding the specific young age of child casualties in headlines to maximize emotional impact and frame incidents as particularly egregious.",
+        "debias": "Report child casualties with factual age information in context without using age as the primary emotional framing device in headlines.",
+        "date_added": "2026-06-15",
+        "status": "suggested",
+        "example_text": "Israeli forces kill three-year-old Palestinian boy on family farm in Gaza",
+        "example_url": "https://www.aljazeera.com/news/2026/6/15/israeli-forces-kill-three-year-old-palestinian-boy-on-family-farm-in-gaza",
+        "unbiased_text": "Israeli forces killed a Palestinian child and wounded his father on a farm in Gaza, according to family members."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3900,6 +3930,46 @@
         "example_text": "Iran's ⁠top ​negotiator on Sunday questioned the United States willingness to fulfill its commitments after Israel ​attacked ⁠Beirut's southern suburbs. In a post on X, Baqer Qalibaf referred to the ongoing peace negotiations between Tehran and Washington and warned that 'if you lack the will and ability to fulfill your commitments, speaking of continuing the path is not possible'.",
         "example_url": "https://www.france24.com/en/middle-east/20260614-middle-east-war-live-trump-says-iran-deal-to-be-signed-sunday",
         "unbiased_text": "Iran's top negotiator expressed concern about US commitment to peace negotiations following Israeli strikes on Beirut, stating that progress requires both parties to fulfill their obligations."
+      },
+      {
+        "pattern": "Humiliation attribution through third-party framing",
+        "detail": "Characterizing an event as humiliating by citing a source from the affected party's own country, lending credibility to a subjective interpretation.",
+        "debias": "Present the event's substantive details and note that characterizations like 'humiliation' are interpretive rather than factual.",
+        "date_added": "2026-06-15",
+        "status": "suggested",
+        "example_text": "According to the Israeli paper Haaretz, Israel's Benjamin Netanyahu is humiliated by Donald Trump.",
+        "example_url": "https://www.france24.com/en/middle-east/20260615-what-we-know-us-iran-memorandum-understanding",
+        "unbiased_text": "The Israeli newspaper Haaretz reported on reactions in Israel to the US-Iran agreement, which was reached without Netanyahu's direct participation."
+      },
+      {
+        "pattern": "Indefinite occupation declaration amplification",
+        "detail": "Highlighting statements about permanent military presence as direct challenges to peace agreements, emphasizing potential obstruction over diplomatic nuance.",
+        "debias": "Report military positioning statements alongside diplomatic responses and clarify whether they represent policy or posturing.",
+        "date_added": "2026-06-15",
+        "status": "suggested",
+        "example_text": "Israeli Defence Minister Israel Katz said on Monday that Israeli ground forces would remain in land they hold in Lebanon, Syria and Gaza, potentially challenging a memorandum of understanding announced a day earlier",
+        "example_url": "https://www.france24.com/en/middle-east/20260615-isreal-to-stay-indefinitely-in-lands-seized-in-lebanon-syria-and-gaza-says-defence-minister",
+        "unbiased_text": "Israeli Defence Minister Israel Katz stated that Israeli forces would maintain their current positions in Lebanon, Syria and Gaza. The relationship between this statement and the US-Iran memorandum remains unclear as details of the agreement have not been fully disclosed."
+      },
+      {
+        "pattern": "Cancellation speculation through celebrity controversy",
+        "detail": "Framing commercial endorsements by celebrities as potential career-ending scandals through provocative portmanteau terminology.",
+        "debias": "Report on public reactions to celebrity endorsements factually without speculating on career consequences or using inflammatory language.",
+        "date_added": "2026-06-15",
+        "status": "suggested",
+        "example_text": "'Gwynocide': Could Gwyneth Paltrow be cancelled over her Israeli real estate ad?",
+        "example_url": "https://www.france24.com/en/middle-east/20260615-what-we-know-us-iran-memorandum-understanding",
+        "unbiased_text": "Gwyneth Paltrow has faced criticism on social media following her appearance in an advertisement for Israeli real estate."
+      },
+      {
+        "pattern": "Truce of convenience dismissive characterization",
+        "detail": "Labeling peace agreements as merely 'convenient' arrangements rather than diplomatic achievements, undermining their legitimacy and durability.",
+        "debias": "Describe agreements by their terms and stated objectives without characterizing parties' underlying motivations as cynical.",
+        "date_added": "2026-06-15",
+        "status": "suggested",
+        "example_text": "Papers discuss the US-Iran \"truce of convenience\".",
+        "example_url": "https://www.france24.com/en/middle-east/20260615-what-we-know-us-iran-memorandum-understanding",
+        "unbiased_text": "Papers discuss the US-Iran agreement to end hostilities."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
