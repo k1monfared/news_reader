@@ -2489,6 +2489,28 @@
         "example_url": "https://www.aljazeera.com/news/2026/6/15/israeli-forces-kill-three-year-old-palestinian-boy-on-family-farm-in-gaza",
         "unbiased_text": "نیروهای اسرائیلی یک کودک فلسطینی را کشتند و پدرش را در مزرعه‌ای در غزه زخمی کردند، به گفته اعضای خانواده.",
         "pattern_en": "Three-year-old age specification horror emphasis"
+      },
+      {
+        "pattern": "قاب‌بندی حذف نزدیکی مکان خنثی",
+        "detail": "تأکید بر جزئیات مکانی که به یک روایت کمک می‌کند در حالی که نزدیکی جغرافیایی که چالش‌های هماهنگی لجستیکی را آشکار می‌کند حذف می‌شود.",
+        "debias": "تمام جزئیات جغرافیایی مرتبطی که بر امکان‌پذیری عملیاتی تأثیر می‌گذارند را بدون حذف گزینشی درج کنید.",
+        "date_added": "2026-06-16",
+        "status": "suggested",
+        "example_text": "قوانین ویزای آمریکا هواداران جام جهانی سنگال را پشت سر می‌گذارد",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/16/us-visa-rules-leave-senegals-world-cup-fans-behind?traffic_source=rss",
+        "unbiased_text": "هواداران سنگالی با چالش‌های پردازش ویزا برای بازی‌های جام جهانی در آمریکای شمالی مواجه هستند",
+        "pattern_en": "Netural-venue proximity omission framing"
+      },
+      {
+        "pattern": "قاب‌بندی ستم برای ناراحتی لجستیکی",
+        "detail": "توصیف تصمیمات عملیاتی استاندارد یا چالش‌های لجستیکی به‌عنوان ستم عمدی یا آزار و اذیت.",
+        "debias": "تصمیمات لجستیکی را به‌عنوان مسائل عملیاتی توصیف کنید بدون نسبت دادن انگیزه‌های آزار سیستماتیک.",
+        "date_added": "2026-06-16",
+        "status": "suggested",
+        "example_text": "مربی ایران می‌گوید تیم از هرج و مرج سفر پس از تساوی با نیوزیلند در جام‌جهانی «مورد ستم قرار گرفت»",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/16/iran-coach-says-team-oppressed-by-travel-chaos-after-world-cup-nz-draw?traffic_source=rss",
+        "unbiased_text": "مربی ایران از لجستیک سفر انتقاد می‌کند پس از اینکه تیم مجبور به جابه‌جایی بین مسابقات شد",
+        "pattern_en": "Oppression framing for logistical inconvenience"
       }
     ]
   },
@@ -4387,6 +4409,39 @@
         "unbiased_text": "روزنامه‌ها درباره توافق آمریکا و ایران برای پایان دادن به خصومت‌ها بحث می‌کنند.",
         "detail_items": [],
         "pattern_en": "Truce of convenience dismissive characterization"
+      },
+      {
+        "pattern": "سلاح‌سازی تمایز معنایی بین عوارض و هزینه",
+        "detail": "برخورد با اصطلاحات معنایی مشابه به‌عنوان اصطلاحات اساساً متفاوت برای القای تناقض یا فریب در جایی که ماهیت عملیاتی یکسان است.",
+        "debias": "بر واقعیت عملیاتی ماهوی تمرکز کنید تا بر تمایزهای معنایی میان اصطلاحات کارکردی معادل.",
+        "date_added": "2026-06-16",
+        "status": "suggested",
+        "example_text": "توافق با ایران به تهران اجازه می‌دهد هزینه‌های خدمات دریایی را برای تردد از تنگه هرمز دریافت کند، وزارتخانه می‌گوید",
+        "example_url": "https://www.france24.com/en/iran-deal-allows-tehran-to-charge-maritime-service-fees-on-hormuz-strait-transit-ministry-days",
+        "unbiased_text": "ایران اصطلاح‌شناسی هزینه‌های تردد از تنگه هرمز را تحت توافق جدید روشن می‌کند",
+        "pattern_en": "Toll versus fee semantic distinction weaponization"
+      },
+      {
+        "pattern": "تقویت لغو مشاهیر در املاک و مستغلات",
+        "detail": "ارتقای فعالیت‌های تجاری مشاهیر به جنجال‌های سیاسی که شایسته پیامدهای پایان‌دهنده شغلی هستند از طریق قاب‌بندی خشم اخلاقی.",
+        "debias": "جنجال‌های مشاهیر را متناسب با تأثیر واقعی آن‌ها گزارش کنید بدون تقویت کمپین‌های لغو.",
+        "date_added": "2026-06-16",
+        "status": "suggested",
+        "example_text": "«گوینوساید»: آیا گوینث پالترو می‌تواند به خاطر تبلیغ املاک اسرائیلی‌اش لغو شود؟",
+        "example_url": "https://www.france24.com/en/tv-shows/press-review/20260615-gwynocide-could-gwyneth-paltrow-be-cancelled-over-her-israeli-real-estate-ad",
+        "unbiased_text": "گوینث پالترو به خاطر تأیید املاک اسرائیلی با انتقاد مواجه است",
+        "pattern_en": "Celebrity real estate cancellation amplification"
+      },
+      {
+        "pattern": "تأکید بر تداوم بی‌اعتمادی علی‌رغم چارچوب توافق",
+        "detail": "تأکید بر بی‌اعتمادی پایدار حتی پس از پیشرفت‌های دیپلماتیک به منظور القای بی‌معنا بودن یا محکوم به شکست بودن توافقات.",
+        "debias": "توافقات دیپلماتیک را به عنوان پتانسیل تحول‌آفرین ارائه دهید در حالی که تنش‌های تاریخی را بدون پیش‌داوری درباره شکست آن‌ها به رسمیت می‌شناسید.",
+        "date_added": "2026-06-16",
+        "status": "suggested",
+        "example_text": "وزارت امور خارجه ایران روز دوشنبه اعلام کرد که تهران همچنان نسبت به ایالات متحده «بی‌اعتمادی عمیق» دارد، علی‌رغم چارچوب توافق‌شده با هدف پایان دادن به جنگ.",
+        "example_url": "https://www.france24.com/en/iran-s-foreign-ministry-says-deep-mistrust-in-us-remains-despite-deal",
+        "unbiased_text": "وزارت امور خارجه ایران با اذعان به تنش‌های تاریخی با ایالات متحده، چارچوب توافق‌شده برای پایان دادن به جنگ را تأیید کرد.",
+        "pattern_en": "Mistrust permanence despite agreement framing"
       }
     ]
   },

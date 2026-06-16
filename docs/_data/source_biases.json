@@ -2236,6 +2236,26 @@
         "example_text": "Israeli forces kill three-year-old Palestinian boy on family farm in Gaza",
         "example_url": "https://www.aljazeera.com/news/2026/6/15/israeli-forces-kill-three-year-old-palestinian-boy-on-family-farm-in-gaza",
         "unbiased_text": "Israeli forces killed a Palestinian child and wounded his father on a farm in Gaza, according to family members."
+      },
+      {
+        "pattern": "Netural-venue proximity omission framing",
+        "detail": "Emphasizing location details that favor one narrative while omitting geographic proximity that would reveal logistical coordination challenges.",
+        "debias": "Include all relevant geographic details that affect operational feasibility without selective omission.",
+        "date_added": "2026-06-16",
+        "status": "suggested",
+        "example_text": "US visa rules leave Senegal's World Cup fans behind",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/16/us-visa-rules-leave-senegals-world-cup-fans-behind?traffic_source=rss",
+        "unbiased_text": "Senegalese fans face visa processing challenges for World Cup matches in North America"
+      },
+      {
+        "pattern": "Oppression framing for logistical inconvenience",
+        "detail": "Characterizing standard operational decisions or logistical challenges as deliberate oppression or persecution.",
+        "debias": "Describe logistical decisions as operational matters without imputing systematic persecution motives.",
+        "date_added": "2026-06-16",
+        "status": "suggested",
+        "example_text": "Iran coach says team 'oppressed' by travel chaos after World Cup NZ draw",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/16/iran-coach-says-team-oppressed-by-travel-chaos-after-world-cup-nz-draw?traffic_source=rss",
+        "unbiased_text": "Iran coach criticizes travel logistics after team forced to relocate between matches"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -3970,6 +3990,36 @@
         "example_text": "Papers discuss the US-Iran \"truce of convenience\".",
         "example_url": "https://www.france24.com/en/middle-east/20260615-what-we-know-us-iran-memorandum-understanding",
         "unbiased_text": "Papers discuss the US-Iran agreement to end hostilities."
+      },
+      {
+        "pattern": "Toll versus fee semantic distinction weaponization",
+        "detail": "Treating semantically similar terms as fundamentally different to suggest contradiction or deception where operational substance is identical.",
+        "debias": "Focus on the substantive operational reality rather than semantic distinctions between functionally equivalent terms.",
+        "date_added": "2026-06-16",
+        "status": "suggested",
+        "example_text": "Iran deal allows Tehran to charge maritime service fees on Hormuz Strait transit, ministry days",
+        "example_url": "https://www.france24.com/en/iran-deal-allows-tehran-to-charge-maritime-service-fees-on-hormuz-strait-transit-ministry-days",
+        "unbiased_text": "Iran clarifies terminology for Hormuz Strait transit charges under new agreement"
+      },
+      {
+        "pattern": "Celebrity real estate cancellation amplification",
+        "detail": "Elevating celebrity commercial activities into political controversies worthy of career-ending consequences through moral outrage framing.",
+        "debias": "Report celebrity controversies proportionally to their substantive impact without amplifying cancellation campaigns.",
+        "date_added": "2026-06-16",
+        "status": "suggested",
+        "example_text": "'Gwynocide': Could Gwyneth Paltrow be cancelled over her Israeli real estate ad?",
+        "example_url": "https://www.france24.com/en/tv-shows/press-review/20260615-gwynocide-could-gwyneth-paltrow-be-cancelled-over-her-israeli-real-estate-ad",
+        "unbiased_text": "Gwyneth Paltrow faces criticism over Israeli real estate endorsement"
+      },
+      {
+        "pattern": "Mistrust permanence despite agreement framing",
+        "detail": "Emphasizing persistent distrust even after diplomatic breakthroughs to suggest agreements are meaningless or doomed.",
+        "debias": "Present diplomatic agreements as potentially transformative while acknowledging historical tensions without predetermined failure.",
+        "date_added": "2026-06-16",
+        "status": "suggested",
+        "example_text": "Iran's foreign ministry said on Monday that Tehran still holds 'deep mistrust' of the United States despite an agreed framework aimed at ending the war.",
+        "example_url": "https://www.france24.com/en/iran-s-foreign-ministry-says-deep-mistrust-in-us-remains-despite-deal",
+        "unbiased_text": "Iran's foreign ministry acknowledged historical tensions with the United States while confirming the agreed framework to end the war."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
