@@ -2256,6 +2256,26 @@
         "example_text": "Iran coach says team 'oppressed' by travel chaos after World Cup NZ draw",
         "example_url": "https://www.aljazeera.com/sports/2026/6/16/iran-coach-says-team-oppressed-by-travel-chaos-after-world-cup-nz-draw?traffic_source=rss",
         "unbiased_text": "Iran coach criticizes travel logistics after team forced to relocate between matches"
+      },
+      {
+        "pattern": "Dual characterization paradox framing",
+        "detail": "Presenting contradictory qualities of a leader side-by-side without clarifying context, creating confusion about intent or meaning.",
+        "debias": "Provide the full context of remarks to clarify whether contradictory characterizations are complimentary, critical, or contextually dependent.",
+        "date_added": "2026-06-17",
+        "status": "suggested",
+        "example_text": "President Donald Trump praised Indian Prime Minister Narendra Modi as a \"killer\" and an \"angel\" at the G7 in France.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/17/trump-calls-modi-a-killer-and-an?traffic_source=rss",
+        "unbiased_text": "President Donald Trump made remarks about Indian Prime Minister Narendra Modi at the G7 in France, calling him both a \"killer\" in negotiations and an \"angel\" in diplomatic relations."
+      },
+      {
+        "pattern": "Bribery accusation elevation without context",
+        "detail": "Amplifying accusations of bribery regarding diplomatic agreements without explaining the nature of negotiated incentives or settlements.",
+        "debias": "Distinguish between negotiated incentives in diplomacy and corrupt bribery, providing proper context for what agreements entailed.",
+        "date_added": "2026-06-17",
+        "status": "suggested",
+        "example_text": "US President Donald Trump has accused his predecessor Barack Obama of 'bribing' Iran to agree to the 2015 nuclear deal.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/17/trump-accuses-obama-of-bribing-iran-in-2015-nuclear-deal-at-g7-summit?traffic_source=rss",
+        "unbiased_text": "US President Donald Trump criticized his predecessor Barack Obama's approach to the 2015 nuclear deal, characterizing the economic sanctions relief as improper inducement to Iran."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4020,6 +4040,16 @@
         "example_text": "Iran's foreign ministry said on Monday that Tehran still holds 'deep mistrust' of the United States despite an agreed framework aimed at ending the war.",
         "example_url": "https://www.france24.com/en/iran-s-foreign-ministry-says-deep-mistrust-in-us-remains-despite-deal",
         "unbiased_text": "Iran's foreign ministry acknowledged historical tensions with the United States while confirming the agreed framework to end the war."
+      },
+      {
+        "pattern": "Deal collapse precondition emphasis",
+        "detail": "Highlighting specific conditions that could unravel agreements before they are formalized, framing deals as fragile or likely to fail.",
+        "debias": "Report agreement conditions neutrally without emphasizing potential failure scenarios disproportionately to success indicators.",
+        "date_added": "2026-06-17",
+        "status": "suggested",
+        "example_text": "Iran's top diplomat said Tuesday that the tentative deal to end the war with the United States would require Israel to withdraw from Lebanon – a condition Israel has already rejected and that could unravel the deal and reignite an all-out war.",
+        "example_url": "https://www.france24.com/en/middle-east/20260616-middle-east-live-vance-says-strait-of-hormuz-will-reopen-without-tolls",
+        "unbiased_text": "Iran's top diplomat said Tuesday that the tentative deal to end the war with the United States includes a requirement for Israeli withdrawal from Lebanon, a point on which Israel and Iran have differing positions that will need to be resolved in negotiations."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -6113,6 +6143,26 @@
         "example_text": "Australian supporters filled downtown Vancouver with chants and celebrations after the Socceroos defeated Turkey 2-0 in their opening match of the 2026 World Cup.",
         "example_url": "http://www.euronews.com/video/2026/06/14/vancouver-turns-green-and-gold-after-australias-world-cup-win",
         "unbiased_text": "Australian fans celebrated in downtown Vancouver following their team's 2-0 victory over Turkey in the World Cup opening match."
+      },
+      {
+        "pattern": "Leaked document sensationalism framing",
+        "detail": "Presenting leaked drafts or unofficial documents as revelatory or definitive before official confirmation, amplifying their significance.",
+        "debias": "Clearly label documents as drafts or leaks and note their unofficial status, avoiding treating them as confirmed policy until verified.",
+        "date_added": "2026-06-17",
+        "status": "suggested",
+        "example_text": "It remains unclear whether the 14-point draft that was circulated at G7 meetings in France will be the version formalised at a ceremony in Switzerland on Friday.",
+        "example_url": "http://www.euronews.com/2026/06/17/read-the-full-text-of-the-leaked-14-point-us-iran-draft-agreement",
+        "unbiased_text": "A 14-point draft document was circulated at G7 meetings in France, though officials have not confirmed whether this version will be the final agreement formalized at Friday's ceremony in Switzerland."
+      },
+      {
+        "pattern": "Flatmate microbiome mundane discovery celebration",
+        "detail": "Presenting unsurprising scientific findings about cohabitation effects as newsworthy revelations worthy of special attention.",
+        "debias": "Contextualize routine scientific findings within expected outcomes and focus on genuinely novel aspects if present.",
+        "date_added": "2026-06-17",
+        "status": "suggested",
+        "example_text": "You may share more than the kitchen with your flatmates: people who live together share parts of their oral and gut microbiome, according to a new study by the University of Trento in Italy.",
+        "example_url": "http://www.euronews.com/health/2026/06/17/shared-home-shared-microbiome-study-says-flatmates-swap-gut-bacteria",
+        "unbiased_text": "A study by the University of Trento in Italy found that people who live together share parts of their oral and gut microbiome, confirming that close cohabitation affects microbial communities as expected."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
