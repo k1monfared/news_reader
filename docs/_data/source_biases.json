@@ -2276,6 +2276,26 @@
         "example_text": "US President Donald Trump has accused his predecessor Barack Obama of 'bribing' Iran to agree to the 2015 nuclear deal.",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/17/trump-accuses-obama-of-bribing-iran-in-2015-nuclear-deal-at-g7-summit?traffic_source=rss",
         "unbiased_text": "US President Donald Trump criticized his predecessor Barack Obama's approach to the 2015 nuclear deal, characterizing the economic sanctions relief as improper inducement to Iran."
+      },
+      {
+        "pattern": "Democratic ideology preemptive labeling",
+        "detail": "Pre-labeling a political candidate with ideological terms in headlines before describing their positions or qualifications.",
+        "debias": "Describe candidates' positions and qualifications before applying ideological labels, allowing readers to form their own assessments.",
+        "date_added": "2026-06-18",
+        "status": "suggested",
+        "example_text": "US progressive Lewis George on track to become DC mayor after Trump threats",
+        "example_url": "https://www.aljazeera.com/news/2026/6/18/us-progressive-lewis-george-on-track-to-become-dc-mayor-after-trump-threats?traffic_source=rss",
+        "unbiased_text": "US Democrat Lewis George on track to become DC mayor after Trump threats"
+      },
+      {
+        "pattern": "Arrest justification travel authority framing",
+        "detail": "Framing an athlete's inability to travel as being 'unauthorised' due to an arrest, implying legal restriction rather than administrative process.",
+        "debias": "Clarify whether travel restrictions are legal requirements or administrative decisions by sports authorities.",
+        "date_added": "2026-06-18",
+        "status": "suggested",
+        "example_text": "Wahi was unauthorised for travel after he was reportedly arrested last month in a French spot-fixing investigation.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/18/world-cup-ivory-coasts-elye-wahi-denied-canada-entry-for-germany-match?traffic_source=rss",
+        "unbiased_text": "Wahi was denied entry to Canada after he was reportedly arrested last month in a French spot-fixing investigation."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4050,6 +4070,26 @@
         "example_text": "Iran's top diplomat said Tuesday that the tentative deal to end the war with the United States would require Israel to withdraw from Lebanon – a condition Israel has already rejected and that could unravel the deal and reignite an all-out war.",
         "example_url": "https://www.france24.com/en/middle-east/20260616-middle-east-live-vance-says-strait-of-hormuz-will-reopen-without-tolls",
         "unbiased_text": "Iran's top diplomat said Tuesday that the tentative deal to end the war with the United States includes a requirement for Israeli withdrawal from Lebanon, a point on which Israel and Iran have differing positions that will need to be resolved in negotiations."
+      },
+      {
+        "pattern": "Disaster terminology diplomatic characterization",
+        "detail": "Using extreme language like 'disaster' or 'catastrophic' to characterize diplomatic agreements from one nation's perspective.",
+        "debias": "Use neutral descriptors of diplomatic outcomes and let specific criticisms speak for themselves without catastrophizing.",
+        "date_added": "2026-06-18",
+        "status": "suggested",
+        "example_text": "For Israel, US-Iran deal a 'disaster' incompatible with its security interests",
+        "example_url": "https://www.france24.com/en/for-israel-us-iran-deal-a-disaster-incompatible-with-its-security-interests",
+        "unbiased_text": "For Israel, US-Iran deal raises concerns about compatibility with its security interests"
+      },
+      {
+        "pattern": "Winner-loser binary diplomatic framing",
+        "detail": "Framing complex diplomatic agreements through explicit 'winner' and 'loser' language that reduces nuanced outcomes to zero-sum competitions.",
+        "debias": "Describe specific gains and concessions for each party without declaring absolute winners and losers.",
+        "date_added": "2026-06-18",
+        "status": "suggested",
+        "example_text": "Tehran comes out as the 'winner' of the initial US - Iran deal",
+        "example_url": "https://www.france24.com/en/tehran-comes-out-as-the-winner-of-the-initial-us-iran-deal",
+        "unbiased_text": "Tehran gains significant concessions in the initial US - Iran deal"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -6163,6 +6203,26 @@
         "example_text": "You may share more than the kitchen with your flatmates: people who live together share parts of their oral and gut microbiome, according to a new study by the University of Trento in Italy.",
         "example_url": "http://www.euronews.com/health/2026/06/17/shared-home-shared-microbiome-study-says-flatmates-swap-gut-bacteria",
         "unbiased_text": "A study by the University of Trento in Italy found that people who live together share parts of their oral and gut microbiome, confirming that close cohabitation affects microbial communities as expected."
+      },
+      {
+        "pattern": "Proto-prefix archaeological sensationalism",
+        "detail": "Using 'proto-' prefix to amplify archaeological discoveries by suggesting they predate or predict famous monuments, creating artificial hierarchies.",
+        "debias": "Describe archaeological discoveries on their own merits without establishing causal or hierarchical relationships to better-known sites.",
+        "date_added": "2026-06-18",
+        "status": "suggested",
+        "example_text": "Archaeologists discover 5,000-year-old 'proto-Stonehenge' just a few miles from the famous monument",
+        "example_url": "http://www.euronews.com/culture/2026/06/18/archaeologists-discover-5000-year-old-proto-stonehenge-just-a-few-miles-from-the-famous-mo",
+        "unbiased_text": "Archaeologists discover 5,000-year-old wooden posts aligned with solar events just a few miles from Stonehenge"
+      },
+      {
+        "pattern": "Captain fantastic sports hero elevation",
+        "detail": "Using exaggerated heroic epithets like 'captain fantastic' in headlines to valorize individual athletic performances beyond neutral reporting.",
+        "debias": "Report athletic achievements with specific performance details rather than superhero-style characterizations.",
+        "date_added": "2026-06-18",
+        "status": "suggested",
+        "example_text": "England's captain fantastic: Harry Kane praised for a 'complete performance' against Croatia",
+        "example_url": "http://www.euronews.com/2026/06/18/englands-captain-fantastic-harry-kane-praised-for-a-complete-performance-against-croatia",
+        "unbiased_text": "England's captain Harry Kane praised for strong performance in 4-2 win against Croatia"
       }
     ],
     "notes": "Reliable but limited conflict coverage"

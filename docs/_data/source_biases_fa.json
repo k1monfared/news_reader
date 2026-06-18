@@ -2533,6 +2533,28 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/17/trump-accuses-obama-of-bribing-iran-in-2015-nuclear-deal-at-g7-summit?traffic_source=rss",
         "unbiased_text": "رئیس‌جمهور آمریکا دونالد ترامپ از رویکرد سلف خود باراک اوباما نسبت به توافق هسته‌ای ۲۰۱۵ انتقاد کرد و لغو تحریم‌های اقتصادی را به‌عنوان ترغیب نامناسب ایران توصیف کرد.",
         "pattern_en": "Bribery accusation elevation without context"
+      },
+      {
+        "pattern": "برچسب‌زنی پیشاپیش ایدئولوژیک دموکرات‌ها",
+        "detail": "برچسب‌زنی پیشاپیش یک نامزد سیاسی با اصطلاحات ایدئولوژیک در تیترها قبل از توصیف مواضع یا صلاحیت‌های آن‌ها.",
+        "debias": "ابتدا مواضع و صلاحیت‌های نامزدها را توصیف کنید و سپس برچسب‌های ایدئولوژیک را اعمال کنید، تا خوانندگان بتوانند ارزیابی‌های خود را شکل دهند.",
+        "date_added": "2026-06-18",
+        "status": "suggested",
+        "example_text": "لوئیس جورج ترقی‌خواه آمریکایی در مسیر تبدیل شدن به شهردار دی‌سی پس از تهدیدهای ترامپ",
+        "example_url": "https://www.aljazeera.com/news/2026/6/18/us-progressive-lewis-george-on-track-to-become-dc-mayor-after-trump-threats?traffic_source=rss",
+        "unbiased_text": "لوئیس جورج دموکرات آمریکایی در مسیر تبدیل شدن به شهردار دی‌سی پس از تهدیدهای ترامپ",
+        "pattern_en": "Democratic ideology preemptive labeling"
+      },
+      {
+        "pattern": "قاب‌بندی اختیارات سفر با توجیه دستگیری",
+        "detail": "قاب‌بندی ناتوانی یک ورزشکار در سفر به‌عنوان «غیرمجاز» به دلیل دستگیری، که به جای فرایند اداری، محدودیت قانونی را القا می‌کند.",
+        "debias": "روشن کنید که آیا محدودیت‌های سفر الزامات قانونی هستند یا تصمیمات اداری مقامات ورزشی.",
+        "date_added": "2026-06-18",
+        "status": "suggested",
+        "example_text": "واهی پس از آنکه گزارش شد ماه گذشته در یک تحقیقات تبانی در فرانسه دستگیر شده، برای سفر غیرمجاز بود.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/18/world-cup-ivory-coasts-elye-wahi-denied-canada-entry-for-germany-match?traffic_source=rss",
+        "unbiased_text": "واهی پس از آنکه گزارش شد ماه گذشته در یک تحقیقات تبانی در فرانسه دستگیر شده، از ورود به کانادا منع شد.",
+        "pattern_en": "Arrest justification travel authority framing"
       }
     ]
   },
@@ -4475,6 +4497,28 @@
         "example_url": "https://www.france24.com/en/middle-east/20260616-middle-east-live-vance-says-strait-of-hormuz-will-reopen-without-tolls",
         "unbiased_text": "دیپلمات ارشد ایران روز سه‌شنبه گفت که توافق موقت برای پایان دادن به جنگ با ایالات متحده شامل الزام به خروج اسرائیل از لبنان است، نکته‌ای که اسرائیل و ایران در مورد آن مواضع متفاوتی دارند که باید در مذاکرات حل شود.",
         "pattern_en": "Deal collapse precondition emphasis"
+      },
+      {
+        "pattern": "توصیف دیپلماتیک با اصطلاحات فاجعه‌آمیز",
+        "detail": "استفاده از زبان افراطی مانند «فاجعه» یا «فاجعه‌بار» برای توصیف توافقات دیپلماتیک از دیدگاه یک کشور.",
+        "debias": "از توصیف‌کننده‌های خنثی برای نتایج دیپلماتیک استفاده کنید و اجازه دهید انتقادات خاص بدون فاجعه‌سازی برای خود صحبت کنند.",
+        "date_added": "2026-06-18",
+        "status": "suggested",
+        "example_text": "برای اسرائیل، توافق آمریکا و ایران یک «فاجعه» ناسازگار با منافع امنیتی آن است",
+        "example_url": "https://www.france24.com/en/for-israel-us-iran-deal-a-disaster-incompatible-with-its-security-interests",
+        "unbiased_text": "برای اسرائیل، توافق آمریکا و ایران نگرانی‌هایی درباره سازگاری با منافع امنیتی آن ایجاد می‌کند",
+        "pattern_en": "Disaster terminology diplomatic characterization"
+      },
+      {
+        "pattern": "قاب‌بندی دوگانه برنده-بازنده در دیپلماسی",
+        "detail": "قاب‌بندی توافق‌نامه‌های پیچیده دیپلماتیک از طریق زبان صریح «برنده» و «بازنده» که نتایج دارای تفاوت‌های ظریف را به رقابت‌های صفرجمع تقلیل می‌دهد.",
+        "debias": "دستاوردها و امتیازات خاص هر طرف را بدون اعلام برندگان و بازندگان مطلق توصیف کنید.",
+        "date_added": "2026-06-18",
+        "status": "suggested",
+        "example_text": "تهران به‌عنوان «برنده» توافق اولیه آمریکا - ایران بیرون می‌آید",
+        "example_url": "https://www.france24.com/en/tehran-comes-out-as-the-winner-of-the-initial-us-iran-deal",
+        "unbiased_text": "تهران امتیازات قابل‌توجهی در توافق اولیه آمریکا - ایران به‌دست می‌آورد",
+        "pattern_en": "Winner-loser binary diplomatic framing"
       }
     ]
   },
@@ -6815,6 +6859,28 @@
         "example_url": "http://www.euronews.com/health/2026/06/17/shared-home-shared-microbiome-study-says-flatmates-swap-gut-bacteria",
         "unbiased_text": "یک مطالعه از دانشگاه ترنتو در ایتالیا دریافت که افرادی که با هم زندگی می‌کنند بخش‌هایی از میکروبیوم دهانی و روده‌ای خود را به اشتراک می‌گذارند، که تأیید می‌کند زندگی مشترک نزدیک بر جوامع میکروبی همان‌طور که انتظار می‌رود تأثیر می‌گذارد.",
         "pattern_en": "Flatmate microbiome mundane discovery celebration"
+      },
+      {
+        "pattern": "هیجان‌آفرینی باستان‌شناسی با پیشوند «پروتو»",
+        "detail": "استفاده از پیشوند «پروتو» برای بزرگ‌نمایی کشفیات باستان‌شناسی با این پیشنهاد که آن‌ها قدیمی‌تر از بناهای معروف هستند یا آن‌ها را پیش‌بینی می‌کنند، و ایجاد سلسله‌مراتب مصنوعی.",
+        "debias": "کشفیات باستان‌شناسی را بر اساس ارزش‌های ذاتی خودشان توصیف کنید بدون برقراری روابط علّی یا سلسله‌مراتبی با مکان‌های شناخته‌شده‌تر.",
+        "date_added": "2026-06-18",
+        "status": "suggested",
+        "example_text": "باستان‌شناسان «پروتو-استون‌هنج» ۵۰۰۰ ساله را تنها چند مایل از بنای معروف کشف می‌کنند",
+        "example_url": "http://www.euronews.com/culture/2026/06/18/archaeologists-discover-5000-year-old-proto-stonehenge-just-a-few-miles-from-the-famous-mo",
+        "unbiased_text": "باستان‌شناسان ستون‌های چوبی ۵۰۰۰ ساله هم‌راستا با رویدادهای خورشیدی را تنها چند مایل از استون‌هنج کشف می‌کنند",
+        "pattern_en": "Proto-prefix archaeological sensationalism"
+      },
+      {
+        "pattern": "ارتقای قهرمانانه ستاره ورزشی",
+        "detail": "استفاده از القاب قهرمانانه اغراق‌آمیز مانند «کاپیتان فوق‌العاده» در تیترها برای بزرگ‌نمایی عملکردهای ورزشی فردی فراتر از گزارش‌دهی بی‌طرفانه.",
+        "debias": "دستاوردهای ورزشی را با جزئیات عملکردی مشخص گزارش کنید نه با توصیفات به سبک ابرقهرمانی.",
+        "date_added": "2026-06-18",
+        "status": "suggested",
+        "example_text": "کاپیتان فوق‌العاده انگلستان: هری کین به خاطر «عملکرد کامل» در برابر کرواسی مورد ستایش قرار گرفت",
+        "example_url": "http://www.euronews.com/2026/06/18/englands-captain-fantastic-harry-kane-praised-for-a-complete-performance-against-croatia",
+        "unbiased_text": "کاپیتان تیم انگلستان، هری کین، به خاطر عملکرد قوی در پیروزی ۴ بر ۲ مقابل کرواسی مورد ستایش قرار گرفت",
+        "pattern_en": "Captain fantastic sports hero elevation"
       }
     ]
   }
