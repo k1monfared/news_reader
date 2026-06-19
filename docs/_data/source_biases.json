@@ -2296,6 +2296,36 @@
         "example_text": "Wahi was unauthorised for travel after he was reportedly arrested last month in a French spot-fixing investigation.",
         "example_url": "https://www.aljazeera.com/sports/2026/6/18/world-cup-ivory-coasts-elye-wahi-denied-canada-entry-for-germany-match?traffic_source=rss",
         "unbiased_text": "Wahi was denied entry to Canada after he was reportedly arrested last month in a French spot-fixing investigation."
+      },
+      {
+        "pattern": "Nationality-first victimization framing",
+        "detail": "Emphasizing victim nationality in headlines before context to maximize emotional impact and regional identification.",
+        "debias": "Present incident context before nationality markers to avoid emotional manipulation through identity framing.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "Three killed in Ukraine a day after drone attack kills child in Moscow",
+        "example_url": "https://www.aljazeera.com/news/2026/6/19/three-killed-in-ukraine-a-day-after-drone-attack-kills-child-in-moscow?traffic_source=rss",
+        "unbiased_text": "Casualties continue in conflict with three killed in Ukraine and one child killed in Moscow drone attack"
+      },
+      {
+        "pattern": "Professional credential denunciation linkage",
+        "detail": "Connecting professional body sanctions to unproven allegations through headline juxtaposition suggesting guilt.",
+        "debias": "Separate factual professional actions from ongoing investigations without implicit causation links.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "British lawyers' body suspends ICC Prosecutor Khan over misconduct claim",
+        "example_url": "https://www.aljazeera.com/news/2026/6/19/british-lawyers-body-suspends-icc-prosecutor-khan-over-misconduct-claim?traffic_source=rss",
+        "unbiased_text": "ICC Prosecutor Khan suspended by British bar association during ongoing misconduct investigation"
+      },
+      {
+        "pattern": "Geographic obscurity surprise framing",
+        "detail": "Highlighting unfamiliarity with a location to amplify unexpected political importance and reader intrigue.",
+        "debias": "Present geographic context neutrally without emphasizing reader ignorance for dramatic effect.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "Ashton-in-Makerfield, a town few knew of until recently, has potentially chosen the UK's next prime minister.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/19/inside-the-makerfield-by-election?traffic_source=rss",
+        "unbiased_text": "Ashton-in-Makerfield by-election results may influence UK leadership succession"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4090,6 +4120,66 @@
         "example_text": "Tehran comes out as the 'winner' of the initial US - Iran deal",
         "example_url": "https://www.france24.com/en/tehran-comes-out-as-the-winner-of-the-initial-us-iran-deal",
         "unbiased_text": "Tehran gains significant concessions in the initial US - Iran deal"
+      },
+      {
+        "pattern": "Despite-clause contradictory emphasis",
+        "detail": "Using 'despite' formulations to highlight contradictions between stated agreements and continued actions.",
+        "debias": "Report both agreements and subsequent actions sequentially without contradiction framing.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "Israel and Hezbollah say they agree to truce despite renewed attacks",
+        "example_url": "https://www.france24.com/en/israel-and-hezbollah-say-they-agree-to-truce-despite-renewed-attacks",
+        "unbiased_text": "Israel and Hezbollah announce truce agreement after renewed attacks killed at least 20 in Lebanon"
+      },
+      {
+        "pattern": "Abruptly adverb urgency insertion",
+        "detail": "Adding 'abruptly' or similar urgency markers to routine scheduling changes to suggest crisis or instability.",
+        "debias": "Report schedule changes factually without urgency adverbs unless timing itself is materially significant.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "US-Iran peace negotiations abruptly called off amid growing criticism",
+        "example_url": "https://www.france24.com/en/us-iran-peace-negotiations-abruptly-called-off-amid-growing-criticism",
+        "unbiased_text": "US-Iran peace negotiations postponed as Iran delays delegation amid Lebanon concerns"
+      },
+      {
+        "pattern": "Desperation attribution motivational framing",
+        "detail": "Attributing opponent's characterization of negotiator's psychological state as factual motivation without verification.",
+        "debias": "Clearly attribute psychological characterizations to their source without elevating to headline status.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "Iran says Trump agreed to deal terms 'out of desperation' as US Democrats blast agreement",
+        "example_url": "https://www.france24.com/en/iran-says-trump-agreed-to-deal-terms-out-of-desperation-as-us-democrats-blast-agreement",
+        "unbiased_text": "Iranian Supreme Leader comments on US-Iran deal as US Democrats criticize agreement terms"
+      },
+      {
+        "pattern": "Rewatch replay promotional framing",
+        "detail": "Presenting replay content with editorial characterizations that frame what viewers should expect rather than neutral descriptions.",
+        "debias": "Present replay content with factual descriptions of speakers and topics without editorial framing.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "Rewatch US Vice President JD Vance defends the Iran-US deal from Washington as the memorandum of understanding faces increasing criticism.",
+        "example_url": "https://www.france24.com/en/replay-us-vp-jd-vance-defends-iran-us-agreement-and-france-24-s-analysis",
+        "unbiased_text": "US Vice President JD Vance discusses Iran-US memorandum of understanding from Washington"
+      },
+      {
+        "pattern": "Quotation marks capitulation labeling",
+        "detail": "Using scare quotes around strong characterizations while simultaneously elevating them to headline prominence.",
+        "debias": "Either fully attribute strong characterizations or avoid using them in headlines altogether.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "'Catastrophic capitulation': Why US and Israel are the biggest losers in Iran deal",
+        "example_url": "https://www.france24.com/en/tv-shows/press-review/20260618-catastrophic-capitulation-why-us-and-israel-are-the-biggest-losers-in-iran-deal",
+        "unbiased_text": "Press review examines varied reactions to US-Iran agreement from Israeli and American media"
+      },
+      {
+        "pattern": "Melted relationship metaphor dramatization",
+        "detail": "Using vivid dissolution metaphors to characterize diplomatic tensions as complete relationship breakdown.",
+        "debias": "Describe diplomatic tensions with specific examples rather than metaphorical relationship endings.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "Israel's special relationship with US 'seems to have melted into a pretty bad break-up'",
+        "example_url": "https://www.france24.com/en/israel-s-special-relationship-with-us-seems-to-have-melted-into-a-pretty-bad-break-up",
+        "unbiased_text": "US-Israel relations strained over Lebanon operations and Iran agreement terms"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"

@@ -2555,6 +2555,39 @@
         "example_url": "https://www.aljazeera.com/sports/2026/6/18/world-cup-ivory-coasts-elye-wahi-denied-canada-entry-for-germany-match?traffic_source=rss",
         "unbiased_text": "واهی پس از آنکه گزارش شد ماه گذشته در یک تحقیقات تبانی در فرانسه دستگیر شده، از ورود به کانادا منع شد.",
         "pattern_en": "Arrest justification travel authority framing"
+      },
+      {
+        "pattern": "قاب‌بندی قربانی‌سازی با تأکید بر ملیت",
+        "detail": "تأکید بر ملیت قربانیان در تیترها پیش از ارائه زمینه، به منظور به حداکثر رساندن تأثیر عاطفی و همانند‌سازی منطقه‌ای.",
+        "debias": "زمینه رویداد را پیش از نشانگرهای ملیت ارائه دهید تا از دستکاری عاطفی از طریق قاب‌بندی هویتی جلوگیری شود.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "سه نفر در اوکراین کشته شدند، یک روز پس از آنکه حمله پهپادی کودکی را در مسکو به قتل رساند",
+        "example_url": "https://www.aljazeera.com/news/2026/6/19/three-killed-in-ukraine-a-day-after-drone-attack-kills-child-in-moscow?traffic_source=rss",
+        "unbiased_text": "تلفات در درگیری ادامه دارد؛ سه نفر در اوکراین و یک کودک در حمله پهپادی مسکو کشته شدند",
+        "pattern_en": "Nationality-first victimization framing"
+      },
+      {
+        "pattern": "پیوند محکومیت اعتبار حرفه‌ای",
+        "detail": "پیوند دادن تحریم‌های نهادهای حرفه‌ای به اتهامات اثبات‌نشده از طریق قرار دادن کنار هم در تیتر که نشان‌دهنده گناهکار بودن است.",
+        "debias": "جدا کردن اقدامات حرفه‌ای واقعی از تحقیقات در جریان بدون پیوندهای ضمنی علّی.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "نهاد وکلای بریتانیا دادستان دیوان بین‌المللی کیفری خان را به دلیل ادعای سوءرفتار تعلیق می‌کند",
+        "example_url": "https://www.aljazeera.com/news/2026/6/19/british-lawyers-body-suspends-icc-prosecutor-khan-over-misconduct-claim?traffic_source=rss",
+        "unbiased_text": "دادستان دیوان بین‌المللی کیفری خان توسط کانون وکلای بریتانیا در جریان تحقیقات سوءرفتار تعلیق شد",
+        "pattern_en": "Professional credential denunciation linkage"
+      },
+      {
+        "pattern": "قاب‌بندی شگفتی از ابهام جغرافیایی",
+        "detail": "برجسته‌سازی عدم آشنایی با یک موقعیت مکانی برای تقویت اهمیت سیاسی غیرمنتظره و جلب کنجکاوی خواننده.",
+        "debias": "زمینه جغرافیایی را به‌صورت خنثی ارائه دهید بدون تأکید بر نادانی خواننده برای ایجاد اثر دراماتیک.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "Ashton-in-Makerfield، شهری که تا همین اواخر کمتر کسی از آن خبر داشت، احتمالاً نخست‌وزیر بعدی بریتانیا را انتخاب کرده است.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/19/inside-the-makerfield-by-election?traffic_source=rss",
+        "unbiased_text": "نتایج انتخابات میان‌دوره‌ای Ashton-in-Makerfield ممکن است بر جانشینی رهبری بریتانیا تأثیر بگذارد",
+        "pattern_en": "Geographic obscurity surprise framing"
       }
     ]
   },
@@ -4519,6 +4552,72 @@
         "example_url": "https://www.france24.com/en/tehran-comes-out-as-the-winner-of-the-initial-us-iran-deal",
         "unbiased_text": "تهران امتیازات قابل‌توجهی در توافق اولیه آمریکا - ایران به‌دست می‌آورد",
         "pattern_en": "Winner-loser binary diplomatic framing"
+      },
+      {
+        "pattern": "تأکید متناقض با بند «علی‌رغم»",
+        "detail": "استفاده از عبارت «علی‌رغم» برای برجسته‌سازی تناقض میان توافق‌های اعلام‌شده و اقدامات ادامه‌دار.",
+        "debias": "گزارش توافق‌ها و اقدامات بعدی به‌صورت متوالی و بدون قاب‌بندی تناقض‌آمیز.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "اسرائیل و حزب‌الله می‌گویند با آتش‌بس موافقت کرده‌اند علی‌رغم حملات تازه",
+        "example_url": "https://www.france24.com/en/israel-and-hezbollah-say-they-agree-to-truce-despite-renewed-attacks",
+        "unbiased_text": "اسرائیل و حزب‌الله توافق آتش‌بس را پس از حملات تازه‌ای که دست‌کم ۲۰ کشته در لبنان به جا گذاشت، اعلام کردند",
+        "pattern_en": "Despite-clause contradictory emphasis"
+      },
+      {
+        "pattern": "درج قید فوریت به‌صورت ناگهانی",
+        "detail": "افزودن واژه «ناگهان» یا نشانگرهای فوریت مشابه به تغییرات برنامه‌ریزی معمول برای القای بحران یا بی‌ثباتی.",
+        "debias": "تغییرات برنامه را به‌صورت واقعی و بدون قیود فوریت گزارش کنید، مگر اینکه زمان‌بندی خود اهمیت مادی داشته باشد.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "مذاکرات صلح آمریکا-ایران ناگهان لغو شد در میان انتقادات فزاینده",
+        "example_url": "https://www.france24.com/en/us-iran-peace-negotiations-abruptly-called-off-amid-growing-criticism",
+        "unbiased_text": "مذاکرات صلح آمریکا-ایران به تعویق افتاد زیرا ایران هیئت خود را به دلیل نگرانی‌های مربوط به لبنان به تاخیر انداخت",
+        "pattern_en": "Abruptly adverb urgency insertion"
+      },
+      {
+        "pattern": "قاب‌بندی انگیزشی با نسبت دادن ناامیدی",
+        "detail": "نسبت دادن توصیف طرف مقابل از وضعیت روانی مذاکره‌کننده به‌عنوان انگیزه واقعی بدون تأیید و راستی‌آزمایی.",
+        "debias": "توصیفات روانی را به‌طور شفاف به منبع خود نسبت دهید بدون اینکه آن‌ها را به سطح تیتر ارتقا دهید.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "ایران می‌گوید ترامپ «از روی ناامیدی» با شرایط توافق موافقت کرده است؛ دموکرات‌های آمریکا توافق را محکوم می‌کنند",
+        "example_url": "https://www.france24.com/en/iran-says-trump-agreed-to-deal-terms-out-of-desperation-as-us-democrats-blast-agreement",
+        "unbiased_text": "رهبر معظم انقلاب درباره توافق آمریکا و ایران اظهارنظر می‌کند؛ دموکرات‌های آمریکا شرایط توافق را نقد می‌کنند",
+        "pattern_en": "Desperation attribution motivational framing"
+      },
+      {
+        "pattern": "قاب‌بندی تبلیغاتی محتوای پخش مجدد",
+        "detail": "ارائه محتوای پخش مجدد با توصیفات سردبیرانه‌ای که چارچوب انتظارات بینندگان را مشخص می‌کند، به جای توضیحات بی‌طرفانه.",
+        "debias": "محتوای پخش مجدد را با توصیفات واقعی از سخنرانان و موضوعات بدون قاب‌بندی سردبیرانه ارائه دهید.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "پخش مجدد: معاون رئیس‌جمهور آمریکا JD Vance از توافق ایران و آمریکا از واشنگتن دفاع می‌کند در حالی که یادداشت تفاهم با انتقادات فزاینده‌ای روبرو است.",
+        "example_url": "https://www.france24.com/en/replay-us-vp-jd-vance-defends-iran-us-agreement-and-france-24-s-analysis",
+        "unbiased_text": "معاون رئیس‌جمهور آمریکا JD Vance درباره یادداشت تفاهم ایران و آمریکا از واشنگتن صحبت می‌کند",
+        "pattern_en": "Rewatch replay promotional framing"
+      },
+      {
+        "pattern": "برچسب‌زنی تسلیم با علامت نقل‌قول",
+        "detail": "استفاده از علامت نقل‌قول ترسناک در اطراف توصیفات قوی و در عین حال برجسته کردن آنها در تیتر خبر.",
+        "debias": "یا توصیفات قوی را به‌طور کامل به منبع نسبت دهید یا از استفاده از آنها در تیترها خودداری کنید.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "«تسلیم فاجعه‌بار»: چرا آمریکا و اسرائیل بزرگ‌ترین بازندگان توافق با ایران هستند",
+        "example_url": "https://www.france24.com/en/tv-shows/press-review/20260618-catastrophic-capitulation-why-us-and-israel-are-the-biggest-losers-in-iran-deal",
+        "unbiased_text": "بررسی مطبوعات واکنش‌های متنوع رسانه‌های اسرائیلی و آمریکایی به توافق آمریکا و ایران را بررسی می‌کند",
+        "pattern_en": "Quotation marks capitulation labeling"
+      },
+      {
+        "pattern": "نمایش‌سازی استعاره‌ی ذوب شدن روابط",
+        "detail": "استفاده از استعاره‌های زنده‌ی انحلال برای توصیف تنش‌های دیپلماتیک به‌عنوان فروپاشی کامل روابط.",
+        "debias": "تنش‌های دیپلماتیک را با مثال‌های مشخص توصیف کنید به‌جای پایان‌های استعاری روابط.",
+        "date_added": "2026-06-19",
+        "status": "suggested",
+        "example_text": "به نظر می‌رسد رابطه‌ی ویژه‌ی اسرائیل با ایالات متحده به یک جدایی بسیار بد ذوب شده است",
+        "example_url": "https://www.france24.com/en/israel-s-special-relationship-with-us-seems-to-have-melted-into-a-pretty-bad-break-up",
+        "unbiased_text": "روابط ایالات متحده و اسرائیل بر سر عملیات‌های لبنان و شرایط توافق ایران تحت فشار است",
+        "pattern_en": "Melted relationship metaphor dramatization"
       }
     ]
   },
