@@ -2326,6 +2326,46 @@
         "example_text": "Ashton-in-Makerfield, a town few knew of until recently, has potentially chosen the UK's next prime minister.",
         "example_url": "https://www.aljazeera.com/news/2026/6/19/inside-the-makerfield-by-election?traffic_source=rss",
         "unbiased_text": "Ashton-in-Makerfield by-election results may influence UK leadership succession"
+      },
+      {
+        "pattern": "Regional religious minority climate victimization",
+        "detail": "Framing climate change as uniquely threatening a specific religious minority's ancient traditions and homeland, emphasizing existential cultural endangerment.",
+        "debias": "Report climate impacts on highland communities without foregrounding religious identity as the primary vulnerability frame.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "In Lubra, Nepal's last Bon village, climate-driven floods are destroying homes and land, endangering ancient traditions.",
+        "example_url": "https://www.aljazeera.com/features/longform/2026/6/20/in-nepals-highlands-climate-change-threatens-tibets-bon-faith?traffic_source=rss",
+        "unbiased_text": "In Lubra, a highland village in Nepal, climate-driven floods are destroying homes and land, threatening the community's way of life."
+      },
+      {
+        "pattern": "Foreign concession nationalist harm assertion",
+        "detail": "Framing foreign corporate involvement in domestic resource projects as inherently detrimental to national interests without presenting counterarguments.",
+        "debias": "Present multiple perspectives on foreign investment in renewable energy, including economic benefits and sovereignty concerns.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "Giving concessions for renewable projects to foreign corporations will not help solve the country's energy crisis.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/6/20/why-tunisias-renewable-energy-strategy-is-facing-resistance?traffic_source=rss",
+        "unbiased_text": "Critics argue that renewable energy concessions to foreign corporations may not address Tunisia's energy crisis, while supporters cite needed investment and expertise."
+      },
+      {
+        "pattern": "Historical reenactment moral amplification framing",
+        "detail": "Emphasizing symbolic reenactments of historical atrocities to elevate contemporary political demands, creating moral urgency through theatrical representation.",
+        "debias": "Report on reparations conferences and their substantive proposals without foregrounding dramatic reenactments as the primary framing device.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "Slave trade reenacted on Juneteenth as leaders demand reparations",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/20/slave-trade-reenacted-on-juneteenth-as-leaders-demand-reparations?traffic_source=rss",
+        "unbiased_text": "Leaders mark Juneteenth by demanding reparations at conference addressing slavery's legacy"
+      },
+      {
+        "pattern": "Sports glitzy league transformation narrative",
+        "detail": "Framing the creation of commercial sports leagues as fundamentally transforming lives and revolutionizing a field, emphasizing glamour and social change.",
+        "debias": "Report on women's sports development with specific participation and economic data rather than sweeping transformation claims.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "In cricket-obsessed India, a women's World Cup win and a glitzy new league are transforming the lives of female players.",
+        "example_url": "https://www.aljazeera.com/video/101-east/2026/6/20/indias-revolution-in-womens-cricket?traffic_source=rss",
+        "unbiased_text": "India's women's cricket has grown following a World Cup win and the launch of a new professional league, increasing opportunities for female players."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4180,6 +4220,26 @@
         "example_text": "Israel's special relationship with US 'seems to have melted into a pretty bad break-up'",
         "example_url": "https://www.france24.com/en/israel-s-special-relationship-with-us-seems-to-have-melted-into-a-pretty-bad-break-up",
         "unbiased_text": "US-Israel relations strained over Lebanon operations and Iran agreement terms"
+      },
+      {
+        "pattern": "Photo-seeking desperation petty humiliation",
+        "detail": "Amplifying claims that a leader repeatedly requested photos as evidence of desperation or low standing, using pettiness to diminish diplomatic stature.",
+        "debias": "Report diplomatic disputes focusing on substantive policy disagreements rather than personal anecdotes about photo requests.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "US President Donald Trump turned up the heat on a diplomatic row with Italian Prime Minister Giorgia Meloni on Saturday, accusing her of repeatedly seeking a photograph with him at the G7 summit",
+        "example_url": "https://www.france24.com/en/middle-east/20260620-trump-says-italy-s-meloni-asked-over-and-over-for-a-photo-with-him-as-diplomatic-spat-escalates",
+        "unbiased_text": "US President Donald Trump escalated a diplomatic dispute with Italian Prime Minister Giorgia Meloni on Saturday, with tensions centered on Iran and NATO policy differences."
+      },
+      {
+        "pattern": "Losing support conditional threat framing",
+        "detail": "Framing continued military action as potentially causing loss of ally support through rhetorical questions, implying consequence without assertion.",
+        "debias": "Report on alliance tensions with direct statements from officials rather than speculative questions about support withdrawal.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "Could Israel lose Donald Trump's support by continuing to drop bombs in Lebanon?",
+        "example_url": "https://www.france24.com/en/could-israel-lose-donald-trump-s-support-by-continuing-to-drop-bombs-in-lebanon",
+        "unbiased_text": "Israeli strikes in Lebanon have raised questions about US-Israel relations as the Trump administration pursues talks with Iran."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -6313,6 +6373,36 @@
         "example_text": "England's captain fantastic: Harry Kane praised for a 'complete performance' against Croatia",
         "example_url": "http://www.euronews.com/2026/06/18/englands-captain-fantastic-harry-kane-praised-for-a-complete-performance-against-croatia",
         "unbiased_text": "England's captain Harry Kane praised for strong performance in 4-2 win against Croatia"
+      },
+      {
+        "pattern": "Viral performance political solidarity framing",
+        "detail": "Framing legislators performing viral social media trends in official chambers as meaningful expressions of national sporting support.",
+        "debias": "Report on parliamentary activities without elevating choreographed viral performances to significant political acts.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "Norway's parliamentarians performed the viral 'Viking row' inside the chamber on Thursday to back their national football team at the 2026 World Cup.",
+        "example_url": "http://www.euronews.com/2026/06/19/norwegian-parliament-performs-viral-viking-row-to-back-world-cup-team",
+        "unbiased_text": "Norwegian parliamentarians participated in a social media trend during a parliamentary session as the national football team competes in the World Cup."
+      },
+      {
+        "pattern": "Diaper-wearing concert shame revelation",
+        "detail": "Amplifying celebrity revelations about extreme fan behavior to sensationalize concert etiquette decline and moral boundary violations.",
+        "debias": "Report on concert etiquette issues with broader venue management perspectives rather than focusing on singular shocking anecdotes.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "At a time when concert etiquette feels like it couldn't get much worse, the 23-year-old singer may have uncovered an entirely new frontier of diabolically shameful fan behaviour.",
+        "example_url": "http://www.euronews.com/culture/2026/06/19/time-to-bring-back-shame-olivia-rodrigo-reveals-she-has-smelled-diaper-wearing-fans-at-liv",
+        "unbiased_text": "Singer Olivia Rodrigo recently discussed unusual fan behavior at her concerts, adding to ongoing discussions about concert venue norms."
+      },
+      {
+        "pattern": "Legendary tree death finality declaration",
+        "detail": "Declaring historic trees definitively dead despite previous false alarms, emphasizing cultural loss and stubbornness failure narrative.",
+        "debias": "Report on notable tree health status with expert assessment timelines and historical context without dramatic finality framing.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "It's not the first time the legendary oak has been declared dead. On previous occasions, fears were raised only for the tree to stubbornly leaf out again each spring. Not this year.",
+        "example_url": "http://www.euronews.com/culture/2026/06/19/robin-hoods-famed-sherwood-forest-1200-year-old-oak-tree-declared-dead",
+        "unbiased_text": "Experts say a 1,200-year-old oak tree in Sherwood Forest has not produced leaves this spring, though the tree has previously recovered after similar concerns."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

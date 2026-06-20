@@ -2588,6 +2588,51 @@
         "example_url": "https://www.aljazeera.com/news/2026/6/19/inside-the-makerfield-by-election?traffic_source=rss",
         "unbiased_text": "نتایج انتخابات میان‌دوره‌ای Ashton-in-Makerfield ممکن است بر جانشینی رهبری بریتانیا تأثیر بگذارد",
         "pattern_en": "Geographic obscurity surprise framing"
+      },
+      {
+        "pattern": "قربانی‌سازی اقلیمی اقلیت مذهبی منطقه‌ای",
+        "detail": "قاب‌بندی تغییرات اقلیمی به‌عنوان تهدیدی منحصربه‌فرد برای سنت‌های کهن و سرزمین یک اقلیت مذهبی خاص، با تأکید بر خطر وجودی فرهنگی.",
+        "debias": "گزارش تأثیرات اقلیمی بر جوامع کوهستانی بدون برجسته‌سازی هویت مذهبی به‌عنوان چارچوب اصلی آسیب‌پذیری.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "در لوبرا، آخرین روستای بُن در نپال، سیل‌های ناشی از تغییرات اقلیمی خانه‌ها و زمین‌ها را ویران می‌کنند و سنت‌های کهن را به خطر می‌اندازند.",
+        "example_url": "https://www.aljazeera.com/features/longform/2026/6/20/in-nepals-highlands-climate-change-threatens-tibets-bon-faith?traffic_source=rss",
+        "unbiased_text": "در لوبرا، روستایی کوهستانی در نپال، سیل‌های ناشی از تغییرات اقلیمی خانه‌ها و زمین‌ها را ویران می‌کنند و شیوه زندگی جامعه را تهدید می‌کنند.",
+        "detail_items": [],
+        "pattern_en": "Regional religious minority climate victimization"
+      },
+      {
+        "pattern": "ادعای آسیب ملی‌گرایانه امتیاز خارجی",
+        "detail": "چارچوب‌بندی مشارکت شرکت‌های خارجی در پروژه‌های منابع داخلی به‌عنوان امری ذاتاً زیان‌بار برای منافع ملی، بدون ارائه استدلال‌های مخالف.",
+        "debias": "ارائه دیدگاه‌های متعدد درباره سرمایه‌گذاری خارجی در انرژی تجدیدپذیر، شامل منافع اقتصادی و نگرانی‌های حاکمیتی.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "دادن امتیاز پروژه‌های انرژی تجدیدپذیر به شرکت‌های خارجی به حل بحران انرژی کشور کمک نخواهد کرد.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/6/20/why-tunisias-renewable-energy-strategy-is-facing-resistance?traffic_source=rss",
+        "unbiased_text": "منتقدان استدلال می‌کنند که امتیازات انرژی تجدیدپذیر به شرکت‌های خارجی ممکن است بحران انرژی تونس را حل نکند، در حالی که حامیان به سرمایه‌گذاری و تخصص مورد نیاز اشاره می‌کنند.",
+        "pattern_en": "Foreign concession nationalist harm assertion"
+      },
+      {
+        "pattern": "قاب‌بندی تقویت اخلاقی از طریق بازسازی تاریخی",
+        "detail": "تأکید بر بازسازی‌های نمادین فجایع تاریخی برای ارتقای مطالبات سیاسی معاصر، ایجاد فوریت اخلاقی از طریق نمایش تئاتری.",
+        "debias": "گزارش کنفرانس‌های غرامت و پیشنهادات ماهوی آن‌ها بدون قرار دادن بازسازی‌های نمایشی به عنوان ابزار اصلی قاب‌بندی.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "تجارت برده‌داری در روز جان‌تینث بازسازی شد در حالی که رهبران خواستار غرامت شدند",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/20/slave-trade-reenacted-on-juneteenth-as-leaders-demand-reparations?traffic_source=rss",
+        "unbiased_text": "رهبران با مطالبه غرامت در کنفرانسی درباره میراث برده‌داری، روز جان‌تینث را گرامی داشتند",
+        "pattern_en": "Historical reenactment moral amplification framing"
+      },
+      {
+        "pattern": "روایت تحول درخشان لیگ ورزشی",
+        "detail": "قاب‌بندی ایجاد لیگ‌های ورزشی تجاری به‌عنوان تحولی بنیادین در زندگی‌ها و انقلابی در یک حوزه، با تأکید بر زرق‌وبرق و تغییرات اجتماعی.",
+        "debias": "گزارش توسعه ورزش بانوان با داده‌های مشخص مشارکت و اقتصادی به‌جای ادعاهای کلی تحول.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "در هند که شیفته کریکت است، قهرمانی در جام جهانی زنان و یک لیگ جدید درخشان، زندگی بازیکنان زن را متحول می‌کند.",
+        "example_url": "https://www.aljazeera.com/video/101-east/2026/6/20/indias-revolution-in-womens-cricket?traffic_source=rss",
+        "unbiased_text": "کریکت بانوان هند پس از قهرمانی در جام جهانی و راه‌اندازی یک لیگ حرفه‌ای جدید، رشد کرده و فرصت‌های بیشتری برای بازیکنان زن ایجاد شده است.",
+        "pattern_en": "Sports glitzy league transformation narrative"
       }
     ]
   },
@@ -4618,6 +4663,28 @@
         "example_url": "https://www.france24.com/en/israel-s-special-relationship-with-us-seems-to-have-melted-into-a-pretty-bad-break-up",
         "unbiased_text": "روابط ایالات متحده و اسرائیل بر سر عملیات‌های لبنان و شرایط توافق ایران تحت فشار است",
         "pattern_en": "Melted relationship metaphor dramatization"
+      },
+      {
+        "pattern": "تحقیر کوچک ناشی از یأس برای گرفتن عکس",
+        "detail": "بزرگ‌نمایی ادعاها مبنی بر اینکه یک رهبر بارها درخواست عکس کرده است به عنوان نشانه‌ای از یأس یا جایگاه پایین، استفاده از کوچک‌نمایی برای کاهش منزلت دیپلماتیک.",
+        "debias": "گزارش اختلافات دیپلماتیک با تمرکز بر اختلافات سیاستی اساسی به جای حکایات شخصی درباره درخواست عکس.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "رئیس‌جمهور آمریکا Donald Trump روز شنبه بر شدت اختلاف دیپلماتیک با نخست‌وزیر ایتالیا Giorgia Meloni افزود و او را متهم کرد که بارها و بارها در نشست G7 درخواست گرفتن عکس با وی را داشته است",
+        "example_url": "https://www.france24.com/en/middle-east/20260620-trump-says-italy-s-meloni-asked-over-and-over-for-a-photo-with-him-as-diplomatic-spat-escalates",
+        "unbiased_text": "رئیس‌جمهور آمریکا Donald Trump روز شنبه اختلاف دیپلماتیک با نخست‌وزیر ایتالیا Giorgia Meloni را تشدید کرد، در حالی که تنش‌ها بر سر اختلافات سیاست‌های مربوط به ایران و NATO متمرکز بود.",
+        "pattern_en": "Photo-seeking desperation petty humiliation"
+      },
+      {
+        "pattern": "قاب‌بندی تهدید مشروط از دست دادن حمایت",
+        "detail": "قاب‌بندی ادامه اقدام نظامی به‌عنوان عاملی که به‌طور بالقوه می‌تواند منجر به از دست دادن حمایت متحدان شود، از طریق پرسش‌های بلاغی که پیامد را بدون ادعای قطعی القا می‌کنند.",
+        "debias": "گزارش تنش‌های اتحاد را با بیانیه‌های مستقیم از مقامات ارائه دهید، نه پرسش‌های حدسی درباره پس‌گیری حمایت.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "آیا اسرائیل می‌تواند با ادامه بمباران لبنان، حمایت دونالد ترامپ را از دست بدهد؟",
+        "example_url": "https://www.france24.com/en/could-israel-lose-donald-trump-s-support-by-continuing-to-drop-bombs-in-lebanon",
+        "unbiased_text": "حملات اسرائیل در لبنان پرسش‌هایی درباره روابط آمریکا و اسرائیل مطرح کرده است، در حالی که دولت ترامپ مذاکرات با ایران را پیگیری می‌کند.",
+        "pattern_en": "Losing support conditional threat framing"
       }
     ]
   },
@@ -6980,6 +7047,40 @@
         "example_url": "http://www.euronews.com/2026/06/18/englands-captain-fantastic-harry-kane-praised-for-a-complete-performance-against-croatia",
         "unbiased_text": "کاپیتان تیم انگلستان، هری کین، به خاطر عملکرد قوی در پیروزی ۴ بر ۲ مقابل کرواسی مورد ستایش قرار گرفت",
         "pattern_en": "Captain fantastic sports hero elevation"
+      },
+      {
+        "pattern": "قاب‌بندی همبستگی سیاسی با اجرای ترندهای ویروسی",
+        "detail": "قاب‌بندی قانون‌گذارانی که ترندهای ویروسی رسانه‌های اجتماعی را در مجالس رسمی اجرا می‌کنند، به‌عنوان بیان معنادار حمایت ورزشی ملی.",
+        "debias": "گزارش فعالیت‌های پارلمانی بدون ارتقای اجراهای ویروسی طراحی‌شده به اقدامات سیاسی مهم.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "نمایندگان پارلمان نروژ روز پنج‌شنبه «قایق‌رانی وایکینگ» ویروسی را در داخل مجلس اجرا کردند تا از تیم ملی فوتبال خود در جام جهانی ۲۰۲۶ حمایت کنند.",
+        "example_url": "http://www.euronews.com/2026/06/19/norwegian-parliament-performs-viral-viking-row-to-back-world-cup-team",
+        "unbiased_text": "نمایندگان پارلمان نروژ در یک جلسه پارلمانی در یک ترند رسانه‌های اجتماعی شرکت کردند، در حالی که تیم ملی فوتبال در جام جهانی رقابت می‌کند.",
+        "pattern_en": "Viral performance political solidarity framing"
+      },
+      {
+        "pattern": "افشای شرم‌آور رفتار هواداران در کنسرت",
+        "detail": "بزرگ‌نمایی افشاگری‌های سلبریتی‌ها درباره رفتارهای افراطی هواداران برای سنسا‌سیونی کردن افول آداب کنسرت و نقض مرزهای اخلاقی.",
+        "debias": "گزارش مسائل آداب کنسرت با دیدگاه‌های گسترده‌تر مدیریت سالن‌ها به جای تمرکز بر حکایت‌های تکی شوک‌آور.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "در زمانی که به نظر می‌رسد آداب کنسرت نمی‌تواند بدتر از این شود، این خواننده ۲۳ ساله ممکن است مرز کاملاً جدیدی از رفتار شرم‌آور شیطانی هواداران را کشف کرده باشد.",
+        "example_url": "http://www.euronews.com/culture/2026/06/19/time-to-bring-back-shame-olivia-rodrigo-reveals-she-has-smelled-diaper-wearing-fans-at-liv",
+        "unbiased_text": "خواننده Olivia Rodrigo اخیراً درباره رفتارهای غیرمعمول هواداران در کنسرت‌هایش صحبت کرد و به بحث‌های جاری درباره هنجارهای سالن‌های کنسرت افزود.",
+        "pattern_en": "Diaper-wearing concert shame revelation"
+      },
+      {
+        "pattern": "اعلام قطعی مرگ درخت افسانه‌ای",
+        "detail": "اعلام قطعی مرگ درختان تاریخی علی‌رغم هشدارهای کاذب قبلی، با تأکید بر روایت از دست دادن فرهنگی و شکست سرسختی.",
+        "debias": "گزارش وضعیت سلامت درختان قابل‌توجه با جدول زمانی ارزیابی کارشناسان و زمینه تاریخی، بدون قاب‌بندی نمایشی قطعیت.",
+        "date_added": "2026-06-20",
+        "status": "suggested",
+        "example_text": "این اولین باری نیست که بلوط افسانه‌ای اعلام مرگ شده است. در مواقع قبلی، نگرانی‌هایی مطرح شد اما درخت با لجاجت هر بهار دوباره برگ زد. امسال نه.",
+        "example_url": "http://www.euronews.com/culture/2026/06/19/robin-hoods-famed-sherwood-forest-1200-year-old-oak-tree-declared-dead",
+        "unbiased_text": "کارشناسان می‌گویند درخت بلوط ۱۲۰۰ ساله در جنگل Sherwood امسال در بهار برگ تولید نکرده است، اگرچه این درخت قبلاً پس از نگرانی‌های مشابه بهبود یافته بود.",
+        "detail_items": [],
+        "pattern_en": "Legendary tree death finality declaration"
       }
     ]
   }
