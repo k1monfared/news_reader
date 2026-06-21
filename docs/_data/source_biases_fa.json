@@ -2633,6 +2633,29 @@
         "example_url": "https://www.aljazeera.com/video/101-east/2026/6/20/indias-revolution-in-womens-cricket?traffic_source=rss",
         "unbiased_text": "کریکت بانوان هند پس از قهرمانی در جام جهانی و راه‌اندازی یک لیگ حرفه‌ای جدید، رشد کرده و فرصت‌های بیشتری برای بازیکنان زن ایجاد شده است.",
         "pattern_en": "Sports glitzy league transformation narrative"
+      },
+      {
+        "pattern": "قاب‌بندی رقابت با نخست‌وزیر",
+        "detail": "قاب‌بندی اظهارات یک نامزد سیاسی درباره سیاست خارجی از دریچه رقابت او با رهبر فعلی به جای تمرکز بر خود سیاست.",
+        "debias": "اظهارات سیاست خارجی را بر اساس محتوای واقعی آن‌ها گزارش کنید بدون تأکید بر رقابت‌های سیاسی داخلی.",
+        "date_added": "2026-06-21",
+        "status": "suggested",
+        "example_text": "کلیپ قدیمی‌ای دوباره منتشر شده است که Andy Burnham می‌گوید اگر به عنوان نخست‌وزیر بریتانیا انتخاب شود، اولین سفر خارجی او به اسرائیل خواهد بود.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/21/andy-burnham-says-israel-would-be-his-first-overseas-visit-in-old-clip?traffic_source=rss",
+        "unbiased_text": "ویدئویی نشان می‌دهد که Andy Burnham پیش‌تر اعلام کرده بود اگر به عنوان نخست‌وزیر بریتانیا انتخاب شود، اولین سفر خارجی او به اسرائیل خواهد بود.",
+        "detail_items": [],
+        "pattern_en": "Prime minister rival positioning framing"
+      },
+      {
+        "pattern": "ساخت روایت سود از تعلیق",
+        "detail": "چارچوب‌بندی تعلیق یک رقیب به عنوان سودی مستقیم برای ورزشکار دیگر از طریق تأکید بر کاهش فاصله امتیازی.",
+        "debias": "نتایج ورزشی را بدون نسبت دادن موفقیت به غیبت یا جریمه رقبا گزارش کنید.",
+        "date_added": "2026-06-21",
+        "status": "suggested",
+        "example_text": "هفت‌بار قهرمان جهان MotoGP اختلاف امتیاز صدرنشین مسابقات مارکو بتزکی را کاهش می‌دهد، پس از این‌که ایتالیایی محروم شد.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/21/marc-marquez-wins-the-czech-motogp-narrows-title-gap-to-leader-bezzecchi?traffic_source=rss",
+        "unbiased_text": "مارک مارکز، هفت‌بار قهرمان جهان MotoGP، برنده مسابقه MotoGP چک شد و اختلاف امتیاز صدرنشین مسابقات مارکو بتزکی را کاهش داد.",
+        "pattern_en": "Suspension benefit narrative construction"
       }
     ]
   },
@@ -4685,6 +4708,28 @@
         "example_url": "https://www.france24.com/en/could-israel-lose-donald-trump-s-support-by-continuing-to-drop-bombs-in-lebanon",
         "unbiased_text": "حملات اسرائیل در لبنان پرسش‌هایی درباره روابط آمریکا و اسرائیل مطرح کرده است، در حالی که دولت ترامپ مذاکرات با ایران را پیگیری می‌کند.",
         "pattern_en": "Losing support conditional threat framing"
+      },
+      {
+        "pattern": "نمایش درام‌واره بقا و تأکید بر جیره‌بندی",
+        "detail": "برجسته‌سازی جیره‌بندی غذا و طفره رفتن از پهپادها توسط ملوانان محاصره‌شده برای درام‌سازی از هزینه انسانی درگیری‌های ژئوپلیتیکی.",
+        "debias": "گزارش شرایط غیرنظامیان آسیب‌دیده بدون هیجانی‌سازی جزئیات بقا.",
+        "date_added": "2026-06-21",
+        "status": "suggested",
+        "example_text": "ملوانان محاصره‌شده در تنگه هرمز، طفره‌رفتن از پهپادها و جیره‌بندی غذا",
+        "example_url": "https://www.france24.com/en/sailors-trapped-in-hormuz-strait-dodging-drones-and-rationing-food",
+        "unbiased_text": "ملوانان در تنگه هرمز باقی می‌مانند در حالی که آبراه بسته است و با چالش‌های تأمین مواجه هستند.",
+        "pattern_en": "Rationing emphasis survival dramatization"
+      },
+      {
+        "pattern": "تأکید بر موانع اجرای مشروط",
+        "detail": "برجسته‌سازی شرایط و موانع اجرای توافق پیش از بحث درباره خود توافق.",
+        "debias": "توافق‌ها و شرایط آن‌ها را در توالی متعادل و بدون قاب‌بندی موانع-محور ارائه دهید.",
+        "date_added": "2026-06-21",
+        "status": "suggested",
+        "example_text": "برنامه هسته‌ای تهران و سایر نکات توافق مشروط به توقف جنگ در لبنان است.",
+        "example_url": "https://www.france24.com/en/israel-and-hezbollah-trade-fire-as-us-iran-talks-begin-in-switzerland",
+        "unbiased_text": "توافق به برنامه هسته‌ای تهران و سایر نکات می‌پردازد و اجرای آن به توقف جنگ در لبنان گره خورده است.",
+        "pattern_en": "Conditional implementation obstacle emphasis"
       }
     ]
   },
@@ -7081,6 +7126,29 @@
         "unbiased_text": "کارشناسان می‌گویند درخت بلوط ۱۲۰۰ ساله در جنگل Sherwood امسال در بهار برگ تولید نکرده است، اگرچه این درخت قبلاً پس از نگرانی‌های مشابه بهبود یافته بود.",
         "detail_items": [],
         "pattern_en": "Legendary tree death finality declaration"
+      },
+      {
+        "pattern": "قاب‌بندی تشویقی طرح‌های بیمه",
+        "detail": "قاب‌بندی ارائه بیمه هواپیمایی به‌عنوان تشویق‌های عمدی برای غلبه بر هشدارهای سفر به‌جای حفاظت استاندارد مشتری.",
+        "debias": "محصولات بیمه جدید را به‌عنوان پیشنهادهای تجاری گزارش کنید بدون اینکه آن‌ها را تشویق توصیف کنید.",
+        "date_added": "2026-06-21",
+        "status": "suggested",
+        "example_text": "هر دو شرکت هواپیمایی Emirates و Etihad Airways طرح‌های بیمه جدیدی را اعلام کرده‌اند که از مسافرانی که کشورهایشان هنوز این منطقه را به‌عنوان منطقه ممنوعه فهرست کرده‌اند، محافظت خواهد کرد.",
+        "example_url": "http://www.euronews.com/travel/2026/06/21/these-gulf-carriers-are-offering-insurance-to-entice-customers-back-to-the-middle-east",
+        "unbiased_text": "Emirates و Etihad Airways طرح‌های بیمه جدیدی را اعلام کرده‌اند تا از مسافران کشورهایی که هشدارهای سفر برای این منطقه حفظ می‌کنند، محافظت کنند.",
+        "pattern_en": "Insurance scheme enticement framing"
+      },
+      {
+        "pattern": "ساخت رسوایی لغو گذرنامه",
+        "detail": "تأکید بر لغو گذرنامه در گزارش‌های دادگاه فساد برای افزایش درک رسوایی از طریق درام محدودیت سفر.",
+        "debias": "روندهای قانونی و محدودیت‌های مرتبط را بدون نمایشی کردن اقدامات اداری ثانویه گزارش دهید.",
+        "date_added": "2026-06-21",
+        "status": "suggested",
+        "example_text": "گذرنامه همسر نخست‌وزیر اسپانیا پدرو سانچز لغو شد و دادگاه دستور برگزاری دادگاه فساد را صادر کرد",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/20/wife-of-spanish-pm-pedro-pedro-sanchez-has-passport-revoked-as-court-orders-corruption-tri",
+        "unbiased_text": "دادگاهی دستور برگزاری دادگاه فساد برای همسر نخست‌وزیر اسپانیا پدرو سانچز را صادر کرده و محدودیت‌های سفر در انتظار روند رسیدگی اعمال شده است.",
+        "detail_items": [],
+        "pattern_en": "Passport revocation scandal construction"
       }
     ]
   }

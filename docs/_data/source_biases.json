@@ -2366,6 +2366,26 @@
         "example_text": "In cricket-obsessed India, a women's World Cup win and a glitzy new league are transforming the lives of female players.",
         "example_url": "https://www.aljazeera.com/video/101-east/2026/6/20/indias-revolution-in-womens-cricket?traffic_source=rss",
         "unbiased_text": "India's women's cricket has grown following a World Cup win and the launch of a new professional league, increasing opportunities for female players."
+      },
+      {
+        "pattern": "Prime minister rival positioning framing",
+        "detail": "Framing a political candidate's statements about foreign policy through the lens of their rivalry with the current leader rather than the policy itself.",
+        "debias": "Report foreign policy statements on their own merits without emphasizing internal political competition.",
+        "date_added": "2026-06-21",
+        "status": "suggested",
+        "example_text": "An old clip has resurfaced showing Andy Burnham saying Israel would be his first overseas visit if elected as UK PM.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/21/andy-burnham-says-israel-would-be-his-first-overseas-visit-in-old-clip?traffic_source=rss",
+        "unbiased_text": "A video shows Andy Burnham previously stating that Israel would be his first overseas visit if elected as UK Prime Minister."
+      },
+      {
+        "pattern": "Suspension benefit narrative construction",
+        "detail": "Framing a competitor's suspension as directly benefiting another athlete through title gap reduction emphasis.",
+        "debias": "Report sports results without attributing success to competitors' absences or penalties.",
+        "date_added": "2026-06-21",
+        "status": "suggested",
+        "example_text": "Seven-time MotoGP world champion reduces title leader Marco Bezzecchi's points lead after the Italian was suspended.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/21/marc-marquez-wins-the-czech-motogp-narrows-title-gap-to-leader-bezzecchi?traffic_source=rss",
+        "unbiased_text": "Seven-time MotoGP world champion Marc Marquez won the Czech MotoGP, reducing the points lead of championship leader Marco Bezzecchi."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4240,6 +4260,26 @@
         "example_text": "Could Israel lose Donald Trump's support by continuing to drop bombs in Lebanon?",
         "example_url": "https://www.france24.com/en/could-israel-lose-donald-trump-s-support-by-continuing-to-drop-bombs-in-lebanon",
         "unbiased_text": "Israeli strikes in Lebanon have raised questions about US-Israel relations as the Trump administration pursues talks with Iran."
+      },
+      {
+        "pattern": "Rationing emphasis survival dramatization",
+        "detail": "Highlighting food rationing and drone-dodging by trapped sailors to dramatize the human cost of geopolitical conflicts.",
+        "debias": "Report conditions faced by affected civilians without sensationalizing survival details.",
+        "date_added": "2026-06-21",
+        "status": "suggested",
+        "example_text": "Sailors trapped in Hormuz strait, dodging drones and rationing food",
+        "example_url": "https://www.france24.com/en/sailors-trapped-in-hormuz-strait-dodging-drones-and-rationing-food",
+        "unbiased_text": "Sailors remain in the Strait of Hormuz as the waterway stays closed, facing supply challenges."
+      },
+      {
+        "pattern": "Conditional implementation obstacle emphasis",
+        "detail": "Foregrounding conditions and obstacles to agreement implementation before discussing the agreement itself.",
+        "debias": "Present agreements and their conditions in balanced sequence without obstacle-first framing.",
+        "date_added": "2026-06-21",
+        "status": "suggested",
+        "example_text": "Tehran's nuclear programme and other points in the agreement are conditional on a halt in fighting in Lebanon.",
+        "example_url": "https://www.france24.com/en/israel-and-hezbollah-trade-fire-as-us-iran-talks-begin-in-switzerland",
+        "unbiased_text": "The agreement addresses Tehran's nuclear programme and other points, with implementation tied to cessation of fighting in Lebanon."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -6403,6 +6443,26 @@
         "example_text": "It's not the first time the legendary oak has been declared dead. On previous occasions, fears were raised only for the tree to stubbornly leaf out again each spring. Not this year.",
         "example_url": "http://www.euronews.com/culture/2026/06/19/robin-hoods-famed-sherwood-forest-1200-year-old-oak-tree-declared-dead",
         "unbiased_text": "Experts say a 1,200-year-old oak tree in Sherwood Forest has not produced leaves this spring, though the tree has previously recovered after similar concerns."
+      },
+      {
+        "pattern": "Insurance scheme enticement framing",
+        "detail": "Framing airline insurance offerings as deliberate enticements to overcome travel warnings rather than standard customer protection.",
+        "debias": "Report new insurance products as business offerings without characterizing them as enticements.",
+        "date_added": "2026-06-21",
+        "status": "suggested",
+        "example_text": "Both Emirates and Etihad Airways have announced new insurance schemes which will protect travellers whose countries still list the region as a no-go zone.",
+        "example_url": "http://www.euronews.com/travel/2026/06/21/these-gulf-carriers-are-offering-insurance-to-entice-customers-back-to-the-middle-east",
+        "unbiased_text": "Emirates and Etihad Airways have announced new insurance schemes to protect travelers from countries that maintain travel advisories for the region."
+      },
+      {
+        "pattern": "Passport revocation scandal construction",
+        "detail": "Emphasizing passport revocation in corruption trial reporting to heighten scandal perception through travel restriction drama.",
+        "debias": "Report legal proceedings and associated restrictions without dramatizing secondary administrative measures.",
+        "date_added": "2026-06-21",
+        "status": "suggested",
+        "example_text": "Wife of Spanish PM Pedro Pedro Sánchez has passport revoked as court orders corruption trial",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/20/wife-of-spanish-pm-pedro-pedro-sanchez-has-passport-revoked-as-court-orders-corruption-tri",
+        "unbiased_text": "A court has ordered a corruption trial for the wife of Spanish PM Pedro Sánchez, with travel restrictions imposed pending proceedings."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
