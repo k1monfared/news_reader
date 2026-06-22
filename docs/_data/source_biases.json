@@ -2386,6 +2386,46 @@
         "example_text": "Seven-time MotoGP world champion reduces title leader Marco Bezzecchi's points lead after the Italian was suspended.",
         "example_url": "https://www.aljazeera.com/sports/2026/6/21/marc-marquez-wins-the-czech-motogp-narrows-title-gap-to-leader-bezzecchi?traffic_source=rss",
         "unbiased_text": "Seven-time MotoGP world champion Marc Marquez won the Czech MotoGP, reducing the points lead of championship leader Marco Bezzecchi."
+      },
+      {
+        "pattern": "Chronological milestone superlative framing",
+        "detail": "Framing inflation rates or events through time-based superlatives to amplify crisis perception without contextualizing magnitude or comparison.",
+        "debias": "Report inflation figures with historical context and comparative benchmarks rather than chronological superlatives alone.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "Canada's inflation hits 29-month high amid heightened oil prices",
+        "example_url": "https://www.aljazeera.com/economy/2026/6/22/canadas-inflation-hits-29-month-high-amid-heightened-oil-prices?traffic_source=rss",
+        "unbiased_text": "Canada's inflation rate increased to 3.2% in May, driven primarily by oil prices"
+      },
+      {
+        "pattern": "Pool color politicization framing",
+        "detail": "Attributing mundane infrastructure issues to political sabotage by named opponents to manufacture controversy.",
+        "debias": "Report infrastructure maintenance issues factually without attributing political motives unless substantiated by investigation.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "Donald Trump, who spent $14m relining the iconic pool, claims it has been vandalised by 'radical left lunatics'.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/22/why-washingtons-reflecting-pool-has-gone-from-us-blue-to-algae-green?traffic_source=rss",
+        "unbiased_text": "Donald Trump, who spent $14m relining the iconic pool, has claimed vandalism, though officials cite algae growth as the cause."
+      },
+      {
+        "pattern": "Gaza World Cup heroism isolation framing",
+        "detail": "Presenting Gaza's sports infrastructure collapse as unique abandonment story to emphasize victimization through FIFA inaction.",
+        "debias": "Report sports infrastructure challenges factually with concrete details about FIFA commitments and implementation status.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "Gaza's footballers train on broken pitches with no shoes. Why has FIFA's rebuilding plan gone nowhere?",
+        "example_url": "https://www.aljazeera.com/video/the-take-2/2026/6/22/what-the-world-cup-looks-like-from-gaza?traffic_source=rss",
+        "unbiased_text": "Gaza's football infrastructure remains damaged, with FIFA's 2024 rebuilding commitment yet to be implemented."
+      },
+      {
+        "pattern": "Surname omission leadership delegitimization",
+        "detail": "Referring to leaders by first name only in headline to suggest informality, lack of authority, or diminished stature.",
+        "debias": "Use full names or standard titles for political figures consistently regardless of position on issues.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "Why has Keir Starmer resigned as UK prime minister, and who will take over?",
+        "example_url": "https://www.aljazeera.com/news/2026/6/22/why-has-keir-starmer-resigned-as-uk-prime-minister-and-who-will-take-over?traffic_source=rss",
+        "unbiased_text": "Why has UK Prime Minister Keir Starmer resigned, and who will take over?"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4280,6 +4320,26 @@
         "example_text": "Tehran's nuclear programme and other points in the agreement are conditional on a halt in fighting in Lebanon.",
         "example_url": "https://www.france24.com/en/israel-and-hezbollah-trade-fire-as-us-iran-talks-begin-in-switzerland",
         "unbiased_text": "The agreement addresses Tehran's nuclear programme and other points, with implementation tied to cessation of fighting in Lebanon."
+      },
+      {
+        "pattern": "Lipstick-on-pig dismissal metaphor",
+        "detail": "Using dismissive animal metaphors to characterize diplomatic achievements as cosmetic deception masking fundamental failure.",
+        "debias": "Assess diplomatic outcomes on substantive terms without dismissive metaphors that presume deception.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "JD Vance put lipstick on a pig: Iranians have the upper hand",
+        "example_url": "https://www.france24.com/en/jd-vance-put-lipstick-on-a-pig-iranians-have-the-upper-hand-in-the-peace-negotiations",
+        "unbiased_text": "According to analyst Scott Lucas, the US negotiated with Iran from a weaker position than initially projected"
+      },
+      {
+        "pattern": "Regime surrender terminology escalation",
+        "detail": "Characterizing military strategy shifts as transition from 'regime change' to 'regime surrender' to frame negotiations as capitulation.",
+        "debias": "Describe policy evolution using neutral terminology that reflects strategic recalibration without surrender framing.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "The Americans shifted from regime change to regime surrender",
+        "example_url": "https://www.france24.com/en/jd-vance-put-lipstick-on-a-pig-iranians-have-the-upper-hand-in-the-peace-negotiations",
+        "unbiased_text": "The Americans shifted from seeking regime change to pursuing negotiated settlement"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -6463,6 +6523,26 @@
         "example_text": "Wife of Spanish PM Pedro Pedro Sánchez has passport revoked as court orders corruption trial",
         "example_url": "http://www.euronews.com/my-europe/2026/06/20/wife-of-spanish-pm-pedro-pedro-sanchez-has-passport-revoked-as-court-orders-corruption-tri",
         "unbiased_text": "A court has ordered a corruption trial for the wife of Spanish PM Pedro Sánchez, with travel restrictions imposed pending proceedings."
+      },
+      {
+        "pattern": "Heatwave death causation immediacy assertion",
+        "detail": "Attributing deaths directly to weather events as 'leading hypothesis' before investigation completion to dramatize climate impact.",
+        "debias": "Report deaths during extreme weather without causal attribution until official investigations conclude.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "The heatwave is the leading hypothesis for their deaths, according to a local prosecutor.",
+        "example_url": "http://www.euronews.com/health/2026/06/22/two-children-die-in-car-during-heatwave-in-southern-france",
+        "unbiased_text": "A local prosecutor said investigators are examining whether the heatwave contributed to their deaths."
+      },
+      {
+        "pattern": "Snake invasion catastrophe labeling",
+        "detail": "Framing presence of non-native species as 'invasion' and 'threat' to amplify ecological crisis narrative.",
+        "debias": "Report invasive species presence with specific ecological impacts rather than militarized invasion terminology.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "The snake invasion threatening Ibiza and Mallorca",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/22/holiday-islands-under-pressure-the-snake-invasion-threatening-ibiza-and-mallorca",
+        "unbiased_text": "Non-native snake species pose ecological challenges for Ibiza and Mallorca"
       }
     ],
     "notes": "Reliable but limited conflict coverage"

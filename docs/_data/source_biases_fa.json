@@ -2656,6 +2656,50 @@
         "example_url": "https://www.aljazeera.com/sports/2026/6/21/marc-marquez-wins-the-czech-motogp-narrows-title-gap-to-leader-bezzecchi?traffic_source=rss",
         "unbiased_text": "مارک مارکز، هفت‌بار قهرمان جهان MotoGP، برنده مسابقه MotoGP چک شد و اختلاف امتیاز صدرنشین مسابقات مارکو بتزکی را کاهش داد.",
         "pattern_en": "Suspension benefit narrative construction"
+      },
+      {
+        "pattern": "قاب‌بندی با صفت عالی نقطه عطف زمانی",
+        "detail": "قاب‌بندی نرخ تورم یا رویدادها از طریق صفات عالی مبتنی بر زمان برای تشدید درک بحران بدون زمینه‌سازی در مورد بزرگی یا مقایسه.",
+        "debias": "ارقام تورم را با زمینه تاریخی و معیارهای مقایسه‌ای گزارش کنید به جای استفاده صرف از صفات عالی زمانی.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "تورم کانادا به بالاترین سطح ۲۹ ماهه در میان افزایش قیمت نفت می‌رسد",
+        "example_url": "https://www.aljazeera.com/economy/2026/6/22/canadas-inflation-hits-29-month-high-amid-heightened-oil-prices?traffic_source=rss",
+        "unbiased_text": "نرخ تورم کانادا در ماه می به ۳.۲ درصد افزایش یافت که عمدتاً توسط قیمت نفت هدایت شد",
+        "pattern_en": "Chronological milestone superlative framing"
+      },
+      {
+        "pattern": "قاب‌بندی سیاسی‌سازی رنگ استخر",
+        "detail": "نسبت دادن مسائل معمول زیرساختی به خرابکاری سیاسی توسط مخالفان نام‌برده شده برای ساخت جنجال.",
+        "debias": "گزارش مسائل نگهداری زیرساخت‌ها به صورت واقع‌بینانه بدون نسبت دادن انگیزه‌های سیاسی مگر اینکه توسط تحقیقات مستند شده باشد.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "دونالد ترامپ که ۱۴ میلیون دلار برای روکش‌کاری مجدد این استخر نمادین خرج کرده است، ادعا می‌کند که توسط «چپ‌گرایان افراطی دیوانه» خراب‌کاری شده است.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/22/why-washingtons-reflecting-pool-has-gone-from-us-blue-to-algae-green?traffic_source=rss",
+        "unbiased_text": "دونالد ترامپ که ۱۴ میلیون دلار برای روکش‌کاری مجدد این استخر نمادین خرج کرده است، ادعای خراب‌کاری کرده، اگرچه مقامات رشد جلبک را به عنوان علت ذکر می‌کنند.",
+        "pattern_en": "Pool color politicization framing"
+      },
+      {
+        "pattern": "قاب‌بندی انزوای قهرمانی جام جهانی غزه",
+        "detail": "ارائه فروپاشی زیرساخت‌های ورزشی غزه به عنوان داستان منحصربه‌فرد رها شدن برای تأکید بر قربانی‌سازی از طریق بی‌عملی FIFA.",
+        "debias": "گزارش چالش‌های زیرساخت ورزشی را به صورت واقعی با جزئیات مشخص درباره تعهدات FIFA و وضعیت اجرای آن‌ها ارائه دهید.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "فوتبالیست‌های غزه روی زمین‌های شکسته بدون کفش تمرین می‌کنند. چرا طرح بازسازی FIFA به جایی نرسیده است؟",
+        "example_url": "https://www.aljazeera.com/video/the-take-2/2026/6/22/what-the-world-cup-looks-like-from-gaza?traffic_source=rss",
+        "unbiased_text": "زیرساخت فوتبال غزه همچنان آسیب‌دیده باقی مانده و تعهد بازسازی FIFA در سال ۲۰۲۴ هنوز اجرا نشده است.",
+        "pattern_en": "Gaza World Cup heroism isolation framing"
+      },
+      {
+        "pattern": "حذف نام خانوادگی برای بی‌اعتبار کردن رهبری",
+        "detail": "اشاره به رهبران تنها با نام کوچک در تیتر به منظور القای غیررسمی بودن، فقدان اقتدار یا کاهش جایگاه.",
+        "debias": "از نام‌های کامل یا عناوین رسمی برای شخصیت‌های سیاسی به طور یکسان استفاده کنید، صرف‌نظر از موضع آن‌ها در مسائل.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "چرا کیر استارمر به عنوان نخست‌وزیر بریتانیا استعفا داده است و چه کسی جایگزین او خواهد شد؟",
+        "example_url": "https://www.aljazeera.com/news/2026/6/22/why-has-keir-starmer-resigned-as-uk-prime-minister-and-who-will-take-over?traffic_source=rss",
+        "unbiased_text": "چرا نخست‌وزیر بریتانیا کیر استارمر استعفا داده است و چه کسی جایگزین او خواهد شد؟",
+        "pattern_en": "Surname omission leadership delegitimization"
       }
     ]
   },
@@ -4730,6 +4774,28 @@
         "example_url": "https://www.france24.com/en/israel-and-hezbollah-trade-fire-as-us-iran-talks-begin-in-switzerland",
         "unbiased_text": "توافق به برنامه هسته‌ای تهران و سایر نکات می‌پردازد و اجرای آن به توقف جنگ در لبنان گره خورده است.",
         "pattern_en": "Conditional implementation obstacle emphasis"
+      },
+      {
+        "pattern": "استعاره تحقیرآمیز آرایش خوک",
+        "detail": "استفاده از استعاره‌های تحقیرآمیز حیوانی برای توصیف دستاوردهای دیپلماتیک به‌عنوان فریب ظاهری که شکست بنیادین را پنهان می‌کند.",
+        "debias": "دستاوردهای دیپلماتیک را بر اساس معیارهای ماهوی و بدون استعاره‌های تحقیرآمیزی که فریب را پیش‌فرض می‌گیرند، ارزیابی کنید.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "جی‌دی ونس روی خوک رژلب زد: ایرانی‌ها دست بالا را دارند",
+        "example_url": "https://www.france24.com/en/jd-vance-put-lipstick-on-a-pig-iranians-have-the-upper-hand-in-the-peace-negotiations",
+        "unbiased_text": "به گفته تحلیلگر اسکات لوکاس، ایالات متحده از موضع ضعیف‌تری نسبت به آنچه در ابتدا پیش‌بینی شده بود، با ایران مذاکره کرد",
+        "pattern_en": "Lipstick-on-pig dismissal metaphor"
+      },
+      {
+        "pattern": "اصطلاح‌شناسی تشدیدآمیز تسلیم رژیم",
+        "detail": "توصیف تغییرات استراتژی نظامی به‌عنوان گذار از «تغییر رژیم» به «تسلیم رژیم» برای قاب‌بندی مذاکرات به‌مثابه تسلیم.",
+        "debias": "تحول سیاست را با اصطلاح‌شناسی خنثی توصیف کنید که بازتنظیم استراتژیک را بدون قاب‌بندی تسلیم منعکس می‌کند.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "آمریکایی‌ها از تغییر رژیم به تسلیم رژیم روی آوردند",
+        "example_url": "https://www.france24.com/en/jd-vance-put-lipstick-on-a-pig-iranians-have-the-upper-hand-in-the-peace-negotiations",
+        "unbiased_text": "آمریکایی‌ها از جستجوی تغییر رژیم به دنبال راه‌حل مذاکره‌ای روی آوردند",
+        "pattern_en": "Regime surrender terminology escalation"
       }
     ]
   },
@@ -7149,6 +7215,28 @@
         "unbiased_text": "دادگاهی دستور برگزاری دادگاه فساد برای همسر نخست‌وزیر اسپانیا پدرو سانچز را صادر کرده و محدودیت‌های سفر در انتظار روند رسیدگی اعمال شده است.",
         "detail_items": [],
         "pattern_en": "Passport revocation scandal construction"
+      },
+      {
+        "pattern": "ادعای فوریت علیت مرگ‌ومیر ناشی از موج گرما",
+        "detail": "نسبت دادن مستقیم مرگ‌ومیر به رویدادهای آب و هوایی به‌عنوان «فرضیه اصلی» پیش از تکمیل تحقیقات برای نمایش دراماتیک تأثیرات تغییرات اقلیمی.",
+        "debias": "مرگ‌ومیر را در طول شرایط آب و هوایی شدید بدون نسبت دادن علیت گزارش کنید تا زمانی که تحقیقات رسمی به نتیجه برسند.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "موج گرما فرضیه اصلی برای مرگ آنهاست، به گفته دادستان محلی.",
+        "example_url": "http://www.euronews.com/health/2026/06/22/two-children-die-in-car-during-heatwave-in-southern-france",
+        "unbiased_text": "دادستان محلی گفت که بازرسان در حال بررسی این موضوع هستند که آیا موج گرما به مرگ آنها کمک کرده است.",
+        "pattern_en": "Heatwave death causation immediacy assertion"
+      },
+      {
+        "pattern": "برچسب‌زنی فاجعه تهاجم مار",
+        "detail": "قاب‌بندی حضور گونه‌های غیربومی به عنوان «تهاجم» و «تهدید» برای تقویت روایت بحران اکولوژیکی.",
+        "debias": "گزارش حضور گونه‌های مهاجم با تأثیرات اکولوژیکی مشخص به جای اصطلاحات نظامی‌شده تهاجم.",
+        "date_added": "2026-06-22",
+        "status": "suggested",
+        "example_text": "تهاجم مار که ایبیزا و مایورکا را تهدید می‌کند",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/22/holiday-islands-under-pressure-the-snake-invasion-threatening-ibiza-and-mallorca",
+        "unbiased_text": "گونه‌های غیربومی مار چالش‌های اکولوژیکی برای ایبیزا و مایورکا ایجاد می‌کنند",
+        "pattern_en": "Snake invasion catastrophe labeling"
       }
     ]
   }
