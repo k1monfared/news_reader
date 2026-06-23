@@ -2426,6 +2426,36 @@
         "example_text": "Why has Keir Starmer resigned as UK prime minister, and who will take over?",
         "example_url": "https://www.aljazeera.com/news/2026/6/22/why-has-keir-starmer-resigned-as-uk-prime-minister-and-who-will-take-over?traffic_source=rss",
         "unbiased_text": "Why has UK Prime Minister Keir Starmer resigned, and who will take over?"
+      },
+      {
+        "pattern": "Starlink smuggling confession celebration",
+        "detail": "Framing the revelation that Israel smuggled communication technology into Iran as a casual admission rather than an illegal intelligence operation.",
+        "debias": "Report technology smuggling operations as intelligence activities with legal and diplomatic implications rather than matter-of-fact admissions.",
+        "date_added": "2026-06-23",
+        "status": "suggested",
+        "example_text": "Former PM Naftali Bennett has admitted Israel smuggled Starlink internet systems into Iran.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/23/former-pm-says-israel-smuggled-starlink-internet-systems-into-iran?traffic_source=rss",
+        "unbiased_text": "Former PM Naftali Bennett revealed that Israel conducted covert operations to introduce Starlink internet systems into Iran."
+      },
+      {
+        "pattern": "Teenage prodigy jersey ceremony elevation",
+        "detail": "Transforming routine national team selection into celebratory milestone narrative through emphasis on jersey presentation ceremony.",
+        "debias": "Report athlete selections as standard sporting news without ceremonial emphasis unless the selection itself is historically unprecedented.",
+        "date_added": "2026-06-23",
+        "status": "suggested",
+        "example_text": "Teenage star receives first India shirt from BCCI and is tipped to make his debut in a T20 match in Ireland on Friday.",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/23/vaibhav-sooryavanshi-t20-ipl-batting-prodigy-receives-first-india-jersey?traffic_source=rss",
+        "unbiased_text": "Teenage player Vaibhav Sooryavanshi has been selected for India's T20 squad and is expected to debut in Ireland on Friday."
+      },
+      {
+        "pattern": "US-run facility conspiracy framing",
+        "detail": "Characterizing US health facility funding as masking risks rather than as partnership with stated public health objectives.",
+        "debias": "Report international health facility projects through stated objectives and documented concerns rather than assumed hidden motives.",
+        "date_added": "2026-06-23",
+        "status": "suggested",
+        "example_text": "Kenya stops constructing US-run Ebola site amid public outcry; $13.5m US funding is criticised as masking health risks.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/23/kenya-minister-says-us-run-ebola-facility-plans-halted-after-court-order?traffic_source=rss",
+        "unbiased_text": "Kenya halted construction of a US-funded Ebola facility following public concerns and a court order; critics questioned the $13.5m project's necessity."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4340,6 +4370,16 @@
         "example_text": "The Americans shifted from regime change to regime surrender",
         "example_url": "https://www.france24.com/en/jd-vance-put-lipstick-on-a-pig-iranians-have-the-upper-hand-in-the-peace-negotiations",
         "unbiased_text": "The Americans shifted from seeking regime change to pursuing negotiated settlement"
+      },
+      {
+        "pattern": "Contradictory nuclear access reporting",
+        "detail": "Presenting conflicting claims from US and Iranian officials about nuclear inspections as equally valid rather than determining which account has evidentiary support.",
+        "debias": "When officials present contradictory claims about concrete agreements, seek documentary evidence or third-party verification rather than presenting both as equally credible.",
+        "date_added": "2026-06-23",
+        "status": "suggested",
+        "example_text": "US Vice President JD Vance said Monday that Iran had agreed to allow International Atomic Energy Agency inspectors back into the country. Iran's foreign minister later refuted the claim, saying Tehran had not negotiated the nuclear issue or made any commitments during first-round US-Iran talks",
+        "example_url": "https://www.france24.com/en/middle-east/20260622-middle-east-live-us-iranian-negotiators-enter-second-day-of-talks-after-encouraging-start",
+        "unbiased_text": "US Vice President JD Vance said Monday that Iran had agreed to allow International Atomic Energy Agency inspectors back into the country, but Iran's foreign minister denied that Tehran made any such commitment, leaving the actual status of nuclear inspections unclear."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -6543,6 +6583,36 @@
         "example_text": "The snake invasion threatening Ibiza and Mallorca",
         "example_url": "http://www.euronews.com/my-europe/2026/06/22/holiday-islands-under-pressure-the-snake-invasion-threatening-ibiza-and-mallorca",
         "unbiased_text": "Non-native snake species pose ecological challenges for Ibiza and Mallorca"
+      },
+      {
+        "pattern": "Phone-free festival progressivism framing",
+        "detail": "Presenting event phone restrictions as cultural advancement rather than audience control measure, using celebratory tone for technology prohibition.",
+        "debias": "Report event phone policies as operational decisions with competing stakeholder interests rather than progressive cultural achievements.",
+        "date_added": "2026-06-23",
+        "status": "suggested",
+        "example_text": "An increasing amount of touring artists are demanding their concerts be phone-free. Now, Edingburgh's annual celebration of the performing arts is also asking audience members to put their phones away during the performances.",
+        "example_url": "http://www.euronews.com/culture/2026/06/23/2026-edition-of-edinburgh-international-festival-to-be-a-phone-free-environment",
+        "unbiased_text": "The Edinburgh International Festival will implement a phone-free policy during performances, following similar restrictions adopted by some touring artists."
+      },
+      {
+        "pattern": "Hot Podium Guy trivialization insertion",
+        "detail": "Injecting superficial personality coverage into serious political events, using viral internet culture to frame constitutional transitions.",
+        "debias": "Report political leadership transitions through substantive policy and procedural angles rather than viral social media personalities.",
+        "date_added": "2026-06-23",
+        "status": "suggested",
+        "example_text": "UK Prime Minister Sir Keir Starmer's resignation only meant one thing for some – the mysterious 'Hot Podium Guy' was back...",
+        "example_url": "http://www.euronews.com/culture/2026/06/23/who-is-the-mysterious-hot-podium-guy-the-viral-face-of-the-uks-political-turmoil",
+        "unbiased_text": "UK Prime Minister Sir Keir Starmer's resignation triggered constitutional procedures for selecting a new leader."
+      },
+      {
+        "pattern": "SpaceX collapse sensationalism conflation",
+        "detail": "Using catastrophic language for stock market corrections while simultaneously reporting routine corporate financing activity, creating editorial contradiction.",
+        "debias": "Report equity valuation changes and corporate financing separately using proportional language that reflects standard market volatility.",
+        "date_added": "2026-06-23",
+        "status": "suggested",
+        "example_text": "SpaceX sheds $600 billion in three days as it taps the bond market for the first time",
+        "example_url": "http://www.euronews.com/business/2026/06/23/spacex-sheds-600-billion-in-three-days-as-it-taps-the-bond-market-for-the-first-time",
+        "unbiased_text": "SpaceX market valuation declined by $600 billion over three days as the company issued its first bond offering."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
