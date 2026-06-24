@@ -2733,6 +2733,28 @@
         "example_url": "https://www.aljazeera.com/news/2026/6/23/kenya-minister-says-us-run-ebola-facility-plans-halted-after-court-order?traffic_source=rss",
         "unbiased_text": "کنیا ساخت تأسیسات ابولای تأمین‌مالی‌شده توسط ایالات متحده را به‌دنبال نگرانی‌های عمومی و دستور دادگاه متوقف کرد؛ منتقدان ضرورت این پروژه ۱۳.۵ میلیون دلاری را زیر سؤال بردند.",
         "pattern_en": "US-run facility conspiracy framing"
+      },
+      {
+        "pattern": "قاب‌بندی پرهیز از قطعیت با خوش‌بینی محتاطانه",
+        "detail": "قاب‌بندی احساسات عمومی ایرانیان با زبان متناقض «خوش‌بینی محتاطانه» که به‌طور همزمان امید را تأیید می‌کند در حالی که بر تردید و پیچیدگی‌های پیش رو تأکید دارد.",
+        "debias": "احساسات عمومی را مستقیماً و بدون پرهیز از تناقض‌ها گزارش کنید؛ خوش‌بینی را از نگرانی‌ها به‌صورت واقعی جدا کنید.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "ایرانیان نسبت به توافق پیچیده با آمریکا خوش‌بین محتاطانه هستند",
+        "example_url": "https://www.aljazeera.com/news/2026/6/24/iranians-cautiously-optimistic-about-thorny-deal-with-us?traffic_source=rss",
+        "unbiased_text": "ایرانیان دیدگاه‌های متفاوتی درباره توافق با آمریکا ابراز می‌کنند در حالی که ماه‌ها مذاکره پیش رو است",
+        "pattern_en": "Cautious optimism hedging framing"
+      },
+      {
+        "pattern": "قاب‌بندی شگفتی‌آور وارونگی دمایی جغرافیایی",
+        "detail": "برجسته‌سازی الگوهای غیرمعمول دما که در آن شهرهای سنتاً خنک‌تر اروپایی از دماهای خاورمیانه‌ای فراتر می‌روند تا روایت بحران اقلیمی را تشدید کند.",
+        "debias": "دماهای واقعی و تأثیرات آن‌ها را بدون قاب‌بندی شگفتی‌آور مقایسه‌ای در میان مناطق دوردست گزارش دهید.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "وقتی پاریس از مکه داغ‌تر است: چگونه موج گرمای اروپا در سطح جهانی مقایسه می‌شود",
+        "example_url": "https://www.aljazeera.com/news/2026/6/24/when-paris-is-hotter-than-mecca-how-europes-heatwave-compares-globally?traffic_source=rss",
+        "unbiased_text": "دمای پاریس از ۴۰ درجه سانتی‌گراد فراتر رفت در حالی که اروپا موج گرمای شدیدی را تجربه می‌کند",
+        "pattern_en": "Geographic temperature inversion surprise framing"
       }
     ]
   },
@@ -4840,6 +4862,28 @@
         "example_url": "https://www.france24.com/en/middle-east/20260622-middle-east-live-us-iranian-negotiators-enter-second-day-of-talks-after-encouraging-start",
         "unbiased_text": "جی‌دی ونس، معاون رئیس‌جمهور آمریکا، روز دوشنبه گفت که ایران موافقت کرده است بازرسان آژانس بین‌المللی انرژی اتمی را مجدداً به کشور راه دهد، اما وزیر امور خارجه ایران انکار کرد که تهران چنین تعهدی داده باشد و وضعیت واقعی بازرسی‌های هسته‌ای همچنان نامشخص باقی ماند.",
         "pattern_en": "Contradictory nuclear access reporting"
+      },
+      {
+        "pattern": "رد کردن توهین‌آمیز با ترکیب‌های جعلی",
+        "detail": "تقویت رد گزارش‌های انتقادی از سوی منبع خبری با به‌کارگیری چندین صفت بی‌اعتبارکننده در زبان نقل‌قولی.",
+        "debias": "پاسخ منبع و یافته‌های گزارش را به‌طور جداگانه بازگو کنید بدون اینکه توصیفات تحقیرآمیز را تقویت کنید.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "اسرائیل این گزارش را «توهین‌آمیز» و «یک دروغ جعلی» خوانده است.",
+        "example_url": "https://www.france24.com/en/middle-east/20260623-israel-s-deliberate-targeting-of-children-part-of-ongoing-gaza-genocide-un-probe",
+        "unbiased_text": "اسرائیل یافته‌های گزارش را رد کرد",
+        "pattern_en": "Defamatory sham compound dismissal"
+      },
+      {
+        "pattern": "قاب‌بندی پرسشی رها شده درباره پرداخت هزینه",
+        "detail": "تأکید بر عدم قطعیت تأمین مالی بازسازی برای یک طرف در حالی که ذکر می‌شود صندوق بازسازی طرف دیگر در توافقات گنجانده شده است.",
+        "debias": "گزارش هزینه‌های بازسازی و ترتیبات تأمین مالی را به صورت واقعی و بدون قاب‌بندی مبتنی بر پرسش که حاکی از بی‌توجهی است ارائه دهید.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "خسارت جنگ لبنان ۱.۳ میلیارد دلار برآورد شده، اما چه کسی هزینه را می‌پردازد؟",
+        "example_url": "https://www.france24.com/en/lebanon-damage-estimated-at-1-3-billion-but-who-will-foot-the-bill",
+        "unbiased_text": "خسارت جنگ لبنان ۱.۳ میلیارد دلار برآورد شده؛ ترتیبات تأمین مالی بازسازی همچنان در حال بررسی است",
+        "pattern_en": "Who-will-pay question abandonment framing"
       }
     ]
   },
@@ -7316,6 +7360,50 @@
         "unbiased_text": "ارزش‌گذاری بازار SpaceX طی سه روز ۶۰۰ میلیارد دلار کاهش یافت در حالی که شرکت اولین عرضه اوراق قرضه خود را منتشر کرد.",
         "detail_items": [],
         "pattern_en": "SpaceX collapse sensationalism conflation"
+      },
+      {
+        "pattern": "تأکید تکراری بر شکسته شدن رکورد و تشدید",
+        "detail": "تقویت روایت بحران آب و هوایی از طریق برجسته کردن این نکته که رکوردهای دمایی چندین بار در یک دوره کوتاه شکسته شده‌اند.",
+        "debias": "دماهای رکوردی واقعی را بدون تأکید بر تعداد دفعات شکسته شدن رکوردها گزارش کنید.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "اسپانیا دو بار رکورد گرمای ژوئن را می‌شکند",
+        "example_url": "http://www.euronews.com/2026/06/24/spain-breaks-june-heat-record-twice",
+        "unbiased_text": "اسپانیا بالاترین دماهای ژوئن را از سال ۱۹۵۰ به بعد ثبت کرد",
+        "pattern_en": "Record-breaking twice emphasis escalation"
+      },
+      {
+        "pattern": "هیجان‌آفرینی در ارزش‌گذاری شرکت‌های دفاعی با استفاده از اختصارات سرمایه‌گذاری",
+        "detail": "استفاده از ارزش‌گذاری‌های عرضه اولیه سهام با ارقام حداکثر «تا» برای شرکت‌های دفاعی به منظور هیجان‌آفرینی درباره مقیاس مالی صنعت نظامی.",
+        "debias": "ارزش‌گذاری شرکت‌ها را با محدوده واقعی آن‌ها بدون تأکید بر برآوردهای حداکثر گزارش کنید.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "عرضه اولیه سهام دفاعی اروپایی: KNDS برنامه‌های پذیرش خود را ارائه می‌دهد که می‌تواند ارزش آن را تا ۱۵ میلیارد یورو برساند",
+        "example_url": "http://www.euronews.com/business/2026/06/24/european-defence-ipo-knds-lays-out-listing-plans-that-could-value-it-at-up-to-15bn",
+        "unbiased_text": "تولیدکننده دفاعی فرانسوی-آلمانی KNDS برنامه‌های عرضه اولیه سهام را با محدوده ارزش‌گذاری تخمینی اعلام کرد",
+        "pattern_en": "Defense investment acronym valuation sensationalism"
+      },
+      {
+        "pattern": "تشدید تهدید باکتری «گوشت‌خوار» با استفاده از گیومه‌های ترسناک",
+        "detail": "استفاده از گیومه‌های ترسناک در اطراف واژهٔ «گوشت‌خوار» در حالی که به‌طور همزمان تهدید باکتریایی از طریق تعطیلی ساحل و ارتباط با تغییرات آب‌وهوایی تشدید می‌شود.",
+        "debias": "خطرات باکتریایی و تعطیلی سواحل را با استفاده از اصطلاحات پزشکی و بدون توصیفات هیجان‌انگیز گزارش کنید.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "تهدید باکتری «گوشت‌خوار» در سواحل اروپا با گرم شدن دریاها گسترش می‌یابد",
+        "example_url": "http://www.euronews.com/2026/06/24/flesh-eating-bacteria-threat-spreads-on-europes-beaches-as-seas-warm",
+        "unbiased_text": "تشخیص باکتری ویبریو در سواحل اروپایی با افزایش دمای آب افزایش می‌یابد",
+        "pattern_en": "Flesh-eating scare-quote bacteria threat amplification"
+      },
+      {
+        "pattern": "برچسب‌زنی شکست از طریق برجسته‌سازی نقل‌قول رقیب",
+        "detail": "برجسته کردن توصیف رقیب از توافق به عنوان «شکست» طرف مقابل در تیتر برای چارچوب‌بندی نتیجه دیپلماتیک.",
+        "debias": "شرایط توافق و ارزیابی‌های طرف‌ها را بدون برجسته کردن توصیفات پیروزی یا شکست در تیترها گزارش کنید.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "تهران توافق‌نامه چارچوب را «شکست آمریکا» می‌نامد در حالی که ترامپ تهدید به توقف مذاکرات می‌کند",
+        "example_url": "http://www.euronews.com/2026/06/24/tehran-labels-framework-deal-us-defeat-as-trump-threatens-to-halt-talks",
+        "unbiased_text": "ایران توافق چارچوب را مطلوب توصیف می‌کند در حالی که آمریکا به دلیل اختلافات جدید تهدید به پایان دادن مذاکرات می‌کند",
+        "pattern_en": "Defeat labeling through adversary quotation elevation"
       }
     ]
   }

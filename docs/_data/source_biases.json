@@ -2456,6 +2456,26 @@
         "example_text": "Kenya stops constructing US-run Ebola site amid public outcry; $13.5m US funding is criticised as masking health risks.",
         "example_url": "https://www.aljazeera.com/news/2026/6/23/kenya-minister-says-us-run-ebola-facility-plans-halted-after-court-order?traffic_source=rss",
         "unbiased_text": "Kenya halted construction of a US-funded Ebola facility following public concerns and a court order; critics questioned the $13.5m project's necessity."
+      },
+      {
+        "pattern": "Cautious optimism hedging framing",
+        "detail": "Framing Iranian public sentiment with contradictory 'cautiously optimistic' language that simultaneously validates hope while emphasizing doubt and complexity ahead.",
+        "debias": "Report public sentiment directly without hedging contradictions; separate optimism from concerns factually.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "Iranians cautiously optimistic about thorny deal with US",
+        "example_url": "https://www.aljazeera.com/news/2026/6/24/iranians-cautiously-optimistic-about-thorny-deal-with-us?traffic_source=rss",
+        "unbiased_text": "Iranians express mixed views on US deal as months of negotiations lie ahead"
+      },
+      {
+        "pattern": "Geographic temperature inversion surprise framing",
+        "detail": "Highlighting unusual temperature patterns where traditionally cooler European cities exceed Middle Eastern temperatures to amplify climate crisis narrative.",
+        "debias": "Report actual temperatures and their impacts without comparative surprise framing across distant regions.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "When Paris is hotter than Mecca: How Europe's heatwave compares globally",
+        "example_url": "https://www.aljazeera.com/news/2026/6/24/when-paris-is-hotter-than-mecca-how-europes-heatwave-compares-globally?traffic_source=rss",
+        "unbiased_text": "Paris temperatures exceed 40C as Europe experiences severe heatwave"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4380,6 +4400,26 @@
         "example_text": "US Vice President JD Vance said Monday that Iran had agreed to allow International Atomic Energy Agency inspectors back into the country. Iran's foreign minister later refuted the claim, saying Tehran had not negotiated the nuclear issue or made any commitments during first-round US-Iran talks",
         "example_url": "https://www.france24.com/en/middle-east/20260622-middle-east-live-us-iranian-negotiators-enter-second-day-of-talks-after-encouraging-start",
         "unbiased_text": "US Vice President JD Vance said Monday that Iran had agreed to allow International Atomic Energy Agency inspectors back into the country, but Iran's foreign minister denied that Tehran made any such commitment, leaving the actual status of nuclear inspections unclear."
+      },
+      {
+        "pattern": "Defamatory sham compound dismissal",
+        "detail": "Amplifying source's dismissal of critical reports by stringing together multiple delegitimizing adjectives in quoted language.",
+        "debias": "Report the source's response and the report's findings separately without amplifying dismissive characterizations.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "Israel has slammed the report as \"defamatory\" and a \"libellous sham\".",
+        "example_url": "https://www.france24.com/en/middle-east/20260623-israel-s-deliberate-targeting-of-children-part-of-ongoing-gaza-genocide-un-probe",
+        "unbiased_text": "Israel rejected the report's findings"
+      },
+      {
+        "pattern": "Who-will-pay question abandonment framing",
+        "detail": "Emphasizing funding uncertainty for one party's reconstruction while noting another party's reconstruction fund was included in agreements.",
+        "debias": "Report reconstruction costs and funding arrangements factually without question-based framing that implies neglect.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "Lebanon war damage estimated at $1.3 billion, but who will foot the bill?",
+        "example_url": "https://www.france24.com/en/lebanon-damage-estimated-at-1-3-billion-but-who-will-foot-the-bill",
+        "unbiased_text": "Lebanon war damage estimated at $1.3 billion; reconstruction funding arrangements remain under discussion"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -6613,6 +6653,46 @@
         "example_text": "SpaceX sheds $600 billion in three days as it taps the bond market for the first time",
         "example_url": "http://www.euronews.com/business/2026/06/23/spacex-sheds-600-billion-in-three-days-as-it-taps-the-bond-market-for-the-first-time",
         "unbiased_text": "SpaceX market valuation declined by $600 billion over three days as the company issued its first bond offering."
+      },
+      {
+        "pattern": "Record-breaking twice emphasis escalation",
+        "detail": "Amplifying climate crisis narrative by highlighting that temperature records were broken multiple times within a single brief period.",
+        "debias": "Report the actual record temperatures reached without emphasizing the number of times records were broken.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "Spain breaks June heat record twice",
+        "example_url": "http://www.euronews.com/2026/06/24/spain-breaks-june-heat-record-twice",
+        "unbiased_text": "Spain records highest June temperatures since at least 1950"
+      },
+      {
+        "pattern": "Defense investment acronym valuation sensationalism",
+        "detail": "Using IPO valuations with 'up to' maximum figures for defense companies to sensationalize military industry financial scale.",
+        "debias": "Report company valuations with their actual ranges without emphasizing maximum estimates.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "European defence IPO: KNDS lays out listing plans that could value it at up to €15bn",
+        "example_url": "http://www.euronews.com/business/2026/06/24/european-defence-ipo-knds-lays-out-listing-plans-that-could-value-it-at-up-to-15bn",
+        "unbiased_text": "Franco-German defense manufacturer KNDS announces IPO plans with estimated valuation range"
+      },
+      {
+        "pattern": "Flesh-eating scare-quote bacteria threat amplification",
+        "detail": "Using scare quotes around 'flesh-eating' while simultaneously amplifying bacterial threat through beach closure and climate linkage.",
+        "debias": "Report bacterial risks and beach closures using medical terminology without sensationalist characterizations.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "'Flesh-eating' bacteria threat spreads on Europe's beaches as seas warm",
+        "example_url": "http://www.euronews.com/2026/06/24/flesh-eating-bacteria-threat-spreads-on-europes-beaches-as-seas-warm",
+        "unbiased_text": "Vibrio bacteria detections increase on European beaches as water temperatures rise"
+      },
+      {
+        "pattern": "Defeat labeling through adversary quotation elevation",
+        "detail": "Prominently featuring adversary's characterization of agreement as opponent's 'defeat' in headline to frame diplomatic outcome.",
+        "debias": "Report agreement terms and parties' assessments without elevating characterizations of victory or defeat to headlines.",
+        "date_added": "2026-06-24",
+        "status": "suggested",
+        "example_text": "Tehran labels framework deal 'US defeat' as Trump threatens to halt talks",
+        "example_url": "http://www.euronews.com/2026/06/24/tehran-labels-framework-deal-us-defeat-as-trump-threatens-to-halt-talks",
+        "unbiased_text": "Iran describes framework agreement as favorable while US threatens to end talks over new disputes"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
