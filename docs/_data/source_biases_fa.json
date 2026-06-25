@@ -2755,6 +2755,52 @@
         "example_url": "https://www.aljazeera.com/news/2026/6/24/when-paris-is-hotter-than-mecca-how-europes-heatwave-compares-globally?traffic_source=rss",
         "unbiased_text": "دمای پاریس از ۴۰ درجه سانتی‌گراد فراتر رفت در حالی که اروپا موج گرمای شدیدی را تجربه می‌کند",
         "pattern_en": "Geographic temperature inversion surprise framing"
+      },
+      {
+        "pattern": "تقویت جنجال تناقض درباره وجوه آزادشده",
+        "detail": "برجسته‌کردن ادعاهای متناقض درباره نحوه استفاده از وجوه آزادشده به منظور ایجاد تصویری از هرج‌ومرج دیپلماتیک یا فریبکاری.",
+        "debias": "گزارش اختلاف نظر اساسی به صورت واقعی بدون اینکه موضع هیچ یک از طرفین به عنوان افشاگری قطعی یا متناقض قاب‌بندی شود.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "این انکار با موضع دولت آمریکا در تناقض است که گفته بود وجوه آزادشده صرف خرید محصولات از کشاورزان آمریکایی خواهد شد.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/25/iran-negotiator-ghalibaf-rejects-claim-unfrozen-funds-will-buy-us-goods?traffic_source=rss",
+        "unbiased_text": "مذاکره‌کننده ایران گفت وجوه آزادشده صرف خرید کالاهای آمریکایی نخواهد شد، در حالی که دولت آمریکا اعلام کرده است این وجوه برای خرید محصولات از کشاورزان آمریکایی استفاده خواهد شد.",
+        "pattern_en": "Unfrozen funds contradiction controversy amplification"
+      },
+      {
+        "pattern": "تقابل ترس دیاسپورا با افتخار ورزشی",
+        "detail": "جفت کردن پوشش جشن‌واره‌ای ورزشی با روایت‌های ترس درباره جامعه دیاسپورا به منظور تزریق نگرانی سیاسی به دستاوردهای فرهنگی.",
+        "debias": "دستاوردهای ورزشی و نگرانی‌های جامعه را به عنوان موضوعات جداگانه پوشش دهید بدون اینکه آن‌ها را ترکیب کنید تا القا شود جشن تحت‌الشعاع ترس قرار گرفته است.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "برای هائیتی‌های مقیم ایالات متحده، غرور و شادی جام جهانی همراه با ترس است",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/25/for-haitians-in-the-us-the-pride-and-joy-of-the-world-cup-comes-with-fear?traffic_source=rss",
+        "unbiased_text": "جوامع دیاسپورای هائیتی در ایالات متحده حضور تیم خود در جام جهانی را پس از ۵۲ سال غیبت از این تورنمنت جشن می‌گیرند.",
+        "detail_items": [],
+        "pattern_en": "Diaspora fear juxtaposition with sporting pride"
+      },
+      {
+        "pattern": "تأیید برگزیت از طریق صداهای گزینشی",
+        "detail": "پلتفرم دادن به صداهای طرفدار برگزیت با عباراتی مانند «بدون پشیمانی» برای اعتبار بخشیدن به تصمیم بحث‌برانگیز، در حالی که دیدگاه‌های مخالف را به حداقل می‌رساند.",
+        "debias": "پوشش سالگرد برگزیت را با نمایش متوازن دیدگاه‌های مختلف رأی‌دهندگان و پیامدهای مستند ارائه دهید، نه تأیید گزینشی.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "«ما واقعاً کنترل را به دست گرفتیم»: رأی‌دهندگان برگزیت که ۱۰ سال بعد هیچ پشیمانی ندارند",
+        "example_url": "https://www.aljazeera.com/news/2026/6/25/we-did-regain-control-the-brexit-voters-with-no-regrets-10-years-on?traffic_source=rss",
+        "unbiased_text": "ده سال پس از رأی‌گیری برگزیت، برخی از رأی‌دهندگان بریتانیا می‌گویند ترک اتحادیه اروپا تصمیم درستی بود، در حالی که داده‌های نظرسنجی احساسات عمومی متفاوتی را درباره نتیجه نشان می‌دهد.",
+        "detail_items": [],
+        "pattern_en": "Brexit vindication through selective voice"
+      },
+      {
+        "pattern": "هیجان‌آفرینی درباره نرخ مصرف نخست‌وزیران",
+        "detail": "قاب‌بندی گردش بالای رهبران سیاسی به‌عنوان آسیب‌شناسی سیستمیک منحصربه‌فرد یک کشور خاص به‌جای یک پدیده سیاسی تطبیقی.",
+        "debias": "گزارش انتقال رهبری با زمینه تطبیقی درباره هنجارهای جهانی و عوامل نهادی به‌جای استعاره بلع ملی.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "چرا بریتانیا نخست‌وزیران خود را می‌بلعد",
+        "example_url": "https://www.aljazeera.com/opinions/2026/6/25/why-britain-devours-its-prime-ministers?traffic_source=rss",
+        "unbiased_text": "بریتانیا به دلیل عواملی از جمله حمایت ائتلافی ضعیف، افکار عمومی بی‌ثبات و تقسیم‌بندی‌های درون‌حزبی، تغییرات مکرر در نخست‌وزیری را تجربه کرده است.",
+        "pattern_en": "Prime minister consumption rate sensationalism"
       }
     ]
   },
@@ -4884,6 +4930,28 @@
         "example_url": "https://www.france24.com/en/lebanon-damage-estimated-at-1-3-billion-but-who-will-foot-the-bill",
         "unbiased_text": "خسارت جنگ لبنان ۱.۳ میلیارد دلار برآورد شده؛ ترتیبات تأمین مالی بازسازی همچنان در حال بررسی است",
         "pattern_en": "Who-will-pay question abandonment framing"
+      },
+      {
+        "pattern": "برجسته‌سازی ویدئوی وایرال روایت بی‌احترامی",
+        "detail": "تقویت گمانه‌زنی درباره بی‌احترامی دیپلماتیک از طریق کلیپ ویدئویی بدون زمینه، علی‌رغم تکذیب رسمی توسط تمام طرف‌های درگیر.",
+        "debias": "گمانه‌زنی‌های وایرال دیپلماتیک را با زمینه فوری و تصریحات رسمی گزارش کنید به جای آنکه تفسیر رسانه‌های اجتماعی را به عنوان رویداد خبری برجسته کنید.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "آیا نخست‌وزیر قطر به جی‌دی ونس «بی‌احترامی» کرد؟ دوحه و واشنگتن ادعا را تکذیب می‌کنند",
+        "example_url": "https://www.france24.com/en/did-qatar-s-prime-minister-snub-jd-vance-doha-washington-deny-claim",
+        "unbiased_text": "ویدئویی از مذاکرات آمریکا و ایران نشان داد که نخست‌وزیر قطر با نخست‌وزیر پاکستان دست می‌دهد، که منجر به گمانه‌زنی‌های آنلاین شد که متعاقباً توسط مقامات قطری و آمریکایی تکذیب شد.",
+        "pattern_en": "Snub narrative viral video elevation"
+      },
+      {
+        "pattern": "رد پیشرفت از طریق نقل‌قول تحلیلگر با استعاره توهین‌آمیز",
+        "detail": "استفاده از استعاره توهین‌آمیز و خام در نقل‌قول تحلیلگر برای بی‌اعتبار کردن ادعاهای پیشرفت دیپلماتیک بدون تحلیل ماهوی سیاست.",
+        "debias": "ادعاهای دیپلماتیک را از طریق تحلیل ماهوی سیاست ارزیابی کنید به جای اینکه استعاره‌های رنگارنگ و تحقیرآمیز را به عنوان چارچوب تحلیلی ارتقا دهید.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "«جی‌دی ونس روی خوک رژلب زد: ایرانی‌ها در مذاکرات صلح دست بالا را دارند»",
+        "example_url": "https://www.france24.com/en/jd-vance-put-lipstick-on-a-pig-iranians-have-the-upper-hand-in-the-peace-negotiations",
+        "unbiased_text": "تحلیلگر اسکات لوکاس استدلال می‌کند که ایالات متحده از موضع ضعیف‌تری مذاکره می‌کند پس از آنکه کمپین نظامی‌اش در دستیابی به اهداف اعلام‌شده ناکام ماند.",
+        "pattern_en": "Lipstick-on-pig progress dismissal through analyst quotation"
       }
     ]
   },
@@ -7404,6 +7472,41 @@
         "example_url": "http://www.euronews.com/2026/06/24/tehran-labels-framework-deal-us-defeat-as-trump-threatens-to-halt-talks",
         "unbiased_text": "ایران توافق چارچوب را مطلوب توصیف می‌کند در حالی که آمریکا به دلیل اختلافات جدید تهدید به پایان دادن مذاکرات می‌کند",
         "pattern_en": "Defeat labeling through adversary quotation elevation"
+      },
+      {
+        "pattern": "روایت حرکت شتاب‌گیرانه رهگیری ناوگان شبح",
+        "detail": "قاب‌بندی رهگیری‌های پی‌درپی دریایی به‌عنوان کمپین اجرایی تشدیدشونده از طریق شمارش ترتیبی و زبان حرکت شتاب‌دار.",
+        "debias": "رهگیری‌های دریایی را واقع‌بینانه بدون تأکید ترتیبی که نشان‌دهنده الگوی اجرایی شتاب‌گیرنده باشد، گزارش کنید.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "نیروی دریایی فرانسه یک نفتکش مظنون به تعلق به «ناوگان شبح» روسیه را در دریای مدیترانه بازرسی کرد، پنجمین عملیات از این دست از سپتامبر ۲۰۲۵، در حالی که پاریس تلاش‌های خود را برای اجرای تحریم‌های مرتبط با جنگ در اوکراین تشدید می‌کند.",
+        "example_url": "http://www.euronews.com/video/2026/06/25/moment-french-navy-boards-suspected-russian-ghost-fleet-tanker",
+        "unbiased_text": "نیروی دریایی فرانسه یک نفتکش مظنون به نقض تحریم‌ها را در دریای مدیترانه بازرسی کرد که بخشی از عملیات‌های جاری اجرای قانون دریایی است.",
+        "detail_items": [],
+        "pattern_en": "Ghost fleet interception momentum narrative"
+      },
+      {
+        "pattern": "رسوایی هتل کتری-لباس زیر",
+        "detail": "تبدیل رفتارهای پیش‌پاافتاده یا عجیب مهمانان به افشاگری‌های خبری رسوایی‌آمیز از طریق قاب‌بندی با ارزش شوک.",
+        "debias": "گزارش مطالعات رفتار مصرف‌کننده بدون حساس‌سازی بیش از حد اعمال معمولی یا بی‌ضرر به عنوان افشاگری‌های رسوایی‌آمیز.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "استفاده از کتری برای شستن لباس زیر، قاچاق غذا از بوفه صبحانه و جا دادن مهمان اضافی در اتاق‌ها از جمله عادات هتلی است که بریتانیایی‌ها به آن اعتراف کرده‌اند",
+        "example_url": "http://www.euronews.com/travel/2026/06/25/washing-underwear-in-kettles-and-raiding-the-breakfast-buffet-strange-hotel-guest-habits-r",
+        "unbiased_text": "یک نظرسنجی Hotels.com رفتارهای مختلف مهمانان از جمله استفاده از کتری برای شستشوی لباس، برداشتن غذای اضافی از بوفه و اسکان مهمانان بیشتر را نشان داد.",
+        "detail_items": [],
+        "pattern_en": "Underwear-kettle hotel scandal revelation"
+      },
+      {
+        "pattern": "قاب‌بندی علمی شاعرانهٔ سیارهٔ پنبه‌شکری",
+        "detail": "استفاده از مقایسه‌های بامزه با محصولات مصرفی برای کشفیات نجومی به‌منظور اولویت‌دادن به دسترس‌پذیری نسبت به دقت در گزارش‌های علمی.",
+        "debias": "کشفیات نجومی را با اصطلاحات علمی دقیق توصیف کنید در حالی که پیامدها را به‌صورت قابل‌فهم بدون استعاره‌های کوچک‌شمارانه توضیح می‌دهید.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "بزرگ‌تر از مشتری، سبک‌تر از پنبهٔ شکری: اختر‌شناسان دو سیارهٔ «فوق‌پف» کشف کردند",
+        "example_url": "http://www.euronews.com/next/2026/06/25/bigger-than-jupiter-lighter-than-cotton-candy-astronomers-discover-two-super-puff-planets",
+        "unbiased_text": "اختر‌شناسان دو سیارهٔ فراخورشیدی با چگالی بسیار پایین که بزرگ‌تر از مشتری هستند و عمدتاً از هیدروژن و هلیم تشکیل شده‌اند، کشف کرده‌اند.",
+        "pattern_en": "Cotton candy planet whimsy scientific framing"
       }
     ]
   }

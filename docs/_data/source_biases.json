@@ -2476,6 +2476,46 @@
         "example_text": "When Paris is hotter than Mecca: How Europe's heatwave compares globally",
         "example_url": "https://www.aljazeera.com/news/2026/6/24/when-paris-is-hotter-than-mecca-how-europes-heatwave-compares-globally?traffic_source=rss",
         "unbiased_text": "Paris temperatures exceed 40C as Europe experiences severe heatwave"
+      },
+      {
+        "pattern": "Unfrozen funds contradiction controversy amplification",
+        "detail": "Elevating conflicting claims about unfrozen funds' use to create impression of diplomatic chaos or deception.",
+        "debias": "Report the substantive disagreement factually without framing either side's position as definitive or contradictory revelation.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "The denial contradicts the US administration, which said unfrozen funds will be spent on produce from American farmers.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/25/iran-negotiator-ghalibaf-rejects-claim-unfrozen-funds-will-buy-us-goods?traffic_source=rss",
+        "unbiased_text": "Iran's negotiator said unfrozen funds would not be spent on US goods, while the US administration has stated the funds will be used to purchase produce from American farmers."
+      },
+      {
+        "pattern": "Diaspora fear juxtaposition with sporting pride",
+        "detail": "Pairing celebratory sports coverage with fear narratives about the diaspora community to inject political anxiety into cultural achievement.",
+        "debias": "Cover sporting achievements and community concerns as separate topics without combining them to suggest celebration is overshadowed by fear.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "For Haitians in the US, the pride and joy of the World Cup comes with fear",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/25/for-haitians-in-the-us-the-pride-and-joy-of-the-world-cup-comes-with-fear?traffic_source=rss",
+        "unbiased_text": "Haitian diaspora communities in the US celebrate their team's World Cup participation after a 52-year absence from the tournament."
+      },
+      {
+        "pattern": "Brexit vindication through selective voice",
+        "detail": "Platforming pro-Brexit voices with phrases like 'no regrets' to validate controversial decision while minimizing opposing perspectives.",
+        "debias": "Present Brexit anniversary coverage with balanced representation of various voter perspectives and documented outcomes rather than selective vindication.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "'We did regain control': The Brexit voters with no regrets 10 years on",
+        "example_url": "https://www.aljazeera.com/news/2026/6/25/we-did-regain-control-the-brexit-voters-with-no-regrets-10-years-on?traffic_source=rss",
+        "unbiased_text": "Ten years after the Brexit vote, some UK voters say leaving the EU was the right decision, while polling data shows mixed public sentiment on the outcome."
+      },
+      {
+        "pattern": "Prime minister consumption rate sensationalism",
+        "detail": "Framing high turnover of political leaders as systemic pathology unique to specific country rather than comparative political phenomenon.",
+        "debias": "Report leadership transitions with comparative context about global norms and institutional factors rather than national devourment metaphor.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "Why Britain devours its prime ministers",
+        "example_url": "https://www.aljazeera.com/opinions/2026/6/25/why-britain-devours-its-prime-ministers?traffic_source=rss",
+        "unbiased_text": "Britain has experienced frequent changes in prime minister due to factors including weak coalition support, volatile public opinion, and internal party divisions."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4420,6 +4460,26 @@
         "example_text": "Lebanon war damage estimated at $1.3 billion, but who will foot the bill?",
         "example_url": "https://www.france24.com/en/lebanon-damage-estimated-at-1-3-billion-but-who-will-foot-the-bill",
         "unbiased_text": "Lebanon war damage estimated at $1.3 billion; reconstruction funding arrangements remain under discussion"
+      },
+      {
+        "pattern": "Snub narrative viral video elevation",
+        "detail": "Amplifying speculation about diplomatic snub from decontextualized video clip despite official denials from all parties involved.",
+        "debias": "Report viral diplomatic speculation with immediate context and official clarifications rather than elevating social media interpretation as newsworthy event.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "Did Qatar's prime minister 'snub' JD Vance? Doha, Washington deny claim",
+        "example_url": "https://www.france24.com/en/did-qatar-s-prime-minister-snub-jd-vance-doha-washington-deny-claim",
+        "unbiased_text": "A video from US-Iran talks showed Qatar's prime minister greeting Pakistan's prime minister, prompting online speculation that was subsequently denied by both Qatari and US officials."
+      },
+      {
+        "pattern": "Lipstick-on-pig progress dismissal through analyst quotation",
+        "detail": "Using crude dismissive metaphor in analyst quotation to delegitimize diplomatic progress claims without substantive policy analysis.",
+        "debias": "Evaluate diplomatic claims through substantive policy analysis rather than elevating colorful dismissive metaphors as analytical framework.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "'JD Vance put lipstick on a pig: Iranians have the upper hand ' in peace negotiations",
+        "example_url": "https://www.france24.com/en/jd-vance-put-lipstick-on-a-pig-iranians-have-the-upper-hand-in-the-peace-negotiations",
+        "unbiased_text": "Analyst Scott Lucas argues that the US is negotiating from a weakened position after its military campaign failed to achieve stated objectives."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -6693,6 +6753,36 @@
         "example_text": "Tehran labels framework deal 'US defeat' as Trump threatens to halt talks",
         "example_url": "http://www.euronews.com/2026/06/24/tehran-labels-framework-deal-us-defeat-as-trump-threatens-to-halt-talks",
         "unbiased_text": "Iran describes framework agreement as favorable while US threatens to end talks over new disputes"
+      },
+      {
+        "pattern": "Ghost fleet interception momentum narrative",
+        "detail": "Framing sequential maritime interceptions as escalating enforcement campaign through ordinal counting and momentum language.",
+        "debias": "Report maritime interceptions factually without ordinal emphasis suggesting accelerating enforcement pattern.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "The French navy boarded a tanker suspected of belonging to Russia's so-called \"ghost fleet\" in the Mediterranean, the fifth such operation since September 2025, as Paris steps up efforts to enforce sanctions linked to the war in Ukraine.",
+        "example_url": "http://www.euronews.com/video/2026/06/25/moment-french-navy-boards-suspected-russian-ghost-fleet-tanker",
+        "unbiased_text": "The French navy boarded a tanker suspected of violating sanctions in the Mediterranean, part of ongoing maritime enforcement operations."
+      },
+      {
+        "pattern": "Underwear-kettle hotel scandal revelation",
+        "detail": "Elevating trivial or eccentric guest behaviors into newsworthy scandalous revelations through shock-value framing.",
+        "debias": "Report consumer behavior studies without sensationalizing mundane or harmless practices as scandalous revelations.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "Using kettles to wash underwear, smuggling food from the breakfast buffet and squeezing extra guests into rooms are among the hotel habits Britons have admitted to",
+        "example_url": "http://www.euronews.com/travel/2026/06/25/washing-underwear-in-kettles-and-raiding-the-breakfast-buffet-strange-hotel-guest-habits-r",
+        "unbiased_text": "A Hotels.com survey found various guest behaviors including using kettles for laundry, taking extra food from buffets, and accommodating additional guests."
+      },
+      {
+        "pattern": "Cotton candy planet whimsy scientific framing",
+        "detail": "Using playful consumer product comparisons for astronomical discoveries to prioritize accessibility over precision in scientific reporting.",
+        "debias": "Describe astronomical discoveries with accurate scientific terminology while explaining implications accessibly without trivializing metaphors.",
+        "date_added": "2026-06-25",
+        "status": "suggested",
+        "example_text": "Bigger than Jupiter, lighter than cotton candy: Astronomers discover two 'super-puff' planets",
+        "example_url": "http://www.euronews.com/next/2026/06/25/bigger-than-jupiter-lighter-than-cotton-candy-astronomers-discover-two-super-puff-planets",
+        "unbiased_text": "Astronomers have discovered two extremely low-density exoplanets larger than Jupiter, composed primarily of hydrogen and helium."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
