@@ -2516,6 +2516,26 @@
         "example_text": "Why Britain devours its prime ministers",
         "example_url": "https://www.aljazeera.com/opinions/2026/6/25/why-britain-devours-its-prime-ministers?traffic_source=rss",
         "unbiased_text": "Britain has experienced frequent changes in prime minister due to factors including weak coalition support, volatile public opinion, and internal party divisions."
+      },
+      {
+        "pattern": "Anticorruption campaign adequacy questioning",
+        "detail": "Framing anticorruption efforts through skeptical 'but is it enough?' questioning that positions reforms as inherently insufficient before evaluating their actual scope or impact.",
+        "debias": "Report anticorruption measures factually with their scale and scope, allowing readers to assess adequacy based on evidence rather than preemptive skepticism.",
+        "date_added": "2026-06-26",
+        "status": "suggested",
+        "example_text": "Iraq's new PM launches anticorruption campaign, but is it enough? Al-Zaidi campaign to combat corruption seizes $86m, properties, vehicles and gold. But analysts say he needs to do more.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/26/iraqs-new-pm-launches-anticorruption-campaign-but-is-it-enough?traffic_source=rss",
+        "unbiased_text": "Iraq's new PM launches anticorruption campaign. Al-Zaidi's campaign to combat corruption has seized $86m, properties, vehicles and gold. Analysts say additional measures may be necessary to address systemic issues."
+      },
+      {
+        "pattern": "Progressive demographic electoral validation narrative",
+        "detail": "Framing electoral participation by specific demographic groups as signaling transformative political force rather than reporting election results neutrally.",
+        "debias": "Report election outcomes and candidate platforms factually without attributing broader movement significance to demographic participation patterns.",
+        "date_added": "2026-06-26",
+        "status": "suggested",
+        "example_text": "New York's primaries signal a new force in US politics. Progressive, Muslim and Arab American candidates are challenging old limits on debate over Israel and Palestine.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/6/26/new-yorks-primaries-signal-a-new-force-in-us-politics?traffic_source=rss",
+        "unbiased_text": "Muslim and Arab American candidates won several New York Democratic primary races. These candidates have advocated for policy changes regarding Israel and Palestine."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4480,6 +4500,16 @@
         "example_text": "'JD Vance put lipstick on a pig: Iranians have the upper hand ' in peace negotiations",
         "example_url": "https://www.france24.com/en/jd-vance-put-lipstick-on-a-pig-iranians-have-the-upper-hand-in-the-peace-negotiations",
         "unbiased_text": "Analyst Scott Lucas argues that the US is negotiating from a weakened position after its military campaign failed to achieve stated objectives."
+      },
+      {
+        "pattern": "Decoy revelation tactical narrative",
+        "detail": "Framing discovery that military used decoys as newsworthy revelation rather than standard military practice, positioning it as evidence of specific tactical weakness or deception.",
+        "debias": "Report military tactics including decoys as routine defensive measures without framing their use as surprising or indicative of broader strategic failures.",
+        "date_added": "2026-06-26",
+        "status": "suggested",
+        "example_text": "Hezbollah claims hits on Israel's Iron Dome but videos show strikes on decoys. Analysis of videos of the attacks suggests the Israeli army has turned to a Second World War-era trick to counter Hezbollah's FPVs: decoys.",
+        "example_url": "https://www.france24.com/en/middle-east/20260626-hezbollah-fpv-drones-iron-dome-decoy-launchers",
+        "unbiased_text": "Hezbollah released videos claiming strikes on Iron Dome systems. Analysis indicates some targets were decoys, a standard defensive tactic used by militaries to draw fire away from operational systems."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -6783,6 +6813,26 @@
         "example_text": "Bigger than Jupiter, lighter than cotton candy: Astronomers discover two 'super-puff' planets",
         "example_url": "http://www.euronews.com/next/2026/06/25/bigger-than-jupiter-lighter-than-cotton-candy-astronomers-discover-two-super-puff-planets",
         "unbiased_text": "Astronomers have discovered two extremely low-density exoplanets larger than Jupiter, composed primarily of hydrogen and helium."
+      },
+      {
+        "pattern": "Heat-aggression causation certainty framing",
+        "detail": "Presenting correlation between temperature and aggression as established causation with deterministic psychological mechanisms rather than noting the complexity of behavioral factors.",
+        "debias": "Report research on temperature and behavior noting correlational findings and multiple contributing factors rather than asserting direct causal mechanisms.",
+        "date_added": "2026-06-26",
+        "status": "suggested",
+        "example_text": "Why extreme heat makes people angrier and how our brain reacts to heatwaves. Extreme heat not only harms the body but can also trigger a cascade of mental health effects ranging from irritability and anxiety to increased aggression.",
+        "example_url": "http://www.euronews.com/health/2026/06/26/why-extreme-heat-makes-people-angrier-and-how-our-brain-reacts-to-heatwaves",
+        "unbiased_text": "Research examines links between extreme heat and mental health. Studies have found associations between high temperatures and increased irritability, anxiety, and in some cases aggression, though individual responses vary based on multiple factors."
+      },
+      {
+        "pattern": "Air conditioning politicization dichotomy emphasis",
+        "detail": "Framing air conditioning adoption as ideological battle between political factions rather than practical public health infrastructure question with technical tradeoffs.",
+        "debias": "Report air conditioning debates by presenting technical considerations, energy impacts, and public health needs without attributing positions to political ideology.",
+        "date_added": "2026-06-26",
+        "status": "suggested",
+        "example_text": "To use air con or not? The facts behind the politicised battle to stay cool in Europe. French politicians have drawn ideological battle lines over air conditioning as Europe struggles with record-breaking temperatures.",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/26/to-use-air-con-or-not-the-facts-behind-the-politicised-battle-to-stay-cool-in-europe",
+        "unbiased_text": "Europe debates air conditioning adoption amid record temperatures. Discussions involve balancing energy consumption, environmental impact, and public health protection as heatwaves increase in frequency and severity."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
