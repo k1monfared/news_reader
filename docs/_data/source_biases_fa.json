@@ -2823,6 +2823,39 @@
         "example_url": "https://www.aljazeera.com/opinions/2026/6/26/new-yorks-primaries-signal-a-new-force-in-us-politics?traffic_source=rss",
         "unbiased_text": "نامزدهای مسلمان و عرب‌تبار آمریکایی در چندین رقابت انتخابات مقدماتی دموکرات‌ها در نیویورک پیروز شدند. این نامزدها از تغییرات سیاستی در رابطه با اسرائیل و فلسطین حمایت کرده‌اند.",
         "pattern_en": "Progressive demographic electoral validation narrative"
+      },
+      {
+        "pattern": "قاب‌بندی زیر سؤال بردن مشروعیت رهبر سرپرست",
+        "detail": "استفاده از عنوان «سرپرست» در تیتر هنگام توصیف مقامات دولتی که به بحران پاسخ می‌دهند، حاکی از اقتدار موقت یا نامشروع در طول اضطرار است.",
+        "debias": "از عناوین رسمی بدون صفات مشروعیت‌زدا استفاده کنید، مگر اینکه وضعیت سرپرستی محوریت داستان باشد.",
+        "date_added": "2026-06-27",
+        "status": "suggested",
+        "example_text": "دلسی رودریگز، رئیس‌جمهور سرپرست ونزوئلا، مورد هو و فریاد ساکنانی که از زلزله‌ها ویران شده‌اند قرار گرفته است.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/venezuela-leader-jeered-as-rescue-efforts-hampered?traffic_source=rss",
+        "unbiased_text": "دلسی رودریگز، رئیس‌جمهور ونزوئلا، مورد هو و فریاد ساکنانی که از زلزله‌ها ویران شده‌اند قرار گرفته است.",
+        "pattern_en": "Acting leader legitimacy questioning framing"
+      },
+      {
+        "pattern": "قاب‌بندی تقویت‌شده رد خط ارتباطی مستقیم",
+        "detail": "برجسته‌سازی رد ظاهری کانال ارتباطی دیپلماتیک از طریق تیتر با گیومه‌های تأکیدی و عبارت «به نظر می‌رسد رد کند» پیش از تأیید.",
+        "debias": "گزارش مکانیزم‌های ارتباطی دیپلماتیک با بیانیه‌های تأییدشده به‌جای رد ظاهری.",
+        "date_added": "2026-06-27",
+        "status": "suggested",
+        "example_text": "«گوشی را بردارید»: سپاه پاسداران به نظر می‌رسد «خط ارتباطی مستقیم» آمریکا در تنگه هرمز را رد کند",
+        "example_url": "https://www.aljazeera.com/news/2026/6/27/pick-up-the-phone-irgc-appears-to-rebuff-us-strait-of-hormuz-hotline?traffic_source=rss",
+        "unbiased_text": "سپاه پاسداران وجود خط ارتباطی مستقیم آمریکا در تنگه هرمز را تکذیب می‌کند",
+        "pattern_en": "Hotline rejection amplification framing"
+      },
+      {
+        "pattern": "تقویت جابجایی سختی امتحانات",
+        "detail": "چارچوب‌بندی آزمون‌های آموزشی از طریق شرایط جابجایی، بر قربانی شدن مداوم و عادی‌سازی بحران تأکید می‌کند.",
+        "debias": "گزارش تلاش‌های تداوم آموزشی بدون قرار دادن جابجایی به عنوان زمینه اصلی، مگر در بررسی سیاست‌های آموزشی.",
+        "date_added": "2026-06-27",
+        "status": "suggested",
+        "example_text": "بدون مدرسه، زندگی در چادر، اما وقت امتحان در غزه است",
+        "example_url": "https://www.aljazeera.com/features/2026/6/27/no-school-living-in-a-tent-but-its-exam-time-in-gaza-generate?traffic_source=rss",
+        "unbiased_text": "دانش‌آموزان غزه امتحانات دبیرستان را در شرایط چالش‌برانگیز می‌گذرانند",
+        "pattern_en": "Exam hardship displacement amplification"
       }
     ]
   },
@@ -4985,6 +5018,17 @@
         "example_url": "https://www.france24.com/en/middle-east/20260626-hezbollah-fpv-drones-iron-dome-decoy-launchers",
         "unbiased_text": "حزب‌الله ویدئوهایی منتشر کرد که ادعای اصابت به سامانه‌های گنبد آهنین را داشت. تحلیل نشان می‌دهد برخی از اهداف فریب بودند، یک تاکتیک دفاعی استاندارد که ارتش‌ها برای جلب آتش به سمت دور از سامانه‌های عملیاتی استفاده می‌کنند.",
         "pattern_en": "Decoy revelation tactical narrative"
+      },
+      {
+        "pattern": "قاب‌بندی کم‌اهمیت‌جلوه‌دادن توافقات چارچوبی",
+        "detail": "توصیف توافقات دیپلماتیک به‌عنوان «چارچوب» یا «گام نخست» اهمیت آن‌ها را کاهش می‌دهد و ناقص یا شکننده بودن آن‌ها را القا می‌کند.",
+        "debias": "توافقات را با محتوای ماهوی آن‌ها گزارش کنید به‌جای آن‌که آن‌ها را به‌عنوان گام‌های مقدماتی یا ناکافی قاب‌بندی کنید.",
+        "date_added": "2026-06-27",
+        "status": "suggested",
+        "example_text": "ندا حماده، سفیر لبنان در ایالات متحده، این چارچوب را «گام نخست در مسیر بازگرداندن حاکمیت و تمامیت ارضی لبنان» توصیف کرد.",
+        "example_url": "https://www.france24.com/en/middle-east/20260626-lebanon-israel-us-sign-framework-agreement-in-washington",
+        "unbiased_text": "ندا حماده، سفیر لبنان در ایالات متحده، گفت که این توافق هدفش بازگرداندن حاکمیت و تمامیت ارضی لبنان است.",
+        "pattern_en": "Framework agreement minimization framing"
       }
     ]
   },
@@ -7563,6 +7607,39 @@
         "example_url": "http://www.euronews.com/my-europe/2026/06/26/to-use-air-con-or-not-the-facts-behind-the-politicised-battle-to-stay-cool-in-europe",
         "unbiased_text": "اروپا درباره پذیرش تهویه مطبوع در میان دماهای رکورد بحث می‌کند. بحث‌ها شامل متعادل‌سازی مصرف انرژی، تأثیرات زیست‌محیطی و حفاظت از بهداشت عمومی است در حالی که موج‌های گرما در فراوانی و شدت افزایش می‌یابند.",
         "pattern_en": "Air conditioning politicization dichotomy emphasis"
+      },
+      {
+        "pattern": "سنسیشن‌گرایی در تیتر باکتری گوشت‌خوار",
+        "detail": "استفاده از توصیف‌کننده‌ی گرافیکی بیماری در تیتر، ترس را فراتر از زمینه‌ی ارزیابی ریسک اپیدمیولوژیک تقویت می‌کند.",
+        "debias": "از اصطلاحات پزشکی در تیترها بدون توصیف‌کننده‌های هیجانی استفاده کنید و جزئیات علائم را برای متن اصلی مقاله نگه دارید.",
+        "date_added": "2026-06-27",
+        "status": "suggested",
+        "example_text": "باکتری پوساننده‌ی گوشت: ویبریو چیست و آیا باید نگران باشید؟",
+        "example_url": "http://www.euronews.com/health/2026/06/27/flesh-rotting-bacteria-what-is-vibrio-and-should-you-be-worried",
+        "unbiased_text": "باکتری ویبریو چیست و آیا باید نگران خطرات عفونت باشید؟",
+        "pattern_en": "Flesh-eating bacteria headline sensationalism"
+      },
+      {
+        "pattern": "قاب‌بندی طنزآمیز دزدی حیوانات وحشی",
+        "detail": "ارائه تعارض انسان و حیات وحش از منظر طنزآمیز، جابجایی بوم‌شناختی و نگرانی‌های ایمنی را کم‌اهمیت جلوه می‌دهد.",
+        "debias": "تعاملات حیات وحش و انسان را با تمرکز بر ابعاد بوم‌شناختی یا ایمنی گزارش کنید نه حکایات طنزآمیز.",
+        "date_added": "2026-06-27",
+        "status": "suggested",
+        "example_text": "می‌روید به تعطیلات در این ساحل؟ گرازهای وحشی ممکن است ناهار شما را بدزدند",
+        "example_url": "http://www.euronews.com/2026/06/26/going-on-holiday-to-this-beach-wild-boars-may-steal-your-lunch",
+        "unbiased_text": "فعالیت گرازهای وحشی در ساحل پرتغال افزایش یافته و نگرانی‌های ایمنی برای بازدیدکنندگان ایجاد می‌کند",
+        "pattern_en": "Wild animal theft comedic framing"
+      },
+      {
+        "pattern": "روایت برجسته‌سازی درخواست نجات در تیک‌تاک",
+        "detail": "قاب‌بندی پلتفرم‌های رسانه‌های اجتماعی به‌عنوان کانال‌های اصلی ارتباطی نجات، روایت ناامیدی و نقش پلتفرم را تقویت می‌کند.",
+        "debias": "در مورد چالش‌های ارتباطی در طول بلایا گزارش دهید بدون اینکه رسانه‌های اجتماعی را به‌عنوان مکانیسم‌های اصلی نجات در مرکز قرار دهید.",
+        "date_added": "2026-06-27",
+        "status": "suggested",
+        "example_text": "«کمک کنید، ما به دام افتاده‌ایم»: قربانیان زلزله ونزوئلا به TikTok یورونیوز روی می‌آورند تا برای نجات التماس کنند",
+        "example_url": "http://www.euronews.com/2026/06/26/help-we-are-trapped-venezuela-earthquake-victims-turn-to-euronews-tiktok-to-beg-for-rescue",
+        "unbiased_text": "قربانیان زلزله ونزوئلا از کانال‌های ارتباطی موجود از جمله رسانه‌های اجتماعی برای درخواست کمک نجات استفاده می‌کنند",
+        "pattern_en": "TikTok rescue plea elevation narrative"
       }
     ]
   }

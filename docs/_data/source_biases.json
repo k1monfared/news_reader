@@ -2536,6 +2536,36 @@
         "example_text": "New York's primaries signal a new force in US politics. Progressive, Muslim and Arab American candidates are challenging old limits on debate over Israel and Palestine.",
         "example_url": "https://www.aljazeera.com/opinions/2026/6/26/new-yorks-primaries-signal-a-new-force-in-us-politics?traffic_source=rss",
         "unbiased_text": "Muslim and Arab American candidates won several New York Democratic primary races. These candidates have advocated for policy changes regarding Israel and Palestine."
+      },
+      {
+        "pattern": "Acting leader legitimacy questioning framing",
+        "detail": "Using 'acting' title in headline when describing government officials responding to crisis implies provisional or illegitimate authority during emergency.",
+        "debias": "Use official titles without delegitimizing qualifiers unless the acting status is central to the story's focus.",
+        "date_added": "2026-06-27",
+        "status": "suggested",
+        "example_text": "Venezuela's acting President Delcy Rodriguez has been jeered by residents devastated by the earthquakes.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/venezuela-leader-jeered-as-rescue-efforts-hampered?traffic_source=rss",
+        "unbiased_text": "Venezuela's President Delcy Rodriguez has been jeered by residents devastated by the earthquakes."
+      },
+      {
+        "pattern": "Hotline rejection amplification framing",
+        "detail": "Elevating apparent rejection of diplomatic communication channel through scare-quote headline and 'appears to rebuff' language before confirmation.",
+        "debias": "Report on diplomatic communication mechanisms with confirmed statements rather than apparent rejections.",
+        "date_added": "2026-06-27",
+        "status": "suggested",
+        "example_text": "'Pick up the phone': IRGC appears to rebuff US Strait of Hormuz 'hotline'",
+        "example_url": "https://www.aljazeera.com/news/2026/6/27/pick-up-the-phone-irgc-appears-to-rebuff-us-strait-of-hormuz-hotline?traffic_source=rss",
+        "unbiased_text": "IRGC denies existence of US Strait of Hormuz hotline"
+      },
+      {
+        "pattern": "Exam hardship displacement amplification",
+        "detail": "Framing educational testing through displacement conditions emphasizes ongoing victimization and crisis normalization.",
+        "debias": "Report on educational continuity efforts without foregrounding displacement as primary context unless examining educational policy.",
+        "date_added": "2026-06-27",
+        "status": "suggested",
+        "example_text": "No school, living in a tent, but it's exam time in Gaza",
+        "example_url": "https://www.aljazeera.com/features/2026/6/27/no-school-living-in-a-tent-but-its-exam-time-in-gaza-generate?traffic_source=rss",
+        "unbiased_text": "Gaza students take high school exams amid challenging conditions"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4503,13 +4533,23 @@
       },
       {
         "pattern": "Decoy revelation tactical narrative",
-        "detail": "Framing discovery that military used decoys as newsworthy revelation rather than standard military practice, positioning it as evidence of specific tactical weakness or deception.",
-        "debias": "Report military tactics including decoys as routine defensive measures without framing their use as surprising or indicative of broader strategic failures.",
+        "detail": "Framing discovery that military used decoys as newsworthy revelation rather than standard military practice, positioning it as evidence of specific tactical weakness or deception. Also: Exposing military deception tactics as newsworthy revelation frames defensive measures as dishonest rather than standard military practice.",
+        "debias": "Report military tactics including decoys as routine defensive measures without framing their use as surprising or indicative of broader strategic failures. Report military defensive measures without framing them as deceptive revelations unless examining military transparency issues.",
         "date_added": "2026-06-26",
         "status": "suggested",
         "example_text": "Hezbollah claims hits on Israel's Iron Dome but videos show strikes on decoys. Analysis of videos of the attacks suggests the Israeli army has turned to a Second World War-era trick to counter Hezbollah's FPVs: decoys.",
         "example_url": "https://www.france24.com/en/middle-east/20260626-hezbollah-fpv-drones-iron-dome-decoy-launchers",
         "unbiased_text": "Hezbollah released videos claiming strikes on Iron Dome systems. Analysis indicates some targets were decoys, a standard defensive tactic used by militaries to draw fire away from operational systems."
+      },
+      {
+        "pattern": "Framework agreement minimization framing",
+        "detail": "Describing diplomatic agreements as 'framework' or 'first step' diminishes significance and suggests incompleteness or fragility.",
+        "debias": "Report agreements with their substantive content rather than framing them as preliminary or insufficient steps.",
+        "date_added": "2026-06-27",
+        "status": "suggested",
+        "example_text": "Nada Hamadeh, ambassador of Lebanon to the United States described the framework as \"a first step on the road of restoring Lebanese sovereignty and territorial integrity\".",
+        "example_url": "https://www.france24.com/en/middle-east/20260626-lebanon-israel-us-sign-framework-agreement-in-washington",
+        "unbiased_text": "Nada Hamadeh, ambassador of Lebanon to the United States, said the agreement aims to restore Lebanese sovereignty and territorial integrity."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -6833,6 +6873,36 @@
         "example_text": "To use air con or not? The facts behind the politicised battle to stay cool in Europe. French politicians have drawn ideological battle lines over air conditioning as Europe struggles with record-breaking temperatures.",
         "example_url": "http://www.euronews.com/my-europe/2026/06/26/to-use-air-con-or-not-the-facts-behind-the-politicised-battle-to-stay-cool-in-europe",
         "unbiased_text": "Europe debates air conditioning adoption amid record temperatures. Discussions involve balancing energy consumption, environmental impact, and public health protection as heatwaves increase in frequency and severity."
+      },
+      {
+        "pattern": "Flesh-eating bacteria headline sensationalism",
+        "detail": "Using graphic disease descriptor in headline amplifies fear beyond epidemiological risk assessment context.",
+        "debias": "Use medical terminology in headlines without sensational descriptors, reserving symptom details for article body.",
+        "date_added": "2026-06-27",
+        "status": "suggested",
+        "example_text": "Flesh-rotting bacteria: What is Vibrio and should you be worried?",
+        "example_url": "http://www.euronews.com/health/2026/06/27/flesh-rotting-bacteria-what-is-vibrio-and-should-you-be-worried",
+        "unbiased_text": "What is Vibrio bacteria and should you be concerned about infection risks?"
+      },
+      {
+        "pattern": "Wild animal theft comedic framing",
+        "detail": "Presenting human-wildlife conflict through humorous lens trivializes ecological displacement and safety concerns.",
+        "debias": "Report wildlife-human interactions with focus on ecological or safety dimensions rather than comedic anecdotes.",
+        "date_added": "2026-06-27",
+        "status": "suggested",
+        "example_text": "Going on holiday to this beach? Wild boars may steal your lunch",
+        "example_url": "http://www.euronews.com/2026/06/26/going-on-holiday-to-this-beach-wild-boars-may-steal-your-lunch",
+        "unbiased_text": "Wild boar activity increases at Portuguese beach, creating safety concerns for visitors"
+      },
+      {
+        "pattern": "TikTok rescue plea elevation narrative",
+        "detail": "Framing social media platforms as primary rescue communication channels amplifies desperation narrative and platform role.",
+        "debias": "Report on communication challenges during disasters without centering social media platforms as primary rescue mechanisms.",
+        "date_added": "2026-06-27",
+        "status": "suggested",
+        "example_text": "'Help, we are trapped': Venezuela earthquake victims turn to Euronews' TikTok to beg for rescue",
+        "example_url": "http://www.euronews.com/2026/06/26/help-we-are-trapped-venezuela-earthquake-victims-turn-to-euronews-tiktok-to-beg-for-rescue",
+        "unbiased_text": "Venezuela earthquake victims use available communication channels including social media to request rescue assistance"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
