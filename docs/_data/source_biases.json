@@ -2566,6 +2566,36 @@
         "example_text": "No school, living in a tent, but it's exam time in Gaza",
         "example_url": "https://www.aljazeera.com/features/2026/6/27/no-school-living-in-a-tent-but-its-exam-time-in-gaza-generate?traffic_source=rss",
         "unbiased_text": "Gaza students take high school exams amid challenging conditions"
+      },
+      {
+        "pattern": "Narrative-through-expert-framing institutional endorsement",
+        "detail": "Using expert interviews or academic voices to elevate specific narratives (like 'genocide' or 'corporate media complicity') to institutional authority status rather than contested viewpoints.",
+        "debias": "Present expert opinions as perspectives within broader debates, clearly labeling them as analysis rather than established fact.",
+        "date_added": "2026-06-28",
+        "status": "suggested",
+        "example_text": "Marc Lamont Hill speaks with author Adam Johnson on US corporate media's role in enabling the genocide in Gaza.",
+        "example_url": "https://www.aljazeera.com/video/upfront/2026/6/28/adam-johnson-on-how-us-corporate-media-sold-israels-genocide-in-gaza?traffic_source=rss",
+        "unbiased_text": "Marc Lamont Hill speaks with author Adam Johnson on his analysis of how US corporate media covered the Gaza conflict."
+      },
+      {
+        "pattern": "Infrastructural warfare agricultural targeting emphasis",
+        "detail": "Framing attacks on agricultural infrastructure as systematic campaigns to dispossess a population rather than military operations with mixed effects.",
+        "debias": "Report agricultural damage factually while noting military rationales and avoiding deterministic language about intent to dispossess.",
+        "date_added": "2026-06-28",
+        "status": "suggested",
+        "example_text": "Israel is attacking West Bank agriculture in an attempt to drive Palestinian farmers off their land.",
+        "example_url": "https://www.aljazeera.com/economy/2026/6/28/paradise-lost-how-israel-is-making-war-on-west-bank-farmers?traffic_source=rss",
+        "unbiased_text": "Israeli military operations in the West Bank have damaged agricultural infrastructure, affecting Palestinian farmers' ability to work their land."
+      },
+      {
+        "pattern": "Negotiation moment temporal window framing",
+        "detail": "Emphasizing specific time periods for diplomatic actions (like '30 days' of control) to create urgency and frame negotiating positions as temporary concessions.",
+        "debias": "Report time-limited arrangements factually without implying urgency or casting temporary measures as concessions.",
+        "date_added": "2026-06-28",
+        "status": "suggested",
+        "example_text": "Iran's foreign minister has urged 'all parties not to interfere' in the management of the Strait of Hormuz.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/araghchi-strait-of-hormuz-remains-under-iranian-control-for-30-days?traffic_source=rss",
+        "unbiased_text": "Iran's foreign minister stated that the Strait of Hormuz will remain under Iranian management during the current negotiating period."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4550,6 +4580,26 @@
         "example_text": "Nada Hamadeh, ambassador of Lebanon to the United States described the framework as \"a first step on the road of restoring Lebanese sovereignty and territorial integrity\".",
         "example_url": "https://www.france24.com/en/middle-east/20260626-lebanon-israel-us-sign-framework-agreement-in-washington",
         "unbiased_text": "Nada Hamadeh, ambassador of Lebanon to the United States, said the agreement aims to restore Lebanese sovereignty and territorial integrity."
+      },
+      {
+        "pattern": "Technical detail precision threat amplification",
+        "detail": "Including specific technical details (like weapon depth specifications or device types) to amplify threat perception and lend urgency to narratives.",
+        "debias": "Include technical details only when operationally relevant, avoiding gratuitous precision that serves primarily to dramatize.",
+        "date_added": "2026-06-28",
+        "status": "suggested",
+        "example_text": "The Israeli military carried out an air strike Saturday on the Nabatiyeh area of southern Lebanon",
+        "example_url": "https://www.france24.com/en/us-iran-ceasefire-threatened-by-renewed-strikes",
+        "unbiased_text": "The Israeli military conducted an air strike in southern Lebanon on Saturday."
+      },
+      {
+        "pattern": "Maritime route naming symbolic legitimization",
+        "detail": "Using specific names for shipping routes or corridors (like 'Guardian Angel') to frame one side's initiative as protective or humanitarian versus another's as restrictive.",
+        "debias": "Use neutral geographic or functional descriptors for shipping routes rather than symbolic names that convey moral judgments.",
+        "date_added": "2026-06-28",
+        "status": "suggested",
+        "example_text": "A literal rock and a hard place, where 11,000 crew remain stuck on ships in the middle of two warring belligerents now negotiating peace, telling them opposing advice on how they can safely evacuate.",
+        "example_url": "https://www.france24.com/en/tv-shows/spotlight/20260627-iran-us-trade-attacks-in-the-strait-of-hormuz-navigating-the-guardian-angel-route",
+        "unbiased_text": "Approximately 11,000 crew members remain on ships in the strait awaiting instructions on safe passage as negotiations continue."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -6903,6 +6953,26 @@
         "example_text": "'Help, we are trapped': Venezuela earthquake victims turn to Euronews' TikTok to beg for rescue",
         "example_url": "http://www.euronews.com/2026/06/26/help-we-are-trapped-venezuela-earthquake-victims-turn-to-euronews-tiktok-to-beg-for-rescue",
         "unbiased_text": "Venezuela earthquake victims use available communication channels including social media to request rescue assistance"
+      },
+      {
+        "pattern": "Lifestyle cost crisis wedding-expense escalation",
+        "detail": "Framing rising costs of discretionary life events (weddings, travel) as crises requiring policy attention rather than personal financial choices.",
+        "debias": "Report cost increases for optional events as economic trends without crisis language or implied policy necessity.",
+        "date_added": "2026-06-28",
+        "status": "suggested",
+        "example_text": "Two recent studies put the average cost of a wedding in Spain at between 25,000 and 32,000 euros. Nearly seven in ten couples spend more than planned, and 95% admit to financial stress. Housing is the major sacrifice that follows.",
+        "example_url": "http://www.euronews.com/culture/2026/06/27/the-price-of-saying-i-do-in-spain-weddings-cost-10000-more-in-2026",
+        "unbiased_text": "Two recent studies show the average cost of a wedding in Spain is between 25,000 and 32,000 euros, an increase from previous years, with many couples reporting they spent more than initially budgeted."
+      },
+      {
+        "pattern": "Brand heritage milestone promotional journalism",
+        "detail": "Covering corporate brand anniversaries as cultural or historical events worthy of news coverage, blurring lines between journalism and brand promotion.",
+        "debias": "Limit coverage of brand anniversaries to business sections and avoid treating corporate milestones as cultural news events.",
+        "date_added": "2026-06-28",
+        "status": "suggested",
+        "example_text": "Thousands of enthusiasts took to Rome's streets to mark the Vespa's 80th anniversary, with 160 models on show tracing the brand's history from 1946 to today.",
+        "example_url": "http://www.euronews.com/culture/2026/06/27/rome-celebrates-vespas-80th-anniversary",
+        "unbiased_text": "A gathering of Vespa scooter enthusiasts took place in Rome, with participants displaying various models of the Italian-made vehicle."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
