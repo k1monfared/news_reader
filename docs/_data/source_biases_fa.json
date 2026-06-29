@@ -2890,6 +2890,74 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/araghchi-strait-of-hormuz-remains-under-iranian-control-for-30-days?traffic_source=rss",
         "unbiased_text": "وزیر امور خارجه ایران اعلام کرد که تنگه هرمز در طول دوره مذاکره فعلی تحت مدیریت ایران باقی خواهد ماند.",
         "pattern_en": "Negotiation moment temporal window framing"
+      },
+      {
+        "pattern": "انتساب پیشگیرانه استراتژی انتخاباتی",
+        "detail": "قاب‌بندی اقدامات سیاسی جاری به‌عنوان حرکات محاسبه‌شده برای کمپین‌های انتخاباتی آینده به‌جای موضع‌گیری‌های سیاستی.",
+        "debias": "تصمیمات و بیانیه‌های سیاسی را بر اساس ارزش ذاتی آن‌ها گزارش کنید، بدون گمانه‌زنی درباره انگیزه‌های کمپین‌های آینده.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "تصمیم معاون رئیس‌جمهور برای انتقاد از اسرائیل و فاصله‌گیری از رقیب خود روبیو به این معناست که او در حال خواندن پایگاه حزبی است.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/6/29/jd-vances-2028-strategy-is-starting-to-take-shape?traffic_source=rss",
+        "unbiased_text": "معاون رئیس‌جمهور از اسرائیل انتقاد کرده و مواضعی متفاوت از مواضع وزیر امور خارجه روبیو اتخاذ کرده است.",
+        "pattern_en": "Electoral strategy preemptive attribution"
+      },
+      {
+        "pattern": "ناکافی جلوه دادن از طریق تیتر پرسشی",
+        "detail": "استفاده از تیترهای پرسشی برای القای شکست یا بی‌اثر بودن سیاست‌ها بدون بیان مستقیم ادعا.",
+        "debias": "واقعیت‌های مربوط به پیامدهای سیاست‌ها را به‌طور مستقیم بیان کنید، نه در قالب پرسش‌هایی که شکست را القا می‌کنند.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "چرا حملات هوایی پاکستان به افغانستان حملات مسلحانه را متوقف نمی‌کند",
+        "example_url": "https://www.aljazeera.com/news/2026/6/29/why-pakistans-afghan-air-strikes-arent-stopping-armed-attacks?traffic_source=rss",
+        "unbiased_text": "پاکستان به حملات هوایی در افغانستان ادامه می‌دهد در حالی که حملات مسلحانه همچنان ادامه دارد",
+        "pattern_en": "Inadequacy through rhetorical question headline"
+      },
+      {
+        "pattern": "قاب‌بندی همبستگی ملی‌گرایانه حول حادثه پرطرفدار",
+        "detail": "برجسته‌سازی حوادث جزئی پرطرفدار رسانه‌های اجتماعی به‌عنوان بیان جنبش‌های همبستگی ملی یا ایدئولوژیک.",
+        "debias": "گزارش حوادث پرطرفدار به‌صورت متناسب بدون تقویت آن‌ها به‌عنوان نماینده احساسات سیاسی گسترده‌تر.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "ویدئویی از ربودن پرچم اسرائیل از دو مرد جوان در اندونزی به‌صورت پرطرفدار منتشر شده است.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/brazil-supporters-in-indonesia-grab-israeli-flag-off-motorcyclist?traffic_source=rss",
+        "unbiased_text": "ویدئویی که هواداران برزیل را هنگام برداشتن پرچم اسرائیل از موتورسیکلت‌سواران در اندونزی نشان می‌دهد، در رسانه‌های اجتماعی منتشر شده است.",
+        "detail_items": [],
+        "pattern_en": "Viral incident nationalist solidarity framing"
+      },
+      {
+        "pattern": "تلویح منافع استراتژیک در بخشودگی بدهی دوجانبه",
+        "detail": "چارچوب‌بندی بخشودگی بدهی به‌عنوان اقدامات معامله‌ای که به نفع کشور طلبکار است تا حرکت‌های بشردوستانه.",
+        "debias": "توافق‌های بخشودگی بدهی را به‌صورت واقعی گزارش کنید، با ذکر اهداف اعلام‌شده بدون حدس و گمان درباره انگیزه‌های استراتژیک پنهان.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "چین و سودان معافیت ۵۰ میلیون دلاری را امضا کردند در حالی که دولت تحت رهبری نظامی سودان در پی کسب حمایت در میان تحریم‌های غربی است.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/29/sudan-says-china-has-waived-50m-loan-whats-in-it-for-khartoum-beijing?traffic_source=rss",
+        "unbiased_text": "چین ۵۰ میلیون دلار وام به سودان را بخشید. دولت سودان تحت تحریم‌های غربی قرار دارد.",
+        "detail_items": [],
+        "pattern_en": "Bilateral debt relief strategic benefit insinuation"
+      },
+      {
+        "pattern": "روایت استعفا به‌عنوان تأیید پاسخگویی",
+        "detail": "ارائه استعفای مقامات پس از شکست‌ها به‌عنوان دلیلی بر مطالبات پاسخگویی سیستماتیک، به‌جای پیامدهای معمول اداری.",
+        "debias": "استعفاها را به‌عنوان تغییرات اداری گزارش کنید بدون اینکه آن‌ها را به‌عنوان تأیید جنبش‌های اعتراضی یا انتقادی قاب‌بندی کنید.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "حذف زودهنگام عربستان سعودی از جام جهانی FIFA باعث استعفای رئیس فدراسیون شد",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/29/saudi-arabias-early-fifa-world-cup-exit-prompts-federation-chief-to-resign?traffic_source=rss",
+        "unbiased_text": "رئیس فدراسیون فوتبال عربستان سعودی پس از حذف زودهنگام تیم از جام جهانی استعفا داد.",
+        "pattern_en": "Resignation as accountability vindication narrative"
+      },
+      {
+        "pattern": "قاب‌بندی پیروزی از طریق تمکین به اولتیماتوم",
+        "detail": "توصیف توافقات دیپلماتیک به عنوان تسلیم یک طرف در برابر خواسته‌های طرف دیگر به جای مذاکرات دوجانبه.",
+        "debias": "توافقات دیپلماتیک را به عنوان مذاکره میان طرفین ارائه دهید نه پیروزی یا تسلیم یک‌جانبه.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "رئیس‌جمهور زلنسکی از لوکاشنکو می‌خواهد ایستگاه‌های نصب‌شده توسط روسیه را تعطیل کند «وگرنه ما این کار را خواهیم کرد».",
+        "example_url": "https://www.aljazeera.com/news/2026/6/29/drone-relayers-off-ukraines-diplomatic-triumph-over-belarus?traffic_source=rss",
+        "unbiased_text": "اوکراین و بلاروس به توافقی درباره ایستگاه‌های نزدیک مرز مشترک‌شان دست یافتند.",
+        "pattern_en": "Ultimatum compliance victory framing"
       }
     ]
   },
@@ -5086,6 +5154,40 @@
         "unbiased_text": "تقریباً ۱۱٬۰۰۰ خدمه روی کشتی‌ها در تنگه منتظر دستورالعمل‌های عبور ایمن هستند در حالی که مذاکرات ادامه دارد.",
         "detail_items": [],
         "pattern_en": "Maritime route naming symbolic legitimization"
+      },
+      {
+        "pattern": "تشدید کمی‌سازی فراوانی تجاوزات",
+        "detail": "تأکید بر شمارش عددی عملیات‌های نظامی در یک بازه زمانی مشخص برای تقویت برداشت از پرخاشگری.",
+        "debias": "عملیات‌های نظامی را با زمینه گزارش کنید نه با شمارش‌های عددی مجزا که الگوهای تشدید را پیشنهاد می‌کنند.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "ارتش اسرائیل تنها در این ماه دست‌کم ۷۰ تجاوز به جنوب سوریه انجام داده است، به گفته سازمان غیردولتی محلی سیجیل.",
+        "example_url": "https://www.france24.com/en/middle-east/20260629-syria-slams-new-israeli-incursion-in-southern-daraa-province",
+        "unbiased_text": "ارتش اسرائیل عملیات‌هایی در جنوب سوریه انجام داده است، به گفته سازمان غیردولتی محلی سیجیل.",
+        "detail_items": [],
+        "pattern_en": "Incursion frequency quantification escalation"
+      },
+      {
+        "pattern": "قاب‌بندی تناقض در اعلام یک‌طرفه",
+        "detail": "برجسته‌سازی تناقض میان اعلام یک طرف و انکار طرف دیگر برای تأکید بر غیرقابل اعتماد بودن یا فریبکاری.",
+        "debias": "ادعاهای رقیب درباره رویدادهای برنامه‌ریزی‌شده را به‌طور خنثی گزارش کنید بدون اینکه تناقض را به‌عنوان شاهدی بر سوءنیت برجسته کنید.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "دونالد ترامپ، رئیس‌جمهور ایالات متحده، گفت ایران درخواست دیداری کرده که روز سه‌شنبه در قطر برگزار خواهد شد، با وجود اینکه تهران پیش‌تر انکار کرده بود که هیچ مذاکره فنی برنامه‌ریزی شده است.",
+        "example_url": "https://www.france24.com/en/middle-east/20260629-middle-east-live-lebanon-rejects-us%E2%80%93israel-framework-hezbollah-asserts-right-to-self-defence",
+        "unbiased_text": "رئیس‌جمهور ترامپ مذاکراتی با ایران را در قطر برای روز سه‌شنبه اعلام کرد. ایران این دیدار را تأیید نکرده است.",
+        "pattern_en": "Unilateral announcement contradiction framing"
+      },
+      {
+        "pattern": "تقویت روایت رد کلیپ‌های وایرال",
+        "detail": "برجسته‌سازی تکذیب‌های روایت‌های شبکه‌های اجتماعی وایرال در حالی که همچنان ادعای اصلی را از طریق پوشش مفصل پخش می‌کند.",
+        "debias": "تعاملات اساسی بین مقامات را بدون تقویت یا رد گمانه‌زنی‌های شبکه‌های اجتماعی وایرال گزارش دهید.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "یک کلیپ وایرال از دور نخست مذاکرات صلح آمریکا و ایران در سوئیس، گمانه‌زنی‌های آنلاین را دامن زده که JD Vance معاون رئیس‌جمهور آمریکا توسط نخست‌وزیر قطر نادیده گرفته شد، پس از اینکه کاربران ادعا کردند ویدئو نشان می‌دهد او Vance را «نادیده» گرفته و ترجیح داده نخست‌وزیر پاکستان را سلام کند.",
+        "example_url": "https://www.france24.com/en/did-qatar-s-prime-minister-snub-jd-vance-doha-washington-deny-claim",
+        "unbiased_text": "نخست‌وزیر قطر و JD Vance معاون رئیس‌جمهور آمریکا در جریان مذاکرات صلح در سوئیس دیدار کردند.",
+        "pattern_en": "Viral clip narrative rejection amplification"
       }
     ]
   },

@@ -2596,6 +2596,66 @@
         "example_text": "Iran's foreign minister has urged 'all parties not to interfere' in the management of the Strait of Hormuz.",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/araghchi-strait-of-hormuz-remains-under-iranian-control-for-30-days?traffic_source=rss",
         "unbiased_text": "Iran's foreign minister stated that the Strait of Hormuz will remain under Iranian management during the current negotiating period."
+      },
+      {
+        "pattern": "Electoral strategy preemptive attribution",
+        "detail": "Framing current political actions as calculated moves for future electoral campaigns rather than policy positions.",
+        "debias": "Report political decisions and statements on their merits without speculating about future campaign motivations.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "The vice president's decision to criticise Israel and distance himself from rival Rubio means he is reading the base.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/6/29/jd-vances-2028-strategy-is-starting-to-take-shape?traffic_source=rss",
+        "unbiased_text": "The vice president has criticised Israel and taken positions that differ from those of Secretary of State Rubio."
+      },
+      {
+        "pattern": "Inadequacy through rhetorical question headline",
+        "detail": "Using question headlines to imply policy failure or ineffectiveness without making direct assertions.",
+        "debias": "State facts about policy outcomes directly rather than framing them as open questions implying failure.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "Why Pakistan's Afghan air strikes aren't stopping armed attacks",
+        "example_url": "https://www.aljazeera.com/news/2026/6/29/why-pakistans-afghan-air-strikes-arent-stopping-armed-attacks?traffic_source=rss",
+        "unbiased_text": "Pakistan continues air strikes in Afghanistan as armed attacks persist"
+      },
+      {
+        "pattern": "Viral incident nationalist solidarity framing",
+        "detail": "Elevating minor viral social media incidents as expressions of national or ideological solidarity movements.",
+        "debias": "Report viral incidents proportionally without amplifying them as representative of broader political sentiment.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "A video of an Israeli flag being grabbed off two young men in Indonesia has gone viral.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/brazil-supporters-in-indonesia-grab-israeli-flag-off-motorcyclist?traffic_source=rss",
+        "unbiased_text": "A video showing Brazil supporters removing an Israeli flag from motorcyclists in Indonesia has circulated on social media."
+      },
+      {
+        "pattern": "Bilateral debt relief strategic benefit insinuation",
+        "detail": "Framing debt forgiveness as transactional moves that benefit the creditor nation rather than humanitarian gestures.",
+        "debias": "Report debt relief agreements factually, noting stated purposes without speculating on hidden strategic motives.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "China and Sudan signed off on a waiver of $50m as Sudan's military-led government seeks support amid Western sanctions.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/29/sudan-says-china-has-waived-50m-loan-whats-in-it-for-khartoum-beijing?traffic_source=rss",
+        "unbiased_text": "China waived $50 million in loans to Sudan. Sudan's government has been under Western sanctions."
+      },
+      {
+        "pattern": "Resignation as accountability vindication narrative",
+        "detail": "Presenting official resignations after failures as proof of systemic accountability demands rather than routine consequences.",
+        "debias": "Report resignations as administrative changes without framing them as validation of protest or criticism movements.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "Saudi Arabia's early FIFA World Cup exit prompts federation chief to resign",
+        "example_url": "https://www.aljazeera.com/sports/2026/6/29/saudi-arabias-early-fifa-world-cup-exit-prompts-federation-chief-to-resign?traffic_source=rss",
+        "unbiased_text": "Saudi Arabia's football federation chief resigned after the team's early World Cup exit."
+      },
+      {
+        "pattern": "Ultimatum compliance victory framing",
+        "detail": "Characterizing diplomatic agreements as one party's capitulation to another's demands rather than mutual negotiations.",
+        "debias": "Present diplomatic agreements as negotiations between parties rather than unilateral victories or surrenders.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "President Zelenskyy demands Lukashenko shut down stations installed by Russia 'or we will'.",
+        "example_url": "https://www.aljazeera.com/news/2026/6/29/drone-relayers-off-ukraines-diplomatic-triumph-over-belarus?traffic_source=rss",
+        "unbiased_text": "Ukraine and Belarus reached an agreement regarding stations near their border."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4563,8 +4623,8 @@
       },
       {
         "pattern": "Decoy revelation tactical narrative",
-        "detail": "Framing discovery that military used decoys as newsworthy revelation rather than standard military practice, positioning it as evidence of specific tactical weakness or deception. Also: Exposing military deception tactics as newsworthy revelation frames defensive measures as dishonest rather than standard military practice.",
-        "debias": "Report military tactics including decoys as routine defensive measures without framing their use as surprising or indicative of broader strategic failures. Report military defensive measures without framing them as deceptive revelations unless examining military transparency issues.",
+        "detail": "Framing discovery that military used decoys as newsworthy revelation rather than standard military practice, positioning it as evidence of specific tactical weakness or deception. Also: Exposing military deception tactics as newsworthy revelation frames defensive measures as dishonest rather than standard military practice. Also: Framing the discovery of military decoys as investigative revelations that expose deception rather than standard military practice.",
+        "debias": "Report military tactics including decoys as routine defensive measures without framing their use as surprising or indicative of broader strategic failures. Report military defensive measures without framing them as deceptive revelations unless examining military transparency issues. Report military defensive tactics including decoys as conventional practices without framing them as revelatory exposés.",
         "date_added": "2026-06-26",
         "status": "suggested",
         "example_text": "Hezbollah claims hits on Israel's Iron Dome but videos show strikes on decoys. Analysis of videos of the attacks suggests the Israeli army has turned to a Second World War-era trick to counter Hezbollah's FPVs: decoys.",
@@ -4600,6 +4660,36 @@
         "example_text": "A literal rock and a hard place, where 11,000 crew remain stuck on ships in the middle of two warring belligerents now negotiating peace, telling them opposing advice on how they can safely evacuate.",
         "example_url": "https://www.france24.com/en/tv-shows/spotlight/20260627-iran-us-trade-attacks-in-the-strait-of-hormuz-navigating-the-guardian-angel-route",
         "unbiased_text": "Approximately 11,000 crew members remain on ships in the strait awaiting instructions on safe passage as negotiations continue."
+      },
+      {
+        "pattern": "Incursion frequency quantification escalation",
+        "detail": "Emphasizing the numerical count of military operations within a specific timeframe to amplify perception of aggression.",
+        "debias": "Report military operations with context rather than isolated numerical counts that suggest escalation patterns.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "The Israeli military has conducted at least 70 incursions into southern Syria this month alone, according to the local NGO Sijil.",
+        "example_url": "https://www.france24.com/en/middle-east/20260629-syria-slams-new-israeli-incursion-in-southern-daraa-province",
+        "unbiased_text": "The Israeli military has conducted operations in southern Syria, according to the local NGO Sijil."
+      },
+      {
+        "pattern": "Unilateral announcement contradiction framing",
+        "detail": "Highlighting contradictions between one party's announcement and another's denial to emphasize unreliability or deception.",
+        "debias": "Report competing claims about scheduled events neutrally without emphasizing contradiction as evidence of bad faith.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "US President Donald Trump said Iran has requested a meeting that will be held in Qatar on Tuesday, despite Tehran earlier denying that any technical talks have been scheduled.",
+        "example_url": "https://www.france24.com/en/middle-east/20260629-middle-east-live-lebanon-rejects-us%E2%80%93israel-framework-hezbollah-asserts-right-to-self-defence",
+        "unbiased_text": "US President Trump announced talks with Iran in Qatar on Tuesday. Iran has not confirmed the meeting."
+      },
+      {
+        "pattern": "Viral clip narrative rejection amplification",
+        "detail": "Giving prominence to denials of viral social media narratives while still spreading the original claim through detailed coverage.",
+        "debias": "Report substantive interactions between officials without amplifying or debunking viral social media speculation.",
+        "date_added": "2026-06-29",
+        "status": "suggested",
+        "example_text": "A viral clip from the first round of US-Iran peace talks in Switzerland has fuelled online speculation that US Vice President JD Vance was snubbed by Qatar's prime minister, after users claimed the video showed him 'ignore' Vance in favour of greeting Pakistan's prime minister.",
+        "example_url": "https://www.france24.com/en/did-qatar-s-prime-minister-snub-jd-vance-doha-washington-deny-claim",
+        "unbiased_text": "Qatar's prime minister and US Vice President Vance met during peace talks in Switzerland."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
