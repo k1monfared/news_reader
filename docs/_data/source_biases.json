@@ -2656,6 +2656,46 @@
         "example_text": "President Zelenskyy demands Lukashenko shut down stations installed by Russia 'or we will'.",
         "example_url": "https://www.aljazeera.com/news/2026/6/29/drone-relayers-off-ukraines-diplomatic-triumph-over-belarus?traffic_source=rss",
         "unbiased_text": "Ukraine and Belarus reached an agreement regarding stations near their border."
+      },
+      {
+        "pattern": "Exploit sensationalism through hack disclosure",
+        "detail": "Framing corporate data breaches as revelatory leaks of consumer-relevant secrets rather than security incidents affecting business operations.",
+        "debias": "Report data breaches as security incidents with business impact context, not as consumer product revelation opportunities.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "Apple iPhone 18 Pro secrets leaked in Tata Electronics hack: What we know",
+        "example_url": "https://www.aljazeera.com/news/2026/6/30/apple-iphone-18-pro-secrets-leaked-in-tata-electronics-hack-what-we-know?traffic_source=rss",
+        "unbiased_text": "Tata Electronics suffers data breach affecting Apple supplier operations"
+      },
+      {
+        "pattern": "Sports venue emotional nationalism emphasis",
+        "detail": "Highlighting religious or cultural venues hosting World Cup watch parties to emphasize community identity and belonging narratives.",
+        "debias": "Report watch party locations neutrally without emphasizing identity-based community gathering as notable.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "At an Islamic centre in US, World Cup watch parties are giving many a place to cheer on teams chasing football history.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/islamic-centre-brings-joy-through-world-cup-watch-parties?traffic_source=rss",
+        "unbiased_text": "World Cup fans gather at community venues across the US to watch matches."
+      },
+      {
+        "pattern": "Athlete family embrace emotional amplification",
+        "detail": "Elevating routine post-victory family celebrations into emotionally significant moments worthy of separate coverage.",
+        "debias": "Include family celebrations as normal post-match details without separate amplification as newsworthy events.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "Morocco's Ismael Saibari embraced his mother after scoring the winning penalty against Netherlands.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/morocco-player-hugs-mother-as-team-celebrates-win-against-netherlands?traffic_source=rss",
+        "unbiased_text": "Morocco defeated the Netherlands on penalties, with Ismael Saibari scoring the decisive kick."
+      },
+      {
+        "pattern": "Supreme Court defeat tallying framing",
+        "detail": "Presenting judicial rulings as scoreboard victories or defeats for political leaders rather than legal determinations.",
+        "debias": "Report court rulings by their legal substance and implications, not as political win-loss records.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "US Supreme Court hands Trump 3-1 defeat in key rulings: What we know",
+        "example_url": "https://www.aljazeera.com/news/2026/6/30/us-supreme-court-hands-trump-3-1-defeat-in-key-rulings-what-we-know?traffic_source=rss",
+        "unbiased_text": "US Supreme Court issues rulings on mail-in ballots, the E Jean Carroll case, and the firing of Lisa Cook"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4690,6 +4730,26 @@
         "example_text": "A viral clip from the first round of US-Iran peace talks in Switzerland has fuelled online speculation that US Vice President JD Vance was snubbed by Qatar's prime minister, after users claimed the video showed him 'ignore' Vance in favour of greeting Pakistan's prime minister.",
         "example_url": "https://www.france24.com/en/did-qatar-s-prime-minister-snub-jd-vance-doha-washington-deny-claim",
         "unbiased_text": "Qatar's prime minister and US Vice President Vance met during peace talks in Switzerland."
+      },
+      {
+        "pattern": "Childhood essence destruction rhetoric",
+        "detail": "Using abstract, emotionally laden language about destroyed childhood essence to frame conflict impact rather than specific documented harms.",
+        "debias": "Report documented specific harms to children with evidence, avoiding metaphysical claims about destroyed essence.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "The Independent International Commission of Inquiry says that since October 7, 2023, the \"essence of childhood\" has been \"destroyed\" in Gaza and the West Bank.",
+        "example_url": "https://www.france24.com/en/targeting-of-palestinian-children-has-not-stopped-independent-un-investigator-sounds-alarm",
+        "unbiased_text": "The Independent International Commission of Inquiry reports significant harm to children in Gaza and the West Bank since October 7, 2023."
+      },
+      {
+        "pattern": "Corridor alternative risk emphasis framing",
+        "detail": "Emphasizing risks of alternative shipping routes while minimizing the original threat that necessitated the alternative.",
+        "debias": "Present both the original threat and alternative route risks with balanced context on relative safety.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "A plan to divert shipping through an alternative corridor off the Omani coast to avoid the threat of mines in the Strait of Hormuz has come under scrutiny after two attacks on ships in recent days.",
+        "example_url": "https://www.france24.com/en/middle-east/20260630-how-ships-are-risking-safe-passage-through-the-strait-of-hormuz",
+        "unbiased_text": "Ships using an alternative corridor off Oman to avoid mines in the Strait of Hormuz have faced attacks, complicating navigation decisions."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -7063,6 +7123,46 @@
         "example_text": "Thousands of enthusiasts took to Rome's streets to mark the Vespa's 80th anniversary, with 160 models on show tracing the brand's history from 1946 to today.",
         "example_url": "http://www.euronews.com/culture/2026/06/27/rome-celebrates-vespas-80th-anniversary",
         "unbiased_text": "A gathering of Vespa scooter enthusiasts took place in Rome, with participants displaying various models of the Italian-made vehicle."
+      },
+      {
+        "pattern": "Analogue technology retirement nostalgia milestone",
+        "detail": "Framing the discontinuation of obsolete technology as a significant cultural moment rather than routine infrastructure upgrade.",
+        "debias": "Report technology transitions as infrastructure updates with practical context, not as nostalgic cultural milestones.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "Finland's last landline call has been made as the Nordic country becomes the latest to retire copper-wire phones in favour of fibre.",
+        "example_url": "http://www.euronews.com/next/2026/06/30/finlands-last-analogue-landline-phones-go-silent-after-150-years",
+        "unbiased_text": "Finland has completed its transition from copper-wire to fiber-optic telecommunications infrastructure."
+      },
+      {
+        "pattern": "Luxury expansion promotional journalism",
+        "detail": "Reporting hotel openings and spa launches as news stories rather than identifying them as promotional business content.",
+        "debias": "Frame commercial hospitality announcements as business news or label them as promotional content, not as travel journalism.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "Planning an Italian getaway? The country's luxury travel scene will see new hotel openings from Hyatt and IHG, alongside a permanent Dior Spa set among the hills of Sicily.",
+        "example_url": "http://www.euronews.com/travel/2026/06/30/italys-luxury-portfolio-expands-with-new-openings-from-hyatt-ihg-and-dior-spa",
+        "unbiased_text": "Hyatt, IHG, and Dior have announced new hospitality properties in Italy."
+      },
+      {
+        "pattern": "Dress rehearsal catastrophe priming",
+        "detail": "Using metaphors that frame current crises as mere previews of worse future scenarios to amplify urgency.",
+        "debias": "Report current conditions and their impacts directly without metaphorical framing as rehearsals for future catastrophes.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "As Europe continues to face a record-breaking heatwave, the World Health Organization warns future summers will only be hotter.",
+        "example_url": "http://www.euronews.com/health/2026/06/30/europes-current-heatwave-is-just-a-dress-rehearsal-who-warns",
+        "unbiased_text": "The World Health Organization warns that Europe will experience increasingly hot summers as the current heatwave continues."
+      },
+      {
+        "pattern": "Chancellor tone-deaf tribute mockery construction",
+        "detail": "Framing political leaders' statements as confusing or mismatched to public sentiment based on social media reaction rather than substantive analysis.",
+        "debias": "Report official statements with substantive analysis of content and policy, not reaction-based characterizations of tone-deafness.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "\"You thrilled our country at this World Cup,\" writes Chancellor Merz after the team's exit, but reactions show the public feels differently.",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/30/chancellor-merz-x-post-on-world-cup-exit-sparks-confusion-then-comes-second-post",
+        "unbiased_text": "Chancellor Merz posted a statement thanking the national team following their World Cup exit, later posting a second message."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

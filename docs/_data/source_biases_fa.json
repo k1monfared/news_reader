@@ -2958,6 +2958,50 @@
         "example_url": "https://www.aljazeera.com/news/2026/6/29/drone-relayers-off-ukraines-diplomatic-triumph-over-belarus?traffic_source=rss",
         "unbiased_text": "اوکراین و بلاروس به توافقی درباره ایستگاه‌های نزدیک مرز مشترک‌شان دست یافتند.",
         "pattern_en": "Ultimatum compliance victory framing"
+      },
+      {
+        "pattern": "سوءاستفاده از هیجان‌انگیزی از طریق افشای هک",
+        "detail": "قاب‌بندی نقض داده‌های شرکتی به‌عنوان درز اطلاعات افشاگرانه از اسرار مرتبط با مصرف‌کننده به‌جای حوادث امنیتی که بر عملیات تجاری تأثیر می‌گذارد.",
+        "debias": "نقض داده‌ها را به‌عنوان حوادث امنیتی با زمینه تأثیر تجاری گزارش کنید، نه به‌عنوان فرصت‌های افشای محصول مصرف‌کننده.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "اسرار Apple iPhone 18 Pro در هک Tata Electronics درز کرد: آنچه می‌دانیم",
+        "example_url": "https://www.aljazeera.com/news/2026/6/30/apple-iphone-18-pro-secrets-leaked-in-tata-electronics-hack-what-we-know?traffic_source=rss",
+        "unbiased_text": "Tata Electronics دچار نقض داده شد که بر عملیات تأمین‌کننده Apple تأثیر گذاشت",
+        "pattern_en": "Exploit sensationalism through hack disclosure"
+      },
+      {
+        "pattern": "تأکید ملی‌گرایانه احساسی بر مکان‌های ورزشی",
+        "detail": "برجسته‌سازی مکان‌های مذهبی یا فرهنگی که میزبان جشن‌های تماشای جام جهانی هستند، به منظور تأکید بر روایت‌های هویت جمعی و احساس تعلق.",
+        "debias": "گزارش مکان‌های جشن تماشا به صورت خنثی بدون تأکید بر گردهمایی جامعه بر اساس هویت به عنوان نکته‌ای قابل توجه.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "در یک مرکز اسلامی در ایالات متحده، جشن‌های تماشای جام جهانی به بسیاری جایی برای تشویق تیم‌هایی که به دنبال تاریخ‌سازی فوتبالی هستند، داده است.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/islamic-centre-brings-joy-through-world-cup-watch-parties?traffic_source=rss",
+        "unbiased_text": "هواداران جام جهانی در مکان‌های عمومی سراسر ایالات متحده گرد هم می‌آیند تا مسابقات را تماشا کنند.",
+        "pattern_en": "Sports venue emotional nationalism emphasis"
+      },
+      {
+        "pattern": "تقویت هیجانی آغوش خانوادگی ورزشکار",
+        "detail": "ارتقای جشن‌های معمول خانوادگی پس از پیروزی به لحظات هیجانی مهم که شایسته پوشش خبری جداگانه هستند.",
+        "debias": "جشن‌های خانوادگی را به عنوان جزئیات عادی پس از مسابقه بیان کنید بدون آنکه به صورت جداگانه به عنوان رویدادهای خبری تقویت شوند.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "اسماعیل صیباری از مراکش پس از زدن پنالتی برنده مقابل هلند، مادرش را در آغوش گرفت.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/morocco-player-hugs-mother-as-team-celebrates-win-against-netherlands?traffic_source=rss",
+        "unbiased_text": "مراکش در ضربات پنالتی هلند را شکست داد و اسماعیل صیباری ضربه تعیین‌کننده را به ثمر رساند.",
+        "pattern_en": "Athlete family embrace emotional amplification"
+      },
+      {
+        "pattern": "قاب‌بندی شمارش شکست‌های دیوان عالی",
+        "detail": "ارائه رأی‌های قضایی به عنوان پیروزی‌ها یا شکست‌های امتیازی برای رهبران سیاسی به جای تعیین‌های حقوقی.",
+        "debias": "رأی‌های دادگاه را بر اساس محتوای حقوقی و پیامدهای آن‌ها گزارش کنید، نه به عنوان سوابق برد و باخت سیاسی.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "دیوان عالی ایالات متحده به ترامپ شکست ۳ بر ۱ در رأی‌های کلیدی می‌دهد: آنچه می‌دانیم",
+        "example_url": "https://www.aljazeera.com/news/2026/6/30/us-supreme-court-hands-trump-3-1-defeat-in-key-rulings-what-we-know?traffic_source=rss",
+        "unbiased_text": "دیوان عالی ایالات متحده در مورد رأی‌گیری پستی، پرونده ای جین کارول و اخراج لیزا کوک رأی صادر می‌کند",
+        "pattern_en": "Supreme Court defeat tallying framing"
       }
     ]
   },
@@ -5188,6 +5232,28 @@
         "example_url": "https://www.france24.com/en/did-qatar-s-prime-minister-snub-jd-vance-doha-washington-deny-claim",
         "unbiased_text": "نخست‌وزیر قطر و JD Vance معاون رئیس‌جمهور آمریکا در جریان مذاکرات صلح در سوئیس دیدار کردند.",
         "pattern_en": "Viral clip narrative rejection amplification"
+      },
+      {
+        "pattern": "لفاظی درباره نابودی ذات کودکی",
+        "detail": "استفاده از زبان انتزاعی و بارگذاری‌شده از احساسات درباره نابودی ذات کودکی برای چارچوب‌بندی تأثیرات درگیری به جای آسیب‌های مستند و مشخص.",
+        "debias": "آسیب‌های مشخص و مستند به کودکان را با شواهد گزارش کنید و از ادعاهای متافیزیکی درباره نابودی ذات اجتناب کنید.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "کمیسیون مستقل بین‌المللی تحقیق می‌گوید که از ۷ اکتبر ۲۰۲۳، «ذات کودکی» در غزه و کرانه باختری «نابود شده» است.",
+        "example_url": "https://www.france24.com/en/targeting-of-palestinian-children-has-not-stopped-independent-un-investigator-sounds-alarm",
+        "unbiased_text": "کمیسیون مستقل بین‌المللی تحقیق آسیب قابل توجهی به کودکان در غزه و کرانه باختری از ۷ اکتبر ۲۰۲۳ گزارش می‌کند.",
+        "pattern_en": "Childhood essence destruction rhetoric"
+      },
+      {
+        "pattern": "تأکید بر خطرات مسیر جایگزین در قالب‌بندی",
+        "detail": "تأکید بر خطرات مسیرهای کشتیرانی جایگزین در حالی که تهدید اصلی که ایجاد مسیر جایگزین را ضروری ساخته، کم‌اهمیت جلوه داده می‌شود.",
+        "debias": "هم تهدید اصلی و هم خطرات مسیر جایگزین را با زمینه‌ای متعادل درباره امنیت نسبی ارائه دهید.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "طرحی برای انحراف کشتیرانی از طریق یک کریدور جایگزین در سواحل عمان به منظور اجتناب از تهدید مین در تنگه هرمز پس از دو حمله به کشتی‌ها در روزهای اخیر مورد بررسی دقیق قرار گرفته است.",
+        "example_url": "https://www.france24.com/en/middle-east/20260630-how-ships-are-risking-safe-passage-through-the-strait-of-hormuz",
+        "unbiased_text": "کشتی‌هایی که از کریدور جایگزین در سواحل عمان برای اجتناب از مین‌ها در تنگه هرمز استفاده می‌کنند، با حملاتی مواجه شده‌اند که تصمیم‌گیری در مورد ناوبری را پیچیده‌تر کرده است.",
+        "pattern_en": "Corridor alternative risk emphasis framing"
       }
     ]
   },
@@ -7821,6 +7887,50 @@
         "example_url": "http://www.euronews.com/culture/2026/06/27/rome-celebrates-vespas-80th-anniversary",
         "unbiased_text": "گردهمایی علاقه‌مندان به اسکوتر Vespa در رم برگزار شد که شرکت‌کنندگان مدل‌های مختلف این وسیله نقلیه ساخت ایتالیا را به نمایش گذاشتند.",
         "pattern_en": "Brand heritage milestone promotional journalism"
+      },
+      {
+        "pattern": "نوستالژی برای بازنشستگی فناوری آنالوگ به عنوان نقطه عطف",
+        "detail": "قاب‌بندی قطع فناوری منسوخ به عنوان یک لحظه فرهنگی مهم به جای ارتقای معمول زیرساخت.",
+        "debias": "انتقال فناوری را به عنوان به‌روزرسانی زیرساخت با زمینه عملی گزارش دهید، نه به عنوان نقاط عطف فرهنگی نوستالژیک.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "آخرین تماس تلفن ثابت فنلاند برقرار شده است زیرا این کشور اسکاندیناوی آخرین کشوری است که تلفن‌های سیم مسی را به نفع فیبر بازنشسته می‌کند.",
+        "example_url": "http://www.euronews.com/next/2026/06/30/finlands-last-analogue-landline-phones-go-silent-after-150-years",
+        "unbiased_text": "فنلاند انتقال خود از زیرساخت مخابراتی سیم مسی به فیبر نوری را تکمیل کرده است.",
+        "pattern_en": "Analogue technology retirement nostalgia milestone"
+      },
+      {
+        "pattern": "ژورنالیسم تبلیغاتی گسترش لوکس",
+        "detail": "گزارش افتتاح هتل‌ها و راه‌اندازی اسپاها به‌عنوان خبر به‌جای شناسایی آن‌ها به‌عنوان محتوای تجاری تبلیغاتی.",
+        "debias": "اعلامیه‌های تجاری مهمان‌نوازی را به‌عنوان اخبار کسب‌وکار قاب‌بندی کنید یا آن‌ها را به‌عنوان محتوای تبلیغاتی برچسب‌گذاری کنید، نه به‌عنوان ژورنالیسم سفر.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "آیا برنامه‌ای برای سفر به ایتالیا دارید؟ صحنه سفرهای لوکس این کشور شاهد افتتاح هتل‌های جدید از سوی Hyatt و IHG خواهد بود، همراه با Dior Spa دائمی که در میان تپه‌های سیسیل قرار دارد.",
+        "example_url": "http://www.euronews.com/travel/2026/06/30/italys-luxury-portfolio-expands-with-new-openings-from-hyatt-ihg-and-dior-spa",
+        "unbiased_text": "Hyatt، IHG و Dior املاک مهمان‌نوازی جدیدی را در ایتالیا اعلام کرده‌اند.",
+        "pattern_en": "Luxury expansion promotional journalism"
+      },
+      {
+        "pattern": "آماده‌سازی ذهنی با فاجعه تمرینی",
+        "detail": "استفاده از استعاره‌هایی که بحران‌های کنونی را به‌عنوان پیش‌نمایش‌هایی از سناریوهای بدتر آینده معرفی می‌کنند تا فوریت را تشدید کنند.",
+        "debias": "شرایط کنونی و تأثیرات آن‌ها را مستقیماً و بدون قاب‌بندی استعاری به‌عنوان تمرین برای فاجعه‌های آینده گزارش دهید.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "در حالی که اروپا همچنان با موج گرمای بی‌سابقه روبروست، سازمان بهداشت جهانی هشدار می‌دهد که تابستان‌های آینده فقط گرم‌تر خواهند بود.",
+        "example_url": "http://www.euronews.com/health/2026/06/30/europes-current-heatwave-is-just-a-dress-rehearsal-who-warns",
+        "unbiased_text": "سازمان بهداشت جهانی هشدار می‌دهد که اروپا تابستان‌های به‌طور فزاینده‌ای گرم‌تری را تجربه خواهد کرد در حالی که موج گرمای کنونی ادامه دارد.",
+        "pattern_en": "Dress rehearsal catastrophe priming"
+      },
+      {
+        "pattern": "ساخت تمسخر ادای احترام ناهماهنگ صدراعظم",
+        "detail": "قاب‌بندی بیانیه‌های رهبران سیاسی به‌عنوان گیج‌کننده یا ناهماهنگ با احساسات عمومی بر اساس واکنش‌های رسانه‌های اجتماعی به‌جای تحلیل محتوایی.",
+        "debias": "بیانیه‌های رسمی را با تحلیل محتوایی از محتوا و سیاست گزارش دهید، نه توصیف‌های مبتنی بر واکنش درباره ناهماهنگی.",
+        "date_added": "2026-06-30",
+        "status": "suggested",
+        "example_text": "«شما کشور ما را در این جام جهانی هیجان‌زده کردید»، صدراعظم مرتس پس از حذف تیم می‌نویسد، اما واکنش‌ها نشان می‌دهند که مردم احساس متفاوتی دارند.",
+        "example_url": "http://www.euronews.com/my-europe/2026/06/30/chancellor-merz-x-post-on-world-cup-exit-sparks-confusion-then-comes-second-post",
+        "unbiased_text": "صدراعظم مرتس بیانیه‌ای منتشر کرد که در آن از تیم ملی پس از حذف از جام جهانی تشکر نمود و سپس پیام دومی را منتشر کرد.",
+        "pattern_en": "Chancellor tone-deaf tribute mockery construction"
       }
     ]
   }
