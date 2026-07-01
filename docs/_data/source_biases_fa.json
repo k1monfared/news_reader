@@ -3002,6 +3002,72 @@
         "example_url": "https://www.aljazeera.com/news/2026/6/30/us-supreme-court-hands-trump-3-1-defeat-in-key-rulings-what-we-know?traffic_source=rss",
         "unbiased_text": "دیوان عالی ایالات متحده در مورد رأی‌گیری پستی، پرونده ای جین کارول و اخراج لیزا کوک رأی صادر می‌کند",
         "pattern_en": "Supreme Court defeat tallying framing"
+      },
+      {
+        "pattern": "حذف توجیه حملات پهپادی فرامرزی",
+        "detail": "تیترهایی درباره شلیک پهپادهای افغانستان به پاکستان، زمینه حملات قبلی پاکستان را حذف می‌کنند و تنها اقدام افغانستان را به‌عنوان تجاوز خبری قابل‌توجه ارائه می‌دهند.",
+        "debias": "هنگام چارچوب‌بندی حملات پهپادی بین کشورهای همسایه، زمینه کامل حملات متقابل فرامرزی را شامل کنید.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "پس از شلیک پهپادهای افغانستان به پاکستان، چه اتفاقی خواهد افتاد؟",
+        "example_url": "https://www.aljazeera.com/news/2026/7/1/after-afghanistan-fires-drones-into-pakistan-whats-next?traffic_source=rss",
+        "unbiased_text": "پس از آخرین تبادل حملات فرامرزی بین افغانستان و پاکستان، چه اتفاقی خواهد افتاد؟",
+        "pattern_en": "Cross-border drone strike justification omission"
+      },
+      {
+        "pattern": "قربانی‌سازی موضع‌گیری ژئوپلیتیکی شخص ثالث",
+        "detail": "اروپا را به عنوان طرفی که بین ایالات متحده و چین گیر افتاده یا به دام افتاده است نشان می‌دهد و قدرت‌های خارجی را به جای انتخاب‌های سیاستی داخلی، منبع چالش‌های اقتصادی اروپا معرفی می‌کند.",
+        "debias": "روابط تجاری اروپا را به عنوان انتخاب‌های استراتژیک ارائه دهید نه قربانی‌سازی منفعلانه توسط قدرت‌های بزرگ‌تر.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "آیا اروپا که بین ایالات متحده و چین گیر افتاده است، می‌تواند رقابتی بماند؟",
+        "example_url": "https://www.aljazeera.com/video/counting-the-cost/2026/7/1/caught-between-the-us-and-china-can-europe-remain-competitive?traffic_source=rss",
+        "unbiased_text": "آیا اروپا می‌تواند در حالی که روابط خود با ایالات متحده و چین را هدایت می‌کند، رقابتی بماند؟",
+        "pattern_en": "Third-party geopolitical positioning victimization"
+      },
+      {
+        "pattern": "برابرسازی سن و مدت تصدی برای بی‌اعتبارسازی سیاسی",
+        "detail": "تأکید بر اینکه فرد در قدرت تمام عمر چالشگر جوان‌تر را در سمت خود بوده و ارائه طولانی بودن دوره تصدی به عنوان امری ذاتاً مشکل‌دار به جای تجربه‌مندی.",
+        "debias": "گزارش پیروزی‌های انتخاباتی را بر اساس برنامه‌های سیاسی و ترجیحات رأی‌دهندگان ارائه دهید نه مقایسه‌های مبتنی بر سن و مدت تصدی.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "ملات کیروس دایانا دگت را شکست داد، کسی که به اندازه تمام عمر کیروس ۲۹ ساله در سمت خود بوده است.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/1/colorado-primary-election-results-melat-kiros-wins-key-takeaways?traffic_source=rss",
+        "unbiased_text": "ملات کیروس، ۲۹ ساله، دایانا دگت را در انتخابات مقدماتی شکست داد.",
+        "pattern_en": "Age-tenure equivalence political delegitimization"
+      },
+      {
+        "pattern": "برجسته‌سازی هویت قربانی انفجار با چارچوب‌بندی مبتنی بر ثروت",
+        "detail": "تیترها ملیت و وضعیت تجاری قربانی بمب‌گذاری را پیش از مشخص شدن حقایق برجسته می‌کنند و چارچوب روایتی را بر محور «چه کسی» به جای «چه اتفاقی» افتاده ایجاد می‌کنند.",
+        "debias": "با جزئیات حادثه آغاز کنید پیش از هویت قربانی، تا از القای انگیزه یا اهمیت خاص از طریق شناسایی گزینشی جلوگیری شود.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "وادیم یرمولایف، تاجر اوکراینی مجروح انفجار موناکو، کیست؟",
+        "example_url": "https://www.aljazeera.com/news/2026/7/1/who-is-vadym-yermolaiev-the-ukrainian-tycoon-injured-in-monaco-blast?traffic_source=rss",
+        "unbiased_text": "یک دستگاه انفجاری بازرگانی را در موناکو مجروح کرد؛ پلیس در جستجوی مظنون",
+        "pattern_en": "Tycoon identity prominence explosion framing"
+      },
+      {
+        "pattern": "جهانی‌سازی آسیب‌پذیری روان‌شناختی قربانیان کلاهبرداری",
+        "detail": "تیترها با استفاده از چارچوب اکثریت، تأثیرات سلامت روان کلاهبرداری‌ها را به صورت جهانی‌شده ارائه می‌دهند تا آسیب‌پذیری روان‌شناختی را عمومی جلوه داده و بُعد بحران اجتماعی را برجسته کنند.",
+        "debias": "آمارهای کلاهبرداری از جمله تأثیرات سلامت روان را بدون استفاده از چارچوب اکثریتی که آسیب‌پذیری جهانی را القا می‌کند، گزارش دهید.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "نزدیک به سه نفر از هر چهار قربانی کلاهبرداری در آمریکا آسیب به سلامت روان را گزارش می‌کنند، نظرسنجی نشان می‌دهد",
+        "example_url": "https://www.aljazeera.com/news/2026/7/1/scams-cost-us-victims-68bn-in-2025-harm-to-mental-health-poll-finds?traffic_source=rss",
+        "unbiased_text": "قربانیان کلاهبرداری در آمریکا ۶۸ میلیارد دلار خسارت در سال ۲۰۲۵ گزارش کردند و بسیاری از آن‌ها تأثیرات روانی را تجربه کرده‌اند، نظرسنجی نشان می‌دهد",
+        "pattern_en": "Mental health harm scam victimization universalization"
+      },
+      {
+        "pattern": "تأکید بر هویت ورزشی از طریق پیوند دیاسپورا",
+        "detail": "بر حضور دیاسپورا و همبستگی سیاسی در رویدادهای ورزشی تأکید می‌کند و تورنمنت را به‌عنوان بستری برای هویت ملی به‌جای رقابت ورزشی معرفی می‌کند.",
+        "debias": "رویدادهای ورزشی را در درجه اول از طریق عملکرد ورزشی گزارش کنید و به حضور هواداران بدون تأکید بر هویت سیاسی اشاره کنید.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "این تورنمنت هواداران بوسنی و دیاسپورای جهانی آن را در کانون توجه قرار داده است، در حالی که تیم برای رسیدن به مرحله شانزده تیم پایانی می‌جنگد.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/1/we-can-relate-bosnia-fans-bring-passion-palestine-support-to-world-cup?traffic_source=rss",
+        "unbiased_text": "تیم ملی بوسنی در تورنمنت پیشروی می‌کند در حالی که هواداران برای حمایت از آنها در رسیدن به مرحله شانزده تیم پایانی سفر کرده‌اند.",
+        "pattern_en": "Diaspora connection sporting identity assertion"
       }
     ]
   },
@@ -5254,6 +5320,28 @@
         "example_url": "https://www.france24.com/en/middle-east/20260630-how-ships-are-risking-safe-passage-through-the-strait-of-hormuz",
         "unbiased_text": "کشتی‌هایی که از کریدور جایگزین در سواحل عمان برای اجتناب از مین‌ها در تنگه هرمز استفاده می‌کنند، با حملاتی مواجه شده‌اند که تصمیم‌گیری در مورد ناوبری را پیچیده‌تر کرده است.",
         "pattern_en": "Corridor alternative risk emphasis framing"
+      },
+      {
+        "pattern": "تأکید تیتر بر تناقض با وجود توافق",
+        "detail": "تیترها بر شرایط بدون تغییر با وجود توافقات تأکید می‌کنند و شکست دیپلماتیک را از طریق ساختار قاب‌بندی متناقض در پیش‌زمینه قرار می‌دهند.",
+        "debias": "گزارش درباره جدول زمانی اجرا و شرایط خاص توافق بدون قاب‌بندی تناقض که فرض بر انطباق فوری دارد.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "با وجود توافق با اسرائیل، وضعیت در لبنان بدون تغییر باقی می‌ماند",
+        "example_url": "https://www.france24.com/en/despite-agreement-with-israel-situation-in-lebanon-remains-unchanged",
+        "unbiased_text": "پس از توافق با اسرائیل، مرحله اجرا در لبنان آغاز می‌شود",
+        "pattern_en": "Despite-agreement contradiction headline emphasis"
+      },
+      {
+        "pattern": "ارتقای تعبیر دیپلماتیک مبهم «روابط خوب»",
+        "detail": "زبان مبهم دیپلماتیک درباره کیفیت روابط را در تیتر به‌عنوان نشانگر پیشرفت قابل‌توجه تقویت می‌کند، بدون آنکه نتایج مشخص مذاکرات ارائه شود.",
+        "debias": "به‌جای توصیف کیفیت روابط، بر نتایج مشخص مذاکرات و توافقات محتوایی تمرکز کنید.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "ترامپ می‌گوید آمریکا با ایران «خوب» پیش می‌رود پس از «جلسات خوب»",
+        "example_url": "https://www.france24.com/en/middle-east/20260701-middle-east-live-qatar-reaffirms-backing-for-us-iran-talks",
+        "unbiased_text": "ترامپ گزارش می‌دهد مذاکرات با ایران در قطر ادامه دارد؛ نتایج مشخص در انتظار است",
+        "pattern_en": "Getting-on-well diplomatic euphemism elevation"
       }
     ]
   },
@@ -7931,6 +8019,51 @@
         "example_url": "http://www.euronews.com/my-europe/2026/06/30/chancellor-merz-x-post-on-world-cup-exit-sparks-confusion-then-comes-second-post",
         "unbiased_text": "صدراعظم مرتس بیانیه‌ای منتشر کرد که در آن از تیم ملی پس از حذف از جام جهانی تشکر نمود و سپس پیام دومی را منتشر کرد.",
         "pattern_en": "Chancellor tone-deaf tribute mockery construction"
+      },
+      {
+        "pattern": "برتری اروپایی با لحن جشن‌گیرانه و صفات عالی",
+        "detail": "تیترهایی که برتری اروپا را در رده‌بندی‌های ذهنی با قاب‌بندی جشن‌گیرانه و زبان افتخار ملی برجسته می‌کنند.",
+        "debias": "رده‌بندی‌ها و جوایز را بدون قاب‌بندی ناسیونالیستی جشن‌گیرانه یا زبان برتری‌طلبانه گزارش کنید.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "«اِویوا!» رسمی شد: بهترین بار اروپا در یونان است",
+        "example_url": "http://www.euronews.com/culture/2026/07/01/ebiba-its-official-europes-best-bar-is-in-greece",
+        "unbiased_text": "یک بار در آتن در صدر فهرست ۵۰ بار برتر اروپا قرار گرفت",
+        "pattern_en": "Best-of superlative celebratory European dominance"
+      },
+      {
+        "pattern": "قاب‌بندی هشداردهنده درباره نفوذ خودخوانده‌های متخصص",
+        "detail": "درباره اینفلوئنسرهای رسانه‌های اجتماعی به‌عنوان جایگزین مشکل‌ساز برای متخصصان سنتی هشدار می‌دهد و شکل‌گیری نظر کاربران را به‌عنوان آسیب‌پذیری در برابر دستکاری قاب‌بندی می‌کند.",
+        "debias": "تحقیقات درباره الگوهای مصرف اطلاعات را بدون اینکه برتری تخصص سنتی یا دستکاری کاربر را تلویحاً بیان کنید، گزارش دهید.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "محققان هشدار می‌دهند که کاربران رسانه‌های اجتماعی می‌توانند پس از مشاهده تنها چند پست رسانه اجتماعی درباره یک موضوع، نظرات قوی شکل دهند. در سراسر رسانه‌های اجتماعی، بسیاری از متخصصان و اینفلوئنسرهای خودخوانده در حال پر کردن خلأ ایجادشده در پی کاهش اعتماد عمومی به متخصصان سنتی هستند.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/01/just-a-few-social-media-posts-from-self-styled-experts-can-strongly-influence-opinion-stud",
+        "unbiased_text": "مطالعه نشان می‌دهد کاربران رسانه‌های اجتماعی از محتوای محدود نظر شکل می‌دهند؛ محققان تغییر در نحوه مصرف اطلاعات تخصصی توسط مردم را یادآور می‌شوند.",
+        "detail_items": [],
+        "pattern_en": "Self-styled expert influence alarm framing"
+      },
+      {
+        "pattern": "جشن نقطه عطف ورود کانادا به یوروویژن",
+        "detail": "ورود کشور غیراروپایی به مسابقات اروپایی را به‌جای تغییر مرزهای جغرافیایی، به‌عنوان لحظه‌ای تاریخی و استقبال‌آمیز قاب می‌بندد.",
+        "debias": "گسترش مسابقات را بدون قاب‌بندی جشن‌گرایانه و استقبال‌آمیزی که تناقض جغرافیایی را پنهان می‌کند، واقع‌بینانه گزارش کنید.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "ای کانادا! مسابقات آواز یوروویژن از نخستین کشور جدید از سال ۲۰۱۵ استقبال می‌کند",
+        "example_url": "http://www.euronews.com/culture/2026/07/01/o-canada-eurovision-song-contest-welcomes-first-new-country-since-2015",
+        "unbiased_text": "کانادا پس از پیوستن رسانه ملی به اتحادیه پخش اروپایی در مسابقات آواز یوروویژن شرکت خواهد کرد",
+        "pattern_en": "Canadian Eurovision entry milestone celebration"
+      },
+      {
+        "pattern": "قاب‌بندی کمدی و کوچک‌نمایی سرقت توسط توریست",
+        "detail": "سرقت آثار هنری را به‌عنوان یک سوءتفاهم سرگرم‌کننده توریستی ارائه می‌دهد و با استفاده از نقل‌قول‌های غیررسمی، بر قدردانی زیبایی‌شناختی به‌جای نقض قانونی تأکید می‌کند.",
+        "debias": "حوادث سرقت آثار هنری را به‌عنوان جرائم جدی گزارش کنید، بدون قاب‌بندی کمدی که از دست دادن میراث فرهنگی را کوچک جلوه می‌دهد.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "توریست نقاشی سورویا را که در سویا گم شده بود به مورسیا می‌برد: «فکر کردم قاب آن جالب است»",
+        "example_url": "http://www.euronews.com/culture/2026/07/01/tourist-takes-sorolla-painting-lost-in-seville-home-to-murcia-i-thought-the-frame-was-cool",
+        "unbiased_text": "پلیس نقاشی ارزشمند سورویا را پس از برداشتن ناآگاهانه آن توسط توریست از سویا بازیابی کرد",
+        "pattern_en": "Tourist theft comedic framing trivialization"
       }
     ]
   }

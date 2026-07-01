@@ -2696,6 +2696,66 @@
         "example_text": "US Supreme Court hands Trump 3-1 defeat in key rulings: What we know",
         "example_url": "https://www.aljazeera.com/news/2026/6/30/us-supreme-court-hands-trump-3-1-defeat-in-key-rulings-what-we-know?traffic_source=rss",
         "unbiased_text": "US Supreme Court issues rulings on mail-in ballots, the E Jean Carroll case, and the firing of Lisa Cook"
+      },
+      {
+        "pattern": "Cross-border drone strike justification omission",
+        "detail": "Headlines about Afghanistan firing drones into Pakistan omit context of prior Pakistani strikes, presenting only the Afghan action as newsworthy aggression.",
+        "debias": "Include full context of reciprocal cross-border strikes when framing drone attacks between neighboring states.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "After Afghanistan fires drones into Pakistan, what's next?",
+        "example_url": "https://www.aljazeera.com/news/2026/7/1/after-afghanistan-fires-drones-into-pakistan-whats-next?traffic_source=rss",
+        "unbiased_text": "After latest exchange of cross-border strikes between Afghanistan and Pakistan, what's next?"
+      },
+      {
+        "pattern": "Third-party geopolitical positioning victimization",
+        "detail": "Frames Europe as caught or trapped between US and China, portraying external powers as the source of European economic challenges rather than internal policy choices.",
+        "debias": "Present Europe's trade relationships as strategic choices rather than passive victimization by larger powers.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "Caught between the US and China, can Europe remain competitive?",
+        "example_url": "https://www.aljazeera.com/video/counting-the-cost/2026/7/1/caught-between-the-us-and-china-can-europe-remain-competitive?traffic_source=rss",
+        "unbiased_text": "As Europe navigates relations with the US and China, can it remain competitive?"
+      },
+      {
+        "pattern": "Age-tenure equivalence political delegitimization",
+        "detail": "Emphasizes that incumbent has been in office for the entire lifetime of younger challenger, framing longevity as inherently problematic rather than experienced.",
+        "debias": "Report electoral victories based on policy platforms and voter preferences rather than age-based tenure comparisons.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "Melat Kiros defeated Diana DeGette, who has been in office for as long as the 29-year-old Kiros has been alive.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/1/colorado-primary-election-results-melat-kiros-wins-key-takeaways?traffic_source=rss",
+        "unbiased_text": "Melat Kiros, 29, defeated incumbent Diana DeGette in the primary election."
+      },
+      {
+        "pattern": "Tycoon identity prominence explosion framing",
+        "detail": "Headlines nationality and business status of bombing victim before establishing facts, creating narrative frame around who rather than what occurred.",
+        "debias": "Lead with incident details before victim identity to avoid implying motive or significance through selective identification.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "Who is Vadym Yermolaiev, the Ukrainian tycoon injured in Monaco blast?",
+        "example_url": "https://www.aljazeera.com/news/2026/7/1/who-is-vadym-yermolaiev-the-ukrainian-tycoon-injured-in-monaco-blast?traffic_source=rss",
+        "unbiased_text": "Explosive device injures businessman in Monaco; police search for suspect"
+      },
+      {
+        "pattern": "Mental health harm scam victimization universalization",
+        "detail": "Headlines mental health impacts of scams using majority framing to universalize psychological vulnerability and emphasize societal crisis dimension.",
+        "debias": "Report scam statistics including mental health impacts without using majority framing that implies universal vulnerability.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "Nearly three in four US scam victims report mental health harm, poll finds",
+        "example_url": "https://www.aljazeera.com/news/2026/7/1/scams-cost-us-victims-68bn-in-2025-harm-to-mental-health-poll-finds?traffic_source=rss",
+        "unbiased_text": "US scam victims reported $68bn in losses in 2025, with many experiencing mental health impacts, poll finds"
+      },
+      {
+        "pattern": "Diaspora connection sporting identity assertion",
+        "detail": "Emphasizes diaspora presence and political solidarity at sporting events, framing tournament as platform for national identity rather than athletic competition.",
+        "debias": "Report on sporting events primarily through athletic performance while noting fan presence without political identity emphasis.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "Tournament has placed Bosnia's fans and global diaspora in the spotlight, as team fights to reach Round of 16.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/1/we-can-relate-bosnia-fans-bring-passion-palestine-support-to-world-cup?traffic_source=rss",
+        "unbiased_text": "Bosnia's national team advances in tournament as fans travel to support them in reaching the Round of 16."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4733,8 +4793,8 @@
       },
       {
         "pattern": "Childhood essence destruction rhetoric",
-        "detail": "Using abstract, emotionally laden language about destroyed childhood essence to frame conflict impact rather than specific documented harms.",
-        "debias": "Report documented specific harms to children with evidence, avoiding metaphysical claims about destroyed essence.",
+        "detail": "Using abstract, emotionally laden language about destroyed childhood essence to frame conflict impact rather than specific documented harms. Also: Quotes institutional reports using emotive phrases like 'essence of childhood destroyed' to characterize conflict impact through abstract existential harm.",
+        "debias": "Report documented specific harms to children with evidence, avoiding metaphysical claims about destroyed essence. Report specific documented harms to children using concrete terms rather than abstract essence-destruction rhetoric.",
         "date_added": "2026-06-30",
         "status": "suggested",
         "example_text": "The Independent International Commission of Inquiry says that since October 7, 2023, the \"essence of childhood\" has been \"destroyed\" in Gaza and the West Bank.",
@@ -4750,6 +4810,26 @@
         "example_text": "A plan to divert shipping through an alternative corridor off the Omani coast to avoid the threat of mines in the Strait of Hormuz has come under scrutiny after two attacks on ships in recent days.",
         "example_url": "https://www.france24.com/en/middle-east/20260630-how-ships-are-risking-safe-passage-through-the-strait-of-hormuz",
         "unbiased_text": "Ships using an alternative corridor off Oman to avoid mines in the Strait of Hormuz have faced attacks, complicating navigation decisions."
+      },
+      {
+        "pattern": "Despite-agreement contradiction headline emphasis",
+        "detail": "Headlines emphasize unchanged conditions despite agreements, foregrounding diplomatic failure through contradictory framing structure.",
+        "debias": "Report on implementation timelines and specific agreement terms without contradiction framing that assumes immediate compliance.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "Despite agreement with Israel, situation in Lebanon remains unchanged",
+        "example_url": "https://www.france24.com/en/despite-agreement-with-israel-situation-in-lebanon-remains-unchanged",
+        "unbiased_text": "Following agreement with Israel, implementation phase begins in Lebanon"
+      },
+      {
+        "pattern": "Getting-on-well diplomatic euphemism elevation",
+        "detail": "Amplifies vague diplomatic language about relationship quality as substantive progress indicator in headline without concrete negotiation outcomes.",
+        "debias": "Focus on specific negotiation outcomes and substantive agreements rather than relationship characterizations.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "Trump says US getting on 'well' with Iran following 'good meetings'",
+        "example_url": "https://www.france24.com/en/middle-east/20260701-middle-east-live-qatar-reaffirms-backing-for-us-iran-talks",
+        "unbiased_text": "Trump reports negotiations with Iran continue in Qatar; specific outcomes pending"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -7163,6 +7243,46 @@
         "example_text": "\"You thrilled our country at this World Cup,\" writes Chancellor Merz after the team's exit, but reactions show the public feels differently.",
         "example_url": "http://www.euronews.com/my-europe/2026/06/30/chancellor-merz-x-post-on-world-cup-exit-sparks-confusion-then-comes-second-post",
         "unbiased_text": "Chancellor Merz posted a statement thanking the national team following their World Cup exit, later posting a second message."
+      },
+      {
+        "pattern": "Best-of superlative celebratory European dominance",
+        "detail": "Headlines European supremacy in subjective rankings using celebratory framing and national pride language.",
+        "debias": "Report rankings and awards without celebratory nationalist framing or supremacy language.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "'Εβίβα!' It's official: Europe's Best Bar is in Greece",
+        "example_url": "http://www.euronews.com/culture/2026/07/01/ebiba-its-official-europes-best-bar-is-in-greece",
+        "unbiased_text": "Athens bar tops new Europe's 50 Best Bars list"
+      },
+      {
+        "pattern": "Self-styled expert influence alarm framing",
+        "detail": "Warns about social media influencers as problematic substitute for traditional experts, framing user opinion formation as manipulation vulnerability.",
+        "debias": "Report research on information consumption patterns without implying traditional expertise superiority or user manipulation.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "Researchers warn social media users can form strong opinions after viewing only a few social media posts on a topic. Across social media, many self-proclaimed experts and influencers are plugging a gap amid declining public trust in traditional experts.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/01/just-a-few-social-media-posts-from-self-styled-experts-can-strongly-influence-opinion-stud",
+        "unbiased_text": "Study finds social media users form opinions from limited content exposure; researchers note shift in how people consume expert information."
+      },
+      {
+        "pattern": "Canadian Eurovision entry milestone celebration",
+        "detail": "Frames non-European country's entry into European contest as historic welcome moment rather than geographic boundary change.",
+        "debias": "Report contest expansion factually without celebratory welcome framing that obscures geographic contradiction.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "O Canada! Eurovision Song Contest welcomes first new country since 2015",
+        "example_url": "http://www.euronews.com/culture/2026/07/01/o-canada-eurovision-song-contest-welcomes-first-new-country-since-2015",
+        "unbiased_text": "Canada to compete in Eurovision Song Contest after broadcaster joins European Broadcasting Union"
+      },
+      {
+        "pattern": "Tourist theft comedic framing trivialization",
+        "detail": "Presents art theft as amusing tourist misunderstanding using casual quote emphasizing aesthetic appreciation over legal violation.",
+        "debias": "Report art theft incidents as serious crimes without comedic framing that trivializes cultural heritage loss.",
+        "date_added": "2026-07-01",
+        "status": "suggested",
+        "example_text": "Tourist takes Sorolla painting lost in Seville home to Murcia: 'I thought the frame was cool'",
+        "example_url": "http://www.euronews.com/culture/2026/07/01/tourist-takes-sorolla-painting-lost-in-seville-home-to-murcia-i-thought-the-frame-was-cool",
+        "unbiased_text": "Police recover valuable Sorolla painting after tourist unknowingly took it from Seville"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
