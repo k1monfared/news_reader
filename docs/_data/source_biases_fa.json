@@ -3068,6 +3068,62 @@
         "example_url": "https://www.aljazeera.com/news/2026/7/1/we-can-relate-bosnia-fans-bring-passion-palestine-support-to-world-cup?traffic_source=rss",
         "unbiased_text": "تیم ملی بوسنی در تورنمنت پیشروی می‌کند در حالی که هواداران برای حمایت از آنها در رسیدن به مرحله شانزده تیم پایانی سفر کرده‌اند.",
         "pattern_en": "Diaspora connection sporting identity assertion"
+      },
+      {
+        "pattern": "روایت‌سازی معکوس کمبود",
+        "detail": "قاب‌بندی بازگشایی مسیرهای تأمین به‌عنوان ایجاد مشکل مخالف (مازاد/انباشت) به‌جای بازگرداندن ثبات.",
+        "debias": "بازیابی مسیرهای تأمین را به‌عنوان عادی‌سازی گزارش کنید بدون حدس‌زدن درباره سناریوهای اصلاح بیش‌ازحد.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "با بازگشایی هرمز، آیا کمبود نفت به انباشت تبدیل شده است؟ همان‌طور که جریان از طریق تنگه از سر گرفته می‌شود، مازاد نفت ممکن است یک‌بار دیگر بازارهای انرژی جهانی را بی‌ثبات کند.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/2/with-hormuz-reopened-has-the-oil-shortage-turned-into-a-glut?traffic_source=rss",
+        "unbiased_text": "با بازگشایی هرمز، جریان نفت از طریق تنگه از سر گرفته می‌شود. تحلیل‌گران بازار در حال نظارت بر سطوح عرضه هستند همان‌طور که حمل‌ونقل دریایی به حالت عادی بازمی‌گردد.",
+        "pattern_en": "Shortage reversal narrative construction"
+      },
+      {
+        "pattern": "روایت قهرمانی تیم ورزشی معلولان جنگی",
+        "detail": "چارچوب‌بندی مشارکت ورزشی معلولان جنگی به عنوان بازپس‌گیری فضایی که جنگ «سعی در سلب آن داشته» به جای توسعه ورزش‌های تطبیقی.",
+        "debias": "برنامه‌های ورزشی معلولان جنگی را به عنوان ورزش‌های تطبیقی بدون استعاره‌های بازپس‌گیری سرزمینی از درگیری گزارش کنید.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "اولین تیم فوتبال زنان معلول غزه در حال بازپس‌گیری فضایی است که جنگ سعی داشت از آنها بگیرد.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/2/gazas-first-womens-amputee-football-team-reclaims-the-pitch-after-war?traffic_source=rss",
+        "unbiased_text": "اولین تیم فوتبال زنان معلول غزه تشکیل شده و در حال تمرین است.",
+        "pattern_en": "Amputee sports team heroism narrative"
+      },
+      {
+        "pattern": "نمایش چشمگیر نقاط عطف تخریب بر اساس درصد",
+        "detail": "آغاز خبر با آمار درصدی تخریب و تصرف برای تأکید بر مقیاس از طریق قاب‌بندی عددی.",
+        "debias": "ارزیابی خسارات را بدون استفاده از ارقام درصدی به‌عنوان قاب‌بندی اصلی در تیترهای پیشرو گزارش دهید.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "۱۰۰۰ روز جنگ غزه: ۹۰ درصد نوار غزه «ویران شده»، ۸۰ درصد «توسط اسرائیل تصرف شده»",
+        "example_url": "https://www.aljazeera.com/news/2026/7/2/gaza-wars-1000-days-90-of-strip-destroyed-80-seized-by-israel?traffic_source=rss",
+        "unbiased_text": "جنگ غزه به ۱۰۰۰ روز رسید و خسارات گسترده و تغییرات کنترل سرزمینی مستندسازی شده است.",
+        "pattern_en": "Percentage destruction milestone dramatization"
+      },
+      {
+        "pattern": "مقایسه و برجسته‌سازی قربانی‌سازی قومی",
+        "detail": "ترسیم شباهت‌های تاریخی میان انتقادات جاری از مربیگری و پرونده‌های تبعیض گذشته برای القای الگویی از هدف‌گیری قومی.",
+        "debias": "بحث‌های مربوط به مربیگری را بر اساس شایستگی‌های مشخص آن‌ها گزارش کنید بدون وارد کردن قیاس‌های تبعیض تاریخی.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "هشت سال پیش، مسعود اوزیل بود که ریشه‌های ترک دارد. این بار، سرمربی آلمانی تلاش می‌کند دنیز اوندآو کُرد را مقصر بداند.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/2/german-football-has-a-bigger-problem-than-a-world-cup-loss-scapegoating?traffic_source=rss",
+        "unbiased_text": "انتقاد سرمربی آلمان از بازیکن دنیز اوندآو پس از شکست در جام جهانی بحثی درباره پویایی‌های تیم به راه انداخته است.",
+        "detail_items": [],
+        "pattern_en": "Ethnic scapegoating comparison elevation"
+      },
+      {
+        "pattern": "قاب‌بندی هشداردهنده قانون همسان‌سازی اجباری",
+        "detail": "توصیف قانون‌گذاری جدید به‌عنوان عاملی که احتمالاً همسان‌سازی اجباری را تسریع می‌کند و منتقدان را هدف قرار می‌دهد، بدون ارائه توجیهات دولت.",
+        "debias": "مفاد قانون را همراه با منطق دولت و نگرانی‌های منتقدان با نسبت متعادل گزارش کنید.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "منتقدان می‌گویند این قانون می‌تواند همسان‌سازی اجباری را تسریع کند و منجر به هدف قرار گرفتن منتقدان خارج از چین شود. پکن این اتهامات را رد می‌کند.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/2/whats-chinas-new-ethnic-unity-law-and-what-does-it-mean-for-minorities?traffic_source=rss",
+        "unbiased_text": "قانون جدید وحدت قومی چین توسط برخی گروه‌ها به دلیل تأثیر احتمالی بر رویه‌های اقلیت‌ها مورد انتقاد قرار گرفته است، درحالی‌که دولت می‌گوید این قانون انسجام اجتماعی را ترویج می‌کند.",
+        "pattern_en": "Forced assimilation law alarm framing"
       }
     ]
   },
@@ -5342,6 +5398,40 @@
         "example_url": "https://www.france24.com/en/middle-east/20260701-middle-east-live-qatar-reaffirms-backing-for-us-iran-talks",
         "unbiased_text": "ترامپ گزارش می‌دهد مذاکرات با ایران در قطر ادامه دارد؛ نتایج مشخص در انتظار است",
         "pattern_en": "Getting-on-well diplomatic euphemism elevation"
+      },
+      {
+        "pattern": "قاب‌بندی نقطه عطف هزار روزه بلوغ جنگ",
+        "detail": "استفاده از شمارش روزهای عدد گرد (۱۰۰۰ روز) برای نشان‌گذاری بلوغ درگیری و القای دائمی بودن از طریق نقاط عطف زمانی.",
+        "debias": "مدت زمان درگیری را بدون تأکید بر نقاط عطف عدد گردی که نقاط بلوغ نمادین را القا می‌کنند، گزارش کنید.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "اسرائیل هزارمین روز از زمان حمله حماس در ۷ اکتبر ۲۰۲۳ را ثبت می‌کند",
+        "example_url": "https://www.france24.com/en/israel-and-gaza-mark-1-000-days-since-the-october-7-attacks-and-the-start-of-the-war",
+        "unbiased_text": "نزدیک به سه سال از حمله حماس در ۷ اکتبر ۲۰۲۳ که جنگ غزه را آغاز کرد، گذشته است.",
+        "detail_items": [],
+        "pattern_en": "War maturation thousand-day milestone framing"
+      },
+      {
+        "pattern": "چارچوب‌بندی فلسفی نابودی ذات",
+        "detail": "استفاده از زبان فلسفی انتزاعی درباره «نابود شدن» «ذات» کودکی به جای مستندسازی آسیب‌های ملموس.",
+        "debias": "آسیب‌های مستند شده به کودکان را با شواهد مشخص گزارش کنید به جای ادعاهای انتزاعی درباره نابودی فلسفی.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "کمیسیون بین‌المللی مستقل تحقیق می‌گوید که از ۷ اکتبر ۲۰۲۳، «ذات کودکی» در غزه و کرانه باختری «نابود شده» است.",
+        "example_url": "https://www.france24.com/en/targeting-of-palestinian-children-has-not-stopped-independent-un-investigator-sounds-alarm",
+        "unbiased_text": "کمیسیون سازمان ملل تأثیرات شدید بر کودکان در غزه و کرانه باختری از ۷ اکتبر ۲۰۲۳ را مستند کرد، از جمله مجروحیت‌ها، مرگ‌ها و آوارگی.",
+        "pattern_en": "Essence destruction philosophical framing"
+      },
+      {
+        "pattern": "انتساب استراتژی آشکارا سودجویانه",
+        "detail": "توصیف به‌رسمیت‌شناسی دیپلماتیک به‌عنوان استراتژی «آشکارا سودجویانه» از طریق نقل‌قول تحلیلگر به‌جای بررسی انگیزه‌های متعدد.",
+        "debias": "تصمیمات به‌رسمیت‌شناسی دیپلماتیک را با انگیزه‌های احتمالی مختلف ارائه دهید بدون اینکه آن را صرفاً سودجویانه رد کنید.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "زمان استدلال می‌کند که به‌رسمیت‌شناسی ظاهری Israel از نسل‌کشی ارمنی کمتر یک محاسبه تاریخی اصولی است تا یک استراتژی «آشکارا سودجویانه» که توسط جنگ غزه شکل گرفته است",
+        "example_url": "https://www.france24.com/en/tv-shows/middle-east-matters/20260701-pm-pashinyas-warned-armenia-does-not-wish-to-engage-with-weaponization-of-the-1915-genocide",
+        "unbiased_text": "تحلیلگر زمان پیشنهاد می‌کند که به‌رسمیت‌شناسی Israel از نسل‌کشی ارمنی ممکن است تحت تأثیر تنش‌های منطقه‌ای فعلی و ملاحظات دیپلماتیک باشد.",
+        "pattern_en": "Nakedly cynical strategy attribution"
       }
     ]
   },
@@ -8064,6 +8154,29 @@
         "example_url": "http://www.euronews.com/culture/2026/07/01/tourist-takes-sorolla-painting-lost-in-seville-home-to-murcia-i-thought-the-frame-was-cool",
         "unbiased_text": "پلیس نقاشی ارزشمند سورویا را پس از برداشتن ناآگاهانه آن توسط توریست از سویا بازیابی کرد",
         "pattern_en": "Tourist theft comedic framing trivialization"
+      },
+      {
+        "pattern": "قاب‌بندی ورود به بازار گردشگری به‌عنوان تحول‌آفرین",
+        "detail": "ارائه توسعه لوکس به‌عنوان تحول‌آفرین برای کشور در حالی که مخالفت‌ها صرفاً به‌عنوان مانع‌تراشی نادیده گرفته می‌شوند.",
+        "debias": "پروژه‌های توسعه را با پیش‌بینی‌های اقتصادی و نگرانی‌های جامعه محلی با وزن برابر گزارش کنید.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "دولت می‌گوید این توسعه در سواحل دریای آدریاتیک برای این کشور سابقاً کمونیست که به دنبال ورود به بازار گردشگری سطح بالا است و برای عضویت در اتحادیه اروپا تلاش می‌کند، تحول‌آفرین خواهد بود.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/02/albanian-police-fire-water-cannon-as-protests-against-trump-linked-luxury-resort-continue",
+        "unbiased_text": "دولت می‌گوید این توسعه می‌تواند گردشگری را تقویت کند در حالی که معترضان نگرانی‌هایی درباره اثرات زیست‌محیطی و دسترسی عمومی به مناطق ساحلی مطرح می‌کنند.",
+        "detail_items": [],
+        "pattern_en": "Transformational tourism market entry framing"
+      },
+      {
+        "pattern": "گمانه‌زنی درباره اختلال در صنعت لوکس با چرم تی‌رکس",
+        "detail": "ارائه مواد لوکس زیست‌مهندسی‌شده گمانه‌زنی‌شده به‌عنوان نوآوری دگرگون‌کننده صنعت از طریق نقل‌قول مدیران اجرایی.",
+        "debias": "پژوهش مواد آزمایشی را بدون گمانه‌زنی درباره دگرگونی صنعت پیش از امکان‌پذیری تجاری گزارش کنید.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "به گفته دیمیتری گوراسیموف از VML، چرم تی‌رکس می‌تواند صنعت لوکس را دگرگون کند. برای تولید این چرم، دانشمندان با قطعاتی از کلاژن فسیل‌شده تی‌رکس آغاز کردند، سپس از هوش مصنوعی و زیست‌شناسی محاسباتی برای بازسازی کد ژنتیکی گم‌شده استفاده کردند.",
+        "example_url": "http://www.euronews.com/culture/2026/07/02/jurassic-fashion-t-rex-leather-could-reshape-luxury-industry-says-vmls-dimitri-guerassimov",
+        "unbiased_text": "پژوهشگران از هوش مصنوعی برای بازسازی کلاژن تی‌رکس جهت تولید احتمالی چرم استفاده کرده‌اند، هرچند کاربردهای تجاری آن همچنان نامشخص است.",
+        "pattern_en": "T-Rex leather luxury disruption speculation"
       }
     ]
   }

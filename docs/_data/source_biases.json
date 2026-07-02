@@ -2756,6 +2756,56 @@
         "example_text": "Tournament has placed Bosnia's fans and global diaspora in the spotlight, as team fights to reach Round of 16.",
         "example_url": "https://www.aljazeera.com/news/2026/7/1/we-can-relate-bosnia-fans-bring-passion-palestine-support-to-world-cup?traffic_source=rss",
         "unbiased_text": "Bosnia's national team advances in tournament as fans travel to support them in reaching the Round of 16."
+      },
+      {
+        "pattern": "Shortage reversal narrative construction",
+        "detail": "Framing the reopening of supply routes as potentially creating the opposite problem (surplus/glut) rather than stability restoration.",
+        "debias": "Report supply route restoration as normalization without speculating on overcorrection scenarios.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "With Hormuz reopened, has the oil shortage turned into a glut? As flow resumes through the strait, an oil surplus may yet again destabilise global energy markets.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/2/with-hormuz-reopened-has-the-oil-shortage-turned-into-a-glut?traffic_source=rss",
+        "unbiased_text": "With Hormuz reopened, oil flow through the strait resumes. Market analysts are monitoring supply levels as shipping returns to normal."
+      },
+      {
+        "pattern": "Amputee sports team heroism narrative",
+        "detail": "Framing amputee athletic participation as reclaiming space that war 'tried to take' rather than adaptive sports development.",
+        "debias": "Report amputee sports programs as adaptive athletics without metaphors of territorial reclamation from conflict.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "Gaza's first women's amputee football team is reclaiming a space that war tried to take from them.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/2/gazas-first-womens-amputee-football-team-reclaims-the-pitch-after-war?traffic_source=rss",
+        "unbiased_text": "Gaza's first women's amputee football team has formed and is practicing."
+      },
+      {
+        "pattern": "Percentage destruction milestone dramatization",
+        "detail": "Leading with percentage-based destruction and seizure statistics to emphasize scale through numerical framing.",
+        "debias": "Report damage assessments without leading headlines with percentage figures as primary framing.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "Gaza war's 1,000 days: 90% of strip 'destroyed', 80% 'seized' by Israel",
+        "example_url": "https://www.aljazeera.com/news/2026/7/2/gaza-wars-1000-days-90-of-strip-destroyed-80-seized-by-israel?traffic_source=rss",
+        "unbiased_text": "Gaza war reaches 1,000 days with extensive damage and territorial control changes documented."
+      },
+      {
+        "pattern": "Ethnic scapegoating comparison elevation",
+        "detail": "Drawing historical parallels between current coaching criticism and past discrimination cases to suggest ethnic targeting pattern.",
+        "debias": "Report coaching controversies on their specific merits without importing historical discrimination analogies.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "Eight years ago, it was Mesut Ozil, who has Turkish roots. This time, German manager tries to blame Kurdish Deniz Undav.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/2/german-football-has-a-bigger-problem-than-a-world-cup-loss-scapegoating?traffic_source=rss",
+        "unbiased_text": "German manager's criticism of player Deniz Undav after World Cup loss has sparked debate about team dynamics."
+      },
+      {
+        "pattern": "Forced assimilation law alarm framing",
+        "detail": "Characterizing new legislation as potentially hastening forced assimilation and targeting critics without presenting government justification.",
+        "debias": "Report legislation provisions with both government rationale and critic concerns in balanced proportion.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "Critics say it could hasten forced assimilation, lead to targeting of critics outside China. Beijing rejects charges.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/2/whats-chinas-new-ethnic-unity-law-and-what-does-it-mean-for-minorities?traffic_source=rss",
+        "unbiased_text": "China's new ethnic unity law has been criticized by some groups as potentially affecting minority practices, while the government says it promotes social cohesion."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4830,6 +4880,36 @@
         "example_text": "Trump says US getting on 'well' with Iran following 'good meetings'",
         "example_url": "https://www.france24.com/en/middle-east/20260701-middle-east-live-qatar-reaffirms-backing-for-us-iran-talks",
         "unbiased_text": "Trump reports negotiations with Iran continue in Qatar; specific outcomes pending"
+      },
+      {
+        "pattern": "War maturation thousand-day milestone framing",
+        "detail": "Using round-number day counts (1,000 days) to mark conflict maturation and suggest permanence through temporal milestones.",
+        "debias": "Report conflict duration without emphasizing round-number milestones that suggest symbolic maturation points.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "Israel is marking the 1,000th day since Hamas's October 7, 2023 attack",
+        "example_url": "https://www.france24.com/en/israel-and-gaza-mark-1-000-days-since-the-october-7-attacks-and-the-start-of-the-war",
+        "unbiased_text": "Nearly three years have passed since Hamas's October 7, 2023 attack that triggered the Gaza war."
+      },
+      {
+        "pattern": "Essence destruction philosophical framing",
+        "detail": "Using abstract philosophical language about childhood 'essence' being 'destroyed' rather than concrete harm documentation.",
+        "debias": "Report documented harms to children with specific evidence rather than abstract philosophical destruction claims.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "The Independent International Commission of Inquiry says that since October 7, 2023, the 'essence of childhood' has been 'destroyed' in Gaza and the West Bank.",
+        "example_url": "https://www.france24.com/en/targeting-of-palestinian-children-has-not-stopped-independent-un-investigator-sounds-alarm",
+        "unbiased_text": "The UN Commission documented severe impacts on children in Gaza and the West Bank since October 7, 2023, including injuries, deaths, and displacement."
+      },
+      {
+        "pattern": "Nakedly cynical strategy attribution",
+        "detail": "Characterizing diplomatic recognition as 'nakedly cynical' strategy through analyst quotation rather than exploring multiple motivations.",
+        "debias": "Present diplomatic recognition decisions with various possible motivations without dismissing as purely cynical.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "Zaman argues that Israel's apparent recognition of the Armenian genocide is less a principled historical reckoning than a 'nakedly cynical' strategy shaped by the Gaza war",
+        "example_url": "https://www.france24.com/en/tv-shows/middle-east-matters/20260701-pm-pashinyas-warned-armenia-does-not-wish-to-engage-with-weaponization-of-the-1915-genocide",
+        "unbiased_text": "Analyst Zaman suggests Israel's recognition of the Armenian genocide may be influenced by current regional tensions and diplomatic considerations."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -7283,6 +7363,26 @@
         "example_text": "Tourist takes Sorolla painting lost in Seville home to Murcia: 'I thought the frame was cool'",
         "example_url": "http://www.euronews.com/culture/2026/07/01/tourist-takes-sorolla-painting-lost-in-seville-home-to-murcia-i-thought-the-frame-was-cool",
         "unbiased_text": "Police recover valuable Sorolla painting after tourist unknowingly took it from Seville"
+      },
+      {
+        "pattern": "Transformational tourism market entry framing",
+        "detail": "Presenting luxury development as transformational for nation while dismissing opposition as merely obstructionist.",
+        "debias": "Report development projects with both economic projections and community concerns given equal weight.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "The government says the development on the Adriatic coast would be transformational for the former communist nation as it seeks to enter the high-end tourism market and pushes for European Union membership.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/02/albanian-police-fire-water-cannon-as-protests-against-trump-linked-luxury-resort-continue",
+        "unbiased_text": "The government says the development could boost tourism while protesters raise concerns about environmental impact and public access to coastal areas."
+      },
+      {
+        "pattern": "T-Rex leather luxury disruption speculation",
+        "detail": "Presenting speculative bioengineered luxury material as industry-reshaping innovation through executive quotation.",
+        "debias": "Report experimental materials research without speculating on industry transformation before commercial viability.",
+        "date_added": "2026-07-02",
+        "status": "suggested",
+        "example_text": "T-Rex leather could reshape luxury industry says VML's Dimitri Guerassimov. To create the leather, scientists started with fragments of fossilised T-Rex collagen, then used AI and computational biology to reconstruct the missing genetic code.",
+        "example_url": "http://www.euronews.com/culture/2026/07/02/jurassic-fashion-t-rex-leather-could-reshape-luxury-industry-says-vmls-dimitri-guerassimov",
+        "unbiased_text": "Researchers have used AI to reconstruct T-Rex collagen for potential leather production, though commercial applications remain uncertain."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
