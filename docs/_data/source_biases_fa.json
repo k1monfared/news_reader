@@ -3124,6 +3124,40 @@
         "example_url": "https://www.aljazeera.com/news/2026/7/2/whats-chinas-new-ethnic-unity-law-and-what-does-it-mean-for-minorities?traffic_source=rss",
         "unbiased_text": "قانون جدید وحدت قومی چین توسط برخی گروه‌ها به دلیل تأثیر احتمالی بر رویه‌های اقلیت‌ها مورد انتقاد قرار گرفته است، درحالی‌که دولت می‌گوید این قانون انسجام اجتماعی را ترویج می‌کند.",
         "pattern_en": "Forced assimilation law alarm framing"
+      },
+      {
+        "pattern": "روایت مشروعیت فرهنگی استناد به بسم‌الله",
+        "detail": "برجسته‌سازی و جشن گرفتن استفاده یک ورزشکار از عبارات اسلامی به‌عنوان لحظه‌ای با اهمیت فرهنگی که شایسته تقویت و چارچوب‌بندی مثبت است.",
+        "debias": "بیان‌های مذهبی ورزشکاران را به‌طور خنثی و بدون تأکید جشن‌گونه یا چارچوب‌بندی اعتبارسنجی فرهنگی گزارش کنید.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "به نظر می‌رسد کریستیانو رونالدو قبل از زدن پنالتی دو بار «بسم‌الله» (به نام خدا) گفته است.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/video-ronaldo-appears-to-say-bismillah-before-penalty?traffic_source=rss",
+        "unbiased_text": "مشاهده شد که کریستیانو رونالدو قبل از زدن ضربه پنالتی در طول بازی، کلماتی بر زبان آورد.",
+        "pattern_en": "Bismillah invocation cultural legitimacy narrative"
+      },
+      {
+        "pattern": "قاب‌بندی متناقض‌نما از خطرات خدمات داوطلبانه",
+        "detail": "قاب‌بندی خدمات اورژانس داوطلبانه از دریچه‌ای پرسشگر که کار آن‌ها را به‌جای سودمند، بالقوه خطرناک جلوه می‌دهد و بر خطر به‌جای خدمت تأکید می‌کند.",
+        "debias": "گزارش درباره خدمات اورژانس داوطلبانه را با توصیف کارکردها و چالش‌های آن‌ها انجام دهید، بدون پرسش متناقض‌نما درباره ارزش آن‌ها.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "داوطلبان آمبولانس بانکوک: نجات جان یا به خطر انداختن آن؟",
+        "example_url": "https://www.aljazeera.com/video/101-east/2026/7/3/bangkoks-ambulance-volunteers-saving-lives-or-putting-them-at-risk?traffic_source=rss",
+        "unbiased_text": "گروه‌های داوطلب آمبولانس بانکوک در حین پاسخ به صحنه‌های تصادف در سراسر شهر با چالش‌ها و خطراتی روبرو هستند.",
+        "detail_items": [],
+        "pattern_en": "Volunteer service risk paradox framing"
+      },
+      {
+        "pattern": "روایت رویارویی پلیس با تیم ورزشی",
+        "detail": "قاب‌بندی تعاملات امنیتی معمول بین پلیس و ورزشکاران به‌عنوان درگیری‌های رویارویانه، با تأکید بر تضاد به‌جای رویه‌های استاندارد.",
+        "debias": "تعاملات امنیتی با تیم‌های ورزشی را با توصیف آنچه رخ داده گزارش کنید بدون اینکه رویه‌های معمول را به‌عنوان رویارویی توصیف کنید.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "کارکنان پلیس آمریکا درگیری با بازیکنان مصری را در حین عکس گرفتن با هواداران برانگیختند",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/us-police-staff-spark-altercation-with-egyptian-players-posing-with-fans?traffic_source=rss",
+        "unbiased_text": "پلیس آمریکا در حالی که بازیکنان تیم ملی مصر در هتل دالاس خود با هواداران عکس می‌گرفتند، مداخله کرد.",
+        "pattern_en": "Police confrontation sports team narrative"
       }
     ]
   },
@@ -8177,6 +8211,62 @@
         "example_url": "http://www.euronews.com/culture/2026/07/02/jurassic-fashion-t-rex-leather-could-reshape-luxury-industry-says-vmls-dimitri-guerassimov",
         "unbiased_text": "پژوهشگران از هوش مصنوعی برای بازسازی کلاژن تی‌رکس جهت تولید احتمالی چرم استفاده کرده‌اند، هرچند کاربردهای تجاری آن همچنان نامشخص است.",
         "pattern_en": "T-Rex leather luxury disruption speculation"
+      },
+      {
+        "pattern": "نام‌گذاری پدیده فرهنگی اثر Wonderwall",
+        "detail": "ایجاد برچسب‌های روایی برندشده برای سنت‌های نوظهور هواداران ورزشی، قاب‌بندی رفتار خودجوش به‌عنوان جنبش‌های فرهنگی مهم که شایسته نام‌گذاری و پیگیری هستند.",
+        "debias": "درباره سنت‌ها و شعارهای هواداران گزارش دهید بدون اینکه برچسب‌های برندشده ایجاد کنید یا نشان دهید که آن‌ها نماینده پدیده‌های فرهنگی مهم هستند.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "اثر «Wonderwall»: آیا بالاخره انگلیس یک سرود مناسب جام جهانی پیدا کرده است؟",
+        "example_url": "http://www.euronews.com/culture/2026/07/03/the-wonderwall-effect-have-england-finally-got-a-decent-world-cup-anthem",
+        "unbiased_text": "هواداران تیم ملی فوتبال انگلیس شروع به خواندن آهنگ «Wonderwall» گروه Oasis همراه با بازیکنان پس از مسابقات در طول جام جهانی کرده‌اند.",
+        "detail_items": [],
+        "pattern_en": "Wonderwall effect cultural phenomenon naming"
+      },
+      {
+        "pattern": "تأکید بر راننده کودک در فاجعه رژه بودایی",
+        "detail": "برجسته‌سازی سن راننده کودک در تیترهای حادثه مرگبار وسیله نقلیه، با تأکید بر جوانی مرتکب به جای قربانیان در قاب‌بندی فاجعه.",
+        "debias": "حوادث مرگبار وسایل نقلیه را با تمرکز بر قربانیان و شرایط حادثه گزارش دهید، نه هیجان‌زدگی درباره سن مسئولان.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "ویدئو لحظه ورود وانت رانده‌شده توسط کودک ۱۱ ساله به رژه بودایی را نشان می‌دهد",
+        "example_url": "http://www.euronews.com/2026/07/03/video-shows-moment-11-year-old-drives-pickup-truck-into-buddhist-procession",
+        "unbiased_text": "یک وانت رانده‌شده توسط یک کودک به رژه بودایی در شمال شرقی تایلند برخورد کرد و ده نفر را کشت.",
+        "pattern_en": "Buddhist procession tragedy child driver emphasis"
+      },
+      {
+        "pattern": "پنهان‌سازی خطرات هوش مصنوعی Tripadvisor به‌عنوان رسوایی",
+        "detail": "چارچوب‌بندی خلاصه‌های نقد و بررسی هوش مصنوعی به‌عنوان پنهان‌کننده فعال خطرات به‌جای ارائه خلاصه‌های ناکافی، که نشان‌دهنده آسیب عمدی به‌جای محدودیت فنی است.",
+        "debias": "گزارش مسائل دقت خلاصه‌های هوش مصنوعی را با توصیف کاستی‌های آن‌ها بدون پیشنهاد این‌که اطلاعات را پنهان یا مخفی می‌کنند، ارائه دهید.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "تحقیقات Which? نشان داده است که خلاصه‌های جدید نقد و بررسی هوش مصنوعی Tripadvisor گزارش‌های مسمومیت غذایی، آزار جنسی و نقص‌های جدی بهداشتی را پنهان می‌کنند.",
+        "example_url": "http://www.euronews.com/travel/2026/07/03/tripadvisor-ai-summaries-give-glowing-reviews-to-dangerous-hotels-consumer-watchdog-finds",
+        "unbiased_text": "تحقیقات Which? نشان داده است که خلاصه‌های جدید نقد و بررسی هوش مصنوعی Tripadvisor به‌طور کافی نقدهای منفی از جمله گزارش‌های مسمومیت غذایی، آزار و مسائل بهداشتی را منعکس نمی‌کنند.",
+        "pattern_en": "Tripadvisor AI danger masking scandal"
+      },
+      {
+        "pattern": "قطعیت در انتساب مرگ‌ومیرهای اضافی به موج گرما",
+        "detail": "انتساب مستقیم افزایش مرگ‌ومیرها به موج گرما با قطعیت علّی بر اساس داده‌های اولیه، به‌جای ارائه همبستگی یا نیاز به تحلیل کامل‌تر.",
+        "debias": "افزایش مرگ‌ومیر در طول موج گرما را به‌عنوان همبستگی‌هایی گزارش کنید که نیاز به بررسی دارند، نه روابط علّی ثابت‌شده.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "داده‌های اولیه از اروپای غربی به بیش از ۴٬۰۰۰ مرگ اضافی اشاره می‌کند، زیرا دماهای رکوردی ژوئن سیستم‌های بهداشتی را تحت فشار قرار داده‌اند",
+        "example_url": "http://www.euronews.com/health/2026/07/03/heatwave-leaves-europe-with-thousands-of-excess-deaths",
+        "unbiased_text": "داده‌های اولیه از اروپای غربی بیش از ۴٬۰۰۰ مرگ اضافی را در دوره‌ای با دماهای رکوردی ژوئن نشان می‌دهد، هرچند تحلیل کامل علل همچنان ادامه دارد.",
+        "pattern_en": "Heatwave excess death attribution certainty"
+      },
+      {
+        "pattern": "قاب‌بندی حدس و گمان انتخابات لاگارد و خروج زودهنگام",
+        "detail": "ارائه حدس و گمان درباره یک مقام که نامزدی سیاسی را در نظر می‌گیرد به‌عنوان امری که به‌طور بالقوه منجر به خروج زودهنگام می‌شود، و قاب‌بندی ملاحظات سیاسی به‌عنوان اختلال نهادی.",
+        "debias": "درباره مقاماتی که نقش‌های سیاسی را در نظر می‌گیرند با بیان اظهارات آنها بدون تأکید بر اختلال بالقوه نهادی گزارش دهید.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "رئیس بانک مرکزی اروپا کریستین لاگارد گفت که احتمال شرکت در انتخابات آتی فرانسه را در نظر می‌گیرد، اقدامی که می‌تواند منجر به کناره‌گیری او از پست خود زودتر از برنامه شود.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/03/lagarde-mulls-leaving-ecb-early-to-play-a-role-in-french-elections",
+        "unbiased_text": "رئیس بانک مرکزی اروپا کریستین لاگارد گفت که احتمال شرکت در انتخابات آتی فرانسه را در نظر می‌گیرد.",
+        "pattern_en": "Lagarde election speculation early departure framing"
       }
     ]
   }

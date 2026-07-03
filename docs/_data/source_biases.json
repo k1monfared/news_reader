@@ -2729,8 +2729,8 @@
       },
       {
         "pattern": "Tycoon identity prominence explosion framing",
-        "detail": "Headlines nationality and business status of bombing victim before establishing facts, creating narrative frame around who rather than what occurred.",
-        "debias": "Lead with incident details before victim identity to avoid implying motive or significance through selective identification.",
+        "detail": "Headlines nationality and business status of bombing victim before establishing facts, creating narrative frame around who rather than what occurred. Also: Identifying bombing victims prominently by their tycoon status rather than their names or citizenship, emphasizing wealth over personhood in attack narratives.",
+        "debias": "Lead with incident details before victim identity to avoid implying motive or significance through selective identification. Identify attack victims by name and citizenship first, mentioning business status as secondary context if relevant.",
         "date_added": "2026-07-01",
         "status": "suggested",
         "example_text": "Who is Vadym Yermolaiev, the Ukrainian tycoon injured in Monaco blast?",
@@ -2806,6 +2806,36 @@
         "example_text": "Critics say it could hasten forced assimilation, lead to targeting of critics outside China. Beijing rejects charges.",
         "example_url": "https://www.aljazeera.com/news/2026/7/2/whats-chinas-new-ethnic-unity-law-and-what-does-it-mean-for-minorities?traffic_source=rss",
         "unbiased_text": "China's new ethnic unity law has been criticized by some groups as potentially affecting minority practices, while the government says it promotes social cohesion."
+      },
+      {
+        "pattern": "Bismillah invocation cultural legitimacy narrative",
+        "detail": "Highlighting and celebrating an athlete's use of Islamic invocations as culturally significant moments worthy of amplification and positive framing.",
+        "debias": "Report religious expressions by athletes neutrally without celebratory emphasis or cultural validation framing.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "Cristiano Ronaldo appeared to say 'Bismillah' (In the name of God) twice before taking a penalty.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/video-ronaldo-appears-to-say-bismillah-before-penalty?traffic_source=rss",
+        "unbiased_text": "Cristiano Ronaldo was observed saying words before taking a penalty kick during the match."
+      },
+      {
+        "pattern": "Volunteer service risk paradox framing",
+        "detail": "Framing volunteer emergency services through a questioning lens that presents their work as potentially dangerous rather than beneficial, emphasizing risk over service.",
+        "debias": "Report on volunteer emergency services by describing their functions and challenges without paradoxical questioning of their value.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "Bangkok's ambulance volunteers: Saving lives or putting them at risk?",
+        "example_url": "https://www.aljazeera.com/video/101-east/2026/7/3/bangkoks-ambulance-volunteers-saving-lives-or-putting-them-at-risk?traffic_source=rss",
+        "unbiased_text": "Bangkok's volunteer ambulance crews face challenges and risks as they respond to accident scenes across the city."
+      },
+      {
+        "pattern": "Police confrontation sports team narrative",
+        "detail": "Framing routine security interactions between police and athletes as confrontational altercations, emphasizing conflict over standard procedures.",
+        "debias": "Report security interactions with sports teams by describing what occurred without characterizing routine procedures as confrontations.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "US Police staff spark altercation with Egyptian players posing with fans",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/us-police-staff-spark-altercation-with-egyptian-players-posing-with-fans?traffic_source=rss",
+        "unbiased_text": "US police intervened as Egyptian national team players posed with fans at their Dallas hotel."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4843,8 +4873,8 @@
       },
       {
         "pattern": "Childhood essence destruction rhetoric",
-        "detail": "Using abstract, emotionally laden language about destroyed childhood essence to frame conflict impact rather than specific documented harms. Also: Quotes institutional reports using emotive phrases like 'essence of childhood destroyed' to characterize conflict impact through abstract existential harm.",
-        "debias": "Report documented specific harms to children with evidence, avoiding metaphysical claims about destroyed essence. Report specific documented harms to children using concrete terms rather than abstract essence-destruction rhetoric.",
+        "detail": "Using abstract, emotionally laden language about destroyed childhood essence to frame conflict impact rather than specific documented harms. Also: Quotes institutional reports using emotive phrases like 'essence of childhood destroyed' to characterize conflict impact through abstract existential harm. Also: Using philosophical language about destroying the 'essence of childhood' to characterize conflict impact, elevating description beyond concrete harms to abstract existential claims.",
+        "debias": "Report documented specific harms to children with evidence, avoiding metaphysical claims about destroyed essence. Report specific documented harms to children using concrete terms rather than abstract essence-destruction rhetoric. Describe specific documented harms to children without abstract philosophical claims about destroying childhood's essence.",
         "date_added": "2026-06-30",
         "status": "suggested",
         "example_text": "The Independent International Commission of Inquiry says that since October 7, 2023, the \"essence of childhood\" has been \"destroyed\" in Gaza and the West Bank.",
@@ -7383,6 +7413,56 @@
         "example_text": "T-Rex leather could reshape luxury industry says VML's Dimitri Guerassimov. To create the leather, scientists started with fragments of fossilised T-Rex collagen, then used AI and computational biology to reconstruct the missing genetic code.",
         "example_url": "http://www.euronews.com/culture/2026/07/02/jurassic-fashion-t-rex-leather-could-reshape-luxury-industry-says-vmls-dimitri-guerassimov",
         "unbiased_text": "Researchers have used AI to reconstruct T-Rex collagen for potential leather production, though commercial applications remain uncertain."
+      },
+      {
+        "pattern": "Wonderwall effect cultural phenomenon naming",
+        "detail": "Creating branded narrative labels for emerging sports fan traditions, framing spontaneous behavior as significant cultural movements worthy of naming and tracking.",
+        "debias": "Report on fan traditions and chants without creating branded labels or suggesting they represent significant cultural phenomena.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "The 'Wonderwall' effect: Have England finally got a decent World Cup anthem?",
+        "example_url": "http://www.euronews.com/culture/2026/07/03/the-wonderwall-effect-have-england-finally-got-a-decent-world-cup-anthem",
+        "unbiased_text": "England football supporters have begun singing 'Wonderwall' by Oasis with players after matches during the World Cup."
+      },
+      {
+        "pattern": "Buddhist procession tragedy child driver emphasis",
+        "detail": "Highlighting the age of a child driver in fatal vehicle incident headlines, emphasizing the perpetrator's youth over the victims in tragedy framing.",
+        "debias": "Report fatal vehicle incidents by focusing on victims and circumstances rather than sensationalizing the age of those responsible.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "Video shows moment 11-year-old drives pickup truck into Buddhist procession",
+        "example_url": "http://www.euronews.com/2026/07/03/video-shows-moment-11-year-old-drives-pickup-truck-into-buddhist-procession",
+        "unbiased_text": "A pickup truck driven by a child struck a Buddhist procession in northeastern Thailand, killing ten people."
+      },
+      {
+        "pattern": "Tripadvisor AI danger masking scandal",
+        "detail": "Framing AI review summaries as actively concealing dangers rather than providing inadequate summaries, suggesting intentional harm over technical limitation.",
+        "debias": "Report on AI summary accuracy issues by describing their shortcomings without suggesting they are masking or concealing information.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "Tripadvisor's new AI review summaries are masking reports of food poisoning, sexual harassment and serious hygiene failures, a Which? investigation has found.",
+        "example_url": "http://www.euronews.com/travel/2026/07/03/tripadvisor-ai-summaries-give-glowing-reviews-to-dangerous-hotels-consumer-watchdog-finds",
+        "unbiased_text": "Tripadvisor's new AI review summaries do not adequately reflect negative reviews including reports of food poisoning, harassment and hygiene issues, a Which? investigation has found."
+      },
+      {
+        "pattern": "Heatwave excess death attribution certainty",
+        "detail": "Attributing increases in deaths directly to heatwaves with causal certainty based on preliminary data, rather than presenting correlation or requiring fuller analysis.",
+        "debias": "Report mortality increases during heatwaves as correlations requiring investigation rather than established causal relationships.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "Preliminary data from Western Europe points to more than 4,000 additional deaths as record June temperatures strain health systems",
+        "example_url": "http://www.euronews.com/health/2026/07/03/heatwave-leaves-europe-with-thousands-of-excess-deaths",
+        "unbiased_text": "Preliminary data from Western Europe shows more than 4,000 additional deaths during a period of record June temperatures, though full analysis of causes is ongoing."
+      },
+      {
+        "pattern": "Lagarde election speculation early departure framing",
+        "detail": "Presenting speculation about an official considering political candidacy as potentially resulting in early departure, framing political consideration as institutional disruption.",
+        "debias": "Report on officials considering political roles by stating their statements without emphasizing potential institutional disruption.",
+        "date_added": "2026-07-03",
+        "status": "suggested",
+        "example_text": "European Central Bank President Christine Lagarde said she is considering the possibility of taking part in the upcoming French elections, a move that could result in her stepping down from her post earlier than planned.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/03/lagarde-mulls-leaving-ecb-early-to-play-a-role-in-french-elections",
+        "unbiased_text": "European Central Bank President Christine Lagarde said she is considering the possibility of taking part in the upcoming French elections."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
