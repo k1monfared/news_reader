@@ -3158,6 +3158,40 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/us-police-staff-spark-altercation-with-egyptian-players-posing-with-fans?traffic_source=rss",
         "unbiased_text": "پلیس آمریکا در حالی که بازیکنان تیم ملی مصر در هتل دالاس خود با هواداران عکس می‌گرفتند، مداخله کرد.",
         "pattern_en": "Police confrontation sports team narrative"
+      },
+      {
+        "pattern": "قاب‌بندی معایب ورزشی ناشی از رقیق بودن هوا",
+        "detail": "تأکید بر چالش‌های فیزیکی ارتفاع به‌عنوان روایتی از معایب برای تیم‌های میهمان در پوشش‌های ورزشی.",
+        "debias": "ارتفاع را به‌عنوان یک واقعیت جغرافیایی خنثی گزارش کنید بدون اینکه آن را عمدتاً به‌عنوان سختی یا معایب قاب‌بندی کنید.",
+        "date_added": "2026-07-04",
+        "status": "suggested",
+        "example_text": "زمین آزتکا ۲٬۲۴۰ متر بالاتر از سطح دریا قرار دارد. در آن ارتفاع، هوا رقیق‌تر است و تنفس را دشوار می‌کند.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/4/england-mexico-fifa-world-cup-azteca-kickoff-altitude-weather-explained?traffic_source=rss",
+        "unbiased_text": "زمین آزتکا ۲٬۲۴۰ متر بالاتر از سطح دریا قرار دارد، جایی که فشار اتمسفر کمتر از سطح دریا است.",
+        "pattern_en": "Air thinness athletic disadvantage framing"
+      },
+      {
+        "pattern": "قاب‌بندی ژئوپلیتیکی توقف اجازه‌خواهی",
+        "detail": "قاب‌بندی تغییرات در روابط دوجانبه به‌صورت «دیگر از کشوری اجازه نمی‌خواهد» که نشان‌دهنده وارونگی سلسله‌مراتب است.",
+        "debias": "تغییرات سیاست‌ها را با واژگان خنثی و بدون استعاره‌های تبعیت توصیف کنید.",
+        "date_added": "2026-07-04",
+        "status": "suggested",
+        "example_text": "واشنگتن شروع به برخورد با بازیگران منطقه‌ای بدون توجه به منافع هند کرده است.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/7/4/in-south-asia-america-has-stopped-asking-india-for-permission?traffic_source=rss",
+        "unbiased_text": "واشنگتن رویکرد خود را در تعامل منطقه‌ای تغییر داده و روابط دوجانبه مستقیم را دنبال می‌کند.",
+        "detail_items": [],
+        "pattern_en": "Permission-cessation geopolitical framing"
+      },
+      {
+        "pattern": "قاب‌بندی رویداد ازدواج سلبریتی‌ها",
+        "detail": "ارائه ازدواج سلبریتی‌ها به عنوان رویدادهای خبری مهم با تأکید بر مکان و مهمانان که اهمیت گسترده‌تری را القا می‌کند.",
+        "debias": "رویدادهای شخصی سلبریتی‌ها را در بخش‌های سرگرمی گزارش کنید بدون اینکه آن‌ها را به اولویت تیتر خبری ارتقا دهید.",
+        "date_added": "2026-07-04",
+        "status": "suggested",
+        "example_text": "سلبریتی‌های درجه یک برای دیدن مراسم ازدواج زوج سوپراستار در مدیسون اسکوئر گاردن حضور یافتند.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/4/taylor-swift-and-travis-kelce-marry-at-nycs-madison-square-garden?traffic_source=rss",
+        "unbiased_text": "Taylor Swift و Travis Kelce در مراسمی خصوصی در شهر نیویورک ازدواج کردند.",
+        "pattern_en": "Celebrity union event framing"
       }
     ]
   },
@@ -5466,6 +5500,17 @@
         "example_url": "https://www.france24.com/en/tv-shows/middle-east-matters/20260701-pm-pashinyas-warned-armenia-does-not-wish-to-engage-with-weaponization-of-the-1915-genocide",
         "unbiased_text": "تحلیلگر زمان پیشنهاد می‌کند که به‌رسمیت‌شناسی Israel از نسل‌کشی ارمنی ممکن است تحت تأثیر تنش‌های منطقه‌ای فعلی و ملاحظات دیپلماتیک باشد.",
         "pattern_en": "Nakedly cynical strategy attribution"
+      },
+      {
+        "pattern": "زیر سؤال بردن ترکیب حاضران از نظر نمایندگی",
+        "detail": "استفاده از نظر کارشناسان برای زیر سؤال بردن اینکه آیا گردهمایی‌های عمومی منعکس‌کننده احساسات گسترده‌تر جمعیت هستند یا خیر.",
+        "debias": "آمار حضور را بدون اظهارنظر یا انکار نمایندگی شرکت‌کنندگان گزارش دهید.",
+        "date_added": "2026-07-04",
+        "status": "suggested",
+        "example_text": "بیشتر شرکت‌کنندگان «جناح‌های جسورتر و تندروتر جامعه» بودند، که این جمعیت را نماینده نگرش‌های عمومی گسترده‌تر نسبت به رژیم نمی‌کند.",
+        "example_url": "https://www.france24.com/en/iran-holds-funeral-for-ali-khamenei-attendees-hardline-factions-of-society-specialist-says",
+        "unbiased_text": "صدها هزار عزادار در مراسم تشییع شرکت کردند که حاضران از سراسر جامعه ایران را به خود جلب کرد.",
+        "pattern_en": "Attendee composition representativeness questioning"
       }
     ]
   },
@@ -8267,6 +8312,40 @@
         "example_url": "http://www.euronews.com/my-europe/2026/07/03/lagarde-mulls-leaving-ecb-early-to-play-a-role-in-french-elections",
         "unbiased_text": "رئیس بانک مرکزی اروپا کریستین لاگارد گفت که احتمال شرکت در انتخابات آتی فرانسه را در نظر می‌گیرد.",
         "pattern_en": "Lagarde election speculation early departure framing"
+      },
+      {
+        "pattern": "برجسته‌سازی تصمیم به‌عنوان امری شخصی",
+        "detail": "تأکید بر ماهیت شخصی تصمیمات سیاسی برای منحرف کردن توجه از ملاحظات سیاستی یا راهبردی.",
+        "debias": "تصمیمات سیاسی را با تمرکز بر دلایل اعلام‌شده و زمان‌بندی گزارش کنید، بدون تأکید بر احساسات شخصی.",
+        "date_added": "2026-07-04",
+        "status": "suggested",
+        "example_text": "کیر استارمر تصمیم به استعفا از نخست‌وزیری بریتانیا را «امری کاملاً شخصی» خواند",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/04/keir-starmer-calls-decision-to-resign-as-british-pm-intensely-personal",
+        "unbiased_text": "کیر استارمر استعفای خود از مقام نخست‌وزیری بریتانیا را اعلام کرد و به نیاز به رهبری جدید اشاره نمود.",
+        "pattern_en": "Intensely personal decision elevation"
+      },
+      {
+        "pattern": "قاب‌بندی مرگ‌ها به عنوان شکست",
+        "detail": "توصیف مرگ‌های قابل پیشگیری از طریق زبان شکست اخلاقی به جای اصطلاحات سیاستی یا منابع.",
+        "debias": "آمار مرگ‌ومیر و واکنش‌های سیاستی را بدون نسب دادن اصطلاحات شکست اخلاقی گزارش کنید.",
+        "date_added": "2026-07-04",
+        "status": "suggested",
+        "example_text": "پاپ سفر تاریخی به لامپدوزا انجام می‌دهد، به اروپا هشدار می‌دهد: 'مرگ‌ها در دریا شکست در عمل است'",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/04/pope-makes-historic-visit-to-lampedusa-warns-europe-deaths-at-sea-are-failures-to-act",
+        "unbiased_text": "پاپ فرانسیس از لامپدوزا بازدید کرد و خواستار سیاست‌های قوی‌تر اروپایی برای جلوگیری از مرگ مهاجران در دریا شد.",
+        "pattern_en": "Deaths as failures framing"
+      },
+      {
+        "pattern": "قاب‌بندی کشف گونه‌های ترکیبی خرس-سگ",
+        "detail": "ارائه کشفیات دیرینه‌شناسی از طریق اصطلاح‌شناسی جانوری ترکیبی که بر نوآوری تأکید دارد نه رده‌بندی علمی.",
+        "debias": "از طبقه‌بندی علمی مناسب استفاده کنید و ویژگی‌های گونه را بدون اصطلاحات ترکیبی توصیف کنید.",
+        "date_added": "2026-07-04",
+        "status": "suggested",
+        "example_text": "دانشمندان اسپانیایی گونه جدید «خرس-سگ» را در کاتالونیا از ۱۵٫۹ میلیون سال پیش کشف کردند",
+        "example_url": "http://www.euronews.com/2026/07/04/spanish-scientists-discover-new-bear-dog-species-in-catalonia-from-159-million-years-ago",
+        "unbiased_text": "دانشمندان گونه جدیدی از آمفیسیونیدها به نام Paludocyon moyasolai را از بقایای دوره میوسن یافت‌شده در کاتالونیا توصیف کرده‌اند.",
+        "detail_items": [],
+        "pattern_en": "Bear-dog hybrid species discovery framing"
       }
     ]
   }

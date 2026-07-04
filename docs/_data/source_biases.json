@@ -2836,6 +2836,36 @@
         "example_text": "US Police staff spark altercation with Egyptian players posing with fans",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/us-police-staff-spark-altercation-with-egyptian-players-posing-with-fans?traffic_source=rss",
         "unbiased_text": "US police intervened as Egyptian national team players posed with fans at their Dallas hotel."
+      },
+      {
+        "pattern": "Air thinness athletic disadvantage framing",
+        "detail": "Emphasizing altitude's physical challenges as a disadvantage narrative for visiting teams in sports coverage.",
+        "debias": "Report altitude as a neutral geographic fact without framing it as primarily a hardship or disadvantage.",
+        "date_added": "2026-07-04",
+        "status": "suggested",
+        "example_text": "The pitch at the Azteca is 2,240 metres above sea level. At that altitude, air is thinner and makes breathing difficult.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/4/england-mexico-fifa-world-cup-azteca-kickoff-altitude-weather-explained?traffic_source=rss",
+        "unbiased_text": "The pitch at the Azteca is 2,240 metres above sea level, where atmospheric pressure is lower than at sea level."
+      },
+      {
+        "pattern": "Permission-cessation geopolitical framing",
+        "detail": "Framing shifts in bilateral relations as one nation 'no longer asking permission' to suggest hierarchy reversal.",
+        "debias": "Describe policy changes in neutral terms without implying subordination metaphors.",
+        "date_added": "2026-07-04",
+        "status": "suggested",
+        "example_text": "Washington has started dealing with regional players without regard for Indian interests.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/7/4/in-south-asia-america-has-stopped-asking-india-for-permission?traffic_source=rss",
+        "unbiased_text": "Washington has shifted its approach to regional engagement, pursuing direct bilateral relationships."
+      },
+      {
+        "pattern": "Celebrity union event framing",
+        "detail": "Presenting celebrity marriages as major news events with venue and guest emphasis suggesting broader significance.",
+        "debias": "Report celebrity personal events in entertainment sections without elevating to news headline priority.",
+        "date_added": "2026-07-04",
+        "status": "suggested",
+        "example_text": "A-list celebrities attend wedding at Madison Square Garden to see superstar couple tie the knot.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/4/taylor-swift-and-travis-kelce-marry-at-nycs-madison-square-garden?traffic_source=rss",
+        "unbiased_text": "Taylor Swift and Travis Kelce were married in a private ceremony in New York City."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4923,8 +4953,8 @@
       },
       {
         "pattern": "Essence destruction philosophical framing",
-        "detail": "Using abstract philosophical language about childhood 'essence' being 'destroyed' rather than concrete harm documentation.",
-        "debias": "Report documented harms to children with specific evidence rather than abstract philosophical destruction claims.",
+        "detail": "Using abstract philosophical language about childhood 'essence' being 'destroyed' rather than concrete harm documentation. Also: Using abstract philosophical language to characterize harm to children in conflict zones.",
+        "debias": "Report documented harms to children with specific evidence rather than abstract philosophical destruction claims. Describe specific documented harms without elevating to abstract philosophical concepts.",
         "date_added": "2026-07-02",
         "status": "suggested",
         "example_text": "The Independent International Commission of Inquiry says that since October 7, 2023, the 'essence of childhood' has been 'destroyed' in Gaza and the West Bank.",
@@ -4940,6 +4970,16 @@
         "example_text": "Zaman argues that Israel's apparent recognition of the Armenian genocide is less a principled historical reckoning than a 'nakedly cynical' strategy shaped by the Gaza war",
         "example_url": "https://www.france24.com/en/tv-shows/middle-east-matters/20260701-pm-pashinyas-warned-armenia-does-not-wish-to-engage-with-weaponization-of-the-1915-genocide",
         "unbiased_text": "Analyst Zaman suggests Israel's recognition of the Armenian genocide may be influenced by current regional tensions and diplomatic considerations."
+      },
+      {
+        "pattern": "Attendee composition representativeness questioning",
+        "detail": "Using expert commentary to question whether public gatherings represent broader population sentiment.",
+        "debias": "Report attendance figures without asserting or denying the representativeness of participants.",
+        "date_added": "2026-07-04",
+        "status": "suggested",
+        "example_text": "most attendees were \"more emboldened, hardline factions of the society,\" making the crowd unrepresentative of broader public attitudes toward the regime.",
+        "example_url": "https://www.france24.com/en/iran-holds-funeral-for-ali-khamenei-attendees-hardline-factions-of-society-specialist-says",
+        "unbiased_text": "Hundreds of thousands of mourners attended the funeral ceremonies, which drew participants from across Iranian society."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -7463,6 +7503,36 @@
         "example_text": "European Central Bank President Christine Lagarde said she is considering the possibility of taking part in the upcoming French elections, a move that could result in her stepping down from her post earlier than planned.",
         "example_url": "http://www.euronews.com/my-europe/2026/07/03/lagarde-mulls-leaving-ecb-early-to-play-a-role-in-french-elections",
         "unbiased_text": "European Central Bank President Christine Lagarde said she is considering the possibility of taking part in the upcoming French elections."
+      },
+      {
+        "pattern": "Intensely personal decision elevation",
+        "detail": "Emphasizing the personal nature of political decisions to deflect from policy or strategic considerations.",
+        "debias": "Report political decisions with focus on stated reasons and timing without personal emotion emphasis.",
+        "date_added": "2026-07-04",
+        "status": "suggested",
+        "example_text": "Keir Starmer calls decision to resign as British PM 'intensely personal'",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/04/keir-starmer-calls-decision-to-resign-as-british-pm-intensely-personal",
+        "unbiased_text": "Keir Starmer announced his resignation as British Prime Minister, citing the need for new leadership."
+      },
+      {
+        "pattern": "Deaths as failures framing",
+        "detail": "Characterizing preventable deaths through moral failure language rather than policy or resource terms.",
+        "debias": "Report mortality statistics and policy responses without assigning moral failure terminology.",
+        "date_added": "2026-07-04",
+        "status": "suggested",
+        "example_text": "Pope makes historic visit to Lampedusa, warns Europe: 'Deaths at sea are failures to act'",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/04/pope-makes-historic-visit-to-lampedusa-warns-europe-deaths-at-sea-are-failures-to-act",
+        "unbiased_text": "Pope Francis visited Lampedusa and called for stronger European policies to prevent migrant deaths at sea."
+      },
+      {
+        "pattern": "Bear-dog hybrid species discovery framing",
+        "detail": "Presenting paleontological discoveries through hybrid animal terminology that emphasizes novelty over taxonomy.",
+        "debias": "Use proper taxonomic classification and describe species characteristics without hybrid terminology.",
+        "date_added": "2026-07-04",
+        "status": "suggested",
+        "example_text": "Spanish scientists discover new 'bear-dog' species in Catalonia from 15.9 million years ago",
+        "example_url": "http://www.euronews.com/2026/07/04/spanish-scientists-discover-new-bear-dog-species-in-catalonia-from-159-million-years-ago",
+        "unbiased_text": "Scientists have described a new amphicyonid species, Paludocyon moyasolai, from Miocene-era remains found in Catalonia."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
