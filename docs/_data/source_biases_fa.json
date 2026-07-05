@@ -3192,6 +3192,39 @@
         "example_url": "https://www.aljazeera.com/news/2026/7/4/taylor-swift-and-travis-kelce-marry-at-nycs-madison-square-garden?traffic_source=rss",
         "unbiased_text": "Taylor Swift و Travis Kelce در مراسمی خصوصی در شهر نیویورک ازدواج کردند.",
         "pattern_en": "Celebrity union event framing"
+      },
+      {
+        "pattern": "قاب‌بندی جشن‌گرایانه رکورد جوان‌ترین بازیکن",
+        "detail": "برجسته‌سازی رکوردهای ورزشی مبتنی بر سن به‌عنوان دستاوردهای مستقل، بدون زمینه‌سازی برای نتایج عملکرد یا شایستگی رقابتی.",
+        "debias": "رکوردهای سنی را در کنار نتایج مسابقه و زمینه عملکرد گزارش کنید تا از تلقی جوانی به‌خودی‌خود به‌عنوان دستاورد اصلی جلوگیری شود.",
+        "date_added": "2026-07-05",
+        "status": "suggested",
+        "example_text": "وایبهاو سوریاوانشی پانزده‌ساله در باخت T20 هند به انگلستان در اُلد ترافورد، جوان‌ترین بازیکن اولین بازی ملی برای هند شد.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/5/sooryavanshi-sets-record-for-youngest-india-player-in-international-match?traffic_source=rss",
+        "unbiased_text": "وایبهاو سوریاوانشی، ۱۵ ساله، اولین بازی خود را برای هند در مسابقه T20 علیه انگلستان در اُلد ترافورد انجام داد که هند آن را باخت.",
+        "pattern_en": "Youngest player record celebratory framing"
+      },
+      {
+        "pattern": "ارتقای تضمین‌های دیپلماتیک رفتار ویژه",
+        "detail": "تقویت وعده‌های رفتار ترجیحی با کشورهای «دوست» به‌عنوان پیروزی‌های دیپلماتیک، در حالی که پیامدهای آن برای هنجارهای بین‌المللی نادیده گرفته می‌شود.",
+        "debias": "تضمین‌های دیپلماتیک را گزارش کنید، در حالی که تضادهای احتمالی با قوانین بین‌المللی یا اصول رفتار برابر را یادآور شوید.",
+        "date_added": "2026-07-05",
+        "status": "suggested",
+        "example_text": "علی‌رغم اعتراض آمریکا، سفیر اصرار دارد که عوارض جدید برای کشتی‌های عبوری از تنگه هرمز دریافت خواهد شد.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/5/irans-china-envoy-vows-special-hormuz-treatment-for-friendly-countries?traffic_source=rss",
+        "unbiased_text": "سفیر ایران در چین اعلام کرد که عوارض جدیدی برای کشتی‌های عبوری از تنگه هرمز دریافت خواهد شد، سیاستی که آمریکا به آن اعتراض کرده است.",
+        "pattern_en": "Special treatment diplomatic assurance elevation"
+      },
+      {
+        "pattern": "روایت آزادی با آزادی کلیساهای زیرزمینی",
+        "detail": "قاب‌بندی آزادی چهره‌های مذهبی بازداشت‌شده به عنوان پیروزی برای آزادی مذهبی، در حالی که محدودیت‌های مداوم بر اعمال مذهبی نادیده گرفته می‌شود.",
+        "debias": "آزادی‌ها را به صورت واقعی گزارش کنید و در عین حال زمینه‌ای درباره شرایط گسترده‌تر آزادی مذهبی و چارچوب‌های قانونی ارائه دهید.",
+        "date_added": "2026-07-05",
+        "status": "suggested",
+        "example_text": "خانواده ازرا جین می‌گویند که بنیان‌گذار کلیسای صهیون پس از ماه‌ها بازداشت در چین وارد ایالات متحده شده است.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/5/china-releases-underground-church-pastor-after-months-in-detention?traffic_source=rss",
+        "unbiased_text": "ازرا جین، بنیان‌گذار کلیسای صهیون، پس از بازداشت در چین وارد ایالات متحده شد، به گفته خانواده‌اش.",
+        "pattern_en": "Underground church release freedom narrative"
       }
     ]
   },
@@ -5511,6 +5544,41 @@
         "example_url": "https://www.france24.com/en/iran-holds-funeral-for-ali-khamenei-attendees-hardline-factions-of-society-specialist-says",
         "unbiased_text": "صدها هزار عزادار در مراسم تشییع شرکت کردند که حاضران از سراسر جامعه ایران را به خود جلب کرد.",
         "pattern_en": "Attendee composition representativeness questioning"
+      },
+      {
+        "pattern": "چارچوب‌بندی دیپلماتیک ضرورت اقتصادی",
+        "detail": "توصیف مشارکت دیپلماتیک به‌عنوان ضرورتی اقتصادی به‌جای انتخاب استراتژیک یا منافع متقابل.",
+        "debias": "ابتکارات دیپلماتیک را به‌عنوان تصمیماتی چندوجهی شامل ملاحظات اقتصادی، امنیتی و سیاسی ارائه کنید.",
+        "date_added": "2026-07-05",
+        "status": "suggested",
+        "example_text": "رهبران ایرانی روز یکشنبه بر تابوت رهبر فقید علی خامنه‌ای در دومین روز مراسم تشییع نماز خواندند. آرش عزیزی، نویسنده همکار Atlantic، گفت که ایران باید «به نوعی روابط خود را با آمریکا عادی‌سازی کند» و به اقتصادی اشاره کرد که پس از ماه‌ها درگیری با آمریکا و اسرائیل در وضعیت اسفباری قرار دارد.",
+        "example_url": "https://www.france24.com/en/iran-needs-to-normalise-relations-with-the-us-somehow-to-save-economy-expert-says",
+        "unbiased_text": "رهبران ایرانی در نماز تشییع رهبر فقید علی خامنه‌ای شرکت کردند. آرش عزیزی از Atlantic اشاره کرد که عادی‌سازی روابط با آمریکا می‌تواند به چالش‌های اقتصادی ایران پس از درگیری‌های اخیر رسیدگی کند.",
+        "detail_items": [],
+        "pattern_en": "Economic necessity diplomatic framing"
+      },
+      {
+        "pattern": "قاب‌بندی سیاسی ترکیب شرکت‌کنندگان در مراسم تشییع",
+        "detail": "توصیف شرکت‌کنندگان در مراسم تشییع بر اساس جناح سیاسی برای القای این تصور که رویداد فاقد مشروعیت گسترده‌تر یا حمایت مردمی است.",
+        "debias": "گزارش حضور در مراسم تشییع را به‌صورت واقعی و بدون استنتاج مشروعیت رژیم از ترکیب جمعیت یا استفاده از توصیف جمعیت‌شناختی گزینشی ارائه دهید.",
+        "date_added": "2026-07-05",
+        "status": "suggested",
+        "example_text": "تارا کنگرلو، روزنامه‌نگار مسائل جهانی و نویسنده کتاب «ضربان قلب ایران»، گفت که اکثر شرکت‌کنندگان «جناح‌های رادیکال و تندروتر جامعه» بودند و این جمعیت نماینده نگرش‌های عمومی گسترده‌تر نسبت به رژیم نیست.",
+        "example_url": "https://www.france24.com/en/iran-holds-funeral-for-ali-khamenei-attendees-hardline-factions-of-society-specialist-says",
+        "unbiased_text": "تارا کنگرلو، نویسنده کتاب «ضربان قلب ایران»، مشاهده کرد که شرکت‌کنندگان در مراسم تشییع شامل حامیان از بخش‌های مختلف جامعه ایران بودند.",
+        "detail_items": [],
+        "pattern_en": "Funeral attendance composition political framing"
+      },
+      {
+        "pattern": "فاجعه‌انگاری فلسفی نابودی ذات",
+        "detail": "استفاده از زبان فلسفی انتزاعی درباره نابودی ویژگی‌های بنیادین انسانی برای ارتقای دغدغه‌های حقوق بشری فراتر از مستندسازی تجربی.",
+        "debias": "آسیب‌ها و نقض حقوق خاص را با شواهد مستند کنید و از ادعاهای متافیزیکی درباره ذات‌های نابودشده یا ماهیت‌های بنیادین بپرهیزید.",
+        "date_added": "2026-07-05",
+        "status": "suggested",
+        "example_text": "کمیسیون بین‌المللی مستقل تحقیق می‌گوید که از ۷ اکتبر ۲۰۲۳، «ذات کودکی» در غزه و کرانه باختری «نابود شده» است.",
+        "example_url": "https://www.france24.com/en/targeting-of-palestinian-children-has-not-stopped-independent-un-investigator-sounds-alarm",
+        "unbiased_text": "کمیسیون بین‌المللی مستقل تحقیق گزارش می‌دهد که کودکان در غزه و کرانه باختری از ۷ اکتبر ۲۰۲۳ آسیب‌های شدیدی را تجربه کرده‌اند.",
+        "pattern_en": "Essence destruction philosophical catastrophism"
       }
     ]
   },

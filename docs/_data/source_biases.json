@@ -2866,6 +2866,36 @@
         "example_text": "A-list celebrities attend wedding at Madison Square Garden to see superstar couple tie the knot.",
         "example_url": "https://www.aljazeera.com/news/2026/7/4/taylor-swift-and-travis-kelce-marry-at-nycs-madison-square-garden?traffic_source=rss",
         "unbiased_text": "Taylor Swift and Travis Kelce were married in a private ceremony in New York City."
+      },
+      {
+        "pattern": "Youngest player record celebratory framing",
+        "detail": "Highlighting age-based athletic records as standalone achievements without contextualizing performance outcomes or competitive merit.",
+        "debias": "Report age records alongside match results and performance context to avoid treating youth itself as the primary achievement.",
+        "date_added": "2026-07-05",
+        "status": "suggested",
+        "example_text": "Fifteen-year-old Vaibhav Sooryavanshi became the youngest debutant for India in a T20 loss to England at Old Trafford.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/5/sooryavanshi-sets-record-for-youngest-india-player-in-international-match?traffic_source=rss",
+        "unbiased_text": "Vaibhav Sooryavanshi, 15, made his debut for India in a T20 match against England at Old Trafford, which India lost."
+      },
+      {
+        "pattern": "Special treatment diplomatic assurance elevation",
+        "detail": "Amplifying promises of preferential treatment to 'friendly' nations as diplomatic victories while omitting implications for international norms.",
+        "debias": "Report diplomatic assurances while noting potential conflicts with international law or equal treatment principles.",
+        "date_added": "2026-07-05",
+        "status": "suggested",
+        "example_text": "Despite US objections, ambassador insists new fees to be charged to vessels transiting Strait of Hormuz.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/5/irans-china-envoy-vows-special-hormuz-treatment-for-friendly-countries?traffic_source=rss",
+        "unbiased_text": "Iran's ambassador to China stated that new fees will be charged for vessels transiting the Strait of Hormuz, a policy the US has objected to."
+      },
+      {
+        "pattern": "Underground church release freedom narrative",
+        "detail": "Framing release of detained religious figures as victories for religious freedom while omitting ongoing restrictions on religious practice.",
+        "debias": "Report releases factually while providing context about broader religious freedom conditions and legal frameworks.",
+        "date_added": "2026-07-05",
+        "status": "suggested",
+        "example_text": "Ezra Jin's family says the Zion Church founder arrived in the US after months in detention in China.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/5/china-releases-underground-church-pastor-after-months-in-detention?traffic_source=rss",
+        "unbiased_text": "Ezra Jin, founder of Zion Church, arrived in the US following his detention in China, according to his family."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -4980,6 +5010,36 @@
         "example_text": "most attendees were \"more emboldened, hardline factions of the society,\" making the crowd unrepresentative of broader public attitudes toward the regime.",
         "example_url": "https://www.france24.com/en/iran-holds-funeral-for-ali-khamenei-attendees-hardline-factions-of-society-specialist-says",
         "unbiased_text": "Hundreds of thousands of mourners attended the funeral ceremonies, which drew participants from across Iranian society."
+      },
+      {
+        "pattern": "Economic necessity diplomatic framing",
+        "detail": "Characterizing diplomatic engagement as economically driven necessity rather than strategic choice or mutual interest.",
+        "debias": "Present diplomatic initiatives as multifaceted decisions involving economic, security, and political considerations.",
+        "date_added": "2026-07-05",
+        "status": "suggested",
+        "example_text": "Iranian leaders joined prayers Sunday over the casket of late supreme leader Ali Khamenei during a second day of funeral ceremonies. Arash Azizi, contribuing writer at the Atlantic, said Iran needs to 'normalise relations with the US somehow' as he pointed to the economy which is in tatters following months of conflict with the US and Israel.",
+        "example_url": "https://www.france24.com/en/iran-needs-to-normalise-relations-with-the-us-somehow-to-save-economy-expert-says",
+        "unbiased_text": "Iranian leaders participated in funeral prayers for late supreme leader Ali Khamenei. Arash Azizi of the Atlantic noted that normalizing relations with the US could address Iran's economic challenges following recent conflicts."
+      },
+      {
+        "pattern": "Funeral attendance composition political framing",
+        "detail": "Characterizing funeral attendees by political faction to suggest event lacks broader legitimacy or popular support.",
+        "debias": "Report funeral attendance factually without inferring regime legitimacy from crowd composition or using selective demographic characterization.",
+        "date_added": "2026-07-05",
+        "status": "suggested",
+        "example_text": "Tara Kangarlou, a global affairs journalist and author of The Heartbeat of Iran, said most attendees were 'more emboldened, hardline factions of the society,' making the crowd unrepresentative of broader public attitudes toward the regime.",
+        "example_url": "https://www.france24.com/en/iran-holds-funeral-for-ali-khamenei-attendees-hardline-factions-of-society-specialist-says",
+        "unbiased_text": "Tara Kangarlou, author of The Heartbeat of Iran, observed that funeral attendees included supporters from various segments of Iranian society."
+      },
+      {
+        "pattern": "Essence destruction philosophical catastrophism",
+        "detail": "Using abstract philosophical language about destruction of fundamental human qualities to elevate human rights concerns beyond empirical documentation.",
+        "debias": "Document specific harms and rights violations with evidence while avoiding metaphysical claims about destroyed essences or fundamental natures.",
+        "date_added": "2026-07-05",
+        "status": "suggested",
+        "example_text": "The Independent International Commission of Inquiry says that since October 7, 2023, the 'essence of childhood' has been 'destroyed' in Gaza and the West Bank.",
+        "example_url": "https://www.france24.com/en/targeting-of-palestinian-children-has-not-stopped-independent-un-investigator-sounds-alarm",
+        "unbiased_text": "The Independent International Commission of Inquiry reports that children in Gaza and the West Bank have experienced severe harm since October 7, 2023."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
