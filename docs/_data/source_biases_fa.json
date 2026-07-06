@@ -3225,6 +3225,28 @@
         "example_url": "https://www.aljazeera.com/news/2026/7/5/china-releases-underground-church-pastor-after-months-in-detention?traffic_source=rss",
         "unbiased_text": "ازرا جین، بنیان‌گذار کلیسای صهیون، پس از بازداشت در چین وارد ایالات متحده شد، به گفته خانواده‌اش.",
         "pattern_en": "Underground church release freedom narrative"
+      },
+      {
+        "pattern": "انتساب علّیت مرگ در ایست‌بازرسی",
+        "detail": "انتساب علّی مرگ نوزاد به انسداد ایجاد شده توسط ایست‌بازرسی نظامی بدون تأیید پزشکی از نتیجه جایگزین.",
+        "debias": "تأخیر در ایست‌بازرسی را به‌صورت واقعی گزارش کنید و یادآوری کنید که علت پزشکی مرگ هنوز توسط مقامات تعیین نشده است.",
+        "date_added": "2026-07-06",
+        "status": "suggested",
+        "example_text": "نوزادی پس از آنکه تلاش خانواده‌اش برای رسیدن به بیمارستان توسط اسرائیل در یک ایست‌بازرسی در کرانه باختری اشغالی مسدود شد، جان باخت",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/baby-dies-after-israeli-troops-block-emergency-journey-to-hospital?traffic_source=rss",
+        "unbiased_text": "نوزادی پس از آنکه خانواده‌اش گزارش کردند در یک ایست‌بازرسی اسرائیلی در کرانه باختری اشغالی هنگام تلاش برای رسیدن به بیمارستان با تأخیر مواجه شدند، جان باخت.",
+        "pattern_en": "Checkpoint death causation attribution"
+      },
+      {
+        "pattern": "فرض مشروعیت حکمرانی تکنوکراتیک",
+        "detail": "قاب‌بندی انحلال حکومت شبه‌نظامی به‌عنوان مسیری خودکار به سوی اداره غیرنظامی مشروع.",
+        "debias": "اعلام انتقال حکومت را ذکر کنید، ضمن اذعان به اینکه چالش‌های اجرایی و پرسش‌های مشروعیت همچنان حل‌نشده باقی مانده‌اند.",
+        "date_added": "2026-07-06",
+        "status": "suggested",
+        "example_text": "یک کمیته تکنوکراتیک فلسطینی جای آن را خواهد گرفت تا حکمرانی روزمره این منطقه محصور را مدیریت کند.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body?traffic_source=rss",
+        "unbiased_text": "Hamas اعلام کرد که یک کمیته تکنوکراتیک فلسطینی برای مدیریت حکمرانی روزمره این منطقه محصور تشکیل خواهد شد، هرچند جزئیات اجرایی آن همچنان نامشخص است.",
+        "pattern_en": "Technocratic governance legitimacy presumption"
       }
     ]
   },
@@ -5579,6 +5601,28 @@
         "example_url": "https://www.france24.com/en/targeting-of-palestinian-children-has-not-stopped-independent-un-investigator-sounds-alarm",
         "unbiased_text": "کمیسیون بین‌المللی مستقل تحقیق گزارش می‌دهد که کودکان در غزه و کرانه باختری از ۷ اکتبر ۲۰۲۳ آسیب‌های شدیدی را تجربه کرده‌اند.",
         "pattern_en": "Essence destruction philosophical catastrophism"
+      },
+      {
+        "pattern": "تقویت بی‌انتقاد ارقام شرکت‌کنندگان در مراسم تشییع",
+        "detail": "تکرار برآوردهای جمعیت ارائه‌شده توسط دولت بدون راستی‌آزمایی مستقل یا بافت تاریخی برای بررسی قابل‌قبول بودن.",
+        "debias": "ادعاهای رسمی درباره تعداد شرکت‌کنندگان را با ذکر منبع گزارش دهید و توجه داشته باشید که راستی‌آزمایی مستقل امکان‌پذیر نیست.",
+        "date_added": "2026-07-06",
+        "status": "suggested",
+        "example_text": "انتظار می‌رود ۱۵ میلیون نفر در مراسم تشییع رهبر سابق شرکت کنند، به گفته مقامات ایرانی",
+        "example_url": "https://www.france24.com/en/15-million-people-expected-to-attend-former-supreme-leader-s-funeral",
+        "unbiased_text": "مقامات ایرانی ادعا کردند که ۱۵ میلیون نفر در مراسم تشییع رهبر سابق شرکت خواهند کرد، رقمی که به‌صورت مستقل قابل راستی‌آزمایی نبود.",
+        "pattern_en": "Funeral attendance figure uncritical amplification"
+      },
+      {
+        "pattern": "اعتبارسازی درخواست الحاق از طریق تکرار",
+        "detail": "برجسته‌سازی ادعاهای غیرقابل تأیید الحاق سرزمینی با گزارش برجسته بدون ارائه شواهد مخالف.",
+        "debias": "ادعاهای الحاق را با انتساب روشن ذکر کنید و پاسخ‌های جمعیت‌های تحت تأثیر یا ناظران مستقل را نیز بگنجانید.",
+        "date_added": "2026-07-06",
+        "status": "suggested",
+        "example_text": "نخست‌وزیر اسرائیل بنیامین نتانیاهو روز یکشنبه گفت برخی روستاهای مسیحی‌نشین در جنوب لبنان درخواست الحاق به اسرائیل را برای حفاظت در برابر حزب‌الله مطرح کرده‌اند",
+        "example_url": "https://www.france24.com/en/middle-east/20260705-netanyahu-says-lebanese-christian-villages-sought-annexation-by-israel",
+        "unbiased_text": "نخست‌وزیر اسرائیل بنیامین نتانیاهو روز یکشنبه ادعا کرد برخی روستاهای مسیحی‌نشین در جنوب لبنان درخواست الحاق به اسرائیل را برای حفاظت در برابر حزب‌الله مطرح کرده‌اند، ادعایی که به‌صورت مستقل قابل تأیید نبود و مقامات لبنانی آن را رد کردند.",
+        "pattern_en": "Annexation request validation through repetition"
       }
     ]
   },
@@ -8414,6 +8458,40 @@
         "unbiased_text": "دانشمندان گونه جدیدی از آمفیسیونیدها به نام Paludocyon moyasolai را از بقایای دوره میوسن یافت‌شده در کاتالونیا توصیف کرده‌اند.",
         "detail_items": [],
         "pattern_en": "Bear-dog hybrid species discovery framing"
+      },
+      {
+        "pattern": "فوریت در اعلام تلفات شورش زندان",
+        "detail": "شروع خبر با ارقام تلفات پیش از استقرار شرایط واقعی یا تأیید رسمی وقایع.",
+        "debias": "تلفات را با ارجاع شفاف به منابع گزارش دهید و زمینه‌ای درباره وضعیت تأیید اطلاعات ارائه کنید.",
+        "date_added": "2026-07-06",
+        "status": "suggested",
+        "example_text": "دست‌کم ۱۹ کشته و بیش از ۱۰۰ زخمی در شورش زندان سری‌لانکا، به گفته مقامات",
+        "example_url": "http://www.euronews.com/2026/07/06/at-least-19-killed-and-more-than-100-wounded-in-sri-lanka-prison-riot-officials-say",
+        "unbiased_text": "مقامات سری‌لانکا گزارش دادند که دست‌کم ۱۹ نفر کشته و بیش از ۱۰۰ نفر در آنچه آن‌ها درگیری میان زندانیان باندهای رقیب مواد مخدر توصیف کردند، زخمی شدند.",
+        "pattern_en": "Prison riot death toll immediacy"
+      },
+      {
+        "pattern": "ساخت واژه‌های ترکیبی برای روندهای تعطیلات-مهارت",
+        "detail": "خلق واژه‌های نو برای الگوهای رفتار مصرف‌کننده به منظور قاب‌بندی فعالیت‌های عادی به عنوان روندهای نوظهور.",
+        "debias": "گزارش یافته‌های نظرسنجی درباره فعالیت‌های تعطیلات بدون اختراع اصطلاحات روند یا اغراق در نوبودن آن.",
+        "date_added": "2026-07-06",
+        "status": "suggested",
+        "example_text": "«اسکیلیدیز»: نزدیک به نیمی از مسافران اروپایی قصد دارند تابستان امسال مهارت جدیدی بیاموزند",
+        "example_url": "http://www.euronews.com/travel/2026/07/06/skillidays-nearly-half-of-european-travellers-plan-to-learn-a-new-skill-this-summer",
+        "unbiased_text": "نظرسنجی Mastercard نشان داد که نزدیک به نیمی از مسافران اروپایی قصد دارند در طول تعطیلات تابستانی خود مهارت جدیدی بیاموزند.",
+        "pattern_en": "Skill-vacation portmanteau trend construction"
+      },
+      {
+        "pattern": "اعلام دوره‌ساز بودن عکس وایرال",
+        "detail": "ادعای اینکه یک عکس به تنهایی نماینده کل یک دوره تاریخی است، بر اساس واکنش‌های جمع‌سپاری شده در رسانه‌های اجتماعی.",
+        "debias": "گزارش انتشار عکس و واکنش‌ها بدون اعلام قطعی اینکه نماینده یک دوره است.",
+        "date_added": "2026-07-06",
+        "status": "suggested",
+        "example_text": "بسیاری خواستار دریافت جایزه پولیتزر برای این عکس Reuters شده‌اند.",
+        "example_url": "http://www.euronews.com/culture/2026/07/06/defining-image-of-the-era-of-american-history-july-4-patriot-front-photo-goes-viral",
+        "unbiased_text": "عکس Reuters بحث گسترده‌ای را در رسانه‌های اجتماعی برانگیخت و برخی نظردهندگان پیشنهاد کردند که شایسته تقدیر است.",
+        "detail_items": [],
+        "pattern_en": "Viral photo era-defining declaration"
       }
     ]
   }

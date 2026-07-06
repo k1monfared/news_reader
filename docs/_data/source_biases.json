@@ -2896,6 +2896,26 @@
         "example_text": "Ezra Jin's family says the Zion Church founder arrived in the US after months in detention in China.",
         "example_url": "https://www.aljazeera.com/news/2026/7/5/china-releases-underground-church-pastor-after-months-in-detention?traffic_source=rss",
         "unbiased_text": "Ezra Jin, founder of Zion Church, arrived in the US following his detention in China, according to his family."
+      },
+      {
+        "pattern": "Checkpoint death causation attribution",
+        "detail": "Attributing infant death causally to military checkpoint obstruction without medical verification of alternative outcome.",
+        "debias": "Report checkpoint delay factually while noting medical cause of death remains undetermined by authorities.",
+        "date_added": "2026-07-06",
+        "status": "suggested",
+        "example_text": "A baby died after his family's attempt to reach hospital was blocked by Israel at a checkpoint in the occupied West Bank",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/baby-dies-after-israeli-troops-block-emergency-journey-to-hospital?traffic_source=rss",
+        "unbiased_text": "A baby died after his family reported being delayed at an Israeli checkpoint in the occupied West Bank while attempting to reach hospital."
+      },
+      {
+        "pattern": "Technocratic governance legitimacy presumption",
+        "detail": "Framing dissolution of militant governance as automatic pathway to legitimate civilian administration.",
+        "debias": "Note governance transition announcement while acknowledging implementation challenges and legitimacy questions remain unresolved.",
+        "date_added": "2026-07-06",
+        "status": "suggested",
+        "example_text": "A Palestinian technocratic committee will take its place to manage the enclave's day-to-day governance.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body?traffic_source=rss",
+        "unbiased_text": "Hamas announced a Palestinian technocratic committee would be established to manage the enclave's day-to-day governance, though implementation details remain unclear."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5040,6 +5060,26 @@
         "example_text": "The Independent International Commission of Inquiry says that since October 7, 2023, the 'essence of childhood' has been 'destroyed' in Gaza and the West Bank.",
         "example_url": "https://www.france24.com/en/targeting-of-palestinian-children-has-not-stopped-independent-un-investigator-sounds-alarm",
         "unbiased_text": "The Independent International Commission of Inquiry reports that children in Gaza and the West Bank have experienced severe harm since October 7, 2023."
+      },
+      {
+        "pattern": "Funeral attendance figure uncritical amplification",
+        "detail": "Repeating government-provided crowd estimates without independent verification or historical context for plausibility.",
+        "debias": "Report official attendance claims with attribution and note independent verification is not possible.",
+        "date_added": "2026-07-06",
+        "status": "suggested",
+        "example_text": "15 million people are expected to attend the former leader's funeral, according to Iranian authorities",
+        "example_url": "https://www.france24.com/en/15-million-people-expected-to-attend-former-supreme-leader-s-funeral",
+        "unbiased_text": "Iranian authorities claimed 15 million people would attend the former leader's funeral, a figure that could not be independently verified."
+      },
+      {
+        "pattern": "Annexation request validation through repetition",
+        "detail": "Elevating unverifiable territorial annexation claims by reporting them prominently without counter-evidence.",
+        "debias": "Note annexation claims with clear attribution and include responses from affected populations or independent observers.",
+        "date_added": "2026-07-06",
+        "status": "suggested",
+        "example_text": "Israeli Prime Minister Benjamin Netanyahu said on Sunday that some Christian villages in southern Lebanon had asked to be annexed by Israel for protection from Hezbollah",
+        "example_url": "https://www.france24.com/en/middle-east/20260705-netanyahu-says-lebanese-christian-villages-sought-annexation-by-israel",
+        "unbiased_text": "Israeli Prime Minister Benjamin Netanyahu claimed Sunday that some Christian villages in southern Lebanon requested Israeli annexation for protection from Hezbollah, a claim that could not be independently verified and which Lebanese officials rejected."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -7593,6 +7633,36 @@
         "example_text": "Spanish scientists discover new 'bear-dog' species in Catalonia from 15.9 million years ago",
         "example_url": "http://www.euronews.com/2026/07/04/spanish-scientists-discover-new-bear-dog-species-in-catalonia-from-159-million-years-ago",
         "unbiased_text": "Scientists have described a new amphicyonid species, Paludocyon moyasolai, from Miocene-era remains found in Catalonia."
+      },
+      {
+        "pattern": "Prison riot death toll immediacy",
+        "detail": "Leading with casualty figures before establishing factual circumstances or official confirmation of events.",
+        "debias": "Report death toll with clear attribution to sources and include context about verification status.",
+        "date_added": "2026-07-06",
+        "status": "suggested",
+        "example_text": "At least 19 killed and more than 100 wounded in Sri Lanka prison riot, officials say",
+        "example_url": "http://www.euronews.com/2026/07/06/at-least-19-killed-and-more-than-100-wounded-in-sri-lanka-prison-riot-officials-say",
+        "unbiased_text": "Sri Lankan officials reported at least 19 people were killed and more than 100 wounded in what they described as clashes between inmates from rival drug gangs."
+      },
+      {
+        "pattern": "Skill-vacation portmanteau trend construction",
+        "detail": "Creating neologism for consumer behavior pattern to frame normal activity as emerging trend.",
+        "debias": "Report survey findings on vacation activities without inventing trend terminology or overstating novelty.",
+        "date_added": "2026-07-06",
+        "status": "suggested",
+        "example_text": "'Skillidays': Nearly half of European travellers plan to learn a new skill this summer",
+        "example_url": "http://www.euronews.com/travel/2026/07/06/skillidays-nearly-half-of-european-travellers-plan-to-learn-a-new-skill-this-summer",
+        "unbiased_text": "A survey by Mastercard found that nearly half of European travellers plan to learn a new skill during their summer holidays."
+      },
+      {
+        "pattern": "Viral photo era-defining declaration",
+        "detail": "Asserting single photograph represents entire historical period through crowd-sourced social media reaction.",
+        "debias": "Report photograph's circulation and reactions without declaring it definitively representative of an era.",
+        "date_added": "2026-07-06",
+        "status": "suggested",
+        "example_text": "Many have called for the Reuters photo to receive the Pulitzer Prize.",
+        "example_url": "http://www.euronews.com/culture/2026/07/06/defining-image-of-the-era-of-american-history-july-4-patriot-front-photo-goes-viral",
+        "unbiased_text": "The Reuters photograph prompted widespread discussion on social media, with some commenters suggesting it merited recognition."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
