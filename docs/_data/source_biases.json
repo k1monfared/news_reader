@@ -2916,6 +2916,26 @@
         "example_text": "A Palestinian technocratic committee will take its place to manage the enclave's day-to-day governance.",
         "example_url": "https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body?traffic_source=rss",
         "unbiased_text": "Hamas announced a Palestinian technocratic committee would be established to manage the enclave's day-to-day governance, though implementation details remain unclear."
+      },
+      {
+        "pattern": "Dual maternal certainty tragedy amplification",
+        "detail": "Emphasizing that two mothers both believe the same bound detainee image shows their missing son to amplify the tragedy and confusion of occupation.",
+        "debias": "Report the factual situation without dramatizing the emotional conflict of competing maternal claims.",
+        "date_added": "2026-07-07",
+        "status": "suggested",
+        "example_text": "Two Palestinian mothers believe a viral image of a bound Gaza detainee shows their missing son.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/two-mothers-each-certain-a-viral-gaza-prisoner-photo-shows-her-son?traffic_source=rss",
+        "unbiased_text": "A viral image of a bound Gaza detainee has led to conflicting claims about the person's identity."
+      },
+      {
+        "pattern": "Coaching speech Palestinian advocacy insertion",
+        "detail": "Framing a coach's pre-match statement as an impassioned plea for Palestine to merge sports coverage with political advocacy.",
+        "debias": "Report coach statements without characterizing political commentary as passionate advocacy.",
+        "date_added": "2026-07-07",
+        "status": "suggested",
+        "example_text": "Egypt coach makes impassioned plea for Palestine in pre-match conference",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/egypt-coach-makes-impassioned-plea-for-palestine-in-pre-match-conference?traffic_source=rss",
+        "unbiased_text": "Egypt coach commented on Palestine during pre-match press conference."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5080,6 +5100,26 @@
         "example_text": "Israeli Prime Minister Benjamin Netanyahu said on Sunday that some Christian villages in southern Lebanon had asked to be annexed by Israel for protection from Hezbollah",
         "example_url": "https://www.france24.com/en/middle-east/20260705-netanyahu-says-lebanese-christian-villages-sought-annexation-by-israel",
         "unbiased_text": "Israeli Prime Minister Benjamin Netanyahu claimed Sunday that some Christian villages in southern Lebanon requested Israeli annexation for protection from Hezbollah, a claim that could not be independently verified and which Lebanese officials rejected."
+      },
+      {
+        "pattern": "Investment reconstruction framing ambiguity",
+        "detail": "Repeatedly emphasizing investment and reconstruction discussions while downplaying security concerns to normalize diplomatic engagement.",
+        "debias": "Balance coverage of economic cooperation with security challenges without privileging one over the other.",
+        "date_added": "2026-07-07",
+        "status": "suggested",
+        "example_text": "Syria's al-Sharaa bets on relaunching economy to solve other issues",
+        "example_url": "https://www.france24.com/en/syria-s-al-sharaa-bets-on-relaunching-economy-to-solve-other-issues",
+        "unbiased_text": "Syria's al-Sharaa prioritizes economic recovery while security challenges remain unresolved."
+      },
+      {
+        "pattern": "Explosion deterrence narrative attribution",
+        "detail": "Framing explosions during diplomatic visits as attempts to deter normalization strategies without evidence of intent.",
+        "debias": "Report explosions as security incidents without attributing political motives absent verified evidence.",
+        "date_added": "2026-07-07",
+        "status": "suggested",
+        "example_text": "Explosions trying to deter 'business as usual' strategy at the heart of Macron's visit",
+        "example_url": "https://www.france24.com/en/explosions-trying-to-deter-business-as-usual-strategy-at-the-heart-of-macron-s-visit",
+        "unbiased_text": "Explosions occurred in Damascus during Macron's visit; the perpetrators and motives remain unclear."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -7663,6 +7703,36 @@
         "example_text": "Many have called for the Reuters photo to receive the Pulitzer Prize.",
         "example_url": "http://www.euronews.com/culture/2026/07/06/defining-image-of-the-era-of-american-history-july-4-patriot-front-photo-goes-viral",
         "unbiased_text": "The Reuters photograph prompted widespread discussion on social media, with some commenters suggesting it merited recognition."
+      },
+      {
+        "pattern": "Tech dependency admission through recommendation framing",
+        "detail": "Revealing EU technological dependence by noting action plans offer 'mostly recommendations' while relying on US AI models.",
+        "debias": "Report policy initiatives without highlighting implementation gaps that suggest strategic weakness.",
+        "date_added": "2026-07-07",
+        "status": "suggested",
+        "example_text": "EU unveils an AI cybersecurity action plan, but offers mostly recommendations as Brussels leans on negotiated access to US AI models like Anthropic's Mythos, exposing its tech dependency.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/07/brussels-pitches-ai-cybersecurity-plan-amid-dependence-on-us-models",
+        "unbiased_text": "The EU unveiled an AI cybersecurity action plan that includes recommendations and collaboration with US AI providers."
+      },
+      {
+        "pattern": "Self-triggered election populist framing",
+        "detail": "Characterizing a politician's resignation to contest a by-election as 'people vs. establishment' through their own quotation.",
+        "debias": "Report electoral strategy without amplifying populist framing through selective quotation.",
+        "date_added": "2026-07-07",
+        "status": "suggested",
+        "example_text": "\"I've decided that the people of Clacton should be the judges of my actions,\" Farage said. \"It's a chance to stick two fingers up to the entire establishment\".",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/07/nigel-farage-says-hes-resigning-as-mp-and-will-run-in-people-vs-the-establishment-by-elect",
+        "unbiased_text": "Farage announced his resignation as MP and stated he will contest the resulting by-election in Clacton."
+      },
+      {
+        "pattern": "Host nation humiliation celebration amplification",
+        "detail": "Emphasizing mockery and triumphalism following a host nation's sports defeat to amplify geopolitical and sporting embarrassment.",
+        "debias": "Report sports results without amplifying celebratory mockery or humiliation narratives.",
+        "date_added": "2026-07-07",
+        "status": "suggested",
+        "example_text": "'Overturn this': Belgium mocks Donald Trump and FIFA with dance and post after victory against US",
+        "example_url": "http://www.euronews.com/culture/2026/07/07/overturn-this-belgium-mocks-donald-trump-and-fifa-with-dance-and-post-after-victory-agains",
+        "unbiased_text": "Belgium defeated the USA 4-1 in the World Cup; Belgian players celebrated the victory."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

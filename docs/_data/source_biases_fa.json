@@ -3247,6 +3247,28 @@
         "example_url": "https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body?traffic_source=rss",
         "unbiased_text": "Hamas اعلام کرد که یک کمیته تکنوکراتیک فلسطینی برای مدیریت حکمرانی روزمره این منطقه محصور تشکیل خواهد شد، هرچند جزئیات اجرایی آن همچنان نامشخص است.",
         "pattern_en": "Technocratic governance legitimacy presumption"
+      },
+      {
+        "pattern": "تشدید تراژدی با تأکید بر یقین دوگانه مادران",
+        "detail": "تأکید بر اینکه دو مادر هر دو معتقدند تصویر یک بازداشتی دستبسته پسر گمشده‌شان را نشان می‌دهد تا تراژدی و سردرگمی اشغال را تشدید کند.",
+        "debias": "وضعیت واقعی را بدون درام‌سازی درباره تعارض احساسی ادعاهای رقیب مادران گزارش دهید.",
+        "date_added": "2026-07-07",
+        "status": "suggested",
+        "example_text": "دو مادر فلسطینی معتقدند تصویر وایرال یک بازداشتی دستبسته در غزه پسر گمشده‌شان را نشان می‌دهد.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/two-mothers-each-certain-a-viral-gaza-prisoner-photo-shows-her-son?traffic_source=rss",
+        "unbiased_text": "یک تصویر وایرال از یک بازداشتی دستبسته در غزه منجر به ادعاهای متناقض درباره هویت این فرد شده است.",
+        "pattern_en": "Dual maternal certainty tragedy amplification"
+      },
+      {
+        "pattern": "درج دفاعیه فلسطینی در سخنان مربی",
+        "detail": "قاب‌بندی بیانیه پیش از بازی یک مربی به‌عنوان درخواستی پرشور برای فلسطین تا پوشش ورزشی با دفاعیه سیاسی ادغام شود.",
+        "debias": "بیانیه‌های مربیان را بدون توصیف تفسیرهای سیاسی به‌عنوان دفاعیه پرشور گزارش کنید.",
+        "date_added": "2026-07-07",
+        "status": "suggested",
+        "example_text": "مربی مصر در کنفرانس پیش از بازی درخواستی پرشور برای فلسطین مطرح می‌کند",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/egypt-coach-makes-impassioned-plea-for-palestine-in-pre-match-conference?traffic_source=rss",
+        "unbiased_text": "مربی مصر در کنفرانس مطبوعاتی پیش از بازی درباره فلسطین اظهارنظر کرد.",
+        "pattern_en": "Coaching speech Palestinian advocacy insertion"
       }
     ]
   },
@@ -5623,6 +5645,29 @@
         "example_url": "https://www.france24.com/en/middle-east/20260705-netanyahu-says-lebanese-christian-villages-sought-annexation-by-israel",
         "unbiased_text": "نخست‌وزیر اسرائیل بنیامین نتانیاهو روز یکشنبه ادعا کرد برخی روستاهای مسیحی‌نشین در جنوب لبنان درخواست الحاق به اسرائیل را برای حفاظت در برابر حزب‌الله مطرح کرده‌اند، ادعایی که به‌صورت مستقل قابل تأیید نبود و مقامات لبنانی آن را رد کردند.",
         "pattern_en": "Annexation request validation through repetition"
+      },
+      {
+        "pattern": "ابهام در چارچوب‌بندی بازسازی سرمایه‌گذاری",
+        "detail": "تأکید مکرر بر بحث‌های سرمایه‌گذاری و بازسازی در حالی که نگرانی‌های امنیتی را کم‌اهمیت جلوه می‌دهد تا تعامل دیپلماتیک را عادی‌سازی کند.",
+        "debias": "پوشش همکاری‌های اقتصادی را با چالش‌های امنیتی متعادل کنید بدون اینکه یکی را بر دیگری ترجیح دهید.",
+        "date_added": "2026-07-07",
+        "status": "suggested",
+        "example_text": "الشرع سوریه روی راه‌اندازی مجدد اقتصاد برای حل مسائل دیگر شرط‌بندی می‌کند",
+        "example_url": "https://www.france24.com/en/syria-s-al-sharaa-bets-on-relaunching-economy-to-solve-other-issues",
+        "unbiased_text": "الشرع سوریه بهبود اقتصادی را در اولویت قرار می‌دهد در حالی که چالش‌های امنیتی همچنان حل‌نشده باقی مانده‌اند.",
+        "detail_items": [],
+        "pattern_en": "Investment reconstruction framing ambiguity"
+      },
+      {
+        "pattern": "انتساب روایت بازدارندگی انفجار",
+        "detail": "قاب‌بندی انفجارها در طول بازدیدهای دیپلماتیک به‌عنوان تلاش برای بازداشتن استراتژی‌های عادی‌سازی بدون شواهد مبنی بر قصد.",
+        "debias": "انفجارها را به‌عنوان حوادث امنیتی گزارش کنید بدون اینکه انگیزه‌های سیاسی را بدون شواهد تأیید‌شده نسبت دهید.",
+        "date_added": "2026-07-07",
+        "status": "suggested",
+        "example_text": "انفجارهایی که تلاش می‌کنند استراتژی «ادامه کسب‌وکار به‌طور معمول» را که در قلب بازدید ماکرون قرار دارد بازدارند",
+        "example_url": "https://www.france24.com/en/explosions-trying-to-deter-business-as-usual-strategy-at-the-heart-of-macron-s-visit",
+        "unbiased_text": "انفجارهایی در دمشق در طول بازدید ماکرون رخ داد؛ عاملان و انگیزه‌ها همچنان نامشخص هستند.",
+        "pattern_en": "Explosion deterrence narrative attribution"
       }
     ]
   },
@@ -8492,6 +8537,40 @@
         "unbiased_text": "عکس Reuters بحث گسترده‌ای را در رسانه‌های اجتماعی برانگیخت و برخی نظردهندگان پیشنهاد کردند که شایسته تقدیر است.",
         "detail_items": [],
         "pattern_en": "Viral photo era-defining declaration"
+      },
+      {
+        "pattern": "اعتراف به وابستگی فناورانه از طریق قاب‌بندی توصیه‌ای",
+        "detail": "آشکارسازی وابستگی فناورانه اتحادیه اروپا با اشاره به اینکه برنامه‌های اقدام «عمدتاً توصیه‌ها» را ارائه می‌دهند، درحالی‌که به مدل‌های هوش مصنوعی آمریکایی متکی هستند.",
+        "debias": "ابتکارات سیاستی را بدون برجسته‌سازی شکاف‌های اجرایی که نشان‌دهنده ضعف استراتژیک است، گزارش دهید.",
+        "date_added": "2026-07-07",
+        "status": "suggested",
+        "example_text": "اتحادیه اروپا یک برنامه اقدام امنیت سایبری هوش مصنوعی را رونمایی می‌کند، اما عمدتاً توصیه‌ها ارائه می‌دهد، زیرا بروکسل به دسترسی مذاکره‌شده به مدل‌های هوش مصنوعی آمریکایی مانند Mythos شرکت Anthropic تکیه می‌کند و وابستگی فناورانه خود را آشکار می‌سازد.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/07/brussels-pitches-ai-cybersecurity-plan-amid-dependence-on-us-models",
+        "unbiased_text": "اتحادیه اروپا یک برنامه اقدام امنیت سایبری هوش مصنوعی را رونمایی کرد که شامل توصیه‌ها و همکاری با ارائه‌دهندگان هوش مصنوعی آمریکایی است.",
+        "detail_items": [],
+        "pattern_en": "Tech dependency admission through recommendation framing"
+      },
+      {
+        "pattern": "قاب‌بندی پوپولیستی انتخاباتی خودآغاز",
+        "detail": "توصیف استعفای یک سیاستمدار برای رقابت در انتخابات میان‌دوره‌ای به‌عنوان «مردم در برابر نظام» از طریق نقل‌قول خود وی.",
+        "debias": "استراتژی انتخاباتی را بدون تقویت قاب‌بندی پوپولیستی از طریق نقل‌قول گزینشی گزارش کنید.",
+        "date_added": "2026-07-07",
+        "status": "suggested",
+        "example_text": "«من تصمیم گرفته‌ام که مردم Clacton باید قضاوت‌کنندگان اعمال من باشند»، Farage گفت. «این فرصتی است برای نشان دادن دو انگشت به تمام نظام».",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/07/nigel-farage-says-hes-resigning-as-mp-and-will-run-in-people-vs-the-establishment-by-elect",
+        "unbiased_text": "Farage استعفای خود را به‌عنوان نماینده پارلمان اعلام کرد و بیان داشت که در انتخابات میان‌دوره‌ای حاصل در Clacton رقابت خواهد کرد.",
+        "pattern_en": "Self-triggered election populist framing"
+      },
+      {
+        "pattern": "تقویت جشن تحقیر کشور میزبان",
+        "detail": "تأکید بر تمسخر و پیروزی‌طلبی پس از شکست ورزشی کشور میزبان برای تشدید شرمساری ژئوپلیتیکی و ورزشی.",
+        "debias": "نتایج ورزشی را بدون تقویت روایت‌های تمسخرآمیز یا تحقیرکننده گزارش دهید.",
+        "date_added": "2026-07-07",
+        "status": "suggested",
+        "example_text": "«این را واژگون کنید»: بلژیک با رقص و پست پس از پیروزی مقابل آمریکا، دونالد ترامپ و FIFA را مسخره می‌کند",
+        "example_url": "http://www.euronews.com/culture/2026/07/07/overturn-this-belgium-mocks-donald-trump-and-fifa-with-dance-and-post-after-victory-agains",
+        "unbiased_text": "بلژیک در جام جهانی آمریکا را ۴ بر ۱ شکست داد؛ بازیکنان بلژیکی پیروزی را جشن گرفتند.",
+        "pattern_en": "Host nation humiliation celebration amplification"
       }
     ]
   }
