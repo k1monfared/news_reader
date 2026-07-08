@@ -3269,6 +3269,18 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/egypt-coach-makes-impassioned-plea-for-palestine-in-pre-match-conference?traffic_source=rss",
         "unbiased_text": "مربی مصر در کنفرانس مطبوعاتی پیش از بازی درباره فلسطین اظهارنظر کرد.",
         "pattern_en": "Coaching speech Palestinian advocacy insertion"
+      },
+      {
+        "pattern": "قاب‌بندی بحرانی روش‌شناسی شمارش مرگ‌ومیر",
+        "detail": "ثبت سوابق مرگ‌ومیر جهانی را از طریق پرسش‌های بلاغی به‌عنوان امری اساساً ناکارآمد ارائه می‌دهد و به‌جای چالش‌های روش‌شناختی، به شکست سیستمی اشاره می‌کند.",
+        "debias": "چالش‌های جمع‌آوری داده‌های مرگ‌ومیر را به‌عنوان مسائل فنی در حال رسیدگی ارائه دهید، نه بحران‌های وجودی دانش.",
+        "date_added": "2026-07-08",
+        "status": "suggested",
+        "example_text": "چرا نمی‌توانیم مرده‌های خود را بشماریم؟ بیشتر مرده‌های جهان هرگز وارد سوابق رسمی نمی‌شوند. تلفات یک حدس تحصیل‌کرده است، نه یک شمارش واقعی.",
+        "example_url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/7/8/why-cant-we-count-our-dead?traffic_source=rss",
+        "unbiased_text": "ردیابی مرگ‌ومیر جهانی با چالش‌های جمع‌آوری داده در بسیاری از مناطق مواجه است. آمار رسمی مرگ‌ومیر اغلب در مناطقی با سیستم‌های ثبت حیاتی محدود، بر مدل‌سازی آماری تکیه دارد.",
+        "detail_items": [],
+        "pattern_en": "Death count methodology crisis framing"
       }
     ]
   },
@@ -5668,6 +5680,17 @@
         "example_url": "https://www.france24.com/en/explosions-trying-to-deter-business-as-usual-strategy-at-the-heart-of-macron-s-visit",
         "unbiased_text": "انفجارهایی در دمشق در طول بازدید ماکرون رخ داد؛ عاملان و انگیزه‌ها همچنان نامشخص هستند.",
         "pattern_en": "Explosion deterrence narrative attribution"
+      },
+      {
+        "pattern": "تکرار اعتبارسازی برای بازدید تاریخی",
+        "detail": "توصیف مکرر یک بازدید دیپلماتیک به‌عنوان «سرنوشت‌ساز» یا «تاریخی» در چندین مقاله برای تأکید بر اهمیت و عادی‌سازی تعامل دیپلماتیک.",
+        "debias": "بازدید را یک‌بار با ذکر واقعیت‌های اولین بودن آن توصیف کنید، بدون برچسب‌زنی مکرر «سرنوشت‌ساز» یا «تاریخی» در پوشش خبری.",
+        "date_added": "2026-07-08",
+        "status": "suggested",
+        "example_text": "Macron در سوریه فرود می‌آید در اولین بازدید پس از Assad توسط رئیس دولت غربی... این اولین بازدید از این دست توسط رئیس دولت یک قدرت غربی از زمان برکناری Bashar al-Assad، حاکم دیرینه، در سال ۲۰۲۴ است.",
+        "example_url": "https://www.france24.com/en/middle-east/20260706-macron-expected-in-syria-in-first-post-assad-visit-by-western-leader-damascus-says",
+        "unbiased_text": "رئیس‌جمهور فرانسه Emmanuel Macron وارد سوریه شد و اولین رئیس دولت غربی بود که پس از برکناری Bashar al-Assad در سال ۲۰۲۴ از این کشور بازدید کرد.",
+        "pattern_en": "Landmark visit repetition validation"
       }
     ]
   },
@@ -8571,6 +8594,40 @@
         "example_url": "http://www.euronews.com/culture/2026/07/07/overturn-this-belgium-mocks-donald-trump-and-fifa-with-dance-and-post-after-victory-agains",
         "unbiased_text": "بلژیک در جام جهانی آمریکا را ۴ بر ۱ شکست داد؛ بازیکنان بلژیکی پیروزی را جشن گرفتند.",
         "pattern_en": "Host nation humiliation celebration amplification"
+      },
+      {
+        "pattern": "ارتقای خرافه ورزشی نفرین ترامپ",
+        "detail": "خرافات رسانه‌های اجتماعی درباره تأثیر ترامپ بر تیم‌های ورزشی را به یک خبر با چارچوب تحقیق علّی ارتقا می‌دهد.",
+        "debias": "نتایج انتخابات یا رویدادهای ورزشی را بدون نسبت دادن آن‌ها به «نفرین‌ها» یا خرافات مبتنی بر شخصیت گزارش دهید.",
+        "date_added": "2026-07-08",
+        "status": "suggested",
+        "example_text": "«نفرین ترامپ»: آیا دونالد ترامپ فال بد تیم‌های ورزشی است؟ پس از حذف آمریکا از جام جهانی، رسانه‌های اجتماعی با ادعاهایی درباره «نفرین ترامپ» به هیجان آمدند. به نظر می‌رسد سوابقی وجود دارد، چرا که هواداران به شکست‌های دیگری اشاره می‌کنند که با حمایت ترامپ از تیم‌ها یا حتی حضور او در بازی‌ها مرتبط است.",
+        "example_url": "http://www.euronews.com/culture/2026/07/08/the-trump-curse-is-donald-trump-a-bad-omen-for-sports-teams",
+        "unbiased_text": "آمریکا از جام جهانی حذف شد. برخی کاربران رسانه‌های اجتماعی به زمان‌بندی تصادفی بین حمایت ترامپ از تیم‌ها و شکست‌های بعدی اشاره کرده‌اند، هرچند هیچ رابطه علّی وجود ندارد.",
+        "detail_items": [],
+        "pattern_en": "Trump curse sports superstition elevation"
+      },
+      {
+        "pattern": "قاب‌بندی شوک قیمتی لوکس فوق‌العاده انحصاری",
+        "detail": "با نقطه قیمتی افراطی آغاز می‌شود تا خشم یا حیرت درباره نابرابری ثروت را از طریق توصیفات بسته‌های سفر ایجاد کند.",
+        "debias": "پیشنهادات سفرهای لوکس را با زمینه‌ای درباره بازار هدف گزارش کنید بدون اینکه قیمت را به‌عنوان تفسیر اخلاقی هیجان‌زده کنید.",
+        "date_added": "2026-07-08",
+        "status": "suggested",
+        "example_text": "۲۰۰,۰۰۰ یورو اضافی دارید؟ این سفر فوق‌العاده انحصاری برای خورشیدگرفتگی ۲۰۲۶ می‌تواند مال شما باشد. بسته سفر Meliá Hotels International به جزایر بالئاریک برای خورشیدگرفتگی کامل ماه اوت آنقدر انحصاری است که فقط برای یک رزرو در هر یک از دو هتلش در دسترس است.",
+        "example_url": "http://www.euronews.com/travel/2026/07/08/got-200000-to-spare-this-ultra-exclusive-trip-for-the-2026-solar-eclipse-could-be-yours",
+        "unbiased_text": "Meliá Hotels International بسته سفر ویژه‌ای برای مشاهده خورشیدگرفتگی کامل اوت ۲۰۲۶ از جزایر بالئاریک اعلام کرده است که به قیمت ۲۰۰,۰۰۰ یورو و محدود به یک رزرو در هر هتل ارائه می‌شود.",
+        "pattern_en": "Ultra-exclusive luxury price shock framing"
+      },
+      {
+        "pattern": "تلمیح ادبی تیتر به فساد دولت",
+        "detail": "از فرمول شکسپیری «چیزی در دولت دانمارک گندیده است» برای القای فساد یا مشکلات بنیادین در کشور میزبان از طریق تلمیح ادبی استفاده می‌کند.",
+        "debias": "از تیترهای مستقیم درباره چالش‌های دیپلماتیک بدون القای فساد از طریق تلمیح ادبی استفاده کنید.",
+        "date_added": "2026-07-08",
+        "status": "suggested",
+        "example_text": "خبرنامه: چیزی در دولت ترکیه گندیده است",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/08/newsletter-something-is-rotten-in-the-state-of-turkey",
+        "unbiased_text": "خبرنامه: نشست سران ناتو در ترکیه در میان تنش‌های دیپلماتیک برگزار می‌شود",
+        "pattern_en": "Rotten state headline literary insinuation"
       }
     ]
   }

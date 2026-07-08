@@ -1989,8 +1989,8 @@
       },
       {
         "pattern": "Personal dream timing tragedy emphasis",
-        "detail": "Emphasizing the temporal proximity between a victim's anticipated joyful event and their death to maximize emotional impact and victimization narrative.",
-        "debias": "Report deaths factually without emphasizing the timing relative to planned celebrations or personal milestones.",
+        "detail": "Emphasizing the temporal proximity between a victim's anticipated joyful event and their death to maximize emotional impact and victimization narrative. Also: Amplifies emotional impact by highlighting the minimal time gap between a victim organizing an event and their death, emphasizing cruel timing coincidence.",
+        "debias": "Report deaths factually without emphasizing the timing relative to planned celebrations or personal milestones. Report the death and the planned event separately without emphasizing temporal proximity for emotional effect.",
         "date_added": "2026-06-06",
         "status": "suggested",
         "example_text": "Muhannad Farwana never got to wear his wedding suit, Israel killed him in an air strike hours before his wedding.",
@@ -2936,6 +2936,16 @@
         "example_text": "Egypt coach makes impassioned plea for Palestine in pre-match conference",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/egypt-coach-makes-impassioned-plea-for-palestine-in-pre-match-conference?traffic_source=rss",
         "unbiased_text": "Egypt coach commented on Palestine during pre-match press conference."
+      },
+      {
+        "pattern": "Death count methodology crisis framing",
+        "detail": "Presents global mortality record-keeping as fundamentally broken through rhetorical questioning, implying systemic failure rather than methodological challenges.",
+        "debias": "Present mortality data collection challenges as technical issues being addressed rather than existential crises of knowledge.",
+        "date_added": "2026-07-08",
+        "status": "suggested",
+        "example_text": "Why can't we count our dead? Most of the world's dead never make the official record. The death toll is an educated guess, not an actual count.",
+        "example_url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/7/8/why-cant-we-count-our-dead?traffic_source=rss",
+        "unbiased_text": "Global mortality tracking faces data collection challenges in many regions. Official death tolls often rely on statistical modeling in areas with limited vital registration systems."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5120,6 +5130,16 @@
         "example_text": "Explosions trying to deter 'business as usual' strategy at the heart of Macron's visit",
         "example_url": "https://www.france24.com/en/explosions-trying-to-deter-business-as-usual-strategy-at-the-heart-of-macron-s-visit",
         "unbiased_text": "Explosions occurred in Damascus during Macron's visit; the perpetrators and motives remain unclear."
+      },
+      {
+        "pattern": "Landmark visit repetition validation",
+        "detail": "Repeatedly describes a diplomatic visit as 'landmark' or 'historic' across multiple articles to emphasize significance and normalize the diplomatic engagement.",
+        "debias": "Describe the visit's factual firsts once without repeated 'landmark' or 'historic' labeling across coverage.",
+        "date_added": "2026-07-08",
+        "status": "suggested",
+        "example_text": "Macron lands in Syria in first post-Assad visit by Western head of state... It is the first such visit by a head of state from a Western power since the 2024 ousting of longtime ruler Bashar al-Assad.",
+        "example_url": "https://www.france24.com/en/middle-east/20260706-macron-expected-in-syria-in-first-post-assad-visit-by-western-leader-damascus-says",
+        "unbiased_text": "French President Emmanuel Macron arrived in Syria, becoming the first Western head of state to visit since Bashar al-Assad was ousted in 2024."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -7733,6 +7753,36 @@
         "example_text": "'Overturn this': Belgium mocks Donald Trump and FIFA with dance and post after victory against US",
         "example_url": "http://www.euronews.com/culture/2026/07/07/overturn-this-belgium-mocks-donald-trump-and-fifa-with-dance-and-post-after-victory-agains",
         "unbiased_text": "Belgium defeated the USA 4-1 in the World Cup; Belgian players celebrated the victory."
+      },
+      {
+        "pattern": "Trump curse sports superstition elevation",
+        "detail": "Elevates social media superstition about Trump's effect on sports teams into a news story with causal investigation framing.",
+        "debias": "Report election results or sports outcomes without attributing them to personality-based 'curses' or superstitions.",
+        "date_added": "2026-07-08",
+        "status": "suggested",
+        "example_text": "'The Trump Curse': Is Donald Trump a bad omen for sports teams? Following the elimination of the US at the World Cup, social media went into a frenzy with claims of a 'Trump curse'. There seems to be prior form, as fans are citing other losses linked to Trump's team endorsements or even his presence at games.",
+        "example_url": "http://www.euronews.com/culture/2026/07/08/the-trump-curse-is-donald-trump-a-bad-omen-for-sports-teams",
+        "unbiased_text": "The US was eliminated from the World Cup. Some social media users have noted coincidental timing between Trump's support for teams and subsequent losses, though no causal relationship exists."
+      },
+      {
+        "pattern": "Ultra-exclusive luxury price shock framing",
+        "detail": "Leads with extreme price point to generate outrage or astonishment about wealth inequality through travel package descriptions.",
+        "debias": "Report luxury travel offerings with context about target market without sensationalizing price as moral commentary.",
+        "date_added": "2026-07-08",
+        "status": "suggested",
+        "example_text": "Got €200,000 to spare? This ultra-exclusive trip for the 2026 solar eclipse could be yours. Meliá Hotels International's travel package to the Balearic Islands for August's total solar eclipse is so exclusive that it's only available for one booking at each of its two hotels.",
+        "example_url": "http://www.euronews.com/travel/2026/07/08/got-200000-to-spare-this-ultra-exclusive-trip-for-the-2026-solar-eclipse-could-be-yours",
+        "unbiased_text": "Meliá Hotels International has announced a premium travel package for viewing the August 2026 total solar eclipse from the Balearic Islands, priced at €200,000 and limited to one booking per hotel."
+      },
+      {
+        "pattern": "Rotten state headline literary insinuation",
+        "detail": "Uses Shakespeare's 'something is rotten in the state of Denmark' formula to imply corruption or fundamental problems in host country through literary allusion.",
+        "debias": "Use straightforward headlines about diplomatic challenges without literary corruption insinuations.",
+        "date_added": "2026-07-08",
+        "status": "suggested",
+        "example_text": "Newsletter: Something is rotten in the state of Turkey",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/08/newsletter-something-is-rotten-in-the-state-of-turkey",
+        "unbiased_text": "Newsletter: NATO summit convenes in Turkey amid diplomatic tensions"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
