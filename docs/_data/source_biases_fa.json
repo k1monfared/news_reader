@@ -3281,6 +3281,28 @@
         "unbiased_text": "ردیابی مرگ‌ومیر جهانی با چالش‌های جمع‌آوری داده در بسیاری از مناطق مواجه است. آمار رسمی مرگ‌ومیر اغلب در مناطقی با سیستم‌های ثبت حیاتی محدود، بر مدل‌سازی آماری تکیه دارد.",
         "detail_items": [],
         "pattern_en": "Death count methodology crisis framing"
+      },
+      {
+        "pattern": "مشروعیت‌بخشی به نامزدهای شوخی‌آمیز از طریق تساوی در تیتر",
+        "detail": "ارائه نامزدهای سیاسی طنزآمیز یا نمایشی در تیترها با همان قالب ساختاری نامزدهای جدی، که به‌طور ضمنی مشروعیت آنها را ارتقا می‌دهد.",
+        "debias": "نامزدهای طنزآمیز را در تیترها و سرآغازها به‌صراحت به‌عنوان چنین نامزدهایی شناسایی کنید و آنها را از رقبای سیاسی جدی متمایز سازید.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "«نه Nigel Farage»: Count Binface که به‌عنوان نماینده پارلمان کلکتون، بریتانیا رقابت می‌کند، کیست؟",
+        "example_url": "https://www.aljazeera.com/news/2026/7/9/not-nigel-farage-who-is-count-binface-contesting-as-mp-for-clacton-uk?traffic_source=rss",
+        "unbiased_text": "Count Binface، یک نامزد هنر نمایشی کمدی که به پوشیدن کلاهی به شکل سطل زباله معروف است، در برابر Nigel Farage در کلکتون رقابت می‌کند.",
+        "pattern_en": "Joke candidate legitimization through headline parity"
+      },
+      {
+        "pattern": "تأکید بر حضور در مراسم تشییع در گرمای شدید",
+        "detail": "برجسته‌سازی شرایط دشوار محیطی در طول تجمعات گسترده برای تقویت روایت فداکاری یا از خودگذشتگی شرکت‌کنندگان.",
+        "debias": "شرایط آب‌وهوایی را به‌صورت واقعی گزارش کنید بدون اینکه از آن برای توصیف انگیزه یا تعهد شرکت‌کنندگان استفاده شود.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "ایرانیان در گرمای شدید برای مراسم تشییع آیت‌الله علی خامنه‌ای در زادگاهش مشهد گرد هم می‌آیند.",
+        "example_url": "https://www.aljazeera.com/gallery/2026/7/9/photos-iran-to-bury-slain-supreme-leader-in-culmination-of-mass-funeral?traffic_source=rss",
+        "unbiased_text": "ایرانیان برای مراسم تشییع آیت‌الله علی خامنه‌ای در زادگاهش مشهد گرد هم می‌آیند، جایی که دما به سطوح بالایی رسید.",
+        "pattern_en": "Sweltering heat funeral participation emphasis"
       }
     ]
   },
@@ -5691,6 +5713,40 @@
         "example_url": "https://www.france24.com/en/middle-east/20260706-macron-expected-in-syria-in-first-post-assad-visit-by-western-leader-damascus-says",
         "unbiased_text": "رئیس‌جمهور فرانسه Emmanuel Macron وارد سوریه شد و اولین رئیس دولت غربی بود که پس از برکناری Bashar al-Assad در سال ۲۰۲۴ از این کشور بازدید کرد.",
         "pattern_en": "Landmark visit repetition validation"
+      },
+      {
+        "pattern": "اعلام تحول از تئوکراسی به نظامی‌گری",
+        "detail": "اظهار تغییرات قطعی در ماهیت رژیم بر اساس شواهد محدود یا رویدادهای منفرد، و قاب‌بندی تغییرات سیاسی به‌عنوان تحولات کامل سیستمی.",
+        "debias": "تغییرات قابل مشاهده در حکومت‌داری را بدون اعلام تحولات کامل رژیم توصیف کنید؛ از زبان شرطی برای ارزیابی‌های حدسی استفاده کنید.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "همزمان با تدفین خامنه‌ای، ایران از «تئوکراسی به رهبری نظامی ناسیونالیستی» تغییر می‌کند",
+        "example_url": "https://www.france24.com/en/as-iran-buries-khamenei-it-shifts-from-a-theocracy-to-a-nationalistic-military-leadership",
+        "unbiased_text": "همزمان با تدفین خامنه‌ای، تحلیل‌گران نشانه‌هایی مشاهده می‌کنند که رهبری نظامی ممکن است نقش برجسته‌تری در حکومت‌داری ایفا کند.",
+        "pattern_en": "Theocracy-to-militarism transformation declaration"
+      },
+      {
+        "pattern": "روایت‌سازی نامرئی بودن جانشین",
+        "detail": "ساختن داستان‌هایی پیرامون غیبت یا عدم حضور عمومی چهره‌های سیاسی برای ایجاد کنجکاوی یا القای بی‌ثباتی بدون شواهدی از مشکلات واقعی.",
+        "debias": "حضورهای عمومی را به صورت واقعی گزارش کنید بدون اینکه از برنامه‌ریزی معمول یا حریم خصوصی، مشکلی را استنباط کنید؛ از گمانه‌زنی صرفاً بر اساس غیبت بپرهیزید.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "جانشین خامنه‌ای هنوز دیده نشده است در حالی که مراسم تشییع رهبر فقید به پایان می‌رسد",
+        "example_url": "https://www.france24.com/en/khamenei-successor-has-yet-to-be-seen-as-ex-ayatollah-s-funeral-comes-to-a-close",
+        "unbiased_text": "مجتبی خامنه‌ای که به عنوان جانشین منصوب شده است، در طول مراسم تشییع حضور عمومی نداشته است.",
+        "detail_items": [],
+        "pattern_en": "Successor invisibility narrative construction"
+      },
+      {
+        "pattern": "چارچوب‌بندی روان‌شناختی آمادگی برای جنگ",
+        "detail": "نسبت دادن تصمیمات نظامی به ظرفیت روان‌شناختی شخصی یا تمایل رهبران به جای عوامل استراتژیک، سیاسی یا نهادی.",
+        "debias": "تصمیمات نظامی را در قالب محاسبات استراتژیک، محدودیت‌های سیاسی و فرایندهای نهادی چارچوب‌بندی کنید نه روان‌شناسی شخصی.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "ایران شرط‌بندی می‌کند که ترامپ «جرأت بازگشت به جنگ تمام‌عیار را ندارد»",
+        "example_url": "https://www.france24.com/en/iran-betting-trump-doesn-t-have-the-stomach-to-go-back-to-full-scale-war",
+        "unbiased_text": "به نظر می‌رسد ایران در حال محاسبه این است که ترامپ با محدودیت‌های سیاسی روبه‌روست که جنگ تمام‌عیار را بعید می‌کند.",
+        "pattern_en": "Stomach-for-war psychological framing"
       }
     ]
   },
@@ -8628,6 +8684,40 @@
         "example_url": "http://www.euronews.com/my-europe/2026/07/08/newsletter-something-is-rotten-in-the-state-of-turkey",
         "unbiased_text": "خبرنامه: نشست سران ناتو در ترکیه در میان تنش‌های دیپلماتیک برگزار می‌شود",
         "pattern_en": "Rotten state headline literary insinuation"
+      },
+      {
+        "pattern": "روایت گسترش خشونت علیه سربازگیری",
+        "detail": "چارچوب‌بندی حملات به مأموران سربازگیری به‌عنوان یک روند رو به گسترش، در حالی که تأیید می‌شود این حملات پیش‌تر نادر بوده‌اند، و تأکید بر فروپاشی اجتماعی به‌جای حوادث خاص.",
+        "debias": "حوادث خشونت را به‌صورت جداگانه گزارش کنید بدون آنکه آن‌ها را به روندهای اجتماعی گسترده‌تر تعمیم دهید، مگر اینکه با داده‌های جامع پشتیبانی شود.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "خشونت علیه افسران سربازگیری در آغاز جنگ تقریباً وجود نداشت، اما در سال‌های اخیر با طولانی شدن نبرد و ایجاد خستگی در میان مردم، گسترش یافته است.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/09/ukraine-opens-criminal-probe-after-crowds-attack-army-conscription-vehicle-in-lviv",
+        "unbiased_text": "مقامات اوکراین پس از حمله جمعیتی به یک خودروی سربازگیری ارتش در لویو، تحقیقات کیفری را آغاز کردند.",
+        "pattern_en": "Conscription violence proliferation narrative"
+      },
+      {
+        "pattern": "اصطلاح‌شناسی سیل‌آسا برای اختلافات تجاری",
+        "detail": "استفاده از استعاره‌های دراماتیک سیل برای توصیف رقابت تجاری، که به جای پویایی‌های خنثی بازار، شیوه‌های ناعادلانه یا طاقت‌فرسا را القا می‌کند.",
+        "debias": "حجم تجارت و رقابت را با اصطلاحات خنثی اقتصادی به جای استعاره‌های بحران‌زده توصیف کنید.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "اتحادیه اروپا واردات اردک پکن چینی را در حالی بررسی می‌کند که اختلاف سیل‌آسای بازار داغ‌تر می‌شود",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/09/eu-to-probe-chinese-pekin-duck-imports-as-market-flooding-row-hots-up",
+        "unbiased_text": "اتحادیه اروپا واردات اردک پکن چینی را در پی شکایات کشاورزان اروپایی درباره رقابت قیمتی بررسی می‌کند.",
+        "detail_items": [],
+        "pattern_en": "Market-flooding terminology for trade disputes"
+      },
+      {
+        "pattern": "جشن احیای ویروسی آهنگ رپ",
+        "detail": "تبدیل کردن کشف مجدد محتوای خلاقانه آماتور گذشته توسط چهره‌های اکنون مشهور به رویدادهای فرهنگی خبری، و تقویت روایت‌های نوستالژیک.",
+        "debias": "درباره دستاوردهای ورزشی ورزشکاران گزارش دهید بدون پوشش گسترده تلاش‌های خلاقانه آماتور نامرتبط گذشته، مگر واقعاً خبری باشد.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "پیش از اینکه نروژ را به اولین مرحله یک چهارم نهایی جام جهانی در تاریخ هدایت کند، ارلینگ هالند نامزد بهترین بازیکن در رپ تجربه کرد. آهنگی از سال ۲۰۱۶ دوباره ظاهر شده و به صورت آنلاین منفجر شده است و میلیون‌ها بازدید جمع کرده است",
+        "example_url": "http://www.euronews.com/culture/2026/07/09/erling-haalands-2016-rap-song-resurfaces-and-turns-into-viral-world-cup-hit",
+        "unbiased_text": "یک آهنگ رپ با حضور فوتبالیست ارلینگ هالند از سال ۲۰۱۶ در طول حضور نروژ در جام جهانی به صورت آنلاین توجه جلب کرده است.",
+        "pattern_en": "Rap song viral resurrection celebration"
       }
     ]
   }

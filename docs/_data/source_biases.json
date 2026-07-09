@@ -2946,6 +2946,26 @@
         "example_text": "Why can't we count our dead? Most of the world's dead never make the official record. The death toll is an educated guess, not an actual count.",
         "example_url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/7/8/why-cant-we-count-our-dead?traffic_source=rss",
         "unbiased_text": "Global mortality tracking faces data collection challenges in many regions. Official death tolls often rely on statistical modeling in areas with limited vital registration systems."
+      },
+      {
+        "pattern": "Joke candidate legitimization through headline parity",
+        "detail": "Presenting satirical or novelty political candidates in headlines with the same structural format as serious candidates, implicitly elevating their legitimacy.",
+        "debias": "Clearly identify satirical candidates as such in headlines and ledes, distinguishing them from serious political contenders.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "'Not Nigel Farage': Who is Count Binface, contesting as MP for Clacton, UK?",
+        "example_url": "https://www.aljazeera.com/news/2026/7/9/not-nigel-farage-who-is-count-binface-contesting-as-mp-for-clacton-uk?traffic_source=rss",
+        "unbiased_text": "Count Binface, a comedic performance art candidate known for wearing a bin-shaped helmet, is running against Nigel Farage in Clacton."
+      },
+      {
+        "pattern": "Sweltering heat funeral participation emphasis",
+        "detail": "Highlighting difficult environmental conditions during mass gatherings to amplify narrative of devotion or sacrifice by participants.",
+        "debias": "Report weather conditions factually without using them to characterize participant motivation or dedication.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "Iranians gather in sweltering heat for Ayatollah Ali Khamenei's funeral in his hometown of Mashhad.",
+        "example_url": "https://www.aljazeera.com/gallery/2026/7/9/photos-iran-to-bury-slain-supreme-leader-in-culmination-of-mass-funeral?traffic_source=rss",
+        "unbiased_text": "Iranians gather for Ayatollah Ali Khamenei's funeral in his hometown of Mashhad, where temperatures reached high levels."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5140,6 +5160,36 @@
         "example_text": "Macron lands in Syria in first post-Assad visit by Western head of state... It is the first such visit by a head of state from a Western power since the 2024 ousting of longtime ruler Bashar al-Assad.",
         "example_url": "https://www.france24.com/en/middle-east/20260706-macron-expected-in-syria-in-first-post-assad-visit-by-western-leader-damascus-says",
         "unbiased_text": "French President Emmanuel Macron arrived in Syria, becoming the first Western head of state to visit since Bashar al-Assad was ousted in 2024."
+      },
+      {
+        "pattern": "Theocracy-to-militarism transformation declaration",
+        "detail": "Asserting definitive regime character transitions based on limited evidence or single events, framing political changes as complete systemic shifts.",
+        "debias": "Describe observable changes in governance without declaring complete regime transformations; use conditional language for speculative assessments.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "As Iran buries Khamenei, it shifts from 'a theocracy to a nationalistic military leadership'",
+        "example_url": "https://www.france24.com/en/as-iran-buries-khamenei-it-shifts-from-a-theocracy-to-a-nationalistic-military-leadership",
+        "unbiased_text": "As Iran buries Khamenei, analysts observe signs that military leadership may play a more prominent role in governance."
+      },
+      {
+        "pattern": "Successor invisibility narrative construction",
+        "detail": "Building stories around the absence or non-appearance of political figures to create intrigue or suggest instability without evidence of actual problems.",
+        "debias": "Report on public appearances factually without inferring problems from routine scheduling or privacy; avoid speculation based solely on absence.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "Khamenei successor has yet to be seen as late ruler's funeral comes to a close",
+        "example_url": "https://www.france24.com/en/khamenei-successor-has-yet-to-be-seen-as-ex-ayatollah-s-funeral-comes-to-a-close",
+        "unbiased_text": "Mojtaba Khamenei, appointed as successor, has not made public appearances during the funeral ceremonies."
+      },
+      {
+        "pattern": "Stomach-for-war psychological framing",
+        "detail": "Attributing military decisions to leaders' personal psychological capacity or willingness rather than strategic, political, or institutional factors.",
+        "debias": "Frame military decisions in terms of strategic calculations, political constraints, and institutional processes rather than personal psychology.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "Iran betting Trump 'doesn't have the stomach to go back to full-scale war'",
+        "example_url": "https://www.france24.com/en/iran-betting-trump-doesn-t-have-the-stomach-to-go-back-to-full-scale-war",
+        "unbiased_text": "Iran appears to be calculating that Trump faces political constraints that make full-scale war unlikely."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -7783,6 +7833,36 @@
         "example_text": "Newsletter: Something is rotten in the state of Turkey",
         "example_url": "http://www.euronews.com/my-europe/2026/07/08/newsletter-something-is-rotten-in-the-state-of-turkey",
         "unbiased_text": "Newsletter: NATO summit convenes in Turkey amid diplomatic tensions"
+      },
+      {
+        "pattern": "Conscription violence proliferation narrative",
+        "detail": "Framing attacks on military recruitment as a spreading trend while acknowledging they were previously rare, emphasizing societal breakdown over specific incidents.",
+        "debias": "Report individual incidents of violence without extrapolating to broader societal trends unless supported by comprehensive data.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "Violence against recruitment officers was almost non-existent at the start of the war, but has proliferated in recent years as the fighting has dragged on and fatigue set in among the population.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/09/ukraine-opens-criminal-probe-after-crowds-attack-army-conscription-vehicle-in-lviv",
+        "unbiased_text": "Ukrainian authorities opened a criminal investigation after a crowd attacked a military conscription vehicle in Lviv."
+      },
+      {
+        "pattern": "Market-flooding terminology for trade disputes",
+        "detail": "Using dramatic flooding metaphors to characterize trade competition, implying unfair or overwhelming practices rather than neutral market dynamics.",
+        "debias": "Describe trade volumes and competition using neutral economic terminology rather than crisis metaphors.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "EU to probe Chinese Pekin duck imports as market-flooding row hots up",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/09/eu-to-probe-chinese-pekin-duck-imports-as-market-flooding-row-hots-up",
+        "unbiased_text": "EU to investigate Chinese Pekin duck imports following complaints from European farmers about pricing competition."
+      },
+      {
+        "pattern": "Rap song viral resurrection celebration",
+        "detail": "Treating the rediscovery of past amateur creative content by now-famous figures as newsworthy cultural events, amplifying nostalgia narratives.",
+        "debias": "Report on athletes' sports achievements without extensive coverage of unrelated past amateur creative endeavors unless genuinely newsworthy.",
+        "date_added": "2026-07-09",
+        "status": "suggested",
+        "example_text": "Before he was spearheading Norway to their first-ever World Cup quarterfinal, MVP-contender Erling Haaland dabbled in rap. A song from 2016 has resurfaced and exploded online, racking up millions of views",
+        "example_url": "http://www.euronews.com/culture/2026/07/09/erling-haalands-2016-rap-song-resurfaces-and-turns-into-viral-world-cup-hit",
+        "unbiased_text": "A rap song featuring footballer Erling Haaland from 2016 has gained attention online during Norway's World Cup run."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
