@@ -3303,6 +3303,39 @@
         "example_url": "https://www.aljazeera.com/gallery/2026/7/9/photos-iran-to-bury-slain-supreme-leader-in-culmination-of-mass-funeral?traffic_source=rss",
         "unbiased_text": "ایرانیان برای مراسم تشییع آیت‌الله علی خامنه‌ای در زادگاهش مشهد گرد هم می‌آیند، جایی که دما به سطوح بالایی رسید.",
         "pattern_en": "Sweltering heat funeral participation emphasis"
+      },
+      {
+        "pattern": "نمایش دراماتیک مقایسه اندازه جغرافیایی",
+        "detail": "بلایای طبیعی با مقایسه‌های جغرافیایی با کشورهای غربی چارچوب‌بندی می‌شوند تا مقیاس را برای مخاطبان بین‌المللی دراماتیک‌تر جلوه دهند.",
+        "debias": "اندازه‌گیری‌های واقعی و منطقه آسیب‌دیده را بدون چارچوب‌بندی مقایسه‌ای جغرافیایی گزارش کنید.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "با نزدیک شدن توفان فوق‌العاده Bavi، ساکنان تایوان، ژاپن و چین مشغول ذخیره‌سازی اقلام ضروری شده‌اند.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/10/super-typhoon-as-wide-as-france-heads-to-east-asia?traffic_source=rss",
+        "unbiased_text": "توفان فوق‌العاده Bavi در حال نزدیک شدن به تایوان، ژاپن و چین است و ساکنان را به ذخیره‌سازی اقلام ضروری واداشته است.",
+        "pattern_en": "Geographic size comparison dramatization"
+      },
+      {
+        "pattern": "قاب‌بندی هم‌ارزی انزوا در زندان با مرگ",
+        "detail": "شرایط حبس به عنوان شکلی از خود مرگ توصیف می‌شود به جای اینکه آسیب‌ها و شرایط مشخص بیان شود.",
+        "debias": "آسیب‌ها و شرایط مستند را بدون هم‌ارزی‌های استعاری با مرگ گزارش کنید.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "یک گزارش مستقیم نشان می‌دهد که چگونه انزوا و بی‌توجهی می‌تواند حبس را به شکلی آهسته از مرگ در زندان‌های ایالات متحده تبدیل کند.",
+        "example_url": "https://www.aljazeera.com/features/longform/2026/7/10/death-silence-and-survival-inside-new-jersey-state-prison?traffic_source=rss",
+        "unbiased_text": "یک گزارش مستقیم شرایط انزوا و بی‌توجهی را در یک زندان ایالات متحده توصیف می‌کند.",
+        "pattern_en": "Prison isolation death equivalence framing"
+      },
+      {
+        "pattern": "قاب‌بندی بازگشت دموکراسی در نقاط عطف انتخاباتی",
+        "detail": "انتخاباتی که پس از وقفه‌های طولانی برگزار می‌شوند به عنوان پیشرفت‌های دموکراتیک قاب‌بندی می‌شوند، بدون اینکه محدودیت‌های زیربنایی حاکمیت یا حکمرانی زیر سؤال برود.",
+        "debias": "اعلام برگزاری انتخابات را گزارش کنید، ضمن اشاره به محدودیت‌های مستمر بر حاکمیت یا حکومت.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "اولین انتخابات قانون‌گذاری فلسطین در ۲۰ سال گذشته اعلام شد",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/10/first-palestinian-legislative-elections-in-20-years-announced?traffic_source=rss",
+        "unbiased_text": "انتخابات قانون‌گذاری فلسطین برای اولین بار از سال ۲۰۰۶ اعلام شده است.",
+        "pattern_en": "Electoral milestone democracy restoration framing"
       }
     ]
   },
@@ -5747,6 +5780,28 @@
         "example_url": "https://www.france24.com/en/iran-betting-trump-doesn-t-have-the-stomach-to-go-back-to-full-scale-war",
         "unbiased_text": "به نظر می‌رسد ایران در حال محاسبه این است که ترامپ با محدودیت‌های سیاسی روبه‌روست که جنگ تمام‌عیار را بعید می‌کند.",
         "pattern_en": "Stomach-for-war psychological framing"
+      },
+      {
+        "pattern": "زیر سؤال بردن زمان‌بندی افشای اطلاعاتی",
+        "detail": "زمان‌بندی افشای اطلاعات استخباراتی زیر سؤال برده می‌شود تا دستکاری سیاسی عمدی را القا کند.",
+        "debias": "اشتراک‌گذاری اطلاعات استخباراتی را بدون حدس و گمان درباره انگیزه‌های پشت زمان‌بندی افشا گزارش کنید.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "خبرنگار France 24، نوگا تارنوپولسکی، می‌گوید مشخص نیست واشنگتن چقدر تهدید ادعایی را جدی می‌گیرد و می‌افزاید زمان‌بندی این افشاگری سؤالاتی را درباره اینکه آیا ایالات متحده عمداً اجازه داده این اطلاعات استخباراتی علنی شود یا خیر، مطرح می‌کند.",
+        "example_url": "https://www.france24.com/en/israel-warns-us-of-alleged-iran-plot-to-assassinate-trump",
+        "unbiased_text": "خبرنگار France 24، نوگا تارنوپولسکی، می‌گوید مشخص نیست واشنگتن چقدر تهدید ادعایی را جدی می‌گیرد.",
+        "pattern_en": "Intelligence revelation timing questioning"
+      },
+      {
+        "pattern": "قاب‌بندی تشییع جنازه به‌عنوان نمایش قدرت",
+        "detail": "مراسم تشییع جنازه دولتی عمدتاً به‌عنوان نمایش‌های استراتژیک تحلیل می‌شوند نه آیین‌های سوگواری.",
+        "debias": "رویدادهای تشییع جنازه و بستر سیاسی آن‌ها را بدون پیش‌فرض اینکه همه جنبه‌ها پیام‌رسانی محاسبه‌شده هستند، گزارش دهید.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "آهو کوچصفهانی، پژوهشگر روابط بین‌الملل و کارشناس ایران، مراسم تشییع جنازه علی خامنه‌ای را به‌عنوان نمایشی دقیقاً سازمان‌دهی‌شده از قدرت توسط جمهوری اسلامی تحلیل می‌کند.",
+        "example_url": "https://www.france24.com/en/behind-khamenei-s-funeral-iran-s-bid-to-show-strength",
+        "unbiased_text": "آهو کوچصفهانی، پژوهشگر روابط بین‌الملل و کارشناس ایران، مراسم تشییع جنازه علی خامنه‌ای و اهمیت سیاسی آن را تحلیل می‌کند.",
+        "pattern_en": "Funeral as power projection framing"
       }
     ]
   },
@@ -8718,6 +8773,40 @@
         "example_url": "http://www.euronews.com/culture/2026/07/09/erling-haalands-2016-rap-song-resurfaces-and-turns-into-viral-world-cup-hit",
         "unbiased_text": "یک آهنگ رپ با حضور فوتبالیست ارلینگ هالند از سال ۲۰۱۶ در طول حضور نروژ در جام جهانی به صورت آنلاین توجه جلب کرده است.",
         "pattern_en": "Rap song viral resurrection celebration"
+      },
+      {
+        "pattern": "تأکید بر تازگی فعال‌سازی طرح اضطراری شدید",
+        "detail": "مکانیسم‌های واکنش اضطراری دولت زمانی که برای دسته‌های جدیدی از بحران فعال می‌شوند، به‌عنوان استثنایی قاب‌بندی می‌شوند.",
+        "debias": "فعال‌سازی طرح اضطراری را به‌عنوان یک واکنش سیاستی بدون تأکید بر تازگی آن نسبت به ضرورت آن گزارش دهید.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "طرح اورسک یک مکانیسم واکنش اضطراری و امدادرسانی برای رویدادهای استثنایی است و عموماً در مورد بلایای طبیعی مانند سیل فعال شده است.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/10/french-government-activates-new-extreme-heat-orsec-plan-as-temperatures-rise",
+        "unbiased_text": "طرح اورسک یک مکانیسم واکنش اضطراری است که برای موج گرما فعال شده است.",
+        "pattern_en": "Extreme emergency plan activation novelty emphasis"
+      },
+      {
+        "pattern": "برچسب‌زنی حکم بی‌فایده بودن بازسازی فیلم",
+        "detail": "بازسازی‌های سرگرمی به‌صورت سردبیرانه محکوم می‌شوند که ذاتاً بی‌ارزش هستند به‌جای آنکه بر اساس کیفیت بررسی شوند.",
+        "debias": "بازسازی‌ها را بر اساس کیفیت اجرا بررسی کنید بدون اینکه پیش‌فرض بگیرید خود دسته‌بندی پروژه فاقد ارزش است.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "Disney همچنان به بازسازی لایو اکشن کلاسیک‌های انیمیشنی خود ادامه می‌دهد. 'Moana' آخرین - و جوان‌ترین - فیلمی است که قربانی استراتژی بدبینانه‌ای می‌شود که باید پایان یابد.",
+        "example_url": "http://www.euronews.com/culture/2026/07/10/euronews-cultures-film-of-the-week-moana-a-pointless-waste-of-time-and-money",
+        "unbiased_text": "بازسازی لایو اکشن Disney از 'Moana' الگوی استودیو در اقتباس فیلم‌های انیمیشنی‌اش را دنبال می‌کند.",
+        "detail_items": [],
+        "pattern_en": "Film remake pointlessness verdict labeling"
+      },
+      {
+        "pattern": "قاب‌بندی نقض رویه‌های پنهانی",
+        "detail": "رویه‌های قانون‌گذاری هنگامی که برای تصویب اقدامات مورد مناقشه استفاده می‌شوند، به‌عنوان دور زدن نامشروع قوانین توصیف می‌شوند.",
+        "debias": "مکانیسم رویه‌ای خاص مورد استفاده را بدون توصیف فرایندهای قانونی به‌عنوان نامشروع گزارش دهید.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "یک خلأ قانونی در رویه‌های پارلمانی به نمایندگان پارلمان اروپا اجازه داد تا اسکن انبوه ارتباطات خصوصی را تا سال ۲۰۲۶ تمدید کنند — بدون رأی‌گیری مستقیم درباره محتوای قانون.",
+        "example_url": "http://www.euronews.com/next/2026/07/10/chat-control-10-passed-the-european-parliament-through-the-back-door",
+        "unbiased_text": "نمایندگان پارلمان اروپا از یک رویه پارلمانی برای تمدید اسکن انبوه ارتباطات خصوصی تا سال ۲۰۲۶ بدون رأی‌گیری جداگانه درباره محتوا استفاده کردند.",
+        "pattern_en": "Back door procedure violation framing"
       }
     ]
   }

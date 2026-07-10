@@ -2966,6 +2966,36 @@
         "example_text": "Iranians gather in sweltering heat for Ayatollah Ali Khamenei's funeral in his hometown of Mashhad.",
         "example_url": "https://www.aljazeera.com/gallery/2026/7/9/photos-iran-to-bury-slain-supreme-leader-in-culmination-of-mass-funeral?traffic_source=rss",
         "unbiased_text": "Iranians gather for Ayatollah Ali Khamenei's funeral in his hometown of Mashhad, where temperatures reached high levels."
+      },
+      {
+        "pattern": "Geographic size comparison dramatization",
+        "detail": "Natural disasters are framed with geographic comparisons to Western countries to dramatize scale for international audiences.",
+        "debias": "Report the actual measurements and affected area without comparative geographic framing.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "As Super Typhoon Bavi approaches, residents in Taiwan, Japan and China have been stockpiling supplies.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/10/super-typhoon-as-wide-as-france-heads-to-east-asia?traffic_source=rss",
+        "unbiased_text": "Super Typhoon Bavi is approaching Taiwan, Japan and China, prompting residents to stockpile supplies."
+      },
+      {
+        "pattern": "Prison isolation death equivalence framing",
+        "detail": "Incarceration conditions are characterized as a form of death itself rather than describing specific harms.",
+        "debias": "Report documented harms and conditions without metaphorical death equivalences.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "A firsthand account shows how isolation and neglect can make incarceration a slow form of death in U.S. prisons.",
+        "example_url": "https://www.aljazeera.com/features/longform/2026/7/10/death-silence-and-survival-inside-new-jersey-state-prison?traffic_source=rss",
+        "unbiased_text": "A firsthand account describes conditions of isolation and neglect in a U.S. prison."
+      },
+      {
+        "pattern": "Electoral milestone democracy restoration framing",
+        "detail": "Elections after long gaps are framed as democratic breakthroughs without questioning underlying constraints.",
+        "debias": "Report election announcements while noting continuing restrictions on sovereignty or governance.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "First Palestinian legislative elections in 20 years announced",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/10/first-palestinian-legislative-elections-in-20-years-announced?traffic_source=rss",
+        "unbiased_text": "Palestinian legislative elections have been announced for the first time since 2006."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5190,6 +5220,26 @@
         "example_text": "Iran betting Trump 'doesn't have the stomach to go back to full-scale war'",
         "example_url": "https://www.france24.com/en/iran-betting-trump-doesn-t-have-the-stomach-to-go-back-to-full-scale-war",
         "unbiased_text": "Iran appears to be calculating that Trump faces political constraints that make full-scale war unlikely."
+      },
+      {
+        "pattern": "Intelligence revelation timing questioning",
+        "detail": "The timing of intelligence disclosures is questioned to suggest deliberate political manipulation.",
+        "debias": "Report intelligence sharing without speculating on motives behind disclosure timing.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "FRANCE 24 correspondent Noga Tarnopolsky says it is unclear how seriously Washington views the alleged threat, adding that the timing of the revelation raises questions over whether the US deliberately allowed the intelligence to become public.",
+        "example_url": "https://www.france24.com/en/israel-warns-us-of-alleged-iran-plot-to-assassinate-trump",
+        "unbiased_text": "FRANCE 24 correspondent Noga Tarnopolsky says it is unclear how seriously Washington views the alleged threat."
+      },
+      {
+        "pattern": "Funeral as power projection framing",
+        "detail": "State funeral ceremonies are analyzed primarily as strategic displays rather than mourning rituals.",
+        "debias": "Report funeral events and their political context without presuming all aspects are calculated messaging.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "Ahou Koutchesfahani, scholar in international relations and Iran expert, analyses the funeral ceremonies for Ali Khamenei as a carefully orchestrated display of power by the Islamic Republic.",
+        "example_url": "https://www.france24.com/en/behind-khamenei-s-funeral-iran-s-bid-to-show-strength",
+        "unbiased_text": "Ahou Koutchesfahani, scholar in international relations and Iran expert, analyses the funeral ceremonies for Ali Khamenei and their political significance."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -7863,6 +7913,36 @@
         "example_text": "Before he was spearheading Norway to their first-ever World Cup quarterfinal, MVP-contender Erling Haaland dabbled in rap. A song from 2016 has resurfaced and exploded online, racking up millions of views",
         "example_url": "http://www.euronews.com/culture/2026/07/09/erling-haalands-2016-rap-song-resurfaces-and-turns-into-viral-world-cup-hit",
         "unbiased_text": "A rap song featuring footballer Erling Haaland from 2016 has gained attention online during Norway's World Cup run."
+      },
+      {
+        "pattern": "Extreme emergency plan activation novelty emphasis",
+        "detail": "Government emergency response mechanisms are framed as exceptional when activated for new categories of crisis.",
+        "debias": "Report emergency plan activation as a policy response without emphasizing its novelty over necessity.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "The Orsec plan is an emergency response and relief mechanism for exceptional events, and has generally been activated in the case of natural disasters such as floods.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/10/french-government-activates-new-extreme-heat-orsec-plan-as-temperatures-rise",
+        "unbiased_text": "The Orsec plan is an emergency response mechanism that has been activated for the heatwave."
+      },
+      {
+        "pattern": "Film remake pointlessness verdict labeling",
+        "detail": "Entertainment remakes are editorially condemned as inherently worthless rather than reviewed on quality.",
+        "debias": "Review remakes based on execution quality without presuming the project category itself is without merit.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "Disney continues to live-action remake their animated classics. 'Moana' is the latest - and youngest - to fall foul to a cynical strategy which needs to end.",
+        "example_url": "http://www.euronews.com/culture/2026/07/10/euronews-cultures-film-of-the-week-moana-a-pointless-waste-of-time-and-money",
+        "unbiased_text": "Disney's live-action remake of 'Moana' follows the studio's pattern of adapting its animated films."
+      },
+      {
+        "pattern": "Back door procedure violation framing",
+        "detail": "Legislative procedures are characterized as illegitimate circumvention when used to pass contested measures.",
+        "debias": "Report the specific procedural mechanism used without characterizing lawful processes as illegitimate.",
+        "date_added": "2026-07-10",
+        "status": "suggested",
+        "example_text": "A loophole in parliamentary procedure allowed MEPs to extend mass scanning of private communications until 2026 — without a direct vote on the substance of the law.",
+        "example_url": "http://www.euronews.com/next/2026/07/10/chat-control-10-passed-the-european-parliament-through-the-back-door",
+        "unbiased_text": "MEPs used a parliamentary procedure to extend mass scanning of private communications until 2026 without a separate substantive vote."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
