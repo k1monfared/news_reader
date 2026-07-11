@@ -3336,6 +3336,28 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/10/first-palestinian-legislative-elections-in-20-years-announced?traffic_source=rss",
         "unbiased_text": "انتخابات قانون‌گذاری فلسطین برای اولین بار از سال ۲۰۰۶ اعلام شده است.",
         "pattern_en": "Electoral milestone democracy restoration framing"
+      },
+      {
+        "pattern": "قاب‌بندی تشدید بحران انرژی در بخش بهداشت و درمان",
+        "detail": "قاب‌بندی قطعی برق به‌عنوان امری که عمدتاً بر بیمارستان‌ها و مراقبت‌های پزشکی تأثیر می‌گذارد تا روایت بحران انسانی تشدید شود، به‌جای پوشش گسترده‌تر تأثیرات بر زیرساخت‌ها.",
+        "debias": "قطعی برق را با پوشش متناسب از تمام بخش‌های آسیب‌دیده شامل بهداشت و درمان، مناطق مسکونی و زیرساخت‌های تجاری گزارش دهید.",
+        "date_added": "2026-07-11",
+        "status": "suggested",
+        "example_text": "غزه از بحران انرژی رنج می‌برد که بر بیمارستان‌هایی که تلاش می‌کنند در میان بمباران اسرائیل به بیماران رسیدگی کنند، تأثیر می‌گذارد.",
+        "example_url": "https://www.aljazeera.com/features/2026/7/11/power-cuts-plunge-gaza-hospitals-into-darkness-as-israels-attacks-persist?traffic_source=rss",
+        "unbiased_text": "غزه قطعی برقی را تجربه می‌کند که بر بخش‌های متعدد از جمله بیمارستان‌ها، مناطق مسکونی و زیرساخت‌ها در میان درگیری‌های جاری تأثیر می‌گذارد.",
+        "pattern_en": "Energy crisis healthcare amplification framing"
+      },
+      {
+        "pattern": "تأکید بر قربانی شدن گردشگران خارجی در فاجعه",
+        "detail": "برجسته کردن ملیت خاص قربانیان فاجعه برای ایجاد چارچوب حادثه بین‌المللی به جای گزارش خنثی تلفات.",
+        "debias": "تلفات فاجعه را با ارقام واقعی گزارش کنید بدون تأکید بر ملیت قربانیان مگر اینکه مستقیماً به واکنش دیپلماتیک مرتبط باشد.",
+        "date_added": "2026-07-11",
+        "status": "suggested",
+        "example_text": "حادثه قایق تندرو در جنوب ویتنام ۱۵ گردشگر هندی را کشت",
+        "example_url": "https://www.aljazeera.com/news/2026/7/11/speedboat-accident-in-southern-vietnam-kills-15-indian-tourists?traffic_source=rss",
+        "unbiased_text": "حادثه قایق تندرو در جنوب ویتنام ۱۵ نفر را کشت",
+        "pattern_en": "Foreign tourist disaster victimization emphasis"
       }
     ]
   },
@@ -5802,6 +5824,29 @@
         "example_url": "https://www.france24.com/en/behind-khamenei-s-funeral-iran-s-bid-to-show-strength",
         "unbiased_text": "آهو کوچصفهانی، پژوهشگر روابط بین‌الملل و کارشناس ایران، مراسم تشییع جنازه علی خامنه‌ای و اهمیت سیاسی آن را تحلیل می‌کند.",
         "pattern_en": "Funeral as power projection framing"
+      },
+      {
+        "pattern": "ادعای انتساب پیام دوگانه به رژیم",
+        "detail": "نسبت دادن نیات پیام‌رسانی استراتژیک خاص به رویدادهای دولتی از طریق تفسیر کارشناسان به جای اقدامات قابل مشاهده.",
+        "debias": "رویدادها و مراسم دولتی را به صورت واقعی گزارش دهید بدون آنکه محاسبات پیام‌رسانی استراتژیک فاش نشده را به آنها نسبت دهید.",
+        "date_added": "2026-07-11",
+        "status": "suggested",
+        "example_text": "رژیم به دنبال ارسال دو پیام است: به جمعیت خود، با به نمایش گذاشتن کنترل و توانایی بسیج جمعیت انبوه، و به جامعه بین‌المللی، با تقویت تصویر خامنه‌ای به عنوان یک چهره ضد امپریالیست که در برابر ایالات متحده ایستاد.",
+        "example_url": "https://www.france24.com/en/behind-khamenei-s-funeral-iran-s-bid-to-show-strength",
+        "unbiased_text": "مراسم تشییع جنازه شامل گردهمایی‌های عمومی گسترده و حضور بین‌المللی بود که ناظران می‌گویند ممکن است اهداف سیاسی متعددی داشته باشد.",
+        "detail_items": [],
+        "pattern_en": "Dual-message regime projection assertion"
+      },
+      {
+        "pattern": "قاب‌بندی توطئه‌گرایانه نامرئی‌سازی جانشین",
+        "detail": "برخورد با غیبت از دید عمومی به‌عنوان امری ذاتاً مشکوک یا خبرساز برای القای بی‌ثباتی یا پرسش‌های مربوط به مشروعیت.",
+        "debias": "انتقال قدرت رهبری را با اطلاعات واقعی درباره انتصاب‌ها گزارش کنید بدون اینکه دوره‌های عادی عدم حضور عمومی را مشکوک جلوه دهید.",
+        "date_added": "2026-07-11",
+        "status": "suggested",
+        "example_text": "جانشین خامنه‌ای هنوز دیده نشده است در حالی که مراسم تشییع رهبر فقید به پایان می‌رسد",
+        "example_url": "https://www.france24.com/en/khamenei-successor-has-yet-to-be-seen-as-ex-ayatollah-s-funeral-comes-to-a-close",
+        "unbiased_text": "رهبر تازه منصوب ایران مجتبی خامنه‌ای در طول مراسم تشییع پدرش به‌طور علنی ظاهر نشد",
+        "pattern_en": "Successor invisibility conspiracy framing"
       }
     ]
   },
@@ -8807,6 +8852,28 @@
         "example_url": "http://www.euronews.com/next/2026/07/10/chat-control-10-passed-the-european-parliament-through-the-back-door",
         "unbiased_text": "نمایندگان پارلمان اروپا از یک رویه پارلمانی برای تمدید اسکن انبوه ارتباطات خصوصی تا سال ۲۰۲۶ بدون رأی‌گیری جداگانه درباره محتوا استفاده کردند.",
         "pattern_en": "Back door procedure violation framing"
+      },
+      {
+        "pattern": "قاب‌بندی نمایشی بستن نقاط دیدنی در موج گرما",
+        "detail": "تأکید بر بسته شدن نقاط دیدنی نمادین گردشگری به دلیل گرما برای تقویت درک بحران فراتر از گزارش هواشناسی.",
+        "debias": "گزارش بسته شدن مکان‌ها به دلیل گرما را به‌عنوان پروتکل‌های ایمنی معمول ارائه کنید، بدون اینکه جایگاه نمادین آن را به‌عنوان عاملی برای تشدید شدت موضوع مطرح کنید.",
+        "date_added": "2026-07-11",
+        "status": "suggested",
+        "example_text": "برج ایفل و سایر نقاط دیدنی پاریس با فرارسیدن موج گرمای دیگر در فرانسه زودتر بسته می‌شوند",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/11/eiffel-tower-and-other-paris-landmarks-to-close-early-as-another-heatwave-sweeps-france",
+        "unbiased_text": "پاریس در جریان موج گرما با افزایش دما، بستن زودهنگام مکان‌های عمومی را اجرا می‌کند",
+        "pattern_en": "Landmark closure heatwave dramatization framing"
+      },
+      {
+        "pattern": "تقویت تعلیق با کمی‌سازی مدت زمان گروگان‌گیری",
+        "detail": "تأکید بر مدت زمان دقیق موقعیت‌های گروگان‌گیری در تیترها برای نمایشی‌سازی حادثه به جای تمرکز بر حل و فصل آن.",
+        "debias": "موقعیت‌های گروگان‌گیری را با تمرکز بر حل و فصل و پیامدهای ایمنی گزارش کنید نه نمایشی‌سازی مبتنی بر زمان.",
+        "date_added": "2026-07-11",
+        "status": "suggested",
+        "example_text": "پلیس پس از ۱۱ ساعت محاصره در یک فروشگاه برلین، صندوقدار را نجات داد",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/11/police-surround-berlin-supermarket-after-woman-taken-hostage",
+        "unbiased_text": "پلیس پس از حل موقعیت گروگان‌گیری در فروشگاه برلین، صندوقدار را نجات داد",
+        "pattern_en": "Hostage duration quantification suspense amplification"
       }
     ]
   }

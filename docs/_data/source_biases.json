@@ -2996,6 +2996,26 @@
         "example_text": "First Palestinian legislative elections in 20 years announced",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/10/first-palestinian-legislative-elections-in-20-years-announced?traffic_source=rss",
         "unbiased_text": "Palestinian legislative elections have been announced for the first time since 2006."
+      },
+      {
+        "pattern": "Energy crisis healthcare amplification framing",
+        "detail": "Framing power outages as primarily affecting hospitals and medical care to amplify humanitarian crisis narrative rather than broader infrastructure impact.",
+        "debias": "Report power outages with proportional coverage of all affected sectors including healthcare, residential, and commercial infrastructure.",
+        "date_added": "2026-07-11",
+        "status": "suggested",
+        "example_text": "Gaza is suffering from an energy crisis, affecting hospitals struggling to treat patients amid Israeli bombing.",
+        "example_url": "https://www.aljazeera.com/features/2026/7/11/power-cuts-plunge-gaza-hospitals-into-darkness-as-israels-attacks-persist?traffic_source=rss",
+        "unbiased_text": "Gaza is experiencing power outages affecting multiple sectors including hospitals, residential areas, and infrastructure amid ongoing conflict."
+      },
+      {
+        "pattern": "Foreign tourist disaster victimization emphasis",
+        "detail": "Highlighting specific nationality of disaster victims to create international incident framing rather than reporting casualties neutrally.",
+        "debias": "Report disaster casualties with factual numbers without emphasizing victim nationalities unless directly relevant to diplomatic response.",
+        "date_added": "2026-07-11",
+        "status": "suggested",
+        "example_text": "Speedboat accident in southern Vietnam kills 15 Indian tourists",
+        "example_url": "https://www.aljazeera.com/news/2026/7/11/speedboat-accident-in-southern-vietnam-kills-15-indian-tourists?traffic_source=rss",
+        "unbiased_text": "Speedboat accident in southern Vietnam kills 15 people"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5240,6 +5260,26 @@
         "example_text": "Ahou Koutchesfahani, scholar in international relations and Iran expert, analyses the funeral ceremonies for Ali Khamenei as a carefully orchestrated display of power by the Islamic Republic.",
         "example_url": "https://www.france24.com/en/behind-khamenei-s-funeral-iran-s-bid-to-show-strength",
         "unbiased_text": "Ahou Koutchesfahani, scholar in international relations and Iran expert, analyses the funeral ceremonies for Ali Khamenei and their political significance."
+      },
+      {
+        "pattern": "Dual-message regime projection assertion",
+        "detail": "Attributing specific strategic messaging intentions to government events through expert interpretation rather than observable actions.",
+        "debias": "Report government events and ceremonies factually without attributing undisclosed strategic messaging calculations.",
+        "date_added": "2026-07-11",
+        "status": "suggested",
+        "example_text": "The regime is seeking to send two messages: to its own population, by showcasing its control and ability to mobilise large crowds, and to the international community, by reinforcing the image of Khamenei as an anti-imperialist figure who stood up to the United States.",
+        "example_url": "https://www.france24.com/en/behind-khamenei-s-funeral-iran-s-bid-to-show-strength",
+        "unbiased_text": "The funeral ceremonies featured large public gatherings and international attendance, which observers say may serve multiple political purposes."
+      },
+      {
+        "pattern": "Successor invisibility conspiracy framing",
+        "detail": "Treating absence from public view as inherently suspicious or newsworthy to suggest instability or legitimacy questions.",
+        "debias": "Report leadership transitions with factual information about appointments without treating normal periods without public appearances as suspicious.",
+        "date_added": "2026-07-11",
+        "status": "suggested",
+        "example_text": "Khamenei successor has yet to be seen as late ruler's funeral comes to a close",
+        "example_url": "https://www.france24.com/en/khamenei-successor-has-yet-to-be-seen-as-ex-ayatollah-s-funeral-comes-to-a-close",
+        "unbiased_text": "Iran's newly appointed leader Mojtaba Khamenei did not appear publicly during his father's funeral ceremonies"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -7943,6 +7983,26 @@
         "example_text": "A loophole in parliamentary procedure allowed MEPs to extend mass scanning of private communications until 2026 — without a direct vote on the substance of the law.",
         "example_url": "http://www.euronews.com/next/2026/07/10/chat-control-10-passed-the-european-parliament-through-the-back-door",
         "unbiased_text": "MEPs used a parliamentary procedure to extend mass scanning of private communications until 2026 without a separate substantive vote."
+      },
+      {
+        "pattern": "Landmark closure heatwave dramatization framing",
+        "detail": "Emphasizing closure of iconic tourist landmarks due to heat to amplify crisis perception beyond meteorological reporting.",
+        "debias": "Report heat-related closures as standard safety protocols without treating landmark status as escalating the severity.",
+        "date_added": "2026-07-11",
+        "status": "suggested",
+        "example_text": "Eiffel Tower and other Paris landmarks to close early as another heatwave sweeps France",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/11/eiffel-tower-and-other-paris-landmarks-to-close-early-as-another-heatwave-sweeps-france",
+        "unbiased_text": "Paris implements early closures for public sites as temperatures rise during heatwave"
+      },
+      {
+        "pattern": "Hostage duration quantification suspense amplification",
+        "detail": "Emphasizing precise duration of hostage situations in headlines to dramatize incident rather than focusing on resolution.",
+        "debias": "Report hostage situations with focus on resolution and safety outcomes rather than time-based dramatization.",
+        "date_added": "2026-07-11",
+        "status": "suggested",
+        "example_text": "Police rescue cashier after 11-hour hostage standoff at Berlin supermarket",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/11/police-surround-berlin-supermarket-after-woman-taken-hostage",
+        "unbiased_text": "Police rescue cashier after resolving hostage situation at Berlin supermarket"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
