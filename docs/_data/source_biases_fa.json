@@ -3358,6 +3358,28 @@
         "example_url": "https://www.aljazeera.com/news/2026/7/11/speedboat-accident-in-southern-vietnam-kills-15-indian-tourists?traffic_source=rss",
         "unbiased_text": "حادثه قایق تندرو در جنوب ویتنام ۱۵ نفر را کشت",
         "pattern_en": "Foreign tourist disaster victimization emphasis"
+      },
+      {
+        "pattern": "روایت ارتقای عنوان امیر پدر",
+        "detail": "استفاده مکرر از لقب تشریفاتی «امیر پدر» در تیترها و متن، حاکم درگذشته را به‌جای یک رهبر سیاسی، به‌عنوان یک شخصیت پدرانه ملی معرفی می‌کند.",
+        "debias": "از عنوان رسمی رهبر بدون قالب‌بندی خانوادگی که رابطه پدرسالارانه با شهروندان را تلقین می‌کند، استفاده کنید.",
+        "date_added": "2026-07-12",
+        "status": "suggested",
+        "example_text": "قطر امیر پدر شیخ حمد بن خلیفه آل ثانی را عزادار است",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/qatar-mourns-father-emir-sheikh-hamad-bin-khalifa-al-thani?traffic_source=rss",
+        "unbiased_text": "قطر امیر سابق شیخ حمد بن خلیفه آل ثانی را عزادار است",
+        "pattern_en": "Father Emir title elevation narrative"
+      },
+      {
+        "pattern": "قاب‌بندی مبهم بیماری ناگهانی",
+        "detail": "نسبت دادن مرگ یک چهره سیاسی برجسته به «بیماری ناگهانی» نامشخص بدون جزئیات پزشکی، ابهام روایی ایجاد می‌کند که می‌تواند سوق‌الظن‌ها را دامن بزند.",
+        "debias": "اطلاعات پزشکی موجود را گزارش کنید یا زمانی که جزئیات افشا نشده‌اند این موضوع را بدون استفاده از اصطلاحات مبهمی که حس رازآلودگی القا می‌کنند، تصریح نمایید.",
+        "date_added": "2026-07-12",
+        "status": "suggested",
+        "example_text": "سناتور جمهوری‌خواه آمریکا بر اثر یک بیماری ناگهانی درگذشت، دفتر او اعلام کرد. او ۷۱ ساله بود.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/12/us-senator-lindsey-graham-passes-away?traffic_source=rss",
+        "unbiased_text": "سناتور جمهوری‌خواه آمریکا در سن ۷۱ سالگی درگذشت، به گفته دفتر او که فوراً علت فوت را افشا نکرد.",
+        "pattern_en": "Sudden illness vagueness framing"
       }
     ]
   },
@@ -5847,6 +5869,17 @@
         "example_url": "https://www.france24.com/en/khamenei-successor-has-yet-to-be-seen-as-ex-ayatollah-s-funeral-comes-to-a-close",
         "unbiased_text": "رهبر تازه منصوب ایران مجتبی خامنه‌ای در طول مراسم تشییع پدرش به‌طور علنی ظاهر نشد",
         "pattern_en": "Successor invisibility conspiracy framing"
+      },
+      {
+        "pattern": "تقویت اعلام پایان توافق از طریق فعل وجهی",
+        "detail": "قاب‌بندی بیانیه یک رهبر مبنی بر اینکه یک توافق صلح «پایان یافته» به‌عنوان یک واقعیت قطعی به‌جای یک موضع مذاکره‌ای یا تهدید، تشدید درگیری را تقویت می‌کند.",
+        "debias": "چنین اعلامیه‌هایی را به‌عنوان بیانیه‌های سیاسی یا تاکتیک‌های مذاکره‌ای ارائه دهید نه حقایق مسلم، با ذکر این نکته که فرآیندهای دیپلماتیک اغلب ادامه می‌یابند.",
+        "date_added": "2026-07-12",
+        "status": "suggested",
+        "example_text": "رئیس‌جمهور آمریکا دونالد ترامپ روز سه‌شنبه تمایل خود را برای فروش جنگنده‌های F-35 به ترکیه اعلام کرد",
+        "example_url": "https://www.france24.com/en/netanyahu-warns-us-destroy-mideast-power-balance-trump-floats-f-35-jet-sale-turkey",
+        "unbiased_text": "رئیس‌جمهور آمریکا دونالد ترامپ روز سه‌شنبه گفت که در حال بررسی فروش جنگنده‌های F-35 به ترکیه است",
+        "pattern_en": "Deal-over declaration amplification through modal verb"
       }
     ]
   },
@@ -8874,6 +8907,17 @@
         "example_url": "http://www.euronews.com/my-europe/2026/07/11/police-surround-berlin-supermarket-after-woman-taken-hostage",
         "unbiased_text": "پلیس پس از حل موقعیت گروگان‌گیری در فروشگاه برلین، صندوقدار را نجات داد",
         "pattern_en": "Hostage duration quantification suspense amplification"
+      },
+      {
+        "pattern": "قاب‌بندی کم‌اهمیت‌جلوه‌دادن رکورد کلاه‌طاسی",
+        "detail": "ارائه شیرین‌کاری تبلیغاتی یک سلبریتی به‌عنوان دستاورد رکورد گینس، فعالیت بازاریابی تجاری را به‌عنوان دستاورد خبری قاب می‌زند.",
+        "debias": "رویدادهای تبلیغاتی را به‌عنوان فعالیت‌های تجاری گزارش دهید نه اینکه رکوردهای ساختگی را به‌عنوان دستاوردهای واقعی برجسته کنید.",
+        "date_added": "2026-07-12",
+        "status": "suggested",
+        "example_text": "رپر آمریکایی Pitbull رکورد بزرگ‌ترین تجمع افراد با کلاه طاسی را ثبت می‌کند",
+        "example_url": "http://www.euronews.com/culture/2026/07/11/us-rapper-pitbull-sets-record-for-largest-gathering-of-people-wearing-bald-caps",
+        "unbiased_text": "رپر آمریکایی Pitbull رویداد تبلیغاتی برگزار کرد که در آن ۲۲٬۱۴۱ طرفدار در یک کنسرت لندن کلاه طاسی به سر گذاشتند",
+        "pattern_en": "Bald cap record trivialization framing"
       }
     ]
   }

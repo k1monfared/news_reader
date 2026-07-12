@@ -3016,6 +3016,26 @@
         "example_text": "Speedboat accident in southern Vietnam kills 15 Indian tourists",
         "example_url": "https://www.aljazeera.com/news/2026/7/11/speedboat-accident-in-southern-vietnam-kills-15-indian-tourists?traffic_source=rss",
         "unbiased_text": "Speedboat accident in southern Vietnam kills 15 people"
+      },
+      {
+        "pattern": "Father Emir title elevation narrative",
+        "detail": "Using the honorific 'Father Emir' repeatedly in headlines and text frames the deceased ruler as a paternal national figure rather than a political leader.",
+        "debias": "Use the leader's official title without familial framing that implies a paternalistic relationship with citizens.",
+        "date_added": "2026-07-12",
+        "status": "suggested",
+        "example_text": "Qatar mourns Father Emir Sheikh Hamad bin Khalifa Al Thani",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/qatar-mourns-father-emir-sheikh-hamad-bin-khalifa-al-thani?traffic_source=rss",
+        "unbiased_text": "Qatar mourns former Emir Sheikh Hamad bin Khalifa Al Thani"
+      },
+      {
+        "pattern": "Sudden illness vagueness framing",
+        "detail": "Attributing a prominent political figure's death to unspecified 'sudden illness' without medical details creates narrative ambiguity that can fuel speculation.",
+        "debias": "Report available medical information or acknowledge when details are not disclosed, without using vague terms that suggest mystery.",
+        "date_added": "2026-07-12",
+        "status": "suggested",
+        "example_text": "The US Republican senator died of a sudden illness, his office said. He was 71.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/12/us-senator-lindsey-graham-passes-away?traffic_source=rss",
+        "unbiased_text": "The US Republican senator died at age 71, according to his office, which did not immediately disclose the cause of death."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5280,6 +5300,16 @@
         "example_text": "Khamenei successor has yet to be seen as late ruler's funeral comes to a close",
         "example_url": "https://www.france24.com/en/khamenei-successor-has-yet-to-be-seen-as-ex-ayatollah-s-funeral-comes-to-a-close",
         "unbiased_text": "Iran's newly appointed leader Mojtaba Khamenei did not appear publicly during his father's funeral ceremonies"
+      },
+      {
+        "pattern": "Deal-over declaration amplification through modal verb",
+        "detail": "Framing a leader's statement that a peace deal is 'over' as definitive fact rather than a negotiating position or threat amplifies conflict escalation.",
+        "debias": "Present such declarations as political statements or negotiating tactics rather than established facts, noting that diplomatic processes often continue.",
+        "date_added": "2026-07-12",
+        "status": "suggested",
+        "example_text": "US President Donald Trump on Tuesday announced his willingness to sell Turkey F-35 fighter jets",
+        "example_url": "https://www.france24.com/en/netanyahu-warns-us-destroy-mideast-power-balance-trump-floats-f-35-jet-sale-turkey",
+        "unbiased_text": "US President Donald Trump on Tuesday said he was considering selling Turkey F-35 fighter jets"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -8003,6 +8033,16 @@
         "example_text": "Police rescue cashier after 11-hour hostage standoff at Berlin supermarket",
         "example_url": "http://www.euronews.com/my-europe/2026/07/11/police-surround-berlin-supermarket-after-woman-taken-hostage",
         "unbiased_text": "Police rescue cashier after resolving hostage situation at Berlin supermarket"
+      },
+      {
+        "pattern": "Bald cap record trivialization framing",
+        "detail": "Presenting a celebrity's promotional stunt as a Guinness World Record achievement frames commercial marketing activity as newsworthy accomplishment.",
+        "debias": "Report promotional events as commercial activities rather than treating manufactured records as genuine achievements.",
+        "date_added": "2026-07-12",
+        "status": "suggested",
+        "example_text": "US rapper Pitbull sets record for largest gathering of people wearing bald caps",
+        "example_url": "http://www.euronews.com/culture/2026/07/11/us-rapper-pitbull-sets-record-for-largest-gathering-of-people-wearing-bald-caps",
+        "unbiased_text": "US rapper Pitbull held a promotional event where 22,141 fans wore bald caps at a London concert"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
