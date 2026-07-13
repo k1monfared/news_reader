@@ -3380,6 +3380,17 @@
         "example_url": "https://www.aljazeera.com/news/2026/7/12/us-senator-lindsey-graham-passes-away?traffic_source=rss",
         "unbiased_text": "سناتور جمهوری‌خواه آمریکا در سن ۷۱ سالگی درگذشت، به گفته دفتر او که فوراً علت فوت را افشا نکرد.",
         "pattern_en": "Sudden illness vagueness framing"
+      },
+      {
+        "pattern": "فرض بی‌طرفی سیستماتیک در قالب توضیحی",
+        "detail": "قاب‌بندی مقالات به عنوان «توضیح‌دهنده» بی‌طرف در حالی که از طریق تأکید انتخابی بر غیرقانونی بودن و حمایت از سیاست‌های خاص، مواضع دفاعیه‌ای را جاسازی می‌کند.",
+        "debias": "تشخیص دهید که قالب‌های توضیحی می‌توانند از طریق قاب‌بندی سؤالات و ساختار پاسخ‌ها سوگیری را جاسازی کنند؛ ارائه متوازن دیدگاه‌های حقوقی و سیاسی رقیب را تضمین کنید.",
+        "date_added": "2026-07-13",
+        "status": "suggested",
+        "example_text": "طرح اتحادیه اروپا برای قطع تجارت با شهرک‌های غیرقانونی اسرائیلی چیست؟ نشست وزرای خارجه ماه‌ها پس از آن برگزار می‌شود که اتحادیه اروپا به دلیل ساخت‌وساز شهرک‌ها در کرانه باختری، تحریم‌هایی علیه اسرائیل اعمال کرد.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/13/what-is-the-eus-plan-to-cut-trade-with-illegal-israeli-settlements?traffic_source=rss",
+        "unbiased_text": "طرح اتحادیه اروپا در خصوص تجارت با شهرک‌های اسرائیلی چیست؟ وزرای خارجه برای بحث درباره پیشنهادها گردهم می‌آیند، ماه‌ها پس از آن که اتحادیه اروپا به دلیل ساخت‌وساز شهرک‌ها در کرانه باختری، تحریم‌هایی علیه اسرائیل اعمال کرد.",
+        "pattern_en": "Explainer format systemic neutrality presumption"
       }
     ]
   },
@@ -5880,6 +5891,17 @@
         "example_url": "https://www.france24.com/en/netanyahu-warns-us-destroy-mideast-power-balance-trump-floats-f-35-jet-sale-turkey",
         "unbiased_text": "رئیس‌جمهور آمریکا دونالد ترامپ روز سه‌شنبه گفت که در حال بررسی فروش جنگنده‌های F-35 به ترکیه است",
         "pattern_en": "Deal-over declaration amplification through modal verb"
+      },
+      {
+        "pattern": "قاب‌بندی مزدوری مطالبه بازپرداخت",
+        "detail": "توصیف ارائه امنیت به‌عنوان امری که نیاز به پرداخت دارد، حضور نظامی را به‌جای یک اتحاد استراتژیک، به‌صورت معامله‌ای قاب‌بندی می‌کند.",
+        "debias": "ترتیبات امنیتی نظامی را در بستر استراتژیک خود ارائه دهید، نه با تأکید بر مطالبه پرداخت که انگیزه‌های مزدورانه را پیشنهاد می‌کند.",
+        "date_added": "2026-07-13",
+        "status": "suggested",
+        "example_text": "در یک مصاحبه تلفنی با Fox News روز دوشنبه، رئیس‌جمهور دونالد ترامپ گفت که ایالات متحده «احتمالاً سرپرست تنگه خواهد شد» و افزود که واشنگتن باید برای همین امر «بازپرداخت» شود.",
+        "example_url": "https://www.france24.com/en/video/20260713-middle-east-war-iran-claims-strikes-on-us-bases-in-multiple-countries",
+        "unbiased_text": "در یک مصاحبه تلفنی با Fox News روز دوشنبه، رئیس‌جمهور دونالد ترامپ گفت که ایالات متحده «احتمالاً سرپرست تنگه خواهد شد» و درباره ترتیبات تقسیم هزینه برای ماموریت امنیتی بحث کرد.",
+        "pattern_en": "Reimbursement demand mercenary framing"
       }
     ]
   },
@@ -8918,6 +8940,28 @@
         "example_url": "http://www.euronews.com/culture/2026/07/11/us-rapper-pitbull-sets-record-for-largest-gathering-of-people-wearing-bald-caps",
         "unbiased_text": "رپر آمریکایی Pitbull رویداد تبلیغاتی برگزار کرد که در آن ۲۲٬۱۴۱ طرفدار در یک کنسرت لندن کلاه طاسی به سر گذاشتند",
         "pattern_en": "Bald cap record trivialization framing"
+      },
+      {
+        "pattern": "کم‌اهمیت‌جلوه‌دادن رتبه‌بندی گروه‌های موسیقی برای انسانی‌سازی چهره‌های سیاسی",
+        "detail": "استفاده از ترجیحات سرگرمی چهره‌های سیاسی برای ساختن روایت‌های قابل‌ارتباط که از بررسی دقیق سیاست‌ها منحرف می‌کند.",
+        "debias": "پوشش ترجیحات سرگرمی چهره‌های سیاسی را به زمینه‌های اساسی محدود کنید؛ از انسانی‌سازی شخصیت‌محور از طریق رتبه‌بندی سلیقه‌های فرهنگی خودداری کنید.",
+        "date_added": "2026-07-13",
+        "status": "suggested",
+        "example_text": "Andy Burnham در مصاحبه‌ای اخیر، گروه‌های موسیقی بریتانیایی مورد علاقه خود را به صورت کورکورانه رتبه‌بندی کرده و بینش بیشتری از عادات شنیداری خود به مردم ارائه داده است.",
+        "example_url": "http://www.euronews.com/culture/2026/07/13/prime-minister-to-be-andy-burnham-ranks-his-favourite-bands",
+        "unbiased_text": "Andy Burnham در مصاحبه‌ای اخیر درباره ترجیحات موسیقی خود صحبت کرد.",
+        "pattern_en": "Band ranking trivialization political figure humanization"
+      },
+      {
+        "pattern": "قاب‌بندی تبلیغاتی شیرینی موزه کره بادام‌زمینی",
+        "detail": "برخورد با چیدمان‌های هنری موزه‌ها به‌عنوان شگردهای عجیب و غریب به‌جای بیانیه‌های هنری مفهومی که شایسته تعامل انتقادی هستند.",
+        "debias": "چیدمان‌های هنری را با توضیح محتوایی درباره قصد هنرمند و چارچوب مفهومی ارائه کنید نه این‌که مواد استفاده‌شده را سنسیشنال جلوه دهید.",
+        "date_added": "2026-07-13",
+        "status": "suggested",
+        "example_text": "«مواظب قسمت چسبنده باش!»: چرا این موزه هلندی کف را با کره بادام‌زمینی پوشانده است؟ دوست دارید یک خوراکی چسبنده و بادامی بخورید؟ این موزه هلندی شاید بتواند کمک‌تان کند.",
+        "example_url": "http://www.euronews.com/culture/2026/07/13/mind-the-sticky-patch-why-has-this-dutch-museum-covered-the-floor-in-peanut-butter",
+        "unbiased_text": "یک موزه هلندی اثر هنری با استفاده از کره بادام‌زمینی که کف را می‌پوشاند نصب کرده است. موزه Boijmans Van Beuningen از چهل ظرف به‌عنوان بخشی از یک چیدمان هنر معاصر استفاده کرده است.",
+        "pattern_en": "Peanut butter museum stunt promotional framing"
       }
     ]
   }

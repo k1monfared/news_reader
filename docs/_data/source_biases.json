@@ -3036,6 +3036,16 @@
         "example_text": "The US Republican senator died of a sudden illness, his office said. He was 71.",
         "example_url": "https://www.aljazeera.com/news/2026/7/12/us-senator-lindsey-graham-passes-away?traffic_source=rss",
         "unbiased_text": "The US Republican senator died at age 71, according to his office, which did not immediately disclose the cause of death."
+      },
+      {
+        "pattern": "Explainer format systemic neutrality presumption",
+        "detail": "Framing articles as neutral 'explainers' while embedding advocacy positions through selective emphasis on illegality and policy advocacy.",
+        "debias": "Recognize that explainer formats can embed bias through question framing and answer structure; ensure balanced presentation of competing legal and policy perspectives.",
+        "date_added": "2026-07-13",
+        "status": "suggested",
+        "example_text": "What is the EU's plan to cut trade with illegal Israeli settlements? Foreign ministers' meeting comes months after the EU imposed sanctions on Israel over West Bank settlement construction.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/13/what-is-the-eus-plan-to-cut-trade-with-illegal-israeli-settlements?traffic_source=rss",
+        "unbiased_text": "What is the EU's plan regarding trade with Israeli settlements? Foreign ministers meet to discuss proposals, months after the EU imposed sanctions on Israel over West Bank settlement construction."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5310,6 +5320,16 @@
         "example_text": "US President Donald Trump on Tuesday announced his willingness to sell Turkey F-35 fighter jets",
         "example_url": "https://www.france24.com/en/netanyahu-warns-us-destroy-mideast-power-balance-trump-floats-f-35-jet-sale-turkey",
         "unbiased_text": "US President Donald Trump on Tuesday said he was considering selling Turkey F-35 fighter jets"
+      },
+      {
+        "pattern": "Reimbursement demand mercenary framing",
+        "detail": "Characterizing security provision as requiring payment frames military presence as transactional rather than strategic alliance.",
+        "debias": "Present military security arrangements in their strategic context rather than emphasizing payment demands that suggest mercenary motivations.",
+        "date_added": "2026-07-13",
+        "status": "suggested",
+        "example_text": "In a telephone interview with Fox News on Monday, President Donald Trump said that the US will \"probably become the guardian of the strait,\" adding that Washington should be \"reimbursed\" for the same.",
+        "example_url": "https://www.france24.com/en/video/20260713-middle-east-war-iran-claims-strikes-on-us-bases-in-multiple-countries",
+        "unbiased_text": "In a telephone interview with Fox News on Monday, President Donald Trump said that the US will \"probably become the guardian of the strait\" and discussed cost-sharing arrangements for the security mission."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -8043,6 +8063,26 @@
         "example_text": "US rapper Pitbull sets record for largest gathering of people wearing bald caps",
         "example_url": "http://www.euronews.com/culture/2026/07/11/us-rapper-pitbull-sets-record-for-largest-gathering-of-people-wearing-bald-caps",
         "unbiased_text": "US rapper Pitbull held a promotional event where 22,141 fans wore bald caps at a London concert"
+      },
+      {
+        "pattern": "Band ranking trivialization political figure humanization",
+        "detail": "Using entertainment preferences of political figures to construct relatability narratives that distract from policy scrutiny.",
+        "debias": "Limit coverage of political figures' entertainment preferences to substantive contexts; avoid personality-focused humanization through cultural taste rankings.",
+        "date_added": "2026-07-13",
+        "status": "suggested",
+        "example_text": "Andy Burnham has blind-ranked his favourite British bands in a recent interview, giving the public further insight into his listening habits.",
+        "example_url": "http://www.euronews.com/culture/2026/07/13/prime-minister-to-be-andy-burnham-ranks-his-favourite-bands",
+        "unbiased_text": "Andy Burnham discussed his music preferences in a recent interview."
+      },
+      {
+        "pattern": "Peanut butter museum stunt promotional framing",
+        "detail": "Treating museum art installations as quirky stunts rather than conceptual artistic statements deserving critical engagement.",
+        "debias": "Present art installations with substantive explanation of artistic intent and conceptual framework rather than sensationalizing materials used.",
+        "date_added": "2026-07-13",
+        "status": "suggested",
+        "example_text": "'Mind the sticky patch!': Why has this Dutch museum covered the floor in peanut butter? Fancy a sticky, nutty treat? This Dutch museum might be able to help.",
+        "example_url": "http://www.euronews.com/culture/2026/07/13/mind-the-sticky-patch-why-has-this-dutch-museum-covered-the-floor-in-peanut-butter",
+        "unbiased_text": "A Dutch museum has installed an artwork using peanut butter covering the floor. The Museum Boijmans Van Beuningen used forty tubs as part of a contemporary art installation."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
