@@ -3046,6 +3046,26 @@
         "example_text": "What is the EU's plan to cut trade with illegal Israeli settlements? Foreign ministers' meeting comes months after the EU imposed sanctions on Israel over West Bank settlement construction.",
         "example_url": "https://www.aljazeera.com/news/2026/7/13/what-is-the-eus-plan-to-cut-trade-with-illegal-israeli-settlements?traffic_source=rss",
         "unbiased_text": "What is the EU's plan regarding trade with Israeli settlements? Foreign ministers meet to discuss proposals, months after the EU imposed sanctions on Israel over West Bank settlement construction."
+      },
+      {
+        "pattern": "Blockade reversal labeling through reinstatement",
+        "detail": "Framing a new policy as a 'reinstatement' implies it existed before and is merely being restored, rather than presenting it as a new action or escalation.",
+        "debias": "State the action as new policy implementation without implying prior legitimacy through 'reinstatement' framing.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "US President Donald Trump says he is reinstating a blockade on Iran in the Strait of Hormuz",
+        "example_url": "https://www.aljazeera.com/economy/2026/7/14/how-new-yemen-tensions-could-complicate-the-global-energy-crisis?traffic_source=rss",
+        "unbiased_text": "US President Donald Trump says he is imposing a blockade on Iran in the Strait of Hormuz"
+      },
+      {
+        "pattern": "Criminal complaint elevation diplomatic action",
+        "detail": "Elevating a government's filing of criminal complaints to headline status frames a diplomatic dispute as a matter of criminal justice, strengthening the accusatory narrative.",
+        "debias": "Report diplomatic or legal actions neutrally without criminal justice framing that prejudges outcomes.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "Mexico files criminal complaints over migrant deaths during ICE operations",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/mexico-files-criminal-complaints-over-migrant-deaths-during-ice-operations?traffic_source=rss",
+        "unbiased_text": "Mexico formally protests migrant deaths during ICE operations"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5330,6 +5350,36 @@
         "example_text": "In a telephone interview with Fox News on Monday, President Donald Trump said that the US will \"probably become the guardian of the strait,\" adding that Washington should be \"reimbursed\" for the same.",
         "example_url": "https://www.france24.com/en/video/20260713-middle-east-war-iran-claims-strikes-on-us-bases-in-multiple-countries",
         "unbiased_text": "In a telephone interview with Fox News on Monday, President Donald Trump said that the US will \"probably become the guardian of the strait\" and discussed cost-sharing arrangements for the security mission."
+      },
+      {
+        "pattern": "Retaliation chain causation emphasis",
+        "detail": "Emphasizing that an action is 'in retaliation' for another foregrounds the reactive nature while potentially obscuring the initial action's context or legitimacy.",
+        "debias": "Present both actions with equal contextual weight without privileging retaliation narrative structure.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "Houthis launch missiles at Saudi Arabia, in retaliation for Sanaa airport strikes",
+        "example_url": "https://www.france24.com/en/houthis-launch-missiles-at-saudi-arabia-in-retaliation-for-sanaa-airport-strikes",
+        "unbiased_text": "Houthis launch missiles at Saudi Arabia following Sanaa airport strikes"
+      },
+      {
+        "pattern": "Mockery verb choice diplomatic dismissal",
+        "detail": "Using verbs like 'mockingly pledged' to describe an adversary's statement frames their position as insincere or ridiculous rather than presenting it neutrally.",
+        "debias": "Report opposing statements without editorial characterization of tone or intent.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "Tehran mockingly pledged to charge a lower rate for passage through the strategic waterway",
+        "example_url": "https://www.france24.com/en/trump-reimposes-iran-naval-blockade-threatens-hormuz-fees",
+        "unbiased_text": "Tehran pledged to charge a lower rate for passage through the strategic waterway"
+      },
+      {
+        "pattern": "Double-day strike escalation quantification",
+        "detail": "Quantifying attacks across 'two days' or similar short timeframes creates an impression of intensification that may not reflect longer-term patterns.",
+        "debias": "Provide strike data in broader temporal context to avoid artificial escalation framing.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "According to Iran's health ministry, the two days of US attacks have killed at least 14 people and injured more than 70",
+        "example_url": "https://www.france24.com/en/iran-claims-us-strike-hit-near-nuclear-powerplant",
+        "unbiased_text": "According to Iran's health ministry, recent US attacks have killed at least 14 people and injured more than 70"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -8083,6 +8133,36 @@
         "example_text": "'Mind the sticky patch!': Why has this Dutch museum covered the floor in peanut butter? Fancy a sticky, nutty treat? This Dutch museum might be able to help.",
         "example_url": "http://www.euronews.com/culture/2026/07/13/mind-the-sticky-patch-why-has-this-dutch-museum-covered-the-floor-in-peanut-butter",
         "unbiased_text": "A Dutch museum has installed an artwork using peanut butter covering the floor. The Museum Boijmans Van Beuningen used forty tubs as part of a contemporary art installation."
+      },
+      {
+        "pattern": "Sports delay geopolitical causation attribution",
+        "detail": "Attributing routine sports scheduling adjustments to geopolitical events frames the conflict as disrupting normal life when the connection may be incidental.",
+        "debias": "Report scheduling changes factually without amplifying geopolitical disruption narratives.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "World Cup semifinals delay Barcelona's, Real Madrid's La Liga starts",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/14/world-cup-semifinals-barcelona-real-madrid-la-liga-yamal-mbappe-bellingham?traffic_source=rss",
+        "unbiased_text": "Barcelona's and Real Madrid's La Liga starts scheduled after World Cup semifinals"
+      },
+      {
+        "pattern": "Priciest-ever superlative financial dramatization",
+        "detail": "Framing a sports match as the 'priciest' or 'most expensive' based on player market values creates financial spectacle framing that may distort sporting significance.",
+        "debias": "Report player valuations as background context rather than headline dramatization.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "Tuesday's clash between France and Spain in Texas is not just a footballing spectacle, it is also, by market value, the costliest semi-final the World Cup has staged, with the two squads worth a combined $3.2 billion (€2.8bn)",
+        "example_url": "http://www.euronews.com/business/2026/07/14/france-and-spain-meet-in-the-most-expensive-world-cup-semi-final-in-history",
+        "unbiased_text": "Tuesday's semi-final between France and Spain in Texas features two squads with a combined market value of approximately $3.2 billion (€2.8bn)"
+      },
+      {
+        "pattern": "Strike-versus-bombings asymmetric terminology",
+        "detail": "Describing US actions as 'strikes' while referring to Iranian actions as 'attacks' creates a linguistic asymmetry that can suggest differing legitimacy.",
+        "debias": "Use consistent terminology for military actions by all parties, or specify the nature of each action equally.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "The United States launched fresh air strikes on Iran early Thursday, prompting Tehran to fire missiles",
+        "example_url": "https://www.france24.com/en/middle-east/20260710-us-iran-conflict-escalates-missile-strikes-threaten-middle-east-ceasefire",
+        "unbiased_text": "The United States launched fresh air strikes on Iran early Thursday, prompting Tehran to launch missiles"
       }
     ],
     "notes": "Reliable but limited conflict coverage"

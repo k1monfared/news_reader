@@ -3391,6 +3391,28 @@
         "example_url": "https://www.aljazeera.com/news/2026/7/13/what-is-the-eus-plan-to-cut-trade-with-illegal-israeli-settlements?traffic_source=rss",
         "unbiased_text": "طرح اتحادیه اروپا در خصوص تجارت با شهرک‌های اسرائیلی چیست؟ وزرای خارجه برای بحث درباره پیشنهادها گردهم می‌آیند، ماه‌ها پس از آن که اتحادیه اروپا به دلیل ساخت‌وساز شهرک‌ها در کرانه باختری، تحریم‌هایی علیه اسرائیل اعمال کرد.",
         "pattern_en": "Explainer format systemic neutrality presumption"
+      },
+      {
+        "pattern": "برچسب‌زنی به معکوس‌سازی محاصره از طریق بازگرداندن",
+        "detail": "قاب‌بندی یک سیاست جدید به‌عنوان «بازگرداندن» به این معناست که قبلاً وجود داشته و صرفاً در حال بازیابی است، به‌جای ارائه آن به‌عنوان یک اقدام جدید یا تشدید.",
+        "debias": "اقدام را به‌عنوان اجرای سیاست جدید بیان کنید بدون اینکه از طریق قاب‌بندی «بازگرداندن» مشروعیت قبلی را القا کنید.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "رئیس‌جمهور آمریکا دونالد ترامپ می‌گوید که محاصره ایران در تنگه هرمز را بازگردانده است",
+        "example_url": "https://www.aljazeera.com/economy/2026/7/14/how-new-yemen-tensions-could-complicate-the-global-energy-crisis?traffic_source=rss",
+        "unbiased_text": "رئیس‌جمهور آمریکا دونالد ترامپ می‌گوید که محاصره‌ای را بر ایران در تنگه هرمز اعمال می‌کند",
+        "pattern_en": "Blockade reversal labeling through reinstatement"
+      },
+      {
+        "pattern": "ارتقای شکایت کیفری به اقدام دیپلماتیک",
+        "detail": "برجسته کردن ثبت شکایت‌های کیفری یک دولت در تیتر خبر، اختلاف دیپلماتیک را به عنوان موضوعی مربوط به عدالت کیفری قاب‌بندی می‌کند و روایت اتهامی را تقویت می‌کند.",
+        "debias": "اقدامات دیپلماتیک یا حقوقی را به صورت خنثی و بدون قاب‌بندی عدالت کیفری که از پیش نتایج را قضاوت می‌کند، گزارش دهید.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "مکزیک درباره مرگ مهاجران در عملیات ICE شکایت کیفری ثبت می‌کند",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/mexico-files-criminal-complaints-over-migrant-deaths-during-ice-operations?traffic_source=rss",
+        "unbiased_text": "مکزیک رسماً به مرگ مهاجران در عملیات ICE اعتراض می‌کند",
+        "pattern_en": "Criminal complaint elevation diplomatic action"
       }
     ]
   },
@@ -5902,6 +5924,39 @@
         "example_url": "https://www.france24.com/en/video/20260713-middle-east-war-iran-claims-strikes-on-us-bases-in-multiple-countries",
         "unbiased_text": "در یک مصاحبه تلفنی با Fox News روز دوشنبه، رئیس‌جمهور دونالد ترامپ گفت که ایالات متحده «احتمالاً سرپرست تنگه خواهد شد» و درباره ترتیبات تقسیم هزینه برای ماموریت امنیتی بحث کرد.",
         "pattern_en": "Reimbursement demand mercenary framing"
+      },
+      {
+        "pattern": "تأکید بر علیت زنجیره‌ای تلافی‌جویی",
+        "detail": "تأکید بر اینکه یک اقدام «در تلافی» اقدام دیگری صورت گرفته، ماهیت واکنشی را در پیش‌زمینه قرار می‌دهد و احتمالاً زمینه یا مشروعیت اقدام اولیه را مبهم می‌سازد.",
+        "debias": "هر دو اقدام را با وزن زمینه‌ای برابر ارائه دهید بدون اینکه ساختار روایی تلافی را امتیاز دهید.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "حوثی‌ها موشک به سمت عربستان سعودی شلیک می‌کنند، در تلافی حملات به فرودگاه صنعا",
+        "example_url": "https://www.france24.com/en/houthis-launch-missiles-at-saudi-arabia-in-retaliation-for-sanaa-airport-strikes",
+        "unbiased_text": "حوثی‌ها پس از حملات به فرودگاه صنعا موشک به سمت عربستان سعودی شلیک می‌کنند",
+        "pattern_en": "Retaliation chain causation emphasis"
+      },
+      {
+        "pattern": "انتخاب فعل تمسخرآمیز برای رد دیپلماتیک",
+        "detail": "استفاده از افعالی مانند «به طور تمسخرآمیز متعهد شد» برای توصیف بیانیه یک طرف مقابل، موضع آن‌ها را به جای ارائه خنثی، غیرصادقانه یا مضحک جلوه می‌دهد.",
+        "debias": "بیانیه‌های طرف مقابل را بدون توصیف سردبیرانه لحن یا قصد گزارش دهید.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "تهران به طور تمسخرآمیز متعهد شد که نرخ پایین‌تری برای عبور از این آبراه استراتژیک دریافت کند",
+        "example_url": "https://www.france24.com/en/trump-reimposes-iran-naval-blockade-threatens-hormuz-fees",
+        "unbiased_text": "تهران متعهد شد که نرخ پایین‌تری برای عبور از این آبراه استراتژیک دریافت کند",
+        "pattern_en": "Mockery verb choice diplomatic dismissal"
+      },
+      {
+        "pattern": "کمی‌سازی تشدید حملات دو روزه",
+        "detail": "کمی کردن حملات در «دو روز» یا بازه‌های زمانی کوتاه مشابه، برداشتی از تشدید ایجاد می‌کند که ممکن است منعکس‌کننده الگوهای بلندمدت‌تر نباشد.",
+        "debias": "داده‌های حمله را در بستر زمانی گسترده‌تری ارائه دهید تا از قاب‌بندی مصنوعی تشدید اجتناب شود.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "به گفته وزارت بهداشت ایران، دو روز حملات ایالات متحده دست‌کم ۱۴ کشته و بیش از ۷۰ زخمی برجای گذاشته است",
+        "example_url": "https://www.france24.com/en/iran-claims-us-strike-hit-near-nuclear-powerplant",
+        "unbiased_text": "به گفته وزارت بهداشت ایران، حملات اخیر ایالات متحده دست‌کم ۱۴ کشته و بیش از ۷۰ زخمی برجای گذاشته است",
+        "pattern_en": "Double-day strike escalation quantification"
       }
     ]
   },
@@ -8962,6 +9017,39 @@
         "example_url": "http://www.euronews.com/culture/2026/07/13/mind-the-sticky-patch-why-has-this-dutch-museum-covered-the-floor-in-peanut-butter",
         "unbiased_text": "یک موزه هلندی اثر هنری با استفاده از کره بادام‌زمینی که کف را می‌پوشاند نصب کرده است. موزه Boijmans Van Beuningen از چهل ظرف به‌عنوان بخشی از یک چیدمان هنر معاصر استفاده کرده است.",
         "pattern_en": "Peanut butter museum stunt promotional framing"
+      },
+      {
+        "pattern": "انتساب علّی تأخیر ورزشی به رویدادهای ژئوپلیتیک",
+        "detail": "نسبت دادن تنظیمات معمول برنامه‌ریزی ورزشی به رویدادهای ژئوپلیتیک، درگیری را به‌عنوان عاملی که زندگی عادی را مختل می‌کند قاب‌بندی می‌کند، در حالی که این ارتباط ممکن است اتفاقی باشد.",
+        "debias": "تغییرات برنامه‌ریزی را به‌صورت واقعی گزارش کنید بدون تقویت روایت‌های اختلال ژئوپلیتیک.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "نیمه‌نهایی جام جهانی شروع لالیگا بارسلونا و رئال مادرید را به تأخیر می‌اندازد",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/14/world-cup-semifinals-barcelona-real-madrid-la-liga-yamal-mbappe-bellingham?traffic_source=rss",
+        "unbiased_text": "شروع لالیگا بارسلونا و رئال مادرید بعد از نیمه‌نهایی جام جهانی برنامه‌ریزی شده است",
+        "pattern_en": "Sports delay geopolitical causation attribution"
+      },
+      {
+        "pattern": "نمایش‌سازی مالی با استفاده از صفت عالی «گران‌ترین»",
+        "detail": "قاب‌بندی یک مسابقه ورزشی به عنوان «گران‌ترین» یا «گران‌قیمت‌ترین» بر اساس ارزش بازار بازیکنان، نوعی قاب‌بندی نمایشی مالی ایجاد می‌کند که ممکن است اهمیت ورزشی را تحریف کند.",
+        "debias": "ارزش‌گذاری بازیکنان را به عنوان زمینه پس‌زمینه‌ای گزارش کنید نه نمایش‌سازی تیتر.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "رویارویی روز سه‌شنبه بین فرانسه و اسپانیا در تگزاس نه تنها یک نمایش فوتبالی است، بلکه بر اساس ارزش بازار، گران‌ترین نیمه‌نهایی است که جام جهانی برگزار کرده است، با ارزش ترکیبی ۳.۲ میلیارد دلار (۲.۸ میلیارد یورو) برای دو تیم",
+        "example_url": "http://www.euronews.com/business/2026/07/14/france-and-spain-meet-in-the-most-expensive-world-cup-semi-final-in-history",
+        "unbiased_text": "نیمه‌نهایی روز سه‌شنبه بین فرانسه و اسپانیا در تگزاس دو تیم با ارزش بازار ترکیبی تقریباً ۳.۲ میلیارد دلار (۲.۸ میلیارد یورو) را در مقابل هم قرار می‌دهد",
+        "pattern_en": "Priciest-ever superlative financial dramatization"
+      },
+      {
+        "pattern": "اصطلاح‌شناسی نامتقارن حمله در برابر بمباران",
+        "detail": "توصیف اقدامات ایالات متحده به عنوان «حملات هوایی» در حالی که به اقدامات ایران به عنوان «حملات» اشاره می‌شود، نامتقارنی زبانی ایجاد می‌کند که می‌تواند مشروعیت متفاوتی را نشان دهد.",
+        "debias": "از اصطلاحات یکسان برای اقدامات نظامی همه طرف‌ها استفاده کنید، یا ماهیت هر اقدام را به طور برابر مشخص کنید.",
+        "date_added": "2026-07-14",
+        "status": "suggested",
+        "example_text": "ایالات متحده صبح پنج‌شنبه حملات هوایی جدیدی را علیه ایران آغاز کرد که باعث شد تهران موشک‌هایی شلیک کند",
+        "example_url": "https://www.france24.com/en/middle-east/20260710-us-iran-conflict-escalates-missile-strikes-threaten-middle-east-ceasefire",
+        "unbiased_text": "ایالات متحده صبح پنج‌شنبه حملات هوایی جدیدی را علیه ایران آغاز کرد که باعث شد تهران موشک‌هایی پرتاب کند",
+        "pattern_en": "Strike-versus-bombings asymmetric terminology"
       }
     ]
   }
