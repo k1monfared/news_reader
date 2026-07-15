@@ -3066,6 +3066,26 @@
         "example_text": "Mexico files criminal complaints over migrant deaths during ICE operations",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/mexico-files-criminal-complaints-over-migrant-deaths-during-ice-operations?traffic_source=rss",
         "unbiased_text": "Mexico formally protests migrant deaths during ICE operations"
+      },
+      {
+        "pattern": "Governmental inheritance nepotism naturalization",
+        "detail": "Frames hereditary political succession as automatic institutional process without highlighting its departure from democratic norms.",
+        "debias": "Explicitly identify hereditary political succession as exceptional and contrast with standard democratic selection processes.",
+        "date_added": "2026-07-15",
+        "status": "suggested",
+        "example_text": "The late senator's sister, the politically inexperienced Darline Graham Nordone, has inherited his office and powers.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/15/why-has-lindsey-grahams-sister-inherited-his-senate-seat-after-his-death",
+        "unbiased_text": "The late senator's sister, the politically inexperienced Darline Graham Nordone, has been appointed to temporarily fill his office under South Carolina's unusual hereditary succession law, which differs from the standard democratic practice of special elections or gubernatorial appointments of qualified candidates."
+      },
+      {
+        "pattern": "Tariff threat causation attribution",
+        "detail": "Attributes national economic crisis exclusively to foreign policy threats rather than acknowledging multiple contributing factors.",
+        "debias": "Present foreign policy actions as one factor among multiple structural and historical causes of economic conditions.",
+        "date_added": "2026-07-15",
+        "status": "suggested",
+        "example_text": "Fuel has been scarce across Cuba since January, when US President Donald Trump threatened to impose tariffs on any nation that supplies or sells oil to the island, exacerbating the island's continuing financial and economic crises.",
+        "example_url": "http://www.euronews.com/2026/07/15/cuba-plunged-into-third-nationwide-blackout-in-two-weeks-as-power-grid-collapses",
+        "unbiased_text": "Fuel has been scarce across Cuba since January, when US President Donald Trump threatened to impose tariffs on any nation that supplies or sells oil to the island. Cuba has faced continuing financial and economic crises due to multiple factors including infrastructure deterioration, existing US sanctions, and limited access to international credit."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5343,8 +5363,8 @@
       },
       {
         "pattern": "Reimbursement demand mercenary framing",
-        "detail": "Characterizing security provision as requiring payment frames military presence as transactional rather than strategic alliance.",
-        "debias": "Present military security arrangements in their strategic context rather than emphasizing payment demands that suggest mercenary motivations.",
+        "detail": "Characterizing security provision as requiring payment frames military presence as transactional rather than strategic alliance. Also: Frames security provision as transactional service requiring payment rather than as international obligation or strategic interest.",
+        "debias": "Present military security arrangements in their strategic context rather than emphasizing payment demands that suggest mercenary motivations. Present security arrangements in terms of strategic interests and international norms rather than mercenary-style compensation language.",
         "date_added": "2026-07-13",
         "status": "suggested",
         "example_text": "In a telephone interview with Fox News on Monday, President Donald Trump said that the US will \"probably become the guardian of the strait,\" adding that Washington should be \"reimbursed\" for the same.",
@@ -5380,6 +5400,16 @@
         "example_text": "According to Iran's health ministry, the two days of US attacks have killed at least 14 people and injured more than 70",
         "example_url": "https://www.france24.com/en/iran-claims-us-strike-hit-near-nuclear-powerplant",
         "unbiased_text": "According to Iran's health ministry, recent US attacks have killed at least 14 people and injured more than 70"
+      },
+      {
+        "pattern": "Targeted attack revelation timing emphasis",
+        "detail": "Highlights delayed official acknowledgment of attack motivation to suggest initial characterization was deliberately misleading.",
+        "debias": "Present evolving investigation findings neutrally without implying deliberate mischaracterization by authorities.",
+        "date_added": "2026-07-15",
+        "status": "suggested",
+        "example_text": "Devon and Cornwall Police have been criticised for originally saying the killing was not believed to be a terror-related crime and there was nothing to suggest it was politically motivated.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/15/former-politician-ann-widdecombe-was-killed-in-targeted-attack-uk-police-say",
+        "unbiased_text": "Devon and Cornwall Police initially stated the killing was not believed to be terror-related but subsequently updated their assessment as the investigation progressed, now characterizing it as a targeted attack."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -8163,6 +8193,16 @@
         "example_text": "The United States launched fresh air strikes on Iran early Thursday, prompting Tehran to fire missiles",
         "example_url": "https://www.france24.com/en/middle-east/20260710-us-iran-conflict-escalates-missile-strikes-threaten-middle-east-ceasefire",
         "unbiased_text": "The United States launched fresh air strikes on Iran early Thursday, prompting Tehran to launch missiles"
+      },
+      {
+        "pattern": "Slop terminology AI dismissal",
+        "detail": "Uses derogatory slang terminology for AI-generated content to preemptively frame it as worthless before substantive criticism.",
+        "debias": "Assess AI-generated content on specific quality merits rather than using dismissive categorical labels.",
+        "date_added": "2026-07-15",
+        "status": "suggested",
+        "example_text": "Just days before Christopher Nolan's star-studded and much-anticipated epic 'The Odyssey' hits theatres worldwide, an artificial intelligence startup has announced it has generated an AI version of Homer's ancient Greek epic poem... And no one is in the slightest bit impressed.",
+        "example_url": "http://www.euronews.com/culture/2026/07/15/ai-slop-version-of-the-odyssey-announced-prior-to-release-of-christopher-nolans-epic-block",
+        "unbiased_text": "Just days before Christopher Nolan's star-studded and much-anticipated epic 'The Odyssey' hits theatres worldwide, an artificial intelligence startup has announced it has generated an AI version of Homer's ancient Greek epic poem. The announcement has been met with widespread criticism on social media."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
