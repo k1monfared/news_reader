@@ -3086,6 +3086,26 @@
         "example_text": "Fuel has been scarce across Cuba since January, when US President Donald Trump threatened to impose tariffs on any nation that supplies or sells oil to the island, exacerbating the island's continuing financial and economic crises.",
         "example_url": "http://www.euronews.com/2026/07/15/cuba-plunged-into-third-nationwide-blackout-in-two-weeks-as-power-grid-collapses",
         "unbiased_text": "Fuel has been scarce across Cuba since January, when US President Donald Trump threatened to impose tariffs on any nation that supplies or sells oil to the island. Cuba has faced continuing financial and economic crises due to multiple factors including infrastructure deterioration, existing US sanctions, and limited access to international credit."
+      },
+      {
+        "pattern": "Academic bridge-builder legacy elevation",
+        "detail": "Emphasizing a scholar's role in building connections between cultures/religions as their primary achievement amplifies interfaith harmony narratives.",
+        "debias": "Report scholarly contributions objectively without framing their work primarily through a bridge-building lens.",
+        "date_added": "2026-07-16",
+        "status": "suggested",
+        "example_text": "Georgetown scholar and author spent decades building bridges between the Islamic and Western worlds.",
+        "example_url": "https://www.aljazeera.com/features/2026/7/16/john-esposito-pioneering-scholar-of-islam-in-the-us-dies-aged-86?traffic_source=rss",
+        "unbiased_text": "Georgetown scholar and author specialized in Islamic studies and interfaith relations for decades."
+      },
+      {
+        "pattern": "Far-left terror scare-quote legitimization",
+        "detail": "Using scare quotes around 'far-left political violence and terrorism' questions the validity of the threat designation while reporting on official security conferences.",
+        "debias": "Report the conference subject matter directly without using scare quotes that editorialize the threat assessment.",
+        "date_added": "2026-07-16",
+        "status": "suggested",
+        "example_text": "More than 65 countries expected to address 'renewed threats' from 'far-left political violence and terrorism'.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/16/us-hosts-global-meet-on-far-left-terror-whos-attending-why-it-matters?traffic_source=rss",
+        "unbiased_text": "More than 65 countries expected to address renewed threats from far-left political violence and terrorism."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5410,6 +5430,26 @@
         "example_text": "Devon and Cornwall Police have been criticised for originally saying the killing was not believed to be a terror-related crime and there was nothing to suggest it was politically motivated.",
         "example_url": "http://www.euronews.com/my-europe/2026/07/15/former-politician-ann-widdecombe-was-killed-in-targeted-attack-uk-police-say",
         "unbiased_text": "Devon and Cornwall Police initially stated the killing was not believed to be terror-related but subsequently updated their assessment as the investigation progressed, now characterizing it as a targeted attack."
+      },
+      {
+        "pattern": "Pilot zone implementation precedent framing",
+        "detail": "Presenting limited trial withdrawals as a negotiated 'pilot zone' framework suggests a systematic approach while masking partial compliance.",
+        "debias": "Describe withdrawal agreements precisely without using terminology that implies broader programmatic structures.",
+        "date_added": "2026-07-16",
+        "status": "suggested",
+        "example_text": "Lebanon and Israel completed a new round of US-mediated negotiations in Rome on Wednesday, agreeing to implement \"pilot zones\" in southern Lebanon where Israeli forces would withdraw and turn over control to the Lebanese army",
+        "example_url": "https://www.france24.com/en/middle-east/20260715-middle-east-live-tehran-and-us-exchange-strikes-as-blockade-of-iranian-ports-resumes",
+        "unbiased_text": "Lebanon and Israel completed a new round of US-mediated negotiations in Rome on Wednesday, agreeing on limited areas in southern Lebanon where Israeli forces would withdraw and turn over control to the Lebanese army."
+      },
+      {
+        "pattern": "Smuggling weapon foiling strategic significance elevation",
+        "detail": "Highlighting weapon smuggling interdiction at borders amplifies security narratives and suggests organized supply lines requiring systematic prevention.",
+        "debias": "Report interdictions factually without implying they represent broader strategic patterns or systematic operations.",
+        "date_added": "2026-07-16",
+        "status": "suggested",
+        "example_text": "Syria said on July 19 it had foiled an attempt to smuggle weapons to Hezbollah in Lebanon by seizing a shipment that included missiles at its border with Iraq.",
+        "example_url": "https://www.france24.com/en/lebanon-and-israel-conclude-round-of-talks-on-idf-withdrawal",
+        "unbiased_text": "Syria said on July 19 it had seized a weapons shipment including missiles at its border with Iraq that was destined for Hezbollah in Lebanon."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -8203,6 +8243,26 @@
         "example_text": "Just days before Christopher Nolan's star-studded and much-anticipated epic 'The Odyssey' hits theatres worldwide, an artificial intelligence startup has announced it has generated an AI version of Homer's ancient Greek epic poem... And no one is in the slightest bit impressed.",
         "example_url": "http://www.euronews.com/culture/2026/07/15/ai-slop-version-of-the-odyssey-announced-prior-to-release-of-christopher-nolans-epic-block",
         "unbiased_text": "Just days before Christopher Nolan's star-studded and much-anticipated epic 'The Odyssey' hits theatres worldwide, an artificial intelligence startup has announced it has generated an AI version of Homer's ancient Greek epic poem. The announcement has been met with widespread criticism on social media."
+      },
+      {
+        "pattern": "Transport cyberattack cost itemization dramatization",
+        "detail": "Breaking down cyberattack costs into damages and lost income categories amplifies financial impact through numerical specification.",
+        "debias": "Report total costs without subdividing into categories that multiply the perceived magnitude.",
+        "date_added": "2026-07-16",
+        "status": "suggested",
+        "example_text": "TfL, which had to reset the passwords of around 27,000 employees, estimated the attack cost the organisation around £29 million (€34 million) in damages and a further £10 million (€11.7 million) in lost income.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/16/uk-court-jails-two-men-over-major-cyberattack-on-londons-transport-network",
+        "unbiased_text": "TfL, which had to reset the passwords of around 27,000 employees, estimated the attack cost the organisation around £39 million (€45.7 million)."
+      },
+      {
+        "pattern": "Celebrity reaction viral meme birth announcement",
+        "detail": "Declaring that a sports-related celebrity reaction became 'a meme' elevates trivial moments into cultural phenomena through meta-commentary.",
+        "debias": "Report celebrity reactions without declaring their viral status or cultural significance.",
+        "date_added": "2026-07-16",
+        "status": "suggested",
+        "example_text": "The Rolling Stones frontman was at the England – Argentina match yesterday and was caught on camera shaking his head in disappointment... A meme was born.",
+        "example_url": "http://www.euronews.com/culture/2026/07/16/frowning-stone-mick-jagger-goes-viral-with-reaction-to-england-loss-in-world-cup-semi-fina",
+        "unbiased_text": "The Rolling Stones frontman was at the England – Argentina match yesterday and was caught on camera shaking his head in disappointment."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
