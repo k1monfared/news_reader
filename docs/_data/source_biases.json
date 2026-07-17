@@ -3106,6 +3106,26 @@
         "example_text": "More than 65 countries expected to address 'renewed threats' from 'far-left political violence and terrorism'.",
         "example_url": "https://www.aljazeera.com/news/2026/7/16/us-hosts-global-meet-on-far-left-terror-whos-attending-why-it-matters?traffic_source=rss",
         "unbiased_text": "More than 65 countries expected to address renewed threats from far-left political violence and terrorism."
+      },
+      {
+        "pattern": "Mafia family extraction heroism framing",
+        "detail": "Presenting government programs to separate family members from organized crime as humanitarian rescue operations rather than coercive law enforcement measures.",
+        "debias": "Report such programs neutrally by noting both stated aims and civil liberties concerns about family separation policies.",
+        "date_added": "2026-07-17",
+        "status": "suggested",
+        "example_text": "The Italian government can now offer children and wives of mafia bosses a way out of the family business.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/17/offer-he-cant-refuse-is-italys-mafia-law-breaking-crime-or-families?traffic_source=rss",
+        "unbiased_text": "Italy has enacted legislation allowing authorities to separate children and spouses from suspected mafia members, which supporters say protects vulnerable family members while critics raise concerns about due process."
+      },
+      {
+        "pattern": "Donor prosecution warning signal framing",
+        "detail": "Characterizing legal action against political donors as intimidation campaigns targeting broader activist communities rather than individual criminal cases.",
+        "debias": "Report prosecutions by stating charges and evidence while avoiding implications that cases are designed to deter entire political movements.",
+        "date_added": "2026-07-17",
+        "status": "suggested",
+        "example_text": "Washington's pursuit of James 'Fergie' Chambers for supporting 'terror' seen as a warning to other left-leaning donors.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/17/us-seeks-extradition-of-wealthy-pro-palestine-donor-from-spain?traffic_source=rss",
+        "unbiased_text": "The US is seeking extradition of donor James Chambers from Spain on charges related to material support for designated terrorist organizations."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5450,6 +5470,16 @@
         "example_text": "Syria said on July 19 it had foiled an attempt to smuggle weapons to Hezbollah in Lebanon by seizing a shipment that included missiles at its border with Iraq.",
         "example_url": "https://www.france24.com/en/lebanon-and-israel-conclude-round-of-talks-on-idf-withdrawal",
         "unbiased_text": "Syria said on July 19 it had seized a weapons shipment including missiles at its border with Iraq that was destined for Hezbollah in Lebanon."
+      },
+      {
+        "pattern": "Pilot zone precedent normalization framing",
+        "detail": "Presenting limited test implementations of disputed arrangements as established frameworks that validate broader permanent deployments.",
+        "debias": "Report pilot programs as provisional experiments without suggesting they constitute acceptance of larger territorial arrangements.",
+        "date_added": "2026-07-17",
+        "status": "suggested",
+        "example_text": "Lebanon and Israel completed a new round of US-mediated negotiations in Rome on Wednesday, agreeing to implement 'pilot zones' in southern Lebanon where Israeli forces would withdraw and turn over control to the Lebanese army",
+        "example_url": "https://www.france24.com/en/middle-east/20260715-middle-east-live-tehran-and-us-exchange-strikes-as-blockade-of-iranian-ports-resumes",
+        "unbiased_text": "Lebanon and Israel agreed to test limited areas where Israeli forces would transfer control to Lebanese forces, though broader withdrawal terms remain under negotiation."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -8263,6 +8293,36 @@
         "example_text": "The Rolling Stones frontman was at the England – Argentina match yesterday and was caught on camera shaking his head in disappointment... A meme was born.",
         "example_url": "http://www.euronews.com/culture/2026/07/16/frowning-stone-mick-jagger-goes-viral-with-reaction-to-england-loss-in-world-cup-semi-fina",
         "unbiased_text": "The Rolling Stones frontman was at the England – Argentina match yesterday and was caught on camera shaking his head in disappointment."
+      },
+      {
+        "pattern": "Marine show safety backlash amplification",
+        "detail": "Elevating criticism of military demonstration safety practices through dramatic witness accounts and renewed debate framing.",
+        "debias": "Report military demonstrations by noting both standard procedures and any documented safety violations without emphasizing fear reactions.",
+        "date_added": "2026-07-17",
+        "status": "suggested",
+        "example_text": "US Navy Blue Angels jets flew low over a crowded Florida beach, startling beachgoers as chairs and tents were blown away and children covered their ears. The dramatic flyover sparked renewed debate over the safety of low-altitude military demonstrations.",
+        "example_url": "http://www.euronews.com/video/2026/07/17/watch-us-navy-blue-angels-low-flyover-leaves-beachgoers-stunned",
+        "unbiased_text": "The US Navy Blue Angels performed a low-altitude flyover at a Florida beach as part of their scheduled demonstration, which temporarily displaced beach equipment due to jet wash."
+      },
+      {
+        "pattern": "Wildfire health equivalence cigarette quantification",
+        "detail": "Translating air quality measurements into cigarette-smoking equivalents to dramatize health risks through visceral comparison.",
+        "debias": "Report air quality using standard indices and health guidance without cigarette analogies that may oversimplify exposure risks.",
+        "date_added": "2026-07-17",
+        "status": "suggested",
+        "example_text": "A thick blanket of smoke from Canada's wildfires has worsened air quality in New York and New Jersey, where Spain and Argentina will meet in Sunday's 2026 World Cup final at MetLife Stadium... for fans, like smoking 10 cigarettes a day",
+        "example_url": "http://www.euronews.com/health/2026/07/17/world-cup-final-in-smoke-for-fans-like-smoking-10-cigarettes-a-day",
+        "unbiased_text": "Air quality in New York and New Jersey has deteriorated due to wildfire smoke from Canada, with pollution levels reaching unhealthy ranges for the World Cup final at MetLife Stadium."
+      },
+      {
+        "pattern": "Market-moving post commodification announcement",
+        "detail": "Framing early access to influential social media content as a tradeable financial product without examining regulatory implications.",
+        "debias": "Report social media monetization schemes by noting both business models and potential concerns about information asymmetry or market manipulation.",
+        "date_added": "2026-07-17",
+        "status": "suggested",
+        "example_text": "Customers will receive posts from Truth Social's 'most influential accounts' in milliseconds through a service aimed at financial institutions and professional traders. The feed could include Donald Trump's market-moving posts",
+        "example_url": "http://www.euronews.com/business/2026/07/17/trump-media-to-sell-faster-access-to-key-market-moving-social-posts",
+        "unbiased_text": "Trump Media announced a paid service providing millisecond-early access to Truth Social posts for financial traders, raising questions about information advantages in markets."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
