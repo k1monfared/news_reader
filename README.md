@@ -2,7 +2,7 @@
 
 **Status**: Beta | **Mode**: Claude Code | **Updated**: 2026-04-20
 
-Automated daily news digest covering the US-Israel war on Iran. A GitHub Actions cron pulls articles from four RSS sources, deduplicates events, filters for importance, categorizes, tracks cross-day story development, runs an editorial + bias-detection pass, verifies every link, writes a Jekyll post, translates it to Farsi, and sends the finished brief as an email broadcast to confirmed subscribers. Everything runs on free tiers: GitHub Actions, GitHub Pages, Cloudflare Workers + KV + D1, Resend.
+Automated daily news digest covering the US-Israel war on Iran. A GitHub Actions cron pulls articles from four RSS sources, deduplicates events, filters for importance, categorizes, tracks cross-day story development, runs an editorial + bias-detection pass, verifies every link, writes a Jekyll post, translates it to Farsi, and sends the finished brief as an email broadcast to confirmed subscribers. Everything runs on free tiers: GitHub Actions, GitHub Pages, Cloudflare Workers + KV + D1, Resend. To debias the coverage, the pipeline weights each item by its source's known slant, cross-checks the same event across the four feeds, and flags contradictions and sole-source claims in the brief, so readers see the story rather than a single outlet's framing.
 
 **Live site**: https://k1monfared.github.io/news_reader/ (English) and https://k1monfared.github.io/news_reader/fa/ (Farsi).
 
