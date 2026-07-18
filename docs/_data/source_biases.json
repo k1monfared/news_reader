@@ -3126,6 +3126,36 @@
         "example_text": "Washington's pursuit of James 'Fergie' Chambers for supporting 'terror' seen as a warning to other left-leaning donors.",
         "example_url": "https://www.aljazeera.com/news/2026/7/17/us-seeks-extradition-of-wealthy-pro-palestine-donor-from-spain?traffic_source=rss",
         "unbiased_text": "The US is seeking extradition of donor James Chambers from Spain on charges related to material support for designated terrorist organizations."
+      },
+      {
+        "pattern": "Growth incremental death toll updating",
+        "detail": "Updating death tolls progressively in separate articles creates serialized tragedy narrative rather than single complete report.",
+        "debias": "Report final confirmed casualty figures in comprehensive single updates rather than incremental serialization.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "Three more pupils died after Uganda's school bus crash, raising the death toll to 23 students and one adult.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/18/death-toll-from-uganda-school-bus-crash-rises-to-24?traffic_source=rss",
+        "unbiased_text": "A school bus crash in Uganda killed 23 students and one adult, authorities confirmed."
+      },
+      {
+        "pattern": "Fan community cultural identity assertion",
+        "detail": "Framing diaspora fan communities as preserving national tradition emphasizes cultural continuity over sporting interest.",
+        "debias": "Report fan enthusiasm without cultural preservation framing.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "Argentinians in Queens hold on to football tradition, as new communities grow support the national team in NYC.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/18/argentinas-new-york-fans-share-hopes-ahead-of-2026-world-cup-final?traffic_source=rss",
+        "unbiased_text": "Argentinians in Queens support their national team ahead of the World Cup final in NYC."
+      },
+      {
+        "pattern": "Regional fandom unification narrative",
+        "detail": "Portraying entire cities or regions as unified behind single athlete creates monolithic support narrative.",
+        "debias": "Report fan enthusiasm without claiming universal city-wide unity.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "South Asia's greatest football city has united behind its footballing saint.",
+        "example_url": "https://www.aljazeera.com/features/longform/2026/7/18/kolkata-sings-for-messi-as-world-cup-fever-takes-hold-2?traffic_source=rss",
+        "unbiased_text": "Many football fans in Kolkata support Messi ahead of the World Cup final."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5480,6 +5510,26 @@
         "example_text": "Lebanon and Israel completed a new round of US-mediated negotiations in Rome on Wednesday, agreeing to implement 'pilot zones' in southern Lebanon where Israeli forces would withdraw and turn over control to the Lebanese army",
         "example_url": "https://www.france24.com/en/middle-east/20260715-middle-east-live-tehran-and-us-exchange-strikes-as-blockade-of-iranian-ports-resumes",
         "unbiased_text": "Lebanon and Israel agreed to test limited areas where Israeli forces would transfer control to Lebanese forces, though broader withdrawal terms remain under negotiation."
+      },
+      {
+        "pattern": "Retaliation justification through attack sequencing",
+        "detail": "Structuring reports to present one side's actions as responses to the other side's prior actions creates justification framing.",
+        "debias": "Report actions by all parties with neutral temporal framing without causation chains.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "Tehran launched attacks on US military sites hosted by several of its Gulf neighbours in response to a seventh night of US strikes on Iran overnight on Friday.",
+        "example_url": "https://www.france24.com/en/us-strikes-hit-iran-for-seventh-night",
+        "unbiased_text": "Tehran launched attacks on US military sites in Gulf states on Saturday, while the US conducted strikes on Iran overnight Friday."
+      },
+      {
+        "pattern": "Coalition size numerical significance framing",
+        "detail": "Emphasizing the number of countries involved in military actions amplifies perceived scale and legitimacy.",
+        "debias": "Report coalition actions without numerical amplification emphasis.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "Iran's Revolutionary Guards on Monday said they had hit US military bases in countries across the Middle East",
+        "example_url": "https://www.france24.com/en/video/20260713-middle-east-war-iran-claims-strikes-on-us-bases-in-multiple-countries",
+        "unbiased_text": "Iran's Revolutionary Guards said they struck US military bases in the Middle East."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -8323,6 +8373,36 @@
         "example_text": "Customers will receive posts from Truth Social's 'most influential accounts' in milliseconds through a service aimed at financial institutions and professional traders. The feed could include Donald Trump's market-moving posts",
         "example_url": "http://www.euronews.com/business/2026/07/17/trump-media-to-sell-faster-access-to-key-market-moving-social-posts",
         "unbiased_text": "Trump Media announced a paid service providing millisecond-early access to Truth Social posts for financial traders, raising questions about information advantages in markets."
+      },
+      {
+        "pattern": "Credibility-as-highest-asset politician valorization",
+        "detail": "Quoting politicians claiming credibility as supreme value elevates resignation to moral high ground narrative.",
+        "debias": "Report resignations and reasons without credibility valorization quotes.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "German Chancellor Friedrich Merz described the move as \"the right one\" and \"unavoidable.\" \"Credibility is the highest asset in politics,\" the chancellor added.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/18/cdus-jens-spahn-resigns-amid-growing-scrutiny-over-surrogate-baby",
+        "unbiased_text": "German Chancellor Friedrich Merz said Spahn's resignation was appropriate given the circumstances."
+      },
+      {
+        "pattern": "Persistent weather pattern anthropomorphic agency",
+        "detail": "Describing weather patterns as 'snapping back' or having persistence assigns intentional agency to meteorological phenomena.",
+        "debias": "Describe weather patterns using neutral meteorological terminology without anthropomorphization.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "After a brief cool spell, Germany may already be heading for the next heatwave. Meteorologists are tracking a stubborn pattern: as soon as the heat eases, high pressure quickly builds again.",
+        "example_url": "http://www.euronews.com/2026/07/18/summer-keeps-snapping-back-meteorologist-explains-persistent-heatwave-pattern",
+        "unbiased_text": "After a brief cool period, Germany may experience another heatwave as high pressure systems reform, meteorologists said."
+      },
+      {
+        "pattern": "Technology achievement human comparison sensationalism",
+        "detail": "Comparing technological milestones to human equivalents creates sensational framing that anthropomorphizes machines.",
+        "debias": "Report technological achievements using technical specifications without human comparison.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "A CSIC team and universities in Spain, Portugal and the UK say the European rabbit is in fact two species split 2 million years ago",
+        "example_url": "http://www.euronews.com/2026/07/18/iberian-rabbit-species-hidden-by-spain-and-portugal-for-2-million-years",
+        "unbiased_text": "Researchers from CSIC and universities in Spain, Portugal and the UK identified that the European rabbit comprises two distinct species that diverged 2 million years ago."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

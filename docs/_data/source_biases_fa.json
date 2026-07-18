@@ -3480,6 +3480,39 @@
         "example_url": "https://www.aljazeera.com/news/2026/7/17/us-seeks-extradition-of-wealthy-pro-palestine-donor-from-spain?traffic_source=rss",
         "unbiased_text": "ایالات متحده به‌دنبال استرداد حامی مالی جیمز چمبرز از اسپانیا به اتهام حمایت مادی از سازمان‌های تروریستی تعیین‌شده است.",
         "pattern_en": "Donor prosecution warning signal framing"
+      },
+      {
+        "pattern": "به‌روزرسانی تدریجی آمار کشته‌شدگان",
+        "detail": "به‌روزرسانی تدریجی آمار کشته‌شدگان در مقالات جداگانه، روایتی سریالی از فاجعه ایجاد می‌کند به‌جای گزارش واحد و کامل.",
+        "debias": "آمار نهایی تأیید‌شده تلفات را در یک به‌روزرسانی جامع گزارش دهید به‌جای سریال‌سازی تدریجی.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "سه دانش‌آموز دیگر پس از تصادف اتوبوس مدرسه در اوگاندا جان باختند و شمار کشته‌شدگان را به ۲۳ دانش‌آموز و یک بزرگسال رساندند.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/18/death-toll-from-uganda-school-bus-crash-rises-to-24?traffic_source=rss",
+        "unbiased_text": "در تصادف اتوبوس مدرسه در اوگاندا، ۲۳ دانش‌آموز و یک بزرگسال کشته شدند، به تأیید مقامات.",
+        "pattern_en": "Growth incremental death toll updating"
+      },
+      {
+        "pattern": "ادعای هویت فرهنگی جامعه هواداران",
+        "detail": "قاب‌بندی جوامع هوادار دیاسپورا به‌عنوان حافظان سنت ملی، تداوم فرهنگی را بر علاقه ورزشی تأکید می‌کند.",
+        "debias": "شور و اشتیاق هواداران را بدون قاب‌بندی حفظ فرهنگی گزارش کنید.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "آرژانتینی‌های مقیم کوئینز به سنت فوتبال خود پایبند هستند، در حالی که جوامع جدید از تیم ملی در نیویورک حمایت می‌کنند.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/18/argentinas-new-york-fans-share-hopes-ahead-of-2026-world-cup-final?traffic_source=rss",
+        "unbiased_text": "آرژانتینی‌های مقیم کوئینز پیش از فینال جام جهانی در نیویورک از تیم ملی خود حمایت می‌کنند.",
+        "pattern_en": "Fan community cultural identity assertion"
+      },
+      {
+        "pattern": "روایت وحدت هواداری منطقه‌ای",
+        "detail": "نشان دادن کل شهرها یا مناطق به عنوان متحد پشت یک ورزشکار، روایتی تک‌صدا از حمایت ایجاد می‌کند.",
+        "debias": "اشتیاق هواداران را بدون ادعای وحدت جهان‌شمول در سطح شهر گزارش دهید.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "بزرگ‌ترین شهر فوتبال آسیای جنوبی پشت قدیس فوتبال خود متحد شده است.",
+        "example_url": "https://www.aljazeera.com/features/longform/2026/7/18/kolkata-sings-for-messi-as-world-cup-fever-takes-hold-2?traffic_source=rss",
+        "unbiased_text": "بسیاری از هواداران فوتبال در کلکته پیش از فینال جام جهانی از مسی حمایت می‌کنند.",
+        "pattern_en": "Regional fandom unification narrative"
       }
     ]
   },
@@ -6069,6 +6102,28 @@
         "example_url": "https://www.france24.com/en/middle-east/20260715-middle-east-live-tehran-and-us-exchange-strikes-as-blockade-of-iranian-ports-resumes",
         "unbiased_text": "لبنان و اسرائیل توافق کردند مناطق محدودی را آزمایش کنند که در آن نیروهای اسرائیلی کنترل را به نیروهای لبنانی منتقل کنند، هرچند شرایط عقب‌نشینی گسترده‌تر همچنان در حال مذاکره است.",
         "pattern_en": "Pilot zone precedent normalization framing"
+      },
+      {
+        "pattern": "توجیه تلافی‌جویی از طریق توالی حملات",
+        "detail": "ساختاردهی گزارش‌ها به گونه‌ای که اقدامات یک طرف را به عنوان پاسخ به اقدامات پیشین طرف دیگر ارائه می‌دهد، چارچوب توجیهی ایجاد می‌کند.",
+        "debias": "اقدامات همه طرف‌ها را با چارچوب زمانی خنثی و بدون زنجیره علّی گزارش دهید.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "تهران در پاسخ به هفتمین شب حملات ایالات متحده به ایران که شب جمعه انجام شد، حملاتی را علیه پایگاه‌های نظامی آمریکا که توسط چندین همسایه خلیج فارس میزبانی می‌شوند، آغاز کرد.",
+        "example_url": "https://www.france24.com/en/us-strikes-hit-iran-for-seventh-night",
+        "unbiased_text": "تهران روز شنبه حملاتی را علیه پایگاه‌های نظامی آمریکا در کشورهای خلیج فارس آغاز کرد، در حالی که ایالات متحده شب جمعه حملاتی را علیه ایران انجام داد.",
+        "pattern_en": "Retaliation justification through attack sequencing"
+      },
+      {
+        "pattern": "قاب‌بندی اهمیت عددی اندازه ائتلاف",
+        "detail": "تأکید بر تعداد کشورهای درگیر در اقدامات نظامی، مقیاس و مشروعیت درک‌شده را تقویت می‌کند.",
+        "debias": "اقدامات ائتلاف را بدون تأکید بر بزرگ‌نمایی عددی گزارش کنید.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "سپاه پاسداران انقلاب اسلامی ایران روز دوشنبه اعلام کرد که پایگاه‌های نظامی آمریکا را در کشورهای سراسر خاورمیانه هدف قرار داده است",
+        "example_url": "https://www.france24.com/en/video/20260713-middle-east-war-iran-claims-strikes-on-us-bases-in-multiple-countries",
+        "unbiased_text": "سپاه پاسداران انقلاب اسلامی ایران اعلام کرد که پایگاه‌های نظامی آمریکا را در خاورمیانه هدف قرار داده است.",
+        "pattern_en": "Coalition size numerical significance framing"
       }
     ]
   },
@@ -9229,6 +9284,41 @@
         "example_url": "http://www.euronews.com/business/2026/07/17/trump-media-to-sell-faster-access-to-key-market-moving-social-posts",
         "unbiased_text": "Trump Media سرویس پولی را اعلام کرد که دسترسی میلی‌ثانیه‌ای زودتر به پست‌های Truth Social را برای معامله‌گران مالی فراهم می‌کند و پرسش‌هایی درباره مزایای اطلاعاتی در بازارها را برمی‌انگیزد.",
         "pattern_en": "Market-moving post commodification announcement"
+      },
+      {
+        "pattern": "ارج‌گذاری به سیاستمداران با تأکید بر اعتبار به‌عنوان بالاترین دارایی",
+        "detail": "نقل‌قول از سیاستمدارانی که اعتبار را به‌عنوان عالی‌ترین ارزش معرفی می‌کنند، استعفا را به روایت اخلاقی والا ارتقا می‌دهد.",
+        "debias": "استعفاها و دلایل آن را بدون نقل‌قول‌های ارج‌گذارنده به اعتبار گزارش دهید.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "صدراعظم آلمان، فریدریش مرتس، این اقدام را «درست» و «اجتناب‌ناپذیر» توصیف کرد. صدراعظم افزود: «اعتبار بالاترین دارایی در سیاست است.»",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/18/cdus-jens-spahn-resigns-amid-growing-scrutiny-over-surrogate-baby",
+        "unbiased_text": "صدراعظم آلمان فریدریش مرتس گفت که استعفای اشپان با توجه به شرایط موجود، مناسب بود.",
+        "pattern_en": "Credibility-as-highest-asset politician valorization"
+      },
+      {
+        "pattern": "عاملیت انسان‌انگارانه الگوی پایدار آب و هوایی",
+        "detail": "توصیف الگوهای آب و هوایی به عنوان 'بازگشت ناگهانی' یا دارای پایداری، عاملیت عمدی به پدیده‌های هواشناسی نسبت می‌دهد.",
+        "debias": "الگوهای آب و هوایی را با استفاده از اصطلاحات خنثی هواشناسی بدون انسان‌انگاری توصیف کنید.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "پس از یک دوره کوتاه خنک، آلمان ممکن است در آستانه موج گرمای بعدی قرار گیرد. هواشناسان الگوی سرسختی را رصد می‌کنند: به محض اینکه گرما کاهش می‌یابد، فشار بالا به سرعت دوباره تشکیل می‌شود.",
+        "example_url": "http://www.euronews.com/2026/07/18/summer-keeps-snapping-back-meteorologist-explains-persistent-heatwave-pattern",
+        "unbiased_text": "پس از یک دوره کوتاه خنک، آلمان ممکن است موج گرمای دیگری را تجربه کند زیرا سیستم‌های فشار بالا دوباره تشکیل می‌شوند، هواشناسان گفتند.",
+        "detail_items": [],
+        "pattern_en": "Persistent weather pattern anthropomorphic agency"
+      },
+      {
+        "pattern": "هیجان‌آفرینی در مقایسه دستاوردهای فناوری با انسان",
+        "detail": "مقایسه نقاط عطف فناوری با معادل‌های انسانی، چارچوب‌بندی هیجان‌آمیزی ایجاد می‌کند که ماشین‌ها را انسان‌وار جلوه می‌دهد.",
+        "debias": "دستاوردهای فناوری را با استفاده از مشخصات فنی و بدون مقایسه با انسان گزارش دهید.",
+        "date_added": "2026-07-18",
+        "status": "suggested",
+        "example_text": "یک تیم از CSIC و دانشگاه‌های اسپانیا، پرتغال و بریتانیا می‌گویند که خرگوش اروپایی در واقع دو گونه است که ۲ میلیون سال پیش از هم جدا شده‌اند",
+        "example_url": "http://www.euronews.com/2026/07/18/iberian-rabbit-species-hidden-by-spain-and-portugal-for-2-million-years",
+        "unbiased_text": "محققان از CSIC و دانشگاه‌های اسپانیا، پرتغال و بریتانیا شناسایی کردند که خرگوش اروپایی شامل دو گونه متمایز است که ۲ میلیون سال پیش از هم منشعب شده‌اند.",
+        "detail_items": [],
+        "pattern_en": "Technology achievement human comparison sensationalism"
       }
     ]
   }
