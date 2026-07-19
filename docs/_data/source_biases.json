@@ -3156,6 +3156,36 @@
         "example_text": "South Asia's greatest football city has united behind its footballing saint.",
         "example_url": "https://www.aljazeera.com/features/longform/2026/7/18/kolkata-sings-for-messi-as-world-cup-fever-takes-hold-2?traffic_source=rss",
         "unbiased_text": "Many football fans in Kolkata support Messi ahead of the World Cup final."
+      },
+      {
+        "pattern": "Hunger strike enforced hospitalization framing",
+        "detail": "Characterizing medical intervention for a hunger-striking activist as 'illegal detention' or 'enforced hospitalization' rather than emergency medical care.",
+        "debias": "Report medical intervention for hunger strikers as health-protective measures while noting the activist's stated objections, without prejudging legality.",
+        "date_added": "2026-07-19",
+        "status": "suggested",
+        "example_text": "The wife of 59-year-old Sonam Wangchuk says his enforced hospitalisation is 'illegal detention'.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/19/indian-court-rejects-bid-to-release-hunger-striking-activist-from-hospital?traffic_source=rss",
+        "unbiased_text": "The wife of 59-year-old Sonam Wangchuk says his hospitalization against his wishes violates his rights, though a court has rejected the release petition."
+      },
+      {
+        "pattern": "Solidarity attribution through sports fandom",
+        "detail": "Framing sports team support as evidence of political solidarity with a cause or nation, conflating athletic preference with political alignment.",
+        "debias": "Report sports preferences as entertainment choices while noting any political statements made separately by fans, without presuming political motivation.",
+        "date_added": "2026-07-19",
+        "status": "suggested",
+        "example_text": "Football fans in Gaza express support for Spain in showdown with Argentina, citing Spanish solidarity with Palestinians.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/19/gaza-cheers-for-spain-as-world-cup-final-anticipation-mounts?traffic_source=rss",
+        "unbiased_text": "Football fans in Gaza are supporting Spain in the World Cup final, with some citing Spain's political stance on Palestinian issues as a factor in their preference."
+      },
+      {
+        "pattern": "Library vetting suppression narrative",
+        "detail": "Framing government review of library materials as 'vetting' or searching for 'objectionable' content, implying censorship without examining stated justifications.",
+        "debias": "Report library reviews with specific details about stated rationales, scope, and outcomes, allowing readers to assess the nature of the policy.",
+        "date_added": "2026-07-19",
+        "status": "suggested",
+        "example_text": "Authorities in disputed region are auditing school, college and public libraries to look for 'objectionable' material.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/19/why-is-india-vetting-books-in-kashmir-in-search-of-anti-national-content?traffic_source=rss",
+        "unbiased_text": "Authorities in the region are reviewing library collections, stating they are checking for material they define as promoting separatism or violence against the state."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5530,6 +5560,36 @@
         "example_text": "Iran's Revolutionary Guards on Monday said they had hit US military bases in countries across the Middle East",
         "example_url": "https://www.france24.com/en/video/20260713-middle-east-war-iran-claims-strikes-on-us-bases-in-multiple-countries",
         "unbiased_text": "Iran's Revolutionary Guards said they struck US military bases in the Middle East."
+      },
+      {
+        "pattern": "Nuclear site attack aggression labeling",
+        "detail": "Characterizing military strikes on nuclear facilities with emotive terms like 'aggressive and brutal' through direct quotation to amplify perceived severity.",
+        "debias": "Report attacks on nuclear sites with technical details about damage and safety implications, using neutral language outside quotations.",
+        "date_added": "2026-07-19",
+        "status": "suggested",
+        "example_text": "Iran's Atomic Energy Organization on Sunday said the US conducted an 'aggressive and brutal' attack on the under-construction Darkhovin nuclear power plant.",
+        "example_url": "https://www.france24.com/en/middle-east/20260719-middle-east-live-us-targets-iran-s-revolutionary-guard-in-retaliation-for-killed-troops",
+        "unbiased_text": "Iran's Atomic Energy Organization on Sunday said the US struck the under-construction Darkhovin nuclear power plant, which the IAEA said contained no nuclear material at last inspection."
+      },
+      {
+        "pattern": "Unforgettable lessons threat elevation",
+        "detail": "Highlighting rhetorical threats of 'unforgettable lessons' to dramatize conflict language and suggest escalatory intent.",
+        "debias": "Include threatening rhetoric in context of broader diplomatic statements without headline emphasis, noting past patterns of such language.",
+        "date_added": "2026-07-19",
+        "status": "suggested",
+        "example_text": "Iranian Supreme Leader Ayatollah Majotaba Khamenei on Saturday vowed to teach the US 'unforgettable lessons' in a written message broadcast on state TV.",
+        "example_url": "https://www.france24.com/en/middle-east/20260718-khamenei-threatens-unforgettable-lessons-two-us-troops-killed-in-iranian-attack",
+        "unbiased_text": "Iranian Supreme Leader Ayatollah Majotaba Khamenei on Saturday stated Iran would respond forcefully to US actions, in a message broadcast on state TV."
+      },
+      {
+        "pattern": "Guardian role fee combination framing",
+        "detail": "Juxtaposing protective 'guardian' claims with fee demands to suggest mercenary motivations behind security operations.",
+        "debias": "Report security operations and any proposed fee structures separately, with context about precedents and legal basis for each.",
+        "date_added": "2026-07-19",
+        "status": "suggested",
+        "example_text": "President Donald Trump said that the US will 'probably become the guardian of the strait,' adding that Washington should be 'reimbursed' for the same.",
+        "example_url": "https://www.france24.com/en/video/20260713-middle-east-war-iran-claims-strikes-on-us-bases-in-multiple-countries",
+        "unbiased_text": "President Donald Trump said the US would likely maintain a naval presence in the strait and that countries benefiting from secure passage should contribute to costs."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -8403,6 +8463,56 @@
         "example_text": "A CSIC team and universities in Spain, Portugal and the UK say the European rabbit is in fact two species split 2 million years ago",
         "example_url": "http://www.euronews.com/2026/07/18/iberian-rabbit-species-hidden-by-spain-and-portugal-for-2-million-years",
         "unbiased_text": "Researchers from CSIC and universities in Spain, Portugal and the UK identified that the European rabbit comprises two distinct species that diverged 2 million years ago."
+      },
+      {
+        "pattern": "Surrogate baby credibility collapse narrative",
+        "detail": "Framing resignation over surrogacy revelations as credibility crisis with causative inevitability, emphasizing scandal over policy performance.",
+        "debias": "Report resignations with factual details about the circumstances and stated reasons, noting any policy disagreements separately from personal matters.",
+        "date_added": "2026-07-19",
+        "status": "suggested",
+        "example_text": "Following Spahn's resignation, German Chancellor Friedrich Merz described the move as 'the right one' and 'unavoidable.' 'Credibility is the highest asset in politics,' the chancellor added.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/18/cdus-jens-spahn-resigns-amid-growing-scrutiny-over-surrogate-baby",
+        "unbiased_text": "Following Spahn's resignation amid questions about his use of commercial surrogacy, German Chancellor Friedrich Merz said he supported the decision and emphasized the importance of public trust in political figures."
+      },
+      {
+        "pattern": "Record rival count electoral drama",
+        "detail": "Emphasizing the number of electoral candidates as 'record-breaking' to dramatize a by-election as unusual or chaotic.",
+        "debias": "Report the number of candidates factually, with context about typical candidate counts and reasons for any increase.",
+        "date_added": "2026-07-19",
+        "status": "suggested",
+        "example_text": "A fresh by-election has been called in the UK constituency of Clacton, after Nigel Farage, the leader of the right-wing Reform UK party, resigned his seat to seek re-election. Farage had won the seat in 2024, securing 46% of the vote share.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/18/uk-by-election-nigel-farage-faces-record-number-of-rivals",
+        "unbiased_text": "A by-election has been called in the UK constituency of Clacton after Nigel Farage, the leader of Reform UK, resigned his seat. Farage won the seat in 2024 with 46% of the vote."
+      },
+      {
+        "pattern": "Geese crash tragedy causation certainty",
+        "detail": "Attributing aircraft accident definitively to wildlife strike when investigation may still be ongoing, turning preliminary findings into conclusive narrative.",
+        "debias": "Report crash investigations with appropriate hedging about preliminary findings versus confirmed causes, noting what remains under investigation.",
+        "date_added": "2026-07-19",
+        "status": "suggested",
+        "example_text": "For the Siemens CEO from Barcelona and his family of five, it was meant to be an unforgettable helicopter tour over New York. Instead, the flight ended in tragedy: the aircraft crashed into the Hudson River. Investigators now know why.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/18/goose-flock-behind-crash-of-siemens-ceos-family-in-new-york",
+        "unbiased_text": "A helicopter carrying the Siemens CEO from Barcelona and his family of five crashed into the Hudson River during a tour. Investigators say preliminary evidence suggests a bird strike may have been a factor."
+      },
+      {
+        "pattern": "Constitutional self-termination paradox emphasis",
+        "detail": "Highlighting the irony or unusualness of a leader signing legislation ending their own term to suggest dysfunction or abdication.",
+        "debias": "Report constitutional changes with context about the political process, reasons stated for the change, and transition plans.",
+        "date_added": "2026-07-19",
+        "status": "suggested",
+        "example_text": "President Tamás Sulyok signed the seventeenth amendment to the Fundamental Law on Saturday, he announced on Facebook. The sitting president's mandate will end the day after it takes effect.",
+        "example_url": "http://www.euronews.com/2026/07/18/hungarian-president-tamas-sulyok-signs-constitutional-amendment-ending-his-own-mandate",
+        "unbiased_text": "President Tamás Sulyok signed a constitutional amendment on Saturday that will shorten presidential terms, with his own mandate ending the day after it takes effect as part of broader constitutional reforms."
+      },
+      {
+        "pattern": "Top earner exodus determinism narrative",
+        "detail": "Framing survey data about emigration consideration as evidence of inevitable skilled worker departure, amplifying uncertainty into trend certainty.",
+        "debias": "Report emigration surveys with full context about consideration versus actual departure rates, historical patterns, and countervailing factors.",
+        "date_added": "2026-07-19",
+        "status": "suggested",
+        "example_text": "Within a year, more than 288,000 Germans have moved abroad. A recent survey suggests many highly skilled professionals are eyeing a move – and most do not expect to return soon.",
+        "example_url": "http://www.euronews.com/business/2026/07/19/survey-half-of-germanys-top-earners-consider-moving-abroad",
+        "unbiased_text": "More than 288,000 Germans moved abroad within a year, continuing a long-term emigration trend. A survey found that half of high earners are considering relocating, though intention surveys often show higher numbers than actual departures."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
