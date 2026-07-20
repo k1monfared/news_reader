@@ -3186,6 +3186,36 @@
         "example_text": "Authorities in disputed region are auditing school, college and public libraries to look for 'objectionable' material.",
         "example_url": "https://www.aljazeera.com/news/2026/7/19/why-is-india-vetting-books-in-kashmir-in-search-of-anti-national-content?traffic_source=rss",
         "unbiased_text": "Authorities in the region are reviewing library collections, stating they are checking for material they define as promoting separatism or violence against the state."
+      },
+      {
+        "pattern": "Protest call farewell speech conflation",
+        "detail": "Combining an outgoing leader's farewell address with calls for protests in the headline, suggesting the speech itself is about disputing results rather than a traditional departure message.",
+        "debias": "Separate ceremonial farewell speeches from electoral dispute activities to avoid conflating standard political transitions with resistance movements.",
+        "date_added": "2026-07-20",
+        "status": "suggested",
+        "example_text": "The outgoing president has called for protests as he continues to dispute the results of last month's election.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/20/petro-to-give-farewell-speech-amid-colombia-transfer-of-power-tensions?traffic_source=rss",
+        "unbiased_text": "The outgoing president will give a farewell speech. He has separately called for protests and disputed last month's election results."
+      },
+      {
+        "pattern": "Sports celebration political solidarity presumption",
+        "detail": "Attributing a population's support for a sports team primarily to that team's government's political positions rather than traditional sporting loyalty or other cultural factors.",
+        "debias": "Acknowledge multiple reasons people support sports teams, including national pride, playing style, and individual athletes, rather than reducing it to political alignment.",
+        "date_added": "2026-07-20",
+        "status": "suggested",
+        "example_text": "Thousands gathered across Gaza to watch the World Cup final, with many backing Spain over its support for Palestinians.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/why-palestinians-in-gaza-are-celebrating-spains-world-cup-win?traffic_source=rss",
+        "unbiased_text": "Thousands gathered across Gaza to watch the World Cup final, with many supporting Spain."
+      },
+      {
+        "pattern": "Diplomatic stance sports joy attribution",
+        "detail": "Suggesting that a sports victory brings joy specifically to critics of certain countries based on the winning nation's diplomatic positions, politicizing athletic achievement.",
+        "debias": "Report on sports victories as primarily athletic accomplishments, noting diplomatic context separately without suggesting the victory itself validates political positions.",
+        "date_added": "2026-07-20",
+        "status": "suggested",
+        "example_text": "Iran says Spain World Cup win brings joy to critics of US, Israel",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/20/iran-says-spain-world-cup-win-brought-joy-to-critics-of-us-israel?traffic_source=rss",
+        "unbiased_text": "Iran's officials commented on Spain's World Cup win, noting Spain's diplomatic positions on Gaza and Iran policy."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5573,8 +5603,8 @@
       },
       {
         "pattern": "Unforgettable lessons threat elevation",
-        "detail": "Highlighting rhetorical threats of 'unforgettable lessons' to dramatize conflict language and suggest escalatory intent.",
-        "debias": "Include threatening rhetoric in context of broader diplomatic statements without headline emphasis, noting past patterns of such language.",
+        "detail": "Highlighting rhetorical threats of 'unforgettable lessons' to dramatize conflict language and suggest escalatory intent. Also: Amplifying threatening rhetoric by specific leaders as binding commands without contextualizing the statement as political messaging or providing the full statement's nuance.",
+        "debias": "Include threatening rhetoric in context of broader diplomatic statements without headline emphasis, noting past patterns of such language. Present threatening statements as part of broader diplomatic messaging, including the full context of when, how, and to whom they were delivered.",
         "date_added": "2026-07-19",
         "status": "suggested",
         "example_text": "Iranian Supreme Leader Ayatollah Majotaba Khamenei on Saturday vowed to teach the US 'unforgettable lessons' in a written message broadcast on state TV.",
@@ -8513,6 +8543,26 @@
         "example_text": "Within a year, more than 288,000 Germans have moved abroad. A recent survey suggests many highly skilled professionals are eyeing a move – and most do not expect to return soon.",
         "example_url": "http://www.euronews.com/business/2026/07/19/survey-half-of-germanys-top-earners-consider-moving-abroad",
         "unbiased_text": "More than 288,000 Germans moved abroad within a year, continuing a long-term emigration trend. A survey found that half of high earners are considering relocating, though intention surveys often show higher numbers than actual departures."
+      },
+      {
+        "pattern": "Photobomb narrative sporting ceremony trivialization",
+        "detail": "Framing a political leader's presence at a trophy ceremony as inappropriate or attention-seeking through photobomb terminology, trivializing their ceremonial role as host.",
+        "debias": "Describe leaders' roles at sporting events they host in neutral terms, distinguishing between ceremonial duties and inappropriate behavior with evidence.",
+        "date_added": "2026-07-20",
+        "status": "suggested",
+        "example_text": "Donald Trump photobombing La Roja goes viral following Spain's World Cup victory",
+        "example_url": "http://www.euronews.com/culture/2026/07/20/donald-trump-photobombing-la-roja-goes-viral-following-spains-world-cup-victory",
+        "unbiased_text": "Donald Trump's presence during Spain's trophy presentation at the World Cup final, held in the United States, attracted significant social media attention."
+      },
+      {
+        "pattern": "Trump curse superstition sports framing",
+        "detail": "Presenting a political figure's sports predictions as part of a supernatural pattern affecting outcomes, blending entertainment narrative with political coverage.",
+        "debias": "Report on sports outcomes based on athletic performance, avoiding superstitious framing of political figures' predictive abilities.",
+        "date_added": "2026-07-20",
+        "status": "suggested",
+        "example_text": "The US president had endorsed Argentina for the win, leading many to affirm that the 'Trump curse' is still alive.",
+        "example_url": "http://www.euronews.com/culture/2026/07/20/donald-trump-photobombing-la-roja-goes-viral-following-spains-world-cup-victory",
+        "unbiased_text": "The US president had publicly expressed support for Argentina before the match, which Spain won."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
