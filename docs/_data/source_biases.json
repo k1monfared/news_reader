@@ -3216,6 +3216,26 @@
         "example_text": "Iran says Spain World Cup win brings joy to critics of US, Israel",
         "example_url": "https://www.aljazeera.com/sports/2026/7/20/iran-says-spain-world-cup-win-brought-joy-to-critics-of-us-israel?traffic_source=rss",
         "unbiased_text": "Iran's officials commented on Spain's World Cup win, noting Spain's diplomatic positions on Gaza and Iran policy."
+      },
+      {
+        "pattern": "Scare-quote ceasefire temporal contradiction emphasis",
+        "detail": "Using quotation marks around 'ceasefire' while simultaneously noting ongoing attacks emphasizes the illegitimacy of peace agreements through temporal contradiction.",
+        "debias": "Report violations of agreements without delegitimizing the agreements themselves through punctuation.",
+        "date_added": "2026-07-21",
+        "status": "suggested",
+        "example_text": "Israeli forces launch regular attacks on Gaza despite a US-backed &#039;ceasefire&#039; agreed in October.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/21/there-is-no-safe-place-israeli-attack-kills-family-of-six-in-gaza?traffic_source=rss",
+        "unbiased_text": "Israeli forces launch regular attacks on Gaza despite a US-backed ceasefire agreed in October."
+      },
+      {
+        "pattern": "Protest movement nickname stigmatization",
+        "detail": "Using derogatory nicknames for protest movements (e.g., 'cockroach protest movement') in headlines reinforces stigmatizing labels.",
+        "debias": "Refer to protest movements by their formal names or descriptive identifiers without using stigmatizing nicknames.",
+        "date_added": "2026-07-21",
+        "status": "suggested",
+        "example_text": "India's 'cockroach' protest movement halts marches after police violence",
+        "example_url": "https://www.aljazeera.com/news/2026/7/21/indias-cockroach-protest-movement-halts-marches-after-police-violence?traffic_source=rss",
+        "unbiased_text": "India's student protest movement halts marches after police violence"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5563,8 +5583,8 @@
       },
       {
         "pattern": "Pilot zone precedent normalization framing",
-        "detail": "Presenting limited test implementations of disputed arrangements as established frameworks that validate broader permanent deployments.",
-        "debias": "Report pilot programs as provisional experiments without suggesting they constitute acceptance of larger territorial arrangements.",
+        "detail": "Presenting limited test implementations of disputed arrangements as established frameworks that validate broader permanent deployments. Also: Describing experimental security arrangements as 'pilot zones' or 'pilot programmes' frames temporary measures as potential templates for broader implementation.",
+        "debias": "Report pilot programs as provisional experiments without suggesting they constitute acceptance of larger territorial arrangements. Describe security arrangements by their specific terms without suggesting they are test cases for wider application.",
         "date_added": "2026-07-17",
         "status": "suggested",
         "example_text": "Lebanon and Israel completed a new round of US-mediated negotiations in Rome on Wednesday, agreeing to implement 'pilot zones' in southern Lebanon where Israeli forces would withdraw and turn over control to the Lebanese army",
@@ -5620,6 +5640,16 @@
         "example_text": "President Donald Trump said that the US will 'probably become the guardian of the strait,' adding that Washington should be 'reimbursed' for the same.",
         "example_url": "https://www.france24.com/en/video/20260713-middle-east-war-iran-claims-strikes-on-us-bases-in-multiple-countries",
         "unbiased_text": "President Donald Trump said the US would likely maintain a naval presence in the strait and that countries benefiting from secure passage should contribute to costs."
+      },
+      {
+        "pattern": "Maritime choke-point battle framing",
+        "detail": "Framing military conflict as a 'battle over' strategic waterways like the Strait of Hormuz emphasizes control and territorial objectives.",
+        "debias": "Describe military actions by their specific nature rather than framing them as contests for geographic control.",
+        "date_added": "2026-07-21",
+        "status": "suggested",
+        "example_text": "The US and Iran have rekindled their tit-for-tat strikes as both battle over control of the Strait of Hormuz.",
+        "example_url": "https://www.france24.com/en/as-the-war-rekindles-what-options-are-left-to-the-us-and-iran",
+        "unbiased_text": "The US and Iran have resumed exchanging strikes amid disputes over access to the Strait of Hormuz."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -8563,6 +8593,36 @@
         "example_text": "The US president had endorsed Argentina for the win, leading many to affirm that the 'Trump curse' is still alive.",
         "example_url": "http://www.euronews.com/culture/2026/07/20/donald-trump-photobombing-la-roja-goes-viral-following-spains-world-cup-victory",
         "unbiased_text": "The US president had publicly expressed support for Argentina before the match, which Spain won."
+      },
+      {
+        "pattern": "Strike quantification day-count dramatization",
+        "detail": "Emphasizing the number of consecutive days of military strikes (e.g., 'tenth consecutive night') heightens perception of escalation through temporal accumulation.",
+        "debias": "Report ongoing military operations by describing their scope and targets rather than emphasizing consecutive day counts.",
+        "date_added": "2026-07-21",
+        "status": "suggested",
+        "example_text": "Tanker attacked in Strait of Hormuz as US strikes Iran for tenth consecutive night",
+        "example_url": "http://www.euronews.com/2026/07/21/tanker-attacked-in-strait-of-hormuz-as-us-strikes-iran-for-tenth-consecutive-night",
+        "unbiased_text": "Tanker attacked in Strait of Hormuz as US continues strikes on Iran"
+      },
+      {
+        "pattern": "War crimes accusation regional body attribution",
+        "detail": "Attributing war crimes accusations to regional bodies (e.g., Gulf Cooperation Council) elevates condemnation through institutional voice amplification.",
+        "debias": "Report accusations by clearly identifying the accusing party without using their institutional weight to validate the claim.",
+        "date_added": "2026-07-21",
+        "status": "suggested",
+        "example_text": "The Gulf Cooperation Council has condemned Tehran's attacks on civilian sites, describing them as war crimes.",
+        "example_url": "http://www.euronews.com/2026/07/21/iran-vows-to-bomb-own-land-as-fears-grow-over-kuwait-incursion",
+        "unbiased_text": "The Gulf Cooperation Council has condemned Tehran's attacks on civilian sites."
+      },
+      {
+        "pattern": "Petition signature milestone dramatization",
+        "detail": "Emphasizing petition signature counts approaching world records (e.g., '23 million signatures') dramatizes public sentiment through numerical sensationalism.",
+        "debias": "Report petition activity by describing its content and purpose without emphasizing signature count milestones.",
+        "date_added": "2026-07-21",
+        "status": "suggested",
+        "example_text": "'Kick Argentina out of the World Cup' petition nearly breaks Guinness World Record... a petition to kick them out of the World Cup has amassed more than 23 million signatures.",
+        "example_url": "http://www.euronews.com/culture/2026/07/21/kick-argentina-out-of-the-world-cup-petition-nearly-breaks-guinness-world-record",
+        "unbiased_text": "'Kick Argentina out of the World Cup' petition gains significant support... a petition to remove them from the World Cup has attracted substantial public backing."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

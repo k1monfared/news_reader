@@ -3580,6 +3580,28 @@
         "example_url": "https://www.aljazeera.com/sports/2026/7/20/iran-says-spain-world-cup-win-brought-joy-to-critics-of-us-israel?traffic_source=rss",
         "unbiased_text": "مقامات ایران درباره پیروزی اسپانیا در جام جهانی اظهارنظر کردند و به موضع‌های دیپلماتیک اسپانیا در قبال غزه و سیاست ایران اشاره کردند.",
         "pattern_en": "Diplomatic stance sports joy attribution"
+      },
+      {
+        "pattern": "تأکید بر تناقض زمانی آتش‌بس با استفاده از گیومه‌های تردیدآمیز",
+        "detail": "استفاده از گیومه دور واژهٔ «آتش‌بس» در حالی که همزمان به حملات جاری اشاره می‌شود، از طریق تناقض زمانی بر نامشروع بودن توافقات صلح تأکید می‌کند.",
+        "debias": "نقض توافقات را بدون نامشروع جلوه دادن خود توافقات از طریق نشانه‌گذاری گزارش کنید.",
+        "date_added": "2026-07-21",
+        "status": "suggested",
+        "example_text": "نیروهای اسرائیلی علی‌رغم «آتش‌بس» با حمایت آمریکا که در اکتبر مورد توافق قرار گرفت، حملات منظم به غزه را آغاز می‌کنند.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/21/there-is-no-safe-place-israeli-attack-kills-family-of-six-in-gaza?traffic_source=rss",
+        "unbiased_text": "نیروهای اسرائیلی علی‌رغم آتش‌بس با حمایت آمریکا که در اکتبر مورد توافق قرار گرفت، حملات منظم به غزه را آغاز می‌کنند.",
+        "pattern_en": "Scare-quote ceasefire temporal contradiction emphasis"
+      },
+      {
+        "pattern": "انگ زدن با استفاده از لقب‌های توهین‌آمیز به جنبش‌های اعتراضی",
+        "detail": "استفاده از لقب‌های توهین‌آمیز برای جنبش‌های اعتراضی (مانند «جنبش اعتراضی سوسک‌ها») در تیترها، برچسب‌های انگ‌زن را تقویت می‌کند.",
+        "debias": "به جنبش‌های اعتراضی با نام‌های رسمی یا شناسه‌های توصیفی آن‌ها اشاره کنید، بدون استفاده از لقب‌های انگ‌زن.",
+        "date_added": "2026-07-21",
+        "status": "suggested",
+        "example_text": "جنبش اعتراضی «سوسک» هند پس از خشونت پلیس راهپیمایی‌ها را متوقف می‌کند",
+        "example_url": "https://www.aljazeera.com/news/2026/7/21/indias-cockroach-protest-movement-halts-marches-after-police-violence?traffic_source=rss",
+        "unbiased_text": "جنبش اعتراضی دانشجویان هند پس از خشونت پلیس راهپیمایی‌ها را متوقف می‌کند",
+        "pattern_en": "Protest movement nickname stigmatization"
       }
     ]
   },
@@ -6225,6 +6247,17 @@
         "example_url": "https://www.france24.com/en/video/20260713-middle-east-war-iran-claims-strikes-on-us-bases-in-multiple-countries",
         "unbiased_text": "رئیس‌جمهور دونالد ترامپ گفت که ایالات متحده احتمالاً حضور نیروی دریایی خود در تنگه را حفظ خواهد کرد و کشورهایی که از عبور امن بهره‌مند می‌شوند باید در هزینه‌ها مشارکت کنند.",
         "pattern_en": "Guardian role fee combination framing"
+      },
+      {
+        "pattern": "قاب‌بندی نبرد بر سر گذرگاه‌های دریایی استراتژیک",
+        "detail": "قاب‌بندی درگیری نظامی به‌عنوان «نبرد بر سر» آبراه‌های استراتژیک مانند تنگه هرمز، تأکید بر کنترل و اهداف سرزمینی را برجسته می‌کند.",
+        "debias": "اقدامات نظامی را بر اساس ماهیت مشخص آن‌ها توصیف کنید، نه این‌که آن‌ها را به‌عنوان رقابت برای کنترل جغرافیایی قاب‌بندی کنید.",
+        "date_added": "2026-07-21",
+        "status": "suggested",
+        "example_text": "ایالات متحده و ایران حملات متقابل خود را از سر گرفته‌اند و هر دو بر سر کنترل تنگه هرمز در حال نبرد هستند.",
+        "example_url": "https://www.france24.com/en/as-the-war-rekindles-what-options-are-left-to-the-us-and-iran",
+        "unbiased_text": "ایالات متحده و ایران تبادل حملات را در میان اختلافات بر سر دسترسی به تنگه هرمز از سر گرفته‌اند.",
+        "pattern_en": "Maritime choke-point battle framing"
       }
     ]
   },
@@ -9498,6 +9531,39 @@
         "example_url": "http://www.euronews.com/culture/2026/07/20/donald-trump-photobombing-la-roja-goes-viral-following-spains-world-cup-victory",
         "unbiased_text": "رئیس‌جمهور آمریکا قبل از مسابقه علناً از آرژانتین حمایت کرده بود که اسپانیا آن را برد.",
         "pattern_en": "Trump curse superstition sports framing"
+      },
+      {
+        "pattern": "نمایش دراماتیک شمارش روزهای حمله",
+        "detail": "تأکید بر تعداد روزهای متوالی حملات نظامی (مانند «دهمین شب متوالی») از طریق انباشت زمانی، درک تشدید را افزایش می‌دهد.",
+        "debias": "عملیات نظامی جاری را با توصیف دامنه و اهداف آن‌ها گزارش کنید نه با تأکید بر شمارش روزهای متوالی.",
+        "date_added": "2026-07-21",
+        "status": "suggested",
+        "example_text": "حمله به نفتکش در تنگه هرمز در حالی که آمریکا برای دهمین شب متوالی به ایران حمله می‌کند",
+        "example_url": "http://www.euronews.com/2026/07/21/tanker-attacked-in-strait-of-hormuz-as-us-strikes-iran-for-tenth-consecutive-night",
+        "unbiased_text": "حمله به نفتکش در تنگه هرمز در حالی که آمریکا به حملات خود به ایران ادامه می‌دهد",
+        "pattern_en": "Strike quantification day-count dramatization"
+      },
+      {
+        "pattern": "انتساب اتهام جنایات جنگی به نهادهای منطقه‌ای",
+        "detail": "انتساب اتهامات جنایات جنگی به نهادهای منطقه‌ای (مانند شورای همکاری خلیج فارس) از طریق تقویت صدای نهادی، محکومیت را برجسته‌تر می‌کند.",
+        "debias": "اتهامات را با شناسایی واضح طرف متهم‌کننده گزارش کنید، بدون استفاده از وزن نهادی آن‌ها برای اعتبارسازی ادعا.",
+        "date_added": "2026-07-21",
+        "status": "suggested",
+        "example_text": "شورای همکاری خلیج فارس حملات تهران به مناطق غیرنظامی را محکوم کرده و آن‌ها را جنایت جنگی توصیف کرده است.",
+        "example_url": "http://www.euronews.com/2026/07/21/iran-vows-to-bomb-own-land-as-fears-grow-over-kuwait-incursion",
+        "unbiased_text": "شورای همکاری خلیج فارس حملات تهران به مناطق غیرنظامی را محکوم کرده است.",
+        "pattern_en": "War crimes accusation regional body attribution"
+      },
+      {
+        "pattern": "نمایش دراماتیک رسیدن امضاهای دادخواست به رکورد",
+        "detail": "تأکید بر تعداد امضاهای دادخواست که به رکوردهای جهانی نزدیک می‌شود (مثلاً «۲۳ میلیون امضا») احساسات عمومی را از طریق هیجان‌انگیزی عددی دراماتیک می‌کند.",
+        "debias": "فعالیت دادخواست را با توصیف محتوا و هدف آن گزارش کنید بدون تأکید بر رسیدن تعداد امضاها به نقاط عطف.",
+        "date_added": "2026-07-21",
+        "status": "suggested",
+        "example_text": "دادخواست «آرژانتین را از جام جهانی اخراج کنید» نزدیک به شکستن رکورد گینس... دادخواستی برای اخراج آن‌ها از جام جهانی بیش از ۲۳ میلیون امضا جمع‌آوری کرده است.",
+        "example_url": "http://www.euronews.com/culture/2026/07/21/kick-argentina-out-of-the-world-cup-petition-nearly-breaks-guinness-world-record",
+        "unbiased_text": "دادخواست «آرژانتین را از جام جهانی اخراج کنید» حمایت قابل توجهی به دست می‌آورد... دادخواستی برای حذف آن‌ها از جام جهانی پشتیبانی عمومی قابل ملاحظه‌ای جذب کرده است.",
+        "pattern_en": "Petition signature milestone dramatization"
       }
     ]
   }
