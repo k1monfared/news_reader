@@ -3236,6 +3236,46 @@
         "example_text": "India's 'cockroach' protest movement halts marches after police violence",
         "example_url": "https://www.aljazeera.com/news/2026/7/21/indias-cockroach-protest-movement-halts-marches-after-police-violence?traffic_source=rss",
         "unbiased_text": "India's student protest movement halts marches after police violence"
+      },
+      {
+        "pattern": "Burnt-beyond-recognition victim dehumanization framing",
+        "detail": "Emphasizing that victims were burned so severely they became unrecognizable serves to amplify horror and suffering rather than report death neutrally.",
+        "debias": "Report casualties and manner of death factually without emphasizing degradation of remains.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "An Israeli strike hit a civilian vehicle in central Gaza, killing two Palestinians burnt beyond recognition",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/22/israeli-strike-leaves-two-palestinians-burnt-beyond-recognition?traffic_source=rss",
+        "unbiased_text": "An Israeli strike hit a civilian vehicle in central Gaza, killing two Palestinians."
+      },
+      {
+        "pattern": "Goat-trophy novelty exoticization framing",
+        "detail": "Presenting non-Western cultural practices as quirky curiosities through headline emphasis on unusual prizes trivializes local traditions as entertainment.",
+        "debias": "Report cultural practices neutrally without emphasizing novelty or framing them as exotic spectacles.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "GOATs are not players, but prizes at this football tournament in eastern India.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/22/the-indian-football-tournament-where-goats-replace-trophies?traffic_source=rss",
+        "unbiased_text": "A football tournament in eastern India awards livestock as prizes, continuing a longstanding local tradition."
+      },
+      {
+        "pattern": "Spygate scandal terminology elevation",
+        "detail": "Appending '-gate' suffix to allegations elevates them to the level of major political scandals before full adjudication.",
+        "debias": "Describe allegations factually without using scandal-implying terminology that presumes significance.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "Allegations of spying on rivals led to Southampton's expulsion from the Championship playoff final.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/22/english-fa-charges-southampton-coach-tonda-eckert-over-spygate-scandal?traffic_source=rss",
+        "unbiased_text": "Allegations of scouting violations led to Southampton's expulsion from the Championship playoff final."
+      },
+      {
+        "pattern": "Yellow Line annexation metaphor construction",
+        "detail": "Assigning evocative names to military demarcation lines frames them as deliberate tools of territorial seizure rather than tactical boundaries.",
+        "debias": "Describe military boundaries by their function without metaphorical names that presume annexation intent.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "'Creeping death': Israel weaponises 'Yellow Line' to annex Gaza",
+        "example_url": "https://www.aljazeera.com/news/2026/7/22/creeping-death-israel-weaponises-yellow-line-to-annex-gaza?traffic_source=rss",
+        "unbiased_text": "Israel establishes buffer zone in Gaza as analysts debate its implications for territorial control"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5650,6 +5690,26 @@
         "example_text": "The US and Iran have rekindled their tit-for-tat strikes as both battle over control of the Strait of Hormuz.",
         "example_url": "https://www.france24.com/en/as-the-war-rekindles-what-options-are-left-to-the-us-and-iran",
         "unbiased_text": "The US and Iran have resumed exchanging strikes amid disputes over access to the Strait of Hormuz."
+      },
+      {
+        "pattern": "Combative hearing characterization",
+        "detail": "Describing legislative hearings as 'combative' frames routine questioning as confrontational rather than standard oversight.",
+        "debias": "Report on legislative hearings factually without characterizing normal questioning as combat.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "The hearing turned combative as Senators demanded explanations as to the military's strategy to win or otherwise end the war.",
+        "example_url": "https://www.france24.com/en/the-iran-war-has-cost-the-us-37-5-billion-dollars-says-defense-secretary-pete-hesgseth",
+        "unbiased_text": "Senators questioned the military's strategy during the hearing on funding for the Iran conflict."
+      },
+      {
+        "pattern": "Pickaxe Mountain fortification dramatization",
+        "detail": "Emphasizing that a military target is 'fortified' and 'buried deep underground' amplifies threat perception beyond factual description of facility characteristics.",
+        "debias": "Describe military facilities by their function and location without emphasizing defensive features for dramatic effect.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "The fortified site, buried deep underground, is believed to be an enrichment facility.",
+        "example_url": "https://www.france24.com/en/us-eyes-strikes-on-iran-s-pickaxe-mountain-believed-to-be-an-enrichment-site",
+        "unbiased_text": "The underground site is believed to be an enrichment facility."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -8623,6 +8683,26 @@
         "example_text": "'Kick Argentina out of the World Cup' petition nearly breaks Guinness World Record... a petition to kick them out of the World Cup has amassed more than 23 million signatures.",
         "example_url": "http://www.euronews.com/culture/2026/07/21/kick-argentina-out-of-the-world-cup-petition-nearly-breaks-guinness-world-record",
         "unbiased_text": "'Kick Argentina out of the World Cup' petition gains significant support... a petition to remove them from the World Cup has attracted substantial public backing."
+      },
+      {
+        "pattern": "Marine microplastic harm ecosystem framing",
+        "detail": "Framing microplastic pollution primarily through its potential to 'harm ecosystems' without quantifying actual demonstrated effects presumes environmental catastrophe.",
+        "debias": "Report on pollution research findings factually without presuming catastrophic outcomes before evidence.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "The ocean is polluted by tiny plastic fragments that are difficult to detect but can harm marine ecosystems.",
+        "example_url": "http://www.euronews.com/next/2026/07/22/marine-microplastic-pollution-how-scientists-detect-it-euronews-tech-talks",
+        "unbiased_text": "The ocean contains tiny plastic fragments that are difficult to detect, with researchers studying their effects on marine ecosystems."
+      },
+      {
+        "pattern": "Revolving door concern amplification",
+        "detail": "Framing former officials joining private companies as inherently problematic 'revolving door' issues presumes corruption without evidence of wrongdoing.",
+        "debias": "Report on former officials' employment transitions factually without presuming ethical violations.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "Transparency International warned the hiring of an ex-minister who negotiated them could expose the state to Chinese corporate pressure.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/22/hungary-probes-byd-deal-after-ex-minister-joins-carmaker-raising-revolving-door-concerns",
+        "unbiased_text": "Transparency International said the hiring of a former minister involved in the negotiations warrants scrutiny of potential conflicts of interest."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

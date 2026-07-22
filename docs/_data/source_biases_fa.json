@@ -3602,6 +3602,51 @@
         "example_url": "https://www.aljazeera.com/news/2026/7/21/indias-cockroach-protest-movement-halts-marches-after-police-violence?traffic_source=rss",
         "unbiased_text": "جنبش اعتراضی دانشجویان هند پس از خشونت پلیس راهپیمایی‌ها را متوقف می‌کند",
         "pattern_en": "Protest movement nickname stigmatization"
+      },
+      {
+        "pattern": "قاب‌بندی غیرانسانی‌سازی قربانیان سوخته فراتر از شناسایی",
+        "detail": "تأکید بر اینکه قربانیان به شدت سوخته‌اند و غیرقابل شناسایی شده‌اند، به جای گزارش خنثی مرگ، وحشت و رنج را تشدید می‌کند.",
+        "debias": "تلفات و نحوه مرگ را به صورت واقعی و بدون تأکید بر تخریب بقایای جسد گزارش کنید.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "یک حمله اسرائیلی به یک خودروی غیرنظامی در مرکز غزه اصابت کرد و دو فلسطینی را که به حدی سوخته بودند که غیرقابل شناسایی شدند، کشت",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/22/israeli-strike-leaves-two-palestinians-burnt-beyond-recognition?traffic_source=rss",
+        "unbiased_text": "یک حمله اسرائیلی به یک خودروی غیرنظامی در مرکز غزه اصابت کرد و دو فلسطینی کشته شدند.",
+        "pattern_en": "Burnt-beyond-recognition victim dehumanization framing"
+      },
+      {
+        "pattern": "قاب‌بندی غریب‌سازی و تازگی‌طلبی جایزه بز",
+        "detail": "ارائه شیوه‌های فرهنگی غیرغربی به‌عنوان کنجکاوی‌های عجیب از طریق تأکید تیتر بر جوایز غیرمعمول، سنت‌های محلی را به‌عنوان سرگرمی کم‌اهمیت می‌کند.",
+        "debias": "شیوه‌های فرهنگی را بدون تأکید بر تازگی یا قاب‌بندی آن‌ها به‌عنوان نمایش‌های عجیب، به‌صورت خنثی گزارش کنید.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "GOATها بازیکن نیستند، بلکه جوایز این تورنمنت فوتبال در شرق هند هستند.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/22/the-indian-football-tournament-where-goats-replace-trophies?traffic_source=rss",
+        "unbiased_text": "یک تورنمنت فوتبال در شرق هند دام‌های اهلی را به‌عنوان جایزه اهدا می‌کند و سنت طولانی‌مدت محلی را ادامه می‌دهد.",
+        "detail_items": [],
+        "pattern_en": "Goat-trophy novelty exoticization framing"
+      },
+      {
+        "pattern": "استفاده از اصطلاح اسکندال به سبک گیت",
+        "detail": "افزودن پسوند «‌گیت» به اتهامات، آن‌ها را قبل از رسیدگی کامل به سطح رسوایی‌های سیاسی بزرگ ارتقا می‌دهد.",
+        "debias": "اتهامات را به‌صورت واقعی و بدون استفاده از اصطلاحاتی که حاکی از رسوایی هستند و اهمیت را پیش‌فرض می‌گیرند، توصیف کنید.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "اتهامات جاسوسی از رقبا منجر به اخراج ساوتهمپتون از فینال پلی‌آف چمپیونشیپ شد.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/22/english-fa-charges-southampton-coach-tonda-eckert-over-spygate-scandal?traffic_source=rss",
+        "unbiased_text": "اتهامات نقض مقررات جمع‌آوری اطلاعات منجر به اخراج ساوتهمپتون از فینال پلی‌آف چمپیونشیپ شد.",
+        "pattern_en": "Spygate scandal terminology elevation"
+      },
+      {
+        "pattern": "ساخت استعاره الحاق خط زرد",
+        "detail": "اختصاص نام‌های تداعی‌گر به خطوط مرزبندی نظامی، آن‌ها را به‌عنوان ابزارهای عمدی تصرف سرزمینی به‌جای مرزهای تاکتیکی قاب‌بندی می‌کند.",
+        "debias": "مرزهای نظامی را بر اساس کارکردشان توصیف کنید بدون نام‌های استعاری که قصد الحاق را پیش‌فرض می‌گیرند.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "«مرگ خزنده»: اسرائیل «خط زرد» را به سلاحی برای الحاق غزه تبدیل می‌کند",
+        "example_url": "https://www.aljazeera.com/news/2026/7/22/creeping-death-israel-weaponises-yellow-line-to-annex-gaza?traffic_source=rss",
+        "unbiased_text": "اسرائیل منطقه حائل در غزه ایجاد می‌کند و تحلیلگران درباره پیامدهای آن برای کنترل سرزمینی بحث می‌کنند",
+        "pattern_en": "Yellow Line annexation metaphor construction"
       }
     ]
   },
@@ -6258,6 +6303,28 @@
         "example_url": "https://www.france24.com/en/as-the-war-rekindles-what-options-are-left-to-the-us-and-iran",
         "unbiased_text": "ایالات متحده و ایران تبادل حملات را در میان اختلافات بر سر دسترسی به تنگه هرمز از سر گرفته‌اند.",
         "pattern_en": "Maritime choke-point battle framing"
+      },
+      {
+        "pattern": "توصیف جلسات استماع به عنوان رویارویی",
+        "detail": "توصیف جلسات استماع قانونگذاری به عنوان «رویارویی» یا «جنگ‌آمیز»، پرسش‌های معمول را به جای نظارت استاندارد، به صورت رویارویی قالب‌بندی می‌کند.",
+        "debias": "گزارش واقعی از جلسات استماع قانونگذاری بدون توصیف پرسش‌های عادی به عنوان نبرد.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "جلسه استماع به حالت رویارویی تبدیل شد زمانی که سناتورها خواستار توضیحات درباره استراتژی نظامی برای پیروزی یا پایان دادن به جنگ شدند.",
+        "example_url": "https://www.france24.com/en/the-iran-war-has-cost-the-us-37-5-billion-dollars-says-defense-secretary-pete-hesgseth",
+        "unbiased_text": "سناتورها در جلسه استماع درباره بودجه برای درگیری با ایران، در مورد استراتژی نظامی پرسش کردند.",
+        "pattern_en": "Combative hearing characterization"
+      },
+      {
+        "pattern": "نمایش درام‌گونه استحکامات کوه کلنگ‌زنی",
+        "detail": "تأکید بر اینکه یک هدف نظامی «مستحکم» و «در اعماق زیرزمین مدفون» است، ادراک تهدید را فراتر از توصیف واقعی ویژگی‌های تأسیسات تقویت می‌کند.",
+        "debias": "تأسیسات نظامی را بر اساس کارکرد و موقعیت مکانی‌شان توصیف کنید بدون تأکید بر ویژگی‌های دفاعی برای ایجاد جلوه درام‌گونه.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "این سایت مستحکم که در اعماق زیرزمین مدفون است، گمان می‌رود یک تأسیسات غنی‌سازی باشد.",
+        "example_url": "https://www.france24.com/en/us-eyes-strikes-on-iran-s-pickaxe-mountain-believed-to-be-an-enrichment-site",
+        "unbiased_text": "این سایت زیرزمینی گمان می‌رود یک تأسیسات غنی‌سازی باشد.",
+        "pattern_en": "Pickaxe Mountain fortification dramatization"
       }
     ]
   },
@@ -9564,6 +9631,28 @@
         "example_url": "http://www.euronews.com/culture/2026/07/21/kick-argentina-out-of-the-world-cup-petition-nearly-breaks-guinness-world-record",
         "unbiased_text": "دادخواست «آرژانتین را از جام جهانی اخراج کنید» حمایت قابل توجهی به دست می‌آورد... دادخواستی برای حذف آن‌ها از جام جهانی پشتیبانی عمومی قابل ملاحظه‌ای جذب کرده است.",
         "pattern_en": "Petition signature milestone dramatization"
+      },
+      {
+        "pattern": "قاب‌بندی آسیب میکروپلاستیک‌های دریایی به اکوسیستم",
+        "detail": "قاب‌بندی آلودگی میکروپلاستیکی در درجه اول از طریق پتانسیل آن برای «آسیب رساندن به اکوسیستم‌ها» بدون کمی‌سازی اثرات واقعی اثبات‌شده، فاجعه زیست‌محیطی را پیش‌فرض می‌گیرد.",
+        "debias": "یافته‌های تحقیقات آلودگی را به‌صورت واقعی گزارش کنید بدون پیش‌فرض گرفتن پیامدهای فاجعه‌بار قبل از شواهد.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "اقیانوس توسط قطعات پلاستیکی ریزی که تشخیص آن‌ها دشوار است اما می‌توانند به اکوسیستم‌های دریایی آسیب برسانند، آلوده شده است.",
+        "example_url": "http://www.euronews.com/next/2026/07/22/marine-microplastic-pollution-how-scientists-detect-it-euronews-tech-talks",
+        "unbiased_text": "اقیانوس حاوی قطعات پلاستیکی ریزی است که تشخیص آن‌ها دشوار است و محققان در حال مطالعه اثرات آن‌ها بر اکوسیستم‌های دریایی هستند.",
+        "pattern_en": "Marine microplastic harm ecosystem framing"
+      },
+      {
+        "pattern": "تشدید نگرانی درباره دَرِ گردان",
+        "detail": "چارچوب‌بندی پیوستن مقامات سابق به شرکت‌های خصوصی به عنوان مسائل ذاتاً مشکل‌ساز «درِ گردان» بدون ارائه شواهدی از تخلف، فساد را پیش‌فرض می‌گیرد.",
+        "debias": "گزارش انتقال شغلی مقامات سابق را به صورت واقعی و بدون پیش‌فرض گرفتن نقض اصول اخلاقی ارائه دهید.",
+        "date_added": "2026-07-22",
+        "status": "suggested",
+        "example_text": "سازمان شفافیت بین‌الملل هشدار داد که استخدام یک وزیر سابق که در مذاکرات آن‌ها شرکت داشته، می‌تواند دولت را در معرض فشار شرکت چینی قرار دهد.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/22/hungary-probes-byd-deal-after-ex-minister-joins-carmaker-raising-revolving-door-concerns",
+        "unbiased_text": "سازمان شفافیت بین‌الملل گفت که استخدام یک وزیر سابق که در مذاکرات دخیل بوده، نیازمند بررسی تضاد منافع احتمالی است.",
+        "pattern_en": "Revolving door concern amplification"
       }
     ]
   }
