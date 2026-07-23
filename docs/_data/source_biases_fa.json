@@ -3647,6 +3647,39 @@
         "example_url": "https://www.aljazeera.com/news/2026/7/22/creeping-death-israel-weaponises-yellow-line-to-annex-gaza?traffic_source=rss",
         "unbiased_text": "اسرائیل منطقه حائل در غزه ایجاد می‌کند و تحلیلگران درباره پیامدهای آن برای کنترل سرزمینی بحث می‌کنند",
         "pattern_en": "Yellow Line annexation metaphor construction"
+      },
+      {
+        "pattern": "قاب‌بندی هم‌ارزی با همبرگر",
+        "detail": "تبدیل قدرت خرید محلی به تعداد وعده‌های بیگ‌مک برای نمایش چشمگیر نابرابری اقتصادی بین شهرها.",
+        "debias": "داده‌های واقعی دستمزد و معیارهای هزینه زندگی را بدون مقایسه‌های جنجالی غذایی گزارش کنید.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "یک کارگر در قاهره می‌تواند ماهی ۲۲ همبرگر بخرد. در تل‌آویو، بیش از ۲۰۰. AJLabs حقوق را با تعداد وعده‌های بیگ‌مک محاسبه می‌کند.",
+        "example_url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/7/23/why-do-some-of-the-cheapest-cities-cost-the-most-to-live-in?traffic_source=rss",
+        "unbiased_text": "کارگران در قاهره از نظر قدرت خرید درآمد به‌مراتب کمتری نسبت به کارگران در تل‌آویو دارند، بر اساس مقایسه‌های هزینه زندگی.",
+        "pattern_en": "Hamburger currency equivalence framing"
+      },
+      {
+        "pattern": "قاب‌بندی محدودیت‌های دادگاه",
+        "detail": "تأکید بر محدودیت‌های قانونی در جریان بلافاصله پس از گزارش آزادی فردی به منظور کم‌رنگ کردن اهمیت آزادی او.",
+        "debias": "ابتدا آزادی را به‌عنوان خبر اصلی گزارش کنید، سپس تعهدات قانونی ادامه‌دار را به‌طور جداگانه ذکر نمایید.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "مقامات هندی این دو مرد را پس از سال‌ها زندان آزاد کردند اگرچه هر دو تحت محدودیت‌های سختگیرانه دادگاه باقی می‌مانند",
+        "example_url": "https://www.aljazeera.com/news/2026/7/23/kashmiri-activist-khurram-parvez-and-journalist-irfan-mehraj-freed-on-bail?traffic_source=rss",
+        "unbiased_text": "مقامات هندی این دو مرد را پس از سال‌ها زندان با قرار وثیقه آزاد کردند که مشمول شرایط مقرر دادگاه هستند.",
+        "pattern_en": "Court restriction qualification framing"
+      },
+      {
+        "pattern": "نمایش دراماتیک مقایسه هزینه‌ها با ضریب چندگانه",
+        "detail": "استفاده از ضرایب چندگانه برای تأکید بر هزینه‌های بازسازی از طریق مقایسه با درگیری‌های پیشین.",
+        "debias": "هزینه‌های مطلق و جدول زمانی را بدون مقایسه‌های دراماتیک با ضریب چندگانه گزارش دهید.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "بازسازی این منطقه محصور هفت برابر مجموع هزینه تمام حملات گذشته خواهد بود، طبق گزارش مشترک.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/23/rebuilding-gaza-to-cost-71bn-must-include-palestinians-report-finds?traffic_source=rss",
+        "unbiased_text": "بازسازی این منطقه محصور ۷۱ میلیارد دلار هزینه خواهد داشت، طبق گزارش مشترک.",
+        "pattern_en": "Multiplier cost comparison dramatization"
       }
     ]
   },
@@ -6325,6 +6358,28 @@
         "example_url": "https://www.france24.com/en/us-eyes-strikes-on-iran-s-pickaxe-mountain-believed-to-be-an-enrichment-site",
         "unbiased_text": "این سایت زیرزمینی گمان می‌رود یک تأسیسات غنی‌سازی باشد.",
         "pattern_en": "Pickaxe Mountain fortification dramatization"
+      },
+      {
+        "pattern": "قاب‌بندی زیر سؤال بردن وضوح استراتژی",
+        "detail": "ادعای فقدان وضوح استراتژیک از طریق تیترهای پرسشی برای ایجاد تردید درباره انسجام سیاست.",
+        "debias": "اهداف سیاستی مشخص‌شده و اقدامات را بدون اظهارنظر سردبیرانه درباره وضوح استراتژیک گزارش دهید.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "لفاظی آمریکا «تماماً درباره تشدید است» اما استراتژی برای توافق با ایران نامشخص است",
+        "example_url": "https://www.france24.com/en/us-rhetoric-all-about-amping-up-but-strategy-for-a-deal-with-iran-unclear",
+        "unbiased_text": "آمریکا برای دوازدهمین شب حملات علیه ایران را ادامه می‌دهد در حالی که کانال‌های دیپلماتیک فعال باقی مانده‌اند.",
+        "pattern_en": "Strategy clarity questioning framing"
+      },
+      {
+        "pattern": "قاب‌بندی تحقیرآمیز دیدار نمادین",
+        "detail": "توصیف نشست‌های دیپلماتیک به عنوان «عمدتاً نمادین» برای کم‌اهمیت جلوه دادن اهمیت ماهوی آنها.",
+        "debias": "درباره تعاملات دیپلماتیک و اهداف اعلام‌شده آنها بدون قضاوت پیشینی درباره اهمیت‌شان گزارش دهید.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "«عمدتاً نمادین»: آیا دیدار عون از کاخ سفید نشانه «استراتژی مهار جدید علیه ایران» است؟",
+        "example_url": "https://www.france24.com/en/mostly-symbolic-does-aoun-s-white-house-visit-signal-a-new-containment-strategy-towards-iran",
+        "unbiased_text": "دیدار عون از کاخ سفید به چالش‌های امنیتی لبنان و موضع‌گیری منطقه‌ای آن می‌پردازد.",
+        "pattern_en": "Symbolic visit dismissal framing"
       }
     ]
   },
@@ -9653,6 +9708,39 @@
         "example_url": "http://www.euronews.com/my-europe/2026/07/22/hungary-probes-byd-deal-after-ex-minister-joins-carmaker-raising-revolving-door-concerns",
         "unbiased_text": "سازمان شفافیت بین‌الملل گفت که استخدام یک وزیر سابق که در مذاکرات دخیل بوده، نیازمند بررسی تضاد منافع احتمالی است.",
         "pattern_en": "Revolving door concern amplification"
+      },
+      {
+        "pattern": "غیبت جهت‌گیری در نقد نهادی",
+        "detail": "استفاده از نقل‌قول‌ها درباره فقدان جهت‌گیری برای قاب‌بندی تصمیم‌گیری نهادی به‌عنوان بی‌نظم یا شکست‌خورده.",
+        "debias": "اختلاف‌نظرها و مذاکرات جاری را بدون توصیف آن‌ها به‌عنوان شکست جهت‌گیری گزارش کنید.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "«هیچ حس واقعی از جهت‌گیری نیست»: اتحادیه اروپا برای یافتن مسیر تحریم شهرک‌سازی‌های اسرائیلی تلاش می‌کند",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/23/no-real-sense-of-direction-eu-struggling-to-find-path-to-sanctioning-israeli-settlements",
+        "unbiased_text": "سفیران اتحادیه اروپا به اجماع درباره تحریم‌های علیه شهرک‌سازی‌های اسرائیلی نرسیده‌اند و گزینه‌های متعددی در حال بررسی است.",
+        "pattern_en": "Direction absence institutional critique"
+      },
+      {
+        "pattern": "ارتقای ویروسی برند شورت بوکسر",
+        "detail": "تبدیل جزئیات پیش‌پاافتاده لباس به خبر از طریق قاب‌بندی ویروسی و شناسایی برند.",
+        "debias": "تمرکز بر عملکرد ورزشی و نتایج تورنمنت به‌جای جزئیات تصادفی پوشاک.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "لامین یامال، مهاجم قهرمان جام جهانی اسپانیا، ممکن است در فینال یکشنبه در نیوجرسی گلی نزده باشد، اما تصاویری از او با شورت بوکسر برند ۶PM به هدف رسیده‌اند برای این برند مدرن آلمانی که متعلق به یک اینفلوئنسر فرانکفورتی است.",
+        "example_url": "http://www.euronews.com/culture/2026/07/23/flash-in-the-pants-lamine-yamals-6pm-german-boxer-shorts-go-viral-after-world-cup-appearan",
+        "unbiased_text": "اسپانیا فینال جام جهانی را در نیوجرسی برد و مهاجم لامین یامال بخشی از تیم قهرمان بود.",
+        "pattern_en": "Boxer shorts brand viral elevation"
+      },
+      {
+        "pattern": "ادعای واقعی سلب تابعیت",
+        "detail": "توصیف محدودیت‌های قانونی به عنوان معادل از دست دادن تابعیت از طریق نقل قول از وکلا.",
+        "debias": "اقدامات قانونی خاص را بدون درهم‌آمیختن با لغو رسمی تابعیت گزارش کنید.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "وکلا گفتند این قانون به معنای «از دست دادن واقعی تابعیت» است و فعالان سیاسی و روزنامه‌نگاران در معرض بیشترین خطر قرار دارند.",
+        "example_url": "http://www.euronews.com/2026/07/23/russia-strips-rights-of-dissidents-abroad-in-sweeping-new-traitor-law",
+        "unbiased_text": "این قانون حساب‌ها را مسدود می‌کند، اموال را مصادره می‌کند و خدمات کنسولی را برای روس‌های مقیم خارج از کشور که با اتهاماتی در داخل روبه‌رو هستند، مسدود می‌کند، به گفته دوما.",
+        "pattern_en": "Citizenship stripping de facto assertion"
       }
     ]
   }

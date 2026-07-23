@@ -3276,6 +3276,36 @@
         "example_text": "'Creeping death': Israel weaponises 'Yellow Line' to annex Gaza",
         "example_url": "https://www.aljazeera.com/news/2026/7/22/creeping-death-israel-weaponises-yellow-line-to-annex-gaza?traffic_source=rss",
         "unbiased_text": "Israel establishes buffer zone in Gaza as analysts debate its implications for territorial control"
+      },
+      {
+        "pattern": "Hamburger currency equivalence framing",
+        "detail": "Converting local purchasing power into Big Mac meals to dramatize economic inequality between cities.",
+        "debias": "Report actual wage data and cost-of-living metrics without novelty food comparisons.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "A worker in Cairo can afford 22 hamburgers a month. In Tel Aviv, more than 200. AJLabs counts a salary in Big Mac meals.",
+        "example_url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/7/23/why-do-some-of-the-cheapest-cities-cost-the-most-to-live-in?traffic_source=rss",
+        "unbiased_text": "Workers in Cairo earn significantly less in purchasing power terms than workers in Tel Aviv, according to cost-of-living comparisons."
+      },
+      {
+        "pattern": "Court restriction qualification framing",
+        "detail": "Emphasizing ongoing legal restrictions immediately after reporting someone's release to undermine the significance of their freedom.",
+        "debias": "Report release first as primary news, then note any continuing legal obligations separately.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "Indian authorities release the two men after years in prison although both remain under tight court-imposed restrictions",
+        "example_url": "https://www.aljazeera.com/news/2026/7/23/kashmiri-activist-khurram-parvez-and-journalist-irfan-mehraj-freed-on-bail?traffic_source=rss",
+        "unbiased_text": "Indian authorities released the two men after years in prison on bail, subject to court-imposed conditions."
+      },
+      {
+        "pattern": "Multiplier cost comparison dramatization",
+        "detail": "Using multiplication factors to emphasize reconstruction costs by comparing to previous conflicts.",
+        "debias": "Report absolute costs and timelines without dramatic multiplier comparisons.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "Rebuilding the enclave will cost seven times the combined cost of all past offensives, says joint report.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/23/rebuilding-gaza-to-cost-71bn-must-include-palestinians-report-finds?traffic_source=rss",
+        "unbiased_text": "Rebuilding the enclave will cost $71 billion, according to a joint report."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5710,6 +5740,26 @@
         "example_text": "The fortified site, buried deep underground, is believed to be an enrichment facility.",
         "example_url": "https://www.france24.com/en/us-eyes-strikes-on-iran-s-pickaxe-mountain-believed-to-be-an-enrichment-site",
         "unbiased_text": "The underground site is believed to be an enrichment facility."
+      },
+      {
+        "pattern": "Strategy clarity questioning framing",
+        "detail": "Asserting lack of strategic clarity through questioning headlines to cast doubt on policy coherence.",
+        "debias": "Report stated policy objectives and actions without editorializing about strategic clarity.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "US rhetoric 'all about amping up' but strategy for a deal with Iran unclear",
+        "example_url": "https://www.france24.com/en/us-rhetoric-all-about-amping-up-but-strategy-for-a-deal-with-iran-unclear",
+        "unbiased_text": "US continues strikes on Iran for twelfth night as diplomatic channels remain active."
+      },
+      {
+        "pattern": "Symbolic visit dismissal framing",
+        "detail": "Characterizing diplomatic meetings as 'mostly symbolic' to minimize their substantive importance.",
+        "debias": "Report diplomatic engagements and their stated purposes without preemptive significance judgments.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "'Mostly symbolic': Does Aoun's White House visit signal a 'new containment strategy towards Iran'?",
+        "example_url": "https://www.france24.com/en/mostly-symbolic-does-aoun-s-white-house-visit-signal-a-new-containment-strategy-towards-iran",
+        "unbiased_text": "Aoun's White House visit addresses Lebanon's security challenges and regional positioning."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -8703,6 +8753,36 @@
         "example_text": "Transparency International warned the hiring of an ex-minister who negotiated them could expose the state to Chinese corporate pressure.",
         "example_url": "http://www.euronews.com/my-europe/2026/07/22/hungary-probes-byd-deal-after-ex-minister-joins-carmaker-raising-revolving-door-concerns",
         "unbiased_text": "Transparency International said the hiring of a former minister involved in the negotiations warrants scrutiny of potential conflicts of interest."
+      },
+      {
+        "pattern": "Direction absence institutional critique",
+        "detail": "Using quotes about lack of direction to frame institutional decision-making as disorganized or failing.",
+        "debias": "Report disagreements and ongoing deliberations without characterizing them as directional failure.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "'No real sense of direction': EU struggling to find path to sanctioning Israeli settlements",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/23/no-real-sense-of-direction-eu-struggling-to-find-path-to-sanctioning-israeli-settlements",
+        "unbiased_text": "EU ambassadors have not reached consensus on sanctions against Israeli settlements, with multiple options under consideration."
+      },
+      {
+        "pattern": "Boxer shorts brand viral elevation",
+        "detail": "Elevating trivial wardrobe details to news stories through viral framing and brand identification.",
+        "debias": "Focus on athletic performance and tournament outcomes rather than incidental clothing details.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "Spain's World Cup winning striker Lamine Yamal may not have scored during Sunday's final in New Jersey, but pictures of him sporting 6PM boxer shorts have hit the target for the trendy German brand which belongs to a Frankfurt influencer.",
+        "example_url": "http://www.euronews.com/culture/2026/07/23/flash-in-the-pants-lamine-yamals-6pm-german-boxer-shorts-go-viral-after-world-cup-appearan",
+        "unbiased_text": "Spain won the World Cup final in New Jersey, with striker Lamine Yamal part of the championship team."
+      },
+      {
+        "pattern": "Citizenship stripping de facto assertion",
+        "detail": "Characterizing legal restrictions as equivalent to citizenship loss through lawyer quotations.",
+        "debias": "Report specific legal measures enacted without conflating them with formal citizenship revocation.",
+        "date_added": "2026-07-23",
+        "status": "suggested",
+        "example_text": "Lawyers said the law meant 'de facto loss of citizenship,' with political activists and journalists among those most at risk.",
+        "example_url": "http://www.euronews.com/2026/07/23/russia-strips-rights-of-dissidents-abroad-in-sweeping-new-traitor-law",
+        "unbiased_text": "The law freezes accounts, seizes property and blocks consular services for Russians abroad facing charges at home, according to the Duma."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
