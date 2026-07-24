@@ -3680,6 +3680,28 @@
         "example_url": "https://www.aljazeera.com/news/2026/7/23/rebuilding-gaza-to-cost-71bn-must-include-palestinians-report-finds?traffic_source=rss",
         "unbiased_text": "بازسازی این منطقه محصور ۷۱ میلیارد دلار هزینه خواهد داشت، طبق گزارش مشترک.",
         "pattern_en": "Multiplier cost comparison dramatization"
+      },
+      {
+        "pattern": "عادی‌سازی طنزآمیز لقب حزبی",
+        "detail": "استفاده از نام‌گذاری طنزآمیز خودساخته جنبش اعتراضی به‌عنوان نامگذاری رسمی حزب در تیترها و متن اصلی، فعالیت خیابانی را به‌عنوان نهاد سیاسی رسمی مشروعیت می‌بخشد.",
+        "debias": "به جنبش‌های اعتراضی به‌صورت توصیفی اشاره کنید نه با نام‌گذاری‌های طنزآمیز خودساخته که ماهیت غیررسمی آن‌ها را پنهان می‌کند.",
+        "date_added": "2026-07-24",
+        "status": "suggested",
+        "example_text": "رهبران حزب سوسک جانتا (CJP) بر برکناری وزیر آموزش و پرورش دهارمندرا پرادهان اصرار دارند.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/24/indian-student-protests-whats-next-after-modis-promise-on-exam-leaks?traffic_source=rss",
+        "unbiased_text": "رهبران اعتراضات دانشجویی بر برکناری وزیر آموزش و پرورش دهارمندرا پرادهان اصرار دارند.",
+        "pattern_en": "Party nickname satirical normalization"
+      },
+      {
+        "pattern": "قاب‌بندی تحقیقات درگیری‌های پس از فینال",
+        "detail": "ارائه تحقیقات درباره سوء رفتار ورزشی به عنوان موازی با انتقادات درون زمین، با رفتار با حوادث جداگانه به عنوان الگویی یکپارچه، جنجال را تشدید می‌کند.",
+        "debias": "رویدادهای درون زمین و پس از بازی را به صورت جداگانه گزارش دهید بدون اینکه ارتباط تحقیقاتی را نشان دهید مگر اینکه صراحتاً توسط مقامات مرتبط شده باشد.",
+        "date_added": "2026-07-24",
+        "status": "suggested",
+        "example_text": "در حالی که آرژانتین در طول جام جهانی ۲۰۲۶ با انتقاد مواجه بود، درگیری‌های پس از فینال اکنون در حال بررسی هستند.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/24/spains-de-la-fuente-slams-argentinas-world-cup-conduct-as-unacceptable?traffic_source=rss",
+        "unbiased_text": "FIFA در حال بررسی درگیری‌های پس از بازی فینال جام جهانی است.",
+        "pattern_en": "Post-final altercations investigation framing"
       }
     ]
   },
@@ -6380,6 +6402,39 @@
         "example_url": "https://www.france24.com/en/mostly-symbolic-does-aoun-s-white-house-visit-signal-a-new-containment-strategy-towards-iran",
         "unbiased_text": "دیدار عون از کاخ سفید به چالش‌های امنیتی لبنان و موضع‌گیری منطقه‌ای آن می‌پردازد.",
         "pattern_en": "Symbolic visit dismissal framing"
+      },
+      {
+        "pattern": "قاب‌بندی دائمی بودن اضطرار ساختاری",
+        "detail": "توصیف شرایط پس از آتش‌بس به عنوان «اضطرار ساختاری» نشان‌دهنده اختلال سیستماتیک فراتر از وقفه موقت است و دائمی بودن وضعیت بحرانی را القا می‌کند.",
+        "debias": "چالش‌های جاری را بدون اینکه پیشنهاد کنید که آن‌ها نماینده یک وضعیت ساختاری برگشت‌ناپذیر هستند، توصیف کنید.",
+        "date_added": "2026-07-24",
+        "status": "suggested",
+        "example_text": "غزه همچنان در وضعیت اضطرار ساختاری گرفتار است، جایی که فعالان بشردوستانه به دلیل محدودیت‌های گسترده از فراتر رفتن از امدادرسانی کوتاه‌مدت باز داشته می‌شوند",
+        "example_url": "https://www.france24.com/en/incredibly-dire-nine-months-into-gaza-ceasefire-conditions-should-have-improved-by-now",
+        "unbiased_text": "غزه همچنان با چالش‌های بشردوستانه قابل توجهی به دلیل محدودیت‌های گسترده بر کمک‌های بشردوستانه، مصالح ساختمانی، سوخت و دسترسی عملیاتی مواجه است.",
+        "pattern_en": "Structural emergency permanence framing"
+      },
+      {
+        "pattern": "قاب‌بندی انتظار «باید بهبود می‌یافت»",
+        "detail": "تیترهایی که بیان می‌کنند شرایط «تاکنون باید بهبود می‌یافت» قضاوت هنجاری درباره انتظارات جدول زمانی آتش‌بس را جای‌گذاری می‌کنند به‌جای گزارش شرایط واقعی.",
+        "debias": "درباره شرایط فعلی گزارش دهید بدون جای‌گذاری انتظارات درباره اینکه بهبودها «باید» از چه جدول زمانی پیروی کنند.",
+        "date_added": "2026-07-24",
+        "status": "suggested",
+        "example_text": "«به‌شدت وخیم»: ۹ ماه پس از آتش‌بس غزه، شرایط «تاکنون باید بهبود می‌یافت»",
+        "example_url": "https://www.france24.com/en/incredibly-dire-nine-months-into-gaza-ceasefire-conditions-should-have-improved-by-now",
+        "unbiased_text": "۹ ماه پس از آتش‌بس غزه، شرایط بشردوستانه همچنان وخیم است",
+        "pattern_en": "Should-have-improved expectation framing"
+      },
+      {
+        "pattern": "توصیف دیپلماتیک سیلی به صورت",
+        "detail": "استفاده از استعاره‌های تحریک‌آمیز مانند «سیلی به صورت» برای توصیف دیدارهای دیپلماتیک، تعامل معمول دیپلماتیک را به روایت توهین شخصی تبدیل می‌کند.",
+        "debias": "پیامدهای دیپلماتیک دیدارها را بدون استعاره‌های تحریک‌آمیز که موضع‌گیری ژئوپلیتیک را شخصی می‌کنند، توصیف کنید.",
+        "date_added": "2026-07-24",
+        "status": "suggested",
+        "example_text": "دیدار بین عون و ترامپ «سیلی به صورت» نخست‌وزیر اسرائیل بنیامین نتانیاهو است",
+        "example_url": "https://www.france24.com/en/lebanon-s-president-urges-trump-to-keep-supporting-its-army",
+        "unbiased_text": "دیدار بین عون و ترامپ نشان‌دهنده تغییر در تعامل ایالات متحده در خاورمیانه است که ممکن است موقعیت منطقه‌ای اسرائیل را پیچیده‌تر کند",
+        "pattern_en": "Slap-in-face diplomatic characterization"
       }
     ]
   },
@@ -9741,6 +9796,28 @@
         "example_url": "http://www.euronews.com/2026/07/23/russia-strips-rights-of-dissidents-abroad-in-sweeping-new-traitor-law",
         "unbiased_text": "این قانون حساب‌ها را مسدود می‌کند، اموال را مصادره می‌کند و خدمات کنسولی را برای روس‌های مقیم خارج از کشور که با اتهاماتی در داخل روبه‌رو هستند، مسدود می‌کند، به گفته دوما.",
         "pattern_en": "Citizenship stripping de facto assertion"
+      },
+      {
+        "pattern": "جشن گرفتن از هنجار حضانت مشترک",
+        "detail": "قاب‌بندی تغییر آماری به سمت حضانت مشترک به عنوان «تبدیل شدن به هنجار» به جای گزارش خنثی تغییرات جمعیت‌شناختی، نتیجه سیاستی را به عنوان پیشرفت اجتماعی جشن می‌گیرد.",
+        "debias": "آمار ترتیبات حضانت را بدون توصیف روندها به عنوان دستاوردهای اجتماعی هنجاری گزارش دهید.",
+        "date_added": "2026-07-24",
+        "status": "suggested",
+        "example_text": "حضانت مشترک کودکان اکنون از حضانت انفرادی اعطا شده به مادران پیشی گرفته است.",
+        "example_url": "http://www.euronews.com/culture/2026/07/24/divorces-in-spain-fall-27-in-2025-as-shared-custody-becomes-the-norm",
+        "unbiased_text": "ترتیبات حضانت مشترک اکنون بیش از نیمی از تصمیمات حضانت را تشکیل می‌دهند، در مقایسه با حضانت انفرادی اعطا شده به مادران.",
+        "pattern_en": "Shared custody norm celebration"
+      },
+      {
+        "pattern": "انسان‌انگاری نوآورانه نبرد قرون وسطایی",
+        "detail": "ارائه ورزش‌های رزمی بازسازی تاریخی با زبانی دراماتیک که معمولاً برای درگیری‌های نظامی واقعی به کار می‌رود، تمایز بین خشونت سرگرمی و واقعی را مخدوش می‌کند.",
+        "debias": "گزارش ورزش‌های رزمی تاریخی را با اصطلاحاتی ارائه دهید که به وضوح زمینه تفریحی و رقابتی را مشخص می‌کند.",
+        "date_added": "2026-07-24",
+        "status": "suggested",
+        "example_text": "جنگجویان زره‌پوش به قلعه Spøttrup دانمارک برای مسابقات قهرمانی جهانی IMCF یورش می‌برند",
+        "example_url": "http://www.euronews.com/video/2026/07/24/armoured-fighters-storm-denmarks-spottrup-castle-for-imcf-world-championship",
+        "unbiased_text": "نزدیک به ۶۰۰ رقیب در قلعه Spøttrup دانمارک برای مسابقات قهرمانی جهانی فدراسیون بین‌المللی نبرد قرون وسطایی گرد هم می‌آیند",
+        "pattern_en": "Medieval combat novelty anthropomorphization"
       }
     ]
   }

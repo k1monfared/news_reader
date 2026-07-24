@@ -3306,6 +3306,26 @@
         "example_text": "Rebuilding the enclave will cost seven times the combined cost of all past offensives, says joint report.",
         "example_url": "https://www.aljazeera.com/news/2026/7/23/rebuilding-gaza-to-cost-71bn-must-include-palestinians-report-finds?traffic_source=rss",
         "unbiased_text": "Rebuilding the enclave will cost $71 billion, according to a joint report."
+      },
+      {
+        "pattern": "Party nickname satirical normalization",
+        "detail": "Using protest movement's satirical self-designation as official party nomenclature in headlines and body text legitimizes street activism as formal political entity.",
+        "debias": "Refer to protest movements descriptively rather than by satirical self-designations that obscure their informal nature.",
+        "date_added": "2026-07-24",
+        "status": "suggested",
+        "example_text": "Leaders of the Cockroach Janta Party (CJP) insist on the removal of Education Minister Dharmendra Pradhan.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/24/indian-student-protests-whats-next-after-modis-promise-on-exam-leaks?traffic_source=rss",
+        "unbiased_text": "Student protest leaders insist on the removal of Education Minister Dharmendra Pradhan."
+      },
+      {
+        "pattern": "Post-final altercations investigation framing",
+        "detail": "Presenting sporting misconduct investigations as parallel to on-field criticism amplifies controversy by treating separate incidents as unified pattern.",
+        "debias": "Report on-field and post-game incidents separately without implying investigatory connection unless explicitly linked by authorities.",
+        "date_added": "2026-07-24",
+        "status": "suggested",
+        "example_text": "While Argentina faced criticism through World Cup 2026, post-final altercations are now being investigated.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/24/spains-de-la-fuente-slams-argentinas-world-cup-conduct-as-unacceptable?traffic_source=rss",
+        "unbiased_text": "FIFA is investigating altercations following the World Cup final."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5760,6 +5780,36 @@
         "example_text": "'Mostly symbolic': Does Aoun's White House visit signal a 'new containment strategy towards Iran'?",
         "example_url": "https://www.france24.com/en/mostly-symbolic-does-aoun-s-white-house-visit-signal-a-new-containment-strategy-towards-iran",
         "unbiased_text": "Aoun's White House visit addresses Lebanon's security challenges and regional positioning."
+      },
+      {
+        "pattern": "Structural emergency permanence framing",
+        "detail": "Characterizing post-ceasefire conditions as 'structural emergency' implies systemic dysfunction beyond temporary disruption, suggesting permanence of crisis state.",
+        "debias": "Describe ongoing challenges without suggesting they represent an irreversible structural condition.",
+        "date_added": "2026-07-24",
+        "status": "suggested",
+        "example_text": "Gaza remains trapped in a state of structural emergency, where humanitarian actors are prevented from moving beyond short term relief because of extensive restrictions",
+        "example_url": "https://www.france24.com/en/incredibly-dire-nine-months-into-gaza-ceasefire-conditions-should-have-improved-by-now",
+        "unbiased_text": "Gaza continues to face significant humanitarian challenges due to extensive restrictions on aid, construction materials, fuel, and operational access."
+      },
+      {
+        "pattern": "Should-have-improved expectation framing",
+        "detail": "Headlines stating conditions 'should have improved by now' embed normative judgment about ceasefire timeline expectations rather than reporting factual conditions.",
+        "debias": "Report on current conditions without embedding expectations about what timeline improvements 'should' follow.",
+        "date_added": "2026-07-24",
+        "status": "suggested",
+        "example_text": "'Incredibly dire': Nine months into Gaza ceasefire, conditions 'should have improved by now'",
+        "example_url": "https://www.france24.com/en/incredibly-dire-nine-months-into-gaza-ceasefire-conditions-should-have-improved-by-now",
+        "unbiased_text": "Nine months into Gaza ceasefire, humanitarian conditions remain dire"
+      },
+      {
+        "pattern": "Slap-in-face diplomatic characterization",
+        "detail": "Using inflammatory metaphors like 'slap in the face' to characterize diplomatic meetings transforms routine diplomatic engagement into personal affront narrative.",
+        "debias": "Describe diplomatic implications of meetings without inflammatory metaphors that personalize geopolitical positioning.",
+        "date_added": "2026-07-24",
+        "status": "suggested",
+        "example_text": "the meeting between Aoun and Trump reprents 'a slap in the face' for Israeli Prime Minister Benjamin Netanyahu",
+        "example_url": "https://www.france24.com/en/lebanon-s-president-urges-trump-to-keep-supporting-its-army",
+        "unbiased_text": "The meeting between Aoun and Trump signals a shift in US Middle East engagement that may complicate Israel's regional position"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -8783,6 +8833,26 @@
         "example_text": "Lawyers said the law meant 'de facto loss of citizenship,' with political activists and journalists among those most at risk.",
         "example_url": "http://www.euronews.com/2026/07/23/russia-strips-rights-of-dissidents-abroad-in-sweeping-new-traitor-law",
         "unbiased_text": "The law freezes accounts, seizes property and blocks consular services for Russians abroad facing charges at home, according to the Duma."
+      },
+      {
+        "pattern": "Shared custody norm celebration",
+        "detail": "Framing statistical shift toward shared custody as 'becoming the norm' celebrates policy outcome as social progress rather than reporting demographic change neutrally.",
+        "debias": "Report custody arrangement statistics without characterizing trends as normative social achievements.",
+        "date_added": "2026-07-24",
+        "status": "suggested",
+        "example_text": "Shared custody of children has now overtaken sole custody awarded to mothers.",
+        "example_url": "http://www.euronews.com/culture/2026/07/24/divorces-in-spain-fall-27-in-2025-as-shared-custody-becomes-the-norm",
+        "unbiased_text": "Shared custody arrangements now account for more than half of custody decisions, compared to sole custody awarded to mothers."
+      },
+      {
+        "pattern": "Medieval combat novelty anthropomorphization",
+        "detail": "Presenting historical reenactment combat sports with dramatic language typically reserved for actual military conflict blurs entertainment-violence distinction.",
+        "debias": "Report on historical combat sports using terminology that clearly identifies recreational and competitive context.",
+        "date_added": "2026-07-24",
+        "status": "suggested",
+        "example_text": "Armoured fighters storm Denmark's Spøttrup Castle for IMCF world championship",
+        "example_url": "http://www.euronews.com/video/2026/07/24/armoured-fighters-storm-denmarks-spottrup-castle-for-imcf-world-championship",
+        "unbiased_text": "Nearly 600 competitors gather at Denmark's Spøttrup Castle for the International Medieval Combat Federation World Championship"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
