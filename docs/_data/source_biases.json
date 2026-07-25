@@ -3326,6 +3326,46 @@
         "example_text": "While Argentina faced criticism through World Cup 2026, post-final altercations are now being investigated.",
         "example_url": "https://www.aljazeera.com/sports/2026/7/24/spains-de-la-fuente-slams-argentinas-world-cup-conduct-as-unacceptable?traffic_source=rss",
         "unbiased_text": "FIFA is investigating altercations following the World Cup final."
+      },
+      {
+        "pattern": "Business-sport balance activist platform elevation",
+        "detail": "Platforming driver criticism of F1's commercial direction as institutional critique without counterbalancing perspectives from race organizers or commercial stakeholders.",
+        "debias": "Present driver complaints about commercial balance alongside organizational justifications and stakeholder perspectives.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "Lando Norris speaks up ahead of Hungarian Grand Prix with drivers feeling new regulations have cramped their speed.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/25/f1-needs-better-balance-between-business-and-sport-says-norris?traffic_source=rss",
+        "unbiased_text": "Lando Norris has expressed concerns ahead of the Hungarian Grand Prix that new regulations may have affected racing speeds."
+      },
+      {
+        "pattern": "Witchhunt victimization narrative for official removal",
+        "detail": "Framing ICC prosecutor's removal investigation as a 'political witchhunt' through lawyer attribution, elevating persecution narrative over accountability process.",
+        "debias": "Report removal proceedings neutrally, noting both the allegations and the accused's denials without adopting either side's characterization framework.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "Lawyers for the ICC's ousted Chief Prosecutor Karim Khan say he is the victim of a political witchhunt",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/whats-behind-the-icc-investigation-into-karim-khan?traffic_source=rss",
+        "unbiased_text": "Lawyers for ICC Chief Prosecutor Karim Khan, who was removed following sexual misconduct allegations, maintain his innocence and question the proceedings."
+      },
+      {
+        "pattern": "Race-gender-sexuality disarray convergence framing",
+        "detail": "Collapsing multiple distinct social issues into singular 'disarray' characterization for sports league, implying organizational dysfunction from diversity discussions.",
+        "debias": "Report specific controversies separately rather than aggregating multiple topics into a crisis narrative.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "Discussions about race, gender and sexuality overshadow Saturday's WNBA All-Star Game, as league lurches into disarray.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/25/scrutiny-of-wnba-intensifies-as-disarray-looms-over-all-star-festivities?traffic_source=rss",
+        "unbiased_text": "The WNBA All-Star Game takes place Saturday amid ongoing discussions about race, gender and sexuality in professional basketball."
+      },
+      {
+        "pattern": "Insult as political revelation framing",
+        "detail": "Elevating a political epithet into a newsworthy backlash story, amplifying offense through 'facing backlash' construction.",
+        "debias": "Report controversial statements factually without amplification language about social media reactions unless substantive policy consequences follow.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "US President Donald Trump is facing backlash after using 'Palestinian' as an insult while mocking a Democratic Senator.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/trump-faces-backlash-for-using-palestinian-as-an-insult?traffic_source=rss",
+        "unbiased_text": "US President Donald Trump used 'Palestinian' as a pejorative term while criticizing a Democratic Senator."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5810,6 +5850,16 @@
         "example_text": "the meeting between Aoun and Trump reprents 'a slap in the face' for Israeli Prime Minister Benjamin Netanyahu",
         "example_url": "https://www.france24.com/en/lebanon-s-president-urges-trump-to-keep-supporting-its-army",
         "unbiased_text": "The meeting between Aoun and Trump signals a shift in US Middle East engagement that may complicate Israel's regional position"
+      },
+      {
+        "pattern": "Weaponization accusation through scare-quotes elevation",
+        "detail": "Elevating Israeli accusation of 'weaponization of cultural heritage' to headline prominence while framing UNESCO designation as proceeding 'despite objections,' implying contested legitimacy.",
+        "debias": "Report heritage designations neutrally, noting objections as one perspective among member states without elevating objector framing to structural level.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "calling the nominations a \"weaponization of cultural heritage.\"",
+        "example_url": "https://www.france24.com/en/unesco-adds-sebastia-site-to-world-heritage-list-despite-israeli-objections",
+        "unbiased_text": "Israel objected to the nominations, stating concerns about the process."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -8853,6 +8903,36 @@
         "example_text": "Armoured fighters storm Denmark's Spøttrup Castle for IMCF world championship",
         "example_url": "http://www.euronews.com/video/2026/07/24/armoured-fighters-storm-denmarks-spottrup-castle-for-imcf-world-championship",
         "unbiased_text": "Nearly 600 competitors gather at Denmark's Spøttrup Castle for the International Medieval Combat Federation World Championship"
+      },
+      {
+        "pattern": "Berry-picking discovery innocence framing",
+        "detail": "Romanticizing accidental historical discoveries through 'berry-picking' setup, emphasizing civilian innocence of discoverer to heighten dramatic contrast.",
+        "debias": "Report archaeological discoveries factually without novelty framing about the circumstances of discovery.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "An unexpected find while picking berries may shed new light on Świnoujście's wartime past",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/25/goes-berry-picking-finds-traces-of-mysterious-allied-plane-wreck-in-poland",
+        "unbiased_text": "Aircraft debris discovered in Poland may provide new information about Świnoujście's wartime history."
+      },
+      {
+        "pattern": "Teacher sick leave scandal duration emphasis",
+        "detail": "Highlighting 17-year sick leave duration through headline and framing to imply abuse, while court proceedings and fraud investigations remain unresolved.",
+        "debias": "Report employment disputes neutrally without duration sensationalism until legal findings are established.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "A teacher in North Rhine-Westphalia has been on sick leave on full pay since 2009. Now, at 62, she is to be retired, but is challenging this in court as fraud investigations run in parallel.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/25/german-teacher-ill-for-17-years-fights-in-court-for-full-salary",
+        "unbiased_text": "A North Rhine-Westphalia teacher is challenging her retirement in court while authorities investigate her long-term sick leave."
+      },
+      {
+        "pattern": "Medieval combat anthropomorphic celebration framing",
+        "detail": "Romanticizing modern historical combat sport through castle setting and 'storming' language, elevating entertainment spectacle to cultural event status.",
+        "debias": "Report sporting events straightforwardly without medieval romanticism or fortress-storming dramatization.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "Nearly 600 armoured fighters from 30 countries have gathered at Denmark's Spøttrup Castle for the International Medieval Combat Federation (IMCF) World Championship, turning one of Scandinavia's best-preserved medieval fortresses into an arena for full-contact historical combat.",
+        "example_url": "http://www.euronews.com/video/2026/07/24/armoured-fighters-storm-denmarks-spottrup-castle-for-imcf-world-championship",
+        "unbiased_text": "Denmark's Spøttrup Castle is hosting the International Medieval Combat Federation World Championship with 600 competitors from 30 countries."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

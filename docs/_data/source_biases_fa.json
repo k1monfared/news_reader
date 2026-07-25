@@ -3702,6 +3702,51 @@
         "example_url": "https://www.aljazeera.com/sports/2026/7/24/spains-de-la-fuente-slams-argentinas-world-cup-conduct-as-unacceptable?traffic_source=rss",
         "unbiased_text": "FIFA در حال بررسی درگیری‌های پس از بازی فینال جام جهانی است.",
         "pattern_en": "Post-final altercations investigation framing"
+      },
+      {
+        "pattern": "برجسته‌سازی سکوی فعالیت‌گرایانه برای تعادل تجاری-ورزشی",
+        "detail": "سکو دادن به انتقادات راننده از جهت‌گیری تجاری F1 به‌عنوان نقد نهادی بدون ارائه دیدگاه‌های متوازن از سوی برگزارکنندگان مسابقات یا ذینفعان تجاری.",
+        "debias": "شکایات راننده درباره تعادل تجاری را در کنار توجیهات سازمانی و دیدگاه‌های ذینفعان ارائه دهید.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "لندو نوریس پیش از گرندپری مجارستان سخن می‌گوید و رانندگان احساس می‌کنند مقررات جدید سرعت آن‌ها را محدود کرده است.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/25/f1-needs-better-balance-between-business-and-sport-says-norris?traffic_source=rss",
+        "unbiased_text": "لندو نوریس پیش از گرندپری مجارستان نگرانی ابراز کرده که مقررات جدید ممکن است بر سرعت مسابقات تأثیر گذاشته باشد.",
+        "pattern_en": "Business-sport balance activist platform elevation"
+      },
+      {
+        "pattern": "روایت قربانی‌سازی شکار جادوگر برای برکناری مقام رسمی",
+        "detail": "قاب‌بندی تحقیقات برکناری دادستان ICC به‌عنوان «شکار جادوگر سیاسی» از طریق انتساب به وکیل، ارتقای روایت آزار و اذیت بر فرآیند پاسخگویی.",
+        "debias": "گزارش روند برکناری به‌صورت بی‌طرفانه، با ذکر هم اتهامات و هم انکارهای متهم بدون پذیرش چارچوب مشخصه‌سازی هیچ‌یک از طرفین.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "وکلای کریم خان، دادستان کل برکنار شده ICC، می‌گویند او قربانی یک شکار جادوگر سیاسی است",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/whats-behind-the-icc-investigation-into-karim-khan?traffic_source=rss",
+        "unbiased_text": "وکلای کریم خان، دادستان کل ICC که پس از اتهامات سوء‌رفتار جنسی برکنار شد، بر بی‌گناهی وی تأکید می‌کنند و روند رسیدگی را زیر سؤال می‌برند.",
+        "pattern_en": "Witchhunt victimization narrative for official removal"
+      },
+      {
+        "pattern": "همگرایی قاب‌بندی هرج‌ومرج در موضوعات نژاد-جنسیت-گرایش جنسی",
+        "detail": "فروکاستن مسائل اجتماعی متمایز متعدد به توصیف واحد «هرج‌ومرج» برای لیگ ورزشی، که نشان‌دهنده اختلال سازمانی ناشی از بحث‌های تنوع است.",
+        "debias": "بحث‌های خاص را به‌طور جداگانه گزارش کنید به جای جمع‌آوری موضوعات متعدد در یک روایت بحران.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "بحث‌ها درباره نژاد، جنسیت و گرایش جنسی بر بازی ستارگان WNBA روز شنبه سایه می‌افکنند، در حالی که لیگ به سوی هرج‌ومرج سقوط می‌کند.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/25/scrutiny-of-wnba-intensifies-as-disarray-looms-over-all-star-festivities?traffic_source=rss",
+        "unbiased_text": "بازی ستارگان WNBA روز شنبه در میان بحث‌های جاری درباره نژاد، جنسیت و گرایش جنسی در بسکتبال حرفه‌ای برگزار می‌شود.",
+        "detail_items": [],
+        "pattern_en": "Race-gender-sexuality disarray convergence framing"
+      },
+      {
+        "pattern": "قاب‌بندی توهین به‌عنوان افشاگری سیاسی",
+        "detail": "تبدیل یک لقب سیاسی به داستان خبری واکنش‌برانگیز، تقویت احساس توهین از طریق ساختار «با واکنش مواجه شدن».",
+        "debias": "اظهارات بحث‌برانگیز را به‌صورت واقعی گزارش کنید بدون زبان تشدیدکننده درباره واکنش‌های رسانه‌های اجتماعی مگر اینکه پیامدهای سیاسی اساسی به‌دنبال داشته باشد.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "دونالد ترامپ، رئیس‌جمهور آمریکا، پس از استفاده از واژه «فلسطینی» به‌عنوان توهین در حین تمسخر یک سناتور دموکرات، با واکنش مواجه شده است.",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/trump-faces-backlash-for-using-palestinian-as-an-insult?traffic_source=rss",
+        "unbiased_text": "دونالد ترامپ، رئیس‌جمهور آمریکا، از واژه «فلسطینی» به‌عنوان اصطلاحی تحقیرآمیز هنگام انتقاد از یک سناتور دموکرات استفاده کرد.",
+        "pattern_en": "Insult as political revelation framing"
       }
     ]
   },
@@ -6435,6 +6480,17 @@
         "example_url": "https://www.france24.com/en/lebanon-s-president-urges-trump-to-keep-supporting-its-army",
         "unbiased_text": "دیدار بین عون و ترامپ نشان‌دهنده تغییر در تعامل ایالات متحده در خاورمیانه است که ممکن است موقعیت منطقه‌ای اسرائیل را پیچیده‌تر کند",
         "pattern_en": "Slap-in-face diplomatic characterization"
+      },
+      {
+        "pattern": "اتهام سلاح‌سازی از طریق برجسته‌سازی گیومه‌های ترسناک",
+        "detail": "برجسته کردن اتهام اسرائیل مبنی بر «سلاح‌سازی میراث فرهنگی» در عنوان اصلی در حالی که ثبت یونسکو را «علی‌رغم اعتراضات» قاب‌بندی می‌کند، که مشروعیت مورد مناقشه را القا می‌کند.",
+        "debias": "ثبت‌های میراثی را به‌صورت خنثی گزارش کنید و اعتراضات را به‌عنوان یک دیدگاه در میان کشورهای عضو ذکر کنید بدون اینکه قاب‌بندی معترض را به سطح ساختاری ارتقا دهید.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "نامزدی‌ها را «سلاح‌سازی میراث فرهنگی» نامید.",
+        "example_url": "https://www.france24.com/en/unesco-adds-sebastia-site-to-world-heritage-list-despite-israeli-objections",
+        "unbiased_text": "اسرائیل به نامزدی‌ها اعتراض کرد و نگرانی‌هایی درباره روند آن اعلام نمود.",
+        "pattern_en": "Weaponization accusation through scare-quotes elevation"
       }
     ]
   },
@@ -9818,6 +9874,41 @@
         "example_url": "http://www.euronews.com/video/2026/07/24/armoured-fighters-storm-denmarks-spottrup-castle-for-imcf-world-championship",
         "unbiased_text": "نزدیک به ۶۰۰ رقیب در قلعه Spøttrup دانمارک برای مسابقات قهرمانی جهانی فدراسیون بین‌المللی نبرد قرون وسطایی گرد هم می‌آیند",
         "pattern_en": "Medieval combat novelty anthropomorphization"
+      },
+      {
+        "pattern": "قاب‌بندی معصومیت کشف توت‌چینی",
+        "detail": "رمانتیک‌سازی کشفیات تاریخی تصادفی از طریق چیدمان «توت‌چینی»، با تأکید بر بی‌گناهی غیرنظامی کاشف برای تشدید تضاد دراماتیک.",
+        "debias": "کشفیات باستان‌شناسی را به صورت واقع‌گرایانه و بدون قاب‌بندی تازگی درباره شرایط کشف گزارش دهید.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "یک یافته غیرمنتظره هنگام چیدن توت‌فرنگی ممکن است روشنایی جدیدی بر گذشته زمان جنگ Świnoujście بیفکند",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/25/goes-berry-picking-finds-traces-of-mysterious-allied-plane-wreck-in-poland",
+        "unbiased_text": "بقایای هواپیما کشف‌شده در لهستان ممکن است اطلاعات جدیدی درباره تاریخ زمان جنگ Świnoujście فراهم کند.",
+        "detail_items": [],
+        "pattern_en": "Berry-picking discovery innocence framing"
+      },
+      {
+        "pattern": "تأکید بر مدت زمان مرخصی استعلاجی معلم به‌عنوان رسوایی",
+        "detail": "برجسته‌سازی مدت ۱۷ سال مرخصی استعلاجی از طریق تیتر و چارچوب‌بندی برای القای سوءاستفاده، در حالی که روند دادرسی و تحقیقات کلاهبرداری هنوز به نتیجه نرسیده است.",
+        "debias": "اختلافات استخدامی را به‌طور بی‌طرفانه و بدون هیجان‌زدایی درباره مدت زمان گزارش کنید تا زمانی که یافته‌های قانونی مشخص شود.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "یک معلم در نورد راین-وستفالن از سال ۲۰۰۹ با دریافت حقوق کامل در مرخصی استعلاجی به سر می‌برد. اکنون در ۶۲ سالگی قرار است بازنشسته شود، اما به این تصمیم در دادگاه اعتراض می‌کند در حالی که تحقیقات کلاهبرداری به‌طور موازی ادامه دارد.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/25/german-teacher-ill-for-17-years-fights-in-court-for-full-salary",
+        "unbiased_text": "یک معلم در نورد راین-وستفالن به بازنشستگی خود در دادگاه اعتراض می‌کند در حالی که مقامات در حال بررسی مرخصی استعلاجی طولانی‌مدت او هستند.",
+        "pattern_en": "Teacher sick leave scandal duration emphasis"
+      },
+      {
+        "pattern": "قاب‌بندی جشن انسان‌انگاری نبرد قرون وسطایی",
+        "detail": "رمانتیک کردن ورزش رزمی تاریخی مدرن از طریق محیط قلعه و زبان «یورش»، و ارتقای تماشای سرگرمی به موقعیت رویداد فرهنگی.",
+        "debias": "رویدادهای ورزشی را بدون رمانتیسم قرون وسطایی یا نمایش‌سازی یورش به قلعه، به شیوه‌ای مستقیم گزارش کنید.",
+        "date_added": "2026-07-25",
+        "status": "suggested",
+        "example_text": "نزدیک به ۶۰۰ جنگجوی زره‌پوش از ۳۰ کشور در قلعه اشپوتروپ دانمارک گرد هم آمده‌اند تا در مسابقات جهانی فدراسیون بین‌المللی نبرد قرون وسطایی (IMCF) شرکت کنند و یکی از محفوظ‌ترین قلعه‌های قرون وسطایی اسکاندیناوی را به عرصه‌ای برای نبرد تاریخی تماس کامل تبدیل کنند.",
+        "example_url": "http://www.euronews.com/video/2026/07/24/armoured-fighters-storm-denmarks-spottrup-castle-for-imcf-world-championship",
+        "unbiased_text": "قلعه اشپوتروپ دانمارک میزبان مسابقات جهانی فدراسیون بین‌المللی نبرد قرون وسطایی با ۶۰۰ رقیب از ۳۰ کشور است.",
+        "detail_items": [],
+        "pattern_en": "Medieval combat anthropomorphic celebration framing"
       }
     ]
   }
