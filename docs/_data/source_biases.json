@@ -3366,6 +3366,26 @@
         "example_text": "US President Donald Trump is facing backlash after using 'Palestinian' as an insult while mocking a Democratic Senator.",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/trump-faces-backlash-for-using-palestinian-as-an-insult?traffic_source=rss",
         "unbiased_text": "US President Donald Trump used 'Palestinian' as a pejorative term while criticizing a Democratic Senator."
+      },
+      {
+        "pattern": "Transferred blame incident causation framing",
+        "detail": "Attributing violence or casualties to one party's actions while obscuring the initiating party's role by structuring the headline to suggest one side caused the other's response.",
+        "debias": "Clarify the sequence of events and avoid causal framing that implies one party's casualties prompted the other's actions when the reverse occurred.",
+        "date_added": "2026-07-26",
+        "status": "suggested",
+        "example_text": "The surge in violence comes after four Palestinians and two soldiers were killed in a gunfight on Friday.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/26/israeli-crackdown-in-occupied-west-bank-intensifies-settlers-cause-mayhem?traffic_source=rss",
+        "unbiased_text": "The violence continued after a Friday gunfight that left four Palestinians and two Israeli soldiers dead."
+      },
+      {
+        "pattern": "Investigation-despite-participation contradiction framing",
+        "detail": "Highlighting an investigation into an action while simultaneously reporting the action proceeded as normal, creating a paradox that suggests the investigation is ineffective or symbolic.",
+        "debias": "Report the investigation and the action separately without the contradictory framing that implies one undermines the other.",
+        "date_added": "2026-07-26",
+        "status": "suggested",
+        "example_text": "Casemiro plays, Messi sits out during his post-World Cup rest, and Suarez scores to give Miami a sixth straight MLS win.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/26/casemiro-makes-inter-miami-debut-despite-mls-investigation-into-transfer?traffic_source=rss",
+        "unbiased_text": "Casemiro made his Inter Miami debut in a 2-1 win, while the MLS continues to investigate his transfer from Manchester United."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5860,6 +5880,36 @@
         "example_text": "calling the nominations a \"weaponization of cultural heritage.\"",
         "example_url": "https://www.france24.com/en/unesco-adds-sebastia-site-to-world-heritage-list-despite-israeli-objections",
         "unbiased_text": "Israel objected to the nominations, stating concerns about the process."
+      },
+      {
+        "pattern": "Settler-military coordination detention framing",
+        "detail": "Framing Israeli military arrests following settler violence as coordination rather than response, implying institutional complicity through temporal sequencing.",
+        "debias": "Report military actions and settler violence separately, clarifying whether arrests targeted perpetrators or other individuals.",
+        "date_added": "2026-07-26",
+        "status": "suggested",
+        "example_text": "Israeli settlers set fire to Al-Rahma Mosque in Qusra, near Nablus, as Israeli forces arrested dozens of Palestinians",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/israeli-settlers-set-fire-to-mosque-in-occupied-west-bank?traffic_source=rss",
+        "unbiased_text": "Israeli settlers set fire to Al-Rahma Mosque in Qusra, near Nablus. Separately, Israeli forces arrested dozens of Palestinians in West Bank operations."
+      },
+      {
+        "pattern": "Munition depletion pause causation assertion",
+        "detail": "Attributing a military pause to weapons shortages based on media speculation rather than official statements, framing logistical concerns as operational defeat.",
+        "debias": "Distinguish between reported pauses and speculated causes, avoiding assertions about military decision-making without confirmation.",
+        "date_added": "2026-07-26",
+        "status": "suggested",
+        "example_text": "US media reports that Washington's concerns over dwindling stockpiles of Patriot interceptors and other air defence munitions could be behind the pause in fighting.",
+        "example_url": "https://www.france24.com/en/middle-east/20260726-us-holds-fire-against-iran-as-media-reports-say-washington-s-stockpiles-are-dwindling",
+        "unbiased_text": "The US did not conduct strikes on Iran for the first time in nearly two weeks. US media have reported concerns about munitions stockpiles, though the Pentagon has not confirmed this as a factor."
+      },
+      {
+        "pattern": "Heritage weaponization accusation elevation",
+        "detail": "Prominently featuring one party's accusation that heritage site nominations are weaponized while treating the nominations themselves as legitimate, creating asymmetric credibility.",
+        "debias": "Report both the nomination rationale and objections neutrally without privileging either side's characterization of motives.",
+        "date_added": "2026-07-26",
+        "status": "suggested",
+        "example_text": "Israel's Foreign Ministry urged the committee to reject efforts to designate the small West Bank town of Sebastia and the Lebanese castles, calling the nominations a \"weaponization of cultural heritage.\"",
+        "example_url": "https://www.france24.com/en/unesco-adds-sebastia-site-to-world-heritage-list-despite-israeli-objections",
+        "unbiased_text": "Israel's Foreign Ministry objected to the nominations, while UNESCO's technical committee recommended both sites based on their historical significance."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -8933,6 +8983,26 @@
         "example_text": "Nearly 600 armoured fighters from 30 countries have gathered at Denmark's Spøttrup Castle for the International Medieval Combat Federation (IMCF) World Championship, turning one of Scandinavia's best-preserved medieval fortresses into an arena for full-contact historical combat.",
         "example_url": "http://www.euronews.com/video/2026/07/24/armoured-fighters-storm-denmarks-spottrup-castle-for-imcf-world-championship",
         "unbiased_text": "Denmark's Spøttrup Castle is hosting the International Medieval Combat Federation World Championship with 600 competitors from 30 countries."
+      },
+      {
+        "pattern": "Attendance composition political inference framing",
+        "detail": "Drawing political conclusions from the demographic or institutional composition of event attendees without establishing causation or significance.",
+        "debias": "Report attendance figures neutrally without inferring political meaning unless explicitly stated by relevant parties.",
+        "date_added": "2026-07-26",
+        "status": "suggested",
+        "example_text": "The joint appearance by the unified command tackling the fires in Madrid, Ávila and Toledo and the prime minister underlined close cooperation.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/26/pedro-sanchez-the-scale-of-the-disaster-we-are-living-through-is-very-hard-to-accept",
+        "unbiased_text": "The prime minister appeared alongside the unified command coordinating firefighting efforts in Madrid, Ávila and Toledo."
+      },
+      {
+        "pattern": "Celebration-conspiracy juxtaposition dual narrative",
+        "detail": "Presenting celebratory and conspiratorial narratives side by side regarding the same event, allowing both to coexist without resolution or fact-checking.",
+        "debias": "Fact-check conspiracy claims before publication and clearly label unverified theories rather than treating them as equivalent perspectives.",
+        "date_added": "2026-07-26",
+        "status": "suggested",
+        "example_text": "the viral conspiracy theories claiming Argentina was cheated out of the World Cup - and what they reveal about the post-truth debate.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/26/weekend-newsletter-the-world-cup-conspiracy-argentina-cant-let-go",
+        "unbiased_text": "Following Argentina's World Cup semifinal loss, unsubstantiated claims about match-fixing have circulated online, illustrating challenges in combating misinformation."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

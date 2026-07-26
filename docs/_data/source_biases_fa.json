@@ -3747,6 +3747,28 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/trump-faces-backlash-for-using-palestinian-as-an-insult?traffic_source=rss",
         "unbiased_text": "دونالد ترامپ، رئیس‌جمهور آمریکا، از واژه «فلسطینی» به‌عنوان اصطلاحی تحقیرآمیز هنگام انتقاد از یک سناتور دموکرات استفاده کرد.",
         "pattern_en": "Insult as political revelation framing"
+      },
+      {
+        "pattern": "قاب‌بندی انتقال مسئولیت در علیت حادثه",
+        "detail": "نسبت دادن خشونت یا تلفات به اقدامات یک طرف، در حالی که نقش طرف آغازگر با ساختاردهی تیتر به گونه‌ای پنهان می‌شود که نشان دهد یک طرف باعث واکنش طرف دیگر شده است.",
+        "debias": "توالی رویدادها را روشن کنید و از قاب‌بندی علّی که نشان می‌دهد تلفات یک طرف باعث اقدامات طرف دیگر شده است، زمانی که وضعیت برعکس بوده، اجتناب نمایید.",
+        "date_added": "2026-07-26",
+        "status": "suggested",
+        "example_text": "افزایش خشونت پس از آن رخ می‌دهد که چهار فلسطینی و دو سرباز در یک تیراندازی روز جمعه کشته شدند.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/26/israeli-crackdown-in-occupied-west-bank-intensifies-settlers-cause-mayhem?traffic_source=rss",
+        "unbiased_text": "خشونت پس از تیراندازی روز جمعه که منجر به کشته شدن چهار فلسطینی و دو سرباز اسرائیلی شد، ادامه یافت.",
+        "pattern_en": "Transferred blame incident causation framing"
+      },
+      {
+        "pattern": "قاب‌بندی تناقض میان بررسی و اجرای عمل",
+        "detail": "برجسته‌سازی بررسی یک اقدام در حالی که همزمان گزارش می‌شود که اقدام به‌طور عادی ادامه یافته است، که پارادوکسی ایجاد می‌کند و نشان می‌دهد که بررسی ناکارآمد یا نمادین است.",
+        "debias": "بررسی و اقدام را به‌طور جداگانه گزارش کنید بدون قاب‌بندی متناقضی که نشان دهد یکی دیگری را تضعیف می‌کند.",
+        "date_added": "2026-07-26",
+        "status": "suggested",
+        "example_text": "کازمیرو بازی می‌کند، مسی در استراحت پس از جام جهانی غایب است، و سوارز گل می‌زند تا میامی ششمین برد متوالی MLS خود را کسب کند.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/26/casemiro-makes-inter-miami-debut-despite-mls-investigation-into-transfer?traffic_source=rss",
+        "unbiased_text": "کازمیرو اولین بازی خود را برای اینتر میامی در یک برد ۲ بر ۱ انجام داد، در حالی که MLS به بررسی نقل‌وانتقال او از منچستریونایتد ادامه می‌دهد.",
+        "pattern_en": "Investigation-despite-participation contradiction framing"
       }
     ]
   },
@@ -6491,6 +6513,40 @@
         "example_url": "https://www.france24.com/en/unesco-adds-sebastia-site-to-world-heritage-list-despite-israeli-objections",
         "unbiased_text": "اسرائیل به نامزدی‌ها اعتراض کرد و نگرانی‌هایی درباره روند آن اعلام نمود.",
         "pattern_en": "Weaponization accusation through scare-quotes elevation"
+      },
+      {
+        "pattern": "قاب‌بندی بازداشت با هماهنگی شهرک‌نشین-نظامی",
+        "detail": "قاب‌بندی بازداشت‌های نظامی اسرائیل پس از خشونت شهرک‌نشینان به عنوان هماهنگی به جای واکنش، که از طریق توالی زمانی به همدستی نهادی اشاره می‌کند.",
+        "debias": "اقدامات نظامی و خشونت شهرک‌نشینان را جداگانه گزارش کنید و روشن کنید که آیا بازداشت‌ها عاملان را هدف قرار داده یا افراد دیگر را.",
+        "date_added": "2026-07-26",
+        "status": "suggested",
+        "example_text": "شهرک‌نشینان اسرائیلی مسجد الرحمه در قصره، نزدیک نابلس را به آتش کشیدند، در حالی که نیروهای اسرائیلی ده‌ها فلسطینی را بازداشت کردند",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/israeli-settlers-set-fire-to-mosque-in-occupied-west-bank?traffic_source=rss",
+        "unbiased_text": "شهرک‌نشینان اسرائیلی مسجد الرحمه در قصره، نزدیک نابلس را به آتش کشیدند. به طور جداگانه، نیروهای اسرائیلی ده‌ها فلسطینی را در عملیات‌های کرانه باختری بازداشت کردند.",
+        "pattern_en": "Settler-military coordination detention framing"
+      },
+      {
+        "pattern": "ادعای علیت توقف به دلیل کاهش مهمات",
+        "detail": "نسبت دادن توقف نظامی به کمبود تسلیحات بر اساس گمانه‌زنی‌های رسانه‌ای به جای بیانیه‌های رسمی، و قاب‌بندی نگرانی‌های لجستیکی به عنوان شکست عملیاتی.",
+        "debias": "تمایز بین توقف‌های گزارش‌شده و علل حدسی، و از ادعا درباره تصمیم‌گیری نظامی بدون تأیید خودداری کنید.",
+        "date_added": "2026-07-26",
+        "status": "suggested",
+        "example_text": "رسانه‌های آمریکایی گزارش می‌دهند که نگرانی‌های واشنگتن درباره کاهش ذخایر رهگیرهای پاتریوت و سایر مهمات دفاع هوایی می‌تواند پشت توقف در درگیری‌ها باشد.",
+        "example_url": "https://www.france24.com/en/middle-east/20260726-us-holds-fire-against-iran-as-media-reports-say-washington-s-stockpiles-are-dwindling",
+        "unbiased_text": "ایالات متحده برای اولین بار در نزدیک به دو هفته حمله‌ای علیه ایران انجام نداد. رسانه‌های آمریکایی درباره ذخایر مهمات نگرانی‌هایی را گزارش کرده‌اند، هرچند پنتاگون این موضوع را به عنوان یک عامل تأیید نکرده است.",
+        "pattern_en": "Munition depletion pause causation assertion"
+      },
+      {
+        "pattern": "اتهام برجسته‌سازی سلاح‌سازی از میراث فرهنگی",
+        "detail": "برجسته کردن اتهام یک طرف مبنی بر اینکه نامزدی مکان‌های میراثی به عنوان سلاح استفاده می‌شود، در حالی که خود نامزدی‌ها را مشروع جلوه می‌دهد و اعتبار نامتقارن ایجاد می‌کند.",
+        "debias": "گزارش منطق نامزدی و اعتراضات به صورت بی‌طرفانه و بدون اولویت دادن به توصیف انگیزه‌ها از سوی هر یک از طرفین.",
+        "date_added": "2026-07-26",
+        "status": "suggested",
+        "example_text": "وزارت امور خارجه اسرائیل از کمیته خواست تا تلاش‌ها برای تعیین شهر کوچک سباستیه در کرانه باختری و قلعه‌های لبنانی را رد کند و این نامزدی‌ها را «سلاح‌سازی از میراث فرهنگی» خواند.",
+        "example_url": "https://www.france24.com/en/unesco-adds-sebastia-site-to-world-heritage-list-despite-israeli-objections",
+        "unbiased_text": "وزارت امور خارجه اسرائیل به این نامزدی‌ها اعتراض کرد، در حالی که کمیته فنی یونسکو هر دو مکان را بر اساس اهمیت تاریخی‌شان توصیه کرد.",
+        "detail_items": [],
+        "pattern_en": "Heritage weaponization accusation elevation"
       }
     ]
   },
@@ -9909,6 +9965,28 @@
         "unbiased_text": "قلعه اشپوتروپ دانمارک میزبان مسابقات جهانی فدراسیون بین‌المللی نبرد قرون وسطایی با ۶۰۰ رقیب از ۳۰ کشور است.",
         "detail_items": [],
         "pattern_en": "Medieval combat anthropomorphic celebration framing"
+      },
+      {
+        "pattern": "قاب‌بندی استنتاج سیاسی از ترکیب حاضران",
+        "detail": "استخراج نتیجه‌گیری‌های سیاسی از ترکیب جمعیت‌شناختی یا نهادی شرکت‌کنندگان در یک رویداد بدون اثبات علیت یا اهمیت.",
+        "debias": "گزارش آمار حاضران به‌صورت خنثی و بدون استنباط معنای سیاسی، مگر اینکه توسط طرف‌های مربوطه صراحتاً بیان شده باشد.",
+        "date_added": "2026-07-26",
+        "status": "suggested",
+        "example_text": "حضور مشترک نخست‌وزیر و فرماندهی یکپارچه مسئول مهار آتش‌سوزی‌ها در مادرید، آویلا و تولدو، همکاری نزدیک را برجسته کرد.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/26/pedro-sanchez-the-scale-of-the-disaster-we-are-living-through-is-very-hard-to-accept",
+        "unbiased_text": "نخست‌وزیر در کنار فرماندهی یکپارچه هماهنگ‌کننده تلاش‌های اطفای حریق در مادرید، آویلا و تولدو حاضر شد.",
+        "pattern_en": "Attendance composition political inference framing"
+      },
+      {
+        "pattern": "روایت دوگانه همزمانی جشن و توطئه",
+        "detail": "ارائه روایت‌های جشن‌گیرانه و توطئه‌گرایانه در کنار یکدیگر درباره یک رویداد واحد، به گونه‌ای که هر دو بدون حل و فصل یا بررسی واقعیت‌ها همزیستی می‌کنند.",
+        "debias": "قبل از انتشار، ادعاهای توطئه‌گرایانه را بررسی کنید و نظریه‌های تأیید نشده را به وضوح برچسب‌گذاری کنید به جای اینکه آنها را دیدگاه‌های معادل تلقی کنید.",
+        "date_added": "2026-07-26",
+        "status": "suggested",
+        "example_text": "نظریه‌های توطئه‌گرایانه پرطرفداری که ادعا می‌کنند آرژانتین از جام جهانی دزدیده شد - و آنچه که درباره بحث پسا-حقیقت آشکار می‌سازند.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/26/weekend-newsletter-the-world-cup-conspiracy-argentina-cant-let-go",
+        "unbiased_text": "پس از شکست آرژانتین در نیمه‌نهایی جام جهانی، ادعاهای بی‌اساس درباره تبانی در مسابقه در فضای آنلاین منتشر شده است که نشان‌دهنده چالش‌ها در مبارزه با اطلاعات نادرست است.",
+        "pattern_en": "Celebration-conspiracy juxtaposition dual narrative"
       }
     ]
   }
