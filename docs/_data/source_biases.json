@@ -3386,6 +3386,36 @@
         "example_text": "Casemiro plays, Messi sits out during his post-World Cup rest, and Suarez scores to give Miami a sixth straight MLS win.",
         "example_url": "https://www.aljazeera.com/sports/2026/7/26/casemiro-makes-inter-miami-debut-despite-mls-investigation-into-transfer?traffic_source=rss",
         "unbiased_text": "Casemiro made his Inter Miami debut in a 2-1 win, while the MLS continues to investigate his transfer from Manchester United."
+      },
+      {
+        "pattern": "Covert strategy multi-decade attribution",
+        "detail": "Attributing sustained multi-decade strategic patterns to successive governments to assert systematic hostile intent rather than isolated incidents.",
+        "debias": "Report specific documented actions with timeframes rather than broad multi-decade conspiracy assertions.",
+        "date_added": "2026-07-27",
+        "status": "suggested",
+        "example_text": "Successive Israeli governments have undermined diplomatic efforts and stoked tensions between Washington and Tehran.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/7/27/five-decades-of-israeli-covert-strategy-to-push-us-iran-into-confrontation?traffic_source=rss",
+        "unbiased_text": "Israel and Iran have had tensions over the past five decades, with various diplomatic efforts attempted during this period."
+      },
+      {
+        "pattern": "Calculated manoeuvre dismissal framing",
+        "detail": "Characterizing government decisions as cynical tactical calculations to deflect pressure rather than substantive policy choices.",
+        "debias": "Report the decision and its stated rationale without imputing hidden motives.",
+        "date_added": "2026-07-27",
+        "status": "suggested",
+        "example_text": "Analysts say Israeli cabinet's decision aims to deflect US pressure and fragment the Gaza Strip.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/27/israels-approval-of-limited-gaza-force-a-calculated-manoeuvre-experts-say?traffic_source=rss",
+        "unbiased_text": "The Israeli cabinet approved a limited Gaza force, a decision that some analysts interpret as responding to US pressure."
+      },
+      {
+        "pattern": "Exclusionary discrimination elevation without verification",
+        "detail": "Elevating discrimination allegations to headline prominence based on regulatory action without independent verification of discriminatory intent.",
+        "debias": "Report the regulatory violation cited and the response, without presuming discriminatory intent in the headline.",
+        "date_added": "2026-07-27",
+        "status": "suggested",
+        "example_text": "Dutch pair banned from Bali after run club 'excludes locals'",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/dutch-pair-banned-from-bali-after-run-club-excludes?traffic_source=rss",
+        "unbiased_text": "Two Dutch nationals were banned from re-entering Indonesia over alleged regulatory violations related to their running club."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5910,6 +5940,46 @@
         "example_text": "Israel's Foreign Ministry urged the committee to reject efforts to designate the small West Bank town of Sebastia and the Lebanese castles, calling the nominations a \"weaponization of cultural heritage.\"",
         "example_url": "https://www.france24.com/en/unesco-adds-sebastia-site-to-world-heritage-list-despite-israeli-objections",
         "unbiased_text": "Israel's Foreign Ministry objected to the nominations, while UNESCO's technical committee recommended both sites based on their historical significance."
+      },
+      {
+        "pattern": "Weaponization of heritage accusation platforming",
+        "detail": "Elevating accusations that cultural heritage nominations are being weaponized for political purposes, framing preservation efforts as hostile acts.",
+        "debias": "Report the heritage designation and any objections factually without adopting accusatory framing language.",
+        "date_added": "2026-07-27",
+        "status": "suggested",
+        "example_text": "Israel's Foreign Ministry urged the committee to reject efforts to designate the small West Bank town of Sebastia and the Lebanese castles, calling the nominations a \"weaponization of cultural heritage.\"",
+        "example_url": "https://www.france24.com/en/unesco-adds-sebastia-site-to-world-heritage-list-despite-israeli-objections",
+        "unbiased_text": "Israel's Foreign Ministry objected to the designation of Sebastia and Lebanese castles as World Heritage sites, citing political concerns."
+      },
+      {
+        "pattern": "Accountability threat language for documentation",
+        "detail": "Framing arrests for documenting military strikes as government efforts to deter circulation and maintain narrative control rather than law enforcement.",
+        "debias": "Report arrests and stated legal justifications without presuming suppression motive.",
+        "date_added": "2026-07-27",
+        "status": "suggested",
+        "example_text": "Since the conflict between Iran and the United States began on February 28, more than 1,000 people have been arrested for attempting to document Iranian strikes in Jordan and Gulf countries allied with Washington. The governments of these countries have sought to deter the circulation of such images and maintain an official narrative denying that the strikes reached their targets.",
+        "example_url": "https://www.france24.com/en/middle-east/20260724-iranian-strikes-gulf-states-arrests-denials-satellite-investigation",
+        "unbiased_text": "Over 1,000 people have been arrested in Jordan and Gulf countries since February 28 in connection with documenting strikes during the Iran-US conflict, with governments citing security concerns."
+      },
+      {
+        "pattern": "Should-have-improved conditional criticism",
+        "detail": "Using counterfactual temporal framing to criticize current conditions by asserting they should have improved by now under different circumstances.",
+        "debias": "Report current conditions and their causes without imposing temporal expectation judgments.",
+        "date_added": "2026-07-27",
+        "status": "suggested",
+        "example_text": "'Incredibly dire': Nine months into Gaza ceasefire, conditions 'should have improved by now'",
+        "example_url": "https://www.france24.com/en/incredibly-dire-nine-months-into-gaza-ceasefire-conditions-should-have-improved-by-now",
+        "unbiased_text": "Nine months after the Gaza ceasefire, humanitarian conditions remain difficult according to aid organizations."
+      },
+      {
+        "pattern": "New condition turmoil insertion",
+        "detail": "Framing the addition of new conditions to agreements as causing turmoil or chaos rather than as evolving negotiation positions.",
+        "debias": "Report new conditions and responses without dramatic characterizations of resulting uncertainty.",
+        "date_added": "2026-07-27",
+        "status": "suggested",
+        "example_text": "US President Donald Trump said Thursday that a nuclear deal with Saudi Arabia depends on the kingdom recognizing Israel -- throwing the agreement into turmoil just the day after it was signed.",
+        "example_url": "https://www.france24.com/en/trump-stuns-saudis-by-pinning-nuclear-deal-to-israel-ties",
+        "unbiased_text": "President Trump stated that the US-Saudi nuclear agreement depends on Saudi Arabia recognizing Israel, adding a condition not included in the signed agreement."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"

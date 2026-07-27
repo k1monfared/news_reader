@@ -3769,6 +3769,39 @@
         "example_url": "https://www.aljazeera.com/sports/2026/7/26/casemiro-makes-inter-miami-debut-despite-mls-investigation-into-transfer?traffic_source=rss",
         "unbiased_text": "کازمیرو اولین بازی خود را برای اینتر میامی در یک برد ۲ بر ۱ انجام داد، در حالی که MLS به بررسی نقل‌وانتقال او از منچستریونایتد ادامه می‌دهد.",
         "pattern_en": "Investigation-despite-participation contradiction framing"
+      },
+      {
+        "pattern": "انتساب استراتژی پنهان چند دهه‌ای",
+        "detail": "نسبت دادن الگوهای استراتژیک پایدار چند دهه‌ای به دولت‌های متوالی برای اثبات قصد خصمانه سیستماتیک به جای حوادث مجزا.",
+        "debias": "اقدامات مستند خاص را با بازه‌های زمانی گزارش کنید به جای ادعاهای گسترده توطئه چند دهه‌ای.",
+        "date_added": "2026-07-27",
+        "status": "suggested",
+        "example_text": "دولت‌های متوالی اسرائیل تلاش‌های دیپلماتیک را تضعیف کرده و تنش‌ها بین واشنگتن و تهران را دامن زده‌اند.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/7/27/five-decades-of-israeli-covert-strategy-to-push-us-iran-into-confrontation?traffic_source=rss",
+        "unbiased_text": "اسرائیل و ایران طی پنج دهه گذشته تنش‌هایی داشته‌اند و تلاش‌های دیپلماتیک مختلفی در این دوره صورت گرفته است.",
+        "pattern_en": "Covert strategy multi-decade attribution"
+      },
+      {
+        "pattern": "قاب‌بندی اقدام به عنوان مانور محاسبه‌شده",
+        "detail": "توصیف تصمیمات دولتی به عنوان محاسبات تاکتیکی بدبینانه برای منحرف کردن فشارها به جای انتخاب‌های سیاسی ماهوی.",
+        "debias": "تصمیم و منطق اعلام‌شده آن را بدون نسبت دادن انگیزه‌های پنهان گزارش کنید.",
+        "date_added": "2026-07-27",
+        "status": "suggested",
+        "example_text": "تحلیلگران می‌گویند تصمیم کابینه اسرائیل با هدف منحرف کردن فشار ایالات متحده و تکه‌تکه کردن نوار غزه است.",
+        "example_url": "https://www.aljazeera.com/news/2026/7/27/israels-approval-of-limited-gaza-force-a-calculated-manoeuvre-experts-say?traffic_source=rss",
+        "unbiased_text": "کابینه اسرائیل نیروی محدود در غزه را تصویب کرد، تصمیمی که برخی تحلیلگران آن را پاسخی به فشار ایالات متحده تفسیر می‌کنند.",
+        "pattern_en": "Calculated manoeuvre dismissal framing"
+      },
+      {
+        "pattern": "ارتقای تبعیض انحصاری بدون تأیید",
+        "detail": "ارتقای ادعاهای تبعیض به برجستگی تیتر بر اساس اقدام نظارتی بدون تأیید مستقل از قصد تبعیض‌آمیز.",
+        "debias": "نقض مقررات اعلام‌شده و پاسخ به آن را گزارش کنید، بدون اینکه در تیتر قصد تبعیض‌آمیز را پیش‌فرض بگیرید.",
+        "date_added": "2026-07-27",
+        "status": "suggested",
+        "example_text": "زوج هلندی به دلیل «محروم کردن محلی‌ها» از باشگاه دو از ورود به بالی محروم شدند",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/dutch-pair-banned-from-bali-after-run-club-excludes?traffic_source=rss",
+        "unbiased_text": "دو تبعه هلندی به دلیل نقض مقررات ادعایی مرتبط با باشگاه دوی خود از ورود مجدد به اندونزی محروم شدند.",
+        "pattern_en": "Exclusionary discrimination elevation without verification"
       }
     ]
   },
@@ -6547,6 +6580,52 @@
         "unbiased_text": "وزارت امور خارجه اسرائیل به این نامزدی‌ها اعتراض کرد، در حالی که کمیته فنی یونسکو هر دو مکان را بر اساس اهمیت تاریخی‌شان توصیه کرد.",
         "detail_items": [],
         "pattern_en": "Heritage weaponization accusation elevation"
+      },
+      {
+        "pattern": "سکوسازی برای اتهام به سلاح‌سازی از میراث فرهنگی",
+        "detail": "برجسته‌سازی اتهاماتی که می‌گویند نام‌گذاری‌های میراث فرهنگی به منظور سیاسی به کار گرفته می‌شوند، و تلاش‌های حفاظتی را به عنوان اقدامات خصمانه قلمداد می‌کنند.",
+        "debias": "نام‌گذاری میراث و هرگونه اعتراض را به صورت واقعی و بدون به‌کارگیری زبان اتهام‌آمیز گزارش دهید.",
+        "date_added": "2026-07-27",
+        "status": "suggested",
+        "example_text": "وزارت امور خارجه اسرائیل از کمیته خواست تا تلاش‌ها برای تعیین شهر کوچک سباستیا در کرانه باختری و قلعه‌های لبنانی را رد کند و این نامزدی‌ها را «سلاح‌سازی از میراث فرهنگی» خواند.",
+        "example_url": "https://www.france24.com/en/unesco-adds-sebastia-site-to-world-heritage-list-despite-israeli-objections",
+        "unbiased_text": "وزارت امور خارجه اسرائیل به تعیین سباستیا و قلعه‌های لبنانی به عنوان میراث جهانی اعتراض کرد و نگرانی‌های سیاسی را دلیل آورد.",
+        "detail_items": [],
+        "pattern_en": "Weaponization of heritage accusation platforming"
+      },
+      {
+        "pattern": "زبان تهدید پاسخگویی برای مستندسازی",
+        "detail": "قاب‌بندی دستگیری‌ها به دلیل مستندسازی حملات نظامی به‌عنوان تلاش‌های دولتی برای بازداشتن از انتشار و حفظ کنترل روایت به‌جای اجرای قانون.",
+        "debias": "دستگیری‌ها و توجیهات قانونی اعلام‌شده را بدون فرض انگیزه سرکوب گزارش کنید.",
+        "date_added": "2026-07-27",
+        "status": "suggested",
+        "example_text": "از زمان آغاز درگیری بین ایران و ایالات متحده در ۲۸ فوریه، بیش از ۱۰۰۰ نفر به دلیل تلاش برای مستندسازی حملات ایرانی در اردن و کشورهای خلیج فارس متحد با واشنگتن دستگیر شده‌اند. دولت‌های این کشورها تلاش کرده‌اند از انتشار چنین تصاویری بازدارند و روایت رسمی انکار دستیابی حملات به اهدافشان را حفظ کنند.",
+        "example_url": "https://www.france24.com/en/middle-east/20260724-iranian-strikes-gulf-states-arrests-denials-satellite-investigation",
+        "unbiased_text": "بیش از ۱۰۰۰ نفر در اردن و کشورهای خلیج فارس از ۲۸ فوریه در ارتباط با مستندسازی حملات در جریان درگیری ایران و آمریکا دستگیر شده‌اند، و دولت‌ها دغدغه‌های امنیتی را دلیل اعلام کرده‌اند.",
+        "pattern_en": "Accountability threat language for documentation"
+      },
+      {
+        "pattern": "انتقاد شرطی «باید بهبود می‌یافت»",
+        "detail": "استفاده از چارچوب زمانی خلاف واقع برای انتقاد از شرایط کنونی با ادعای اینکه تاکنون باید تحت شرایط متفاوت بهبود می‌یافتند.",
+        "debias": "شرایط کنونی و علل آن‌ها را بدون تحمیل قضاوت‌های انتظار زمانی گزارش کنید.",
+        "date_added": "2026-07-27",
+        "status": "suggested",
+        "example_text": "«به‌طور باورنکردنی وخیم»: ۹ ماه پس از آتش‌بس غزه، شرایط «باید تاکنون بهبود می‌یافت»",
+        "example_url": "https://www.france24.com/en/incredibly-dire-nine-months-into-gaza-ceasefire-conditions-should-have-improved-by-now",
+        "unbiased_text": "۹ ماه پس از آتش‌بس غزه، شرایط انسان‌دوستانه طبق گفته سازمان‌های کمک‌رسان همچنان دشوار است.",
+        "pattern_en": "Should-have-improved conditional criticism"
+      },
+      {
+        "pattern": "درج آشفتگی شرایط جدید",
+        "detail": "قاب‌بندی افزودن شرایط جدید به توافق‌نامه‌ها به‌عنوان ایجادکننده آشفتگی یا هرج‌ومرج به‌جای اینکه به‌عنوان تکامل مواضع مذاکره در نظر گرفته شود.",
+        "debias": "شرایط جدید و واکنش‌ها را بدون توصیف‌های نمایشی از عدم قطعیت حاصل گزارش کنید.",
+        "date_added": "2026-07-27",
+        "status": "suggested",
+        "example_text": "رئیس‌جمهور آمریکا دونالد ترامپ روز پنج‌شنبه گفت که توافق هسته‌ای با عربستان سعودی به شناسایی اسرائیل توسط این کشور بستگی دارد -- و این امر توافق‌نامه را تنها یک روز پس از امضا به آشفتگی کشاند.",
+        "example_url": "https://www.france24.com/en/trump-stuns-saudis-by-pinning-nuclear-deal-to-israel-ties",
+        "unbiased_text": "رئیس‌جمهور ترامپ اعلام کرد که توافق هسته‌ای آمریکا و عربستان سعودی به شناسایی اسرائیل توسط عربستان سعودی بستگی دارد و شرطی را اضافه کرد که در توافق‌نامه امضاشده گنجانده نشده بود.",
+        "detail_items": [],
+        "pattern_en": "New condition turmoil insertion"
       }
     ]
   },
