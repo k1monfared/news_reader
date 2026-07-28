@@ -6,6 +6,7 @@ node_modules/
 .claude/cache/
 .mcp/logs/
 *.claude-session
+.playwright-mcp/
 
 # Python
 __pycache__/
