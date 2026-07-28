@@ -3416,6 +3416,26 @@
         "example_text": "Dutch pair banned from Bali after run club 'excludes locals'",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/dutch-pair-banned-from-bali-after-run-club-excludes?traffic_source=rss",
         "unbiased_text": "Two Dutch nationals were banned from re-entering Indonesia over alleged regulatory violations related to their running club."
+      },
+      {
+        "pattern": "AI malfunction humanization framing",
+        "detail": "Treating an AI system's technical error as a humorous human gaffe worthy of news coverage amplifies perception of AI systems as conscious entities.",
+        "debias": "Report AI technical errors clinically without anthropomorphic framing or humor amplification.",
+        "date_added": "2026-07-28",
+        "status": "suggested",
+        "example_text": "Moment Canadian politician accidentally reads AI prompt during speech\n'Here's a more natural flowing version of that section…'",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/moment-canadian-politician-accidentally-reads-ai-prompt-during-speech?traffic_source=rss",
+        "unbiased_text": "Canadian politician reads system prompt aloud during speech\nThe politician read technical instructions from an AI writing tool."
+      },
+      {
+        "pattern": "Diplomatic walkout event elevation",
+        "detail": "Amplifying a diplomatic walkout as breaking news frames routine diplomatic protests as unprecedented crises.",
+        "debias": "Report diplomatic protests as standard procedural responses without sensationalizing walkouts as crisis events.",
+        "date_added": "2026-07-28",
+        "status": "suggested",
+        "example_text": "US walks out on France at UN over North Korea, Russia comparison\nUS diplomats walked out of France's UN Security Council address after France's UN Mission compared the US to North Korea",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/us-walks-out-on-france-at-un-over-north-korea-russia-comparison?traffic_source=rss",
+        "unbiased_text": "US diplomats left UN Security Council meeting during France's address\nUS representatives departed after France made comparative statements about US and North Korean actions."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -5923,8 +5943,8 @@
       },
       {
         "pattern": "Munition depletion pause causation assertion",
-        "detail": "Attributing a military pause to weapons shortages based on media speculation rather than official statements, framing logistical concerns as operational defeat.",
-        "debias": "Distinguish between reported pauses and speculated causes, avoiding assertions about military decision-making without confirmation.",
+        "detail": "Attributing a military pause to weapons shortages based on media speculation rather than official statements, framing logistical concerns as operational defeat. Also: Attributing military pauses to ammunition shortages based on media speculation rather than official confirmation frames industrial capacity as determinative of strategy.",
+        "debias": "Distinguish between reported pauses and speculated causes, avoiding assertions about military decision-making without confirmation. Report operational pauses with confirmed reasons; note speculation separately without causal framing.",
         "date_added": "2026-07-26",
         "status": "suggested",
         "example_text": "US media reports that Washington's concerns over dwindling stockpiles of Patriot interceptors and other air defence munitions could be behind the pause in fighting.",
@@ -5943,8 +5963,8 @@
       },
       {
         "pattern": "Weaponization of heritage accusation platforming",
-        "detail": "Elevating accusations that cultural heritage nominations are being weaponized for political purposes, framing preservation efforts as hostile acts.",
-        "debias": "Report the heritage designation and any objections factually without adopting accusatory framing language.",
+        "detail": "Elevating accusations that cultural heritage nominations are being weaponized for political purposes, framing preservation efforts as hostile acts. Also: Elevating accusations that cultural heritage designations are being 'weaponized' frames preservation efforts as illegitimate political tactics.",
+        "debias": "Report the heritage designation and any objections factually without adopting accusatory framing language. Report heritage designations and objections neutrally without adopting weaponization terminology.",
         "date_added": "2026-07-27",
         "status": "suggested",
         "example_text": "Israel's Foreign Ministry urged the committee to reject efforts to designate the small West Bank town of Sebastia and the Lebanese castles, calling the nominations a \"weaponization of cultural heritage.\"",
@@ -5980,6 +6000,16 @@
         "example_text": "US President Donald Trump said Thursday that a nuclear deal with Saudi Arabia depends on the kingdom recognizing Israel -- throwing the agreement into turmoil just the day after it was signed.",
         "example_url": "https://www.france24.com/en/trump-stuns-saudis-by-pinning-nuclear-deal-to-israel-ties",
         "unbiased_text": "President Trump stated that the US-Saudi nuclear agreement depends on Saudi Arabia recognizing Israel, adding a condition not included in the signed agreement."
+      },
+      {
+        "pattern": "Arrest deterrence documentation narrative",
+        "detail": "Emphasizing mass arrests for documenting strikes frames governments as systematically suppressing evidence rather than enforcing security protocols.",
+        "debias": "Report arrest figures with stated legal basis and distinguish between documentation attempts and security violations.",
+        "date_added": "2026-07-28",
+        "status": "suggested",
+        "example_text": "Since the conflict between Iran and the United States began on February 28, more than 1,000 people have been arrested for attempting to document Iranian strikes in Jordan and Gulf countries allied with Washington. The governments of these countries have sought to deter the circulation of such images and maintain an official narrative denying that the strikes reached their targets.",
+        "example_url": "https://www.france24.com/en/middle-east/20260724-iranian-strikes-gulf-states-arrests-denials-satellite-investigation",
+        "unbiased_text": "Over 1,000 people have been detained in Jordan and Gulf states since February 28, with governments citing security concerns about documenting military operations. Officials have provided different accounts of strike impacts than circulating images suggest."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
