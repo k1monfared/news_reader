@@ -3436,6 +3436,36 @@
         "example_text": "US walks out on France at UN over North Korea, Russia comparison\nUS diplomats walked out of France's UN Security Council address after France's UN Mission compared the US to North Korea",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/us-walks-out-on-france-at-un-over-north-korea-russia-comparison?traffic_source=rss",
         "unbiased_text": "US diplomats left UN Security Council meeting during France's address\nUS representatives departed after France made comparative statements about US and North Korean actions."
+      },
+      {
+        "pattern": "Conditional hosting threat framing",
+        "detail": "Framing sporting event hosting as contingent on regional conflict outcomes, implying vulnerability and uncertainty through deadline emphasis.",
+        "debias": "Report event contingency planning without dramatizing vulnerability or implying hosting capability is primarily threatened by external conflict.",
+        "date_added": "2026-07-29",
+        "status": "suggested",
+        "example_text": "F1 sets a mid-September deadline to decide whether final rounds in Middle East can be held due to US-Israel war on Iran.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/29/f1-season-to-end-in-europe-if-qatar-abu-dhabi-unable-to-host-due-to-us-iran-war?traffic_source=rss",
+        "unbiased_text": "F1 will review by mid-September whether the final rounds in Qatar and Abu Dhabi can proceed as planned, with European venues as alternatives if needed."
+      },
+      {
+        "pattern": "Governance process bypassing accusation",
+        "detail": "Highlighting organizational bodies being excluded or surprised by decisions to suggest illegitimate procedure and lack of transparency.",
+        "debias": "Report organizational consultation processes factually without emphasizing surprise or exclusion as inherently improper.",
+        "date_added": "2026-07-29",
+        "status": "suggested",
+        "example_text": "Americas governing body 'deeply concerned' by lack of due process in FIFA private investment plan, AFC 'disappointed'.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/29/american-asian-confederations-blindsided-by-fifas-world-cup-plan?traffic_source=rss",
+        "unbiased_text": "The Americas and Asian football confederations have raised concerns about FIFA's consultation process regarding the private investment plan."
+      },
+      {
+        "pattern": "Safe space valorization narrative",
+        "detail": "Elevating humanitarian support initiatives through emotional framing that emphasizes psychological healing and sanctuary terminology.",
+        "debias": "Report humanitarian services factually, describing their functions without emotional sanctuary language or healing valorization.",
+        "date_added": "2026-07-29",
+        "status": "suggested",
+        "example_text": "A safe space for Gaza women: A sanctuary to speak, heal and share amid war",
+        "example_url": "https://www.aljazeera.com/news/2026/7/29/a-safe-space-for-gaza-women-a-sanctuary-to-speak-heal-and-share-amid-war?traffic_source=rss",
+        "unbiased_text": "A women's support initiative in Gaza provides psychological services and awareness sessions during the conflict."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -6010,6 +6040,46 @@
         "example_text": "Since the conflict between Iran and the United States began on February 28, more than 1,000 people have been arrested for attempting to document Iranian strikes in Jordan and Gulf countries allied with Washington. The governments of these countries have sought to deter the circulation of such images and maintain an official narrative denying that the strikes reached their targets.",
         "example_url": "https://www.france24.com/en/middle-east/20260724-iranian-strikes-gulf-states-arrests-denials-satellite-investigation",
         "unbiased_text": "Over 1,000 people have been detained in Jordan and Gulf states since February 28, with governments citing security concerns about documenting military operations. Officials have provided different accounts of strike impacts than circulating images suggest."
+      },
+      {
+        "pattern": "Public execution protest elevation",
+        "detail": "Amplifying anti-government sentiment by emphasizing crowd dissent at state-sanctioned events, framing attendance as coerced spectacle.",
+        "debias": "Report public executions and crowd responses factually without emphasizing dissent as the primary narrative focus.",
+        "date_added": "2026-07-29",
+        "status": "suggested",
+        "example_text": "Several hundred people gathered near a stage set up in the city's Alikhani Square, but instead of cheering the execution, they chanted slogans against the police, prompting anti-riot units to disperse the crowd.",
+        "example_url": "https://www.france24.com/en/middle-east/20260729-iran-public-executions-isfahan-anti-regime-protests",
+        "unbiased_text": "Several hundred people gathered in Alikhani Square where the execution took place. Anti-riot units later dispersed the crowd."
+      },
+      {
+        "pattern": "Binary escalation choice framing",
+        "detail": "Presenting political decision-making as a stark either-or choice between inaction and extreme action, eliminating middle-ground options.",
+        "debias": "Present policy options as a spectrum of choices rather than binary extremes of waiting versus massive escalation.",
+        "date_added": "2026-07-29",
+        "status": "suggested",
+        "example_text": "'Two options' for Trump in Middle East war: 'he waits or he escalates massively'",
+        "example_url": "https://www.france24.com/en/two-options-for-trump-in-middle-east-war-he-waits-or-he-escalates-massively",
+        "unbiased_text": "Trump faces multiple policy options in the Middle East conflict, including diplomatic engagement, calibrated military responses, or broader escalation."
+      },
+      {
+        "pattern": "Rumor-reality diplomatic tension emphasis",
+        "detail": "Emphasizing prior rumors of tension before positive diplomatic interactions to suggest underlying discord despite public statements.",
+        "debias": "Report diplomatic meetings based on official statements and outcomes without foregrounding unverified tension rumors.",
+        "date_added": "2026-07-29",
+        "status": "suggested",
+        "example_text": "Despite rumours of tensions between Trump and his ally prior to discussions, both sides praised the meeting.",
+        "example_url": "https://www.france24.com/en/netanyahu-praises-excellent-meeting-with-trump-in-first-since-iran-war",
+        "unbiased_text": "Trump and Netanyahu both described their meeting as productive, with both sides issuing positive statements afterward."
+      },
+      {
+        "pattern": "Stockpile depletion pause causation",
+        "detail": "Attributing military operational pauses primarily to ammunition depletion rather than diplomatic or strategic considerations.",
+        "debias": "Present multiple factors influencing operational pauses, including diplomatic, strategic, and logistical considerations without prioritizing one.",
+        "date_added": "2026-07-29",
+        "status": "suggested",
+        "example_text": "US media reports that Washington's concerns over dwindling stockpiles of Patriot interceptors and other air defence munitions could be behind the pause in fighting.",
+        "example_url": "https://www.france24.com/en/middle-east/20260726-us-holds-fire-against-iran-as-media-reports-say-washington-s-stockpiles-are-dwindling",
+        "unbiased_text": "The US has paused strikes on Iran. Factors may include diplomatic considerations, strategic reassessment, and logistical concerns including munitions levels."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -9103,6 +9173,56 @@
         "example_text": "the viral conspiracy theories claiming Argentina was cheated out of the World Cup - and what they reveal about the post-truth debate.",
         "example_url": "http://www.euronews.com/my-europe/2026/07/26/weekend-newsletter-the-world-cup-conspiracy-argentina-cant-let-go",
         "unbiased_text": "Following Argentina's World Cup semifinal loss, unsubstantiated claims about match-fixing have circulated online, illustrating challenges in combating misinformation."
+      },
+      {
+        "pattern": "Intern spy sensationalism framing",
+        "detail": "Elevating espionage allegations against junior personnel to suggest systemic security failures at major institutions.",
+        "debias": "Report security investigations proportionally, noting the position of accused individuals without suggesting institutional collapse.",
+        "date_added": "2026-07-29",
+        "status": "suggested",
+        "example_text": "A Canadian intern at NATO's top military base has been accused of spying for a foreign power. The case has exposed major questions over foreign interference at one of the Alliance's most sensitive headquarters.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/29/euronews-explains-why-a-belgian-probe-into-an-alleged-spy-at-nato-could-have-far-reaching-",
+        "unbiased_text": "Belgian authorities are investigating allegations that a Canadian intern at a NATO facility engaged in espionage. The investigation is ongoing."
+      },
+      {
+        "pattern": "Pet care humanitarian displacement insertion",
+        "detail": "Emphasizing animal welfare services during humanitarian crises as human-interest angle, potentially deflecting from human suffering scale.",
+        "debias": "Report animal welfare services briefly as part of evacuation logistics without making them a primary humanitarian narrative focus.",
+        "date_added": "2026-07-29",
+        "status": "suggested",
+        "example_text": "A French veterinary team in Bordeaux is caring for pets of Gironde wildfire evacuees, providing food, treatment and support while families await their return home.",
+        "example_url": "http://www.euronews.com/video/2026/07/29/france-veterinary-team-treats-pets-of-wildfire-evacuees",
+        "unbiased_text": "Veterinary services are available in Bordeaux for evacuees' animals during the wildfire emergency response."
+      },
+      {
+        "pattern": "Celebrity death motorcycle specification",
+        "detail": "Including vehicle type in death announcements when not central to news value, adding dramatic detail to celebrity obituaries.",
+        "debias": "Report deaths with relevant career achievements and impact without unnecessary specification of accident vehicle types.",
+        "date_added": "2026-07-29",
+        "status": "suggested",
+        "example_text": "Oscar winning Irish musician and actor Glen Hansard dies aged 56 following motorcycle crash",
+        "example_url": "http://www.euronews.com/culture/2026/07/29/oscar-winning-irish-musician-and-actor-glen-hansard-dies-aged-56-following-motorcycle-cras",
+        "unbiased_text": "Oscar-winning Irish musician and actor Glen Hansard has died aged 56 in a traffic accident."
+      },
+      {
+        "pattern": "Archaeological oldest discovery superlative",
+        "detail": "Emphasizing historical record-breaking findings through 'oldest' terminology to elevate archaeological discovery significance.",
+        "debias": "Report archaeological findings with historical context and scholarly assessment without prioritizing record-breaking age claims.",
+        "date_added": "2026-07-29",
+        "status": "suggested",
+        "example_text": "Archaeologists find oldest library in Iberian Peninsula in Puente Genil",
+        "example_url": "http://www.euronews.com/culture/2026/07/29/archaeologists-find-oldest-library-in-iberian-peninsula-in-puente-genil",
+        "unbiased_text": "Archaeologists have identified what may be a Roman-era library at Fuente Álamo in Puente Genil, dating to the 4th century AD."
+      },
+      {
+        "pattern": "Profit surge percentage dramatization",
+        "detail": "Highlighting extreme percentage increases in corporate profits without noting baseline values, creating misleading magnitude impressions.",
+        "debias": "Report profit changes with absolute figures and context about baseline values, not just percentage increases from low bases.",
+        "date_added": "2026-07-29",
+        "status": "suggested",
+        "example_text": "South Korean chipmaker SK hynix reports 1,242% profit surge on booming AI demand",
+        "example_url": "http://www.euronews.com/business/2026/07/29/south-korean-chipmaker-sk-hynix-reports-1242-profit-surge-on-booming-ai-demand",
+        "unbiased_text": "SK hynix reported significantly increased quarterly profits driven by AI-related chip demand, recovering from previous year losses."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
