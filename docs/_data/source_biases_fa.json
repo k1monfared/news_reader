@@ -3859,6 +3859,28 @@
         "example_url": "https://www.aljazeera.com/news/2026/7/29/a-safe-space-for-gaza-women-a-sanctuary-to-speak-heal-and-share-amid-war?traffic_source=rss",
         "unbiased_text": "یک ابتکار حمایتی زنان در غزه خدمات روان‌شناختی و جلسات آگاهی‌بخشی را در طول درگیری فراهم می‌کند.",
         "pattern_en": "Safe space valorization narrative"
+      },
+      {
+        "pattern": "قاب‌بندی قربانی‌سازی با تکرار بمباران پناهگاه",
+        "detail": "تأکید بر اینکه یک مکان مشخص بارها بمباران شده است تا روایت قربانی‌سازی تقویت شده و الگوهای هدف‌گیری زیر سؤال برود.",
+        "debias": "رویداد فعلی را بدون تأکید بر تکرار تاریخی برای قاب‌بندی الگوها به صورت واقعی گزارش کنید.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "سه بار در سه دهه، پناهگاه‌های قانا بمباران شدند. AJLabs روستایی را ردیابی می‌کند که ارتش اسرائیل مدام به آن حمله می‌کند.",
+        "example_url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/7/30/how-does-a-safe-zone-in-lebanon-become-a-target-three-times?traffic_source=rss",
+        "unbiased_text": "AJLabs تاریخچه حملات به پناهگاه‌های قانا را در طول سه دهه بررسی می‌کند.",
+        "pattern_en": "Shelter bombing repetition victimization framing"
+      },
+      {
+        "pattern": "قاب‌بندی اتهام تضعیف عمدی ساختار قاره‌ای",
+        "detail": "قاب‌بندی تغییرات سازمانی به عنوان تضعیف عمدی ساختارهای منطقه‌ای مستقر برای القای نیت مخرب.",
+        "debias": "اختلافات سازمانی را به عنوان چشم‌اندازهای رقیب گزارش کنید بدون اینکه تضعیف عمدی را القا کنید.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "رئیس کنفدراسیون فوتبال آسیا می‌گوید طرح فروش سهام جام جهانی FIFA ساختار قاره‌ای ورزش را تضعیف می‌کند.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/30/afc-president-doubles-down-on-fifa-calling-world-cup-plan-unacceptable?traffic_source=rss",
+        "unbiased_text": "رئیس کنفدراسیون فوتبال آسیا می‌گوید طرح فروش سهام جام جهانی FIFA با ساختار قاره‌ای ورزش در تعارض است.",
+        "pattern_en": "Continental structure undermining accusation framing"
       }
     ]
   },
@@ -6739,6 +6761,40 @@
         "example_url": "https://www.france24.com/en/middle-east/20260726-us-holds-fire-against-iran-as-media-reports-say-washington-s-stockpiles-are-dwindling",
         "unbiased_text": "ایالات متحده حملات به ایران را متوقف کرده است. عوامل ممکن است شامل ملاحظات دیپلماتیک، ارزیابی مجدد استراتژیک و نگرانی‌های لجستیکی از جمله سطح مهمات باشد.",
         "pattern_en": "Stockpile depletion pause causation"
+      },
+      {
+        "pattern": "قاب‌بندی تهدید با فوریت زمانی «امروز»",
+        "detail": "استفاده از واژه «امروز» در بیانیه‌های تهدیدآمیز برای ایجاد حس خطر قریب‌الوقوع و فوریت.",
+        "debias": "تهدیدها را با بازه زمانی واقعی‌شان گزارش کنید بدون افزودن فوریت مصنوعی.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "سپاه پاسداران ایران روز پنج‌شنبه وعده داد که «متجاوز را امروز مجازات خواهد کرد»، رسانه‌های دولتی گزارش دادند",
+        "example_url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people",
+        "unbiased_text": "سپاه پاسداران ایران روز پنج‌شنبه وعده داد که «متجاوز را مجازات خواهد کرد»، رسانه‌های دولتی گزارش دادند",
+        "pattern_en": "Today temporal immediacy threat framing"
+      },
+      {
+        "pattern": "مشخص‌سازی سن قربانی با تأکید بر وحشت",
+        "detail": "مشخص کردن اینکه یکی از قربانیان کودکی دو ساله بوده است تا تأثیر احساسی وحشتناک تلفات به حداکثر برسد.",
+        "debias": "گزارش مجموع تلفات با محدوده سنی در صورت لزوم بدون تأکید ویژه بر جوان‌ترین قربانی.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "در پی موج شدید حملات هوایی شبانه ایالات متحده به جمهوری اسلامی که دست‌کم سه نفر را کشت که یکی از آنها کودکی دو ساله بود.",
+        "example_url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people",
+        "unbiased_text": "در پی موج شدید حملات هوایی شبانه ایالات متحده به جمهوری اسلامی که دست‌کم سه نفر از جمله یک کودک را کشت.",
+        "pattern_en": "Weapon-age victim horror specification"
+      },
+      {
+        "pattern": "قاب‌بندی تشدید درگیری به عنوان مرحله جدید خطرناک",
+        "detail": "توصیف تحولات به عنوان ورود به «مرحله جدید خطرناک» برای تقویت ادراک تهدید و نمایش دراماتیک پیشرفت.",
+        "debias": "تغییرات خاص در پویایی‌های درگیری را بدون استفاده از زبان تشدید مبتنی بر مرحله توصیف کنید.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "نگرانی‌های تازه‌ای را برانگیخت مبنی بر اینکه درگیری وارد مرحله جدید خطرناکی می‌شود.",
+        "example_url": "https://www.france24.com/en/us-and-saudi-araba-jointly-strike-iraq-widening-the-conflict",
+        "unbiased_text": "نگرانی‌های تازه‌ای درباره گسترش درگیری برانگیخت.",
+        "detail_items": [],
+        "pattern_en": "Dangerous new phase conflict escalation framing"
       }
     ]
   },
@@ -10236,6 +10292,39 @@
         "unbiased_text": "SK hynix سودهای فصلی به‌طور قابل توجهی افزایش یافته ناشی از تقاضای تراشه‌های مرتبط با هوش مصنوعی را گزارش کرد که نشان‌دهنده بازیابی از زیان‌های سال قبل است.",
         "detail_items": [],
         "pattern_en": "Profit surge percentage dramatization"
+      },
+      {
+        "pattern": "نمایش دراماتیک شمارش معکوس تعطیلی با رکوردشکنی",
+        "detail": "تأکید بر شرایط رکوردشکن همراه با تهدیدهای قریب‌الوقوع تعطیلی برای ایجاد فوریت بحرانی.",
+        "debias": "چالش‌های عملیاتی و تعطیلی‌های احتمالی را با زمینه‌ای درباره برنامه‌های اضطراری گزارش دهید.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "نیروگاه هسته‌ای Paks مجارستان که نزدیک به نیمی از برق کشور را تأمین می‌کند، ممکن است ظرف چند روز تعطیل شود زیرا سطح آب دانوب به پایین‌ترین حد تاریخی رسیده است.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/30/hungarys-paks-nuclear-plant-faces-shutdown-as-danube-water-levels-hit-record-low",
+        "unbiased_text": "نیروگاه هسته‌ای Paks مجارستان که نزدیک به نیمی از برق کشور را تأمین می‌کند، با کاهش سطح آب دانوب با چالش‌های عملیاتی احتمالی روبه‌روست.",
+        "pattern_en": "Record low shutdown countdown dramatization"
+      },
+      {
+        "pattern": "نمایش چشمگیر مشخصات ابعاد دهانه",
+        "detail": "ارائه اندازه‌گیری‌های دقیق دهانه‌های انفجار برای تقویت درک مقیاس و قدرت تخریبی.",
+        "debias": "گزارش تأثیرات انفجار بدون تأکید بر ابعاد دهانه برای ایجاد اثر دراماتیک.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "سقوط در نزدیکی شهر لوبلین در شرق، که باعث انفجار شد و دهانه‌ای به عرض ۱۰ متر به جای گذاشت.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/30/poland-says-unidentified-object-crashed-into-its-territory-amid-overnight-russian-attacks-",
+        "unbiased_text": "سقوط در نزدیکی شهر لوبلین در شرق و ایجاد انفجار.",
+        "pattern_en": "Crater dimension specification dramatization"
+      },
+      {
+        "pattern": "قاب‌بندی فاجعه‌بار فلج تقریباً کامل",
+        "detail": "استفاده از زبان «فلج تقریباً کامل» برای دراماتیک کردن تعطیلی صنایع فراتر از درصدهای واقعی.",
+        "debias": "درصدهای تعطیلی و وضعیت عملیاتی را بدون استعاره‌های فلج کردن گزارش دهید.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "صنعت گردشگری کوبا به شدت تحت تأثیر تحریم‌های آمریکا و کمبود سوخت قرار گرفته است و نزدیک به سه‌چهارم هتل‌های این جزیره اکنون تعطیل شده‌اند.",
+        "example_url": "http://www.euronews.com/travel/2026/07/30/cuba-tourism-crisis-an-industry-brought-to-almost-total-paralysis",
+        "unbiased_text": "صنعت گردشگری کوبا تحت تأثیر تحریم‌های آمریکا و کمبود سوخت قرار گرفته است و نزدیک به سه‌چهارم هتل‌های این جزیره اکنون تعطیل شده‌اند.",
+        "pattern_en": "Almost total paralysis catastrophic closure framing"
       }
     ]
   }

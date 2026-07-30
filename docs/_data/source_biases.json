@@ -3466,6 +3466,26 @@
         "example_text": "A safe space for Gaza women: A sanctuary to speak, heal and share amid war",
         "example_url": "https://www.aljazeera.com/news/2026/7/29/a-safe-space-for-gaza-women-a-sanctuary-to-speak-heal-and-share-amid-war?traffic_source=rss",
         "unbiased_text": "A women's support initiative in Gaza provides psychological services and awareness sessions during the conflict."
+      },
+      {
+        "pattern": "Shelter bombing repetition victimization framing",
+        "detail": "Emphasizing that the same location has been bombed multiple times to amplify victimization narrative and question targeting patterns.",
+        "debias": "Report the current incident factually without emphasizing historical repetition to frame patterns.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "Three times in three decades, Qana's shelters were bombed. AJLabs tracks a village the Israeli military keeps hitting.",
+        "example_url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/7/30/how-does-a-safe-zone-in-lebanon-become-a-target-three-times?traffic_source=rss",
+        "unbiased_text": "AJLabs examines the history of strikes on Qana's shelters over three decades."
+      },
+      {
+        "pattern": "Continental structure undermining accusation framing",
+        "detail": "Framing organizational changes as deliberately undermining established regional structures to suggest malicious intent.",
+        "debias": "Report organizational disagreements as competing visions without suggesting intentional undermining.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "Asian Football Confederation chief says plan to sell FIFA World Cup stakes undermines sport's continental structure.",
+        "example_url": "https://www.aljazeera.com/sports/2026/7/30/afc-president-doubles-down-on-fifa-calling-world-cup-plan-unacceptable?traffic_source=rss",
+        "unbiased_text": "Asian Football Confederation chief says plan to sell FIFA World Cup stakes conflicts with the sport's continental structure."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -6080,6 +6100,36 @@
         "example_text": "US media reports that Washington's concerns over dwindling stockpiles of Patriot interceptors and other air defence munitions could be behind the pause in fighting.",
         "example_url": "https://www.france24.com/en/middle-east/20260726-us-holds-fire-against-iran-as-media-reports-say-washington-s-stockpiles-are-dwindling",
         "unbiased_text": "The US has paused strikes on Iran. Factors may include diplomatic considerations, strategic reassessment, and logistical concerns including munitions levels."
+      },
+      {
+        "pattern": "Today temporal immediacy threat framing",
+        "detail": "Using 'today' in threat statements to create sense of imminent danger and urgency.",
+        "debias": "Report threats with their actual timeframes without adding artificial immediacy.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "Iran's Revolutionary Guards on Thursday promised to \"punish the aggressor today\", state media reported",
+        "example_url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people",
+        "unbiased_text": "Iran's Revolutionary Guards on Thursday promised to \"punish the aggressor\", state media reported"
+      },
+      {
+        "pattern": "Weapon-age victim horror specification",
+        "detail": "Specifying that one victim was a two-year-old child to maximize emotional horror impact of casualties.",
+        "debias": "Report casualty totals with age ranges where relevant without singling out youngest victim for emphasis.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "following a heavy wave of overnight US air strikes on the Islamic Republic that killed at least three people, one of whom was a two-year-old child.",
+        "example_url": "https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people",
+        "unbiased_text": "following a heavy wave of overnight US air strikes on the Islamic Republic that killed at least three people, including a child."
+      },
+      {
+        "pattern": "Dangerous new phase conflict escalation framing",
+        "detail": "Characterizing developments as entering a 'dangerous new phase' to amplify threat perception and dramatize progression.",
+        "debias": "Describe specific changes in conflict dynamics without phase-based escalation language.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "raising fresh concerns that the conflict is entering a dangerous new phase.",
+        "example_url": "https://www.france24.com/en/us-and-saudi-araba-jointly-strike-iraq-widening-the-conflict",
+        "unbiased_text": "raising fresh concerns about the conflict's expansion."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -9223,6 +9273,36 @@
         "example_text": "South Korean chipmaker SK hynix reports 1,242% profit surge on booming AI demand",
         "example_url": "http://www.euronews.com/business/2026/07/29/south-korean-chipmaker-sk-hynix-reports-1242-profit-surge-on-booming-ai-demand",
         "unbiased_text": "SK hynix reported significantly increased quarterly profits driven by AI-related chip demand, recovering from previous year losses."
+      },
+      {
+        "pattern": "Record low shutdown countdown dramatization",
+        "detail": "Emphasizing record-breaking conditions with imminent shutdown threats to create crisis urgency.",
+        "debias": "Report operational challenges and potential shutdowns with context about contingency plans.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "Hungary's Paks nuclear plant, which provides nearly half the country's power, may shut down within days as Danube water levels hit record lows.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/30/hungarys-paks-nuclear-plant-faces-shutdown-as-danube-water-levels-hit-record-low",
+        "unbiased_text": "Hungary's Paks nuclear plant, which provides nearly half the country's power, faces potential operational challenges as Danube water levels decline."
+      },
+      {
+        "pattern": "Crater dimension specification dramatization",
+        "detail": "Providing precise measurements of explosion craters to amplify the scale and destructive power perception.",
+        "debias": "Report explosion impacts without emphasizing crater dimensions for dramatic effect.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "crashing near the eastern city of Lublin, causing an explosion and leaving behind a 10-metre wide crater.",
+        "example_url": "http://www.euronews.com/my-europe/2026/07/30/poland-says-unidentified-object-crashed-into-its-territory-amid-overnight-russian-attacks-",
+        "unbiased_text": "crashing near the eastern city of Lublin and causing an explosion."
+      },
+      {
+        "pattern": "Almost total paralysis catastrophic closure framing",
+        "detail": "Using 'almost total paralysis' language to dramatize industry closures beyond factual percentages.",
+        "debias": "Report closure percentages and operational status without paralysis metaphors.",
+        "date_added": "2026-07-30",
+        "status": "suggested",
+        "example_text": "Cuba's tourism industry has been hit hard by US sanctions and fuel shortages, with nearly three-quarters of hotels now closed on the island.",
+        "example_url": "http://www.euronews.com/travel/2026/07/30/cuba-tourism-crisis-an-industry-brought-to-almost-total-paralysis",
+        "unbiased_text": "Cuba's tourism industry has been affected by US sanctions and fuel shortages, with nearly three-quarters of hotels now closed on the island."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
