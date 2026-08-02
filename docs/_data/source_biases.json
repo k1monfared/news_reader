@@ -3486,6 +3486,36 @@
         "example_text": "Asian Football Confederation chief says plan to sell FIFA World Cup stakes undermines sport's continental structure.",
         "example_url": "https://www.aljazeera.com/sports/2026/7/30/afc-president-doubles-down-on-fifa-calling-world-cup-plan-unacceptable?traffic_source=rss",
         "unbiased_text": "Asian Football Confederation chief says plan to sell FIFA World Cup stakes conflicts with the sport's continental structure."
+      },
+      {
+        "pattern": "Infrastructure failure displacement causation linkage",
+        "detail": "Connecting infrastructure deterioration directly to humanitarian crises without acknowledging other contributing factors or policy decisions.",
+        "debias": "Report infrastructure conditions separately from displacement effects, acknowledging multiple contributing factors to humanitarian situations.",
+        "date_added": "2026-08-02",
+        "status": "suggested",
+        "example_text": "Poor road infrastructure is exacerbating Yemen's water crisis, leading to hardships for thousands in Taiz governorate.",
+        "example_url": "https://www.aljazeera.com/features/2026/8/2/yemens-crumbling-roads-means-an-arduous-quest-for-water-for-taiz-villagers?traffic_source=rss",
+        "unbiased_text": "Taiz governorate faces water access challenges, with deteriorated road infrastructure among several factors affecting delivery to rural areas."
+      },
+      {
+        "pattern": "Climate attribution certainty assertion",
+        "detail": "Presenting climate crisis as definitively causing specific weather events without acknowledging complexity of attribution science.",
+        "debias": "Report climate connections while noting that attribution studies assess likelihood increases rather than direct causation for individual events.",
+        "date_added": "2026-08-02",
+        "status": "suggested",
+        "example_text": "Scientists say the climate crisis driven by human activity is making heatwaves more frequent.",
+        "example_url": "https://www.aljazeera.com/news/2026/8/2/south-korea-has-hottest-day-on-record-amid-extreme-weather-globally?traffic_source=rss",
+        "unbiased_text": "Scientists say human-driven climate change has increased the frequency and intensity of heatwaves globally."
+      },
+      {
+        "pattern": "International body failure absolute dismissal",
+        "detail": "Declaring international institutions as completely failed and should be abandoned, rather than critiquing specific shortcomings.",
+        "debias": "Evaluate specific institutional weaknesses and reform proposals without wholesale dismissal of multilateral frameworks.",
+        "date_added": "2026-08-02",
+        "status": "suggested",
+        "example_text": "The Board of Peace is a failed body and should be abandoned",
+        "example_url": "https://www.aljazeera.com/opinions/2026/8/2/the-board-of-peace-is-a-failed-body-and-should-be-abandoned?traffic_source=rss",
+        "unbiased_text": "Critics argue the Board of Peace has not achieved its stated objectives and requires significant reforms."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -6130,6 +6160,16 @@
         "example_text": "raising fresh concerns that the conflict is entering a dangerous new phase.",
         "example_url": "https://www.france24.com/en/us-and-saudi-araba-jointly-strike-iraq-widening-the-conflict",
         "unbiased_text": "raising fresh concerns about the conflict's expansion."
+      },
+      {
+        "pattern": "Deal proximity temporal reversal framing",
+        "detail": "Framing diplomatic developments as simultaneously progressing toward and collapsing away from agreement to emphasize instability.",
+        "debias": "Report diplomatic status clearly without contradictory temporal framing that suggests both progress and collapse simultaneously.",
+        "date_added": "2026-08-02",
+        "status": "suggested",
+        "example_text": "Trump holds off on striking Iran, calls for 'rapid' deal to end the conflict",
+        "example_url": "https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz",
+        "unbiased_text": "Trump announced a pause in strikes on Iran while negotiations continue on ending the conflict."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -9303,6 +9343,36 @@
         "example_text": "Cuba's tourism industry has been hit hard by US sanctions and fuel shortages, with nearly three-quarters of hotels now closed on the island.",
         "example_url": "http://www.euronews.com/travel/2026/07/30/cuba-tourism-crisis-an-industry-brought-to-almost-total-paralysis",
         "unbiased_text": "Cuba's tourism industry has been affected by US sanctions and fuel shortages, with nearly three-quarters of hotels now closed on the island."
+      },
+      {
+        "pattern": "Regulatory implementation milestone framing",
+        "detail": "Presenting regulatory enforcement dates as transformative moments rather than administrative milestones in ongoing processes.",
+        "debias": "Report regulatory timeline developments as procedural steps without suggesting sudden transformation at enforcement dates.",
+        "date_added": "2026-08-02",
+        "status": "suggested",
+        "example_text": "AI-generated label becomes mandatory in the EU for companies",
+        "example_url": "http://www.euronews.com/my-europe/2026/08/02/ai-generated-label-becomes-mandatory-in-the-eu-for-companies",
+        "unbiased_text": "EU companies must now label AI-generated content under regulations that took effect Sunday."
+      },
+      {
+        "pattern": "Scientific discovery ancient art emphasis",
+        "detail": "Highlighting ancient artistic sophistication as surprising or exceptional rather than expected based on human cognitive capacity.",
+        "debias": "Report archaeological findings without suggesting surprise at ancient humans' artistic abilities, which are well-documented.",
+        "date_added": "2026-08-02",
+        "status": "suggested",
+        "example_text": "During excavations in the Hohle Fels cave, archaeologists uncovered two bird figurines carved from mammoth ivory, hinting at humans' striking artistic sense 40,000 years ago.",
+        "example_url": "http://www.euronews.com/culture/2026/08/01/find-in-german-cave-40000-year-old-mammoth-ivory-bird-figures-discovered",
+        "unbiased_text": "Archaeologists uncovered two bird figurines carved from mammoth ivory in the Hohle Fels cave, dating to approximately 40,000 years ago."
+      },
+      {
+        "pattern": "Border control reintroduction crisis causation",
+        "detail": "Attributing temporary border control measures to specific migration events as direct causation without noting broader policy context.",
+        "debias": "Report border control measures with full policy context including legal frameworks and multiple factors influencing decisions.",
+        "date_added": "2026-08-02",
+        "status": "suggested",
+        "example_text": "Italy brings in border checks for arrivals from Spain: what changes",
+        "example_url": "http://www.euronews.com/my-europe/2026/08/02/italy-brings-in-border-checks-for-arrivals-from-spain-what-changes",
+        "unbiased_text": "Italy has implemented temporary border checks for travelers from Spain under Schengen provisions allowing such measures."
       }
     ],
     "notes": "Reliable but limited conflict coverage"

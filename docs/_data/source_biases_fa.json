@@ -3881,6 +3881,39 @@
         "example_url": "https://www.aljazeera.com/sports/2026/7/30/afc-president-doubles-down-on-fifa-calling-world-cup-plan-unacceptable?traffic_source=rss",
         "unbiased_text": "رئیس کنفدراسیون فوتبال آسیا می‌گوید طرح فروش سهام جام جهانی FIFA با ساختار قاره‌ای ورزش در تعارض است.",
         "pattern_en": "Continental structure undermining accusation framing"
+      },
+      {
+        "pattern": "پیوند علّیت بین فروپاشی زیرساخت و جابه‌جایی",
+        "detail": "پیوند دادن مستقیم فرسودگی زیرساخت‌ها به بحران‌های بشردوستانه بدون اشاره به عوامل کمکی دیگر یا تصمیمات سیاستی.",
+        "debias": "وضعیت زیرساخت‌ها را جداگانه از آثار جابه‌جایی گزارش کنید و عوامل کمکی متعدد را در شرایط بشردوستانه بشناسید.",
+        "date_added": "2026-08-02",
+        "status": "suggested",
+        "example_text": "زیرساخت راه‌های ضعیف بحران آب یمن را تشدید می‌کند و به سختی‌های هزاران نفر در استان تعز منجر می‌شود.",
+        "example_url": "https://www.aljazeera.com/features/2026/8/2/yemens-crumbling-roads-means-an-arduous-quest-for-water-for-taiz-villagers?traffic_source=rss",
+        "unbiased_text": "استان تعز با چالش‌های دسترسی به آب روبروست و زیرساخت راه‌های فرسوده یکی از عوامل متعددی است که بر تحویل آب به مناطق روستایی تأثیر می‌گذارد.",
+        "pattern_en": "Infrastructure failure displacement causation linkage"
+      },
+      {
+        "pattern": "قطعیت در انتساب اقلیمی",
+        "detail": "ارائه بحران اقلیمی به‌عنوان عامل قطعی رویدادهای آب‌وهوایی خاص بدون اشاره به پیچیدگی علم انتساب.",
+        "debias": "ارتباطات اقلیمی را گزارش کنید درحالی‌که توجه دهید مطالعات انتساب افزایش احتمال را ارزیابی می‌کنند نه علیت مستقیم برای رویدادهای منفرد.",
+        "date_added": "2026-08-02",
+        "status": "suggested",
+        "example_text": "دانشمندان می‌گویند بحران اقلیمی ناشی از فعالیت‌های انسانی باعث افزایش فراوانی موج‌های گرما می‌شود.",
+        "example_url": "https://www.aljazeera.com/news/2026/8/2/south-korea-has-hottest-day-on-record-amid-extreme-weather-globally?traffic_source=rss",
+        "unbiased_text": "دانشمندان می‌گویند تغییرات اقلیمی ناشی از انسان فراوانی و شدت موج‌های گرما را در سراسر جهان افزایش داده است.",
+        "pattern_en": "Climate attribution certainty assertion"
+      },
+      {
+        "pattern": "رد مطلق شکست نهادهای بین‌المللی",
+        "detail": "اعلام اینکه نهادهای بین‌المللی به طور کامل شکست خورده‌اند و باید کنار گذاشته شوند، به جای نقد نقاط ضعف خاص آنها.",
+        "debias": "ضعف‌های نهادی خاص و پیشنهادهای اصلاحی را بدون رد کلی چارچوب‌های چندجانبه ارزیابی کنید.",
+        "date_added": "2026-08-02",
+        "status": "suggested",
+        "example_text": "شورای صلح یک نهاد شکست خورده است و باید کنار گذاشته شود",
+        "example_url": "https://www.aljazeera.com/opinions/2026/8/2/the-board-of-peace-is-a-failed-body-and-should-be-abandoned?traffic_source=rss",
+        "unbiased_text": "منتقدان استدلال می‌کنند که شورای صلح به اهداف اعلام شده خود دست نیافته و نیازمند اصلاحات قابل توجه است.",
+        "pattern_en": "International body failure absolute dismissal"
       }
     ]
   },
@@ -6795,6 +6828,17 @@
         "unbiased_text": "نگرانی‌های تازه‌ای درباره گسترش درگیری برانگیخت.",
         "detail_items": [],
         "pattern_en": "Dangerous new phase conflict escalation framing"
+      },
+      {
+        "pattern": "قاب‌بندی زمانی معکوس نزدیکی به توافق",
+        "detail": "قاب‌بندی تحولات دیپلماتیک به‌گونه‌ای که همزمان هم در حال پیشرفت به سوی توافق و هم در حال فروپاشی و دور شدن از آن باشد تا بی‌ثباتی تأکید شود.",
+        "debias": "وضعیت دیپلماتیک را به‌طور شفاف و بدون قاب‌بندی زمانی متناقضی که همزمان پیشرفت و فروپاشی را القا می‌کند، گزارش کنید.",
+        "date_added": "2026-08-02",
+        "status": "suggested",
+        "example_text": "ترامپ از حمله به ایران خودداری می‌کند، خواستار توافق «سریع» برای پایان دادن به درگیری است",
+        "example_url": "https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz",
+        "unbiased_text": "ترامپ توقف حملات به ایران را اعلام کرد در حالی که مذاکرات برای پایان دادن به درگیری ادامه دارد.",
+        "pattern_en": "Deal proximity temporal reversal framing"
       }
     ]
   },
@@ -10325,6 +10369,39 @@
         "example_url": "http://www.euronews.com/travel/2026/07/30/cuba-tourism-crisis-an-industry-brought-to-almost-total-paralysis",
         "unbiased_text": "صنعت گردشگری کوبا تحت تأثیر تحریم‌های آمریکا و کمبود سوخت قرار گرفته است و نزدیک به سه‌چهارم هتل‌های این جزیره اکنون تعطیل شده‌اند.",
         "pattern_en": "Almost total paralysis catastrophic closure framing"
+      },
+      {
+        "pattern": "چارچوب‌بندی نقطه عطف اجرای مقررات",
+        "detail": "ارائه تاریخ‌های اجرای مقررات به عنوان لحظات دگرگون‌کننده به جای نقاط عطف اداری در فرآیندهای جاری.",
+        "debias": "گزارش تحولات جدول زمانی مقررات به عنوان گام‌های رویه‌ای بدون القای تحول ناگهانی در تاریخ‌های اجرا.",
+        "date_added": "2026-08-02",
+        "status": "suggested",
+        "example_text": "برچسب تولید شده توسط هوش مصنوعی در اتحادیه اروپا برای شرکت‌ها اجباری می‌شود",
+        "example_url": "http://www.euronews.com/my-europe/2026/08/02/ai-generated-label-becomes-mandatory-in-the-eu-for-companies",
+        "unbiased_text": "شرکت‌های اتحادیه اروپا اکنون باید محتوای تولید شده توسط هوش مصنوعی را طبق مقرراتی که از روز یکشنبه به اجرا درآمده، برچسب‌گذاری کنند.",
+        "pattern_en": "Regulatory implementation milestone framing"
+      },
+      {
+        "pattern": "تأکید بر هنر باستانی در کشفیات علمی",
+        "detail": "برجسته کردن پیچیدگی هنری باستانی به عنوان امری شگفت‌انگیز یا استثنایی به جای پذیرش آن به عنوان انتظار طبیعی بر اساس ظرفیت شناختی انسان.",
+        "debias": "یافته‌های باستان‌شناسی را بدون نشان دادن تعجب از توانایی‌های هنری انسان‌های باستانی که به خوبی مستند شده‌اند، گزارش کنید.",
+        "date_added": "2026-08-02",
+        "status": "suggested",
+        "example_text": "در طول حفاری‌ها در غار Hohle Fels، باستان‌شناسان دو مجسمه پرنده حکاکی شده از عاج ماموت کشف کردند که نشان‌دهنده حس هنری چشمگیر انسان‌ها در ۴۰٬۰۰۰ سال پیش است.",
+        "example_url": "http://www.euronews.com/culture/2026/08/01/find-in-german-cave-40000-year-old-mammoth-ivory-bird-figures-discovered",
+        "unbiased_text": "باستان‌شناسان دو مجسمه پرنده حکاکی شده از عاج ماموت را در غار Hohle Fels کشف کردند که قدمت آن‌ها به تقریباً ۴۰٬۰۰۰ سال پیش می‌رسد.",
+        "pattern_en": "Scientific discovery ancient art emphasis"
+      },
+      {
+        "pattern": "علیت بحران بازگشت کنترل مرزی",
+        "detail": "نسبت دادن اقدامات موقت کنترل مرزی به رویدادهای خاص مهاجرتی به عنوان علیت مستقیم، بدون ذکر زمینه سیاسی گسترده‌تر.",
+        "debias": "اقدامات کنترل مرزی را با زمینه کامل سیاسی شامل چارچوب‌های قانونی و عوامل متعدد مؤثر بر تصمیم‌گیری گزارش دهید.",
+        "date_added": "2026-08-02",
+        "status": "suggested",
+        "example_text": "ایتالیا کنترل‌های مرزی برای ورودی‌ها از اسپانیا را اجرا می‌کند: چه تغییراتی",
+        "example_url": "http://www.euronews.com/my-europe/2026/08/02/italy-brings-in-border-checks-for-arrivals-from-spain-what-changes",
+        "unbiased_text": "ایتالیا کنترل‌های مرزی موقت برای مسافران از اسپانیا را تحت مقررات شینگن که چنین اقداماتی را مجاز می‌داند، اجرا کرده است.",
+        "pattern_en": "Border control reintroduction crisis causation"
       }
     ]
   }
