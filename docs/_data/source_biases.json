@@ -3516,6 +3516,46 @@
         "example_text": "The Board of Peace is a failed body and should be abandoned",
         "example_url": "https://www.aljazeera.com/opinions/2026/8/2/the-board-of-peace-is-a-failed-body-and-should-be-abandoned?traffic_source=rss",
         "unbiased_text": "Critics argue the Board of Peace has not achieved its stated objectives and requires significant reforms."
+      },
+      {
+        "pattern": "Job security extension strategic timing emphasis",
+        "detail": "Framing a coach's contract extension immediately after tournament elimination as strategic positioning rather than routine renewal, suggesting calculated timing over organic progression.",
+        "debias": "Report contract extensions as standard administrative outcomes without implying strategic timing calculations.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "Mauricio Pochettino inks a four-year head coach extension after Team USA finished in the last-16 at World Cup 2026.",
+        "example_url": "https://www.aljazeera.com/sports/2026/8/3/pochettino-agrees-to-new-us-coach-soccer-contract-through-to-2030-world-cup?traffic_source=rss",
+        "unbiased_text": "Mauricio Pochettino has signed a four-year contract extension as head coach through 2030, US Soccer announced."
+      },
+      {
+        "pattern": "Fifth-year war milestone normalization framing",
+        "detail": "Describing war duration as entering its 'fifth year' to emphasize prolonged nature and normalize ongoing conflict state.",
+        "debias": "State war duration factually without emphasizing milestone years that suggest normalization.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "Exchange of fire intensifies as the war, now in its fifth year, shows no signs of slowing down.",
+        "example_url": "https://www.aljazeera.com/news/2026/8/3/more-than-10-killed-as-russia-and-ukraine-trade-heavy-attacks?traffic_source=rss",
+        "unbiased_text": "Exchange of fire intensifies as the war that began in February 2022 continues."
+      },
+      {
+        "pattern": "Leader job-saving intervention narrative construction",
+        "detail": "Framing political outreach as desperate attempt to preserve position rather than routine diplomatic engagement or alliance-building.",
+        "debias": "Report diplomatic contacts without imputing desperation or job-preservation motives.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "FIFA boss Gianni Infantino turned to Donald Trump to save his job amid revolt to World Cup privatisation plan.",
+        "example_url": "https://www.aljazeera.com/sports/2026/8/3/fifas-infantino-sought-trump-backing-after-failed-world-cup-stakes-sell-off-plan?traffic_source=rss",
+        "unbiased_text": "FIFA president Gianni Infantino sought support from Donald Trump following opposition to a World Cup privatisation proposal."
+      },
+      {
+        "pattern": "Devoted-to-seizure ideological characterization framing",
+        "detail": "Using 'devoted to' language to characterize groups' territorial objectives as religious mission rather than political or strategic goal.",
+        "debias": "Describe territorial objectives without devotion language that implies religious mission.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "The Hilltop Youth is a radical religious Zionist group devoted to seizing Palestinian land in the occupied West Bank.",
+        "example_url": "https://www.aljazeera.com/news/2026/8/3/hilltop-youth-a-group-intent-on-taking-over-the-west-bank-by-violence?traffic_source=rss",
+        "unbiased_text": "The Hilltop Youth is a radical religious Zionist group that seeks to establish settlements on Palestinian land in the occupied West Bank."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -6170,6 +6210,36 @@
         "example_text": "Trump holds off on striking Iran, calls for 'rapid' deal to end the conflict",
         "example_url": "https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz",
         "unbiased_text": "Trump announced a pause in strikes on Iran while negotiations continue on ending the conflict."
+      },
+      {
+        "pattern": "Bluff-calling accusation through headline attribution",
+        "detail": "Characterizing diplomatic denial as 'calling a bluff' rather than disagreement or contradiction, implying strategic game-playing over substantive dispute.",
+        "debias": "Report diplomatic contradictions without poker metaphors that reduce substantive disagreements to tactical games.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "Iran 'calls Trump's bluff' as it denies negotiating with the US",
+        "example_url": "https://www.france24.com/en/iran-calls-trump-s-bluff-as-it-denies-negotiating-with-the-us",
+        "unbiased_text": "Iran denies negotiating with US after Trump announces talks"
+      },
+      {
+        "pattern": "Posturing enumeration dismissive cataloging",
+        "detail": "Listing diplomatic actions as 'posturing' and other dismissive categories to delegitimize entire negotiation process as theatrical rather than substantive.",
+        "debias": "Describe diplomatic exchanges without cataloging them as performance categories.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "Between the U-turns, the posturing, the denials and the flexing of military might, it's hard to know exactly where negotiations between the US and Iran are actually at",
+        "example_url": "https://www.france24.com/en/after-donald-trump-s-latest-u-turn-uncertainty-remains-over-talks-with-iran",
+        "unbiased_text": "Amid changing statements and military actions, the status of negotiations between the US and Iran remains unclear"
+      },
+      {
+        "pattern": "Despite-ceasefire contradiction permanent emphasis structure",
+        "detail": "Structuring reports to emphasize violence occurring 'despite' ceasefire agreement as permanent feature rather than violation or breakdown.",
+        "debias": "Report violence after ceasefire agreements without 'despite' framing that normalizes violations as expected.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "Israeli strikes on Gaza overnight killed at least 13 people after hitting several residential buildings, local authorities said on Sunday. Seven people were also killed in Israeli strikes on Saturday, a day after Hamas said it had agreed to the latest deal on ending the war.",
+        "example_url": "https://www.france24.com/en/middle-east/20260801-israeli-strikes-kill-eight-overnight-despite-hopes-for-a-deal",
+        "unbiased_text": "Israeli strikes on Gaza killed at least 13 people overnight and seven on Saturday, local authorities said. The strikes followed Hamas's statement that it had agreed to the latest deal on ending the war."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -9373,6 +9443,36 @@
         "example_text": "Italy brings in border checks for arrivals from Spain: what changes",
         "example_url": "http://www.euronews.com/my-europe/2026/08/02/italy-brings-in-border-checks-for-arrivals-from-spain-what-changes",
         "unbiased_text": "Italy has implemented temporary border checks for travelers from Spain under Schengen provisions allowing such measures."
+      },
+      {
+        "pattern": "Emergency action headline urgency without policy detail",
+        "detail": "Emphasizing 'emergency action' in headlines to dramatize government response without specifying what emergency measures entail.",
+        "debias": "Describe specific government actions rather than using 'emergency' labels without policy substance.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "Record low Danube levels prompt central European governments to take emergency action",
+        "example_url": "http://www.euronews.com/my-europe/2026/08/03/record-low-danube-levels-prompt-central-european-governments-to-take-emergency-action",
+        "unbiased_text": "Central European governments respond to record low Danube levels with temporary shipping restrictions"
+      },
+      {
+        "pattern": "Preparedness questioning through speculative headline",
+        "detail": "Framing infrastructure challenges as preparedness failures through 'Are we prepared?' headline structure that presumes inadequacy.",
+        "debias": "Report infrastructure development status without presuming inadequacy through rhetorical questioning.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "Inside Europe's EV boom: Are we prepared for more than a million batteries to reach end-of-life?",
+        "example_url": "http://www.euronews.com/2026/08/03/inside-europes-ev-boom-are-we-prepared-for-more-than-a-million-batteries-to-reach-end-of-l",
+        "unbiased_text": "Europe faces challenge of recycling more than one million EV batteries reaching end-of-life"
+      },
+      {
+        "pattern": "Second-brain mockery through quotation structure",
+        "detail": "Using quotation marks around product descriptions like 'second brain' to mock rather than neutrally report technology claims.",
+        "debias": "Report product descriptions without scare quotes that editorialize skepticism.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "'You literally can't': AI startup Orchid sparks backlash over its 'second brain' assistant",
+        "example_url": "http://www.euronews.com/culture/2026/08/03/you-literally-cant-ai-startup-orchid-sparks-backlash-over-its-second-brain-assistant",
+        "unbiased_text": "AI startup Orchid faces criticism over claims its assistant can manage personal relationships and memories"
       }
     ],
     "notes": "Reliable but limited conflict coverage"

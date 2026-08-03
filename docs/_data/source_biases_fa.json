@@ -3914,6 +3914,51 @@
         "example_url": "https://www.aljazeera.com/opinions/2026/8/2/the-board-of-peace-is-a-failed-body-and-should-be-abandoned?traffic_source=rss",
         "unbiased_text": "منتقدان استدلال می‌کنند که شورای صلح به اهداف اعلام شده خود دست نیافته و نیازمند اصلاحات قابل توجه است.",
         "pattern_en": "International body failure absolute dismissal"
+      },
+      {
+        "pattern": "تأکید بر زمان‌بندی استراتژیک تمدید امنیت شغلی",
+        "detail": "قاب‌بندی تمدید قرارداد یک مربی بلافاصله پس از حذف از تورنمنت به‌عنوان موضع‌گیری استراتژیک به‌جای تجدید معمول، که نشان‌دهنده محاسبات زمان‌بندی شده به‌جای پیشرفت طبیعی است.",
+        "debias": "تمدید قراردادها را به‌عنوان نتایج اداری استاندارد گزارش کنید بدون اینکه محاسبات زمان‌بندی استراتژیک را القا کنید.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "Mauricio Pochettino قرارداد چهارساله سرمربیگری خود را پس از حذف تیم ملی آمریکا در مرحله یک‌شانزدهم جام جهانی ۲۰۲۶ امضا می‌کند.",
+        "example_url": "https://www.aljazeera.com/sports/2026/8/3/pochettino-agrees-to-new-us-coach-soccer-contract-through-to-2030-world-cup?traffic_source=rss",
+        "unbiased_text": "Mauricio Pochettino قرارداد تمدید چهارساله خود را به‌عنوان سرمربی تا سال ۲۰۳۰ امضا کرده است، فدراسیون فوتبال آمریکا اعلام کرد.",
+        "pattern_en": "Job security extension strategic timing emphasis"
+      },
+      {
+        "pattern": "قاب‌بندی عادی‌سازی نقطه عطف سال پنجم جنگ",
+        "detail": "توصیف مدت زمان جنگ به عنوان ورود به «سال پنجم» برای تأکید بر ماهیت طولانی و عادی‌سازی وضعیت درگیری مستمر.",
+        "debias": "مدت زمان جنگ را به صورت واقعی بیان کنید بدون تأکید بر سال‌های نقطه عطف که نشان‌دهنده عادی‌سازی است.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "تبادل آتش تشدید می‌شود در حالی که جنگ، که اکنون در سال پنجم خود است، هیچ نشانه‌ای از کند شدن نشان نمی‌دهد.",
+        "example_url": "https://www.aljazeera.com/news/2026/8/3/more-than-10-killed-as-russia-and-ukraine-trade-heavy-attacks?traffic_source=rss",
+        "unbiased_text": "تبادل آتش تشدید می‌شود در حالی که جنگی که در فوریه ۲۰۲۲ آغاز شد ادامه دارد.",
+        "pattern_en": "Fifth-year war milestone normalization framing"
+      },
+      {
+        "pattern": "روایت‌سازی مداخله رهبر برای حفظ شغل",
+        "detail": "قاب‌بندی تماس‌های سیاسی به‌عنوان تلاش ناامیدانه برای حفظ موقعیت، به‌جای تعامل دیپلماتیک معمول یا ائتلاف‌سازی.",
+        "debias": "تماس‌های دیپلماتیک را بدون نسبت دادن انگیزه‌های ناامیدی یا حفظ شغل گزارش کنید.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "رئیس FIFA جانی اینفانتینو برای نجات شغل خود در میان شورش علیه طرح خصوصی‌سازی جام جهانی به Donald Trump روی آورد.",
+        "example_url": "https://www.aljazeera.com/sports/2026/8/3/fifas-infantino-sought-trump-backing-after-failed-world-cup-stakes-sell-off-plan?traffic_source=rss",
+        "unbiased_text": "رئیس FIFA جانی اینفانتینو پس از مخالفت با پیشنهاد خصوصی‌سازی جام جهانی، حمایت Donald Trump را جستجو کرد.",
+        "detail_items": [],
+        "pattern_en": "Leader job-saving intervention narrative construction"
+      },
+      {
+        "pattern": "قاب‌بندی توصیف ایدئولوژیک با واژگان «وقف شده به تصرف»",
+        "detail": "استفاده از زبان «وقف شده به» برای توصیف اهداف سرزمینی گروه‌ها به‌عنوان مأموریت مذهبی به‌جای هدف سیاسی یا استراتژیک.",
+        "debias": "اهداف سرزمینی را بدون استفاده از زبان وقف که مأموریت مذهبی را القا می‌کند، توصیف کنید.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "جوانان تپه‌نشین یک گروه رادیکال صهیونیست مذهبی است که به تصرف زمین‌های فلسطینی در کرانه باختری اشغالی وقف شده است.",
+        "example_url": "https://www.aljazeera.com/news/2026/8/3/hilltop-youth-a-group-intent-on-taking-over-the-west-bank-by-violence?traffic_source=rss",
+        "unbiased_text": "جوانان تپه‌نشین یک گروه رادیکال صهیونیست مذهبی است که به دنبال ایجاد شهرک‌های اسکان در زمین‌های فلسطینی در کرانه باختری اشغالی است.",
+        "pattern_en": "Devoted-to-seizure ideological characterization framing"
       }
     ]
   },
@@ -6839,6 +6884,39 @@
         "example_url": "https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz",
         "unbiased_text": "ترامپ توقف حملات به ایران را اعلام کرد در حالی که مذاکرات برای پایان دادن به درگیری ادامه دارد.",
         "pattern_en": "Deal proximity temporal reversal framing"
+      },
+      {
+        "pattern": "اتهام بلوف‌زنی از طریق انتساب در تیتر",
+        "detail": "توصیف تکذیب دیپلماتیک به عنوان «بلوف‌زنی» به جای اختلاف یا تناقض، که نشان‌دهنده بازی استراتژیک به جای اختلاف ماهوی است.",
+        "debias": "تناقضات دیپلماتیک را بدون استعاره‌های پوکر گزارش کنید که اختلافات ماهوی را به بازی‌های تاکتیکی تقلیل می‌دهد.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "ایران با رد مذاکره با آمریکا «بلوف ترامپ را رو می‌کند»",
+        "example_url": "https://www.france24.com/en/iran-calls-trump-s-bluff-as-it-denies-negotiating-with-the-us",
+        "unbiased_text": "ایران پس از اعلام ترامپ مبنی بر مذاکره، مذاکره با آمریکا را رد می‌کند",
+        "pattern_en": "Bluff-calling accusation through headline attribution"
+      },
+      {
+        "pattern": "فهرست‌بندی تحقیرآمیز و ژست‌گرایانه",
+        "detail": "فهرست کردن اقدامات دیپلماتیک به‌عنوان «ژست‌گیری» و دیگر دسته‌بندی‌های تحقیرآمیز برای بی‌اعتبار کردن کل فرایند مذاکره به‌عنوان نمایشی به‌جای ماهوی.",
+        "debias": "مبادلات دیپلماتیک را بدون دسته‌بندی آن‌ها به‌عنوان مقوله‌های نمایشی توصیف کنید.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "میان عقب‌نشینی‌ها، ژست‌گیری‌ها، انکارها و به‌نمایش گذاشتن قدرت نظامی، دشوار است که دقیقاً بدانیم مذاکرات میان ایالات متحده و ایران واقعاً در چه مرحله‌ای قرار دارد",
+        "example_url": "https://www.france24.com/en/after-donald-trump-s-latest-u-turn-uncertainty-remains-over-talks-with-iran",
+        "unbiased_text": "در میان بیانیه‌های متغیر و اقدامات نظامی، وضعیت مذاکرات میان ایالات متحده و ایران نامشخص باقی مانده است",
+        "pattern_en": "Posturing enumeration dismissive cataloging"
+      },
+      {
+        "pattern": "ساختار تأکید دائمی بر تناقض «علی‌رغم آتش‌بس»",
+        "detail": "ساختاردهی گزارش‌ها به گونه‌ای که خشونت رخ‌داده «علی‌رغم» توافق آتش‌بس را به‌عنوان ویژگی دائمی به جای نقض یا فروپاشی مورد تأکید قرار دهد.",
+        "debias": "خشونت پس از توافق‌های آتش‌بس را بدون چارچوب «علی‌رغم» که نقض‌ها را به‌عنوان امری مورد انتظار عادی‌سازی می‌کند، گزارش دهید.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "حملات هوایی اسرائیل به غزه طی شب گذشته با هدف قرار دادن چندین ساختمان مسکونی دست‌کم ۱۳ نفر را کشت، به گفته مقامات محلی روز یکشنبه. هفت نفر نیز در حملات هوایی اسرائیل روز شنبه کشته شدند، یک روز پس از آنکه حماس اعلام کرد با آخرین توافق برای پایان جنگ موافقت کرده است.",
+        "example_url": "https://www.france24.com/en/middle-east/20260801-israeli-strikes-kill-eight-overnight-despite-hopes-for-a-deal",
+        "unbiased_text": "حملات هوایی اسرائیل به غزه طی شب گذشته دست‌کم ۱۳ نفر و روز شنبه هفت نفر را کشت، به گفته مقامات محلی. این حملات پس از اعلام حماس مبنی بر موافقت با آخرین توافق برای پایان جنگ صورت گرفت.",
+        "pattern_en": "Despite-ceasefire contradiction permanent emphasis structure"
       }
     ]
   },
@@ -10402,6 +10480,39 @@
         "example_url": "http://www.euronews.com/my-europe/2026/08/02/italy-brings-in-border-checks-for-arrivals-from-spain-what-changes",
         "unbiased_text": "ایتالیا کنترل‌های مرزی موقت برای مسافران از اسپانیا را تحت مقررات شینگن که چنین اقداماتی را مجاز می‌داند، اجرا کرده است.",
         "pattern_en": "Border control reintroduction crisis causation"
+      },
+      {
+        "pattern": "فوریت تیتر اقدام اضطراری بدون جزئیات سیاستی",
+        "detail": "تأکید بر «اقدام اضطراری» در تیترها برای نمایش دراماتیک واکنش دولت بدون مشخص کردن اینکه اقدامات اضطراری شامل چه مواردی است.",
+        "debias": "به‌جای استفاده از برچسب‌های «اضطراری» بدون محتوای سیاستی، اقدامات خاص دولت را توصیف کنید.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "سطح بی‌سابقه پایین دانوب دولت‌های اروپای مرکزی را وادار به اتخاذ اقدام اضطراری می‌کند",
+        "example_url": "http://www.euronews.com/my-europe/2026/08/03/record-low-danube-levels-prompt-central-european-governments-to-take-emergency-action",
+        "unbiased_text": "دولت‌های اروپای مرکزی با محدودیت‌های موقت کشتیرانی به سطح بی‌سابقه پایین دانوب پاسخ می‌دهند",
+        "pattern_en": "Emergency action headline urgency without policy detail"
+      },
+      {
+        "pattern": "زیر سؤال بردن آمادگی از طریق تیتر حدسی",
+        "detail": "قاب‌بندی چالش‌های زیرساختی به عنوان شکست‌های آمادگی از طریق ساختار تیتر «آیا ما آماده هستیم؟» که عدم کفایت را پیش‌فرض می‌گیرد.",
+        "debias": "وضعیت توسعه زیرساخت‌ها را بدون پیش‌فرض گرفتن عدم کفایت از طریق پرسش‌های لفاظی گزارش کنید.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "درون رونق خودروهای برقی اروپا: آیا ما برای بیش از یک میلیون باتری که به پایان عمر خود می‌رسند آماده هستیم؟",
+        "example_url": "http://www.euronews.com/2026/08/03/inside-europes-ev-boom-are-we-prepared-for-more-than-a-million-batteries-to-reach-end-of-l",
+        "unbiased_text": "اروپا با چالش بازیافت بیش از یک میلیون باتری خودروی برقی که به پایان عمر می‌رسند مواجه است",
+        "pattern_en": "Preparedness questioning through speculative headline"
+      },
+      {
+        "pattern": "تمسخر مغز دوم از طریق ساختار نقل‌قول",
+        "detail": "استفاده از علامت نقل‌قول در اطراف توضیحات محصول مانند «مغز دوم» برای تمسخر به جای گزارش خنثی ادعاهای فناوری.",
+        "debias": "توضیحات محصول را بدون علامت نقل‌قول ترسناک که دیدگاه شکاکانه را سردبیری می‌کنند، گزارش دهید.",
+        "date_added": "2026-08-03",
+        "status": "suggested",
+        "example_text": "«شما واقعاً نمی‌توانید»: استارتاپ هوش مصنوعی Orchid با دستیار «مغز دوم» خود واکنش منفی برانگیخت",
+        "example_url": "http://www.euronews.com/culture/2026/08/03/you-literally-cant-ai-startup-orchid-sparks-backlash-over-its-second-brain-assistant",
+        "unbiased_text": "استارتاپ هوش مصنوعی Orchid با انتقاد در مورد ادعاهایش مبنی بر اینکه دستیارش می‌تواند روابط شخصی و خاطرات را مدیریت کند، مواجه شد",
+        "pattern_en": "Second-brain mockery through quotation structure"
       }
     ]
   }
