@@ -3959,6 +3959,28 @@
         "example_url": "https://www.aljazeera.com/news/2026/8/3/hilltop-youth-a-group-intent-on-taking-over-the-west-bank-by-violence?traffic_source=rss",
         "unbiased_text": "جوانان تپه‌نشین یک گروه رادیکال صهیونیست مذهبی است که به دنبال ایجاد شهرک‌های اسکان در زمین‌های فلسطینی در کرانه باختری اشغالی است.",
         "pattern_en": "Devoted-to-seizure ideological characterization framing"
+      },
+      {
+        "pattern": "قاب‌بندی ضرورت سودجویی ساختاری",
+        "detail": "قاب‌بندی سودهای رکوردی شرکت‌ها در زمان اختلالات ناشی از جنگ از طریق پرسش‌های علّی که به‌جای اقتصاد بازار، خطاکاری را پیش‌فرض می‌گیرند.",
+        "debias": "عملکرد مالی شرکت‌ها در طول درگیری را با انتساب خنثی به اختلال عرضه و پویایی‌های بازار گزارش دهید، نه پرسش‌گری اخلاقی.",
+        "date_added": "2026-08-04",
+        "status": "suggested",
+        "example_text": "چرا شرکت‌های نفتی در میانه اختلالات جنگ ایران سودهای رکوردی به ثبت می‌رسانند؟",
+        "example_url": "https://www.aljazeera.com/features/2026/8/4/why-are-oil-companies-posting-record-profits-amid-iran-war-disruption?traffic_source=rss",
+        "unbiased_text": "شرکت‌های نفتی سودهای رکوردی گزارش می‌کنند درحالی‌که جنگ ایران عرضه در تنگه هرمز را مختل کرده است.",
+        "pattern_en": "Structural profiteering necessity framing"
+      },
+      {
+        "pattern": "بالا بردن انتقاد از برون‌سپاری معماری امنیتی",
+        "detail": "توصیف ترتیبات امنیتی منطقه‌ای به عنوان وابستگی منفعلانه که باید پایان یابد، که نشان‌دهنده ناکافی بودن سیستماتیک چارچوب‌های موجود است.",
+        "debias": "ترتیبات امنیتی منطقه‌ای را به عنوان انتخاب‌های استراتژیک در حال تحول گزارش کنید نه وابستگی‌های شکست‌خورده‌ای که نیازمند دگرگونی هستند.",
+        "date_added": "2026-08-04",
+        "status": "suggested",
+        "example_text": "خلیج فارس که به اشتباه منفعل تلقی می‌شود، بی‌سر و صدا در حال پایان دادن به پنجاه سال وابستگی است",
+        "example_url": "https://www.aljazeera.com/opinions/2026/8/4/the-gulf-can-no-longer-outsource-its-security?traffic_source=rss",
+        "unbiased_text": "کشورهای خلیج فارس مشارکت‌های امنیتی را پس از درگیری با ایران مورد بازبینی قرار می‌دهند.",
+        "pattern_en": "Security architecture outsourcing critique elevation"
       }
     ]
   },
@@ -6917,6 +6939,40 @@
         "example_url": "https://www.france24.com/en/middle-east/20260801-israeli-strikes-kill-eight-overnight-despite-hopes-for-a-deal",
         "unbiased_text": "حملات هوایی اسرائیل به غزه طی شب گذشته دست‌کم ۱۳ نفر و روز شنبه هفت نفر را کشت، به گفته مقامات محلی. این حملات پس از اعلام حماس مبنی بر موافقت با آخرین توافق برای پایان جنگ صورت گرفت.",
         "pattern_en": "Despite-ceasefire contradiction permanent emphasis structure"
+      },
+      {
+        "pattern": "تقویت اختلاف از اعلام توافق",
+        "detail": "قاب‌بندی پیشرفت دیپلماتیک اعلام‌شده به عنوان سوخت برای افزایش اختلاف به جای پیشرفت بالقوه، با تأکید بر درگیری به جای همکاری.",
+        "debias": "گزارش اعلامیه‌های دیپلماتیک با ذکر چالش‌های اجرایی و پیامدهای احتمالی، بدون پیش‌فرض شکست یا افزایش درگیری.",
+        "date_added": "2026-08-04",
+        "status": "suggested",
+        "example_text": "پیشرفت اعلام‌شده Trump با Hamas اختلاف فزاینده با اسرائیل را تقویت می‌کند",
+        "example_url": "https://www.france24.com/en/trump-s-announced-breakthrough-with-hamas-fuels-growing-discord-with-israel",
+        "unbiased_text": "Trump توافق خلع سلاح Hamas را اعلام می‌کند در حالی که اسرائیل نگرانی‌های اجرایی مطرح می‌کند.",
+        "pattern_en": "Discord amplification from agreement announcement"
+      },
+      {
+        "pattern": "اعلام بلوف‌گیری از طریق پوشش انکار",
+        "detail": "توصیف انکار یک طرف از مذاکرات به‌عنوان بلوف‌گیری طرف دیگر، نسبت دادن محاسبه استراتژیک به‌جای گزارش اختلاف واقعی.",
+        "debias": "اظهارات متناقض درباره مذاکرات را به‌عنوان روایات مورد اختلاف گزارش کنید بدون توصیف انگیزه‌ها یا اعلام اینکه چه کسی راست می‌گوید.",
+        "date_added": "2026-08-04",
+        "status": "suggested",
+        "example_text": "ایران «بلوف ترامپ را می‌گیرد» و مذاکره با آمریکا را تکذیب می‌کند",
+        "example_url": "https://www.france24.com/en/iran-calls-trump-s-bluff-as-it-denies-negotiating-with-the-us",
+        "unbiased_text": "ایران ادعای ترامپ مبنی بر اینکه مذاکراتی بین دو کشور در جریان است را تکذیب می‌کند.",
+        "detail_items": [],
+        "pattern_en": "Bluff-calling declaration through denial coverage"
+      },
+      {
+        "pattern": "نسبت دادن منفعت استراتژیک به حذف توجیه",
+        "detail": "قاب‌بندی خلع سلاح به‌عنوان حذف توجیه برای اشغال، و نسبت دادن محاسبات استراتژیک به اقدامات احتمالی انطباق.",
+        "debias": "پیامدهای احتمالی خلع سلاح را بر اساس اهداف امنیتی اعلام‌شده گزارش کنید، نه مزایای استراتژیک استنباط‌شده برای هر یک از طرفین.",
+        "date_added": "2026-08-04",
+        "status": "suggested",
+        "example_text": "اگر خلع سلاح کند، حماس «توجیه اسرائیل» برای اشغال غزه را «از بین می‌برد»",
+        "example_url": "https://www.france24.com/en/if-it-disarms-hamas-would-take-away-israel-s-rationale-to-occupy-gaza",
+        "unbiased_text": "خلع سلاح حماس به دغدغه‌های امنیتی اعلام‌شده اسرائیل در غزه رسیدگی خواهد کرد.",
+        "pattern_en": "Rationale-removal strategic benefit attribution"
       }
     ]
   },

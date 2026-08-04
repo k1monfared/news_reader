@@ -3556,6 +3556,26 @@
         "example_text": "The Hilltop Youth is a radical religious Zionist group devoted to seizing Palestinian land in the occupied West Bank.",
         "example_url": "https://www.aljazeera.com/news/2026/8/3/hilltop-youth-a-group-intent-on-taking-over-the-west-bank-by-violence?traffic_source=rss",
         "unbiased_text": "The Hilltop Youth is a radical religious Zionist group that seeks to establish settlements on Palestinian land in the occupied West Bank."
+      },
+      {
+        "pattern": "Structural profiteering necessity framing",
+        "detail": "Framing corporate record profits during wartime disruption through causal questioning that presumes wrongdoing rather than market economics.",
+        "debias": "Report corporate financial performance during conflict with neutral attribution to supply disruption and market dynamics rather than moral questioning.",
+        "date_added": "2026-08-04",
+        "status": "suggested",
+        "example_text": "Why are oil companies posting record profits amid Iran war disruption?",
+        "example_url": "https://www.aljazeera.com/features/2026/8/4/why-are-oil-companies-posting-record-profits-amid-iran-war-disruption?traffic_source=rss",
+        "unbiased_text": "Oil companies report record profits as Iran war disrupts supply in Strait of Hormuz."
+      },
+      {
+        "pattern": "Security architecture outsourcing critique elevation",
+        "detail": "Characterizing regional security arrangements as passive dependence that must end, implying systemic inadequacy of existing frameworks.",
+        "debias": "Report regional security arrangements as evolving strategic choices rather than failed dependencies requiring transformation.",
+        "date_added": "2026-08-04",
+        "status": "suggested",
+        "example_text": "Misread as passive, the Gulf is quietly ending fifty years of dependence",
+        "example_url": "https://www.aljazeera.com/opinions/2026/8/4/the-gulf-can-no-longer-outsource-its-security?traffic_source=rss",
+        "unbiased_text": "Gulf states reassess security partnerships following Iran conflict."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -6240,6 +6260,36 @@
         "example_text": "Israeli strikes on Gaza overnight killed at least 13 people after hitting several residential buildings, local authorities said on Sunday. Seven people were also killed in Israeli strikes on Saturday, a day after Hamas said it had agreed to the latest deal on ending the war.",
         "example_url": "https://www.france24.com/en/middle-east/20260801-israeli-strikes-kill-eight-overnight-despite-hopes-for-a-deal",
         "unbiased_text": "Israeli strikes on Gaza killed at least 13 people overnight and seven on Saturday, local authorities said. The strikes followed Hamas's statement that it had agreed to the latest deal on ending the war."
+      },
+      {
+        "pattern": "Discord amplification from agreement announcement",
+        "detail": "Framing announced diplomatic breakthrough as fuel for growing discord rather than potential progress, emphasizing conflict over cooperation.",
+        "debias": "Report diplomatic announcements with both implementation challenges and potential outcomes without presuming failure or increased conflict.",
+        "date_added": "2026-08-04",
+        "status": "suggested",
+        "example_text": "Trump's announced breakthrough with Hamas fuels growing discord with Israel",
+        "example_url": "https://www.france24.com/en/trump-s-announced-breakthrough-with-hamas-fuels-growing-discord-with-israel",
+        "unbiased_text": "Trump announces Hamas disarmament deal as Israel raises implementation concerns."
+      },
+      {
+        "pattern": "Bluff-calling declaration through denial coverage",
+        "detail": "Characterizing one party's denial of negotiations as calling another's bluff, attributing strategic calculation rather than reporting factual disagreement.",
+        "debias": "Report conflicting statements about negotiations as disputed accounts without characterizing motives or declaring who is being truthful.",
+        "date_added": "2026-08-04",
+        "status": "suggested",
+        "example_text": "Iran 'calls Trump's bluff' as it denies negotiating with the US",
+        "example_url": "https://www.france24.com/en/iran-calls-trump-s-bluff-as-it-denies-negotiating-with-the-us",
+        "unbiased_text": "Iran denies Trump's claim that negotiations are underway between the two countries."
+      },
+      {
+        "pattern": "Rationale-removal strategic benefit attribution",
+        "detail": "Framing disarmament as removing justification for occupation, attributing strategic calculation to potential compliance actions.",
+        "debias": "Report potential disarmament outcomes in terms of stated security objectives rather than inferred strategic advantages for either party.",
+        "date_added": "2026-08-04",
+        "status": "suggested",
+        "example_text": "If it disarms, Hamas would 'take away Israel's rationale' to occupy Gaza",
+        "example_url": "https://www.france24.com/en/if-it-disarms-hamas-would-take-away-israel-s-rationale-to-occupy-gaza",
+        "unbiased_text": "Hamas disarmament would address Israel's stated security concerns in Gaza."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
