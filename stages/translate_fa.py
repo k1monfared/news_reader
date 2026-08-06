@@ -16,9 +16,10 @@ from pathlib import Path
 import jdatetime
 
 from models import PipelineConfig
-from llm_client import AuditedLLMClient
+from llm_client import AuditedLLMClient, extract_json
 from audit_logger import AuditedHTTPClient
 from prompt_loader import load_prompt
+from stages.publish import build_model_footer
 
 logger = logging.getLogger(__name__)
 
@@ -145,12 +146,9 @@ def _translate_bias_batch(
         model=model,
         max_tokens=16384,
     )
-    cleaned = response.strip()
-    cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned)
-    cleaned = re.sub(r"\s*```$", "", cleaned)
     try:
-        translated = json.loads(cleaned)
-    except json.JSONDecodeError as e:
+        translated = extract_json(response)
+    except (json.JSONDecodeError, Exception) as e:
         logger.error(f"Bias batch translation returned invalid JSON: {e}")
         return entries  # pass through untranslated rather than losing entries
     if not isinstance(translated, list) or len(translated) != len(entries):
@@ -289,10 +287,18 @@ def run_translate_fa(
     raw_post = en_post_path.read_text(encoding="utf-8")
     frontmatter, body = _split_frontmatter(raw_post)
 
+    # Remove the model footer from the English body before translation so it
+    # is not translated/mangled; it is re-appended below for the Farsi post.
+    body = re.sub(r"\n---\n\n\*Model: [^*]*\*\s*$", "", body).rstrip() + "\n"
+
     # Translate the brief body to Farsi.
     category_translations = tfa.get("category_translations", {})
     logger.info("Translating English brief body to Farsi...")
     fa_body = _translate_brief(body, category_translations, llm_client, config)
+
+    # Append the model footer to the Farsi post as well.
+    footer = build_model_footer(run_dir, config)
+    fa_body = fa_body.rstrip() + footer
 
     # Build Farsi frontmatter.
     fa_date_str = _shamsi_date(date_str)

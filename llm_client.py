@@ -24,6 +24,40 @@ from pathlib import Path
 import httpx
 
 
+def extract_json(text: str):
+    """Parse an LLM response that should be JSON, tolerating markdown code
+    fences and surrounding prose.
+
+    The free model (deepseek-v4-flash-free) occasionally wraps its answer in
+    ```json fences or adds prose around the JSON. This helper tries a plain
+    parse first, then falls back to the first balanced ``{...}`` or ``[...]``
+    span in the text.
+    """
+    cleaned = text.strip()
+    if cleaned.startswith("```"):
+        if "\n" in cleaned:
+            cleaned = cleaned[cleaned.index("\n") + 1:]
+        else:
+            cleaned = cleaned[3:]
+    if cleaned.endswith("```"):
+        cleaned = cleaned[:-3].rstrip()
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError:
+        spans = []
+        for opener, closer in (("{", "}"), ("[", "]")):
+            start = cleaned.find(opener)
+            if start != -1:
+                end = cleaned.rfind(closer)
+                if end > start:
+                    spans.append((start, end + 1))
+        if not spans:
+            raise
+        spans.sort(key=lambda s: s[0])
+        start, end = spans[0]
+        return json.loads(cleaned[start:end])
+
+
 class BudgetExceededError(Exception):
     """Raised when cumulative cost exceeds the configured budget cap."""
     pass
@@ -63,6 +97,7 @@ class AuditedLLMClient:
         ).rstrip("/")
         self._run_dir = Path(run_dir)
         self._max_cost = float(config.get("max_cost_per_run_usd", 1.0))
+        self._max_attempts = int(config.get("llm_retry_attempts", 3))
 
         self._cumulative_cost = 0.0
         self._total_input_tokens = 0
@@ -159,29 +194,10 @@ class AuditedLLMClient:
             "Authorization": f"Bearer {self._api_key}",
             "Content-Type": "application/json",
         }
-        try:
-            with httpx.Client(timeout=httpx.Timeout(600.0, connect=10.0)) as client:
-                response = client.post(
-                    f"{self._base_url}/chat/completions",
-                    headers=headers,
-                    json=payload,
-                )
-        except httpx.HTTPError as e:
-            raise RuntimeError(f"OpenCode Zen request failed: {e}") from e
+        response_text, tokens_in, tokens_out, stop_reason = self._complete(
+            payload, headers
+        )
         duration_s = round(time.monotonic() - start, 3)
-
-        if response.status_code != 200:
-            raise RuntimeError(
-                f"OpenCode Zen API error {response.status_code}: "
-                f"{response.text[:500]}"
-            )
-        data = response.json()
-
-        # Extract results
-        response_text = data["choices"][0]["message"]["content"]
-        usage = data.get("usage", {})
-        tokens_in = usage.get("prompt_tokens", 0)
-        tokens_out = usage.get("completion_tokens", 0)
         output_hash = hashlib.sha256(
             response_text.encode("utf-8")
         ).hexdigest()
@@ -192,7 +208,7 @@ class AuditedLLMClient:
             "response_text": response_text,
             "tokens_in": tokens_in,
             "tokens_out": tokens_out,
-            "stop_reason": data["choices"][0].get("finish_reason"),
+            "stop_reason": stop_reason,
         }
         self._outputs_dir.joinpath(f"{call_id}.json").write_text(
             json.dumps(output_payload, indent=2), encoding="utf-8"
@@ -237,6 +253,67 @@ class AuditedLLMClient:
             )
 
         return response_text
+
+    def _complete(
+        self, payload: dict, headers: dict
+    ) -> tuple[str, int, int, str | None]:
+        """POST to the OpenCode Zen chat completions endpoint with retries.
+
+        The free model (deepseek-v4-flash-free) is a beta model that can
+        return an empty ``content`` field (it emits its answer in
+        ``reasoning_content``) or fail transiently with a 429/5xx, so retry
+        a few times with backoff before giving up.
+
+        Returns ``(response_text, tokens_in, tokens_out, stop_reason)``.
+        """
+        last_error: Exception | None = None
+        for attempt in range(self._max_attempts):
+            try:
+                with httpx.Client(
+                    timeout=httpx.Timeout(600.0, connect=10.0)
+                ) as client:
+                    response = client.post(
+                        f"{self._base_url}/chat/completions",
+                        headers=headers,
+                        json=payload,
+                    )
+            except httpx.HTTPError as e:
+                last_error = RuntimeError(f"OpenCode Zen request failed: {e}")
+            else:
+                if response.status_code in (429, 500, 502, 503, 504):
+                    last_error = RuntimeError(
+                        f"OpenCode Zen API error {response.status_code}: "
+                        f"{response.text[:200]}"
+                    )
+                elif response.status_code != 200:
+                    raise RuntimeError(
+                        f"OpenCode Zen API error {response.status_code}: "
+                        f"{response.text[:500]}"
+                    )
+                else:
+                    data = response.json()
+                    content = (
+                        data["choices"][0]["message"].get("content") or ""
+                    ).strip()
+                    if not content:
+                        last_error = RuntimeError(
+                            "OpenCode Zen returned empty content; retrying "
+                            "(the free model may emit only reasoning_content)"
+                        )
+                    else:
+                        usage = data.get("usage", {})
+                        return (
+                            content,
+                            usage.get("prompt_tokens", 0),
+                            usage.get("completion_tokens", 0),
+                            data["choices"][0].get("finish_reason"),
+                        )
+            if attempt < self._max_attempts - 1:
+                time.sleep(2 ** attempt)
+        raise RuntimeError(
+            f"OpenCode Zen call failed after {self._max_attempts} attempts: "
+            f"{last_error}"
+        )
 
     @property
     def total_cost(self) -> float:

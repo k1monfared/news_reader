@@ -9,7 +9,7 @@ from datetime import date
 from pathlib import Path
 
 from models import PipelineConfig
-from llm_client import AuditedLLMClient
+from llm_client import AuditedLLMClient, extract_json
 from audit_logger import AuditedHTTPClient
 from prompt_loader import load_prompt
 
@@ -140,15 +140,7 @@ def _run_bias_detection(
         max_tokens=4096,
     )
 
-    # Strip markdown fences if present
-    text = response.strip()
-    if text.startswith("```"):
-        text = text.split("\n", 1)[1] if "\n" in text else text[3:]
-        if text.endswith("```"):
-            text = text[:-3]
-        text = text.strip()
-
-    result = json.loads(text)
+    result = extract_json(response)
     new_biases = result.get("new_biases", [])
 
     if not new_biases:

@@ -48,6 +48,37 @@ def _build_frontmatter(config: PipelineConfig, run_dir: str) -> str:
     )
 
 
+def _models_used(run_dir: str, config: PipelineConfig) -> list[str]:
+    """Ordered unique model names actually called during this run.
+
+    Reads the run's ``audit/llm_calls.jsonl``. Falls back to the config
+    default when the audit file is missing or empty (e.g. a fully fallback
+    run that made no LLM calls).
+    """
+    models: list[str] = []
+    calls_file = Path(run_dir) / "audit" / "llm_calls.jsonl"
+    if calls_file.exists():
+        for line in calls_file.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            try:
+                entry = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            model = entry.get("model")
+            if model and model not in models:
+                models.append(model)
+    if not models:
+        models = [config.models.get("default", "deepseek-v4-flash-free")]
+    return models
+
+
+def build_model_footer(run_dir: str, config: PipelineConfig) -> str:
+    """Footer block recording which model(s) produced the report."""
+    models = ", ".join(_models_used(run_dir, config))
+    return f"\n---\n\n*Model: {models}*\n"
+
+
 def run_publish(
     run_dir: str,
     config: PipelineConfig,
@@ -69,6 +100,7 @@ def run_publish(
 
     report_content = report_path.read_text()
     frontmatter = _build_frontmatter(config, run_dir)
+    footer = build_model_footer(run_dir, config)
 
     # Determine post filename from run_id target date
     date_str = _date_from_run_dir(run_dir)
@@ -77,8 +109,8 @@ def run_publish(
     posts_dir.mkdir(parents=True, exist_ok=True)
     post_path = posts_dir / post_filename
 
-    # Write the post with frontmatter
-    post_path.write_text(frontmatter + report_content)
+    # Write the post with frontmatter and model footer
+    post_path.write_text(frontmatter + report_content + footer)
     logger.info(f"Wrote post to {post_path}")
 
     # When Farsi translation is enabled, defer git to the translate_fa stage

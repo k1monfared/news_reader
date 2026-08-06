@@ -7,7 +7,7 @@ import logging
 from pathlib import Path
 
 from models import PipelineConfig, FilteredItem, CategorizedItem
-from llm_client import AuditedLLMClient
+from llm_client import AuditedLLMClient, extract_json
 from audit_logger import AuditedHTTPClient
 from prompt_loader import load_prompt
 
@@ -15,14 +15,8 @@ logger = logging.getLogger(__name__)
 
 
 def _parse_json_response(response_text: str) -> list[dict]:
-    """Parse LLM JSON response, stripping markdown code fences if present."""
-    text = response_text.strip()
-    if text.startswith("```"):
-        first_newline = text.index("\n")
-        text = text[first_newline + 1:]
-    if text.endswith("```"):
-        text = text[:-3].rstrip()
-    return json.loads(text)
+    """Parse LLM JSON, tolerating code fences and surrounding prose."""
+    return extract_json(response_text)
 
 
 def run_categorize(

@@ -8,7 +8,7 @@ import time
 from pathlib import Path
 
 from models import DedupedItem, FilteredItem, PipelineConfig
-from llm_client import AuditedLLMClient
+from llm_client import AuditedLLMClient, extract_json
 from audit_logger import AuditedHTTPClient
 from prompt_loader import load_prompt
 import bias_tracker
@@ -73,13 +73,7 @@ def _build_batch_payload(
 
 def _parse_filter_response(response_text: str) -> list[dict]:
     """Parse the LLM JSON response into a list of filter decision dicts."""
-    text = response_text.strip()
-    if text.startswith("```"):
-        first_newline = text.index("\n")
-        text = text[first_newline + 1 :]
-    if text.endswith("```"):
-        text = text[:-3].rstrip()
-    return json.loads(text)
+    return extract_json(response_text)
 
 
 def run_filter(

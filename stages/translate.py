@@ -7,7 +7,7 @@ import logging
 from pathlib import Path
 
 from models import PipelineConfig, RawItem, TranslatedItem
-from llm_client import AuditedLLMClient
+from llm_client import AuditedLLMClient, extract_json
 from audit_logger import AuditedHTTPClient
 from prompt_loader import load_prompt
 
@@ -34,16 +34,7 @@ def _parse_translation_response(response_text: str) -> list[dict]:
 
     Each dict is expected to have keys: fetch_id, title_en, text_en.
     """
-    # Strip markdown code fences if the model wraps its response
-    text = response_text.strip()
-    if text.startswith("```"):
-        # Remove opening fence (possibly ```json)
-        first_newline = text.index("\n")
-        text = text[first_newline + 1:]
-    if text.endswith("```"):
-        text = text[:-3].rstrip()
-
-    return json.loads(text)
+    return extract_json(response_text)
 
 
 def run_translate(

@@ -14,7 +14,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 from models import PipelineConfig, CategorizedItem, TrackedItem
-from llm_client import AuditedLLMClient
+from llm_client import AuditedLLMClient, extract_json
 from audit_logger import AuditedHTTPClient
 from prompt_loader import load_prompt
 
@@ -262,12 +262,7 @@ def _classify_with_llm(
             model=model,
             max_tokens=2048,
         )
-        # Strip markdown fencing if present
-        cleaned = response.strip()
-        cleaned = re.sub(r'^```(?:json)?\s*', '', cleaned)
-        cleaned = re.sub(r'\s*```$', '', cleaned)
-
-        result = json.loads(cleaned)
+        result = extract_json(response)
         return result
     except (json.JSONDecodeError, Exception) as e:
         logger.warning(f"LLM classification failed for {today_item.fetch_id}: {e}")
