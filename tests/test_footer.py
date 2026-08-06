@@ -45,11 +45,11 @@ class TestModelsUsed:
 
 class TestBuildModelFooter:
     def test_footer_format(self, tmp_path, sample_config):
-        """Footer renders a markdown rule followed by the model line."""
-        run_dir = tmp_path / "run"
+        """Footer renders the date and model line."""
+        run_dir = tmp_path / "run" / "2026-08-06-080000"
         (run_dir / "audit").mkdir(parents=True)
         (run_dir / "audit" / "llm_calls.jsonl").write_text(
             json.dumps({"model": "deepseek-v4-flash-free"}) + "\n"
         )
         footer = build_model_footer(str(run_dir), sample_config)
-        assert footer == "\n---\n\n*Model: deepseek-v4-flash-free*\n"
+        assert footer == "\n---\n\n*Generated on 2026-08-06 using deepseek-v4-flash-free*\n"

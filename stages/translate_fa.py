@@ -289,7 +289,7 @@ def run_translate_fa(
 
     # Remove the model footer from the English body before translation so it
     # is not translated/mangled; it is re-appended below for the Farsi post.
-    body = re.sub(r"\n---\n\n\*Model: [^*]*\*\s*$", "", body).rstrip() + "\n"
+    body = re.sub(r"\n---\n\n\*Generated on [^*]*\*\s*$", "", body).rstrip() + "\n"
 
     # Translate the brief body to Farsi.
     category_translations = tfa.get("category_translations", {})

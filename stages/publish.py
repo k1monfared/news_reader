@@ -74,9 +74,10 @@ def _models_used(run_dir: str, config: PipelineConfig) -> list[str]:
 
 
 def build_model_footer(run_dir: str, config: PipelineConfig) -> str:
-    """Footer block recording which model(s) produced the report."""
+    """Footer block recording when and with which model(s) the report was made."""
     models = ", ".join(_models_used(run_dir, config))
-    return f"\n---\n\n*Model: {models}*\n"
+    date_str = _date_from_run_dir(run_dir)
+    return f"\n---\n\n*Generated on {date_str} using {models}*\n"
 
 
 def run_publish(
