@@ -1,5 +1,11 @@
 # Pipeline cost breakdown
 
+> **2026-08-06 update:** the pipeline now routes through OpenCode Zen
+> (`https://opencode.ai/zen/v1`, OpenAI-compatible) with the free
+> `deepseek-v4-flash-free` model (cost $0, not billed to the OpenCode Go
+> subscription). All figures below are historical, from the Poe / Claude
+> Sonnet 4.5 era.
+
 Per-stage LLM token usage and estimated cost for the daily brief pipeline. Numbers are measured from real run audit logs, not estimates.
 
 ## Methodology
@@ -70,7 +76,7 @@ At the top of the observed range ($1.00/day busy days): $30/mo, $365/yr.
 
 ## Caveats
 
-1. **Poe API routing.** This project uses `ANTHROPIC_BASE_URL=https://api.poe.com`, which bills through Poe's compute-point model, not Anthropic direct billing. The numbers above are Anthropic-equivalent costs computed from token counts; what actually shows up on the Poe bill may differ depending on the subscription tier.
+1. **OpenCode Zen routing (historical: Poe API).** Until 2026-08-06 this project used `ANTHROPIC_BASE_URL=https://api.poe.com`, which billed through Poe's compute-point model, not Anthropic direct billing. The numbers above are Anthropic-equivalent costs computed from token counts; what actually showed up on the Poe bill may differ depending on the subscription tier. Since then the pipeline uses OpenCode Zen's free `deepseek-v4-flash-free`, so new runs cost $0.
 2. **Input-dominated.** 90% of cost is input tokens. Reducing prompt size on `editorial` is far more effective than trimming outputs.
 3. **Cache is load-bearing.** The filter stage caches article decisions. A cold cache week can double filter cost. Re-running the same day on a fresh machine shows this pattern.
 4. **Budget cap.** `config.yaml` sets `budget.max_cost_per_run_usd: 10.00`. Individual runs would have to go 15-20x over median before hitting this cap.

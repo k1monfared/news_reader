@@ -110,7 +110,7 @@ def _translate_brief(
         category_dictionary=dictionary or "(none)",
         brief_markdown=body_markdown,
     )
-    model = config.models.get("default", "claude-sonnet-4-5")
+    model = config.models.get("default", "deepseek-v4-flash-free")
     response = llm_client.call(
         stage="translate_fa",
         prompt_name="translate_brief_fa",
@@ -135,7 +135,7 @@ def _translate_bias_batch(
     system, user_msg, version = template.render(
         entries_json=json.dumps(entries, ensure_ascii=False, indent=2),
     )
-    model = config.models.get("default", "claude-sonnet-4-5")
+    model = config.models.get("default", "deepseek-v4-flash-free")
     response = llm_client.call(
         stage="translate_fa",
         prompt_name="translate_biases_fa",

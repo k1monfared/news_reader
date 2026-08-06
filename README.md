@@ -69,8 +69,8 @@ cp .env.example .env  # then edit
 
 | Variable | Purpose |
 |---|---|
-| `ANTHROPIC_AUTH_TOKEN` | LLM auth. This project uses the Poe API as a Claude proxy. |
-| `ANTHROPIC_BASE_URL` | `https://api.poe.com` (or an alternative Claude-compatible endpoint). |
+| `OPENCODE_API_KEY` | LLM auth for OpenCode Zen (https://opencode.ai/zen). |
+| `OPENCODE_API_BASE_URL` | Optional; defaults to `https://opencode.ai/zen/v1`. |
 | `RESEND_API_KEY` | Only needed by the mailer stage. Omit for dry runs. |
 
 In GitHub Actions these are set as repository secrets under **Settings → Secrets and variables → Actions**.
@@ -104,8 +104,7 @@ The GitHub Actions workflow at `.github/workflows/daily-brief.yml` runs daily at
 ### Manually, from a local shell
 
 ```bash
-export ANTHROPIC_AUTH_TOKEN=...
-export ANTHROPIC_BASE_URL=https://api.poe.com
+export OPENCODE_API_KEY=...
 export RESEND_API_KEY=re_...   # only if mailer.enabled: true
 python run_pipeline.py
 ```
@@ -253,7 +252,7 @@ To view or export the subscriber list, use the Resend dashboard directly, or the
 All tunable parameters live in `config.yaml`:
 
 - `sources`: RSS feeds, bias notes, reliability notes.
-- `models.default`: LLM model name (currently `claude-sonnet-4-5`).
+- `models.default`: LLM model name (currently `deepseek-v4-flash-free`, free via OpenCode Zen).
 - `buckets`: topic categories with keyword hints.
 - `schedule`: timezone, run hour.
 - `budget`: per-run cost cap in USD.

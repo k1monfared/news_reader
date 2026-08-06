@@ -121,7 +121,7 @@ def run_summarize(
         sources_down=json.dumps(sources_down),
     )
 
-    model = config.models.get("default", "claude-sonnet-4-5")
+    model = config.models.get("default", "deepseek-v4-flash-free")
 
     try:
         report_body = llm_client.call(

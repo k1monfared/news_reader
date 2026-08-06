@@ -30,7 +30,6 @@ jobs:
 
       - name: Run pipeline
         env:
-          ANTHROPIC_AUTH_TOKEN: ${{ secrets.ANTHROPIC_AUTH_TOKEN }}
-          ANTHROPIC_BASE_URL: https://api.poe.com
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: python run_pipeline.py

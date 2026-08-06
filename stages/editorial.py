@@ -128,7 +128,7 @@ def _run_bias_detection(
         items_by_source=items_by_source_text,
     )
 
-    model = config.models.get("default", "claude-sonnet-4-5")
+    model = config.models.get("default", "deepseek-v4-flash-free")
 
     response = llm_client.call(
         stage="editorial",
@@ -252,7 +252,7 @@ def run_editorial(
     template = load_prompt("editorial", config.paths.get("prompts_dir", "prompts"))
     system, user_msg, version = template.render(report=report, raw_data=raw_data)
 
-    model = config.models.get("default", "claude-sonnet-4-5")
+    model = config.models.get("default", "deepseek-v4-flash-free")
 
     try:
         edited = llm_client.call(

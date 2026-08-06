@@ -66,7 +66,7 @@ def run_categorize(
     template = load_prompt("categorize", config.paths.get("prompts_dir", "prompts"))
     system, user_msg, version = template.render(buckets=bucket_text, items=items_text)
 
-    model = config.models.get("default", "claude-sonnet-4-5")
+    model = config.models.get("default", "deepseek-v4-flash-free")
 
     try:
         response_text = llm_client.call(

@@ -1,17 +1,27 @@
 """Audited LLM client wrapper for the news pipeline.
 
-Every call to the Anthropic API is logged with full input/output,
-token counts, timing, and cost tracking. A per-run budget cap
-prevents runaway spending.
+Every call to the LLM API is logged with full input/output, token counts,
+timing, and cost tracking. A per-run budget cap prevents runaway usage.
+
+The pipeline routes through OpenCode Zen (https://opencode.ai/zen) using the
+OpenAI-compatible chat completions endpoint. The default model is the free
+``deepseek-v4-flash-free`` (cost $0), which is not billed to the OpenCode Go
+subscription.
+
+Env vars:
+    OPENCODE_API_KEY       required; OpenCode Zen / OpenCode Go API key
+    OPENCODE_API_BASE_URL  optional; defaults to https://opencode.ai/zen/v1
 """
 
-import anthropic
-import json
 import hashlib
-import uuid
+import json
+import os
 import time
+import uuid
 from datetime import datetime, timezone
 from pathlib import Path
+
+import httpx
 
 
 class BudgetExceededError(Exception):
@@ -20,7 +30,7 @@ class BudgetExceededError(Exception):
 
 
 class AuditedLLMClient:
-    """Wrapper around anthropic.Anthropic() that audits every call.
+    """Wrapper around the OpenCode Zen chat completions API that audits every call.
 
     Audit artifacts per run:
         audit/llm_calls.jsonl   -- one JSON line per call (summary)
@@ -28,9 +38,11 @@ class AuditedLLMClient:
         audit/llm_outputs/      -- full output payloads, one file per call
     """
 
-    # Default cost estimates per million tokens (Sonnet)
-    _INPUT_COST_PER_M = 3.0
-    _OUTPUT_COST_PER_M = 15.0
+    # Default cost estimates per million tokens (deepseek-v4-flash-free is $0)
+    _INPUT_COST_PER_M = 0.0
+    _OUTPUT_COST_PER_M = 0.0
+
+    _DEFAULT_BASE_URL = "https://opencode.ai/zen/v1"
 
     def __init__(self, run_dir: str, config: dict) -> None:
         """Initialize the audited client.
@@ -41,7 +53,14 @@ class AuditedLLMClient:
             config:  The budget section from the pipeline config. Expected
                      keys: ``max_cost_per_run_usd`` (float).
         """
-        self._client = anthropic.Anthropic()
+        self._api_key = os.environ.get("OPENCODE_API_KEY", "")
+        if not self._api_key:
+            raise RuntimeError(
+                "OPENCODE_API_KEY is not set (required for OpenCode Zen)"
+            )
+        self._base_url = os.environ.get(
+            "OPENCODE_API_BASE_URL", self._DEFAULT_BASE_URL
+        ).rstrip("/")
         self._run_dir = Path(run_dir)
         self._max_cost = float(config.get("max_cost_per_run_usd", 1.0))
 
@@ -72,10 +91,10 @@ class AuditedLLMClient:
         prompt_version: int,
         system: str,
         user_message: str,
-        model: str = "claude-sonnet-4-5",
+        model: str = "deepseek-v4-flash-free",
         max_tokens: int = 4096,
     ) -> str:
-        """Send a prompt to the Anthropic API and return the response text.
+        """Send a prompt to the OpenCode Zen API and return the response text.
 
         Every call is fully audited: input saved, output saved, and a
         summary line appended to ``llm_calls.jsonl``.
@@ -126,20 +145,43 @@ class AuditedLLMClient:
             json.dumps(input_payload, indent=2), encoding="utf-8"
         )
 
-        # Call the API
+        # Call the API (OpenAI-compatible chat completions on OpenCode Zen)
         start = time.monotonic()
-        response = self._client.messages.create(
-            model=model,
-            max_tokens=max_tokens,
-            system=system,
-            messages=[{"role": "user", "content": user_message}],
-        )
+        payload = {
+            "model": model,
+            "max_tokens": max_tokens,
+            "messages": [
+                {"role": "system", "content": system},
+                {"role": "user", "content": user_message},
+            ],
+        }
+        headers = {
+            "Authorization": f"Bearer {self._api_key}",
+            "Content-Type": "application/json",
+        }
+        try:
+            with httpx.Client(timeout=httpx.Timeout(600.0, connect=10.0)) as client:
+                response = client.post(
+                    f"{self._base_url}/chat/completions",
+                    headers=headers,
+                    json=payload,
+                )
+        except httpx.HTTPError as e:
+            raise RuntimeError(f"OpenCode Zen request failed: {e}") from e
         duration_s = round(time.monotonic() - start, 3)
 
+        if response.status_code != 200:
+            raise RuntimeError(
+                f"OpenCode Zen API error {response.status_code}: "
+                f"{response.text[:500]}"
+            )
+        data = response.json()
+
         # Extract results
-        response_text = response.content[0].text
-        tokens_in = response.usage.input_tokens
-        tokens_out = response.usage.output_tokens
+        response_text = data["choices"][0]["message"]["content"]
+        usage = data.get("usage", {})
+        tokens_in = usage.get("prompt_tokens", 0)
+        tokens_out = usage.get("completion_tokens", 0)
         output_hash = hashlib.sha256(
             response_text.encode("utf-8")
         ).hexdigest()
@@ -150,7 +192,7 @@ class AuditedLLMClient:
             "response_text": response_text,
             "tokens_in": tokens_in,
             "tokens_out": tokens_out,
-            "stop_reason": response.stop_reason,
+            "stop_reason": data["choices"][0].get("finish_reason"),
         }
         self._outputs_dir.joinpath(f"{call_id}.json").write_text(
             json.dumps(output_payload, indent=2), encoding="utf-8"

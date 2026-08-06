@@ -103,7 +103,7 @@ GitHub Pages is configured to build from the `docs/` directory on `master`. Ever
 
 ## Environment Setup
 - Install deps: `pip install -r requirements.txt`
-- Env vars: `ANTHROPIC_AUTH_TOKEN` and `ANTHROPIC_BASE_URL` (Poe API)
+- Env vars: `OPENCODE_API_KEY` (OpenCode Zen; default model `deepseek-v4-flash-free` is free)
 - See `.env.example` for template
 - Schedule: `bash schedule/setup.sh` to install cron job
 

@@ -54,7 +54,7 @@ def sample_config() -> PipelineConfig:
 
 
 class MockLLMClient:
-    """Stand-in for AuditedLLMClient that never touches the Anthropic API.
+    """Stand-in for AuditedLLMClient that never touches a real LLM API.
 
     Set ``mock_response`` to control what ``call()`` returns.
     """
@@ -78,7 +78,7 @@ class MockLLMClient:
         prompt_version: int,
         system: str,
         user_message: str,
-        model: str = "claude-sonnet-4-5",
+        model: str = "deepseek-v4-flash-free",
         max_tokens: int = 4096,
     ) -> str:
         self.calls.append({
