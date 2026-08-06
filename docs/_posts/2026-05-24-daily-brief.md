@@ -5,6 +5,7 @@ date: 2026-05-24
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-24 06:53 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump says a peace deal with Iran is "largely negotiated" and could reopen the Strait of Hormuz within weeks.
@@ -41,7 +42,3 @@ Sources: [France 24](https://www.france24.com/en/france-bans-israeli-minister-it
 </details>
 
 **What to watch:** Whether Rubio actually makes that announcement Sunday, and whether Iran and the US can agree on what's actually in this deal.
-
----
-
-*Generated on 2026-05-24 using claude-sonnet-4-5*

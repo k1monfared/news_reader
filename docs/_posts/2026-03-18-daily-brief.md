@@ -5,6 +5,7 @@ date: 2026-03-18
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 08:15 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran fired missiles at Israel and across the Gulf after Israel hit its main gas field, and oil just jumped to $110 a barrel.
@@ -146,7 +147,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/18/who-is-joe-kent-a
 </details>
 
 **What to watch:** Whether Iran actually strikes Gulf energy facilities—if they do, oil prices will go even higher and this becomes a global economic crisis, not just a regional war.
-
----
-
-*Generated on 2026-03-18 using claude-sonnet-4-5*

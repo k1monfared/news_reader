@@ -5,6 +5,7 @@ date: 2026-08-03
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-08-03 07:59 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump says talks with Iran start today, but Iran flatly denies it's negotiating at all.
@@ -50,7 +51,3 @@ Sources: [Euronews](http://www.euronews.com/2026/08/03/second-tanker-with-qatari
 </details>
 
 **What to watch:** Whether Israel responds to Hamas's disarmament offer, and whether Iran shows up to talks it says don't exist.
-
----
-
-*Generated on 2026-08-03 using claude-sonnet-4-5*

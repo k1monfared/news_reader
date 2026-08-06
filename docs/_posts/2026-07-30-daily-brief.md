@@ -5,6 +5,7 @@ date: 2026-07-30
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-30 07:25 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US just hit dozens of military targets across Iran in a two-hour operation last night, killing at least three people including a toddler, and Iran's Revolutionary Guards are promising to retaliate "today."
@@ -81,7 +82,3 @@ Sources: [Euronews](http://www.euronews.com/business/2026/07/30/bank-of-england-
 </details>
 
 **What to watch:** Iran promised retaliation "today" for the US strikes, so we could see another round of attacks on American forces or assets within hours.
-
----
-
-*Generated on 2026-07-30 using claude-sonnet-4-5*

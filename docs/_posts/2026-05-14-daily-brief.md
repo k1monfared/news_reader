@@ -5,6 +5,7 @@ date: 2026-05-14
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-14 07:35 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Lebanon and Israel are sitting down for a third round of talks in Washington today, just days before their ceasefire expires—and Israel just ramped up strikes that killed twelve people.
@@ -92,7 +93,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/14/japanese-snacks-g
 </details>
 
 **What to watch:** The ceasefire expires in days, Iran's peace ultimatum is on the table, and Israel keeps striking Lebanon even as negotiators talk—something's got to give.
-
----
-
-*Generated on 2026-05-14 using claude-sonnet-4-5*

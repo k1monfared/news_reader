@@ -5,6 +5,7 @@ date: 2026-04-21
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-21 07:05 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The two-week US-Iran ceasefire is about to expire, and both countries just signaled they'll meet for talks in Pakistan—even as Trump accuses Iran of violating the truce and the US seizes Iranian ships.
@@ -92,7 +93,3 @@ Sources: [Euronews](http://www.euronews.com/2026/04/21/iran-hangs-man-accused-of
 </details>
 
 **What to watch:** Whether Iran actually shows up in Islamabad and what happens when the ceasefire officially expires—both sides say they're ready to fight if talks fail.
-
----
-
-*Generated on 2026-04-21 using claude-sonnet-4-5*

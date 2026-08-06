@@ -5,6 +5,7 @@ date: 2026-02-26
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 00:24 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran are back at the negotiating table in Geneva, trying to hash out a nuclear deal while military tensions stay sky-high.
@@ -61,7 +62,3 @@ Sources: [Euronews (Italian)](https://it.euronews.com/2026/02/26/la-portaerei-us
 </details>
 
 **What to watch:** Whether the Geneva session produces any concrete commitments on sanctions relief and nuclear dismantlement, or if this is just going through the motions before military options get more serious.
-
----
-
-*Generated on 2026-02-26 using claude-sonnet-4-5*

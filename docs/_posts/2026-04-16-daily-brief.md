@@ -5,6 +5,7 @@ date: 2026-04-16
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-16 13:53 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump just announced Israel and Lebanon agreed to a 10-day ceasefire starting Thursday night at 21:00 GMT.
@@ -94,7 +95,3 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260415-jailed-ira
 </details>
 
 **What to watch:** The 10-day ceasefire clock starts Thursday night—whether it holds or falls apart will tell us if there's any real chance at broader de-escalation.
-
----
-
-*Generated on 2026-04-16 using claude-sonnet-4-5*

@@ -5,6 +5,7 @@ date: 2026-07-11
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-11 06:44 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran are trading threats after three consecutive nights of US strikes—Trump says 1,000 missiles are locked and loaded while Iran's new Supreme Leader vows revenge for his father's killing.
@@ -48,7 +49,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260711-live-trump-
 </details>
 
 **What to watch:** Whether Iran actually follows through on its threat to target Israel—that would turn a bilateral crisis into a regional war.
-
----
-
-*Generated on 2026-07-11 using claude-sonnet-4-5*

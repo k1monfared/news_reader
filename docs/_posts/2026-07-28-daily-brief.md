@@ -5,6 +5,7 @@ date: 2026-07-28
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-28 07:28 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump and Netanyahu are meeting at the White House today for the first time since the US launched its air war on Iran—a conflict Netanyahu reportedly pushed hard for and that's now become a huge problem for Trump.
@@ -43,7 +44,3 @@ Context: Millions of Iranians are weathering both the sanctions regime and now d
 Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/7/28/why-has-irans-economy-not-collapsed-under-us-war-pressure?traffic_source=rss)
 
 </details>
-
----
-
-*Generated on 2026-07-28 using claude-sonnet-4-5*

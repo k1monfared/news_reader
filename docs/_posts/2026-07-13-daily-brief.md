@@ -5,6 +5,7 @@ date: 2026-07-13
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-13 07:54 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran struck targets in three countries including two of its own southern islands, while Trump announced a 20% cargo fee for ships going through the Strait of Hormuz.
@@ -63,7 +64,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260713-israel-octo
 </details>
 
 **What to watch:** Whether ships actually start paying that 20% Hormuz fee and how quickly it hits oil prices.
-
----
-
-*Generated on 2026-07-13 using claude-sonnet-4-5*

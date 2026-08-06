@@ -5,6 +5,7 @@ date: 2026-06-10
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-10 08:58 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US bombed water facilities inside Iran after accusing Tehran of downing an Army helicopter, and Iran fired back at regional targets—the most direct US-Iran military exchange in years.
@@ -41,7 +42,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260610-netanyahu-w
 </details>
 
 **What to watch:** Whether Iran's promised retaliation triggers another round of US strikes, and whether this exchange kills the peace talks Trump claims were in "final stages."
-
----
-
-*Generated on 2026-06-10 using claude-sonnet-4-5*

@@ -5,6 +5,7 @@ date: 2026-03-27
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 02:22 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump just gave Iran another 10 days to reopen the Strait of Hormuz, pushing back his deadline on attacking their energy sector.
@@ -117,7 +118,3 @@ Sources: [Euronews](https://es.euronews.com/2026/03/27/ayuda-humanitaria-fertili
 </details>
 
 **What to watch:** Iran's deadline expires in 10 days—either they reopen the strait, Trump hits their energy sector, or there's a surprise diplomatic breakthrough. Rubio's claims of Iranian ceasefire signals suggest backchannels may be active.
-
----
-
-*Generated on 2026-03-27 using claude-sonnet-4-5*

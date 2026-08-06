@@ -20,7 +20,7 @@ def _date_from_run_dir(run_dir: str) -> str:
     return Path(run_dir).name[:10]
 
 
-def _build_frontmatter(config: PipelineConfig, run_dir: str) -> str:
+def _build_frontmatter(config: PipelineConfig, run_dir: str, models: list[str]) -> str:
     """Build Jekyll frontmatter for the final post."""
     date_str = _date_from_run_dir(run_dir)
     date_obj = datetime.strptime(date_str, "%Y-%m-%d")
@@ -44,6 +44,7 @@ def _build_frontmatter(config: PipelineConfig, run_dir: str) -> str:
         "categories: [daily-brief]\n"
         f"sources_down: {json.dumps(sources_down)}\n"
         f'generated_at: "{generated_at}"\n'
+        f"models_used: {json.dumps(models)}\n"
         "---\n\n"
     )
 
@@ -73,13 +74,6 @@ def _models_used(run_dir: str, config: PipelineConfig) -> list[str]:
     return models
 
 
-def build_model_footer(run_dir: str, config: PipelineConfig) -> str:
-    """Footer block recording when and with which model(s) the report was made."""
-    models = ", ".join(_models_used(run_dir, config))
-    date_str = _date_from_run_dir(run_dir)
-    return f"\n---\n\n*Generated on {date_str} using {models}*\n"
-
-
 def run_publish(
     run_dir: str,
     config: PipelineConfig,
@@ -100,8 +94,8 @@ def run_publish(
         return {"status": "failed", "reason": "no_report"}
 
     report_content = report_path.read_text()
-    frontmatter = _build_frontmatter(config, run_dir)
-    footer = build_model_footer(run_dir, config)
+    models = _models_used(run_dir, config)
+    frontmatter = _build_frontmatter(config, run_dir, models)
 
     # Determine post filename from run_id target date
     date_str = _date_from_run_dir(run_dir)
@@ -110,8 +104,8 @@ def run_publish(
     posts_dir.mkdir(parents=True, exist_ok=True)
     post_path = posts_dir / post_filename
 
-    # Write the post with frontmatter and model footer
-    post_path.write_text(frontmatter + report_content + footer)
+    # Write the post with frontmatter carrying the models used
+    post_path.write_text(frontmatter + report_content)
     logger.info(f"Wrote post to {post_path}")
 
     # When Farsi translation is enabled, defer git to the translate_fa stage

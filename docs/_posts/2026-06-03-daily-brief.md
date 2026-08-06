@@ -5,6 +5,7 @@ date: 2026-06-03
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-03 10:06 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran hit Kuwait's airport with drones, killing one person and injuring 63, while Secretary of State Rubio told Congress the war is over even as both sides keep trading fire.
@@ -41,7 +42,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/sports/2026/6/3/irans-world-cup-
 </details>
 
 **What to watch:** Whether the US and Iran can keep calling this a ceasefire when they're still shooting at each other—and whether Rubio's "war is over" line sticks.
-
----
-
-*Generated on 2026-06-03 using claude-sonnet-4-5*

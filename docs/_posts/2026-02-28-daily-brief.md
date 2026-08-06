@@ -5,6 +5,7 @@ date: 2026-02-28
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 00:38 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran's Supreme Leader Ayatollah Ali Khamenei is reportedly dead, according to statements from both Trump and Israeli officials, though Iran has not confirmed this claim.
@@ -21,7 +22,3 @@ Sources: [Reuters](https://jp.reuters.com/markets/commodities/XEDIDPMF5JOHPIEQ7I
 </details>
 
 **What to watch:** Whether Iran confirms or denies Khamenei's reported death and who might succeed him if confirmed.
-
----
-
-*Generated on 2026-02-28 using claude-sonnet-4-5*

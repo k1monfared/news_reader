@@ -5,6 +5,7 @@ date: 2026-04-30
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-30 07:18 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The Iranian rial collapsed to a record low as Trump tightens the US naval blockade—economic pressure is now hitting as hard as the military campaign.
@@ -90,7 +91,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260428-israel-dest
 </details>
 
 **What to watch:** Whether the "maritime freedom" coalition can actually reopen Hormuz—that would change the entire economic equation overnight.
-
----
-
-*Generated on 2026-04-30 using claude-sonnet-4-5*

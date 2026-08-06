@@ -5,6 +5,7 @@ date: 2026-03-04
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 01:04 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** A US submarine torpedoed an Iranian warship off Sri Lanka, killing at least 87 sailors—the first major naval loss in this war.
@@ -126,7 +127,3 @@ Sources: [Euronews](https://www.euronews.com/2026/03/04/uae-urges-the-us-israel-
 </details>
 
 **What to watch:** Congress votes today on authorizing continued military operations against Iran, and European countries are starting evacuations from Cyprus.
-
----
-
-*Generated on 2026-03-04 using claude-sonnet-4-5*

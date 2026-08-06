@@ -5,6 +5,7 @@ date: 2026-04-20
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-20 17:30 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran just backed out of the next round of talks with the US, even as Washington said it's sending negotiators to Pakistan on Monday.
@@ -43,7 +44,3 @@ Sources: [Euronews](http://www.euronews.com/business/2026/04/20/reignited-us-ira
 </details>
 
 **What to watch:** Whether the US goes ahead with sending negotiators to Pakistan even without Iran showing up, or if they cancel the whole thing.
-
----
-
-*Generated on 2026-04-20 using claude-sonnet-4-5*

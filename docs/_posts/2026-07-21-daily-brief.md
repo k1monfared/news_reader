@@ -5,6 +5,7 @@ date: 2026-07-21
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-21 07:13 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran hit Kuwait's desalination plants for the second time, and three US troops are now dead as the fighting enters its tenth straight day.
@@ -101,7 +102,3 @@ Sources: [Euronews](http://www.euronews.com/travel/2026/07/21/middle-east-flight
 </details>
 
 **What to watch:** Whether Iran follows through on those parliamentary threats to send ground forces into Kuwait or Bahrain—that would turn this into a completely different war.
-
----
-
-*Generated on 2026-07-21 using claude-sonnet-4-5*

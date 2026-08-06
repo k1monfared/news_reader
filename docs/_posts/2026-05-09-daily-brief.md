@@ -5,6 +5,7 @@ date: 2026-05-09
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-09 06:45 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran are trading fire in the Strait of Hormuz, with the UAE now joining in—Trump says the ceasefire still stands, but it's getting hard to tell.
@@ -88,7 +89,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/05/08/europes-airline
 </details>
 
 **What to watch:** Whether Iran responds to Trump's fourteen-point peace proposal, or whether the Strait of Hormuz exchanges spiral into something neither side can call a ceasefire anymore.
-
----
-
-*Generated on 2026-05-09 using claude-sonnet-4-5*

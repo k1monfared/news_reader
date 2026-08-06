@@ -5,6 +5,7 @@ date: 2026-03-05
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 00:27 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Tanker traffic through the Strait of Hormuz has ground to a halt for five straight days, choking off a huge chunk of the world's oil supply.
@@ -81,7 +82,3 @@ Sources: [Reuters](https://jp.reuters.com/world/us/HSZWNVRR25OLVI2KTSKQF2VPPY-20
 </details>
 
 **What to watch:** Whether Trump's promised "additional measures" to lower oil prices involve any real diplomacy with Iran, or just more pressure.
-
----
-
-*Generated on 2026-03-05 using claude-sonnet-4-5*

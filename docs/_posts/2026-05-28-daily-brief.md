@@ -5,6 +5,7 @@ date: 2026-05-28
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-28 09:21 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Israel just deployed ground troops and expanded its combat zone in southern Lebanon to include everything south of the Zahrani River, the biggest escalation since the April ceasefire fell apart.
@@ -117,7 +118,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260526-iran-partia
 </details>
 
 **What to watch:** Whether the US-Iran exchanges escalate further or if the Doha talks can somehow pull things back from the edge, especially now that Trump is threatening US allies.
-
----
-
-*Generated on 2026-05-28 using claude-sonnet-4-5*

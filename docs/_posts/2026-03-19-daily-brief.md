@@ -5,6 +5,7 @@ date: 2026-03-19
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 01:54 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran hit Qatar's biggest LNG facility and oil refineries across the Gulf, cutting 17% of global LNG capacity for up to five years and sending oil past $114 a barrel.
@@ -135,7 +136,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/strikes-kill-two-
 </details>
 
 **What to watch:** Whether Iran retaliates for the South Pars strike with more attacks on Gulf energy infrastructure, and how that affects the fragile US-Gulf relationship.
-
----
-
-*Generated on 2026-03-19 using claude-sonnet-4-5*

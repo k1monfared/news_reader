@@ -5,6 +5,7 @@ date: 2026-04-29
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-29 07:25 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The UN says Iran has executed 21 people and arrested over 4,000 since the war started, ramping up repression at home while fighting abroad.
@@ -90,7 +91,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260427-iraq-s-pres
 </details>
 
 **What to watch:** Whether NATO members face actual consequences for refusing to support US operations, and whether Iraq's untested prime minister-designate can actually form a government amid regional chaos.
-
----
-
-*Generated on 2026-04-29 using claude-sonnet-4-5*

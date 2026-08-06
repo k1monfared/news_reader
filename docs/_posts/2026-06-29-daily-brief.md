@@ -5,6 +5,7 @@ date: 2026-06-29
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-29 09:02 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump says he'll meet with Iran in Qatar on Tuesday, though Tehran hasn't confirmed it yet—and this is happening while the US and Iran are actively trading strikes.
@@ -50,7 +51,3 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260629-syria-slam
 </details>
 
 **What to watch:** Whether Iran actually shows up in Qatar on Tuesday, and whether anyone can keep this interim deal alive while strikes keep happening.
-
----
-
-*Generated on 2026-06-29 using claude-sonnet-4-5*

@@ -6,6 +6,7 @@ date: 2026-07-01
 date_fa: "۱۰ تیر ۱۴۰۵"
 sources_down: []
 generated_at: "2026-07-01 07:53 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 # گزارش اجرائی اطلاعاتی: درگیری ایران
@@ -28,7 +29,3 @@ generated_at: "2026-07-01 07:53 UTC-07:00"
 ## چشم‌انداز
 
 *تحولات ناکافی برای ارزیابی مسیر.*
-
----
-
-*Generated on 2026-07-01 using claude-sonnet-4-5*

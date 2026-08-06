@@ -5,6 +5,7 @@ date: 2026-06-06
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-06 07:03 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran fired ballistic missiles at Kuwait and Bahrain, hitting Kuwait's airport, while the US hit back at Iranian radar sites—the ceasefire is barely holding.
@@ -83,7 +84,3 @@ Sources: [Euronews](http://www.euronews.com/2026/06/06/fossil-fuel-imports-have-
 </details>
 
 **What to watch:** Whether Washington and Tehran can get talks back on track before the next missile exchange makes the ceasefire irrelevant.
-
----
-
-*Generated on 2026-06-06 using claude-sonnet-4-5*

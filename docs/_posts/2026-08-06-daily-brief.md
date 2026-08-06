@@ -5,6 +5,7 @@ date: 2026-08-06
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-08-06 12:51 UTC-07:00"
+models_used: ["deepseek-v4-flash-free"]
 ---
 
 **Key development:** Iran and Oman are basically done with a deal on shipping lanes in the Strait of Hormuz, and Trump says we could hear an announcement in days.
@@ -79,7 +80,3 @@ Sources: [Al Jazeera](https://aljazeera.com/video/newsfeed/2026/8/6/06-08-report
 </details>
 
 **What to watch:** Whether Trump gets the Hormuz deal signed and announced—if it does, the blockade could ease, but if Netanyahu's comments trigger a diplomatic break, we could see the ceasefire collapse completely.
-
----
-
-*Generated on 2026-08-06 using deepseek-v4-flash-free*

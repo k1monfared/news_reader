@@ -1,4 +1,4 @@
-"""Tests for the model footer appended to published posts."""
+"""Tests for the model attribution recorded in published post frontmatter."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from stages.publish import _models_used, build_model_footer
+from stages.publish import _models_used, _build_frontmatter
 
 
 class TestModelsUsed:
@@ -43,13 +43,24 @@ class TestModelsUsed:
         assert _models_used(str(run_dir), sample_config) == ["deepseek-v4-flash-free"]
 
 
-class TestBuildModelFooter:
-    def test_footer_format(self, tmp_path, sample_config):
-        """Footer renders the date and model line."""
+class TestBuildFrontmatter:
+    def test_frontmatter_records_models_used(self, tmp_path, sample_config):
+        """Frontmatter carries the models_used list for the Jekyll footer."""
         run_dir = tmp_path / "run" / "2026-08-06-080000"
         (run_dir / "audit").mkdir(parents=True)
         (run_dir / "audit" / "llm_calls.jsonl").write_text(
             json.dumps({"model": "deepseek-v4-flash-free"}) + "\n"
         )
-        footer = build_model_footer(str(run_dir), sample_config)
-        assert footer == "\n---\n\n*Generated on 2026-08-06 using deepseek-v4-flash-free*\n"
+        fm = _build_frontmatter(sample_config, str(run_dir), ["deepseek-v4-flash-free"])
+        assert 'models_used: ["deepseek-v4-flash-free"]' in fm
+
+    def test_frontmatter_multiple_models(self, tmp_path, sample_config):
+        """Multiple models serialize as a JSON array in frontmatter."""
+        run_dir = tmp_path / "run" / "2026-08-06-080000"
+        (run_dir / "audit").mkdir(parents=True)
+        fm = _build_frontmatter(
+            sample_config, str(run_dir), ["deepseek-v4-flash-free", "gemini-2.5-pro"]
+        )
+        assert (
+            'models_used: ["deepseek-v4-flash-free", "gemini-2.5-pro"]' in fm
+        )

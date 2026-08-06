@@ -5,6 +5,7 @@ date: 2026-04-07
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-07 06:52 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump's deadline for Iran to reopen the Strait of Hormuz expires tonight at 8pm ET, with the president threatening to destroy the country's bridges and power plants in what he calls "four hours" of strikes.
@@ -119,7 +120,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260406-iran-wartim
 </details>
 
 **What to watch:** Trump's 8pm ET deadline hits in a few hours—we'll see whether he follows through on the infrastructure strikes or if there's a last-minute deal.
-
----
-
-*Generated on 2026-04-07 using claude-sonnet-4-5*

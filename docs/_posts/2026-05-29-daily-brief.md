@@ -5,6 +5,7 @@ date: 2026-05-29
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-29 09:03 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** US and Iran negotiators agreed on a 60-day ceasefire extension deal, but Trump and Iran's Supreme Leader still need to sign off on it.
@@ -61,7 +62,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/05/29/the-german-vill
 </details>
 
 **What to watch:** Whether Trump and Khamenei actually approve the 60-day deal—without their sign-off, negotiators' agreement doesn't mean much.
-
----
-
-*Generated on 2026-05-29 using claude-sonnet-4-5*

@@ -5,6 +5,7 @@ date: 2026-06-22
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-22 10:12 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US just lifted Iran oil sanctions and the first round of talks in Switzerland wrapped up with both sides saying there's a real foundation for a deal—though they're already fighting over whether Iran actually agreed to nuclear inspections.
@@ -81,7 +82,3 @@ Sources: [France24](https://www.france24.com/en/israeli-strikes-start-again-in-l
 </details>
 
 **What to watch:** Whether technical talks in Switzerland this week produce any actual verifiable agreements, or if the nuclear inspections dispute kills momentum before negotiators can nail down the harder issues.
-
----
-
-*Generated on 2026-06-22 using claude-sonnet-4-5*

@@ -5,6 +5,7 @@ date: 2026-03-12
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 07:58 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran's new supreme leader threatened to attack US bases unless they close, while oil hit $100+ as Iranian strikes on commercial ships neutralized a massive IEA reserves release.
@@ -99,7 +100,3 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/12/fbi-warning-iranian-a
 </details>
 
 **What to watch:** Whether Iran actually follows through on blocking or significantly disrupting the Strait of Hormuz—Iran's UN ambassador denies they've mined the strait, while attacks on vessels continue to achieve similar economic impact without full closure.
-
----
-
-*Generated on 2026-03-12 using claude-sonnet-4-5*

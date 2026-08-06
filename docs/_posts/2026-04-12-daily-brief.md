@@ -5,6 +5,7 @@ date: 2026-04-12
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-12 06:20 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran met face-to-face for the first time since 1979, talked for 21 hours in Pakistan, and couldn't agree on terms to end the war.
@@ -117,7 +118,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/04/10/strait-of-hormu
 </details>
 
 **What to watch:** With talks collapsed and Trump announcing a blockade of the Strait, the ceasefire looks increasingly shaky—watch for whether either side breaks it in the next few days.
-
----
-
-*Generated on 2026-04-12 using claude-sonnet-4-5*

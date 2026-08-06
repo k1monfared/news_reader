@@ -5,6 +5,7 @@ date: 2026-07-09
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-09 08:29 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US hit about 90 Iranian military targets overnight, Iran fired back at US bases across the Gulf, and Jordan intercepted missiles in its airspace.
@@ -50,7 +51,3 @@ Sources: [France 24](https://www.france24.com/en/as-iran-buries-khamenei-it-shif
 </details>
 
 **What to watch:** Whether Trump makes good on his threat that things could get "much worse"—and whether Iran's strikes on Gulf states pull more countries into direct conflict.
-
----
-
-*Generated on 2026-07-09 using claude-sonnet-4-5*

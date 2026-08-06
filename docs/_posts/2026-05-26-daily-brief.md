@@ -5,6 +5,7 @@ date: 2026-05-26
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-26 09:02 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US struck Iranian missile sites and mine-laying boats during the ceasefire—the first American attacks on Iran since the truce started—even as both sides say they're close to a deal.
@@ -81,7 +82,3 @@ Sources: [France24](https://www.france24.com/en/fresh-strikes-test-fragile-israe
 </details>
 
 **What to watch:** Whether the overnight US strikes derail the 14-point framework Iran says it's finalizing in Qatar, or whether both sides ignore the attack and keep negotiating.
-
----
-
-*Generated on 2026-05-26 using claude-sonnet-4-5*

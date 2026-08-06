@@ -5,6 +5,7 @@ date: 2026-03-22
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 02:05 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump gave Iran 48 hours to reopen the Strait of Hormuz or he'll hit their power plants.
@@ -110,7 +111,3 @@ Sources: [Euronews Arabic](https://arabic.euronews.com/2026/03/22/switzerland-su
 </details>
 
 **What to watch:** Iran's 48-hour clock runs out Sunday evening—either the strait reopens or Trump has to decide whether to actually hit Iranian power plants.
-
----
-
-*Generated on 2026-03-22 using claude-sonnet-4-5*

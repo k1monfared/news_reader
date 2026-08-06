@@ -5,6 +5,7 @@ date: 2026-05-22
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-22 07:55 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran just published a map claiming jurisdiction over parts of UAE and Omani waters in the Strait of Hormuz—five Gulf states are already telling ships to ignore it.
@@ -63,7 +64,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/22/irans-enriched-ur
 </details>
 
 **What to watch:** How shipping companies respond to the competing claims over Strait waters—and whether anyone actually tests Iran's new boundaries.
-
----
-
-*Generated on 2026-05-22 using claude-sonnet-4-5*

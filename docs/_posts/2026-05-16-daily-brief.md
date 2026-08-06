@@ -5,6 +5,7 @@ date: 2026-05-16
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-16 06:50 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Israel and Lebanon just extended their shaky ceasefire for another 45 days, even as Israeli strikes continue in the south.
@@ -61,7 +62,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/16/us-charges-allege
 </details>
 
 **What to watch:** Whether the 45-day ceasefire extension actually holds and if Trump's openness to Iran talks leads anywhere concrete before his stated patience runs out.
-
----
-
-*Generated on 2026-05-16 using claude-sonnet-4-5*

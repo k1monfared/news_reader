@@ -5,6 +5,7 @@ date: 2026-05-27
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-27 09:05 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Israel killed at least 31 people in strikes across southern Lebanon and said it's ramping up ground operations despite having a ceasefire deal with Hezbollah.
@@ -52,7 +53,3 @@ Sources: [Euronews](http://www.euronews.com/business/2026/05/27/germany-signs-ma
 </details>
 
 **What to watch:** Whether Israel's escalation in Lebanon completely breaks the Hezbollah ceasefire or if Netanyahu is testing its boundaries.
-
----
-
-*Generated on 2026-05-27 using claude-sonnet-4-5*

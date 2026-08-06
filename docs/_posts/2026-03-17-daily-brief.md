@@ -5,6 +5,7 @@ date: 2026-03-17
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 08:07 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Joe Kent, the US director of counterterrorism, just resigned over the Iran war—saying there's no imminent terror threat that justifies it.
@@ -135,7 +136,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/17/gulf-economies
 </details>
 
 **What to watch:** Whether any European allies crack and agree to help Trump in Hormuz—and whether Israel's assassination claims about Larijani get confirmed or denied by Iran.
-
----
-
-*Generated on 2026-03-17 using claude-sonnet-4-5*

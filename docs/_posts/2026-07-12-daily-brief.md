@@ -5,6 +5,7 @@ date: 2026-07-12
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-12 06:55 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran launched a massive escalation by firing missiles at five Gulf countries and closing the Strait of Hormuz after the US conducted a second round of strikes—this is the widest regional attack yet in the conflict.
@@ -52,7 +53,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/12/former-emir-of-qa
 </details>
 
 **What to watch:** Oil prices when markets open—the Strait of Hormuz closure could send them sharply higher given the waterway carries 20% of global oil supply.
-
----
-
-*Generated on 2026-07-12 using claude-sonnet-4-5*

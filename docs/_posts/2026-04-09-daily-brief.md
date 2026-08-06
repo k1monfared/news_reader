@@ -5,6 +5,7 @@ date: 2026-04-09
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-09 07:04 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Israel hit central Beirut with massive strikes that killed at least 182 people on Wednesday, the deadliest day since fighting with Hezbollah began, throwing the brand-new US-Iran ceasefire into doubt.
@@ -101,7 +102,3 @@ Sources: [Euronews](http://www.euronews.com/2026/04/09/iran-rules-out-any-restri
 </details>
 
 **What to watch:** Friday's talks in Islamabad will show whether this ceasefire has any chance of becoming a real peace deal, or if it was just a two-week pause before things blow up again.
-
----
-
-*Generated on 2026-04-09 using claude-sonnet-4-5*

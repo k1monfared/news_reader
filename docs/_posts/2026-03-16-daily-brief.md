@@ -5,6 +5,7 @@ date: 2026-03-16
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 01:45 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump's pushing allies to help secure the Strait of Hormuz, but most of Europe is saying no thanks—even as Iran keeps firing missiles and drones at Gulf targets.
@@ -110,7 +111,3 @@ Sources: [Euronews](https://www.euronews.com/2026/03/16/still-no-mojtaba-iran-wa
 </details>
 
 **What to watch:** Whether any of those seven countries Trump called actually send ships to Hormuz, and whether Iran hits Dubai airport again.
-
----
-
-*Generated on 2026-03-16 using claude-sonnet-4-5*

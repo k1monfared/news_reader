@@ -5,6 +5,7 @@ date: 2026-06-15
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-15 10:27 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran just signed a peace deal ending over 100 days of war, with a formal ceremony scheduled for Friday in Geneva.
@@ -88,7 +89,3 @@ Sources: [France 24](https://www.france24.com/en/three-indian-crew-missing-as-us
 </details>
 
 **What to watch:** Whether Israel actually pulls back from the territories its defense minister says they're keeping indefinitely, and whether the Friday ceremony in Geneva happens without last-minute complications.
-
----
-
-*Generated on 2026-06-15 using claude-sonnet-4-5*

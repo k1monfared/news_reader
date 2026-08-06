@@ -5,6 +5,7 @@ date: 2026-07-08
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-08 07:34 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump declared the US-Iran ceasefire over after both sides traded strikes, and he's promising more attacks tonight.
@@ -63,7 +64,3 @@ Sources: [Euronews](http://www.euronews.com/business/2026/07/08/oil-spikes-and-e
 </details>
 
 **What to watch:** Whether Trump follows through on tonight's promised strikes against Iran and how Tehran responds.
-
----
-
-*Generated on 2026-07-08 using claude-sonnet-4-5*

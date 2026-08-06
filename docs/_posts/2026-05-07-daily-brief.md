@@ -5,6 +5,7 @@ date: 2026-05-07
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-07 07:39 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Israel just broke a month-long ceasefire and bombed Beirut's southern suburbs, killing a top Hezbollah commander.
@@ -90,7 +91,3 @@ Sources: [Euronews](http://www.euronews.com/2026/05/07/middle-east-war-will-slow
 </details>
 
 **What to watch:** Whether Iran's response to the US proposal matches the ceasefire signals or if the Beirut strike derails the whole negotiation.
-
----
-
-*Generated on 2026-05-07 using claude-sonnet-4-5*

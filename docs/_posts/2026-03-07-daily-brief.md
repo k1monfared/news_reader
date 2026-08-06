@@ -5,6 +5,7 @@ date: 2026-03-07
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 01:09 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Israel struck Tehran with about 80 jets overnight while a US official warned the "biggest bombing" is coming. Iran hit Gulf states including Dubai airport, while President Pezeshkian apologized but warned strikes will continue if attacks are launched from their territory.
@@ -108,7 +109,3 @@ Sources: [Euronews](# "link unavailable")
 </details>
 
 **What to watch:** Whether the US follows through on its "biggest bombing" threat against Tehran, and if Iran actually tries to stop shipping in the Strait of Hormuz.
-
----
-
-*Generated on 2026-03-07 using claude-sonnet-4-5*

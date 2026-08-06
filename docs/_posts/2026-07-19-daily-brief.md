@@ -5,6 +5,7 @@ date: 2026-07-19
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-19 06:43 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Two US soldiers were killed in an Iranian missile strike on a base in Jordan—the first American combat deaths in this conflict.
@@ -59,7 +60,3 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260718-khamenei-t
 </details>
 
 **What to watch:** How the US responds to its first combat deaths—Trump has signaled he wants to "shift action," which could mean expanding targets or changing strategy.
-
----
-
-*Generated on 2026-07-19 using claude-sonnet-4-5*

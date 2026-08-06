@@ -5,6 +5,7 @@ date: 2026-04-26
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-26 06:25 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump just canceled the peace talks with Iran that were supposed to happen in Pakistan, telling his envoys to stay home.
@@ -52,7 +53,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/04/24/judge-sets-tria
 </details>
 
 **What to watch:** Whether Iran picks up the phone after Trump's "call us anytime" dare, or if both sides just let the diplomatic window close.
-
----
-
-*Generated on 2026-04-26 using claude-sonnet-4-5*

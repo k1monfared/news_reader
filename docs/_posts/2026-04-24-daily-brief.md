@@ -5,6 +5,7 @@ date: 2026-04-24
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-24 07:01 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran's Foreign Minister is heading to Pakistan tonight to restart talks with the US after weeks of deadlock.
@@ -90,7 +91,3 @@ Sources: [France24](https://www.france24.com/en/israel-defense-minister-says-awa
 </details>
 
 **What to watch:** Whether senior US officials join Iran's Foreign Minister in Pakistan this weekend—that'll tell us if these talks have real momentum or if Iran is just showing up.
-
----
-
-*Generated on 2026-04-24 using claude-sonnet-4-5*

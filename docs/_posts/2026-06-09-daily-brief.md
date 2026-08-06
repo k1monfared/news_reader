@@ -5,6 +5,7 @@ date: 2026-06-09
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-09 08:24 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran fired missiles at Israel for the first time since April's ceasefire, Israel hit back at Iranian military sites, then both sides announced they're stopping—for now.
@@ -63,7 +64,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/06/09/eu-proposes-new
 </details>
 
 **What to watch:** Whether the Iran-Israel pause actually holds or if Hezbollah's continued strikes blow it up before Trump's promised peace deal materializes.
-
----
-
-*Generated on 2026-06-09 using claude-sonnet-4-5*

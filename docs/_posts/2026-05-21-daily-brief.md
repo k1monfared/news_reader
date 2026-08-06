@@ -5,6 +5,7 @@ date: 2026-05-21
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-21 08:47 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump says US-Iran talks are in their "final stages" as Pakistan shuttles a new American proposal to Tehran.
@@ -74,7 +75,3 @@ Sources: [AlJazeera](https://www.aljazeera.com/news/2026/5/21/how-chinese-irania
 </details>
 
 **What to watch:** Whether Trump's national security meeting leads to US military action against Iran, and whether Pakistan can close the diplomatic deal before that happens.
-
----
-
-*Generated on 2026-05-21 using claude-sonnet-4-5*

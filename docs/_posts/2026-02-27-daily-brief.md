@@ -5,6 +5,7 @@ date: 2026-02-27
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 00:24 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Oman's foreign minister met with US Secretary of State Vance today as tensions keep climbing across the Middle East.
@@ -21,7 +22,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/2/27/omans-foreign-min
 </details>
 
 **What to watch:** Whether Oman facilitates any direct or indirect talks between Washington and Tehran in the coming days.
-
----
-
-*Generated on 2026-02-27 using claude-sonnet-4-5*

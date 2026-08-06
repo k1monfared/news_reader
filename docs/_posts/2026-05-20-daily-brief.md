@@ -5,6 +5,7 @@ date: 2026-05-20
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-20 08:45 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump just threatened to hit Iran again within days if there's no deal, and Iran's already warning they'll open new fronts if he does.
@@ -52,7 +53,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/05/20/xi-tells-putin-
 </details>
 
 **What to watch:** Whether Trump follows through on his threat to strike Iran in the next few days, and whether Tehran actually opens new fronts or is bluffing.
-
----
-
-*Generated on 2026-05-20 using claude-sonnet-4-5*

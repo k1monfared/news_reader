@@ -5,6 +5,7 @@ date: 2026-06-05
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-05 08:23 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The UN confirmed that the US-Iran war is driving millions into food crisis as prices spike across multiple countries.
@@ -43,7 +44,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260603-months-afte
 </details>
 
 **What to watch:** Food prices will likely keep climbing as the war continues, potentially pushing the humanitarian crisis into new regions.
-
----
-
-*Generated on 2026-06-05 using claude-sonnet-4-5*

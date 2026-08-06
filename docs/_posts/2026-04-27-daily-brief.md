@@ -5,6 +5,7 @@ date: 2026-04-27
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-27 07:18 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran's parliament proposed legislation that would give Iran's military sole authority over the Strait of Hormuz and require all payments related to the waterway to be made in Iranian rials.
@@ -52,7 +53,3 @@ Sources: [France24](https://www.france24.com/en/mojtaba-khamenei-remains-out-of-
 </details>
 
 **What to watch:** Whether Iran actually passes the Hormuz bill—requiring rial-denominated payments would be a major provocation that could trigger additional sanctions or military escalation.
-
----
-
-*Generated on 2026-04-27 using claude-sonnet-4-5*

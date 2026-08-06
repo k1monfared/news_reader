@@ -5,6 +5,7 @@ date: 2026-06-17
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-17 08:58 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US-Iran peace deal that Pakistan announced yesterday now faces its first major obstacle—Iran says Israel has to pull out of Lebanon, and Israel's already said no.
@@ -90,7 +91,3 @@ Sources: [France24](https://www.france24.com/en/video/20260617-trump-doesn-t-rul
 </details>
 
 **What to watch:** Whether Israel's rejection of the Lebanon withdrawal condition kills the deal before Friday's signing ceremony, or if negotiators find a workaround.
-
----
-
-*Generated on 2026-06-17 using claude-sonnet-4-5*

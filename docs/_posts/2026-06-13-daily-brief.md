@@ -5,6 +5,7 @@ date: 2026-06-13
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-13 07:19 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran both say they've agreed on a final peace deal text, but Iran says it won't be signed Sunday as expected because Washington is dragging its feet.
@@ -81,7 +82,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/06/12/everything-you-
 </details>
 
 **What to watch:** Whether the US and Iran can actually get this deal signed in the next few days, or if the hesitation Iran is citing turns into another round of escalation.
-
----
-
-*Generated on 2026-06-13 using claude-sonnet-4-5*

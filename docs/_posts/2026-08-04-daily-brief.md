@@ -5,6 +5,7 @@ date: 2026-08-04
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-08-04 07:33 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump and Netanyahu agreed to pause strikes on Iran if a deal comes together fast, but Iran says there's no such agreement.
@@ -52,7 +53,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260804-how-israel-
 </details>
 
 **What to watch:** Whether Iran actually comes to the table now that Trump and Netanyahu have publicly committed to a conditional pause—or whether Tehran's denial means the bombing restarts.
-
----
-
-*Generated on 2026-08-04 using claude-sonnet-4-5*

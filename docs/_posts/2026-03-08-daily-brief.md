@@ -5,6 +5,7 @@ date: 2026-03-08
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 01:15 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran just named Mojtaba Khamenei, the son of the leader killed by Israel, as the new Supreme Leader while the war hits day nine.
@@ -110,7 +111,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/8/no-popular-support
 </details>
 
 **What to watch:** Whether Mojtaba Khamenei signals any willingness to negotiate or pursues retaliation, which will indicate if this war has a diplomatic endgame or further escalation ahead.
-
----
-
-*Generated on 2026-03-08 using claude-sonnet-4-5*

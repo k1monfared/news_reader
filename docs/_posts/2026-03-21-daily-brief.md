@@ -5,6 +5,7 @@ date: 2026-03-21
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 02:02 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran hit Israel's Dimona nuclear facility area with missiles, injuring at least 40 people, after the US and Israel struck Iran's Natanz uranium enrichment plant.
@@ -110,7 +111,3 @@ Sources: [Euronews Spanish](https://es.euronews.com/2026/03/21/suiza-frena-envio
 </details>
 
 **What to watch:** Whether Trump actually moves forward with ground operations in Iran, and how long Israel and Iran can trade strikes on nuclear sites before something catastrophic happens.
-
----
-
-*Generated on 2026-03-21 using claude-sonnet-4-5*

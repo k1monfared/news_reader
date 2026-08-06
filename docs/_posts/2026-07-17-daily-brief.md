@@ -5,6 +5,7 @@ date: 2026-07-17
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-17 06:57 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** US strikes hit bridges and infrastructure around Tehran for the first time, while Iran fired back at American bases in Jordan and Bahrain—this is day three of direct military exchanges.
@@ -77,7 +78,3 @@ Sources: [Euronews](http://www.euronews.com/2026/07/17/eu-bolsters-red-sea-missi
 </details>
 
 **What to watch:** Whether Iran makes good on the reported threat to have Houthis close Bab el-Mandeb, which would effectively shut down both ends of the Middle East's shipping routes.
-
----
-
-*Generated on 2026-07-17 using claude-sonnet-4-5*

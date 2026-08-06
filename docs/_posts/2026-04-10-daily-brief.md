@@ -5,6 +5,7 @@ date: 2026-04-10
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-10 06:32 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran's ceasefire is already falling apart—Israel kept bombing Lebanon yesterday killing over 180 people, and both sides are now arguing over whether Lebanon was even part of the deal.
@@ -110,7 +111,3 @@ Sources: [France24](https://www.france24.com/en/iran-portraying-ceasefire-as-vic
 </details>
 
 **What to watch:** The Pakistan talks this weekend—if they fail or if Israel keeps hitting Lebanon hard, this ceasefire might not make it past its first week.
-
----
-
-*Generated on 2026-04-10 using claude-sonnet-4-5*

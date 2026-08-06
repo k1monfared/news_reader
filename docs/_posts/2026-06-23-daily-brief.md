@@ -5,6 +5,7 @@ date: 2026-06-23
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-23 08:20 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran wrapped up talks in Switzerland with concrete deals—$12 billion in frozen Iranian assets released, agreement on a Lebanon ceasefire, and lifting oil sanctions—though Iran claims the main negotiator was Mohammad Ghalibaf while the US says it concluded with specific terms. Separately, Iran refused UN nuclear inspectors access to bombed sites, contradicting US statements about inspection agreements.
@@ -65,7 +66,3 @@ Sources: [France 24](https://www.france24.com/en/lebanon-damage-estimated-at-1-3
 </details>
 
 **What to watch:** Whether Gulf states actually agree to bankroll Iran's reconstruction after being excluded from US military planning, and whether the conflicting US-Iran accounts of the Switzerland agreement signal deeper problems ahead.
-
----
-
-*Generated on 2026-06-23 using claude-sonnet-4-5*

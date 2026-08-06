@@ -5,6 +5,7 @@ date: 2026-03-11
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 01:29 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US destroyed Iranian mine-laying vessels in the Strait of Hormuz (reports vary between 16 and 28 vessels) as Iran fires missiles at Gulf states and commercial ships, threatening to block all oil exports.
@@ -222,7 +223,3 @@ Sources: [Euronews (AR)](https://arabic.euronews.com/2026/03/11/tehran-was-not-s
 </details>
 
 **What to watch:** Whether Iran can actually shut down Hormuz or if the US naval presence keeps traffic moving—that's the difference between high oil prices and a global economic crisis. Also watch for any ground troop deployments, which would mark major escalation.
-
----
-
-*Generated on 2026-03-11 using claude-sonnet-4-5*

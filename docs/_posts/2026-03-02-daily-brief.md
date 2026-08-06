@@ -5,6 +5,7 @@ date: 2026-03-02
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 00:49 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran's death toll hit 555 as the US and Israel kept up their bombing campaign, while Iran fired back at oil facilities across the Gulf and struck a British base in Cyprus.
@@ -108,7 +109,3 @@ Sources: [Reuters](https://jp.reuters.com/world/security/C6NSB4RB55P2ZFCJVEWJYO6
 </details>
 
 **What to watch:** Whether Iran can actually close the Strait of Hormuz—about 20% of global oil passes through there, and any sustained closure would trigger a full energy crisis.
-
----
-
-*Generated on 2026-03-02 using claude-sonnet-4-5*

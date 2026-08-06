@@ -5,6 +5,7 @@ date: 2026-06-02
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-02 09:51 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump announced a ceasefire between Israel and Hezbollah, but Israel killed 8 people in Lebanon hours later and both sides kept fighting.
@@ -61,7 +62,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/2/how-the-war-has-ma
 </details>
 
 **What to watch:** Whether the UN Security Council meeting Monday produces any actual pressure on Israel to halt its Lebanon offensive, or if it's just another round of statements. Also whether the Trump-announced Israel-Hezbollah agreement gains any traction after immediate violations by both sides.
-
----
-
-*Generated on 2026-06-02 using claude-sonnet-4-5*

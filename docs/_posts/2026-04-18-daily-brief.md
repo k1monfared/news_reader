@@ -5,6 +5,7 @@ date: 2026-04-18
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-20 17:22 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Two cruise ships made it through the blockaded Strait of Hormuz and are heading back to Europe—first commercial vessels to get through since the US sealed it off last week.
@@ -63,7 +64,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/20/woman-charged-in-
 </details>
 
 **What to watch:** Whether more commercial shipping can transit the Strait of Hormuz, and if the Egypt-Italy route becomes a permanent workaround.
-
----
-
-*Generated on 2026-04-18 using claude-sonnet-4-5*

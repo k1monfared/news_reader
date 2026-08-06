@@ -5,6 +5,7 @@ date: 2026-05-08
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-08 07:10 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran exchanged fire in the Strait of Hormuz late Thursday night, with both sides accusing each other of shooting first and violating the ceasefire that has technically been in place since April 8.
@@ -99,7 +100,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260505-can-pakista
 </details>
 
 **What to watch:** Whether the Strait of Hormuz stays open after Thursday's shootout, and if Trump can keep calling this a ceasefire with a straight face.
-
----
-
-*Generated on 2026-05-08 using claude-sonnet-4-5*

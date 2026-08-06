@@ -5,6 +5,7 @@ date: 2026-04-25
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-25 06:25 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump's sending envoys to Pakistan tomorrow to meet Iran's foreign minister, who just landed in Islamabad, setting up the first concrete talks since the ceasefire started.
@@ -72,7 +73,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/04/24/eu-leaders-vow-
 </details>
 
 **What to watch:** Whether Iran and the US envoys actually end up in the same room in Islamabad, or if Pakistan just shuttles messages between them.
-
----
-
-*Generated on 2026-04-25 using claude-sonnet-4-5*

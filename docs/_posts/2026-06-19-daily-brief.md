@@ -5,6 +5,7 @@ date: 2026-06-19
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-19 08:39 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US-Iran peace deal that Trump signed at Versailles fell apart within 24 hours—talks scheduled for today in Switzerland were cancelled and fighting in Lebanon killed at least 24 people.
@@ -52,7 +53,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260617-middle-east
 </details>
 
 **What to watch:** Whether the ceasefire between Israel and Hezbollah actually holds, or if the collapse of US-Iran talks means the broader deal is already dead.
-
----
-
-*Generated on 2026-06-19 using claude-sonnet-4-5*

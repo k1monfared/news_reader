@@ -5,6 +5,7 @@ date: 2026-06-14
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-14 07:23 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump says the US-Iran peace deal could be signed as early as Sunday and would reopen the Strait of Hormuz, but Tehran's pushing back on that timeline.
@@ -68,7 +69,3 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260610-us-iran-ai
 </details>
 
 **What to watch:** Whether Israel's Beirut strikes tank the peace deal before it can be signed, and whether Iran makes good on its promise to respond to US strikes.
-
----
-
-*Generated on 2026-06-14 using claude-sonnet-4-5*

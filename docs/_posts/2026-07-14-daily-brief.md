@@ -5,6 +5,7 @@ date: 2026-07-14
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-14 07:05 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran are now hitting each other's critical infrastructure—Trump's blockading Iranian ports and charging transit fees through Hormuz, while Iran's firing at US bases in the Gulf and commercial ships in the strait.
@@ -97,7 +98,3 @@ Sources: [Euronews](http://www.euronews.com/2026/07/14/we-will-deal-with-it-trum
 </details>
 
 **What to watch:** Whether ships actually start paying Trump's Hormuz transit fees and how Iran responds if they do—plus whether that Cuba weapons claim turns out to be real.
-
----
-
-*Generated on 2026-07-14 using claude-sonnet-4-5*

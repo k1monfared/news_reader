@@ -5,6 +5,7 @@ date: 2026-07-18
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-18 06:40 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran accuses the US of striking critical infrastructure for a seventh consecutive night, with both Al Jazeera and France24 reporting the attacks cut water access to southern villages. Meanwhile, the EU is considering expanding its Red Sea naval mission as Houthi threats intensify.
@@ -52,7 +53,3 @@ Sources: [Euronews](http://www.euronews.com/2026/07/17/eu-bolsters-red-sea-missi
 </details>
 
 **What to watch:** Whether Iran retaliates for the infrastructure strikes that cut water to southern villages, and whether the October 27 Israeli elections proceed as scheduled if the conflict escalates further.
-
----
-
-*Generated on 2026-07-18 using claude-sonnet-4-5*

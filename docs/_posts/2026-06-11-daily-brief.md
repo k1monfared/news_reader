@@ -5,6 +5,7 @@ date: 2026-06-11
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-11 09:19 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump said the US will seize Iran's Kharg Island and other oil facilities after striking the country "very hard," moving from targeted strikes to threatening territorial control.
@@ -61,7 +62,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/06/11/eurogroup-chief
 </details>
 
 **What to watch:** Whether the US actually moves to occupy Iranian oil facilities or if this is negotiating pressure, and how Iran responds to the threat.
-
----
-
-*Generated on 2026-06-11 using claude-sonnet-4-5*

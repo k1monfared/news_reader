@@ -5,6 +5,7 @@ date: 2026-05-04
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-04 07:26 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran claims it fired missiles at a US Navy destroyer trying to enter the Strait of Hormuz, marking the first direct attack on US forces there since Trump launched Project Freedom. The US flatly denies the incident occurred.
@@ -101,7 +102,3 @@ Sources: [Euronews](http://www.euronews.com/2026/05/04/tehran-regime-executes-th
 </details>
 
 **What to watch:** Whether the US provides evidence to support or refute Iran's claim about the missile strike—and whether American warships actually make it into the Strait of Hormuz under Project Freedom.
-
----
-
-*Generated on 2026-05-04 using claude-sonnet-4-5*

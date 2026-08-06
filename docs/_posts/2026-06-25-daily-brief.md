@@ -5,6 +5,7 @@ date: 2026-06-25
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-25 07:49 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Oil just fell back to where it was before the war started—lowest price since late February.
@@ -50,7 +51,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/25/iran-negotiator-g
 </details>
 
 **What to watch:** Whether any ships actually try to use Oman's corridor now that Iran has explicitly warned them off.
-
----
-
-*Generated on 2026-06-25 using claude-sonnet-4-5*

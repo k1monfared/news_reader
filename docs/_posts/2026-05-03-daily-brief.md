@@ -5,6 +5,7 @@ date: 2026-05-03
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-03 06:30 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran sent Trump a 14-point proposal to end the war and he's actually reviewing it—first time either side has put specifics on the table.
@@ -72,7 +73,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/3/israel-approves-pu
 </details>
 
 **What to watch:** Whether Trump counters Iran's 14-point proposal with specifics of his own, or just rejects it outright like the last one.
-
----
-
-*Generated on 2026-05-03 using claude-sonnet-4-5*

@@ -5,6 +5,7 @@ date: 2026-05-18
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-18 08:53 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran just set up an actual government body to manage the Strait of Hormuz and charge ships for passage—moving from threats to a real bureaucracy.
@@ -88,7 +89,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/18/israel-built-two-
 </details>
 
 **What to watch:** Whether any ships actually try to use Iran's new Hormuz transit system—and what happens if they don't.
-
----
-
-*Generated on 2026-05-18 using claude-sonnet-4-5*

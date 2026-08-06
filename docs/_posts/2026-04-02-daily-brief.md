@@ -5,6 +5,7 @@ date: 2026-04-02
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-02 08:12 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump's threatening to bomb Iran "back to the Stone Ages" while European allies are pushing back hard on US military operations—Macron just told him to "be serious."
@@ -114,7 +115,3 @@ Sources: [France24](https://www.france24.com/en/video/20260401-us-journalist-she
 </details>
 
 **What to watch:** Whether Gulf states can convince Trump to keep fighting until Iran is "decisively defeated"—Saudi Arabia and the UAE are reportedly pushing hard behind the scenes.
-
----
-
-*Generated on 2026-04-02 using claude-sonnet-4-5*

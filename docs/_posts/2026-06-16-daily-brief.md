@@ -5,6 +5,7 @@ date: 2026-06-16
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-16 10:13 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran signed a peace deal to end the Middle East war, but Israel immediately said it's staying put in Lebanon, Gaza, and Syria anyway.
@@ -63,7 +64,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/features/2026/6/16/lebanese-rush
 </details>
 
 **What to watch:** Friday's Geneva ceremony will show whether this deal actually holds or falls apart over the Israel occupation issue and Strait of Hormuz fee dispute.
-
----
-
-*Generated on 2026-06-16 using claude-sonnet-4-5*

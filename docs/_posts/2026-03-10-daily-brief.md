@@ -5,6 +5,7 @@ date: 2026-03-10
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 01:23 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump says the war with Iran will be over "very soon" and warned Tehran to keep oil flowing, while Iran fired more missiles at Gulf states and threatened to deploy advanced weapons.
@@ -153,7 +154,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/10/australia-to-send
 </details>
 
 **What to watch:** Whether Iran actually deploys those more powerful missiles they're threatening, and whether any more tankers try to run the Strait of Hormuz gauntlet.
-
----
-
-*Generated on 2026-03-10 using claude-sonnet-4-5*

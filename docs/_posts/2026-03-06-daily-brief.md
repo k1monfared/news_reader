@@ -5,6 +5,7 @@ date: 2026-03-06
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 00:30 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US says it's sunk more than 30 Iranian ships and Trump's demanding unconditional surrender as airstrikes pound Tehran at what monitors call a record pace.
@@ -108,7 +109,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/5/israel-cancels-fri
 </details>
 
 **What to watch:** Whether Iran actually can sustain this level of missile and drone attacks—and whether Qatar's "within weeks" energy export warning becomes reality.
-
----
-
-*Generated on 2026-03-06 using claude-sonnet-4-5*

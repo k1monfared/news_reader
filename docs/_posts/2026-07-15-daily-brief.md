@@ -5,6 +5,7 @@ date: 2026-07-15
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-15 07:01 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US is now running daylight strikes on Iran and Trump just threatened to hit their power plants and bridges next week if they don't negotiate.
@@ -81,7 +82,3 @@ Sources: [Euronews](http://www.euronews.com/2026/07/15/iran-executes-man-over-ja
 </details>
 
 **What to watch:** Whether Iran actually follows through on closing the Bab el-Mandeb—and whether Trump makes good on his threat to hit infrastructure next week if there's no deal.
-
----
-
-*Generated on 2026-07-15 using claude-sonnet-4-5*

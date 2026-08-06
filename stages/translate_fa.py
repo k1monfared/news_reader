@@ -19,7 +19,6 @@ from models import PipelineConfig
 from llm_client import AuditedLLMClient, extract_json
 from audit_logger import AuditedHTTPClient
 from prompt_loader import load_prompt
-from stages.publish import build_model_footer
 
 logger = logging.getLogger(__name__)
 
@@ -76,6 +75,7 @@ def _build_fa_frontmatter(
     fa_title: str,
     generated_at: str | None,
     sources_down: list[str],
+    models_used: list[str],
 ) -> str:
     lines = [
         "---",
@@ -88,6 +88,8 @@ def _build_fa_frontmatter(
     ]
     if generated_at:
         lines.append(f'generated_at: "{generated_at}"')
+    if models_used:
+        lines.append(f"models_used: {json.dumps(models_used)}")
     lines.append("---")
     lines.append("")
     return "\n".join(lines) + "\n"
@@ -287,18 +289,10 @@ def run_translate_fa(
     raw_post = en_post_path.read_text(encoding="utf-8")
     frontmatter, body = _split_frontmatter(raw_post)
 
-    # Remove the model footer from the English body before translation so it
-    # is not translated/mangled; it is re-appended below for the Farsi post.
-    body = re.sub(r"\n---\n\n\*Generated on [^*]*\*\s*$", "", body).rstrip() + "\n"
-
     # Translate the brief body to Farsi.
     category_translations = tfa.get("category_translations", {})
     logger.info("Translating English brief body to Farsi...")
     fa_body = _translate_brief(body, category_translations, llm_client, config)
-
-    # Append the model footer to the Farsi post as well.
-    footer = build_model_footer(run_dir, config)
-    fa_body = fa_body.rstrip() + footer
 
     # Build Farsi frontmatter.
     fa_date_str = _shamsi_date(date_str)
@@ -309,12 +303,19 @@ def run_translate_fa(
             sources_down = json.loads(frontmatter["sources_down"])
         except json.JSONDecodeError:
             sources_down = []
+    models_used: list[str] = []
+    if "models_used" in frontmatter:
+        try:
+            models_used = json.loads(frontmatter["models_used"])
+        except json.JSONDecodeError:
+            models_used = []
     fa_fm = _build_fa_frontmatter(
         date_str=date_str,
         fa_date_str=fa_date_str,
         fa_title=fa_title,
         generated_at=frontmatter.get("generated_at"),
         sources_down=sources_down,
+        models_used=models_used,
     )
 
     # Write the Farsi post.

@@ -5,6 +5,7 @@ date: 2026-06-27
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-27 07:01 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran traded actual strikes for the first time in months—US hit Iranian missile storage sites, Iran fired back at US bases and shipping.
@@ -79,7 +80,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/27/us-iran-trade-str
 </details>
 
 **What to watch:** Whether the US and Iran can pull back from this exchange or if the strikes kill the peace talks entirely.
-
----
-
-*Generated on 2026-06-27 using claude-sonnet-4-5*

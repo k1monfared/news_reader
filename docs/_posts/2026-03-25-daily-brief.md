@@ -5,6 +5,7 @@ date: 2026-03-25
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 02:17 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump says he's negotiating with Iran to end the war, but Iran's foreign minister says there are no talks happening.
@@ -119,7 +120,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/25/iranian-attacks-a
 </details>
 
 **What to watch:** Whether Iran actually responds formally to the US proposal through Pakistan, or if the gap between Trump's and Iran's accounts of what's happening keeps widening.
-
----
-
-*Generated on 2026-03-25 using claude-sonnet-4-5*

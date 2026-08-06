@@ -5,6 +5,7 @@ date: 2026-03-01
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 00:43 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran's Supreme Leader Ali Khamenei was killed in a joint US-Israeli strike, and Iran's already hitting back with missiles across the Gulf.
@@ -119,7 +120,3 @@ Sources: [Euronews](https://www.euronews.com/2026/03/01/we-will-hit-them-with-a-
 </details>
 
 **What to watch:** Whether Iran's new Supreme Leader takes a more aggressive stance or tries to de-escalate, and whether the Strait of Hormuz stays shut.
-
----
-
-*Generated on 2026-03-01 using claude-sonnet-4-5*

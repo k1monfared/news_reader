@@ -5,6 +5,7 @@ date: 2026-07-25
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-25 06:53 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran are actually talking again after Trump said talks were off, and US strikes paused for the first time in two weeks.
@@ -81,7 +82,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260725-guterres-ar
 </details>
 
 **What to watch:** Whether the US-Iran talks produce any concrete de-escalation or if the Saudi-Houthi fight becomes its own separate conflict.
-
----
-
-*Generated on 2026-07-25 using claude-sonnet-4-5*

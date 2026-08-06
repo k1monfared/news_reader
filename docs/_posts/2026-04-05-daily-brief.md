@@ -5,6 +5,7 @@ date: 2026-04-05
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-05 06:17 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US just pulled off a rescue mission deep inside Iran and got the second pilot from that F-15 shootdown—Trump's calling it "miraculous."
@@ -110,7 +111,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/04/05/zelenskyy-warns
 </details>
 
 **What to watch:** Trump's 48-hour ultimatum appears to be expiring today with no deal—watch for whether he follows through on threats to hit Iranian civilian infrastructure.
-
----
-
-*Generated on 2026-04-05 using claude-sonnet-4-5*

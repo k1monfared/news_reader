@@ -5,6 +5,7 @@ date: 2026-05-02
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-02 06:31 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump publicly rejected Iran's latest peace proposal, saying it includes demands he "can't agree to," threatening to derail the fragile diplomatic process.
@@ -72,7 +73,3 @@ Sources: [Euronews](http://www.euronews.com/2026/05/01/iran-executes-21-year-old
 </details>
 
 **What to watch:** Whether Trump and Iran can find any common ground before the ceasefire unravels completely, and whether Congress will actually challenge Trump on the War Powers deadline.
-
----
-
-*Generated on 2026-05-02 using claude-sonnet-4-5*

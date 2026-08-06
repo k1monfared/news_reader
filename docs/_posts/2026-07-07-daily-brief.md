@@ -5,6 +5,7 @@ date: 2026-07-07
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-07 07:55 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Three oil tankers were struck in the Strait of Hormuz—a sharp escalation from threats to actual attacks on the chokepoint for a fifth of the world's oil.
@@ -41,7 +42,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260707-oil-tanker-
 </details>
 
 **What to watch:** Oil prices when markets open, and whether Iran claims responsibility for the tanker attacks—which will determine how quickly this escalates.
-
----
-
-*Generated on 2026-07-07 using claude-sonnet-4-5*

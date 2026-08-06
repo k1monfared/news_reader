@@ -5,6 +5,7 @@ date: 2026-07-23
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-23 07:26 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US signed a nuclear deal with Saudi Arabia that lets them enrich uranium, and Trump said it's contingent on Saudi Arabia normalizing relations with Israel.
@@ -110,7 +111,3 @@ Sources: [Euronews](http://www.euronews.com/video/2026/07/23/nato-will-defend-bu
 </details>
 
 **What to watch:** Whether Trump's nuclear-deal-for-normalization gambit with Saudi Arabia actually moves forward, and if Iran escalates further after the latest US threats.
-
----
-
-*Generated on 2026-07-23 using claude-sonnet-4-5*

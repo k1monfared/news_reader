@@ -5,6 +5,7 @@ date: 2026-06-21
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-21 07:29 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** VP Vance arrived in Switzerland on Saturday and called the US-Iran talks "historic" as both delegations sit down in Burgenstock. Tehran says no final deal without stopping the Israel-Lebanon fighting.
@@ -41,7 +42,3 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260620-israeli-st
 </details>
 
 **What to watch:** Whether Israel and Hezbollah can maintain a ceasefire long enough for the diplomats to make progress in Switzerland and Washington this week.
-
----
-
-*Generated on 2026-06-21 using claude-sonnet-4-5*

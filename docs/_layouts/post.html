@@ -34,9 +34,14 @@ layout: default
     {{ content }}
   </div>
 
-  {% if page.generated_at %}
+  {% if page.generated_at or page.models_used %}
   <footer class="post-footer">
+    {% if page.generated_at %}
     <span class="post-generated">{{ t.post_generated }} {{ page.generated_at }}</span>
+    {% endif %}
+    {% if page.models_used %}
+    <span class="post-generated">{{ t.post_model }} {{ page.models_used | join: ", " }}</span>
+    {% endif %}
   </footer>
   {% endif %}
 

@@ -5,6 +5,7 @@ date: 2026-07-06
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-06 08:52 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Hamas just dissolved the governing body that's run Gaza since 2007 and is handing day-to-day control to a technocratic committee.
@@ -74,7 +75,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/07/06/nato-leaders-to
 </details>
 
 **What to watch:** Whether Mojtaba Khamenei emerges publicly soon and what that signals about his consolidation of power in Tehran.
-
----
-
-*Generated on 2026-07-06 using claude-sonnet-4-5*

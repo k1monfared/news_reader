@@ -5,6 +5,7 @@ date: 2026-04-04
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-04 06:15 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** A US F-15 was shot down over Iran—the first American jet lost in this war—and one crew member is still missing while Iranian and US forces race to find them.
@@ -108,7 +109,3 @@ Sources: [France 24](https://www.france24.com/en/macron-says-unrealistic-open-ho
 </details>
 
 **What to watch:** Whether Iranian or US forces find the missing F-15 crew member first—and what Iran does with the pilot if they get there before rescue teams arrive.
-
----
-
-*Generated on 2026-04-04 using claude-sonnet-4-5*

@@ -5,6 +5,7 @@ date: 2026-07-16
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-16 07:13 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran's new Supreme Leader publicly vowed to avenge his father's death after Trump threatened to "decimate" Iran if it tries to kill him.
@@ -74,7 +75,3 @@ Sources: [Euronews](http://www.euronews.com/2026/07/16/solar-saved-europe-3bn-in
 </details>
 
 **What to watch:** Whether mediators can salvage the ceasefire deal now that both leaders are publicly threatening each other.
-
----
-
-*Generated on 2026-07-16 using claude-sonnet-4-5*

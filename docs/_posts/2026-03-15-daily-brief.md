@@ -5,6 +5,7 @@ date: 2026-03-15
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 01:38 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US-Israel conflict with Iran hit day 16 with Iran launching strikes on Gulf states and Israel, while Trump says conditions for a deal with Iran "aren't good enough yet."
@@ -99,7 +100,3 @@ Sources: [Euronews Russian](https://ru.euronews.com/2026/03/15/donald-tramp-uslo
 </details>
 
 **What to watch:** Whether Iran follows through on threats to close Hormuz, and whether Trump's "conditions" comment means serious ceasefire talks are actually underway.
-
----
-
-*Generated on 2026-03-15 using claude-sonnet-4-5*

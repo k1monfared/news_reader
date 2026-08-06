@@ -1,16 +1,24 @@
-"""One-time backfill: stamp every published daily brief with the model footer.
+"""Backfill: migrate the model footer into frontmatter for every published post.
 
-Adds the ``*Generated on <date> using <model>*`` footer to every English post
-in ``docs/_posts`` and every Farsi post in ``docs/_fa_posts`` that does not
-already carry the current footer format.
+The ``*Generated on <date> using <model>*`` body footer was stamped into the
+end of every English post in ``docs/_posts`` and every Farsi post in
+``docs/_fa_posts``. This script moves the attribution out of the body and into
+the YAML frontmatter ``models_used`` field, where the Jekyll ``post.html``
+layout renders it inside the real ``post-footer`` element.
 
-Model attribution (in priority order):
-    1. The actual model(s) from the matching local run's
-       ``audit/llm_calls.jsonl`` when a local run dir exists for that date.
-    2. Otherwise the date-based fallback: posts before the OpenCode Zen
-       migration (2026-08-06) are stamped ``claude-sonnet-4-5`` (matches
-       all local audit logs); posts on or after that date are stamped
-       ``deepseek-v4-flash-free``.
+For each post it:
+    1. Removes any ``*Model: ...*`` or ``*Generated on ... using ...*`` body
+       footer (legacy or current format).
+    2. Records ``models_used`` in frontmatter, preferring (in priority order):
+         a. The model(s) already listed in the post's body footer.
+         b. The actual model(s) from the matching local run's
+            ``audit/llm_calls.jsonl`` when a local run dir exists.
+         c. Otherwise the date-based fallback: posts before the OpenCode Zen
+            migration (2026-08-06) are stamped ``claude-sonnet-4-5`` (matches
+            all local audit logs); posts on or after that date are stamped
+            ``deepseek-v4-flash-free``.
+    3. Posts that already carry ``models_used`` in frontmatter and no body
+       footer are left untouched (idempotent).
 
 Usage:
     python scripts/backfill_footers.py [--dry-run]
@@ -42,11 +50,48 @@ POSTS_DIRS = [
 ]
 RUNS_DIR = ROOT / "data" / "runs"
 
-# Matches either the old footer format or the current one at end of file.
-FOOTER_RE = re.compile(r"\n---\n\n\*(?:Model: [^*]*|Generated on [^*]*)\*\s*$")
+# Matches the body footer (old or current format) at end of file.
+FOOTER_RE = re.compile(r"\n---\n\n\*(?:Model: ([^*]*)|Generated on [^*]* using ([^*]*))\*\s*$")
 
 # Normalized (non-normalized path like docs/_posts) post filename pattern.
 POST_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})-daily-brief\.md$")
+
+
+def _frontmatter_part(markdown: str) -> tuple[str, str]:
+    """Return (frontmatter_text_without_delimiters, rest_of_file)."""
+    if not markdown.startswith("---"):
+        return "", markdown
+    end = markdown.find("\n---", 3)
+    if end == -1:
+        return "", markdown
+    return markdown[3:end].strip(), markdown[end:]
+
+
+def _frontmatter_models(frontmatter: str) -> list[str] | None:
+    """Return models_used from frontmatter text, or None if absent/invalid."""
+    for line in frontmatter.splitlines():
+        if not line.startswith("models_used:"):
+            continue
+        raw = line.partition(":")[2].strip()
+        try:
+            models = json.loads(raw)
+        except json.JSONDecodeError:
+            return None
+        if isinstance(models, list) and models:
+            return models
+        return None
+    return None
+
+
+def _set_frontmatter_models(frontmatter: str, models: list[str]) -> str:
+    """Return frontmatter text with models_used set (replacing any existing)."""
+    lines = [
+        line
+        for line in frontmatter.splitlines()
+        if not line.startswith("models_used:")
+    ]
+    lines.append(f"models_used: {json.dumps(models)}")
+    return "\n".join(lines)
 
 
 def models_from_run(date_str: str) -> list[str] | None:
@@ -86,7 +131,7 @@ def model_fallback(date_str: str) -> list[str]:
 
 
 def models_for_date(date_str: str) -> list[str]:
-    """Resolve the model list for a date: audit first, date fallback second."""
+    """Resolve the model list for a date: run audit first, date fallback second."""
     models = models_from_run(date_str)
     if models is None:
         models = model_fallback(date_str)
@@ -94,7 +139,7 @@ def models_for_date(date_str: str) -> list[str]:
 
 
 def backfill_posts(dry_run: bool) -> tuple[int, int]:
-    """Stamp every post with the model footer. Returns (changed, unchanged)."""
+    """Migrate body footers into frontmatter. Returns (changed, unchanged)."""
     changed = 0
     unchanged = 0
     for posts_dir in POSTS_DIRS:
@@ -106,13 +151,30 @@ def backfill_posts(dry_run: bool) -> tuple[int, int]:
             if not match:
                 continue
             date_str = match.group(1)
-            models = models_for_date(date_str)
-            model_list = ", ".join(models)
-            footer = f"\n---\n\n*Generated on {date_str} using {model_list}*\n"
-
             content = post_path.read_text(encoding="utf-8")
-            body = FOOTER_RE.sub("", content).rstrip() + "\n"
-            updated = body + footer
+
+            # Strip the body footer (any format) off the end of the file first,
+            # then split frontmatter from the clean body.
+            body_no_footer = FOOTER_RE.sub("", content).rstrip() + "\n"
+            fm, rest = _frontmatter_part(body_no_footer)
+            existing_models = _frontmatter_models(fm) if fm else None
+
+            # Model attribution: body footer first, then run audit, then fallback.
+            footer_match = FOOTER_RE.search(content)
+            if footer_match:
+                raw_models = footer_match.group(1) or footer_match.group(2) or ""
+                models = [m.strip() for m in raw_models.split(",") if m.strip()]
+            elif existing_models:
+                models = existing_models
+            else:
+                models = models_for_date(date_str)
+
+            if fm:
+                new_fm = _set_frontmatter_models(fm, models)
+                # Rebuild: "---" + frontmatter + "\n---\n\n" + body
+                updated = "---\n" + new_fm + rest
+            else:
+                updated = body_no_footer
 
             if updated == content:
                 unchanged += 1
@@ -121,17 +183,17 @@ def backfill_posts(dry_run: bool) -> tuple[int, int]:
             changed += 1
             if dry_run:
                 logger.info(
-                    f"[dry-run] would update {post_path.name}: {model_list}"
+                    f"[dry-run] would update {post_path.name}: {', '.join(models)}"
                 )
             else:
                 post_path.write_text(updated, encoding="utf-8")
-                logger.info(f"Updated {post_path.name}: {model_list}")
+                logger.info(f"Updated {post_path.name}: {', '.join(models)}")
     return changed, unchanged
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Stamp every post with the model footer."
+        description="Migrate the model footer from post bodies into frontmatter."
     )
     parser.add_argument(
         "--dry-run",

@@ -5,6 +5,7 @@ date: 2026-07-02
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-02 07:23 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US-Iran talks in Doha wrapped up with both sides agreeing to set up a hotline by Thursday to report violations of their ceasefire deal.
@@ -63,7 +64,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260701-why-france-
 </details>
 
 **What to watch:** What direction Iran takes after Khamenei's funeral wraps up July 9, and whether the new US-Iran hotline actually helps keep the fragile ceasefire intact.
-
----
-
-*Generated on 2026-07-02 using claude-sonnet-4-5*

@@ -5,6 +5,7 @@ date: 2026-06-12
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-12 08:35 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump says a deal with Iran could be signed in Europe this weekend, but then called leaked ceasefire terms "fake news" and blasted Iranian officials as "very dishonorable."
@@ -83,7 +84,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/12/iraq-analysis-mil
 </details>
 
 **What to watch:** Whether that Europe deal-signing actually happens this weekend, or if the public spat between Trump and Tehran—and Iran's denial they've reached any final decision—tanks the whole thing.
-
----
-
-*Generated on 2026-06-12 using claude-sonnet-4-5*

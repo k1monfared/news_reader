@@ -5,6 +5,7 @@ date: 2026-05-30
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-30 06:59 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Israeli troops crossed the Litani river in Lebanon for the first time, pushing well beyond the UN-monitored zone even as Iran peace talks stall in Washington.
@@ -61,7 +62,3 @@ Sources: [Euronews](http://www.euronews.com/2026/05/30/clean-energy-saved-eu-51-
 </details>
 
 **What to watch:** Whether Trump signs the Iran deal this weekend or walks away and lets the ceasefire collapse.
-
----
-
-*Generated on 2026-05-30 using claude-sonnet-4-5*

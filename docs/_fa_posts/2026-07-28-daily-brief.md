@@ -6,6 +6,7 @@ date: 2026-07-28
 date_fa: "۶ مرداد ۱۴۰۵"
 sources_down: []
 generated_at: "2026-07-28 07:28 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **مهم‌ترین تحول:** ترامپ و نتانیاهو امروز برای اولین بار از زمان شروع جنگ هوایی آمریکا علیه ایران در کاخ سفید با یکدیگر ملاقات می‌کنند—درگیری‌ای که گزارش شده نتانیاهو به‌شدت برای آن فشار آورد و اکنون به مشکل بزرگی برای ترامپ تبدیل شده است.
@@ -44,7 +45,3 @@ generated_at: "2026-07-28 07:28 UTC-07:00"
 منابع: [Al Jazeera](https://www.aljazeera.com/economy/2026/7/28/why-has-irans-economy-not-collapsed-under-us-war-pressure?traffic_source=rss)
 
 </details>
-
----
-
-*Generated on 2026-07-28 using claude-sonnet-4-5*

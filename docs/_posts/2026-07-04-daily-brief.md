@@ -5,6 +5,7 @@ date: 2026-07-04
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-04 06:52 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran buried Ayatollah Khamenei today with hundreds of thousands of mourners packing the streets of Tehran, marking the start of six days of ceremonies for the supreme leader killed in a US-Israeli strike.
@@ -52,7 +53,3 @@ Sources: [Euronews](http://www.euronews.com/2026/07/03/iran-fm-confirms-reports-
 </details>
 
 **What to watch:** Iran will choose Khamenei's successor in the coming weeks, which could reshape the entire region depending on whether hardliners or pragmatists win out.
-
----
-
-*Generated on 2026-07-04 using claude-sonnet-4-5*

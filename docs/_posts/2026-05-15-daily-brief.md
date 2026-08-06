@@ -5,6 +5,7 @@ date: 2026-05-15
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-15 07:28 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** China offered to help open the Strait of Hormuz and pledged not to arm Iran, but Trump's Beijing summit otherwise flopped on the big issues.
@@ -90,7 +91,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260514-iran-econom
 </details>
 
 **What to watch:** Whether Iraq's new prime minister can actually follow through on disarming Iran-backed groups without getting overthrown.
-
----
-
-*Generated on 2026-05-15 using claude-sonnet-4-5*

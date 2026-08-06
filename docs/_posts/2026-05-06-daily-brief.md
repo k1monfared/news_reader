@@ -5,6 +5,7 @@ date: 2026-05-06
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-06 07:40 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump paused the US naval escort mission in the Strait of Hormuz just two days after launching it, saying he wants to reach a peace deal with Iran.
@@ -88,7 +89,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260505-iran-nobel-
 </details>
 
 **What to watch:** Whether Trump and Iran can actually turn this pause into a lasting deal, or if the ceasefire collapses like previous ones have.
-
----
-
-*Generated on 2026-05-06 using claude-sonnet-4-5*

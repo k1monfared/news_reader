@@ -5,6 +5,7 @@ date: 2026-07-29
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-29 07:29 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Saudi Arabia launched joint air strikes on Iran-aligned militias in Iraq, opening a new front in the conflict—though Trump says Iraq's government approved the strikes, Iraq calls them a "blatant violation" and canceled a meeting with Saudi Crown Prince MBS.
@@ -103,7 +104,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/sports/2026/7/29/f1-season-to-en
 </details>
 
 **What to watch:** Whether the US resumes bombing Iran or sticks with the pause while Britain tries to pull together that naval coalition for the Strait of Hormuz.
-
----
-
-*Generated on 2026-07-29 using claude-sonnet-4-5*

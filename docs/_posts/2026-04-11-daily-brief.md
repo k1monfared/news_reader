@@ -5,6 +5,7 @@ date: 2026-04-11
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-11 06:18 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** VP JD Vance landed in Islamabad to start direct talks with Iran—the highest-level US-Iran meeting since 1979.
@@ -110,7 +111,3 @@ Sources: [Euronews](http://www.euronews.com/2026/04/10/ukrainians-shot-down-iran
 </details>
 
 **What to watch:** Whether Iran actually shows up to negotiate in good faith or uses the Lebanon dispute to walk away from the table.
-
----
-
-*Generated on 2026-04-11 using claude-sonnet-4-5*

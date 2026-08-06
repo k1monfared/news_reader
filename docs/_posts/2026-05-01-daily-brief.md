@@ -5,6 +5,7 @@ date: 2026-05-01
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-01 06:47 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The War Powers Resolution deadline hits Friday—60 days since Trump told Congress about the Iran war—and the White House is claiming the ceasefire means they don't need congressional approval anymore.
@@ -92,7 +93,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/1/commercial-flights
 </details>
 
 **What to watch:** Friday's War Powers deadline and whether Congress actually does anything about it—or if the White House just ignores them.
-
----
-
-*Generated on 2026-05-01 using claude-sonnet-4-5*

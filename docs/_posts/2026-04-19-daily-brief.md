@@ -5,6 +5,7 @@ date: 2026-04-19
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-20 17:26 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump said he won't lift the naval blockade on Iran until there's a peace deal, and Iran just backed out of the talks that were supposed to happen tomorrow.
@@ -43,7 +44,3 @@ Sources: [Euronews](http://www.euronews.com/travel/2026/04/20/foreign-airlines-t
 </details>
 
 **What to watch:** Whether the US and Iran will agree to reschedule talks or if the diplomatic freeze hardens into something longer-term.
-
----
-
-*Generated on 2026-04-19 using claude-sonnet-4-5*

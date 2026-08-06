@@ -5,6 +5,7 @@ date: 2026-03-30
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 08:32 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Oil hit $116 a barrel as Iran fired missiles at Israel and threatened to "set fire" to US troops if there's a ground invasion.
@@ -101,7 +102,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/30/trump-wants-to-in
 </details>
 
 **What to watch:** Whether Trump's "deal could come soon" talk is real diplomacy or cover for an escalation—and whether Iran's ground invasion warnings are a bluff or a red line that will trigger wider conflict if crossed.
-
----
-
-*Generated on 2026-03-30 using claude-sonnet-4-5*

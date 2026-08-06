@@ -5,6 +5,7 @@ date: 2026-03-24
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 02:12 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump claimed Iran made "major concessions" about talks, but Tehran immediately denied any negotiations are happening while launching fresh missile strikes on Israel.
@@ -130,7 +131,3 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/24/german-president-war-
 </details>
 
 **What to watch:** Whether any actual negotiations are happening behind Trump's public claims, and if oil prices stabilize or keep climbing as shipping routes stay disrupted.
-
----
-
-*Generated on 2026-03-24 using claude-sonnet-4-5*

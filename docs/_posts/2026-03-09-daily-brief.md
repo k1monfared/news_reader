@@ -5,6 +5,7 @@ date: 2026-03-09
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 08:52 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Oil hit $119 a barrel after Iran attacked energy infrastructure across the Gulf, triggering the biggest price spike in 40 years.
@@ -146,7 +147,3 @@ Sources: [Reuters](https://jp.reuters.com/world/us/TVJ7SYWDEJN3NIBIANNE3KEKCA-20
 </details>
 
 **What to watch:** Whether the G7 actually releases oil reserves, and whether Saudi Arabia follows through on its threat to retaliate against Iran.
-
----
-
-*Generated on 2026-03-09 using claude-sonnet-4-5*

@@ -5,6 +5,7 @@ date: 2026-07-31
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-31 07:27 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Hamas agreed to disarm in Gaza under a Trump-backed deal, but Israel hasn't officially responded yet.
@@ -63,7 +64,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/07/31/cyprus-44-year-
 </details>
 
 **What to watch:** Whether Israel actually confirms the Hamas disarmament deal or if this becomes another announcement that goes nowhere.
-
----
-
-*Generated on 2026-07-31 using claude-sonnet-4-5*

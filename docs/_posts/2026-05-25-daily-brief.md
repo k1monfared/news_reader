@@ -5,6 +5,7 @@ date: 2026-05-25
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-25 08:24 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump says the US is not rushing to sign an Iran deal, reversing yesterday's optimism, while linking any agreement to expanding the Abraham Accords—a new condition that complicates negotiations.
@@ -54,7 +55,3 @@ Sources: [Euronews](http://www.euronews.com/2026/05/25/iran-executes-two-over-pr
 </details>
 
 **What to watch:** Whether Iran walks away from talks entirely now that Trump has added the Abraham Accords condition and backed off the urgency to conclude a deal.
-
----
-
-*Generated on 2026-05-25 using claude-sonnet-4-5*

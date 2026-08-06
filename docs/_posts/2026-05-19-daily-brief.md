@@ -5,6 +5,7 @@ date: 2026-05-19
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-19 08:44 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump called off a planned strike on Iran set for Tuesday, saying Gulf allies asked him to hold off while negotiations play out.
@@ -76,7 +77,3 @@ Sources: [Euronews](http://www.euronews.com/2026/05/19/iranian-tv-teaches-viewer
 </details>
 
 **What to watch:** Whether these negotiations produce any concrete sanctions relief or if Trump's "hold" on the strike is just buying time before military action resumes.
-
----
-
-*Generated on 2026-05-19 using claude-sonnet-4-5*

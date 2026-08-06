@@ -5,6 +5,7 @@ date: 2026-06-26
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-26 07:42 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Hezbollah's leader just put a red line on the Lebanon talks—Israel has to leave unconditionally, no diplomatic recognition, no concessions.
@@ -61,7 +62,3 @@ Sources: [Euronews](http://www.euronews.com/video/2026/06/26/lebanon-thousands-m
 </details>
 
 **What to watch:** Whether the Hormuz evacuation resumes and what conditions Iran sets for it—that's the chokepoint for the global economy right now.
-
----
-
-*Generated on 2026-06-26 using claude-sonnet-4-5*

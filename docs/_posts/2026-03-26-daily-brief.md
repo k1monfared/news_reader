@@ -5,6 +5,7 @@ date: 2026-03-26
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 08:27 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump pushed back his deadline for strikes on Iran's power grid to April 6, even as Tehran rejected his ceasefire plan outright.
@@ -119,7 +120,3 @@ Sources: [Euronews](https://www.euronews.com/my-europe/2026/03/26/us-drones-awai
 </details>
 
 **What to watch:** April 6 is the new deadline—if Iran doesn't budge and the strait stays closed, Trump says he'll hit their power grid.
-
----
-
-*Generated on 2026-03-26 using claude-sonnet-4-5*

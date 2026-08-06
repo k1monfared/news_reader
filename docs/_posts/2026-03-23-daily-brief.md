@@ -5,6 +5,7 @@ date: 2026-03-23
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 08:21 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump postponed his threatened strikes on Iran's power plants for five days, saying the US is making "major progress" in talks—but Iran flatly denies any negotiations are happening.
@@ -128,7 +129,3 @@ Sources: [Reuters](https://jp.reuters.com/markets/commodities/OLA5GS34FZN4JOODQ3
 </details>
 
 **What to watch:** Trump's five-day delay expires this weekend, and Iran is holding firm that it won't back down—if those dueling positions don't shift, we're right back to the brink by Friday.
-
----
-
-*Generated on 2026-03-23 using claude-sonnet-4-5*

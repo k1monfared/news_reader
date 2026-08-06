@@ -5,6 +5,7 @@ date: 2026-04-06
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-06 06:30 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US pulled off a risky rescue deep inside Iran to recover a downed pilot, while Trump threatened to hit Iranian power plants and civilian infrastructure if the Strait of Hormuz stays closed past Tuesday night.
@@ -110,7 +111,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/6/yemens-civilians-f
 </details>
 
 **What to watch:** Trump's Tuesday 8pm ET deadline for Iran to reopen the Strait of Hormuz—if it passes without a deal, he's threatened strikes on Iranian civilian infrastructure including power plants.
-
----
-
-*Generated on 2026-04-06 using claude-sonnet-4-5*

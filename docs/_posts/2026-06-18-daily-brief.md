@@ -5,6 +5,7 @@ date: 2026-06-18
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-18 08:46 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump and Iran's president just signed a peace deal to end the war—60 days to work out the details, including Iran diluting its uranium in exchange for sanctions relief and a massive reconstruction fund.
@@ -61,7 +62,3 @@ Sources: [Euronews](http://www.euronews.com/2026/06/18/israel-says-one-soldier-k
 </details>
 
 **What to watch:** Whether Netanyahu actually pulls troops from Lebanon in the next 60 days—or if this peace deal falls apart before it even gets to the permanent stage.
-
----
-
-*Generated on 2026-06-18 using claude-sonnet-4-5*

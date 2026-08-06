@@ -5,6 +5,7 @@ date: 2026-05-13
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-13 07:55 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump just landed in Beijing for his first face-to-face with Xi Jinping since 2017, with the Iran war and trade tensions topping the agenda.
@@ -61,7 +62,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/opinions/2026/5/13/why-trump-dec
 </details>
 
 **What to watch:** Whether Trump and Xi announce any joint position on the Iran conflict—or if China uses this moment to extract trade concessions while the US needs diplomatic help.
-
----
-
-*Generated on 2026-05-13 using claude-sonnet-4-5*

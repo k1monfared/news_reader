@@ -5,6 +5,7 @@ date: 2026-03-03
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 00:57 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** France is evacuating citizens from the Middle East and sending its nuclear carrier to the Mediterranean as European countries rush air defenses to Cyprus after Iranian drone strikes hit the British base there.
@@ -112,7 +113,3 @@ Sources: [Reuters](https://jp.reuters.com/world/us/EGJ7DKMG7ZJLJCXDMV7R7ZWNR4-20
 </details>
 
 **What to watch:** Whether any Gulf state actually retaliates against Iran, and whether European air defenses can protect Cyprus if Iran decides to strike again.
-
----
-
-*Generated on 2026-03-03 using claude-sonnet-4-5*

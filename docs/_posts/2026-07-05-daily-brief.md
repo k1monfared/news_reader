@@ -5,6 +5,7 @@ date: 2026-07-05
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-05 06:57 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran just announced the Doha talks with the US are over, even as Trump claims his team made progress on denuclearization.
@@ -43,7 +44,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/5/irans-china-envoy-
 </details>
 
 **What to watch:** Whether Iran actually starts collecting those Hormuz transit fees and how the US responds when the first ship gets billed.
-
----
-
-*Generated on 2026-07-05 using claude-sonnet-4-5*

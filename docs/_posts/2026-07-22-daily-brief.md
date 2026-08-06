@@ -5,6 +5,7 @@ date: 2026-07-22
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-22 07:16 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump publicly said the US will hit Iran's Pickaxe Mountain nuclear facility "pretty soon," naming a specific target for the first time.
@@ -90,7 +91,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/07/22/iran-warns-bulg
 </details>
 
 **What to watch:** Whether Trump actually follows through on the Pickaxe Mountain strike and how quickly—he's already named the target publicly, which is unusual.
-
----
-
-*Generated on 2026-07-22 using claude-sonnet-4-5*

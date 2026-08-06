@@ -5,6 +5,7 @@ date: 2026-03-28
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-29 23:05 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran hit a US air base in Saudi Arabia—wounded about a dozen American troops and damaged refueling planes.
@@ -139,7 +140,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260329-pakistan-of
 </details>
 
 **What to watch:** Whether Iran actually tries to hit the USS Abraham Lincoln when it gets in range—that would be a massive escalation.
-
----
-
-*Generated on 2026-03-28 using claude-sonnet-4-5*

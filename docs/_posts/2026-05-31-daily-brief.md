@@ -5,6 +5,7 @@ date: 2026-05-31
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-31 07:05 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Israel just captured Beaufort Castle in Lebanon and says troops are staying put—it's their deepest push into Lebanon in over 25 years.
@@ -72,7 +73,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/05/30/eu-expands-sanc
 </details>
 
 **What to watch:** Whether Iran formally responds to Trump's tougher deal terms or uses the alleged ceasefire violation as an excuse to abandon talks entirely.
-
----
-
-*Generated on 2026-05-31 using claude-sonnet-4-5*

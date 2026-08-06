@@ -5,6 +5,7 @@ date: 2026-04-17
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-20 17:16 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US Navy fired on and seized an Iranian cargo ship attempting to bypass the blockade, marking the first time the US has enforced its blockade with force. Iran threatened to retaliate and withdrew from peace talks scheduled for Monday in Islamabad.
@@ -99,7 +100,3 @@ Sources: [Euronews](http://www.euronews.com/2026/04/20/turkey-rallies-global-mid
 </details>
 
 **What to watch:** Whether the US delegation shows up in Islamabad Monday even though Iran's a no-show, and if Iran follows through on its retaliation threats for the seized ship.
-
----
-
-*Generated on 2026-04-17 using claude-sonnet-4-5*

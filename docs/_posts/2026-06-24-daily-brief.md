@@ -5,6 +5,7 @@ date: 2026-06-24
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-24 07:51 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran kicked off a new round of talks in Switzerland with 60 days to nail down details on Iran's nuclear program, but Israel's already throwing a wrench in things by refusing to pull out of southern Lebanon.
@@ -90,7 +91,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/06/24/rutte-meets-tru
 </details>
 
 **What to watch:** Whether the contradiction between Israel's negotiators discussing territorial transfers in Washington and Defence Minister Katz's flat refusal to withdraw blows up the US-Iran talks before the 60-day deadline.
-
----
-
-*Generated on 2026-06-24 using claude-sonnet-4-5*

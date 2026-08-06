@@ -5,6 +5,7 @@ date: 2026-06-20
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-20 07:23 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran re-closed the Strait of Hormuz on Saturday after briefly reopening it, citing Israeli strikes on Lebanon as a breach of their agreement with the US.
@@ -54,7 +55,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/sports/2026/6/20/what-the-us-ira
 </details>
 
 **What to watch:** Whether the Strait of Hormuz closure derails the Geneva implementation talks scheduled for this week, and if the Lebanon ceasefire violations will further strain the broader US-Iran agreement.
-
----
-
-*Generated on 2026-06-20 using claude-sonnet-4-5*

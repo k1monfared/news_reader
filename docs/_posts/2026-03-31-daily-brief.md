@@ -5,6 +5,7 @@ date: 2026-03-31
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-31 08:40 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran fired missiles at Dubai and hit a Kuwaiti oil tanker while the US struck targets near Iranian nuclear facilities—the war just escalated into the Gulf.
@@ -130,7 +131,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/31/italy-d
 </details>
 
 **What to watch:** Whether Trump actually moves on Kharg Island in the next few days, and if the Houthis make good on their threat to block Bab al-Mandab.
-
----
-
-*Generated on 2026-03-31 using claude-sonnet-4-5*

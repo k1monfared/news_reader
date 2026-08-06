@@ -5,6 +5,7 @@ date: 2026-05-17
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-17 06:49 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** A drone hit a nuclear power plant in Abu Dhabi and started a fire outside the facility—no injuries or radiation leaks, but that's a major escalation in targeting.
@@ -41,7 +42,3 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260514-lebanon-and
 </details>
 
 **What to watch:** Whether the Israel-Lebanon ceasefire actually gets extended past Sunday, and whether anyone claims responsibility for the UAE nuclear plant attack.
-
----
-
-*Generated on 2026-05-17 using claude-sonnet-4-5*

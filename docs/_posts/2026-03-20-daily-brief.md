@@ -5,6 +5,7 @@ date: 2026-03-20
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 01:59 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US-Israel war on Iran hit day 21 with both sides trading strikes, oil prices jumping globally, and Iran threatening to escalate if its energy infrastructure gets targeted.
@@ -162,7 +163,3 @@ Sources: [Euronews ES](https://es.euronews.com/2026/03/20/iran-ahorca-joven-camp
 </details>
 
 **What to watch:** Whether Israel or the US actually go after Iranian energy infrastructure directly, which Tehran has said would trigger a major escalation.
-
----
-
-*Generated on 2026-03-20 using claude-sonnet-4-5*

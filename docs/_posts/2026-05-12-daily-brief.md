@@ -5,6 +5,7 @@ date: 2026-05-12
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-12 07:45 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Israel apparently ran a secret military base inside Iraq during the war with Iran and used it to launch attacks.
@@ -92,7 +93,3 @@ Sources: [Euronews](http://www.euronews.com/2026/05/12/a-weakened-trump-to-test-
 </details>
 
 **What to watch:** Whether the Strait of Hormuz shooting turns into sustained combat or just another ceasefire violation that both sides walk back.
-
----
-
-*Generated on 2026-05-12 using claude-sonnet-4-5*

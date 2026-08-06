@@ -5,6 +5,7 @@ date: 2026-03-29
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-29 23:32 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Iran's threatening to "set US troops on fire" as the conflict hits the five-week mark, while the Strait of Hormuz is getting seriously clogged with backed-up ships.
@@ -32,7 +33,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/30/canadia
 </details>
 
 **What to watch:** Whether Iran follows through on its threats against US forces and how long it takes to clear the Hormuz bottleneck.
-
----
-
-*Generated on 2026-03-29 using claude-sonnet-4-5*

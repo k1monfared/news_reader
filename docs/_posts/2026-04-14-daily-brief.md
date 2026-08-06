@@ -5,6 +5,7 @@ date: 2026-04-14
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-14 07:07 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US started blocking the Strait of Hormuz after Iran talks failed, but the first day turned into a cautious standoff with a few ships sneaking through.
@@ -110,7 +111,3 @@ Sources: [France 24](https://www.france24.com/en/israel-army-says-hit-over-200-h
 </details>
 
 **What to watch:** Whether Trump actually follows through on sinking Iranian ships if they test the blockade, or if this turns into a slower game of chicken with both sides trying not to blow up the ceasefire completely.
-
----
-
-*Generated on 2026-04-14 using claude-sonnet-4-5*

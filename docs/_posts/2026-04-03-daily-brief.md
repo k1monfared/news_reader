@@ -5,6 +5,7 @@ date: 2026-04-03
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-03 06:24 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** US and Israeli strikes destroyed Iran's tallest bridge near Tehran, killing at least 8 civilians—part of what appears to be a shift toward hitting non-military targets.
@@ -110,7 +111,3 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260403-iran-guard
 </details>
 
 **What to watch:** Gulf states are privately urging Trump to keep bombing Iran despite growing European opposition, arguing Tehran hasn't been weakened enough—a push that could prolong the conflict even as diplomatic off-ramps narrow.
-
----
-
-*Generated on 2026-04-03 using claude-sonnet-4-5*

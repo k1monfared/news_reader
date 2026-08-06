@@ -5,6 +5,7 @@ date: 2026-06-28
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-28 07:08 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran are trading strikes for a third straight day—Iran hit Bahrain and Kuwait, the US bombed Iranian sites near the Strait of Hormuz, and both sides are threatening to walk away from ceasefire talks.
@@ -81,7 +82,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/28/saudi-arabia-heli
 </details>
 
 **What to watch:** Whether Iran makes good on its threat to completely halt ceasefire negotiations—Trump's already said he'll "annihilate" Iran if things escalate further, so we're one miscalculation away from this spinning out of control.
-
----
-
-*Generated on 2026-06-28 using claude-sonnet-4-5*

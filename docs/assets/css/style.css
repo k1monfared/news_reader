@@ -220,6 +220,7 @@ main {
 .post-generated {
   color: var(--text-muted);
   font-size: 0.75rem;
+  display: block;
 }
 
 .sources-down {

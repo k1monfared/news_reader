@@ -5,6 +5,7 @@ date: 2026-04-28
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-28 12:40 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The UAE just quit OPEC, citing national interests while oil prices spike from the Iran conflict—and Trump rejected Iran's latest peace proposal.
@@ -103,7 +104,3 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/28/trump-approval-di
 </details>
 
 **What to watch:** The US envoys' trip to Pakistan on Saturday could be the last real shot at salvaging talks, especially now that Trump has rejected Iran's proposal.
-
----
-
-*Generated on 2026-04-28 using claude-sonnet-4-5*

@@ -5,6 +5,7 @@ date: 2026-08-05
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-08-05 07:25 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 *Note: This report was generated without AI summarization.*
@@ -63,7 +64,3 @@ generated_at: "2026-08-05 07:25 UTC-07:00"
 ## Military Operations
 
 - **Why did Riyadh join US strikes on Tehran's allies in Iraq?** *(france24)*
-
----
-
-*Generated on 2026-08-05 using claude-sonnet-4-5*

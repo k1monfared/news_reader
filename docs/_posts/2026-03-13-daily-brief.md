@@ -5,6 +5,7 @@ date: 2026-03-13
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 09:01 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US-Israel war on Iran hit day 14 with over 2,000 dead, Trump shifting from "it'll be over soon" to "it's going well," and a US refueling plane crashing in Iraq killing all six crew.
@@ -263,7 +264,3 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/12/netanyahu-defies-kham
 </details>
 
 **What to watch:** Whether Iran makes good on threats to hit targets in Europe, Trump administration's internal strategy disagreements, and whether the new Iranian leadership's revenge vows translate to specific escalatory actions.
-
----
-
-*Generated on 2026-03-13 using claude-sonnet-4-5*

@@ -5,6 +5,7 @@ date: 2026-05-05
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-05-05 07:17 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** US Navy warships entered the Strait of Hormuz on Monday and Iran fired warning shots at them, marking the first direct military engagement since Washington announced its escort operation. Iran also hit a major UAE oil facility in Fujairah with a drone and fired missiles at UAE targets, while threatening that European military bases could become "legitimate targets."
@@ -61,7 +62,3 @@ Sources: [France24](https://www.france24.com/en/trump-told-congress-that-hostili
 </details>
 
 **What to watch:** Whether Iran keeps shooting at US Navy ships as the escort operation continues, and whether the UAE actually follows through on its threat to respond to the Fujairah attack.
-
----
-
-*Generated on 2026-05-05 using claude-sonnet-4-5*

@@ -5,6 +5,7 @@ date: 2026-07-01
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-07-01 07:53 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 # Executive Intelligence Brief: Iran Conflict
@@ -27,7 +28,3 @@ No significant developments related to the Iran conflict have been reported toda
 ## Outlook
 
 *Insufficient developments to assess trajectory.*
-
----
-
-*Generated on 2026-07-01 using claude-sonnet-4-5*

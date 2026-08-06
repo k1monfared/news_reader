@@ -5,6 +5,7 @@ date: 2026-04-23
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-23 07:07 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Trump just ordered the Navy to shoot and kill any boat laying mines in the Strait of Hormuz—a major escalation in how the US is enforcing its blockade.
@@ -108,7 +109,3 @@ Sources: [France24](https://www.france24.com/en/french-soldier-dies-of-wounds-af
 </details>
 
 **What to watch:** Whether Iran actually shows up for talks in Pakistan, and whether the extended ceasefire holds or both sides go back to fighting.
-
----
-
-*Generated on 2026-04-23 using claude-sonnet-4-5*

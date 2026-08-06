@@ -5,6 +5,7 @@ date: 2026-04-13
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-13 07:02 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran just wrapped 21 hours of face-to-face talks in Pakistan—the first since 1979—and walked away with no deal, leaving the fragile ceasefire hanging by a thread.
@@ -103,7 +104,3 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260413-iran-execu
 </details>
 
 **What to watch:** The Hormuz blockade is supposed to start Monday morning, and Iran has called it illegal—this could escalate fast depending on what happens when US ships try to enforce it.
-
----
-
-*Generated on 2026-04-13 using claude-sonnet-4-5*

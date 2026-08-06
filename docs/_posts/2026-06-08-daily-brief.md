@@ -5,6 +5,7 @@ date: 2026-06-08
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-06-08 09:13 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** Israel hit Iran's Mahshahr Petrochemical Complex and Iran fired back at Haifa facilities within the hour, but both sides announced they've stopped attacking for now following US pressure.
@@ -81,7 +82,3 @@ Sources: [Euronews](http://www.euronews.com/video/2026/06/08/iranians-protest-ou
 </details>
 
 **What to watch:** Whether the ceasefire actually holds now that both Iran and Israel have shown they can hit each other's industrial targets in real time, and whether the dual closure of Hormuz and Bab el-Mandeb creates unsustainable economic pressure.
-
----
-
-*Generated on 2026-06-08 using claude-sonnet-4-5*

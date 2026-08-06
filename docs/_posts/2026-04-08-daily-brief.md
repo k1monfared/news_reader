@@ -5,6 +5,7 @@ date: 2026-04-08
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-04-08 06:54 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US and Iran just agreed to a two-week ceasefire that includes reopening the Strait of Hormuz. Pakistan brokered the deal, and talks start in Islamabad on Friday.
@@ -112,7 +113,3 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/04/08/europe-hails-us
 </details>
 
 **What to watch:** Whether the Strait of Hormuz actually reopens and stays open, whether the reported Gulf attacks signal ceasefire violations, and what Iran and the US agree to in Islamabad on Friday—if they agree to anything at all.
-
----
-
-*Generated on 2026-04-08 using claude-sonnet-4-5*

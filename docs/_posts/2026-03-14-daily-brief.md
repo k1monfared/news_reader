@@ -5,6 +5,7 @@ date: 2026-03-14
 categories: [daily-brief]
 sources_down: []
 generated_at: "2026-03-30 01:35 UTC-07:00"
+models_used: ["claude-sonnet-4-5"]
 ---
 
 **Key development:** The US struck military targets on Kharg Island, Iran's main oil export terminal. Trump said the US "totally obliterated" these targets and is now threatening to hit Iran's broader petroleum infrastructure.
@@ -117,7 +118,3 @@ Sources: [Euronews](https://www.euronews.com/2026/03/14/iran-must-not-be-allowed
 </details>
 
 **What to watch:** Whether Trump actually follows through on hitting Iran's oil infrastructure directly, which would be an economic nuclear option.
-
----
-
-*Generated on 2026-03-14 using claude-sonnet-4-5*
