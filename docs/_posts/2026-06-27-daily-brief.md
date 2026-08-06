@@ -79,3 +79,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/27/us-iran-trade-str
 </details>
 
 **What to watch:** Whether the US and Iran can pull back from this exchange or if the strikes kill the peace talks entirely.
+
+---
+
+*Generated on 2026-06-27 using claude-sonnet-4-5*

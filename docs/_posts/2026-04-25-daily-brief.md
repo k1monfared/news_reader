@@ -72,3 +72,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/04/24/eu-leaders-vow-
 </details>
 
 **What to watch:** Whether Iran and the US envoys actually end up in the same room in Islamabad, or if Pakistan just shuttles messages between them.
+
+---
+
+*Generated on 2026-04-25 using claude-sonnet-4-5*

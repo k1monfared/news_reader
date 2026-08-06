@@ -65,3 +65,7 @@ Sources: [France 24](https://www.france24.com/en/lebanon-damage-estimated-at-1-3
 </details>
 
 **What to watch:** Whether Gulf states actually agree to bankroll Iran's reconstruction after being excluded from US military planning, and whether the conflicting US-Iran accounts of the Switzerland agreement signal deeper problems ahead.
+
+---
+
+*Generated on 2026-06-23 using claude-sonnet-4-5*

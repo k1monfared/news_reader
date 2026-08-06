@@ -52,3 +52,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260804-how-israel-
 </details>
 
 **What to watch:** Whether Iran actually comes to the table now that Trump and Netanyahu have publicly committed to a conditional pause—or whether Tehran's denial means the bombing restarts.
+
+---
+
+*Generated on 2026-08-04 using claude-sonnet-4-5*

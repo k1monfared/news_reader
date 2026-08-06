@@ -103,3 +103,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/sports/2026/7/29/f1-season-to-en
 </details>
 
 **What to watch:** Whether the US resumes bombing Iran or sticks with the pause while Britain tries to pull together that naval coalition for the Strait of Hormuz.
+
+---
+
+*Generated on 2026-07-29 using claude-sonnet-4-5*

@@ -146,3 +146,7 @@ Sources: [Reuters](https://jp.reuters.com/world/us/TVJ7SYWDEJN3NIBIANNE3KEKCA-20
 </details>
 
 **What to watch:** Whether the G7 actually releases oil reserves, and whether Saudi Arabia follows through on its threat to retaliate against Iran.
+
+---
+
+*Generated on 2026-03-09 using claude-sonnet-4-5*

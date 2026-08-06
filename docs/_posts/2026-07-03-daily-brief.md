@@ -74,3 +74,7 @@ Sources: [France24](https://www.france24.com/en/israel-and-gaza-mark-1-000-days-
 </details>
 
 **What to watch:** Whether Iran follows through on shutting the Strait of Hormuz if US strikes continue—that would have immediate global economic consequences.
+
+---
+
+*Generated on 2026-07-03 using claude-sonnet-4-5*

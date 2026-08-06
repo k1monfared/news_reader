@@ -68,3 +68,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260610-us-iran-ai
 </details>
 
 **What to watch:** Whether Israel's Beirut strikes tank the peace deal before it can be signed, and whether Iran makes good on its promise to respond to US strikes.
+
+---
+
+*Generated on 2026-06-14 using claude-sonnet-4-5*

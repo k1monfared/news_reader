@@ -108,3 +108,7 @@ Sources: [Euronews](# "link unavailable")
 </details>
 
 **What to watch:** Whether the US follows through on its "biggest bombing" threat against Tehran, and if Iran actually tries to stop shipping in the Strait of Hormuz.
+
+---
+
+*Generated on 2026-03-07 using claude-sonnet-4-5*

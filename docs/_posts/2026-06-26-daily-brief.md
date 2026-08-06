@@ -61,3 +61,7 @@ Sources: [Euronews](http://www.euronews.com/video/2026/06/26/lebanon-thousands-m
 </details>
 
 **What to watch:** Whether the Hormuz evacuation resumes and what conditions Iran sets for it—that's the chokepoint for the global economy right now.
+
+---
+
+*Generated on 2026-06-26 using claude-sonnet-4-5*

@@ -52,3 +52,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260722-middle-east
 </details>
 
 **What to watch:** Whether Iran keeps expanding its target set beyond military sites, and how far oil prices climb if the Houthis keep hitting tankers.
+
+---
+
+*Generated on 2026-07-24 using claude-sonnet-4-5*

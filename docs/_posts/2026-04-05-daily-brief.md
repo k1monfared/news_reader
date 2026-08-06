@@ -110,3 +110,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/04/05/zelenskyy-warns
 </details>
 
 **What to watch:** Trump's 48-hour ultimatum appears to be expiring today with no deal—watch for whether he follows through on threats to hit Iranian civilian infrastructure.
+
+---
+
+*Generated on 2026-04-05 using claude-sonnet-4-5*

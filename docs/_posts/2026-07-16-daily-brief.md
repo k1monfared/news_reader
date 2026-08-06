@@ -74,3 +74,7 @@ Sources: [Euronews](http://www.euronews.com/2026/07/16/solar-saved-europe-3bn-in
 </details>
 
 **What to watch:** Whether mediators can salvage the ceasefire deal now that both leaders are publicly threatening each other.
+
+---
+
+*Generated on 2026-07-16 using claude-sonnet-4-5*

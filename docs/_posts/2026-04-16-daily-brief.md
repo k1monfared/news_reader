@@ -94,3 +94,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260415-jailed-ira
 </details>
 
 **What to watch:** The 10-day ceasefire clock starts Thursday night—whether it holds or falls apart will tell us if there's any real chance at broader de-escalation.
+
+---
+
+*Generated on 2026-04-16 using claude-sonnet-4-5*

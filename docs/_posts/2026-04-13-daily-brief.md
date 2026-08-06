@@ -103,3 +103,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260413-iran-execu
 </details>
 
 **What to watch:** The Hormuz blockade is supposed to start Monday morning, and Iran has called it illegal—this could escalate fast depending on what happens when US ships try to enforce it.
+
+---
+
+*Generated on 2026-04-13 using claude-sonnet-4-5*

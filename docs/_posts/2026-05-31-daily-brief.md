@@ -72,3 +72,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/05/30/eu-expands-sanc
 </details>
 
 **What to watch:** Whether Iran formally responds to Trump's tougher deal terms or uses the alleged ceasefire violation as an excuse to abandon talks entirely.
+
+---
+
+*Generated on 2026-05-31 using claude-sonnet-4-5*

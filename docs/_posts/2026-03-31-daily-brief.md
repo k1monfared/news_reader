@@ -130,3 +130,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/31/italy-d
 </details>
 
 **What to watch:** Whether Trump actually moves on Kharg Island in the next few days, and if the Houthis make good on their threat to block Bab al-Mandab.
+
+---
+
+*Generated on 2026-03-31 using claude-sonnet-4-5*

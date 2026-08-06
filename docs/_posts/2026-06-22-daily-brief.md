@@ -81,3 +81,7 @@ Sources: [France24](https://www.france24.com/en/israeli-strikes-start-again-in-l
 </details>
 
 **What to watch:** Whether technical talks in Switzerland this week produce any actual verifiable agreements, or if the nuclear inspections dispute kills momentum before negotiators can nail down the harder issues.
+
+---
+
+*Generated on 2026-06-22 using claude-sonnet-4-5*

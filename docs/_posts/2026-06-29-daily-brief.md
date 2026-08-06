@@ -50,3 +50,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260629-syria-slam
 </details>
 
 **What to watch:** Whether Iran actually shows up in Qatar on Tuesday, and whether anyone can keep this interim deal alive while strikes keep happening.
+
+---
+
+*Generated on 2026-06-29 using claude-sonnet-4-5*

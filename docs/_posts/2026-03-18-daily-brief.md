@@ -146,3 +146,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/18/who-is-joe-kent-a
 </details>
 
 **What to watch:** Whether Iran actually strikes Gulf energy facilities—if they do, oil prices will go even higher and this becomes a global economic crisis, not just a regional war.
+
+---
+
+*Generated on 2026-03-18 using claude-sonnet-4-5*

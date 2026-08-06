@@ -74,3 +74,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/06/04/its-not-happeni
 </details>
 
 **What to watch:** Whether Hezbollah's rejection kills the ceasefire framework entirely or if there's still room to negotiate Israeli withdrawal terms.
+
+---
+
+*Generated on 2026-06-04 using claude-sonnet-4-5*

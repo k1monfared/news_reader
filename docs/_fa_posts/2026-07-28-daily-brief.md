@@ -44,3 +44,7 @@ generated_at: "2026-07-28 07:28 UTC-07:00"
 منابع: [Al Jazeera](https://www.aljazeera.com/economy/2026/7/28/why-has-irans-economy-not-collapsed-under-us-war-pressure?traffic_source=rss)
 
 </details>
+
+---
+
+*Generated on 2026-07-28 using claude-sonnet-4-5*

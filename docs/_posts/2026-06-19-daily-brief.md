@@ -52,3 +52,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260617-middle-east
 </details>
 
 **What to watch:** Whether the ceasefire between Israel and Hezbollah actually holds, or if the collapse of US-Iran talks means the broader deal is already dead.
+
+---
+
+*Generated on 2026-06-19 using claude-sonnet-4-5*

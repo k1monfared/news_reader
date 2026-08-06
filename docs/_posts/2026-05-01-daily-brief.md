@@ -92,3 +92,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/1/commercial-flights
 </details>
 
 **What to watch:** Friday's War Powers deadline and whether Congress actually does anything about it—or if the White House just ignores them.
+
+---
+
+*Generated on 2026-05-01 using claude-sonnet-4-5*

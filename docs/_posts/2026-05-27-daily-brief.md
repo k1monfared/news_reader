@@ -52,3 +52,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/05/27/germany-signs-ma
 </details>
 
 **What to watch:** Whether Israel's escalation in Lebanon completely breaks the Hezbollah ceasefire or if Netanyahu is testing its boundaries.
+
+---
+
+*Generated on 2026-05-27 using claude-sonnet-4-5*

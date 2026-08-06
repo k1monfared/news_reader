@@ -108,3 +108,7 @@ Sources: [Reuters](https://jp.reuters.com/world/security/C6NSB4RB55P2ZFCJVEWJYO6
 </details>
 
 **What to watch:** Whether Iran can actually close the Strait of Hormuz—about 20% of global oil passes through there, and any sustained closure would trigger a full energy crisis.
+
+---
+
+*Generated on 2026-03-02 using claude-sonnet-4-5*

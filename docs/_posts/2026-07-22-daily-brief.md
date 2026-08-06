@@ -90,3 +90,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/07/22/iran-warns-bulg
 </details>
 
 **What to watch:** Whether Trump actually follows through on the Pickaxe Mountain strike and how quickly—he's already named the target publicly, which is unusual.
+
+---
+
+*Generated on 2026-07-22 using claude-sonnet-4-5*

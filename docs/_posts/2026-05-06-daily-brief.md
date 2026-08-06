@@ -88,3 +88,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260505-iran-nobel-
 </details>
 
 **What to watch:** Whether Trump and Iran can actually turn this pause into a lasting deal, or if the ceasefire collapses like previous ones have.
+
+---
+
+*Generated on 2026-05-06 using claude-sonnet-4-5*

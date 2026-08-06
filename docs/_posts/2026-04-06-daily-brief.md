@@ -110,3 +110,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/6/yemens-civilians-f
 </details>
 
 **What to watch:** Trump's Tuesday 8pm ET deadline for Iran to reopen the Strait of Hormuz—if it passes without a deal, he's threatened strikes on Iranian civilian infrastructure including power plants.
+
+---
+
+*Generated on 2026-04-06 using claude-sonnet-4-5*

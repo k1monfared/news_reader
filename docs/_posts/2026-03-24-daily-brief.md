@@ -130,3 +130,7 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/24/german-president-war-
 </details>
 
 **What to watch:** Whether any actual negotiations are happening behind Trump's public claims, and if oil prices stabilize or keep climbing as shipping routes stay disrupted.
+
+---
+
+*Generated on 2026-03-24 using claude-sonnet-4-5*

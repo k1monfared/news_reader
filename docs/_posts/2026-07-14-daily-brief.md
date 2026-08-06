@@ -97,3 +97,7 @@ Sources: [Euronews](http://www.euronews.com/2026/07/14/we-will-deal-with-it-trum
 </details>
 
 **What to watch:** Whether ships actually start paying Trump's Hormuz transit fees and how Iran responds if they do—plus whether that Cuba weapons claim turns out to be real.
+
+---
+
+*Generated on 2026-07-14 using claude-sonnet-4-5*

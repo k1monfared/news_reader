@@ -63,3 +63,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/20/woman-charged-in-
 </details>
 
 **What to watch:** Whether more commercial shipping can transit the Strait of Hormuz, and if the Egypt-Italy route becomes a permanent workaround.
+
+---
+
+*Generated on 2026-04-18 using claude-sonnet-4-5*

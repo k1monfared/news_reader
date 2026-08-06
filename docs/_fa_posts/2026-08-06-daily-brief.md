@@ -72,6 +72,7 @@ generated_at: "2026-08-06 12:51 UTC-07:00"
 
 <details>
 <summary markdown="span">**حوثی‌ها امروز پهپاد و موشک را به تارگ‌های نیروی‌ائت و هم‌فرمانگر ایران به سعودی در استان‌های ماریب و حضرموت شلیک کردند
+
 ---
 
-*Model: deepseek-v4-flash-free*
+*Generated on 2026-08-06 using deepseek-v4-flash-free*

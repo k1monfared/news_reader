@@ -50,3 +50,7 @@ Sources: [France 24](https://www.france24.com/en/as-iran-buries-khamenei-it-shif
 </details>
 
 **What to watch:** Whether Trump makes good on his threat that things could get "much worse"—and whether Iran's strikes on Gulf states pull more countries into direct conflict.
+
+---
+
+*Generated on 2026-07-09 using claude-sonnet-4-5*

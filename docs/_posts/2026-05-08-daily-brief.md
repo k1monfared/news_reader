@@ -99,3 +99,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260505-can-pakista
 </details>
 
 **What to watch:** Whether the Strait of Hormuz stays open after Thursday's shootout, and if Trump can keep calling this a ceasefire with a straight face.
+
+---
+
+*Generated on 2026-05-08 using claude-sonnet-4-5*

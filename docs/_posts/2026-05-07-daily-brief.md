@@ -90,3 +90,7 @@ Sources: [Euronews](http://www.euronews.com/2026/05/07/middle-east-war-will-slow
 </details>
 
 **What to watch:** Whether Iran's response to the US proposal matches the ceasefire signals or if the Beirut strike derails the whole negotiation.
+
+---
+
+*Generated on 2026-05-07 using claude-sonnet-4-5*

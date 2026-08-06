@@ -41,3 +41,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/sports/2026/6/3/irans-world-cup-
 </details>
 
 **What to watch:** Whether the US and Iran can keep calling this a ceasefire when they're still shooting at each other—and whether Rubio's "war is over" line sticks.
+
+---
+
+*Generated on 2026-06-03 using claude-sonnet-4-5*

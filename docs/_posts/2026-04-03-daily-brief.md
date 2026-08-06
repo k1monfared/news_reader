@@ -110,3 +110,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260403-iran-guard
 </details>
 
 **What to watch:** Gulf states are privately urging Trump to keep bombing Iran despite growing European opposition, arguing Tehran hasn't been weakened enough—a push that could prolong the conflict even as diplomatic off-ramps narrow.
+
+---
+
+*Generated on 2026-04-03 using claude-sonnet-4-5*

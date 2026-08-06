@@ -41,3 +41,7 @@ Sources: [France 24](https://www.france24.com/en/france-bans-israeli-minister-it
 </details>
 
 **What to watch:** Whether Rubio actually makes that announcement Sunday, and whether Iran and the US can agree on what's actually in this deal.
+
+---
+
+*Generated on 2026-05-24 using claude-sonnet-4-5*

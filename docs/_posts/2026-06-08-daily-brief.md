@@ -81,3 +81,7 @@ Sources: [Euronews](http://www.euronews.com/video/2026/06/08/iranians-protest-ou
 </details>
 
 **What to watch:** Whether the ceasefire actually holds now that both Iran and Israel have shown they can hit each other's industrial targets in real time, and whether the dual closure of Hormuz and Bab el-Mandeb creates unsustainable economic pressure.
+
+---
+
+*Generated on 2026-06-08 using claude-sonnet-4-5*

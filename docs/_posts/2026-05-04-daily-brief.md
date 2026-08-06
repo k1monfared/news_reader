@@ -101,3 +101,7 @@ Sources: [Euronews](http://www.euronews.com/2026/05/04/tehran-regime-executes-th
 </details>
 
 **What to watch:** Whether the US provides evidence to support or refute Iran's claim about the missile strike—and whether American warships actually make it into the Strait of Hormuz under Project Freedom.
+
+---
+
+*Generated on 2026-05-04 using claude-sonnet-4-5*

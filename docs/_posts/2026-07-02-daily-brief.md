@@ -63,3 +63,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260701-why-france-
 </details>
 
 **What to watch:** What direction Iran takes after Khamenei's funeral wraps up July 9, and whether the new US-Iran hotline actually helps keep the fragile ceasefire intact.
+
+---
+
+*Generated on 2026-07-02 using claude-sonnet-4-5*

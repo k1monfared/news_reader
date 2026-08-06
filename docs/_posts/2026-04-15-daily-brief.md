@@ -108,3 +108,7 @@ Sources: [France24](https://www.france24.com/en/tv-shows/focus/20260414-resident
 </details>
 
 **What to watch:** Whether Iran and the US actually sit down again in the next couple days, and whether anyone tests Trump's blockade threat.
+
+---
+
+*Generated on 2026-04-15 using claude-sonnet-4-5*

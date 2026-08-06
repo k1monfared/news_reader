@@ -48,3 +48,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260711-live-trump-
 </details>
 
 **What to watch:** Whether Iran actually follows through on its threat to target Israel—that would turn a bilateral crisis into a regional war.
+
+---
+
+*Generated on 2026-07-11 using claude-sonnet-4-5*

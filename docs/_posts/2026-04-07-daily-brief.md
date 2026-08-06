@@ -119,3 +119,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260406-iran-wartim
 </details>
 
 **What to watch:** Trump's 8pm ET deadline hits in a few hours—we'll see whether he follows through on the infrastructure strikes or if there's a last-minute deal.
+
+---
+
+*Generated on 2026-04-07 using claude-sonnet-4-5*

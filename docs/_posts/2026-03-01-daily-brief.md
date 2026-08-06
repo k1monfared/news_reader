@@ -119,3 +119,7 @@ Sources: [Euronews](https://www.euronews.com/2026/03/01/we-will-hit-them-with-a-
 </details>
 
 **What to watch:** Whether Iran's new Supreme Leader takes a more aggressive stance or tries to de-escalate, and whether the Strait of Hormuz stays shut.
+
+---
+
+*Generated on 2026-03-01 using claude-sonnet-4-5*

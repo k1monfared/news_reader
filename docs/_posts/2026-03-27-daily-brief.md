@@ -117,3 +117,7 @@ Sources: [Euronews](https://es.euronews.com/2026/03/27/ayuda-humanitaria-fertili
 </details>
 
 **What to watch:** Iran's deadline expires in 10 days—either they reopen the strait, Trump hits their energy sector, or there's a surprise diplomatic breakthrough. Rubio's claims of Iranian ceasefire signals suggest backchannels may be active.
+
+---
+
+*Generated on 2026-03-27 using claude-sonnet-4-5*

@@ -110,3 +110,7 @@ Sources: [France24](https://www.france24.com/en/iran-portraying-ceasefire-as-vic
 </details>
 
 **What to watch:** The Pakistan talks this weekend—if they fail or if Israel keeps hitting Lebanon hard, this ceasefire might not make it past its first week.
+
+---
+
+*Generated on 2026-04-10 using claude-sonnet-4-5*

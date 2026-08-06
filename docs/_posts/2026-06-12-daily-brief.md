@@ -83,3 +83,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/12/iraq-analysis-mil
 </details>
 
 **What to watch:** Whether that Europe deal-signing actually happens this weekend, or if the public spat between Trump and Tehran—and Iran's denial they've reached any final decision—tanks the whole thing.
+
+---
+
+*Generated on 2026-06-12 using claude-sonnet-4-5*

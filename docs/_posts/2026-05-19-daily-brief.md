@@ -76,3 +76,7 @@ Sources: [Euronews](http://www.euronews.com/2026/05/19/iranian-tv-teaches-viewer
 </details>
 
 **What to watch:** Whether these negotiations produce any concrete sanctions relief or if Trump's "hold" on the strike is just buying time before military action resumes.
+
+---
+
+*Generated on 2026-05-19 using claude-sonnet-4-5*

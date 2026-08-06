@@ -90,3 +90,7 @@ Sources: [France24](https://www.france24.com/en/israel-defense-minister-says-awa
 </details>
 
 **What to watch:** Whether senior US officials join Iran's Foreign Minister in Pakistan this weekend—that'll tell us if these talks have real momentum or if Iran is just showing up.
+
+---
+
+*Generated on 2026-04-24 using claude-sonnet-4-5*

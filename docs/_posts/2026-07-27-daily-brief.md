@@ -32,3 +32,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260727-ex-army-chi
 </details>
 
 **What to watch:** Whether the Saudi-Houthi Red Sea confrontation draws in other regional players or disrupts oil markets.
+
+---
+
+*Generated on 2026-07-27 using claude-sonnet-4-5*

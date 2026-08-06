@@ -110,3 +110,7 @@ Sources: [Euronews](http://www.euronews.com/video/2026/07/23/nato-will-defend-bu
 </details>
 
 **What to watch:** Whether Trump's nuclear-deal-for-normalization gambit with Saudi Arabia actually moves forward, and if Iran escalates further after the latest US threats.
+
+---
+
+*Generated on 2026-07-23 using claude-sonnet-4-5*

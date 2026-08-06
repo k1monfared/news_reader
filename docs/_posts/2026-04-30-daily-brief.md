@@ -90,3 +90,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260428-israel-dest
 </details>
 
 **What to watch:** Whether the "maritime freedom" coalition can actually reopen Hormuz—that would change the entire economic equation overnight.
+
+---
+
+*Generated on 2026-04-30 using claude-sonnet-4-5*

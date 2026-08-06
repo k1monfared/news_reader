@@ -88,3 +88,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/18/israel-built-two-
 </details>
 
 **What to watch:** Whether any ships actually try to use Iran's new Hormuz transit system—and what happens if they don't.
+
+---
+
+*Generated on 2026-05-18 using claude-sonnet-4-5*

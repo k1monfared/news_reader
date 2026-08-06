@@ -52,3 +52,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/04/24/judge-sets-tria
 </details>
 
 **What to watch:** Whether Iran picks up the phone after Trump's "call us anytime" dare, or if both sides just let the diplomatic window close.
+
+---
+
+*Generated on 2026-04-26 using claude-sonnet-4-5*

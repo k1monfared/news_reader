@@ -99,3 +99,7 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/12/fbi-warning-iranian-a
 </details>
 
 **What to watch:** Whether Iran actually follows through on blocking or significantly disrupting the Strait of Hormuz—Iran's UN ambassador denies they've mined the strait, while attacks on vessels continue to achieve similar economic impact without full closure.
+
+---
+
+*Generated on 2026-03-12 using claude-sonnet-4-5*

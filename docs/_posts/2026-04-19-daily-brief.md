@@ -43,3 +43,7 @@ Sources: [Euronews](http://www.euronews.com/travel/2026/04/20/foreign-airlines-t
 </details>
 
 **What to watch:** Whether the US and Iran will agree to reschedule talks or if the diplomatic freeze hardens into something longer-term.
+
+---
+
+*Generated on 2026-04-19 using claude-sonnet-4-5*

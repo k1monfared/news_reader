@@ -43,3 +43,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260603-months-afte
 </details>
 
 **What to watch:** Food prices will likely keep climbing as the war continues, potentially pushing the humanitarian crisis into new regions.
+
+---
+
+*Generated on 2026-06-05 using claude-sonnet-4-5*

@@ -90,3 +90,7 @@ Sources: [France24](https://www.france24.com/en/video/20260617-trump-doesn-t-rul
 </details>
 
 **What to watch:** Whether Israel's rejection of the Lebanon withdrawal condition kills the deal before Friday's signing ceremony, or if negotiators find a workaround.
+
+---
+
+*Generated on 2026-06-17 using claude-sonnet-4-5*

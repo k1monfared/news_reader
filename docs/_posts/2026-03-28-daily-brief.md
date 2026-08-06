@@ -139,3 +139,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260329-pakistan-of
 </details>
 
 **What to watch:** Whether Iran actually tries to hit the USS Abraham Lincoln when it gets in range—that would be a massive escalation.
+
+---
+
+*Generated on 2026-03-28 using claude-sonnet-4-5*

@@ -117,3 +117,7 @@ Sources: [Euronews](https://www.euronews.com/2026/03/14/iran-must-not-be-allowed
 </details>
 
 **What to watch:** Whether Trump actually follows through on hitting Iran's oil infrastructure directly, which would be an economic nuclear option.
+
+---
+
+*Generated on 2026-03-14 using claude-sonnet-4-5*

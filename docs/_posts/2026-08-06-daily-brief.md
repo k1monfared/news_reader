@@ -79,6 +79,7 @@ Sources: [Al Jazeera](https://aljazeera.com/video/newsfeed/2026/8/6/06-08-report
 </details>
 
 **What to watch:** Whether Trump gets the Hormuz deal signed and announced—if it does, the blockade could ease, but if Netanyahu's comments trigger a diplomatic break, we could see the ceasefire collapse completely.
+
 ---
 
-*Model: deepseek-v4-flash-free*
+*Generated on 2026-08-06 using deepseek-v4-flash-free*

@@ -41,3 +41,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260801-middle-eas
 </details>
 
 **What to watch:** Whether Netanyahu actually accepts Trump's Gaza deal and if Iran follows through on any commitments — or if this pause collapses like past ceasefires.
+
+---
+
+*Generated on 2026-08-02 using claude-sonnet-4-5*

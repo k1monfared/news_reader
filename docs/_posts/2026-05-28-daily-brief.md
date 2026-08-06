@@ -117,3 +117,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260526-iran-partia
 </details>
 
 **What to watch:** Whether the US-Iran exchanges escalate further or if the Doha talks can somehow pull things back from the edge, especially now that Trump is threatening US allies.
+
+---
+
+*Generated on 2026-05-28 using claude-sonnet-4-5*

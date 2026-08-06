@@ -103,3 +103,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/28/trump-approval-di
 </details>
 
 **What to watch:** The US envoys' trip to Pakistan on Saturday could be the last real shot at salvaging talks, especially now that Trump has rejected Iran's proposal.
+
+---
+
+*Generated on 2026-04-28 using claude-sonnet-4-5*

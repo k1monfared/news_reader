@@ -108,3 +108,7 @@ Sources: [France24](https://www.france24.com/en/french-soldier-dies-of-wounds-af
 </details>
 
 **What to watch:** Whether Iran actually shows up for talks in Pakistan, and whether the extended ceasefire holds or both sides go back to fighting.
+
+---
+
+*Generated on 2026-04-23 using claude-sonnet-4-5*

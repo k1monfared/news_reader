@@ -41,3 +41,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260620-israeli-st
 </details>
 
 **What to watch:** Whether Israel and Hezbollah can maintain a ceasefire long enough for the diplomats to make progress in Switzerland and Washington this week.
+
+---
+
+*Generated on 2026-06-21 using claude-sonnet-4-5*

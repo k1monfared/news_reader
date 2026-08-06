@@ -63,3 +63,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/07/08/oil-spikes-and-e
 </details>
 
 **What to watch:** Whether Trump follows through on tonight's promised strikes against Iran and how Tehran responds.
+
+---
+
+*Generated on 2026-07-08 using claude-sonnet-4-5*

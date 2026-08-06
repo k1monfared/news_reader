@@ -54,3 +54,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/07/10/global-oil-deman
 </details>
 
 **What to watch:** Whether Iran provides any evidence for its nuclear plant claim—that would force an international response.
+
+---
+
+*Generated on 2026-07-10 using claude-sonnet-4-5*

@@ -110,3 +110,7 @@ Sources: [Euronews](https://www.euronews.com/2026/03/16/still-no-mojtaba-iran-wa
 </details>
 
 **What to watch:** Whether any of those seven countries Trump called actually send ships to Hormuz, and whether Iran hits Dubai airport again.
+
+---
+
+*Generated on 2026-03-16 using claude-sonnet-4-5*

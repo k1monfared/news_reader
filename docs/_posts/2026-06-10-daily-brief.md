@@ -41,3 +41,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260610-netanyahu-w
 </details>
 
 **What to watch:** Whether Iran's promised retaliation triggers another round of US strikes, and whether this exchange kills the peace talks Trump claims were in "final stages."
+
+---
+
+*Generated on 2026-06-10 using claude-sonnet-4-5*

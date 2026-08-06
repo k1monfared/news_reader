@@ -135,3 +135,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/strikes-kill-two-
 </details>
 
 **What to watch:** Whether Iran retaliates for the South Pars strike with more attacks on Gulf energy infrastructure, and how that affects the fragile US-Gulf relationship.
+
+---
+
+*Generated on 2026-03-19 using claude-sonnet-4-5*

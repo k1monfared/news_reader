@@ -48,3 +48,7 @@ Sources: [France24](https://www.france24.com/en/dawud-al-ansari-says-oman-commit
 </details>
 
 **What to watch:** Whether the US and Iranian delegations actually end up talking directly in Doha, or if this stays a game of telephone through Qatar.
+
+---
+
+*Generated on 2026-06-30 using claude-sonnet-4-5*

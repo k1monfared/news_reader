@@ -92,3 +92,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/14/japanese-snacks-g
 </details>
 
 **What to watch:** The ceasefire expires in days, Iran's peace ultimatum is on the table, and Israel keeps striking Lebanon even as negotiators talk—something's got to give.
+
+---
+
+*Generated on 2026-05-14 using claude-sonnet-4-5*

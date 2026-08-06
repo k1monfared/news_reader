@@ -52,3 +52,7 @@ Sources: [Euronews](http://www.euronews.com/2026/07/03/iran-fm-confirms-reports-
 </details>
 
 **What to watch:** Iran will choose Khamenei's successor in the coming weeks, which could reshape the entire region depending on whether hardliners or pragmatists win out.
+
+---
+
+*Generated on 2026-07-04 using claude-sonnet-4-5*

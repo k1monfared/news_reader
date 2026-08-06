@@ -222,3 +222,7 @@ Sources: [Euronews (AR)](https://arabic.euronews.com/2026/03/11/tehran-was-not-s
 </details>
 
 **What to watch:** Whether Iran can actually shut down Hormuz or if the US naval presence keeps traffic moving—that's the difference between high oil prices and a global economic crisis. Also watch for any ground troop deployments, which would mark major escalation.
+
+---
+
+*Generated on 2026-03-11 using claude-sonnet-4-5*

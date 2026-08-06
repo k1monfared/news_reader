@@ -52,3 +52,7 @@ Sources: [Euronews](http://www.euronews.com/2026/07/17/eu-bolsters-red-sea-missi
 </details>
 
 **What to watch:** Whether Iran retaliates for the infrastructure strikes that cut water to southern villages, and whether the October 27 Israeli elections proceed as scheduled if the conflict escalates further.
+
+---
+
+*Generated on 2026-07-18 using claude-sonnet-4-5*

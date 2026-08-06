@@ -50,3 +50,7 @@ Sources: [Euronews](http://www.euronews.com/2026/08/03/second-tanker-with-qatari
 </details>
 
 **What to watch:** Whether Israel responds to Hamas's disarmament offer, and whether Iran shows up to talks it says don't exist.
+
+---
+
+*Generated on 2026-08-03 using claude-sonnet-4-5*

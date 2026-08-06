@@ -52,3 +52,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/12/former-emir-of-qa
 </details>
 
 **What to watch:** Oil prices when markets open—the Strait of Hormuz closure could send them sharply higher given the waterway carries 20% of global oil supply.
+
+---
+
+*Generated on 2026-07-12 using claude-sonnet-4-5*

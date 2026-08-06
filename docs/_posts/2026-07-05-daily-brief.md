@@ -43,3 +43,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/5/irans-china-envoy-
 </details>
 
 **What to watch:** Whether Iran actually starts collecting those Hormuz transit fees and how the US responds when the first ship gets billed.
+
+---
+
+*Generated on 2026-07-05 using claude-sonnet-4-5*

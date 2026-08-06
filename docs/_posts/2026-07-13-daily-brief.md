@@ -63,3 +63,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260713-israel-octo
 </details>
 
 **What to watch:** Whether ships actually start paying that 20% Hormuz fee and how quickly it hits oil prices.
+
+---
+
+*Generated on 2026-07-13 using claude-sonnet-4-5*

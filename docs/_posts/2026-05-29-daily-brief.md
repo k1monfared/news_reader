@@ -61,3 +61,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/05/29/the-german-vill
 </details>
 
 **What to watch:** Whether Trump and Khamenei actually approve the 60-day deal—without their sign-off, negotiators' agreement doesn't mean much.
+
+---
+
+*Generated on 2026-05-29 using claude-sonnet-4-5*

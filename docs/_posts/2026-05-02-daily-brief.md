@@ -72,3 +72,7 @@ Sources: [Euronews](http://www.euronews.com/2026/05/01/iran-executes-21-year-old
 </details>
 
 **What to watch:** Whether Trump and Iran can find any common ground before the ceasefire unravels completely, and whether Congress will actually challenge Trump on the War Powers deadline.
+
+---
+
+*Generated on 2026-05-02 using claude-sonnet-4-5*

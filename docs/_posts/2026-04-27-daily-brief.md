@@ -52,3 +52,7 @@ Sources: [France24](https://www.france24.com/en/mojtaba-khamenei-remains-out-of-
 </details>
 
 **What to watch:** Whether Iran actually passes the Hormuz bill—requiring rial-denominated payments would be a major provocation that could trigger additional sanctions or military escalation.
+
+---
+
+*Generated on 2026-04-27 using claude-sonnet-4-5*

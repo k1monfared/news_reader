@@ -119,3 +119,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260331-us-journal
 </details>
 
 **What to watch:** Whether Iran actually responds to whatever deal the US sent, and if Trump follows through on his threat to pull out of NATO over European allies' refusal to join the fight.
+
+---
+
+*Generated on 2026-04-01 using claude-sonnet-4-5*

@@ -92,3 +92,7 @@ Sources: [Euronews](http://www.euronews.com/2026/05/12/a-weakened-trump-to-test-
 </details>
 
 **What to watch:** Whether the Strait of Hormuz shooting turns into sustained combat or just another ceasefire violation that both sides walk back.
+
+---
+
+*Generated on 2026-05-12 using claude-sonnet-4-5*

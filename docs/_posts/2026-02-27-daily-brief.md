@@ -21,3 +21,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/2/27/omans-foreign-min
 </details>
 
 **What to watch:** Whether Oman facilitates any direct or indirect talks between Washington and Tehran in the coming days.
+
+---
+
+*Generated on 2026-02-27 using claude-sonnet-4-5*

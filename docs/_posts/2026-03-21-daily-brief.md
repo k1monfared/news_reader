@@ -110,3 +110,7 @@ Sources: [Euronews Spanish](https://es.euronews.com/2026/03/21/suiza-frena-envio
 </details>
 
 **What to watch:** Whether Trump actually moves forward with ground operations in Iran, and how long Israel and Iran can trade strikes on nuclear sites before something catastrophic happens.
+
+---
+
+*Generated on 2026-03-21 using claude-sonnet-4-5*

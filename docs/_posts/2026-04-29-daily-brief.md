@@ -90,3 +90,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260427-iraq-s-pres
 </details>
 
 **What to watch:** Whether NATO members face actual consequences for refusing to support US operations, and whether Iraq's untested prime minister-designate can actually form a government amid regional chaos.
+
+---
+
+*Generated on 2026-04-29 using claude-sonnet-4-5*

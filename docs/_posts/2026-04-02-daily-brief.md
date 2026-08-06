@@ -114,3 +114,7 @@ Sources: [France24](https://www.france24.com/en/video/20260401-us-journalist-she
 </details>
 
 **What to watch:** Whether Gulf states can convince Trump to keep fighting until Iran is "decisively defeated"—Saudi Arabia and the UAE are reportedly pushing hard behind the scenes.
+
+---
+
+*Generated on 2026-04-02 using claude-sonnet-4-5*

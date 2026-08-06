@@ -110,3 +110,7 @@ Sources: [Euronews Arabic](https://arabic.euronews.com/2026/03/22/switzerland-su
 </details>
 
 **What to watch:** Iran's 48-hour clock runs out Sunday evening—either the strait reopens or Trump has to decide whether to actually hit Iranian power plants.
+
+---
+
+*Generated on 2026-03-22 using claude-sonnet-4-5*

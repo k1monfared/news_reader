@@ -263,3 +263,7 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/12/netanyahu-defies-kham
 </details>
 
 **What to watch:** Whether Iran makes good on threats to hit targets in Europe, Trump administration's internal strategy disagreements, and whether the new Iranian leadership's revenge vows translate to specific escalatory actions.
+
+---
+
+*Generated on 2026-03-13 using claude-sonnet-4-5*

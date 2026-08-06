@@ -54,3 +54,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/sports/2026/6/20/what-the-us-ira
 </details>
 
 **What to watch:** Whether the Strait of Hormuz closure derails the Geneva implementation talks scheduled for this week, and if the Lebanon ceasefire violations will further strain the broader US-Iran agreement.
+
+---
+
+*Generated on 2026-06-20 using claude-sonnet-4-5*

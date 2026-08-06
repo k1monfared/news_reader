@@ -81,3 +81,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/06/12/everything-you-
 </details>
 
 **What to watch:** Whether the US and Iran can actually get this deal signed in the next few days, or if the hesitation Iran is citing turns into another round of escalation.
+
+---
+
+*Generated on 2026-06-13 using claude-sonnet-4-5*

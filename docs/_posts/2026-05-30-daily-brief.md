@@ -61,3 +61,7 @@ Sources: [Euronews](http://www.euronews.com/2026/05/30/clean-energy-saved-eu-51-
 </details>
 
 **What to watch:** Whether Trump signs the Iran deal this weekend or walks away and lets the ceasefire collapse.
+
+---
+
+*Generated on 2026-05-30 using claude-sonnet-4-5*

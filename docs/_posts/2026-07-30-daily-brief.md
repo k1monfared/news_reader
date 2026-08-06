@@ -81,3 +81,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/07/30/bank-of-england-
 </details>
 
 **What to watch:** Iran promised retaliation "today" for the US strikes, so we could see another round of attacks on American forces or assets within hours.
+
+---
+
+*Generated on 2026-07-30 using claude-sonnet-4-5*

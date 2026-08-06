@@ -63,3 +63,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/06/09/eu-proposes-new
 </details>
 
 **What to watch:** Whether the Iran-Israel pause actually holds or if Hezbollah's continued strikes blow it up before Trump's promised peace deal materializes.
+
+---
+
+*Generated on 2026-06-09 using claude-sonnet-4-5*

@@ -81,3 +81,7 @@ Sources: [Euronews](http://www.euronews.com/2026/05/11/iran-seizes-assets-of-foo
 </details>
 
 **What to watch:** Whether the UK and France can salvage some kind of shipping protection mission now that diplomacy has collapsed and the fertilizer crisis has a countdown clock.
+
+---
+
+*Generated on 2026-05-11 using claude-sonnet-4-5*

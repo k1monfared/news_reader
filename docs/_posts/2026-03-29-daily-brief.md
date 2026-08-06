@@ -32,3 +32,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/30/canadia
 </details>
 
 **What to watch:** Whether Iran follows through on its threats against US forces and how long it takes to clear the Hormuz bottleneck.
+
+---
+
+*Generated on 2026-03-29 using claude-sonnet-4-5*

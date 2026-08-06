@@ -126,3 +126,7 @@ Sources: [Euronews](https://www.euronews.com/2026/03/04/uae-urges-the-us-israel-
 </details>
 
 **What to watch:** Congress votes today on authorizing continued military operations against Iran, and European countries are starting evacuations from Cyprus.
+
+---
+
+*Generated on 2026-03-04 using claude-sonnet-4-5*

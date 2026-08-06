@@ -110,3 +110,7 @@ Sources: [France 24](https://www.france24.com/en/israel-army-says-hit-over-200-h
 </details>
 
 **What to watch:** Whether Trump actually follows through on sinking Iranian ships if they test the blockade, or if this turns into a slower game of chicken with both sides trying not to blow up the ceasefire completely.
+
+---
+
+*Generated on 2026-04-14 using claude-sonnet-4-5*

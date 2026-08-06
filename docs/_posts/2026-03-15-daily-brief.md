@@ -99,3 +99,7 @@ Sources: [Euronews Russian](https://ru.euronews.com/2026/03/15/donald-tramp-uslo
 </details>
 
 **What to watch:** Whether Iran follows through on threats to close Hormuz, and whether Trump's "conditions" comment means serious ceasefire talks are actually underway.
+
+---
+
+*Generated on 2026-03-15 using claude-sonnet-4-5*

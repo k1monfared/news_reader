@@ -119,3 +119,7 @@ Sources: [Euronews](https://www.euronews.com/my-europe/2026/03/26/us-drones-awai
 </details>
 
 **What to watch:** April 6 is the new deadline—if Iran doesn't budge and the strait stays closed, Trump says he'll hit their power grid.
+
+---
+
+*Generated on 2026-03-26 using claude-sonnet-4-5*

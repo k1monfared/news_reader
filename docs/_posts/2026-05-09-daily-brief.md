@@ -88,3 +88,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/05/08/europes-airline
 </details>
 
 **What to watch:** Whether Iran responds to Trump's fourteen-point peace proposal, or whether the Strait of Hormuz exchanges spiral into something neither side can call a ceasefire anymore.
+
+---
+
+*Generated on 2026-05-09 using claude-sonnet-4-5*

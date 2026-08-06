@@ -61,3 +61,7 @@ Sources: [Euronews](http://www.euronews.com/2026/06/18/israel-says-one-soldier-k
 </details>
 
 **What to watch:** Whether Netanyahu actually pulls troops from Lebanon in the next 60 days—or if this peace deal falls apart before it even gets to the permanent stage.
+
+---
+
+*Generated on 2026-06-18 using claude-sonnet-4-5*

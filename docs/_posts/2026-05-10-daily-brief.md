@@ -43,3 +43,7 @@ Sources: [France 24](https://www.france24.com/en/tv-shows/a-propos/20260507-stra
 </details>
 
 **What to watch:** Iran's response to the US proposal could either move talks forward or blow them up—and the drone strikes suggest Tehran's keeping military pressure on while negotiating.
+
+---
+
+*Generated on 2026-05-10 using claude-sonnet-4-5*

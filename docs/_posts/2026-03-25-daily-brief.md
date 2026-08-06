@@ -119,3 +119,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/25/iranian-attacks-a
 </details>
 
 **What to watch:** Whether Iran actually responds formally to the US proposal through Pakistan, or if the gap between Trump's and Iran's accounts of what's happening keeps widening.
+
+---
+
+*Generated on 2026-03-25 using claude-sonnet-4-5*

@@ -153,3 +153,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/10/australia-to-send
 </details>
 
 **What to watch:** Whether Iran actually deploys those more powerful missiles they're threatening, and whether any more tankers try to run the Strait of Hormuz gauntlet.
+
+---
+
+*Generated on 2026-03-10 using claude-sonnet-4-5*

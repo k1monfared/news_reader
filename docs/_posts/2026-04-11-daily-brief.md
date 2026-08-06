@@ -110,3 +110,7 @@ Sources: [Euronews](http://www.euronews.com/2026/04/10/ukrainians-shot-down-iran
 </details>
 
 **What to watch:** Whether Iran actually shows up to negotiate in good faith or uses the Lebanon dispute to walk away from the table.
+
+---
+
+*Generated on 2026-04-11 using claude-sonnet-4-5*

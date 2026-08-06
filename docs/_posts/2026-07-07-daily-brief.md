@@ -41,3 +41,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260707-oil-tanker-
 </details>
 
 **What to watch:** Oil prices when markets open, and whether Iran claims responsibility for the tanker attacks—which will determine how quickly this escalates.
+
+---
+
+*Generated on 2026-07-07 using claude-sonnet-4-5*

@@ -50,3 +50,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/25/iran-negotiator-g
 </details>
 
 **What to watch:** Whether any ships actually try to use Oman's corridor now that Iran has explicitly warned them off.
+
+---
+
+*Generated on 2026-06-25 using claude-sonnet-4-5*

@@ -74,3 +74,7 @@ Sources: [AlJazeera](https://www.aljazeera.com/news/2026/5/21/how-chinese-irania
 </details>
 
 **What to watch:** Whether Trump's national security meeting leads to US military action against Iran, and whether Pakistan can close the diplomatic deal before that happens.
+
+---
+
+*Generated on 2026-05-21 using claude-sonnet-4-5*

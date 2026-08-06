@@ -43,3 +43,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/6/7/100-days-into-i
 </details>
 
 **What to watch:** Whether the ceasefire between Israel and Lebanon can survive more than a few days, or if this becomes the pattern—small provocations followed by retaliation until the whole thing collapses.
+
+---
+
+*Generated on 2026-06-07 using claude-sonnet-4-5*

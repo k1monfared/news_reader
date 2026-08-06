@@ -110,3 +110,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/8/no-popular-support
 </details>
 
 **What to watch:** Whether Mojtaba Khamenei signals any willingness to negotiate or pursues retaliation, which will indicate if this war has a diplomatic endgame or further escalation ahead.
+
+---
+
+*Generated on 2026-03-08 using claude-sonnet-4-5*

@@ -81,3 +81,7 @@ Sources: [Euronews](http://www.euronews.com/2026/06/01/iran-executes-two-men-ove
 </details>
 
 **What to watch:** Whether Iran actually follows through on closing the Strait of Hormuz completely—that would send oil prices through the roof and force a much bigger international response.
+
+---
+
+*Generated on 2026-06-01 using claude-sonnet-4-5*

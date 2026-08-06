@@ -63,3 +63,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/22/irans-enriched-ur
 </details>
 
 **What to watch:** How shipping companies respond to the competing claims over Strait waters—and whether anyone actually tests Iran's new boundaries.
+
+---
+
+*Generated on 2026-05-22 using claude-sonnet-4-5*

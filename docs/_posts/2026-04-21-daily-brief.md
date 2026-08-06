@@ -92,3 +92,7 @@ Sources: [Euronews](http://www.euronews.com/2026/04/21/iran-hangs-man-accused-of
 </details>
 
 **What to watch:** Whether Iran actually shows up in Islamabad and what happens when the ceasefire officially expires—both sides say they're ready to fight if talks fail.
+
+---
+
+*Generated on 2026-04-21 using claude-sonnet-4-5*

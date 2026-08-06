@@ -81,3 +81,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/28/saudi-arabia-heli
 </details>
 
 **What to watch:** Whether Iran makes good on its threat to completely halt ceasefire negotiations—Trump's already said he'll "annihilate" Iran if things escalate further, so we're one miscalculation away from this spinning out of control.
+
+---
+
+*Generated on 2026-06-28 using claude-sonnet-4-5*

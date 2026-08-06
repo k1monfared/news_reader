@@ -101,3 +101,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/30/trump-wants-to-in
 </details>
 
 **What to watch:** Whether Trump's "deal could come soon" talk is real diplomacy or cover for an escalation—and whether Iran's ground invasion warnings are a bluff or a red line that will trigger wider conflict if crossed.
+
+---
+
+*Generated on 2026-03-30 using claude-sonnet-4-5*

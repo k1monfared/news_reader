@@ -21,3 +21,7 @@ Sources: [Reuters](https://jp.reuters.com/markets/commodities/XEDIDPMF5JOHPIEQ7I
 </details>
 
 **What to watch:** Whether Iran confirms or denies Khamenei's reported death and who might succeed him if confirmed.
+
+---
+
+*Generated on 2026-02-28 using claude-sonnet-4-5*

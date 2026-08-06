@@ -63,3 +63,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/features/2026/6/16/lebanese-rush
 </details>
 
 **What to watch:** Friday's Geneva ceremony will show whether this deal actually holds or falls apart over the Israel occupation issue and Strait of Hormuz fee dispute.
+
+---
+
+*Generated on 2026-06-16 using claude-sonnet-4-5*

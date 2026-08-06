@@ -117,3 +117,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/04/10/strait-of-hormu
 </details>
 
 **What to watch:** With talks collapsed and Trump announcing a blockade of the Strait, the ceasefire looks increasingly shaky—watch for whether either side breaks it in the next few days.
+
+---
+
+*Generated on 2026-04-12 using claude-sonnet-4-5*

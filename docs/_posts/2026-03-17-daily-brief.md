@@ -135,3 +135,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/17/gulf-economies
 </details>
 
 **What to watch:** Whether any European allies crack and agree to help Trump in Hormuz—and whether Israel's assassination claims about Larijani get confirmed or denied by Iran.
+
+---
+
+*Generated on 2026-03-17 using claude-sonnet-4-5*

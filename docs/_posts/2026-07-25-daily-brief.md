@@ -81,3 +81,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260725-guterres-ar
 </details>
 
 **What to watch:** Whether the US-Iran talks produce any concrete de-escalation or if the Saudi-Houthi fight becomes its own separate conflict.
+
+---
+
+*Generated on 2026-07-25 using claude-sonnet-4-5*

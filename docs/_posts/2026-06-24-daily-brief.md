@@ -90,3 +90,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/06/24/rutte-meets-tru
 </details>
 
 **What to watch:** Whether the contradiction between Israel's negotiators discussing territorial transfers in Washington and Defence Minister Katz's flat refusal to withdraw blows up the US-Iran talks before the 60-day deadline.
+
+---
+
+*Generated on 2026-06-24 using claude-sonnet-4-5*

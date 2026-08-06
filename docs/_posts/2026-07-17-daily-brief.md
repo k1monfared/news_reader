@@ -77,3 +77,7 @@ Sources: [Euronews](http://www.euronews.com/2026/07/17/eu-bolsters-red-sea-missi
 </details>
 
 **What to watch:** Whether Iran makes good on the reported threat to have Houthis close Bab el-Mandeb, which would effectively shut down both ends of the Middle East's shipping routes.
+
+---
+
+*Generated on 2026-07-17 using claude-sonnet-4-5*

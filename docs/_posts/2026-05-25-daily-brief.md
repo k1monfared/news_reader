@@ -54,3 +54,7 @@ Sources: [Euronews](http://www.euronews.com/2026/05/25/iran-executes-two-over-pr
 </details>
 
 **What to watch:** Whether Iran walks away from talks entirely now that Trump has added the Abraham Accords condition and backed off the urgency to conclude a deal.
+
+---
+
+*Generated on 2026-05-25 using claude-sonnet-4-5*

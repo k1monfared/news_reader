@@ -99,3 +99,7 @@ Sources: [Euronews](http://www.euronews.com/2026/04/20/turkey-rallies-global-mid
 </details>
 
 **What to watch:** Whether the US delegation shows up in Islamabad Monday even though Iran's a no-show, and if Iran follows through on its retaliation threats for the seized ship.
+
+---
+
+*Generated on 2026-04-17 using claude-sonnet-4-5*

@@ -61,3 +61,7 @@ Sources: [Euronews (Italian)](https://it.euronews.com/2026/02/26/la-portaerei-us
 </details>
 
 **What to watch:** Whether the Geneva session produces any concrete commitments on sanctions relief and nuclear dismantlement, or if this is just going through the motions before military options get more serious.
+
+---
+
+*Generated on 2026-02-26 using claude-sonnet-4-5*

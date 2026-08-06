@@ -101,3 +101,7 @@ Sources: [Euronews](http://www.euronews.com/travel/2026/07/21/middle-east-flight
 </details>
 
 **What to watch:** Whether Iran follows through on those parliamentary threats to send ground forces into Kuwait or Bahrain—that would turn this into a completely different war.
+
+---
+
+*Generated on 2026-07-21 using claude-sonnet-4-5*

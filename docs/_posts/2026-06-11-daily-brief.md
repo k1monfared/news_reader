@@ -61,3 +61,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/06/11/eurogroup-chief
 </details>
 
 **What to watch:** Whether the US actually moves to occupy Iranian oil facilities or if this is negotiating pressure, and how Iran responds to the threat.
+
+---
+
+*Generated on 2026-06-11 using claude-sonnet-4-5*

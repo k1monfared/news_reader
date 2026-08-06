@@ -101,3 +101,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/features/2026/5/23/missiles-to-m
 </details>
 
 **What to watch:** Whether Iran accepts this new US proposal or Trump follows through on his threat to resume strikes if talks collapse.
+
+---
+
+*Generated on 2026-05-23 using claude-sonnet-4-5*

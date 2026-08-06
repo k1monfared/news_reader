@@ -72,3 +72,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/22/how-china-is-gain
 </details>
 
 **What to watch:** Whether Iran actually puts together a proposal now that they have more time, or if the ship seizures in the Strait signal they're not interested in talking.
+
+---
+
+*Generated on 2026-04-22 using claude-sonnet-4-5*

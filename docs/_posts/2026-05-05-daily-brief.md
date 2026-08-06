@@ -61,3 +61,7 @@ Sources: [France24](https://www.france24.com/en/trump-told-congress-that-hostili
 </details>
 
 **What to watch:** Whether Iran keeps shooting at US Navy ships as the escort operation continues, and whether the UAE actually follows through on its threat to respond to the Fujairah attack.
+
+---
+
+*Generated on 2026-05-05 using claude-sonnet-4-5*

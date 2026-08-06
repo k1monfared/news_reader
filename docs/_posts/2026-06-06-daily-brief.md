@@ -83,3 +83,7 @@ Sources: [Euronews](http://www.euronews.com/2026/06/06/fossil-fuel-imports-have-
 </details>
 
 **What to watch:** Whether Washington and Tehran can get talks back on track before the next missile exchange makes the ceasefire irrelevant.
+
+---
+
+*Generated on 2026-06-06 using claude-sonnet-4-5*

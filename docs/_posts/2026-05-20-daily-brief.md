@@ -52,3 +52,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/05/20/xi-tells-putin-
 </details>
 
 **What to watch:** Whether Trump follows through on his threat to strike Iran in the next few days, and whether Tehran actually opens new fronts or is bluffing.
+
+---
+
+*Generated on 2026-05-20 using claude-sonnet-4-5*

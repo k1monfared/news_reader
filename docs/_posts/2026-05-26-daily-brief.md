@@ -81,3 +81,7 @@ Sources: [France24](https://www.france24.com/en/fresh-strikes-test-fragile-israe
 </details>
 
 **What to watch:** Whether the overnight US strikes derail the 14-point framework Iran says it's finalizing in Qatar, or whether both sides ignore the attack and keep negotiating.
+
+---
+
+*Generated on 2026-05-26 using claude-sonnet-4-5*

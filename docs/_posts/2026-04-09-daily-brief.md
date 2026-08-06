@@ -101,3 +101,7 @@ Sources: [Euronews](http://www.euronews.com/2026/04/09/iran-rules-out-any-restri
 </details>
 
 **What to watch:** Friday's talks in Islamabad will show whether this ceasefire has any chance of becoming a real peace deal, or if it was just a two-week pause before things blow up again.
+
+---
+
+*Generated on 2026-04-09 using claude-sonnet-4-5*

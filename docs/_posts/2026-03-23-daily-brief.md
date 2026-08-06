@@ -128,3 +128,7 @@ Sources: [Reuters](https://jp.reuters.com/markets/commodities/OLA5GS34FZN4JOODQ3
 </details>
 
 **What to watch:** Trump's five-day delay expires this weekend, and Iran is holding firm that it won't back down—if those dueling positions don't shift, we're right back to the brink by Friday.
+
+---
+
+*Generated on 2026-03-23 using claude-sonnet-4-5*

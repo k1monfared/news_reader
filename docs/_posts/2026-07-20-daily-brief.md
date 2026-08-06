@@ -70,3 +70,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/20/who-is-khalil-al-
 </details>
 
 **What to watch:** Whether mediators can actually get a 10-day ceasefire to stick while Iran's military and diplomatic wings are sending completely opposite signals.
+
+---
+
+*Generated on 2026-07-20 using claude-sonnet-4-5*

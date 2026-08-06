@@ -41,3 +41,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260514-lebanon-and
 </details>
 
 **What to watch:** Whether the Israel-Lebanon ceasefire actually gets extended past Sunday, and whether anyone claims responsibility for the UAE nuclear plant attack.
+
+---
+
+*Generated on 2026-05-17 using claude-sonnet-4-5*

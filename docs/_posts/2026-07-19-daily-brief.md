@@ -59,3 +59,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260718-khamenei-t
 </details>
 
 **What to watch:** How the US responds to its first combat deaths—Trump has signaled he wants to "shift action," which could mean expanding targets or changing strategy.
+
+---
+
+*Generated on 2026-07-19 using claude-sonnet-4-5*

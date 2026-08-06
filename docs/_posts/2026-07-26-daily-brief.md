@@ -72,3 +72,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/26/anti-wa
 </details>
 
 **What to watch:** Whether the US resumes bombing once it restocks munitions, and whether Iran interprets the pause as weakness or an off-ramp.
+
+---
+
+*Generated on 2026-07-26 using claude-sonnet-4-5*
