@@ -10696,22 +10696,70 @@
   "bbc": {
     "display_name": "بی‌بی‌سی",
     "notes": "Mainstream Western public broadcaster, UK-aligned framing on diplomatic disputes",
-    "biases": []
+    "biases": [
+      {
+        "pattern": "قاب‌بندی مرجعیت راستی‌آزمایی درون‌سازمانی",
+        "detail": "از برند BBC Verify استفاده می‌کند تا بررسی تصاویر انجام‌شده توسط خود رسانه را به‌عنوان قضاوتی قطعی و مقتدرانه جلوه دهد.",
+        "debias": "تلاش برای راستی‌آزمایی را بدون برندسازی آن به‌عنوان داور نهادی حقیقت توصیف کنید.",
+        "date_added": "2026-08-22",
+        "status": "suggested",
+        "example_text": "BBC Verify تصاویر دو حمله مرگبار در کمتر از ۲۴ ساعت در غزه را بررسی می‌کند.",
+        "example_url": "https://www.bbc.co.uk/news/videos/cp3rgxzk5x2o?at_medium=RSS&at_campaign=rss",
+        "unbiased_text": "BBC تصاویر دو حمله مرگبار در کمتر از ۲۴ ساعت در غزه را بررسی کرد.",
+        "pattern_en": "In-House Verification Authority Framing"
+      }
+    ]
   },
   "jpost": {
     "display_name": "جروزالم پست",
     "notes": "Israeli perspective, security-first framing, tends toward government-aligned coverage",
-    "biases": []
+    "biases": [
+      {
+        "pattern": "چارچوب‌بندی پیش‌توجیه حمله قریب‌الوقوع",
+        "detail": "هدف را «تروریست» می‌نامد و با ادعای قریب‌الوقوع بودن حمله، بدون شواهد مستقل، حمله را از پیش مشروع جلوه می‌دهد.",
+        "debias": "ارزیابی تهدید را به IDF نسبت دهید و به‌جای پیش‌فرض گرفتن قصد و قریب‌الوقوع بودن، از توصیف‌های خنثی استفاده کنید.",
+        "date_added": "2026-08-22",
+        "status": "suggested",
+        "example_text": "IDF تروریست سوری را که آماده انجام حمله تروریستی قریب‌الوقوع به سربازان اسرائیلی بود هدف قرار داد",
+        "example_url": "https://www.jpost.com/middle-east/article-906244",
+        "unbiased_text": "IDF می‌گوید یک فرد سوری را که به گفته آن در حال برنامه‌ریزی حمله به سربازان اسرائیلی بود هدف قرار داده است",
+        "pattern_en": "Imminent Attack Pre-Justification Framing"
+      }
+    ]
   },
   "mee": {
     "display_name": "میدل ایست آی",
     "notes": "Independent regional outlet, critical of US/Israeli intervention",
-    "biases": []
+    "biases": [
+      {
+        "pattern": "چارچوب‌بندی اغراق‌آمیز نابودی کامل",
+        "detail": "آسیب و ویرانی در غزه را به‌عنوان «نابودی» کامل توصیف می‌کند، به‌گونه‌ای که محو کامل و برگشت‌ناپذیر را القا می‌کند به‌جای اشاره به تخریب‌های مشخص و مستندشده.",
+        "debias": "زبان مطلق‌گرایانهٔ «نابودی» را با توصیف‌های قابل سنجش از میزان خسارت و آوارگی جایگزین کنید.",
+        "date_added": "2026-08-22",
+        "status": "suggested",
+        "example_text": "پس از نابودی غزه به دست اسرائیل، آیا هرگز می‌توانم به خانه بازگردم؟",
+        "example_url": "https://www.middleeasteye.net/opinion/after-israels-annihilation-gaza-can-i-ever-return-home",
+        "unbiased_text": "پس از ویرانی گسترده در غزه، آیا هرگز می‌توانم به خانه بازگردم؟",
+        "pattern_en": "Total Annihilation Hyperbole Framing"
+      }
+    ]
   },
   "npr": {
     "display_name": "ان‌پی‌آر",
     "notes": "US public broadcaster, measured tone, centers American policy debate",
-    "biases": []
+    "biases": [
+      {
+        "pattern": "دراماتیک‌سازی فروپاشی در آستانه ضرب‌الاجل",
+        "detail": "پایان مذاکرات تجاری را به‌صورت یک «فروپاشی» نمایشی هم‌زمان با ضرب‌الاجل تعرفه‌ها قاب‌بندی می‌کند و به‌جای نتیجه، بر شکست تأکید دارد.",
+        "debias": "به‌صورت خنثی بیان کنید که مذاکرات پیش از اجرایی شدن ضرب‌الاجل تعرفه‌ها بدون توافق پایان یافت.",
+        "date_added": "2026-08-22",
+        "status": "suggested",
+        "example_text": "مذاکرات تجاری آمریکا-کانادا درست پیش از ضرب‌الاجل تعرفه‌ها فرو می‌پاشد",
+        "example_url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
+        "unbiased_text": "مذاکرات تجاری آمریکا-کانادا پیش از ضرب‌الاجل تعرفه‌ها بدون توافق پایان یافت",
+        "pattern_en": "Deadline Collapse Dramatization"
+      }
+    ]
   },
   "dw": {
     "display_name": "دویچه وله",
