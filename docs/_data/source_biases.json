@@ -6320,6 +6320,36 @@
         "example_text": "A Palestinian-American has raised the US flag on his home besieged by Israeli settlers, as the United States renewed criticism of the siege that has generated condemnation around the world.",
         "example_url": "https://www.france24.com/en/middle-east/20260819-palestinian-american-raises-u-s-flag-over-besieged-west-bank-home",
         "unbiased_text": "A Palestinian-American resident says his home in the West Bank has been surrounded by Israeli settlers amid US criticism of the incident."
+      },
+      {
+        "pattern": "Unrelated Incident Temporal Linkage",
+        "detail": "Places Trump's threat to bomb Oman directly after an unrelated Iranian drone attack on Iraqi Kurdistan in the same lede, implying a single escalatory sequence without evidence of connection.",
+        "debias": "Report each incident in separate context paragraphs without sequential 'after' framing that suggests causation.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "His threat came after the prime minister's office in Iraqi Kurdistan was targeted by two Iranian drones overnight, authorities said Monday.",
+        "example_url": "https://www.france24.com/en/middle-east/20260817-middle-east-live-us-envoy-kushner-to-meet-netanyahu-after-talks-with-hamas",
+        "unbiased_text": "Separately, authorities said the prime minister's office in Iraqi Kurdistan was targeted by two Iranian drones overnight."
+      },
+      {
+        "pattern": "Army Neutral Mediator Framing",
+        "detail": "Frames the Israeli army as a neutral buffer delivering aid and preventing clashes, deflecting scrutiny of army-settler coordination while settlers besiege homes.",
+        "debias": "Attribute the army's role and settler actions separately and seek independent verification of each actor's conduct.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "while the army works to prevent clashes between the settlers and activists",
+        "example_url": "https://www.france24.com/en/west-bank-activist-recounts-life-under-settler-siege-in-qusra",
+        "unbiased_text": "while the army was present as settlers surrounded the homes"
+      },
+      {
+        "pattern": "Anonymous Superlative Threat Attribution",
+        "detail": "Uses unattributed passive construction 'has been described as the biggest threat' to inflate the diplomatic impact of Israeli strikes on negotiations.",
+        "debias": "Attribute significance assessments to a named source or remove the superlative and report the strikes factually.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "in what has been described as the biggest threat to the peace talks since the June agreement",
+        "example_url": "https://www.france24.com/en/south-lebanon-how-will-israeli-strikes-affect-negotiations",
+        "unbiased_text": "as negotiations continue following the June agreement"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
