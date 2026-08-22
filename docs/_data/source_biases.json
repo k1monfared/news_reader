@@ -9640,22 +9640,66 @@
   "bbc": {
     "display_name": "BBC",
     "notes": "Mainstream Western public broadcaster, UK-aligned framing on diplomatic disputes",
-    "biases": []
+    "biases": [
+      {
+        "pattern": "In-House Verification Authority Framing",
+        "detail": "Invokes BBC Verify branding to present the outlet's own footage review as definitive authoritative judgment.",
+        "debias": "Describe the verification effort without branding it as an institutional arbiter of truth.",
+        "date_added": "2026-08-22",
+        "status": "suggested",
+        "example_text": "BBC Verify looks at footage from two deadly strikes in under 24 hours in Gaza.",
+        "example_url": "https://www.bbc.co.uk/news/videos/cp3rgxzk5x2o?at_medium=RSS&at_campaign=rss",
+        "unbiased_text": "The BBC examined footage from two deadly strikes in under 24 hours in Gaza."
+      }
+    ]
   },
   "jpost": {
     "display_name": "The Jerusalem Post",
     "notes": "Israeli perspective, security-first framing, tends toward government-aligned coverage",
-    "biases": []
+    "biases": [
+      {
+        "pattern": "Imminent Attack Pre-Justification Framing",
+        "detail": "Labels target as 'terrorist' and asserts an imminent attack to pre-legitimize a strike without independent evidence.",
+        "debias": "Attribute threat assessment to the IDF and use neutral descriptors instead of presupposing intent and imminence.",
+        "date_added": "2026-08-22",
+        "status": "suggested",
+        "example_text": "IDF strikes Syrian terrorist poised to carry out imminent terror attack on Israeli soldiers",
+        "example_url": "https://www.jpost.com/middle-east/article-906244",
+        "unbiased_text": "IDF says it struck a Syrian individual it said was planning an attack on Israeli soldiers"
+      }
+    ]
   },
   "mee": {
     "display_name": "Middle East Eye",
     "notes": "Independent regional outlet, critical of US/Israeli intervention",
-    "biases": []
+    "biases": [
+      {
+        "pattern": "Total Annihilation Hyperbole Framing",
+        "detail": "Describes damage in Gaza as complete 'annihilation,' implying total and irreversible erasure rather than specific documented destruction.",
+        "debias": "Replace absolute annihilation language with measurable descriptions of damage and displacement.",
+        "date_added": "2026-08-22",
+        "status": "suggested",
+        "example_text": "After Israel's annihilation of Gaza, can I ever return home?",
+        "example_url": "https://www.middleeasteye.net/opinion/after-israels-annihilation-gaza-can-i-ever-return-home",
+        "unbiased_text": "After extensive destruction in Gaza, can I ever return home?"
+      }
+    ]
   },
   "npr": {
     "display_name": "NPR",
     "notes": "US public broadcaster, measured tone, centers American policy debate",
-    "biases": []
+    "biases": [
+      {
+        "pattern": "Deadline Collapse Dramatization",
+        "detail": "Frames the end of trade talks as a dramatic 'collapse' timed to the tariff deadline, emphasizing failure over outcome.",
+        "debias": "State neutrally that talks ended without agreement before the tariff deadline took effect.",
+        "date_added": "2026-08-22",
+        "status": "suggested",
+        "example_text": "U.S.-Canada trade talks collapse just before deadline for tariffs",
+        "example_url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
+        "unbiased_text": "U.S.-Canada trade talks ended without agreement before the tariff deadline"
+      }
+    ]
   },
   "dw": {
     "display_name": "Deutsche Welle",
