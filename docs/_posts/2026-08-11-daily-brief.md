@@ -4,8 +4,8 @@ title: "Daily Brief: August 11, 2026"
 date: 2026-08-11
 categories: [daily-brief]
 sources_down: []
-generated_at: "2026-08-11 06:30 UTC-07:00"
-models_used: ["deepseek-v4-flash-free"]
+generated_at: "2026-08-21 22:42 UTC-07:00"
+models_used: ["muse-spark-1.2-contributor-free"]
 ---
 
 **Key development:** Trump and Iran are trading reparations demands, which just shoved a deal to reopen the Strait of Hormuz further out of reach — and oil prices are already climbing.
@@ -24,7 +24,7 @@ Sources: [France24](https://www.france24.com/en/iran-oman-near-deal-on-strait-of
 ## Economy
 
 <details markdown="block">
-<summary markdown="span">**(Update) Oil prices and US bond yields both climbed after Trump answered Iran's reparations demand with a sweeping counterclaim of his own.** Every time the two sides trade demands, a Hormuz deal moves further away — and markets price in the risk of that critical waterway staying shut. *(Euronews)*</summary>
+<summary markdown="span">**(Update) Oil prices and US bond yields both climbed after Trump answered Iran's reparations demand with a sweeping counterclaim of his own.** Every time the two sides trade demands, a Hormuz deal moves further away — and markets price in the risk of that critical waterway staying shut. *(Euronews)* [UNCONFIRMED]</summary>
 
 Context: Iran asked for war reparations; Trump countered with a sweeping claim of his own on Tuesday. That back-and-forth pushed a reopening of the Strait further out of reach, and both oil and bond markets reacted immediately.
 
@@ -46,7 +46,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260810-iran-backed
 ## Inside Iran
 
 <details markdown="block">
-<summary markdown="span">**(Update) Iran's supreme leader just put a Revolutionary Guards general in charge of the entire armed forces.** That's a major consolidation of military power under the Guards, happening the same day Iran doubled down on keeping the Strait of Hormuz closed until its demands are met. *(France24)*</summary>
+<summary markdown="span">**(Update) Iran's supreme leader just put a Revolutionary Guards general in charge of the entire armed forces.** That's a major consolidation of military power under the Guards, happening the same day Iran doubled down on keeping the Strait of Hormuz closed until its demands are met. *(France24)* [UNCONFIRMED]</summary>
 
 Context: Mojtaba Khamenei appointed Guards General Ali Abdollahi to the top military post on Monday and confirmed a new Guards commander. The shakeup tightens the Guards' grip on Iran's military as the standoff with the US drags on.
 
@@ -57,7 +57,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260810-middle-east
 ## Regional Actors
 
 <details markdown="block">
-<summary markdown="span">Iraq's Kurdish region says it's lost 70 percent of its trade to the US-Iran war. The semi-autonomous KRG is caught in the middle of a regional conflict, and the economic bleed is staggering. *(Al Jazeera)*</summary>
+<summary markdown="span">Iraq's Kurdish region says it's lost 70 percent of its trade to the US-Iran war. The semi-autonomous KRG is caught in the middle of a regional conflict, and the economic bleed is staggering. *(Al Jazeera)* [UNCONFIRMED]</summary>
 
 Context: The Kurdistan Regional Government says 70 percent of its trade has been cut off as the conflict grinds on. It's a reminder that the war's costs aren't just military — entire regions are being economically strangled.
 
