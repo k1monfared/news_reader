@@ -6360,6 +6360,36 @@
         "example_text": "Critics warn that Israel's plan to transfer law enforcement powers in the West Bank could further entrench control over the territory.",
         "example_url": "https://www.france24.com/en/west-bank-un-delivers-aid-to-besieged-palestinian-families-in-qusra",
         "unbiased_text": "Critics warn that a proposed Israeli plan to transfer law enforcement powers in the West Bank could further entrench control over the territory, while settlers have separately cut off Palestinian families from food, water, and electricity."
+      },
+      {
+        "pattern": "Stalemate as Settled Fact Framing",
+        "detail": "Presents the contested trajectory of the war as a definitive stalemate without attribution or evidence, implying US pressure is a response to deadlock.",
+        "debias": "Attribute battlefield assessments to specific sources and avoid presenting contested outcomes as established fact.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "as President Donald Trump seeks to intensify pressure on Tehran amid a stalemate in the war and growing domestic criticism.",
+        "example_url": "https://www.france24.com/en/middle-east/20260821-us-warns-allies-and-china-to-join-iran-economic-pressure-campaign",
+        "unbiased_text": "as President Donald Trump seeks to intensify pressure on Tehran amid what analysts describe as a deadlock in the war."
+      },
+      {
+        "pattern": "Pejorative Size Adjective Editorialization",
+        "detail": "Uses the loaded adjective 'sprawling' to cast the E1 project as excessive and invasive before any neutral scale is established.",
+        "debias": "Remove evaluative adjectives and use neutral, factual descriptors for scale or location.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "The sprawling \"E1\" development, which like all Israeli settlements in the occupied Palestinian territory is illegal under international law, would further cut Palestinian-majority east Jerusalem off from the West Bank.",
+        "example_url": "https://www.france24.com/en/middle-east/20260820-france-germany-uk-italy-slam-israel-illegal-e1-west-bank-settler-project",
+        "unbiased_text": "The \"E1\" development, a planned settlement project in the occupied West Bank, would further cut Palestinian-majority east Jerusalem off from the West Bank."
+      },
+      {
+        "pattern": "International Warrant Authority Presumption",
+        "detail": "Frames Turkey's unilateral warrant as an 'international arrest warrant' with implied global validity without clarifying its national origin and limited enforceability.",
+        "debias": "Specify the issuing jurisdiction and note that enforcement depends on other states' cooperation.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "Turkey issued an international arrest warrant for Israel's Prime Minister Benjamin Netanyahu as part of an investigation into Israel's interception of an aid flotilla for Gaza",
+        "example_url": "https://www.france24.com/en/middle-east/20260821-middle-east-live-hormuz-shipping-traffic-falls-as-iran-us-talks-stall",
+        "unbiased_text": "Turkey issued an arrest warrant for Israel's Prime Minister Benjamin Netanyahu as part of an investigation into Israel's interception of an aid flotilla for Gaza and said it would seek its enforcement abroad"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
