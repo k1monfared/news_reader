@@ -3576,6 +3576,26 @@
         "example_text": "Misread as passive, the Gulf is quietly ending fifty years of dependence",
         "example_url": "https://www.aljazeera.com/opinions/2026/8/4/the-gulf-can-no-longer-outsource-its-security?traffic_source=rss",
         "unbiased_text": "Gulf states reassess security partnerships following Iran conflict."
+      },
+      {
+        "pattern": "Populist debt burden framing",
+        "detail": "Frames the national debt milestone as a direct personal liability for citizens through 'left with the bill' language rather than as a fiscal statistic.",
+        "debias": "Report the debt figure and fiscal context without personalizing the burden to the general public.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "US debt tops $40 trillion, Americans left with the bill",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/us-debt-tops-40-trillion-americans-left-with-the-bill-3?traffic_source=rss",
+        "unbiased_text": "US national debt surpasses $40 trillion for the first time"
+      },
+      {
+        "pattern": "Pro-Israel spending antagonist framing",
+        "detail": "Attributes electoral opposition financing specifically to pro-Israel interests to frame the contest as grassroots progressive versus organized lobby power.",
+        "debias": "Describe campaign spending amounts and sources without singling out a specific ideological lobby as the narrative antagonist.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "California lawmaker overcomes pro-Israel spending to win special election",
+        "example_url": "https://www.aljazeera.com/news/2026/8/22/california-lawmaker-overcomes-pro-israel-spending-to-win-special-election?traffic_source=rss",
+        "unbiased_text": "California lawmaker wins special election despite millions in outside spending"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -6290,6 +6310,16 @@
         "example_text": "If it disarms, Hamas would 'take away Israel's rationale' to occupy Gaza",
         "example_url": "https://www.france24.com/en/if-it-disarms-hamas-would-take-away-israel-s-rationale-to-occupy-gaza",
         "unbiased_text": "Hamas disarmament would address Israel's stated security concerns in Gaza."
+      },
+      {
+        "pattern": "US flag protective symbolism elevation",
+        "detail": "Elevates the raising of the US flag as a deliberate protective tactic against settler siege, emphasizing American identity as a shield.",
+        "debias": "Report the property and security dispute factually without foregrounding symbolic flag display as a deterrent.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "A Palestinian-American has raised the US flag on his home besieged by Israeli settlers, as the United States renewed criticism of the siege that has generated condemnation around the world.",
+        "example_url": "https://www.france24.com/en/middle-east/20260819-palestinian-american-raises-u-s-flag-over-besieged-west-bank-home",
+        "unbiased_text": "A Palestinian-American resident says his home in the West Bank has been surrounded by Israeli settlers amid US criticism of the incident."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -9523,6 +9553,16 @@
         "example_text": "'You literally can't': AI startup Orchid sparks backlash over its 'second brain' assistant",
         "example_url": "http://www.euronews.com/culture/2026/08/03/you-literally-cant-ai-startup-orchid-sparks-backlash-over-its-second-brain-assistant",
         "unbiased_text": "AI startup Orchid faces criticism over claims its assistant can manage personal relationships and memories"
+      },
+      {
+        "pattern": "Children's cartoon sanctions geopoliticization",
+        "detail": "Extends wartime sanctions framing to a globally popular children's cartoon, linking youth entertainment to state propaganda narratives.",
+        "debias": "Report sanctions on media entities based on verifiable affiliations without attributing geopolitical influence to children's viewership.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "Ukraine sanctioned the creators of the Masha and the Bear cartoon — one of Russia’s most successful cultural exports — accusing the globally popular children’s cartoon of spreading pro-Russian narratives to young audiences.",
+        "example_url": "http://www.euronews.com/my-europe/2026/08/21/ukraine-sanctions-masha-and-the-bear-cartoon-over-alleged-russian-propaganda",
+        "unbiased_text": "Ukraine sanctioned the company behind the Masha and the Bear cartoon, citing alleged ties to the Russian state."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
