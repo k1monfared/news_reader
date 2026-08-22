@@ -6350,6 +6350,16 @@
         "example_text": "in what has been described as the biggest threat to the peace talks since the June agreement",
         "example_url": "https://www.france24.com/en/south-lebanon-how-will-israeli-strikes-affect-negotiations",
         "unbiased_text": "as negotiations continue following the June agreement"
+      },
+      {
+        "pattern": "Settler-state policy convergence framing",
+        "detail": "The article links settler harassment and infrastructure cutoffs directly to an Israeli government plan to transfer law enforcement powers, framing settler actions as both previewing and enabling formal state annexation policy.",
+        "debias": "Report settler actions and government policy proposals as separate developments; avoid presenting one as the inevitable implementation of the other without direct evidence of coordination.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "Critics warn that Israel's plan to transfer law enforcement powers in the West Bank could further entrench control over the territory.",
+        "example_url": "https://www.france24.com/en/west-bank-un-delivers-aid-to-besieged-palestinian-families-in-qusra",
+        "unbiased_text": "Critics warn that a proposed Israeli plan to transfer law enforcement powers in the West Bank could further entrench control over the territory, while settlers have separately cut off Palestinian families from food, water, and electricity."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
