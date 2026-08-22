@@ -3981,6 +3981,28 @@
         "example_url": "https://www.aljazeera.com/opinions/2026/8/4/the-gulf-can-no-longer-outsource-its-security?traffic_source=rss",
         "unbiased_text": "کشورهای خلیج فارس مشارکت‌های امنیتی را پس از درگیری با ایران مورد بازبینی قرار می‌دهند.",
         "pattern_en": "Security architecture outsourcing critique elevation"
+      },
+      {
+        "pattern": "قاب‌بندی پوپولیستی بار بدهی",
+        "detail": "نقطه عطف بدهی ملی را به‌جای یک آمار مالی، از طریق عبارت «رها شدن با صورتحساب» به‌صورت یک مسئولیت شخصی مستقیم برای شهروندان قاب‌بندی می‌کند.",
+        "debias": "رقم بدهی و زمینه مالی آن را بدون شخصی‌سازی بار آن برای عموم مردم گزارش کنید.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "بدهی آمریکا از ۴۰ تریلیون دلار فراتر رفت، آمریکایی‌ها با صورتحساب رها شدند",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/us-debt-tops-40-trillion-americans-left-with-the-bill-3?traffic_source=rss",
+        "unbiased_text": "بدهی ملی آمریکا برای اولین بار از ۴۰ تریلیون دلار فراتر رفت",
+        "pattern_en": "Populist debt burden framing"
+      },
+      {
+        "pattern": "قاب‌بندی هزینه‌کرد حامی اسرائیل به‌عنوان آنتاگونیست",
+        "detail": "تأمین مالی مخالفان انتخاباتی را به‌طور خاص به منافع حامی اسرائیل نسبت می‌دهد تا رقابت را به‌صورت تقابل جنبش مردمی مترقی در برابر قدرت سازمان‌یافتهٔ لابی به تصویر بکشد.",
+        "debias": "مبالغ و منابع هزینه‌کرد کارزار انتخاباتی را بدون برجسته کردن یک لابی ایدئولوژیک خاص به‌عنوان آنتاگونیست روایت، توصیف کنید.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "قانون‌گذار کالیفرنیا با غلبه بر هزینه‌کرد حامیان اسرائیل در انتخابات ویژه پیروز شد",
+        "example_url": "https://www.aljazeera.com/news/2026/8/22/california-lawmaker-overcomes-pro-israel-spending-to-win-special-election?traffic_source=rss",
+        "unbiased_text": "قانون‌گذار کالیفرنیا با وجود میلیون‌ها دلار هزینه‌کرد خارجی در انتخابات ویژه پیروز شد",
+        "pattern_en": "Pro-Israel spending antagonist framing"
       }
     ]
   },
@@ -6973,6 +6995,17 @@
         "example_url": "https://www.france24.com/en/if-it-disarms-hamas-would-take-away-israel-s-rationale-to-occupy-gaza",
         "unbiased_text": "خلع سلاح حماس به دغدغه‌های امنیتی اعلام‌شده اسرائیل در غزه رسیدگی خواهد کرد.",
         "pattern_en": "Rationale-removal strategic benefit attribution"
+      },
+      {
+        "pattern": "برجسته‌سازی نمادگرایی حفاظتی پرچم آمریکا",
+        "detail": "برافراشتن پرچم آمریکا را به‌عنوان یک تاکتیک حفاظتی عامدانه در برابر محاصره شهرک‌نشینان برجسته می‌کند و بر هویت آمریکایی به‌عنوان سپر تأکید دارد.",
+        "debias": "اختلاف بر سر مالکیت و امنیت را به‌صورت واقعی و بدون برجسته کردن نمایش نمادین پرچم به‌عنوان عامل بازدارنده گزارش کنید.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "یک فلسطینی-آمریکایی پرچم آمریکا را بر فراز خانه خود که توسط شهرک‌نشینان اسرائیلی محاصره شده برافراشته است، در حالی که ایالات متحده انتقاد خود را از این محاصره که محکومیت جهانی را به دنبال داشته تجدید کرده است.",
+        "example_url": "https://www.france24.com/en/middle-east/20260819-palestinian-american-raises-u-s-flag-over-besieged-west-bank-home",
+        "unbiased_text": "یک ساکن فلسطینی-آمریکایی می‌گوید خانه‌اش در کرانه باختری توسط شهرک‌نشینان اسرائیلی محاصره شده است، در حالی که این حادثه با انتقاد آمریکا مواجه شده است.",
+        "pattern_en": "US flag protective symbolism elevation"
       }
     ]
   },
@@ -10569,6 +10602,17 @@
         "example_url": "http://www.euronews.com/culture/2026/08/03/you-literally-cant-ai-startup-orchid-sparks-backlash-over-its-second-brain-assistant",
         "unbiased_text": "استارتاپ هوش مصنوعی Orchid با انتقاد در مورد ادعاهایش مبنی بر اینکه دستیارش می‌تواند روابط شخصی و خاطرات را مدیریت کند، مواجه شد",
         "pattern_en": "Second-brain mockery through quotation structure"
+      },
+      {
+        "pattern": "ژئوپلیتیکی‌سازی تحریم کارتون کودکان",
+        "detail": "قاب‌بندی تحریم‌های دوران جنگ را به یک کارتون محبوب جهانی کودکان تعمیم می‌دهد و سرگرمی کودکان را به روایت‌های تبلیغاتی حکومتی پیوند می‌زند.",
+        "debias": "تحریم‌ها علیه نهادهای رسانه‌ای را بر اساس وابستگی‌های قابل راستی‌آزمایی گزارش کنید، بدون آنکه نفوذ ژئوپلیتیک را به تماشای کودکان نسبت دهید.",
+        "date_added": "2026-08-21",
+        "status": "suggested",
+        "example_text": "اوکراین سازندگان کارتون ماشا و خرس — یکی از موفق‌ترین صادرات فرهنگی روسیه — را تحریم کرد و این کارتونِ محبوبِ جهانیِ کودکان را به انتشار روایت‌های طرفدار روسیه برای مخاطبان کم‌سال متهم کرد.",
+        "example_url": "http://www.euronews.com/my-europe/2026/08/21/ukraine-sanctions-masha-and-the-bear-cartoon-over-alleged-russian-propaganda",
+        "unbiased_text": "اوکراین شرکت سازندهٔ کارتون ماشا و خرس را با استناد به ادعای ارتباط آن با دولت روسیه تحریم کرد.",
+        "pattern_en": "Children's cartoon sanctions geopoliticization"
       }
     ]
   }
