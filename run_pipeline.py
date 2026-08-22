@@ -18,6 +18,15 @@ logging.basicConfig(
 )
 logger = logging.getLogger("pipeline")
 
+# Stages whose failure means the run did not deliver what it promised.
+# English set: without these there is no usable brief. Farsi set: the Farsi
+# edition is missing while English still ships. Non-critical stages
+# (dedup, categorize, track_developments, editorial, verify, mailer) each
+# degrade gracefully and must not fail the CI run by themselves.
+CRITICAL_STAGES_EN = {"fetch", "filter", "summarize", "publish"}
+CRITICAL_STAGES_FA = {"translate_fa"}
+CRITICAL_STAGES = CRITICAL_STAGES_EN | CRITICAL_STAGES_FA
+
 
 def get_timezone_offset(tz_name: str) -> timezone:
     """Get timezone offset from name. Supports America/Vancouver = UTC-7 (PDT)."""
@@ -118,7 +127,7 @@ def run_pipeline(target_date: str | None = None, backfill: bool = False) -> str:
     from llm_client import AuditedLLMClient
     from audit_logger import AuditedHTTPClient
 
-    llm_client = AuditedLLMClient(str(run_dir), config.budget)
+    llm_client = AuditedLLMClient(str(run_dir), config.budget, config.models)
     http_client = AuditedHTTPClient(str(run_dir))
 
     stage_order = [
@@ -190,15 +199,39 @@ def run_pipeline(target_date: str | None = None, backfill: bool = False) -> str:
     meta_path.write_text(json.dumps(meta.model_dump(), indent=2))
 
     # Update latest symlink only if no critical errors
-    critical_stages = {"fetch", "filter", "summarize"}
-    failed_critical = [s for s in critical_stages if meta.stages.get(s, {}).get("status") == "failed"]
+    failed_critical = [
+        s for s in CRITICAL_STAGES
+        if meta.stages.get(s, {}).get("status") == "failed"
+    ]
+    failed_en = [s for s in failed_critical if s in CRITICAL_STAGES_EN]
+    failed_fa = [s for s in failed_critical if s in CRITICAL_STAGES_FA]
     if not failed_critical:
         update_latest_symlink(data_dir, run_id)
         logger.info(f"Run {run_id} completed successfully. Latest symlink updated.")
     else:
-        logger.warning(f"Run {run_id} had critical failures: {failed_critical}. Symlink not updated.")
+        if failed_en:
+            logger.error(f"Run {run_id} failed English critical stages: {failed_en}.")
+        if failed_fa:
+            logger.error(f"Run {run_id} failed Farsi critical stages: {failed_fa}.")
 
     return run_id
+
+
+def critical_failures(data_dir: str, run_id: str) -> list[str]:
+    """Return the critical stages recorded as failed in a run's meta.
+
+    Reads ``run_meta.json`` so callers (e.g. ``main``) can decide the
+    process exit code after ``run_pipeline`` has finished.
+    """
+    meta_path = Path(data_dir) / "runs" / run_id / "run_meta.json"
+    try:
+        meta = json.loads(meta_path.read_text())
+    except (OSError, json.JSONDecodeError):
+        return sorted(CRITICAL_STAGES)
+    stages = meta.get("stages", {})
+    return sorted(
+        s for s in CRITICAL_STAGES if stages.get(s, {}).get("status") == "failed"
+    )
 
 
 def print_summary(data_dir: str, run_id: str) -> None:
@@ -211,10 +244,16 @@ def print_summary(data_dir: str, run_id: str) -> None:
 
 
 def main() -> None:
-    """Entry point. Handles backfill logic and runs the pipeline."""
+    """Entry point. Handles backfill logic and runs the pipeline.
+
+    Exits non-zero when any critical stage failed in today's run or in a
+    backfill run, so scheduled CI runs surface failures instead of hiding
+    them behind a green check.
+    """
     config = load_config()
     tz = get_timezone_offset(config.schedule.get("timezone", "America/Vancouver"))
     data_dir = config.paths.get("data_dir", "data")
+    all_failures: list[str] = []
 
     # Check for missed dates and backfill
     missing_dates = find_missing_dates(data_dir, tz)
@@ -222,13 +261,26 @@ def main() -> None:
         logger.info(f"Backfilling {len(missing_dates)} missed date(s): {missing_dates}")
         for date in missing_dates:
             try:
-                run_pipeline(target_date=date, backfill=True)
+                run_id = run_pipeline(target_date=date, backfill=True)
+                failed = critical_failures(data_dir, run_id)
+                if failed:
+                    logger.error(f"Backfill {date} had critical stage failures: {failed}")
+                    all_failures.extend(f"{date}:{s}" for s in failed)
             except Exception as e:
                 logger.error(f"Backfill for {date} failed: {e}", exc_info=True)
+                all_failures.append(f"{date}:exception")
 
     # Run today's pipeline
     run_id = run_pipeline()
     print_summary(data_dir, run_id)
+
+    failed = critical_failures(data_dir, run_id)
+    if failed:
+        all_failures.extend(f"{run_id}:{s}" for s in failed)
+
+    if all_failures:
+        logger.error(f"Pipeline finished with critical failures: {all_failures}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

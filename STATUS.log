@@ -1,8 +1,15 @@
 - Project Status
-    - Last Updated: 2026-08-06
+    - Last Updated: 2026-08-21
     - Development Mode: Claude Code
     - Stage: MVP
-    - Next Milestone: First successful end-to-end pipeline run
+    - Next Milestone: Backfill missed daily briefs (Aug 12 to Aug 20) and confirm green run
+
+- Outage Postmortem (2026-08-21)
+    - Symptom: no daily brief commits since 2026-08-11 while GitHub Actions stayed green
+    - Root cause: free model deepseek-v4-flash-free began failing on Aug 12 (429 rate limit, then permanent 400 "Model is unavailable"); translate_fa owned the only git commit, so nothing shipped
+    - Amplifier 1: run_pipeline.py caught every stage exception and exited 0, masking failures in CI
+    - Amplifier 2: editorial and summarize stages swallowed LLM errors internally, shipping unedited drafts marked as success
+    - Fix: new primary model muse-spark-1.2-contributor-free (Artificial Analysis Intelligence Index 57), runtime failover chain nemotron-3-ultra-free / mimo-v2.5-free / hy3-free, decoupled EN/FA deploys, non-zero CI exit on critical stage failure, degraded flags in run_meta
 
 - Development Stages
     - [x] Initial Setup
@@ -67,9 +74,10 @@
 
 - Current Focus
     - Active Tasks:
-        - [] Run first end-to-end pipeline test
-        - [] Verify cron scheduling works
+        - [] Backfill daily briefs for Aug 12 through Aug 20
+        - [] Verify next scheduled CI run goes green with the new model chain
     - Recent Progress:
+        - 2026-08-21: Outage fixed: model swap, runtime failover, decoupled EN/FA deploys, CI exit codes
         - 2026-03-29: Full pipeline implementation complete (14 phases)
 
 - Notes

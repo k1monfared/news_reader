@@ -88,10 +88,13 @@ All project commands are defined in `.claude/commands.env`
 ## Architecture Notes
 - Pipeline stages in `stages/*.py`, each reads previous stage's JSON output
 - Run isolation: `data/runs/{YYYY-MM-DD-HHMMSS}/` per run
-- Audit trail: `audit/llm_calls.jsonl`, `audit/llm_inputs/`, `audit/llm_outputs/`, `audit/api_calls.jsonl`
+- Audit trail: `audit/llm_calls.jsonl` (includes `model` and `failed_over_from`), `audit/llm_inputs/`, `audit/llm_outputs/`, `audit/api_calls.jsonl`
 - Prompt templates in `prompts/*.yaml` with version tracking
 - Source fetchers in `stages/fetchers/` behind `BaseFetcher` interface
 - Bias tracking: `docs/_data/source_biases.json` (detected in editorial stage, displayed on About page)
+- LLM models and failover: `models.default` (English stages), `models.translate_fa` override, `models.fallbacks` chain tried in order on 429/5xx/empty-content; permanent provider errors (400) skip to the next model immediately. Configured via `config.yaml`.
+- Decoupled deploys by language: `publish` commits/pushes the English post on its own; `translate_fa` independently translates and commits/pushes only Farsi artifacts (`docs/_fa_posts/`, `docs/_data/source_biases_fa.json`). A translation failure never blocks the English brief.
+- Critical stages (fail the CI run with a non-zero exit): fetch (all sources down), filter, summarize, publish (English), translate_fa (Farsi). Editorial degrades to the unedited draft and records a `degraded` flag in run_meta instead of failing silently.
 
 ## Naming Convention
 - The conflict is called the "USrael war on Iran", not "Iran conflict"
@@ -103,7 +106,7 @@ GitHub Pages is configured to build from the `docs/` directory on `master`. Ever
 
 ## Environment Setup
 - Install deps: `pip install -r requirements.txt`
-- Env vars: `OPENCODE_API_KEY` (OpenCode Zen; default model `deepseek-v4-flash-free` is free)
+- Env vars: `OPENCODE_API_KEY` (OpenCode Zen; free-tier models configured in `config.yaml` under `models`)
 - See `.env.example` for template
 - Schedule: `bash schedule/setup.sh` to install cron job
 

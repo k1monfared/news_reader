@@ -34,13 +34,17 @@ class TestModelsUsed:
         """Missing audit log falls back to the config default model."""
         run_dir = tmp_path / "run"
         run_dir.mkdir()
-        assert _models_used(str(run_dir), sample_config) == ["deepseek-v4-flash-free"]
+        assert _models_used(str(run_dir), sample_config) == [
+            sample_config.models.get("default")
+        ]
 
     def test_missing_audit_file(self, tmp_path, sample_config):
         """No audit directory at all still yields the config default."""
         run_dir = tmp_path / "run"
         run_dir.mkdir()
-        assert _models_used(str(run_dir), sample_config) == ["deepseek-v4-flash-free"]
+        assert _models_used(str(run_dir), sample_config) == [
+            sample_config.models.get("default")
+        ]
 
 
 class TestBuildFrontmatter:

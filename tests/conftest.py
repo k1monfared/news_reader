@@ -78,7 +78,7 @@ class MockLLMClient:
         prompt_version: int,
         system: str,
         user_message: str,
-        model: str = "deepseek-v4-flash-free",
+        model: str = "",
         max_tokens: int = 4096,
     ) -> str:
         self.calls.append({

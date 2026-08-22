@@ -1,8 +1,17 @@
 """Translate the day's English brief to Farsi and update the Farsi bias
-mirror. Runs after `publish` as the last pipeline stage. When
-`translate_fa.enabled` is true in config, this stage is responsible for
-the final `git add / commit / push` that covers BOTH languages atomically
-— `publish` in that mode only writes the English file to disk."""
+mirror. Runs after `publish` as the last pipeline stage.
+
+Deploys are decoupled by language: `publish` commits and pushes the English
+post on its own, and this stage independently translates and pushes the
+Farsi post plus the Farsi bias mirror (`docs/_fa_posts/`,
+`docs/_data/source_biases_fa.json`). A failure here therefore never blocks
+the English brief; it only leaves that day's Farsi edition unpushed and is
+recorded as a failed stage in run_meta.json.
+
+Translation stages use `models.translate_fa` from config when set, falling
+back to `models.default`. Runtime model failover is handled inside
+AuditedLLMClient.
+"""
 
 from __future__ import annotations
 
@@ -113,7 +122,9 @@ def _translate_brief(
         category_dictionary=dictionary or "(none)",
         brief_markdown=body_markdown,
     )
-    model = config.models.get("default", "deepseek-v4-flash-free")
+    model = config.models.get("translate_fa") or config.models.get(
+        "default", ""
+    )
     response = llm_client.call(
         stage="translate_fa",
         prompt_name="translate_brief_fa",
@@ -138,7 +149,9 @@ def _translate_bias_batch(
     system, user_msg, version = template.render(
         entries_json=json.dumps(entries, ensure_ascii=False, indent=2),
     )
-    model = config.models.get("default", "deepseek-v4-flash-free")
+    model = config.models.get("translate_fa") or config.models.get(
+        "default", ""
+    )
     response = llm_client.call(
         stage="translate_fa",
         prompt_name="translate_biases_fa",
@@ -254,12 +267,17 @@ def _run_git(*args: str) -> subprocess.CompletedProcess:
 
 
 def _git_commit_push(date_str: str) -> None:
-    _run_git("add", "docs/_posts/", "docs/_fa_posts/", "docs/_data/")
+    """Commit and push the Farsi artifacts only.
+
+    The English post was already committed and pushed by the publish stage;
+    this stage deploys the Farsi edition independently.
+    """
+    _run_git("add", "docs/_fa_posts/", "docs/_data/source_biases_fa.json")
     result = _run_git("diff", "--cached", "--quiet")
     if result.returncode == 0:
         logger.info("No changes to commit")
         return
-    _run_git("commit", "-m", f"Daily brief: {date_str} (en + fa)")
+    _run_git("commit", "-m", f"Daily brief: {date_str} (fa)")
     push = _run_git("push", "origin", "master")
     if push.returncode != 0:
         logger.warning(f"git push failed: {push.stderr.strip()}")
@@ -330,7 +348,7 @@ def run_translate_fa(
         f"Bias sync: {bias_result.get('new_biases_translated', 0)} new entries translated."
     )
 
-    # Atomic commit + push covering both languages.
+    # Independent Farsi commit + push (English already shipped via publish).
     _git_commit_push(date_str)
 
     return {

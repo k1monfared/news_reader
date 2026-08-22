@@ -128,7 +128,7 @@ def _run_bias_detection(
         items_by_source=items_by_source_text,
     )
 
-    model = config.models.get("default", "deepseek-v4-flash-free")
+    model = config.models.get("default", "")
 
     response = llm_client.call(
         stage="editorial",
@@ -244,8 +244,9 @@ def run_editorial(
     template = load_prompt("editorial", config.paths.get("prompts_dir", "prompts"))
     system, user_msg, version = template.render(report=report, raw_data=raw_data)
 
-    model = config.models.get("default", "deepseek-v4-flash-free")
+    model = config.models.get("default", "")
 
+    degraded_reason: str | None = None
     try:
         edited = llm_client.call(
             stage="editorial",
@@ -259,9 +260,13 @@ def run_editorial(
     except Exception as e:
         logger.error(f"Editorial LLM call failed: {e}. Using draft as-is.")
         edited = report
+        degraded_reason = f"editorial_llm_failed: {e}"
 
     (run_path / "report_edited.md").write_text(edited)
-    logger.info("Editorial review complete")
+    if degraded_reason:
+        logger.warning(f"Editorial output is DEGRADED (unedited draft): {degraded_reason}")
+    else:
+        logger.info("Editorial review complete")
 
     # Bias detection (non-fatal)
     try:
@@ -269,4 +274,10 @@ def run_editorial(
     except Exception as e:
         logger.warning(f"Bias detection failed (non-fatal): {e}")
 
-    return {"status": "completed"}
+    result = {"status": "completed"}
+    if degraded_reason:
+        # Surface the fallback so run_meta.json records it instead of
+        # silently shipping an unedited report marked as a normal success.
+        result["degraded"] = True
+        result["reason"] = degraded_reason
+    return result

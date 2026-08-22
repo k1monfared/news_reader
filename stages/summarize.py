@@ -121,21 +121,20 @@ def run_summarize(
         sources_down=json.dumps(sources_down),
     )
 
-    model = config.models.get("default", "deepseek-v4-flash-free")
+    model = config.models.get("default", "")
 
-    try:
-        report_body = llm_client.call(
-            stage="summarize",
-            prompt_name="summarize",
-            prompt_version=version,
-            system=system,
-            user_message=user_msg,
-            model=model,
-            max_tokens=8192,
-        )
-    except Exception as e:
-        logger.error(f"Summarize LLM call failed: {e}. Producing raw bullet list.")
-        report_body = _fallback_report(sorted_cats)
+    # Critical stage: let LLM failures propagate so run_meta.json records
+    # the failure and the CI run goes red, instead of silently publishing
+    # a raw bullet fallback.
+    report_body = llm_client.call(
+        stage="summarize",
+        prompt_name="summarize",
+        prompt_version=version,
+        system=system,
+        user_message=user_msg,
+        model=model,
+        max_tokens=8192,
+    )
 
     # Write draft report (without frontmatter for editorial stage)
     (run_path / "report.md").write_text(report_body)
@@ -160,7 +159,11 @@ def _write_headlines(run_path: Path, sorted_cats: list) -> None:
 
 
 def _fallback_report(sorted_cats: list) -> str:
-    """Produce a raw bullet list when the LLM is unavailable."""
+    """Produce a raw bullet list when the LLM is unavailable.
+
+    Kept for manual/debugging use only; the pipeline no longer ships this
+    fallback automatically (summarize failures now propagate).
+    """
     lines = ["*Note: This report was generated without AI summarization.*\n"]
     for cat_name, items in sorted_cats:
         lines.append(f"\n## {cat_name}\n")

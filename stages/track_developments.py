@@ -250,7 +250,7 @@ def _classify_with_llm(
         recent_brief_headlines=headlines_text,
     )
 
-    model = config.models.get("default", "deepseek-v4-flash-free")
+    model = config.models.get("default", "")
 
     try:
         response = llm_client.call(
