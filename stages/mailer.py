@@ -8,6 +8,11 @@ resolution, Shamsi date formatting, and the project's custom email shell.
 
 Runs last in the pipeline. Failures do not unpublish: the posts are already
 on disk and pushed. A mail failure is logged and surfaced in run_meta.
+
+Emails are sent ONLY when the brief's date equals today's date (in the
+configured schedule timezone). Backfill runs and re-runs of old dates are
+never emailed, as a hard rule enforced here regardless of how the stage is
+invoked.
 """
 
 from __future__ import annotations
@@ -20,6 +25,7 @@ from pathlib import Path
 from models import PipelineConfig
 from llm_client import AuditedLLMClient
 from audit_logger import AuditedHTTPClient
+from run_pipeline import get_timezone_offset
 
 # Installed via `newsletter-base` dep in requirements.txt.
 from newsletter.render import (
@@ -214,6 +220,21 @@ def run_mailer(
 
     site_dir = Path(config.publish.get("site_dir", "docs"))
     date_str = Path(run_dir).name[:10]
+
+    # Hard rule: never email backfills or re-runs of old dates. Broadcasts
+    # go out only when the brief being processed is dated today.
+    tz = get_timezone_offset(config.schedule.get("timezone", "America/Vancouver"))
+    today = datetime.now(tz).strftime("%Y-%m-%d")
+    if date_str != today:
+        logger.info(
+            f"Brief date {date_str} != today ({today}); skipping email "
+            f"broadcasts. Emails are never sent for backfills."
+        )
+        return {
+            "status": "skipped",
+            "reason": "not_today",
+            "brief_date": date_str,
+        }
 
     en_post = site_dir / "_posts" / f"{date_str}-daily-brief.md"
     fa_post = site_dir / "_fa_posts" / f"{date_str}-daily-brief.md"
