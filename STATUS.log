@@ -22,8 +22,10 @@
     - Three reachable sources added after probing 15 candidates through the real fetcher: BBC Middle East, Jerusalem Post, Middle East Eye
     - Chosen for perspective balance against the existing Al Jazeera/France24/Euronews mix: mainstream Western (BBC), Israeli security-first (JPost), independent regional critical of intervention (MEE)
     - Blocked candidates rejected on evidence: Times of Israel 403 bot-blocked, Al Arabiya 403, AP hub 401, CNN stale since 2023, i24 returns HTML
-    - Bias stubs seeded in source_biases.json and Farsi mirror so editorial bias detection can record observations from day one; FA display names translated per existing convention
-    - Fetch smoke test with all seven sources: 185 items total, reuters still zero
+    - Three more neutral sources added the same day: NPR (US public), Deutsche Welle (German public), The Hindu international (Indian non-aligned)
+    - Full ten-source lineup spans Qatar, France, pan-EU, UK, Israel, regional independent, US, Germany, and India perspectives
+    - Bias stubs seeded in source_biases.json and Farsi mirror for all six additions; FA display names translated per existing convention
+    - Fetch smoke test with all ten sources: 390 items total (was 104 with four sources), reuters still zero
 
 - Development Stages
     - [x] Initial Setup

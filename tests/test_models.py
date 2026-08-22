@@ -74,9 +74,13 @@ class TestTranslatedItem:
 class TestConfig:
     def test_config_loads(self, sample_config: PipelineConfig):
         assert isinstance(sample_config, PipelineConfig)
-        assert len(sample_config.sources) == 7
+        assert len(sample_config.sources) == 10
         source_names = {s.name for s in sample_config.sources}
-        assert {"aljazeera", "reuters", "france24", "euronews", "bbc", "jpost", "mee"} <= source_names
+        expected = {
+            "aljazeera", "reuters", "france24", "euronews",
+            "bbc", "jpost", "mee", "npr", "dw", "thehindu",
+        }
+        assert expected <= source_names
         assert len(sample_config.buckets) == 9
 
     def test_config_source_fields(self, sample_config: PipelineConfig):

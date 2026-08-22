@@ -79,6 +79,36 @@ sources:
     filter_instructions: "Good for regional and Global South angles missing from Western outlets"
     debias_instructions: "Note when framing attributes motives to US/Israel beyond reported facts"
 
+  - name: npr
+    type: rss
+    url: "https://feeds.npr.org/1004/rss.xml"
+    language: en
+    max_items: 200
+    known_biases: "US public broadcaster, measured tone, centers American policy debate"
+    reliability_notes: "High editorial standards; world feed is small and general"
+    filter_instructions: "Small general feed, expect low conflict yield per run"
+    debias_instructions: "May frame events through US domestic politics lens"
+
+  - name: dw
+    type: rss
+    url: "https://rss.dw.com/xml/rss-en-all"
+    language: en
+    max_items: 200
+    known_biases: "German international public broadcaster, neutral tone, European diplomatic framing"
+    reliability_notes: "High editorial standards; broad all-news feed like Euronews"
+    filter_instructions: "Broad feed, many items will not be Iran-related, filter aggressively"
+    debias_instructions: "May emphasize German/EU diplomatic positions over regional actors"
+
+  - name: thehindu
+    type: rss
+    url: "https://www.thehindu.com/news/international/feeder/default.rss"
+    language: en
+    max_items: 200
+    known_biases: "Indian English-language daily, professional non-aligned editorial tradition, Global South perspective"
+    reliability_notes: "Reliable newsroom, low editorializing on hard news"
+    filter_instructions: "International section covers the conflict from a non-Western angle missing elsewhere"
+    debias_instructions: "May frame Western actions through Global South critique without noting regional actor conduct"
+
 # ---------------------------------------------------------------------------
 # Models
 # ---------------------------------------------------------------------------

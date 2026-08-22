@@ -10707,5 +10707,20 @@
     "display_name": "میدل ایست آی",
     "notes": "Independent regional outlet, critical of US/Israeli intervention",
     "biases": []
+  },
+  "npr": {
+    "display_name": "ان‌پی‌آر",
+    "notes": "US public broadcaster, measured tone, centers American policy debate",
+    "biases": []
+  },
+  "dw": {
+    "display_name": "دویچه وله",
+    "notes": "German international public broadcaster, neutral tone, European framing",
+    "biases": []
+  },
+  "thehindu": {
+    "display_name": "ذا هیندو",
+    "notes": "Indian English-language daily, non-aligned tradition, Global South perspective",
+    "biases": []
   }
 }
