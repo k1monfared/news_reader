@@ -49,6 +49,36 @@ sources:
     filter_instructions: "Broad feed, many items will not be Iran-related, filter aggressively"
     debias_instructions: "May overweight EU policy responses relative to other actors"
 
+  - name: bbc
+    type: rss
+    url: "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml"
+    language: en
+    max_items: 200
+    known_biases: "Mainstream Western public broadcaster, UK Foreign Office-aligned framing on diplomatic disputes"
+    reliability_notes: "High, wire-grade editorial standards"
+    filter_instructions: "Treat as anchor source for mainstream Western framing"
+    debias_instructions: "May center UK/European diplomatic positions; compare against regional outlets"
+
+  - name: jpost
+    type: rss
+    url: "https://www.jpost.com/rss/rssfeedsfrontpage.aspx"
+    language: en
+    max_items: 200
+    known_biases: "Israeli perspective, security-first framing, tends toward government-aligned coverage of the conflict"
+    reliability_notes: "Reliable for Israeli official positions; opinion content mixed with news in feed"
+    filter_instructions: "Prioritize hard news over commentary; broad front-page feed needs aggressive filtering"
+    debias_instructions: "Note when Israeli government claims are reported without independent confirmation"
+
+  - name: mee
+    type: rss
+    url: "https://www.middleeasteye.net/rss"
+    language: en
+    max_items: 200
+    known_biases: "Independent regional outlet, critical of US/Israeli intervention, Gulf geopolitics skepticism"
+    reliability_notes: "Strong original regional reporting; editorial tone more opinionated than wires"
+    filter_instructions: "Good for regional and Global South angles missing from Western outlets"
+    debias_instructions: "Note when framing attributes motives to US/Israel beyond reported facts"
+
 # ---------------------------------------------------------------------------
 # Models
 # ---------------------------------------------------------------------------

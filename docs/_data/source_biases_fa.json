@@ -10692,5 +10692,20 @@
         "pattern_en": "Children's cartoon sanctions geopoliticization"
       }
     ]
+  },
+  "bbc": {
+    "display_name": "بی‌بی‌سی",
+    "notes": "Mainstream Western public broadcaster, UK-aligned framing on diplomatic disputes",
+    "biases": []
+  },
+  "jpost": {
+    "display_name": "جروزالم پست",
+    "notes": "Israeli perspective, security-first framing, tends toward government-aligned coverage",
+    "biases": []
+  },
+  "mee": {
+    "display_name": "میدل ایست آی",
+    "notes": "Independent regional outlet, critical of US/Israeli intervention",
+    "biases": []
   }
 }

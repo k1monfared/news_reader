@@ -9636,5 +9636,20 @@
       }
     ],
     "notes": "Reliable but limited conflict coverage"
+  },
+  "bbc": {
+    "display_name": "BBC",
+    "notes": "Mainstream Western public broadcaster, UK-aligned framing on diplomatic disputes",
+    "biases": []
+  },
+  "jpost": {
+    "display_name": "The Jerusalem Post",
+    "notes": "Israeli perspective, security-first framing, tends toward government-aligned coverage",
+    "biases": []
+  },
+  "mee": {
+    "display_name": "Middle East Eye",
+    "notes": "Independent regional outlet, critical of US/Israeli intervention",
+    "biases": []
   }
 }

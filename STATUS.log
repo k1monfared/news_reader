@@ -18,6 +18,13 @@
     - New tooling: scripts/repair_post.py, scripts/backfill_dates.py, filter_items_by_date in run_pipeline.py, prompts/repair_editorial.yaml, tests/test_backfill.py (58 tests passing)
     - Open issue: Reuters rss-bridge returns zero entries (DNS failure locally, empty feed on CI); source contributes nothing to daily briefs until resolved
 
+- New Sources Added (2026-08-21)
+    - Three reachable sources added after probing 15 candidates through the real fetcher: BBC Middle East, Jerusalem Post, Middle East Eye
+    - Chosen for perspective balance against the existing Al Jazeera/France24/Euronews mix: mainstream Western (BBC), Israeli security-first (JPost), independent regional critical of intervention (MEE)
+    - Blocked candidates rejected on evidence: Times of Israel 403 bot-blocked, Al Arabiya 403, AP hub 401, CNN stale since 2023, i24 returns HTML
+    - Bias stubs seeded in source_biases.json and Farsi mirror so editorial bias detection can record observations from day one; FA display names translated per existing convention
+    - Fetch smoke test with all seven sources: 185 items total, reuters still zero
+
 - Development Stages
     - [x] Initial Setup
         - Created: 2026-03-29
@@ -82,8 +89,8 @@
 - Current Focus
     - Active Tasks:
         - [x] Backfill daily briefs for Aug 12 through Aug 20 (Aug 16 to 20 published, Aug 12 to 15 unrecoverable from feeds)
-        - [] Verify next scheduled CI run goes green with the new model chain
-        - [] Restore Reuters as a contributing source (bridge empty or unreachable)
+        - [x] Restore source diversity lost to the dead Reuters bridge (BBC + JPost + MEE added)
+        - [] Verify next scheduled CI run goes green with the new model chain and new sources
     - Recent Progress:
         - 2026-08-21: Backfills and editorial repairs complete: eight dates republished in EN + FA with zero backfill emails
         - 2026-08-21: Outage fixed: model swap, runtime failover, decoupled EN/FA deploys, CI exit codes
