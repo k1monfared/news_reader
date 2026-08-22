@@ -8,6 +8,7 @@ import os
 import sys
 import time
 from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 from models import load_config, RunMeta
@@ -57,6 +58,49 @@ def update_latest_symlink(base_dir: str, run_id: str) -> None:
     latest.symlink_to(target)
 
 
+def _item_local_date(item: dict, tz: timezone) -> str | None:
+    """Return an item's publication date (YYYY-MM-DD) in the given tz.
+
+    Parses RSS/Atom timestamps (RFC 822 preferred, ISO fallback). Naive
+    timestamps are treated as UTC. Returns None when unparseable.
+    """
+    raw = item.get("timestamp", "")
+    if not raw:
+        return None
+    dt = None
+    try:
+        dt = parsedate_to_datetime(raw)
+    except (TypeError, ValueError):
+        try:
+            dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        except ValueError:
+            return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(tz).strftime("%Y-%m-%d")
+
+
+def filter_items_by_date(run_dir: str, tz: timezone, target_date: str) -> int:
+    """Keep only items published on ``target_date`` in ``run_dir/raw_items.json``.
+
+    Used by date-scoped backfills: live feeds are a snapshot of now, so a
+    faithful historical brief can only be built from items actually
+    published on the target date. Rewrites the file in place and returns
+    the number of kept items.
+    """
+    raw_path = Path(run_dir) / "raw_items.json"
+    items = json.loads(raw_path.read_text())
+    kept = [
+        item for item in items
+        if _item_local_date(item, tz) == target_date
+    ]
+    raw_path.write_text(json.dumps(kept, indent=2))
+    logger.info(
+        f"Date filter [{target_date}]: kept {len(kept)} of {len(items)} fetched items"
+    )
+    return len(kept)
+
+
 def find_missing_dates(base_dir: str, tz: timezone) -> list[str]:
     """Find dates with no successful run since the last one."""
     runs_dir = Path(base_dir) / "runs"
@@ -95,12 +139,19 @@ def find_missing_dates(base_dir: str, tz: timezone) -> list[str]:
     return missing
 
 
-def run_pipeline(target_date: str | None = None, backfill: bool = False) -> str:
+def run_pipeline(
+    target_date: str | None = None,
+    backfill: bool = False,
+    item_date_filter: str | None = None,
+) -> str:
     """Run the full pipeline for a given date.
 
     Args:
         target_date: Date to run for (YYYY-MM-DD). Defaults to today.
         backfill: If True, this is a backfill run (sparser data expected).
+        item_date_filter: If set, drop fetched items not published on this
+            date (schedule timezone). Used for honest date-scoped backfills
+            from live feeds; unset for normal daily runs.
 
     Returns:
         run_id of the completed run
@@ -183,6 +234,19 @@ def run_pipeline(target_date: str | None = None, backfill: bool = False) -> str:
                 **(stage_result if isinstance(stage_result, dict) else {}),
             }
             logger.info(f"Stage {stage_name} completed in {stage_duration}s")
+
+            # Date-scoped backfill: right after fetch, drop items that were
+            # not published on the target date. Aborting here (before any
+            # LLM stage) prevents a brief for an old date from being built
+            # out of today's news.
+            if stage_name == "fetch" and item_date_filter:
+                kept = filter_items_by_date(str(run_dir), tz, item_date_filter)
+                meta.stages["fetch"]["items_kept_for_date"] = kept
+                if kept == 0:
+                    raise RuntimeError(
+                        f"No fetched items were published on {item_date_filter}; "
+                        f"aborting backfill rather than fabricating coverage."
+                    )
 
     finally:
         http_client.close()

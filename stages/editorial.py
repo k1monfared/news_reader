@@ -219,7 +219,14 @@ def run_editorial(
     config: PipelineConfig,
     llm_client: AuditedLLMClient,
     http_client: AuditedHTTPClient,
+    prompt_name: str = "editorial",
 ) -> dict:
+    """Review and improve a draft report.
+
+    ``prompt_name`` selects the prompt template (default "editorial").
+    Repair flows pass "repair_editorial" to rebuild degraded posts from
+    their surviving headlines instead of editing a full draft.
+    """
     run_path = Path(run_dir)
 
     # Read draft report
@@ -241,7 +248,7 @@ def run_editorial(
         raw_data = "[]"
 
     # Load prompt
-    template = load_prompt("editorial", config.paths.get("prompts_dir", "prompts"))
+    template = load_prompt(prompt_name, config.paths.get("prompts_dir", "prompts"))
     system, user_msg, version = template.render(report=report, raw_data=raw_data)
 
     model = config.models.get("default", "")
@@ -250,7 +257,7 @@ def run_editorial(
     try:
         edited = llm_client.call(
             stage="editorial",
-            prompt_name="editorial",
+            prompt_name=prompt_name,
             prompt_version=version,
             system=system,
             user_message=user_msg,
