@@ -4003,6 +4003,17 @@
         "example_url": "https://www.aljazeera.com/news/2026/8/22/california-lawmaker-overcomes-pro-israel-spending-to-win-special-election?traffic_source=rss",
         "unbiased_text": "قانون‌گذار کالیفرنیا با وجود میلیون‌ها دلار هزینه‌کرد خارجی در انتخابات ویژه پیروز شد",
         "pattern_en": "Pro-Israel spending antagonist framing"
+      },
+      {
+        "pattern": "قاب‌بندی تحقیرآمیز عصر حجر",
+        "detail": "شرایط بهداشتی زمان جنگ را از طریق تشبیه به دوران پیش از تاریخ قاب‌بندی می‌کند تا حس تمدن‌زدایی را القا کند و خشم اخلاقی را به حداکثر برساند.",
+        "debias": "شرایط بهداشتی را به صورت واقعی و مبتنی بر حقایق توصیف کنید، بدون اغراق‌های دوران‌محور.",
+        "date_added": "2026-08-23",
+        "status": "suggested",
+        "example_text": "جنگ اسرائیل در غزه فلسطینیان را وادار می‌کند به توالت‌های «عصر حجری» متوسل شوند",
+        "example_url": "https://www.aljazeera.com/features/2026/8/23/israels-war-on-gaza-forces-palestinians-to-rely-on-stone-age-toilets?traffic_source=rss",
+        "unbiased_text": "آوارگان فلسطینی در غزه در میانه جنگ و بحران بهداشتی با دسترسی محدود به توالت‌های ایمن و بهداشتی مواجه هستند.",
+        "pattern_en": "Stone Age Degradation Framing"
       }
     ]
   },
@@ -10758,17 +10769,52 @@
         "example_url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
         "unbiased_text": "مذاکرات تجاری آمریکا-کانادا پیش از ضرب‌الاجل تعرفه‌ها بدون توافق پایان یافت",
         "pattern_en": "Deadline Collapse Dramatization"
+      },
+      {
+        "pattern": "بزرگ‌نمایی روایت شکست دشمن",
+        "detail": "تفسیر یک مقام طرف متخاصم مبنی بر اینکه تغییر رویکرد به فشار اقتصادی، شکست نظامی قبلی را اثبات می‌کند، بدون راستی‌آزمایی مستقل بازتاب داده می‌شود.",
+        "debias": "این ادعا را به‌وضوح به مقام مربوطه نسبت دهید و دلیل رسمی اعلام‌شده از سوی دولت مقابل برای این سیاست را نیز ذکر کنید.",
+        "date_added": "2026-08-23",
+        "status": "suggested",
+        "example_text": "رژیم ایران تهدیدهای رئیس‌جمهور ترامپ برای درهم کوبیدن ایران از نظر اقتصادی را رد کرده و گفته است سال‌ها تحریم‌های آمریکا شکست خورده است.",
+        "example_url": "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare",
+        "unbiased_text": "یک مقام ایرانی گفت تحریم‌های آمریکا به اهداف خود نرسیده است، در حالی که آمریکا می‌گوید اقدامات اقتصادی‌اش با هدف تحت فشار قرار دادن ایران برای مذاکره انجام می‌شود.",
+        "pattern_en": "Adversary Failure Spin Amplification"
       }
     ]
   },
   "dw": {
     "display_name": "دویچه وله",
     "notes": "German international public broadcaster, neutral tone, European framing",
-    "biases": []
+    "biases": [
+      {
+        "pattern": "قاب‌بندی فاجعه‌انگاری انتخابات زمان جنگ",
+        "detail": "انتخابات زمان جنگ را به‌عنوان رویدادی ویرانگر و وجودی با استفاده از استعاره‌های فاجعه‌آمیز مانند «شکاف» قاب‌بندی می‌کند، بدون ایجاد توازن با زمینه‌های لجستیکی یا دموکراتیک.",
+        "debias": "مواضع درباره انتخابات زمان جنگ را با زبانی خنثی گزارش کنید و هم محدودیت‌های امنیتی و هم استدلال‌های دموکراتیک را در بر بگیرید.",
+        "date_added": "2026-08-23",
+        "status": "suggested",
+        "example_text": "رئیس‌جمهور اوکراین می‌گوید انتخابات زمان جنگ، آن‌گونه که وزیر دفاع پیشین خواستار آن شده، می‌تواند «اوکراین را دچار شکاف کند». او همچنین گفت روسیه قصد دارد پس از انتخابات سپتامبر در آنجا صدها هزار نیرو بسیج کند.",
+        "example_url": "https://www.dw.com/en/ukraine-zelenskyy-rejects-wartime-elections/a-78475087?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "رئیس‌جمهور اوکراین گفت برگزاری انتخابات تحت حکومت نظامی دشوار خواهد بود، در حالی که وزیر دفاع پیشین خواستار برگزاری انتخابات در زمان جنگ شده است؛ او همچنین گفت روسیه قصد دارد پس از سپتامبر نیرو بسیج کند.",
+        "pattern_en": "Wartime Election Catastrophization Framing"
+      }
+    ]
   },
   "thehindu": {
     "display_name": "ذا هیندو",
     "notes": "Indian English-language daily, non-aligned tradition, Global South perspective",
-    "biases": []
+    "biases": [
+      {
+        "pattern": "قاب‌بندی ادعای شکنجه به نقل از خانواده",
+        "detail": "ادعاهای تأییدنشده درباره شکنجه و وضعیت پزشکی را که صرفاً به نقل از یکی از اعضای خانواده یک رهبر بازداشتی مطرح شده‌اند برجسته می‌کند تا بازداشت را به‌عنوان یک بحران انسانی جلوه دهد.",
+        "debias": "ادعاها را به عضو خانواده نسبت دهید، تصریح کنید که تأیید نشده‌اند و پاسخ رسمی یا اطلاعات پزشکی مستقل را جویا شوید.",
+        "date_added": "2026-08-23",
+        "status": "suggested",
+        "example_text": "خواهر عمران خان، نخست‌وزیر پیشین زندانی، روز جمعه (۲۱ اوت) ادعا کرد که برادرش در زندان شکنجه می‌شود و در انزوا قرار دارد، در حالی که از وخامت وضعیت سلامتی او و ادامه درمان خونریزی شبکیه چشمش خبر داد.",
+        "example_url": "https://www.thehindu.com/videos/imran-khan-tortured-isolated-in-jail-sister/article71374921.ece",
+        "unbiased_text": "خواهر عمران خان ادعا کرد که او در زندان با شرایط سخت روبه‌رو است و به دلیل عارضه چشمی تحت درمان قرار دارد؛ این ادعاها به‌طور مستقل تأیید نشده‌اند.",
+        "pattern_en": "Kin-Sourced Torture Allegation Framing"
+      }
+    ]
   }
 }
