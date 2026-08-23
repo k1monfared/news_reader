@@ -3596,6 +3596,16 @@
         "example_text": "California lawmaker overcomes pro-Israel spending to win special election",
         "example_url": "https://www.aljazeera.com/news/2026/8/22/california-lawmaker-overcomes-pro-israel-spending-to-win-special-election?traffic_source=rss",
         "unbiased_text": "California lawmaker wins special election despite millions in outside spending"
+      },
+      {
+        "pattern": "Stone Age Degradation Framing",
+        "detail": "Frames wartime sanitary conditions through prehistoric analogy to evoke de-civilization and maximize moral outrage.",
+        "debias": "Describe sanitation conditions in factual terms without epochal hyperbole.",
+        "date_added": "2026-08-23",
+        "status": "suggested",
+        "example_text": "Israel’s war on Gaza forces Palestinians to rely on ‘Stone Age’ toilets",
+        "example_url": "https://www.aljazeera.com/features/2026/8/23/israels-war-on-gaza-forces-palestinians-to-rely-on-stone-age-toilets?traffic_source=rss",
+        "unbiased_text": "Displaced Palestinians in Gaza face limited access to safe and sanitary toilets amid the war and a health crisis."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -9698,17 +9708,49 @@
         "example_text": "U.S.-Canada trade talks collapse just before deadline for tariffs",
         "example_url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
         "unbiased_text": "U.S.-Canada trade talks ended without agreement before the tariff deadline"
+      },
+      {
+        "pattern": "Adversary Failure Spin Amplification",
+        "detail": "Platforms an adversary official's interpretation that a shift to economic pressure proves prior military failure without independent verification.",
+        "debias": "Attribute the claim clearly to the official and include the opposing government's stated rationale for the policy.",
+        "date_added": "2026-08-23",
+        "status": "suggested",
+        "example_text": "The Iranian regime has dismissed President Trump's threats to crush Iran economically, saying that years of U.S. sanctions have failed.",
+        "example_url": "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare",
+        "unbiased_text": "An Iranian official said U.S. sanctions have not achieved their goals, while the U.S. says its economic measures aim to pressure Iran to negotiate."
       }
     ]
   },
   "dw": {
     "display_name": "Deutsche Welle",
     "notes": "German international public broadcaster, neutral tone, European framing",
-    "biases": []
+    "biases": [
+      {
+        "pattern": "Wartime Election Catastrophization Framing",
+        "detail": "Frames wartime elections as an existential destructive event using catastrophic metaphors like 'split' without balancing logistical or democratic context.",
+        "debias": "Report positions on wartime elections with neutral language and include both security constraints and democratic arguments.",
+        "date_added": "2026-08-23",
+        "status": "suggested",
+        "example_text": "The Ukrainian president says wartime elections, as called for by the ex-defense minister, could \"split Ukraine.\" He also said Russia was planning to mobilize hundreds of thousands of troops after September polls there.",
+        "example_url": "https://www.dw.com/en/ukraine-zelenskyy-rejects-wartime-elections/a-78475087?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "The Ukrainian president said holding elections under martial law would be difficult, while the ex-defense minister has called for wartime elections; he also said Russia plans to mobilize troops after September."
+      }
+    ]
   },
   "thehindu": {
     "display_name": "The Hindu",
     "notes": "Indian English-language daily, non-aligned tradition, Global South perspective",
-    "biases": []
+    "biases": [
+      {
+        "pattern": "Kin-Sourced Torture Allegation Framing",
+        "detail": "Elevates unverified torture and medical claims sourced solely to a detained leader's family member to frame detention as humanitarian crisis.",
+        "debias": "Attribute allegations to the family member, note they are unverified, and seek official response or independent medical information.",
+        "date_added": "2026-08-23",
+        "status": "suggested",
+        "example_text": "Jailed former Prime Minister Imran Khan’s sister on Friday (August 21) alleged that her brother was being tortured and subjected to isolation in prison, as she detailed his deteriorating health and ongoing treatment for a retinal haemorrhage.",
+        "example_url": "https://www.thehindu.com/videos/imran-khan-tortured-isolated-in-jail-sister/article71374921.ece",
+        "unbiased_text": "Imran Khan's sister alleged he faces harsh prison conditions and is receiving treatment for an eye condition; the claims have not been independently verified."
+      }
+    ]
   }
 }
