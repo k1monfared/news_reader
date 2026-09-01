@@ -35,6 +35,9 @@ from newsletter.render import (
 )
 from resend_broadcast import BroadcastError, send_broadcast
 
+# Empty brief streak handling
+from stages.empty_streak import is_empty_brief, update_streak_and_notify
+
 logger = logging.getLogger(__name__)
 
 
@@ -212,6 +215,16 @@ def run_mailer(
         logger.info("mailer disabled; skipping.")
         return {"status": "skipped"}
 
+    # Empty brief handling: check streak file and stopped flag early
+    empty_cfg = getattr(config, "empty_brief", None) or {}
+    if isinstance(empty_cfg, dict):
+        stopped_flag = empty_cfg.get("stopped_flag", "data/PIPELINE_STOPPED")
+    else:
+        stopped_flag = "data/PIPELINE_STOPPED"
+    if Path(stopped_flag).exists():
+        logger.info(f"Pipeline stopped flag exists at {stopped_flag}, skipping mailer entirely")
+        return {"status": "skipped", "reason": "pipeline_stopped"}
+
     required = ("from_addr", "site_base_url")
     missing = [k for k in required if not mailer_cfg.get(k)]
     if missing:
@@ -235,6 +248,26 @@ def run_mailer(
             "reason": "not_today",
             "brief_date": date_str,
         }
+
+    # Empty brief handling: check streak and send owner notification if needed.
+    # This must happen for today's date only. An empty brief skips all
+    # broadcasts, but may trigger an owner notification on days 3,7,14,28.
+    try:
+        site_dir_str = config.publish.get("site_dir", "docs")
+        is_empty = is_empty_brief(run_dir, site_dir_str, date_str)
+        streak_result = update_streak_and_notify(is_empty, date_str, config, run_dir)
+        logger.info(f"Empty streak check: is_empty={is_empty} streak={streak_result}")
+        if is_empty:
+            logger.info(f"Brief for {date_str} is empty (no Iran war items), skipping all broadcasts per empty_brief policy")
+            return {
+                "status": "skipped",
+                "reason": "empty_brief",
+                "brief_date": date_str,
+                "streak": streak_result,
+            }
+        # Not empty, streak was reset inside update_streak_and_notify
+    except Exception as e:
+        logger.warning(f"Empty streak handling failed: {e}", exc_info=True)
 
     en_post = site_dir / "_posts" / f"{date_str}-daily-brief.md"
     fa_post = site_dir / "_fa_posts" / f"{date_str}-daily-brief.md"

@@ -157,6 +157,17 @@ def run_pipeline(
         run_id of the completed run
     """
     config = load_config()
+
+    # Respect pipeline stopped flag even for direct run_pipeline calls
+    empty_cfg = getattr(config, "empty_brief", None) or {}
+    if isinstance(empty_cfg, dict):
+        stopped_flag = empty_cfg.get("stopped_flag", "data/PIPELINE_STOPPED")
+    else:
+        stopped_flag = "data/PIPELINE_STOPPED"
+    if Path(stopped_flag).exists():
+        logger.info(f"Pipeline stopped flag exists at {stopped_flag}, aborting run for {target_date}")
+        raise RuntimeError(f"Pipeline stopped (flag {stopped_flag} exists)")
+
     tz = get_timezone_offset(config.schedule.get("timezone", "America/Vancouver"))
     now = datetime.now(tz)
     data_dir = config.paths.get("data_dir", "data")
@@ -315,6 +326,18 @@ def main() -> None:
     them behind a green check.
     """
     config = load_config()
+
+    # Stop check: if empty streak reached 28 and flag was committed, no more runs.
+    empty_cfg = getattr(config, "empty_brief", None) or {}
+    if isinstance(empty_cfg, dict):
+        stopped_flag = empty_cfg.get("stopped_flag", "data/PIPELINE_STOPPED")
+    else:
+        stopped_flag = "data/PIPELINE_STOPPED"
+    if Path(stopped_flag).exists():
+        logger.info(f"Pipeline stopped flag exists at {stopped_flag}. No runs will execute. Delete flag and re-enable workflow to restart.")
+        # Still succeed so CI shows green for stopped state
+        sys.exit(0)
+
     tz = get_timezone_offset(config.schedule.get("timezone", "America/Vancouver"))
     data_dir = config.paths.get("data_dir", "data")
     all_failures: list[str] = []

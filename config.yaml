@@ -387,3 +387,19 @@ mailer:
   # Sponsor link shown in each email footer between "View online" and
   # "Unsubscribe". Set to null to hide.
   sponsor_url: "https://k1monfared.github.io/sponsor.html"
+
+# ---------------------------------------------------------------------------
+# Empty brief handling
+# ---------------------------------------------------------------------------
+# When the Iran war brief has 0 reportable items (filter found nothing, or
+# report.md is "No significant developments"), no broadcast is sent. Instead
+# a consecutive-empty counter is tracked in data/empty_streak.json (committed
+# to git so it survives fresh runners). Notifications to the owner are sent
+# on days 3, 7, 14, 28 of the streak, then the pipeline stops completely.
+empty_brief:
+  enabled: true
+  owner_email: "k1monfared@gmail.com"
+  notify_days: [3, 7, 14, 28]
+  stop_after_days: 28
+  state_file: "data/empty_streak.json"
+  stopped_flag: "data/PIPELINE_STOPPED"

@@ -131,6 +131,7 @@ class PipelineConfig(BaseModel):
     development_tracking: dict = {}
     translate_fa: dict = {}
     mailer: dict = {}
+    empty_brief: dict = {}
 
 
 # --- Helper ---
