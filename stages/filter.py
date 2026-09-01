@@ -18,6 +18,67 @@ logger = logging.getLogger(__name__)
 BATCH_SIZE = 10
 CACHE_PATH = Path("data/cache/filter_cache.json")
 
+# Deterministic Iran war signal keywords for pre-filter and post-verification.
+# An item must contain at least one of these substrings (case-insensitive) in
+# its title or text to be considered for Iran-war inclusion. This catches
+# obvious non-war items like Dolly Parton or Nepal floods without an LLM call.
+IRAN_WAR_KEYWORDS = [
+    "iran",
+    "iranian",
+    "irgc",
+    "qods",
+    "quds",
+    "khamenei",
+    "pezeshkian",
+    "tehran",
+    "hormuz",
+    "persian gulf",
+    "natanz",
+    "fordow",
+    "bushehr",
+    "parchin",
+    "kharg",
+    "larak",
+    "ahvaz",
+    "bandar abbas",
+    "islamic republic",
+    "supreme leader",
+    "centrifuge",
+    "enrichment",
+    "strait of hormuz",
+]
+
+
+def _has_iran_signal(text: str, keywords: list[str] | None = None) -> bool:
+    """Return True if text contains an Iran war signal keyword."""
+    lower = text.lower()
+    kws = keywords if keywords is not None else IRAN_WAR_KEYWORDS
+    return any(kw.lower() in lower for kw in kws)
+
+
+def _passes_iran_post_filter(item: DedupedItem, decision: dict, keywords: list[str] | None = None) -> dict:
+    """Post-verification after LLM INCLUDE. Demote to EXCLUDE if no Iran signal.
+
+    The LLM can hallucinate INCLUDE for globally important but non-Iran items
+    like Venezuela oil or Nepal floods that mention Iran only in passing or not
+    at all. This guard ensures the brief stays strictly on the Iran war.
+    """
+    if not decision.get("included"):
+        return decision
+    combined = f"{item.title_en or ''} {item.text_en or ''}"
+    if not _has_iran_signal(combined, keywords):
+        # Low confidence LLM includes without any Iran signal are almost
+        # certainly non-war filler. Override to EXCLUDE.
+        confidence = decision.get("confidence", 0.0)
+        if confidence < 0.9:
+            return {
+                "fetch_id": decision["fetch_id"],
+                "included": False,
+                "confidence": 0.95,
+                "filter_reason": "Post-filter: no Iran war signal (title/text lacks Iran/Hormuz/IRGC/etc.)",
+            }
+    return decision
+
 
 def _load_cache() -> dict:
     """Load the filter decision cache from disk."""
@@ -92,6 +153,7 @@ def run_filter(
     """
     run_path = Path(run_dir)
     ttl_hours = config.pipeline.get("cache_ttl_hours", 24)
+    iran_keywords = config.pipeline.get("iran_keywords") or IRAN_WAR_KEYWORDS
 
     # Load deduped items
     deduped_path = run_path / "deduped_items.json"
@@ -114,16 +176,41 @@ def run_filter(
     cache_hits = 0
     decisions: dict[str, dict] = {}  # fetch_id -> decision dict
 
-    # Collect primary items that need LLM evaluation
+    # Collect primary items that need LLM evaluation, with deterministic
+    # pre-filter that drops obvious non-Iran items without an LLM call.
     items_needing_llm: list[DedupedItem] = []
+    prefiltered_excluded = 0
 
     for item in primary_items:
+        combined = f"{item.title_en or ''} {item.text_en or ''}"
+        if not _has_iran_signal(combined, iran_keywords):
+            # Pre-filter: no Iran war signal at all, exclude immediately
+            decision = {
+                "fetch_id": item.fetch_id,
+                "included": False,
+                "confidence": 0.99,
+                "filter_reason": "Pre-filter: no Iran war signal (title/text lacks Iran/Hormuz/IRGC/etc.)",
+                "cached_at": time.time(),
+            }
+            decisions[item.fetch_id] = decision
+            cache[item.fetch_id] = decision
+            prefiltered_excluded += 1
+            continue
+
         cached_entry = cache.get(item.fetch_id)
         if cached_entry and _cache_is_valid(cached_entry, ttl_hours):
-            decisions[item.fetch_id] = cached_entry
+            # Even cached INCLUDE decisions get post-verified to guard
+            # against stale LLM hallucinations
+            verified = _passes_iran_post_filter(item, cached_entry, iran_keywords)
+            decisions[item.fetch_id] = verified
+            if not verified.get("included") and cached_entry.get("included"):
+                logger.info(f"Post-filter corrected cached INCLUDE for {item.fetch_id}")
             cache_hits += 1
         else:
             items_needing_llm.append(item)
+
+    if prefiltered_excluded:
+        logger.info(f"Pre-filter excluded {prefiltered_excluded} items with no Iran signal before LLM")
 
     # Process items in batches
     for batch_start in range(0, len(items_needing_llm), BATCH_SIZE):
@@ -142,8 +229,15 @@ def run_filter(
             )
             parsed = _parse_filter_response(response_text)
 
+            # Post-verify each LLM decision to ensure Iran war scope
             for entry in parsed:
                 entry["cached_at"] = time.time()
+                # Find the DedupedItem for this fetch_id for post-filter context
+                item_for_entry = next((it for it in batch if it.fetch_id == entry["fetch_id"]), None)
+                if item_for_entry is not None:
+                    entry = _passes_iran_post_filter(item_for_entry, entry, iran_keywords)
+                    if not entry.get("included"):
+                        logger.info(f"Post-filter excluded {entry['fetch_id']} after LLM INCLUDE")
                 decisions[entry["fetch_id"]] = entry
                 cache[entry["fetch_id"]] = entry
 
@@ -157,24 +251,45 @@ def run_filter(
                 f"{batch_start}: {e}",
                 exc_info=True,
             )
-            # Fallback: check cache first, then pass all with a warning
+            # Fail behavior when LLM is unavailable: for items that already
+            # passed the deterministic Iran signal pre-filter, we keep them
+            # (they are highly likely Iran war). For any item without a
+            # signal (should not be in this batch, but guard anyway) we
+            # exclude. This keeps briefs focused while not dropping real war
+            # news during outages.
             for item in batch:
                 cached_entry = cache.get(item.fetch_id)
                 if cached_entry:
-                    decisions[item.fetch_id] = cached_entry
+                    # Even expired cache gets post-verified
+                    verified = _passes_iran_post_filter(item, cached_entry, iran_keywords)
+                    decisions[item.fetch_id] = verified
                     logger.info(
-                        f"Using expired cache for {item.fetch_id} after LLM failure"
+                        f"Using expired cache for {item.fetch_id} after LLM failure (verified included={verified.get('included')})"
                     )
                 else:
-                    decisions[item.fetch_id] = {
-                        "fetch_id": item.fetch_id,
-                        "included": True,
-                        "confidence": 0.0,
-                        "filter_reason": "LLM unavailable, passed by default",
-                    }
-                    logger.warning(
-                        f"No cache for {item.fetch_id}, passing by default"
-                    )
+                    combined = f"{item.title_en or ''} {item.text_en or ''}"
+                    if _has_iran_signal(combined, iran_keywords):
+                        decisions[item.fetch_id] = {
+                            "fetch_id": item.fetch_id,
+                            "included": True,
+                            "confidence": 0.6,
+                            "filter_reason": "LLM unavailable, included by Iran keyword fallback",
+                            "cached_at": time.time(),
+                        }
+                        logger.warning(
+                            f"No cache for {item.fetch_id}, included by keyword fallback (LLM down)"
+                        )
+                    else:
+                        decisions[item.fetch_id] = {
+                            "fetch_id": item.fetch_id,
+                            "included": False,
+                            "confidence": 0.95,
+                            "filter_reason": "LLM unavailable, excluded by default (fail-closed for Iran war focus)",
+                            "cached_at": time.time(),
+                        }
+                        logger.warning(
+                            f"No cache for {item.fetch_id}, excluded by default (fail-closed)"
+                        )
 
     # Save updated cache
     _save_cache(cache)

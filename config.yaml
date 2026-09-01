@@ -13,100 +13,100 @@ sources:
     type: rss
     url: "https://www.aljazeera.com/xml/rss/all.xml"
     language: en
-    max_items: 200
+    max_items: 100
     known_biases: "Pro-Arab, critical of Israel, editorializes framing"
     reliability_notes: "Generally reliable"
-    filter_instructions: "Watch for editorialized framing of events"
+    filter_instructions: "Watch for editorialized framing of events. Must be directly about Iran war to include."
     debias_instructions: "Note when framing differs from wire services"
 
   - name: reuters
     type: rss
     url: "https://www.rss-bridge.org/bridge01/?action=display&bridge=Reuters&feed=world&format=Atom"
     language: en
-    max_items: 200
+    max_items: 50
     known_biases: "Neutral wire service"
-    reliability_notes: "High, fact-checked"
-    filter_instructions: "Treat as anchor source"
+    reliability_notes: "High, fact-checked. Broad world feed, 80% not Iran-related."
+    filter_instructions: "Broad world feed, include ONLY if directly about Iran war (Iran/Hormuz/IRGC). Exclude all other world news."
     debias_instructions: "Generally reliable, minimal debias needed"
 
   - name: france24
     type: rss
     url: "https://www.france24.com/en/middle-east/rss"
     language: en
-    max_items: 200
+    max_items: 100
     known_biases: "French/European perspective, moderate editorial tone"
-    reliability_notes: "Generally reliable, strong on diplomacy coverage"
-    filter_instructions: "Good for European diplomatic angles and UN coverage"
+    reliability_notes: "Generally reliable, strong on diplomacy coverage. Middle-east feed has higher Iran yield."
+    filter_instructions: "Good for European diplomatic angles and UN coverage. Include only Iran war items."
     debias_instructions: "May emphasize European diplomatic efforts over other actors"
 
   - name: euronews
     type: rss
     url: "https://www.euronews.com/rss"
     language: en
-    max_items: 200
+    max_items: 50
     known_biases: "Pan-European perspective, EU-aligned framing"
-    reliability_notes: "Generally reliable, aggregates multiple European viewpoints"
-    filter_instructions: "Broad feed, many items will not be Iran-related, filter aggressively"
+    reliability_notes: "Generally reliable, but broad all-news feed. Very low Iran yield."
+    filter_instructions: "Very broad feed, 90% not Iran-related. Exclude unless directly about Iran war. Do not include general Europe, tech, or disaster news without Iran link."
     debias_instructions: "May overweight EU policy responses relative to other actors"
 
   - name: bbc
     type: rss
     url: "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml"
     language: en
-    max_items: 200
+    max_items: 100
     known_biases: "Mainstream Western public broadcaster, UK Foreign Office-aligned framing on diplomatic disputes"
-    reliability_notes: "High, wire-grade editorial standards"
-    filter_instructions: "Treat as anchor source for mainstream Western framing"
+    reliability_notes: "High, wire-grade editorial standards. Middle-east feed moderate Iran yield."
+    filter_instructions: "Middle-east feed, but still include ONLY Iran war items. Exclude other Middle East news without Iran link."
     debias_instructions: "May center UK/European diplomatic positions; compare against regional outlets"
 
   - name: jpost
     type: rss
     url: "https://www.jpost.com/rss/rssfeedsfrontpage.aspx"
     language: en
-    max_items: 200
+    max_items: 50
     known_biases: "Israeli perspective, security-first framing, tends toward government-aligned coverage of the conflict"
-    reliability_notes: "Reliable for Israeli official positions; opinion content mixed with news in feed"
-    filter_instructions: "Prioritize hard news over commentary; broad front-page feed needs aggressive filtering"
+    reliability_notes: "Reliable for Israeli official positions; opinion content mixed with news in feed. Broad frontpage."
+    filter_instructions: "Broad frontpage, 80% not Iran-related. Include ONLY if directly about Iran war, not general Israel politics."
     debias_instructions: "Note when Israeli government claims are reported without independent confirmation"
 
   - name: mee
     type: rss
     url: "https://www.middleeasteye.net/rss"
     language: en
-    max_items: 200
+    max_items: 75
     known_biases: "Independent regional outlet, critical of US/Israeli intervention, Gulf geopolitics skepticism"
-    reliability_notes: "Strong original regional reporting; editorial tone more opinionated than wires"
-    filter_instructions: "Good for regional and Global South angles missing from Western outlets"
+    reliability_notes: "Strong original regional reporting, higher Iran yield."
+    filter_instructions: "Higher Iran yield, but still exclude unless directly about Iran war."
     debias_instructions: "Note when framing attributes motives to US/Israel beyond reported facts"
 
   - name: npr
     type: rss
     url: "https://feeds.npr.org/1004/rss.xml"
     language: en
-    max_items: 200
+    max_items: 30
     known_biases: "US public broadcaster, measured tone, centers American policy debate"
-    reliability_notes: "High editorial standards; world feed is small and general"
-    filter_instructions: "Small general feed, expect low conflict yield per run"
+    reliability_notes: "High editorial standards; world feed is small and general, very low Iran yield."
+    filter_instructions: "Very small general feed, expect low conflict yield. Include ONLY direct Iran war items, exclude all other US domestic/world news."
     debias_instructions: "May frame events through US domestic politics lens"
 
   - name: dw
     type: rss
     url: "https://rss.dw.com/xml/rss-en-all"
     language: en
-    max_items: 200
+    max_items: 50
     known_biases: "German international public broadcaster, neutral tone, European diplomatic framing"
-    reliability_notes: "High editorial standards; broad all-news feed like Euronews"
-    filter_instructions: "Broad feed, many items will not be Iran-related, filter aggressively"
+    reliability_notes: "High editorial standards; broad all-news feed, very low Iran yield like Euronews."
+    filter_instructions: "Very broad feed, 90% not Iran-related. Exclude unless directly about Iran war. Do not include German domestic or non-Iran tech."
     debias_instructions: "May emphasize German/EU diplomatic positions over regional actors"
 
   - name: thehindu
     type: rss
     url: "https://www.thehindu.com/news/international/feeder/default.rss"
     language: en
-    max_items: 200
+    max_items: 50
     known_biases: "Indian English-language daily, professional non-aligned editorial tradition, Global South perspective"
-    reliability_notes: "Reliable newsroom, low editorializing on hard news"
-    filter_instructions: "International section covers the conflict from a non-Western angle missing elsewhere"
+    reliability_notes: "Reliable newsroom, but international feed is broad, low Iran yield."
+    filter_instructions: "Broad international feed, low Iran yield. Include ONLY direct Iran war items, exclude other world news."
     debias_instructions: "May frame Western actions through Global South critique without noting regional actor conduct"
 
 # ---------------------------------------------------------------------------
@@ -301,9 +301,34 @@ development_tracking:
 pipeline:
   dedup_similarity_threshold: 0.85
   filter_confidence_threshold: 0.5
-  max_report_bullets: 10
-  min_report_bullets: 3
+  max_report_bullets: 5
+  min_report_bullets: 0
   cache_ttl_hours: 24
+  # Deterministic Iran war keyword signals used by filter pre/post checks.
+  # An item must contain one of these to be considered for the brief.
+  iran_keywords:
+    - iran
+    - iranian
+    - irgc
+    - qods
+    - quds
+    - khamenei
+    - pezeshkian
+    - tehran
+    - hormuz
+    - persian gulf
+    - natanz
+    - fordow
+    - bushehr
+    - parchin
+    - kharg
+    - larak
+    - ahvaz
+    - bandar abbas
+    - islamic republic
+    - supreme leader
+    - centrifuge
+    - enrichment
 
 # ---------------------------------------------------------------------------
 # Publish Settings

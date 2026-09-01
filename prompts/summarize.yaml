@@ -61,10 +61,16 @@ user_template: |
 
   **What to watch:** One sentence about what might happen next.
 
+  Scope rule: These items have already been filtered to ONLY the US-Israel war on Iran.
+  Do not invent or add any non-Iran topics (floods, Venezuela oil, celebrity
+  deaths, etc.). If fewer than {min_bullets} items are provided, output only
+  what you have, or if no items, output exactly "No significant developments reported today."
+  It is acceptable to have 0, 1, 2, or 3 bullets on quiet days.
+
   Formatting rules:
-  - Select the {max_bullets} MOST IMPORTANT items. Ruthlessly cut the rest.
+  - Select UP TO {max_bullets} MOST IMPORTANT items from those provided. Ruthlessly cut the rest.
     Combine related items into single bullets where possible.
-  - Minimum {min_bullets} items, maximum {max_bullets} items. Hard cap.
+  - Minimum {min_bullets} items, maximum {max_bullets} items. Hard cap. {min_bullets} may be 0, so an empty brief is allowed.
   - Order categories by importance (most items or highest-impact first).
   - Omit empty categories.
   - Every item MUST use the <details><summary> format shown above.
