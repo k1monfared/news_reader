@@ -365,23 +365,44 @@ class AuditedLLMClient:
                         f"({response.status_code}): {response.text[:300]}"
                     )
                 else:
-                    data = response.json()
-                    content = (
-                        data["choices"][0]["message"].get("content") or ""
-                    ).strip()
-                    if not content:
+                    try:
+                        data = response.json()
+                    except Exception as e:
                         last_error = RuntimeError(
-                            f"Model {model} returned empty content; retrying "
-                            "(free models may emit only reasoning_content)"
+                            f"Model {model} returned invalid JSON: {e}; "
+                            f"body={response.text[:300]}"
                         )
                     else:
-                        usage = data.get("usage", {})
-                        return (
-                            content,
-                            usage.get("prompt_tokens", 0),
-                            usage.get("completion_tokens", 0),
-                            data["choices"][0].get("finish_reason"),
-                        )
+                        try:
+                            choices = data.get("choices")
+                            if not choices or not isinstance(choices, list):
+                                raise KeyError("choices")
+                            first = choices[0]
+                            if not isinstance(first, dict):
+                                raise KeyError("choices[0] is not a dict")
+                            message = first.get("message") or {}
+                            if not isinstance(message, dict):
+                                raise KeyError("message is not a dict")
+                            content = (message.get("content") or "").strip()
+                        except (KeyError, IndexError, TypeError, AttributeError) as e:
+                            last_error = RuntimeError(
+                                f"Model {model} returned malformed response "
+                                f"missing 'choices': {e}; body={str(data)[:400]}"
+                            )
+                        else:
+                            if not content:
+                                last_error = RuntimeError(
+                                    f"Model {model} returned empty content; retrying "
+                                    "(free models may emit only reasoning_content)"
+                                )
+                            else:
+                                usage = data.get("usage", {}) if isinstance(data.get("usage"), dict) else {}
+                                return (
+                                    content,
+                                    usage.get("prompt_tokens", 0),
+                                    usage.get("completion_tokens", 0),
+                                    first.get("finish_reason"),
+                                )
             if attempt < self._max_attempts - 1:
                 time.sleep(2 ** attempt)
         raise RuntimeError(

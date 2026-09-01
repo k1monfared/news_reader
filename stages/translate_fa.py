@@ -152,20 +152,28 @@ def _translate_bias_batch(
     model = config.models.get("translate_fa") or config.models.get(
         "default", ""
     )
-    response = llm_client.call(
-        stage="translate_fa",
-        prompt_name="translate_biases_fa",
-        prompt_version=version,
-        system=system,
-        user_message=user_msg,
-        model=model,
-        max_tokens=16384,
-    )
+    try:
+        response = llm_client.call(
+            stage="translate_fa",
+            prompt_name="translate_biases_fa",
+            prompt_version=version,
+            system=system,
+            user_message=user_msg,
+            model=model,
+            max_tokens=16384,
+        )
+    except Exception as e:
+        logger.warning(
+            f"Bias batch LLM call failed for {len(entries)} entries, "
+            f"falling back to English with pattern_en: {e}",
+            exc_info=True,
+        )
+        return [_with_pattern_en(e) for e in entries]
     try:
         translated = extract_json(response)
     except (json.JSONDecodeError, Exception) as e:
         logger.error(f"Bias batch translation returned invalid JSON: {e}")
-        return entries  # pass through untranslated rather than losing entries
+        return [_with_pattern_en(e) for e in entries]
     if not isinstance(translated, list) or len(translated) != len(entries):
         logger.warning("Bias batch translation returned wrong shape; falling back.")
         return [_with_pattern_en(e) for e in entries]
@@ -343,7 +351,14 @@ def run_translate_fa(
     logger.info(f"Wrote Farsi post to {fa_post_path}")
 
     # Merge any new English bias entries into the Farsi mirror.
-    bias_result = _translate_new_biases(llm_client, config)
+    # Bias sync is degraded gracefully: individual batch failures fall back
+    # to English with pattern_en, and unexpected errors do not block the
+    # Farsi post which was already written.
+    try:
+        bias_result = _translate_new_biases(llm_client, config)
+    except Exception as e:
+        logger.warning(f"Bias sync failed, keeping existing Farsi biases: {e}", exc_info=True)
+        bias_result = {"new_biases_translated": 0, "bias_sync_error": str(e)}
     logger.info(
         f"Bias sync: {bias_result.get('new_biases_translated', 0)} new entries translated."
     )
