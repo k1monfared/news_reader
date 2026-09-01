@@ -4014,6 +4014,17 @@
         "example_url": "https://www.aljazeera.com/features/2026/8/23/israels-war-on-gaza-forces-palestinians-to-rely-on-stone-age-toilets?traffic_source=rss",
         "unbiased_text": "آوارگان فلسطینی در غزه در میانه جنگ و بحران بهداشتی با دسترسی محدود به توالت‌های ایمن و بهداشتی مواجه هستند.",
         "pattern_en": "Stone Age Degradation Framing"
+      },
+      {
+        "pattern": "War on [Country] conflict branding",
+        "detail": "Al Jazeera uses 'War on Iran: US bombs Iran' as a categorical title, framing the conflict as a US war *on* Iran rather than a bilateral confrontation, presupposing aggression direction in the outlet's own branding.",
+        "debias": "Use neutral conflict descriptors like 'US-Iran clashes' or 'US strikes on Iran, Iran retaliates' without adopting a 'War on X' framing.",
+        "date_added": "2026-08-31",
+        "status": "suggested",
+        "example_text": "War on Iran: US bombs Iran",
+        "example_url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/war-on-iran-us-bombs-iran?traffic_source=rss",
+        "unbiased_text": "US strikes on Iran; Iran retaliates",
+        "pattern_en": "War on [Country] conflict branding"
       }
     ]
   },
@@ -7094,6 +7105,17 @@
         "example_url": "https://www.france24.com/en/middle-east/20260821-middle-east-live-hormuz-shipping-traffic-falls-as-iran-us-talks-stall",
         "unbiased_text": "ترکیه در چارچوب تحقیق دربارهٔ توقیف کاروان دریایی کمک‌رسانی به غزه توسط اسرائیل، حکم بازداشتی برای بنیامین نتانیاهو، نخست‌وزیر اسرائیل، صادر کرد و گفت به دنبال اجرای آن در خارج از کشور خواهد بود",
         "pattern_en": "International Warrant Authority Presumption"
+      },
+      {
+        "pattern": "Taxpayer-cost war personalization",
+        "detail": "France24 quantifies the Iran war's cost as '$1,100 per US taxpayer,' personalizing abstract state expenditure to individual readers to evoke domestic political pressure.",
+        "debias": "Report aggregate state costs without per-capita breakdowns that imply direct citizen liability.",
+        "date_added": "2026-08-31",
+        "status": "suggested",
+        "example_text": "In an analysis, FRANCE 24's Philip Turle said the war had so far cost around 1,100 US dollars for each US taxpayer.",
+        "example_url": "https://www.france24.com/en/iran-war-reaches-6-month-mark-conflict-cost-1-100-per-us-taxpayer",
+        "unbiased_text": "The war has cost the US an estimated $X billion in federal expenditure.",
+        "pattern_en": "Taxpayer-cost war personalization"
       }
     ]
   },
@@ -10701,6 +10723,17 @@
         "example_url": "http://www.euronews.com/my-europe/2026/08/21/ukraine-sanctions-masha-and-the-bear-cartoon-over-alleged-russian-propaganda",
         "unbiased_text": "اوکراین شرکت سازندهٔ کارتون ماشا و خرس را با استناد به ادعای ارتباط آن با دولت روسیه تحریم کرد.",
         "pattern_en": "Children's cartoon sanctions geopoliticization"
+      },
+      {
+        "pattern": "Exclusive adversary humanitarian access framing",
+        "detail": "Euronews frames the US blockade's impact through an 'Exclusive: Iranians tell Euronews' structure, granting privileged voice to the adversary population to document humanitarian harm from the outlet's own side's policy.",
+        "debias": "Report humanitarian impacts from multiple verified sources without 'exclusive access' framing that centers adversary testimony as uniquely revelatory.",
+        "date_added": "2026-08-31",
+        "status": "suggested",
+        "example_text": "Exclusive: US naval blockade is paralysing daily life, Iranians tell Euronews",
+        "example_url": "http://www.euronews.com/2026/08/31/exclusive-us-naval-blockade-is-paralysing-daily-life-iranians-tell-euronews",
+        "unbiased_text": "Iranians report US naval blockade causing severe economic hardship and inflation",
+        "pattern_en": "Exclusive adversary humanitarian access framing"
       }
     ]
   },
@@ -10735,6 +10768,17 @@
         "example_url": "https://www.jpost.com/middle-east/article-906244",
         "unbiased_text": "IDF می‌گوید یک فرد سوری را که به گفته آن در حال برنامه‌ریزی حمله به سربازان اسرائیلی بود هدف قرار داده است",
         "pattern_en": "Imminent Attack Pre-Justification Framing"
+      },
+      {
+        "pattern": "Military marketing terminology adoption",
+        "detail": "JPost adopts the Israeli defense ministry's branded name 'Achilles Shield' for the Greece air defense deal as a neutral descriptor in headlines and text, reproducing military marketing language without quotation or attribution.",
+        "debias": "Use generic descriptors like 'multi-layered air defense system' and attribute branded names to the source.",
+        "date_added": "2026-08-31",
+        "status": "suggested",
+        "example_text": "Achilles Shield: Israel, Greece sign over NIS 10b. air defense deal against Turkey",
+        "example_url": "https://www.jpost.com/israel-news/defense-news/article-907112",
+        "unbiased_text": "Israel, Greece sign $3.5bn multi-layered air defense deal",
+        "pattern_en": "Military marketing terminology adoption"
       }
     ]
   },
@@ -10752,6 +10796,17 @@
         "example_url": "https://www.middleeasteye.net/opinion/after-israels-annihilation-gaza-can-i-ever-return-home",
         "unbiased_text": "پس از ویرانی گسترده در غزه، آیا هرگز می‌توانم به خانه بازگردم؟",
         "pattern_en": "Total Annihilation Hyperbole Framing"
+      },
+      {
+        "pattern": "Adversarial rhetoric headline amplification",
+        "detail": "MEE repeatedly headlines and amplifies dehumanizing rhetoric from Iranian officials (calling Netanyahu a 'serpent') across multiple articles, elevating insults to framing devices.",
+        "debias": "Report inflammatory rhetoric in context without repeating it in headlines or as structural framing.",
+        "date_added": "2026-08-31",
+        "status": "suggested",
+        "example_text": "Araghchi blames 'serpent' Netanyahu for luring Washington into war on Iran",
+        "example_url": "https://www.middleeasteye.net/news/serpent-netanyahu-suckered-washington-fighting-israels-war-iran-araghchi-says",
+        "unbiased_text": "Iranian Foreign Minister Araghchi accuses Netanyahu of drawing the US into war with Iran",
+        "pattern_en": "Adversarial rhetoric headline amplification"
       }
     ]
   },
@@ -10780,6 +10835,17 @@
         "example_url": "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare",
         "unbiased_text": "یک مقام ایرانی گفت تحریم‌های آمریکا به اهداف خود نرسیده است، در حالی که آمریکا می‌گوید اقدامات اقتصادی‌اش با هدف تحت فشار قرار دادن ایران برای مذاکره انجام می‌شود.",
         "pattern_en": "Adversary Failure Spin Amplification"
+      },
+      {
+        "pattern": "Unrelated story headline amalgamation",
+        "detail": "NPR combines unrelated stories (Venezuela oil deal and US heat deaths) under a single headline with 'And,' creating false thematic linkage between disparate events.",
+        "debias": "Separate distinct stories into individual headlines; avoid 'And,' conjunctions that imply connection.",
+        "date_added": "2026-08-31",
+        "status": "suggested",
+        "example_text": "U.S., Venezuela strike oil deal. And, the staggering hidden toll of U.S. heat deaths",
+        "example_url": "https://www.npr.org/2026/08/31/g-s1-141187/up-first-newsletter-venezuela-oil-iran-war-house-government-funding-grand-canyon-flash-flooding",
+        "unbiased_text": "U.S. and Venezuela reach oil agreement; separately, investigation finds US heat deaths undercounted",
+        "pattern_en": "Unrelated story headline amalgamation"
       }
     ]
   },
@@ -10797,6 +10863,17 @@
         "example_url": "https://www.dw.com/en/ukraine-zelenskyy-rejects-wartime-elections/a-78475087?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "رئیس‌جمهور اوکراین گفت برگزاری انتخابات تحت حکومت نظامی دشوار خواهد بود، در حالی که وزیر دفاع پیشین خواستار برگزاری انتخابات در زمان جنگ شده است؛ او همچنین گفت روسیه قصد دارد پس از سپتامبر نیرو بسیج کند.",
         "pattern_en": "Wartime Election Catastrophization Framing"
+      },
+      {
+        "pattern": "International tribunal directive framing",
+        "detail": "DW headlines an international tribunal ruling as 'Court says India must uphold Pakistan water treaty,' presenting the ruling as a binding directive to a sovereign state rather than a judicial finding.",
+        "debias": "Frame rulings as 'tribunal finds India in violation of treaty obligations' or 'orders India to comply' with attribution to the court's authority.",
+        "date_added": "2026-08-31",
+        "status": "suggested",
+        "example_text": "Court says India must uphold Pakistan water treaty",
+        "example_url": "https://www.dw.com/en/court-says-india-must-uphold-pakistan-water-treaty/a-78579010?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "International tribunal rules India must comply with Indus Waters Treaty obligations",
+        "pattern_en": "International tribunal directive framing"
       }
     ]
   },
@@ -10814,6 +10891,17 @@
         "example_url": "https://www.thehindu.com/videos/imran-khan-tortured-isolated-in-jail-sister/article71374921.ece",
         "unbiased_text": "خواهر عمران خان ادعا کرد که او در زندان با شرایط سخت روبه‌رو است و به دلیل عارضه چشمی تحت درمان قرار دارد؛ این ادعاها به‌طور مستقل تأیید نشده‌اند.",
         "pattern_en": "Kin-Sourced Torture Allegation Framing"
+      },
+      {
+        "pattern": "LIVE disaster toll scorecard",
+        "detail": "The Hindu runs multiple 'LIVE' updates with precise, incrementing death and missing tolls (939 dead, 3,925 missing) presented as a real-time scorecard, turning humanitarian catastrophe into a running tally.",
+        "debias": "Report confirmed tolls at publication intervals without live-updating framing that gamifies casualty counts.",
+        "date_added": "2026-08-31",
+        "status": "suggested",
+        "example_text": "Nepal flash floods LIVE: Death toll rises to 939, missing people drops to 3,925: disaster authority",
+        "example_url": "https://www.thehindu.com/news/international/nepal-flash-floods-aftermath-live-udpates-rescue-work-august-31-2026/article71409646.ece",
+        "unbiased_text": "Nepal flash floods: Death toll reaches 939 with 3,925 still missing, authorities say",
+        "pattern_en": "LIVE disaster toll scorecard"
       }
     ]
   }
