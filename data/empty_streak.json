@@ -1,8 +1,14 @@
 {
   "consecutive_empty": 0,
-  "last_date": null,
+  "last_date": "2026-09-02",
   "last_empty_date": null,
   "notifications_sent": [],
   "stopped": false,
-  "history": []
+  "history": [
+    {
+      "date": "2026-09-02",
+      "empty": false,
+      "consecutive": 0
+    }
+  ]
 }
