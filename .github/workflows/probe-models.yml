@@ -21,6 +21,11 @@ on:
         default: ''
         required: false
         type: string
+      max_tokens:
+        description: 'Completion budget per probe call (reasoning models need ~60)'
+        default: '5'
+        required: false
+        type: string
 
 permissions:
   contents: read
@@ -44,6 +49,7 @@ jobs:
           --base "${{ inputs.base_url }}"
           --models "${{ inputs.models }}"
           --session-id "${{ inputs.session_id }}"
+          --max-tokens "${{ inputs.max_tokens }}"
 
       - name: Upload probe results
         if: always()
