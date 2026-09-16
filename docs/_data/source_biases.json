@@ -6460,6 +6460,16 @@
         "example_text": "Saudi Arabia closes East-West pipeline as Houthis tighten grip on Red Sea",
         "example_url": "http://www.france24.com/en/middle-east/20260912-saudi-arabia-shut-down-east-west-pipeline-as-houthis-tighten-grip-on-red-sea",
         "unbiased_text": "Saudi Arabia closes East-West pipeline after it was attacked"
+      },
+      {
+        "pattern": "Election Timing Pressure Attribution",
+        "detail": "The article links Houthi attacks on US allies to 'growing pressure on Washington' while Trump heads toward an election, implying the conflict is primarily a lever on US electoral politics.",
+        "debias": "Report the factual events without attributing electoral-pressure motives or framing foreign conflicts as domestic political pressure.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "the growing pressure on Washington as the group targets US allies while Donald Trump heads into a crucial election",
+        "example_url": "http://www.france24.com/en/video/20260913-yemen-the-houthis-test-iran-s-regional-influence",
+        "unbiased_text": "the Houthis' ties with Iran and their attacks on US allies"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -9924,6 +9934,16 @@
         "example_text": "The search for survivors has been hampered by Israeli restrictions on heavy machinery in the Gaza Strip.",
         "example_url": "https://www.dw.com/en/gaza-at-least-21-dead-including-children-in-building-collapse/a-79293453",
         "unbiased_text": "The search for survivors is continuing; heavy machinery is not available in the Gaza Strip."
+      },
+      {
+        "pattern": "Unspecified Controversy Lingering Framing",
+        "detail": "A report on a major sports victory immediately adds 'but controversy still hangs over him' without specifying the nature of the controversy, subtly tainting the achievement.",
+        "debias": "If a controversy is relevant, state it concretely; otherwise leave it out of a victory report.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "It is Zverev's second Grand Slam win of 2026 after a long wait for his first title, but controversy still hangs over him.",
+        "example_url": "https://www.dw.com/en/germany-s-zverev-wins-us-open-in-golden-year/a-79212706?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "It is Zverev's second Grand Slam win of 2026 after a long wait for his first title."
       }
     ]
   },
