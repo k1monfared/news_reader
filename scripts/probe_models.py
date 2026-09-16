@@ -113,7 +113,8 @@ def discover(base: str) -> list[str]:
     return [m["id"] for m in data.get("data", []) if isinstance(m.get("id"), str)]
 
 
-def probe_chat(base: str, key: str, model: str, session_id: str = "") -> tuple[int, str]:
+def probe_chat(base: str, key: str, model: str, session_id: str = "",
+               max_tokens: int = 5) -> tuple[int, str]:
     headers = {"Content-Type": "application/json", "Authorization": f"Bearer {key}"}
     if session_id:
         headers["x-opencode-session"] = session_id
@@ -121,12 +122,13 @@ def probe_chat(base: str, key: str, model: str, session_id: str = "") -> tuple[i
         "POST",
         f"{base}/chat/completions",
         headers,
-        {"model": model, "max_tokens": 5,
+        {"model": model, "max_tokens": max_tokens,
          "messages": [{"role": "user", "content": "Reply with the word ok."}]},
     )
 
 
-def probe_responses(base: str, key: str, model: str, session_id: str = "") -> tuple[int, str]:
+def probe_responses(base: str, key: str, model: str, session_id: str = "",
+                    max_tokens: int = 5) -> tuple[int, str]:
     headers = {"Content-Type": "application/json", "Authorization": f"Bearer {key}"}
     if session_id:
         headers["x-opencode-session"] = session_id
@@ -134,7 +136,7 @@ def probe_responses(base: str, key: str, model: str, session_id: str = "") -> tu
         "POST",
         f"{base}/responses",
         headers,
-        {"model": model, "input": "Reply with the word ok.", "max_output_tokens": 8},
+        {"model": model, "input": "Reply with the word ok.", "max_output_tokens": max(max_tokens, 16)},
     )
 
 
@@ -149,6 +151,10 @@ def main() -> int:
     ap.add_argument("--session-id", default="",
                     help="Stable session id sent as x-opencode-session "
                          "(required by the Go catalog for routing/caching).")
+    ap.add_argument("--max-tokens", type=int, default=5,
+                    help="Completion budget per probe call. Reasoning models "
+                         "need headroom (e.g. 60) or they return "
+                         "finish_reason=length with empty content.")
     args = ap.parse_args()
 
     key = os.environ.get("OPENCODE_API_KEY", "")
@@ -180,11 +186,11 @@ def main() -> int:
 
     results = []
     for model in candidates:
-        status, body = probe_chat(args.base, key, model, args.session_id)
+        status, body = probe_chat(args.base, key, model, args.session_id, args.max_tokens)
         outcome, retry = classify(status, body, "chat/completions")
         route = "chat/completions"
         if retry:
-            s2, b2 = probe_responses(args.base, key, model, args.session_id)
+            s2, b2 = probe_responses(args.base, key, model, args.session_id, args.max_tokens)
             o2, _ = classify(s2, b2, "responses")
             results.append({"id": model, "route": "chat/completions",
                             "status": status, "outcome": outcome,
