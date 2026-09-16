@@ -6440,6 +6440,16 @@
         "example_text": "Meanwhile in Iran where many communities have been bombed since February 28th, there's now the added problem of incresing fuel prices.",
         "example_url": "http://www.france24.com/en/iran-raises-fuel-prices-for-heavy-users",
         "unbiased_text": "Meanwhile in Iran, fuel prices have also risen; many communities there have been affected by bombing since February 28th."
+      },
+      {
+        "pattern": "Unattributed measurement reporting",
+        "detail": "France24 reports the seismic magnitude of Israel's tunnel demolition as an unqualified fact ('triggering a 4.1-magnitude tremor') without citing the USGS or any measurement source, while BBC explicitly attributes the measurement to the US Geological Survey.",
+        "debias": "When reporting physical measurements from military actions, always attribute the measurement to its source.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "Israel said Thursday it demolished key tunnels built by the Iran-backed Hezbollah group beneath the strategic Ali al-Taher ridge in southern Lebanon, triggering a 4.1-magnitude tremor.",
+        "example_url": "http://www.france24.com/en/video/20260911-lebanon-tremor-recorded-as-israel-says-destroyed-key-hezbollah-tunnels",
+        "unbiased_text": "Israel said Thursday it demolished key tunnels built by the Iran-backed Hezbollah group beneath the strategic Ali al-Taher ridge in southern Lebanon; the blast registered as a magnitude 4.1 tremor, according to the US Geological Survey."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -9730,6 +9740,16 @@
         "example_text": "British-Israeli relations at lowest ebb in decades",
         "example_url": "https://www.bbc.co.uk/news/articles/c5ydlex9yn3o",
         "unbiased_text": "British-Israeli relations deteriorate following UK sanctions on settlements"
+      },
+      {
+        "pattern": "Adversary military achievement valorization",
+        "detail": "BBC editorializes the Houthi coastline capture as the group's 'most impressive military coup for several years,' using a positive value judgment to characterize the military advance.",
+        "debias": "Avoid subjective adjectives like 'impressive' when describing military gains; instead use neutral descriptors such as 'significant' or 'notable'.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "The capture by the rebels of a stretch of Yemen's strategic coastline is the group's most impressive military coup for several years.",
+        "example_url": "https://www.bbc.co.uk/news/articles/c3v4zgzr1kxo?at_medium=RSS&at_campaign=rss",
+        "unbiased_text": "The capture by the rebels of a stretch of Yemen's strategic coastline is the group's most significant military gain in several years."
       }
     ]
   },
