@@ -9964,6 +9964,36 @@
         "example_text": "Donald Trump, under fire for record US diesel prices, claims Russia and Ukraine have agreed to stop striking energy targets.",
         "example_url": "https://www.dw.com/en/trump-seeks-halt-to-energy-attacks-by-both-russia-ukraine/a-79265774?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "Donald Trump said Russia and Ukraine have agreed to stop striking energy targets; Russia did not comment, and Ukraine said it expects specifics from partners."
+      },
+      {
+        "pattern": "Survivor Moral Authority Framing",
+        "detail": "The article's headline and lede foreground a Holocaust survivor's biography to lend moral authority to a political judgment about an election result.",
+        "debias": "Report the election result and quote the survivor as one opinion, not as a verdict from history.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "Charlotte Knobloch survived the Holocaust by passing as the daughter of non-Jewish farmers. She recently spoke with DW to express her shock following the AfD victory in Saxony-Anhalt's state election.",
+        "example_url": "https://www.dw.com/en/holocaust-survivor-on-very-dangerous-afd-saxony-anhalt-win/a-79278429?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "DW interviewed Holocaust survivor Charlotte Knobloch about the AfD's state election win; she called the result 'very dangerous'."
+      },
+      {
+        "pattern": "Apolitical Claim Contradiction Spotting",
+        "detail": "The article juxtaposes an athlete's campaign support with his self-description as non-political to frame him as hypocritical.",
+        "debias": "Describe the endorsement without using the athlete's personal framing to imply a contradiction.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "That's in keeping with a pattern of support by an athlete who claims not to be political.",
+        "example_url": "https://www.dw.com/en/alexander-ovechkin-backs-putin-party-in-campaign-video/a-79277772?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "Ovechkin has previously supported Putin's party in election campaigns."
+      },
+      {
+        "pattern": "Single-Case Regime Generalization",
+        "detail": "A Turkey-specific LGBTQ+ crackdown is turned into a general theory about 'authoritarian regimes' through an open-ended headline.",
+        "debias": "Anchor the analysis in the specific country and evidence rather than universalizing to a regime type.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "Why do authoritarian regimes target the LGBTQ+ community?",
+        "example_url": "https://www.dw.com/en/why-do-authoritarian-regimes-target-the-lgbtq-community/a-79276831?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "What is behind Turkey's recent LGBTQ+ crackdown?"
       }
     ]
   },
@@ -9990,6 +10020,26 @@
         "example_text": "Nepal flash floods LIVE: Death toll rises to 939, missing people drops to 3,925: disaster authority",
         "example_url": "https://www.thehindu.com/news/international/nepal-flash-floods-aftermath-live-udpates-rescue-work-august-31-2026/article71409646.ece",
         "unbiased_text": "Nepal flash floods: Death toll reaches 939 with 3,925 still missing, authorities say"
+      },
+      {
+        "pattern": "Shock Attribution Editorialization",
+        "detail": "The article injects an unverified emotional reaction — 'shocking' — into a routine vote report.",
+        "debias": "State the vote tally and the opposing leadership's position without characterizing their emotional state.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "The resolution to advance the Russia sanctions Bill and a slew of other legislations was approved by a 214-211 vote, shocking the House Democratic leadership.",
+        "example_url": "https://www.thehindu.com/news/international/russia-sanctions-bill-advances-in-us-house-india-tariffs-final-vote/article71470872.ece",
+        "unbiased_text": "The House voted 214-211 to advance the Russia sanctions Bill, against the wishes of Democratic leaders."
+      },
+      {
+        "pattern": "Taboo Detail Headline Sensationalism",
+        "detail": "The headline leads with sexual and taboo policy details ('prostitution, bestiality') rather than the purpose of the hearing.",
+        "debias": "Use neutral policy language in headlines and put the hearing's subject in context.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "FBI chief Kash Patel defends hiring policy changes on prostitution, bestiality at fiery hearing",
+        "example_url": "https://www.thehindu.com/news/international/fbi-chief-kash-patel-defends-hiring-policy-changes-on-prostitution-bestiality-at-fiery-hearing/article71470146.ece",
+        "unbiased_text": "FBI chief Kash Patel defends FBI hiring policy changes at Senate hearing."
       }
     ]
   }
