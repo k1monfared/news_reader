@@ -7127,6 +7127,17 @@
         "example_url": "https://www.france24.com/en/iran-war-reaches-6-month-mark-conflict-cost-1-100-per-us-taxpayer",
         "unbiased_text": "The war has cost the US an estimated $X billion in federal expenditure.",
         "pattern_en": "Taxpayer-cost war personalization"
+      },
+      {
+        "pattern": "نابرابری رنج میان کشورها",
+        "detail": "در گزارشی درباره قیمت‌های سوخت مرتبط با درگیری، France 24 تأثیر بر آمریکا را به‌عنوان یک مشکل سیاسی برای ترامپ قاب می‌کند، اما تأثیر بر ایران را به‌عنوان رنج بشردوستانه در کنار بمباران‌های جاری مطرح می‌کند که همدلی نابرابری میان ملت‌ها ایجاد می‌کند.",
+        "debias": "هنگام جمع‌بندی، حقایق اقتصادی را از چارچوب احساسی جدا کنید و اشاره کنید که هر دو کشور با پیامدهای قابل توجهی روبه‌رو هستند بدون اینکه به رنج یک طرف وزن بیشتری بدهید.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "در همین حال در ایران، جایی که بسیاری از جوامع از ۲۸ فوریه بمباران شده‌اند، اکنون مشکل افزایش قیمت سوخت نیز اضافه شده است.",
+        "example_url": "http://www.france24.com/en/iran-raises-fuel-prices-for-heavy-users",
+        "unbiased_text": "در همین حال در ایران، قیمت سوخت نیز افزایش یافته است؛ بسیاری از جوامع آنجا از ۲۸ فوریه تحت تأثیر بمباران قرار گرفته‌اند.",
+        "pattern_en": "Cross-national suffering asymmetry"
       }
     ]
   },
@@ -10834,6 +10845,17 @@
         "example_url": "https://www.jpost.com/middle-east/iran-news/article-908807",
         "unbiased_text": "حتی تلاشِ گزارش‌شده برای حمله به مکه نیز برای اتحاد خاورمیانه علیه ایران کافی نیست، تحلیلگر به «Post» می‌گوید.",
         "pattern_en": "Attempted attack as accomplished attack"
+      },
+      {
+        "pattern": "معرفی غیرانتقادی صهیونیست‌های مسیحی",
+        "detail": "JPost شخصیت‌های مسیحی حامی اسرائیل را با تمجید بی‌قیدوشرط معرفی می‌کند و آن‌ها را «بسیار محترم» و «حامی اسرائیل» می‌خواند، بدون بررسی انتقادی فعالیت سیاسی‌شان.",
+        "debias": "هنگام خلاصه‌سازی، این معرفی‌ها را به‌جای گزارش مستقل، ترویج طرفدارانه شناسایی کنید و نقش سیاسی سوژه‌ها را با ذکر زمینه روشن کنید.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "کشیش کلیسای باپتیست پرستونوود، او یکی از معتبرترین چهره‌های مسیحی است که امروز از اسرائیل حمایت می‌کند.",
+        "example_url": "https://www.jpost.com/influencers-26/pro-israel-christians/article-907455",
+        "unbiased_text": "کشیش کلیسای باپتیست پرستونوود، او یک چهره مسیحی حامی اسرائیل است.",
+        "pattern_en": "Uncritical Christian Zionist profiling"
       }
     ]
   },
