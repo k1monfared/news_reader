@@ -6450,6 +6450,16 @@
         "example_text": "Israel said Thursday it demolished key tunnels built by the Iran-backed Hezbollah group beneath the strategic Ali al-Taher ridge in southern Lebanon, triggering a 4.1-magnitude tremor.",
         "example_url": "http://www.france24.com/en/video/20260911-lebanon-tremor-recorded-as-israel-says-destroyed-key-hezbollah-tunnels",
         "unbiased_text": "Israel said Thursday it demolished key tunnels built by the Iran-backed Hezbollah group beneath the strategic Ali al-Taher ridge in southern Lebanon; the blast registered as a magnitude 4.1 tremor, according to the US Geological Survey."
+      },
+      {
+        "pattern": "Grip Metaphor Incremental Control",
+        "detail": "The headline frames the pipeline closure as the result of a metaphorical, incremental Houthi campaign ('tighten grip') rather than a discrete attack event, implying a deliberate, menacing expansion.",
+        "debias": "Use a neutral causal connector and attribute the closure to the specific attack event rather than suggesting a gradual takeover.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "Saudi Arabia closes East-West pipeline as Houthis tighten grip on Red Sea",
+        "example_url": "http://www.france24.com/en/middle-east/20260912-saudi-arabia-shut-down-east-west-pipeline-as-houthis-tighten-grip-on-red-sea",
+        "unbiased_text": "Saudi Arabia closes East-West pipeline after it was attacked"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -9750,6 +9760,16 @@
         "example_text": "The capture by the rebels of a stretch of Yemen's strategic coastline is the group's most impressive military coup for several years.",
         "example_url": "https://www.bbc.co.uk/news/articles/c3v4zgzr1kxo?at_medium=RSS&at_campaign=rss",
         "unbiased_text": "The capture by the rebels of a stretch of Yemen's strategic coastline is the group's most significant military gain in several years."
+      },
+      {
+        "pattern": "Border-Proximity Iran Implication",
+        "detail": "The subtitle notes the attack 'came from an area bordering Iran,' implying Iranian involvement through geographic proximity without direct evidence.",
+        "debias": "Report the attack's origin without invoking nearby state borders, or explicitly state that border proximity does not imply state involvement.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "Iraq removes a military commander and opens investigations into the attack that came from an area bordering Iran.",
+        "example_url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
+        "unbiased_text": "Iraq removes a military commander and opens investigations into the attack."
       }
     ]
   },
