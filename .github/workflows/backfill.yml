@@ -1,0 +1,45 @@
+name: Backfill Dates
+
+# Date-scoped backfill: runs the full pipeline for specific past dates,
+# keeping only items published on each target date. Dates with no surviving
+# feed coverage abort before any LLM call (no fabrication); mailer skips
+# non-today dates by design. Manually dispatched.
+on:
+  workflow_dispatch:
+    inputs:
+      dates:
+        description: 'Space-separated dates YYYY-MM-DD'
+        default: '2026-09-07 2026-09-08 2026-09-09 2026-09-10 2026-09-11 2026-09-12 2026-09-13 2026-09-14 2026-09-15'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run backfill
+        env:
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          OPENCODE_API_BASE_URL: https://opencode.ai/zen/go/v1
+          OPENCODE_SESSION_ID: news-reader-backfill-${{ github.run_id }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: python scripts/backfill_dates.py --dates ${{ inputs.dates }}
