@@ -7149,6 +7149,17 @@
         "example_url": "http://www.france24.com/en/video/20260911-lebanon-tremor-recorded-as-israel-says-destroyed-key-hezbollah-tunnels",
         "unbiased_text": "اسرائیل روز پنجشنبه اعلام کرد که تونل‌های کلیدی ساخته‌شده توسط گروه حزب‌الله مورد حمایت ایران را در زیر خط‌الرأس راهبردی علی‌الطاهر در جنوب لبنان تخریب کرده است؛ بر اساس اعلام سازمان زمین‌شناسی آمریکا، این انفجار لرزه‌ای به بزرگی ۴.۱ ثبت کرده است.",
         "pattern_en": "Unattributed measurement reporting"
+      },
+      {
+        "pattern": "کنترل تدریجی با استعاره چنگ‌اندازی",
+        "detail": "تیتر این خبر بسته شدن خط لوله را نتیجه یک کارزار تدریجی و استعاری حوثی‌ها («چنگ‌اندازی») توصیف می‌کند، نه یک رویداد حمله مشخص، و این‌طور القا می‌کند که توسعه‌ای عمدی و تهدیدآمیز در جریان است.",
+        "debias": "از یک رابط علی خنثی استفاده کنید و بسته شدن خط لوله را به رویداد مشخص حمله نسبت دهید، نه اینکه به گسترش تدریجی اشاره کنید.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "عربستان سعودی خط لوله شرقی-غربی را می‌بندد در حالی که حوثی‌ها چنگ خود را بر دریای سرخ محکم می‌کنند",
+        "example_url": "http://www.france24.com/en/middle-east/20260912-saudi-arabia-shut-down-east-west-pipeline-as-houthis-tighten-grip-on-red-sea",
+        "unbiased_text": "عربستان سعودی خط لوله شرقی-غربی را پس از حمله به آن می‌بندد",
+        "pattern_en": "Grip Metaphor Incremental Control"
       }
     ]
   },
@@ -10817,6 +10828,17 @@
         "example_url": "https://www.bbc.co.uk/news/articles/c3v4zgzr1kxo?at_medium=RSS&at_campaign=rss",
         "unbiased_text": "تصرف بخشی از خط ساحلی راهبردی یمن توسط شورشیان، مهم‌ترین دستاورد نظامی این گروه در چند سال اخیر است.",
         "pattern_en": "Adversary military achievement valorization"
+      },
+      {
+        "pattern": "تلویح ایران به دلیل نزدیکی مرز",
+        "detail": "زیرعنوان اشاره میکند که حمله «از منطقهای در نزدیکی مرز ایران» انجام شده است و بدون شواهد مستقیم، دخالت ایران را از طریق نزدیکی جغرافیایی تلویح میکند.",
+        "debias": "منشأ حمله را بدون اشاره به مرزهای کشورهای همسایه گزارش کنید، یا به صراحت بیان کنید که نزدیکی مرز به معنای دخالت کشور نیست.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "عراق یک فرمانده نظامی را برکنار میکند و تحقیقاتی را درباره حملهای که از منطقهای در نزدیکی مرز ایران انجام شده، آغاز میکند.",
+        "example_url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
+        "unbiased_text": "عراق یک فرمانده نظامی را برکنار میکند و تحقیقاتی را درباره حمله آغاز میکند.",
+        "pattern_en": "Border-Proximity Iran Implication"
       }
     ]
   },
