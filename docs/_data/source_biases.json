@@ -6470,6 +6470,16 @@
         "example_text": "the growing pressure on Washington as the group targets US allies while Donald Trump heads into a crucial election",
         "example_url": "http://www.france24.com/en/video/20260913-yemen-the-houthis-test-iran-s-regional-influence",
         "unbiased_text": "the Houthis' ties with Iran and their attacks on US allies"
+      },
+      {
+        "pattern": "Selective expert quote headline framing",
+        "detail": "The headline introduces the loaded phrase 'Axis of Iranian centrality' and quotes the expert only partially, omitting his simultaneous criticism of Israel's regional project, thus reframing his assessment as solely about Iran.",
+        "debias": "Use a neutral summary of the expert's full assessment rather than a partial quote paired with editorializing labels.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "'Axis of Iranian centrality' remains \"one of more destabilising forces in the region\", expert says",
+        "example_url": "http://www.france24.com/en/axis-of-iranian-centrality-remains-one-of-more-destabilising-forces-in-the-region-expert-says",
+        "unbiased_text": "Expert says Iran, its proxies and Israel's regional project are destabilising forces"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -9944,6 +9954,16 @@
         "example_text": "It is Zverev's second Grand Slam win of 2026 after a long wait for his first title, but controversy still hangs over him.",
         "example_url": "https://www.dw.com/en/germany-s-zverev-wins-us-open-in-golden-year/a-79212706?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "It is Zverev's second Grand Slam win of 2026 after a long wait for his first title."
+      },
+      {
+        "pattern": "Domestic pressure motive attribution",
+        "detail": "The article introduces domestic political or economic pressure (\"under fire for record US diesel prices\") to imply that a leader's diplomatic statement is primarily motivated by personal political concerns rather than international policy.",
+        "debias": "Report the statement and reactions without speculating on domestic motives unless sourced.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "Donald Trump, under fire for record US diesel prices, claims Russia and Ukraine have agreed to stop striking energy targets.",
+        "example_url": "https://www.dw.com/en/trump-seeks-halt-to-energy-attacks-by-both-russia-ukraine/a-79265774?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "Donald Trump said Russia and Ukraine have agreed to stop striking energy targets; Russia did not comment, and Ukraine said it expects specifics from partners."
       }
     ]
   },
