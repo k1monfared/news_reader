@@ -11050,6 +11050,39 @@
         "example_url": "https://www.dw.com/en/trump-seeks-halt-to-energy-attacks-by-both-russia-ukraine/a-79265774?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "دونالد ترامپ گفت روسیه و اوکراین توافق کرده‌اند حملات به تأسیسات انرژی را متوقف کنند؛ روسیه هیچ اظهارنظری نکرد و اوکراین گفت که از شرکا انتظار جزئیات دارد.",
         "pattern_en": "Domestic pressure motive attribution"
+      },
+      {
+        "pattern": "چارچوب اقتدار اخلاقی بازمانده",
+        "detail": "تیتر و لید مقاله، زندگینامه یک بازمانده هولوکاست را برجسته میکند تا به یک قضاوت سیاسی درباره نتیجه انتخابات، اقتدار اخلاقی ببخشد.",
+        "debias": "نتیجه انتخابات را گزارش کنید و از بازمانده به‌عنوان یک نظر نقل‌قول کنید، نه به‌عنوان حکم تاریخ.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "شارلوت کنوبلوخ با معرفی خود به‌عنوان دختر کشاورزان غیریهودی از هولوکاست جان سالم به‌در برد. او اخیراً با دویچه‌وله (DW) گفت‌وگو کرد و شوک خود را پس از پیروزی AfD در انتخابات ایالتی زاکسن-آنهالت ابراز داشت.",
+        "example_url": "https://www.dw.com/en/holocaust-survivor-on-very-dangerous-afd-saxony-anhalt-win/a-79278429?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "DW با شارلوت کنوبلوخ، بازمانده هولوکاست، درباره پیروزی AfD در انتخابات ایالتی گفت‌وگو کرد؛ او این نتیجه را «بسیار خطرناک» خواند.",
+        "pattern_en": "Survivor Moral Authority Framing"
+      },
+      {
+        "pattern": "تشخیص تناقض در ادعای غیرسیاسی",
+        "detail": "مقاله حمایت انتخاباتی یک ورزشکار را با توصیف خودش به‌عنوان فردی غیرسیاسی کنار هم می‌گذارد تا او را دورویه نشان دهد.",
+        "debias": "حمایت را بدون استفاده از چارچوب شخصی ورزشکار برای القای تناقض توصیف کنید.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "این با الگوی حمایت ورزشکاری که ادعا می‌کند غیرسیاسی است، همخوانی دارد.",
+        "example_url": "https://www.dw.com/en/alexander-ovechkin-backs-putin-party-in-campaign-video/a-79277772?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "اوچکین پیشتر در کارزارهای انتخاباتی از حزب پوتین حمایت کرده است.",
+        "pattern_en": "Apolitical Claim Contradiction Spotting"
+      },
+      {
+        "pattern": "تعمیم رژیم از مورد واحد",
+        "detail": "سرکوب LGBTQ+ مربوط به ترکیه از طریق یک تیتر باز به نظریه‌ای کلی درباره «رژیم‌های استبدادی» تبدیل شده است.",
+        "debias": "به جای تعمیم به یک نوع رژیم، تحلیل را بر کشور و شواهد خاص متمرکز کنید.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "چرا رژیم‌های استبدادی جامعه LGBTQ+ را هدف قرار می‌دهند؟",
+        "example_url": "https://www.dw.com/en/why-do-authoritarian-regimes-target-the-lgbtq-community/a-79276831?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "علت سرکوب اخیر LGBTQ+ در ترکیه چیست؟",
+        "pattern_en": "Single-Case Regime Generalization"
       }
     ]
   },
@@ -11078,6 +11111,28 @@
         "example_url": "https://www.thehindu.com/news/international/nepal-flash-floods-aftermath-live-udpates-rescue-work-august-31-2026/article71409646.ece",
         "unbiased_text": "Nepal flash floods: Death toll reaches 939 with 3,925 still missing, authorities say",
         "pattern_en": "LIVE disaster toll scorecard"
+      },
+      {
+        "pattern": "تفسیر خبری با انتساب شوک",
+        "detail": "مقاله یک واکنش احساسی تأییدنشده — «شوکه‌کننده» — را در گزارش معمولی یک رأی‌گیری وارد می‌کند.",
+        "debias": "نتیجه شمارش آرا و موضع رهبری مخالف را بدون توصیف حالت احساسی آنان بیان کنید.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "قطعنامه برای پیشبرد لایحه تحریم‌های روسیه و تعدادی از قوانین دیگر با رأی ۲۱۴-۲۱۱ تصویب شد و رهبری دموکرات‌های مجلس نمایندگان را شوکه کرد.",
+        "example_url": "https://www.thehindu.com/news/international/russia-sanctions-bill-advances-in-us-house-india-tariffs-final-vote/article71470872.ece",
+        "unbiased_text": "مجلس نمایندگان با رأی ۲۱۴-۲۱۱ به پیشبرد لایحه تحریم‌های روسیه رأی داد، برخلاف خواسته رهبران دموکرات.",
+        "pattern_en": "Shock Attribution Editorialization"
+      },
+      {
+        "pattern": "بزرگنمایی تیتر با جزئیات تابو",
+        "detail": "تیتر با جزئیات سیاستی جنسی و تابو («روسپیگری، حیوانخواهی») سروکار دارد، نه با هدف جلسه استماع.",
+        "debias": "در تیترها از زبان سیاستی بیطرف استفاده کنید و موضوع جلسه استماع را در بافتارش قرار دهید.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "رییس افبیآی، کش پاتل، در جلسهای پرشور از تغییرات سیاست استخدامی دربارهٔ روسپیگری و حیوانخواهی دفاع میکند",
+        "example_url": "https://www.thehindu.com/news/international/fbi-chief-kash-patel-defends-hiring-policy-changes-on-prostitution-bestiality-at-fiery-hearing/article71470146.ece",
+        "unbiased_text": "رییس افبیآی، کش پاتل، در جلسه استماع سنا از تغییرات سیاست استخدامی افبیآی دفاع میکند.",
+        "pattern_en": "Taboo Detail Headline Sensationalism"
       }
     ]
   }
