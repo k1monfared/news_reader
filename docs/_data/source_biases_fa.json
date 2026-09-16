@@ -7171,6 +7171,17 @@
         "example_url": "http://www.france24.com/en/video/20260913-yemen-the-houthis-test-iran-s-regional-influence",
         "unbiased_text": "پیوندهای حوثی‌ها با ایران و حملات آنها به متحدان آمریکا",
         "pattern_en": "Election Timing Pressure Attribution"
+      },
+      {
+        "pattern": "قالب‌بندی تیتر با نقل‌قول گزینشی از کارشناس",
+        "detail": "تیتر عبارت باردار «محوریت ایران» را معرفی می‌کند و فقط بخشی از سخنان کارشناس را نقل می‌کند، به‌گونه‌ای که نقد همزمان او بر پروژه منطقه‌ای اسرائیل حذف می‌شود و ارزیابی او صرفاً درباره ایران جلوه داده می‌شود.",
+        "debias": "به‌جای نقل‌قول ناقص همراه با برچسب‌های تفسیری، از خلاصه‌ای بی‌طرفانه از ارزیابی کامل کارشناس استفاده کنید.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "«محوریت ایران» همچنان «یکی از نیروهای بی‌ثبات‌کننده‌تر در منطقه» است، کارشناس می‌گوید",
+        "example_url": "http://www.france24.com/en/axis-of-iranian-centrality-remains-one-of-more-destabilising-forces-in-the-region-expert-says",
+        "unbiased_text": "کارشناس می‌گوید ایران، نیابتی‌های آن و پروژه منطقه‌ای اسرائیل نیروهای بی‌ثبات‌کننده هستند",
+        "pattern_en": "Selective expert quote headline framing"
       }
     ]
   },
@@ -11028,6 +11039,17 @@
         "example_url": "https://www.dw.com/en/germany-s-zverev-wins-us-open-in-golden-year/a-79212706?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "این دومین قهرمانی گرند اسلم زورف در سال ۲۰۲۶ پس از انتظاری طولانی برای اولین عنوان اوست.",
         "pattern_en": "Unspecified Controversy Lingering Framing"
+      },
+      {
+        "pattern": "اسناد انگیزه به فشار داخلی",
+        "detail": "مقاله فشار سیاسی یا اقتصادی داخلی («تحت انتقاد به دلیل قیمت‌های بی‌سابقه گازوئیل آمریکا») را مطرح می‌کند تا نشان دهد که اظهارنظر دیپلماتیک یک رهبر عمدتاً با انگیزه‌های سیاسی شخصی انجام شده است نه سیاست بین‌المللی.",
+        "debias": "اظهارنظر و واکنش‌ها را بدون حدس زدن درباره انگیزه‌های داخلی گزارش دهید، مگر اینکه منبعی وجود داشته باشد.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "دونالد ترامپ که به دلیل قیمت‌های بی‌سابقه گازوئیل در آمریکا تحت انتقاد است، ادعا می‌کند روسیه و اوکراین توافق کرده‌اند که حملات به تأسیسات انرژی را متوقف کنند.",
+        "example_url": "https://www.dw.com/en/trump-seeks-halt-to-energy-attacks-by-both-russia-ukraine/a-79265774?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "دونالد ترامپ گفت روسیه و اوکراین توافق کرده‌اند حملات به تأسیسات انرژی را متوقف کنند؛ روسیه هیچ اظهارنظری نکرد و اوکراین گفت که از شرکا انتظار جزئیات دارد.",
+        "pattern_en": "Domestic pressure motive attribution"
       }
     ]
   },
