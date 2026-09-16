@@ -115,16 +115,14 @@ sources:
 # `default` drives the English pipeline stages, `translate_fa` overrides the
 # Farsi translation/bias-sync stages (falls back to `default` when unset).
 # When a model fails at runtime (rate limited, provider outage, or empty
-# responses), `fallbacks` are tried in order. Order follows the Artificial
-# Analysis Intelligence Index; hy3-free ranks higher than nemotron/mimo but
-# has exhibited empty-content responses, so it sits last.
+# responses), `fallbacks` are tried in order. Go catalog, verified 2026-09-16:
+# deepseek-v4-flash answers on /chat/completions with a session header;
+# Zen free-tier ids are delisted or session-gated from CI, so they are out.
 models:
-  default: muse-spark-1.2-contributor-free
-  translate_fa: muse-spark-1.2-contributor-free
+  default: deepseek-v4-flash
+  translate_fa: deepseek-v4-flash
   fallbacks:
-    - nemotron-3-ultra-free
-    - mimo-v2.5-free
-    - hy3-free
+    - deepseek-v4-pro
 
 # ---------------------------------------------------------------------------
 # Dynamic Buckets

@@ -3,9 +3,11 @@
 Every call to the LLM API is logged with full input/output, token counts,
 timing, and cost tracking. A per-run budget cap prevents runaway usage.
 
-The pipeline routes through OpenCode Zen (https://opencode.ai/zen) using the
-OpenAI-compatible chat completions endpoint. Free-tier Zen models are used
-(cost $0), so nothing is billed to the OpenCode Go subscription.
+The pipeline routes through OpenCode (https://opencode.ai/zen) using the
+OpenAI-compatible chat completions endpoint. The Go catalog
+(https://opencode.ai/zen/go/v1, billed against the Go subscription) is used
+since the Zen free tier is session-gated and unreachable from CI. Every
+request carries a stable per-run x-opencode-session header as required by Go.
 
 Runtime failover: each call resolves a chain of models from config
 (``models.default`` / ``models.translate_fa`` primary plus ``models.fallbacks``).
@@ -17,6 +19,8 @@ failed-over attempts are recorded in the audit trail.
 Env vars:
     OPENCODE_API_KEY       required; OpenCode Zen / OpenCode Go API key
     OPENCODE_API_BASE_URL  optional; defaults to https://opencode.ai/zen/v1
+    OPENCODE_SESSION_ID    optional; stable per-run id for x-opencode-session
+                           (defaults to news-reader-<UTC date>)
 """
 
 import hashlib
@@ -120,6 +124,15 @@ class AuditedLLMClient:
         self._base_url = os.environ.get(
             "OPENCODE_API_BASE_URL", self._DEFAULT_BASE_URL
         ).rstrip("/")
+        # Stable per-run session id for x-opencode-session (required by the
+        # Go catalog for routing/caching). CI sets OPENCODE_SESSION_ID to
+        # news-reader-<run_id>; local runs default to a per-day id.
+        self._session_id = os.environ.get("OPENCODE_SESSION_ID", "")
+        if not self._session_id:
+            self._session_id = (
+                "news-reader-"
+                + datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            )
         self._run_dir = Path(run_dir)
         self._max_cost = float(config.get("max_cost_per_run_usd", 1.0))
         self._max_attempts = int(config.get("llm_retry_attempts", 3))
@@ -220,6 +233,8 @@ class AuditedLLMClient:
         headers = {
             "Authorization": f"Bearer {self._api_key}",
             "Content-Type": "application/json",
+            "User-Agent": "news-reader-pipeline/1.0",
+            "x-opencode-session": self._session_id,
         }
         attempts: list[dict] = []
         response_text = ""
