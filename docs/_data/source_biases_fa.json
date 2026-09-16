@@ -4025,6 +4025,17 @@
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/war-on-iran-us-bombs-iran?traffic_source=rss",
         "unbiased_text": "US strikes on Iran; Iran retaliates",
         "pattern_en": "War on [Country] conflict branding"
+      },
+      {
+        "pattern": "بار پناهندگان بر کشور میزبان",
+        "detail": "الجزیره خروج یمنی‌ها به جیبوتی را در درجه اول به‌عنوان باری بر کشور میزبان توصیف می‌کند که خواهان کمک است، در حالی که رسانه‌های دیگر بر بحران انسانی پیش روی آوارگان تمرکز دارند.",
+        "debias": "هنگام خلاصه‌سازی، نیازهای کشور میزبان را با تجربیات و حقوق خود پناهندگان متعادل کنید.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "جیبوتی در حالی که هزاران یمنی به این کشور فرار می‌کنند، درخواست کمک می‌کند",
+        "example_url": "https://www.aljazeera.com/news/2026/9/16/djibouti-calls-for-assistance-as-thousands-of-yemenis-flee-to-country",
+        "unbiased_text": "هزاران یمنی به جیبوتی فرار می‌کنند و این کشور درخواست کمک بین‌المللی می‌کند",
+        "pattern_en": "Host country refugee burden"
       }
     ]
   },
@@ -10779,6 +10790,28 @@
         "example_url": "https://www.jpost.com/israel-news/defense-news/article-907112",
         "unbiased_text": "Israel, Greece sign $3.5bn multi-layered air defense deal",
         "pattern_en": "Military marketing terminology adoption"
+      },
+      {
+        "pattern": "برچسب‌زنی تیتر خبری با عنوان گروه تروریستی",
+        "detail": "جی‌پست در تیتر خبری حوثی‌ها را «گروه تروریستی» می‌نامد در حالی که سایر رسانه‌ها از واژه‌های خنثی مانند «شورشیان» یا «سخنگوی نظامی» استفاده می‌کنند.",
+        "debias": "هنگام خلاصه‌سازی، از به‌کارگیری برچسب‌های جانب‌دارانه خودداری کنید و به جای آن از نام خود گروه یا توصیف‌گر خنثی استفاده کنید.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "حوثی‌ها جنگنده اف-۱۵ سعودی را بر فراز مأرب یمن سرنگون کردند؛ سخنگوی گروه تروریستی ادعا می‌کند",
+        "example_url": "https://www.jpost.com/middle-east/article-908742",
+        "unbiased_text": "سخنگوی حوثی‌ها ادعا می‌کند که این گروه یک جنگنده اف-۱۵ سعودی را بر فراز مأرب یمن سرنگون کرده است.",
+        "pattern_en": "Terrorist group headline labeling"
+      },
+      {
+        "pattern": "حملهٔ تلاش‌شده به جای حملهٔ انجام‌شده",
+        "detail": "جی‌پست در تیتر خود، یک پهپاد رهگیری‌شده در نزدیکی مکه را به‌عنوان «حمله به مکه» قاب می‌کند و این واقعیت را حذف می‌کند که پیش از ورود به حریم هوایی ممنوعه متوقف شده بود.",
+        "debias": "هنگام خلاصه‌سازی، بین یک حملهٔ واقعی و یک حملهٔ تلاش‌شده یا رهگیری‌شده تمایز قائل شوید.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "حتی حمله به مکه نیز برای اتحاد خاورمیانه علیه ایران کافی نیست، تحلیلگر به «Post» می‌گوید.",
+        "example_url": "https://www.jpost.com/middle-east/iran-news/article-908807",
+        "unbiased_text": "حتی تلاشِ گزارش‌شده برای حمله به مکه نیز برای اتحاد خاورمیانه علیه ایران کافی نیست، تحلیلگر به «Post» می‌گوید.",
+        "pattern_en": "Attempted attack as accomplished attack"
       }
     ]
   },
@@ -10874,6 +10907,17 @@
         "example_url": "https://www.dw.com/en/court-says-india-must-uphold-pakistan-water-treaty/a-78579010?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "International tribunal rules India must comply with Indus Waters Treaty obligations",
         "pattern_en": "International tribunal directive framing"
+      },
+      {
+        "pattern": "انتساب مانعتراشی در امداد",
+        "detail": "DW بر محدودیتهای اسرائیل بر ماشینآلات سنگین بهعنوان دلیل مختل شدن تلاشهای جستوجو پس از ریزش ساختمان در غزه تأکید میکند؛ انتساب علّی که در پوشش خبری دیگر نیامده است.",
+        "debias": "هنگام خلاصهسازی، محدودیت عملیاتی را گزارش کنید بدون اینکه مسئولیت را به تنهایی به یک طرف نسبت دهید، مگر اینکه تأیید شده باشد.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "جستوجو برای یافتن بازماندگان به دلیل محدودیتهای اسرائیل بر ماشینآلات سنگین در نوار غزه مختل شده است.",
+        "example_url": "https://www.dw.com/en/gaza-at-least-21-dead-including-children-in-building-collapse/a-79293453",
+        "unbiased_text": "جستوجو برای یافتن بازماندگان ادامه دارد؛ ماشینآلات سنگین در نوار غزه در دسترس نیست.",
+        "pattern_en": "Rescue obstruction attribution"
       }
     ]
   },
