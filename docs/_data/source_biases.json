@@ -6430,6 +6430,16 @@
         "example_text": "In an analysis, FRANCE 24's Philip Turle said the war had so far cost around 1,100 US dollars for each US taxpayer.",
         "example_url": "https://www.france24.com/en/iran-war-reaches-6-month-mark-conflict-cost-1-100-per-us-taxpayer",
         "unbiased_text": "The war has cost the US an estimated $X billion in federal expenditure."
+      },
+      {
+        "pattern": "Cross-national suffering asymmetry",
+        "detail": "In a report on fuel prices tied to the conflict, France 24 frames the US impact as a political problem for Trump but Iran's impact as humanitarian suffering layered on ongoing bombing, producing unequal empathy across nations.",
+        "debias": "When summarizing, separate economic facts from emotional framing and note that both countries face significant consequences without weighting one side's suffering more heavily.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "Meanwhile in Iran where many communities have been bombed since February 28th, there's now the added problem of incresing fuel prices.",
+        "example_url": "http://www.france24.com/en/iran-raises-fuel-prices-for-heavy-users",
+        "unbiased_text": "Meanwhile in Iran, fuel prices have also risen; many communities there have been affected by bombing since February 28th."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -9766,6 +9776,16 @@
         "example_text": "Even an attack on Mecca isn't enough to unite the Middle East against Iran, analyst tells 'Post'",
         "example_url": "https://www.jpost.com/middle-east/iran-news/article-908807",
         "unbiased_text": "Even a reported attempt to attack Mecca isn't enough to unite the Middle East against Iran, analyst tells 'Post'"
+      },
+      {
+        "pattern": "Uncritical Christian Zionist profiling",
+        "detail": "JPost profiles pro-Israel Christian figures with unqualified praise, calling them 'most respected' and 'championing Israel,' without critical examination of their political advocacy.",
+        "debias": "When summarizing, identify these profiles as advocacy promotion rather than independent reporting, and contextualize the subjects' political roles.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "Pastor of Prestonwood Baptist Church, he is one of the most respected Christian voices championing Israel today.",
+        "example_url": "https://www.jpost.com/influencers-26/pro-israel-christians/article-907455",
+        "unbiased_text": "Pastor of Prestonwood Baptist Church, he is a Christian voice supporting Israel."
       }
     ]
   },
