@@ -113,21 +113,27 @@ def discover(base: str) -> list[str]:
     return [m["id"] for m in data.get("data", []) if isinstance(m.get("id"), str)]
 
 
-def probe_chat(base: str, key: str, model: str) -> tuple[int, str]:
+def probe_chat(base: str, key: str, model: str, session_id: str = "") -> tuple[int, str]:
+    headers = {"Content-Type": "application/json", "Authorization": f"Bearer {key}"}
+    if session_id:
+        headers["x-opencode-session"] = session_id
     return _http(
         "POST",
         f"{base}/chat/completions",
-        {"Content-Type": "application/json", "Authorization": f"Bearer {key}"},
+        headers,
         {"model": model, "max_tokens": 5,
          "messages": [{"role": "user", "content": "Reply with the word ok."}]},
     )
 
 
-def probe_responses(base: str, key: str, model: str) -> tuple[int, str]:
+def probe_responses(base: str, key: str, model: str, session_id: str = "") -> tuple[int, str]:
+    headers = {"Content-Type": "application/json", "Authorization": f"Bearer {key}"}
+    if session_id:
+        headers["x-opencode-session"] = session_id
     return _http(
         "POST",
         f"{base}/responses",
-        {"Content-Type": "application/json", "Authorization": f"Bearer {key}"},
+        headers,
         {"model": model, "input": "Reply with the word ok.", "max_output_tokens": 8},
     )
 
@@ -140,6 +146,9 @@ def main() -> int:
                     help="Comma-separated explicit model ids to probe. "
                          "If empty, auto-discover free candidates (ids ending "
                          "-free + allowlist) on --base.")
+    ap.add_argument("--session-id", default="",
+                    help="Stable session id sent as x-opencode-session "
+                         "(required by the Go catalog for routing/caching).")
     args = ap.parse_args()
 
     key = os.environ.get("OPENCODE_API_KEY", "")
@@ -171,11 +180,11 @@ def main() -> int:
 
     results = []
     for model in candidates:
-        status, body = probe_chat(args.base, key, model)
+        status, body = probe_chat(args.base, key, model, args.session_id)
         outcome, retry = classify(status, body, "chat/completions")
         route = "chat/completions"
         if retry:
-            s2, b2 = probe_responses(args.base, key, model)
+            s2, b2 = probe_responses(args.base, key, model, args.session_id)
             o2, _ = classify(s2, b2, "responses")
             results.append({"id": model, "route": "chat/completions",
                             "status": status, "outcome": outcome,
@@ -194,6 +203,7 @@ def main() -> int:
     summary = {
         "key_health": "OK",
         "base": args.base,
+        "session_id_set": bool(args.session_id),
         "total": len(results),
         "ok": [r["id"] for r in ok],
         "all_gated": len(ok) == 0 and len(gated) == len(results) and len(results) > 0,
