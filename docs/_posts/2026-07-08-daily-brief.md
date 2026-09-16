@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The US and Iran had signed a memorandum of understanding in June that included a ceasefire. Yesterday tensions were simmering. Today the deal fell apart completely—Trump officially declared it "over" at the NATO summit in Ankara. Both sides are now accusing each other of violating the agreement first. The US launched what it calls retaliatory strikes on Iran overnight following Iranian attacks on tankers in the Strait of Hormuz, Iran responded by targeting US bases in the Gulf, and Trump is warning more US strikes could come tonight.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/8/trump-says-ceasefire-over-after-us-iran-trade-attacks?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260707-middle-east-live-us-launches-strikes-on-iran-after-ships-attacked-in-strait-of-hormuz)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/8/trump-says-ceasefire-over-after-us-iran-trade-attacks?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260707-middle-east-live-us-launches-strikes-on-iran-after-ships-attacked-in-strait-of-hormuz)
 
 </details>
 
@@ -39,7 +39,7 @@ Sources: [Euronews](http://www.euronews.com/2026/07/08/were-gonna-hit-em-hard-to
 
 Context: Spain blocked the US from using the Rota and Morón airbases for bombing campaigns against Iran, which Trump had already threatened to punish with economic reprisals back in March. Today at the NATO summit, he escalated that rhetoric and apparently ordered trade with Spain to stop. The Greenland demand is only reported by Al Jazeera so far.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/8/trump-threatens-spain-trade-demands-us-take-over-greenland-at-nato-summit?traffic_source=rss) | [Euronews](http://www.euronews.com/my-europe/2026/07/08/trump-again-attacks-spain-calls-it-a-lost-cause-and-urges-cutting-trade)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/8/trump-threatens-spain-trade-demands-us-take-over-greenland-at-nato-summit?traffic_source=rss) \| [Euronews](http://www.euronews.com/my-europe/2026/07/08/trump-again-attacks-spain-calls-it-a-lost-cause-and-urges-cutting-trade)
 
 </details>
 
@@ -59,7 +59,7 @@ Sources: [France24](https://www.france24.com/en/netanyahu-warns-us-destroy-midea
 
 Context: Crude hit a two-week high as markets reacted to the ceasefire collapse and fresh US strikes. The Strait of Hormuz is a critical chokepoint—about a fifth of global oil passes through it. Economists are now saying the fragile peace between the US and Iran is the key factor for the rest of 2026's economic outlook.
 
-Sources: [Euronews](http://www.euronews.com/business/2026/07/08/oil-spikes-and-european-stock-markets-slide-as-trump-says-iran-ceasefire-over) | [Euronews](http://www.euronews.com/business/2026/07/08/the-key-global-economic-risks-to-watch-in-the-second-half-of-2026)
+Sources: [Euronews](http://www.euronews.com/business/2026/07/08/oil-spikes-and-european-stock-markets-slide-as-trump-says-iran-ceasefire-over) \| [Euronews](http://www.euronews.com/business/2026/07/08/the-key-global-economic-risks-to-watch-in-the-second-half-of-2026)
 
 </details>
 

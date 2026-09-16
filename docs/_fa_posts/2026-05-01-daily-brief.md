@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: قطعنامه اختیارات جنگی پس از ۶۰ روز خصومت نیاز به تأیید کنگره دارد. آن ضرب‌الاجل روز جمعه است—۶۰ روز از اطلاعیه ۲ مارس ترامپ. دولت استدلال می‌کند الزام قانونی دیگر به دلیل آتش‌بس اعمال نمی‌شود، با وجود حضور مستمر نظامی آمریکا در منطقه. قانون‌گذاران از هر دو حزب این تفسیر را به چالش می‌کشند.
 
-منابع: [France24](https://www.france24.com/en/us-administration-says-war-terminated-no-approval-needed) | [France24](https://www.france24.com/en/video/20260501-us-official-says-iran-war-truce-terminated-hostilities-for-war-powers-deadline-1) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/1/has-the-us-iran-ceasefire-reset-the-clock-on-war-powers-act-deadline?traffic_source=rss)
+منابع: [France24](https://www.france24.com/en/us-administration-says-war-terminated-no-approval-needed) \| [France24](https://www.france24.com/en/video/20260501-us-official-says-iran-war-truce-terminated-hostilities-for-war-powers-deadline-1) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/1/has-the-us-iran-ceasefire-reset-the-clock-on-war-powers-act-deadline?traffic_source=rss)
 
 </details>
 
@@ -38,7 +38,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ تلافی خود را علیه متحدان اروپایی که از جنگ انتقاد کرده‌اند گسترش می‌دهد. صدراعظم آلمان مرتس گفت آمریکا توسط ایران "تحقیر" می‌شود، که باعث تهدید اولیه ترامپ شد. حالا ایتالیا و اسپانیا به خاطر اختلاف‌نظرهای مشابه درباره درگیری در نشانه او هستند.
 
-منابع: [Euronews](http://www.euronews.com/2026/05/01/trump-considers-troop-cuts-in-spain-and-italy-over-continued-disagreements-on-the-war-in-i) | [Euronews](http://www.euronews.com/my-europe/2026/04/30/trump-launches-fresh-tirade-against-merz-after-troop-withdrawal-threat)
+منابع: [Euronews](http://www.euronews.com/2026/05/01/trump-considers-troop-cuts-in-spain-and-italy-over-continued-disagreements-on-the-war-in-i) \| [Euronews](http://www.euronews.com/my-europe/2026/04/30/trump-launches-fresh-tirade-against-merz-after-troop-withdrawal-threat)
 
 </details>
 

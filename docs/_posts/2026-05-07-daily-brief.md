@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Beirut and its southern suburbs had been untouched by Israeli strikes since April 8, when massive Israeli attacks across Lebanon killed over 350 people. The ceasefire held for nearly a month before this strike.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260506-middle-east-war-live-trump-pauses-us-strait-of-hormuz-escort-operation) | [Euronews](http://www.euronews.com/2026/05/07/israel-strikes-beirut-for-first-time-since-ceasefire-reportedly-killing-hezbollah-commande)
+Sources: [France24](https://www.france24.com/en/middle-east/20260506-middle-east-war-live-trump-pauses-us-strait-of-hormuz-escort-operation) \| [Euronews](http://www.euronews.com/2026/05/07/israel-strikes-beirut-for-first-time-since-ceasefire-reportedly-killing-hezbollah-commande)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260506-middle-east
 
 Context: The timeline suggests mixed signals: the US announced completion of offensive operations on Tuesday, but separately reported successful military action Monday to reopen the strait, which handles about a fifth of global oil traffic. This indicates military realities on the ground moved independently of diplomatic positioning.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260504-us-and-uae-report-iran-attacks-as-military-pushes-to-reopen-strait-of-hormuz) | [France24](https://www.france24.com/en/middle-east/20260505-rubio-says-us-military-has-completed-offensive-operations-in-iran)
+Sources: [France24](https://www.france24.com/en/middle-east/20260504-us-and-uae-report-iran-attacks-as-military-pushes-to-reopen-strait-of-hormuz) \| [France24](https://www.france24.com/en/middle-east/20260505-rubio-says-us-military-has-completed-offensive-operations-in-iran)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/7/what-are-us-propos
 
 Context: The pause is explicitly tied to diplomatic progress. Rubio said the US completed offensive operations Tuesday but warned of "devastating" response to new threats. This represents a conditional ceasefire, not a unilateral concession.
 
-Sources: [France24](https://www.france24.com/en/us-suspends-hormuz-operation-washington-believes-close-to-deal-with-iran) | [France24](https://www.france24.com/en/middle-east/20260505-rubio-says-us-military-has-completed-offensive-operations-in-iran)
+Sources: [France24](https://www.france24.com/en/us-suspends-hormuz-operation-washington-believes-close-to-deal-with-iran) \| [France24](https://www.france24.com/en/middle-east/20260505-rubio-says-us-military-has-completed-offensive-operations-in-iran)
 
 </details>
 

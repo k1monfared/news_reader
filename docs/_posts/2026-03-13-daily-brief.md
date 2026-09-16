@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Three days ago the war was at day 11. Israel claims to have hit over 200 targets. Iran continues striking back across the region, including hitting the Galilee with a missile that wounded about 80 people. Both sides are digging in for a prolonged fight.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/13/iran-war-what-is-happening-on-day-14-of-us-israel-attacks) | [Reuters](https://jp.reuters.com/world/security/SLPCXHLWEJKILP4CEPWJVMQXZE-2026-03-13/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/13/iran-war-what-is-happening-on-day-14-of-us-israel-attacks) \| [Reuters](https://jp.reuters.com/world/security/SLPCXHLWEJKILP4CEPWJVMQXZE-2026-03-13/)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/13/iran-war
 
 Context: The crash happened as coalition operations continue across Iraq. Separately, French President Macron confirmed one soldier was killed and others wounded in an attack, showing how the Iran conflict is spilling over into neighboring countries where Western forces are stationed.
 
-Sources: [Euronews](https://it.euronews.com/2026/03/13/tutti-morti-i-sei-membri-dellequipaggio-del-kc135-usa-precipitato-in-iraq) | [Euronews](https://www.euronews.com/2026/03/13/french-soldier-killed-in-iraq-as-iran-war-fallout-continues-to-spread-across-region) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/13/french-soldier-killed-others-wounded-in-attack-in-iraq-macron-says)
+Sources: [Euronews](https://it.euronews.com/2026/03/13/tutti-morti-i-sei-membri-dellequipaggio-del-kc135-usa-precipitato-in-iraq) \| [Euronews](https://www.euronews.com/2026/03/13/french-soldier-killed-in-iraq-as-iran-war-fallout-continues-to-spread-across-region) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/13/french-soldier-killed-others-wounded-in-attack-in-iraq-macron-says)
 
 </details>
 
@@ -100,7 +100,7 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/13/httpscmseuronewstecha
 
 Context: About 20% of the world's oil flows through Hormuz. Iran hasn't formally blockaded it but the threat alone is keeping prices elevated. Meanwhile, several Gulf countries have invoked "force majeure" clauses on contracts, essentially saying the war makes it impossible to fulfill obligations. The ambassador's statement may indicate Iran prefers economic leverage over outright closure.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/13/oil-stays-above-100-a-barrel-amid-irans-stranglehold-on-strait-of-hormuz) | [Euronews](https://fr.euronews.com/2026/03/12/exclusif-lambassadeur-iranien-declare-a-euronews-que-teheran-ne-veut-pas-bloquer-le-detroi) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/13/force-majeure-what-is-it-and-why-have-some-gulf-countries-invoked-it)
+Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/13/oil-stays-above-100-a-barrel-amid-irans-stranglehold-on-strait-of-hormuz) \| [Euronews](https://fr.euronews.com/2026/03/12/exclusif-lambassadeur-iranien-declare-a-euronews-que-teheran-ne-veut-pas-bloquer-le-detroi) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/13/force-majeure-what-is-it-and-why-have-some-gulf-countries-invoked-it)
 
 </details>
 
@@ -109,7 +109,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/13/oil-stays-abov
 
 Context: Airlines can't fly the normal routes anymore and longer flight paths burn more fuel. Oil above $100 isn't helping either. EU officials are now warning about "stagflationary shock" from the combination of supply disruptions and energy price spikes.
 
-Sources: [Reuters](https://jp.reuters.com/markets/global-markets/MI7WM6V7SZIINP6JACKW4LA7ZE-2026-03-13/) | [Euronews](https://it.euronews.com/viaggi/2026/03/13/guerra-con-liran-fa-impennare-il-carburante-altre-compagnie-alzano-le-tariffe-aeree) | [Euronews](https://fr.euronews.com/my-europe/2026/03/12/leurope-au-risque-dun-choc-stagflationniste-suite-a-lescalade-iranienne-declare-le-commiss)
+Sources: [Reuters](https://jp.reuters.com/markets/global-markets/MI7WM6V7SZIINP6JACKW4LA7ZE-2026-03-13/) \| [Euronews](https://it.euronews.com/viaggi/2026/03/13/guerra-con-liran-fa-impennare-il-carburante-altre-compagnie-alzano-le-tariffe-aeree) \| [Euronews](https://fr.euronews.com/my-europe/2026/03/12/leurope-au-risque-dun-choc-stagflationniste-suite-a-lescalade-iranienne-declare-le-commiss)
 
 </details>
 
@@ -138,7 +138,7 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/13/bab-al-mandab-crossha
 
 Context: Iran is signaling that Western military infrastructure anywhere could be fair game if countries keep supporting the US-Israel campaign. This is the clearest threat yet toward Europe. Separately, NATO intercepted another Iranian ballistic missile that strayed into Turkish airspace.
 
-Sources: [Euronews](https://fr.euronews.com/2026/03/13/toute-base-peut-etre-une-cible-lambassadeur-iranien-a-lonu-nexclut-pas-dattaques-en-europe) | [Euronews](https://es.euronews.com/2026/03/13/otan-intercepta-misil-balistico-irani-entro-espacio-aereo-turquia)
+Sources: [Euronews](https://fr.euronews.com/2026/03/13/toute-base-peut-etre-une-cible-lambassadeur-iranien-a-lonu-nexclut-pas-dattaques-en-europe) \| [Euronews](https://es.euronews.com/2026/03/13/otan-intercepta-misil-balistico-irani-entro-espacio-aereo-turquia)
 
 </details>
 

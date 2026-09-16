@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is a major reversal. Trump launched "Project Freedom" on May 4th to escort stranded commercial ships through the strait. Now he's hit pause, apparently accepting Iran's demand to settle the Hormuz issue first before talking about nuclear stuff. The US also formally ended its offensive military operations against Iran, though it's keeping the naval blockade of Iranian ports in place.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/6/has-the-us-accepted-irans-demand-to-settle-hormuz-first-nuclear-later?traffic_source=rss) | [France24](https://www.france24.com/en/us-pauses-hormuz-escorts-donald-trump-says-progress-on-iran-deal) | [Euronews](http://www.euronews.com/2026/05/06/us-pauses-naval-escorts-through-hormuz-as-progress-made-on-peace-deal-trump-says)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/6/has-the-us-accepted-irans-demand-to-settle-hormuz-first-nuclear-later?traffic_source=rss) \| [France24](https://www.france24.com/en/us-pauses-hormuz-escorts-donald-trump-says-progress-on-iran-deal) \| [Euronews](http://www.euronews.com/2026/05/06/us-pauses-naval-escorts-through-hormuz-as-progress-made-on-peace-deal-trump-says)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/6/has-the-us-accepte
 
 Context: With the US pausing its escort mission, Iran is stepping in to say they'll manage transit through the strait themselves. This is a big shift—Iran was the one blocking the passage in the first place, and now they're positioning themselves as the guarantors of safe transit.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/6/french-container-ship-struck-in-latest-escalation-at-strait-of-hormuz?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/05/06/us-pauses-naval-escorts-through-hormuz-as-progress-made-on-peace-deal-trump-says)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/6/french-container-ship-struck-in-latest-escalation-at-strait-of-hormuz?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/05/06/us-pauses-naval-escorts-through-hormuz-as-progress-made-on-peace-deal-trump-says)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/6/french-container-s
 
 Context: China has a huge stake in this—most of their oil comes through the Strait of Hormuz. Having them actively push for peace talks adds serious diplomatic weight, especially since both Washington and Beijing want the strait open for business.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/6/araghchi-in-beijing-how-china-could-shape-the-direction-of-the-us-iran-war?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/6/china-calls-for-a-complete-end-to-war-on-iran?traffic_source=rss)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/6/araghchi-in-beijing-how-china-could-shape-the-direction-of-the-us-iran-war?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/6/china-calls-for-a-complete-end-to-war-on-iran?traffic_source=rss)
 
 </details>
 
@@ -84,7 +84,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/05/06/lufthansa-posts-
 
 Context: Mohammadi won the Nobel Peace Prize while imprisoned for her human rights activism. Her supporters say she's now "between life and death" after being hospitalized with a serious heart condition. Iranian authorities are keeping her under guard even in the hospital.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260505-iran-nobel-winner-mohammadi-between-life-and-death-after-hospitalisation-say-supporters) | [France24](https://www.france24.com/en/iran-nobel-peace-prize-winner-narges-mohammadi-between-life-and-death)
+Sources: [France24](https://www.france24.com/en/middle-east/20260505-iran-nobel-winner-mohammadi-between-life-and-death-after-hospitalisation-say-supporters) \| [France24](https://www.france24.com/en/iran-nobel-peace-prize-winner-narges-mohammadi-between-life-and-death)
 
 </details>
 

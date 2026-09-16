@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: حماس از زمانی که جنگجویانش در سال ۲۰۰۷ کنترل را از جناح رقیب فتح به دست گرفتند، غزه را اداره کرده است. این یک تغییر سیاسی مهم برای این گروه حمایت‌شده از ایران است، هرچند سؤالاتی درباره میزان تغییر واقعی در عمل باقی می‌ماند. این اقدام راه را برای یک کمیته تکنوکرات فلسطینی برای مدیریت حاکمیت باز می‌کند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body?traffic_source=rss) | [France 24](https://www.france24.com/en/dissolution-of-hamas-s-gaza-governing-body-won-t-bring-significant-change-of-life) | [Euronews](http://www.euronews.com/2026/07/06/hamas-announces-dissolution-gaza-governing-body-paves-way-for-technocratic-committee)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body?traffic_source=rss) \| [France 24](https://www.france24.com/en/dissolution-of-hamas-s-gaza-governing-body-won-t-bring-significant-change-of-life) \| [Euronews](http://www.euronews.com/2026/07/06/hamas-announces-dissolution-gaza-governing-body-paves-way-for-technocratic-committee)
 
 </details>
 
@@ -40,7 +40,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: علی خامنه‌ای و چهار عضو خانواده در حملات هوایی اسرائیل در ۹ اسفند که بر اساس اطلاعات آمریکا بود، کشته شدند. مراسم تشییع با حمل تابوت خامنه‌ای در خیابان‌های تهران پیش رفته است. غیبت مداوم مجتبی از دید عموم سؤالاتی درباره تثبیت قدرت رهبر جدید ایجاد می‌کند.
 
-منابع: [France 24](https://www.france24.com/en/khamenei-s-sons-attend-funeral-without-iran-s-new-leader) | [Euronews](http://www.euronews.com/video/2026/07/06/ali-khameneis-coffin-carried-through-the-streets-of-tehran)
+منابع: [France 24](https://www.france24.com/en/khamenei-s-sons-attend-funeral-without-iran-s-new-leader) \| [Euronews](http://www.euronews.com/video/2026/07/06/ali-khameneis-coffin-carried-through-the-streets-of-tehran)
 
 </details>
 

@@ -1,9 +1,10 @@
 ---
 layout: post
 lang: fa
-title: "گزارش روزانه: ۲۲ شهریور ۱۴۰۵"
+title: "گزارش روزانه: ۲۲ شهریور ۱۴۰۵ (با تأخیر)"
 date: 2026-09-13
 date_fa: "۲۲ شهریور ۱۴۰۵"
+backfilled: true
 sources_down: []
 generated_at: "2026-09-16 12:06 UTC-07:00"
 models_used: ["deepseek-v4-flash"]

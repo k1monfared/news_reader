@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is Israel's deepest incursion into Lebanon in more than 25 years. The castle sits on a strategic mountaintop and has symbolic weight—Israel held it during their two-decade occupation of southern Lebanon. Israel is also issuing new evacuation orders for more towns and villages in the south, saying they're clearing out Hezbollah positions.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/31/israel-issues-more-displacement-orders-in-lebanon-seizes-strategic-castle?traffic_source=rss) | [France 24](https://www.france24.com/en/israel-seizes-strategic-beaufort-castle-in-lebanon-issues-new-evacuation-orders) | [France 24 liveblog](https://www.france24.com/en/middle-east/20260531-middle-east-live-israel-says-ground-forces-expanding-in-lebanon)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/31/israel-issues-more-displacement-orders-in-lebanon-seizes-strategic-castle?traffic_source=rss) \| [France 24](https://www.france24.com/en/israel-seizes-strategic-beaufort-castle-in-lebanon-issues-new-evacuation-orders) \| [France 24 liveblog](https://www.france24.com/en/middle-east/20260531-middle-east-live-israel-says-ground-forces-expanding-in-lebanon)
 
 </details>
 

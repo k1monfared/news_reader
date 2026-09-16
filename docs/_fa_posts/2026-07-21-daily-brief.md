@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: اینها اولین کشته‌های آمریکایی از آتش دشمن از زمان آتش‌بس با ایران در اوایل آوریل هستند. یک نظامی اضافی از حمله اردن مفقود شده و یکی دیگر در حادثه عراق زخمی شده است. ترامپ قول داده رویکرد خود را در واکنش تغییر دهد.
 
-منابع: [France24](https://www.france24.com/en/first-us-soldiers-killed-in-jordan-trump-vows-to-shift-action) | [France24](https://www.france24.com/en/middle-east/20260719-middle-east-live-us-targets-iran-s-revolutionary-guard-in-retaliation-for-killed-troops)
+منابع: [France24](https://www.france24.com/en/first-us-soldiers-killed-in-jordan-trump-vows-to-shift-action) \| [France24](https://www.france24.com/en/middle-east/20260719-middle-east-live-us-targets-iran-s-revolutionary-guard-in-retaliation-for-killed-troops)
 
 </details>
 
@@ -65,7 +65,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: اسرائیل بخشی از جنوب لبنان را اشغال کرده و می‌گوید تا زمانی که حزب‌الله خلع سلاح نشود خارج نخواهد شد. ژوزف عون باید ترامپ را متقاعد کند که ارتش لبنان می‌تواند از پس آن برآید، چیزی که بیشتر ناظران شک دارند. اسرائیل و لبنان در حال آزمایش «مناطق امن» به عنوان بخشی از توافق بالقوه خروج نیروها هستند.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260721-lebanon-s-aoun-to-press-trump-for-israeli-troop-withdrawal-as-pressure-builds-to-disarm-hezbollah) | [France24](https://www.france24.com/en/israel-and-lebanon-trial-safe-zones-in-southern-lebanon-as-part-of-deal)
+منابع: [France24](https://www.france24.com/en/middle-east/20260721-lebanon-s-aoun-to-press-trump-for-israeli-troop-withdrawal-as-pressure-builds-to-disarm-hezbollah) \| [France24](https://www.france24.com/en/israel-and-lebanon-trial-safe-zones-in-southern-lebanon-as-part-of-deal)
 
 </details>
 

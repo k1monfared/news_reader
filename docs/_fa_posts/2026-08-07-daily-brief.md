@@ -18,7 +18,7 @@ models_used: ["deepseek-v4-flash-free"]
 
 Context: رهبران — محمد بن سلمان، ولیعهد عربستان سعودی، رجب طیب اردوغان، رئیس‌جمهور ترکیه، و شهباز شریف، نخست‌وزیر پاکستان — در جده گفتگو کردند. فرانس ۲۴ گزارش داده که یک توافق دفاعی متقابل قبلاً امضا شده و اعلام کرده است که «هرگونه حمله مسلحانه به هر یک از این سه دولت، حمله به همه تلقی می‌شود.» یورونوز اما این دیدار را گامی برای رسمیت بخشیدن به توافق توصیف می‌کند. هر دو منبع این اقدام را با توجه به جنگ آمریکا و ایران پیوند می‌زنند و آن را تلاشی برای تقویت امنیت در میان قدرت‌های منطقه‌ای می‌دانند. تحلیلگران انتظار همکاری نظامی نزدیک‌تری میان این سه کشور در آینده را دارند.
 
-Sources: [france24](https://www.france24.com/en/middle-east/20260807-middle-east-live-saudi-arabia-pakistan-turkey-to-sign-defence-pact) | [euronews](http://www.euronews.com/2026/08/07/saudi-arabia-turkiye-and-pakistan-to-sign-joint-defence-pact-amid-regional-escalation)
+Sources: [france24](https://www.france24.com/en/middle-east/20260807-middle-east-live-saudi-arabia-pakistan-turkey-to-sign-defence-pact) \| [euronews](http://www.euronews.com/2026/08/07/saudi-arabia-turkiye-and-pakistan-to-sign-joint-defence-pact-amid-regional-escalation)
 
 </details>
 

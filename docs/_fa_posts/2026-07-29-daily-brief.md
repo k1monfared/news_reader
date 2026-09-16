@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ در Fox News تأیید کرد که حملات با دولت عراق هماهنگ شده بود، اما عراق آن‌ها را «نقض آشکار» می‌خواند و نخست‌وزیر عراق جلسه برنامه‌ریزی‌شده با ولیعهد عربستان محمد بن سلمان را به خاطر این موضوع لغو کرد. این گسترش قابل توجهی از درگیری‌ها به عرصه جدید است و روایت‌های متناقض در مورد دخالت عراق را برجسته می‌کند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/29/us-and-saudi-arabia-strike-iran-aligned-groups-in-iraq?traffic_source=rss) | [France 24](https://www.france24.com/en/two-options-for-trump-in-middle-east-war-he-waits-or-he-escalates-massively)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/29/us-and-saudi-arabia-strike-iran-aligned-groups-in-iraq?traffic_source=rss) \| [France 24](https://www.france24.com/en/two-options-for-trump-in-middle-east-war-he-waits-or-he-escalates-massively)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ایران پنج موشک در ۲۹ ژوئیه به سمت اردن شلیک کرد (اردن همه آن‌ها را رهگیری کرد) و به سه کشتی تجاری در تنگه هرمز حمله کرد. سپاه پاسداران ایران گفت حملات در پاسخ به «اقدامات تهاجمی» آمریکا بوده است. ایران همچنین پیشنهاد عمان برای مدیریت مشترک تنگه را رد کرد. این امر به وقفه چند روزه در حملات ایران پایان داد.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/29/iran-attacks-us-bases-in-middle-east-as-trump-meets-netanyahu?traffic_source=rss) | [France 24](https://www.france24.com/en/us-says-iran-trying-to-derail-ongoing-ceasefire-talks-as-strikes-resume)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/29/iran-attacks-us-bases-in-middle-east-as-trump-meets-netanyahu?traffic_source=rss) \| [France 24](https://www.france24.com/en/us-says-iran-trying-to-derail-ongoing-ceasefire-talks-as-strikes-resume)
 
 </details>
 
@@ -56,7 +56,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: عمان پیشنهاد حمایت‌شده از سوی خلیج فارس برای مدیریت مشترک تنگه هرمز را به ایران ارائه کرد که شامل سیستم داوطلبانه دریافت هزینه از کشتی‌های عبوری از آبراه بود. پیشنهاد متقابل ایران کنترل بسیار بیشتری نسبت به ترتیبات مشترک پیشنهادی عمان به ایران می‌دهد. سپس ایران طرح عمان را رد کرد و به سه کشتی در تنگه حمله کرد.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/29/iran-and-oman-swap-proposals-to-manage-strait-of-hormuz-what-we-know?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260728-oman-presents-iran-with-gulf-backed-plan-to-ease-strait-of-hormuz-tensions)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/29/iran-and-oman-swap-proposals-to-manage-strait-of-hormuz-what-we-know?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260728-oman-presents-iran-with-gulf-backed-plan-to-ease-strait-of-hormuz-tensions)
 
 </details>
 

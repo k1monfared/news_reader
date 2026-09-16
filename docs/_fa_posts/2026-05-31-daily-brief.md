@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این عمیق‌ترین تهاجم اسرائیل به لبنان در بیش از ۲۵ سال است. قلعه بر روی قله‌ای استراتژیک قرار دارد و اهمیت نمادین دارد—اسرائیل آن را در طول دو دهه اشغال جنوب لبنان در اختیار داشت. اسرائیل همچنین دستورات تخلیه جدیدی برای شهرها و روستاهای بیشتری در جنوب صادر می‌کند و می‌گوید در حال پاکسازی مواضع حزب‌الله است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/31/israel-issues-more-displacement-orders-in-lebanon-seizes-strategic-castle?traffic_source=rss) | [France 24](https://www.france24.com/en/israel-seizes-strategic-beaufort-castle-in-lebanon-issues-new-evacuation-orders) | [France 24 liveblog](https://www.france24.com/en/middle-east/20260531-middle-east-live-israel-says-ground-forces-expanding-in-lebanon)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/31/israel-issues-more-displacement-orders-in-lebanon-seizes-strategic-castle?traffic_source=rss) \| [France 24](https://www.france24.com/en/israel-seizes-strategic-beaufort-castle-in-lebanon-issues-new-evacuation-orders) \| [France 24 liveblog](https://www.france24.com/en/middle-east/20260531-middle-east-live-israel-says-ground-forces-expanding-in-lebanon)
 
 </details>
 

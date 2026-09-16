@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ این اعلامیه را روز سه‌شنبه داد و گفت آمریکا «به هیچ وجه با ایران تمام نکرده.» کوه کلنگ در اعماق زیر زمین قرار دارد و اعتقاد بر این است که یک سایت غنی‌سازی مستحکم است. این تغییری از حملات عمومی به اعلام علنی اهداف مشخص زیرساخت‌های هسته‌ای را نشان می‌دهد.
 
-منابع: [France24](https://www.france24.com/en/us-eyes-strikes-on-iran-s-pickaxe-mountain-believed-to-be-an-enrichment-site) | [France24](https://www.france24.com/en/trump-says-will-be-hitting-iran-s-pickaxe-mountain-nuclear-complex-pretty-soon)
+منابع: [France24](https://www.france24.com/en/us-eyes-strikes-on-iran-s-pickaxe-mountain-believed-to-be-an-enrichment-site) \| [France24](https://www.france24.com/en/trump-says-will-be-hitting-iran-s-pickaxe-mountain-nuclear-complex-pretty-soon)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: هگست روز سه‌شنبه شهادت داد و درخواست بودجه اضافی «فوری» برای پر کردن مجدد انبار تسلیحات کرد. رقم ۳۷.۵ میلیارد دلار اولین گزارش رسمی از آنچه هزینه شده است. سناتورهای هر دو حزب خواستار توضیحاتی درباره اینکه ارتش چطور قصد دارد واقعاً جنگ را ببرد یا پایان دهد شدند. آمریکا اکنون ۱۱ شب متوالی حملات را آغاز کرده است.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260721-us-estimates-cost-of-war-in-iran-at-37-5-billion-as-it-renews-strikes) | [France24](https://www.france24.com/en/the-iran-war-has-cost-the-us-37-5-billion-dollars-says-defense-secretary-pete-hesgseth) | [Al Jazeera](https://www.aljazeera.com/news/2026/7/22/iran-wars-37bn-price-tag-why-does-trump-want-67bn-more?traffic_source=rss)
+منابع: [France24](https://www.france24.com/en/middle-east/20260721-us-estimates-cost-of-war-in-iran-at-37-5-billion-as-it-renews-strikes) \| [France24](https://www.france24.com/en/the-iran-war-has-cost-the-us-37-5-billion-dollars-says-defense-secretary-pete-hesgseth) \| [Al Jazeera](https://www.aljazeera.com/news/2026/7/22/iran-wars-37bn-price-tag-why-does-trump-want-67bn-more?traffic_source=rss)
 
 </details>
 
@@ -36,7 +36,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این اتفاق در شمال عراق در حین پاکسازی مهمات منفجرنشده از یک پهپاد سرنگون‌شده ایرانی رخ داد. این در پی کشته شدن دو سرباز آمریکایی در اردن اواخر روز جمعه است که کل تلفات جنگی آمریکا را به حداقل چهار نفر می‌رساند. اردن روز یکشنبه نماینده ارشد ایران را برای اعتراض به حملات تهران به خاک اردن احضار کرد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260719-us-announces-death-of-another-service-member-jordan-summons-iranian-envoy-over-attacks) | [France24](https://www.france24.com/en/middle-east/20260719-middle-east-live-us-targets-iran-s-revolutionary-guard-in-retaliation-for-killed-troops)
+منابع: [France24](https://www.france24.com/en/middle-east/20260719-us-announces-death-of-another-service-member-jordan-summons-iranian-envoy-over-attacks) \| [France24](https://www.france24.com/en/middle-east/20260719-middle-east-live-us-targets-iran-s-revolutionary-guard-in-retaliation-for-killed-troops)
 
 </details>
 
@@ -56,7 +56,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ارتش لبنان وارد زوطر الغربیه شد در حالی که توافق چارچوب شروع به اجرا در میدان می‌کند. نخست‌وزیر لبنان روز سه‌شنبه از منطقه بازدید کرد و گفت بیروت در حال کار بر روی «خروج کامل اسرائیل» از مناطق اشغالی است. اسرائیل اصرار دارد حزب‌الله قبل از خروج کامل خلع سلاح شود، کاری که احتمالاً ارتش لبنان نمی‌تواند انجام دهد. اسرائیل گفت شلیک‌ها فقط هشدار بودند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/22/just-want-to-go-back-lebanese-await-return-as-army-enters-pilot-zone?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260722-middle-east-live-us-launches-11th-night-of-iran-strikes-as-diplomacy-falters) | [France24](https://www.france24.com/en/middle-east/20260721-live-lebanon-s-aoun-to-meet-trump-as-pressure-builds-to-disarm-hezbollah)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/22/just-want-to-go-back-lebanese-await-return-as-army-enters-pilot-zone?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260722-middle-east-live-us-launches-11th-night-of-iran-strikes-as-diplomacy-falters) \| [France24](https://www.france24.com/en/middle-east/20260721-live-lebanon-s-aoun-to-meet-trump-as-pressure-builds-to-disarm-hezbollah)
 
 </details>
 

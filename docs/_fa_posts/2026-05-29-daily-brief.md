@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این یک گام مهم به جلو است. دیروز می‌دانستیم که در حال نهایی کردن چارچوب هستند. امروز مذاکره‌کنندگان واقعاً بر سر شرایط مشخص به توافق رسیدند: کشتیرانی بدون محدودیت از طریق هرمز، ایران مین‌ها را در عرض ۳۰ روز برمی‌دارد، آمریکا از تحریم‌های نفت ایران چشم‌پوشی می‌کند، و مذاکرات هسته‌ای در پی خواهد آمد. وزیر امور خارجه پاکستان به واشنگتن پرواز می‌کند تا به تصویب نهایی آن کمک کند. اما نه ترامپ و نه رهبر ایران خامنه‌ای هنوز تأیید نکرده‌اند که آن را تصویب خواهند کرد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260528-middle-east-war-live-us-carries-out-strikes-in-iran-targeting-military-site) | [Euronews](http://www.euronews.com/2026/05/29/iran-us-deal-nears-finish-line-but-trump-and-khamenei-must-say-yes) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/29/us-iran-60-day-proposal-what-we-know?traffic_source=rss)
+منابع: [France24](https://www.france24.com/en/middle-east/20260528-middle-east-war-live-us-carries-out-strikes-in-iran-targeting-military-site) \| [Euronews](http://www.euronews.com/2026/05/29/iran-us-deal-nears-finish-line-but-trump-and-khamenei-must-say-yes) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/29/us-iran-60-day-proposal-what-we-know?traffic_source=rss)
 
 </details>
 

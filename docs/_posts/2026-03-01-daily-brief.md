@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The strikes targeted the heart of Tehran, killing Iran's Supreme Leader Ali Khamenei along with other top figures including Ali Shamkhani, a senior security official. Israel has continued striking targets in Tehran for a second day. Multiple sources confirm the CIA tracked Khamenei for months before the attack.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/1/who-are-irans-senior-figures-killed-in-us-israeli-attacks) | [Euronews](https://www.euronews.com/2026/03/01/iran-security-official-says-khamenei-transition-process-to-begin-on-sunday) | [Al Jazeera on Shamkhani](https://www.aljazeera.com/news/2026/2/28/who-is-ali-shamkhani-iran-official-reportedly-killed-in-us-israel-attacks)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/1/who-are-irans-senior-figures-killed-in-us-israeli-attacks) \| [Euronews](https://www.euronews.com/2026/03/01/iran-security-official-says-khamenei-transition-process-to-begin-on-sunday) \| [Al Jazeera on Shamkhani](https://www.aljazeera.com/news/2026/2/28/who-is-ali-shamkhani-iran-official-reportedly-killed-in-us-israel-attacks)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/1/who-are-irans-seni
 
 Context: This is the second day of Iranian counterstrikes targeting US assets in Gulf states. At least eight people were injured in Qatar from missile debris. Dubai's airport terminals were damaged along with the iconic Burj Al Arab. Iran's hitting civilian infrastructure in addition to military targets—a significant escalation.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/1/more-blasts-rock-dubai-doha-and-manama-as-iran-targets-us-assets-in-gulf) | [Euronews](https://www.euronews.com/2026/03/01/iranian-strikes-hit-dubai-and-abu-dhabi-damaging-airport-terminals-and-the-burj-al-arab) | [Al Jazeera on Qatar](https://www.aljazeera.com/news/2026/2/28/missile-debris-injures-eight-in-qatar-after-iran-launches-barrage)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/1/more-blasts-rock-dubai-doha-and-manama-as-iran-targets-us-assets-in-gulf) \| [Euronews](https://www.euronews.com/2026/03/01/iranian-strikes-hit-dubai-and-abu-dhabi-damaging-airport-terminals-and-the-burj-al-arab) \| [Al Jazeera on Qatar](https://www.aljazeera.com/news/2026/2/28/missile-debris-injures-eight-in-qatar-after-iran-launches-barrage)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/01/iraq-members-of-the-p
 
 Context: Iran's Foreign Minister said the transition process begins Sunday and a new Ayatollah could be selected within days—much faster than the weeks-long process some expected. Iranian officials are projecting defiance and vowing harsh revenge despite the leadership decapitation.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/1/iran-foreign-minister-suggests-new-supreme-leader-may-be-chosen-within-days) | [Euronews](https://www.euronews.com/2026/03/01/a-new-ayatollah-to-be-chosen-within-days-irans-foreign-minister-says)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/1/iran-foreign-minister-suggests-new-supreme-leader-may-be-chosen-within-days) \| [Euronews](https://www.euronews.com/2026/03/01/a-new-ayatollah-to-be-chosen-within-days-irans-foreign-minister-says)
 
 </details>
 
@@ -66,7 +66,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/1/iran-foreign-minis
 
 Context: Putin condemned what he called the assassination of an ally. China's Foreign Minister said killing Iran's leader and inciting regime change is "unacceptable." Both powers are signaling they'll back Iran diplomatically and possibly materially as this escalates.
 
-Sources: [Euronews](https://www.euronews.com/my-europe/2026/03/01/putin-calls-the-death-of-irans-ali-khamenei-a-cynical-murder) | [Reuters](https://jp.reuters.com/world/us/J2B7GWR2NBNT3K4PVKJKDDNBZM-2026-03-01/)
+Sources: [Euronews](https://www.euronews.com/my-europe/2026/03/01/putin-calls-the-death-of-irans-ali-khamenei-a-cynical-murder) \| [Reuters](https://jp.reuters.com/world/us/J2B7GWR2NBNT3K4PVKJKDDNBZM-2026-03-01/)
 
 </details>
 
@@ -95,7 +95,7 @@ Sources: [Euronews](https://arabic.euronews.com/my-europe/2026/03/01/spain-criti
 
 Context: Oman reports the first confirmed attack on an oil tanker in the Strait of Hormuz. Major oil and gas companies plus trading houses have now suspended all shipments through the chokepoint. If the strait stays closed, global energy prices will spike—fast.
 
-Sources: [Euronews](# "link unavailable") | [Reuters](https://jp.reuters.com/markets/commodities/YX7C5JLJABMK3GI7RLRJG23Q7M-2026-03-01/)
+Sources: [Euronews](# "link unavailable") \| [Reuters](https://jp.reuters.com/markets/commodities/YX7C5JLJABMK3GI7RLRJG23Q7M-2026-03-01/)
 
 </details>
 
@@ -104,7 +104,7 @@ Sources: [Euronews](# "link unavailable") | [Reuters](https://jp.reuters.com/mar
 
 Context: Thousands of flights are grounded or delayed as airports in Iran, Israel, UAE, and Qatar deal with airspace closures and damage. This is crippling regional and international air travel.
 
-Sources: [Euronews](https://www.euronews.com/2026/03/01/us-and-israeli-strikes-on-iran-disrupt-regional-and-international-flights) | [Reuters](https://jp.reuters.com/world/us/54AAMMKT7ZNCHGI2PNE6IICKXI-2026-03-01/)
+Sources: [Euronews](https://www.euronews.com/2026/03/01/us-and-israeli-strikes-on-iran-disrupt-regional-and-international-flights) \| [Reuters](https://jp.reuters.com/world/us/54AAMMKT7ZNCHGI2PNE6IICKXI-2026-03-01/)
 
 </details>
 
@@ -115,7 +115,7 @@ Sources: [Euronews](https://www.euronews.com/2026/03/01/us-and-israeli-strikes-o
 
 Context: Trump's doing his signature mix of threats and negotiation signals. He claims Iran's leadership reached out about talks (no independent confirmation), but he's also promising unprecedented military force if the missile strikes continue.
 
-Sources: [Euronews](https://www.euronews.com/2026/03/01/we-will-hit-them-with-a-force-that-has-never-been-seen-before-trump-warns-iran) | [Euronews Arabic](https://arabic.euronews.com/2026/03/01/three-american-soldiers-killed-and-trump-reveals-the-iranian-leaderships-desire-for-di)
+Sources: [Euronews](https://www.euronews.com/2026/03/01/we-will-hit-them-with-a-force-that-has-never-been-seen-before-trump-warns-iran) \| [Euronews Arabic](https://arabic.euronews.com/2026/03/01/three-american-soldiers-killed-and-trump-reveals-the-iranian-leaderships-desire-for-di)
 
 </details>
 

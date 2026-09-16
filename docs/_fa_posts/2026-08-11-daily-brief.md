@@ -18,7 +18,7 @@ models_used: ["muse-spark-1.2-contributor-free"]
 
 زمینه: ایران می‌گوید مذاکرات با عمان در مراحل پایانی قرار دارد، اما بازگشایی این آبراه به شروط و غرامت برای آنچه تهران نقض توافق ژوئن می‌خواند بستگی دارد. تفاهم‌نامه اسلام‌آباد که در ماه ژوئن امضا شد بخش زیادی از این موارد را پوشش می‌داد — به گفته خبرنگار واشنگتن FRANCE 24، دشواری اینجاست که زبان متن کاملاً کلی بود و جا را برای همین نوع بازگشایی دوباره بحث‌ها باز گذاشته است.
 
-منابع: [France24](https://www.france24.com/en/iran-oman-near-deal-on-strait-of-hormuz) | [France24](https://www.france24.com/en/many-of-iran-s-demands-already-agreed-to-by-us-in-june-mou)
+منابع: [France24](https://www.france24.com/en/iran-oman-near-deal-on-strait-of-hormuz) \| [France24](https://www.france24.com/en/many-of-iran-s-demands-already-agreed-to-by-us-in-june-mou)
 
 </details>
 
@@ -40,7 +40,7 @@ models_used: ["muse-spark-1.2-contributor-free"]
 
 زمینه: اواخر روز یکشنبه، حوثی‌های مورد حمایت ایران به المخا، بندری در ساحل دریای سرخ یمن که در کنترل دولت است، حمله کردند. روز جمعه، حملات در مأرب نفت‌خیز هشت نیروی دولتی و دو غیرنظامی را کشت. هر دو حمله در حالی رخ می‌دهد که درگیری گسترده‌تر آمریکا و ایران شدت می‌گیرد و آتش‌بس شکننده یمن هر روز لرزان‌تر به نظر می‌رسد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260810-iran-backed-houthis-strike-red-sea-port-of-mocha-threatening-shipping-routes) | [France24](https://www.france24.com/en/middle-east/20260807-houthi-attacks-kill-at-least-10-in-yemen-as-iran-backed-rebels-target-marib)
+منابع: [France24](https://www.france24.com/en/middle-east/20260810-iran-backed-houthis-strike-red-sea-port-of-mocha-threatening-shipping-routes) \| [France24](https://www.france24.com/en/middle-east/20260807-houthi-attacks-kill-at-least-10-in-yemen-as-iran-backed-rebels-target-marib)
 
 </details>
 

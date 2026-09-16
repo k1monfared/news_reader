@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump announced Thursday he'd reached a "great settlement" with Iran and expected it signed in Europe over the weekend. Then on Friday he lashed out at Iranian media reports detailing Iran's non-negotiable terms, calling them "fake news" and Iranian officials "very dishonorable people." Iran responded that it has not reached a final decision on any deal and denies Trump's characterization of their talks. This is a concrete shift from vague "final throes" talk to specific timelines—but the public feuding and contradictory statements from both sides suggest the deal is shakier than Trump claims.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/12/dishonorable-trump-says-leaked-iran-ceasefire-terms-fake?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/features/2026/6/12/are-iran-us-really-close-to-a-breakthrough-deal?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260612-middle-east-live-us-forces-shoot-down-iranian-drones-near-strait-of-hormuz) | [France24](https://www.france24.com/en/trump-touts-iran-deal-some-people-s-response-to-this-will-be-the-boy-who-cried-wolf) | [France24](https://www.france24.com/en/middle-east/20260610-middle-east-live-iran-announces-closure-of-strait-of-hormuz-after-us-attacks)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/12/dishonorable-trump-says-leaked-iran-ceasefire-terms-fake?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/features/2026/6/12/are-iran-us-really-close-to-a-breakthrough-deal?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260612-middle-east-live-us-forces-shoot-down-iranian-drones-near-strait-of-hormuz) \| [France24](https://www.france24.com/en/trump-touts-iran-deal-some-people-s-response-to-this-will-be-the-boy-who-cried-wolf) \| [France24](https://www.france24.com/en/middle-east/20260610-middle-east-live-iran-announces-closure-of-strait-of-hormuz-after-us-attacks)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/12/dishonorable-trum
 
 Context: Trump halted new military strikes on Iran Thursday after what he said were discussions with "the highest levels" of Iranian leadership. This represents a concrete shift from ongoing escalation to active de-escalation. But just hours before the announcement, he'd threatened to intensify the conflict by targeting Iran's oil sector. Iran says it hasn't reached a final decision and denies Trump's characterization of their talks, creating uncertainty about the actual state of negotiations.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260611-trump-says-iran-peace-deal-is-near-after-threatening-new-strikes) | [France24](https://www.france24.com/en/middle-east/20260610-middle-east-live-iran-announces-closure-of-strait-of-hormuz-after-us-attacks)
+Sources: [France24](https://www.france24.com/en/middle-east/20260611-trump-says-iran-peace-deal-is-near-after-threatening-new-strikes) \| [France24](https://www.france24.com/en/middle-east/20260610-middle-east-live-iran-announces-closure-of-strait-of-hormuz-after-us-attacks)
 
 </details>
 

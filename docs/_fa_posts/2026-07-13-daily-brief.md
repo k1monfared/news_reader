@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ایران دو جزیره جنوبی خود به علاوه پست‌های مرزی و یک سکوی نفتی دریایی در کویت را هدف قرار داد. آن‌ها همچنین حملات هوایی سنگینی را علیه پایگاه‌های شبه‌نظامی کردهای ایرانی در کردستان عراق انجام دادند. این یک تشدید بزرگ نسبت به هفته گذشته است که حملات محدودتر بودند—اکنون جنگ در سراسر منطقه خلیج فارس گسترش یافته است. ایران و آمریکا گزارش‌های متناقضی درباره این‌که آیا تنگه هرمز اصلاً در حال حاضر برای تردد باز است یا نه، ارائه می‌دهند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/13/new-iran-strikes-on-gulf-as-us-attacks-escalate-what-we-know?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260712-iran-expands-attacks-on-gulf-states-after-intense-us-strikes)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/13/new-iran-strikes-on-gulf-as-us-attacks-escalate-what-we-know?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260712-iran-expands-attacks-on-gulf-states-after-intense-us-strikes)
 
 </details>
 

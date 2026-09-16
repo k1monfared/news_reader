@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The attack happened off Sri Lanka's coast. Sri Lankan authorities have recovered multiple bodies and rescued 32 sailors. This is the first confirmed sinking of an Iranian warship in the conflict and marks a major escalation in naval operations, extending the battlefield well beyond the Strait of Hormuz into the broader Indian Ocean.
 
-Sources: [Reuters](https://jp.reuters.com/world/us/HLBL35MMQFOJRLHVAYPBIN4CMM-2026-03-04/) | [Euronews](https://ru.euronews.com/2026/03/04/v-indijskom-okeane-pogibli-desyatki-iranskih-moryakov-ih-fregat-porazila-podlodka-ssha) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/4/at-least-100-missing-after-iranian-military-ship-sinks-off-sri-lanka-coast)
+Sources: [Reuters](https://jp.reuters.com/world/us/HLBL35MMQFOJRLHVAYPBIN4CMM-2026-03-04/) \| [Euronews](https://ru.euronews.com/2026/03/04/v-indijskom-okeane-pogibli-desyatki-iranskih-moryakov-ih-fregat-porazila-podlodka-ssha) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/4/at-least-100-missing-after-iranian-military-ship-sinks-off-sri-lanka-coast)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [Euronews](# "link unavailable")
 
 Context: NATO defense systems shot down an Iranian ballistic missile heading toward Turkish territory. Turkish sources suggest Incirlik—a major US air base—was the intended target, though this hasn't been independently confirmed. If accurate, it would represent Iran's first direct attack on NATO territory.
 
-Sources: [Euronews](https://tr.euronews.com/2026/03/04/iddia-iran-fuzesinin-hedefinde-incirlik-ussu-vardi) | [Reuters](https://jp.reuters.com/world/security/L24L5IPMXFKJBJYKEXEWMFFPCM-2026-03-04/)
+Sources: [Euronews](https://tr.euronews.com/2026/03/04/iddia-iran-fuzesinin-hedefinde-incirlik-ussu-vardi) \| [Reuters](https://jp.reuters.com/world/security/L24L5IPMXFKJBJYKEXEWMFFPCM-2026-03-04/)
 
 </details>
 
@@ -73,7 +73,7 @@ Sources: [Euronews](https://ru.euronews.com/2026/03/04/son-of-ali-hamenei-electe
 
 Context: Spain refused to allow US military operations against Iran from Spanish territory. Trump called Spain a "terrible ally" and threatened to halt all trade. Spanish PM Sánchez doubled down, calling the Iran offensive "Russian roulette." The White House briefly claimed Spain had reversed course, but Madrid immediately denied it.
 
-Sources: [Euronews](https://arabic.euronews.com/2026/03/04/trump-threatens-spain-trade-embargo-after-madrid-bans-use-of-its-bases-in-the-war-on-iran) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/3/spain-baulks-at-trumps-threat-to-cut-off-all-trade-over-nato-iran-stance)
+Sources: [Euronews](https://arabic.euronews.com/2026/03/04/trump-threatens-spain-trade-embargo-after-madrid-bans-use-of-its-bases-in-the-war-on-iran) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/3/spain-baulks-at-trumps-threat-to-cut-off-all-trade-over-nato-iran-stance)
 
 </details>
 
@@ -93,7 +93,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/3/qatar-announces-ar
 
 Context: Yesterday the risk of blockade was driving prices up. Today Iran's Revolutionary Guards claim they've taken complete control of the strait. Oil tankers have been hit, and Saudi Aramco is reportedly rerouting exports away from Hormuz to Red Sea terminals. About 20% of global oil supply normally moves through this chokepoint.
 
-Sources: [Euronews](https://es.euronews.com/business/2026/03/04/hormuz-cerrado-el-petroleo-sigue-encareciendose) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/4/irgc-says-iran-in-complete-control-of-strait-of-hormuz-amid-trump-threats)
+Sources: [Euronews](https://es.euronews.com/business/2026/03/04/hormuz-cerrado-el-petroleo-sigue-encareciendose) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/4/irgc-says-iran-in-complete-control-of-strait-of-hormuz-amid-trump-threats)
 
 </details>
 
@@ -102,7 +102,7 @@ Sources: [Euronews](https://es.euronews.com/business/2026/03/04/hormuz-cerrado-e
 
 Context: South Korean stocks crashed harder than any previous session on record as investors fled risk assets. Iranian crypto exchanges also saw massive outflows as people try to move money out of the country. The financial contagion is spreading well beyond the Middle East.
 
-Sources: [Euronews](https://arabic.euronews.com/business/2026/03/04/south-korean-stocks-suffer-worst-day-on-record-amid-iran-war-shocks) | [Al Jazeera](https://www.aljazeera.com/economy/2026/3/4/south-koreas-stock-market-in-meltdown-amid-us-iran-war)
+Sources: [Euronews](https://arabic.euronews.com/business/2026/03/04/south-korean-stocks-suffer-worst-day-on-record-amid-iran-war-shocks) \| [Al Jazeera](https://www.aljazeera.com/economy/2026/3/4/south-koreas-stock-market-in-meltdown-amid-us-iran-war)
 
 </details>
 

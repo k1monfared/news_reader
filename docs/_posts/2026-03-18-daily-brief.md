@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The strikes hit multiple countries in the region, not just Israel. Iranian missiles reached Ramat Gan near Tel Aviv. Tehran is promising more "strong responses" and threatening to go after Gulf energy infrastructure. This marks day 19 of the war and a serious escalation in geographic scope.
 
-Sources: [Euronews](https://www.euronews.com/2026/03/18/iran-fires-barrages-at-israel-and-wider-region-after-killing-of-two-of-its-top-security-of) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/18/iran-fires-missiles-drones-across-gulf-region-remains-in-war-crosshairs) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/18/killing-of-larijani-will-not-destabilise-iranian-political-system-minister)
+Sources: [Euronews](https://www.euronews.com/2026/03/18/iran-fires-barrages-at-israel-and-wider-region-after-killing-of-two-of-its-top-security-of) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/18/iran-fires-missiles-drones-across-gulf-region-remains-in-war-crosshairs) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/18/killing-of-larijani-will-not-destabilise-iranian-political-system-minister)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Euronews](https://www.euronews.com/2026/03/18/iran-fires-barrages-at-i
 
 Context: South Pars is critical infrastructure—it supplies a huge chunk of Iran's domestic energy and export capacity. This is the first time Israel has gone after a major industrial energy site rather than military or nuclear targets. Iran's threat to retaliate against Gulf energy facilities has everyone watching the oil markets.
 
-Sources: [Euronews](https://arabic.euronews.com/2026/03/18/israel-targets-irans-key-natural-gas-facility-tehran-threatens-a-strong-response) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/18/iran-threatens-to-strike-gulf-energy-facilities-after-south-pars-attack)
+Sources: [Euronews](https://arabic.euronews.com/2026/03/18/israel-targets-irans-key-natural-gas-facility-tehran-threatens-a-strong-response) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/18/iran-threatens-to-strike-gulf-energy-facilities-after-south-pars-attack)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Euronews](https://www.euronews.com/next/2026/03/18/how-cyberattacks-ar
 
 Context: The price was already climbing, but the South Pars strike and Iran's threats sent it jumping. If Iran goes after Saudi or UAE facilities, we're looking at a global energy crisis. Airlines are already feeling it—SAS is canceling 1,000 flights in April because jet fuel prices doubled in 10 days.
 
-Sources: [Euronews](https://www.euronews.com/business/2026/03/18/oil-surges-to-110-a-barrel-after-israel-strikes-irans-energy-facilities) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/18/oil-prices-surge-after-israeli-strike-on-iran-gasfield-irans-threats)
+Sources: [Euronews](https://www.euronews.com/business/2026/03/18/oil-surges-to-110-a-barrel-after-israel-strikes-irans-energy-facilities) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/18/oil-prices-surge-after-israeli-strike-on-iran-gasfield-irans-threats)
 
 </details>
 
@@ -64,7 +64,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/18/iran-allowing-
 
 Context: The Fed is projecting calm while Moody's is sounding alarms—a clear split in how analysts view the conflict's economic trajectory. The Fed's assessment is based on current conditions, but credit raters are looking at what happens if the conflict escalates further.
 
-Sources: [Euronews](https://www.euronews.com/business/2026/03/18/us-fed-projects-one-rate-cut-sees-limited-iran-war-impact) | [Al Jazeera](https://www.aljazeera.com/economy/2026/3/18/us-fed-keeps-interest-rates-steady-amid-economic-geopolitical-uncertainty)
+Sources: [Euronews](https://www.euronews.com/business/2026/03/18/us-fed-projects-one-rate-cut-sees-limited-iran-war-impact) \| [Al Jazeera](https://www.aljazeera.com/economy/2026/3/18/us-fed-keeps-interest-rates-steady-amid-economic-geopolitical-uncertainty)
 
 </details>
 

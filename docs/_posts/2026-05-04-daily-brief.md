@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Iranian state media reported firing missiles at a US destroyer to prevent it from entering the Strait of Hormuz, right after Trump launched "Project Freedom" to escort stranded commercial ships through the strait. US officials categorically deny the attack happened. Iran had previously warned they'd attack any US forces that entered.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/4/iran-says-it-fired-missiles-at-us-warship-to-prevent-it-entering-hormuz?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260504-live-us-to-escort-ships-through-strait-of-hormuz-as-iran-warns-of-ceasefire-breach-trump)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/4/iran-says-it-fired-missiles-at-us-warship-to-prevent-it-entering-hormuz?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260504-live-us-to-escort-ships-through-strait-of-hormuz-as-iran-warns-of-ceasefire-breach-trump)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/4/seized-iranian-shi
 
 Context: Trump announced this new mission after Iran said it received a US response to its peace proposal. Iran had warned they'd attack any US forces entering the strait, and now claims they've done exactly that—though the US denies it. Hundreds of ships remain stuck on both sides of the blockade.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/4/trumps-project-freedom-can-us-navy-guide-stuck-ships-out-of-hormuz?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/05/04/iranian-military-claims-it-prevented-us-navy-ships-from-entering-strait-of-hormuz)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/4/trumps-project-freedom-can-us-navy-guide-stuck-ships-out-of-hormuz?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/05/04/iranian-military-claims-it-prevented-us-navy-ships-from-entering-strait-of-hormuz)
 
 </details>
 

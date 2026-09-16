@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The conflict has been escalating steadily since it began 16 days ago. Iran struck targets in Israel and Gulf states today. Israel claims it hit 200 Iranian sites in response, while Iranian sources report using cluster munitions against Tel Aviv. Five days ago this was day 11, showing no signs of winding down.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks) | [Euronews Arabic](https://arabic.euronews.com/2026/03/15/day-16-war-guard-vows-kill-netanyahu-airstrikes-hit-200-iranian-sites)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks) \| [Euronews Arabic](https://arabic.euronews.com/2026/03/15/day-16-war-guard-vows-kill-netanyahu-airstrikes-hit-200-iranian-sites)
 
 </details>
 
@@ -44,7 +44,7 @@ Sources: [Euronews Arabic](https://arabic.euronews.com/2026/03/15/iran-sejjil-ba
 
 Context: Ukraine's president claims Moscow is helping Tehran with the same Iranian-designed drones that have been hitting Ukrainian cities for years. Iran's counter-claim that the US is developing Shahed copies appears to be deflection. Neither claim has independent verification.
 
-Sources: [Euronews](https://www.euronews.com/2026/03/15/russia-is-supplying-iran-with-shahed-drones-for-strikes-against-us-and-israel-zelenskyy-sa) | [Euronews Arabic](https://arabic.euronews.com/2026/03/15/tehran-accuses-washington-of-developing-a-drone-similar-to-shahed-to-strike-arab-countri)
+Sources: [Euronews](https://www.euronews.com/2026/03/15/russia-is-supplying-iran-with-shahed-drones-for-strikes-against-us-and-israel-zelenskyy-sa) \| [Euronews Arabic](https://arabic.euronews.com/2026/03/15/tehran-accuses-washington-of-developing-a-drone-similar-to-shahed-to-strike-arab-countri)
 
 </details>
 
@@ -64,7 +64,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/opinions/2026/3/15/minab-when-th
 
 Context: The UAE is walking a tightrope—they've been hit by Iranian strikes but also want to protect their economic interests. The minister said the UAE can withstand the war's economic shock and will oppose Iran's "nihilism."
 
-Sources: [Euronews English](https://www.euronews.com/2026/03/15/iran-continues-strikes-on-gulf-states-day-after-us-threatens-oil-facilities) | [Euronews Arabic](https://arabic.euronews.com/2026/03/15/uae-minister-iran-must-not-hold-global-economy-hostage)
+Sources: [Euronews English](https://www.euronews.com/2026/03/15/iran-continues-strikes-on-gulf-states-day-after-us-threatens-oil-facilities) \| [Euronews Arabic](https://arabic.euronews.com/2026/03/15/uae-minister-iran-must-not-hold-global-economy-hostage)
 
 </details>
 
@@ -73,7 +73,7 @@ Sources: [Euronews English](https://www.euronews.com/2026/03/15/iran-continues-s
 
 Context: Iran's denial is notably specific—no one had publicly accused them of hitting Turkey yet. Could be genuine intelligence about a setup, or could be information warfare. Turkey's statement reinforces its intention to remain neutral.
 
-Sources: [Euronews Arabic](https://arabic.euronews.com/2026/03/15/iran-denies-launching-missiles-at-turkiye-and-warns-of-a-plot-to-stage-an-attack-and-blame) | [Euronews Portuguese](https://pt.euronews.com/2026/03/15/turquia-quer-manter-se-fora-desta-guerra-diz-ministro-dos-negocios-estrangeiros)
+Sources: [Euronews Arabic](https://arabic.euronews.com/2026/03/15/iran-denies-launching-missiles-at-turkiye-and-warns-of-a-plot-to-stage-an-attack-and-blame) \| [Euronews Portuguese](https://pt.euronews.com/2026/03/15/turquia-quer-manter-se-fora-desta-guerra-diz-ministro-dos-negocios-estrangeiros)
 
 </details>
 
@@ -84,7 +84,7 @@ Sources: [Euronews Arabic](https://arabic.euronews.com/2026/03/15/iran-denies-la
 
 Context: Macron spoke with Iran's Pezeshkian specifically about keeping the strait open. Meanwhile, reports say 400 million barrels of oil are hitting the market—unclear if that's strategic reserves being released or normal trading. If Hormuz actually closes, oil prices would spike globally.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/15/iran-war-live-trump-urges-world-to-keep-hormuz-strait-open) | [Euronews Greek](https://gr.euronews.com/2026/03/15/sthn-agora-400-ekatommyria-barelia-petrelaioy-epikoinwnia-makron-pezeskian-stena-ormoyz)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/15/iran-war-live-trump-urges-world-to-keep-hormuz-strait-open) \| [Euronews Greek](https://gr.euronews.com/2026/03/15/sthn-agora-400-ekatommyria-barelia-petrelaioy-epikoinwnia-makron-pezeskian-stena-ormoyz)
 
 </details>
 
@@ -95,7 +95,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/15/iran-war
 
 Context: This is the first clear acknowledgment that there are actual talks about ending this, even if Trump's saying they're not working. Unclear what Iran's offering or what the US wants beyond cessation of hostilities.
 
-Sources: [Euronews Russian](https://ru.euronews.com/2026/03/15/donald-tramp-usloviya-dlya-zaklyucheniya-sdelki-s-iranom-nedostatochno-horoshie) | [Euronews Arabic](https://arabic.euronews.com/2026/03/15/trump-iran-ceasefire-negotiations-us-israel-war-middle-east)
+Sources: [Euronews Russian](https://ru.euronews.com/2026/03/15/donald-tramp-usloviya-dlya-zaklyucheniya-sdelki-s-iranom-nedostatochno-horoshie) \| [Euronews Arabic](https://arabic.euronews.com/2026/03/15/trump-iran-ceasefire-negotiations-us-israel-war-middle-east)
 
 </details>
 

@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این یک تشدید مشخص نسبت به حملات قبلی است. سپاه پاسداران ایران می‌گوید «پایگاه‌های دشمن» را در خلیج فارس هدف قرار داده است. آمریکا بلافاصله حملات تلافی‌جویانه‌ای را علیه تأسیسات راداری ایران در گروک و جزیره قشم در تنگه هرمز آغاز کرد و فیلم‌هایی از اصابت‌ها منتشر کرد. حملات یک ایستگاه کنترل زمینی نظامی را هدف قرار دادند. چارچوب آتش‌بسی که هر دو طرف به آن توافق کرده‌اند به شدت در حال آزمایش است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/6/us-intercepts-iranian-attacks-as-israel-continues-to-bomb-lebanon?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain) | [فیلم حملات آمریکا](https://www.aljazeera.com/video/newsfeed/2026/6/6/us-says-iranian-radar-sites-hit-in-goruk-and-qeshm-island?traffic_source=rss)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/6/us-intercepts-iranian-attacks-as-israel-continues-to-bomb-lebanon?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain) \| [فیلم حملات آمریکا](https://www.aljazeera.com/video/newsfeed/2026/6/6/us-says-iranian-radar-sites-hit-in-goruk-and-qeshm-island?traffic_source=rss)
 
 </details>
 
@@ -29,7 +29,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: رئیس‌جمهور جوزف عون و نخست‌وزیر علناً ایران را به خاطر مخالفت با آخرین توافق آتش‌بس اسرائیل-لبنان سرزنش کردند. این یک شکاف تند است—رهبری لبنان آشکارا به ایران می‌گوید «این کشور ماست، نه شما». با وجود چارچوب آتش‌بس، اسرائیل و حزب‌الله همچنان در جنوب لبنان در حال مبادله آتش هستند. علی باقری عراقچی وزیر امور خارجه ایران پاسخ داد و لبنان را درباره «دشمن واقعی‌اش» هشدار داد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260605-not-your-country-lebanese-leaders-rebuke-iran-as-israel-hezbollah-trade-attacks) | [Euronews](http://www.euronews.com/2026/06/06/aoun-tells-iran-this-is-our-country-as-araqchi-warns-of-lebanons-real-enemy)
+منابع: [France24](https://www.france24.com/en/middle-east/20260605-not-your-country-lebanese-leaders-rebuke-iran-as-israel-hezbollah-trade-attacks) \| [Euronews](http://www.euronews.com/2026/06/06/aoun-tells-iran-this-is-our-country-as-araqchi-warns-of-lebanons-real-enemy)
 
 </details>
 

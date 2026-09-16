@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: One crew member has been rescued, but Iranian state TV is reportedly offering a reward for people to turn in the missing pilot. A second US aircraft also went down Friday in a separate incident, though details on that crew are unclear. This dramatically raises the stakes for the Trump administration as the war enters its sixth week.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/4/iran-war-what-is-happening-on-day-36-of-us-israeli-attacks?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260404-iran-us-race-to-recover-missing-crew-member-of-crashed-american-fighter-jet) | [Euronews](http://www.euronews.com/2026/04/03/media-say-army-searching-for-pilot-of-us-fighter-jet-allegedly-downed-over-iran)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/4/iran-war-what-is-happening-on-day-36-of-us-israeli-attacks?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260404-iran-us-race-to-recover-missing-crew-member-of-crashed-american-fighter-jet) \| [Euronews](http://www.euronews.com/2026/04/03/media-say-army-searching-for-pilot-of-us-fighter-jet-allegedly-downed-over-iran)
 
 </details>
 
@@ -53,7 +53,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/3/more-than-20-attac
 
 Context: The bridge was only 35km from Tehran. Survivors described the terror of missiles hitting the structure. Trump warned that energy plants could be next if Iran doesn't agree to a deal to end the conflict. Separately, Israel's PM claimed 70% of Iran's steel production capacity has been destroyed, though this figure could not be independently verified.
 
-Sources: [France 24](https://www.france24.com/en/video/20260403-us-israeli-strikes-destroy-iranian-highway-bridge) | [Euronews](http://www.euronews.com/video/2026/04/03/iran-reeling-after-b1-bridge-strike-as-trump-threatens-further-attacks)
+Sources: [France 24](https://www.france24.com/en/video/20260403-us-israeli-strikes-destroy-iranian-highway-bridge) \| [Euronews](http://www.euronews.com/video/2026/04/03/iran-reeling-after-b1-bridge-strike-as-trump-threatens-further-attacks)
 
 </details>
 

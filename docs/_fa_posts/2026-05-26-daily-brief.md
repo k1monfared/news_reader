@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: فرماندهی مرکزی آمریکا در ۲۵ مه پایگاه‌های پرتاب موشک و قایق‌های مین‌گذار در تنگه هرمز را هدف قرار داد. ایران بلافاصله آمریکا را به نقض آتش‌بس متهم کرد. زمان‌بندی ناخوشایند: این اتفاق در حالی رخ داد که ترامپ پست کرد مذاکرات «به خوبی پیش می‌روند» و روبیو گفت توافق می‌تواند ظرف روزهای آینده حاصل شود.
 
-منابع: [France24](https://www.france24.com/en/us-strikes-iranian-targets-amid-agreement-talks) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/26/tehran-labels-us-attacks-gross-violation-says-it-is-prepared-to-respond?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/05/26/ayatollah-mojtaba-khamenei-breaks-silence-to-vow-no-us-military-bases-in-the-region)
+منابع: [France24](https://www.france24.com/en/us-strikes-iranian-targets-amid-agreement-talks) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/26/tehran-labels-us-attacks-gross-violation-says-it-is-prepared-to-respond?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/05/26/ayatollah-mojtaba-khamenei-breaks-silence-to-vow-no-us-military-bases-in-the-region)
 
 </details>
 
@@ -29,7 +29,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: علی‌رغم حملات شبانه، هر دو طرف اصرار دارند که به توافق نزدیک هستند. ایران به‌عنوان بخشی از توافق بر آزادسازی بودجه‌های ایرانی پافشاری می‌کند و می‌خواهد حاکمیت بر تنگه هرمز به رسمیت شناخته شود. آمریکا می‌خواهد تنگه بازگشایی شود. گزارش شده که ترامپ به موضع ایران در مورد از بین بردن اورانیوم غنی‌شده نزدیک‌تر شده است. مخالفت روزافزون آمریکایی‌ها با جنگ در آستانه انتخابات میان‌دوره‌ای فشار بر واشنگتن برای به پایان رساندن این موضوع را افزایش می‌دهد، اگرچه ترامپ همچنین گفته که به دیپلمات‌ها گفته است «عجله به توافق نکنند.»
 
-منابع: [France24](https://www.france24.com/en/iran-looking-to-buy-time-to-rebuild-its-military-amid-talks-to-end-war) | [France24](https://www.france24.com/en/us-anxious-to-come-to-deal-with-iran-astehran-seeks-release-of-frozen-assets)
+منابع: [France24](https://www.france24.com/en/iran-looking-to-buy-time-to-rebuild-its-military-amid-talks-to-end-war) \| [France24](https://www.france24.com/en/us-anxious-to-come-to-deal-with-iran-astehran-seeks-release-of-frozen-assets)
 
 </details>
 
@@ -58,7 +58,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: پزشکیان دستور مشخصی برای بازگشایی دسترسی به اینترنت بین‌المللی صادر کرد پس از اینکه مقامات قطعی را در ۸ ژانویه در جریان اعتراضات اعمال کردند، سپس زمانی که حملات آمریکا و اسرائیل در ۲۸ فوریه آغاز شد، آن را دوباره اعمال کردند. اما یک دادگاه قبل از بازگرداندن کامل دخالت کرد و ایرانی‌ها را در بلاتکلیفی حقوقی و دیجیتال قرار داد. برخی اتصال‌ها به هر حال بر اساس نظارت زنده در حال بازگشت هستند.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260525-middle-east-war-live-rubio-says-iran-deal-still-possible-monday) | [Euronews](http://www.euronews.com/2026/05/26/irans-internet-flickers-back-on-despite-judicial-halt-reports-claim)
+منابع: [France24](https://www.france24.com/en/middle-east/20260525-middle-east-war-live-rubio-says-iran-deal-still-possible-monday) \| [Euronews](http://www.euronews.com/2026/05/26/irans-internet-flickers-back-on-despite-judicial-halt-reports-claim)
 
 </details>
 

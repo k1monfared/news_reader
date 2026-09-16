@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این یک تشدید شدید نسبت به وضعیت دیروز است. ترامپ حملات را متوقف کرده بود، اما اکنون علناً تهدید به «حمله گسترده» می‌کند اگر تهران به زودی سر میز مذاکره نیاید. ایران عقب‌نشینی نمی‌کند—آن‌ها هشدار می‌دهند که اگر آمریکا دوباره حمله کند، درگیری را از نظر جغرافیایی گسترش خواهند داد. درعین‌حال، مقامات ایرانی عروسی‌های دسته‌جمعی را در تهران برای زوج‌هایی که برای برنامه دولتی ثبت‌نام کردند و آمادگی خود برای مرگ در نبرد با آمریکا و اسرائیل را اعلام کردند، برگزار کردند.
 
-منابع: [France24](https://www.france24.com/en/us-iran-trade-threats-as-tehran-stages-mass-weddings-for-couples-ready-for-sacrifice) | [France24](https://www.france24.com/en/middle-east/20260519-iran-warns-it-could-open-up-new-fronts-in-war-after-us-threatens-large-scale-assault)
+منابع: [France24](https://www.france24.com/en/us-iran-trade-threats-as-tehran-stages-mass-weddings-for-couples-ready-for-sacrifice) \| [France24](https://www.france24.com/en/middle-east/20260519-iran-warns-it-could-open-up-new-fronts-in-war-after-us-threatens-large-scale-assault)
 
 </details>
 

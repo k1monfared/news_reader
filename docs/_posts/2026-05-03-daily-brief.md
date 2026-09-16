@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: After Trump rejected an earlier Iranian offer, Tehran came back with a specific 14-point framework submitted through mediator Pakistan. Details of the proposal haven't been made public yet, but Trump is reviewing it while simultaneously expressing skepticism. A senior Iranian officer said renewed fighting is "likely" if talks fail. We're on day 65 of the conflict.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/3/whats-irans-14-point-proposal-to-end-the-war-and-will-trump-accept-it?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/3/iran-war-whats-happening-on-day-65-as-trump-reviews-new-plan-to-end-war?traffic_source=rss) | [France 24](https://www.france24.com/en/us-president-trump-says-not-likely-to-accept-iranian-proposal)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/3/whats-irans-14-point-proposal-to-end-the-war-and-will-trump-accept-it?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/3/iran-war-whats-happening-on-day-65-as-trump-reviews-new-plan-to-end-war?traffic_source=rss) \| [France 24](https://www.france24.com/en/us-president-trump-says-not-likely-to-accept-iranian-proposal)
 
 </details>
 
@@ -28,7 +28,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/3/whats-irans-14-poi
 
 Context: Seven producers including Russia and Saudi Arabia agreed to the bump. It's a symbolic move aimed at projecting stability after the UAE's departure. The increase won't offset the lost supply from the Strait closure, but analysts say it's meant to signal coordination and confidence.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/3/opec-announces-symbolic-oil-output-rise-during-strait-of-hormuz-closure?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260503-opec-increases-production-quotas-without-mentioning-uae-withdrawal)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/3/opec-announces-symbolic-oil-output-rise-during-strait-of-hormuz-closure?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260503-opec-increases-production-quotas-without-mentioning-uae-withdrawal)
 
 </details>
 

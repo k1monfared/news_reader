@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is a concrete escalation from previous attacks. Iran's Revolutionary Guards say they hit "enemy bases" in the Gulf. The US immediately launched retaliatory strikes on Iranian radar sites at Goruk and Qeshm Island in the Strait of Hormuz, releasing footage of the hits. The strikes targeted a military ground control station. The ceasefire framework both sides agreed to is getting tested hard.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/6/us-intercepts-iranian-attacks-as-israel-continues-to-bomb-lebanon?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain) | [US strikes footage](https://www.aljazeera.com/video/newsfeed/2026/6/6/us-says-iranian-radar-sites-hit-in-goruk-and-qeshm-island?traffic_source=rss)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/6/us-intercepts-iranian-attacks-as-israel-continues-to-bomb-lebanon?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain) \| [US strikes footage](https://www.aljazeera.com/video/newsfeed/2026/6/6/us-says-iranian-radar-sites-hit-in-goruk-and-qeshm-island?traffic_source=rss)
 
 </details>
 
@@ -28,7 +28,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/6/us-intercepts-iran
 
 Context: President Joseph Aoun and the prime minister publicly rebuked Iran for opposing the latest Israel-Lebanon ceasefire deal. This is a sharp break—Lebanon's leadership is openly telling Iran "this is our country, not yours." Despite the ceasefire framework, Israel and Hezbollah are still trading fire in southern Lebanon. Iranian Foreign Minister Araqchi pushed back, warning Lebanon about its "real enemy."
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260605-not-your-country-lebanese-leaders-rebuke-iran-as-israel-hezbollah-trade-attacks) | [Euronews](http://www.euronews.com/2026/06/06/aoun-tells-iran-this-is-our-country-as-araqchi-warns-of-lebanons-real-enemy)
+Sources: [France24](https://www.france24.com/en/middle-east/20260605-not-your-country-lebanese-leaders-rebuke-iran-as-israel-hezbollah-trade-attacks) \| [Euronews](http://www.euronews.com/2026/06/06/aoun-tells-iran-this-is-our-country-as-araqchi-warns-of-lebanons-real-enemy)
 
 </details>
 

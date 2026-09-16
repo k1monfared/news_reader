@@ -30,7 +30,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260724-us-pummels-
 
 Context: This is Netanyahu's seventh White House visit, but the welcome will be much cooler than before. Trump is dealing with blowback over the Iran war, Israel's continued strikes on Gaza despite a ceasefire, the occupation of southern Lebanon, and rising settler violence in the West Bank. The relationship between the two leaders appears to be fraying under the weight of all these issues, with France24 describing Netanyahu's role in persuading Trump to launch the air war as now becoming "a major headache for the US President."
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/28/trump-flouts-political-risk-to-host-netanyahus-seventh-white-house-visit?traffic_source=rss) | [France24](https://www.france24.com/en/for-the-first-time-since-iran-war-trump-and-netanyahu-meet-amid-fraying-ties)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/28/trump-flouts-political-risk-to-host-netanyahus-seventh-white-house-visit?traffic_source=rss) \| [France24](https://www.france24.com/en/for-the-first-time-since-iran-war-trump-and-netanyahu-meet-amid-fraying-ties)
 
 </details>
 

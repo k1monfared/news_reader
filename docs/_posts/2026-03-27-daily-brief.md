@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/27/iran-war
 
 Context: Rubio's timeline claim suggests either optimism about diplomatic progress or political messaging to domestic audiences. His proposal to divert military aid earmarked for Ukraine to support operations against Iran would represent a major shift in US resource allocation and signals prioritization of the Middle East theater.
 
-Sources: [Reuters](https://jp.reuters.com/world/ukraine/K5FPIAKB7FIBNGX72NPZEPC3NA-2026-03-27/) | [Euronews](https://www.euronews.com/my-europe/2026/03/27/rubio-slams-zelenskyys-donbas-comments-and-says-us-may-divert-ukraine-arms-to-iran)
+Sources: [Reuters](https://jp.reuters.com/world/ukraine/K5FPIAKB7FIBNGX72NPZEPC3NA-2026-03-27/) \| [Euronews](https://www.euronews.com/my-europe/2026/03/27/rubio-slams-zelenskyys-donbas-comments-and-says-us-may-divert-ukraine-arms-to-iran)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [Reuters](https://jp.reuters.com/world/security/DMT7J3JXSVPAZEXB6N4ED5N
 
 Context: If confirmed, this would be the first direct attack on Iran's nuclear infrastructure during the conflict. Iran's foreign minister is promising a "harsh response." Tehran previously said attacking nuclear sites would be a major red line. Israel's commitment to continue operations despite peace efforts suggests diverging US-Israeli strategies on conflict termination.
 
-Sources: [Euronews](https://www.euronews.com/2026/03/27/iran-says-nuclear-facilities-hit-by-strikes-after-israel-warns-attacks-will-escalate) | [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/27/iran-war-live-trump-delays-attacks-on-iranian-energy-sector-by-10-days?update=4439536)
+Sources: [Euronews](https://www.euronews.com/2026/03/27/iran-says-nuclear-facilities-hit-by-strikes-after-israel-warns-attacks-will-escalate) \| [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/27/iran-war-live-trump-delays-attacks-on-iranian-energy-sector-by-10-days?update=4439536)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/27/iran-holds-the-united
 
 Context: The G7 position essentially means they're not getting involved in the fighting but will participate in international efforts to keep the strait open once there's a ceasefire. An EU envoy told Euronews they want to use a Black Sea grain corridor model to negotiate humanitarian shipments through Hormuz during the conflict.
 
-Sources: [Euronews](https://fr.euronews.com/my-europe/2026/03/27/le-g7-accepte-de-securiser-le-detroit-dormuz-mais-seulement-apres-la-fin-de-la-guerre-en-i) | [Euronews](https://www.euronews.com/2026/03/27/eu-calls-for-black-sea-grain-model-to-unblock-strait-of-hormuz-eu-envoy-tells-euronews)
+Sources: [Euronews](https://fr.euronews.com/my-europe/2026/03/27/le-g7-accepte-de-securiser-le-detroit-dormuz-mais-seulement-apres-la-fin-de-la-guerre-en-i) \| [Euronews](https://www.euronews.com/2026/03/27/eu-calls-for-black-sea-grain-model-to-unblock-strait-of-hormuz-eu-envoy-tells-euronews)
 
 </details>
 
@@ -104,7 +104,7 @@ Sources: [Reuters](https://jp.reuters.com/world/security/5WWALY3JFZNCFF4BH4BBYIX
 
 Context: An EU official told Reuters that if the conflict drags on, it could shave 0.6% off European growth. Oil prices spiking, supply chains breaking, and inflation jumping would create a challenging scenario for economies already struggling with high rates. The yen hit 160 to the dollar as investors pile into safe havens.
 
-Sources: [Euronews](https://gr.euronews.com/business/2026/03/27/european-stocks-slip-as-lagarde-warns-iran-war-shock-is-beyond-what-we-can-imagine) | [Reuters](https://jp.reuters.com/markets/japan/P2RD6XUFCNOZXHIJ6SIQYXDQJA-2026-03-27/)
+Sources: [Euronews](https://gr.euronews.com/business/2026/03/27/european-stocks-slip-as-lagarde-warns-iran-war-shock-is-beyond-what-we-can-imagine) \| [Reuters](https://jp.reuters.com/markets/japan/P2RD6XUFCNOZXHIJ6SIQYXDQJA-2026-03-27/)
 
 </details>
 
@@ -113,7 +113,7 @@ Sources: [Euronews](https://gr.euronews.com/business/2026/03/27/european-stocks-
 
 Context: About 20% of global fertilizer trade normally moves through Hormuz. With spring planting season approaching in many countries, blocked fertilizer shipments could devastate crop yields later this year. The UN is warning about cascading humanitarian impacts. Iran's stated willingness to allow humanitarian shipments may signal limited de-escalation or be a diplomatic positioning move.
 
-Sources: [Euronews](https://es.euronews.com/2026/03/27/ayuda-humanitaria-fertilizantes-las-victimas-de-la-guerra-de-iran-y-del-bloqueo-de-ormuz) | [Euronews](https://www.euronews.com/2026/03/27/iran-says-it-will-facilitate-and-expedite-humanitarian-aid-through-strait-of-hormuz)
+Sources: [Euronews](https://es.euronews.com/2026/03/27/ayuda-humanitaria-fertilizantes-las-victimas-de-la-guerra-de-iran-y-del-bloqueo-de-ormuz) \| [Euronews](https://www.euronews.com/2026/03/27/iran-says-it-will-facilitate-and-expedite-humanitarian-aid-through-strait-of-hormuz)
 
 </details>
 

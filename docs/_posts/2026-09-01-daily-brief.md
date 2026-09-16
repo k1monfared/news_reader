@@ -17,7 +17,7 @@ models_used: ["nemotron-3-ultra-free"]
 
 Context: After six months of war and an April ceasefire that halted intense fighting, the US struck Iranian sites on Larak Island allegedly to prevent more sea mining. Iran retaliated against US military targets in Jordan and the UAE. Trump now claims the Strait is clear, but Iran's leadership says it remains in "complete control" and will not allow it to be opened; the US naval counter-blockade also continues. Iran's President Pezeshkian simultaneously offered at the SCO summit to return to the June ceasefire deal if the US does the same, though IRGC demands for Hormuz control and war compensation remain sticking points.
 
-Sources: [BBC](https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss) | [France24](https://www.france24.com/en/trump-vows-to-hit-back-hard-after-first-exchange-of-fire-with-iran-in-weeks) | [France24](https://www.france24.com/en/latest-flare-up-between-us-and-iran-bring-conflict-s-lull-to-an-end) | [France24](https://www.france24.com/en/middle-east-war-flares-up-after-iran-responds-to-us-attacks)
+Sources: [BBC](https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss) \| [France24](https://www.france24.com/en/trump-vows-to-hit-back-hard-after-first-exchange-of-fire-with-iran-in-weeks) \| [France24](https://www.france24.com/en/latest-flare-up-between-us-and-iran-bring-conflict-s-lull-to-an-end) \| [France24](https://www.france24.com/en/middle-east-war-flares-up-after-iran-responds-to-us-attacks)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [BBC](https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at
 
 Context: The Shanghai Cooperation Organization — representing 43% of world population and 23% of global economy — issued a joint statement slamming attacks on Iran and unilateral sanctions. Iran's Pezeshkian made the ceasefire offer hours after the weekend military exchanges. The IRGC still demands control of Hormuz and war compensation, which the US is unlikely to accept. China separately signaled it won't comply with new US secondary sanctions on Iran.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/9/1/sco-slams-attacks-sanctions-on-iran-key-takeaways-from-bishkek-summit?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/09/01/iran-says-it-will-return-to-june-ceasefire-deal-if-us-does-the-same)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/9/1/sco-slams-attacks-sanctions-on-iran-key-takeaways-from-bishkek-summit?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/09/01/iran-says-it-will-return-to-june-ceasefire-deal-if-us-does-the-same)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/9/1/sco-slams-attacks-
 
 Context: The Trump administration is pushing countries to voluntarily cut off business with Iran. But China — Iran's largest oil buyer and economic lifeline — says it won't cooperate. Beijing argues the sanctions lack UN backing and harm its energy security. Without Chinese participation, the sanctions regime is significantly weakened.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/opinions/2026/9/1/why-china-will-not-comply-with-us-sanctions-on-iran?traffic_source=rss) | [NPR](https://www.npr.org/2026/08/31/nx-s1-5950325/trumps-plan-for-economic-d-day-for-iran-has-one-big-hole-china)
+Sources: [Al Jazeera](https://www.aljazeera.com/opinions/2026/9/1/why-china-will-not-comply-with-us-sanctions-on-iran?traffic_source=rss) \| [NPR](https://www.npr.org/2026/08/31/nx-s1-5950325/trumps-plan-for-economic-d-day-for-iran-has-one-big-hole-china)
 
 </details>
 
@@ -44,7 +44,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/opinions/2026/9/1/why-china-will
 
 Context: France24 analysis finds Iran's leadership has hardened around military generals and clerics ready for long confrontation — far from Trump's initial regime-change hopes. Meanwhile, Army Secretary Driscoll's resignation leaves the service without permanent civilian or uniformed leadership as the conflict enters month seven.
 
-Sources: [France24](https://www.france24.com/en/iran-war-reaches-6-month-mark-conflict-cost-1-100-per-us-taxpayer) | [The Hindu](https://www.thehindu.com/news/international/us-army-secretary-driscoll-submits-resignation-white-house/article71413517.ece)
+Sources: [France24](https://www.france24.com/en/iran-war-reaches-6-month-mark-conflict-cost-1-100-per-us-taxpayer) \| [The Hindu](https://www.thehindu.com/news/international/us-army-secretary-driscoll-submits-resignation-white-house/article71413517.ece)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [France24](https://www.france24.com/en/iran-war-reaches-6-month-mark-co
 
 Context: The drone was discovered August 4-5 carrying explosives; investigators believe it was deliberately targeting a Ukrainian cargo aircraft. Germany has reported months of suspicious drone sightings over military and industrial sites, but this incident crossed a threshold. Von der Leyen pledged a response ahead of her Rutte meeting. DW notes Germany's air defenses have significant gaps against this threat.
 
-Sources: [Euronews](http://www.euronews.com/my-europe/2026/09/01/russia-behind-drone-incident-at-leipzig-airport-berlin-says) | [Euronews](http://www.euronews.com/my-europe/2026/09/01/von-der-leyen-pledges-response-to-russian-hybrid-attacks-ahead-of-rutte-meeting) | [DW](https://www.dw.com/en/germany-says-russia-behind-attempted-drone-attack-at-leipzig-airport/a-78584589?maca=en-rss-en-all-1573-xml-mrss)
+Sources: [Euronews](http://www.euronews.com/my-europe/2026/09/01/russia-behind-drone-incident-at-leipzig-airport-berlin-says) \| [Euronews](http://www.euronews.com/my-europe/2026/09/01/von-der-leyen-pledges-response-to-russian-hybrid-attacks-ahead-of-rutte-meeting) \| [DW](https://www.dw.com/en/germany-says-russia-behind-attempted-drone-attack-at-leipzig-airport/a-78584589?maca=en-rss-en-all-1573-xml-mrss)
 
 </details>
 
@@ -66,7 +66,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/09/01/russia-behind-d
 
 Context: Gaza strikes came Monday per hospital officials. The Jenin strike Friday was a rare use of Israeli air power in the occupied West Bank. Separately, Jewish activists protecting Palestinians from settlers were injured near Bethlehem, and the US-led Gaza peace board warned Hamas over "kite" activity after Israeli strike threats.
 
-Sources: [Euronews](http://www.euronews.com/video/2026/09/01/israeli-airstrikes-kill-at-least-five-palestinians-in-gaza-city) | [France24](https://www.france24.com/en/middle-east/20260828-israel-army-carries-out-rare-west-bank-air-strike-killing-three-terrorists)
+Sources: [Euronews](http://www.euronews.com/video/2026/09/01/israeli-airstrikes-kill-at-least-five-palestinians-in-gaza-city) \| [France24](https://www.france24.com/en/middle-east/20260828-israel-army-carries-out-rare-west-bank-air-strike-killing-three-terrorists)
 
 </details>
 
@@ -97,7 +97,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/09/01/eu-to-gather-br
 
 Context: DW reports "unconventional explosive and incendiary devices" near the coal plant; Euronews describes rockets fired at a substation. Both are sole-source reports. This follows the Leipzig airport drone incident and raises questions about domestic security and infrastructure protection.
 
-Sources: [DW](https://www.dw.com/en/germany-news-explosive-devices-found-near-power-plant/live-78583741?maca=en-rss-en-all-1573-xml-mrss) | [Euronews](http://www.euronews.com/my-europe/2026/09/01/rockets-fired-at-substation-in-brandenburg-in-suspected-deliberate-attack)
+Sources: [DW](https://www.dw.com/en/germany-news-explosive-devices-found-near-power-plant/live-78583741?maca=en-rss-en-all-1573-xml-mrss) \| [Euronews](http://www.euronews.com/my-europe/2026/09/01/rockets-fired-at-substation-in-brandenburg-in-suspected-deliberate-attack)
 
 </details>
 

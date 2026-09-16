@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This confirms earlier predictions that the conflict would trigger a global hunger crisis. The WFP warned that up to 45 million people could face acute hunger as higher fuel and food costs tied to the war deepen food insecurity well beyond the Middle East region itself.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/5/us-iran-war-pushing-millions-into-food-crisis-warns-un?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260605-feared-global-hunger-crisis-becoming-reality-as-mideast-war-persists-says-un)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/5/us-iran-war-pushing-millions-into-food-crisis-warns-un?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260605-feared-global-hunger-crisis-becoming-reality-as-mideast-war-persists-says-un)
 
 </details>
 

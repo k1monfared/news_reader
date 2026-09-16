@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Pakistan has been mediating between Washington and Tehran for weeks, but sending the army chief signals this is getting serious. US Secretary of State Rubio says there's "slight progress," though Trump also warned talks are on the "borderline" between a deal and renewed attacks. Iran received the new proposal Wednesday and is examining it now, despite what they're calling "deep and significant disagreements."
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/23/iran-weighs-us-peace-proposal-despite-deep-and-significant-disagreements?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260520-middle-east-war-live-trump-to-attend-g7-summit-in-france-in-june) | [Euronews](http://www.euronews.com/2026/05/23/pakistans-army-chief-arrives-in-tehran-as-rubio-signals-slight-progress-in-peace-talks)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/23/iran-weighs-us-peace-proposal-despite-deep-and-significant-disagreements?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260520-middle-east-war-live-trump-to-attend-g7-summit-in-france-in-june) \| [Euronews](http://www.euronews.com/2026/05/23/pakistans-army-chief-arrives-in-tehran-as-rubio-signals-slight-progress-in-peace-talks)
 
 </details>
 

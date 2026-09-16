@@ -28,7 +28,7 @@ Sources: [Euronews](http://www.euronews.com/2026/06/20/lebanon-says-israel-has-c
 
 Context: Iran had reopened the strait as part of their interim deal with the US. On Saturday, Iran's military command announced it was closing the waterway again, stating that Israel's attacks on southern Lebanon represent a breach of Tehran's agreement with Washington. The announcement came as US envoy Steve Witkoff and Iranian Foreign Minister Abbas Araghchi were heading to Switzerland for implementation talks.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260620-israeli-strike-in-southern-lebanon-kills-five-hours-after-ceasefire-agreement) | [Euronews](http://www.euronews.com/2026/06/20/iran-recloses-strait-of-hormuz-citing-israeli-strikes-on-lebanon)
+Sources: [France24](https://www.france24.com/en/middle-east/20260620-israeli-strike-in-southern-lebanon-kills-five-hours-after-ceasefire-agreement) \| [Euronews](http://www.euronews.com/2026/06/20/iran-recloses-strait-of-hormuz-citing-israeli-strikes-on-lebanon)
 
 </details>
 
@@ -39,7 +39,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260620-israeli-str
 
 Context: The interim US-Iran agreement was originally scheduled to be signed Friday in Switzerland. Instead, Trump signed it Wednesday night at a state dinner with French President Macron at Versailles. Switzerland confirmed that talks on implementing the deal are still set for Geneva on June 19, as US envoy Steve Witkoff and Iranian Foreign Minister Abbas Araghchi prepare to meet.
 
-Sources: [France24](https://www.france24.com/en/tv-shows/the-debate/20260618-signing-off-trump-rushes-to-turn-page-on-iran-war) | [France24](https://www.france24.com/en/face-to-face-signing-of-us-iran-deal-up-in-the-air-after-trump-s-versailles-signing)
+Sources: [France24](https://www.france24.com/en/tv-shows/the-debate/20260618-signing-off-trump-rushes-to-turn-page-on-iran-war) \| [France24](https://www.france24.com/en/face-to-face-signing-of-us-iran-deal-up-in-the-air-after-trump-s-versailles-signing)
 
 </details>
 

@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این نشان‌دهنده پیشرفت مشخص نسبت به حدس‌وگمان‌های آخر هفته است—هر دو طرف اکنون رسماً تأیید می‌کنند که بر سر یک متن توافق شده است. سخنگوی وزارت امور خارجه ایران یکشنبه گفت امضا امروز اتفاق نخواهد افتاد زیرا آمریکا تردید دارد، و در مورد تعیین هر تاریخ قطعی هشدار داد که محتاط باشند. پاکستان قبلاً گفته بود توافق ظرف ۲۴ ساعت نهایی می‌شود، اما آن جدول زمانی اکنون به تأخیر افتاده است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/13/iran-war-day-106-us-and-iran-say-deal-close-but-lebanon-fighting-continues?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260612-middle-east-live-iran-says-us-war-deal-could-be-signed-remotely-in-coming-days)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/13/iran-war-day-106-us-and-iran-say-deal-close-but-lebanon-fighting-continues?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260612-middle-east-live-iran-says-us-war-deal-could-be-signed-remotely-in-coming-days)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: اعلام ترامپ از «نزدیک به یک توافق» به ادعای اینکه یکی وجود دارد تغییر کرد. او این ادعا را درست پس از وعده دادن و سپس لغو حملات مطرح کرد. چهارشنبه، او ایران را متهم کرده بود که «ما را احمق فرض می‌کند» و هشدار داده بود اگر مذاکرات سریعاً نتیجه نگیرد «خیلی سخت» حمله خواهد کرد. ایران در پاسخ گفت که درگیری دیپلماتیک با واشنگتن را بازبینی خواهد کرد.
 
-منابع: [France24](https://www.france24.com/en/trump-touts-iran-deal-some-people-s-response-to-this-will-be-the-boy-who-cried-wolf) | [France24](https://www.france24.com/en/middle-east/20260610-trump-accuses-iran-of-taking-too-long-to-negotiate-peace-deal)
+منابع: [France24](https://www.france24.com/en/trump-touts-iran-deal-some-people-s-response-to-this-will-be-the-boy-who-cried-wolf) \| [France24](https://www.france24.com/en/middle-east/20260610-trump-accuses-iran-of-taking-too-long-to-negotiate-peace-deal)
 
 </details>
 

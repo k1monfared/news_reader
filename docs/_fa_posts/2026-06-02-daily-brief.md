@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ این پیشرفت را پس از گفتگوهای مستقیم با نتانیاهو و ارتباط غیرمستقیم با حزب‌الله اعلام کرد. بر اساس این ترتیب، اسرائیل عملیات نزدیک بیروت را متوقف می‌کند و حزب‌الله حملات به اسرائیل را متوقف می‌کند. با این حال، حملات اسرائیلی ساعاتی پس از اعلامیه ۸ نفر را در لبنان کشت و هر دو طرف به رد و بدل کردن آتش ادامه دادند، که سؤالات جدی درباره اینکه آیا اصلاً آتش‌بسی وجود دارد یا می‌تواند پایدار بماند، ایجاد می‌کند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/2/trump-says-israel-hezbollah-to-stop-fighting-what-we-know?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260602-us-says-israel-and-hezbollah-agree-to-dial-back-fighting-as-tensions-escalate) | [Euronews](http://www.euronews.com/2026/06/02/israel-and-hezbollah-exchange-fire-despite-trump-announcing-breakthrough-agreement)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/2/trump-says-israel-hezbollah-to-stop-fighting-what-we-know?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260602-us-says-israel-and-hezbollah-agree-to-dial-back-fighting-as-tensions-escalate) \| [Euronews](http://www.euronews.com/2026/06/02/israel-and-hezbollah-exchange-fire-despite-trump-announcing-breakthrough-agreement)
 
 </details>
 

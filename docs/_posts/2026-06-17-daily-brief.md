@@ -35,7 +35,7 @@ Sources: [Euronews](http://www.euronews.com/2026/06/17/iran-pledges-no-nuclear-w
 
 Context: Pakistan's Prime Minister announced the specifics Monday after Trump claimed a deal was done over the weekend. The memorandum covers reopening the Strait of Hormuz, easing sanctions, and starting nuclear talks. What started as a Trump social media post now has formal diplomatic machinery behind it.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260615-us-and-iran-agree-to-memorandum-of-understanding-and-immediate-end-to-military-operations) | [France24](https://www.france24.com/en/middle-east/20260614-middle-east-war-live-trump-says-iran-deal-to-be-signed-sunday) | [France24](https://www.france24.com/en/us-iran-reach-deal-to-end-war)
+Sources: [France24](https://www.france24.com/en/middle-east/20260615-us-and-iran-agree-to-memorandum-of-understanding-and-immediate-end-to-military-operations) \| [France24](https://www.france24.com/en/middle-east/20260614-middle-east-war-live-trump-says-iran-deal-to-be-signed-sunday) \| [France24](https://www.france24.com/en/us-iran-reach-deal-to-end-war)
 
 </details>
 

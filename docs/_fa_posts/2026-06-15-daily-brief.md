@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: پاکستان میانجی این توافق بود، که شامل پایان «فوری و دائمی» عملیات‌های نظامی، بازگشایی تنگه هرمز، تسهیل تحریم‌ها، و برنامه‌ها برای مذاکرات هسته‌ای آینده است. جی‌دی ونس، معاون رئیس‌جمهور، در مراسم جمعه شرکت خواهد کرد. ترامپ اعلام کرد که توافق اکنون امضا شده است و از چارچوب مقدماتی اعلام‌شده یکشنبه به یک توافق تکمیل‌شده تبدیل شده است. با این حال، وزیر دفاع اسرائیل روز دوشنبه اعلام کرد که نیروهای اسرائیلی «به طور نامحدود» در سرزمین‌های تصرف‌شده در غزه، لبنان و سوریه باقی خواهند ماند، که مستقیماً با توافق آمریکا و ایران در تضاد است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/trump-says-iran-deal-all?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260615-middle-east-live-trump-to-meet-with-g7-leaders-following-announcement-of-memorandum-with-iran) | [France 24](https://www.france24.com/en/middle-east/20260615-us-and-iran-agree-to-memorandum-of-understanding-and-immediate-end-to-military-operations)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/trump-says-iran-deal-all?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260615-middle-east-live-trump-to-meet-with-g7-leaders-following-announcement-of-memorandum-with-iran) \| [France 24](https://www.france24.com/en/middle-east/20260615-us-and-iran-agree-to-memorandum-of-understanding-and-immediate-end-to-military-operations)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: آتش‌بس با خوش‌بینی محتاطانه و آرامشی که در زمین گزارش شده، اجرایی شد و نمایانگر اجرای عینی چیزی است که قبلاً فقط یک توافق پیش‌نویس بود. مقامات ایرانی صراحتاً اعلام کردند که پایان دادن به جنگ لبنان بخشی «جدایی‌ناپذیر» از توافق آمریکا و ایران است. مقامات لبنانی همچنان نگران هستند که آیا اسرائیل آتش‌بس را رعایت خواهد کرد، به‌ویژه با توجه به اظهارات وزیر دفاع اسرائیل روز دوشنبه درباره ماندن نامحدود در سرزمین‌های تصرف‌شده.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/aje-onl-aje_onl_lebanon_wrap-150626?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/iran-says-lebanon-assets-release-key-parts-of-peace-deal-with-us?traffic_source=rss)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/aje-onl-aje_onl_lebanon_wrap-150626?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/iran-says-lebanon-assets-release-key-parts-of-peace-deal-with-us?traffic_source=rss)
 
 </details>
 
@@ -45,7 +45,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: جامعه بین‌المللی به طور رسمی از توافق آمریکا و ایران استقبال کرده است. با این حال، وزیر دفاع اسرائیل روز دوشنبه گفت که نیروهای اسرائیلی به طور نامحدود در سرزمین‌های تصرف‌شده در طول جنگ در غزه، لبنان و سوریه باقی خواهند ماند—که مستقیماً با روحیه توافق آمریکا و ایران در تضاد است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/world-welcomes-us-iran-peace-deal-criticised-by-israel?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260615-isreal-to-stay-indefinitely-in-lands-seized-in-lebanon-syria-and-gaza-says-defence-minister)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/world-welcomes-us-iran-peace-deal-criticised-by-israel?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260615-isreal-to-stay-indefinitely-in-lands-seized-in-lebanon-syria-and-gaza-says-defence-minister)
 
 </details>
 

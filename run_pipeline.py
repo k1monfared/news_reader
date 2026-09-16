@@ -20,11 +20,13 @@ logging.basicConfig(
 logger = logging.getLogger("pipeline")
 
 # Stages whose failure means the run did not deliver what it promised.
-# English set: without these there is no usable brief. Farsi set: the Farsi
-# edition is missing while English still ships. Non-critical stages
-# (dedup, categorize, track_developments, editorial, verify, mailer) each
-# degrade gracefully and must not fail the CI run by themselves.
-CRITICAL_STAGES_EN = {"fetch", "filter", "summarize", "publish"}
+# English set: without these there is no usable brief, and render_check
+# guards the final markdown against kramdown rendering failures before
+# publish ships it. Farsi set: the Farsi edition is missing while English
+# still ships. Non-critical stages (dedup, categorize, track_developments,
+# editorial, verify, mailer) each degrade gracefully and must not fail the
+# CI run by themselves.
+CRITICAL_STAGES_EN = {"fetch", "filter", "summarize", "render_check", "publish"}
 CRITICAL_STAGES_FA = {"translate_fa"}
 CRITICAL_STAGES = CRITICAL_STAGES_EN | CRITICAL_STAGES_FA
 
@@ -183,6 +185,7 @@ def run_pipeline(
     meta = RunMeta(
         run_id=run_id,
         started_at=now.isoformat(),
+        backfill=backfill,
     )
 
     # Import stages lazily to avoid circular imports
@@ -202,6 +205,7 @@ def run_pipeline(
         "summarize",
         "editorial",
         "verify",
+        "render_check",
         "publish",
         "translate_fa",
         "mailer",
@@ -211,6 +215,21 @@ def run_pipeline(
         for stage_name in stage_order:
             stage_start = time.time()
             logger.info(f"Running stage: {stage_name}")
+
+            # A failed render check means the final report would ship a
+            # broken page; do not publish, translate, or email it.
+            if stage_name in ("publish", "translate_fa", "mailer"):
+                render_stage = meta.stages.get("render_check", {})
+                if render_stage.get("status") == "failed":
+                    logger.error(
+                        f"Skipping {stage_name}: render_check failed "
+                        f"({render_stage.get('error', 'unknown')})"
+                    )
+                    meta.stages[stage_name] = {
+                        "status": "skipped",
+                        "reason": "render_check_failed",
+                    }
+                    continue
 
             try:
                 stage_module = __import__(f"stages.{stage_name}", fromlist=[stage_name])

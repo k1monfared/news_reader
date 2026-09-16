@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump said the indirect negotiations were making progress toward denuclearizing Iran, while Iran's deputy foreign minister formally announced the talks concluded Wednesday. Qatar says the next round will happen after funeral processions for Iran's former supreme leader, giving a rough timeline for when talks resume.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260701-us-iran-doha-talks-end-without-breakthrough-strait-of-hormuz) | [France24](https://www.france24.com/en/middle-east/20260701-middle-east-live-qatar-reaffirms-backing-for-us-iran-talks) | [Al Jazeera](https://www.aljazeera.com/news/2026/7/2/us-iran-talks-in-doha-what-were-the-outcomes-and-whats-next?traffic_source=rss)
+Sources: [France24](https://www.france24.com/en/middle-east/20260701-us-iran-doha-talks-end-without-breakthrough-strait-of-hormuz) \| [France24](https://www.france24.com/en/middle-east/20260701-middle-east-live-qatar-reaffirms-backing-for-us-iran-talks) \| [Al Jazeera](https://www.aljazeera.com/news/2026/7/2/us-iran-talks-in-doha-what-were-the-outcomes-and-whats-next?traffic_source=rss)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [France24](https://www.france24.com/en/new-us-lebanon-israel-agreement-
 
 Context: The funeral proceedings kick off July 4 in Tehran and conclude July 9 in Khamenei's hometown of Mashhad. Iran and the US have settled into a pattern of alternating between talks and hostilities since last month's truce. Everyone's watching to see what direction Iran takes after the funeral wraps up.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260702-middle-east-live-iran-says-to-use-frozen-funds-in-qatar-to-buy-required-goods) | [France24](https://www.france24.com/en/tv-shows/the-debate/20260701-iran-after-khamenei-what-direction-after-supreme-leader-s-funeral)
+Sources: [France24](https://www.france24.com/en/middle-east/20260702-middle-east-live-iran-says-to-use-frozen-funds-in-qatar-to-buy-required-goods) \| [France24](https://www.france24.com/en/tv-shows/the-debate/20260701-iran-after-khamenei-what-direction-after-supreme-leader-s-funeral)
 
 </details>
 

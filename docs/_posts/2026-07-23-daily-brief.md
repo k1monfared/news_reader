@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Energy Secretary Chris Wright and Saudi Energy Minister Prince Abdulaziz bin Salman signed the civilian nuclear cooperation deal Wednesday. There's been years of back-and-forth on this, even under Biden, as part of a broader push to get Saudi Arabia to recognize Israel. That effort collapsed after October 7th. Washington says the deal includes strict safeguards against weapons development, but it's a major shift to let the Saudis enrich their own fuel.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260722-us-announce-landmark-deal-allowing-saudis-enrich-nuclear-fuel-reports-say) | [France24](https://www.france24.com/en/us-announces-nuclear-cooperation-pact-with-saudi-arabia) | [Euronews](http://www.euronews.com/2026/07/23/us-announces-landmark-nuclear-deal-with-saudi-arabia)
+Sources: [France24](https://www.france24.com/en/middle-east/20260722-us-announce-landmark-deal-allowing-saudis-enrich-nuclear-fuel-reports-say) \| [France24](https://www.france24.com/en/us-announces-nuclear-cooperation-pact-with-saudi-arabia) \| [Euronews](http://www.euronews.com/2026/07/23/us-announces-landmark-nuclear-deal-with-saudi-arabia)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260722-trump-threa
 
 Context: The Houthis claimed responsibility for striking the tankers, expanding the conflict beyond just US and Iranian targets. Trump warned both Iran and the Houthis would face "major military punishment" for further attacks. This is pulling Saudi Arabia more directly into the fighting.
 
-Sources: [Euronews](http://www.euronews.com/2026/07/23/yemen-houthis-claim-strikes-on-two-saudi-oil-tankers-in-red-sea) | [France24](https://www.france24.com/en/middle-east/20260723-middle-east-live-houthi-rebels-claim-attacks-on-saudi-tankers-in-the-red-sea)
+Sources: [Euronews](http://www.euronews.com/2026/07/23/yemen-houthis-claim-strikes-on-two-saudi-oil-tankers-in-red-sea) \| [France24](https://www.france24.com/en/middle-east/20260723-middle-east-live-houthi-rebels-claim-attacks-on-saudi-tankers-in-the-red-sea)
 
 </details>
 
@@ -66,7 +66,7 @@ Sources: [Euronews](http://www.euronews.com/2026/07/23/yemen-houthis-claim-strik
 
 Context: Lebanon's army is now operating in three villages (Froun, Srifa, and Zawtar al-Gharbiya) under a US-backed framework meant to let Israel pull back. The warning shots Tuesday were the first reported incident between Israeli and Lebanese forces since the deployment started. Israel says it won't fully withdraw until Hezbollah is disarmed, which Lebanon's army probably can't pull off.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260721-live-lebanon-s-aoun-to-meet-trump-as-pressure-builds-to-disarm-hezbollah) | [France24](https://www.france24.com/en/israel-and-lebanon-trial-safe-zones-in-southern-lebanon-as-part-of-deal)
+Sources: [France24](https://www.france24.com/en/middle-east/20260721-live-lebanon-s-aoun-to-meet-trump-as-pressure-builds-to-disarm-hezbollah) \| [France24](https://www.france24.com/en/israel-and-lebanon-trial-safe-zones-in-southern-lebanon-as-part-of-deal)
 
 </details>
 

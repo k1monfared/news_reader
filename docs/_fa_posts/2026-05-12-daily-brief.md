@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: Wall Street Journal خبر داد که نیروهای اسرائیلی از یک پایگاه مخفی در عراق برای انجام حملات علیه ایران در طول درگیری استفاده کردند. Al Jazeera گزارش داد که نیروهای اسرائیلی گزارش شده است از این پایگاه برای پرتاب حملات علیه ایران در طول جنگ استفاده کرده‌اند. این افشاگری می‌تواند درک ما از نحوه واقعی انجام جنگ را تغییر دهد و نشان‌دهنده یک نقض قابل توجه حاکمیت عراق است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/12/a-secret-israeli-base-in-iraq-what-we-know?traffic_source=rss) | [Al Jazeera Video](https://www.aljazeera.com/video/newsfeed/2026/5/12/report-alleges-israel-operated-covert-outpost-in-iraq-during-war-on-iran?traffic_source=rss)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/12/a-secret-israeli-base-in-iraq-what-we-know?traffic_source=rss) \| [Al Jazeera Video](https://www.aljazeera.com/video/newsfeed/2026/5/12/report-alleges-israel-operated-covert-outpost-in-iraq-during-war-on-iran?traffic_source=rss)
 
 </details>
 

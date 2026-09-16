@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is a reversal from Iran's earlier refusal to attend negotiations. The ceasefire that paused direct fighting between the US and Iran expires soon, and both sides have been trading threats as the deadline approaches. Trump accused Iran of violating the truce "numerous times," but Iran signaled willingness to attend talks anyway—though Tehran has not confirmed its delegation will depart.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260421-middle-east-war-live-us-iran-warn-ready-for-war-as-talks-in-limbo) | [Al Jazeera](https://www.aljazeera.com/news/2026/4/21/us-and-iran-exchange-threats-as-fragile-ceasefire-set-to-expire?traffic_source=rss)
+Sources: [France24](https://www.france24.com/en/middle-east/20260421-middle-east-war-live-us-iran-warn-ready-for-war-as-talks-in-limbo) \| [Al Jazeera](https://www.aljazeera.com/news/2026/4/21/us-and-iran-exchange-threats-as-fragile-ceasefire-set-to-expire?traffic_source=rss)
 
 </details>
 

@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is the first time the US has actually enforced its blockade with force rather than just threatening to. Trump announced Sunday that the Navy took control of an Iranian vessel in the Gulf of Oman. A French shipping company also confirmed one of its ships was "fired upon with warning shots" on Saturday. Iran's response: cancel the next round of talks in Islamabad and threaten retaliation.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260419-trump-says-us-delegation-will-travel-to-islamabad-on-monday-iran-declines-talks) | [France24](https://www.france24.com/en/middle-east/20260419-middle-east-war-live-iran-reports-progress-in-us-talks-but-final-deal-still-far-off)
+Sources: [France24](https://www.france24.com/en/middle-east/20260419-trump-says-us-delegation-will-travel-to-islamabad-on-monday-iran-declines-talks) \| [France24](https://www.france24.com/en/middle-east/20260419-middle-east-war-live-iran-reports-progress-in-us-talks-but-final-deal-still-far-off)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260419-trump-says-
 
 Context: Iran opened the strait Friday for commercial vessels, then closed it again, accusing the US of "piracy" and threatening to target any ship that approaches. Despite the closure, two TUI cruise ships managed to get through and are now headed to Europe. The whole situation is chaotic—Iran partially reopened it under strict authorization at one point, then reversed course again.
 
-Sources: [France24](https://www.france24.com/en/strait-of-hormuz-iran-to-block-transit-until-us-lifts-its-blockade) | [France24](https://www.france24.com/en/video/20260418-strait-of-hormuz-open-closed-open-closed-what-s-actually-happening) | [Euronews](http://www.euronews.com/travel/2026/04/20/stranded-cruise-ships-finally-pass-the-strait-of-hormuz-and-are-en-route-to-europe)
+Sources: [France24](https://www.france24.com/en/strait-of-hormuz-iran-to-block-transit-until-us-lifts-its-blockade) \| [France24](https://www.france24.com/en/video/20260418-strait-of-hormuz-open-closed-open-closed-what-s-actually-happening) \| [Euronews](http://www.euronews.com/travel/2026/04/20/stranded-cruise-ships-finally-pass-the-strait-of-hormuz-and-are-en-route-to-europe)
 
 </details>
 

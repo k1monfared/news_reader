@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The strikes hit Revolutionary Guard command centers, drone and missile facilities, and coastal defense sites across Iran including Qeshm Island and Bushehr. At least three people were killed, including a two-year-old child. Video from Qeshm shows extensive damage. This ends the bombing pause that lasted nearly two weeks. Iran's Revolutionary Guards are now promising to "punish the aggressor today."
 
-Sources: [France 24](https://www.france24.com/en/middle-east/20260730-us-carries-out-powerful-strikes-on-iran-after-attacks-on-bases-and-regional-allies) | [Al Jazeera](https://www.aljazeera.com/news/2026/7/30/us-hits-multiple-targets-in-iran-as-irgc-pledges-retaliation-what-we-know?traffic_source=rss) | [France 24 Live](https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people)
+Sources: [France 24](https://www.france24.com/en/middle-east/20260730-us-carries-out-powerful-strikes-on-iran-after-attacks-on-bases-and-regional-allies) \| [Al Jazeera](https://www.aljazeera.com/news/2026/7/30/us-hits-multiple-targets-in-iran-as-irgc-pledges-retaliation-what-we-know?traffic_source=rss) \| [France 24 Live](https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260730-us-carries
 
 Context: The strike caused fires on two ships at the Mediterranean port. This marks an escalation from threats and Saudi targets to an actual attack on US assets in Egypt, pulling a new country directly into the conflict zone. Preliminary investigations confirm it was a drone strike, but no one has taken credit yet.
 
-Sources: [France 24](https://www.france24.com/en/drone-hits-storage-tanker-at-egyptian-port-in-major-middle-east-escalation-security-firm-says) | [Euronews](http://www.euronews.com/2026/07/30/drone-hits-us-lng-vessel-at-damietta-in-first-attack-on-egyptian-soil)
+Sources: [France 24](https://www.france24.com/en/drone-hits-storage-tanker-at-egyptian-port-in-major-middle-east-escalation-security-firm-says) \| [Euronews](http://www.euronews.com/2026/07/30/drone-hits-us-lng-vessel-at-damietta-in-first-attack-on-egyptian-soil)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/30/israeli-strikes-k
 
 Context: Trump confirmed on Fox News that the US and Saudi Arabia coordinated the strikes with Iraq's government, but Iraq is calling them a "blatant violation" anyway. The canceled meeting shows real diplomatic damage despite claimed coordination. Trump said the US will hit Iran "hard" after the Jordan base attacks.
 
-Sources: [France 24](https://www.france24.com/en/two-options-for-trump-in-middle-east-war-he-waits-or-he-escalates-massively) | [France 24](https://www.france24.com/en/middle-east/20260729-live-us-and-saudi-arabia-launch-strikes-on-iraq-target-iran-allies)
+Sources: [France 24](https://www.france24.com/en/two-options-for-trump-in-middle-east-war-he-waits-or-he-escalates-massively) \| [France 24](https://www.france24.com/en/middle-east/20260729-live-us-and-saudi-arabia-launch-strikes-on-iraq-target-iran-allies)
 
 </details>
 

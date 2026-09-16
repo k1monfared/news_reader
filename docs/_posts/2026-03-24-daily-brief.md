@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump suggested Iran made "significant concessions" and hinted at developments around Hormuz, but Iranian officials called his claims "fake news" and said no talks are happening. Pakistan's PM offered to host negotiations between the US and Iran, signaling regional concern about the conflict spiraling. Israeli officials assessed prospects for a US-Iran deal as "very low," while an unidentified Iranian figure reportedly has Trump's respect as a potential negotiator. This whiplash between Trump's optimism and Tehran's denials raises questions about whether back-channel talks exist at all or if Trump's trying to project strength.
 
-Sources: [Reuters](https://jp.reuters.com/markets/commodities/OZREBNSPLJJ2LASQPLLNOJPR4M-2026-03-24/) | [Euronews](https://tr.euronews.com/2026/03/24/trump-iran-ile-uzlasma-ihtimaline-isaret-etti-tahran-reddetti) | [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/24/iran-war-live-tehran-says-trumps-claims-of-peace-talks-fake?update=4428994) | [Reuters Pakistan](https://jp.reuters.com/world/us/R6DAB6JUXJLP3KST64CMYIE4R4-2026-03-24/) | [Euronews](https://arabic.euronews.com/2026/03/24/the-chances-of-reaching-an-agreement-between-the-united-states-and-iran-are-very-slim) | [Euronews](https://arabic.euronews.com/2026/03/24/respected-by-trump-who-is-the-iranian-figure-negotiating-with-the-united-states) | [Euronews](https://arabic.euronews.com/2026/03/24/trump-changes-his-tone-towards-iran-what-are-the-reasons-behind-the-shift-from-escalation)
+Sources: [Reuters](https://jp.reuters.com/markets/commodities/OZREBNSPLJJ2LASQPLLNOJPR4M-2026-03-24/) \| [Euronews](https://tr.euronews.com/2026/03/24/trump-iran-ile-uzlasma-ihtimaline-isaret-etti-tahran-reddetti) \| [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/24/iran-war-live-tehran-says-trumps-claims-of-peace-talks-fake?update=4428994) \| [Reuters Pakistan](https://jp.reuters.com/world/us/R6DAB6JUXJLP3KST64CMYIE4R4-2026-03-24/) \| [Euronews](https://arabic.euronews.com/2026/03/24/the-chances-of-reaching-an-agreement-between-the-united-states-and-iran-are-very-slim) \| [Euronews](https://arabic.euronews.com/2026/03/24/respected-by-trump-who-is-the-iranian-figure-negotiating-with-the-united-states) \| [Euronews](https://arabic.euronews.com/2026/03/24/trump-changes-his-tone-towards-iran-what-are-the-reasons-behind-the-shift-from-escalation)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Reuters](https://jp.reuters.com/markets/commodities/OZREBNSPLJJ2LASQPL
 
 Context: Lebanon declared Iran's ambassador persona non grata, a significant diplomatic break as Israeli strikes continue targeting Hezbollah positions in southern Lebanon. Reuters reports that Iran's Revolutionary Guards have been reorganizing Hezbollah's command structure to prepare for prolonged conflict. Israel welcomed Lebanon's move as "justified and necessary."
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/24/lebanon-declares-iranian-ambassador-persona-non-grata-amid-israeli-attacks) | [Reuters](https://jp.reuters.com/economy/766FIGDJDFMJNMWIZYTHV4XA5I-2026-03-24/) | [Euronews](https://arabic.euronews.com/2026/03/24/lebanon-expels-the-iranian-ambassador-and-israel-welcomes-the-decision-justified-and)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/24/lebanon-declares-iranian-ambassador-persona-non-grata-amid-israeli-attacks) \| [Reuters](https://jp.reuters.com/economy/766FIGDJDFMJNMWIZYTHV4XA5I-2026-03-24/) \| [Euronews](https://arabic.euronews.com/2026/03/24/lebanon-expels-the-iranian-ambassador-and-israel-welcomes-the-decision-justified-and)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/24/lebanon-declares-
 
 Context: Iranian missiles hit targets in southern Israel including the cities of Dimona and Arad, contradicting Trump's suggestion that Iran was ready to negotiate. The US reportedly plans to continue strikes on Iran but pause attacks on energy infrastructure specifically. The timing suggests Iran wanted to show it's not backing down regardless of what Trump says publicly.
 
-Sources: [Reuters](https://jp.reuters.com/world/security/WVYU55W2PFJMHMPSYZ66WLF7LI-2026-03-24/) | [Euronews](https://gr.euronews.com/2026/03/24/mesh-anatolh-nea-pyraylika-plhgmata-toy-iran-enw-o-tramp-mila-gia-synomilies-klimakwnet) | [Euronews](https://www.euronews.com/2026/03/24/iran-fires-new-wave-of-missiles-after-denying-trump-talks) | [Euronews](https://ru.euronews.com/2026/03/22/iran-dimona-attack)
+Sources: [Reuters](https://jp.reuters.com/world/security/WVYU55W2PFJMHMPSYZ66WLF7LI-2026-03-24/) \| [Euronews](https://gr.euronews.com/2026/03/24/mesh-anatolh-nea-pyraylika-plhgmata-toy-iran-enw-o-tramp-mila-gia-synomilies-klimakwnet) \| [Euronews](https://www.euronews.com/2026/03/24/iran-fires-new-wave-of-missiles-after-denying-trump-talks) \| [Euronews](https://ru.euronews.com/2026/03/22/iran-dimona-attack)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Reuters](https://jp.reuters.com/world/security/WVYU55W2PFJMHMPSYZ66WLF
 
 Context: The Pentagon is deploying additional airborne units to the region as the conflict intensifies, though sources say no decision has been made about sending ground forces into Iranian territory. This follows reports that the US will continue military operations against Iran while specifically pausing strikes on energy facilities.
 
-Sources: [Reuters](https://jp.reuters.com/world/security/3AVGDAT5RNLXXEWLIBHMBCO5LM-2026-03-24/) | [Reuters](https://jp.reuters.com/markets/commodities/7LIEJN635ZMCTOTBAOI34PULTM-2026-03-24/)
+Sources: [Reuters](https://jp.reuters.com/world/security/3AVGDAT5RNLXXEWLIBHMBCO5LM-2026-03-24/) \| [Reuters](https://jp.reuters.com/markets/commodities/7LIEJN635ZMCTOTBAOI34PULTM-2026-03-24/)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/24/syrian-army-missile-b
 
 Context: Crude prices spiked again despite earlier hopes that diplomatic progress might ease supply concerns. The Hormuz Strait remains effectively closed to most tanker traffic, forcing ships to reroute around Africa via the Cape of Good Hope. This is driving up fuel demand at African ports and pushing shipping costs higher globally. Japan announced it will start releasing strategic oil reserves on March 26.
 
-Sources: [Euronews](https://gr.euronews.com/2026/03/24/petrelaio-kai-pali-panw-apo-ta-100-dolaria-diapseydontai-oi-elpides-twn-ependytwn) | [Euronews](https://hu.euronews.com/2026/03/24/a-teherani-vezetes-tagadja-hogy-targyaloasztalhoz-ultek-volna-ujra-100-dollar-folott-van-a) | [Reuters](https://jp.reuters.com/markets/commodities/FKL3D4SA4RPM5L52QCJTJ7W2QY-2026-03-24/) | [Reuters](https://jp.reuters.com/markets/commodities/UWJ46UM4C5NNRN6HLR4XKND56Y-2026-03-24/) | [Reuters](https://jp.reuters.com/markets/commodities/B4O2LZX2NNK7HJPVDO5WNYXRP4-2026-03-24/)
+Sources: [Euronews](https://gr.euronews.com/2026/03/24/petrelaio-kai-pali-panw-apo-ta-100-dolaria-diapseydontai-oi-elpides-twn-ependytwn) \| [Euronews](https://hu.euronews.com/2026/03/24/a-teherani-vezetes-tagadja-hogy-targyaloasztalhoz-ultek-volna-ujra-100-dollar-folott-van-a) \| [Reuters](https://jp.reuters.com/markets/commodities/FKL3D4SA4RPM5L52QCJTJ7W2QY-2026-03-24/) \| [Reuters](https://jp.reuters.com/markets/commodities/UWJ46UM4C5NNRN6HLR4XKND56Y-2026-03-24/) \| [Reuters](https://jp.reuters.com/markets/commodities/B4O2LZX2NNK7HJPVDO5WNYXRP4-2026-03-24/)
 
 </details>
 
@@ -84,7 +84,7 @@ Sources: [Euronews](https://gr.euronews.com/2026/03/24/petrelaio-kai-pali-panw-a
 
 Context: The combination of military conflict and intensifying sanctions has effectively severed most commercial ties between Europe and Iran. Meanwhile, the EU delayed a proposal to ban Russian oil imports as members grapple with the Iran crisis and a dispute over the Druzhba pipeline.
 
-Sources: [Euronews](https://arabic.euronews.com/business/2026/03/23/between-war-and-sanctions-europes-trade-with-iran-shrinks-to-its-lowest-level) | [Euronews](https://www.euronews.com/my-europe/2026/03/24/eu-delays-proposal-to-ban-russian-oil-amid-iran-war-price-spikes-and-druzhba-row)
+Sources: [Euronews](https://arabic.euronews.com/business/2026/03/23/between-war-and-sanctions-europes-trade-with-iran-shrinks-to-its-lowest-level) \| [Euronews](https://www.euronews.com/my-europe/2026/03/24/eu-delays-proposal-to-ban-russian-oil-amid-iran-war-price-spikes-and-druzhba-row)
 
 </details>
 
@@ -93,7 +93,7 @@ Sources: [Euronews](https://arabic.euronews.com/business/2026/03/23/between-war-
 
 Context: Economic indicators across major economies weakened sharply as soaring energy costs hit businesses and consumers. Analysts are warning Europe could face a stagflation crisis—the toxic combination of high inflation and weak growth. Singapore's foreign minister questioned the wisdom of the Iran strikes, warning Asia's economy could also slide into crisis. Portugal is joining a coalition to reopen the Strait of Hormuz, showing how energy disruptions are forcing policy responses.
 
-Sources: [Reuters](https://jp.reuters.com/markets/japan/XQATAYCDYBJJJMVJ3YAC37DB3U-2026-03-24/) | [Euronews](https://gr.euronews.com/business/2026/03/24/is-the-iran-war-pushing-europe-into-a-stagflation-crisis) | [Reuters](https://jp.reuters.com/markets/commodities/3ZJLNCDOLRI7HI2HSCS42457AQ-2026-03-24/) | [Euronews](https://pt.euronews.com/my-europe/2026/03/24/portugal-junta-se-a-coligacao-de-paises-que-querem-contribuir-para-reabrir-estreito-de-orm) | [Euronews](https://ru.euronews.com/business/2026/03/24/neftyanoj-krizis-iz-za-vojny-s-iranom-kto-platit-bolshe-vsego-nalogov-na-toplivo-v-evrope)
+Sources: [Reuters](https://jp.reuters.com/markets/japan/XQATAYCDYBJJJMVJ3YAC37DB3U-2026-03-24/) \| [Euronews](https://gr.euronews.com/business/2026/03/24/is-the-iran-war-pushing-europe-into-a-stagflation-crisis) \| [Reuters](https://jp.reuters.com/markets/commodities/3ZJLNCDOLRI7HI2HSCS42457AQ-2026-03-24/) \| [Euronews](https://pt.euronews.com/my-europe/2026/03/24/portugal-junta-se-a-coligacao-de-paises-que-querem-contribuir-para-reabrir-estreito-de-orm) \| [Euronews](https://ru.euronews.com/business/2026/03/24/neftyanoj-krizis-iz-za-vojny-s-iranom-kto-platit-bolshe-vsego-nalogov-na-toplivo-v-evrope)
 
 </details>
 
@@ -104,7 +104,7 @@ Sources: [Reuters](https://jp.reuters.com/markets/japan/XQATAYCDYBJJJMVJ3YAC37DB
 
 Context: Qatar, which has historically served as a mediator in Middle East conflicts, announced it won't be taking part in negotiations this time. The statement is notable given Qatar's geographic proximity to Iran and its typical role as a diplomatic bridge between Washington and Tehran.
 
-Sources: [Euronews](https://gr.euronews.com/2026/03/24/mesh-anatolh-katar-dhlwnei-den-mesolavei-paramenei-mati-kataigidas) | [Euronews](https://fr.euronews.com/2026/03/24/conflit-en-iran-au-coeur-de-la-tempete-le-qatar-ne-prend-pas-part-aux-mediations) | [Euronews](https://ru.euronews.com/2026/03/24/qatar-will-not-be-mediator) | [Euronews](https://hu.euronews.com/2026/03/24/katar-azt-mondja-nem-kozvetit-mert-tovabbra-is-a-vihar-szemeben-van)
+Sources: [Euronews](https://gr.euronews.com/2026/03/24/mesh-anatolh-katar-dhlwnei-den-mesolavei-paramenei-mati-kataigidas) \| [Euronews](https://fr.euronews.com/2026/03/24/conflit-en-iran-au-coeur-de-la-tempete-le-qatar-ne-prend-pas-part-aux-mediations) \| [Euronews](https://ru.euronews.com/2026/03/24/qatar-will-not-be-mediator) \| [Euronews](https://hu.euronews.com/2026/03/24/katar-azt-mondja-nem-kozvetit-mert-tovabbra-is-a-vihar-szemeben-van)
 
 </details>
 

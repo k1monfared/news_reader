@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump signaled potential de-escalation by telling Republican lawmakers the conflict could wrap up "pretty quickly" after 11 days of strikes. He's also lifting some oil sanctions on other producers to ease price pressure. But he warned Iran: keep the oil flowing or face massive retaliation. Yesterday he was talking about "demolishing" Iran; today it's about wrapping things up fast—though Iran rejects his hints about dialogue.
 
-Sources: [Euronews](https://www.euronews.com/2026/03/10/trump-says-iran-war-will-be-over-very-soon-but-warned-tehran-against-further-oil-disruptio) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/10/trump-says-us-israeli-war-on-iran-will-be-over-very-soon) | [Reuters](https://jp.reuters.com/markets/japan/MM6PVJMOZBPCXG2LKT2GIICVIQ-2026-03-10/)
+Sources: [Euronews](https://www.euronews.com/2026/03/10/trump-says-iran-war-will-be-over-very-soon-but-warned-tehran-against-further-oil-disruptio) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/10/trump-says-us-israeli-war-on-iran-will-be-over-very-soon) \| [Reuters](https://jp.reuters.com/markets/japan/MM6PVJMOZBPCXG2LKT2GIICVIQ-2026-03-10/)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/10/democrats-say-whi
 
 Context: Energy Secretary Chris Wright posted that US forces had escorted a ship through the strait, then quickly deleted it. The White House walked it back, saying no escort operations are underway. Confusing messaging while Trump's trying to project control over the critical waterway.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/10/energy-secretary-deletes-claim-us-military-escorted-tanker-through-hormuz) | [Reuters](https://jp.reuters.com/world/security/F2FAGGZU7BO2FOA2Z27VWMJ6GI-2026-03-10/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/10/energy-secretary-deletes-claim-us-military-escorted-tanker-through-hormuz) \| [Reuters](https://jp.reuters.com/world/security/F2FAGGZU7BO2FOA2Z27VWMJ6GI-2026-03-10/)
 
 </details>
 
@@ -93,7 +93,7 @@ Sources: [Euronews](https://ru.euronews.com/my-europe/2026/03/09/nato-intercepts
 
 Context: Crude fell as traders took Trump's "very soon" comments as a signal the Hormuz disruptions might not last. He's also talking about lifting some sanctions on oil producers to flood the market and bring prices down. But Saudi Aramco warned that if Hormuz stays closed, the global oil market faces a "catastrophic" situation—highlighting the tension between Trump's optimism and the underlying vulnerabilities.
 
-Sources: [Euronews](https://www.euronews.com/business/2026/03/10/oil-prices-fall-as-trump-floats-possible-sanctions-relief) | [Reuters](https://jp.reuters.com/markets/japan/NUX3I6WGDRLIZCBMKPHB3MIBHI-2026-03-10/)
+Sources: [Euronews](https://www.euronews.com/business/2026/03/10/oil-prices-fall-as-trump-floats-possible-sanctions-relief) \| [Reuters](https://jp.reuters.com/markets/japan/NUX3I6WGDRLIZCBMKPHB3MIBHI-2026-03-10/)
 
 </details>
 
@@ -149,7 +149,7 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/10/after-its-base-in-cyp
 
 Context: Australia's contributing defensive weapons and reconnaissance capabilities to help Gulf states shoot down incoming missiles. It's a modest but symbolically important commitment from a US ally in the Pacific.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/10/australia-to-send-missiles-to-uae-surveillance-plane-to-help-gulf-defence) | [Reuters](https://jp.reuters.com/world/mideast/WXSRB6MQKZIQBKFUTNUKGFGFD4-2026-03-10/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/10/australia-to-send-missiles-to-uae-surveillance-plane-to-help-gulf-defence) \| [Reuters](https://jp.reuters.com/world/mideast/WXSRB6MQKZIQBKFUTNUKGFGFD4-2026-03-10/)
 
 </details>
 

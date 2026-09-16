@@ -17,7 +17,7 @@ models_used: ["nemotron-3-ultra-free"]
 
 Context: After weeks of previewing maximum pressure, the Trump administration has formally launched the sanctions package. Bessent said the US will sever all economic ties with Iran and isolate any nation that partners with Tehran financially. Iran's Foreign Minister Abbas Araghchi dismissed the move as desperate, saying shifting from military ops to "same old plans" shows weakness. The rial immediately hit a record low above 2 million per dollar.
 
-Sources: [Euronews](http://www.euronews.com/business/2026/08/24/us-threatens-iran-with-economic-d-day-as-markets-await-sanctions-announcement) | [BBC](https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss) | [NPR](https://www.npr.org/2026/08/24/g-s1-139743/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran) | [DW](https://www.dw.com/en/us-to-unveil-new-iran-sanctions-says-war-entering-endgame/a-78483909?maca=en-rss-en-all-1573-xml-mrss)
+Sources: [Euronews](http://www.euronews.com/business/2026/08/24/us-threatens-iran-with-economic-d-day-as-markets-await-sanctions-announcement) \| [BBC](https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss) \| [NPR](https://www.npr.org/2026/08/24/g-s1-139743/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran) \| [DW](https://www.dw.com/en/us-to-unveil-new-iran-sanctions-says-war-entering-endgame/a-78483909?maca=en-rss-en-all-1573-xml-mrss)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/08/24/us-threatens-ira
 
 Context: The rial has been sliding for months under US-Israeli strikes on energy infrastructure, but the "economic D-Day" threat triggered a fresh panic. Iran's new gas discovery in Fars province (200+ bcm) isn't calming markets — the war has disrupted extraction and export routes too.
 
-Sources: [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/irans-currency-drops-record-low-tracking-websites-show) | [The Hindu](https://www.thehindu.com/news/international/irans-rial-currency-hits-new-record-low-as-us-prepares-to-announce-more-sanctions/article71384197.ece)
+Sources: [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/irans-currency-drops-record-low-tracking-websites-show) \| [The Hindu](https://www.thehindu.com/news/international/irans-rial-currency-hits-new-record-low-as-us-prepares-to-announce-more-sanctions/article71384197.ece)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-upd
 
 Context: This escalates the economic war into a regional confrontation. Rezaei, newly appointed to the Supreme National Security Council, said Iran would treat any cooperation with US measures as joining an economic war. The Foreign Ministry separately warned of "consequences" for countries signing on. Iraq meanwhile called for a joint Saudi-Iran security council to de-escalate.
 
-Sources: [The Hindu](https://www.thehindu.com/news/international/iran-security-chief-threatens-neighbors-against-new-us-economic-measures/article71380026.ece) | [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/iran-warns-consequences-countries-joining-us-economic-sanctions)
+Sources: [The Hindu](https://www.thehindu.com/news/international/iran-security-chief-threatens-neighbors-against-new-us-economic-measures/article71380026.ece) \| [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/iran-warns-consequences-countries-joining-us-economic-sanctions)
 
 </details>
 
@@ -44,7 +44,7 @@ Sources: [The Hindu](https://www.thehindu.com/news/international/iran-security-c
 
 Context: The Pentagon is pulling assets from the Indo-Pacific to sustain operations against Iran — a tangible sign of how the Middle East conflict is draining US military bandwidth elsewhere. South Korea's defense ministry confirmed the cancellation.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/24/south-korea-says-us-cancelled-upcoming-joint-marine-exercises-over-iran-war?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/08/24/south-korea-says-us-cancelled-joint-marine-drills-over-force-constraints-from-iran-war)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/24/south-korea-says-us-cancelled-upcoming-joint-marine-exercises-over-iran-war?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/08/24/south-korea-says-us-cancelled-joint-marine-drills-over-force-constraints-from-iran-war)
 
 </details>
 
@@ -64,7 +64,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/08/24/greece-moves-pa
 
 Context: The case became a global symbol of Gaza's civilian toll. Israel previously denied involvement; the admission and investigation come amid mounting international pressure. Australia separately summoned Israel's ambassador over the refusal to criminally investigate the killing of aid worker Zomi Frankcom, calling the decision "insulting."
 
-Sources: [BBC](https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss) | [BBC](https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss)
+Sources: [BBC](https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss) \| [BBC](https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss)
 
 </details>
 
@@ -73,7 +73,7 @@ Sources: [BBC](https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at
 
 Context: The killings in Jenin and southern West Bank follow a pattern of rising settler violence with army backup. The E1 condemnation is rare coordinated European pushback on a project that would effectively bisect the West Bank. Meanwhile, 102 former French and British ambassadors signed a letter accusing Israel of ethnic cleansing and urging trade/arms bans.
 
-Sources: [France24](https://www.france24.com/en/israeli-settlers-kill-palestinian-teen-in-the-occupied-west-bank) | [France24](https://www.france24.com/en/middle-east/20260820-france-germany-uk-italy-slam-israel-illegal-e1-west-bank-settler-project) | [BBC](https://www.bbc.co.uk/news/articles/c2lq5g4dedpo?at_medium=RSS&at_campaign=rss)
+Sources: [France24](https://www.france24.com/en/israeli-settlers-kill-palestinian-teen-in-the-occupied-west-bank) \| [France24](https://www.france24.com/en/middle-east/20260820-france-germany-uk-italy-slam-israel-illegal-e1-west-bank-settler-project) \| [BBC](https://www.bbc.co.uk/news/articles/c2lq5g4dedpo?at_medium=RSS&at_campaign=rss)
 
 </details>
 
@@ -82,7 +82,7 @@ Sources: [France24](https://www.france24.com/en/israeli-settlers-kill-palestinia
 
 Context: The signatories include career diplomats from both countries. They're demanding concrete leverage — not just statements — to force Israel to accept a Palestinian state. This follows the ICJ advisory opinion and growing European frustration with settlement expansion.
 
-Sources: [France24](https://www.france24.com/en/100-former-french-and-british-ambassadors-accuse-israel-of-ethnic-cleansing) | [France24](https://www.france24.com/en/middle-east/20260822-former-french-uk-diplomats-urge-governments-to-act-against-israeli-settlement-policies)
+Sources: [France24](https://www.france24.com/en/100-former-french-and-british-ambassadors-accuse-israel-of-ethnic-cleansing) \| [France24](https://www.france24.com/en/middle-east/20260822-former-french-uk-diplomats-urge-governments-to-act-against-israeli-settlement-policies)
 
 </details>
 
@@ -102,7 +102,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260824-iran-calls-
 
 Context: The visit covers the Iran war, Strait of Hormuz security, and new energy routes bypassing the Strait. France and Saudi Arabia "need each other too much" — Paris wants Gulf investment and energy alternatives; Riyadh wants French military tech and diplomatic cover. They also appeared together at the Esports World Cup closing ceremony, hosted in France for the first time but funded by Saudi Arabia.
 
-Sources: [France24](https://www.france24.com/en/france-and-saudi-arabia-hold-talks-ranging-from-middle-east-to-esports) | [France24](https://www.france24.com/en/strategic-talks-in-paris-show-france-and-saudi-arabia-need-each-other-too-much)
+Sources: [France24](https://www.france24.com/en/france-and-saudi-arabia-hold-talks-ranging-from-middle-east-to-esports) \| [France24](https://www.france24.com/en/strategic-talks-in-paris-show-france-and-saudi-arabia-need-each-other-too-much)
 
 </details>
 

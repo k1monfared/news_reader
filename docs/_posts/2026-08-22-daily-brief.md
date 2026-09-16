@@ -17,7 +17,7 @@ models_used: ["muse-spark-1.2-contributor-free", "nemotron-3-ultra-free"]
 
 Context: Iran says Javad Salehi, Abdul Majid Dashtian and Imran Behroshian have been held for six months since Qatar downed two fighter jets in the early days of the war — Qatar says they violated Qatari airspace and denies detaining them — with the remains of a fourth pilot, Majid Kazemi, killed 2 March 2026, already returned. Now Iranian military official Mohammad Baqerzadeh, quoted by Tasnim, has asked Qatar to transfer the detained pilots from holding on water to a hospital on land citing poor physical condition, and asked the ICRC to send an air ambulance.
 
-Sources: [bbc](https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&at_campaign=rss) | [jpost](https://www.jpost.com/middle-east/article-906242) | [mee](https://www.middleeasteye.net/live-blog/live-blog-update/iranian-official-urges-qatar-move-detained-pilots-hospital-land-tasnim)
+Sources: [bbc](https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&at_campaign=rss) \| [jpost](https://www.jpost.com/middle-east/article-906242) \| [mee](https://www.middleeasteye.net/live-blog/live-blog-update/iranian-official-urges-qatar-move-detained-pilots-hospital-land-tasnim)
 
 </details>
 
@@ -53,7 +53,7 @@ Sources: [bbc](https://www.bbc.co.uk/news/articles/cewrx0ldlkko?at_medium=RSS&at
 
 Context: Syria accused Israel of bombing the disused base damaged during the civil war, two days before Turkey's denial. Israel said it struck the Idlib province airfield because of security threats after Syria allowed Turkish troops to amass near the base close to Aleppo. US envoy Tom Barrack's claim that Israel "baited" Turkey into a near-confrontation that prompted Ankara to consider scrambling jets is so far from one outlet only.
 
-Sources: [jpost](https://www.jpost.com/middle-east/article-906241) | [thehindu](https://www.thehindu.com/news/international/turkiye-denies-military-visit-to-syria-air-base-hit-by-israel/article71369521.ece)
+Sources: [jpost](https://www.jpost.com/middle-east/article-906241) \| [thehindu](https://www.thehindu.com/news/international/turkiye-denies-military-visit-to-syria-air-base-hit-by-israel/article71369521.ece)
 
 </details>
 

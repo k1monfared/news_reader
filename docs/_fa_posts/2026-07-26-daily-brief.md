@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: تهدیدهای ترامپ پس از حملات حوثی‌ها به نفتکش‌های عربستانی در دریای سرخ که نفت را به بالای ۱۰۰ دلار به ازای هر بشکه رساند، صورت گرفت. او روز پنج‌شنبه صراحتاً گفت که در حال بررسی یک «حمله گسترده» به ایران است—صریح‌ترین تهدید تشدید تاکنون از سوی کاخ سفید.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260723-trump-threatens-iran-and-houthi-rebels-with-major-military-punishment) | [France24](https://www.france24.com/en/iran-warns-countries-aiding-us-attack)
+منابع: [France24](https://www.france24.com/en/middle-east/20260723-trump-threatens-iran-and-houthi-rebels-with-major-military-punishment) \| [France24](https://www.france24.com/en/iran-warns-countries-aiding-us-attack)
 
 </details>
 
@@ -58,7 +58,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: اوکراین ادعا می‌کند به تجهیزات روسی در مسیر ایران حمله کرده و می‌گوید مسکو داده‌های ماهواره‌ای به تهران داده تا به هدف قرار دادن سایت‌های آمریکایی در خاورمیانه کمک کند. ایران حمله دریای خزر را محکوم کرده است و سؤالاتی را درباره اینکه آیا درگیری—که پیش‌تر تنگه هرمز و دریای سرخ را در بر گرفته بود—اکنون به سومین عرصه دریایی رسیده است، مطرح کرده است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/26/after-strait-of-hormuz-and-red-sea-has-iran-war-now-reached-caspian-sea?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/07/26/ukraine-strikes-russian-iran-bound-cargo-as-iran-war-widens)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/26/after-strait-of-hormuz-and-red-sea-has-iran-war-now-reached-caspian-sea?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/07/26/ukraine-strikes-russian-iran-bound-cargo-as-iran-war-widens)
 
 </details>
 

@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is a sharp escalation from where things stood yesterday. Trump had paused strikes, but now he's publicly threatening a "large-scale assault" if Tehran doesn't come to the table soon. Iran's not backing down—they're warning they'll expand the conflict geographically if the US attacks again. Meanwhile, Iranian authorities held mass public weddings in Tehran for couples who signed up for a state program declaring their readiness to die fighting the US and Israel.
 
-Sources: [France24](https://www.france24.com/en/us-iran-trade-threats-as-tehran-stages-mass-weddings-for-couples-ready-for-sacrifice) | [France24](https://www.france24.com/en/middle-east/20260519-iran-warns-it-could-open-up-new-fronts-in-war-after-us-threatens-large-scale-assault)
+Sources: [France24](https://www.france24.com/en/us-iran-trade-threats-as-tehran-stages-mass-weddings-for-couples-ready-for-sacrifice) \| [France24](https://www.france24.com/en/middle-east/20260519-iran-warns-it-could-open-up-new-fronts-in-war-after-us-threatens-large-scale-assault)
 
 </details>
 

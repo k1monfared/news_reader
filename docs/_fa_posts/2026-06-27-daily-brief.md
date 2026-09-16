@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این حملات پس از حمله ایران به یک کشتی باری در تنگه هرمز با پهپاد انجام شد. ترامپ آن را «نقض احمقانه» آتش‌بس خواند و دستور تلافی داد. ایران می‌گوید حملات آمریکا تفاهم‌نامه‌ای را که در حال مذاکره بوده‌اند نقض می‌کند. این یک آزمون بزرگ است که آیا مذاکرات صلح می‌توانند از عهده درگیری واقعی برآیند یا خیر.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/27/iran-war-day-120-tehran-condemns-us-strikes-says-its-violation-of-mou?traffic_source=rss) | [France 24](https://www.france24.com/en/a-cargo-ship-in-the-strait-of-hormuz-targeted-by-iran)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/27/iran-war-day-120-tehran-condemns-us-strikes-says-its-violation-of-mou?traffic_source=rss) \| [France 24](https://www.france24.com/en/a-cargo-ship-in-the-strait-of-hormuz-targeted-by-iran)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: رسانه‌های دولتی ایران تأیید کردند که حملات آمریکا به یک برج مخابراتی در جنوب ایران اصابت کرده است. آژانس دریایی بریتانیا به طور رسمی وضعیت امنیتی برای تنگه را پس از حمله به نفتکش ارتقا داد. این آبراه حدود یک پنجم ترافیک نفت جهانی را مدیریت می‌کند، بنابراین اختلالات در آنجا بر بازارهای انرژی تأثیر می‌گذارد.
 
-منابع: [Euronews](http://www.euronews.com/2026/06/27/bahrain-says-it-was-targeted-by-iranian-drones-after-us-strikes-on-iran "link may be dead") | [Euronews](http://www.euronews.com/2026/06/27/uk-maritime-agency-raises-strait-of-hormuz-threat-level-after-oil-tanker-reports-being-str)
+منابع: [Euronews](http://www.euronews.com/2026/06/27/bahrain-says-it-was-targeted-by-iranian-drones-after-us-strikes-on-iran "link may be dead") \| [Euronews](http://www.euronews.com/2026/06/27/uk-maritime-agency-raises-strait-of-hormuz-threat-level-after-oil-tanker-reports-being-str)
 
 </details>
 
@@ -47,7 +47,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این فراتر از مذاکرات حرکت می‌کند—آن‌ها واقعاً توافق را امضا کردند. وزیر خارجه مارکو روبیو این چارچوب را پس از مذاکرات در واشنگتن اعلام کرد. این توافق به ماه‌ها درگیری مرزی بین نیروهای اسرائیلی و حزب‌الله می‌پردازد. اما حمله اسرائیل به لبنان درست روز بعد سؤالات جدی درباره اجرای آن ایجاد می‌کند.
 
-منابع: [France 24](https://www.france24.com/en/new-us-lebanon-israel-agreement-signed) | [France 24](https://www.france24.com/en/middle-east/20260626-lebanon-israel-us-sign-framework-agreement-in-washington)
+منابع: [France 24](https://www.france24.com/en/new-us-lebanon-israel-agreement-signed) \| [France 24](https://www.france24.com/en/middle-east/20260626-lebanon-israel-us-sign-framework-agreement-in-washington)
 
 </details>
 

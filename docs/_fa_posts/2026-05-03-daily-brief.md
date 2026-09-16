@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: پس از اینکه ترامپ پیشنهاد پیشین ایران را رد کرد، تهران با یک چارچوب مشخص ۱۴ بندی که از طریق واسطه پاکستان ارسال شد، بازگشت. جزئیات پیشنهاد هنوز علنی نشده است، اما ترامپ در حال بررسی آن است و همزمان بدبینی خود را ابراز می‌کند. یک افسر ارشد ایرانی گفت که اگر مذاکرات شکست بخورد، از سرگیری جنگ «محتمل» است. ما در روز ۶۵ درگیری هستیم.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/3/whats-irans-14-point-proposal-to-end-the-war-and-will-trump-accept-it?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/3/iran-war-whats-happening-on-day-65-as-trump-reviews-new-plan-to-end-war?traffic_source=rss) | [France 24](https://www.france24.com/en/us-president-trump-says-not-likely-to-accept-iranian-proposal)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/3/whats-irans-14-point-proposal-to-end-the-war-and-will-trump-accept-it?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/3/iran-war-whats-happening-on-day-65-as-trump-reviews-new-plan-to-end-war?traffic_source=rss) \| [France 24](https://www.france24.com/en/us-president-trump-says-not-likely-to-accept-iranian-proposal)
 
 </details>
 
@@ -29,7 +29,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: هفت تولیدکننده از جمله روسیه و عربستان سعودی با این افزایش موافقت کردند. این یک اقدام نمادین است که هدف آن نشان دادن ثبات پس از خروج امارات است. این افزایش عرضه از دست رفته ناشی از بسته شدن تنگه را جبران نخواهد کرد، اما تحلیلگران می‌گویند هدف آن نشان دادن هماهنگی و اطمینان است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/3/opec-announces-symbolic-oil-output-rise-during-strait-of-hormuz-closure?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260503-opec-increases-production-quotas-without-mentioning-uae-withdrawal)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/3/opec-announces-symbolic-oil-output-rise-during-strait-of-hormuz-closure?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260503-opec-increases-production-quotas-without-mentioning-uae-withdrawal)
 
 </details>
 

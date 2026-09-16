@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این دور جدید مذاکرات برای قطعی کردن تفاهم‌نامه‌ای است که هفته گذشته امضا شد. ساعت شنی ۶۰ روزه برای حل و فصل موضوعات سخت — ذخایر اورانیوم ایران و جاه‌طلبی‌های هسته‌ای — شروع به کار کرده. مشکل این است که اسرائیل و حزب‌الله همچنان در لبنان به سمت هم شلیک می‌کنند و هیچ کدام توافق را امضا نکرده‌اند. ایران می‌گوید لبنان حالا «موضوع اصلی» در مذاکرات است.
 
-منابع: [France24](https://www.france24.com/en/iran-claims-lebanon-main-topic-at-peace-talks-with-us) | [France24](https://www.france24.com/en/tv-shows/spotlight/20260621-what-s-the-state-of-the-strait)
+منابع: [France24](https://www.france24.com/en/iran-claims-lebanon-main-topic-at-peace-talks-with-us) \| [France24](https://www.france24.com/en/tv-shows/spotlight/20260621-what-s-the-state-of-the-strait)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این یک تناقض مستقیم در قلب موضوع لبنان است. مذاکره‌کنندگان اسرائیلی و لبنانی در واشنگتن دارند روی پیشنهاد مشخصی کار می‌کنند که طبق آن نیروهای اسرائیلی کنترل برخی مناطق در جنوب لبنان را به نیروهای مسلح لبنان منتقل می‌کنند — مکانیسم خاصی که تازه از مذاکرات بیرون آمده. اما در همان زمان، وزیر دفاع کاتز علناً اعلام کرد اسرائیل تحت هیچ شرایطی عقب‌نشینی نمی‌کند. این موضع تندروانه، مذاکرات واشنگتن را که به طور همزمان در حال وقوع است و در آن مذاکره‌کنندگان اسرائیلی دقیقاً درباره همین نوع عقب‌نشینی بحث می‌کنند، تضعیف می‌کند.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260624-israel-and-lebanon-discuss-plan-to-transfer-some-southern-territory-to-lebanese-army) | [France24](https://www.france24.com/en/middle-east/20260624-middle-east-live-oman-announces-temporary-maritime-corridor-through-strait-of-hormuz)
+منابع: [France24](https://www.france24.com/en/middle-east/20260624-israel-and-lebanon-discuss-plan-to-transfer-some-southern-territory-to-lebanese-army) \| [France24](https://www.france24.com/en/middle-east/20260624-middle-east-live-oman-announces-temporary-maritime-corridor-through-strait-of-hormuz)
 
 </details>
 

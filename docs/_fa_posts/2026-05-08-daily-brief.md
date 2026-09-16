@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: آتش‌بس بین آمریکا و ایران از لحاظ فنی از ۸ آوریل برقرار بوده، اما به نظر می‌رسد بسیار شکننده است. دیر شب پنج‌شنبه، در نزدیکی تنگه هرمز تیراندازی انجام شد که گزارش‌های متناقضی از هر دو طرف ارائه شده است. آمریکا می‌گوید حملات ایرانی را رهگیری کرده و به اهداف نظامی ضربه زده است. ایران می‌گوید پس از آن که آمریکا با حمله به مناطق غیرنظامی و دو کشتی، از جمله یک نفتکش ایرانی، آتش‌بس را نقض کرد، موشک‌هایی به سمت «واحدهای دشمن» شلیک کرده است. ترامپ اصرار دارد که آتش‌بس همچنان برقرار است، اما گزارش‌های متناقض و تیراندازی فعال چیز دیگری را نشان می‌دهد.
 
-منابع: [France24](https://www.france24.com/en/video/20260508-what-we-know-about-the-latest-exchange-of-fire-between-the-us-and-iran) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/8/us-iran-clash-in-hormuz-as-war-escalates-what-happened-why-it-matters?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260508-us-military-says-it-intercepted-iranian-attacks-in-strait-of-hormuz) | [France24](https://www.france24.com/en/middle-east/20260507-middle-east-war-live-source-close-to-hezbollah-says-top-commander-killed-in-israeli-strike)
+منابع: [France24](https://www.france24.com/en/video/20260508-what-we-know-about-the-latest-exchange-of-fire-between-the-us-and-iran) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/8/us-iran-clash-in-hormuz-as-war-escalates-what-happened-why-it-matters?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260508-us-military-says-it-intercepted-iranian-attacks-in-strait-of-hormuz) \| [France24](https://www.france24.com/en/middle-east/20260507-middle-east-war-live-source-close-to-hezbollah-says-top-commander-killed-in-israeli-strike)
 
 </details>
 

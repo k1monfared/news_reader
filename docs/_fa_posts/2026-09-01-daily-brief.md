@@ -18,7 +18,7 @@ models_used: ["nemotron-3-ultra-free"]
 
 زمینه: پس از شش ماه جنگ و آتش‌بس آوریل که درگیری‌های شدید را متوقف کرد، آمریکا به بهانه جلوگیری از مین‌گذاری بیشتر دریایی به سایت‌هایی در جزیره لارک حمله کرد. ایران در تلافی اهداف نظامی آمریکا در اردن و امارات را هدف گرفت. ترامپ اکنون ادعا می‌کند تنگه پاک شده است، اما رهبری ایران می‌گوید در «کنترل کامل» باقی مانده و اجازه باز شدن آن را نخواهد داد؛ محاصره دریایی متقابل آمریکا نیز ادامه دارد. هم‌زمان، رئیس‌جمهور ایران پزشکیان در اجلاس سازمان همکاری شانگهای پیشنهاد کرد در صورت اقدام متقابل آمریکا به توافق آتش‌بس ژوئن بازگردد، اگرچه خواسته‌های سپاه برای کنترل هرمز و غرامت جنگی همچنان مانع اصلی هستند.
 
-منابع: [BBC](https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss) | [France24](https://www.france24.com/en/trump-vows-to-hit-back-hard-after-first-exchange-of-fire-with-iran-in-weeks) | [France24](https://www.france24.com/en/latest-flare-up-between-us-and-iran-bring-conflict-s-lull-to-an-end) | [France24](https://www.france24.com/en/middle-east-war-flares-up-after-iran-responds-to-us-attacks)
+منابع: [BBC](https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss) \| [France24](https://www.france24.com/en/trump-vows-to-hit-back-hard-after-first-exchange-of-fire-with-iran-in-weeks) \| [France24](https://www.france24.com/en/latest-flare-up-between-us-and-iran-bring-conflict-s-lull-to-an-end) \| [France24](https://www.france24.com/en/middle-east-war-flares-up-after-iran-responds-to-us-attacks)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["nemotron-3-ultra-free"]
 
 زمینه: سازمان همکاری شانگهای — نماینده ۴۳٪ جمعیت جهان و ۲۳٪ اقتصاد جهانی — در بیانیه‌ای مشترک حملات به ایران و تحریم‌های یک‌جانبه را محکوم کرد. پیشنهاد آتش‌بس پزشکیان ساعاتی پس از تبادل نظامی آخر هفته مطرح شد. سپاه همچنان کنترل تنگه هرمز و دریافت غرامت جنگی را مطالبه می‌کند، خواسته‌هایی که آمریکا به احتمال زیاد نخواهد پذیرفت. چین نیز به طور جداگانه اعلام کرد تحریم‌های ثانویه جدید آمریکا علیه ایران را اجرا نخواهد کرد.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/9/1/sco-slams-attacks-sanctions-on-iran-key-takeaways-from-bishkek-summit?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/09/01/iran-says-it-will-return-to-june-ceasefire-deal-if-us-does-the-same)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/9/1/sco-slams-attacks-sanctions-on-iran-key-takeaways-from-bishkek-summit?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/09/01/iran-says-it-will-return-to-june-ceasefire-deal-if-us-does-the-same)
 
 </details>
 
@@ -36,7 +36,7 @@ models_used: ["nemotron-3-ultra-free"]
 
 زمینه: دولت ترامپ کشورها را تحت فشار قرار می‌دهد تا داوطلبانه روابط تجاری با ایران را قطع کنند. اما چین — بزرگ‌ترین خریدار نفت ایران و شریان اقتصادی آن — می‌گوید همکاری نخواهد کرد. پکن استدلال می‌کند این تحریم‌ها فاقد پشتوانه سازمان ملل است و به امنیت انرژی آن آسیب می‌زند. بدون مشارکت چین، رژیم تحریم‌ها به طور قابل توجهی تضعیف می‌شود.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/opinions/2026/9/1/why-china-will-not-comply-with-us-sanctions-on-iran?traffic_source=rss) | [NPR](https://www.npr.org/2026/08/31/nx-s1-5950325/trumps-plan-for-economic-d-day-for-iran-has-one-big-hole-china)
+منابع: [Al Jazeera](https://www.aljazeera.com/opinions/2026/9/1/why-china-will-not-comply-with-us-sanctions-on-iran?traffic_source=rss) \| [NPR](https://www.npr.org/2026/08/31/nx-s1-5950325/trumps-plan-for-economic-d-day-for-iran-has-one-big-hole-china)
 
 </details>
 
@@ -45,7 +45,7 @@ models_used: ["nemotron-3-ultra-free"]
 
 زمینه: تحلیل France24 نشان می‌دهد رهبری ایران حول ژنرال‌های نظامی و روحانیون آماده برای رویارویی طولانی سخت‌تر شده است — بسیار دور از امیدهای اولیه ترامپ برای تغییر رژیم. در همین حال، استعفای وزیر ارتش دریسکول این نیرو را بدون رهبری غیرنظامی و نظامی دائمی در آستانه ماه هفتم جنگ رها می‌کند.
 
-منابع: [France24](https://www.france24.com/en/iran-war-reaches-6-month-mark-conflict-cost-1-100-per-us-taxpayer) | [The Hindu](https://www.thehindu.com/news/international/us-army-secretary-driscoll-submits-resignation-white-house/article71413517.ece)
+منابع: [France24](https://www.france24.com/en/iran-war-reaches-6-month-mark-conflict-cost-1-100-per-us-taxpayer) \| [The Hindu](https://www.thehindu.com/news/international/us-army-secretary-driscoll-submits-resignation-white-house/article71413517.ece)
 
 </details>
 
@@ -56,7 +56,7 @@ models_used: ["nemotron-3-ultra-free"]
 
 زمینه: این پهپاد در ۴-۵ اوت حامل مواد منفجره کشف شد؛ بازرسان معتقدند به طور عمدی یک هواپیمای باری اوکراینی را هدف گرفته بود. آلمان ماه‌هاست گزارش‌هایی از مشاهده پهپادهای مشکوک بر فراز سایت‌های نظامی و صنعتی دریافت کرده، اما این حادثه از یک آستانه عبور کرد. فون در لاین پیش از دیدار با روته وعده پاسخ داده است. DW اشاره می‌کند پدافند هوایی آلمان شکاف‌های قابل توجهی در برابر این تهدید دارد.
 
-منابع: [Euronews](http://www.euronews.com/my-europe/2026/09/01/russia-behind-drone-incident-at-leipzig-airport-berlin-says) | [Euronews](http://www.euronews.com/my-europe/2026/09/01/von-der-leyen-pledges-response-to-russian-hybrid-attacks-ahead-of-rutte-meeting) | [DW](https://www.dw.com/en/germany-says-russia-behind-attempted-drone-attack-at-leipzig-airport/a-78584589?maca=en-rss-en-all-1573-xml-mrss)
+منابع: [Euronews](http://www.euronews.com/my-europe/2026/09/01/russia-behind-drone-incident-at-leipzig-airport-berlin-says) \| [Euronews](http://www.euronews.com/my-europe/2026/09/01/von-der-leyen-pledges-response-to-russian-hybrid-attacks-ahead-of-rutte-meeting) \| [DW](https://www.dw.com/en/germany-says-russia-behind-attempted-drone-attack-at-leipzig-airport/a-78584589?maca=en-rss-en-all-1573-xml-mrss)
 
 </details>
 
@@ -67,7 +67,7 @@ models_used: ["nemotron-3-ultra-free"]
 
 زمینه: حملات غزه روز دوشنبه بر اساس گزارش مقامات بیمارستانی انجام شد. حمله جنین روز جمعه استفاده نادر از توان هوایی اسرائیل در کرانه باختری اشغالی بود. به طور جداگانه، فعالان یهودی حامی فلسطینی‌ها در برابر شهرک‌نشینان در نزدیکی بیت‌لحم زخمی شدند و هیئت صلح غزه به رهبری آمریکا به حماس درباره فعالیت «بادبادک‌ها» پس از تهدید حملات اسرائیل هشدار داد.
 
-منابع: [Euronews](http://www.euronews.com/video/2026/09/01/israeli-airstrikes-kill-at-least-five-palestinians-in-gaza-city) | [France24](https://www.france24.com/en/middle-east/20260828-israel-army-carries-out-rare-west-bank-air-strike-killing-three-terrorists)
+منابع: [Euronews](http://www.euronews.com/video/2026/09/01/israeli-airstrikes-kill-at-least-five-palestinians-in-gaza-city) \| [France24](https://www.france24.com/en/middle-east/20260828-israel-army-carries-out-rare-west-bank-air-strike-killing-three-terrorists)
 
 </details>
 
@@ -98,7 +98,7 @@ models_used: ["nemotron-3-ultra-free"]
 
 زمینه: DW از «وسایل انفجاری و آتش‌زای غیرمتعارف» در نزدیکی نیروگاه زغال‌سنگ خبر می‌دهد؛ Euronews از شلیک راکت به پست برق می‌گوید. هر دو گزارش تنها منبع هستند. این حادثه پس از حادثه پهپادی فرودگاه لایپزیگ رخ می‌دهد و پرسش‌هایی درباره امنیت داخلی و حفاظت از زیرساخت‌ها مطرح می‌کند.
 
-منابع: [DW](https://www.dw.com/en/germany-news-explosive-devices-found-near-power-plant/live-78583741?maca=en-rss-en-all-1573-xml-mrss) | [Euronews](http://www.euronews.com/my-europe/2026/09/01/rockets-fired-at-substation-in-brandenburg-in-suspected-deliberate-attack)
+منابع: [DW](https://www.dw.com/en/germany-news-explosive-devices-found-near-power-plant/live-78583741?maca=en-rss-en-all-1573-xml-mrss) \| [Euronews](http://www.euronews.com/my-europe/2026/09/01/rockets-fired-at-substation-in-brandenburg-in-suspected-deliberate-attack)
 
 </details>
 

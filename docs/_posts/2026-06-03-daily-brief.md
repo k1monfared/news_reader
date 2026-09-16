@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Iran launched a barrage of drones and missiles at Kuwait and Bahrain overnight, expanding beyond the military targets reported previously. Kuwait's health ministry confirmed one death and 63 injuries from the airport strike. The US responded by hitting an Iranian military ground control station on Qeshm Island in the Strait of Hormuz, calling it a "self-defensive strike."
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/3/kuwait-and-bahrain-attacked-as-iran-launches-missile-and-drone-barrage?traffic_source=rss) | [France24](https://www.france24.com/en/trump-denies-impasse-in-iran-talks-after-fresh-strikes-on-gulf-countries) | [France24](https://www.france24.com/en/kuwait-airport-hit-by-iranian-drones-as-us-iran-talks-stall)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/3/kuwait-and-bahrain-attacked-as-iran-launches-missile-and-drone-barrage?traffic_source=rss) \| [France24](https://www.france24.com/en/trump-denies-impasse-in-iran-talks-after-fresh-strikes-on-gulf-countries) \| [France24](https://www.france24.com/en/kuwait-airport-hit-by-iranian-drones-as-us-iran-talks-stall)
 
 </details>
 
@@ -28,7 +28,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/3/kuwait-a
 
 Context: Rubio made the "war is over" declaration to lawmakers while Iran was hitting Kuwait and the US was striking Qeshm Island. The contrasting statements suggest the administration is trying to declare victory while active hostilities continue, with disagreement over whether negotiations have reached an impasse.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/3/iran-kuwait-bahrain-hit-is-the-war-in-the-gulf-escalating-again?traffic_source=rss) | [France24](https://www.france24.com/en/trump-denies-impasse-in-iran-talks-after-fresh-strikes-on-gulf-countries)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/3/iran-kuwait-bahrain-hit-is-the-war-in-the-gulf-escalating-again?traffic_source=rss) \| [France24](https://www.france24.com/en/trump-denies-impasse-in-iran-talks-after-fresh-strikes-on-gulf-countries)
 
 </details>
 

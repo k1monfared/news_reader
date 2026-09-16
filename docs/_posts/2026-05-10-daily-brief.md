@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Pakistan's been mediating between Washington and Tehran to end the war. The US sent a proposal focused on ending hostilities first, and Iran has now formally responded. We knew yesterday about the proposal; today Iran's counter-response arrived. What they actually said remains under wraps.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/10/iran-sends-response-to-us-proposal-to-end-war-via-mediator-pakistan?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/05/10/iran-responds-to-us-proposal-to-end-the-war-via-a-pakistani-mediator)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/10/iran-sends-response-to-us-proposal-to-end-war-via-mediator-pakistan?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/05/10/iran-responds-to-us-proposal-to-end-the-war-via-a-pakistani-mediator)
 
 </details>
 
@@ -28,7 +28,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/10/iran-sends-respon
 
 Context: The drone war just went regional. A cargo ship caught fire off Qatar's coast after a drone hit. Kuwait and the UAE both intercepted attacks in their airspace. Previous strikes had focused on the UAE, but now Iran's hitting targets across the Gulf at once, ramping up pressure even as ceasefire talks continue.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/10/us-iran-ceasefire-under-strain-as-gulf-states-report-drone-attacks?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260510-live-iran-s-guards-threaten-us-sites-in-the-region-if-its-tankers-come-under-fire)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/10/us-iran-ceasefire-under-strain-as-gulf-states-report-drone-attacks?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260510-live-iran-s-guards-threaten-us-sites-in-the-region-if-its-tankers-come-under-fire)
 
 </details>
 

@@ -35,7 +35,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/30/iranian-attack-da
 
 Context: The tit-for-tat escalation continues into its second month. An Israeli pre-dawn strike on a residential building in southern Tehran killed at least five children. Israel also reported intercepting missiles and drones from Yemen's Houthis, who have now entered the conflict. An Iranian ballistic missile struck near Jerusalem, injuring residents and damaging homes.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260329-middle-east-war-live-loud-blasts-rock-tehran-yemen-houthis-widen-conflict-iran-israel) | [France24](https://www.france24.com/en/israeli-strike-hits-tehran-home-killing-several-children) | [Euronews](http://www.euronews.com/video/2026/03/28/israel-assesses-damage-after-missile-strike-near-jerusalem)
+Sources: [France24](https://www.france24.com/en/middle-east/20260329-middle-east-war-live-loud-blasts-rock-tehran-yemen-houthis-widen-conflict-iran-israel) \| [France24](https://www.france24.com/en/israeli-strike-hits-tehran-home-killing-several-children) \| [Euronews](http://www.euronews.com/video/2026/03/28/israel-assesses-damage-after-missile-strike-near-jerusalem)
 
 </details>
 
@@ -44,7 +44,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260329-middle-east
 
 Context: The US is building up forces while Trump keeps shifting timelines on potential ground operations. Iran's Revolutionary Guards are warning that any American troops would be "set on fire" if they land.
 
-Sources: [France24](https://www.france24.com/en/iran-3-500-us-troops-arrive-in-the-region) | [France24](https://www.france24.com/en/iran-3-500-us-marines-arrive-in-middle-east)
+Sources: [France24](https://www.france24.com/en/iran-3-500-us-troops-arrive-in-the-region) \| [France24](https://www.france24.com/en/iran-3-500-us-marines-arrive-in-middle-east)
 
 </details>
 
@@ -64,7 +64,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/30/iaea-sa
 
 Context: Iran's parliament speaker accused the US of attacking Iranian universities as part of the bombing campaign. The IRGC spokesperson dismissed US threats, saying Trump "only understands the language of force."
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/29/qatari-tv-station-hit-in-iran?traffic_source=rss) | [France24](https://www.france24.com/en/tehran-threatens-to-target-us-universities-in-the-region)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/29/qatari-tv-station-hit-in-iran?traffic_source=rss) \| [France24](https://www.france24.com/en/tehran-threatens-to-target-us-universities-in-the-region)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/29/qatari-
 
 Context: Trump keeps moving his deadlines and objectives. He initially set a Monday deadline to "obliterate Iran's power plants," then extended it by five days, then ten days, claiming talks are "going very well." Kharg Island handles the vast majority of Iran's oil exports.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/30/trump-says-irans-had-regime-change-as-he-describes-boatloads-of-oil?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260330-live-trump-says-iran-has-undergone-regime-change-as-us-builds-up-troops)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/30/trump-says-irans-had-regime-change-as-he-describes-boatloads-of-oil?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260330-live-trump-says-iran-has-undergone-regime-change-as-us-builds-up-troops)
 
 </details>
 
@@ -95,7 +95,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/29/republican-mace-s
 
 Context: The Iran-backed rebels launched at least two strikes, with Israel intercepting the missiles. If Houthis start hitting ships in the Bab el-Mandeb Strait again, it compounds the global shipping crisis caused by Iran effectively closing the Strait of Hormuz. Saudi Arabia has already been rerouting oil exports.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260329-yemen-houthi-attacks-on-israel-open-new-front-mideast-war-threaten-red-sea-shipping) | [Euronews](http://www.euronews.com/2026/03/28/yemens-houthis-say-they-carried-out-their-first-military-operation-targeting-israel-succes)
+Sources: [France24](https://www.france24.com/en/middle-east/20260329-yemen-houthi-attacks-on-israel-open-new-front-mideast-war-threaten-red-sea-shipping) \| [Euronews](http://www.euronews.com/2026/03/28/yemens-houthis-say-they-carried-out-their-first-military-operation-targeting-israel-succes)
 
 </details>
 
@@ -113,7 +113,7 @@ Sources: [France24](https://www.france24.com/en/three-lebanese-journalists-kille
 
 Context: Countries facing Iranian drone attacks are recognizing Ukraine's expertise in counter-drone warfare. The agreements come as Gulf states seek to defend against Iran's expanding regional strikes.
 
-Sources: [France24](https://www.france24.com/en/ukraine-uae-seal-defence-deal-kyiv-s-know-how-and-equipment-gain-recognition) | [Euronews](# "link unavailable")
+Sources: [France24](https://www.france24.com/en/ukraine-uae-seal-defence-deal-kyiv-s-know-how-and-equipment-gain-recognition) \| [Euronews](# "link unavailable")
 
 </details>
 
@@ -124,7 +124,7 @@ Sources: [France24](https://www.france24.com/en/ukraine-uae-seal-defence-deal-ky
 
 Context: Australia just announced it's cutting fuel taxes in half to ease the pain. European markets are set to open lower, and Asian markets fell. Fertilizer prices are also soaring, hitting European farms hard.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/30/oil-rises-above-116-a-barrel-as-iran-accuses-us-of-preparing-invasion?traffic_source=rss) | [Euronews](http://www.euronews.com/business/2026/03/30/european-markets-set-for-lower-open-as-oil-prices-continue-to-soar) | [Euronews](http://www.euronews.com/2026/03/28/europes-farms-are-reeling-from-the-iran-war-regenerative-farmers-saw-it-coming)
+Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/30/oil-rises-above-116-a-barrel-as-iran-accuses-us-of-preparing-invasion?traffic_source=rss) \| [Euronews](http://www.euronews.com/business/2026/03/30/european-markets-set-for-lower-open-as-oil-prices-continue-to-soar) \| [Euronews](http://www.euronews.com/2026/03/28/europes-farms-are-reeling-from-the-iran-war-regenerative-farmers-saw-it-coming)
 
 </details>
 
@@ -135,7 +135,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/30/oil-rises-abov
 
 Context: Iran's parliament speaker warned that the US is "secretly planning a ground attack" even while claiming to pursue diplomacy. Reports in US media suggest the Trump administration is indeed planning a weeks-long ground offensive, despite the diplomatic overtures.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260329-pakistan-offers-to-host-us-iran-talks-as-tehran-warns-ground-troops-would-be-set-on-fire) | [Euronews](http://www.euronews.com/2026/03/29/pakistan-to-convene-with-saudi-egypt-and-turkey-in-hopes-of-de-escalating-regional-hostili) | [Euronews](# "link unavailable")
+Sources: [France24](https://www.france24.com/en/middle-east/20260329-pakistan-offers-to-host-us-iran-talks-as-tehran-warns-ground-troops-would-be-set-on-fire) \| [Euronews](http://www.euronews.com/2026/03/29/pakistan-to-convene-with-saudi-egypt-and-turkey-in-hopes-of-de-escalating-regional-hostili) \| [Euronews](# "link unavailable")
 
 </details>
 

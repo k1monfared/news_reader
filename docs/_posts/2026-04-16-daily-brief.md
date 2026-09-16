@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is a concrete pause with a hard deadline, not just another round of negotiations. The ceasefire follows Pakistan PM Sharif's active mediation trip to Doha, part of a broader regional push to bring the US and Iran to the table while the current ceasefire holds.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/16/10-day-lebanon-israel-ceasefire-announced-by-trump?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/04/16/israel-and-lebanon-agree-to-10-day-ceasefire-trump-says-in-social-media-post) | [Pakistan mediation](http://www.euronews.com/2026/04/16/pakistan-pm-sharif-visits-doha-as-regional-mediation-gathers-pace-for-usiran-talks)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/16/10-day-lebanon-israel-ceasefire-announced-by-trump?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/04/16/israel-and-lebanon-agree-to-10-day-ceasefire-trump-says-in-social-media-post) \| [Pakistan mediation](http://www.euronews.com/2026/04/16/pakistan-pm-sharif-visits-doha-as-regional-mediation-gathers-pace-for-usiran-talks)
 
 </details>
 

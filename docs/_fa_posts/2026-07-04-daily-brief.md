@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: رهبر ایران در یک عملیات مشترک آمریکا و اسرائیل کشته شد. مراسم تشییع در چندین شهر طی شش روز برگزار می‌شود. یک خبرنگار که پوشش خبری ایران را می‌دهد اشاره می‌کند که جمعیت به شدت به سمت حامیان تندرو رژیم متمایل است و نماینده نظر عموم مردم ایران درباره دولت نیست.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/gallery/2026/7/4/millions-mourn-irans-ali-khamenei-amid-historic-funeral-procession?traffic_source=rss) | [France24](https://www.france24.com/en/iran-holds-funeral-for-ali-khamenei-attendees-hardline-factions-of-society-specialist-says) | [Euronews](http://www.euronews.com/video/2026/07/04/iranians-mourn-as-khamenei-funeral-ceremonies-begin)
+منابع: [Al Jazeera](https://www.aljazeera.com/gallery/2026/7/4/millions-mourn-irans-ali-khamenei-amid-historic-funeral-procession?traffic_source=rss) \| [France24](https://www.france24.com/en/iran-holds-funeral-for-ali-khamenei-attendees-hardline-factions-of-society-specialist-says) \| [Euronews](http://www.euronews.com/video/2026/07/04/iranians-mourn-as-khamenei-funeral-ceremonies-begin)
 
 </details>
 

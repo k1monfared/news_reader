@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: These talks were cancelled just days ago but resumed Saturday in Burgenstock with Qatar and Pakistan mediating. The agenda focuses on Lebanon and Iran's nuclear program, with negotiators facing a 60-day window to resolve difficult issues including uranium stockpiles. Vance said he wants to "turn over a new leaf" with Iran, but Iranian officials are making clear that any agreement depends on ending Israeli operations in Lebanon first.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/21/vance-arrives-in-switzerland-for-us-iran-talks?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260621-middle-east-live-us-vice-president-jd-vance-arrives-in-switzerland-for-iran-peace-talks)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/21/vance-arrives-in-switzerland-for-us-iran-talks?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260621-middle-east-live-us-vice-president-jd-vance-arrives-in-switzerland-for-iran-peace-talks)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260619-middle-eas
 
 Context: Iran claimed it shut the strait Saturday over Israeli strikes in Lebanon violating the ceasefire. However, US Central Command confirmed dozens of ships transited without incident, contradicting the closure announcement. Trump then warned he'd impose tolls on Hormuz traffic if negotiators don't finalize a deal within 60 days. The US had previously blockaded Iranian ports but lifted that Thursday after signing an interim peace deal.
 
-Sources: [France 24](https://www.france24.com/en/middle-east/20260620-israeli-strike-in-southern-lebanon-kills-five-hours-after-ceasefire-agreement) | [Euronews](http://www.euronews.com/2026/06/20/iran-recloses-strait-of-hormuz-citing-israeli-strikes-on-lebanon)
+Sources: [France 24](https://www.france24.com/en/middle-east/20260620-israeli-strike-in-southern-lebanon-kills-five-hours-after-ceasefire-agreement) \| [Euronews](http://www.euronews.com/2026/06/20/iran-recloses-strait-of-hormuz-citing-israeli-strikes-on-lebanon)
 
 </details>
 

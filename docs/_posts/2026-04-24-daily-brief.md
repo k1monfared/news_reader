@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The talks were on hold after US Vice President JD Vance left Pakistan weeks ago without a deal. Iran's Foreign Minister Araghchi is now confirmed to arrive in Islamabad Friday night, though it's unclear if Vance or other senior US officials will return. Meanwhile, residents in Pakistan's twin cities are dealing with road closures, halted courts, and economic disruption from hosting these negotiations.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260424-middle-east-war-live-israel-lebanon-ceasefire-continues-as-trump-hopes-for-peace-deal)
+Sources: [Al Jazeera](https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260424-middle-east-war-live-israel-lebanon-ceasefire-continues-as-trump-hopes-for-peace-deal)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/features/2026/4/24/iranian-fm-ar
 
 Context: Trump announced the extension Thursday, saying Israel and Lebanon both agreed to it. The ceasefire has been holding but remains tense, with both Israel and Hezbollah accusing each other of violations. This comes as Trump separately ordered the US Navy to shoot any boat laying mines in the Strait of Hormuz and tripled up minesweeping operations there.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260423-middle-east-war-live-lebanon-meets-israel-in-washington-to-request-truce-extension) | [Euronews](http://www.euronews.com/2026/04/24/trump-says-israel-hezbollah-ceasefire-extended-by-three-weeks)
+Sources: [France24](https://www.france24.com/en/middle-east/20260423-middle-east-war-live-lebanon-meets-israel-in-washington-to-request-truce-extension) \| [Euronews](http://www.euronews.com/2026/04/24/trump-says-israel-hezbollah-ceasefire-extended-by-three-weeks)
 
 </details>
 
@@ -66,7 +66,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/04/24/iran-war-sparks-
 
 Context: An internal Pentagon email obtained by Reuters reveals Washington is weighing retaliation against NATO allies who haven't backed the Iran operation. Spain specifically refused the US use of its bases and airspace. The email also hints at pressure over defense spending, suggesting the US might use multiple levers against allies it sees as not pulling their weight.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/24/us-weighs-retaliation-against-nato-allies-over-iran-war-divisions-reuters?traffic_source=rss) | [Euronews](http://www.euronews.com/my-europe/2026/04/24/pentagon-considers-suspending-spain-from-nato)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/24/us-weighs-retaliation-against-nato-allies-over-iran-war-divisions-reuters?traffic_source=rss) \| [Euronews](http://www.euronews.com/my-europe/2026/04/24/pentagon-considers-suspending-spain-from-nato)
 
 </details>
 

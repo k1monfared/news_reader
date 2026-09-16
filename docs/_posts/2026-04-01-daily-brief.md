@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump claimed Iran requested a ceasefire and said the US would only consider it after the Strait of Hormuz reopens. Iran's foreign ministry immediately denied this on state TV, calling the remarks "baseless." Iranian officials were reportedly laughing at the claim. This exchange highlights the deep mistrust and communication breakdown between Washington and Tehran even as both sides face mounting pressure to end the conflict.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/1/iranian-officials-laugh-at-trumps-claim-iran-wants-a-ceasefire?traffic_source=rss) | [France 24](https://www.france24.com/en/trump-claims-iran-wants-a-ceasefire-iran-says-remarks-are-false-and-baseless)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/1/iranian-officials-laugh-at-trumps-claim-iran-wants-a-ceasefire?traffic_source=rss) \| [France 24](https://www.france24.com/en/trump-claims-iran-wants-a-ceasefire-iran-says-remarks-are-false-and-baseless)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [France 24](https://www.france24.com/en/gulf-allies-privately-make-the-
 
 Context: Iranian missile attacks had slowed to about 10-15 per day over the past two weeks, down from around 90 on the first day of the war. This barrage represents a significant uptick and caused damage across multiple Israeli cities, marking an escalation after a period of relatively reduced fire.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/1/central-israel-hit-by-one-of-irans-largest-missile-barrages-in-weeks?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/04/01/iran-launches-biggest-salvo-of-missiles-in-three-weeks-at-israel-military-officials-say)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/1/central-israel-hit-by-one-of-irans-largest-missile-barrages-in-weeks?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/04/01/iran-launches-biggest-salvo-of-missiles-in-three-weeks-at-israel-military-officials-say)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/1/central-
 
 Context: Video showed a huge column of smoke and burning embers over Isfahan following the strike. The US has been hitting targets in Tehran and Isfahan as part of efforts to pressure Iranian leaders into accepting Washington's terms. These strikes follow Trump's threats to destroy Iran's Kharg Island oil terminal and power grid if talks don't advance.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/1/smoke-and-embers-seen-over-irans-isfahan-after-strike?traffic_source=rss) | [France 24](https://www.france24.com/en/iran-desalination-plant-in-the-strait-of-hormuz-out-of-service-following-strikes)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/1/smoke-and-embers-seen-over-irans-isfahan-after-strike?traffic_source=rss) \| [France 24](https://www.france24.com/en/iran-desalination-plant-in-the-strait-of-hormuz-out-of-service-following-strikes)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [France 24](https://www.france24.com/en/iran-desalination-plant-in-the-
 
 Context: The strait has been effectively closed for a month, cutting off 20% of the world's fuel supply. British PM Keir Starmer will convene the meeting as countries scramble for alternative energy sources. The closure has created an unprecedented global energy crisis with cascading economic effects.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/1/uk-to-host-meeting-of-35-countries-on-reopening-strait-of-hormuz?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/04/01/trump-considers-pulling-us-out-of-paper-tiger-nato)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/1/uk-to-host-meeting-of-35-countries-on-reopening-strait-of-hormuz?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/04/01/trump-considers-pulling-us-out-of-paper-tiger-nato)
 
 </details>
 
@@ -104,7 +104,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/04/01/stocks-jump-and-
 
 Context: Secretary of State Rubio warned the US is reassessing its NATO role after Trump called longtime allies "cowards" for not supporting the Iran operation. France, Italy, and Spain have all pushed back on US-Israeli military operations. EU leaders insist NATO is a defensive alliance and say they'll help with Hormuz once the hot phase of war ends—but that's not good enough for Trump.
 
-Sources: [Euronews](http://www.euronews.com/2026/04/01/trump-considers-pulling-us-out-of-paper-tiger-nato) | [France 24](https://www.france24.com/en/europe-pushes-back-on-us-military-operations-as-concerns-over-iran-war-mount)
+Sources: [Euronews](http://www.euronews.com/2026/04/01/trump-considers-pulling-us-out-of-paper-tiger-nato) \| [France 24](https://www.france24.com/en/europe-pushes-back-on-us-military-operations-as-concerns-over-iran-war-mount)
 
 </details>
 
@@ -115,7 +115,7 @@ Sources: [Euronews](http://www.euronews.com/2026/04/01/trump-considers-pulling-u
 
 Context: Kittleson, a Rome-based freelance journalist, was abducted in central Baghdad. US officials believe the kidnappers are Kataeb Hezbollah, an Iran-backed Iraqi militia. The kidnapping appears to be retaliation for US operations against Iran, extending the conflict's reach to targeting Western journalists in third countries.
 
-Sources: [France 24](https://www.france24.com/en/middle-east/20260331-us-journalist-kidnapped-in-baghdad-by-suspected-iranian-backed-armed-group) | [France 24 video](https://www.france24.com/en/video/20260401-us-journalist-shelly-kittleson-kidnapped-in-iraq)
+Sources: [France 24](https://www.france24.com/en/middle-east/20260331-us-journalist-kidnapped-in-baghdad-by-suspected-iranian-backed-armed-group) \| [France 24 video](https://www.france24.com/en/video/20260401-us-journalist-shelly-kittleson-kidnapped-in-iraq)
 
 </details>
 

@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Pakistan, which hosted and mediated the talks, is urging both sides to stick to the ceasefire that's supposed to be holding. The fact that the two sides engaged in face-to-face talks after hours of Pakistani shuttle diplomacy marked a significant breakthrough, even without an agreement. Iran reportedly raised "forward-looking initiatives" during the negotiations.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/12/us-and-iran-fail-to-reach-peace-deal-after-marathon-talks-in-pakistan?traffic_source=rss) | [France24](https://www.france24.com/en/iran-us-talks-ended-after-21-hours-without-reaching-agreement) | [Euronews](http://www.euronews.com/2026/04/12/us-and-iran-end-peace-and-ceasefire-talks-in-pakistan-without-agreement)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/12/us-and-iran-fail-to-reach-peace-deal-after-marathon-talks-in-pakistan?traffic_source=rss) \| [France24](https://www.france24.com/en/iran-us-talks-ended-after-21-hours-without-reaching-agreement) \| [Euronews](http://www.euronews.com/2026/04/12/us-and-iran-end-peace-and-ceasefire-talks-in-pakistan-without-agreement)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [France24](https://www.france24.com/en/iran-has-put-up-a-demand-that-le
 
 Context: The two countries have no diplomatic relations, so this is a big step just by happening. But Israel is calling Hezbollah "the main obstacle to peace" and has kept up heavy strikes in southern Lebanon. More than 350 people were killed on the first day of the US-Iran ceasefire alone. Netanyahu agreed to the talks under US pressure after being criticized for a "strategic failure" that damaged Israel's standing in Washington.
 
-Sources: [France24](https://www.france24.com/en/israel-refuses-ceasefire-with-hezbollah) | [France24](https://www.france24.com/en/middle-east/20260409-sidelined-trump-ceasefire-iran-israel-pummels-lebanon-agrees-talks-netanyahu)
+Sources: [France24](https://www.france24.com/en/israel-refuses-ceasefire-with-hezbollah) \| [France24](https://www.france24.com/en/middle-east/20260409-sidelined-trump-ceasefire-iran-israel-pummels-lebanon-agrees-talks-netanyahu)
 
 </details>
 

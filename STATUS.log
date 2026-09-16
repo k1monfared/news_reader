@@ -1,8 +1,17 @@
 - Project Status
-    - Last Updated: 2026-08-21
+    - Last Updated: 2026-09-16
     - Development Mode: Claude Code
     - Stage: MVP
-    - Next Milestone: Confirm green CI run with new model chain, resolve Reuters bridge outage
+    - Next Milestone: Confirm green CI run with render_check in the stage chain
+
+- Render Checks and Backfill Labels (2026-09-16)
+    - Fixed rendering errors on six posts (EN and FA for Sep 8, 9, 14): bare <details>/<summary> tags collapsed the whole brief into the toggle label and leaked literal </summary>/</details> text
+    - Sources lines on nearly every post rendered as a bordered table because kramdown parses bare " | " as a table row; all source lines now use an escaped pipe and the summarize prompt emits it
+    - New critical stage stages/render_check.py runs after verify and before publish: auto-repairs missing markdown="block"/"span" attributes and source-line pipes, fails the run on structural damage (unbalanced tags, escaped entities, details without summary), and blocks publish/translate_fa/mailer on failure
+    - translate_fa now render-checks the Farsi body and rejects reasoning-dump output (marker, latin-ratio, and length heuristics) so leaked chain-of-thought never ships
+    - Backfill labels: posts backfilled on Aug 21 (Aug 16 to 20) and Sep 16 (Sep 7 to 15) now carry backfilled: true plus a "(backfilled)" / "(با تأخیر)" title suffix; index pages, post headers, and prev/next nav show the marker
+    - Future backfill runs label themselves automatically via run_meta backfill flag, in both English and Farsi
+    - Known unfixed: FA posts for Aug 6, Aug 27, Aug 28, Sep 4, Sep 5 contain model glitches (leaked reasoning, truncated blocks, stray Cyrillic/Vietnamese words); fixing needs re-translation and was deferred by request
 
 - Outage Postmortem (2026-08-21)
     - Symptom: no daily brief commits since 2026-08-11 while GitHub Actions stayed green

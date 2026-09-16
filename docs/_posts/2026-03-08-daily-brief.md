@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The Assembly reached consensus and announced the succession while Israel and the US continue bombing Iran. Mojtaba is a cleric who's been involved in Iran's security apparatus for years. Israel has threatened to kill him too if he continues his father's policies.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/8/iran-names-khameneis-son-as-new-supreme-leader-after-fathers-killing-2) | [Euronews](https://it.euronews.com/2026/03/08/iran-mojtaba-khamenei-e-la-nuova-guida-suprema) | [Al Jazeera profile](https://www.aljazeera.com/features/2026/3/8/who-is-mojtaba-khamenei-a-contender-for-irans-leadership-amid-war)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/8/iran-names-khameneis-son-as-new-supreme-leader-after-fathers-killing-2) \| [Euronews](https://it.euronews.com/2026/03/08/iran-mojtaba-khamenei-e-la-nuova-guida-suprema) \| [Al Jazeera profile](https://www.aljazeera.com/features/2026/3/8/who-is-mojtaba-khamenei-a-contender-for-irans-leadership-amid-war)
 
 </details>
 
@@ -66,7 +66,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/8/israeli-strike-on-
 
 Context: Bahrain and the UAE host US bases and have normalized relations with Israel. The desalination plant attack raises concerns given Gulf states' complete dependence on desalinated water. Iran also reportedly attacked targets in Qatar and Kuwait.
 
-Sources: [Al Jazeera Bahrain](https://www.aljazeera.com/news/2026/3/8/bahrain-says-water-desalination-plant-damaged-in-iranian-drone-attack) | [Al Jazeera analysis](https://www.aljazeera.com/news/2026/3/8/how-targeting-of-desalination-plants-could-disrupt-water-supply-in-the-gulf) | [Euronews](https://fr.euronews.com/2026/03/08/liran-accuse-dattaques-aux-emirats-arabes-unis-et-a-bahrein-la-fumee-recouvre-teheran)
+Sources: [Al Jazeera Bahrain](https://www.aljazeera.com/news/2026/3/8/bahrain-says-water-desalination-plant-damaged-in-iranian-drone-attack) \| [Al Jazeera analysis](https://www.aljazeera.com/news/2026/3/8/how-targeting-of-desalination-plants-could-disrupt-water-supply-in-the-gulf) \| [Euronews](https://fr.euronews.com/2026/03/08/liran-accuse-dattaques-aux-emirats-arabes-unis-et-a-bahrein-la-fumee-recouvre-teheran)
 
 </details>
 
@@ -95,7 +95,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/7/us-embassy-in-bagh
 
 Context: Trump is rejecting any diplomatic off-ramp despite rising American casualties. His stated goal is complete removal of Iran's leadership rather than a negotiated settlement.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/8/trump-vows-control-over-iran-leaders-as-officials-seek-to-calm-oil-concerns) | [Reuters](https://jp.reuters.com/world/us/ZTVWURJAJJI3VA55BEVZECYK34-2026-03-08/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/8/trump-vows-control-over-iran-leaders-as-officials-seek-to-calm-oil-concerns) \| [Reuters](https://jp.reuters.com/world/us/ZTVWURJAJJI3VA55BEVZECYK34-2026-03-08/)
 
 </details>
 

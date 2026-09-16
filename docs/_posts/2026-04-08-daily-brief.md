@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump had threatened to obliterate Iran's bridges and power plants if the Strait of Hormuz stayed closed. Pakistan stepped in at the last minute, proposing a two-week pause. Iran put forward a 10-point plan that Trump called "workable," and both sides agreed to meet in Islamabad on Friday to hash out the details. Iran's framing this as a victory for survival, while Trump says he's pulling back on threats for now.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260408-us-iran-agree-two-week-ceasefire-trump-pulls-back-threats) | [Euronews](http://www.euronews.com/2026/04/08/us-and-iran-agree-to-two-week-truce-after-trump-pulls-back-on-threats)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260408-us-iran-agree-two-week-ceasefire-trump-pulls-back-threats) \| [Euronews](http://www.euronews.com/2026/04/08/us-and-iran-agree-to-two-week-truce-after-trump-pulls-back-on-threats)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260408-what-we-kn
 
 Context: Netanyahu made clear the US-Iran truce doesn't include Hezbollah. Israeli strikes pounded Beirut's southern suburbs and southern Lebanon just hours after the ceasefire announcement. Lebanon's health ministry reported dozens dead and hundreds injured. Israel says it's targeting Iran-backed Hezbollah infrastructure.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/8/lebanon-excluded-from-ceasefire-as-israeli-strikes-continue?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260408-trump-revokes-strike-threats-as-us-iran-ceasefire-takes-shape)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/8/lebanon-excluded-from-ceasefire-as-israeli-strikes-continue?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260408-trump-revokes-strike-threats-as-us-iran-ceasefire-takes-shape)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/8/lebanon-
 
 Context: Several strikes were reported across Gulf countries just hours after the ceasefire announcement. It's unclear if these were Iranian forces, proxy groups, or pre-planned attacks that couldn't be called off in time. The attacks are testing the fragile truce before talks even begin on Friday.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/8/uae-kuwait-bahrain-report-attacks-despite-iran-us-ceasefire?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/04/08/iranian-attacks-continue-in-the-gulf-raising-questions-about-ceasefire)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/8/uae-kuwait-bahrain-report-attacks-despite-iran-us-ceasefire?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/04/08/iranian-attacks-continue-in-the-gulf-raising-questions-about-ceasefire)
 
 </details>
 
@@ -66,7 +66,7 @@ Sources: [France 24](https://www.france24.com/en/israeli-strikes-kill-iran-guard
 
 Context: The Strait handles about one-fifth of the world's oil. Its closure during the war sent prices soaring and triggered fuel shortages globally. A Greek bulk carrier and a Liberian-flagged vessel appear to be the first ships through since the ceasefire was announced, though shipping companies are still waiting for full clarity before resuming normal operations.
 
-Sources: [Euronews](http://www.euronews.com/business/2026/04/08/iran-ceasefire-pushes-oil-prices-down-as-markets-remain-cautious) | [Euronews](http://www.euronews.com/business/2026/04/08/greek-and-liberian-flagged-ships-first-to-transit-hormuz-since-ceasefire)
+Sources: [Euronews](http://www.euronews.com/business/2026/04/08/iran-ceasefire-pushes-oil-prices-down-as-markets-remain-cautious) \| [Euronews](http://www.euronews.com/business/2026/04/08/greek-and-liberian-flagged-ships-first-to-transit-hormuz-since-ceasefire)
 
 </details>
 
@@ -77,7 +77,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/04/08/iran-ceasefire-p
 
 Context: Iran executed a 23-year-old protester named Ali Fahim on Monday, the latest in a surge of politically charged hangings. Rights groups say the defendants faced torture, unfair trials, and no real legal counsel. The executions are happening as Iran keeps the internet shut down and accelerates killings amid the war.
 
-Sources: [France 24](https://www.france24.com/en/middle-east/20260406-iran-wartime-killings-increase-as-another-protester-hanged) | [Euronews](http://www.euronews.com/2026/04/08/tehran-accelerates-executions-of-political-prisoners-since-start-of-iran-war)
+Sources: [France 24](https://www.france24.com/en/middle-east/20260406-iran-wartime-killings-increase-as-another-protester-hanged) \| [Euronews](http://www.euronews.com/2026/04/08/tehran-accelerates-executions-of-political-prisoners-since-start-of-iran-war)
 
 </details>
 
@@ -86,7 +86,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260406-iran-warti
 
 Context: Iran mobilized people to physically shield power plants and bridges from potential US strikes as Trump's deadline approached. Now that the ceasefire is in place, Iranian state media is portraying it as proof the regime survived. For Iran, survival is the bar for victory.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/gallery/2026/4/8/tehran-celebrates-as-iran-us-agree-to-two-week-ceasefire?traffic_source=rss) | [France 24](https://www.france24.com/en/iran-portraying-ceasefire-as-victory-against-the-united-states-and-israel) | [Euronews](http://www.euronews.com/video/2026/04/08/iranians-form-human-chains-on-bridges-amid-tensions-with-us-and-israel)
+Sources: [Al Jazeera](https://www.aljazeera.com/gallery/2026/4/8/tehran-celebrates-as-iran-us-agree-to-two-week-ceasefire?traffic_source=rss) \| [France 24](https://www.france24.com/en/iran-portraying-ceasefire-as-victory-against-the-united-states-and-israel) \| [Euronews](http://www.euronews.com/video/2026/04/08/iranians-form-human-chains-on-bridges-amid-tensions-with-us-and-israel)
 
 </details>
 
@@ -97,7 +97,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/gallery/2026/4/8/tehran-celebrat
 
 Context: Israel's right wing expected something dramatic—regime collapse, total capitulation. The two-week truce falls way short. Netanyahu's critics on the left are unhappy with him, and conservatives are now criticizing Trump for backing down. In a rare moment, Israel's entire political spectrum is united in disappointment with the deal.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/8/defeat-from-the-jaws-of-victory-israel-reacts-to-trumps-iran-ceasefire?traffic_source=rss) | [France 24](https://www.france24.com/en/us-iran-truce-a-major-problem-domestically-for-netanyahu) | [Euronews](http://www.euronews.com/2026/04/08/israels-political-forces-are-not-happy-with-us-iran-ceasefire-deal-here-is-why)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/8/defeat-from-the-jaws-of-victory-israel-reacts-to-trumps-iran-ceasefire?traffic_source=rss) \| [France 24](https://www.france24.com/en/us-iran-truce-a-major-problem-domestically-for-netanyahu) \| [Euronews](http://www.euronews.com/2026/04/08/israels-political-forces-are-not-happy-with-us-iran-ceasefire-deal-here-is-why)
 
 </details>
 

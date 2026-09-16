@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: موشک‌های ایرانی روز جمعه به پایگاه هوایی موفق السلطی در اردن اصابت کردند و دو نیروی خدمتی را کشتند و یک نفر مفقود شد—اولین تلفات آمریکایی از آتش مستقیم ایران از زمان آغاز درگیری در فوریه. آمریکا بلافاصله حملات تلافی‌جویانه‌ای علیه سپاه پاسداران انقلاب ایران آغاز کرد و کمپین بمباران یک‌هفته‌ای را ادامه داد که سنگین‌ترین جنگ از زمان شروع جنگ است. France 24 گزارش می‌دهد که این تلفات اولین مورد از آتش خصمانه از زمان فروپاشی یک آتش‌بس کوتاه در آوریل است، در حالی که منابع دیگر نشان می‌دهند که هیچ آتش‌بس قبلی وجود نداشته است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/19/us-launches-new-iran-strikes-after-two-soldiers-killed-whats-the-latest?traffic_source=rss) | [France 24](https://www.france24.com/en/first-us-soldiers-killed-in-jordan-trump-vows-to-shift-action) | [Euronews](http://www.euronews.com/2026/07/18/two-us-troops-killed-in-jordan-by-iranian-attacks-us-military-says)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/19/us-launches-new-iran-strikes-after-two-soldiers-killed-whats-the-latest?traffic_source=rss) \| [France 24](https://www.france24.com/en/first-us-soldiers-killed-in-jordan-trump-vows-to-shift-action) \| [Euronews](http://www.euronews.com/2026/07/18/two-us-troops-killed-in-jordan-by-iranian-attacks-us-military-says)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: محاصره کشتی‌ها را از حرکت به یا از بنادر ایرانی منع می‌کند—تشدید قابل توجهی نسبت به هفته گذشته که آمریکا فقط کشتی‌ها را بازرسی می‌کرد. ترامپ اعلام کرد که هزینه‌هایی را برای عبور از تنگه هرمز، گلوگاه حدود ۲۰٪ نفت جهان، دریافت خواهد کرد. آژانس کشتیرانی سازمان ملل با دریافت هزینه از سوی هر کشوری برای آبراه‌های بین‌المللی مخالف است. ایران با تهدید به بستن مسیرهای اضافی صادرات انرژی از جمله دروازه باب‌المندب به دریای سرخ پاسخ داد.
 
-منابع: [France 24 - Blockade](https://www.france24.com/en/middle-east/20260714-us-military-reimposes-naval-blockade-on-iranian-ports-launches-new-strikes) | [France 24 - Fees](https://www.france24.com/en/trump-reimposes-iran-naval-blockade-threatens-hormuz-fees)
+منابع: [France 24 - Blockade](https://www.france24.com/en/middle-east/20260714-us-military-reimposes-naval-blockade-on-iranian-ports-launches-new-strikes) \| [France 24 - Fees](https://www.france24.com/en/trump-reimposes-iran-naval-blockade-threatens-hormuz-fees)
 
 </details>
 

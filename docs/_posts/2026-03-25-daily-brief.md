@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Iran confirmed receiving a US peace proposal through Pakistan but called it "maximalist" and rejected it. Iran's Foreign Minister Araghchi explicitly denied any talks are happening, stating Iran has no intention to negotiate despite reviewing the ceasefire proposal. Meanwhile, sources say Iran's negotiating position has actually hardened and they're preparing to demand major concessions from the US. Pakistan has emerged as the key mediator, with Turkey and Egypt also offering to host talks.
 
-Sources: [Reuters](https://jp.reuters.com/world/security/RUFQFT4QFJPMNAHHRPTHT7LIOY-2026-03-25/) | [Reuters](https://jp.reuters.com/world/us/DCILV755BNJXHM2R2LOOK7QDXE-2026-03-25/) | [Reuters](https://jp.reuters.com/world/us/SLOQJZFZN5O3VOFOYYXLIZQJTA-2026-03-25/) | [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/25/iran-war-live-trump-again-says-talks-underway-12-killed-in-south-tehran?update=4434434) | [Euronews](https://es.euronews.com/2026/03/25/iran-responde-al-plan-de-paz-de-trump-no-llames-acuerdo-a-tu-derrota)
+Sources: [Reuters](https://jp.reuters.com/world/security/RUFQFT4QFJPMNAHHRPTHT7LIOY-2026-03-25/) \| [Reuters](https://jp.reuters.com/world/us/DCILV755BNJXHM2R2LOOK7QDXE-2026-03-25/) \| [Reuters](https://jp.reuters.com/world/us/SLOQJZFZN5O3VOFOYYXLIZQJTA-2026-03-25/) \| [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/25/iran-war-live-trump-again-says-talks-underway-12-killed-in-south-tehran?update=4434434) \| [Euronews](https://es.euronews.com/2026/03/25/iran-responde-al-plan-de-paz-de-trump-no-llames-acuerdo-a-tu-derrota)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Reuters](https://jp.reuters.com/world/security/RUFQFT4QFJPMNAHHRPTHT7L
 
 Context: Pakistan has deep relationships with both Washington and Tehran, making them uniquely positioned to mediate. Turkey and Egypt have also offered to host talks if they help reduce tensions. Iran says it will send its formal response through Pakistan.
 
-Sources: [Reuters](https://jp.reuters.com/world/security/IKUND3AFFVIZHKUXFR5MR6ZIYU-2026-03-25/) | [Reuters](https://jp.reuters.com/world/security/XAW4VRSF6JMPXBKUUPHNJZJZV4-2026-03-25/)
+Sources: [Reuters](https://jp.reuters.com/world/security/IKUND3AFFVIZHKUXFR5MR6ZIYU-2026-03-25/) \| [Reuters](https://jp.reuters.com/world/security/XAW4VRSF6JMPXBKUUPHNJZJZV4-2026-03-25/)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [Reuters](https://jp.reuters.com/world/security/IKUND3AFFVIZHKUXFR5MR6Z
 
 Context: Global markets rallied sharply as Trump repeatedly signaled openness to negotiations with Iran. Oil prices fell significantly from recent highs, though they remain elevated compared to pre-conflict levels. However, BlackRock's CEO warned that if oil hits $150/barrel, it could trigger a global recession. [UNCONFIRMED - single source on BlackRock warning]
 
-Sources: [Euronews](https://www.euronews.com/business/2026/03/25/markets-rally-oil-prices-fall-as-trump-signals-iran-talks) | [Reuters](https://jp.reuters.com/markets/commodities/ZTKFEBKREJPLRDXHQ6TX6PJ4CE-2026-03-25/)
+Sources: [Euronews](https://www.euronews.com/business/2026/03/25/markets-rally-oil-prices-fall-as-trump-signals-iran-talks) \| [Reuters](https://jp.reuters.com/markets/commodities/ZTKFEBKREJPLRDXHQ6TX6PJ4CE-2026-03-25/)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Euronews](https://www.euronews.com/business/2026/03/25/markets-rally-o
 
 Context: The conflict has severely disrupted energy flows across Asia. The Philippines is particularly vulnerable and President Marcos declared a national energy emergency. Manila is now coordinating with Washington to obtain oil from countries under sanctions, suggesting the US may be relaxing enforcement to prevent allied energy crises.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/25/philippine-president-declares-energy-emergency-as-impact-of-iran-war-felt) | [Reuters](https://jp.reuters.com/world/us/JS5DQRWQ4ZMP5IE2JCJGLY324Q-2026-03-25/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/25/philippine-president-declares-energy-emergency-as-impact-of-iran-war-felt) \| [Reuters](https://jp.reuters.com/world/us/JS5DQRWQ4ZMP5IE2JCJGLY324Q-2026-03-25/)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [Reuters](https://jp.reuters.com/world/us/L5XIDGIUMZLNTLPSCGYNINMV2Y-20
 
 Context: Israeli strikes targeted the Iranian capital even as Trump claimed progress on talks. Iran responded by intensifying its own attacks on Israel and Gulf targets. The military situation on the ground doesn't match the diplomatic rhetoric—both sides are still actively fighting.
 
-Sources: [Reuters](https://jp.reuters.com/world/security/NUGLUUHWZFMF3HQG7E4FIRWIP4-2026-03-25/) | [Euronews](https://pt.euronews.com/2026/03/25/irao-intensifica-ataques-no-medio-oriente-mesmo-com-trump-a-dar-sinais-de-possivel-acordo)
+Sources: [Reuters](https://jp.reuters.com/world/security/NUGLUUHWZFMF3HQG7E4FIRWIP4-2026-03-25/) \| [Euronews](https://pt.euronews.com/2026/03/25/irao-intensifica-ataques-no-medio-oriente-mesmo-com-trump-a-dar-sinais-de-possivel-acordo)
 
 </details>
 

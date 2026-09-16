@@ -30,6 +30,7 @@ from models import load_config
 from run_pipeline import create_run_dir, get_timezone_offset
 from stages.editorial import run_editorial
 from stages.publish import run_publish
+from stages.render_check import run_render_check
 from stages.translate_fa import _split_frontmatter, run_translate_fa
 from stages.verify import run_verify
 from llm_client import AuditedLLMClient
@@ -100,6 +101,9 @@ def repair_date(date_str: str, config, prompt_name: str = "repair_editorial") ->
             prompt_name=prompt_name,
         )
         results["verify"] = run_verify(str(run_dir), config, llm_client, http_client)
+        results["render_check"] = run_render_check(
+            str(run_dir), config, llm_client, http_client
+        )
         results["publish"] = run_publish(str(run_dir), config, llm_client, http_client)
         results["translate_fa"] = run_translate_fa(
             str(run_dir), config, llm_client, http_client

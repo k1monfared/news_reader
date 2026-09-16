@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: JD Vance is leading the US delegation, which includes Trump's special envoy Steve Witkoff and son-in-law Jared Kushner. Iran sent a 70-member team led by Parliament Speaker Mohammad Bagher Ghalibaf. Pakistan's PM Shehbaz Sharif called the talks "make or break" and said weeks of back-channel diplomacy made them possible. The talks are supposed to make the two-week ceasefire permanent, but there's already confusion about what's actually on the table.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/4/11/iran-war-live-us-negotiators-due-to-arrive-in-pakistan-for-ceasefire-talks?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260411-live-vance-in-pakistan-for-peace-talks-with-iranian-officials) | [Euronews](http://www.euronews.com/2026/04/11/us-and-iranian-officials-arrive-in-pakistan-for-high-stakes-peace-talks-to-resolve-conflic)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/4/11/iran-war-live-us-negotiators-due-to-arrive-in-pakistan-for-ceasefire-talks?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260411-live-vance-in-pakistan-for-peace-talks-with-iranian-officials) \| [Euronews](http://www.euronews.com/2026/04/11/us-and-iranian-officials-arrive-in-pakistan-for-high-stakes-peace-talks-to-resolve-conflic)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/4/11/iran-war
 
 Context: This disagreement is causing real confusion about what the ceasefire even means. While negotiations were starting in Islamabad, Israel was still pounding Lebanon—and both sides are claiming the other is violating the deal. Iran won't start serious talks unless its "preconditions" are met, which apparently include Lebanon coverage. Vance warned Tehran not to "play" the US.
 
-Sources: [France 24](https://www.france24.com/en/iran-has-put-up-a-demand-that-lebanon-should-be-included-in-the-ceasefire) | [France 24](https://www.france24.com/en/middle-east/20260410-iran-sets-preconditions-ahead-of-ceasefire-talks-as-vance-warns-tehran-not-to-play-us)
+Sources: [France 24](https://www.france24.com/en/iran-has-put-up-a-demand-that-lebanon-should-be-included-in-the-ceasefire) \| [France 24](https://www.france24.com/en/middle-east/20260410-iran-sets-preconditions-ahead-of-ceasefire-talks-as-vance-warns-tehran-not-to-play-us)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [France 24](https://www.france24.com/en/iran-has-put-up-a-demand-that-l
 
 Context: The two countries have no diplomatic relations, so this is the first formal contact. But Israel's position makes a ceasefire unlikely—they're treating this as separate from the Iran talks and say Hezbollah is the main obstacle to peace. Lebanon's been getting hammered throughout the supposed ceasefire period, with over 350 killed on the first day of the US-Iran truce alone.
 
-Sources: [France 24](https://www.france24.com/en/israel-refuses-ceasefire-with-hezbollah) | [France 24](https://www.france24.com/en/middle-east/20260410-netanyahu-greenlights-israel-lebanon-talks-in-washington-amid-ceasefire-tensions)
+Sources: [France 24](https://www.france24.com/en/israel-refuses-ceasefire-with-hezbollah) \| [France 24](https://www.france24.com/en/middle-east/20260410-netanyahu-greenlights-israel-lebanon-talks-in-washington-amid-ceasefire-tensions)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [France 24](https://www.france24.com/en/israel-refuses-ceasefire-with-h
 
 Context: This is one of Iran's 10 conditions for ending the war. They say the money would help rebuild bombed infrastructure. The strait has been closed for weeks, triggering a massive energy crisis. There's confusion about whether it's even open now—the White House spokesperson first celebrated its reopening, then six minutes later called on Iran to reopen it. If it stays closed for three more weeks, Europe will face critical aviation fuel shortages.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/4/11/trump-says-strait-of-hormuz-to-reopen-soon-as-us-iran-head-to-talks?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260409-us-iran-ceasefire-why-tehran-wants-charge-ships-for-crossing-strait-of-hormuz) | [Euronews](http://www.euronews.com/business/2026/04/10/airport-council-warns-hormuz-closure-poses-major-fuel-shortage-risks)
+Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/4/11/trump-says-strait-of-hormuz-to-reopen-soon-as-us-iran-head-to-talks?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260409-us-iran-ceasefire-why-tehran-wants-charge-ships-for-crossing-strait-of-hormuz) \| [Euronews](http://www.euronews.com/business/2026/04/10/airport-council-warns-hormuz-closure-poses-major-fuel-shortage-risks)
 
 </details>
 
@@ -66,7 +66,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/04/10/us-inflation-sur
 
 Context: Lebanon's health ministry says nearly 900 were wounded. Israel launched wave after wave of strikes on Beirut and other areas with no advance notice. Residents said they thought "Beirut was going to collapse." The death toll has now passed 1,950 since the broader conflict began. Israel insists the Iran ceasefire doesn't apply to Lebanon, while Iran says it does—so both sides claim the other is violating the deal.
 
-Sources: [France 24](https://www.france24.com/en/middle-east/20260410-we-thought-beirut-was-going-to-collapse-recounting-the-deadliest-day-of-the-war-with-israel) | [France 24](https://www.france24.com/en/at-least-182-killed-as-israel-strikes-central-beirut-after-saying-iran-truce-doesn-t-apply-there)
+Sources: [France 24](https://www.france24.com/en/middle-east/20260410-we-thought-beirut-was-going-to-collapse-recounting-the-deadliest-day-of-the-war-with-israel) \| [France 24](https://www.france24.com/en/at-least-182-killed-as-israel-strikes-central-beirut-after-saying-iran-truce-doesn-t-apply-there)
 
 </details>
 
@@ -86,7 +86,7 @@ Sources: [Euronews](http://www.euronews.com/video/2026/04/10/israel-hezbollah-ro
 
 Context: The ceasefire was negotiated entirely between Washington and Tehran, leaving Israel out of the loop. Netanyahu finally made a statement saying Israel is ready to "return to battle at any moment" but didn't address the fact that none of the stated objectives were achieved. With his hands tied on Iran, he agreed to Lebanon talks under US pressure—right after vowing to continue the campaign there.
 
-Sources: [France 24](https://www.france24.com/en/middle-east/20260409-sidelined-trump-ceasefire-iran-israel-pummels-lebanon-agrees-talks-netanyahu) | [France 24](https://www.france24.com/en/netanyahu-fails-to-address-israel-s-failure-to-achieve-war-goals-in-iran)
+Sources: [France 24](https://www.france24.com/en/middle-east/20260409-sidelined-trump-ceasefire-iran-israel-pummels-lebanon-agrees-talks-netanyahu) \| [France 24](https://www.france24.com/en/netanyahu-fails-to-address-israel-s-failure-to-achieve-war-goals-in-iran)
 
 </details>
 

@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The ceasefire came into effect on April 17, but Israeli strikes have killed more than 400 people since then, according to Lebanese authorities. Lebanon is deeply split—some see this as a chance for stability, while Hezbollah's camp flatly rejects any normalization with Israel. The talks are happening under US mediation.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/14/what-is-on-the-table-during-lebanon-israel-direct-negotiations?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260514-lebanon-and-israel-to-hold-new-talks-in-washington-as-ceasefire-nears-end)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/14/what-is-on-the-table-during-lebanon-israel-direct-negotiations?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260514-lebanon-and-israel-to-hold-new-talks-in-washington-as-ceasefire-nears-end)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260512-iran-us-pea
 
 Context: Wednesday's strike brought the death toll to twelve. Since the April 17 ceasefire began, Israeli strikes have killed over 400 people in Lebanon, according to Lebanese health authorities. The timing—during active ceasefire extension talks in Washington—underscores the fragility of the truce.
 
-Sources: [France24](https://www.france24.com/en/israel-launches-fresh-strikes-on-lebanon-despite-ceasifre-and-ongoing-talks) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/14/two-killed-as-israel-ramps-up-southern-lebanon-attacks-ahead-of-us-talks?traffic_source=rss)
+Sources: [France24](https://www.france24.com/en/israel-launches-fresh-strikes-on-lebanon-despite-ceasifre-and-ongoing-talks) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/14/two-killed-as-israel-ramps-up-southern-lebanon-attacks-ahead-of-us-talks?traffic_source=rss)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260514-why-did-sau
 
 Context: A UK maritime agency reported the seizure Thursday without naming the vessel. This follows a pattern of ship seizures around the Strait of Hormuz since the war began. Trump and Xi just agreed in Beijing that the Strait must remain open—a key demand as the conflict drags into its third month.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260514-middle-east-live-lebanon-israel-to-hold-new-talks-in-us-before-ceasefire-expires-iran-war) | [Euronews](http://www.euronews.com/2026/05/14/ship-seized-near-uae-coast-headed-for-iranian-waters-uk-maritime-agency-says)
+Sources: [France24](https://www.france24.com/en/middle-east/20260514-middle-east-live-lebanon-israel-to-hold-new-talks-in-us-before-ceasefire-expires-iran-war) \| [Euronews](http://www.euronews.com/2026/05/14/ship-seized-near-uae-coast-headed-for-iranian-waters-uk-maritime-agency-says)
 
 </details>
 
@@ -77,7 +77,7 @@ Sources: [France24](https://www.france24.com/en/netanyahu-s-coalition-seeks-to-d
 
 Context: Netanyahu's office made the claim Wednesday, but the UAE foreign ministry swiftly denied it. Tehran's threat against countries "colluding with Israel" highlights the sensitivity of Gulf-Israel relations during the Iran conflict. The contradictory statements underscore the delicate regional diplomacy at play.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260513-middle-east-live-trump-says-stopping-iran-s-nuclear-program-outweighs-americans-economic-pain) | [Euronews](http://www.euronews.com/2026/05/14/uae-denies-netanyahu-offices-claim-of-secret-wartime-visit-as-iran-dubs-it-unforgivable)
+Sources: [France24](https://www.france24.com/en/middle-east/20260513-middle-east-live-trump-says-stopping-iran-s-nuclear-program-outweighs-americans-economic-pain) \| [Euronews](http://www.euronews.com/2026/05/14/uae-denies-netanyahu-offices-claim-of-secret-wartime-visit-as-iran-dubs-it-unforgivable)
 
 </details>
 

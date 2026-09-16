@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This represents a shift in diplomatic venues and format. Iran's foreign minister Abbas Araghchi traveled through Oman and Pakistan before going to Moscow for talks with Putin. Trump canceled the planned in-person Pakistan talks his envoys were scheduled to attend, saying a phone call between the US and Iran would suffice. Pakistan and Oman continue to work behind the scenes as mediators trying to prevent a return to open conflict.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/27/irans-foreign-minister-in-russia-for-talks?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/news/2026/4/27/iran-foreign-minister-in-russia-for-putin-talks?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260426-iran-top-diplomat-pakistan-russia-oman-trump-says-tehran-talk-phone)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/27/irans-foreign-minister-in-russia-for-talks?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/news/2026/4/27/iran-foreign-minister-in-russia-for-putin-talks?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260426-iran-top-diplomat-pakistan-russia-oman-trump-says-tehran-talk-phone)
 
 </details>
 
@@ -48,7 +48,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/04/27/how-can-europe-
 
 Context: Mojtaba Khamenei was named supreme leader after his father was killed in strikes almost two months ago, but he has not been seen publicly since. A mural recently appeared showing him alongside deceased Iranian leaders, fueling speculation that he was either killed or seriously injured in the February 28 strikes on Tehran. According to the Times, he fears for his life and participates in decision-making only through handwritten notes, avoiding any in-person appearances.
 
-Sources: [France24](https://www.france24.com/en/mojtaba-khamenei-remains-out-of-the-spotlight-in-iran) | [Euronews](http://www.euronews.com/2026/04/27/mystery-deepens-over-mojtaba-khameneis-condition-after-iran-unveils-martyr-mural)
+Sources: [France24](https://www.france24.com/en/mojtaba-khamenei-remains-out-of-the-spotlight-in-iran) \| [Euronews](http://www.euronews.com/2026/04/27/mystery-deepens-over-mojtaba-khameneis-condition-after-iran-unveils-martyr-mural)
 
 </details>
 

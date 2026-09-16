@@ -17,7 +17,7 @@ models_used: ["nemotron-3-ultra-free"]
 
 Context: After six months of war and a month-long lull, US forces struck Iranian rocket launchers on Larak Island Sunday — the first US military action since late July. The Pentagon said it targeted launchers threatening mine-clearing operations in the strait. Iran's Revolutionary Guards confirmed casualties and vowed retaliation; within hours they struck two US military bases in Jordan, and multiple outlets report additional strikes or drone activity targeting the UAE. Oil prices jumped on the news. The Strait of Hormuz, through which ~20% of global oil passes, has been closed by Iran since the war began, and the US has maintained a naval counter-blockade.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/8/31/war-on-iran-us-bombs-iran?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260830-us-forces-strike-iranian-launchers-on-larak-island-in-strait-of-hormuz) | [BBC](https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss) | [The Hindu](https://www.thehindu.com/news/international/us-forces-strike-iran-rocket-launcher-donald-trump-updates/article71408837.ece) | [NPR](https://www.npr.org/2026/08/31/g-s1-141175/attacks-flare-us-iran) | [DW](https://www.dw.com/en/iran-retaliates-condemns-us-strikes-on-larak-island/live-78566992?maca=en-rss-en-all-1573-xml-mrss) | [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/oil-prices-jump-amid-resumption-us-iran-clashes)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/8/31/war-on-iran-us-bombs-iran?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260830-us-forces-strike-iranian-launchers-on-larak-island-in-strait-of-hormuz) \| [BBC](https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss) \| [The Hindu](https://www.thehindu.com/news/international/us-forces-strike-iran-rocket-launcher-donald-trump-updates/article71408837.ece) \| [NPR](https://www.npr.org/2026/08/31/g-s1-141175/attacks-flare-us-iran) \| [DW](https://www.dw.com/en/iran-retaliates-condemns-us-strikes-on-larak-island/live-78566992?maca=en-rss-en-all-1573-xml-mrss) \| [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/oil-prices-jump-amid-resumption-us-iran-clashes)
 </details>
 
 <details markdown="block">
@@ -25,7 +25,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/8/31/war-on-
 
 Context: Trump called for Iran's leaders to be prosecuted for killing protesters and promised a harsh response. Iranian President Pezeshkian said continued conflict harms Iran but warned Tehran would "give a decisive response to the aggressors" if attacked again. The G20 finance ministers meeting today in Asheville, NC has Iran sanctions high on the agenda — the US is pressing allies to tighten financial isolation while simultaneously imposing tariffs on some of those same allies.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/31/trump-says-iran-is-dead-vows-to-respond-after-renewed-clashes?traffic_source=rss) | [France24](https://www.france24.com/en/trump-vows-to-hit-back-hard-after-first-exchange-of-fire-with-iran-in-weeks) | [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-blames-serpent-netanyahu-luring-washington-war-iran)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/31/trump-says-iran-is-dead-vows-to-respond-after-renewed-clashes?traffic_source=rss) \| [France24](https://www.france24.com/en/trump-vows-to-hit-back-hard-after-first-exchange-of-fire-with-iran-in-weeks) \| [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-blames-serpent-netanyahu-luring-washington-war-iran)
 </details>
 
 ## Israel-Gaza-West Bank
@@ -35,7 +35,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/31/trump-says-iran-i
 
 Context: Hamas reportedly agreed to a roadmap that includes disarming and Israeli forces leaving Gaza. The BBC's Gaza envoy Nickolay Mladenov warned a collapse of the ceasefire would be "a point of no return." Meanwhile, an Israeli strike near a bakery in Deir al-Balah killed a man and a 3-year-old boy, and Gaza medics say thousands remain missing ten months after the ceasefire.
 
-Sources: [BBC](https://www.bbc.co.uk/news/articles/c20e94k2ex5o?at_medium=RSS&at_campaign=rss) | [The Hindu](https://www.thehindu.com/news/international/israeli-strike-kills-two-people-including-a-3-year-old-boy-gaza-medics-say/article71408673.ece) | [BBC](https://www.bbc.co.uk/news/articles/ce34r0er75go?at_medium=RSS&at_campaign=rss)
+Sources: [BBC](https://www.bbc.co.uk/news/articles/c20e94k2ex5o?at_medium=RSS&at_campaign=rss) \| [The Hindu](https://www.thehindu.com/news/international/israeli-strike-kills-two-people-including-a-3-year-old-boy-gaza-medics-say/article71408673.ece) \| [BBC](https://www.bbc.co.uk/news/articles/ce34r0er75go?at_medium=RSS&at_campaign=rss)
 </details>
 
 <details markdown="block">
@@ -43,7 +43,7 @@ Sources: [BBC](https://www.bbc.co.uk/news/articles/c20e94k2ex5o?at_medium=RSS&at
 
 Context: National Security Minister Ben Gvir led a group onto the Al-Aqsa compound — a routine provocation that inflames tensions. Separately, settlers have been blocking supplies to Palestinian homes in Qusra since early August, effectively besieging residents. The BBC documented a week of settler attacks; one settler told them violence is justified as "revenge." Far-right MK Zvi Sukkot took a sledgehammer to a Palestinian memorial, drawing rare condemnation from Netanyahu.
 
-Sources: [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/ben-gvir-storms-al-aqsa-alongside-settlers-and-israeli-police) | [The Hindu](https://www.thehindu.com/news/international/dozens-of-israeli-settlers-attack-flashpoint-west-bank-village/article71405611.ece) | [BBC](https://www.bbc.co.uk/news/articles/c4g4djgdyk2o?at_medium=RSS&at_campaign=rss) | [BBC](https://www.bbc.co.uk/news/articles/c0lrw8325pzo?at_medium=RSS&at_campaign=rss)
+Sources: [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/ben-gvir-storms-al-aqsa-alongside-settlers-and-israeli-police) \| [The Hindu](https://www.thehindu.com/news/international/dozens-of-israeli-settlers-attack-flashpoint-west-bank-village/article71405611.ece) \| [BBC](https://www.bbc.co.uk/news/articles/c4g4djgdyk2o?at_medium=RSS&at_campaign=rss) \| [BBC](https://www.bbc.co.uk/news/articles/c0lrw8325pzo?at_medium=RSS&at_campaign=rss)
 </details>
 
 ## Regional Security
@@ -53,7 +53,7 @@ Sources: [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-upd
 
 Context: The deal for Israeli air defence systems comes as Greece watches the US-Iran conflict destabilize the Eastern Mediterranean and Turkey expand its own defence posture. Turkey separately announced it's preparing a roadmap to expand the Mecca defence alliance — a Saudi-backed pact — and Pakistan's foreign minister and army chief just arrived in Ankara for its first meeting. The region is rapidly realigning.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/31/why-has-greece-signed-a-3-5bn-missile-deal-with-israel?traffic_source=rss) | [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/greece-signs-35bn-air-defence-deal-israel) | [Middle East Eye](https://www.middleeasteye.net/news/greece-and-israel-sign-3-billion-air-defence-deal) | [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/turkey-says-roadmap-being-prepared-expand-mecca-defence-alliance) | [The Hindu](https://www.thehindu.com/news/international/pakistans-dar-munir-arrive-in-turkiye-ahead-of-first-makkah-defence-pact-meeting/article71408821.ece) | [JPost](https://www.jpost.com/israel-news/defense-news/article-907112) | [Euronews](http://www.euronews.com/my-europe/2026/08/31/israel-signs-3-billion-arms-export-deal-with-greece-defence-ministry-says)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/31/why-has-greece-signed-a-3-5bn-missile-deal-with-israel?traffic_source=rss) \| [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/greece-signs-35bn-air-defence-deal-israel) \| [Middle East Eye](https://www.middleeasteye.net/news/greece-and-israel-sign-3-billion-air-defence-deal) \| [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/turkey-says-roadmap-being-prepared-expand-mecca-defence-alliance) \| [The Hindu](https://www.thehindu.com/news/international/pakistans-dar-munir-arrive-in-turkiye-ahead-of-first-makkah-defence-pact-meeting/article71408821.ece) \| [JPost](https://www.jpost.com/israel-news/defense-news/article-907112) \| [Euronews](http://www.euronews.com/my-europe/2026/08/31/israel-signs-3-billion-arms-export-deal-with-greece-defence-ministry-says)
 </details>
 
 <details markdown="block">
@@ -71,7 +71,7 @@ Sources: [BBC](https://www.bbc.co.uk/news/articles/cn74m8e5rleo?at_medium=RSS&at
 
 Context: Treasury Secretary Scott Bessent is hosting the two-day meeting. India's Nirmala Sitharaman is attending. The dual pressure campaign — sanctions on Iran, tariffs on partners — is straining alliances. Meanwhile, the Pentagon just locked in seven-year missile production contracts, signaling long-term preparation for sustained conflict.
 
-Sources: [Euronews](http://www.euronews.com/business/2026/08/31/g20-finance-chiefs-gather-in-north-carolina-with-iran-sanctions-and-tariffs-in-focus) | [The Hindu](https://www.thehindu.com/news/national/nirmala-sitharaman-g-20-finance-ministerial-meet-us-asheville/article71409601.ece) | [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/pentagon-signs-seven-year-deals-boost-missile-production)
+Sources: [Euronews](http://www.euronews.com/business/2026/08/31/g20-finance-chiefs-gather-in-north-carolina-with-iran-sanctions-and-tariffs-in-focus) \| [The Hindu](https://www.thehindu.com/news/national/nirmala-sitharaman-g-20-finance-ministerial-meet-us-asheville/article71409601.ece) \| [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/pentagon-signs-seven-year-deals-boost-missile-production)
 </details>
 
 ## Disasters & Humanitarian
@@ -81,7 +81,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/08/31/g20-finance-chie
 
 Context: Flash floods from glacial lake outbursts devastated communities across Nepal and into Tibet. Chinese authorities reported 16 dead and 546 missing on their side. Nepal warns more floods are possible as upstream water levels rise. India's rapid response includes four relief flights and engineering assets for reconstruction.
 
-Sources: [The Hindu](https://www.thehindu.com/news/international/nepal-tibet-flash-floods-death-toll-updates-august-31-2026/article71409806.ece) | [The Hindu](https://www.thehindu.com/news/international/india-provides-685-tonnes-of-relief-bailey-bridge-tunnel-expertise-to-flood-hit-nepal/article71407149.ece) | [The Hindu](https://www.thehindu.com/news/international/nepal-warns-of-more-possible-floods-as-communities-grapple-with-devastation/article71407092.ece)
+Sources: [The Hindu](https://www.thehindu.com/news/international/nepal-tibet-flash-floods-death-toll-updates-august-31-2026/article71409806.ece) \| [The Hindu](https://www.thehindu.com/news/international/india-provides-685-tonnes-of-relief-bailey-bridge-tunnel-expertise-to-flood-hit-nepal/article71407149.ece) \| [The Hindu](https://www.thehindu.com/news/international/nepal-warns-of-more-possible-floods-as-communities-grapple-with-devastation/article71407092.ece)
 </details>
 
 <details markdown="block">
@@ -107,7 +107,7 @@ Sources: [Euronews](http://www.euronews.com/video/2026/08/31/flash-flood-hits-gr
 
 Context: Mladić commanded Bosnian Serb forces during the 1992-95 war. The ICTY convicted him of genocide, crimes against humanity, and war crimes — including the 1995 Srebrenica massacre of 8,000+ Muslim men and boys. His death closes a chapter, but the political fractures he embodied still shape Bosnia today.
 
-Sources: [DW](https://www.dw.com/en/ratko-mladic-the-man-behind-srebrenica-massacre-dies-at-84/a-78536491?maca=en-rss-en-all-1573-xml-mrss) | [DW](https://www.dw.com/en/ex-bosnian-serb-military-leader-ratko-mladic-dead-at-84/a-78531323?maca=en-rss-en-all-1573-xml-mrss)
+Sources: [DW](https://www.dw.com/en/ratko-mladic-the-man-behind-srebrenica-massacre-dies-at-84/a-78536491?maca=en-rss-en-all-1573-xml-mrss) \| [DW](https://www.dw.com/en/ex-bosnian-serb-military-leader-ratko-mladic-dead-at-84/a-78531323?maca=en-rss-en-all-1573-xml-mrss)
 </details>
 
 **What to watch:** Whether the US-Iran exchange escalates into sustained daily strikes or settles back into the "blockade vs. counter-blockade" stalemate — and if Hamas's reported disarmament offer gets a serious Israeli response or gets buried in the war noise.

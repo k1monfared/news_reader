@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: مذاکرات پس از آنکه معاون رئیس‌جمهور آمریکا جی‌دی ونس هفته‌ها پیش پاکستان را بدون توافق ترک کرد، متوقف شده بود. اکنون تأیید شده که وزیر امور خارجه ایران عراقچی شب جمعه به اسلام‌آباد می‌رسد، هرچند مشخص نیست که آیا ونس یا دیگر مقامات ارشد آمریکایی بازخواهند گشت. در همین حال، ساکنان شهرهای دوقلوی پاکستان با بسته شدن راه‌ها، تعطیلی دادگاه‌ها و اختلال اقتصادی ناشی از میزبانی این مذاکرات دست و پنجه نرم می‌کنند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260424-middle-east-war-live-israel-lebanon-ceasefire-continues-as-trump-hopes-for-peace-deal)
+منابع: [Al Jazeera](https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260424-middle-east-war-live-israel-lebanon-ceasefire-continues-as-trump-hopes-for-peace-deal)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ روز پنج‌شنبه تمدید را اعلام کرد و گفت که اسرائیل و لبنان هر دو با آن موافقت کرده‌اند. آتش‌بس برقرار مانده اما همچنان متشنج است، و اسرائیل و حزب‌الله یکدیگر را به نقض آن متهم می‌کنند. این در حالی است که ترامپ به طور جداگانه به نیروی دریایی آمریکا دستور داد هر قایقی که در تنگه هرمز مین می‌گذارد را هدف قرار دهد و عملیات پاکسازی مین را در آنجا سه برابر کرد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260423-middle-east-war-live-lebanon-meets-israel-in-washington-to-request-truce-extension) | [Euronews](http://www.euronews.com/2026/04/24/trump-says-israel-hezbollah-ceasefire-extended-by-three-weeks)
+منابع: [France24](https://www.france24.com/en/middle-east/20260423-middle-east-war-live-lebanon-meets-israel-in-washington-to-request-truce-extension) \| [Euronews](http://www.euronews.com/2026/04/24/trump-says-israel-hezbollah-ceasefire-extended-by-three-weeks)
 
 </details>
 
@@ -67,7 +67,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: یک ایمیل داخلی پنتاگون که توسط Reuters به دست آمده، نشان می‌دهد واشنگتن در حال سنجیدن تلافی علیه متحدان ناتو است که از عملیات ایران حمایت نکرده‌اند. اسپانیا به طور خاص استفاده آمریکا از پایگاه‌ها و حریم هوایی خود را رد کرد. ایمیل همچنین اشاره‌ای به فشار بر هزینه‌های دفاعی دارد، که نشان می‌دهد آمریکا ممکن است از اهرم‌های متعدد علیه متحدانی که به نظرش نقش خود را ایفا نمی‌کنند، استفاده کند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/4/24/us-weighs-retaliation-against-nato-allies-over-iran-war-divisions-reuters?traffic_source=rss) | [Euronews](http://www.euronews.com/my-europe/2026/04/24/pentagon-considers-suspending-spain-from-nato)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/4/24/us-weighs-retaliation-against-nato-allies-over-iran-war-divisions-reuters?traffic_source=rss) \| [Euronews](http://www.euronews.com/my-europe/2026/04/24/pentagon-considers-suspending-spain-from-nato)
 
 </details>
 

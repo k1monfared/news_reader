@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Abbas Araghchi landed in Pakistan late Friday for what Iran's calling "bilateral consultations." The White House confirmed Steve Witkoff and Jared Kushner are heading there Saturday morning. Iran's ministry has ruled out direct talks with the US team, but having both sides in the same city is still the closest thing to negotiations we've seen. Yesterday we just knew talks were being planned—now they're actually happening.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/25/iran-war-whats-happening-on-day-57-as-us-envoys-head-to-pakistan?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260424-middle-east-war-live-israel-lebanon-ceasefire-continues-as-trump-hopes-for-peace-deal) | [Euronews](http://www.euronews.com/2026/04/24/hegseth-warns-iran-to-make-wise-deal-ahead-of-possible-talks)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/25/iran-war-whats-happening-on-day-57-as-us-envoys-head-to-pakistan?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260424-middle-east-war-live-israel-lebanon-ceasefire-continues-as-trump-hopes-for-peace-deal) \| [Euronews](http://www.euronews.com/2026/04/24/hegseth-warns-iran-to-make-wise-deal-ahead-of-possible-talks)
 
 </details>
 

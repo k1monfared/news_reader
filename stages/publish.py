@@ -20,7 +20,9 @@ def _date_from_run_dir(run_dir: str) -> str:
     return Path(run_dir).name[:10]
 
 
-def _build_frontmatter(config: PipelineConfig, run_dir: str, models: list[str]) -> str:
+def _build_frontmatter(
+    config: PipelineConfig, run_dir: str, models: list[str], backfilled: bool = False
+) -> str:
     """Build Jekyll frontmatter for the final post."""
     date_str = _date_from_run_dir(run_dir)
     date_obj = datetime.strptime(date_str, "%Y-%m-%d")
@@ -35,18 +37,32 @@ def _build_frontmatter(config: PipelineConfig, run_dir: str, models: list[str]) 
             pass
 
     generated_at = datetime.now(timezone(timedelta(hours=-7))).strftime("%Y-%m-%d %H:%M %Z")
+    title_suffix = " (backfilled)" if backfilled else ""
 
-    return (
+    frontmatter = (
         "---\n"
         "layout: post\n"
-        f'title: "Daily Brief: {date_obj.strftime("%B %d, %Y")}"\n'
+        f'title: "Daily Brief: {date_obj.strftime("%B %d, %Y")}{title_suffix}"\n'
         f"date: {date_str}\n"
         "categories: [daily-brief]\n"
         f"sources_down: {json.dumps(sources_down)}\n"
         f'generated_at: "{generated_at}"\n'
         f"models_used: {json.dumps(models)}\n"
-        "---\n\n"
     )
+    if backfilled:
+        frontmatter += "backfilled: true\n"
+    return frontmatter + "---\n\n"
+
+
+def _is_backfill_run(run_dir: str) -> bool:
+    """True when run_meta.json marks this run as a backfill."""
+    meta_path = Path(run_dir) / "run_meta.json"
+    if not meta_path.exists():
+        return False
+    try:
+        return bool(json.loads(meta_path.read_text()).get("backfill"))
+    except (json.JSONDecodeError, KeyError):
+        return False
 
 
 def _models_used(run_dir: str, config: PipelineConfig) -> list[str]:
@@ -95,7 +111,9 @@ def run_publish(
 
     report_content = report_path.read_text()
     models = _models_used(run_dir, config)
-    frontmatter = _build_frontmatter(config, run_dir, models)
+    frontmatter = _build_frontmatter(
+        config, run_dir, models, backfilled=_is_backfill_run(run_dir)
+    )
 
     # Determine post filename from run_id target date
     date_str = _date_from_run_dir(run_dir)

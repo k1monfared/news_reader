@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is the biggest one-day oil price surge in four decades. Brent crude opened around $95 on Friday and shot up after Iran torched Bahrain's only refinery and hit other Gulf energy sites over the weekend. The spike is hitting global markets hard—European stocks are down, bond yields are up, and countries that depend on Middle Eastern oil (basically all of Asia) have very few alternatives.
 
-Sources: [Euronews](https://www.euronews.com/2026/03/09/oil-prices-soar-as-iran-launches-more-attacks-across-the-region) | [Al Jazeera](https://www.aljazeera.com/economy/2026/3/9/oil-soars-past-100-a-barrel-amid-iran-war) | [Reuters](https://jp.reuters.com/markets/japan/QWI2O6KUSRMWHHZOV5LKXCLT4E-2026-03-09/)
+Sources: [Euronews](https://www.euronews.com/2026/03/09/oil-prices-soar-as-iran-launches-more-attacks-across-the-region) \| [Al Jazeera](https://www.aljazeera.com/economy/2026/3/9/oil-soars-past-100-a-barrel-amid-iran-war) \| [Reuters](https://jp.reuters.com/markets/japan/QWI2O6KUSRMWHHZOV5LKXCLT4E-2026-03-09/)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Euronews](https://www.euronews.com/2026/03/09/oil-prices-soar-as-iran-
 
 Context: France says G7 finance ministers discussed coordinated reserve releases today, but no one's committed yet. The EU is scrambling because this oil shock could reignite inflation just when they thought they had it under control. Putin offered to sell more Russian oil and gas to Europe as prices surge. [UNCONFIRMED]
 
-Sources: [Euronews](https://www.euronews.com/business/2026/03/09/g7-not-there-yet-on-releasing-oil-reserves-as-iran-war-drives-price-surge) | [Reuters](https://jp.reuters.com/markets/commodities/3RNSP7Q6YRLUBDD53J77JX72SE-2026-03-09/) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/9/putin-says-russia-can-supply-oil-gas-to-europe-amid-global-energy-crisis)
+Sources: [Euronews](https://www.euronews.com/business/2026/03/09/g7-not-there-yet-on-releasing-oil-reserves-as-iran-war-drives-price-surge) \| [Reuters](https://jp.reuters.com/markets/commodities/3RNSP7Q6YRLUBDD53J77JX72SE-2026-03-09/) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/9/putin-says-russia-can-supply-oil-gas-to-europe-amid-global-energy-crisis)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/9/bangladesh-shuts-u
 
 Context: The first Iranian missile that wandered into Turkish airspace was shot down on March 4. Now there's been another. The US temporarily suspended consular services in Adana, in southern Turkey, citing security concerns.
 
-Sources: [Euronews](https://www.euronews.com/my-europe/2026/03/09/nato-intercepts-a-second-iranian-missile-in-turkish-airspace) | [Reuters](https://jp.reuters.com/world/security/VHPCAWBD7VOB7FGIDHPU27YUEM-2026-03-09/)
+Sources: [Euronews](https://www.euronews.com/my-europe/2026/03/09/nato-intercepts-a-second-iranian-missile-in-turkish-airspace) \| [Reuters](https://jp.reuters.com/world/security/VHPCAWBD7VOB7FGIDHPU27YUEM-2026-03-09/)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [Reuters](https://jp.reuters.com/world/us/DNAE2YOO6NPGLGUWSHBLFVP4KE-20
 
 Context: Yesterday we learned who Mojtaba was. Today the Assembly of Experts made it official and the world started weighing in. Trump reportedly said the war with Iran is "largely over" and he's already thinking about who should replace the Khameneis entirely—though this contradicts what's actually happening on the ground as Iran continues launching strikes. Mojtaba is considered a hardliner and has zero interest in negotiating with the US, so this probably means the war drags on.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/9/world-reacts-to-appointment-of-mojtaba-khamenei-as-irans-supreme-leader) | [Euronews](https://www.euronews.com/2026/03/09/iran-names-mojtaba-khamenei-as-supreme-leader-to-succeed-late-father-ayatollah-ali-khamene) | [Reuters](https://jp.reuters.com/world/us/RQJPKNF5V5IO5IK5VOBIEEDFZU-2026-03-08/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/9/world-reacts-to-appointment-of-mojtaba-khamenei-as-irans-supreme-leader) \| [Euronews](https://www.euronews.com/2026/03/09/iran-names-mojtaba-khamenei-as-supreme-leader-to-succeed-late-father-ayatollah-ali-khamene) \| [Reuters](https://jp.reuters.com/world/us/RQJPKNF5V5IO5IK5VOBIEEDFZU-2026-03-08/)
 
 </details>
 
@@ -104,7 +104,7 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/09/iran-israel-war-middl
 
 Context: European capitals are panicking about oil prices and the risk of the war spilling into the eastern Mediterranean. France just deployed 12 warships to the Med and Red Sea to defend allies. Macron flew to Cyprus for a trilateral summit with Greece and Cyprus, where he said "an attack on Cyprus is an attack on Europe"—a not-so-subtle warning to Iran.
 
-Sources: [Euronews](https://www.euronews.com/my-europe/2026/03/09/trilateral-meeting-in-paphos-any-attack-on-cyprus-is-an-attack-on-europe) | [Reuters](https://jp.reuters.com/world/security/N7PR33EIB5KR5D5DFFGHSDPXBY-2026-03-09/)
+Sources: [Euronews](https://www.euronews.com/my-europe/2026/03/09/trilateral-meeting-in-paphos-any-attack-on-cyprus-is-an-attack-on-europe) \| [Reuters](https://jp.reuters.com/world/security/N7PR33EIB5KR5D5DFFGHSDPXBY-2026-03-09/)
 
 </details>
 
@@ -133,7 +133,7 @@ Sources: [Reuters](https://jp.reuters.com/world/us/62P6RXT6KFPIHABU27ZISPB4SM-20
 
 Context: This contradicts what's actually happening on the ground—Iran is still launching strikes and just torched a major refinery. Either Trump is discussing Iran's military capacity to sustain a long war rather than current operations, or the assessment is wildly optimistic. The comment about having a Khamenei replacement picked out suggests the US is planning for regime change, not just a military campaign.
 
-Sources: [Reuters](https://jp.reuters.com/world/security/ECGDHVUBDBORXFMTRNO7BQO3RU-2026-03-09/) | [Euronews](https://arabic.euronews.com/2026/03/09/trump-the-iranian-war-is-largely-over-and-i-have-considered-someone-to-replace-khamenei)
+Sources: [Reuters](https://jp.reuters.com/world/security/ECGDHVUBDBORXFMTRNO7BQO3RU-2026-03-09/) \| [Euronews](https://arabic.euronews.com/2026/03/09/trump-the-iranian-war-is-largely-over-and-i-have-considered-someone-to-replace-khamenei)
 
 </details>
 

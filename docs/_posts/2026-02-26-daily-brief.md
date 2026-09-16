@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Multiple reports confirm the talks began today, with Iran's foreign ministry saying they presented proposals and made "some progress" during the session. Evening meetings were planned to see if they could reach a breakthrough on the core issues: sanctions relief vs. dismantling nuclear infrastructure. The talks focused on the fundamental trade-off between lifting economic sanctions and reducing nuclear capabilities.
 
-Sources: [Euronews (French)](https://fr.euronews.com/2026/02/26/a-geneve-les-negociations-sur-le-nucleaire-reprennent-entre-les-etats-unis-et-liran) | [Euronews (Greek)](https://gr.euronews.com/2026/02/26/epanenarxi-ton-sinomilion-ipa-iran-gia-ta-pirinika-sti-genevi-en-meso-neon-apeilon) | [Euronews (Turkish)](https://tr.euronews.com/2026/02/26/abd-iran-nukleer-gorusmelerinde-onemli-ilerleme-kaydedildi) | [Euronews (Arabic)](https://arabic.euronews.com/2026/02/26/iranian-foreign-ministry-proposals-were-presented-during-todays-negotiations-and-some-o)
+Sources: [Euronews (French)](https://fr.euronews.com/2026/02/26/a-geneve-les-negociations-sur-le-nucleaire-reprennent-entre-les-etats-unis-et-liran) \| [Euronews (Greek)](https://gr.euronews.com/2026/02/26/epanenarxi-ton-sinomilion-ipa-iran-gia-ta-pirinika-sti-genevi-en-meso-neon-apeilon) \| [Euronews (Turkish)](https://tr.euronews.com/2026/02/26/abd-iran-nukleer-gorusmelerinde-onemli-ilerleme-kaydedildi) \| [Euronews (Arabic)](https://arabic.euronews.com/2026/02/26/iranian-foreign-ministry-proposals-were-presented-during-todays-negotiations-and-some-o)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Euronews (French)](https://fr.euronews.com/2026/02/26/a-geneve-les-neg
 
 Context: Esfandiari's case is suddenly getting attention as a potential chip in broader prisoner negotiations between France and Iran. The timing—right as US-Iran nuclear talks restart—suggests Western countries might be coordinating on detainee issues.
 
-Sources: [Euronews (English)](https://www.euronews.com/2026/02/26/iranian-woman-jailed-in-france-may-become-pawn-in-iran-prisoner-swap) | [Euronews (French)](https://fr.euronews.com/2026/02/26/condamnee-a-paris-liranienne-mahdieh-esfandiari-au-centre-dun-possible-echange-de-detenus) | [Euronews (Turkish)](https://tr.euronews.com/2026/02/26/fransada-terorizmi-yuceltme-sucundan-ceza-alan-iranli-tahran-ile-olasi-mahkum-takasinda-gu)
+Sources: [Euronews (English)](https://www.euronews.com/2026/02/26/iranian-woman-jailed-in-france-may-become-pawn-in-iran-prisoner-swap) \| [Euronews (French)](https://fr.euronews.com/2026/02/26/condamnee-a-paris-liranienne-mahdieh-esfandiari-au-centre-dun-possible-echange-de-detenus) \| [Euronews (Turkish)](https://tr.euronews.com/2026/02/26/fransada-terorizmi-yuceltme-sucundan-ceza-alan-iranli-tahran-ile-olasi-mahkum-takasinda-gu)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [Euronews (English)](https://www.euronews.com/2026/02/26/iranian-woman-
 
 Context: This would let the US avoid being seen as the aggressor while still supporting Israel militarily. The reports indicate administration officials are gaming out scenarios where diplomacy fails and someone has to hit Iran's nuclear sites, though the seriousness of this planning remains unclear.
 
-Sources: [Euronews (Spanish)](https://es.euronews.com/2026/02/26/estados-unidos-prefiere-que-israel-sea-el-iniciador-de-los-ataques-contra-iran) | [Euronews (Hungarian)](https://hu.euronews.com/2026/02/26/izrael-tamadjon-elobb-iranra-es-csak-utana-jojjon-amerika-ezt-fontolgatjak-trump-emberei)
+Sources: [Euronews (Spanish)](https://es.euronews.com/2026/02/26/estados-unidos-prefiere-que-israel-sea-el-iniciador-de-los-ataques-contra-iran) \| [Euronews (Hungarian)](https://hu.euronews.com/2026/02/26/izrael-tamadjon-elobb-iranra-es-csak-utana-jojjon-amerika-ezt-fontolgatjak-trump-emberei)
 
 </details>
 

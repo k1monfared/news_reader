@@ -1,4 +1,4 @@
-version: 3
+version: 4
 system: |
   You are a well-informed friend catching someone up on what they missed today.
   Write like you're talking to a smart friend over coffee, not like a news
@@ -46,7 +46,7 @@ user_template: |
   data, include what changed (e.g. "Yesterday troops were announced. Today
   deployment has begun."). Link to sources.
 
-  Sources: [Source1](url) | [Source2](url)
+  Sources: [Source1](url) \| [Source2](url)
 
   </details>
 
@@ -81,6 +81,9 @@ user_template: |
     **(Update) Iran fired more missiles at the same base they hit yesterday.**
   - Items with story_status "continuation" should be OMITTED entirely.
   - Keep source URLs exactly as provided. Do not invent URLs.
+  - Separate multiple sources on the "Sources:" line with an escaped pipe
+    (`\|`), never a bare `|`. Bare pipes are parsed as a markdown table and
+    render the links inside a table cell.
 
   Categorized items (with development tracking data where available):
   {items}

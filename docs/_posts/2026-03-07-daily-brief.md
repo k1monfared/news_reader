@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This marks one of the heaviest Israeli air campaigns against Tehran so far. Multiple sources report violent explosions throughout the city. A US official separately told media that massive bombing runs are planned. The US has already positioned a supersonic B-1 bomber in the UK for potential strikes.
 
-Sources: [Euronews](https://www.euronews.com/2026/03/07/explosions-rock-tehran-as-us-official-warns-biggest-bombing-of-war-is-coming) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/7/tehran-pounded-in-week-two-of-us-israel-war-iran-targets-israel)
+Sources: [Euronews](https://www.euronews.com/2026/03/07/explosions-rock-tehran-as-us-official-warns-biggest-bombing-of-war-is-coming) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/7/tehran-pounded-in-week-two-of-us-israel-war-iran-targets-israel)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Euronews](https://www.euronews.com/2026/03/07/explosions-rock-tehran-a
 
 Context: A Euronews journalist was at Dubai airport when a drone struck nearby, causing evacuations and black smoke visible from the terminal. Iran apologized to Gulf countries later in the day but said it would continue strikes if attacks are launched from their territory. This is the most aggressive Iranian action against Gulf neighbors in the conflict so far.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/7/iranian-missiles-intercepted-over-saudi-jordan-drones-launched-at-qatar) | [Euronews](https://pt.euronews.com/2026/03/07/ataque-com-drones-iranianos-suspende-voos-no-aeroporto-internacional-do-dubai)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/7/iranian-missiles-intercepted-over-saudi-jordan-drones-launched-at-qatar) \| [Euronews](https://pt.euronews.com/2026/03/07/ataque-com-drones-iranianos-suspende-voos-no-aeroporto-internacional-do-dubai)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/7/iranian-missiles-i
 
 Context: This represents a significant escalation in Lebanon as Israeli forces appear to be opening a new front. Hezbollah confirmed direct ground clashes with Israeli troops in eastern Lebanon for the first time in this phase of fighting.
 
-Sources: [Euronews](https://tr.euronews.com/2026/03/07/israilin-lubnana-saldirilari-yogunlasti-en-az-41-kisi-oldu) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/7/hezbollah-israeli-troops-clash-on-the-ground-in-eastern-lebanons-bekaa)
+Sources: [Euronews](https://tr.euronews.com/2026/03/07/israilin-lubnana-saldirilari-yogunlasti-en-az-41-kisi-oldu) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/7/hezbollah-israeli-troops-clash-on-the-ground-in-eastern-lebanons-bekaa)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Euronews](https://tr.euronews.com/2026/03/07/israilin-lubnana-saldiril
 
 Context: This is a significant diplomatic move after Iran hit civilian infrastructure across the Gulf overnight. Qatar specifically accused Tehran of targeting civilian facilities and threatened to reserve the right to respond. Pezeshkian's conditional apology suggests Iran wants to keep Gulf states neutral but won't tolerate US or Israeli staging operations from their soil.
 
-Sources: [Euronews](https://arabic.euronews.com/2026/03/07/no-enmity-pezeshkian-officially-apologizes-to-the-gulf-states) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/7/iran-to-halt-strikes-on-neighbours-unless-attacks-from-there-pezeshkian)
+Sources: [Euronews](https://arabic.euronews.com/2026/03/07/no-enmity-pezeshkian-officially-apologizes-to-the-gulf-states) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/7/iran-to-halt-strikes-on-neighbours-unless-attacks-from-there-pezeshkian)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [Euronews](https://es.euronews.com/2026/03/07/azerbaiyan-difunde-imagen
 
 Context: This is Trump's clearest statement yet on war aims. He's ruling out any diplomatic off-ramp short of total Iranian capitulation. Pezeshkian responded that surrender is "a dream they'll take to their graves."
 
-Sources: [Reuters](https://jp.reuters.com/world/us/4L5ER4IGAROIXLODMKLE65RWEY-2026-03-07/) | [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/7/iran-war-live-trump-says-no-deal-with-iran-until-unconditional-surrender)
+Sources: [Reuters](https://jp.reuters.com/world/us/4L5ER4IGAROIXLODMKLE65RWEY-2026-03-07/) \| [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/7/iran-war-live-trump-says-no-deal-with-iran-until-unconditional-surrender)
 
 </details>
 
@@ -93,7 +93,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/7/trump-administrati
 
 Context: If true, Russian intelligence sharing would mark a major escalation in Moscow's involvement. The US denial may be diplomatic cover to avoid opening a second front with Russia, or a genuine assessment that the intelligence sharing is minimal.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/7/us-downplays-reports-russia-gave-iran-intel-to-help-tehran-strike-us-assets) | [Euronews](https://www.euronews.com/2026/03/07/russia-allegedly-provided-iran-with-intel-that-could-help-it-strike-us-military-sources-sa)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/7/us-downplays-reports-russia-gave-iran-intel-to-help-tehran-strike-us-assets) \| [Euronews](https://www.euronews.com/2026/03/07/russia-allegedly-provided-iran-with-intel-that-could-help-it-strike-us-military-sources-sa)
 
 </details>
 

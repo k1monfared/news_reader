@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: آمریکا ابتدا پس از متهم کردن تهران به سرنگون کردن یک بالگرد آپاچی ارتش آمریکا نزدیک تنگه هرمز، به سایت‌های راداری ساحلی در ایران حمله کرد. سپس آمریکا حملات را گسترش داد تا شامل تاسیسات آبی شود که واشنگتن آن را «پاسخی متناسب» نامید. ایران مسئولیت حادثه بالگرد را رد می‌کند و عهد تلافی کرده است. رسانه‌های ایرانی از انفجارهایی در جزیره قشم خبر دادند. این نخستین حملات مستقیم آمریکا در داخل خاک ایران از زمان تشدید درگیری است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/10/us-bombs-irans-water-facilities-why-thats-so-significant?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260610-us-iran-airstrikes-trump-tehran-downing-army-helicopter)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/10/us-bombs-irans-water-facilities-why-thats-so-significant?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260610-us-iran-airstrikes-trump-tehran-downing-army-helicopter)
 
 </details>
 

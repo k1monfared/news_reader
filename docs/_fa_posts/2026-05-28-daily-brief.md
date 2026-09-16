@@ -45,7 +45,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: آمریکا پنج‌شنبه به ایستگاه کنترل در جنوب ایران حمله کرد. ایران با هدف قرار دادن پایگاه آمریکایی تلافی کرد. در همین حال، ایران رسماً آمریکا را به نقض آتش‌بس با حملات قبلی نزدیک تنگه هرمز که واشنگتن می‌گوید حملات دفاعی به سایت‌های موشکی و کشتی‌های گذاشتن مین بودند، متهم کرد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260527-us-strikes-iran-tehran-retaliates-with-attack-on-american-base) | [Euronews](http://www.euronews.com/2026/05/28/hopes-for-peace-deal-fade-as-us-and-iran-exchange-fire-again)
+منابع: [France24](https://www.france24.com/en/middle-east/20260527-us-strikes-iran-tehran-retaliates-with-attack-on-american-base) \| [Euronews](http://www.euronews.com/2026/05/28/hopes-for-peace-deal-fade-as-us-and-iran-exchange-fire-again)
 
 </details>
 

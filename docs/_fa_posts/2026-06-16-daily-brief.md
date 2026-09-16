@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این آخرین خبر درباره توافق غافلگیرکننده آمریکا و ایران است که آخر هفته اعلام شد. پاکستان واسطه تفاهم‌نامه‌ای بود که خواستار پایان «فوری و دائمی» عملیات نظامی در همه جبهه‌ها از جمله لبنان است. مراسم رسمی امضا برای ۱۹ ژوئن در سوئیس برنامه‌ریزی شده است.
 
-منابع: [France 24](https://www.france24.com/en/middle-east/20260615-middle-east-live-trump-to-meet-with-g7-leaders-following-announcement-of-memorandum-with-iran) | [France 24](https://www.france24.com/en/middle-east/20260615-us-and-iran-agree-to-memorandum-of-understanding-and-immediate-end-to-military-operations) | [France 24](https://www.france24.com/en/us-iran-reach-deal-to-end-war)
+منابع: [France 24](https://www.france24.com/en/middle-east/20260615-middle-east-live-trump-to-meet-with-g7-leaders-following-announcement-of-memorandum-with-iran) \| [France 24](https://www.france24.com/en/middle-east/20260615-us-and-iran-agree-to-memorandum-of-understanding-and-immediate-end-to-military-operations) \| [France 24](https://www.france24.com/en/us-iran-reach-deal-to-end-war)
 
 </details>
 

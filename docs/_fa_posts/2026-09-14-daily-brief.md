@@ -1,16 +1,17 @@
 ---
 layout: post
 lang: fa
-title: "گزارش روزانه: ۲۳ شهریور ۱۴۰۵"
+title: "گزارش روزانه: ۲۳ شهریور ۱۴۰۵ (با تأخیر)"
 date: 2026-09-14
 date_fa: "۲۳ شهریور ۱۴۰۵"
+backfilled: true
 sources_down: []
 generated_at: "2026-09-16 12:16 UTC-07:00"
 models_used: ["deepseek-v4-flash"]
 ---
 
-<details>
-<summary>امروز تحول مهمی گزارش نشده است</summary>
+<details markdown="block">
+<summary markdown="span">امروز تحول مهمی گزارش نشده است</summary>
 
 **یادداشت دامنه.** مجموعه منابع شامل هیچ تبادل نظامی مستقیم آمریکا/اسرائیل–ایران در این دوره نیست. تحولات زیر مرتبط با درگیری ایران بین ۱۴ و ۱۵ سپتامبر گزارش شده است.
 

@@ -26,7 +26,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260726-us-holds-fi
 
 Context: Trump's threats follow Houthi strikes on Saudi tankers in the Red Sea that pushed oil above $100 a barrel. On Thursday, he explicitly said he's considering a "massive attack" on Iran—the most concrete escalation threat yet from the White House.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260723-trump-threatens-iran-and-houthi-rebels-with-major-military-punishment) | [France24](https://www.france24.com/en/iran-warns-countries-aiding-us-attack)
+Sources: [France24](https://www.france24.com/en/middle-east/20260723-trump-threatens-iran-and-houthi-rebels-with-major-military-punishment) \| [France24](https://www.france24.com/en/iran-warns-countries-aiding-us-attack)
 
 </details>
 
@@ -57,7 +57,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260724-yemen-s-hou
 
 Context: Ukraine claims it struck Russian equipment bound for Iran and says Moscow gave Tehran satellite data to help target US sites in the Middle East. Iran has condemned the Caspian Sea strike, raising questions about whether the conflict—already spanning the Strait of Hormuz and Red Sea—is now reaching a third maritime theater.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/26/after-strait-of-hormuz-and-red-sea-has-iran-war-now-reached-caspian-sea?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/07/26/ukraine-strikes-russian-iran-bound-cargo-as-iran-war-widens)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/26/after-strait-of-hormuz-and-red-sea-has-iran-war-now-reached-caspian-sea?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/07/26/ukraine-strikes-russian-iran-bound-cargo-as-iran-war-widens)
 
 </details>
 

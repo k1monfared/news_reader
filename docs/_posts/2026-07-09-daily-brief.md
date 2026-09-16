@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump declared the fragile ceasefire "over" yesterday and warned attacks could get "much worse." US Central Command followed through with strikes targeting Iran's naval capabilities in the strategic waterway. The timeline represents an escalation from Trump's NATO summit declaration to actual military action across two consecutive nights.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/9/deadly-us-strikes-trigger-iranian-attacks-on-gulf-states?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260709-us-launches-new-strikes-on-iran-trump-says-they-could-get-much-worse)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/9/deadly-us-strikes-trigger-iranian-attacks-on-gulf-states?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260709-us-launches-new-strikes-on-iran-trump-says-they-could-get-much-worse)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/9/deadly-u
 
 Context: Air raid sirens went off across multiple Gulf states after the overnight US strikes. Videos show missiles being shot down over Jordanian cities with sirens blaring. The attacks represent Iran's broadest retaliation yet, pulling neutral and US-allied Gulf states into the conflict zone beyond direct US military installations.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/9/videos-show-interception-of-iranian-missiles-in-skies-over-jordan?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260709-middle-east-live-kuwait-and-bahrain-targeted-by-strikes-after-broken-ceasefire)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/9/videos-show-interception-of-iranian-missiles-in-skies-over-jordan?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260709-middle-east-live-kuwait-and-bahrain-targeted-by-strikes-after-broken-ceasefire)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/9/videos-s
 
 Context: Despite two consecutive nights of US strikes and Iranian retaliation across multiple countries, the interim agreement technically still exists on paper. Analysis suggests "the US and Iran don't want a return to full-scale warfare, but neither can appear to be the loser," creating this current limbo where escalation continues without formal war declarations.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/9/us-strikes-iran-for-second-night-is-the-peace-process-all-over-now?traffic_source=rss) | [France 24](https://www.france24.com/en/the-us-and-iran-don-t-want-a-return-to-full-scale-warfare-but-neither-can-appear-to-be-the-loser)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/9/us-strikes-iran-for-second-night-is-the-peace-process-all-over-now?traffic_source=rss) \| [France 24](https://www.france24.com/en/the-us-and-iran-don-t-want-a-return-to-full-scale-warfare-but-neither-can-appear-to-be-the-loser)
 
 </details>
 

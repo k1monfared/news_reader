@@ -27,7 +27,7 @@ models_used: ["muse-spark-1.2-contributor-free"]
 
 زمینه: سخنگوی وزارت خارجه ایران اسماعیل بقائی گفت فیلدمارشال عاصم منیر در ۲۴ اوت به تهران سفر خواهد کرد، پس از تماسی با وزیر خارجه عباس عراقچی درباره ازسرگیری مذاکرات آتش‌بس متوقف‌شده. این سفر با اعلام برنامه‌ریزی‌شده آمریکا درباره تحریم‌های جدید هم‌زمان است. پاکستان تلاش کرده روابط خود را با هر دوی تهران و واشنگتن متوازن نگه دارد.
 
-منابع: [mee](https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-army-chief-set-visit-tehran-monday) | [thehindu](https://www.thehindu.com/news/international/iran-says-pakistan-army-chief-asim-munir-to-visit-tehran-on-august24/article71380827.ece)
+منابع: [mee](https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-army-chief-set-visit-tehran-monday) \| [thehindu](https://www.thehindu.com/news/international/iran-says-pakistan-army-chief-asim-munir-to-visit-tehran-on-august24/article71380827.ece)
 
 </details>
 
@@ -38,7 +38,7 @@ models_used: ["muse-spark-1.2-contributor-free"]
 
 زمینه: The Telegraph گزارش داد هکرهای مرتبط با ایران یک تأسیسات بریتانیا را به مدت چهار روز تعطیل کرده‌اند، که نخستین تعطیلی موفق گزارش‌شده از این نوع خواهد بود. مقام‌های بریتانیا با اشاره به نگرانی‌های امنیتی از نام بردن این تأسیسات خودداری کردند. سخنگوی Department for Energy Security and Net Zero گفت این یک ژنراتور انرژی کوچک‌مقیاس بوده و هیچ خطری برای کل سیستم انرژی نداشته است و National Cyber Security Centre هیچ قطعی گزارش نکرده است. این گزارش از طریق Middle East Eye منتشر شده و فراتر از این اظهارات، به طور مستقل توسط مقام‌های بریتانیا تأیید نشده است.
 
-منابع: [mee](https://www.middleeasteye.net/news/iranian-cyber-attack-shuts-down-uk-power-plant-four-days) | [mee](https://www.middleeasteye.net/live-blog/live-blog-update/iranian-hackers-shut-down-uk-power-plant-four-days-telegraph-reports)
+منابع: [mee](https://www.middleeasteye.net/news/iranian-cyber-attack-shuts-down-uk-power-plant-four-days) \| [mee](https://www.middleeasteye.net/live-blog/live-blog-update/iranian-hackers-shut-down-uk-power-plant-four-days-telegraph-reports)
 
 </details>
 

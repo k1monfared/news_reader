@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: حمله زمینی اسرائیل هفته‌هاست که در جریان است، اما عبور از لیطانی نیروها را بسیار عمیق‌تر به خاک مستقل لبنان می‌برد. نتانیاهو خود این عبور را تأیید کرد. این اتفاق علی‌رغم آتش‌بس ظاهری بین اسرائیل و حزب‌الله در حال رخ دادن است که هر دو طرف مدام آن را نقض می‌کنند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/30/aje-onl-nf_frustration-in-lebanon-as-israel-expands-invasion-300526?traffic_source=rss) | [France 24](https://www.france24.com/en/israeli-troops-push-deeper-into-lebanon-crossing-the-litani-river-as-talks-expected)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/30/aje-onl-nf_frustration-in-lebanon-as-israel-expands-invasion-300526?traffic_source=rss) \| [France 24](https://www.france24.com/en/israeli-troops-push-deeper-into-lebanon-crossing-the-litani-river-as-talks-expected)
 
 </details>
 
@@ -38,7 +38,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ روزهاست که می‌گوید توافق نزدیک است، اما او از جلسه جمعه دست خالی بیرون آمد. هیئت ایرانی در قطر روی چارچوبی ۱۴ بندی کار می‌کند، اما مبادلات اصلی همچنان حل نشده باقی مانده‌اند. ایران همچنین آمریکا را به نقض آتش‌بس با حملات شبانه به سایت‌های موشکی و قایق‌های ایرانی متهم کرد.
 
-منابع: [France 24](https://www.france24.com/en/still-no-deal-between-iran-and-the-us-after-a-two-hour-situation-room-meeting) | [France 24](https://www.france24.com/en/middle-east/20260529-middle-east-war-live-vance-says-us-and-iran-close-to-agreement-as-ceasefire-deal-reported) | [Euronews](http://www.euronews.com/2026/05/30/us-says-it-is-capable-to-resume-war-with-iran-as-deal-remains-elusive)
+منابع: [France 24](https://www.france24.com/en/still-no-deal-between-iran-and-the-us-after-a-two-hour-situation-room-meeting) \| [France 24](https://www.france24.com/en/middle-east/20260529-middle-east-war-live-vance-says-us-and-iran-close-to-agreement-as-ceasefire-deal-reported) \| [Euronews](http://www.euronews.com/2026/05/30/us-says-it-is-capable-to-resume-war-with-iran-as-deal-remains-elusive)
 
 </details>
 

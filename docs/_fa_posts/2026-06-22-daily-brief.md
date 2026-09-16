@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ونس با محمدباقر قالیباف، رئیس مجلس شورای اسلامی ایران، در تاریخ ۲۱-۲۲ ژوئن ملاقات کرد. مذاکرات لحظات پرتنشی داشت—ایران پس از آن که ترامپ تهدید به حمله کرد به طور موقت از مذاکرات خارج شد—اما بخش عالی‌رتبه در حالی به پایان رسید که مذاکرات فنی تا طول هفته ادامه دارد. این اولین پیشرفت دیپلماتیک ملموس از زمان اعلام چارچوب آتش‌بس ۶۰ روزه است.
 
-منابع: [France24](https://www.france24.com/en/us-hails-good-progress-with-iran-after-first-round-of-talks-concludes) | [France24](https://www.france24.com/en/us-iran-s-first-round-of-talks-concludes-despite-trump-threatening-strikes) | [Euronews](http://www.euronews.com/2026/06/22/iran-and-us-make-progress-in-talks-despite-trumps-explosive-threats)
+منابع: [France24](https://www.france24.com/en/us-hails-good-progress-with-iran-after-first-round-of-talks-concludes) \| [France24](https://www.france24.com/en/us-iran-s-first-round-of-talks-concludes-despite-trump-threatening-strikes) \| [Euronews](http://www.euronews.com/2026/06/22/iran-and-us-make-progress-in-talks-despite-trumps-explosive-threats)
 
 </details>
 
@@ -36,7 +36,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ایران روز شنبه مسیر کشتیرانی حیاتی را در واکنش به ادامه اقدامات نظامی اسرائیل در لبنان بست که تهران می‌گوید آتش‌بس مقدماتی توافق شده با آمریکا را در روز چهارشنبه نقض می‌کند. این حداقل دومین باری است که ایران اخیراً تنگه را بسته است. این بسته‌شدن درست زمانی اتفاق افتاد که هیئت‌های آمریکا و ایران آماده می‌شدند تا در سوئیس ملاقات کنند، و تهران می‌گوید مذاکرات پیش نخواهد رفت مگر این‌که جنگ در لبنان متوقف شود.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260620-iran-says-closed-strait-of-hormuz-as-us-deal-hits-obstacle-ahead-of-swiss-talks) | [France24](https://www.france24.com/en/us-iran-peace-talks-to-begin-after-tehran-closed-strait-of-hormuz)
+منابع: [France24](https://www.france24.com/en/middle-east/20260620-iran-says-closed-strait-of-hormuz-as-us-deal-hits-obstacle-ahead-of-swiss-talks) \| [France24](https://www.france24.com/en/us-iran-peace-talks-to-begin-after-tehran-closed-strait-of-hormuz)
 
 </details>
 
@@ -56,7 +56,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ روز شنبه این تهدید را در واکنش به بسته‌شدن تنگه توسط ایران و هشدار این‌که مذاکرات پیش نخواهد رفت مگر این‌که حملات اسرائیل در لبنان متوقف شود، مطرح کرد. به نظر می‌رسد ساعت ۶۰ روزه با جدول زمانی چارچوب آتش‌بس همسو باشد. ترامپ اساساً تهدید می‌کند که سلاح اقتصادی ایران—بستن تنگه—را به منبع درآمد آمریکایی تبدیل کند اگر مذاکرات شکست بخورد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260620-iran-says-closed-strait-of-hormuz-as-us-deal-hits-obstacle-ahead-of-swiss-talks) | [France24](https://www.france24.com/en/middle-east/20260620-israeli-strike-in-southern-lebanon-kills-five-hours-after-ceasefire-agreement)
+منابع: [France24](https://www.france24.com/en/middle-east/20260620-iran-says-closed-strait-of-hormuz-as-us-deal-hits-obstacle-ahead-of-swiss-talks) \| [France24](https://www.france24.com/en/middle-east/20260620-israeli-strike-in-southern-lebanon-kills-five-hours-after-ceasefire-agreement)
 
 </details>
 
@@ -67,7 +67,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: تفاهم‌نامه امضا شده در روز چهارشنبه توقف خصومت‌ها در تمام جبهه‌ها از جمله لبنان را مقرر می‌کند، اما حملات اسرائیل ادامه یافته است—اسرائیل می‌گوید در پاسخ به پرتاب موشک‌های حزب‌الله. تهدید ترامپ نشان‌دهنده یک تشدید مستقیم فراتر از چارچوب آتش‌بس موجود است که ایران را مسئول اقدامات حزب‌الله می‌داند در حالی که مذاکرات ادامه دارد.
 
-منابع: [France24](https://www.france24.com/en/trump-threatens-to-strike-iran-over-support-for-hezbollah-as-fighting-continues-in-lebanon) | [France24](https://www.france24.com/en/middle-east/20260621-middle-east-live-us-vice-president-jd-vance-arrives-in-switzerland-for-iran-peace-talks)
+منابع: [France24](https://www.france24.com/en/trump-threatens-to-strike-iran-over-support-for-hezbollah-as-fighting-continues-in-lebanon) \| [France24](https://www.france24.com/en/middle-east/20260621-middle-east-live-us-vice-president-jd-vance-arrives-in-switzerland-for-iran-peace-talks)
 
 </details>
 

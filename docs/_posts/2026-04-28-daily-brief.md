@@ -37,7 +37,7 @@ Sources: [France24](https://www.france24.com/en/us-envoys-to-travel-to-islamabad
 
 Context: The UAE says it needs to focus on "national interests" and wants the flexibility to boost its own production in "a new energy age." The move comes at the worst possible time for OPEC—global energy markets are in crisis mode and the cartel is losing one of its biggest members.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/28/uae-leaves-opec-in-blow-to-oil-cartel-amid-war-on-iran?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260428-uae-to-quit-global-oil-cartel-opec-citing-national-interests) | [Euronews](http://www.euronews.com/2026/04/28/uae-decides-to-leave-opec-citing-focus-on-its-national-interest)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/28/uae-leaves-opec-in-blow-to-oil-cartel-amid-war-on-iran?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260428-uae-to-quit-global-oil-cartel-opec-citing-national-interests) \| [Euronews](http://www.euronews.com/2026/04/28/uae-decides-to-leave-opec-citing-focus-on-its-national-interest)
 
 </details>
 

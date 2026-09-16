@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The original April 17 ceasefire was set to expire soon. After talks in Washington, both sides agreed to the extension. The Pentagon will bring together military delegations on May 29, followed by political negotiations on June 2-3. Israel continues striking what it claims are Hezbollah targets in southern Lebanon, saying those operations aren't covered by the truce.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260515-israel-lebanon-agree-to-extend-ceasefire-by-45-days-after-talks-in-washington) | [Euronews](http://www.euronews.com/2026/05/15/lebanonisrael-ceasefire-extended-by-45-days-says-us)
+Sources: [France24](https://www.france24.com/en/middle-east/20260515-israel-lebanon-agree-to-extend-ceasefire-by-45-days-after-talks-in-washington) \| [Euronews](http://www.euronews.com/2026/05/15/lebanonisrael-ceasefire-extended-by-45-days-says-us)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260515-israel-leba
 
 Context: Iran's Foreign Minister Abbas Araghchi said lack of trust with the US is blocking progress on ending the war. The comment came as Trump indicated willingness to negotiate, a change from his previous stance. The nuclear program remains a sticking point.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/16/iran-war-day-78-trump-tehran-signal-talks-as-lebanon-truce-extended?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260515-middle-east-live-trump-says-he-won-t-be-much-more-patient-with-iran)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/16/iran-war-day-78-trump-tehran-signal-talks-as-lebanon-truce-extended?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260515-middle-east-live-trump-says-he-won-t-be-much-more-patient-with-iran)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [France24](https://www.france24.com/en/trump-says-xi-offered-help-to-op
 
 Context: The Israeli military says Al-Haddad was one of the last senior commanders in Hamas's armed wing and was responsible for planning the October 7 attack. The strike happened Friday in Gaza City.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260516-israel-says-leader-of-hamas-armed-wing-killed-in-strike-on-gaza) | [Euronews](http://www.euronews.com/2026/05/15/israeli-army-announces-targeting-of-hamas-military-chief-in-gaza-city-airstrike)
+Sources: [France24](https://www.france24.com/en/middle-east/20260516-israel-says-leader-of-hamas-armed-wing-killed-in-strike-on-gaza) \| [Euronews](http://www.euronews.com/2026/05/15/israeli-army-announces-targeting-of-hamas-military-chief-in-gaza-city-airstrike)
 
 </details>
 

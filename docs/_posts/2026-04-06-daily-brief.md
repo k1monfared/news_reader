@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Iran shot down a US F-15 fighter jet on Friday. One crew member was recovered quickly, but the second was missing behind enemy lines near Yasuj in central Iran. Early Sunday morning local time, US forces launched raids into Iranian territory and extracted the airman safely. Social media posts reported explosions and aircraft in the area around 3am local time, about an hour before Trump announced the rescue.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/6/how-us-operation-to-rescue-air-officer-from-iran-unfolded?traffic_source=rss) | [France 24](https://www.france24.com/en/we-got-him-us-rescues-aviator-whose-fighter-jet-was-shot-down-in-iran) | [Euronews](http://www.euronews.com/2026/04/05/missing-us-pilot-has-been-rescued-in-iran-says-trump)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/6/how-us-operation-to-rescue-air-officer-from-iran-unfolded?traffic_source=rss) \| [France 24](https://www.france24.com/en/we-got-him-us-rescues-aviator-whose-fighter-jet-was-shot-down-in-iran) \| [Euronews](http://www.euronews.com/2026/04/05/missing-us-pilot-has-been-rescued-in-iran-says-trump)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/6/how-us-operation-t
 
 Context: The strikes targeted Tehran University and Iran's biggest gas complex at Asaluyeh. Iran's Revolutionary Guards confirmed that Majid Khademi, their intelligence chief, was killed in the attacks. Israel's defense minister said the petrochemical plant was hit. Iran warned of "devastating retaliation" if the US goes after civilian infrastructure.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/6/irans-top-university-bombed-as-us-israel-intensify-attacks-34-killed?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260406-middle-east-war-live-iran-vows-harsh-response-after-usa-trump-threatens-civilian-targets)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/6/irans-top-university-bombed-as-us-israel-intensify-attacks-34-killed?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260406-middle-east-war-live-iran-vows-harsh-response-after-usa-trump-threatens-civilian-targets)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [France 24](https://www.france24.com/en/video/20260405-israel-says-resi
 
 Context: Pakistan, Turkey, and Egypt are mediating a proposal for a 45-day ceasefire that would include reopening the Strait of Hormuz. Iran received the draft Sunday night but quickly indicated it won't agree to reopen the strait under a temporary ceasefire. Trump posted an expletive-laden ultimatum on social media Sunday giving Iran until "Tuesday, 8:00 P.M. Eastern Time" to "open the F***in' Strait" or face strikes on power plants and other civilian targets. The US is still expected to respond to the proposal despite Iran's rejection.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/6/pakistan-offers-two-tier-truce-iran-wont-open-hormuz-under-temporary-one?traffic_source=rss) | [France 24](https://www.france24.com/en/us-president-donald-trump-warns-tehran-to-reopen-hormuz-or-face-hell) | [Euronews](http://www.euronews.com/2026/04/06/iran-rejects-ceasefire-proposal-with-us-as-war-of-words-deepens)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/6/pakistan-offers-two-tier-truce-iran-wont-open-hormuz-under-temporary-one?traffic_source=rss) \| [France 24](https://www.france24.com/en/us-president-donald-trump-warns-tehran-to-reopen-hormuz-or-face-hell) \| [Euronews](http://www.euronews.com/2026/04/06/iran-rejects-ceasefire-proposal-with-us-as-war-of-words-deepens)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/04/06/jet-fuel-crisis
 
 Context: The Strait of Hormuz blockade is hammering economies across Asia that depend on fuel imports. Vietnam's delivery drivers and ride-share workers are seeing their margins wiped out by fuel costs. Pakistan's fuel jumped over 50% in recent weeks. Sri Lanka, which collapsed economically in 2022, is trying to avoid a repeat as the Middle East war compounds damage from a deadly November cyclone.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/4/6/vietnams-gig-workers-slammed-by-rising-fuel-costs-amid-fallout-of-iran-war?traffic_source=rss) | [France 24](https://www.france24.com/en/impact-of-iran-war-in-pakistan-fuel-prices-rise-by-over-50) | [France 24](https://www.france24.com/en/sri-lanka-struggles-to-avert-economic-collapse-over-mideast-war)
+Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/4/6/vietnams-gig-workers-slammed-by-rising-fuel-costs-amid-fallout-of-iran-war?traffic_source=rss) \| [France 24](https://www.france24.com/en/impact-of-iran-war-in-pakistan-fuel-prices-rise-by-over-50) \| [France 24](https://www.france24.com/en/sri-lanka-struggles-to-avert-economic-collapse-over-mideast-war)
 
 </details>
 

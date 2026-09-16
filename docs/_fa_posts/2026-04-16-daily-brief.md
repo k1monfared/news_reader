@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این یک وقفه مشخص با یک ضرب‌الاجل سخت است، نه فقط یک دور دیگر از مذاکرات. آتش‌بس پس از سفر فعال میانجی‌گری نخست‌وزیر پاکستان شریف به دوحه انجام شده است، بخشی از یک تلاش منطقه‌ای گسترده‌تر برای آوردن آمریکا و ایران به میز مذاکره در حالی که آتش‌بس فعلی برقرار است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/16/10-day-lebanon-israel-ceasefire-announced-by-trump?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/04/16/israel-and-lebanon-agree-to-10-day-ceasefire-trump-says-in-social-media-post) | [Pakistan mediation](http://www.euronews.com/2026/04/16/pakistan-pm-sharif-visits-doha-as-regional-mediation-gathers-pace-for-usiran-talks)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/16/10-day-lebanon-israel-ceasefire-announced-by-trump?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/04/16/israel-and-lebanon-agree-to-10-day-ceasefire-trump-says-in-social-media-post) \| [Pakistan mediation](http://www.euronews.com/2026/04/16/pakistan-pm-sharif-visits-doha-as-regional-mediation-gathers-pace-for-usiran-talks)
 
 </details>
 

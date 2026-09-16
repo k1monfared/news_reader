@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ایران پیشنهاد متقابل خود را روز یکشنبه از طریق پاکستان به عنوان میانجی ارائه کرد. آنها می‌خواهند مذاکرات بر پایان دادن به جنگ در همه جبهه‌ها—از جمله لبنان که اسرائیل در آنجا با حزب‌الله می‌جنگد—و تأمین امنیت مسیرهای کشتیرانی متمرکز شود. ترامپ بلافاصله در رسانه‌های اجتماعی و بدون توضیح دلیل آن را رد کرد. این نشان‌دهنده فروپاشی دیگری در تلاش‌ها برای کاهش تنش‌های خلیج فارس است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/11/unacceptable-whats-irans-peace-proposal-that-trump-has-rejected?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260510-trump-calls-iran-response-to-us-peace-proposal-totally-unacceptable) | [France 24](https://www.france24.com/en/middle-east/20260510-live-iran-s-guards-threaten-us-sites-in-the-region-if-its-tankers-come-under-fire)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/11/unacceptable-whats-irans-peace-proposal-that-trump-has-rejected?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260510-trump-calls-iran-response-to-us-peace-proposal-totally-unacceptable) \| [France 24](https://www.france24.com/en/middle-east/20260510-live-iran-s-guards-threaten-us-sites-in-the-region-if-its-tankers-come-under-fire)
 
 </details>
 
@@ -38,7 +38,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این اولین پاسخ سیاسی ملموس مودی به بحران انرژی ناشی از جنگ است. او اکنون به‌طور علنی در سراسر هند به دنبال صرفه‌جویی در سوخت است زیرا قیمت نفت به دلیل اختلالات هرمز افزایش یافته است. این راهنمایی شامل کار از راه دور، محدودیت‌های سفر، و حتی خریدهای لوکس مانند طلا می‌شود.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/11/iran-war-effect-why-is-modi-asking-indians-to-avoid-foreign-trips-gold?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/11/narendra-modi-urges-indians-to-conserve-fuel-amid-war-on-iran?traffic_source=rss)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/11/iran-war-effect-why-is-modi-asking-indians-to-avoid-foreign-trips-gold?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/11/narendra-modi-urges-indians-to-conserve-fuel-amid-war-on-iran?traffic_source=rss)
 
 </details>
 

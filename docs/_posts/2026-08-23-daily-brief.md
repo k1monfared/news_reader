@@ -26,7 +26,7 @@ Sources: [jpost](https://www.jpost.com/middle-east/iran-news/article-906316)
 
 Context: Iran's foreign ministry spokesman Esmaeil Baghaei said Field Marshal Asim Munir will visit Tehran on August 24, following a call with Foreign Minister Abbas Araghchi on reviving stalled ceasefire talks. The visit coincides with a planned US announcement on new sanctions. Pakistan has sought to balance ties with both Tehran and Washington.
 
-Sources: [mee](https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-army-chief-set-visit-tehran-monday) | [thehindu](https://www.thehindu.com/news/international/iran-says-pakistan-army-chief-asim-munir-to-visit-tehran-on-august24/article71380827.ece)
+Sources: [mee](https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-army-chief-set-visit-tehran-monday) \| [thehindu](https://www.thehindu.com/news/international/iran-says-pakistan-army-chief-asim-munir-to-visit-tehran-on-august24/article71380827.ece)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [mee](https://www.middleeasteye.net/live-blog/live-blog-update/pakistan
 
 Context: The Telegraph reported Iran-linked hackers shut down a British facility for four days, which would be the first reported successful shutdown of its kind. British officials declined to name the facility citing security concerns. A Department for Energy Security and Net Zero spokesperson said it was a small-scale energy generator with no risk to the wider energy system, and the National Cyber Security Centre reported no outages. The report circulated via Middle East Eye and has not been independently verified by UK officials beyond those statements.
 
-Sources: [mee](https://www.middleeasteye.net/news/iranian-cyber-attack-shuts-down-uk-power-plant-four-days) | [mee](https://www.middleeasteye.net/live-blog/live-blog-update/iranian-hackers-shut-down-uk-power-plant-four-days-telegraph-reports)
+Sources: [mee](https://www.middleeasteye.net/news/iranian-cyber-attack-shuts-down-uk-power-plant-four-days) \| [mee](https://www.middleeasteye.net/live-blog/live-blog-update/iranian-hackers-shut-down-uk-power-plant-four-days-telegraph-reports)
 
 </details>
 

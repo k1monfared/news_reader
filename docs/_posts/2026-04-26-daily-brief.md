@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Iran's Foreign Minister Abbas Araghchi had just left Pakistan after laying out Iran's "red lines" for any deal. Al Jazeera reports Araghchi is now heading back to Islamabad for more talks—but without the Americans, while France24 indicates he departed Pakistan on Saturday evening. Iran said earlier it wouldn't do direct negotiations with the US. Trump told Fox News "they can call us anytime they want," essentially putting the ball in Iran's court and walking away from the table.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/26/iran-war-whats-happening-on-day-58-as-tehran-washington-talks-stall?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260426-middle-east-war-live-iran-s-fm-to-return-to-pakistan-for-talks-as-us-envoys-cancel-visit) | [Euronews](http://www.euronews.com/2026/04/25/irans-fm-abbas-araghchi-meets-with-pakistan-officials-but-rules-out-direct-talks-with-us)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/26/iran-war-whats-happening-on-day-58-as-tehran-washington-talks-stall?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260426-middle-east-war-live-iran-s-fm-to-return-to-pakistan-for-talks-as-us-envoys-cancel-visit) \| [Euronews](http://www.euronews.com/2026/04/25/irans-fm-abbas-araghchi-meets-with-pakistan-officials-but-rules-out-direct-talks-with-us)
 
 </details>
 

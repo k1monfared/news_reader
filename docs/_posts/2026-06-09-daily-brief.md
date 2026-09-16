@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Iran's military command formally announced on June 8 it was stopping its operation against Israel. This came after Iran fired missiles at Israel Sunday night—the first Iranian bombardment since the fragile ceasefire took effect in early April—and Israel responded by striking Iranian military sites. Despite Trump's calls for restraint, Netanyahu ordered the counterstrike. Hezbollah hasn't stopped firing, which complicates things.
 
-Sources: [France24](https://www.france24.com/en/iran-halts-strikes-against-israel-netanyahu-stuck-between-trump-and-ministers) | [France24](https://www.france24.com/en/video/20260608-israel-iran-trade-fire-in-first-clash-since-truce) | [France24](https://www.france24.com/en/middle-east/20260607-iran-launches-missiles-at-israel-in-first-bombardment-since-fragile-ceasefire)
+Sources: [France24](https://www.france24.com/en/iran-halts-strikes-against-israel-netanyahu-stuck-between-trump-and-ministers) \| [France24](https://www.france24.com/en/video/20260608-israel-iran-trade-fire-in-first-clash-since-truce) \| [France24](https://www.france24.com/en/middle-east/20260607-iran-launches-missiles-at-israel-in-first-bombardment-since-fragile-ceasefire)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/9/indian-c
 
 Context: Trump made clear that if attacks continue after Iran and Israel paused their fighting, Netanyahu shouldn't expect American backing. He also said bombing Iran further would keep the Strait of Hormuz closed for months and cost lives. At least 8 people were killed in Lebanon on Monday despite the supposed pause, showing the ceasefire is barely holding.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/9/trump-says-in-final-throes-of-peace-deal-but-at-least-8-killed-in-tyre?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/06/09/trump-insists-iran-deal-is-days-away-as-both-sides-step-back-from-brink)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/9/trump-says-in-final-throes-of-peace-deal-but-at-least-8-killed-in-tyre?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/06/09/trump-insists-iran-deal-is-days-away-as-both-sides-step-back-from-brink)
 
 </details>
 

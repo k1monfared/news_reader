@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: فرماندهی نظامی ایران پس از آنکه دو طرف برای اولین بار از زمان اجرای آتش‌بس ۸ آوریل آتش مبادله کردند، اعلام کرد که در ۸ ژوئن عملیات علیه اسرائیل را متوقف می‌کند. ایران در شب ۷ ژوئن رگبار موشکی به سوی اسرائیل شلیک کرد، اسرائیل با هدف قرار دادن تأسیسات نظامی در ایران پاسخ داد و رئیس‌جمهور ترامپ به هر دو طرف گفت که متوقف شوند. نتانیاهو پس از آنکه در ابتدا به نظر می‌رسید فراخوان‌های ترامپ برای خویشتن‌داری را نادیده می‌گیرد، توقف را اعلام کرد، اما حملات موشکی و پهپادی حزب‌الله به مواضع اسرائیلی همچنان ادامه دارد.
 
-منابع: [France24](https://www.france24.com/en/israel-shuts-down-following-war-flare-up-with-iran) | [France24](https://www.france24.com/en/iran-halts-strikes-against-israel-netanyahu-stuck-between-trump-and-ministers) | [France24](https://www.france24.com/en/video/20260608-israel-iran-trade-fire-in-first-clash-since-truce)
+منابع: [France24](https://www.france24.com/en/israel-shuts-down-following-war-flare-up-with-iran) \| [France24](https://www.france24.com/en/iran-halts-strikes-against-israel-netanyahu-stuck-between-trump-and-ministers) \| [France24](https://www.france24.com/en/video/20260608-israel-iran-trade-fire-in-first-clash-since-truce)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ویدئو ستون‌های دود را نشان می‌دهد که روز دوشنبه از مجتمع پتروشیمی در استان خوزستان ایران بلند می‌شود. یک منبع سپاه هشدار داد که هرگونه حمله بیشتر به زیرساخت‌های انرژی ایران، حملات به دارایی‌های انرژی در سراسر منطقه وسیع‌تر را به دنبال خواهد داشت—تهدیدی که پس از آنکه ایران نشان داد می‌تواند ظرف یک ساعت پس از مورد حمله قرار گرفتن، به تأسیسات حیفا حمله کند، اعتبار بیشتری یافت. حملات صنعتی متقابل نشان‌دهنده تشدید از اهداف صرفاً نظامی قبلی است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/8/video-israel-claims-strike-on-iranian-petrochemical-complex?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/06/08/irgc-threatens-regional-energy-assets-as-iran-trades-strikes-with-israel)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/8/video-israel-claims-strike-on-iranian-petrochemical-complex?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/06/08/irgc-threatens-regional-energy-assets-as-iran-trades-strikes-with-israel)
 
 </details>
 
@@ -36,7 +36,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: حمله به یک خودرو در جاده‌ای که نبطیه را به مرجعیون متصل می‌کند، به گفته ارتش بیروت، یک سرتیپ، یک سروان و یک سرباز دیگر را کشت. این اتفاق روز شنبه رخ داد، تنها چند روز پس از اینکه لبنان و اسرائیل پس از مذاکرات در ایالات متحده، آتش‌بس مشروط را اعلام کردند. هدف قرار دادن پرسنل نظامی لبنانی به جای جنگجویان حزب‌الله نشان‌دهنده تغییر قابل توجهی در عملیات اسرائیل است.
 
-منابع: [France24](https://www.france24.com/en/several-soldiers-killed-in-israeli-strike-on-lebanon) | [France24](https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain)
+منابع: [France24](https://www.france24.com/en/several-soldiers-killed-in-israeli-strike-on-lebanon) \| [France24](https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain)
 
 </details>
 

@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is the latest on the surprise US-Iran deal announced over the weekend. Pakistan brokered the memorandum of understanding, which calls for an "immediate and permanent" end to military operations on all fronts including Lebanon. The formal signing ceremony is scheduled for June 19 in Switzerland.
 
-Sources: [France 24](https://www.france24.com/en/middle-east/20260615-middle-east-live-trump-to-meet-with-g7-leaders-following-announcement-of-memorandum-with-iran) | [France 24](https://www.france24.com/en/middle-east/20260615-us-and-iran-agree-to-memorandum-of-understanding-and-immediate-end-to-military-operations) | [France 24](https://www.france24.com/en/us-iran-reach-deal-to-end-war)
+Sources: [France 24](https://www.france24.com/en/middle-east/20260615-middle-east-live-trump-to-meet-with-g7-leaders-following-announcement-of-memorandum-with-iran) \| [France 24](https://www.france24.com/en/middle-east/20260615-us-and-iran-agree-to-memorandum-of-understanding-and-immediate-end-to-military-operations) \| [France 24](https://www.france24.com/en/us-iran-reach-deal-to-end-war)
 
 </details>
 

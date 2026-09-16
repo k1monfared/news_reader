@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This moves the deal from "scheduled" to "done." Iran pledges to reopen the Strait of Hormuz immediately, and both sides start talks on the big stuff: Iran diluting its enriched uranium stockpiles in exchange for lifting US sanctions and a $300 billion reconstruction fund. Euronews reports that analysts think Iran came out ahead in the framing—they got legitimacy and economic relief while the US got a ceasefire but no guarantees Tehran won't rebuild its nuclear program later. The deal will trigger 60 days of further negotiations on a permanent agreement.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260618-tehran-and-washington-sign-interim-peace-deal-to-end-us-israeli-war-on-iran) | [Euronews](http://www.euronews.com/2026/06/18/us-and-iran-sign-deal-but-who-really-won-heres-what-to-know)
+Sources: [France24](https://www.france24.com/en/middle-east/20260618-tehran-and-washington-sign-interim-peace-deal-to-end-us-israeli-war-on-iran) \| [Euronews](http://www.euronews.com/2026/06/18/us-and-iran-sign-deal-but-who-really-won-heres-what-to-know)
 
 </details>
 

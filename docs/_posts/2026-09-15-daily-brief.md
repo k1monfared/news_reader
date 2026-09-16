@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Daily Brief: September 15, 2026"
+title: "Daily Brief: September 15, 2026 (backfilled)"
 date: 2026-09-15
 categories: [daily-brief]
+backfilled: true
 sources_down: []
 generated_at: "2026-09-16 12:31 UTC-07:00"
 models_used: ["deepseek-v4-flash"]
@@ -17,7 +18,7 @@ models_used: ["deepseek-v4-flash"]
 
 Context: [UNCONFIRMED] Each account is single-sourced to the government making it; no independent verification has been reported. The ship had 25 crew aboard — 14 Indian and 11 Pakistani nationals. It was reportedly operating in "dark mode" with transponders off. Photos from September 13 indicate the engine room was damaged. As of September 15, Oman said two sailors were missing.
 
-Sources: [BBC](https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss) | [The Hindu](https://www.thehindu.com/news/international/tanker-hit-by-projectile-near-strait-of-hormuz-was-operating-in-dark-mode/article71469903.ece)
+Sources: [BBC](https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss) \| [The Hindu](https://www.thehindu.com/news/international/tanker-hit-by-projectile-near-strait-of-hormuz-was-operating-in-dark-mode/article71469903.ece)
 
 </details>
 
@@ -28,7 +29,7 @@ Sources: [BBC](https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&a
 
 Context: This is an internal inspector-general assessment, not an outside critique. It identified strategic inventory shortfalls and industrial base bottlenecks for munitions resupply after wartime expenditure. The contradiction matters because public assurances about the size of US stockpiles do not match the military's own audit of its inventory and resupply capacity.
 
-Sources: [BBC](https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss) | [The Hindu](https://www.thehindu.com/news/international/us-military-says-iran-war-has-led-to-munitions-shortfall/article71466628.ece)
+Sources: [BBC](https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss) \| [The Hindu](https://www.thehindu.com/news/international/us-military-says-iran-war-has-led-to-munitions-shortfall/article71466628.ece)
 
 </details>
 

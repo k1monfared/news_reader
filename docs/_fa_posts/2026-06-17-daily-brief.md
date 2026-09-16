@@ -36,7 +36,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: نخست‌وزیر پاکستان روز دوشنبه جزئیات را پس از آن اعلام کرد که ترامپ ادعا کرد در آخر هفته توافقی حاصل شده است. یادداشت تفاهم شامل بازگشایی تنگه هرمز، تسهیل تحریم‌ها و آغاز مذاکرات هسته‌ای است. آنچه به عنوان یک پست رسانه‌های اجتماعی ترامپ شروع شد، اکنون ماشین دیپلماتیک رسمی پشت سر خود دارد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260615-us-and-iran-agree-to-memorandum-of-understanding-and-immediate-end-to-military-operations) | [France24](https://www.france24.com/en/middle-east/20260614-middle-east-war-live-trump-says-iran-deal-to-be-signed-sunday) | [France24](https://www.france24.com/en/us-iran-reach-deal-to-end-war)
+منابع: [France24](https://www.france24.com/en/middle-east/20260615-us-and-iran-agree-to-memorandum-of-understanding-and-immediate-end-to-military-operations) \| [France24](https://www.france24.com/en/middle-east/20260614-middle-east-war-live-trump-says-iran-deal-to-be-signed-sunday) \| [France24](https://www.france24.com/en/us-iran-reach-deal-to-end-war)
 
 </details>
 

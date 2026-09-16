@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is a sharp reversal from Trump's weekend threats against Iran. He's now describing the peace talks as "very positive" and says he called off the planned Tuesday strike at the request of Gulf allies. The threat of military action remains on the table if negotiations don't produce what he considers an acceptable deal.
 
-Sources: [France24](https://www.france24.com/en/trump-says-holding-off-on-strike-on-iran-at-request-of-gulf-allies) | [France24 liveblog](https://www.france24.com/en/middle-east/20260518-middle-east-war-live-drone-strikes-on-uae-and-saudi-arabia-fuel-escalation-fears)
+Sources: [France24](https://www.france24.com/en/trump-says-holding-off-on-strike-on-iran-at-request-of-gulf-allies) \| [France24 liveblog](https://www.france24.com/en/middle-east/20260518-middle-east-war-live-drone-strikes-on-uae-and-saudi-arabia-fuel-escalation-fears)
 
 </details>
 
@@ -39,7 +39,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/19/trump-says-iran-a
 
 Context: The UAE says the origin is unknown, but suspicion immediately fell on Iran. The IAEA has confirmed radiation levels are normal. The strike on critical nuclear infrastructure represents a major escalation risk, which is why Trump immediately pulled his advisers together to discuss potential responses.
 
-Sources: [France24](https://www.france24.com/en/uae-nuclear-power-plant-targeted-in-likely-iranian-attack) | [France24](https://www.france24.com/en/drone-hits-uae-nuclear-power-plant-iaea-reports-normal-radiation-levels)
+Sources: [France24](https://www.france24.com/en/uae-nuclear-power-plant-targeted-in-likely-iranian-attack) \| [France24](https://www.france24.com/en/drone-hits-uae-nuclear-power-plant-iaea-reports-normal-radiation-levels)
 
 </details>
 

@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Ras Laffan is part of the North Field, the world's largest natural gas field shared by Qatar and Iran. The facility supplies about a sixth of the world's liquefied natural gas. Qatar expelled Iranian embassy officials after the attack.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/iran-attacks-cut-17-of-qatars-lng-capacity-for-up-to-5-years-qatarenergy) | [Euronews](https://www.euronews.com/business/2026/03/19/strikes-on-gulf-energy-hubs-threaten-global-lng-supply-for-months)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/iran-attacks-cut-17-of-qatars-lng-capacity-for-up-to-5-years-qatarenergy) \| [Euronews](https://www.euronews.com/business/2026/03/19/strikes-on-gulf-energy-hubs-threaten-global-lng-supply-for-months)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/iran-attacks-cut-
 
 Context: Oil prices spiked after Iran hit energy infrastructure in Qatar, Saudi Arabia, and the UAE. Asian stock markets tanked on the news. The US Treasury Secretary hinted at lifting sanctions on Iranian oil to increase supply and calm prices, a significant policy reversal.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/could-oil-hit-200-a-barrel-analysts-no-longer-think-its-far-fetched) | [Euronews](# "link unavailable") | [Reuters](https://jp.reuters.com/markets/commodities/V4B5NFO7X5I7PHKDVG4M2645AE-2026-03-19/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/could-oil-hit-200-a-barrel-analysts-no-longer-think-its-far-fetched) \| [Euronews](# "link unavailable") \| [Reuters](https://jp.reuters.com/markets/commodities/V4B5NFO7X5I7PHKDVG4M2645AE-2026-03-19/)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/could-oil-hit-200
 
 Context: Kerosene prices have spiked due to energy market chaos. Airlines across Europe and the Middle East are cutting capacity and raising ticket prices to offset costs. Some Gulf airlines adjusted loyalty program requirements because members can't fly their usual routes.
 
-Sources: [Euronews](https://hu.euronews.com/utazas/2026/03/19/legitarsasagok-arat-emelnek-jaratokat-torolnek-az-irani-haboru-miatti-kerozin-dragulas-mia) | [Euronews](https://gr.euronews.com/travel/2026/03/19/more-airlines-increase-airfares-as-iran-war-drives-jet-fuel-price-spikes)
+Sources: [Euronews](https://hu.euronews.com/utazas/2026/03/19/legitarsasagok-arat-emelnek-jaratokat-torolnek-az-irani-haboru-miatti-kerozin-dragulas-mia) \| [Euronews](https://gr.euronews.com/travel/2026/03/19/more-airlines-increase-airfares-as-iran-war-drives-jet-fuel-price-spikes)
 
 </details>
 
@@ -44,7 +44,7 @@ Sources: [Euronews](https://hu.euronews.com/utazas/2026/03/19/legitarsasagok-ara
 
 Context: Central banks are caught between slowing economies and spiking energy costs. The ECB decided not to cut rates despite sluggish growth because oil and gas prices threaten to reignite inflation across Europe. Powell told Congress that the conflict complicates the Fed's job of controlling US inflation.
 
-Sources: [Euronews](https://www.euronews.com/business/2026/03/19/iran-war-has-material-impact-on-inflation-ecbs-lagarde-warns) | [Reuters](https://jp.reuters.com/markets/japan/KBKZS6TMBBJQRIKBAUA3LM63EE-2026-03-19/)
+Sources: [Euronews](https://www.euronews.com/business/2026/03/19/iran-war-has-material-impact-on-inflation-ecbs-lagarde-warns) \| [Reuters](https://jp.reuters.com/markets/japan/KBKZS6TMBBJQRIKBAUA3LM63EE-2026-03-19/)
 
 </details>
 
@@ -64,7 +64,7 @@ Sources: [Reuters](https://jp.reuters.com/markets/commodities/THR3POINDVNM7M2HZX
 
 Context: South Pars is Iran's side of the world's largest gas field. The strike triggered Iran's retaliation against Qatar's Ras Laffan on the other side of the field. Trump claimed the US wasn't involved, but Israeli sources told Reuters that American officials were briefed beforehand.
 
-Sources: [Reuters](https://jp.reuters.com/markets/commodities/S5U54Y4W3BJ3NKSIYJ4SPZ55YM-2026-03-19/) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/wrap-iran-ratchets-up-pressure-on-gulf-states)
+Sources: [Reuters](https://jp.reuters.com/markets/commodities/S5U54Y4W3BJ3NKSIYJ4SPZ55YM-2026-03-19/) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/wrap-iran-ratchets-up-pressure-on-gulf-states)
 
 </details>
 
@@ -73,7 +73,7 @@ Sources: [Reuters](https://jp.reuters.com/markets/commodities/S5U54Y4W3BJ3NKSIYJ
 
 Context: Iran's missiles hit Israeli territory from new angles. Israel says the Haifa refinery strike caused no major damage, but the West Bank attack is the first time Iran has hit Palestinian areas. The deaths of Palestinian civilians represent a significant shift in the conflict's geography.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/israel-says-oil-refinery-hit-in-iranian-missile-attack-no-major-damage) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/three-palestinian-women-killed-during-iranian-missile-attack-in-west-bank) | [Reuters](https://jp.reuters.com/world/security/W7MZWQH5KVKVZGQJYP3QPEHQC4-2026-03-19/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/israel-says-oil-refinery-hit-in-iranian-missile-attack-no-major-damage) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/three-palestinian-women-killed-during-iranian-missile-attack-in-west-bank) \| [Reuters](https://jp.reuters.com/world/security/W7MZWQH5KVKVZGQJYP3QPEHQC4-2026-03-19/)
 
 </details>
 
@@ -93,7 +93,7 @@ Sources: [Reuters](https://jp.reuters.com/world/security/WUHJ5DZK3RK2ZLJBXXZ2MET
 
 Context: The massive funding request signals the administration expects a prolonged conflict. Hegseth told Congress the military has no end date in mind, raising questions about mission scope and cost. Iran's Foreign Minister Araqchi said Americans are "paying Netanyahu's bill."
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/hegseth-says-no-timeframe-for-war-on-iran-as-pentagon-asks-for-200bn) | [Euronews](https://arabic.euronews.com/2026/03/19/pentagon-requests-200-billion-to-fund-war-iran-araqchi-americans-paying-netanyahu-bill)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/hegseth-says-no-timeframe-for-war-on-iran-as-pentagon-asks-for-200bn) \| [Euronews](https://arabic.euronews.com/2026/03/19/pentagon-requests-200-billion-to-fund-war-iran-araqchi-americans-paying-netanyahu-bill)
 
 </details>
 
@@ -102,7 +102,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/hegseth-says-no-t
 
 Context: Trump publicly denied US involvement in Israel's South Pars attack, then hours later threatened to destroy Iranian gas infrastructure himself. Reuters reports Israeli sources confirmed American officials were briefed beforehand. The contradictory messaging underscores tensions in the US-Israel relationship as Gulf states pressure Washington to restrain its ally.
 
-Sources: [Euronews](https://hu.euronews.com/2026/03/19/trump-iran-gazmezo-felrobbantas-katar) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/trump-attempts-to-distance-us-from-israeli-strikes-on-key-iranian-gasfield) | [Reuters](https://jp.reuters.com/markets/commodities/S5U54Y4W3BJ3NKSIYJ4SPZ55YM-2026-03-19/)
+Sources: [Euronews](https://hu.euronews.com/2026/03/19/trump-iran-gazmezo-felrobbantas-katar) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/trump-attempts-to-distance-us-from-israeli-strikes-on-key-iranian-gasfield) \| [Reuters](https://jp.reuters.com/markets/commodities/S5U54Y4W3BJ3NKSIYJ4SPZ55YM-2026-03-19/)
 
 </details>
 
@@ -122,7 +122,7 @@ Sources: [Reuters](https://jp.reuters.com/world/us/X26KOXF4PBMZNH6AHL56UV3WKE-20
 
 Context: The Gulf states are breaking with Iran after getting hit in the crossfire. Saudi and UAE energy facilities were also struck, with Greek-supplied Patriot systems shooting down Iranian missiles over Saudi territory. This fractures the careful neutrality Gulf states tried to maintain.
 
-Sources: [Euronews](https://www.euronews.com/2026/03/19/qatar-expels-officials-from-irans-embassy-after-attacks-on-ras-laffan-gas-field) | [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/19/iran-war-live-qatar-saudi-energy-sites-attacked-riyadh-says-trust-gone?update=4416432)
+Sources: [Euronews](https://www.euronews.com/2026/03/19/qatar-expels-officials-from-irans-embassy-after-attacks-on-ras-laffan-gas-field) \| [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/19/iran-war-live-qatar-saudi-energy-sites-attacked-riyadh-says-trust-gone?update=4416432)
 
 </details>
 
@@ -131,7 +131,7 @@ Sources: [Euronews](https://www.euronews.com/2026/03/19/qatar-expels-officials-f
 
 Context: The war keeps spreading. Popular Mobilization Forces in Iraq reported casualties from airstrikes, likely Israeli. In Lebanon, the death toll from three weeks of bombardment crossed 1,000, according to Lebanese health authorities.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/strikes-kill-two-pmf-fighters-in-northern-iraq-amid-wider-war-group-says) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/death-toll-surpasses-1000-in-lebanon-as-israeli-bombardment-continues)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/strikes-kill-two-pmf-fighters-in-northern-iraq-amid-wider-war-group-says) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/19/death-toll-surpasses-1000-in-lebanon-as-israeli-bombardment-continues)
 
 </details>
 

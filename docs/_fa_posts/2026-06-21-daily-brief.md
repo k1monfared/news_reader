@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این مذاکرات تنها چند روز پیش لغو شده بود اما روز شنبه در بورگنشتاک با میانجی‌گری قطر و پاکستان از سر گرفته شد. دستور کار متمرکز بر لبنان و برنامه هسته‌ای ایران است و مذاکره‌کنندگان با یک پنجره ۶۰ روزه برای حل مسائل دشوار از جمله ذخایر اورانیوم مواجه‌اند. ونس گفت می‌خواهد «صفحه جدیدی» با ایران باز کند، اما مقامات ایرانی صراحتاً اعلام می‌کنند که هر توافقی بستگی به پایان دادن عملیات اسرائیل در لبنان دارد.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/21/vance-arrives-in-switzerland-for-us-iran-talks?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260621-middle-east-live-us-vice-president-jd-vance-arrives-in-switzerland-for-iran-peace-talks)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/21/vance-arrives-in-switzerland-for-us-iran-talks?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260621-middle-east-live-us-vice-president-jd-vance-arrives-in-switzerland-for-iran-peace-talks)
 
 </details>
 
@@ -38,7 +38,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ایران ادعا کرد تنگه را روز شنبه به دلیل نقض آتش‌بس توسط حملات اسرائیل در لبنان بسته است. با این حال، فرماندهی مرکزی آمریکا تأیید کرد دهها کشتی بدون مشکل عبور کرده‌اند که ادعای بسته شدن را تکذیب می‌کند. ترامپ سپس هشدار داد اگر مذاکره‌کنندگان توافق را ظرف ۶۰ روز نهایی نکنند، عوارض بر تردد در هرمز اعمال خواهد کرد. آمریکا قبلاً بنادر ایران را محاصره کرده بود اما پنجشنبه پس از امضای توافق صلح موقت آن را لغو کرد.
 
-منابع: [France 24](https://www.france24.com/en/middle-east/20260620-israeli-strike-in-southern-lebanon-kills-five-hours-after-ceasefire-agreement) | [Euronews](http://www.euronews.com/2026/06/20/iran-recloses-strait-of-hormuz-citing-israeli-strikes-on-lebanon)
+منابع: [France 24](https://www.france24.com/en/middle-east/20260620-israeli-strike-in-southern-lebanon-kills-five-hours-after-ceasefire-agreement) \| [Euronews](http://www.euronews.com/2026/06/20/iran-recloses-strait-of-hormuz-citing-israeli-strikes-on-lebanon)
 
 </details>
 

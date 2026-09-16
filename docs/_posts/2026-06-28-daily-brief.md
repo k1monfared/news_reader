@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The US launched a second wave of strikes on Iranian targets near the Strait of Hormuz on Saturday. Iran's Revolutionary Guard responded by attacking US military sites in Bahrain and Kuwait—the first strike on Kuwait since the ceasefire framework was announced. Iran is now threatening to completely halt negotiations if the US keeps up the attacks. This is day three of tit-for-tat strikes that started when a cargo ship was attacked in the Strait.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/28/iran-attacks-kuwait-and-bahrain-in-response-to-us-strikes?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260628-us-strikes-more-targets-in-iran-as-fragile-ceasefire-comes-under-renewed-strain)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/28/iran-attacks-kuwait-and-bahrain-in-response-to-us-strikes?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260628-us-strikes-more-targets-in-iran-as-fragile-ceasefire-comes-under-renewed-strain)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/28/us-strikes-iran-f
 
 Context: Iran just publicly asserted control over the Strait for a 30-day period and told everyone not to interfere. This comes after a US-led maritime body tried expanding shipping routes near Oman without Iran's blessing. The Strait is the world's most important oil chokepoint, so this is a direct challenge to American attempts to manage transit independently.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/28/araghchi-strait-of-hormuz-remains-under-iranian-control-for-30-days?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260628-middle-east-live-iran-threatens-a-completely-halt-in-talks-with-us-following-exchange-of-fire)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/28/araghchi-strait-of-hormuz-remains-under-iranian-control-for-30-days?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260628-middle-east-live-iran-threatens-a-completely-halt-in-talks-with-us-following-exchange-of-fire)
 
 </details>
 
@@ -57,7 +57,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/28/araghch
 
 Context: The US brokered a framework agreement between Israel and Lebanon that was formally signed on Friday. Netanyahu hailed it as a blow to Iran and Hezbollah. But Hezbollah leader Naim Qassem immediately rejected the whole thing, which raises serious questions about whether the deal can actually be implemented when one of the main parties won't accept it.
 
-Sources: [France 24](https://www.france24.com/en/middle-east/20260627-netanyahu-hails-lebanon-deal-as-hezbollah-rejects-agreement) | [Euronews](http://www.euronews.com/2026/06/27/israels-netanyahu-welcomes-us-brokered-lebanon-agreement-as-far-right-condemns-it)
+Sources: [France 24](https://www.france24.com/en/middle-east/20260627-netanyahu-hails-lebanon-deal-as-hezbollah-rejects-agreement) \| [Euronews](http://www.euronews.com/2026/06/27/israels-netanyahu-welcomes-us-brokered-lebanon-agreement-as-far-right-condemns-it)
 
 </details>
 

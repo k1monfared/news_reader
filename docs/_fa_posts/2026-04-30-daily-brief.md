@@ -54,7 +54,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: فرانسه به تازگی داده‌های سه‌ماهه اول را منتشر کرد که نشان می‌دهد تأثیر اقتصادی جنگ ایران چقدر سریع در دومین اقتصاد بزرگ اروپا گسترش می‌یابد. بانک انگلستان، فدرال رزرو و بانک ژاپن همگی نرخ‌های بهره را به دلیل همان شوک قیمت نفت ثابت نگه داشته‌اند.
 
-منابع: [Euronews](http://www.euronews.com/business/2026/04/30/french-growth-stalls-as-iran-war-energy-shock-hits-economy) | [Euronews](http://www.euronews.com/business/2026/04/30/bank-of-england-holds-rates-as-iran-war-sends-oil-prices-to-new-highs)
+منابع: [Euronews](http://www.euronews.com/business/2026/04/30/french-growth-stalls-as-iran-war-energy-shock-hits-economy) \| [Euronews](http://www.euronews.com/business/2026/04/30/bank-of-england-holds-rates-as-iran-war-sends-oil-prices-to-new-highs)
 
 </details>
 
@@ -65,7 +65,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این اولین واکنش سیاسی داخلی بزرگ نسبت به هزینه‌های جنگ است. وزیر دفاع پیت هگسث برای اولین بار از زمان شروع جنگ در کمیته خدمات نظامی مجلس نمایندگان حاضر شد و بازجویی را "بی‌فایده و شکست‌طلبانه" خواند. او بودجه دفاعی ۱.۵ تریلیون دلاری برای ۲۰۲۷ را پیش می‌برد.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/4/30/25bn-or-1-trillion-how-much-has-iran-war-really-cost-the-us?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260429-middle-east-war-live-trump-says-iran-has-been-militarily-defeated-at-state-dinner)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/4/30/25bn-or-1-trillion-how-much-has-iran-war-really-cost-the-us?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260429-middle-east-war-live-trump-says-iran-has-been-militarily-defeated-at-state-dinner)
 
 </details>
 

@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Pakistan is physically mediating between Washington and Tehran. Iran received a new US proposal—separate from Iran's earlier response—and is examining it now. Trump told reporters Wednesday the talks are nearly done, though both sides are still trading threats about resuming attacks. This represents a concrete escalation from earlier document exchanges to active, in-person mediation.
 
-Sources: [AlJazeera](https://www.aljazeera.com/news/2026/5/21/us-iran-diplomacy-picks-up-whats-the-latest?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260520-middle-east-war-live-trump-to-attend-g7-summit-in-france-in-june)
+Sources: [AlJazeera](https://www.aljazeera.com/news/2026/5/21/us-iran-diplomacy-picks-up-whats-the-latest?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260520-middle-east-war-live-trump-to-attend-g7-summit-in-france-in-june)
 
 </details>
 

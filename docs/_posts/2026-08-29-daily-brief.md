@@ -17,7 +17,7 @@ models_used: ["nemotron-3-ultra-free"]
 
 Context: Iran's president acknowledged exports and imports have slumped nearly 35% under sanctions and a US naval blockade. Tehran still claims $7.5B in oil revenue over the period, but the acting defence minister vowed to keep building defensive capabilities. Meanwhile, Trump announced all mines in international waters of the Strait have been "removed or detonated" and warned of "zero tolerance" for new ones — a claim the BBC also carried. France24's analysis notes the regime has coalesced around entrenched generals and clerics, contrary to early US hopes of regime change producing moderates. Middle East Eye's morning recap adds that Iran's IRGC rejects US assertions the Strait is open, accusing US officials of lying to cover up failures, and notes commercial shipping remains about 90% below pre-conflict levels.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/29/irans-leaders-acknowledge-economic-toll-of-war-pledge-diplomacy-defence?traffic_source=rss) | [France24](https://www.france24.com/en/iran-war-reaches-6-month-mark-conflict-cost-1-100-per-us-taxpayer) | [BBC](https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss) | [Middle East Eye](https://www.middleeasteye.net/news/iran-reports-75bn-oil-revenues-amid-us-naval-blockade) | [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-157)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/29/irans-leaders-acknowledge-economic-toll-of-war-pledge-diplomacy-defence?traffic_source=rss) \| [France24](https://www.france24.com/en/iran-war-reaches-6-month-mark-conflict-cost-1-100-per-us-taxpayer) \| [BBC](https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss) \| [Middle East Eye](https://www.middleeasteye.net/news/iran-reports-75bn-oil-revenues-amid-us-naval-blockade) \| [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-157)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260824-israel-neta
 
 Context: The diplomatic spat and Saudi outreach signal how the conflict is reshaping regional alignments. Mohammed bin Salman's two-day visit with Macron covers the Iran war, Strait of Hormuz security, and bypass routes for energy — plus an Esports World Cup appearance.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260824-iran-calls-france-s-decision-to-expel-two-iranian-diplomats-illegal) | [France24](https://www.france24.com/en/france-and-saudi-arabia-hold-talks-ranging-from-middle-east-to-esports)
+Sources: [France24](https://www.france24.com/en/middle-east/20260824-iran-calls-france-s-decision-to-expel-two-iranian-diplomats-illegal) \| [France24](https://www.france24.com/en/france-and-saudi-arabia-hold-talks-ranging-from-middle-east-to-esports)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260824-iran-calls-
 
 Context: The agreement would let the US "take control" of Venezuela's vast reserves — the largest proven in the world. Details are thin, and it's unclear how the Maduro government, under heavy US sanctions, agrees to this. NPR, The Hindu, Euronews, and DW all carried the announcement from Trump's statement Friday.
 
-Sources: [NPR](https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves) | [The Hindu](https://www.thehindu.com/news/international/us-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves-says-trump/article71402388.ece) | [Euronews](http://www.euronews.com/2026/08/29/us-strikes-deal-to-control-more-than-65-billion-barrels-of-venezuelas-oil-reserves) | [DW](https://www.dw.com/en/us-venezuela-announce-historic-oil-deal/a-78553607?maca=en-rss-en-all-1573-xml-mrss)
+Sources: [NPR](https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves) \| [The Hindu](https://www.thehindu.com/news/international/us-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves-says-trump/article71402388.ece) \| [Euronews](http://www.euronews.com/2026/08/29/us-strikes-deal-to-control-more-than-65-billion-barrels-of-venezuelas-oil-reserves) \| [DW](https://www.dw.com/en/us-venezuela-announce-historic-oil-deal/a-78553607?maca=en-rss-en-all-1573-xml-mrss)
 
 </details>
 
@@ -57,7 +57,7 @@ Sources: [NPR](https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-e
 
 Context: Devastating floods hit the border region, with the death toll climbing and communications cut. One family's desperate search illustrates the chaos: a daughter pleading for international help and comms access while waiting for news of her parents. Rescue efforts are hampered by the remote, mountainous terrain.
 
-Sources: [NPR](https://www.npr.org/2026/08/28/nx-s1-5946732/hundreds-killed-over-1-000-missing-after-flash-floods-in-nepal-and-tibet) | [NPR](https://www.npr.org/2026/08/28/nx-s1-5946690/nepal-floods-missing-parents-shreya-ahuja)
+Sources: [NPR](https://www.npr.org/2026/08/28/nx-s1-5946732/hundreds-killed-over-1-000-missing-after-flash-floods-in-nepal-and-tibet) \| [NPR](https://www.npr.org/2026/08/28/nx-s1-5946690/nepal-floods-missing-parents-shreya-ahuja)
 
 </details>
 
@@ -88,7 +88,7 @@ Sources: [The Hindu](https://www.thehindu.com/news/international/us-diplomats-an
 
 Context: The ruling excludes key evidence ahead of the long-delayed military commission proceedings. Trump plans to mark the anniversary at the Pentagon, while VP Vance attends the New York ceremony. The decision could further complicate a case already stalled for years.
 
-Sources: [The Hindu](https://www.thehindu.com/news/international/us-judge-throws-out-confessions-of-alleged-911-mastermind-says-report/article71403149.ece) | [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/us-judge-rules-alleged-911-masterminds-confessions-inadmissible)
+Sources: [The Hindu](https://www.thehindu.com/news/international/us-judge-throws-out-confessions-of-alleged-911-mastermind-says-report/article71403149.ece) \| [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/us-judge-rules-alleged-911-masterminds-confessions-inadmissible)
 
 </details>
 
@@ -99,7 +99,7 @@ Sources: [The Hindu](https://www.thehindu.com/news/international/us-judge-throws
 
 Context: The JPost cites a report that moving US assets out of Europe weakens deterrence elsewhere. Simultaneously, the Israeli military warns that stalled defense funding threatens Iran war preparations and US arms contracts. Both developments point to strain on Western military readiness across theaters.
 
-Sources: [Jerusalem Post](https://www.jpost.com/international/article-906940) | [Jerusalem Post](https://www.jpost.com/israel-news/defense-news/article-906936)
+Sources: [Jerusalem Post](https://www.jpost.com/international/article-906940) \| [Jerusalem Post](https://www.jpost.com/israel-news/defense-news/article-906936)
 
 </details>
 
@@ -110,7 +110,7 @@ Sources: [Jerusalem Post](https://www.jpost.com/international/article-906940) | 
 
 Context: The country music icon behind hits like "Jolene" and "I Will Always Love You" passed away Friday. Representatives confirmed the cause. Parton's influence stretched far beyond music — into literacy, philanthropy, and pop culture — making her one of America's most beloved entertainers.
 
-Sources: [DW](https://www.dw.com/en/us-country-music-legend-dolly-parton-dies-aged-80/a-78501931?maca=en-rss-en-all-1573-xml-mrss) | [DW](https://www.dw.com/en/remembering-dolly-parton-8-facts-about-the-icon/a-75503168?maca=en-rss-en-all-1573-xml-mrss)
+Sources: [DW](https://www.dw.com/en/us-country-music-legend-dolly-parton-dies-aged-80/a-78501931?maca=en-rss-en-all-1573-xml-mrss) \| [DW](https://www.dw.com/en/remembering-dolly-parton-8-facts-about-the-icon/a-75503168?maca=en-rss-en-all-1573-xml-mrss)
 
 </details>
 

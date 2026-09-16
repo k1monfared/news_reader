@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Daily Brief: August 16, 2026"
+title: "Daily Brief: August 16, 2026 (backfilled)"
 date: 2026-08-16
 categories: [daily-brief]
+backfilled: true
 sources_down: []
 generated_at: "2026-08-21 22:44 UTC-07:00"
 models_used: ["muse-spark-1.2-contributor-free"]

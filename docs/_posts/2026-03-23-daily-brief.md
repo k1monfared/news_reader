@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump said both sides want a deal and that there are "major points of agreement," without naming who he's talking to. Iran's foreign ministry called it an attempt to manipulate oil prices and said no discussions have taken place. Markets whipsawed on the conflicting statements—oil and gold dropped sharply then recovered when Iran denied everything.
 
-Sources: [Euronews (Arabic)](https://arabic.euronews.com/2026/03/23/trump-the-united-states-is-speaking-with-a-senior-official-in-iran-not-the-supreme-lea) | [Reuters](https://jp.reuters.com/markets/commodities/6KH7TNRCGVPLVMKX36CRUBVW5E-2026-03-23/) | [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/23/iran-war-live-tehran-vows-to-completely-close-hormuz-if-power-plants-hit?update=4428484) | [Euronews (Arabic)](https://arabic.euronews.com/2026/03/23/an-american-attempt-to-manipulate-oil-prices-iran-denies-holding-talks-with-the-unite)
+Sources: [Euronews (Arabic)](https://arabic.euronews.com/2026/03/23/trump-the-united-states-is-speaking-with-a-senior-official-in-iran-not-the-supreme-lea) \| [Reuters](https://jp.reuters.com/markets/commodities/6KH7TNRCGVPLVMKX36CRUBVW5E-2026-03-23/) \| [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/23/iran-war-live-tehran-vows-to-completely-close-hormuz-if-power-plants-hit?update=4428484) \| [Euronews (Arabic)](https://arabic.euronews.com/2026/03/23/an-american-attempt-to-manipulate-oil-prices-iran-denies-holding-talks-with-the-unite)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [Euronews (Arabic)](https://arabic.euronews.com/2026/03/23/pakistan-mov
 
 Context: Yesterday Iran threatened to target energy infrastructure across the region if its power grid was attacked. Today it went further: total closure of Hormuz, the chokepoint for about a fifth of global oil. Hundreds of tankers are already stuck waiting to pass through. One Indian-flagged tanker made it through today, but that's the exception.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/23/iran-war-live-tehran-vows-to-completely-close-hormuz-if-power-plants-hit) | [Reuters](https://jp.reuters.com/markets/commodities/DPN4OKTDLBLQREXHFWEIW2ZGGQ-2026-03-23/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/23/iran-war-live-tehran-vows-to-completely-close-hormuz-if-power-plants-hit) \| [Reuters](https://jp.reuters.com/markets/commodities/DPN4OKTDLBLQREXHFWEIW2ZGGQ-2026-03-23/)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/23/iran-war
 
 Context: Oil hit $100+ per barrel before pulling back on Trump's (disputed) negotiation claims. The International Energy Agency says the crisis poses a "major, major threat" to the global economy and is coordinating with member countries on possible reserve releases to stabilize markets.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/23/world-in-energy-crisis-worse-than-1970s-oil-shocks-combined-iea-head-says) | [Reuters](https://jp.reuters.com/markets/commodities/55SCR2IIWRISVAPP4TEXZUDPPA-2026-03-23/) | [Euronews](https://gr.euronews.com/business/2026/03/23/iea-global-economy-faces-major-major-threat-because-of-iran-war)
+Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/23/world-in-energy-crisis-worse-than-1970s-oil-shocks-combined-iea-head-says) \| [Reuters](https://jp.reuters.com/markets/commodities/55SCR2IIWRISVAPP4TEXZUDPPA-2026-03-23/) \| [Euronews](https://gr.euronews.com/business/2026/03/23/iea-global-economy-faces-major-major-threat-because-of-iran-war)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [Reuters](https://jp.reuters.com/markets/commodities/EOBAZCC7ABKLTI2LB6
 
 Context: Trump had set a deadline for Iran to reopen the Strait of Hormuz or face attacks on its electrical grid. That deadline was supposed to pass tonight. Instead, he announced a five-day postponement, citing progress in negotiations that Iran insists don't exist. Markets rallied briefly on hopes of de-escalation before Iran's denial brought uncertainty back.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/23/trump-postpones-military-strikes-on-iranian-power-plants) | [Euronews](https://fr.euronews.com/2026/03/23/donald-trump-annonce-reporter-de-5-jours-son-ultimatum-lance-a-teheran) | [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/23/iran-war-live-tehran-vows-to-completely-close-hormuz-if-power-plants-hit?update=4427408)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/23/trump-postpones-military-strikes-on-iranian-power-plants) \| [Euronews](https://fr.euronews.com/2026/03/23/donald-trump-annonce-reporter-de-5-jours-son-ultimatum-lance-a-teheran) \| [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/23/iran-war-live-tehran-vows-to-completely-close-hormuz-if-power-plants-hit?update=4427408)
 
 </details>
 

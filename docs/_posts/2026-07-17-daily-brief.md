@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump threatened to hit Iranian bridges earlier this week, and overnight July 17-18 the US actually did it—destroying key bridges and infrastructure in southern Iran and striking sites around Tehran for the first time. This marks a geographic escalation beyond the coastal and southern targets the US has been hitting since fighting resumed over the Strait of Hormuz more than a week ago.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260716-middle-east-live-us-launches-fresh-strikes-on-iran-as-hormuz-remains-paralyzed) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/17/us-strikes-destroy-key-bridges-tower-in-southern-iran?traffic_source=rss)
+Sources: [France24](https://www.france24.com/en/middle-east/20260716-middle-east-live-us-launches-fresh-strikes-on-iran-as-hormuz-remains-paralyzed) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/17/us-strikes-destroy-key-bridges-tower-in-southern-iran?traffic_source=rss)
 
 </details>
 

@@ -56,7 +56,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این یک تشدید قابل‌توجه در تهدیدهای ترامپ است. دیروز او محاصره دریایی را اعلام کرد. اکنون او یک برنامه زمانی مشخص برای حملات به زیرساخت‌ها گذاشته است—یک هفته—و اهداف را نام برده است: شبکه‌های برق و پل‌ها. محاصره از قبل اجرا شده و از ورود یا خروج کشتی‌ها از بنادر ایرانی جلوگیری می‌کند.
 
-منابع: [France 24](https://www.france24.com/en/trump-threatens-to-hit-iranian-infrastructure-if-no-deal) | [France 24](https://www.france24.com/en/middle-east/20260713-middle-east-live-us-strikes-iran-for-third-night-as-trump-says-deal-still-possible)
+منابع: [France 24](https://www.france24.com/en/trump-threatens-to-hit-iranian-infrastructure-if-no-deal) \| [France 24](https://www.france24.com/en/middle-east/20260713-middle-east-live-us-strikes-iran-for-third-night-as-trump-says-deal-still-possible)
 
 </details>
 

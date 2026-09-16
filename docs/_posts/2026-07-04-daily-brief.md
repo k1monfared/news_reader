@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Iran's supreme leader was killed in a joint US-Israeli operation. The funeral is spanning multiple cities over six days. A journalist covering Iran notes the crowds skew heavily toward hardline regime supporters and don't represent broader Iranian public opinion about the government.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/gallery/2026/7/4/millions-mourn-irans-ali-khamenei-amid-historic-funeral-procession?traffic_source=rss) | [France24](https://www.france24.com/en/iran-holds-funeral-for-ali-khamenei-attendees-hardline-factions-of-society-specialist-says) | [Euronews](http://www.euronews.com/video/2026/07/04/iranians-mourn-as-khamenei-funeral-ceremonies-begin)
+Sources: [Al Jazeera](https://www.aljazeera.com/gallery/2026/7/4/millions-mourn-irans-ali-khamenei-amid-historic-funeral-procession?traffic_source=rss) \| [France24](https://www.france24.com/en/iran-holds-funeral-for-ali-khamenei-attendees-hardline-factions-of-society-specialist-says) \| [Euronews](http://www.euronews.com/video/2026/07/04/iranians-mourn-as-khamenei-funeral-ceremonies-begin)
 
 </details>
 

@@ -95,6 +95,7 @@ class RunMeta(BaseModel):
     items_filtered: int = 0
     items_included: int = 0
     sources_down: list[str] = []
+    backfill: bool = False
 
 
 # --- Configuration models ---

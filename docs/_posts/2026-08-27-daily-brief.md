@@ -17,7 +17,7 @@ models_used: ["nemotron-3-ultra-free", "mimo-v2.5-free"]
 
 Context: This marks a sharp escalation in Iranian rhetoric directly threatening the US president's family. The Qatar meeting is a concrete diplomatic push — Doha has been mediating separately from stalled US-Iran talks. The fuel queues signal the economic pressure has reached ordinary Iranians; officials admitted prices "would have to change" without details. Trump's energy-grid order cites a foreign threat, and his hint at sanctioning Chinese banks signals potential secondary sanctions escalation.
 
-Sources: [France24](https://www.france24.com/en/iran-offers-10-million-to-kill-trump-s-son) | [Euronews](http://www.euronews.com/2026/08/27/qatar-pm-meets-irans-araghchi-in-tehran-as-doha-pushes-de-escalation-and-reopening-hormuz) | [Euronews](http://www.euronews.com/2026/08/27/kilometre-long-petrol-queues-in-iran-signal-further-strain-on-tehran) | [Al Jazeera](https://www.aljazeera.com/news/2026/8/27/trump-executive-order-bans-some-foreign-equipment-in-us-energy-grid) | [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/trump-hints)
+Sources: [France24](https://www.france24.com/en/iran-offers-10-million-to-kill-trump-s-son) \| [Euronews](http://www.euronews.com/2026/08/27/qatar-pm-meets-irans-araghchi-in-tehran-as-doha-pushes-de-escalation-and-reopening-hormuz) \| [Euronews](http://www.euronews.com/2026/08/27/kilometre-long-petrol-queues-in-iran-signal-further-strain-on-tehran) \| [Al Jazeera](https://www.aljazeera.com/news/2026/8/27/trump-executive-order-bans-some-foreign-equipment-in-us-energy-grid) \| [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/trump-hints)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [France24](https://www.france24.com/en/iran-offers-10-million-to-kill-t
 
 Context: The report appears in both MEE's live blog and a full article, citing AP interviews with NATO and US officials. It indicates the Iran campaign has depleted Patriot interceptor stocks faster than replenishment, leaving the US military in Europe with "very limited" capability to defend against ballistic missile strikes.
 
-Sources: [Middle East Eye](https://www.middleeasteye.net/news/us-missile-interceptor-shortfall-beyond-critical-due-war-iran-report) | [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/us-missile-interceptor-shortfall-beyond-critical-due-war-iran-report)
+Sources: [Middle East Eye](https://www.middleeasteye.net/news/us-missile-interceptor-shortfall-beyond-critical-due-war-iran-report) \| [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/us-missile-interceptor-shortfall-beyond-critical-due-war-iran-report)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/08/27/russia-attacks-
 
 Context: This follows reporting that the CIA director's recent Moscow trip was likely about Iran, not a warning on Baltic aggression — per a former Estonian president. The eastern EU states feel the current structures aren't enough.
 
-Sources: [Euronews](http://www.euronews.com/my-europe/2026/08/27/eastern-flank-commissioners-urge-von-der-leyen-to-appoint-special-coordinator-as-russian-t) | [Euronews](http://www.euronews.com/my-europe/2026/08/27/cia-boss-moscow-trip-was-about-iran-not-the-baltics-ex-estonian-president-tells-euronews)
+Sources: [Euronews](http://www.euronews.com/my-europe/2026/08/27/eastern-flank-commissioners-urge-von-der-leyen-to-appoint-special-coordinator-as-russian-t) \| [Euronews](http://www.euronews.com/my-europe/2026/08/27/cia-boss-moscow-trip-was-about-iran-not-the-baltics-ex-estonian-president-tells-euronews)
 
 </details>
 
@@ -57,7 +57,7 @@ Sources: [Euronews](http://www.euronews.com/my-europe/2026/08/27/eastern-flank-c
 
 Context: The roadmap exists on paper. Hamas says yes. Israel's earthworks on the ground tell a different story. Bowen's analysis: "rare hope" but "very complicated" — politics, war, and destruction make implementation a long shot.
 
-Sources: [BBC](https://www.bbc.co.uk/news/articles/c20e94k2ex5o?at_medium=RSS&at_campaign=rss) | [BBC](https://www.bbc.co.uk/news/articles/cpvwjmme3p0o?at_medium=RSS&at_campaign=rss) | [BBC](https://www.bbc.co.uk/news/articles/c2dkje4p4klo?at_medium=RSS&at_campaign=rss)
+Sources: [BBC](https://www.bbc.co.uk/news/articles/c20e94k2ex5o?at_medium=RSS&at_campaign=rss) \| [BBC](https://www.bbc.co.uk/news/articles/cpvwjmme3p0o?at_medium=RSS&at_campaign=rss) \| [BBC](https://www.bbc.co.uk/news/articles/c2dkje4p4klo?at_medium=RSS&at_campaign=rss)
 
 </details>
 
@@ -77,7 +77,7 @@ Sources: [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-upd
 
 Context: Two NPR pieces confirm — one says nearly 400 dead, another says nearly 1,000 missing total (558 in Tibet per Xinhua, 162+ in Nepal). The glacial collapse triggered mudslides that hit the Nepal-Tibet border region hard.
 
-Sources: [NPR](https://www.npr.org/2026/08/27/nx-s1-5946309/nepal-tibet-deadly-floods) | [NPR](https://www.npr.org/2026/08/26/g-s1-140211/nepal-china-floods)
+Sources: [NPR](https://www.npr.org/2026/08/27/nx-s1-5946309/nepal-tibet-deadly-floods) \| [NPR](https://www.npr.org/2026/08/26/g-s1-140211/nepal-china-floods)
 
 </details>
 
@@ -86,7 +86,7 @@ Sources: [NPR](https://www.npr.org/2026/08/27/nx-s1-5946309/nepal-tibet-deadly-f
 
 Context: Two Al Jazeera pieces — one news, one video report from the ground. Smoke exposure is severe; the fires are ongoing.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/27/everything-is-covered-in-ash-indonesia-wildfires-leave-people-in-crisis) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/8/27/08-27-26-jess-wt-kalimantan-fires-reported)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/27/everything-is-covered-in-ash-indonesia-wildfires-leave-people-in-crisis) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/8/27/08-27-26-jess-wt-kalimantan-fires-reported)
 
 </details>
 
@@ -128,7 +128,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/27/us-postal-service
 
 Context: Mladić was the military architect of the 1990s Bosnia war's worst atrocities. His death closes a chapter but the convictions stand.
 
-Sources: [NPR](https://www.npr.org/2026/08/27/nx-s1-5946375/ratko-mladic-dead) | [DW](https://www.dw.com/en/ex-bosnian-serb-military-leader-ratko-mladic-dead-at-84/a-78531323)
+Sources: [NPR](https://www.npr.org/2026/08/27/nx-s1-5946375/ratko-mladic-dead) \| [DW](https://www.dw.com/en/ex-bosnian-serb-military-leader-ratko-mladic-dead-at-84/a-78531323)
 
 </details>
 

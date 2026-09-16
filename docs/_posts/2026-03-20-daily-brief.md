@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The conflict has now lasted 21 days. Israel launched fresh strikes on Tehran targeting what it calls regime infrastructure. Euronews reports 16 Iranian naval vessels were destroyed, though this figure lacks independent confirmation. Iran is warning it'll intensify strikes if the US or Israel go after its energy sites. This is an evolving situation with both sides actively exchanging fire.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/20/iran-war-what-is-happening-on-day-21-of-us-israel-attacks) | [Euronews IT](https://it.euronews.com/2026/03/20/guerra-in-medio-oriente-colpita-raffineria-in-kuwait-trump-chiede-200-miliardi-al-congress)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/20/iran-war-what-is-happening-on-day-21-of-us-israel-attacks) \| [Euronews IT](https://it.euronews.com/2026/03/20/guerra-in-medio-oriente-colpita-raffineria-in-kuwait-trump-chiede-200-miliardi-al-congress)
 
 </details>
 
@@ -53,7 +53,7 @@ Sources: [Euronews Arabic](https://arabic.euronews.com/2026/03/20/what-impact-wi
 
 Context: Netanyahu claims Israel has successfully degraded Iran's missile manufacturing capacity. However, Iran's Revolutionary Guard counters that missile production continues uninterrupted despite ongoing strikes. This represents a fundamental dispute about the effectiveness of Israeli targeting.
 
-Sources: [Euronews RU](https://ru.euronews.com/2026/03/19/iran-war-evening-update) | [Euronews Arabic](https://arabic.euronews.com/2026/03/20/irans-revolutionary-guard-announces-the-death-of-its-spokesman-and-confirms-continued-mis)
+Sources: [Euronews RU](https://ru.euronews.com/2026/03/19/iran-war-evening-update) \| [Euronews Arabic](https://arabic.euronews.com/2026/03/20/irans-revolutionary-guard-announces-the-death-of-its-spokesman-and-confirms-continued-mis)
 
 </details>
 
@@ -91,7 +91,7 @@ Sources: [Reuters](https://jp.reuters.com/markets/commodities/IMILCLX62ZL3FCNJ66
 
 Context: The conflict has disrupted fertilizer supply chains just as Europe remains dependent on Russian fertilizer despite sanctions. Rising fertilizer costs will flow through to higher food prices across the continent in coming months.
 
-Sources: [Euronews](https://www.euronews.com/2026/03/20/europes-fertiliser-crisis-prices-surge-due-to-iran-war-and-dependence-on-russia) | [Euronews FR](https://fr.euronews.com/2026/03/20/en-europe-les-prix-des-engrais-explosent-a-cause-de-la-guerre-au-moyen-orient)
+Sources: [Euronews](https://www.euronews.com/2026/03/20/europes-fertiliser-crisis-prices-surge-due-to-iran-war-and-dependence-on-russia) \| [Euronews FR](https://fr.euronews.com/2026/03/20/en-europe-les-prix-des-engrais-explosent-a-cause-de-la-guerre-au-moyen-orient)
 
 </details>
 
@@ -120,7 +120,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/20/switzerland-annou
 
 Context: The US president lashed out at NATO partners for not joining what he called a "simple military maneuver" to keep the Hormuz shipping lane open. France, Germany, Italy, Spain, the UK, and Japan offered some level of support, but nobody's committing combat forces. This is causing serious tension within the alliance.
 
-Sources: [Euronews ES](https://es.euronews.com/2026/03/20/trump-llama-cobardes-a-los-paises-de-la-otan-estrecho-ormuz) | [Euronews ES](https://es.euronews.com/business/2026/03/20/5-paises-europeos-y-japon-dispuestos-a-contribuir-a-proteger-ormuz)
+Sources: [Euronews ES](https://es.euronews.com/2026/03/20/trump-llama-cobardes-a-los-paises-de-la-otan-estrecho-ormuz) \| [Euronews ES](https://es.euronews.com/business/2026/03/20/5-paises-europeos-y-japon-dispuestos-a-contribuir-a-proteger-ormuz)
 
 </details>
 

@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این نشان‌دهنده تغییر در مکان‌ها و فرمت دیپلماتیک است. عباس عراقچی، وزیر خارجه ایران، قبل از رفتن به مسکو برای گفتگو با پوتین از عمان و پاکستان گذر کرد. ترامپ گفتگوهای حضوری برنامه‌ریزی شده در پاکستان را که فرستادگانش قرار بود در آن شرکت کنند لغو کرد و گفت یک تماس تلفنی بین آمریکا و ایران کافی است. پاکستان و عمان همچنان در پشت صحنه به عنوان میانجی تلاش می‌کنند تا از بازگشت به درگیری آشکار جلوگیری کنند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/27/irans-foreign-minister-in-russia-for-talks?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/news/2026/4/27/iran-foreign-minister-in-russia-for-putin-talks?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260426-iran-top-diplomat-pakistan-russia-oman-trump-says-tehran-talk-phone)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/27/irans-foreign-minister-in-russia-for-talks?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/news/2026/4/27/iran-foreign-minister-in-russia-for-putin-talks?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260426-iran-top-diplomat-pakistan-russia-oman-trump-says-tehran-talk-phone)
 
 </details>
 
@@ -49,7 +49,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: مجتبی خامنه‌ای پس از کشته شدن پدرش در حملات تقریباً دو ماه پیش به عنوان رهبر معظم معرفی شد، اما از آن زمان علناً دیده نشده است. اخیراً دیوارنگاری ظاهر شد که او را در کنار رهبران ایرانی درگذشته نشان می‌دهد و گمانه‌زنی‌ها را که او یا کشته شده یا در حملات ۲۸ فوریه به تهران به شدت زخمی شده دامن زد. بر اساس گزارش Times، او از جان خود می‌ترسد و فقط از طریق یادداشت‌های دست‌نویس در تصمیم‌گیری‌ها شرکت می‌کند و از هرگونه حضور حضوری اجتناب می‌کند.
 
-منابع: [France24](https://www.france24.com/en/mojtaba-khamenei-remains-out-of-the-spotlight-in-iran) | [Euronews](http://www.euronews.com/2026/04/27/mystery-deepens-over-mojtaba-khameneis-condition-after-iran-unveils-martyr-mural)
+منابع: [France24](https://www.france24.com/en/mojtaba-khamenei-remains-out-of-the-spotlight-in-iran) \| [Euronews](http://www.euronews.com/2026/04/27/mystery-deepens-over-mojtaba-khameneis-condition-after-iran-unveils-martyr-mural)
 
 </details>
 

@@ -44,7 +44,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260526-middle-east
 
 Context: The US struck a control station in southern Iran on Thursday. Iran retaliated by targeting a US base. Meanwhile, Iran officially accused the US of violating the ceasefire with earlier strikes near the Strait of Hormuz that Washington says were defensive hits on missile sites and vessels laying mines.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260527-us-strikes-iran-tehran-retaliates-with-attack-on-american-base) | [Euronews](http://www.euronews.com/2026/05/28/hopes-for-peace-deal-fade-as-us-and-iran-exchange-fire-again)
+Sources: [France24](https://www.france24.com/en/middle-east/20260527-us-strikes-iran-tehran-retaliates-with-attack-on-american-base) \| [Euronews](http://www.euronews.com/2026/05/28/hopes-for-peace-deal-fade-as-us-and-iran-exchange-fire-again)
 
 </details>
 

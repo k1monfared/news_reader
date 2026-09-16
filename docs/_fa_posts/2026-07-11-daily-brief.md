@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ در اجلاس ناتو اوایل این هفته اعلام کرد که آتش‌بس ژوئن به پایان رسیده است. این تیزترین تهدید تاکنون است—او اعداد مشخصی برای زرادخانه نشانه‌گیری شده به سمت ایران ذکر می‌کند و تهدید ترور شخصی را هم به آن اضافه می‌کند. این تغییر ناگهانی از "به صحبت کردن ادامه خواهیم داد" به "نابودی کامل" در ۲۴ساعت منعکس‌کننده الگوی ترامپ در تشدید لحن است در حالی که ادعا می‌کند آماده دیپلماسی است.
 
-منابع: [Euronews](http://www.euronews.com/2026/07/11/trump-threatens-to-completely-decimate-iran-a-day-after-agreeing-to-more-talks) | [France24](https://www.france24.com/en/middle-east/20260711-live-trump-threatens-iran-after-khamenei-s-funeral-saw-open-calls-for-his-killing)
+منابع: [Euronews](http://www.euronews.com/2026/07/11/trump-threatens-to-completely-decimate-iran-a-day-after-agreeing-to-more-talks) \| [France24](https://www.france24.com/en/middle-east/20260711-live-trump-threatens-iran-after-khamenei-s-funeral-saw-open-calls-for-his-killing)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: آمریکا پس از اینکه ترامپ در اجلاس ناتو آتش‌بس را مرده اعلام کرد، سه‌شنبه، چهارشنبه و پنج‌شنبه حملات را آغاز کرد. ایران هدف قرار دادن راه‌آهن‌ها و پل‌ها را "جنایات جنگی فاحش" می‌خواند و می‌گوید آن‌ها به زیرساخت‌های غیرنظامی حمله می‌کنند، نه اهداف نظامی. هشدار ترامپ درباره بدتر شدن اوضاع نشان می‌دهد که حملات بیشتری در راه است اگر ایران به مختل کردن خطوط کشتیرانی حیاتی ادامه دهد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260709-us-launches-new-strikes-on-iran-trump-says-they-could-get-much-worse) | [France24](https://www.france24.com/en/the-us-and-iran-don-t-want-a-return-to-full-scale-warfare-but-neither-can-appear-to-be-the-loser)
+منابع: [France24](https://www.france24.com/en/middle-east/20260709-us-launches-new-strikes-on-iran-trump-says-they-could-get-much-worse) \| [France24](https://www.france24.com/en/the-us-and-iran-don-t-want-a-return-to-full-scale-warfare-but-neither-can-appear-to-be-the-loser)
 
 </details>
 

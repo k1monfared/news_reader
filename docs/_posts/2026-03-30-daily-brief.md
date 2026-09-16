@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Israel says Iran fired missiles from its territory and from Yemen. This marks an escalation from drone and proxy attacks to direct missile strikes. Multiple European news outlets are reporting threats from Iran to target US forces if Washington moves toward a ground operation.
 
-Sources: [Reuters](https://jp.reuters.com/markets/commodities/KXXPIQ23TFNRVJLKHIQRJIHWOQ-2026-03-30/) | [Euronews](https://gr.euronews.com/2026/03/30/polemos-sti-mesi-anatoli-sygkroysi-iran-livanos-pieseis-gia-symfonia-apo-tramp)
+Sources: [Reuters](https://jp.reuters.com/markets/commodities/KXXPIQ23TFNRVJLKHIQRJIHWOQ-2026-03-30/) \| [Euronews](https://gr.euronews.com/2026/03/30/polemos-sti-mesi-anatoli-sygkroysi-iran-livanos-pieseis-gia-symfonia-apo-tramp)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Reuters](https://jp.reuters.com/markets/commodities/KXXPIQ23TFNRVJLKHI
 
 Context: Iranian officials told CNN they're ready for a prolonged confrontation and that ending the war is "in Tehran's hands." Meanwhile, European sources are reporting talk of potential amphibious operations against Iran, which would be the largest such operation since WWII-era landings.
 
-Sources: [Euronews](https://hu.euronews.com/my-europe/2026/03/30/europe-today-iran-az-amerikai-csapatok-felgyujtasaval-fenyeget-a-haboru-otodik-hete-tart) | [Euronews](https://arabic.euronews.com/2026/03/30/an-iranian-official-told-cnn-the-end-of-the-war-is-in-tehrans-hands-and-we-are-prepar)
+Sources: [Euronews](https://hu.euronews.com/my-europe/2026/03/30/europe-today-iran-az-amerikai-csapatok-felgyujtasaval-fenyeget-a-haboru-otodik-hete-tart) \| [Euronews](https://arabic.euronews.com/2026/03/30/an-iranian-official-told-cnn-the-end-of-the-war-is-in-tehrans-hands-and-we-are-prepar)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/30/middle-east-war-excha
 
 Context: Brent crude is up sharply as Iran accused the US of preparing a ground invasion. European exchanges opened in the red across the board. Gold and silver prices actually dropped despite the conflict—analysts say safe-haven demand has cooled as traders bet on a quick resolution or regime change.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/30/oil-rises-above-116-a-barrel-as-iran-accuses-us-of-preparing-invasion) | [Euronews](https://es.euronews.com/business/2026/03/30/los-mercados-europeos-abren-a-la-baja-ante-la-escalada-del-petroleo)
+Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/30/oil-rises-above-116-a-barrel-as-iran-accuses-us-of-preparing-invasion) \| [Euronews](https://es.euronews.com/business/2026/03/30/los-mercados-europeos-abren-a-la-baja-ante-la-escalada-del-petroleo)
 
 </details>
 
@@ -57,7 +57,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/30/oil-rises-abov
 
 Context: Trump is discussing the possibility of a quick diplomatic resolution, but it's unclear what terms he's offering. Tehran is simultaneously warning that a US ground invasion is a red line. The mixed signals suggest both sides might be looking for an off-ramp, but neither wants to appear weak.
 
-Sources: [Euronews](https://ru.euronews.com/2026/03/30/iran-monday-morning-wrap) | [Euronews](https://es.euronews.com/2026/03/30/iran-trump-acuerdo-podria-alcanzarse-pronto-ataques-teheran)
+Sources: [Euronews](https://ru.euronews.com/2026/03/30/iran-monday-morning-wrap) \| [Euronews](https://es.euronews.com/2026/03/30/iran-trump-acuerdo-podria-alcanzarse-pronto-ataques-teheran)
 
 </details>
 
@@ -68,7 +68,7 @@ Sources: [Euronews](https://ru.euronews.com/2026/03/30/iran-monday-morning-wrap)
 
 Context: Spain expanded an earlier restriction to cover all of its airspace, not just specific bases. This is a significant diplomatic snub—US forces will have to reroute around the Iberian Peninsula. It represents the strongest European pushback against the operation so far.
 
-Sources: [Euronews](https://arabic.euronews.com/2026/03/30/spain-closes-its-airspace-to-us-fighter-jets-involved-in-the-war-on-iran) | [Euronews](https://es.euronews.com/2026/03/30/espana-amplia-su-veto-a-la-aviacion-de-eeuu-vinculada-al-conflicto-irani-a-todo-su-espacio)
+Sources: [Euronews](https://arabic.euronews.com/2026/03/30/spain-closes-its-airspace-to-us-fighter-jets-involved-in-the-war-on-iran) \| [Euronews](https://es.euronews.com/2026/03/30/espana-amplia-su-veto-a-la-aviacion-de-eeuu-vinculada-al-conflicto-irani-a-todo-su-espacio)
 
 </details>
 

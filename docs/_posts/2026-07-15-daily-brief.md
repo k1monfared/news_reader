@@ -55,7 +55,7 @@ Sources: [France 24](https://www.france24.com/en/houthis-launch-missiles-at-saud
 
 Context: This is a significant escalation in Trump's threats. Yesterday he announced the naval blockade. Now he's put a specific timeline on infrastructure strikes—one week—and named the targets: power grids and bridges. The blockade is already in effect, preventing ships from entering or leaving Iranian ports.
 
-Sources: [France 24](https://www.france24.com/en/trump-threatens-to-hit-iranian-infrastructure-if-no-deal) | [France 24](https://www.france24.com/en/middle-east/20260713-middle-east-live-us-strikes-iran-for-third-night-as-trump-says-deal-still-possible)
+Sources: [France 24](https://www.france24.com/en/trump-threatens-to-hit-iranian-infrastructure-if-no-deal) \| [France 24](https://www.france24.com/en/middle-east/20260713-middle-east-live-us-strikes-iran-for-third-night-as-trump-says-deal-still-possible)
 
 </details>
 

@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: These strikes are part of ongoing US-Israeli operations against Iranian infrastructure. The US is also using AI to help select targets—officials say AI picked the first thousand targets in Iran. Airstrikes have been knocking out power in parts of Tehran since Sunday, with residents hearing "the unnerving sound of thundering explosions" before authorities restore electricity in some neighborhoods.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/31/cancer-drug-facility-religious-site-hit-in-israeli-us-strikes-on-iran?traffic_source=rss) | [France 24](https://www.france24.com/en/iran-desalination-plant-in-the-strait-of-hormuz-out-of-service-following-strikes) | [Euronews](http://www.euronews.com/video/2026/03/31/moment-us-strike-sends-massive-fireball-into-sky-over-irans-isfahan)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/31/cancer-drug-facility-religious-site-hit-in-israeli-us-strikes-on-iran?traffic_source=rss) \| [France 24](https://www.france24.com/en/iran-desalination-plant-in-the-strait-of-hormuz-out-of-service-following-strikes) \| [Euronews](http://www.euronews.com/video/2026/03/31/moment-us-strike-sends-massive-fireball-into-sky-over-irans-isfahan)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/31/cancer-drug-facil
 
 Context: This marks a major escalation beyond direct US-Iran exchanges. UAE authorities said they were "actively engaging" with the threat. The strikes came the same day the US hit targets near Isfahan.
 
-Sources: [Euronews](http://www.euronews.com/2026/03/31/euronews-journalists-report-multiple-blasts-in-dubai-in-iranian-missile-and-drone-attack) | [France 24](https://www.france24.com/en/middle-east/20260331-middle-east-war-live-iran-defiant-as-trump-makes-new-threat-against-its-oil-hub-strait-of-hormuz-usa)
+Sources: [Euronews](http://www.euronews.com/2026/03/31/euronews-journalists-report-multiple-blasts-in-dubai-in-iranian-missile-and-drone-attack) \| [France 24](https://www.france24.com/en/middle-east/20260331-middle-east-war-live-iran-defiant-as-trump-makes-new-threat-against-its-oil-hub-strait-of-hormuz-usa)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [Euronews](http://www.euronews.com/2026/03/31/euronews-journalists-repo
 
 Context: Power outages continue hitting Tehran after repeated airstrikes. The war shows no signs of stopping despite diplomatic claims.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/31/us-defence-secretary-says-next-few-days-in-iran-war-will-be?traffic_source=rss) | [France 24](https://www.france24.com/en/with-iran-us-trying-to-put-the-best-face-on-a-mission-they-did-not-anticipate)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/31/us-defence-secretary-says-next-few-days-in-iran-war-will-be?traffic_source=rss) \| [France 24](https://www.france24.com/en/with-iran-us-trying-to-put-the-best-face-on-a-mission-they-did-not-anticipate)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/3/31/us-defe
 
 Context: Trump said he'd obliterate Kharg Island (which handles nearly 90% of Iranian crude exports), along with oil wells and power plants. He's also reportedly considering a military mission to grab uranium enriched to 60%—experts call it "one of the most risky and difficult operations the US military has undertaken since the Second World War." Oil prices climbed above $115 a barrel.
 
-Sources: [France 24](https://www.france24.com/en/middle-east/20260330-trump-threatens-to-obliterate-iran-kharg-island-oil-hub-if-no-deal-reached-usa-strait-of-hormuz) | [France 24](https://www.france24.com/en/middle-east/20260331-how-trump-s-dream-of-seizing-enriched-uranium-from-iran-could-end-in-catastrophe) | [Euronews](http://www.euronews.com/2026/03/31/trump-tells-allies-to-go-get-your-own-oil-amid-iranian-attacks-on-gulf)
+Sources: [France 24](https://www.france24.com/en/middle-east/20260330-trump-threatens-to-obliterate-iran-kharg-island-oil-hub-if-no-deal-reached-usa-strait-of-hormuz) \| [France 24](https://www.france24.com/en/middle-east/20260331-how-trump-s-dream-of-seizing-enriched-uranium-from-iran-could-end-in-catastrophe) \| [Euronews](http://www.euronews.com/2026/03/31/trump-tells-allies-to-go-get-your-own-oil-amid-iranian-attacks-on-gulf)
 
 </details>
 
@@ -66,7 +66,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/31/war-on-iran-uss-h
 
 Context: Consumer prices jumped at their fastest monthly pace since October 2022, almost entirely driven by the energy shock. Economists are split on whether the European Central Bank will hike rates. EU governments are throwing billions at fuel tax cuts and price caps, and Brussels is urging member states to boost energy savings and prepare for prolonged disruption.
 
-Sources: [Euronews](http://www.euronews.com/business/2026/03/31/oil-markets-trumps-iran) | [Euronews](http://www.euronews.com/business/2026/03/31/eurozone-inflation-jumps-to-25-amid-iran-war-will-the-ecb-hike-rates) | [Euronews](http://www.euronews.com/my-europe/2026/03/31/strait-of-hormuz-shutdown-what-implications-for-europe-for-how-long-and-how-high-can-price)
+Sources: [Euronews](http://www.euronews.com/business/2026/03/31/oil-markets-trumps-iran) \| [Euronews](http://www.euronews.com/business/2026/03/31/eurozone-inflation-jumps-to-25-amid-iran-war-will-the-ecb-hike-rates) \| [Euronews](http://www.euronews.com/my-europe/2026/03/31/strait-of-hormuz-shutdown-what-implications-for-europe-for-how-long-and-how-high-can-price)
 
 </details>
 
@@ -86,7 +86,7 @@ Sources: [Euronews](http://www.euronews.com/2026/03/31/iran-war-sparks-renewable
 
 Context: The UN force policing southern Lebanon said it's investigating the separate incidents. The deaths come amid ongoing exchanges between Israel and Hezbollah. The UN Security Council is holding an emergency session over the deaths.
 
-Sources: [France 24](https://www.france24.com/en/three-un-peacekeepers-in-lebanon-killed-in-24-hours) | [Euronews](http://www.euronews.com/2026/03/31/un-security-council-to-hold-emergency-session-after-peacekeeper-deaths-in-lebanon)
+Sources: [France 24](https://www.france24.com/en/three-un-peacekeepers-in-lebanon-killed-in-24-hours) \| [Euronews](http://www.euronews.com/2026/03/31/un-security-council-to-hold-emergency-session-after-peacekeeper-deaths-in-lebanon)
 
 </details>
 
@@ -95,7 +95,7 @@ Sources: [France 24](https://www.france24.com/en/three-un-peacekeepers-in-lebano
 
 Context: With the Strait of Hormuz shut, the Red Sea route through Bab al-Mandab has become critical. An expert from Cambridge told France 24 that "the Houthis hold serious cards" and blocking the strait "will have a dramatic impact on the oil supply," especially for Europe.
 
-Sources: [France 24](https://www.france24.com/en/middle-east/20260330-will-iranian-backed-yemen-houthis-rebels-block-the-bab-al-mandeb-strait) | [France 24](https://www.france24.com/en/the-houthis-hold-serious-cards-expert-says-amid-threats-to-choke-off-red-sea-passage)
+Sources: [France 24](https://www.france24.com/en/middle-east/20260330-will-iranian-backed-yemen-houthis-rebels-block-the-bab-al-mandeb-strait) \| [France 24](https://www.france24.com/en/the-houthis-hold-serious-cards-expert-says-amid-threats-to-choke-off-red-sea-passage)
 
 </details>
 
@@ -115,7 +115,7 @@ Sources: [Euronews](http://www.euronews.com/2026/03/31/attack-on-michigan-synago
 
 Context: Pakistan's Deputy PM Ishaq Dar visited China after Islamabad talks aimed at getting both sides to negotiate. But sources told Al Jazeera that "Iranians don't consider Trump's 15-point plan as beginning of a diplomatic track."
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/31/will-china-join-pakistan-led-efforts-to-mediate-us-iran-peace?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/video/quotable/2026/3/31/iranians-dont-consider-trumps-15-point-plan-as-beginning-of-a-diplomatic)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/31/will-china-join-pakistan-led-efforts-to-mediate-us-iran-peace?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/video/quotable/2026/3/31/iranians-dont-consider-trumps-15-point-plan-as-beginning-of-a-diplomatic)
 
 </details>
 

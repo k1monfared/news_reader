@@ -1,9 +1,10 @@
 ---
 layout: post
 lang: fa
-title: "گزارش روزانه: ۲۰ شهریور ۱۴۰۵"
+title: "گزارش روزانه: ۲۰ شهریور ۱۴۰۵ (با تأخیر)"
 date: 2026-09-11
 date_fa: "۲۰ شهریور ۱۴۰۵"
+backfilled: true
 sources_down: []
 generated_at: "2026-09-16 11:45 UTC-07:00"
 models_used: ["deepseek-v4-flash"]
@@ -18,7 +19,7 @@ models_used: ["deepseek-v4-flash"]
 
 زمینه: یک مقام دولتی محلی و شاهدان عینی به AFP/France24 گفته‌اند که جنگجویان حوثی پس از عقب‌نشینی نیروهای دولتی به جزیره میون/پریم رسیدند؛ بی‌بی‌سی به‌طور جداگانه سقوط مخا را گزارش کرد و عملیات گسترده‌تر را پیشروی ادعایی حوثی‌ها توصیف می‌کند. تحلیل بی‌بی‌سی این پیشروی ساحلی را چشمگیرترین پیروزی نظامی حوثی‌ها در چند سال اخیر می‌خواند و هشدار می‌دهد که ممکن است بُعد خطرناک جدیدی به جنگ ایران اضافه کند. گزارش‌ها به تاریخ ۱۱ سپتامبر نشان می‌دهند که این گروه در حال تثبیت کنترل بر یک گلوگاه حیاتی کشتیرانی بین‌المللی است.
 
-منابع: [France24](http://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane) | [BBC](https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss) | [BBC analysis](https://www.bbc.co.uk/news/articles/c3v4zgzr1kxo?at_medium=RSS&at_campaign=rss)
+منابع: [France24](http://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane) \| [BBC](https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss) \| [BBC analysis](https://www.bbc.co.uk/news/articles/c3v4zgzr1kxo?at_medium=RSS&at_campaign=rss)
 
 </details>
 

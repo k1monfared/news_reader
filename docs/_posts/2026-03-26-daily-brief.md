@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: After Trump floated a ceasefire proposal yesterday, Iran's foreign ministry dismissed it today and said they'd only discuss terms after their conditions are met. Trump responded by insisting Iran "badly" wants talks but is afraid of looking weak to its own people. The gap between what each side is saying publicly couldn't be wider.
 
-Sources: [Reuters](https://jp.reuters.com/world/security/BTDMWJLLNVJEJFAKLHWCDURECI-2026-03-26/) | [Euronews](https://www.euronews.com/2026/03/26/trump-insists-iran-badly-wants-a-deal-with-the-us-after-tehran-dismisses-his-ceasefire-pro) | [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/26/iran-war-live-us-demands-tehran-accept-defeat-israel-pounds-lebanon?update=4436793)
+Sources: [Reuters](https://jp.reuters.com/world/security/BTDMWJLLNVJEJFAKLHWCDURECI-2026-03-26/) \| [Euronews](https://www.euronews.com/2026/03/26/trump-insists-iran-badly-wants-a-deal-with-the-us-after-tehran-dismisses-his-ceasefire-pro) \| [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/26/iran-war-live-us-demands-tehran-accept-defeat-israel-pounds-lebanon?update=4436793)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [Reuters](https://jp.reuters.com/world/europe/LXLW43G7WNOQTMUGZX453CJRJ
 
 Context: Tangsiri was the naval chief who ordered the strait closure and had previously threatened to send US forces "to hell." His assassination is a significant escalation—he was one of the most senior Iranian officers killed so far. Israel is clearly going after the people directly responsible for choking off Gulf shipping.
 
-Sources: [Euronews](https://es.euronews.com/2026/03/26/israel-mata-a-alireza-tangsiri-comandante-irani-ormuz-amenazo-con-enviar-al-infierno-eeuu) | [Euronews](https://arabic.euronews.com/2026/03/26/reports-iranian-revolutionary-guard-navy-commander-assassinated)
+Sources: [Euronews](https://es.euronews.com/2026/03/26/israel-mata-a-alireza-tangsiri-comandante-irani-ormuz-amenazo-con-enviar-al-infierno-eeuu) \| [Euronews](https://arabic.euronews.com/2026/03/26/reports-iranian-revolutionary-guard-navy-commander-assassinated)
 
 </details>
 
@@ -57,7 +57,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/26/israel-sends-more
 
 Context: Even though Trump extended his deadline, the strait remains effectively closed to most traffic. Shipping companies are negotiating case-by-case with Iranian authorities, and insurers are either refusing coverage or charging massive premiums. Iraq has already cut production at its southern oil fields by 80% because they can't export the crude.
 
-Sources: [Euronews](https://es.euronews.com/business/2026/03/26/los-barcos-piden-permiso-a-iran-para-cruzar-hormuz-ante-mas-riesgos-y-seguros-al-alza) | [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/26/iran-war-live-us-demands-tehran-accept-defeat-israel-pounds-lebanon?update=4437292)
+Sources: [Euronews](https://es.euronews.com/business/2026/03/26/los-barcos-piden-permiso-a-iran-para-cruzar-hormuz-ante-mas-riesgos-y-seguros-al-alza) \| [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/26/iran-war-live-us-demands-tehran-accept-defeat-israel-pounds-lebanon?update=4437292)
 
 </details>
 
@@ -86,7 +86,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/26/helium-hitch-w
 
 Context: Trump had threatened to hit Iran's electrical grid. Today he pushed the deadline back by about 10 days, claiming it's because diplomatic channels are open. Iran immediately rejected that characterization, so it's unclear what "talks" he's referring to.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/26/trump-postpones-us-strikes-on-iranian-power-grid-to-april-6-amid-talks) | [Euronews](https://es.euronews.com/2026/03/26/trump-amplia-al-6-de-abril-el-plazo-para-que-iran-reabra-el-estrecho-de-ormuz)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/26/trump-postpones-us-strikes-on-iranian-power-grid-to-april-6-amid-talks) \| [Euronews](https://es.euronews.com/2026/03/26/trump-amplia-al-6-de-abril-el-plazo-para-que-iran-reabra-el-estrecho-de-ormuz)
 
 </details>
 
@@ -95,7 +95,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/26/trump-postpones-u
 
 Context: Washington Post reported this is under discussion as the US tries to sustain operations on two fronts. Ukraine has been getting billions in military aid, but the Iran conflict is burning through munitions fast.
 
-Sources: [Reuters](https://jp.reuters.com/world/ukraine/PVCYEZ4NFNNL5PEMVHT3OYINEM-2026-03-26/) | [Euronews](https://arabic.euronews.com/2026/03/26/washington-considers-redirecting-military-aid-from-ukraine-to-the-middle-east)
+Sources: [Reuters](https://jp.reuters.com/world/ukraine/PVCYEZ4NFNNL5PEMVHT3OYINEM-2026-03-26/) \| [Euronews](https://arabic.euronews.com/2026/03/26/washington-considers-redirecting-military-aid-from-ukraine-to-the-middle-east)
 
 </details>
 

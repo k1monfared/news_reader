@@ -26,7 +26,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260721-live-lebano
 
 Context: These are the first US deaths from hostile fire since a truce with Iran in early April. One additional service member is missing from the Jordan attack, and another was wounded in the Iraq incident. Trump has vowed to shift his approach in response.
 
-Sources: [France24](https://www.france24.com/en/first-us-soldiers-killed-in-jordan-trump-vows-to-shift-action) | [France24](https://www.france24.com/en/middle-east/20260719-middle-east-live-us-targets-iran-s-revolutionary-guard-in-retaliation-for-killed-troops)
+Sources: [France24](https://www.france24.com/en/first-us-soldiers-killed-in-jordan-trump-vows-to-shift-action) \| [France24](https://www.france24.com/en/middle-east/20260719-middle-east-live-us-targets-iran-s-revolutionary-guard-in-retaliation-for-killed-troops)
 
 </details>
 
@@ -64,7 +64,7 @@ Sources: [France24](https://www.france24.com/en/israel-says-iran-s-aqaba-interce
 
 Context: Israel is occupying a chunk of southern Lebanon and says it won't leave until Hezbollah is disarmed. Joseph Aoun needs to convince Trump that Lebanon's army can handle it, which most observers doubt. Israel and Lebanon are testing "safe zones" as part of a potential withdrawal deal.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260721-lebanon-s-aoun-to-press-trump-for-israeli-troop-withdrawal-as-pressure-builds-to-disarm-hezbollah) | [France24](https://www.france24.com/en/israel-and-lebanon-trial-safe-zones-in-southern-lebanon-as-part-of-deal)
+Sources: [France24](https://www.france24.com/en/middle-east/20260721-lebanon-s-aoun-to-press-trump-for-israeli-troop-withdrawal-as-pressure-builds-to-disarm-hezbollah) \| [France24](https://www.france24.com/en/israel-and-lebanon-trial-safe-zones-in-southern-lebanon-as-part-of-deal)
 
 </details>
 

@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: آتش‌بس اولیه ۱۷ آوریل قرار بود به‌زودی منقضی شود. پس از مذاکرات در واشنگتن، هر دو طرف با تمدید موافقت کردند. پنتاگون هیئت‌های نظامی را در ۲۹ می گرد هم خواهد آورد و به دنبال آن مذاکرات سیاسی در ۲ تا ۳ ژوئن برگزار می‌شود. اسرائیل به حمله به آنچه ادعا می‌کند اهداف حزب‌الله در جنوب لبنان است ادامه می‌دهد و می‌گوید این عملیات‌ها تحت پوشش آتش‌بس نیستند.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260515-israel-lebanon-agree-to-extend-ceasefire-by-45-days-after-talks-in-washington) | [Euronews](http://www.euronews.com/2026/05/15/lebanonisrael-ceasefire-extended-by-45-days-says-us)
+منابع: [France24](https://www.france24.com/en/middle-east/20260515-israel-lebanon-agree-to-extend-ceasefire-by-45-days-after-talks-in-washington) \| [Euronews](http://www.euronews.com/2026/05/15/lebanonisrael-ceasefire-extended-by-45-days-says-us)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: عباس عراقچی، وزیر امور خارجه ایران گفت فقدان اعتماد به آمریکا مانع پیشرفت در پایان دادن به جنگ است. این اظهارات درست زمانی صورت گرفت که ترامپ تمایل به مذاکره را نشان داد، تغییری نسبت به موضع قبلی‌اش. برنامه هسته‌ای همچنان یک نقطه اختلاف باقی مانده است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/16/iran-war-day-78-trump-tehran-signal-talks-as-lebanon-truce-extended?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260515-middle-east-live-trump-says-he-won-t-be-much-more-patient-with-iran)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/16/iran-war-day-78-trump-tehran-signal-talks-as-lebanon-truce-extended?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260515-middle-east-live-trump-says-he-won-t-be-much-more-patient-with-iran)
 
 </details>
 
@@ -47,7 +47,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ارتش اسرائیل می‌گوید الحداد یکی از آخرین فرماندهان ارشد بخش مسلح حماس بود و مسئول برنامه‌ریزی حمله ۷ اکتبر بود. این حمله روز جمعه در شهر غزه رخ داد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260516-israel-says-leader-of-hamas-armed-wing-killed-in-strike-on-gaza) | [Euronews](http://www.euronews.com/2026/05/15/israeli-army-announces-targeting-of-hamas-military-chief-in-gaza-city-airstrike)
+منابع: [France24](https://www.france24.com/en/middle-east/20260516-israel-says-leader-of-hamas-armed-wing-killed-in-strike-on-gaza) \| [Euronews](http://www.euronews.com/2026/05/15/israeli-army-announces-targeting-of-hamas-military-chief-in-gaza-city-airstrike)
 
 </details>
 

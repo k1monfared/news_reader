@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این یک چرخش بزرگ است. ترامپ «پروژه آزادی» را در ۴ مه راه‌اندازی کرد تا کشتی‌های تجاری گرفتار را در تنگه اسکورت کند. حالا او آن را متوقف کرده، ظاهراً خواست ایران را پذیرفته که ابتدا موضوع هرمز را حل کنند و بعد درباره موضوعات هسته‌ای صحبت کنند. آمریکا همچنین رسماً عملیات‌های نظامی تهاجمی خود علیه ایران را پایان داد، اگرچه محاصره دریایی بنادر ایران را همچنان برقرار نگه داشته است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/6/has-the-us-accepted-irans-demand-to-settle-hormuz-first-nuclear-later?traffic_source=rss) | [France24](https://www.france24.com/en/us-pauses-hormuz-escorts-donald-trump-says-progress-on-iran-deal) | [Euronews](http://www.euronews.com/2026/05/06/us-pauses-naval-escorts-through-hormuz-as-progress-made-on-peace-deal-trump-says)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/6/has-the-us-accepted-irans-demand-to-settle-hormuz-first-nuclear-later?traffic_source=rss) \| [France24](https://www.france24.com/en/us-pauses-hormuz-escorts-donald-trump-says-progress-on-iran-deal) \| [Euronews](http://www.euronews.com/2026/05/06/us-pauses-naval-escorts-through-hormuz-as-progress-made-on-peace-deal-trump-says)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: با متوقف شدن مأموریت اسکورت آمریکا، ایران پیش می‌آید و می‌گوید خودشان عبور و مرور در تنگه را مدیریت خواهند کرد. این یک تغییر بزرگ است—ایران از همان ابتدا بود که گذرگاه را مسدود کرده بود، و حالا خود را به عنوان تضمین‌کننده عبور ایمن جا می‌زند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/6/french-container-ship-struck-in-latest-escalation-at-strait-of-hormuz?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/05/06/us-pauses-naval-escorts-through-hormuz-as-progress-made-on-peace-deal-trump-says)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/6/french-container-ship-struck-in-latest-escalation-at-strait-of-hormuz?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/05/06/us-pauses-naval-escorts-through-hormuz-as-progress-made-on-peace-deal-trump-says)
 
 </details>
 
@@ -36,7 +36,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: چین سهم بزرگی در این موضوع دارد—بیشتر نفت آنها از تنگه هرمز می‌آید. فشار فعال آنها برای مذاکرات صلح، وزن دیپلماتیک جدی اضافه می‌کند، به ویژه از آنجا که هم واشنگتن و هم پکن می‌خواهند تنگه برای تجارت باز باشد.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/6/araghchi-in-beijing-how-china-could-shape-the-direction-of-the-us-iran-war?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/6/china-calls-for-a-complete-end-to-war-on-iran?traffic_source=rss)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/6/araghchi-in-beijing-how-china-could-shape-the-direction-of-the-us-iran-war?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/6/china-calls-for-a-complete-end-to-war-on-iran?traffic_source=rss)
 
 </details>
 
@@ -85,7 +85,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: محمدی در حالی که به خاطر فعالیت‌های حقوق بشری‌اش زندانی بود، برنده جایزه صلح نوبل شد. حامیان او می‌گویند اکنون او «بین زندگی و مرگ» است پس از اینکه با یک بیماری جدی قلبی بستری شده است. مقامات ایرانی او را حتی در بیمارستان نیز تحت نگهبانی نگه داشته‌اند.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260505-iran-nobel-winner-mohammadi-between-life-and-death-after-hospitalisation-say-supporters) | [France24](https://www.france24.com/en/iran-nobel-peace-prize-winner-narges-mohammadi-between-life-and-death)
+منابع: [France24](https://www.france24.com/en/middle-east/20260505-iran-nobel-winner-mohammadi-between-life-and-death-after-hospitalisation-say-supporters) \| [France24](https://www.france24.com/en/iran-nobel-peace-prize-winner-narges-mohammadi-between-life-and-death)
 
 </details>
 

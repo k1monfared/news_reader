@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: پس از اینکه هر دو طرف جمعه سیگنال دادند که توافق اولیه صلح نزدیک است، ترامپ پیش از اجلاس گروه ۷ مشخص شد—تاریخ امضای یکشنبه را اعلام کرد و بیان کرد توافق تنگه را «برای همه» بازگشایی خواهد کرد. وزارت امور خارجه ایران بلافاصله زمان‌بندی را طبق رسانه‌های دولتی رد کرد، هرچند هر دو کشور موافق هستند که در حال نزدیک شدن به توافق هستند. این آخرین شوک در مذاکراتی است که تاریخ‌های امضای متعدد به تأخیر افتاده داشته است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/14/will-the-us-iran-deal-be-signed-on-sunday-what-we-know-so-far?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260612-middle-east-live-iran-says-us-war-deal-could-be-signed-remotely-in-coming-days) | [Euronews](http://www.euronews.com/my-europe/2026/06/13/trump-announces-iran-peace-deal-could-be-signed-on-sunday)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/14/will-the-us-iran-deal-be-signed-on-sunday-what-we-know-so-far?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260612-middle-east-live-iran-says-us-war-deal-could-be-signed-remotely-in-coming-days) \| [Euronews](http://www.euronews.com/my-europe/2026/06/13/trump-announces-iran-peace-deal-could-be-signed-on-sunday)
 
 </details>
 
@@ -47,7 +47,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: جنگنده‌های اسرائیلی یکشنبه منطقه ضاحیه بیروت را هدف قرار دادند و منطقه غبیری را زدند. دفتر نتانیاهو تأیید کرد که زیرساخت‌های حزب‌الله را هدف گرفته‌اند. این یک تشدید جدی در پایتخت لبنان است که مستقیماً آتش‌بس آمریکا و ایران را تهدید می‌کند—تهران اصرار داشته هر توافقی باید حملات اسرائیل به لبنان را متوقف کند. زمان‌بندی به‌ویژه مشکل‌ساز است با توجه به اعلام ترامپ که توافق صلح می‌تواند در اوایل امروز امضا شود.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/14/israel-issues-forced-displacement-orders-for-29-towns-in-southern-lebanon?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/06/14/israeli-strikes-hit-beirut-as-us-iran-talks-near-completion)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/14/israel-issues-forced-displacement-orders-for-29-towns-in-southern-lebanon?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/06/14/israeli-strikes-hit-beirut-as-us-iran-talks-near-completion)
 
 </details>
 

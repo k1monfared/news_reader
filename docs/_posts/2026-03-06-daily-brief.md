@@ -26,7 +26,7 @@ Sources: [Euronews](https://www.euronews.com/2026/03/06/more-than-30-of-irans-sh
 
 Context: The tempo of attacks has accelerated dramatically. Iran continues to launch missiles and drones at US bases and allies throughout the Gulf region even as it absorbs heavy bombardment. Trump said Iran is being "demolished" but there's no sign Tehran is backing down yet.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/6/us-and-israel-attacking-iran-at-record-pace-war-monitor-says) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/5/iran-fires-more-missiles-drones-across-gulf-region-amid-us-israeli-attacks)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/6/us-and-israel-attacking-iran-at-record-pace-war-monitor-says) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/5/iran-fires-more-missiles-drones-across-gulf-region-amid-us-israeli-attacks)
 
 </details>
 
@@ -64,7 +64,7 @@ Sources: [Euronews](https://arabic.euronews.com/2026/03/06/the-mystery-of-a-miss
 
 Context: Trump's signaling he won't do a ground invasion but also won't accept anything less than total capitulation from Tehran. It's maximalist rhetoric that leaves basically no room for negotiation. The House narrowly rejected a resolution that would've forced him to end the war.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks?update=4373366) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/5/us-house-narrowly-rejects-resolution-to-end-trumps-iran-war)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/6/iran-live-trump-says-iran-being-demolished-tehran-keeps-up-gulf-attacks?update=4373366) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/5/us-house-narrowly-rejects-resolution-to-end-trumps-iran-war)
 
 </details>
 
@@ -93,7 +93,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/6/qatar-warns-iran-w
 
 Context: The US even gave India a 30-day waiver to buy Russian oil that's stuck because of the conflict. Iran's bet on closing Hormuz appears to be backfiring strategically—it's handing Russia economic gains while isolating Tehran further.
 
-Sources: [Euronews](https://www.euronews.com/business/2026/03/06/the-country-likely-winning-from-irans-hormuz-gambit-russia) | [Euronews](https://arabic.euronews.com/business/2026/03/06/us-offers-india-a-30-day-waiver-to-buy-stranded-russian-oil-amid-iran-war-shocks)
+Sources: [Euronews](https://www.euronews.com/business/2026/03/06/the-country-likely-winning-from-irans-hormuz-gambit-russia) \| [Euronews](https://arabic.euronews.com/business/2026/03/06/us-offers-india-a-30-day-waiver-to-buy-stranded-russian-oil-amid-iran-war-shocks)
 
 </details>
 

@@ -35,7 +35,7 @@ Sources: [Euronews](http://www.euronews.com/2026/07/14/us-iran-conflict-widens-a
 
 Context: Bushehr is an extremely sensitive target—hitting anywhere near a nuclear plant risks catastrophic consequences. The US struck there Tuesday. Iran says at least 14 people have died in two days of American attacks, while both countries offer different accounts of how close strikes came to nuclear infrastructure.
 
-Sources: [Euronews](http://www.euronews.com/2026/07/14/us-strikes-bushehr-as-irans-parliament-tables-bill-to-control-hormuz) | [France24](https://www.france24.com/en/iran-claims-us-strike-hit-near-nuclear-powerplant)
+Sources: [Euronews](http://www.euronews.com/2026/07/14/us-strikes-bushehr-as-irans-parliament-tables-bill-to-control-hormuz) \| [France24](https://www.france24.com/en/iran-claims-us-strike-hit-near-nuclear-powerplant)
 
 </details>
 
@@ -73,7 +73,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260713-trump-reimp
 
 Context: This is a major economic escalation. The UN's shipping agency opposes any country charging fees for international straits. Trump's essentially trying to control and profit from one of the world's most critical waterways while physically blockading Iranian ports.
 
-Sources: [France24](https://www.france24.com/en/us-strikes-in-iran-continue-trump-says-reinstates-blockade-on-strait-of-hormuz) | [France24](https://www.france24.com/en/trump-reimposes-iran-naval-blockade-threatens-hormuz-fees)
+Sources: [France24](https://www.france24.com/en/us-strikes-in-iran-continue-trump-says-reinstates-blockade-on-strait-of-hormuz) \| [France24](https://www.france24.com/en/trump-reimposes-iran-naval-blockade-threatens-hormuz-fees)
 
 </details>
 
@@ -82,7 +82,7 @@ Sources: [France24](https://www.france24.com/en/us-strikes-in-iran-continue-trum
 
 Context: This is an institutional move to cement what Iran's already doing militarily. The bill aims to formalize control and undermine any future negotiations over the strait.
 
-Sources: [Euronews](http://www.euronews.com/2026/07/14/us-strikes-bushehr-as-irans-parliament-tables-bill-to-control-hormuz) | [Al Jazeera](https://www.aljazeera.com/news/2026/7/14/iran-lawmakers-present-hormuz-management-bill-as-us-war-heats-up?traffic_source=rss)
+Sources: [Euronews](http://www.euronews.com/2026/07/14/us-strikes-bushehr-as-irans-parliament-tables-bill-to-control-hormuz) \| [Al Jazeera](https://www.aljazeera.com/news/2026/7/14/iran-lawmakers-present-hormuz-management-bill-as-us-war-heats-up?traffic_source=rss)
 
 </details>
 

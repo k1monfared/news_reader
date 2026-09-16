@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump arrived in China today for high-stakes talks as the Iran war hits day 75. The meeting comes as tensions keep escalating in the Gulf. This is Trump's first visit to China since his first term.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/13/iran-war-day-75-trump-xi-talks-loom-in-beijing-as-tensions-rise-in-gulf?traffic_source=rss) | [Euronews](http://www.euronews.com/my-europe/2026/05/13/watch-inside-the-trump-xi-visit-that-could-leave-europe-in-the-cold)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/13/iran-war-day-75-trump-xi-talks-loom-in-beijing-as-tensions-rise-in-gulf?traffic_source=rss) \| [Euronews](http://www.euronews.com/my-europe/2026/05/13/watch-inside-the-trump-xi-visit-that-could-leave-europe-in-the-cold)
 
 </details>
 

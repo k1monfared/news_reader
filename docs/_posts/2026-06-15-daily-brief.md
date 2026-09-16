@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Pakistan mediated the agreement, which includes an "immediate and permanent" end to military operations, reopening the Strait of Hormuz, easing sanctions, and plans for future nuclear talks. Vice President JD Vance will attend Friday's ceremony. Trump announced the deal is now signed, moving from the tentative framework announced Sunday to a completed agreement. However, Israel's defense minister stated Monday that Israeli forces would remain "indefinitely" in seized territories in Gaza, Lebanon, and Syria, directly contradicting the US-Iran accord.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/trump-says-iran-deal-all?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260615-middle-east-live-trump-to-meet-with-g7-leaders-following-announcement-of-memorandum-with-iran) | [France 24](https://www.france24.com/en/middle-east/20260615-us-and-iran-agree-to-memorandum-of-understanding-and-immediate-end-to-military-operations)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/trump-says-iran-deal-all?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260615-middle-east-live-trump-to-meet-with-g7-leaders-following-announcement-of-memorandum-with-iran) \| [France 24](https://www.france24.com/en/middle-east/20260615-us-and-iran-agree-to-memorandum-of-understanding-and-immediate-end-to-military-operations)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/trump-s
 
 Context: The ceasefire took effect with cautious optimism and relief reported on the ground, representing the concrete implementation of what was previously just a draft agreement. Iranian officials explicitly stated that ending the Lebanon war is an "inseparable" part of the US-Iran agreement. Lebanese officials remain worried about whether Israel will honor the ceasefire, especially given Israel's defense minister statement Monday about staying indefinitely in seized territories.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/aje-onl-aje_onl_lebanon_wrap-150626?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/iran-says-lebanon-assets-release-key-parts-of-peace-deal-with-us?traffic_source=rss)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/aje-onl-aje_onl_lebanon_wrap-150626?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/iran-says-lebanon-assets-release-key-parts-of-peace-deal-with-us?traffic_source=rss)
 
 </details>
 
@@ -44,7 +44,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/15/how-pakistan-medi
 
 Context: The international community has formally welcomed the US-Iran agreement. However, Israel's defense minister said Monday that Israeli forces would remain indefinitely in territories seized during the war in Gaza, Lebanon, and Syria—directly contradicting the spirit of the US-Iran deal.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/world-welcomes-us-iran-peace-deal-criticised-by-israel?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260615-isreal-to-stay-indefinitely-in-lands-seized-in-lebanon-syria-and-gaza-says-defence-minister)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/15/world-welcomes-us-iran-peace-deal-criticised-by-israel?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260615-isreal-to-stay-indefinitely-in-lands-seized-in-lebanon-syria-and-gaza-says-defence-minister)
 
 </details>
 

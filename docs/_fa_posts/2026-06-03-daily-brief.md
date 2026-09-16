@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ایران شب گذشته رگباری از پهپادها و موشک‌ها را به سوی کویت و بحرین شلیک کرد و فراتر از اهداف نظامی که قبلاً گزارش شده بود، گسترش یافت. وزارت بهداشت کویت یک کشته و ۶۳ زخمی را از حمله به فرودگاه تأیید کرد. ایالات متحده در واکنش به یک ایستگاه کنترل زمینی نظامی ایران در جزیره قشم در تنگه هرمز حمله کرد و آن را «حمله دفاعی» خواند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/3/kuwait-and-bahrain-attacked-as-iran-launches-missile-and-drone-barrage?traffic_source=rss) | [France24](https://www.france24.com/en/trump-denies-impasse-in-iran-talks-after-fresh-strikes-on-gulf-countries) | [France24](https://www.france24.com/en/kuwait-airport-hit-by-iranian-drones-as-us-iran-talks-stall)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/3/kuwait-and-bahrain-attacked-as-iran-launches-missile-and-drone-barrage?traffic_source=rss) \| [France24](https://www.france24.com/en/trump-denies-impasse-in-iran-talks-after-fresh-strikes-on-gulf-countries) \| [France24](https://www.france24.com/en/kuwait-airport-hit-by-iranian-drones-as-us-iran-talks-stall)
 
 </details>
 
@@ -29,7 +29,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: روبیو اعلامیه «جنگ تمام شده است» را به قانون‌گذاران داد در حالی که ایران به کویت حمله می‌کرد و ایالات متحده به جزیره قشم حمله می‌کرد. بیانیه‌های متضاد نشان می‌دهد که دولت تلاش می‌کند پیروزی اعلام کند در حالی که درگیری‌های فعال ادامه دارد، با اختلاف نظر در مورد اینکه آیا مذاکرات به بن‌بست رسیده‌اند یا خیر.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/3/iran-kuwait-bahrain-hit-is-the-war-in-the-gulf-escalating-again?traffic_source=rss) | [France24](https://www.france24.com/en/trump-denies-impasse-in-iran-talks-after-fresh-strikes-on-gulf-countries)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/3/iran-kuwait-bahrain-hit-is-the-war-in-the-gulf-escalating-again?traffic_source=rss) \| [France24](https://www.france24.com/en/trump-denies-impasse-in-iran-talks-after-fresh-strikes-on-gulf-countries)
 
 </details>
 

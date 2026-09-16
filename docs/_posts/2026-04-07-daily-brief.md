@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The US has given Iran until tonight to accept what's being called a ceasefire proposal, but Iran has rejected it, saying it wants a permanent end to the war, not just a 45-day pause. Trump said Monday he's "not at all" concerned about potential war crimes charges. The European Union urged both sides to respect international law and exercise "maximum restraint," essentially telling Trump not to commit war crimes.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260407-middle-east-war-live-trump-s-iran-ultimatum-enters-final-24-hours-amid-escalation-fears) | [France24](https://www.france24.com/en/video/20260407-trump-threatens-to-take-out-iran-in-one-night-as-deadline-looms) | [Euronews](http://www.euronews.com/2026/04/07/trumps-iran-ultimatum-when-does-it-expire-and-how-serious-is-his-threat-to-blow-up-everyth) | [Euronews](http://www.euronews.com/my-europe/2026/04/07/dont-commit-war-crimes-in-iran-eu-urges-trump-as-deadline-looms)
+Sources: [France24](https://www.france24.com/en/middle-east/20260407-middle-east-war-live-trump-s-iran-ultimatum-enters-final-24-hours-amid-escalation-fears) \| [France24](https://www.france24.com/en/video/20260407-trump-threatens-to-take-out-iran-in-one-night-as-deadline-looms) \| [Euronews](http://www.euronews.com/2026/04/07/trumps-iran-ultimatum-when-does-it-expire-and-how-serious-is-his-threat-to-blow-up-everyth) \| [Euronews](http://www.euronews.com/my-europe/2026/04/07/dont-commit-war-crimes-in-iran-eu-urges-trump-as-deadline-looms)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260407-middle-east
 
 Context: Both Iran and the US received a draft proposal late Sunday calling for the 45-day ceasefire and reopening of Hormuz. Iran's Revolutionary Guards said Monday they'd respond "beyond the region" and cut off oil and gas supplies "for years" if the US crosses Tehran's red lines. A France24 reporter in Tehran said there's "no indication that legitimate talks are taking place" between the two governments despite what either side might be saying publicly.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/7/whats-irans-10-point-peace-plan-that-trump-says-is-not-good-enough?traffic_source=rss) | [France24](https://www.france24.com/en/us-president-donald-trump-warns-tehran-to-reopen-hormuz-or-face-hell)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/7/whats-irans-10-point-peace-plan-that-trump-says-is-not-good-enough?traffic_source=rss) \| [France24](https://www.france24.com/en/us-president-donald-trump-warns-tehran-to-reopen-hormuz-or-face-hell)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/7/whats-irans-10-poi
 
 Context: The killing happened Monday as Trump's deadline loomed. Israel has been conducting strikes across the region—they also hit southern Beirut on Monday, killing at least 15 people and wounding 39 on Sunday in Lebanon strikes.
 
-Sources: [France24](https://www.france24.com/en/israeli-strikes-kill-iran-guards-intel-chief-as-trump-deadline-looms) | [France24](https://www.france24.com/en/war-in-the-middle-east-15-dead-in-israeli-strikes-on-lebanon)
+Sources: [France24](https://www.france24.com/en/israeli-strikes-kill-iran-guards-intel-chief-as-trump-deadline-looms) \| [France24](https://www.france24.com/en/war-in-the-middle-east-15-dead-in-israeli-strikes-on-lebanon)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [France24](https://www.france24.com/en/israeli-strikes-kill-iran-guards
 
 Context: The strikes show Iran is continuing to target Israeli cities even as Trump's deadline approaches. Video shows widespread destruction from what appear to be US-Israeli counter-strikes in Pardis, northern Iran.
 
-Sources: [France24](https://www.france24.com/en/war-in-the-middle-east-at-least-four-killed-in-strike-on-haifa) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/7/iranian-missile-strike-damages-cars-and-street-in-israel?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/7/us-israeli-strikes-destroy-buildings-in-northern-iran?traffic_source=rss)
+Sources: [France24](https://www.france24.com/en/war-in-the-middle-east-at-least-four-killed-in-strike-on-haifa) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/7/iranian-missile-strike-damages-cars-and-street-in-israel?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/7/us-israeli-strikes-destroy-buildings-in-northern-iran?traffic_source=rss)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [France24](https://www.france24.com/en/war-in-the-middle-east-at-least-
 
 Context: American commandos reportedly deployed deep into Iranian territory Sunday to get the crew member whose fighter jet was shot down. Trump announced the service member was recovered "safe and sound," but Tehran's conflicting account leaves questions about how successful the operation really was.
 
-Sources: [France24](https://www.france24.com/en/video/20260405-trump-hails-victory-after-us-mission-to-rescue-pilot-from-iran) | [France24](https://www.france24.com/en/we-got-him-us-rescues-aviator-whose-fighter-jet-was-shot-down-in-iran)
+Sources: [France24](https://www.france24.com/en/video/20260405-trump-hails-victory-after-us-mission-to-rescue-pilot-from-iran) \| [France24](https://www.france24.com/en/we-got-him-us-rescues-aviator-whose-fighter-jet-was-shot-down-in-iran)
 
 </details>
 
@@ -66,7 +66,7 @@ Sources: [France24](https://www.france24.com/en/video/20260405-trump-hails-victo
 
 Context: Egypt hiked rates for higher-use residential and commercial customers starting in April. The new gas find in the Eastern Mediterranean could help offset some of those costs. Meanwhile, African nations are scrambling to secure oil and gas as Middle East supplies get disrupted, and the US Federal Reserve is reportedly weighing interest rate hikes to fight war-driven inflation.
 
-Sources: [France24](https://www.france24.com/en/egypt-wide-ranging-energy-effects-of-the-war-in-the-gulf-region) | [Euronews](http://www.euronews.com/business/2026/04/07/gas-discovery-off-egypts-coast-comes-at-a-critical-moment-for-iran-war) | [Al Jazeera](https://www.aljazeera.com/video/counting-the-cost/2026/4/7/can-africa-tackle-the-oil-shock-from-the-iran-war?traffic_source=rss)
+Sources: [France24](https://www.france24.com/en/egypt-wide-ranging-energy-effects-of-the-war-in-the-gulf-region) \| [Euronews](http://www.euronews.com/business/2026/04/07/gas-discovery-off-egypts-coast-comes-at-a-critical-moment-for-iran-war) \| [Al Jazeera](https://www.aljazeera.com/video/counting-the-cost/2026/4/7/can-africa-tackle-the-oil-shock-from-the-iran-war?traffic_source=rss)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [France24](https://www.france24.com/en/egypt-wide-ranging-energy-effect
 
 Context: European and Asian markets showed no clear direction Tuesday as the deadline approached. The uncertainty is driving volatility across energy markets and currencies.
 
-Sources: [France24](https://www.france24.com/en/us-oil-prices-flip-flop-ahead-of-trump-s-deadline-to-bomb-iranian-power-plants) | [Euronews](http://www.euronews.com/business/2026/04/07/markets-send-mixed-signals-ahead-of-trumps-deadline-to-escalate-iran-war)
+Sources: [France24](https://www.france24.com/en/us-oil-prices-flip-flop-ahead-of-trump-s-deadline-to-bomb-iranian-power-plants) \| [Euronews](http://www.euronews.com/business/2026/04/07/markets-send-mixed-signals-ahead-of-trumps-deadline-to-escalate-iran-war)
 
 </details>
 
@@ -95,7 +95,7 @@ Sources: [Euronews](http://www.euronews.com/2026/04/07/russia-provided-iran-with
 
 Context: The shooting happened Tuesday morning. Two police officers also sustained minor injuries. No diplomats were present at the consulate at the time. Turkey's interior ministry hasn't specified which group the attackers belonged to.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260407-one-assailant-killed-two-wounded-after-shooting-outside-istanbul-s-israeli-consulate) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/7/videos-capture-shooting-near-israeli-consulate-in-istanbul?traffic_source=rss)
+Sources: [France24](https://www.france24.com/en/middle-east/20260407-one-assailant-killed-two-wounded-after-shooting-outside-istanbul-s-israeli-consulate) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/7/videos-capture-shooting-near-israeli-consulate-in-istanbul?traffic_source=rss)
 
 </details>
 

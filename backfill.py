@@ -42,6 +42,7 @@ PIPELINE_STAGES = [
     "summarize",
     "editorial",
     "verify",
+    "render_check",
     "publish",
 ]
 
@@ -138,6 +139,7 @@ def run_backfill_date(target_date: str, config, data_dir: str) -> str | None:
     meta = RunMeta(
         run_id=run_id,
         started_at=now.isoformat(),
+        backfill=True,
     )
 
     llm_client = AuditedLLMClient(str(run_dir), config.budget)
@@ -181,6 +183,19 @@ def run_backfill_date(target_date: str, config, data_dir: str) -> str | None:
             stage_start = time.time()
             logger.info(f"[{target_date}] Running stage: {stage_name}")
 
+            # Never publish a report the render check rejected.
+            if stage_name == "publish":
+                render_stage = meta.stages.get("render_check", {})
+                if render_stage.get("status") == "failed":
+                    logger.error(
+                        f"[{target_date}] Skipping publish: render_check failed"
+                    )
+                    meta.stages["publish"] = {
+                        "status": "skipped",
+                        "reason": "render_check_failed",
+                    }
+                    continue
+
             try:
                 stage_module = __import__(f"stages.{stage_name}", fromlist=[stage_name])
                 stage_func = getattr(stage_module, f"run_{stage_name}")
@@ -213,7 +228,7 @@ def run_backfill_date(target_date: str, config, data_dir: str) -> str | None:
         _write_meta(meta, run_dir, llm_client)
 
     # Update latest symlink if no critical failures
-    critical_stages = {"fetch", "filter", "summarize"}
+    critical_stages = {"fetch", "filter", "summarize", "render_check"}
     failed_critical = [
         s for s in critical_stages
         if meta.stages.get(s, {}).get("status") == "failed"

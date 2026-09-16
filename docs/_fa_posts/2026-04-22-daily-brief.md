@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: قرار بود آتش‌بس امروز تمام شود که همه را نگران از سرگیری دوباره جنگ کرده بود. ترامپ می‌گوید محاصره دریایی آمریکا علیه بنادر ایران را در حالی که دیپلماسی ادامه دارد حفظ می‌کند. سفیر ایران در سازمان ملل به تمدید واکنش نشان داده، هرچند جزئیات آن واکنش هنوز مشخص نیست.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260422-trump-extends-iran-ceasefire-indefinitely-as-peace-talks-stall-war-usa) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/22/irans-un-ambassador-responds-to-us-ceasefire-extension?traffic_source=rss) | [France24](https://www.france24.com/en/trump-extends-ceasefire-says-giving-iran-time-to-negotiate)
+منابع: [France24](https://www.france24.com/en/middle-east/20260422-trump-extends-iran-ceasefire-indefinitely-as-peace-talks-stall-war-usa) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/22/irans-un-ambassador-responds-to-us-ceasefire-extension?traffic_source=rss) \| [France24](https://www.france24.com/en/trump-extends-ceasefire-says-giving-iran-time-to-negotiate)
 
 </details>
 
@@ -29,7 +29,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: سپاه پاسداران ایران می‌گوید توقیف کشتی‌ها تلافی برای آن چیزی است که آنها توقیف کشتی تجاری‌شان توسط آمریکا می‌نامند. تنگه هرمز محلی است که حدود یک‌پنجم نفت جهان از آنجا عبور می‌کند، بنابراین هر اقدام نظامی در آنجا سریع توجه جلب می‌کند. این اتفاق درست بعد از اعلام تمدید آتش‌بس افتاد.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/4/22/iranian-gunboat-fires-on-container-ship-off-oman-coast?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/04/22/trump-extends-ceasefire-with-iran-indefinitely-at-pakistans-request-to-allow-for-diplomati)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/4/22/iranian-gunboat-fires-on-container-ship-off-oman-coast?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/04/22/trump-extends-ceasefire-with-iran-indefinitely-at-pakistans-request-to-allow-for-diplomati)
 
 </details>
 

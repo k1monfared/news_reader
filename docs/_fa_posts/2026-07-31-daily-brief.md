@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ این توافق را در ۳۱ ژوئیه اعلام کرد که شامل تسلیم تدریجی سلاح‌ها توسط حماس در ازای خروج آهسته نیروهای اسرائیل از غزه است. حماس به AFP تأیید کرده که با آن موافقت کرده است. ترامپ این را مسیری به سوی یک دولت جدید فلسطینی در غزه می‌خواند، اما بدون بله رسمی اسرائیل، این فقط حرف روی کاغذ است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/31/hamas-agrees-to-phased-disarmament-in-gaza?traffic_source=rss) | [France 24](https://www.france24.com/en/hamas-agrees-to-disarm-under-trump-plan-but-no-word-yet-from-israel) | [France 24](https://www.france24.com/en/middle-east/20260731-what-we-know-about-the-hamas-disarmament-deal-announced-by-trump)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/31/hamas-agrees-to-phased-disarmament-in-gaza?traffic_source=rss) \| [France 24](https://www.france24.com/en/hamas-agrees-to-disarm-under-trump-plan-but-no-word-yet-from-israel) \| [France 24](https://www.france24.com/en/middle-east/20260731-what-we-know-about-the-hamas-disarmament-deal-announced-by-trump)
 
 </details>
 

@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این کار توافق را از حالت «برنامه‌ریزی‌شده» به «انجام‌شده» تغییر می‌دهد. ایران متعهد شد تنگه هرمز را فوراً بازگشایی کند، و هر دو طرف مذاکرات را بر سر موضوعات بزرگ آغاز می‌کنند: رقیق‌سازی ذخایر اورانیوم غنی‌شده ایران در ازای لغو تحریم‌های آمریکا و یک صندوق بازسازی ۳۰۰ میلیارد دلاری. Euronews گزارش می‌دهد که تحلیلگران فکر می‌کنند ایران در چارچوب‌بندی پیشتاز شد—آن‌ها مشروعیت و تسکین اقتصادی به‌دست آوردند در حالی که آمریکا یک آتش‌بس گرفت اما هیچ تضمینی وجود ندارد که تهران بعداً برنامه هسته‌ای خود را بازسازی نکند. این توافق ۶۰ روز مذاکرات بیشتر بر سر یک توافق دائمی را آغاز می‌کند.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260618-tehran-and-washington-sign-interim-peace-deal-to-end-us-israeli-war-on-iran) | [Euronews](http://www.euronews.com/2026/06/18/us-and-iran-sign-deal-but-who-really-won-heres-what-to-know)
+منابع: [France24](https://www.france24.com/en/middle-east/20260618-tehran-and-washington-sign-interim-peace-deal-to-end-us-israeli-war-on-iran) \| [Euronews](http://www.euronews.com/2026/06/18/us-and-iran-sign-deal-but-who-really-won-heres-what-to-know)
 
 </details>
 

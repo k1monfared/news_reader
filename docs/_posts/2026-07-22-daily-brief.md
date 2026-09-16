@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump made the announcement Tuesday, saying the US is "far from finished" with Iran. Pickaxe Mountain is buried deep underground and believed to be a fortified enrichment site. This marks a shift from general strikes to publicly telegraphing specific nuclear infrastructure targets.
 
-Sources: [France24](https://www.france24.com/en/us-eyes-strikes-on-iran-s-pickaxe-mountain-believed-to-be-an-enrichment-site) | [France24](https://www.france24.com/en/trump-says-will-be-hitting-iran-s-pickaxe-mountain-nuclear-complex-pretty-soon)
+Sources: [France24](https://www.france24.com/en/us-eyes-strikes-on-iran-s-pickaxe-mountain-believed-to-be-an-enrichment-site) \| [France24](https://www.france24.com/en/trump-says-will-be-hitting-iran-s-pickaxe-mountain-nuclear-complex-pretty-soon)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [France24](https://www.france24.com/en/us-eyes-strikes-on-iran-s-pickax
 
 Context: Hegseth testified Tuesday asking for "urgent" additional funding to replenish weapons stockpiles. The $37.5 billion figure is the first official accounting of what's been spent. Senators from both parties demanded explanations about how the military plans to actually win or end the war. The US has now launched 11 consecutive nights of strikes.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260721-us-estimates-cost-of-war-in-iran-at-37-5-billion-as-it-renews-strikes) | [France24](https://www.france24.com/en/the-iran-war-has-cost-the-us-37-5-billion-dollars-says-defense-secretary-pete-hesgseth) | [Al Jazeera](https://www.aljazeera.com/news/2026/7/22/iran-wars-37bn-price-tag-why-does-trump-want-67bn-more?traffic_source=rss)
+Sources: [France24](https://www.france24.com/en/middle-east/20260721-us-estimates-cost-of-war-in-iran-at-37-5-billion-as-it-renews-strikes) \| [France24](https://www.france24.com/en/the-iran-war-has-cost-the-us-37-5-billion-dollars-says-defense-secretary-pete-hesgseth) \| [Al Jazeera](https://www.aljazeera.com/news/2026/7/22/iran-wars-37bn-price-tag-why-does-trump-want-67bn-more?traffic_source=rss)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260721-us-estimate
 
 Context: This happened in northern Iraq while clearing unexploded ordnance from a downed Iranian drone. It follows the killing of two US troops in Jordan late Friday, bringing total US combat deaths to at least four. Jordan summoned Iran's top envoy Sunday to protest Tehran's attacks on Jordanian territory.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260719-us-announces-death-of-another-service-member-jordan-summons-iranian-envoy-over-attacks) | [France24](https://www.france24.com/en/middle-east/20260719-middle-east-live-us-targets-iran-s-revolutionary-guard-in-retaliation-for-killed-troops)
+Sources: [France24](https://www.france24.com/en/middle-east/20260719-us-announces-death-of-another-service-member-jordan-summons-iranian-envoy-over-attacks) \| [France24](https://www.france24.com/en/middle-east/20260719-middle-east-live-us-targets-iran-s-revolutionary-guard-in-retaliation-for-killed-troops)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [Euronews](http://www.euronews.com/2026/07/22/trump-says-us-has-no-inte
 
 Context: The Lebanese military entered Zawtar al-Gharbiya as the framework deal starts getting implemented on the ground. Lebanon's PM visited the area Tuesday and said Beirut is working toward "complete Israeli withdrawal" from occupied areas. Israel insists Hezbollah be disarmed before it pulls out fully, which Lebanon's army probably can't accomplish. Israel said the shots were just warnings.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/22/just-want-to-go-back-lebanese-await-return-as-army-enters-pilot-zone?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260722-middle-east-live-us-launches-11th-night-of-iran-strikes-as-diplomacy-falters) | [France24](https://www.france24.com/en/middle-east/20260721-live-lebanon-s-aoun-to-meet-trump-as-pressure-builds-to-disarm-hezbollah)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/22/just-want-to-go-back-lebanese-await-return-as-army-enters-pilot-zone?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260722-middle-east-live-us-launches-11th-night-of-iran-strikes-as-diplomacy-falters) \| [France24](https://www.france24.com/en/middle-east/20260721-live-lebanon-s-aoun-to-meet-trump-as-pressure-builds-to-disarm-hezbollah)
 
 </details>
 

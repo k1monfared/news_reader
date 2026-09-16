@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The War Powers Resolution requires congressional approval after 60 days of hostilities. That deadline is Friday—60 days since Trump's March 2 notification. The administration is arguing the legal requirement no longer applies due to the ceasefire, despite ongoing US military presence in the region. Lawmakers from both parties are challenging this interpretation.
 
-Sources: [France24](https://www.france24.com/en/us-administration-says-war-terminated-no-approval-needed) | [France24](https://www.france24.com/en/video/20260501-us-official-says-iran-war-truce-terminated-hostilities-for-war-powers-deadline-1) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/1/has-the-us-iran-ceasefire-reset-the-clock-on-war-powers-act-deadline?traffic_source=rss)
+Sources: [France24](https://www.france24.com/en/us-administration-says-war-terminated-no-approval-needed) \| [France24](https://www.france24.com/en/video/20260501-us-official-says-iran-war-truce-terminated-hostilities-for-war-powers-deadline-1) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/1/has-the-us-iran-ceasefire-reset-the-clock-on-war-powers-act-deadline?traffic_source=rss)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [France24](https://www.france24.com/en/deadline-for-us-congress-on-war-
 
 Context: Trump is expanding his retaliation against European allies who've criticized the war. German Chancellor Merz said the US was being "humiliated" by Iran, which triggered Trump's initial threat. Now Italy and Spain are in his crosshairs for similar disagreements over the conflict.
 
-Sources: [Euronews](http://www.euronews.com/2026/05/01/trump-considers-troop-cuts-in-spain-and-italy-over-continued-disagreements-on-the-war-in-i) | [Euronews](http://www.euronews.com/my-europe/2026/04/30/trump-launches-fresh-tirade-against-merz-after-troop-withdrawal-threat)
+Sources: [Euronews](http://www.euronews.com/2026/05/01/trump-considers-troop-cuts-in-spain-and-italy-over-continued-disagreements-on-the-war-in-i) \| [Euronews](http://www.euronews.com/my-europe/2026/04/30/trump-launches-fresh-tirade-against-merz-after-troop-withdrawal-threat)
 
 </details>
 

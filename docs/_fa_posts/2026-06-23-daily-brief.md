@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: پس از گزارش‌های اولیه درباره پیشرفت دیروز، طرفین شرایط مشخصی را اعلام کردند. توافق آمریکا و ایران همچنین شامل ایجاد مکانیسم‌هایی برای باز کردن تنگه هرمز است، هرچند ترتیبات کنترل همچنان نامشخص باقی مانده است. جی‌دی ونس، معاون رئیس‌جمهور آمریکا، گفت این توافق پایه خوبی برای پایان دادن به جنگ گسترده‌تر خاورمیانه ایجاد کرده، اما اختلافات قابل توجهی بلافاصله پس از پایان مذاکرات ظاهر شد و تهران مستقیماً بیانیه‌های ونس درباره بازرسی‌های هسته‌ای را تکذیب کرد که باعث شد رئیس‌جمهور ترامپ ادعاهای ایران را رد کند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/23/iran-says-technical-talks-with-us-in-switzerland-conclude-successfully?traffic_source=rss) | [France 24](https://www.france24.com/en/us-iran-agree-on-lebanon-ceasefire-and-lifting-sanctions-on-iranian-oil-but-much-remains)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/23/iran-says-technical-talks-with-us-in-switzerland-conclude-successfully?traffic_source=rss) \| [France 24](https://www.france24.com/en/us-iran-agree-on-lebanon-ceasefire-and-lifting-sanctions-on-iranian-oil-but-much-remains)
 
 </details>
 

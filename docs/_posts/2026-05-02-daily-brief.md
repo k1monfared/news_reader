@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Iran delivered a new proposal through Pakistan after earlier attempts stalled. Trump responded publicly that he's "not satisfied" with what Tehran is asking for, though negotiations continue by phone. Meanwhile, a senior Iranian military official said renewed fighting between the US and Iran is "likely" as talks remain deadlocked. China's UN Ambassador Fu Cong separately said reopening the Strait of Hormuz will be an "urgent" priority when Trump and Xi meet.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/2/iran-war-whats-happening-on-day-64-as-trump-rejects-tehrans-proposal?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260501-iran-delivers-new-proposal-for-us-talks-trump-says-not-satisfied-with-offer) | [Euronews](http://www.euronews.com/2026/05/01/us-president-donald-trump-says-not-satisfied-with-new-peace-proposal-from-iran)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/2/iran-war-whats-happening-on-day-64-as-trump-rejects-tehrans-proposal?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260501-iran-delivers-new-proposal-for-us-talks-trump-says-not-satisfied-with-offer) \| [Euronews](http://www.euronews.com/2026/05/01/us-president-donald-trump-says-not-satisfied-with-new-peace-proposal-from-iran)
 
 </details>
 
@@ -28,7 +28,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/2/iran-war-whats-hap
 
 Context: Trump had been threatening this for weeks as European allies pushed back on supporting the war effort. The announcement follows through on earlier threats, marking the biggest US troop movement in Europe in years and further straining NATO relations already damaged by the Iran conflict.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/1/us-said-to-be-withdrawing-5000-troops-from-germany-over-iran-war-spat?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/05/02/trump-follows-through-on-threats-as-he-announces-significant-troop-withdrawal-from-germany)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/1/us-said-to-be-withdrawing-5000-troops-from-germany-over-iran-war-spat?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/05/02/trump-follows-through-on-threats-as-he-announces-significant-troop-withdrawal-from-germany)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/1/us-said-to-be-with
 
 Context: Under the War Powers Resolution, Trump needed congressional approval by Friday to keep troops engaged in hostilities. He's argued the requirement doesn't apply to him and that the early April ceasefire means active fighting has "terminated." Congress remains deadlocked, so the legal limbo continues.
 
-Sources: [France 24](https://www.france24.com/en/trump-told-congress-that-hostilities-have-terminated) | [France 24](https://www.france24.com/en/video/20260501-60-day-deadline-for-congress-iran-war-extension-approval-1)
+Sources: [France 24](https://www.france24.com/en/trump-told-congress-that-hostilities-have-terminated) \| [France 24](https://www.france24.com/en/video/20260501-60-day-deadline-for-congress-iran-war-extension-approval-1)
 
 </details>
 

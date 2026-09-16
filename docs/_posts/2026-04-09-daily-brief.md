@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The strikes hit crowded residential and commercial areas well beyond Hezbollah strongholds in south Beirut—places packed with displaced families. Lebanon's health ministry says 182 people were killed and nearly 900 wounded, though Lebanon's civil defense service reported 254 killed. Israel says the ceasefire with the US and Iran doesn't cover Lebanon, but Iran insists it does. France and the EU are warning this could unravel the whole deal.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/9/aje-onl-aje_onl_lebanon_wrap-090426?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260409-iran-us-truce-brink-israel-lebanon-strikes-tehran-escalation) | [Euronews](http://www.euronews.com/video/2026/04/09/israeli-strikes-on-lebanon-leave-more-than-200-dead-and-1000-wounded)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/9/aje-onl-aje_onl_lebanon_wrap-090426?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260409-iran-us-truce-brink-israel-lebanon-strikes-tehran-escalation) \| [Euronews](http://www.euronews.com/video/2026/04/09/israeli-strikes-on-lebanon-leave-more-than-200-dead-and-1000-wounded)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/9/aje-onl-
 
 Context: The ceasefire was supposed to include reopening the strait, but Iran appears to be backtracking. Normal shipping hasn't resumed, with Iran issuing new passage conditions and protocols. Reporters in Tehran are describing the situation as chaotic and confused, with the first signs that this deal might not hold.
 
-Sources: [France 24](https://www.france24.com/en/iran-closes-strait-of-hormuz-again-as-israel-pounds-lebanon-air-defense-systems-go-off-in-tehran) | [Euronews](http://www.euronews.com/2026/04/09/confusion-reigns-over-hormuz-shipping-reopening-as-iran-issues-new-passage-conditions)
+Sources: [France 24](https://www.france24.com/en/iran-closes-strait-of-hormuz-again-as-israel-pounds-lebanon-air-defense-systems-go-off-in-tehran) \| [Euronews](http://www.euronews.com/2026/04/09/confusion-reigns-over-hormuz-shipping-reopening-as-iran-issues-new-passage-conditions)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [France 24](https://www.france24.com/en/iran-closes-strait-of-hormuz-ag
 
 Context: Pakistan emerged as the surprise mediator, using its ties to both Tehran and Washington. Trump had threatened to destroy Iranian "civilization" if they didn't reopen the Strait of Hormuz by his deadline. Both sides are claiming victory, but the deal is already being tested by Israel's strikes on Lebanon and confusion over whether Lebanon is even covered.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/9/us-iran-talks-in-pakistan-whos-attending-whats-on-the-agenda?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260408-how-pakistan-brokered-a-two-week-ceasefire-deal-between-iran-and-the-us)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/9/us-iran-talks-in-pakistan-whos-attending-whats-on-the-agenda?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260408-how-pakistan-brokered-a-two-week-ceasefire-deal-between-iran-and-the-us)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/9/us-iran-talks-in-p
 
 Context: The plan includes Iran maintaining control over the strait and potentially charging ships up to $2 million to pass through—money they'd use to rebuild bombed infrastructure. It also calls for US troops to leave the region. Trump's surprisingly positive response caught people off guard given how many red lines it crosses.
 
-Sources: [France 24](https://www.france24.com/en/middle-east/20260408-what-we-know-about-iran-10-point-plan-for-ending-war-with-us-israel) | [France 24](https://www.france24.com/en/middle-east/20260409-us-iran-ceasefire-why-tehran-wants-charge-ships-for-crossing-strait-of-hormuz)
+Sources: [France 24](https://www.france24.com/en/middle-east/20260408-what-we-know-about-iran-10-point-plan-for-ending-war-with-us-israel) \| [France 24](https://www.france24.com/en/middle-east/20260409-us-iran-ceasefire-why-tehran-wants-charge-ships-for-crossing-strait-of-hormuz)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260408-what-we-kn
 
 Context: There's a fundamental disagreement: Iran says Lebanon was always part of the ceasefire. Israel and the US say it wasn't. Netanyahu made clear Israel will keep hitting Hezbollah targets regardless. Iran's president now says the Lebanon strikes make the whole negotiation "meaningless."
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/9/why-israels-attacks-on-lebanon-could-cripple-us-iran-ceasefire?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260408-trump-revokes-strike-threats-as-us-iran-ceasefire-takes-shape) | [Euronews](http://www.euronews.com/my-europe/2026/04/09/israeli-strikes-on-lebanon-risk-unravelling-us-iran-ceasefire-eu-warns)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/9/why-israels-attacks-on-lebanon-could-cripple-us-iran-ceasefire?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260408-trump-revokes-strike-threats-as-us-iran-ceasefire-takes-shape) \| [Euronews](http://www.euronews.com/my-europe/2026/04/09/israeli-strikes-on-lebanon-risk-unravelling-us-iran-ceasefire-eu-warns)
 
 </details>
 
@@ -66,7 +66,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/9/why-israels-attack
 
 Context: Trump posted that the surge of US warships and troops deployed during the conflict will remain in the region "until such time as the real agreement reached is fully complied with." The ceasefire is extremely conditional and the US military presence isn't going anywhere.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/9/trump-says-us-forces-to-stay-near-iran-ready-for-next-conquest?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/04/09/ceasefire-threatened-as-iran-closes-strait-again-and-trump-warns-us-troops-to-remain)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/9/trump-says-us-forces-to-stay-near-iran-ready-for-next-conquest?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/04/09/ceasefire-threatened-as-iran-closes-strait-again-and-trump-warns-us-troops-to-remain)
 
 </details>
 
@@ -77,7 +77,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/9/trump-says-us-forc
 
 Context: Markets aren't buying the peace. The strait was supposed to reopen as part of the deal, but Iran is now saying ships need to follow new protocols and potentially pay fees. That's keeping uncertainty high and oil prices elevated.
 
-Sources: [Euronews](http://www.euronews.com/business/2026/04/09/oil-surges-past-97-again-as-markets-eye-ceasefire-doubts) | [Euronews](http://www.euronews.com/2026/04/09/confusion-reigns-over-hormuz-shipping-reopening-as-iran-issues-new-passage-conditions)
+Sources: [Euronews](http://www.euronews.com/business/2026/04/09/oil-surges-past-97-again-as-markets-eye-ceasefire-doubts) \| [Euronews](http://www.euronews.com/2026/04/09/confusion-reigns-over-hormuz-shipping-reopening-as-iran-issues-new-passage-conditions)
 
 </details>
 

@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Kuwait's military intercepted attacks after the US struck Iranian sites over the weekend and Iran's Revolutionary Guards hit back at a US base. Kuwait's foreign ministry officially called it a "heinous Iranian attack," marking the first confirmed spillover beyond direct US-Iran targets.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/1/kuwait-condemns-iranian-attack-as-iran-us-trade-new-strikes?traffic_source=rss) | [France24](https://www.france24.com/en/video/20260601-kuwait-intercepts-drones-missiles-as-us-and-iran-trade-fire)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/1/kuwait-condemns-iranian-attack-as-iran-us-trade-new-strikes?traffic_source=rss) \| [France24](https://www.france24.com/en/video/20260601-kuwait-intercepts-drones-missiles-as-us-and-iran-trade-fire)
 
 </details>
 

@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Both US President Trump and Israeli officials are stating that Ayatollah Ali Khamenei, who has led Iran since 1989, has been killed. Iran has issued no statement confirming or denying this. If confirmed, this would represent the most significant leadership change in Iran in nearly four decades and could trigger a succession crisis.
 
-Sources: [Reuters](https://jp.reuters.com/markets/commodities/XEDIDPMF5JOHPIEQ7IBD7YLNJI-2026-02-28/) | [Euronews](https://de.euronews.com/2026/02/28/iran-ayatollah-khamenei-tot)
+Sources: [Reuters](https://jp.reuters.com/markets/commodities/XEDIDPMF5JOHPIEQ7IBD7YLNJI-2026-02-28/) \| [Euronews](https://de.euronews.com/2026/02/28/iran-ayatollah-khamenei-tot)
 
 </details>
 

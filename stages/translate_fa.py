@@ -28,6 +28,7 @@ from models import PipelineConfig
 from llm_client import AuditedLLMClient, extract_json
 from audit_logger import AuditedHTTPClient
 from prompt_loader import load_prompt
+from stages.render_check import check_and_repair
 
 logger = logging.getLogger(__name__)
 
@@ -35,9 +36,22 @@ logger = logging.getLogger(__name__)
 BIASES_PATH = Path("docs/_data/source_biases.json")
 BIASES_FA_PATH = Path("docs/_data/source_biases_fa.json")
 FA_POSTS_DIR = Path("docs/_fa_posts")
+FA_BACKFILLED_SUFFIX = " (با تأخیر)"
 BIAS_BATCH_SIZE = 1  # One entry per call — individual bias `detail` fields
                      # can be very long, and Farsi output uses more tokens
                      # than English, so batching risks mid-reply truncation.
+
+# Free-tier models occasionally ignore "return only the translation" and
+# emit their chain-of-thought instead. These markers, plus the script and
+# length heuristics below, catch that before a reasoning dump is published.
+REASONING_MARKERS = (
+    "the user wants",
+    "let me translate",
+    "i need to translate",
+    "here's the translation",
+    "check for any missed",
+    "return only the translated",
+)
 
 
 PERSIAN_DIGITS = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
@@ -85,6 +99,7 @@ def _build_fa_frontmatter(
     generated_at: str | None,
     sources_down: list[str],
     models_used: list[str],
+    backfilled: bool = False,
 ) -> str:
     lines = [
         "---",
@@ -95,6 +110,8 @@ def _build_fa_frontmatter(
         f'date_fa: "{fa_date_str}"',
         f"sources_down: {json.dumps(sources_down, ensure_ascii=False)}",
     ]
+    if backfilled:
+        lines.append("backfilled: true")
     if generated_at:
         lines.append(f'generated_at: "{generated_at}"')
     if models_used:
@@ -104,8 +121,31 @@ def _build_fa_frontmatter(
     return "\n".join(lines) + "\n"
 
 
-def _fa_title_for_date(fa_date_str: str) -> str:
-    return f"گزارش روزانه: {fa_date_str}"
+def _fa_title_for_date(fa_date_str: str, backfilled: bool = False) -> str:
+    suffix = FA_BACKFILLED_SUFFIX if backfilled else ""
+    return f"گزارش روزانه: {fa_date_str}{suffix}"
+
+
+def _reasoning_leak_issues(fa_body: str, en_body: str) -> list[str]:
+    """Detect a model dumping its reasoning instead of a translation."""
+    issues: list[str] = []
+    lowered = fa_body.lower()
+    for marker in REASONING_MARKERS:
+        if marker in lowered:
+            issues.append(f"reasoning marker: {marker!r}")
+
+    latin = sum(1 for ch in fa_body if "a" <= ch.lower() <= "z")
+    non_space = sum(1 for ch in fa_body if not ch.isspace())
+    if non_space and latin / non_space > 0.45:
+        issues.append(
+            f"latin-letter ratio {latin / non_space:.2f} suggests untranslated text"
+        )
+
+    if en_body and len(en_body) > 300 and len(fa_body) > 2.5 * len(en_body):
+        issues.append(
+            f"Farsi body is {len(fa_body) / len(en_body):.1f}x the English body"
+        )
+    return issues
 
 
 def _translate_brief(
@@ -320,9 +360,25 @@ def run_translate_fa(
     logger.info("Translating English brief body to Farsi...")
     fa_body = _translate_brief(body, category_translations, llm_client, config)
 
+    # Repair safe rendering issues and reject output that looks like a
+    # reasoning dump (free-tier models sometimes ignore the prompt). A
+    # rejected translation fails the stage, so nothing broken is pushed.
+    fa_body, fa_repairs, fa_issues = check_and_repair(fa_body)
+    if fa_repairs:
+        logger.warning(
+            "Farsi post render check repaired: " + "; ".join(sorted(set(fa_repairs)))
+        )
+    validation_issues = fa_issues + _reasoning_leak_issues(fa_body, body)
+    if validation_issues:
+        raise RuntimeError(
+            "Farsi translation rejected by render check: "
+            + "; ".join(validation_issues)
+        )
+
     # Build Farsi frontmatter.
+    backfilled = str(frontmatter.get("backfilled", "")).lower() == "true"
     fa_date_str = _shamsi_date(date_str)
-    fa_title = _fa_title_for_date(fa_date_str)
+    fa_title = _fa_title_for_date(fa_date_str, backfilled=backfilled)
     sources_down = []
     if "sources_down" in frontmatter:
         try:
@@ -342,6 +398,7 @@ def run_translate_fa(
         generated_at=frontmatter.get("generated_at"),
         sources_down=sources_down,
         models_used=models_used,
+        backfilled=backfilled,
     )
 
     # Write the Farsi post.

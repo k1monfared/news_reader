@@ -18,7 +18,7 @@ models_used: ["deepseek-v4-flash"]
 
 زمینه: این خط لوله ۱٬۲۰۰ کیلومتری نفت عربستان را در سراسر شبه‌جزیره به دریای سرخ منتقل می‌کند، و در حالی که هرمز تا حد زیادی بسته بود، به مسیر اصلی نفت خاورمیانه تبدیل شده بود. اکنون پس از حمله‌ای که دو ایستگاه پمپاژ را آسیب زد، از کار افتاده است [تأیید نشده]. دفتر بودجه کنگره آمریکا می‌گوید جنگ تورم را تا اوایل ۲۰۲۷ حدود نیم واحد درصد بالاتر نگه خواهد داشت. ترامپ همچنین پذیرفته است که قیمت‌ها قبل از انتخابات میاندوره‌ای کاهش نخواهند یافت.
 
-منابع: [France24](http://www.france24.com/en/middle-east/20260912-saudi-arabia-shut-down-east-west-pipeline-as-houthis-tighten-grip-on-red-sea) | [Al Jazeera](https://www.aljazeera.com/news/2026/9/16/iran-war-has-cost-the-us-38bn-how-is-it-impacting-us-economy-politics?traffic_source=rss) | [The Hindu](https://www.thehindu.com/news/international/war-on-iran-cost-us-more-than-38b-congressional-budget-office/article71469949.ece) | [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/us-consumers-will-have-make-short-term-sacrifice-due-iran-war-says)
+منابع: [France24](http://www.france24.com/en/middle-east/20260912-saudi-arabia-shut-down-east-west-pipeline-as-houthis-tighten-grip-on-red-sea) \| [Al Jazeera](https://www.aljazeera.com/news/2026/9/16/iran-war-has-cost-the-us-38bn-how-is-it-impacting-us-economy-politics?traffic_source=rss) \| [The Hindu](https://www.thehindu.com/news/international/war-on-iran-cost-us-more-than-38b-congressional-budget-office/article71469949.ece) \| [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/us-consumers-will-have-make-short-term-sacrifice-due-iran-war-says)
 
 </details>
 
@@ -29,7 +29,7 @@ models_used: ["deepseek-v4-flash"]
 
 زمینه: این یک پیشروی برق‌آسا برای حوثی‌هاست — جزیره پریم و المخا کنترل ورودی جنوبی دریای سرخ را به آن‌ها می‌دهد. عربستان سعودی در پاسخ ده‌ها حمله هوایی انجام داده است و حوثی‌ها ادعا می‌کنند یک جنگنده سعودی را سرنگون کرده‌اند. BBC آن را چشمگیرترین دستاورد نظامی آن‌ها در سال‌های اخیر می‌نامد [تأیید نشده].
 
-منابع: [France24](http://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane) | [France24](http://www.france24.com/en/middle-east/20260910-yemen-houthis-city-red-sea-iran) | [BBC](https://www.bbc.co.uk/news/articles/c3v4zgzr1kxo?at_medium=RSS&at_campaign=rss) | [Euronews](https://www.euronews.com/2026/09/16/yemens-houthis-claim-they-shot-down-saudi-fighter-jet-deny-targeting-mecca)
+منابع: [France24](http://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane) \| [France24](http://www.france24.com/en/middle-east/20260910-yemen-houthis-city-red-sea-iran) \| [BBC](https://www.bbc.co.uk/news/articles/c3v4zgzr1kxo?at_medium=RSS&at_campaign=rss) \| [Euronews](https://www.euronews.com/2026/09/16/yemens-houthis-claim-they-shot-down-saudi-fighter-jet-deny-targeting-mecca)
 
 </details>
 
@@ -40,7 +40,7 @@ models_used: ["deepseek-v4-flash"]
 
 زمینه: عمان مفقود شدن این دو ملوان را گزارش کرده است. این نفتکش ظاهراً در «حالت تاریک» و با خاموش بودن فرستنده خود حرکت می‌کرد و ۱۴ خدمه هندی و ۱۱ خدمه پاکستانی داشت. به طور جداگانه، طبق رسانه‌های دولتی ایران، حمله به کشتی باری ایرانی در نزدیکی قشم یک کشته و چهار زخمی بر جای گذاشته است؛ این رسانه‌ها «دشمن تروریست» را مقصر دانسته‌اند.
 
-منابع: [BBC](https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss) | [The Hindu](https://www.thehindu.com/news/international/tanker-hit-by-projectile-near-strait-of-hormuz-was-operating-in-dark-mode/article71469903.ece) | [France24](http://www.france24.com/en/middle-east/20260914-iranian-ship-qeshm-island-tehran-hormuz)
+منابع: [BBC](https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss) \| [The Hindu](https://www.thehindu.com/news/international/tanker-hit-by-projectile-near-strait-of-hormuz-was-operating-in-dark-mode/article71469903.ece) \| [France24](http://www.france24.com/en/middle-east/20260914-iranian-ship-qeshm-island-tehran-hormuz)
 
 </details>
 
@@ -51,7 +51,7 @@ models_used: ["deepseek-v4-flash"]
 
 زمینه: گزارش بازرس گفت هزینه‌های مهمات در جنگ به کمبودهای استراتژیک در موجودی انبارها منجر شده و گلوگاه‌های پایگاه صنعتی را برای بازتأمین نمایان کرده است. این یک توبیخ رسمی از موضع علنی دولت است و قطعنامه کنگره نشان می‌دهد شمار فزاینده‌ای از جمهوری‌خواهان مایل‌اند در مسئله جنگ با رئیس‌جمهور مقابله کنند.
 
-منابع: [BBC](https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss) | [The Hindu](https://www.thehindu.com/news/international/us-military-says-iran-war-has-led-to-munitions-shortfall/article71466628.ece) | [JPost](https://www.jpost.com/american-politics/article-908743)
+منابع: [BBC](https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss) \| [The Hindu](https://www.thehindu.com/news/international/us-military-says-iran-war-has-led-to-munitions-shortfall/article71466628.ece) \| [JPost](https://www.jpost.com/american-politics/article-908743)
 
 </details>
 
@@ -62,7 +62,7 @@ models_used: ["deepseek-v4-flash"]
 
 زمینه: ترامپ در تروث سوشال گفت ایران «می‌خواهد به‌سرعت و به‌شدت معامله کند» و آمریکا برای تعامل آماده بود. در همین حال، چین گفت که مایل است «حقوق مشروع ایران را پاسداری کند» و خواستار از سرگیری مذاکرات شد. باید دید که آیا این به دیپلماسی واقعی تبدیل می‌شود یا فقط ژست‌گیری پیش از انتخابات میاندوره‌ای است.
 
-منابع: [France24](http://www.france24.com/en/middle-east/20260914-middle-east-live-houthis-say-hit-saudi-base-after-renewed-fighting-with-yemeni-forces) | [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/china-urges-iran-us-resume-talks-and-reopen-strait-hormuz)
+منابع: [France24](http://www.france24.com/en/middle-east/20260914-middle-east-live-houthis-say-hit-saudi-base-after-renewed-fighting-with-yemeni-forces) \| [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/china-urges-iran-us-resume-talks-and-reopen-strait-hormuz)
 
 </details>
 

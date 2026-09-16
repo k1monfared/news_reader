@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: آتش‌بس از ۱۷ آوریل به اجرا درآمد، اما حملات اسرائیلی از آن زمان بیش از ۴۰۰ نفر را کشته‌اند، به گفته مقامات لبنانی. لبنان به شدت دوپاره است—برخی این را فرصتی برای ثبات می‌بینند، در حالی که اردوگاه حزب‌الله هرگونه عادی‌سازی با اسرائیل را قاطعانه رد می‌کند. مذاکرات با میانجی‌گری آمریکا در حال انجام است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/14/what-is-on-the-table-during-lebanon-israel-direct-negotiations?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260514-lebanon-and-israel-to-hold-new-talks-in-washington-as-ceasefire-nears-end)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/14/what-is-on-the-table-during-lebanon-israel-direct-negotiations?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260514-lebanon-and-israel-to-hold-new-talks-in-washington-as-ceasefire-nears-end)
 
 </details>
 
@@ -38,7 +38,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: حمله چهارشنبه تعداد کشته‌شدگان را به دوازده نفر رساند. از زمان آغاز آتش‌بس ۱۷ آوریل، حملات اسرائیلی بیش از ۴۰۰ نفر را در لبنان کشته‌اند، به گفته مقامات بهداشتی لبنان. زمان‌بندی—در طی مذاکرات فعال تمدید آتش‌بس در واشنگتن—شکنندگی آتش‌بس را نشان می‌دهد.
 
-منابع: [France24](https://www.france24.com/en/israel-launches-fresh-strikes-on-lebanon-despite-ceasifre-and-ongoing-talks) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/14/two-killed-as-israel-ramps-up-southern-lebanon-attacks-ahead-of-us-talks?traffic_source=rss)
+منابع: [France24](https://www.france24.com/en/israel-launches-fresh-strikes-on-lebanon-despite-ceasifre-and-ongoing-talks) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/14/two-killed-as-israel-ramps-up-southern-lebanon-attacks-ahead-of-us-talks?traffic_source=rss)
 
 </details>
 
@@ -56,7 +56,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: یک آژانس دریایی بریتانیا پنج‌شنبه توقیف را گزارش کرد بدون اینکه نام کشتی را ذکر کند. این الگوی توقیف کشتی‌ها در اطراف تنگه هرمز را از زمان آغاز جنگ دنبال می‌کند. ترامپ و شی تازه در پکن توافق کردند که تنگه باید باز بماند—یک درخواست کلیدی در حالی که درگیری به ماه سوم خود می‌رسد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260514-middle-east-live-lebanon-israel-to-hold-new-talks-in-us-before-ceasefire-expires-iran-war) | [Euronews](http://www.euronews.com/2026/05/14/ship-seized-near-uae-coast-headed-for-iranian-waters-uk-maritime-agency-says)
+منابع: [France24](https://www.france24.com/en/middle-east/20260514-middle-east-live-lebanon-israel-to-hold-new-talks-in-us-before-ceasefire-expires-iran-war) \| [Euronews](http://www.euronews.com/2026/05/14/ship-seized-near-uae-coast-headed-for-iranian-waters-uk-maritime-agency-says)
 
 </details>
 
@@ -78,7 +78,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: دفتر نتانیاهو این ادعا را چهارشنبه مطرح کرد، اما وزارت امور خارجه امارات فوراً آن را رد کرد. تهدید تهران علیه کشورهایی که «با اسرائیل تبانی می‌کنند» حساسیت روابط خلیج‌فارس-اسرائیل را در طی درگیری ایران نشان می‌دهد. بیانیه‌های متناقض، دیپلماسی منطقه‌ای ظریف در جریان را نشان می‌دهند.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260513-middle-east-live-trump-says-stopping-iran-s-nuclear-program-outweighs-americans-economic-pain) | [Euronews](http://www.euronews.com/2026/05/14/uae-denies-netanyahu-offices-claim-of-secret-wartime-visit-as-iran-dubs-it-unforgivable)
+منابع: [France24](https://www.france24.com/en/middle-east/20260513-middle-east-live-trump-says-stopping-iran-s-nuclear-program-outweighs-americans-economic-pain) \| [Euronews](http://www.euronews.com/2026/05/14/uae-denies-netanyahu-offices-claim-of-secret-wartime-visit-as-iran-dubs-it-unforgivable)
 
 </details>
 

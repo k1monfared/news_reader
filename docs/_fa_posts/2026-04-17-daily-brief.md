@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این اولین باری است که آمریکا واقعاً محاصره خود را با زور اعمال می‌کند نه فقط تهدید. ترامپ یکشنبه اعلام کرد که نیروی دریایی کنترل یک کشتی ایرانی را در خلیج عمان به دست گرفته است. یک شرکت کشتیرانی فرانسوی نیز تأیید کرد که یکی از کشتی‌هایش روز شنبه «مورد شلیک هشداردهنده قرار گرفت». واکنش ایران: لغو دور بعدی مذاکرات در اسلام‌آباد و تهدید به تلافی.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260419-trump-says-us-delegation-will-travel-to-islamabad-on-monday-iran-declines-talks) | [France24](https://www.france24.com/en/middle-east/20260419-middle-east-war-live-iran-reports-progress-in-us-talks-but-final-deal-still-far-off)
+منابع: [France24](https://www.france24.com/en/middle-east/20260419-trump-says-us-delegation-will-travel-to-islamabad-on-monday-iran-declines-talks) \| [France24](https://www.france24.com/en/middle-east/20260419-middle-east-war-live-iran-reports-progress-in-us-talks-but-final-deal-still-far-off)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ایران تنگه را روز جمعه برای کشتی‌های تجاری باز کرد، سپس دوباره آن را بست و آمریکا را به «دزدی دریایی» متهم کرد و تهدید کرد هر کشتی که نزدیک شود را هدف قرار می‌دهد. علی‌رغم بسته شدن، دو کشتی کروز TUI موفق شدند عبور کنند و اکنون در مسیر اروپا هستند. کل وضعیت آشفته است—ایران در یک نقطه آن را تحت مجوز سخت‌گیرانه تا حدی بازگشایی کرد، سپس دوباره مسیر را معکوس کرد.
 
-منابع: [France24](https://www.france24.com/en/strait-of-hormuz-iran-to-block-transit-until-us-lifts-its-blockade) | [France24](https://www.france24.com/en/video/20260418-strait-of-hormuz-open-closed-open-closed-what-s-actually-happening) | [Euronews](http://www.euronews.com/travel/2026/04/20/stranded-cruise-ships-finally-pass-the-strait-of-hormuz-and-are-en-route-to-europe)
+منابع: [France24](https://www.france24.com/en/strait-of-hormuz-iran-to-block-transit-until-us-lifts-its-blockade) \| [France24](https://www.france24.com/en/video/20260418-strait-of-hormuz-open-closed-open-closed-what-s-actually-happening) \| [Euronews](http://www.euronews.com/travel/2026/04/20/stranded-cruise-ships-finally-pass-the-strait-of-hormuz-and-are-en-route-to-europe)
 
 </details>
 

@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ایران پس از توقف تلاش‌های پیشین، پیشنهاد جدیدی را از طریق پاکستان ارائه داد. ترامپ علناً پاسخ داد که از آنچه تهران درخواست می‌کند «راضی نیست»، هرچند مذاکرات تلفنی ادامه دارد. در همین حال، یک مقام ارشد نظامی ایرانی گفت که جنگ مجدد میان آمریکا و ایران «محتمل» است چون مذاکرات همچنان در بن‌بست است. فو کونگ، سفیر چین در سازمان ملل، جداگانه گفت که بازگشایی تنگه هرمز زمانی که ترامپ و شی جین‌پینگ دیدار کنند یک اولویت «فوری» خواهد بود.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/2/iran-war-whats-happening-on-day-64-as-trump-rejects-tehrans-proposal?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260501-iran-delivers-new-proposal-for-us-talks-trump-says-not-satisfied-with-offer) | [Euronews](http://www.euronews.com/2026/05/01/us-president-donald-trump-says-not-satisfied-with-new-peace-proposal-from-iran)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/2/iran-war-whats-happening-on-day-64-as-trump-rejects-tehrans-proposal?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260501-iran-delivers-new-proposal-for-us-talks-trump-says-not-satisfied-with-offer) \| [Euronews](http://www.euronews.com/2026/05/01/us-president-donald-trump-says-not-satisfied-with-new-peace-proposal-from-iran)
 
 </details>
 
@@ -29,7 +29,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ هفته‌ها بود که به این کار تهدید می‌کرد چون متحدان اروپایی از حمایت از تلاش‌های جنگی مقاومت می‌کردند. این اعلامیه تهدیدهای پیشین را عملی می‌کند و بزرگ‌ترین جابجایی نیروهای آمریکایی در اروپا را در سال‌های اخیر نشان می‌دهد و روابط ناتو را که قبلاً به خاطر درگیری ایران آسیب دیده بود بیشتر تحت فشار می‌گذارد.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/1/us-said-to-be-withdrawing-5000-troops-from-germany-over-iran-war-spat?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/05/02/trump-follows-through-on-threats-as-he-announces-significant-troop-withdrawal-from-germany)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/1/us-said-to-be-withdrawing-5000-troops-from-germany-over-iran-war-spat?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/05/02/trump-follows-through-on-threats-as-he-announces-significant-troop-withdrawal-from-germany)
 
 </details>
 
@@ -38,7 +38,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: طبق قانون اختیارات جنگی، ترامپ تا جمعه نیاز داشت که تأیید کنگره را برای ادامه درگیری نیروها بگیرد. او استدلال کرده که این الزام برای او اعمال نمی‌شود و اینکه آتش‌بس اوایل آوریل به این معنی است که جنگ فعال «خاتمه یافته است.» کنگره همچنان در بن‌بست باقی مانده، بنابراین بلاتکلیفی حقوقی ادامه دارد.
 
-منابع: [France 24](https://www.france24.com/en/trump-told-congress-that-hostilities-have-terminated) | [France 24](https://www.france24.com/en/video/20260501-60-day-deadline-for-congress-iran-war-extension-approval-1)
+منابع: [France 24](https://www.france24.com/en/trump-told-congress-that-hostilities-have-terminated) \| [France 24](https://www.france24.com/en/video/20260501-60-day-deadline-for-congress-iran-war-extension-approval-1)
 
 </details>
 

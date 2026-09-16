@@ -17,7 +17,7 @@ models_used: ["nemotron-3-ultra-free", "mimo-v2.5-free"]
 
 Context: Overnight, a US strike hit a residential building and telecom tower in Sirik county (reported as Kuhestak near Sirik) during a wedding celebration. Iranian sources report 11 dead and 50+ wounded; Western outlets report at least 4 killed including two children. In response, Iran launched missiles and drones at US targets in Iraq (Erbil), the UAE (Al Dhafra, Al Minhad), and Kuwait (Ali Al Salem Airbase). The IRGC claims heavy damage to US infrastructure and a "significant number" of US casualties, though this is unverified.
 
-Sources: [BBC](https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss) | [Al Jazeera](https://www.aljazeera.com/news/2026/9/2/what-do-we-know-about-the-fatal-us-bombing-of-a-wedding-in-irans-sirik?traffic_source=rss) | [The Hindu](https://www.thehindu.com/news/international/us-strikes-on-iran-updates/article71418113.ece) | [France24](https://www.france24.com/en/video/20260902-iran-us-accused-of-hitting-wedding-party-in-latest-strikes)
+Sources: [BBC](https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss) \| [Al Jazeera](https://www.aljazeera.com/news/2026/9/2/what-do-we-know-about-the-fatal-us-bombing-of-a-wedding-in-irans-sirik?traffic_source=rss) \| [The Hindu](https://www.thehindu.com/news/international/us-strikes-on-iran-updates/article71418113.ece) \| [France24](https://www.france24.com/en/video/20260902-iran-us-accused-of-hitting-wedding-party-in-latest-strikes)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [BBC](https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at
 
 Context: A Saudi-owned tanker (SIDR) was struck in the Strait of Hormuz on 31 August. Saudi officials blame Iran; Saudi shipping firm Bahri confirmed two Filipino sailors died. This follows weeks of commercial shipping disruptions in the Gulf, including two oil tankers disabled by sea mines while attempting to cross the strait. The US embassy warning suggests Washington expects further Iranian retaliation or miscalculation in the waterway.
 
-Sources: [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-accuses-iran-attacking-saudi-tanker-strait-hormuz) | [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/two-dead-after-monday-attack-saudi-oil-tanker-hormuz-says-shipping-firm) | [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/us-embassy-saudi-arabia-warns-americans-take-precautions-over-increase)
+Sources: [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-accuses-iran-attacking-saudi-tanker-strait-hormuz) \| [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/two-dead-after-monday-attack-saudi-oil-tanker-hormuz-says-shipping-firm) \| [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/us-embassy-saudi-arabia-warns-americans-take-precautions-over-increase)
 
 </details>
 
@@ -48,7 +48,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/09/02/iranian-rial-hit
 
 Context: Xi's Cairo stop — his first Egypt visit in years — came as the Iran war tests US reliability. Beijing wants Gulf states to join a Chinese-led security architecture. Egypt, a major US aid recipient, is hedging. The visit signals China sees the conflict as an opening to reshape regional order.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/9/2/chinas-xi-urges-new-middle-east-security-framework-during-rare-egypt-visit?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260902-xi-calls-on-mideast-nations-to-be-masters-of-their-own-affairs-in-rare-egypt-visit)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/9/2/chinas-xi-urges-new-middle-east-security-framework-during-rare-egypt-visit?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260902-xi-calls-on-mideast-nations-to-be-masters-of-their-own-affairs-in-rare-egypt-visit)
 
 </details>
 

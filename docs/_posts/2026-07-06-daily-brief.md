@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Hamas has governed Gaza since its fighters took control from rival faction Fatah in 2007. This marks a significant political shift for the Iran-backed group, though questions remain about how much will actually change on the ground. The move opens the door for a Palestinian technocratic committee to handle governance.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body?traffic_source=rss) | [France 24](https://www.france24.com/en/dissolution-of-hamas-s-gaza-governing-body-won-t-bring-significant-change-of-life) | [Euronews](http://www.euronews.com/2026/07/06/hamas-announces-dissolution-gaza-governing-body-paves-way-for-technocratic-committee)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body?traffic_source=rss) \| [France 24](https://www.france24.com/en/dissolution-of-hamas-s-gaza-governing-body-won-t-bring-significant-change-of-life) \| [Euronews](http://www.euronews.com/2026/07/06/hamas-announces-dissolution-gaza-governing-body-paves-way-for-technocratic-committee)
 
 </details>
 
@@ -39,7 +39,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260705-netanyahu-
 
 Context: Ali Khamenei and four family members were killed in February 28 Israeli airstrikes that relied on US intelligence. The funeral has progressed with Khamenei's coffin being carried through Tehran's streets. Mojtaba's continued absence from public view is raising questions about the new leader's consolidation of power.
 
-Sources: [France 24](https://www.france24.com/en/khamenei-s-sons-attend-funeral-without-iran-s-new-leader) | [Euronews](http://www.euronews.com/video/2026/07/06/ali-khameneis-coffin-carried-through-the-streets-of-tehran)
+Sources: [France 24](https://www.france24.com/en/khamenei-s-sons-attend-funeral-without-iran-s-new-leader) \| [Euronews](http://www.euronews.com/video/2026/07/06/ali-khameneis-coffin-carried-through-the-streets-of-tehran)
 
 </details>
 

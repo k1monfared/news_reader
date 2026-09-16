@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is day 12 of the conflict. The US is trying to keep the strait open while Iran threatens to block all oil shipments through the chokepoint. The conflicting numbers (16 vs 28) across sources indicate either sequential operations or reporting inconsistencies.
 
-Sources: [Euronews (EN)](https://www.euronews.com/2026/03/11/us-says-it-destroyed-16-iranian-mine-laying-vessels-as-tehran-threatens-to-block-oil-expor) | [Euronews (ES)](https://es.euronews.com/2026/03/11/eeuu-dice-haber-destruido-16-buques-mineros-iranies-mientras-teheran-amenaza-bloqueo-ormuz) | [Euronews (GR)](https://gr.euronews.com/2026/03/11/tramp-e3oydeterwsame-28-ploia-narko8ethshs-o-polemos-apodeix8hke-eykoloteros-nomizame) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/11/iran-war-what-is-happening-on-day-12-of-us-israel-attacks)
+Sources: [Euronews (EN)](https://www.euronews.com/2026/03/11/us-says-it-destroyed-16-iranian-mine-laying-vessels-as-tehran-threatens-to-block-oil-expor) \| [Euronews (ES)](https://es.euronews.com/2026/03/11/eeuu-dice-haber-destruido-16-buques-mineros-iranies-mientras-teheran-amenaza-bloqueo-ormuz) \| [Euronews (GR)](https://gr.euronews.com/2026/03/11/tramp-e3oydeterwsame-28-ploia-narko8ethshs-o-polemos-apodeix8hke-eykoloteros-nomizame) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/11/iran-war-what-is-happening-on-day-12-of-us-israel-attacks)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Euronews (EN)](https://www.euronews.com/2026/03/11/us-says-it-destroye
 
 Context: Iran is targeting both military assets and the commercial shipping that carries about 20% of global oil supply. This represents Iran making good on threats to choke off oil exports through the strait.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/11/iran-fires-missiles-drones-at-gulf-nations-as-ship-hit-in-strait-of-hormuz) | [Euronews (PT)](https://pt.euronews.com/2026/03/11/navio-tanque-de-propriedade-grega-atingido-no-estreito-de-ormuz) | [Reuters (JP)](https://jp.reuters.com/markets/commodities/JT5DHQYOI5JRFPBBMXVYCL6DYU-2026-03-11/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/11/iran-fires-missiles-drones-at-gulf-nations-as-ship-hit-in-strait-of-hormuz) \| [Euronews (PT)](https://pt.euronews.com/2026/03/11/navio-tanque-de-propriedade-grega-atingido-no-estreito-de-ormuz) \| [Reuters (JP)](https://jp.reuters.com/markets/commodities/JT5DHQYOI5JRFPBBMXVYCL6DYU-2026-03-11/)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [Euronews (AR)](https://arabic.euronews.com/2026/03/11/war-technical-lo
 
 Context: Oil prices are swinging wildly but haven't exploded yet because the IEA and G7 are flooding the market with reserves. Iran says expect $200/barrel if they fully close Hormuz. For reference, the previous record release was 180 million barrels during the 2022 Ukraine invasion.
 
-Sources: [Euronews (EN)](https://www.euronews.com/business/2026/03/11/oil-prices-steady-after-iea-proposes-record-reserves-release) | [Euronews (AR)](# "link unavailable") | [Reuters (JP)](https://jp.reuters.com/markets/commodities/M42XS53MWRLGNEGG73MNZGQENE-2026-03-11/)
+Sources: [Euronews (EN)](https://www.euronews.com/business/2026/03/11/oil-prices-steady-after-iea-proposes-record-reserves-release) \| [Euronews (AR)](# "link unavailable") \| [Reuters (JP)](https://jp.reuters.com/markets/commodities/M42XS53MWRLGNEGG73MNZGQENE-2026-03-11/)
 
 </details>
 
@@ -64,7 +64,7 @@ Sources: [Euronews (EN)](https://www.euronews.com/business/2026/03/11/oil-prices
 
 Context: Japan announced it will release reserves by March 16 to keep gas under 170 yen/liter. The EU is considering similar moves. Countries without strategic reserves or alternative supply routes are seeing the worst price shocks.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/11/which-countries-have-seen-the-highest-petrol-prices-since-the-iran-war) | [Reuters (JP)](https://jp.reuters.com/world/japan/LPNSATDGHBIYFKSLK6UEJMFU44-2026-03-11/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/11/which-countries-have-seen-the-highest-petrol-prices-since-the-iran-war) \| [Reuters (JP)](https://jp.reuters.com/world/japan/LPNSATDGHBIYFKSLK6UEJMFU44-2026-03-11/)
 
 </details>
 
@@ -73,7 +73,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/11/which-countries-h
 
 Context: This adds another layer to how Iran has been funding operations while under heavy sanctions. Binance has faced scrutiny before for lax compliance controls.
 
-Sources: [Euronews (EN)](https://www.euronews.com/business/2026/03/11/us-justice-department-digs-into-irans-sanctions-evasion-via-binance) | [Euronews (AR)](https://arabic.euronews.com/business/2026/03/11/us-justice-department-investigates-irans-sanctions-evasion-through-binance)
+Sources: [Euronews (EN)](https://www.euronews.com/business/2026/03/11/us-justice-department-digs-into-irans-sanctions-evasion-via-binance) \| [Euronews (AR)](https://arabic.euronews.com/business/2026/03/11/us-justice-department-investigates-irans-sanctions-evasion-through-binance)
 
 </details>
 
@@ -111,7 +111,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/11/iran-reports-hosp
 
 Context: Mojtaba took over after his father was reportedly killed in the initial strikes. The fact that Iran won't show him publicly suggests either he's in a bunker or the succession isn't as smooth as they claim.
 
-Sources: [Euronews (EN)](https://www.euronews.com/2026/03/11/israel-carries-out-strikes-in-lebanon-and-tehran-fires-at-gulf-states-as-iran-war-enters-d) | [Euronews (HU)](https://hu.euronews.com/2026/03/11/iran-nagy-kerdese-hol-es-hogy-van-az-uj-vezetoje)
+Sources: [Euronews (EN)](https://www.euronews.com/2026/03/11/israel-carries-out-strikes-in-lebanon-and-tehran-fires-at-gulf-states-as-iran-war-enters-d) \| [Euronews (HU)](https://hu.euronews.com/2026/03/11/iran-nagy-kerdese-hol-es-hogy-van-az-uj-vezetoje)
 
 </details>
 
@@ -122,7 +122,7 @@ Sources: [Euronews (EN)](https://www.euronews.com/2026/03/11/israel-carries-out-
 
 Context: Classic Trump—talking up a quick win while his ally keeps expectations open-ended. Democratic senators are warning against ground troops and worried about Russian involvement, but so far this is an air campaign.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/11/trump-says-iran-war-to-end-soon-as-israel-claims-no-time-limit) | [Euronews (AR)](https://arabic.euronews.com/2026/03/11/conflicting-statements-about-the-iran-war-trump-hints-at-an-imminent-end-while-netanyahu) | [Reuters (JP)](https://jp.reuters.com/world/security/5TT36NEJYFPORE2UFFW3HB4AJE-2026-03-11/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/11/trump-says-iran-war-to-end-soon-as-israel-claims-no-time-limit) \| [Euronews (AR)](https://arabic.euronews.com/2026/03/11/conflicting-statements-about-the-iran-war-trump-hints-at-an-imminent-end-while-netanyahu) \| [Reuters (JP)](https://jp.reuters.com/world/security/5TT36NEJYFPORE2UFFW3HB4AJE-2026-03-11/)
 
 </details>
 

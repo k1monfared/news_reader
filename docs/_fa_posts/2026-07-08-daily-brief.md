@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: آمریکا و ایران در ژوئن یک تفاهم‌نامه امضا کرده بودند که شامل آتش‌بس می‌شد. دیروز تنش‌ها در حال جوشیدن بود. امروز توافق به طور کامل از هم پاشید—ترامپ رسماً در نشست ناتو در آنکارا اعلام کرد که «تمام شده است». هر دو طرف اکنون یکدیگر را به نقض اولیه توافق متهم می‌کنند. آمریکا حملاتی را که تلافی‌جویانه می‌نامد، شبانه علیه ایران انجام داد که پس از حملات ایرانی به نفتکش‌ها در تنگه هرمز بود، ایران با هدف قرار دادن پایگاه‌های آمریکایی در خلیج پاسخ داد و ترامپ هشدار می‌دهد که حملات بیشتر آمریکا می‌تواند امشب صورت گیرد.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/8/trump-says-ceasefire-over-after-us-iran-trade-attacks?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260707-middle-east-live-us-launches-strikes-on-iran-after-ships-attacked-in-strait-of-hormuz)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/8/trump-says-ceasefire-over-after-us-iran-trade-attacks?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260707-middle-east-live-us-launches-strikes-on-iran-after-ships-attacked-in-strait-of-hormuz)
 
 </details>
 
@@ -40,7 +40,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: اسپانیا از استفاده آمریکا از پایگاه‌های هوایی روتا و مورون برای کمپین‌های بمباران علیه ایران جلوگیری کرد، که ترامپ قبلاً در مارس تهدید کرده بود با تلافی‌های اقتصادی آن را تنبیه کند. امروز در نشست ناتو، او آن لفاظی را تشدید کرد و ظاهراً دستور داد تجارت با اسپانیا متوقف شود. درخواست گرینلند فقط توسط Al Jazeera تاکنون گزارش شده است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/8/trump-threatens-spain-trade-demands-us-take-over-greenland-at-nato-summit?traffic_source=rss) | [Euronews](http://www.euronews.com/my-europe/2026/07/08/trump-again-attacks-spain-calls-it-a-lost-cause-and-urges-cutting-trade)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/8/trump-threatens-spain-trade-demands-us-take-over-greenland-at-nato-summit?traffic_source=rss) \| [Euronews](http://www.euronews.com/my-europe/2026/07/08/trump-again-attacks-spain-calls-it-a-lost-cause-and-urges-cutting-trade)
 
 </details>
 
@@ -60,7 +60,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: نفت خام به بالاترین سطح دو هفته‌ای رسید زیرا بازارها به فروپاشی آتش‌بس و حملات تازه آمریکا واکنش نشان دادند. تنگه هرمز یک نقطه حساس بحرانی است—حدود یک پنجم نفت جهانی از آن عبور می‌کند. اقتصاددانان اکنون می‌گویند صلح شکننده بین آمریکا و ایران عامل کلیدی برای چشم‌انداز اقتصادی بقیه سال ۲۰۲۶ است.
 
-منابع: [Euronews](http://www.euronews.com/business/2026/07/08/oil-spikes-and-european-stock-markets-slide-as-trump-says-iran-ceasefire-over) | [Euronews](http://www.euronews.com/business/2026/07/08/the-key-global-economic-risks-to-watch-in-the-second-half-of-2026)
+منابع: [Euronews](http://www.euronews.com/business/2026/07/08/oil-spikes-and-european-stock-markets-slide-as-trump-says-iran-ceasefire-over) \| [Euronews](http://www.euronews.com/business/2026/07/08/the-key-global-economic-risks-to-watch-in-the-second-half-of-2026)
 
 </details>
 

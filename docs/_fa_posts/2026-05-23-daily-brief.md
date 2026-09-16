@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: پاکستان هفته‌هاست که بین واشنگتن و تهران میانجی‌گری می‌کند، اما فرستادن رئیس ارتش نشان می‌دهد که این موضوع جدی شده است. وزیر خارجه آمریکا روبیو می‌گوید «پیشرفت جزئی» وجود دارد، هرچند ترامپ همچنین هشدار داد که مذاکرات در «مرز» بین توافق و حملات مجدد است. ایران روز چهارشنبه پیشنهاد جدید را دریافت کرد و اکنون آن را بررسی می‌کند، علی‌رغم آنچه که آن‌ها «اختلافات عمیق و قابل توجه» می‌نامند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/23/iran-weighs-us-peace-proposal-despite-deep-and-significant-disagreements?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260520-middle-east-war-live-trump-to-attend-g7-summit-in-france-in-june) | [Euronews](http://www.euronews.com/2026/05/23/pakistans-army-chief-arrives-in-tehran-as-rubio-signals-slight-progress-in-peace-talks)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/23/iran-weighs-us-peace-proposal-despite-deep-and-significant-disagreements?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260520-middle-east-war-live-trump-to-attend-g7-summit-in-france-in-june) \| [Euronews](http://www.euronews.com/2026/05/23/pakistans-army-chief-arrives-in-tehran-as-rubio-signals-slight-progress-in-peace-talks)
 
 </details>
 

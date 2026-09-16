@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Iran struck two of its own southern islands, plus border posts and an offshore oil platform in Kuwait. They also launched heavy air strikes on Iranian Kurdish militia bases in Iraqi Kurdistan. This is a major escalation from last week when strikes were more contained—now the fighting has spread across the Gulf region. Iran and the US are giving conflicting reports about whether the Strait of Hormuz is even open to traffic right now.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/13/new-iran-strikes-on-gulf-as-us-attacks-escalate-what-we-know?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260712-iran-expands-attacks-on-gulf-states-after-intense-us-strikes)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/13/new-iran-strikes-on-gulf-as-us-attacks-escalate-what-we-know?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260712-iran-expands-attacks-on-gulf-states-after-intense-us-strikes)
 
 </details>
 

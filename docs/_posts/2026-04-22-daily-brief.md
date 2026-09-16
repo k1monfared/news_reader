@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The ceasefire was supposed to end today, which had everyone on edge about fighting restarting. Trump says he's keeping the US naval blockade of Iranian ports in place while diplomacy continues. Iran's UN Ambassador has responded to the extension, though details of that response aren't clear yet.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260422-trump-extends-iran-ceasefire-indefinitely-as-peace-talks-stall-war-usa) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/22/irans-un-ambassador-responds-to-us-ceasefire-extension?traffic_source=rss) | [France24](https://www.france24.com/en/trump-extends-ceasefire-says-giving-iran-time-to-negotiate)
+Sources: [France24](https://www.france24.com/en/middle-east/20260422-trump-extends-iran-ceasefire-indefinitely-as-peace-talks-stall-war-usa) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/22/irans-un-ambassador-responds-to-us-ceasefire-extension?traffic_source=rss) \| [France24](https://www.france24.com/en/trump-extends-ceasefire-says-giving-iran-time-to-negotiate)
 
 </details>
 
@@ -28,7 +28,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260422-trump-exten
 
 Context: Iran's Revolutionary Guard says the ship seizures are payback for what they're calling a US capture of their commercial vessel. The Strait of Hormuz is where about a fifth of the world's oil passes through, so any military action there gets attention fast. This happened right after the ceasefire extension was announced.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/22/iranian-gunboat-fires-on-container-ship-off-oman-coast?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/04/22/trump-extends-ceasefire-with-iran-indefinitely-at-pakistans-request-to-allow-for-diplomati)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/22/iranian-gunboat-fires-on-container-ship-off-oman-coast?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/04/22/trump-extends-ceasefire-with-iran-indefinitely-at-pakistans-request-to-allow-for-diplomati)
 
 </details>
 

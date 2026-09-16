@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: پاکستان بین واشنگتن و تهران برای پایان دادن به جنگ میانجیگری می‌کند. آمریکا پیشنهادی با تمرکز بر پایان دادن ابتدا به خصومت‌ها ارسال کرد و ایران اکنون به‌طور رسمی پاسخ داده است. دیروز از پیشنهاد مطلع شدیم؛ امروز پاسخ متقابل ایران رسید. آنچه واقعاً گفته‌اند همچنان پنهان مانده است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/10/iran-sends-response-to-us-proposal-to-end-war-via-mediator-pakistan?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/05/10/iran-responds-to-us-proposal-to-end-the-war-via-a-pakistani-mediator)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/10/iran-sends-response-to-us-proposal-to-end-war-via-mediator-pakistan?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/05/10/iran-responds-to-us-proposal-to-end-the-war-via-a-pakistani-mediator)
 
 </details>
 
@@ -29,7 +29,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: جنگ پهپادی به‌تازگی منطقه‌ای شد. یک کشتی باری پس از اصابت پهپاد در سواحل قطر آتش گرفت. کویت و امارات هر دو حملاتی را در حریم هوایی خود رهگیری کردند. حملات قبلی بر امارات تمرکز داشتند، اما اکنون ایران به‌طور همزمان به اهداف در سراسر خلیج فارس حمله می‌کند و حتی در حین ادامه گفتگوهای آتش‌بس، فشار را افزایش می‌دهد.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/10/us-iran-ceasefire-under-strain-as-gulf-states-report-drone-attacks?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260510-live-iran-s-guards-threaten-us-sites-in-the-region-if-its-tankers-come-under-fire)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/10/us-iran-ceasefire-under-strain-as-gulf-states-report-drone-attacks?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260510-live-iran-s-guards-threaten-us-sites-in-the-region-if-its-tankers-come-under-fire)
 
 </details>
 

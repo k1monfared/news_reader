@@ -56,7 +56,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ روز جمعه گفت که آمریکا و ایران در حال گفتگو هستند، اگرچه تکرار کرد که تهران هنوز برای توافق آماده نیست. در همین حال، ایران گزارش داد که شب شنبه هیچ حمله جدید آمریکایی رخ نداده است—اولین وقفه در دو هفته. تأیید مذاکرات از سوی هر دو طرف نشان‌دهنده یک تغییر قابل‌توجه از موضع قبلی «مذاکرات قطع شده» است.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260724-middle-east-live-us-launches-new-strikes-on-iran-as-oil-prices-skyrocket) | [Al Jazeera](https://www.aljazeera.com/news/2026/7/25/iran-blames-us-for-hormuz-dispute-as-both-sides-confirm-ongoing-talks?traffic_source=rss)
+منابع: [France24](https://www.france24.com/en/middle-east/20260724-middle-east-live-us-launches-new-strikes-on-iran-as-oil-prices-skyrocket) \| [Al Jazeera](https://www.aljazeera.com/news/2026/7/25/iran-blames-us-for-hormuz-dispute-as-both-sides-confirm-ongoing-talks?traffic_source=rss)
 
 </details>
 
@@ -67,7 +67,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: کریس رایت وزیر انرژی و شاهزاده عبدالعزیز بن سلمان وزیر انرژی عربستان سعودی روز چهارشنبه رسماً پیمان هسته‌ای غیرنظامی و توافق‌نامه حفاظت دوجانبه را امضا کردند. این مذاکرات حتی تحت بایدن به‌عنوان بخشی از یک بسته بزرگ‌تر که در آن سعودی‌ها روابط با اسرائیل را عادی می‌کردند، ادامه داشت. شرط جدید ترامپ که روز پنج‌شنبه اعلام شد، اساساً این پیوند را احیا می‌کند و احتمالاً توافق را به آشفتگی می‌کشاند.
 
-منابع: [France24](https://www.france24.com/en/us-and-saudi-arabia-reach-a-multi-billion-dollar-civilian-nuclear-deal) | [France24](https://www.france24.com/en/us-announces-nuclear-cooperation-pact-with-saudi-arabia)
+منابع: [France24](https://www.france24.com/en/us-and-saudi-arabia-reach-a-multi-billion-dollar-civilian-nuclear-deal) \| [France24](https://www.france24.com/en/us-announces-nuclear-cooperation-pact-with-saudi-arabia)
 
 </details>
 

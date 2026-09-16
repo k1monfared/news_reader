@@ -56,7 +56,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: جان فیلان، که وزیر نیروی دریایی بود، به‌طور ناگهانی پست خود را ترک کرد در حالی که پنتاگون به تغییرات رهبری خود تحت ترامپ ادامه می‌دهد. هونگ کائو، کهنه‌سرباز جنگی که حمایت ترامپ را دارد، به‌صورت موقت این سمت را به عهده گرفت. این آخرین مورد در یک سری تغییرات ناگهانی پرسنلی در وزارت دفاع است در حالی که نیروهای آمریکایی به‌طور فعال در خاورمیانه درگیر هستند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/4/23/who-is-john-phelan-the-us-navy-secretary-fired-by-pete-hegseth?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/04/23/us-navy-secretary-john-phelan-leaves-post-amid-iran-war-in-latest-pentagon-shake-up)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/4/23/who-is-john-phelan-the-us-navy-secretary-fired-by-pete-hegseth?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/04/23/us-navy-secretary-john-phelan-leaves-post-amid-iran-war-in-latest-pentagon-shake-up)
 
 </details>
 

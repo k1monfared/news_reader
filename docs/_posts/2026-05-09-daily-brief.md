@@ -35,7 +35,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east-war-back-on-uae-res
 
 Context: The tankers were heading for an Iranian port in the Gulf of Oman when US forces opened fire. Iran's military command formally accused the US of breaching the ceasefire and said it hit back at "enemy units" in the strait. The US reported intercepting Iranian attacks and striking back at military targets. These are the sporadic clashes both sides keep blaming on each other while claiming they're still honoring a ceasefire.
 
-Sources: [France 24](https://www.france24.com/en/middle-east/20260507-middle-east-war-live-us-and-iran-accuse-each-other-of-ceasefire-violations-in-strait-of-hormuz) | [France 24](https://www.france24.com/en/middle-east/20260507-middle-east-war-live-source-close-to-hezbollah-says-top-commander-killed-in-israeli-strike) | [France 24](https://www.france24.com/en/middle-east/20260508-us-military-says-it-intercepted-iranian-attacks-in-strait-of-hormuz)
+Sources: [France 24](https://www.france24.com/en/middle-east/20260507-middle-east-war-live-us-and-iran-accuse-each-other-of-ceasefire-violations-in-strait-of-hormuz) \| [France 24](https://www.france24.com/en/middle-east/20260507-middle-east-war-live-source-close-to-hezbollah-says-top-commander-killed-in-israeli-strike) \| [France 24](https://www.france24.com/en/middle-east/20260508-us-military-says-it-intercepted-iranian-attacks-in-strait-of-hormuz)
 
 </details>
 

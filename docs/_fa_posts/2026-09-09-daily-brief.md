@@ -1,16 +1,17 @@
 ---
 layout: post
 lang: fa
-title: "گزارش روزانه: ۱۸ شهریور ۱۴۰۵"
+title: "گزارش روزانه: ۱۸ شهریور ۱۴۰۵ (با تأخیر)"
 date: 2026-09-09
 date_fa: "۱۸ شهریور ۱۴۰۵"
+backfilled: true
 sources_down: []
 generated_at: "2026-09-16 11:19 UTC-07:00"
 models_used: ["deepseek-v4-flash"]
 ---
 
-<details>
-<summary>خلاصه گزارش درگیری ایران — ۹ سپتامبر ۲۰۲۶</summary>
+<details markdown="block">
+<summary markdown="span">خلاصه گزارش درگیری ایران — ۹ سپتامبر ۲۰۲۶</summary>
 
 **سیاست آمریکا و اقتصاد**
 

@@ -1,9 +1,10 @@
 ---
 layout: post
 lang: fa
-title: "گزارش روزانه: ۲۵ مرداد ۱۴۰۵"
+title: "گزارش روزانه: ۲۵ مرداد ۱۴۰۵ (با تأخیر)"
 date: 2026-08-16
 date_fa: "۲۵ مرداد ۱۴۰۵"
+backfilled: true
 sources_down: []
 generated_at: "2026-08-21 22:44 UTC-07:00"
 models_used: ["muse-spark-1.2-contributor-free"]

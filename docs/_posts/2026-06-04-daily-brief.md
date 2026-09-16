@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Israeli and Lebanese ambassadors wrapped up their fourth round of talks at the State Department—these countries don't even have diplomatic relations normally. Trump said both sides committed to de-escalation. But hours after the announcement, Hezbollah formally rejected the plan and said Israeli troops need to leave southern Lebanon first. That's a pretty fundamental gap.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/4/israel-and-lebanon-agree-on-ceasefire-framework-in-us-led-talks?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260603-middle-east-war-live-israel-and-lebanon-agree-to-implement-a-ceasefire)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/4/israel-and-lebanon-agree-on-ceasefire-framework-in-us-led-talks?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260603-middle-east-war-live-israel-and-lebanon-agree-to-implement-a-ceasefire)
 
 </details>
 

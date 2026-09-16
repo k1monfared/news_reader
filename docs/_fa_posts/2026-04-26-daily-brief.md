@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: عباس عراقچی، وزیر خارجه ایران، تازه از پاکستان خارج شده بود بعد از اینکه «خطوط قرمز» ایران را برای هر توافقی مطرح کرد. Al Jazeera گزارش می‌دهد عراقچی حالا دارد دوباره به اسلام‌آباد برمی‌گردد برای گفت‌وگوهای بیشتر—اما بدون آمریکایی‌ها، در حالی که France24 نشان می‌دهد او عصر شنبه از پاکستان خارج شد. ایران قبلاً گفته بود مذاکرات مستقیم با آمریکا نخواهد داشت. ترامپ به Fox News گفت «آن‌ها می‌توانند هر وقت بخواهند به ما زنگ بزنند»، اساساً توپ را در زمین ایران انداخت و از میز مذاکره کنار رفت.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/4/26/iran-war-whats-happening-on-day-58-as-tehran-washington-talks-stall?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260426-middle-east-war-live-iran-s-fm-to-return-to-pakistan-for-talks-as-us-envoys-cancel-visit) | [Euronews](http://www.euronews.com/2026/04/25/irans-fm-abbas-araghchi-meets-with-pakistan-officials-but-rules-out-direct-talks-with-us)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/4/26/iran-war-whats-happening-on-day-58-as-tehran-washington-talks-stall?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260426-middle-east-war-live-iran-s-fm-to-return-to-pakistan-for-talks-as-us-envoys-cancel-visit) \| [Euronews](http://www.euronews.com/2026/04/25/irans-fm-abbas-araghchi-meets-with-pakistan-officials-but-rules-out-direct-talks-with-us)
 
 </details>
 

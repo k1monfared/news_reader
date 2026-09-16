@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "Daily Brief: September 14, 2026"
+title: "Daily Brief: September 14, 2026 (backfilled)"
 date: 2026-09-14
 categories: [daily-brief]
+backfilled: true
 sources_down: []
 generated_at: "2026-09-16 12:16 UTC-07:00"
 models_used: ["deepseek-v4-flash"]
 ---
 
-<details>
-<summary>No significant developments reported today</summary>
+<details markdown="block">
+<summary markdown="span">No significant developments reported today</summary>
 
 **Scope note.** The source set contains no direct US/Israel–Iran military exchange for this cycle. The following Iran-conflict-linked developments were reported between 14 and 15 September.
 

@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump declared the June ceasefire over at the NATO summit earlier this week. This is the sharpest threat yet—he's putting specific numbers on the arsenal aimed at Iran and adding a personal assassination threat into the mix. The whiplash from "we'll keep talking" to "total decimation" in 24 hours reflects Trump's pattern of escalating rhetoric while maintaining he's open to diplomacy.
 
-Sources: [Euronews](http://www.euronews.com/2026/07/11/trump-threatens-to-completely-decimate-iran-a-day-after-agreeing-to-more-talks) | [France24](https://www.france24.com/en/middle-east/20260711-live-trump-threatens-iran-after-khamenei-s-funeral-saw-open-calls-for-his-killing)
+Sources: [Euronews](http://www.euronews.com/2026/07/11/trump-threatens-to-completely-decimate-iran-a-day-after-agreeing-to-more-talks) \| [France24](https://www.france24.com/en/middle-east/20260711-live-trump-threatens-iran-after-khamenei-s-funeral-saw-open-calls-for-his-killing)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Euronews](http://www.euronews.com/2026/07/11/trump-threatens-to-comple
 
 Context: The US launched strikes Tuesday, Wednesday, and Thursday after Trump declared the ceasefire dead at the NATO summit. Iran is calling the targeting of railways and bridges "gross war crimes" and says they're hitting civilian infrastructure, not military targets. Trump's warning about things getting worse suggests more strikes are coming if Iran continues disrupting critical shipping lanes.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260709-us-launches-new-strikes-on-iran-trump-says-they-could-get-much-worse) | [France24](https://www.france24.com/en/the-us-and-iran-don-t-want-a-return-to-full-scale-warfare-but-neither-can-appear-to-be-the-loser)
+Sources: [France24](https://www.france24.com/en/middle-east/20260709-us-launches-new-strikes-on-iran-trump-says-they-could-get-much-worse) \| [France24](https://www.france24.com/en/the-us-and-iran-don-t-want-a-return-to-full-scale-warfare-but-neither-can-appear-to-be-the-loser)
 
 </details>
 

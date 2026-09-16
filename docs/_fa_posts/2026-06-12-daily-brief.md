@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ پنج‌شنبه اعلام کرد که به «توافق بزرگی» با ایران رسیده و انتظار دارد آخر هفته در اروپا امضا شود. سپس روز جمعه به گزارش‌های رسانه‌های ایرانی که شرایط غیرقابل مذاکره ایران را شرح می‌دادند، حمله کرد و آنها را «اخبار جعلی» خواند و مقامات ایرانی را «افراد بسیار بی‌شرف» نامید. ایران در پاسخ گفت که به تصمیم نهایی درباره هیچ توافقی نرسیده و توصیف ترامپ از گفتگوهایشان را رد می‌کند. این یک تغییر مشخص از صحبت‌های مبهم «مراحل پایانی» به جدول زمانی مشخص است—اما دعوای علنی و بیانیه‌های متناقض از هر دو طرف نشان می‌دهد که توافق سست‌تر از آن چیزی است که ترامپ ادعا می‌کند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/12/dishonorable-trump-says-leaked-iran-ceasefire-terms-fake?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/features/2026/6/12/are-iran-us-really-close-to-a-breakthrough-deal?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260612-middle-east-live-us-forces-shoot-down-iranian-drones-near-strait-of-hormuz) | [France24](https://www.france24.com/en/trump-touts-iran-deal-some-people-s-response-to-this-will-be-the-boy-who-cried-wolf) | [France24](https://www.france24.com/en/middle-east/20260610-middle-east-live-iran-announces-closure-of-strait-of-hormuz-after-us-attacks)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/12/dishonorable-trump-says-leaked-iran-ceasefire-terms-fake?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/features/2026/6/12/are-iran-us-really-close-to-a-breakthrough-deal?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260612-middle-east-live-us-forces-shoot-down-iranian-drones-near-strait-of-hormuz) \| [France24](https://www.france24.com/en/trump-touts-iran-deal-some-people-s-response-to-this-will-be-the-boy-who-cried-wolf) \| [France24](https://www.france24.com/en/middle-east/20260610-middle-east-live-iran-announces-closure-of-strait-of-hormuz-after-us-attacks)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ پنج‌شنبه پس از آنچه گفت گفتگو با «بالاترین سطوح» رهبری ایران بود، حملات نظامی جدید علیه ایران را متوقف کرد. این نشان‌دهنده یک تغییر مشخص از تشدید مداوم به کاهش فعال تنش است. اما تنها چند ساعت قبل از این اعلام، او تهدید کرده بود که با هدف قرار دادن بخش نفت ایران، درگیری را تشدید کند. ایران می‌گوید به تصمیم نهایی نرسیده و توصیف ترامپ از گفتگوهایشان را رد می‌کند، که عدم اطمینان درباره وضعیت واقعی مذاکرات را ایجاد می‌کند.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260611-trump-says-iran-peace-deal-is-near-after-threatening-new-strikes) | [France24](https://www.france24.com/en/middle-east/20260610-middle-east-live-iran-announces-closure-of-strait-of-hormuz-after-us-attacks)
+منابع: [France24](https://www.france24.com/en/middle-east/20260611-trump-says-iran-peace-deal-is-near-after-threatening-new-strikes) \| [France24](https://www.france24.com/en/middle-east/20260610-middle-east-live-iran-announces-closure-of-strait-of-hormuz-after-us-attacks)
 
 </details>
 

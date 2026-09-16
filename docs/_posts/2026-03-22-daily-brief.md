@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The threat marks a sharp escalation in Trump's messaging. Iran has partially closed the strait, choking off a major oil shipping route. Trump's threat to target power infrastructure would hit Iranian civilians hard and represents a shift from purely military targets.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/22/trump-issues-48-hour-hormuz-strait-ultimatum-threatens-iran-power-plants) | [Euronews Arabic](https://arabic.euronews.com/2026/03/22/middle-east-war-iranian-strikes-bloodshed-arad-us-final-warning-open-strait-of-hormuz) | [Euronews Spanish](https://es.euronews.com/2026/03/22/iran-amenaza-con-represalias-tras-el-ultimatum-de-48-horas-dado-por-trump-para-reabrir-el-)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/22/trump-issues-48-hour-hormuz-strait-ultimatum-threatens-iran-power-plants) \| [Euronews Arabic](https://arabic.euronews.com/2026/03/22/middle-east-war-iranian-strikes-bloodshed-arad-us-final-warning-open-strait-of-hormuz) \| [Euronews Spanish](https://es.euronews.com/2026/03/22/iran-amenaza-con-represalias-tras-el-ultimatum-de-48-horas-dado-por-trump-para-reabrir-el-)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/22/trumps-changing-m
 
 Context: The strikes hit Arad and Dimona in southern Israel. This is the first time Iran has targeted areas so close to Israeli nuclear facilities. Most injuries appear to be from debris and shockwaves rather than direct hits. Euronews Arabic reports fears of a radiation leak, though there's no official confirmation of one.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/21/iran-strikes-towns-near-israels-nuclear-site-in-escalating-tit-for-tat) | [Euronews Italian](https://it.euronews.com/2026/03/22/israele-missile-iraniano-colpisce-la-citta-di-dimona-vicino-a-un-sito-nucleare-40-feriti) | [Euronews Russian](https://ru.euronews.com/2026/03/22/iran-netanyahu-in-arad)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/21/iran-strikes-towns-near-israels-nuclear-site-in-escalating-tit-for-tat) \| [Euronews Italian](https://it.euronews.com/2026/03/22/israele-missile-iraniano-colpisce-la-citta-di-dimona-vicino-a-un-sito-nucleare-40-feriti) \| [Euronews Russian](https://ru.euronews.com/2026/03/22/iran-netanyahu-in-arad)
 
 </details>
 

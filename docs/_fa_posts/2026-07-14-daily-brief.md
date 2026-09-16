@@ -36,7 +36,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: بوشهر یک هدف بسیار حساس است—حمله به هر نقطه نزدیک نیروگاه هسته‌ای خطر عواقب فاجعه‌بار دارد. آمریکا روز سه‌شنبه به آنجا حمله کرد. ایران می‌گوید حداقل ۱۴ نفر در دو روز حملات آمریکایی کشته شده‌اند، در حالی که هر دو کشور روایت‌های متفاوتی درباره نزدیکی حملات به زیرساخت‌های هسته‌ای ارائه می‌دهند.
 
-منابع: [Euronews](http://www.euronews.com/2026/07/14/us-strikes-bushehr-as-irans-parliament-tables-bill-to-control-hormuz) | [France24](https://www.france24.com/en/iran-claims-us-strike-hit-near-nuclear-powerplant)
+منابع: [Euronews](http://www.euronews.com/2026/07/14/us-strikes-bushehr-as-irans-parliament-tables-bill-to-control-hormuz) \| [France24](https://www.france24.com/en/iran-claims-us-strike-hit-near-nuclear-powerplant)
 
 </details>
 
@@ -74,7 +74,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این یک تشدید بزرگ اقتصادی است. آژانس کشتیرانی سازمان ملل با دریافت هزینه توسط هر کشوری برای تنگه‌های بین‌المللی مخالف است. ترامپ اساساً در تلاش است یکی از حیاتی‌ترین آبراه‌های جهان را کنترل کند و از آن سود ببرد در حالی که بنادر ایران را به شکل فیزیکی محاصره می‌کند.
 
-منابع: [France24](https://www.france24.com/en/us-strikes-in-iran-continue-trump-says-reinstates-blockade-on-strait-of-hormuz) | [France24](https://www.france24.com/en/trump-reimposes-iran-naval-blockade-threatens-hormuz-fees)
+منابع: [France24](https://www.france24.com/en/us-strikes-in-iran-continue-trump-says-reinstates-blockade-on-strait-of-hormuz) \| [France24](https://www.france24.com/en/trump-reimposes-iran-naval-blockade-threatens-hormuz-fees)
 
 </details>
 
@@ -83,7 +83,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این یک حرکت نهادی برای تثبیت کاری است که ایران قبلاً از نظر نظامی انجام می‌دهد. لایحه هدفش رسمی کردن کنترل و تضعیف هرگونه مذاکره آینده بر سر تنگه است.
 
-منابع: [Euronews](http://www.euronews.com/2026/07/14/us-strikes-bushehr-as-irans-parliament-tables-bill-to-control-hormuz) | [Al Jazeera](https://www.aljazeera.com/news/2026/7/14/iran-lawmakers-present-hormuz-management-bill-as-us-war-heats-up?traffic_source=rss)
+منابع: [Euronews](http://www.euronews.com/2026/07/14/us-strikes-bushehr-as-irans-parliament-tables-bill-to-control-hormuz) \| [Al Jazeera](https://www.aljazeera.com/news/2026/7/14/iran-lawmakers-present-hormuz-management-bill-as-us-war-heats-up?traffic_source=rss)
 
 </details>
 

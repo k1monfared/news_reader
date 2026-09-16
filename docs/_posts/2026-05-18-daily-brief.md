@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Two days ago Iran announced ships would need permits to transit the Strait. Now they've actually created the bureaucracy to enforce it: a new government body that will charge fees and offer Bitcoin-based insurance to vessels willing to play ball. The move comes as peace talks with the US remain stalled and tankers are piling up in the waterway. Iran is demanding control over Hormuz as part of any deal.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/18/iran-plans-to-offer-insurance-for-hormuz-transit-will-it-work?traffic_source=rss) | [France24](https://www.france24.com/en/iran-sets-up-new-strait-of-hormuz-managing-body-amid-stalled-talks-with-us) | [Euronews](http://www.euronews.com/2026/05/18/iran-sets-up-hormuz-transit-authority-to-charge-ships-for-passage)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/18/iran-plans-to-offer-insurance-for-hormuz-transit-will-it-work?traffic_source=rss) \| [France24](https://www.france24.com/en/iran-sets-up-new-strait-of-hormuz-managing-body-amid-stalled-talks-with-us) \| [Euronews](http://www.euronews.com/2026/05/18/iran-sets-up-hormuz-transit-authority-to-charge-ships-for-passage)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/05/18/ryanair-profits-
 
 Context: The ceasefire was set to expire on April 17. Now both sides say they'll keep it going and broaden negotiations beyond the basic truce. Israel insists its strikes in southern Lebanon—in response to Hezbollah fire since March—aren't covered by the ceasefire. The US State Department announced the extension hours before new Israeli airstrikes hit the south.
 
-Sources: [France24](https://www.france24.com/en/israel-lebanon-extending-ceasefire-us-says-despite-new-israeli-strikes) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/18/israeli-attacks-kill-at-least-7-in-lebanon-despite-ceasefire-extension?traffic_source=rss)
+Sources: [France24](https://www.france24.com/en/israel-lebanon-extending-ceasefire-us-says-despite-new-israeli-strikes) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/18/israeli-attacks-kill-at-least-7-in-lebanon-despite-ceasefire-extension?traffic_source=rss)
 
 </details>
 
@@ -64,7 +64,7 @@ Sources: [France24](https://www.france24.com/en/israel-lebanon-extending-ceasefi
 
 Context: The Treasury Secretary is calling on the G7 to adopt US-led sanctions on Iran. France, which holds the G7 presidency, is trying to keep dialogue open while also managing Trump's latest tariff threats. It's a messy agenda.
 
-Sources: [France24](https://www.france24.com/en/g7-finance-ministers-meet-amid-middle-east-war-economic-fallout) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/18/video-us-calls-on-g7-to-impose-us-led-sanctions-on-iran?traffic_source=rss)
+Sources: [France24](https://www.france24.com/en/g7-finance-ministers-meet-amid-middle-east-war-economic-fallout) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/18/video-us-calls-on-g7-to-impose-us-led-sanctions-on-iran?traffic_source=rss)
 
 </details>
 

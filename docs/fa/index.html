@@ -14,7 +14,7 @@ title: "صفحه اصلی"
 {% for post in sorted_posts %}
   <li>
     <a href="{{ post.url | relative_url }}" class="post-list-link">
-      <span class="post-list-date">{{ post.date_fa | default: post.date }}</span>
+      <span class="post-list-date">{{ post.date_fa | default: post.date }}{% if post.backfilled %} ({{ site.data.i18n.fa.post_backfilled }}){% endif %}</span>
     </a>
   </li>
 {% endfor %}

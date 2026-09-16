@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Iranian missiles hit the Muwaffaq Salti Airbase in Jordan on Friday, killing two service members with one reported missing—the first US deaths from direct Iranian fire since the conflict began in February. The US immediately launched retaliatory strikes targeting Iran's Revolutionary Guard, continuing a week-long bombing campaign that marks the heaviest fighting since the war started. France 24 reports the deaths are the first from hostile fire since a brief truce collapsed in April, while other sources indicate no previous truce existed.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/19/us-launches-new-iran-strikes-after-two-soldiers-killed-whats-the-latest?traffic_source=rss) | [France 24](https://www.france24.com/en/first-us-soldiers-killed-in-jordan-trump-vows-to-shift-action) | [Euronews](http://www.euronews.com/2026/07/18/two-us-troops-killed-in-jordan-by-iranian-attacks-us-military-says)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/19/us-launches-new-iran-strikes-after-two-soldiers-killed-whats-the-latest?traffic_source=rss) \| [France 24](https://www.france24.com/en/first-us-soldiers-killed-in-jordan-trump-vows-to-shift-action) \| [Euronews](http://www.euronews.com/2026/07/18/two-us-troops-killed-in-jordan-by-iranian-attacks-us-military-says)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/19/us-launches-new-i
 
 Context: The blockade prevents ships from sailing to or from Iranian ports—a significant escalation from last week when the US was only boarding vessels. Trump announced he'll charge fees for passage through the Strait of Hormuz, the chokepoint for about 20% of global oil. The UN's shipping agency opposes any nation charging fees for international waterways. Iran responded by threatening to shut additional energy export routes including the Bab el-Mandeb gateway to the Red Sea.
 
-Sources: [France 24 - Blockade](https://www.france24.com/en/middle-east/20260714-us-military-reimposes-naval-blockade-on-iranian-ports-launches-new-strikes) | [France 24 - Fees](https://www.france24.com/en/trump-reimposes-iran-naval-blockade-threatens-hormuz-fees)
+Sources: [France 24 - Blockade](https://www.france24.com/en/middle-east/20260714-us-military-reimposes-naval-blockade-on-iranian-ports-launches-new-strikes) \| [France 24 - Fees](https://www.france24.com/en/trump-reimposes-iran-naval-blockade-threatens-hormuz-fees)
 
 </details>
 

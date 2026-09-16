@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: پس از آنکه آمریکا حملات تازه‌ای علیه ایران آغاز کرد، تهران با اصابت موشک و پهپاد به قطر (سه نفر در دوحه در اثر اصابت ترکش‌های ساقط‌شده مجروح شدند)، امارات، کویت، بحرین و عمان پاسخ داد. خبرنگاران Euronews در قطر شاهد دو موج جداگانه حمله با انفجارهای بزرگ بر فراز دوحه بودند. ایران همچنین یک کشتی کانتینری را در تنگه هرمز به آتش کشید که حدود ۲۰٪ نفت جهان از آن عبور می‌کند. امارات و قطر اکنون به‌طور فعال از پدافندهای هوایی برای رهگیری آتش ورودی ایران استفاده می‌کنند. این تشدید قابل‌توجهی نسبت به حملات قبلی است که سه کشور را هدف قرار می‌داد—اکنون پنج کشور، به‌علاوه بستن تنگه است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/12/iran-attacks-five-gulf-nations-shuts-hormuz-after-us-bombing-all-to-know?traffic_source=rss) | [Al Jazeera 2](https://www.aljazeera.com/news/2026/7/12/missiles-and-drones-fired-at-gulf-states-after-night-of-us-strikes-on-iran?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260712-live-us-attacks-iran-over-ship-being-hit-in-strait-of-hormuz) | [Euronews](http://www.euronews.com/2026/07/12/iran-launches-attacks-on-qatar-uae-bahrain-kuwait-following-us-strikes)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/12/iran-attacks-five-gulf-nations-shuts-hormuz-after-us-bombing-all-to-know?traffic_source=rss) \| [Al Jazeera 2](https://www.aljazeera.com/news/2026/7/12/missiles-and-drones-fired-at-gulf-states-after-night-of-us-strikes-on-iran?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260712-live-us-attacks-iran-over-ship-being-hit-in-strait-of-hormuz) \| [Euronews](http://www.euronews.com/2026/07/12/iran-launches-attacks-on-qatar-uae-bahrain-kuwait-following-us-strikes)
 
 </details>
 
@@ -38,7 +38,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: دفتر گراهام اعلام کرد که او در اثر بیماری ناگهانی درگذشت. جمهوری‌خواه کارولینای جنوبی تازه از اوکراین بازگشته بود، جایی که در کی‌یف با زلنسکی ملاقات کرده بود. او یکی از صریح‌ترین سناتورهایی بود که برای اقدام تهاجمی آمریکا در خاورمیانه و حمایت بی‌قید و شرط از اسرائیل فشار می‌آورد.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/12/us-senator-lindsey-graham-passes-away?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/07/12/us-senator-lindsey-graham-dies-after-brief-and-sudden-illness)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/12/us-senator-lindsey-graham-passes-away?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/07/12/us-senator-lindsey-graham-dies-after-brief-and-sudden-illness)
 
 </details>
 

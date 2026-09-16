@@ -17,7 +17,7 @@ models_used: ["muse-spark-1.2-contributor-free"]
 
 Context: Trump said Iran “would love to make a deal, but they’re not ready to make the right deal in my opinion,” while the US on Thursday urged allies and China to join its campaign to isolate Iran’s economy. Washington is preparing to ramp up economic sanctions described as “Economic D-Day.”
 
-Sources: [aljazeera](https://www.aljazeera.com/news/liveblog/2026/8/22/iran-war-live-trump-says-tehran-not-ready-to-make-right-deal-to-end-war?traffic_source=rss) | [france24](https://www.france24.com/en/middle-east/20260821-us-warns-allies-and-china-to-join-iran-economic-pressure-campaign)
+Sources: [aljazeera](https://www.aljazeera.com/news/liveblog/2026/8/22/iran-war-live-trump-says-tehran-not-ready-to-make-right-deal-to-end-war?traffic_source=rss) \| [france24](https://www.france24.com/en/middle-east/20260821-us-warns-allies-and-china-to-join-iran-economic-pressure-campaign)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [france24](https://www.france24.com/en/middle-east/20260818-trump-says-
 
 Context: The threat came as the 60-day ceasefire deadline passed. This isn’t the first time Trump has threatened Oman. The threat came after authorities in Iraqi Kurdistan said two Iranian drones targeted the prime minister’s office overnight.
 
-Sources: [france24](https://www.france24.com/en/trump-threatens-to-bomb-oman-as-its-ally-tires-to-mediate-iran-negotiations) | [france24](https://www.france24.com/en/middle-east/20260817-middle-east-live-us-envoy-kushner-to-meet-netanyahu-after-talks-with-hamas)
+Sources: [france24](https://www.france24.com/en/trump-threatens-to-bomb-oman-as-its-ally-tires-to-mediate-iran-negotiations) \| [france24](https://www.france24.com/en/middle-east/20260817-middle-east-live-us-envoy-kushner-to-meet-netanyahu-after-talks-with-hamas)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [france24](https://www.france24.com/en/trump-threatens-to-bomb-oman-as-
 
 Context: President Pezeshkian said Iran is in a position of “power and dignity” and should end the war on its own terms. The comments came as Omani and Iranian foreign ministers held a call and Washington prepares to ramp up economic sanctions described as “Economic D-Day.”
 
-Sources: [aljazeera](https://www.aljazeera.com/news/2026/8/22/iranian-president-says-time-to-end-war-with-us-from-position-of?traffic_source=rss) | [euronews](http://www.euronews.com/2026/08/21/irans-president-calls-for-end-to-war-from-position-of-power-as-us-ups-pressure)
+Sources: [aljazeera](https://www.aljazeera.com/news/2026/8/22/iranian-president-says-time-to-end-war-with-us-from-position-of?traffic_source=rss) \| [euronews](http://www.euronews.com/2026/08/21/irans-president-calls-for-end-to-war-from-position-of-power-as-us-ups-pressure)
 
 </details>
 

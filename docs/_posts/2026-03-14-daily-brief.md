@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Kharg Island is Iran's critical oil export hub in the Persian Gulf, handling the majority of the country's oil shipments. Trump stated the US "totally obliterated" military targets there and is now threatening broader strikes on Iran's oil infrastructure. This represents a major escalation—the island hosts both military installations and oil export facilities. Hitting oil infrastructure directly could cripple Iran's economy and send global energy prices soaring.
 
-Sources: [Euronews](https://www.euronews.com/2026/03/14/trump-says-us-has-totally-obliterated-military-targets-on-irans-kharg-island) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/14/us-attacks-military-sites-on-irans-kharg-island-home-to-vast-oil-facility)
+Sources: [Euronews](https://www.euronews.com/2026/03/14/trump-says-us-has-totally-obliterated-military-targets-on-irans-kharg-island) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/14/us-attacks-military-sites-on-irans-kharg-island-home-to-vast-oil-facility)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/14/us-israeli-strike
 
 Context: This marks Iran's expansion of attacks to Gulf states hosting US forces. Qatar successfully intercepted the strike, but authorities are conducting precautionary evacuations. The attack is part of Iran's intensified campaign across the Gulf region.
 
-Sources: [Euronews](https://es.euronews.com/2026/03/14/qatar-repele-ataque-nocturno-iran-anuncia-evacuaciones-preventivas) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/14/iran-continues-intensified-attacks-across-gulf-in-us-israel-war-fallout)
+Sources: [Euronews](https://es.euronews.com/2026/03/14/qatar-repele-ataque-nocturno-iran-anuncia-evacuaciones-preventivas) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/14/iran-continues-intensified-attacks-across-gulf-in-us-israel-war-fallout)
 
 </details>
 
@@ -84,7 +84,7 @@ Sources: [Euronews](https://fr.euronews.com/my-europe/2026/03/14/un-officier-fra
 
 Context: Iran has effectively blockaded the Strait of Hormuz, through which about 20% of global oil passes. These Indian ships are the first known commercial vessels to cross since the blockade began. Trump's claim about an international naval convoy hasn't been confirmed by other countries.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/14/two-indian-ships-cross-strait-of-hormuz-as-iran-says-it-allowed-passage) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/14/trump-says-many-countries-will-send-warships-to-hormuz-amid-iran-blockade)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/14/two-indian-ships-cross-strait-of-hormuz-as-iran-says-it-allowed-passage) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/14/trump-says-many-countries-will-send-warships-to-hormuz-amid-iran-blockade)
 
 </details>
 

@@ -17,7 +17,7 @@ models_used: ["nemotron-3-ultra-free", "mimo-v2.5-free"]
 
 Context: This comes as the Iran-US war hits its six-month mark, costing an estimated $1,100 per US taxpayer (France24 analysis). Iran's leadership has hardened around military generals and clerics, signaling they are dug in for a long confrontation. China's defiance creates the central flashpoint for whether the sanctions can achieve their stated goal.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260824-us-unveils-fresh-sanctions-to-sever-every-economic-lifeline-sustaining-iran) | [BBC](https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss)
+Sources: [France24](https://www.france24.com/en/middle-east/20260824-us-unveils-fresh-sanctions-to-sever-every-economic-lifeline-sustaining-iran) \| [BBC](https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260826-navigation-
 
 Context: This reverses a decades-old designation that crippled Syria's economy. The shift signals Washington is betting on al-Sharaa's government to stabilize the country and counter Iranian influence. Sanctions relief accompanies the delisting.
 
-Sources: [France24](https://www.france24.com/en/us-removes-syria-off-its-list-of-state-sponsors-of-terrorism) | [BBC](https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss)
+Sources: [France24](https://www.france24.com/en/us-removes-syria-off-its-list-of-state-sponsors-of-terrorism) \| [BBC](https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss)
 
 </details>
 
@@ -53,7 +53,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260825-syrian-kurd
 
 Context: The Jenin strike marks an escalation in West Bank air operations. On Gaza, the Trump plan involves Hamas disarming and Israeli withdrawal — Hamas says it accepted, but Israel's new earthworks appear designed as permanent internal borders. Far-right Minister Ben-Gvir also praised harsher conditions for Palestinian female prisoners.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260828-israel-army-carries-out-rare-west-bank-air-strike-killing-three-terrorists) | [BBC](https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss) | [BBC](https://www.bbc.co.uk/news/articles/cpvwjmme3p0o?at_medium=RSS&at_campaign=rss)
+Sources: [France24](https://www.france24.com/en/middle-east/20260828-israel-army-carries-out-rare-west-bank-air-strike-killing-three-terrorists) \| [BBC](https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss) \| [BBC](https://www.bbc.co.uk/news/articles/cpvwjmme3p0o?at_medium=RSS&at_campaign=rss)
 
 </details>
 
@@ -82,7 +82,7 @@ Sources: [JPost](https://www.jpost.com/middle-east/article-907014)
 
 Context: This is the latest threat to General Tchiani's government. Security forces deployed around the airport and the situation is "not stabilized yet." Niger is a key Western partner for counterterrorism in the Sahel.
 
-Sources: [DW](https://www.dw.com/en/niger-s-defense-ministry-says-soldiers-attempted-mutiny/a-78554001?maca=en-rss-en-all-1573-xml-mrss) | [France24](https://www.france24.com/en/situation-in-niger-not-stabilised-yet-as-security-forces-deploy-around-airport)
+Sources: [DW](https://www.dw.com/en/niger-s-defense-ministry-says-soldiers-attempted-mutiny/a-78554001?maca=en-rss-en-all-1573-xml-mrss) \| [France24](https://www.france24.com/en/situation-in-niger-not-stabilised-yet-as-security-forces-deploy-around-airport)
 
 </details>
 
@@ -91,7 +91,7 @@ Sources: [DW](https://www.dw.com/en/niger-s-defense-ministry-says-soldiers-attem
 
 Context: This was a vote on starting accession talks, not on membership itself — another referendum would be needed for any final deal. High turnout suggests the issue mobilized voters. A "No" deals a blow to EU enlargement momentum.
 
-Sources: [Euronews](http://www.euronews.com/my-europe/2026/08/30/icelands-eu-referendum-polling-stations-close-as-europe-awaits-results) | [The Hindu](https://www.thehindu.com/news/international/trumps-greenland-threats-cast-shadow-on-icelands-vote-on-whether-to-trigger-eu-membership-talks/article71403751.ece)
+Sources: [Euronews](http://www.euronews.com/my-europe/2026/08/30/icelands-eu-referendum-polling-stations-close-as-europe-awaits-results) \| [The Hindu](https://www.thehindu.com/news/international/trumps-greenland-threats-cast-shadow-on-icelands-vote-on-whether-to-trigger-eu-membership-talks/article71403751.ece)
 
 </details>
 

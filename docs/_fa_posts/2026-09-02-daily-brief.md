@@ -18,7 +18,7 @@ models_used: ["nemotron-3-ultra-free", "mimo-v2.5-free"]
 
 زمینه: در شب، یک ضربه آمریکا به یک ساختمان مسکونی و برج مخابراتی در شهرستان سیریک (گزارش شده به عنوان کوهستک نزدیکی سیریک) در طول یک جشن عروسی رخ داد. منابع ایرانی ۱۱ نفر مرده و ۵۰+ زخمی گزارش می‌دهند; وسائل غربی حداقل ۴ نفر کشته شده از جمله دو کودک را گزارش می‌دهند. در پاسخ، ایران موشک‌ها و پهپادها را به سمت اهداف آمریکا در عراق (اربیل)، امارات (الظفرة، المینهاد) و کویت (فرودگاه علی‌السالم) شلیک کرد. سپاه ادعای خسارت سنگین به زیرساخت‌های آمریکا و «تعداد قابل توجهی» تلفات آمریکایی را دارد، هرچند این تأیید نشده است.
 
-منابع: [BBC](https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss) | [Al Jazeera](https://www.aljazeera.com/news/2026/9/2/what-do-we-know-about-the-fatal-us-bombing-of-a-wedding-in-irans-sirik?traffic_source=rss) | [The Hindu](https://www.thehindu.com/news/international/us-strikes-on-iran-updates/article71418113.ece) | [France24](https://www.france24.com/en/video/20260902-iran-us-accused-of-hitting-wedding-party-in-latest-strikes)
+منابع: [BBC](https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss) \| [Al Jazeera](https://www.aljazeera.com/news/2026/9/2/what-do-we-know-about-the-fatal-us-bombing-of-a-wedding-in-irans-sirik?traffic_source=rss) \| [The Hindu](https://www.thehindu.com/news/international/us-strikes-on-iran-updates/article71418113.ece) \| [France24](https://www.france24.com/en/video/20260902-iran-us-accused-of-hitting-wedding-party-in-latest-strikes)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["nemotron-3-ultra-free", "mimo-v2.5-free"]
 
 زمینه: یک تانکر متعلق به عربستان (SIDR) در ۳۱ اوت در تنگه هرمز هدف قرار گرفت. مقامات سعودی ایران را مقصر می‌دانند؛ شرکت حمل‌ونقل بحری سعودی باهریمرگ دو ملوان فیلیپینی را تأیید کرد. این در پی هفته‌های اختلال در حمل‌ونقل تجاری در خلیج فارس است، از جمله دو تانکر نفتی که توسط مین‌های دریایی فلج شدند در حالی که سعی در عبور از تنگه داشتند. هشدار سفارت آمریکا نشان می‌دهد واشنگتن انتقام بیشتر ایران یا محاسبه نادرست در این مجرای آبی را پیش‌بینی می‌کند.
 
-منابع: [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-accuses-iran-attacking-saudi-tanker-strait-hormuz) | [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/two-dead-after-monday-attack-saudi-oil-tanker-hormuz-says-shipping-firm) | [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/us-embassy-saudi-arabia-warns-americans-take-precautions-over-increase)
+منابع: [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-accuses-iran-attacking-saudi-tanker-strait-hormuz) \| [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/two-dead-after-monday-attack-saudi-oil-tanker-hormuz-says-shipping-firm) \| [Middle East Eye](https://www.middleeasteye.net/live-blog/live-blog-update/us-embassy-saudi-arabia-warns-americans-take-precautions-over-increase)
 
 </details>
 
@@ -49,7 +49,7 @@ models_used: ["nemotron-3-ultra-free", "mimo-v2.5-free"]
 
 زمینه: توقف شی در قاهره — اولین بازدید او از مصر در سال‌ها — در زمانی آمد که جنگ ایران قابل اعتماد بودن آمریکا را تست می‌کند. پکن می‌خواهد کشورهای خلیج فارس به یک معماری امنیتی تحت رهبری چین بپیوندند. مصر، یک گیرنده اصلی کمک آمریکا، در حال بازی در دو طرف است. این بازدید نشان می‌دهد چین конфлиکت را به عنوان یک فرصت برای بازتعریف نظم منطقه‌ای می‌بیند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/9/2/chinas-xi-urges-new-middle-east-security-framework-during-rare-egypt-visit?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260902-xi-calls-on-mideast-nations-to-be-masters-of-their-own-affairs-in-rare-egypt-visit)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/9/2/chinas-xi-urges-new-middle-east-security-framework-during-rare-egypt-visit?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260902-xi-calls-on-mideast-nations-to-be-masters-of-their-own-affairs-in-rare-egypt-visit)
 
 </details>
 

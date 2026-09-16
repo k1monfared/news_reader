@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is the new round of negotiations to lock in the Memorandum of Understanding signed last week. The 60-day clock is ticking to resolve the hard stuff—Iran's uranium stockpiles and nuclear ambitions. Problem is, Israel and Hezbollah keep shooting at each other in Lebanon, and neither of them signed the agreement. Iran says Lebanon is now the "main topic" at the talks.
 
-Sources: [France24](https://www.france24.com/en/iran-claims-lebanon-main-topic-at-peace-talks-with-us) | [France24](https://www.france24.com/en/tv-shows/spotlight/20260621-what-s-the-state-of-the-strait)
+Sources: [France24](https://www.france24.com/en/iran-claims-lebanon-main-topic-at-peace-talks-with-us) \| [France24](https://www.france24.com/en/tv-shows/spotlight/20260621-what-s-the-state-of-the-strait)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [France24](https://www.france24.com/en/iran-claims-lebanon-main-topic-a
 
 Context: This is a direct contradiction at the heart of the Lebanon issue. Israeli and Lebanese negotiators in DC are working on a concrete proposal where Israeli troops would transfer control of some areas in southern Lebanon to the Lebanese Armed Forces—a specific mechanism that just emerged from the talks. But at the same time, Defence Minister Katz publicly stated Israel won't withdraw under any circumstances. This hardline position undercuts the Washington talks happening simultaneously where Israeli negotiators are discussing exactly that kind of withdrawal.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260624-israel-and-lebanon-discuss-plan-to-transfer-some-southern-territory-to-lebanese-army) | [France24](https://www.france24.com/en/middle-east/20260624-middle-east-live-oman-announces-temporary-maritime-corridor-through-strait-of-hormuz)
+Sources: [France24](https://www.france24.com/en/middle-east/20260624-israel-and-lebanon-discuss-plan-to-transfer-some-southern-territory-to-lebanese-army) \| [France24](https://www.france24.com/en/middle-east/20260624-middle-east-live-oman-announces-temporary-maritime-corridor-through-strait-of-hormuz)
 
 </details>
 

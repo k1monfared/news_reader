@@ -38,7 +38,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: امارات می‌گوید نیاز به تمرکز بر «منافع ملی» دارد و می‌خواهد در «عصر انرژی جدید» انعطاف‌پذیری برای افزایش تولید خود را داشته باشد. این اقدام در بدترین زمان ممکن برای اوپک انجام می‌شود—بازارهای انرژی جهانی در حالت بحرانی هستند و کارتل یکی از بزرگ‌ترین اعضای خود را از دست می‌دهد.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/28/uae-leaves-opec-in-blow-to-oil-cartel-amid-war-on-iran?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260428-uae-to-quit-global-oil-cartel-opec-citing-national-interests) | [Euronews](http://www.euronews.com/2026/04/28/uae-decides-to-leave-opec-citing-focus-on-its-national-interest)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/28/uae-leaves-opec-in-blow-to-oil-cartel-amid-war-on-iran?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260428-uae-to-quit-global-oil-cartel-opec-citing-national-interests) \| [Euronews](http://www.euronews.com/2026/04/28/uae-decides-to-leave-opec-citing-focus-on-its-national-interest)
 
 </details>
 

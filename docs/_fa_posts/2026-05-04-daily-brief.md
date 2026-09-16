@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: رسانه‌های دولتی ایران از شلیک موشک به یک ناوشکن آمریکایی برای جلوگیری از ورود آن به تنگه هرمز خبر دادند، درست پس از آنکه ترامپ «پروژه آزادی» را برای اسکورت کشتی‌های تجاری گرفتار در تنگه آغاز کرد. مقامات آمریکایی به طور قطعی رد می‌کنند که حمله‌ای اتفاق افتاده باشد. ایران قبلاً هشدار داده بود که به هر نیروی آمریکایی که وارد شود حمله خواهد کرد.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/4/iran-says-it-fired-missiles-at-us-warship-to-prevent-it-entering-hormuz?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260504-live-us-to-escort-ships-through-strait-of-hormuz-as-iran-warns-of-ceasefire-breach-trump)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/4/iran-says-it-fired-missiles-at-us-warship-to-prevent-it-entering-hormuz?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260504-live-us-to-escort-ships-through-strait-of-hormuz-as-iran-warns-of-ceasefire-breach-trump)
 
 </details>
 
@@ -47,7 +47,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ این ماموریت جدید را پس از آنکه ایران گفت پاسخ آمریکا به پیشنهاد صلح خود را دریافت کرده، اعلام کرد. ایران هشدار داده بود که به هر نیروی آمریکایی که وارد تنگه شود حمله خواهد کرد، و اکنون ادعا می‌کند که دقیقاً همین کار را کرده است—هرچند آمریکا آن را رد می‌کند. صدها کشتی در دو طرف محاصره همچنان گیر افتاده‌اند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/4/trumps-project-freedom-can-us-navy-guide-stuck-ships-out-of-hormuz?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/05/04/iranian-military-claims-it-prevented-us-navy-ships-from-entering-strait-of-hormuz)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/4/trumps-project-freedom-can-us-navy-guide-stuck-ships-out-of-hormuz?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/05/04/iranian-military-claims-it-prevented-us-navy-ships-from-entering-strait-of-hormuz)
 
 </details>
 

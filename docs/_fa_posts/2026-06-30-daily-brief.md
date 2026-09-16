@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ اعلام کرد که فرستادگانی را به دوحه برای مذاکرات ایران می‌فرستد. استیو ویتکوف و جارد کوشنر اکنون فیزیکی وارد قطر شده‌اند. ایران تأیید کرد که یک هیئت کارشناسی برای بحث در مورد آزادسازی دارایی‌های مسدود شده ایران فرستاده است، اما تهران موافقت با دیدار با همتایان آمریکایی «در هر سطحی» را رد کرد. قطر سپس رسماً اعلام کرد که در حالی که هر دو هیئت حضور دارند، هیچ مذاکره مستقیم سطح بالایی برنامه‌ریزی نشده—فقط جلسات از طریق میانجی‌های قطری در مورد «همه مسائل منطقه‌ای». پس هر دو طرف در یک شهر هستند اما ظاهراً روبه‌روی یکدیگر پشت میز نخواهند نشست. این اتفاق پس از چهار روز حمله در تنگه هرمز که دوشنبه متوقف شد، رخ می‌دهد.
 
-منابع: [Euronews](http://www.euronews.com/2026/06/30/us-envoys-witkoff-and-kushner-land-in-qatar-for-fresh-iran-war-talks) | [France24](https://www.france24.com/en/middle-east/20260630-middle-east-live-us-and-iranian-delegations-in-qatar-no-bilateral-meeting-confirmed) | [Al Jazeera](https://www.aljazeera.com/news/2026/6/30/us-envoys-in-doha-for-indirect-talks-with-iranian-technical-delegation?traffic_source=rss)
+منابع: [Euronews](http://www.euronews.com/2026/06/30/us-envoys-witkoff-and-kushner-land-in-qatar-for-fresh-iran-war-talks) \| [France24](https://www.france24.com/en/middle-east/20260630-middle-east-live-us-and-iranian-delegations-in-qatar-no-bilateral-meeting-confirmed) \| [Al Jazeera](https://www.aljazeera.com/news/2026/6/30/us-envoys-in-doha-for-indirect-talks-with-iranian-technical-delegation?traffic_source=rss)
 
 </details>
 

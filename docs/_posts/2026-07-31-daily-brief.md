@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump announced the deal on July 31, which includes Hamas gradually giving up weapons in exchange for Israel slowly pulling troops out of Gaza. Hamas confirmed to AFP they've agreed to it. Trump's calling it a path to a new Palestinian government in Gaza, but without Israel's formal yes, it's just words on paper.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/31/hamas-agrees-to-phased-disarmament-in-gaza?traffic_source=rss) | [France 24](https://www.france24.com/en/hamas-agrees-to-disarm-under-trump-plan-but-no-word-yet-from-israel) | [France 24](https://www.france24.com/en/middle-east/20260731-what-we-know-about-the-hamas-disarmament-deal-announced-by-trump)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/31/hamas-agrees-to-phased-disarmament-in-gaza?traffic_source=rss) \| [France 24](https://www.france24.com/en/hamas-agrees-to-disarm-under-trump-plan-but-no-word-yet-from-israel) \| [France 24](https://www.france24.com/en/middle-east/20260731-what-we-know-about-the-hamas-disarmament-deal-announced-by-trump)
 
 </details>
 

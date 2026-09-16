@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ گفت مذاکرات غیرمستقیم در حال پیشرفت به سوی هسته‌زدایی از ایران است، در حالی که معاون وزیر خارجه ایران به طور رسمی اعلام کرد مذاکرات چهارشنبه به پایان رسید. قطر می‌گوید دور بعدی پس از مراسم تشییع رهبر فقید ایران برگزار خواهد شد، که جدول زمانی تقریبی برای از سرگیری مذاکرات را مشخص می‌کند.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260701-us-iran-doha-talks-end-without-breakthrough-strait-of-hormuz) | [France24](https://www.france24.com/en/middle-east/20260701-middle-east-live-qatar-reaffirms-backing-for-us-iran-talks) | [Al Jazeera](https://www.aljazeera.com/news/2026/7/2/us-iran-talks-in-doha-what-were-the-outcomes-and-whats-next?traffic_source=rss)
+منابع: [France24](https://www.france24.com/en/middle-east/20260701-us-iran-doha-talks-end-without-breakthrough-strait-of-hormuz) \| [France24](https://www.france24.com/en/middle-east/20260701-middle-east-live-qatar-reaffirms-backing-for-us-iran-talks) \| [Al Jazeera](https://www.aljazeera.com/news/2026/7/2/us-iran-talks-in-doha-what-were-the-outcomes-and-whats-next?traffic_source=rss)
 
 </details>
 
@@ -38,7 +38,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: مراسم تشییع ۴ ژوئیه در تهران آغاز می‌شود و ۹ ژوئیه در مشهد، زادگاه خامنه‌ای، به پایان می‌رسد. ایران و آمریکا از ماه گذشته پس از آتش‌بس به الگوی نوبتی بین مذاکرات و خصومت‌ها رسیده‌اند. همه منتظرند ببینند ایران پس از پایان مراسم تشییع چه مسیری را در پیش خواهد گرفت.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260702-middle-east-live-iran-says-to-use-frozen-funds-in-qatar-to-buy-required-goods) | [France24](https://www.france24.com/en/tv-shows/the-debate/20260701-iran-after-khamenei-what-direction-after-supreme-leader-s-funeral)
+منابع: [France24](https://www.france24.com/en/middle-east/20260702-middle-east-live-iran-says-to-use-frozen-funds-in-qatar-to-buy-required-goods) \| [France24](https://www.france24.com/en/tv-shows/the-debate/20260701-iran-after-khamenei-what-direction-after-supreme-leader-s-funeral)
 
 </details>
 

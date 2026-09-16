@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: کریس رایت، وزیر انرژی، و شاهزاده عبدالعزیز بن سلمان، وزیر انرژی عربستان، چهارشنبه توافق همکاری هسته‌ای غیرنظامی را امضا کردند. سال‌هاست که درباره این موضوع رفت‌وآمد وجود داشته، حتی در دوران بایدن، به عنوان بخشی از تلاش گسترده‌تر برای وادار کردن عربستان سعودی به به رسمیت شناختن اسرائیل. این تلاش پس از هفتم اکتبر فروپاشید. واشنگتن می‌گوید توافق شامل حفاظت‌های سختگیرانه علیه توسعه سلاح است، اما این یک تغییر بزرگ است که به عربستان‌ها اجازه غنی‌سازی سوخت خودشان را می‌دهد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260722-us-announce-landmark-deal-allowing-saudis-enrich-nuclear-fuel-reports-say) | [France24](https://www.france24.com/en/us-announces-nuclear-cooperation-pact-with-saudi-arabia) | [Euronews](http://www.euronews.com/2026/07/23/us-announces-landmark-nuclear-deal-with-saudi-arabia)
+منابع: [France24](https://www.france24.com/en/middle-east/20260722-us-announce-landmark-deal-allowing-saudis-enrich-nuclear-fuel-reports-say) \| [France24](https://www.france24.com/en/us-announces-nuclear-cooperation-pact-with-saudi-arabia) \| [Euronews](http://www.euronews.com/2026/07/23/us-announces-landmark-nuclear-deal-with-saudi-arabia)
 
 </details>
 
@@ -56,7 +56,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: حوثی‌ها مسئولیت حمله به نفتکش‌ها را بر عهده گرفتند و درگیری را فراتر از اهداف صرفاً آمریکایی و ایرانی گسترش دادند. ترامپ هشدار داد که هم ایران و هم حوثی‌ها با «تنبیه نظامی بزرگ» برای حملات بعدی روبرو خواهند شد. این موضوع عربستان سعودی را مستقیماً بیشتر وارد درگیری می‌کند.
 
-منابع: [Euronews](http://www.euronews.com/2026/07/23/yemen-houthis-claim-strikes-on-two-saudi-oil-tankers-in-red-sea) | [France24](https://www.france24.com/en/middle-east/20260723-middle-east-live-houthi-rebels-claim-attacks-on-saudi-tankers-in-the-red-sea)
+منابع: [Euronews](http://www.euronews.com/2026/07/23/yemen-houthis-claim-strikes-on-two-saudi-oil-tankers-in-red-sea) \| [France24](https://www.france24.com/en/middle-east/20260723-middle-east-live-houthi-rebels-claim-attacks-on-saudi-tankers-in-the-red-sea)
 
 </details>
 
@@ -67,7 +67,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ارتش لبنان اکنون در سه روستا (فرون، صریفا و زوطر الغربیه) تحت چارچوبی با حمایت آمریکا عملیات می‌کند که قرار است به اسرائیل اجازه عقب‌نشینی بدهد. تیراندازی‌های هشداردهنده سه‌شنبه اولین حادثه گزارش‌شده بین نیروهای اسرائیلی و لبنانی از زمان شروع استقرار بود. اسرائیل می‌گوید تا زمانی که حزب‌الله خلع سلاح نشود، به طور کامل عقب‌نشینی نمی‌کند، کاری که احتمالاً ارتش لبنان نمی‌تواند انجام دهد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260721-live-lebanon-s-aoun-to-meet-trump-as-pressure-builds-to-disarm-hezbollah) | [France24](https://www.france24.com/en/israel-and-lebanon-trial-safe-zones-in-southern-lebanon-as-part-of-deal)
+منابع: [France24](https://www.france24.com/en/middle-east/20260721-live-lebanon-s-aoun-to-meet-trump-as-pressure-builds-to-disarm-hezbollah) \| [France24](https://www.france24.com/en/israel-and-lebanon-trial-safe-zones-in-southern-lebanon-as-part-of-deal)
 
 </details>
 

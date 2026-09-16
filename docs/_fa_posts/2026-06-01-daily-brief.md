@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ارتش کویت پس از اینکه آمریکا تأسیسات ایرانی را در آخر هفته هدف قرار داد و سپاه پاسداران ایران به پایگاه آمریکایی حمله کرد، حملات را رهگیری کرد. وزارت خارجه کویت رسماً آن را «حمله شنیع ایرانی» نامید که نشان‌دهنده اولین سرریز تأیید شده فراتر از اهداف مستقیم آمریکا و ایران است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/1/kuwait-condemns-iranian-attack-as-iran-us-trade-new-strikes?traffic_source=rss) | [France24](https://www.france24.com/en/video/20260601-kuwait-intercepts-drones-missiles-as-us-and-iran-trade-fire)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/1/kuwait-condemns-iranian-attack-as-iran-us-trade-new-strikes?traffic_source=rss) \| [France24](https://www.france24.com/en/video/20260601-kuwait-intercepts-drones-missiles-as-us-and-iran-trade-fire)
 
 </details>
 

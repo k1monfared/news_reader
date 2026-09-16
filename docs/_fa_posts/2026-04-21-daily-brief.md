@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این بازگشتی است از امتناع پیشین ایران برای شرکت در مذاکرات. آتش‌بسی که درگیری‌های مستقیم میان آمریکا و ایران را متوقف کرده به زودی منقضی می‌شود، و هر دو طرف با نزدیک شدن به ضرب‌الاجل تهدیدات رد و بدل کرده‌اند. ترامپ ایران را به نقض آتش‌بس «بارها و بارها» متهم کرد، اما ایران با این حال آمادگی شرکت در مذاکرات را نشان داد—هرچند تهران اعزام هیأت خود را تأیید نکرده است.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260421-middle-east-war-live-us-iran-warn-ready-for-war-as-talks-in-limbo) | [Al Jazeera](https://www.aljazeera.com/news/2026/4/21/us-and-iran-exchange-threats-as-fragile-ceasefire-set-to-expire?traffic_source=rss)
+منابع: [France24](https://www.france24.com/en/middle-east/20260421-middle-east-war-live-us-iran-warn-ready-for-war-as-talks-in-limbo) \| [Al Jazeera](https://www.aljazeera.com/news/2026/4/21/us-and-iran-exchange-threats-as-fragile-ceasefire-set-to-expire?traffic_source=rss)
 
 </details>
 

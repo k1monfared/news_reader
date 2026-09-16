@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is a major shift after weeks of Trump threatening to "hit Iran very hard." The pause is conditional on reaching a deal rapidly. The Saudi call seems to have been the catalyst—MBS reportedly warned that Iran would retaliate against Gulf states if the strikes continued. Iran's denial means the conditional pause could collapse quickly.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz) | [France24](https://www.france24.com/en/video/20260803-us-israel-agree-to-pause-further-strikes-on-iran-after-weeks-of-violence)
+Sources: [France24](https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz) \| [France24](https://www.france24.com/en/video/20260803-us-israel-agree-to-pause-further-strikes-on-iran-after-weeks-of-violence)
 
 </details>
 

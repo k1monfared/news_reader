@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump announced the breakthrough following direct talks with Netanyahu and indirect communication with Hezbollah. Under the arrangement, Israel would stop operations near Beirut and Hezbollah would stop attacking Israel. However, Israeli strikes killed 8 people in Lebanon hours after the announcement, and both sides continued exchanging fire, raising serious questions about whether any ceasefire actually exists or can be sustained.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/2/trump-says-israel-hezbollah-to-stop-fighting-what-we-know?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260602-us-says-israel-and-hezbollah-agree-to-dial-back-fighting-as-tensions-escalate) | [Euronews](http://www.euronews.com/2026/06/02/israel-and-hezbollah-exchange-fire-despite-trump-announcing-breakthrough-agreement)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/2/trump-says-israel-hezbollah-to-stop-fighting-what-we-know?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260602-us-says-israel-and-hezbollah-agree-to-dial-back-fighting-as-tensions-escalate) \| [Euronews](http://www.euronews.com/2026/06/02/israel-and-hezbollah-exchange-fire-despite-trump-announcing-breakthrough-agreement)
 
 </details>
 

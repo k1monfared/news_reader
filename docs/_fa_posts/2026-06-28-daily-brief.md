@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: آمریکا روز شنبه موج دوم حملات خود را به اهداف ایرانی نزدیک تنگه هرمز آغاز کرد. سپاه پاسداران ایران در پاسخ به مواضع نظامی آمریکا در بحرین و کویت حمله کرد—اولین حمله به کویت از زمان اعلام چارچوب آتش‌بس. ایران اکنون تهدید کرده است اگر آمریکا به حملاتش ادامه دهد، مذاکرات را به طور کامل متوقف می‌کند. این سومین روز حملات متقابل است که پس از حمله به یک کشتی باری در تنگه هرمز آغاز شد.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/28/iran-attacks-kuwait-and-bahrain-in-response-to-us-strikes?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260628-us-strikes-more-targets-in-iran-as-fragile-ceasefire-comes-under-renewed-strain)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/28/iran-attacks-kuwait-and-bahrain-in-response-to-us-strikes?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260628-us-strikes-more-targets-in-iran-as-fragile-ceasefire-comes-under-renewed-strain)
 
 </details>
 
@@ -47,7 +47,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ایران به تازگی به طور علنی کنترل تنگه را برای یک دوره ۳۰ روزه اعلام کرد و به همه گفت مداخله نکنند. این پس از آن آمد که یک نهاد دریایی تحت رهبری آمریکا سعی کرد مسیرهای کشتیرانی را نزدیک عمان بدون موافقت ایران گسترش دهد. تنگه هرمز مهم‌ترین نقطه عبور نفت در جهان است، بنابراین این یک چالش مستقیم با تلاش‌های آمریکا برای مدیریت مستقل عبور و مرور است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/28/araghchi-strait-of-hormuz-remains-under-iranian-control-for-30-days?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260628-middle-east-live-iran-threatens-a-completely-halt-in-talks-with-us-following-exchange-of-fire)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/28/araghchi-strait-of-hormuz-remains-under-iranian-control-for-30-days?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260628-middle-east-live-iran-threatens-a-completely-halt-in-talks-with-us-following-exchange-of-fire)
 
 </details>
 
@@ -58,7 +58,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: آمریکا یک توافق چارچوب بین اسرائیل و لبنان میانجیگری کرد که روز جمعه به طور رسمی امضا شد. نتانیاهو آن را به عنوان ضربه‌ای به ایران و حزب‌الله ستود. اما نعیم قاسم، رهبر حزب‌الله، فوراً کل توافق را رد کرد، که سؤالات جدی درباره اینکه آیا این توافق واقعاً می‌تواند اجرا شود وقتی یکی از طرف‌های اصلی آن را نمی‌پذیرد، مطرح می‌کند.
 
-منابع: [France 24](https://www.france24.com/en/middle-east/20260627-netanyahu-hails-lebanon-deal-as-hezbollah-rejects-agreement) | [Euronews](http://www.euronews.com/2026/06/27/israels-netanyahu-welcomes-us-brokered-lebanon-agreement-as-far-right-condemns-it)
+منابع: [France 24](https://www.france24.com/en/middle-east/20260627-netanyahu-hails-lebanon-deal-as-hezbollah-rejects-agreement) \| [Euronews](http://www.euronews.com/2026/06/27/israels-netanyahu-welcomes-us-brokered-lebanon-agreement-as-far-right-condemns-it)
 
 </details>
 

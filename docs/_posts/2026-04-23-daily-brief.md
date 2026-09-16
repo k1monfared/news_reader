@@ -55,7 +55,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260423-middle-east
 
 Context: John Phelan, who was Navy Secretary, suddenly left his post as the Pentagon continues its leadership churn under Trump. Combat veteran Hung Cao, who has Trump's backing, took over on an interim basis. It's the latest in a series of abrupt personnel changes at the Defense Department while US forces are actively engaged in the Middle East.
 
-Sources: [Aljazeera](https://www.aljazeera.com/news/2026/4/23/who-is-john-phelan-the-us-navy-secretary-fired-by-pete-hegseth?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/04/23/us-navy-secretary-john-phelan-leaves-post-amid-iran-war-in-latest-pentagon-shake-up)
+Sources: [Aljazeera](https://www.aljazeera.com/news/2026/4/23/who-is-john-phelan-the-us-navy-secretary-fired-by-pete-hegseth?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/04/23/us-navy-secretary-john-phelan-leaves-post-amid-iran-war-in-latest-pentagon-shake-up)
 
 </details>
 

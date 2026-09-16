@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "Daily Brief: September 09, 2026"
+title: "Daily Brief: September 09, 2026 (backfilled)"
 date: 2026-09-09
 categories: [daily-brief]
+backfilled: true
 sources_down: []
 generated_at: "2026-09-16 11:19 UTC-07:00"
 models_used: ["deepseek-v4-flash"]
 ---
 
-<details>
-<summary>Iran Conflict Brief — 9 September 2026</summary>
+<details markdown="block">
+<summary markdown="span">Iran Conflict Brief — 9 September 2026</summary>
 
 **US Policy & Economy**
 

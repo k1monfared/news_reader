@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The strikes came after Iran attacked a cargo ship in the Strait of Hormuz with a drone. Trump called it a "foolish violation" of the ceasefire and ordered retaliation. Iran says the US strikes violate the memorandum of understanding they've been negotiating. This is a major test of whether the peace talks can survive actual combat.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/27/iran-war-day-120-tehran-condemns-us-strikes-says-its-violation-of-mou?traffic_source=rss) | [France 24](https://www.france24.com/en/a-cargo-ship-in-the-strait-of-hormuz-targeted-by-iran)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/27/iran-war-day-120-tehran-condemns-us-strikes-says-its-violation-of-mou?traffic_source=rss) \| [France 24](https://www.france24.com/en/a-cargo-ship-in-the-strait-of-hormuz-targeted-by-iran)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/27/iran-war-day-120-
 
 Context: Iranian state media confirmed US strikes hit a telecommunications tower in southern Iran. The UK's maritime agency officially upgraded the security posture for the Strait after the tanker strike. The waterway handles about a fifth of global oil traffic, so disruptions there affect energy markets.
 
-Sources: [Euronews](http://www.euronews.com/2026/06/27/bahrain-says-it-was-targeted-by-iranian-drones-after-us-strikes-on-iran "link may be dead") | [Euronews](http://www.euronews.com/2026/06/27/uk-maritime-agency-raises-strait-of-hormuz-threat-level-after-oil-tanker-reports-being-str)
+Sources: [Euronews](http://www.euronews.com/2026/06/27/bahrain-says-it-was-targeted-by-iranian-drones-after-us-strikes-on-iran "link may be dead") \| [Euronews](http://www.euronews.com/2026/06/27/uk-maritime-agency-raises-strait-of-hormuz-threat-level-after-oil-tanker-reports-being-str)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260626-middle-eas
 
 Context: This moves beyond negotiations—they actually signed the deal. Secretary of State Marco Rubio announced the framework after talks in DC. The agreement addresses months of cross-border fighting between Israeli forces and Hezbollah. But Israel's strike in Lebanon the very next day raises serious questions about implementation.
 
-Sources: [France 24](https://www.france24.com/en/new-us-lebanon-israel-agreement-signed) | [France 24](https://www.france24.com/en/middle-east/20260626-lebanon-israel-us-sign-framework-agreement-in-washington)
+Sources: [France 24](https://www.france24.com/en/new-us-lebanon-israel-agreement-signed) \| [France 24](https://www.france24.com/en/middle-east/20260626-lebanon-israel-us-sign-framework-agreement-in-washington)
 
 </details>
 

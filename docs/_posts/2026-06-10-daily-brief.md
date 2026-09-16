@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The US initially struck coastal radar sites in Iran after accusing Tehran of downing a US Army Apache helicopter near the Strait of Hormuz. The US then expanded strikes to include water facilities, which Washington called a "proportional response." Iran denies responsibility for the helicopter incident and has vowed retaliation. Iranian media reported explosions on Qeshm Island. This represents the first direct US strikes inside Iranian territory since the conflict's escalation.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/10/us-bombs-irans-water-facilities-why-thats-so-significant?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260610-us-iran-airstrikes-trump-tehran-downing-army-helicopter)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/10/us-bombs-irans-water-facilities-why-thats-so-significant?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260610-us-iran-airstrikes-trump-tehran-downing-army-helicopter)
 
 </details>
 

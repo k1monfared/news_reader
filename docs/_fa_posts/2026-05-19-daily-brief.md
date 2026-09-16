@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این یک برگشت تند از تهدیدهای آخر هفته ترامپ علیه ایران است. او اکنون گفت‌وگوهای صلح را «بسیار مثبت» توصیف می‌کند و می‌گوید به درخواست متحدان خلیج فارس، حمله برنامه‌ریزی‌شده سه‌شنبه را لغو کرده است. تهدید اقدام نظامی در صورتی که مذاکرات توافقی را که او قابل قبول می‌داند تولید نکند، همچنان روی میز باقی است.
 
-منابع: [France24](https://www.france24.com/en/trump-says-holding-off-on-strike-on-iran-at-request-of-gulf-allies) | [France24 liveblog](https://www.france24.com/en/middle-east/20260518-middle-east-war-live-drone-strikes-on-uae-and-saudi-arabia-fuel-escalation-fears)
+منابع: [France24](https://www.france24.com/en/trump-says-holding-off-on-strike-on-iran-at-request-of-gulf-allies) \| [France24 liveblog](https://www.france24.com/en/middle-east/20260518-middle-east-war-live-drone-strikes-on-uae-and-saudi-arabia-fuel-escalation-fears)
 
 </details>
 
@@ -40,7 +40,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: امارات می‌گوید منشأ ناشناخته است، اما بلافاصله سوءظن به ایران معطوف شد. آژانس بین‌المللی انرژی اتمی تأیید کرده که سطح تشعشع طبیعی است. حمله به زیرساخت هسته‌ای حیاتی نشان‌دهنده یک خطر تشدید بزرگ است، به همین دلیل ترامپ بلافاصله مشاوران خود را گرد هم آورد تا درباره پاسخ‌های احتمالی بحث کنند.
 
-منابع: [France24](https://www.france24.com/en/uae-nuclear-power-plant-targeted-in-likely-iranian-attack) | [France24](https://www.france24.com/en/drone-hits-uae-nuclear-power-plant-iaea-reports-normal-radiation-levels)
+منابع: [France24](https://www.france24.com/en/uae-nuclear-power-plant-targeted-in-likely-iranian-attack) \| [France24](https://www.france24.com/en/drone-hits-uae-nuclear-power-plant-iaea-reports-normal-radiation-levels)
 
 </details>
 

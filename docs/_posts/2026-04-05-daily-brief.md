@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Iran shot down a US F-15E over its territory on Friday—the first American fighter jet lost in this war. One crew member was rescued quickly, but the second was missing for 48 hours while US and Iranian forces raced to find them. The rescue happened around 3am local time near Yasuj in central Iran. Iran's claims of downing two C-130s and two helicopters during the operation remain [UNCONFIRMED] by US sources.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/5/us-pilot-from-downed-f-15-plane-rescued-in-iran-what-we-know?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260405-crew-member-from-downed-us-fighter-jet-rescued-in-miraculous-operation-says-trump) | [Euronews](http://www.euronews.com/my-europe/2026/04/05/missing-us-pilot-has-been-rescued-in-iran-says-trump)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/5/us-pilot-from-downed-f-15-plane-rescued-in-iran-what-we-know?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260405-crew-member-from-downed-us-fighter-jet-rescued-in-miraculous-operation-says-trump) \| [Euronews](http://www.euronews.com/my-europe/2026/04/05/missing-us-pilot-has-been-rescued-in-iran-says-trump)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260404-us-missile
 
 Context: Trump posted Saturday that Tehran had until today to cut a deal. Then this morning he escalated with another post saying "open the F***in' Strait" or the US will target Iran's civilian infrastructure. He also revealed that the rescued airman is "seriously wounded." The deadline appears to be passing with no deal, raising questions about whether Trump will follow through on threats to strike civilian targets.
 
-Sources: [France 24](https://www.france24.com/en/us-president-trump-gives-iran-48-hours-to-open-strait-of-hormuz-iran-rejects) | [France 24](https://www.france24.com/en/middle-east/20260405-middle-east-war-live-us-airman-rescued-from-iran-safe-and-sound-says-trump)
+Sources: [France 24](https://www.france24.com/en/us-president-trump-gives-iran-48-hours-to-open-strait-of-hormuz-iran-rejects) \| [France 24](https://www.france24.com/en/middle-east/20260405-middle-east-war-live-us-airman-rescued-from-iran-safe-and-sound-says-trump)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/4/5/iran-says-iraqi
 
 Context: The economic ripple effects keep spreading. Pakistan can't absorb these fuel price shocks, so they're trying to cushion the blow with free state-run transit in the capital and Punjab province. France's crisis loan program targets small and medium businesses getting squeezed by energy costs.
 
-Sources: [France 24](https://www.france24.com/en/impact-of-iran-war-in-pakistan-fuel-prices-rise-by-over-50) | [France 24](https://www.france24.com/en/pakistan-announces-free-public-transport-as-energy-crisis-bites) | [France 24](https://www.france24.com/en/france-announces-crisis-loans-for-firms-hit-by-fuel-price-surge)
+Sources: [France 24](https://www.france24.com/en/impact-of-iran-war-in-pakistan-fuel-prices-rise-by-over-50) \| [France 24](https://www.france24.com/en/pakistan-announces-free-public-transport-as-energy-crisis-bites) \| [France 24](https://www.france24.com/en/france-announces-crisis-loans-for-firms-hit-by-fuel-price-surge)
 
 </details>
 
@@ -86,7 +86,7 @@ Sources: [France 24](https://www.france24.com/en/impact-of-iran-war-in-pakistan-
 
 Context: Mohammad Javad Zarif, who negotiated the original nuclear deal, is floating a framework to end this. But Gulf states are pointing out they weren't consulted and note that trust with Iran has eroded. Meanwhile, Oman is holding separate talks with Tehran about "smooth passage" through Hormuz.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/5/irans-former-fm-zarif-proposes-peace-roadmap-gulf-states-voice-exclusion) | [Al Jazeera](https://www.aljazeera.com/news/2026/4/5/oman-iran-discuss-smooth-transit-in-the-strait-of-hormuz-muscat-says)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/5/irans-former-fm-zarif-proposes-peace-roadmap-gulf-states-voice-exclusion) \| [Al Jazeera](https://www.aljazeera.com/news/2026/4/5/oman-iran-discuss-smooth-transit-in-the-strait-of-hormuz-muscat-says)
 
 </details>
 

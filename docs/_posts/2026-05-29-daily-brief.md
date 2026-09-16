@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is a major step forward. Yesterday we knew they were finalizing a framework. Today negotiators actually agreed on specific terms: unrestricted shipping through Hormuz, Iran removes mines within 30 days, US waives sanctions on Iranian oil, and nuclear talks would follow. Pakistan's Foreign Minister is flying to Washington to help push it across the finish line. But neither Trump nor Iran's Supreme Leader Khamenei have confirmed they'll approve it yet.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260528-middle-east-war-live-us-carries-out-strikes-in-iran-targeting-military-site) | [Euronews](http://www.euronews.com/2026/05/29/iran-us-deal-nears-finish-line-but-trump-and-khamenei-must-say-yes) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/29/us-iran-60-day-proposal-what-we-know?traffic_source=rss)
+Sources: [France24](https://www.france24.com/en/middle-east/20260528-middle-east-war-live-us-carries-out-strikes-in-iran-targeting-military-site) \| [Euronews](http://www.euronews.com/2026/05/29/iran-us-deal-nears-finish-line-but-trump-and-khamenei-must-say-yes) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/29/us-iran-60-day-proposal-what-we-know?traffic_source=rss)
 
 </details>
 

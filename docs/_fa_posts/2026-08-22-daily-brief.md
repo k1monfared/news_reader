@@ -18,7 +18,7 @@ models_used: ["muse-spark-1.2-contributor-free", "nemotron-3-ultra-free"]
 
 زمینه: ایران می‌گوید جواد صالحی، عبدالمجید دشتیان و عمران بهروشیان به مدت شش ماه از زمان سرنگونی دو جنگنده توسط قطر در روزهای ابتدایی جنگ بازداشت شده‌اند — قطر می‌گوید آن‌ها حریم هوایی قطر را نقض کرده‌اند و بازداشت آن‌ها را تکذیب می‌کند — و پیکر چهارمین خلبان، مجید کاظمی، که در ۲ مارس ۲۰۲۶ کشته شد، پیش‌تر بازگردانده شده است. اکنون مقام نظامی ایران محمد باقرزاده، به نقل از تسنیم، از قطر خواسته است خلبانان بازداشت‌شده را با اشاره به وضعیت جسمانی نامناسب از بازداشت روی آب به بیمارستانی در خشکی منتقل کند و از ICRC خواسته است یک آمبولانس هوایی اعزام کند.
 
-منابع: [bbc](https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&at_campaign=rss) | [jpost](https://www.jpost.com/middle-east/article-906242) | [mee](https://www.middleeasteye.net/live-blog/live-blog-update/iranian-official-urges-qatar-move-detained-pilots-hospital-land-tasnim)
+منابع: [bbc](https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&at_campaign=rss) \| [jpost](https://www.jpost.com/middle-east/article-906242) \| [mee](https://www.middleeasteye.net/live-blog/live-blog-update/iranian-official-urges-qatar-move-detained-pilots-hospital-land-tasnim)
 
 </details>
 
@@ -54,7 +54,7 @@ models_used: ["muse-spark-1.2-contributor-free", "nemotron-3-ultra-free"]
 
 زمینه: سوریه اسرائیل را به بمباران این پایگاه متروکه آسیب‌دیده در جریان جنگ داخلی متهم کرد، دو روز پیش از تکذیب ترکیه. اسرائیل گفت فرودگاه استان ادلب را به دلیل تهدیدات امنیتی پس از آنکه سوریه به نیروهای ترکیه اجازه داد در نزدیکی این پایگاه نزدیک حلب تجمع کنند، هدف قرار داده است. ادعای تام باراک، فرستاده آمریکا، مبنی بر اینکه اسرائیل ترکیه را به یک رویارویی نزدیک «کشانده» که آنکارا را به بررسی اعزام فوری جنگنده‌ها واداشت، تاکنون تنها از سوی یک رسانه مطرح شده است.
 
-منابع: [jpost](https://www.jpost.com/middle-east/article-906241) | [thehindu](https://www.thehindu.com/news/international/turkiye-denies-military-visit-to-syria-air-base-hit-by-israel/article71369521.ece)
+منابع: [jpost](https://www.jpost.com/middle-east/article-906241) \| [thehindu](https://www.thehindu.com/news/international/turkiye-denies-military-visit-to-syria-air-base-hit-by-israel/article71369521.ece)
 
 </details>
 

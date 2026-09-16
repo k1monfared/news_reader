@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: دو روز پیش ایران اعلام کرد کشتی‌ها برای عبور از تنگه نیاز به مجوز خواهند داشت. حالا واقعاً بوروکراسی لازم برای اجرای آن را ایجاد کرده‌اند: یک نهاد دولتی جدید که هزینه دریافت می‌کند و بیمه مبتنی بر بیت‌کوین به کشتی‌هایی که حاضر به همکاری هستند ارائه می‌دهد. این اقدام در حالی صورت می‌گیرد که مذاکرات صلح با آمریکا همچنان متوقف مانده و نفتکش‌ها در آبراه انباشته شده‌اند. ایران کنترل بر هرمز را به‌عنوان بخشی از هر توافقی مطالبه می‌کند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/18/iran-plans-to-offer-insurance-for-hormuz-transit-will-it-work?traffic_source=rss) | [France24](https://www.france24.com/en/iran-sets-up-new-strait-of-hormuz-managing-body-amid-stalled-talks-with-us) | [Euronews](http://www.euronews.com/2026/05/18/iran-sets-up-hormuz-transit-authority-to-charge-ships-for-passage)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/18/iran-plans-to-offer-insurance-for-hormuz-transit-will-it-work?traffic_source=rss) \| [France24](https://www.france24.com/en/iran-sets-up-new-strait-of-hormuz-managing-body-amid-stalled-talks-with-us) \| [Euronews](http://www.euronews.com/2026/05/18/iran-sets-up-hormuz-transit-authority-to-charge-ships-for-passage)
 
 </details>
 
@@ -56,7 +56,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: قرار بود آتش‌بس در ۱۷ آوریل به پایان برسد. حالا هر دو طرف می‌گویند آن را ادامه داده و مذاکرات را فراتر از آتش‌بس پایه گسترش می‌دهند. اسرائیل اصرار دارد حملاتش در جنوب لبنان—در پاسخ به آتش حزب‌الله از مارس—تحت پوشش آتش‌بس نیست. وزارت خارجه آمریکا ساعاتی قبل از حملات هوایی جدید اسرائیل به جنوب، تمدید را اعلام کرد.
 
-منابع: [France24](https://www.france24.com/en/israel-lebanon-extending-ceasefire-us-says-despite-new-israeli-strikes) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/18/israeli-attacks-kill-at-least-7-in-lebanon-despite-ceasefire-extension?traffic_source=rss)
+منابع: [France24](https://www.france24.com/en/israel-lebanon-extending-ceasefire-us-says-despite-new-israeli-strikes) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/18/israeli-attacks-kill-at-least-7-in-lebanon-despite-ceasefire-extension?traffic_source=rss)
 
 </details>
 
@@ -65,7 +65,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: وزیر خزانه‌داری گروه ۷ را فرا می‌خواند تا تحریم‌های به‌رهبری آمریکا علیه ایران را اتخاذ کند. فرانسه، که ریاست گروه ۷ را بر عهده دارد، تلاش می‌کند گفت‌وگو را باز نگه دارد و در عین حال تهدیدهای تعرفه‌ای اخیر ترامپ را مدیریت کند. این یک دستور کار نامرتب است.
 
-منابع: [France24](https://www.france24.com/en/g7-finance-ministers-meet-amid-middle-east-war-economic-fallout) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/18/video-us-calls-on-g7-to-impose-us-led-sanctions-on-iran?traffic_source=rss)
+منابع: [France24](https://www.france24.com/en/g7-finance-ministers-meet-amid-middle-east-war-economic-fallout) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/18/video-us-calls-on-g7-to-impose-us-led-sanctions-on-iran?traffic_source=rss)
 
 </details>
 

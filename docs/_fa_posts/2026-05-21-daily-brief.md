@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: پاکستان به‌صورت فیزیکی بین واشنگتن و تهران میانجیگری می‌کند. ایران یک پیشنهاد جدید آمریکا — جدا از پاسخ قبلی ایران — دریافت کرده و اکنون آن را بررسی می‌کند. ترامپ روز چهارشنبه به خبرنگاران گفت که مذاکرات تقریباً به پایان رسیده، هرچند هر دو طرف هنوز تهدید به از سرگیری حملات می‌کنند. این نشان‌دهنده تشدید مشخص از تبادل اسناد قبلی به میانجیگری فعال و حضوری است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/21/us-iran-diplomacy-picks-up-whats-the-latest?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260520-middle-east-war-live-trump-to-attend-g7-summit-in-france-in-june)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/5/21/us-iran-diplomacy-picks-up-whats-the-latest?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260520-middle-east-war-live-trump-to-attend-g7-summit-in-france-in-june)
 
 </details>
 

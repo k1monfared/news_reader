@@ -17,7 +17,7 @@ models_used: ["nemotron-3-ultra-free"]
 
 Context: Khamenei hasn't been seen publicly since the conflict began. Trump's claim fuels succession speculation, while the decree suggests the regime is projecting continuity and control.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260826-middle-east-live-iran-says-hormuz-strait-still-closed-despite-transit-corridor-talks-with-oman) | [The Hindu](https://www.thehindu.com/news/international/trump-says-he-believes-iranian-leader-mojtaba-khamenei-still-alive/article71395117.ece) | [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/irans-supreme-leader-bans-acts-harm-social-cohesion)
+Sources: [France24](https://www.france24.com/en/middle-east/20260826-middle-east-live-iran-says-hormuz-strait-still-closed-despite-transit-corridor-talks-with-oman) \| [The Hindu](https://www.thehindu.com/news/international/trump-says-he-believes-iranian-leader-mojtaba-khamenei-still-alive/article71395117.ece) \| [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/irans-supreme-leader-bans-acts-harm-social-cohesion)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/us-cuts-
 
 Context: Sanctions have been the primary US tool against Iran for decades. The "D-Day" framing suggests the administration believes this round is different because it's paired with active military conflict and a "zero leakage" secondary sanctions push targeting China and others.
 
-Sources: [BBC](https://www.bbc.co.uk/news/articles/cr50n9gnljgo?at_medium=RSS&at_campaign=rss) | [France24](https://www.france24.com/en/middle-east/20260825-mideast-live-oil-tanker-struck-by-projectile-in-strait-of-hormuz-off-oman)
+Sources: [BBC](https://www.bbc.co.uk/news/articles/cr50n9gnljgo?at_medium=RSS&at_campaign=rss) \| [France24](https://www.france24.com/en/middle-east/20260825-mideast-live-oil-tanker-struck-by-projectile-in-strait-of-hormuz-off-oman)
 
 </details>
 
@@ -53,7 +53,7 @@ Sources: [BBC](https://www.bbc.co.uk/news/articles/c9w0ygrwrn5o?at_medium=RSS&at
 
 Context: The dueling claims reflect the unresolved Hormuz standoff. Iran-Oman talks on a temporary transit corridor continue but face hurdles over navigation rights, jurisdiction, and costs. Oil markets remain sensitive to the strait's status.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260825-mideast-live-oil-tanker-struck-by-projectile-in-strait-of-hormuz-off-oman) | [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/irgc-navy-claims-decisive-control-over-hormuz)
+Sources: [France24](https://www.france24.com/en/middle-east/20260825-mideast-live-oil-tanker-struck-by-projectile-in-strait-of-hormuz-off-oman) \| [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/irgc-navy-claims-decisive-control-over-hormuz)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [Euronews](http://www.euronews.com/2026/08/28/russia-plans-to-mobilise-
 
 Context: Correspondent Lucy Williamson tracked incidents over seven days. MEE reported three Palestinians injured in Al-Mughayyir, with Israeli soldiers providing cover for settlers. The violence coincides with the Gaza war and reduced international attention on the West Bank.
 
-Sources: [BBC](https://www.bbc.co.uk/news/videos/c3wjq1188g9o?at_medium=RSS&at_campaign=rss) | [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/three-palestinians-injured-settler-attack-al-mughayyir)
+Sources: [BBC](https://www.bbc.co.uk/news/videos/c3wjq1188g9o?at_medium=RSS&at_campaign=rss) \| [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/three-palestinians-injured-settler-attack-al-mughayyir)
 
 </details>
 
@@ -113,7 +113,7 @@ Sources: [DW](https://www.dw.com/en/germany-condemns-israeli-minister-s-gaza-kil
 
 Context: The Bundibugyo variant is spreading rapidly in eastern Congo. The cross-protective vaccine buys time, but a strain-specific version is still in trials. Health workers face insecurity and community mistrust.
 
-Sources: [Euronews](http://www.euronews.com/health/2026/08/28/congo-begins-ebola-vaccinations-against-worlds-fastest-growing-outbreak) | [The Hindu](https://www.thehindu.com/sci-tech/health/congo-begins-ebola-vaccinations-to-fight-countrys-worst-outbreak-on-record-health-minister-says/article71399836.ece)
+Sources: [Euronews](http://www.euronews.com/health/2026/08/28/congo-begins-ebola-vaccinations-against-worlds-fastest-growing-outbreak) \| [The Hindu](https://www.thehindu.com/sci-tech/health/congo-begins-ebola-vaccinations-to-fight-countrys-worst-outbreak-on-record-health-minister-says/article71399836.ece)
 
 </details>
 

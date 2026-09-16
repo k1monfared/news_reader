@@ -29,7 +29,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ایران در چارچوب توافق موقت خود با آمریکا، تنگه را بازگشایی کرده بود. روز شنبه، فرماندهی نظامی ایران اعلام کرد که آبراه را دوباره می‌بندد و بیان کرد که حملات اسرائیل به جنوب لبنان نقض توافق تهران با واشنگتن است. این اعلامیه زمانی منتشر شد که استیو ویتکف، فرستاده آمریکا، و عباس عراقچی، وزیر امور خارجه ایران، برای مذاکرات اجرایی به سوئیس می‌رفتند.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260620-israeli-strike-in-southern-lebanon-kills-five-hours-after-ceasefire-agreement) | [Euronews](http://www.euronews.com/2026/06/20/iran-recloses-strait-of-hormuz-citing-israeli-strikes-on-lebanon)
+منابع: [France24](https://www.france24.com/en/middle-east/20260620-israeli-strike-in-southern-lebanon-kills-five-hours-after-ceasefire-agreement) \| [Euronews](http://www.euronews.com/2026/06/20/iran-recloses-strait-of-hormuz-citing-israeli-strikes-on-lebanon)
 
 </details>
 
@@ -40,7 +40,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: قرار بود توافق موقت آمریکا و ایران در ابتدا روز جمعه در سوئیس امضا شود. در عوض، ترامپ آن را شب چهارشنبه در شامی رسمی با امانوئل مکرون، رئیس‌جمهور فرانسه، در ورسای امضا کرد. سوئیس تأیید کرد که مذاکرات در مورد اجرای توافق همچنان برای ۱۹ ژوئن در ژنو برنامه‌ریزی شده است، در حالی که استیو ویتکف، فرستاده آمریکا، و عباس عراقچی، وزیر امور خارجه ایران، آماده دیدار هستند.
 
-منابع: [France24](https://www.france24.com/en/tv-shows/the-debate/20260618-signing-off-trump-rushes-to-turn-page-on-iran-war) | [France24](https://www.france24.com/en/face-to-face-signing-of-us-iran-deal-up-in-the-air-after-trump-s-versailles-signing)
+منابع: [France24](https://www.france24.com/en/tv-shows/the-debate/20260618-signing-off-trump-rushes-to-turn-page-on-iran-war) \| [France24](https://www.france24.com/en/face-to-face-signing-of-us-iran-deal-up-in-the-air-after-trump-s-versailles-signing)
 
 </details>
 

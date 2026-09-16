@@ -12,7 +12,7 @@ lang: en
 {% for post in sorted_posts %}
   <li>
     <a href="{{ post.url | relative_url }}" class="post-list-link">
-      <span class="post-list-date">{{ post.date | date: "%B %d, %Y" }}</span>
+      <span class="post-list-date">{{ post.date | date: "%B %d, %Y" }}{% if post.backfilled %} ({{ site.data.i18n.en.post_backfilled }}){% endif %}</span>
     </a>
   </li>
 {% endfor %}

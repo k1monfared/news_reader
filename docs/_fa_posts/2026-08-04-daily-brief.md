@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این یک تغییر بزرگ پس از هفته‌ها تهدید ترامپ مبنی بر «ضربه زدن بسیار سخت به ایران» است. این توقف مشروط به دستیابی سریع به یک توافق است. به نظر می‌رسد تماس سعودی‌ها محرک این کار بوده است—گزارش شده محمد بن سلمان هشدار داده که اگر حملات ادامه یابد، ایران به کشورهای حوزه خلیج فارس حمله خواهد کرد. انکار ایران به این معناست که این توقف مشروط می‌تواند به سرعت فروبپاشد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz) | [France24](https://www.france24.com/en/video/20260803-us-israel-agree-to-pause-further-strikes-on-iran-after-weeks-of-violence)
+منابع: [France24](https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz) \| [France24](https://www.france24.com/en/video/20260803-us-israel-agree-to-pause-further-strikes-on-iran-after-weeks-of-violence)
 
 </details>
 

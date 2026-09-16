@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Israel's ground invasion has been underway for weeks, but crossing the Litani pushes troops much deeper into sovereign Lebanese territory. Netanyahu confirmed the crossing himself. This is happening despite an ostensible ceasefire between Israel and Hezbollah that both sides keep violating.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/30/aje-onl-nf_frustration-in-lebanon-as-israel-expands-invasion-300526?traffic_source=rss) | [France 24](https://www.france24.com/en/israeli-troops-push-deeper-into-lebanon-crossing-the-litani-river-as-talks-expected)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/30/aje-onl-nf_frustration-in-lebanon-as-israel-expands-invasion-300526?traffic_source=rss) \| [France 24](https://www.france24.com/en/israeli-troops-push-deeper-into-lebanon-crossing-the-litani-river-as-talks-expected)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/30/damage-
 
 Context: Trump has been saying for days that a deal is close, but he walked out of Friday's meeting empty-handed. An Iranian delegation in Qatar is working on a 14-point framework, but the core trade-offs remain unresolved. Iran also accused the US of violating the ceasefire with overnight strikes on Iranian missile sites and boats.
 
-Sources: [France 24](https://www.france24.com/en/still-no-deal-between-iran-and-the-us-after-a-two-hour-situation-room-meeting) | [France 24](https://www.france24.com/en/middle-east/20260529-middle-east-war-live-vance-says-us-and-iran-close-to-agreement-as-ceasefire-deal-reported) | [Euronews](http://www.euronews.com/2026/05/30/us-says-it-is-capable-to-resume-war-with-iran-as-deal-remains-elusive)
+Sources: [France 24](https://www.france24.com/en/still-no-deal-between-iran-and-the-us-after-a-two-hour-situation-room-meeting) \| [France 24](https://www.france24.com/en/middle-east/20260529-middle-east-war-live-vance-says-us-and-iran-close-to-agreement-as-ceasefire-deal-reported) \| [Euronews](http://www.euronews.com/2026/05/30/us-says-it-is-capable-to-resume-war-with-iran-as-deal-remains-elusive)
 
 </details>
 

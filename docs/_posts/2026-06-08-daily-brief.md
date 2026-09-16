@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Iran's military command announced it was halting operations against Israel on June 8, after the two sides traded fire for the first time since the truce took effect April 8. Iran fired a barrage of missiles at Israel overnight on June 7, Israel responded by targeting military sites in Iran, and President Trump told both sides to stop. Netanyahu announced the pause after initially appearing to defy Trump's calls for restraint, but Hezbollah rocket and drone attacks on Israeli positions continue.
 
-Sources: [France24](https://www.france24.com/en/israel-shuts-down-following-war-flare-up-with-iran) | [France24](https://www.france24.com/en/iran-halts-strikes-against-israel-netanyahu-stuck-between-trump-and-ministers) | [France24](https://www.france24.com/en/video/20260608-israel-iran-trade-fire-in-first-clash-since-truce)
+Sources: [France24](https://www.france24.com/en/israel-shuts-down-following-war-flare-up-with-iran) \| [France24](https://www.france24.com/en/iran-halts-strikes-against-israel-netanyahu-stuck-between-trump-and-ministers) \| [France24](https://www.france24.com/en/video/20260608-israel-iran-trade-fire-in-first-clash-since-truce)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [France24](https://www.france24.com/en/israel-shuts-down-following-war-
 
 Context: Video shows plumes of smoke rising from the petrochemical complex in Iran's Khuzestan Province on Monday. An IRGC source warned that any further attacks on Iranian energy infrastructure would trigger strikes on energy assets across the broader region—a threat that gained credibility after Iran demonstrated it can hit Haifa's facilities within an hour of being struck. The tit-for-tat industrial strikes mark an escalation from previous military-only targets.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/8/video-israel-claims-strike-on-iranian-petrochemical-complex?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/06/08/irgc-threatens-regional-energy-assets-as-iran-trades-strikes-with-israel)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/8/video-israel-claims-strike-on-iranian-petrochemical-complex?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/06/08/irgc-threatens-regional-energy-assets-as-iran-trades-strikes-with-israel)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/8/video-is
 
 Context: The strike on a vehicle on a road linking Nabatiyeh with Marjayoun killed a brigadier general, a captain, and another soldier, according to Beirut's military. This happened Saturday, just days after Lebanon and Israel announced a conditional truce following talks in the United States. The targeting of Lebanese military personnel rather than Hezbollah fighters represents a significant shift in Israeli operations.
 
-Sources: [France24](https://www.france24.com/en/several-soldiers-killed-in-israeli-strike-on-lebanon) | [France24](https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain)
+Sources: [France24](https://www.france24.com/en/several-soldiers-killed-in-israeli-strike-on-lebanon) \| [France24](https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain)
 
 </details>
 

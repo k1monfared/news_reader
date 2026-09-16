@@ -17,7 +17,7 @@ models_used: ["muse-spark-1.2-contributor-free"]
 
 Context: Iran says talks with Oman are in their final stages, but reopening the waterway depends on conditions and compensation for what Tehran calls violations of the June agreement. The Islamabad memorandum signed in June covered a lot of this — the difficulty, per FRANCE 24's Washington reporter, is that the language was quite broad, leaving room for exactly this kind of re-litigating.
 
-Sources: [France24](https://www.france24.com/en/iran-oman-near-deal-on-strait-of-hormuz) | [France24](https://www.france24.com/en/many-of-iran-s-demands-already-agreed-to-by-us-in-june-mou)
+Sources: [France24](https://www.france24.com/en/iran-oman-near-deal-on-strait-of-hormuz) \| [France24](https://www.france24.com/en/many-of-iran-s-demands-already-agreed-to-by-us-in-june-mou)
 
 </details>
 
@@ -39,7 +39,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/08/11/oil-prices-and-u
 
 Context: Late Sunday, the Iran-backed Houthis hit Mocha, a government-held port on Yemen's Red Sea coast. On Friday, attacks in oil-rich Marib killed eight government forces and two civilians. Both come as the wider US-Iran conflict heats up and Yemen's fragile truce looks shakier by the day.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260810-iran-backed-houthis-strike-red-sea-port-of-mocha-threatening-shipping-routes) | [France24](https://www.france24.com/en/middle-east/20260807-houthi-attacks-kill-at-least-10-in-yemen-as-iran-backed-rebels-target-marib)
+Sources: [France24](https://www.france24.com/en/middle-east/20260810-iran-backed-houthis-strike-red-sea-port-of-mocha-threatening-shipping-routes) \| [France24](https://www.france24.com/en/middle-east/20260807-houthi-attacks-kill-at-least-10-in-yemen-as-iran-backed-rebels-target-marib)
 
 </details>
 

@@ -55,7 +55,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260724-iranian-str
 
 Context: Trump said Friday that the US and Iran are talking, though he repeated Tehran isn't ready for a deal yet. Meanwhile, Iran reported no new US strikes overnight into Saturday—the first pause in two weeks. Both sides confirming negotiations marks a significant shift from the previous "talks are off" stance.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260724-middle-east-live-us-launches-new-strikes-on-iran-as-oil-prices-skyrocket) | [Al Jazeera](https://www.aljazeera.com/news/2026/7/25/iran-blames-us-for-hormuz-dispute-as-both-sides-confirm-ongoing-talks?traffic_source=rss)
+Sources: [France24](https://www.france24.com/en/middle-east/20260724-middle-east-live-us-launches-new-strikes-on-iran-as-oil-prices-skyrocket) \| [Al Jazeera](https://www.aljazeera.com/news/2026/7/25/iran-blames-us-for-hormuz-dispute-as-both-sides-confirm-ongoing-talks?traffic_source=rss)
 
 </details>
 
@@ -66,7 +66,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260724-middle-east
 
 Context: Energy Secretary Chris Wright and Saudi Energy Minister Prince Abdulaziz bin Salman formally signed the civilian nuclear pact and a bilateral safeguards agreement on Wednesday. These talks had been ongoing even under Biden as part of a larger package where the Saudis would normalize relations with Israel. Trump's new condition announced Thursday essentially revives that linkage, potentially throwing the agreement into turmoil.
 
-Sources: [France24](https://www.france24.com/en/us-and-saudi-arabia-reach-a-multi-billion-dollar-civilian-nuclear-deal) | [France24](https://www.france24.com/en/us-announces-nuclear-cooperation-pact-with-saudi-arabia)
+Sources: [France24](https://www.france24.com/en/us-and-saudi-arabia-reach-a-multi-billion-dollar-civilian-nuclear-deal) \| [France24](https://www.france24.com/en/us-announces-nuclear-cooperation-pact-with-saudi-arabia)
 
 </details>
 

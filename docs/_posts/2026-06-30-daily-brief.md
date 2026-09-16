@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump announced he was sending envoys to Doha for Iran negotiations. Steve Witkoff and Jared Kushner have now physically arrived in Qatar. Iran confirmed it sent an expert delegation to discuss releasing frozen Iranian funds, but Tehran denied agreeing to meet US counterparts "at any level." Qatar then officially stated that while both delegations are present, no high-level direct talks are planned—only meetings through Qatari mediators on "all regional issues." So both sides are in the same city but apparently won't sit across a table from each other. This comes after four days of strikes in the Strait of Hormuz that paused Monday.
 
-Sources: [Euronews](http://www.euronews.com/2026/06/30/us-envoys-witkoff-and-kushner-land-in-qatar-for-fresh-iran-war-talks) | [France24](https://www.france24.com/en/middle-east/20260630-middle-east-live-us-and-iranian-delegations-in-qatar-no-bilateral-meeting-confirmed) | [Al Jazeera](https://www.aljazeera.com/news/2026/6/30/us-envoys-in-doha-for-indirect-talks-with-iranian-technical-delegation?traffic_source=rss)
+Sources: [Euronews](http://www.euronews.com/2026/06/30/us-envoys-witkoff-and-kushner-land-in-qatar-for-fresh-iran-war-talks) \| [France24](https://www.france24.com/en/middle-east/20260630-middle-east-live-us-and-iranian-delegations-in-qatar-no-bilateral-meeting-confirmed) \| [Al Jazeera](https://www.aljazeera.com/news/2026/6/30/us-envoys-in-doha-for-indirect-talks-with-iranian-technical-delegation?traffic_source=rss)
 
 </details>
 

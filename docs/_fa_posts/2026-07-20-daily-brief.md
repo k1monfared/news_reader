@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: آمریکا بیش از یک هفته است که هر شب به مراکز فرماندهی نظامی، سامانه‌های دفاع هوایی و تأسیسات موشکی در ایران حمله می‌کند. سه نیروی آمریکایی اکنون کشته شده‌اند—دو نفر در حمله ایران به یک پایگاه در اردن کشته شدند و یک نفر در عراق هنگام خنثی‌سازی مهمات منفجر نشده از یک پهپاد ایرانی سرنگون شده کشته شد. ایران با انجام حملات به دارایی‌های نظامی آمریکا در بحرین (محل ناوگان ۵ نیروی دریایی) و کویت، به علاوه شلیک موشک‌هایی به شهر ساحلی عقبه در اردن که توسط نیروهای اسرائیل و اردن رهگیری شدند، پاسخ داده است. رئیس‌جمهور ایران روز دوشنبه علناً این را «جنگ تمام‌عیار» با آمریکا اعلام کرد.
 
-منابع: [France24 (اصلی)](https://www.france24.com/en/middle-east/20260720-us-strikes-iran-ninth-consecutive-day-more-ships-targeted-strait-of-hormuz-kuwait-bahrain) | [France24 (گزارش زنده)](https://www.france24.com/en/middle-east/20260719-middle-east-live-us-launches-strikes-to-punish-iran-after-troops-killed) | [France24 (کشته‌شدگان)](https://www.france24.com/en/middle-east/20260719-us-announces-death-of-another-service-member-jordan-summons-iranian-envoy-over-attacks) | [Euronews](http://www.euronews.com/2026/07/20/iran-launches-retaliatory-attacks-after-us-completes-ninth-night-of-strikes)
+منابع: [France24 (اصلی)](https://www.france24.com/en/middle-east/20260720-us-strikes-iran-ninth-consecutive-day-more-ships-targeted-strait-of-hormuz-kuwait-bahrain) \| [France24 (گزارش زنده)](https://www.france24.com/en/middle-east/20260719-middle-east-live-us-launches-strikes-to-punish-iran-after-troops-killed) \| [France24 (کشته‌شدگان)](https://www.france24.com/en/middle-east/20260719-us-announces-death-of-another-service-member-jordan-summons-iranian-envoy-over-attacks) \| [Euronews](http://www.euronews.com/2026/07/20/iran-launches-retaliatory-attacks-after-us-completes-ninth-night-of-strikes)
 
 </details>
 
@@ -36,7 +36,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ایران با تهدید به توقف صادرات انرژی در سراسر منطقه و حمله به کشتی‌های بیشتر در تنگه هرمز به محاصره دریایی آمریکا بر بنادر خود پاسخ داد. آمریکا محاصره را چهارشنبه گذشته طی یک موج ۹۰ دقیقه‌ای از حملات روزانه به ایران دوباره اعمال کرد. اگر ایران تهدید خود را برای بستن تنگه عملی کند، قیمت‌های جهانی نفت بلافاصله افزایش خواهند یافت.
 
-منابع: [France24 (امروز)](https://www.france24.com/en/middle-east/20260720-us-strikes-iran-ninth-consecutive-day-more-ships-targeted-strait-of-hormuz-kuwait-bahrain) | [France24 (چهارشنبه)](https://www.france24.com/en/middle-east/20260715-us-launches-wave-of-strikes-on-iran-tehran-threatens-to-halt-regional-energy-exports)
+منابع: [France24 (امروز)](https://www.france24.com/en/middle-east/20260720-us-strikes-iran-ninth-consecutive-day-more-ships-targeted-strait-of-hormuz-kuwait-bahrain) \| [France24 (چهارشنبه)](https://www.france24.com/en/middle-east/20260715-us-launches-wave-of-strikes-on-iran-tehran-threatens-to-halt-regional-energy-exports)
 
 </details>
 
@@ -45,7 +45,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ایران موشک‌هایی به یک پایگاه آمریکایی در اردن شلیک کرد که دو نیروی آمریکایی را کشت، سپس موشک دیگری به شهر اردنی عقبه (یک شهر گردشگری و بندری در دریای سرخ) پرتاب کرد. اردن بالاترین دیپلمات ایران در عمان را برای اعتراض به هر دو حمله فراخواند. سفارت آمریکا در اردن به آمریکایی‌ها هشدار داد از فرودگاه و بندر عقبه به دلیل «تهدید مشخص و قابل اعتماد» اجتناب کنند.
 
-منابع: [France24 (نماینده)](https://www.france24.com/en/middle-east/20260719-us-announces-death-of-another-service-member-jordan-summons-iranian-envoy-over-attacks) | [France24 (عقبه)](https://www.france24.com/en/israel-says-iran-s-missile-towards-jordan-s-aqaba-intercepted "link may be dead") | [France24 (کویت/بحرین)](https://www.france24.com/en/kuwait-bahrain-respond-to-iranian-attacks-amid-growing-escalation)
+منابع: [France24 (نماینده)](https://www.france24.com/en/middle-east/20260719-us-announces-death-of-another-service-member-jordan-summons-iranian-envoy-over-attacks) \| [France24 (عقبه)](https://www.france24.com/en/israel-says-iran-s-missile-towards-jordan-s-aqaba-intercepted "link may be dead") \| [France24 (کویت/بحرین)](https://www.france24.com/en/kuwait-bahrain-respond-to-iranian-attacks-amid-growing-escalation)
 
 </details>
 
@@ -56,7 +56,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: آیت‌الله خامنه‌ای امضای ترامپ بر توافق چارچوب آتش‌بس را «بی‌ارزش و نامعتبر» اعلام کرد و یک مذاکره‌کننده ایرانی اعلام کرد تهران تعهدات خود را به توافق تعلیق می‌کند. اما در همان زمان، وزارت امور خارجه ایران گفت دیپلماسی همچنان گزینه‌ای است و میانجیان اکنون برای احیای چارچوب به دنبال آتش‌بس ۱۰ روزه هستند. سپاه پاسداران انقلاب اسلامی به خامنه‌ای گفت رد او از توافق را «فرمان الزام‌آور» می‌دانند و وعده «درسی فراموش‌نشدنی» برای آمریکا دادند. [هشدار: اظهارات متناقض از وزارت امور خارجه ایران در مقابل رهبر عالی و سپاه ممکن است منعکس‌کننده تفرقه‌های داخلی یا موضع‌گیری تاکتیکی باشد نه یک جهت سیاست واضح.]
 
-منابع: [Euronews (رد)](http://www.euronews.com/2026/07/20/iran-launches-retaliatory-attacks-after-us-completes-ninth-night-of-strikes) | [Euronews (گفت‌وگوها)](http://www.euronews.com/2026/07/20/irgc-pledges-unforgettable-lesson-for-us-as-iran-signals-return-to-talks)
+منابع: [Euronews (رد)](http://www.euronews.com/2026/07/20/iran-launches-retaliatory-attacks-after-us-completes-ninth-night-of-strikes) \| [Euronews (گفت‌وگوها)](http://www.euronews.com/2026/07/20/irgc-pledges-unforgettable-lesson-for-us-as-iran-signals-return-to-talks)
 
 </details>
 

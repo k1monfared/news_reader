@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: After both sides signaled Friday that an initial peace agreement was close, Trump got specific ahead of the G7 summit—announcing a Sunday signing date and stating the deal would reopen the strait "for all." Iran's foreign ministry promptly disputed the timeline according to state media, though both countries agree they're nearing a deal. This is the latest whiplash in negotiations that have seen multiple delayed signing dates.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/14/will-the-us-iran-deal-be-signed-on-sunday-what-we-know-so-far?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260612-middle-east-live-iran-says-us-war-deal-could-be-signed-remotely-in-coming-days) | [Euronews](http://www.euronews.com/my-europe/2026/06/13/trump-announces-iran-peace-deal-could-be-signed-on-sunday)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/14/will-the-us-iran-deal-be-signed-on-sunday-what-we-know-so-far?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260612-middle-east-live-iran-says-us-war-deal-could-be-signed-remotely-in-coming-days) \| [Euronews](http://www.euronews.com/my-europe/2026/06/13/trump-announces-iran-peace-deal-could-be-signed-on-sunday)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260612-iran-says-
 
 Context: Israeli jets struck Beirut's Dahiyeh district Sunday, hitting the Ghobeiry area. Netanyahu's office confirmed they were targeting Hezbollah infrastructure. This is a serious escalation in Lebanon's capital that directly threatens the US-Iran truce—Tehran has insisted any deal must stop Israeli attacks on Lebanon. The timing is particularly problematic given Trump's announcement that the peace deal could be signed as early as today.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/14/israel-issues-forced-displacement-orders-for-29-towns-in-southern-lebanon?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/06/14/israeli-strikes-hit-beirut-as-us-iran-talks-near-completion)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/14/israel-issues-forced-displacement-orders-for-29-towns-in-southern-lebanon?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/06/14/israeli-strikes-hit-beirut-as-us-iran-talks-near-completion)
 
 </details>
 

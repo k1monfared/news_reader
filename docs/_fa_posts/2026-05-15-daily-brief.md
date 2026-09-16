@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ پیش از رفتن به پکن انتظارات را بالا برد، اما نشست با حرکت دو رهبر به سمت یک "رابطه تجارت‌محور" به پایان رسید در حالی که مسائل سخت را به تعویق انداختند. به گفته ترامپ و France24، شی کمک چین را برای بازگشایی تنگه هرمز پیشنهاد داد و قول داد سلاح به ایران ارسال نکند. با این حال، Euronews گزارش می‌دهد که در مورد تایوان و درگیری گسترده‌تر ایران، چین کوتاه نیامد و سرمایه‌گذاران تحت تأثیر قرار نگرفتند. آمریکا و چین همچنین پس از مذاکرات در مورد آنچه واقعاً توافق شده بود اختلاف‌نظر داشتند.
 
-منابع: [Euronews](http://www.euronews.com/2026/05/15/underwhelming-summit-outcome-in-china-brings-trump-back-to-reality) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/15/trump-and-xi-move-towards-business-first-relationship-after-beijing-summit?traffic_source=rss) | [France24](https://www.france24.com/en/trump-says-xi-offered-help-to-open-hormuz-vowed-not-to-arm-iran)
+منابع: [Euronews](http://www.euronews.com/2026/05/15/underwhelming-summit-outcome-in-china-brings-trump-back-to-reality) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/15/trump-and-xi-move-towards-business-first-relationship-after-beijing-summit?traffic_source=rss) \| [France24](https://www.france24.com/en/trump-says-xi-offered-help-to-open-hormuz-vowed-not-to-arm-iran)
 
 </details>
 

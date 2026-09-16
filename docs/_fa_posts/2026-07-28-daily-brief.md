@@ -31,7 +31,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این هفتمین بازدید نتانیاهو از کاخ سفید است، اما استقبال بسیار سردتر از قبل خواهد بود. ترامپ با واکنش منفی نسبت به جنگ ایران، حملات مداوم اسرائیل به غزه علی‌رغم آتش‌بس، اشغال جنوب لبنان و افزایش خشونت شهرک‌نشینان در کرانه باختری دست‌وپنجه نرم می‌کند. به‌نظر می‌رسد رابطه بین این دو رهبر تحت فشار همه این مسائل در حال فرسایش است، France24 نقش نتانیاهو در ترغیب ترامپ برای راه‌اندازی جنگ هوایی را اکنون «سردرد بزرگی برای رئیس‌جمهور آمریکا» توصیف کرده است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/28/trump-flouts-political-risk-to-host-netanyahus-seventh-white-house-visit?traffic_source=rss) | [France24](https://www.france24.com/en/for-the-first-time-since-iran-war-trump-and-netanyahu-meet-amid-fraying-ties)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/28/trump-flouts-political-risk-to-host-netanyahus-seventh-white-house-visit?traffic_source=rss) \| [France24](https://www.france24.com/en/for-the-first-time-since-iran-war-trump-and-netanyahu-meet-amid-fraying-ties)
 
 </details>
 

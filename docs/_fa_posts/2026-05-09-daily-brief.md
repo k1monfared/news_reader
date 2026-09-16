@@ -36,7 +36,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: نفتکش‌ها در حال حرکت به سوی یک بندر ایرانی در خلیج عمان بودند که نیروهای آمریکایی آتش گشودند. فرماندهی نظامی ایران رسماً آمریکا را متهم به نقض آتش‌بس کرد و گفت به «واحدهای دشمن» در تنگه ضربه زده است. آمریکا گزارش داد که حملات ایرانی را رهگیری کرده و به اهداف نظامی پاسخ داده است. این‌ها درگیری‌های پراکنده‌ای هستند که هر دو طرف مدام یکدیگر را سرزنش می‌کنند در حالی که ادعا می‌کنند هنوز به آتش‌بس احترام می‌گذارند.
 
-منابع: [France 24](https://www.france24.com/en/middle-east/20260507-middle-east-war-live-us-and-iran-accuse-each-other-of-ceasefire-violations-in-strait-of-hormuz) | [France 24](https://www.france24.com/en/middle-east/20260507-middle-east-war-live-source-close-to-hezbollah-says-top-commander-killed-in-israeli-strike) | [France 24](https://www.france24.com/en/middle-east/20260508-us-military-says-it-intercepted-iranian-attacks-in-strait-of-hormuz)
+منابع: [France 24](https://www.france24.com/en/middle-east/20260507-middle-east-war-live-us-and-iran-accuse-each-other-of-ceasefire-violations-in-strait-of-hormuz) \| [France 24](https://www.france24.com/en/middle-east/20260507-middle-east-war-live-source-close-to-hezbollah-says-top-commander-killed-in-israeli-strike) \| [France 24](https://www.france24.com/en/middle-east/20260508-us-military-says-it-intercepted-iranian-attacks-in-strait-of-hormuz)
 
 </details>
 

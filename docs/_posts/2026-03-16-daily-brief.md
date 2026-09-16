@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The US has been pressing NATO and other partners to help escort ships through the strait after Iran effectively shut it down. European countries don't want to get dragged into direct military confrontation with Iran. EU ministers met in Brussels to discuss whether to tweak their existing Red Sea naval mission (Aspides) to cover Hormuz, but Kallas made clear member states aren't interested in changing the mandate.
 
-Sources: [Euronews](https://www.euronews.com/2026/03/16/trump-says-he-demanded-about-seven-countries-to-join-coalition-to-police-irans-strait-of-h) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/16/trump-says-hormuz-strait-help-on-the-way-as-allies-reject-military-action) | [Euronews](https://www.euronews.com/my-europe/2026/03/16/kallas-says-no-appetite-to-shift-mandate-of-eu-naval-mission-in-the-strait-of-hormuz)
+Sources: [Euronews](https://www.euronews.com/2026/03/16/trump-says-he-demanded-about-seven-countries-to-join-coalition-to-police-irans-strait-of-h) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/16/trump-says-hormuz-strait-help-on-the-way-as-allies-reject-military-action) \| [Euronews](https://www.euronews.com/my-europe/2026/03/16/kallas-says-no-appetite-to-shift-mandate-of-eu-naval-mission-in-the-strait-of-hormuz)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Euronews](https://www.euronews.com/2026/03/16/trump-says-he-demanded-a
 
 Context: Risk premiums for ships trying to pass through the Strait of Hormuz have tripled since the conflict started. About 20% of global oil passes through this chokepoint normally, and the disruption is spiking energy prices worldwide. Air freight costs are also surging as trade routes get rerouted.
 
-Sources: [Euronews](https://www.euronews.com/business/2026/03/16/oil-prices-rise-as-trump-presses-allies-to-secure-the-strait-of-hormuz) | [Euronews](https://www.euronews.com/business/2026/03/16/hormuz-becomes-worlds-most-expensive-waterway-after-300-surge-in-risk-premiums)
+Sources: [Euronews](https://www.euronews.com/business/2026/03/16/oil-prices-rise-as-trump-presses-allies-to-secure-the-strait-of-hormuz) \| [Euronews](https://www.euronews.com/business/2026/03/16/hormuz-becomes-worlds-most-expensive-waterway-after-300-surge-in-risk-premiums)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/16/strait-of-horm
 
 Context: This is an escalation from yesterday's attacks. Iran's now going after economic infrastructure across the Gulf, not just military targets. The Dubai airport incident forced a temporary shutdown of one of the world's busiest aviation hubs. Qatar directly contradicts Iran's assertions about limiting strikes to military targets—they're clearly hitting civilian and economic infrastructure.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/16/iran-war-live-tehran-rejects-trump-claim-on-talks-gulf-attacks-continue?update=4403194) | [Euronews](https://www.euronews.com/2026/03/16/iran-escalates-its-drone-and-missile-attacks-on-gulf-countries-to-pressure-global-economie) | [Reuters](https://jp.reuters.com/world/security/D4XU55SI5VLUNLNZ6RQTRC4T7Q-2026-03-16/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/16/iran-war-live-tehran-rejects-trump-claim-on-talks-gulf-attacks-continue?update=4403194) \| [Euronews](https://www.euronews.com/2026/03/16/iran-escalates-its-drone-and-missile-attacks-on-gulf-countries-to-pressure-global-economie) \| [Reuters](https://jp.reuters.com/world/security/D4XU55SI5VLUNLNZ6RQTRC4T7Q-2026-03-16/)
 
 </details>
 
@@ -86,7 +86,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/16/us-says-it-has-de
 
 Context: The UAE stock market has crashed into bear territory. Rich people in the Gulf are spooked by the expanding war and getting their assets somewhere safer. This capital flight is happening even as Gulf states try to stay neutral—their economies are taking hits from Iranian attacks regardless.
 
-Sources: [Reuters](https://jp.reuters.com/markets/japan/M3RZL22HFZJ7BDUIDTMETE3GMI-2026-03-16/) | [Reuters](https://jp.reuters.com/markets/japan/PDJIEP6PDFJDTFRTFG3NAQY7RM-2026-03-16/)
+Sources: [Reuters](https://jp.reuters.com/markets/japan/M3RZL22HFZJ7BDUIDTMETE3GMI-2026-03-16/) \| [Reuters](https://jp.reuters.com/markets/japan/PDJIEP6PDFJDTFRTFG3NAQY7RM-2026-03-16/)
 
 </details>
 
@@ -95,7 +95,7 @@ Sources: [Reuters](https://jp.reuters.com/markets/japan/M3RZL22HFZJ7BDUIDTMETE3G
 
 Context: That's just direct US military spending—doesn't include the wider economic damage from oil price spikes and trade disruption. Countries are looking at fuel rationing, remote work mandates, and other emergency measures to cope with the oil crunch.
 
-Sources: [Euronews](https://arabic.euronews.com/2026/03/16/two-weeks-of-war-with-iran-cost-america-12-billion) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/16/war-on-iran-can-fuel-rationing-remote-work-short-sleeves-ease-oil-woes)
+Sources: [Euronews](https://arabic.euronews.com/2026/03/16/two-weeks-of-war-with-iran-cost-america-12-billion) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/16/war-on-iran-can-fuel-rationing-remote-work-short-sleeves-ease-oil-woes)
 
 </details>
 

@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: After the US launched fresh strikes on Iran, Tehran responded by hitting Qatar (three people injured by falling shrapnel in Doha), UAE, Kuwait, Bahrain, and Oman with missiles and drones. Euronews reporters in Qatar witnessed two separate waves of attacks with large explosions over Doha. Iran also set a container ship on fire in the Strait of Hormuz, which carries about 20% of the world's oil. UAE and Qatar are now actively using air defenses to intercept incoming Iranian fire. This represents a significant escalation from earlier strikes that targeted three countries—now it's five, plus the strait closure.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/12/iran-attacks-five-gulf-nations-shuts-hormuz-after-us-bombing-all-to-know?traffic_source=rss) | [Al Jazeera 2](https://www.aljazeera.com/news/2026/7/12/missiles-and-drones-fired-at-gulf-states-after-night-of-us-strikes-on-iran?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260712-live-us-attacks-iran-over-ship-being-hit-in-strait-of-hormuz) | [Euronews](http://www.euronews.com/2026/07/12/iran-launches-attacks-on-qatar-uae-bahrain-kuwait-following-us-strikes)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/12/iran-attacks-five-gulf-nations-shuts-hormuz-after-us-bombing-all-to-know?traffic_source=rss) \| [Al Jazeera 2](https://www.aljazeera.com/news/2026/7/12/missiles-and-drones-fired-at-gulf-states-after-night-of-us-strikes-on-iran?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260712-live-us-attacks-iran-over-ship-being-hit-in-strait-of-hormuz) \| [Euronews](http://www.euronews.com/2026/07/12/iran-launches-attacks-on-qatar-uae-bahrain-kuwait-following-us-strikes)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [France 24](https://www.france24.com/en/the-us-and-iran-don-t-want-a-re
 
 Context: Graham died of a sudden illness, his office said. The South Carolina Republican had just returned from Ukraine where he met with Zelenskyy in Kyiv. He was one of the most vocal senators pushing for aggressive US action in the Middle East and unwavering support for Israel.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/12/us-senator-lindsey-graham-passes-away?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/07/12/us-senator-lindsey-graham-dies-after-brief-and-sudden-illness)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/12/us-senator-lindsey-graham-passes-away?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/07/12/us-senator-lindsey-graham-dies-after-brief-and-sudden-illness)
 
 </details>
 

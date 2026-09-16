@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The strait is the main shipping lane for Gulf oil. Iran has effectively blockaded it, and shippers aren't willing to risk their vessels. Five consecutive days of tanker stoppages confirm the severity of the shipping crisis.
 
-Sources: [Reuters](# "link unavailable") | [Reuters](https://jp.reuters.com/markets/commodities/2LZEXLJHXRNBJDKVROQ4JQHBFY-2026-03-05/)
+Sources: [Reuters](# "link unavailable") \| [Reuters](https://jp.reuters.com/markets/commodities/2LZEXLJHXRNBJDKVROQ4JQHBFY-2026-03-05/)
 
 </details>
 

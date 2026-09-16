@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ دیروز اعلام کرد آتش‌بس شکننده «تمام شده» و هشدار داد حملات می‌تواند «بسیار بدتر» شود. فرماندهی مرکزی آمریکا با حملاتی که توانایی‌های دریایی ایران را در این آبراه استراتژیک هدف قرار می‌داد، این تهدید را عملی کرد. این جدول زمانی نشان‌دهنده تشدید از اعلامیه ترامپ در اجلاس ناتو تا اقدام نظامی واقعی در طی دو شب متوالی است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/9/deadly-us-strikes-trigger-iranian-attacks-on-gulf-states?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260709-us-launches-new-strikes-on-iran-trump-says-they-could-get-much-worse)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/9/deadly-us-strikes-trigger-iranian-attacks-on-gulf-states?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260709-us-launches-new-strikes-on-iran-trump-says-they-could-get-much-worse)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: آژیرهای خطر هوایی پس از حملات شبانه آمریکا در سراسر چندین کشور خلیج فارس به صدا درآمد. ویدیوها موشک‌هایی را نشان می‌دهد که در آسمان شهرهای اردنی با صدای آژیرها سرنگون می‌شوند. این حملات نشان‌دهنده گسترده‌ترین تلافی ایران تاکنون است که کشورهای بی‌طرف و متحد آمریکا در خلیج فارس را فراتر از تاسیسات نظامی مستقیم آمریکا به منطقه درگیری کشانده است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/9/videos-show-interception-of-iranian-missiles-in-skies-over-jordan?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260709-middle-east-live-kuwait-and-bahrain-targeted-by-strikes-after-broken-ceasefire)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/9/videos-show-interception-of-iranian-missiles-in-skies-over-jordan?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260709-middle-east-live-kuwait-and-bahrain-targeted-by-strikes-after-broken-ceasefire)
 
 </details>
 
@@ -36,7 +36,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: علی‌رغم دو شب متوالی حملات آمریکا و تلافی ایران در چندین کشور، توافق موقت از نظر فنی هنوز روی کاغذ وجود دارد. تحلیل‌ها نشان می‌دهد «آمریکا و ایران بازگشت به جنگ تمام‌عیار را نمی‌خواهند، اما هیچ‌کدام نمی‌توانند به عنوان بازنده ظاهر شوند»، که این وضعیت فعلی را ایجاد می‌کند که در آن تشدید ادامه دارد بدون اعلامیه جنگ رسمی.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/9/us-strikes-iran-for-second-night-is-the-peace-process-all-over-now?traffic_source=rss) | [France 24](https://www.france24.com/en/the-us-and-iran-don-t-want-a-return-to-full-scale-warfare-but-neither-can-appear-to-be-the-loser)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/7/9/us-strikes-iran-for-second-night-is-the-peace-process-all-over-now?traffic_source=rss) \| [France 24](https://www.france24.com/en/the-us-and-iran-don-t-want-a-return-to-full-scale-warfare-but-neither-can-appear-to-be-the-loser)
 
 </details>
 

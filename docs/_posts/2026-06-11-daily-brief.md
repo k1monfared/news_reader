@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is the third strike on vessels attempting to breach the US blockade this week. Wednesday's strike on the MT Settebello killed three Indian crew members and left three others missing from a crew of 24. India's foreign ministry condemned the attack. The US is calling these "proportional responses" to Iranian actions, but the human toll is growing.
 
-Sources: [Euronews](http://www.euronews.com/2026/06/11/us-strikes-another-tanker-in-hormuz-as-it-tightens-iranian-port-blockade) | [Al Jazeera](https://www.aljazeera.com/news/2026/6/11/india-says-incident-on-vessel-off-oman-confirms-3-dead-in-seperate-strike?traffic_source=rss) | [France24](https://www.france24.com/en/three-indian-crew-missing-as-us-says-fired-on-tanker-off-oman)
+Sources: [Euronews](http://www.euronews.com/2026/06/11/us-strikes-another-tanker-in-hormuz-as-it-tightens-iranian-port-blockade) \| [Al Jazeera](https://www.aljazeera.com/news/2026/6/11/india-says-incident-on-vessel-off-oman-confirms-3-dead-in-seperate-strike?traffic_source=rss) \| [France24](https://www.france24.com/en/three-indian-crew-missing-as-us-says-fired-on-tanker-off-oman)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Euronews](http://www.euronews.com/2026/06/11/us-strikes-another-tanker
 
 Context: A US Army Apache crashed off the Oman coast on Tuesday. Trump immediately blamed Iran and ordered what the US called "proportional" strikes, targeting locations including Qeshm Island. Iranian media reported explosions, and Tehran vowed retaliation while denying responsibility for the helicopter crash.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260610-us-iran-airstrikes-trump-tehran-downing-army-helicopter) | [France24](https://www.france24.com/en/middle-east/20260609-middle-east-live-israeli-strikes-kill-14-in-southern-lebanon)
+Sources: [France24](https://www.france24.com/en/middle-east/20260610-us-iran-airstrikes-trump-tehran-downing-army-helicopter) \| [France24](https://www.france24.com/en/middle-east/20260609-middle-east-live-israeli-strikes-kill-14-in-southern-lebanon)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260610-us-iran-air
 
 Context: Kharg Island is Iran's main oil export terminal, handling a significant portion of the country's crude exports. Trump's shift from punitive strikes to threatening occupation represents a new phase in the conflict. Iran responded by saying the ceasefire agreement with Washington has become "practically meaningless" and that it will reassess diplomatic engagement. On Wednesday, Trump was warning Iran about taking too long to negotiate; by Thursday he was threatening to take Iranian territory.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260610-middle-east-live-iran-announces-closure-of-strait-of-hormuz-after-us-attacks) | [Euronews](http://www.euronews.com/2026/06/11/us-will-seize-and-control-irans-kharg-island-and-other-key-oil-facilities-trump-says) | [Al Jazeera](https://www.aljazeera.com/news/2026/6/11/trump-says-us-will-be-taking-kharg-island-in-latest-iran-war-threat?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260610-trump-accuses-iran-of-taking-too-long-to-negotiate-peace-deal)
+Sources: [France24](https://www.france24.com/en/middle-east/20260610-middle-east-live-iran-announces-closure-of-strait-of-hormuz-after-us-attacks) \| [Euronews](http://www.euronews.com/2026/06/11/us-will-seize-and-control-irans-kharg-island-and-other-key-oil-facilities-trump-says) \| [Al Jazeera](https://www.aljazeera.com/news/2026/6/11/trump-says-us-will-be-taking-kharg-island-in-latest-iran-war-threat?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260610-trump-accuses-iran-of-taking-too-long-to-negotiate-peace-deal)
 
 </details>
 

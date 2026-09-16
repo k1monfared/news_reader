@@ -48,9 +48,10 @@ The orchestrator runs each stage in order. Failures in non-critical stages are l
 | 7 | `summarize` | LLM writes the brief using the expandable `<details>` format. |
 | 8 | `editorial` | LLM reviews for contradictions, flags sole-source claims, detects new source bias patterns. |
 | 9 | `verify` | HTTP HEAD checks every URL in the draft. |
-| 10 | `publish` | Writes `docs/_posts/{date}-daily-brief.md`. If `translate_fa` is enabled, git commit is deferred so both languages ship together. |
-| 11 | `translate_fa` | LLM translates the brief and any new bias entries to Farsi; writes `docs/_fa_posts/`; atomic git commit + push covering both languages. |
-| 12 | `mailer` | Sends the brief as a Resend broadcast to the English and Farsi audience segments. Uses `{{{RESEND_UNSUBSCRIBE_URL}}}` per-recipient substitution. |
+| 10 | `render_check` | Validates the final markdown against kramdown pitfalls: repairs missing `markdown="block"`/`markdown="span"` attrs and source-line pipes, fails the run (blocking publish) on structural damage. |
+| 11 | `publish` | Writes `docs/_posts/{date}-daily-brief.md`. If `translate_fa` is enabled, git commit is deferred so both languages ship together. |
+| 12 | `translate_fa` | LLM translates the brief and any new bias entries to Farsi; writes `docs/_fa_posts/`; atomic git commit + push covering both languages. |
+| 13 | `mailer` | Sends the brief as a Resend broadcast to the English and Farsi audience segments. Uses `{{{RESEND_UNSUBSCRIBE_URL}}}` per-recipient substitution. |
 
 See `COSTS.md` for measured token usage and daily cost per stage.
 

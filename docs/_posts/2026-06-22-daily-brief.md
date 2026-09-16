@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Vance met with Iran's parliamentary speaker Mohammad Bagher Qalibaf on June 21-22. The talks had rocky moments—Iran briefly walked out after Trump threatened strikes—but the high-level portion concluded while technical talks continue through the week. This is the first concrete diplomatic progress since the 60-day ceasefire framework was announced.
 
-Sources: [France24](https://www.france24.com/en/us-hails-good-progress-with-iran-after-first-round-of-talks-concludes) | [France24](https://www.france24.com/en/us-iran-s-first-round-of-talks-concludes-despite-trump-threatening-strikes) | [Euronews](http://www.euronews.com/2026/06/22/iran-and-us-make-progress-in-talks-despite-trumps-explosive-threats)
+Sources: [France24](https://www.france24.com/en/us-hails-good-progress-with-iran-after-first-round-of-talks-concludes) \| [France24](https://www.france24.com/en/us-iran-s-first-round-of-talks-concludes-despite-trump-threatening-strikes) \| [Euronews](http://www.euronews.com/2026/06/22/iran-and-us-make-progress-in-talks-despite-trumps-explosive-threats)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260622-middle-east
 
 Context: Iran shut down the critical shipping lane on Saturday in response to continued Israeli military action in Lebanon, which Tehran says violates the preliminary ceasefire agreed with the US on Wednesday. This is at least the second time Iran has closed the strait recently. The closure came just as US-Iran delegations were preparing to meet in Switzerland, and Tehran says the talks won't advance unless the Lebanon fighting stops.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260620-iran-says-closed-strait-of-hormuz-as-us-deal-hits-obstacle-ahead-of-swiss-talks) | [France24](https://www.france24.com/en/us-iran-peace-talks-to-begin-after-tehran-closed-strait-of-hormuz)
+Sources: [France24](https://www.france24.com/en/middle-east/20260620-iran-says-closed-strait-of-hormuz-as-us-deal-hits-obstacle-ahead-of-swiss-talks) \| [France24](https://www.france24.com/en/us-iran-peace-talks-to-begin-after-tehran-closed-strait-of-hormuz)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/22/us-partially-lift
 
 Context: Trump made the threat Saturday in response to Iran closing the strait and warning that talks wouldn't advance unless Israeli strikes in Lebanon stopped. The 60-day clock appears to align with the ceasefire framework timeline. Trump is essentially threatening to turn Iran's economic weapon—closing the strait—into an American revenue source if negotiations collapse.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260620-iran-says-closed-strait-of-hormuz-as-us-deal-hits-obstacle-ahead-of-swiss-talks) | [France24](https://www.france24.com/en/middle-east/20260620-israeli-strike-in-southern-lebanon-kills-five-hours-after-ceasefire-agreement)
+Sources: [France24](https://www.france24.com/en/middle-east/20260620-iran-says-closed-strait-of-hormuz-as-us-deal-hits-obstacle-ahead-of-swiss-talks) \| [France24](https://www.france24.com/en/middle-east/20260620-israeli-strike-in-southern-lebanon-kills-five-hours-after-ceasefire-agreement)
 
 </details>
 
@@ -66,7 +66,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260620-iran-says-c
 
 Context: The memorandum signed Wednesday stipulates a cessation of hostilities on all fronts, including Lebanon, but Israeli strikes have continued—Israel says in response to Hezbollah projectiles. Trump's threat represents a direct escalation beyond the existing ceasefire framework, holding Iran responsible for Hezbollah's actions while negotiations are ongoing.
 
-Sources: [France24](https://www.france24.com/en/trump-threatens-to-strike-iran-over-support-for-hezbollah-as-fighting-continues-in-lebanon) | [France24](https://www.france24.com/en/middle-east/20260621-middle-east-live-us-vice-president-jd-vance-arrives-in-switzerland-for-iran-peace-talks)
+Sources: [France24](https://www.france24.com/en/trump-threatens-to-strike-iran-over-support-for-hezbollah-as-fighting-continues-in-lebanon) \| [France24](https://www.france24.com/en/middle-east/20260621-middle-east-live-us-vice-president-jd-vance-arrives-in-switzerland-for-iran-peace-talks)
 
 </details>
 

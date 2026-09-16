@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این سومین حمله به کشتی‌های در تلاش برای شکستن محاصره آمریکا در این هفته است. حمله چهارشنبه به نفتکش MT Settebello سه خدمه هندی را کشت و سه نفر دیگر از خدمه ۲۴ نفره را ناپدید کرد. وزارت خارجه هند این حمله را محکوم کرد. آمریکا این‌ها را «پاسخ‌های متناسب» به اقدامات ایران می‌خواند، اما هزینه انسانی در حال افزایش است.
 
-منابع: [Euronews](http://www.euronews.com/2026/06/11/us-strikes-another-tanker-in-hormuz-as-it-tightens-iranian-port-blockade) | [Al Jazeera](https://www.aljazeera.com/news/2026/6/11/india-says-incident-on-vessel-off-oman-confirms-3-dead-in-seperate-strike?traffic_source=rss) | [France24](https://www.france24.com/en/three-indian-crew-missing-as-us-says-fired-on-tanker-off-oman)
+منابع: [Euronews](http://www.euronews.com/2026/06/11/us-strikes-another-tanker-in-hormuz-as-it-tightens-iranian-port-blockade) \| [Al Jazeera](https://www.aljazeera.com/news/2026/6/11/india-says-incident-on-vessel-off-oman-confirms-3-dead-in-seperate-strike?traffic_source=rss) \| [France24](https://www.france24.com/en/three-indian-crew-missing-as-us-says-fired-on-tanker-off-oman)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: یک آپاچی ارتش آمریکا روز سه‌شنبه در سواحل عمان سقوط کرد. ترامپ بلافاصله ایران را متهم کرد و دستور حملاتی را صادر کرد که آمریکا آنها را «متناسب» خواند و مکان‌هایی از جمله جزیره قشم را هدف قرار داد. رسانه‌های ایرانی از انفجارها خبر دادند و تهران در حالی که مسئولیت سقوط هلیکوپتر را رد کرد، قول تلافی داد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260610-us-iran-airstrikes-trump-tehran-downing-army-helicopter) | [France24](https://www.france24.com/en/middle-east/20260609-middle-east-live-israeli-strikes-kill-14-in-southern-lebanon)
+منابع: [France24](https://www.france24.com/en/middle-east/20260610-us-iran-airstrikes-trump-tehran-downing-army-helicopter) \| [France24](https://www.france24.com/en/middle-east/20260609-middle-east-live-israeli-strikes-kill-14-in-southern-lebanon)
 
 </details>
 
@@ -38,7 +38,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: جزیره خارگ پایانه اصلی صادرات نفت ایران است که بخش قابل توجهی از صادرات نفت خام کشور را مدیریت می‌کند. تغییر ترامپ از حملات تنبیهی به تهدید به اشغال، مرحله جدیدی در درگیری را نشان می‌دهد. ایران در واکنش گفت که توافق آتش‌بس با واشنگتن «عملاً بی‌معنا» شده است و درگیری دیپلماتیک را بازبینی خواهد کرد. روز چهارشنبه، ترامپ ایران را درباره طولانی شدن مذاکرات هشدار می‌داد؛ تا روز پنج‌شنبه داشت به تصرف سرزمین ایران تهدید می‌کرد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260610-middle-east-live-iran-announces-closure-of-strait-of-hormuz-after-us-attacks) | [Euronews](http://www.euronews.com/2026/06/11/us-will-seize-and-control-irans-kharg-island-and-other-key-oil-facilities-trump-says) | [Al Jazeera](https://www.aljazeera.com/news/2026/6/11/trump-says-us-will-be-taking-kharg-island-in-latest-iran-war-threat?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260610-trump-accuses-iran-of-taking-too-long-to-negotiate-peace-deal)
+منابع: [France24](https://www.france24.com/en/middle-east/20260610-middle-east-live-iran-announces-closure-of-strait-of-hormuz-after-us-attacks) \| [Euronews](http://www.euronews.com/2026/06/11/us-will-seize-and-control-irans-kharg-island-and-other-key-oil-facilities-trump-says) \| [Al Jazeera](https://www.aljazeera.com/news/2026/6/11/trump-says-us-will-be-taking-kharg-island-in-latest-iran-war-threat?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260610-trump-accuses-iran-of-taking-too-long-to-negotiate-peace-deal)
 
 </details>
 

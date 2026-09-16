@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump confirmed on Fox News that the strikes were coordinated with Iraq's government, but Iraq is calling them a "blatant violation" and the Iraqi PM canceled a scheduled meeting with Saudi Crown Prince MBS over it. This marks a significant expansion of the conflict into a new theater and highlights contradictory accounts of Iraqi involvement.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/29/us-and-saudi-arabia-strike-iran-aligned-groups-in-iraq?traffic_source=rss) | [France 24](https://www.france24.com/en/two-options-for-trump-in-middle-east-war-he-waits-or-he-escalates-massively)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/29/us-and-saudi-arabia-strike-iran-aligned-groups-in-iraq?traffic_source=rss) \| [France 24](https://www.france24.com/en/two-options-for-trump-in-middle-east-war-he-waits-or-he-escalates-massively)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/29/us-and-
 
 Context: Iran launched five missiles at Jordan on July 29 (Jordan intercepted them all) and attacked three commercial ships in the Strait of Hormuz. Iran's Revolutionary Guards said the strikes were in response to "aggressive actions" by the US. Iran also rejected Oman's proposal for jointly managing the strait. This ends a multi-day pause in Iranian attacks.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/29/iran-attacks-us-bases-in-middle-east-as-trump-meets-netanyahu?traffic_source=rss) | [France 24](https://www.france24.com/en/us-says-iran-trying-to-derail-ongoing-ceasefire-talks-as-strikes-resume)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/29/iran-attacks-us-bases-in-middle-east-as-trump-meets-netanyahu?traffic_source=rss) \| [France 24](https://www.france24.com/en/us-says-iran-trying-to-derail-ongoing-ceasefire-talks-as-strikes-resume)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260726-us-holds-f
 
 Context: Oman presented Iran with a Gulf-backed proposal to jointly manage the Strait of Hormuz, including a voluntary fee system for ships using the waterway. Iran's counterproposal would give it significantly more control than the shared arrangement Oman suggested. Iran then rejected the Oman plan and attacked three ships in the strait.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/29/iran-and-oman-swap-proposals-to-manage-strait-of-hormuz-what-we-know?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260728-oman-presents-iran-with-gulf-backed-plan-to-ease-strait-of-hormuz-tensions)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/7/29/iran-and-oman-swap-proposals-to-manage-strait-of-hormuz-what-we-know?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260728-oman-presents-iran-with-gulf-backed-plan-to-ease-strait-of-hormuz-tensions)
 
 </details>
 

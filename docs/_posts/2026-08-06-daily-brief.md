@@ -17,7 +17,7 @@ models_used: ["deepseek-v4-flash-free"]
 
 Context: This started as a proposal back in July. Now Iran says it's in the final stage, and Trump's suggesting an announcement is imminent. That's a pretty quick move from "maybe" to "basically done."
 
-Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/8/6/aje-onl-nf_aje-onl-nf-iran-omar-hormuz-deal-060826?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260806-iran-says-hormuz-deal-with-oman-in-final-stage-as-trump-signals-breakthrough)
+Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/8/6/aje-onl-nf_aje-onl-nf-iran-omar-hormuz-deal-060826?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260806-iran-says-hormuz-deal-with-oman-in-final-stage-as-trump-signals-breakthrough)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/8/6/aje-onl-
 
 Context: Israel's blaming Hezbollah for breaking the ceasefire. Lebanon says at least one person was killed in these latest attacks, which makes the "talks" feel a bit like theater right now.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/6/israeli-attacks-wound-eight-in-lebanon-despite-rome-talks?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260805-israel-resumes-military-strikes-on-southern-lebanon-as-rome-hosts-peace-talks)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/6/israeli-attacks-wound-eight-in-lebanon-despite-rome-talks?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260805-israel-resumes-military-strikes-on-southern-lebanon-as-rome-hosts-peace-talks)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/6/israeli-attacks-wo
 
 Context: The probe by Human Rights Watch, Amnesty, and The Legal Agenda shows the attack deliberately targeted her and her camerawoman in April. Both Israeli spokespeople and the rights group claim the UN agrees this counts as a war crime. *(Al Jazeera, France 24)*
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/6/rights-groups-call-israels-killing-of-journalist-amal-khalil-a-war-crime?traffic_source=rss) | [France 24](https://www.france24.com/en/lebanese-journalist-deliberately-targeted-by-israeli-attack-probe-reveals)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/6/rights-groups-call-israels-killing-of-journalist-amal-khalil-a-war-crime?traffic_source=rss) \| [France 24](https://www.france24.com/en/lebanese-journalist-deliberately-targeted-by-israeli-attack-probe-reveals)
 
 </details>
 

@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Vice President JD Vance led the US side. Iran's Parliament Speaker Mohammad Bagher Ghalibaf led a 70-person Iranian delegation. Vance says Iran refused to give up nuclear weapons development. Iran says the US failed to "earn" their trust. Pakistan mediated because it has ties with the Gulf states, the US, and China that nobody else could pull off. In a last-minute hurdle, Iran demanded Lebanon be included in the ceasefire talks.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/13/how-the-us-iran-talks-in-islamabad-unfolded?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260412-us-and-iran-fail-to-reach-a-deal-after-peace-talks-in-islamabad) | [France 24](https://www.france24.com/en/us-and-iran-end-21-hour-ceasefire-talks-without-agreement-before-vance-departs-pakistan)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/13/how-the-us-iran-talks-in-islamabad-unfolded?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260412-us-and-iran-fail-to-reach-a-deal-after-peace-talks-in-islamabad) \| [France 24](https://www.france24.com/en/us-and-iran-end-21-hour-ceasefire-talks-without-agreement-before-vance-departs-pakistan)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/13/how-the-us-iran-t
 
 Context: This will be the first formal contact between Israel and Lebanon, which have no diplomatic relations. Israeli strikes have killed more than 1,950 people in Lebanon, including over 350 on the first day of the US-Iran ceasefire alone. Iran had demanded Lebanon be included in the ceasefire talks, adding a last-minute hurdle in Islamabad.
 
-Sources: [France 24](https://www.france24.com/en/lebanon-protests-talks-with-israel) | [France 24](https://www.france24.com/en/israel-refuses-ceasefire-with-hezbollah)
+Sources: [France 24](https://www.france24.com/en/lebanon-protests-talks-with-israel) \| [France 24](https://www.france24.com/en/israel-refuses-ceasefire-with-hezbollah)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [France 24](https://www.france24.com/en/lebanon-protests-talks-with-isr
 
 Context: This came right after the Pakistan talks collapsed. The Strait of Hormuz is the choke point for about a fifth of global oil supplies. Trump posted on social media that the blockade begins "effective immediately" and said it makes "no difference" to him whether Iran makes a deal or not.
 
-Sources: [France 24](https://www.france24.com/en/middle-east/20260412-trump-orders-naval-blockade-of-strait-of-hormuz) | [Euronews](http://www.euronews.com/2026/04/13/us-to-blockade-iranian-ports-risking-wider-war-over-strait-of-hormuz)
+Sources: [France 24](https://www.france24.com/en/middle-east/20260412-trump-orders-naval-blockade-of-strait-of-hormuz) \| [Euronews](http://www.euronews.com/2026/04/13/us-to-blockade-iranian-ports-risking-wider-war-over-strait-of-hormuz)
 
 </details>
 
@@ -48,7 +48,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260412-trump-orde
 
 Context: French President Macron stressed the mission would be "separate from the warring parties." The UK, France, Spain, Turkey, and China have all criticized Trump's blockade plan. UK Prime Minister Starmer said Britain will not support the US blockade.
 
-Sources: [France 24](https://www.france24.com/en/middle-east/20260413-middle-east-war-live-trump-announces-blockade-of-strait-of-hormuz-on-monday) | [Al Jazeera](https://www.aljazeera.com/news/2026/4/13/starmer-says-uk-will-not-support-us-blockade-of-strait-of-hormuz?traffic_source=rss)
+Sources: [France 24](https://www.france24.com/en/middle-east/20260413-middle-east-war-live-trump-announces-blockade-of-strait-of-hormuz-on-monday) \| [Al Jazeera](https://www.aljazeera.com/news/2026/4/13/starmer-says-uk-will-not-support-us-blockade-of-strait-of-hormuz?traffic_source=rss)
 
 </details>
 
@@ -59,7 +59,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260413-middle-eas
 
 Context: Analysts say a US blockade would worsen the global energy crisis even if it only targets Iranian ports directly, because the ripple effects hit shipping and insurance worldwide. There's also a growing gap between physical oil prices and paper prices that suggests the energy shock is worse than markets are pricing in. [UNCONFIRMED—sole-source analysis]
 
-Sources: [Euronews](http://www.euronews.com/business/2026/04/13/oil-jumps-above-100-after-failed-peace-talks-forint-surges-after-the-hungarian-election-re) | [France 24](https://www.france24.com/en/middle-east/20260412-middle-east-war-live-us-and-iran-fail-to-reach-deal-after-marathon-peace-talks-in-pakistan) | [Al Jazeera](https://www.aljazeera.com/news/2026/4/13/us-blockade-of-iran-would-worsen-global-energy-crisis-analysts-say?traffic_source=rss)
+Sources: [Euronews](http://www.euronews.com/business/2026/04/13/oil-jumps-above-100-after-failed-peace-talks-forint-surges-after-the-hungarian-election-re) \| [France 24](https://www.france24.com/en/middle-east/20260412-middle-east-war-live-us-and-iran-fail-to-reach-deal-after-marathon-peace-talks-in-pakistan) \| [Al Jazeera](https://www.aljazeera.com/news/2026/4/13/us-blockade-of-iran-would-worsen-global-energy-crisis-analysts-say?traffic_source=rss)
 
 </details>
 
@@ -88,7 +88,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/13/tear-gas-fired-at
 
 Context: The attacks continued even as the US-Iran talks were happening. Iran said it wouldn't negotiate until Israel stops bombing Lebanon. Lebanese Red Cross teams were inspecting damaged ambulances in the coastal city of Tyre and clearing debris in the nearby village of Maaroub.
 
-Sources: [France 24](https://www.france24.com/en/israel-army-says-hit-over-200-hezbollah-targets-in-last-24-hours) | [Euronews](http://www.euronews.com/video/2026/04/13/lebanon-red-cross-teams-inspect-wreckage-after-israeli-airstrikes-damage-ambulances)
+Sources: [France 24](https://www.france24.com/en/israel-army-says-hit-over-200-hezbollah-targets-in-last-24-hours) \| [Euronews](http://www.euronews.com/video/2026/04/13/lebanon-red-cross-teams-inspect-wreckage-after-israeli-airstrikes-damage-ambulances)
 
 </details>
 

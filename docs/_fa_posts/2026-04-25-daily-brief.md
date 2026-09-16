@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: عباس عراقچی اواخر جمعه برای آنچه ایران «مشاوره‌های دوجانبه» می‌نامد به پاکستان رسید. کاخ سفید تأیید کرد که استیو ویتکوف و جرد کوشنر صبح شنبه به آنجا می‌روند. وزارت خارجه ایران گفتگوی مستقیم با تیم آمریکا را رد کرده، اما حضور هر دو طرف در یک شهر هنوز نزدیک‌ترین چیز به مذاکره است که دیده‌ایم. دیروز فقط می‌دانستیم مذاکرات در حال برنامه‌ریزی است — حالا واقعاً در حال اتفاق افتادن هستند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/4/25/iran-war-whats-happening-on-day-57-as-us-envoys-head-to-pakistan?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260424-middle-east-war-live-israel-lebanon-ceasefire-continues-as-trump-hopes-for-peace-deal) | [Euronews](http://www.euronews.com/2026/04/24/hegseth-warns-iran-to-make-wise-deal-ahead-of-possible-talks)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/4/25/iran-war-whats-happening-on-day-57-as-us-envoys-head-to-pakistan?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260424-middle-east-war-live-israel-lebanon-ceasefire-continues-as-trump-hopes-for-peace-deal) \| [Euronews](http://www.euronews.com/2026/04/24/hegseth-warns-iran-to-make-wise-deal-ahead-of-possible-talks)
 
 </details>
 

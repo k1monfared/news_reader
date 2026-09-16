@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: حملات مراکز فرماندهی سپاه پاسداران، تأسیسات پهپاد و موشک، و پایگاه‌های دفاع ساحلی در سراسر ایران از جمله جزیره قشم و بوشهر را هدف قرار داد. دست‌کم سه نفر از جمله یک کودک دو ساله کشته شدند. ویدئوهایی از قشم خسارت گسترده را نشان می‌دهد. این حملات به وقفه بمباران‌هایی که نزدیک به دو هفته ادامه داشت، پایان می‌دهد. سپاه پاسداران ایران اکنون وعده داده است «امروز مهاجم را مجازات خواهد کرد».
 
-منابع: [France 24](https://www.france24.com/en/middle-east/20260730-us-carries-out-powerful-strikes-on-iran-after-attacks-on-bases-and-regional-allies) | [Al Jazeera](https://www.aljazeera.com/news/2026/7/30/us-hits-multiple-targets-in-iran-as-irgc-pledges-retaliation-what-we-know?traffic_source=rss) | [France 24 Live](https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people)
+منابع: [France 24](https://www.france24.com/en/middle-east/20260730-us-carries-out-powerful-strikes-on-iran-after-attacks-on-bases-and-regional-allies) \| [Al Jazeera](https://www.aljazeera.com/news/2026/7/30/us-hits-multiple-targets-in-iran-as-irgc-pledges-retaliation-what-we-know?traffic_source=rss) \| [France 24 Live](https://www.france24.com/en/middle-east/20260730-middle-east-live-us-air-strikes-on-iran-qeshm-island-kill-three-people)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: حمله باعث آتش‌سوزی در دو کشتی در بندر مدیترانه شد. این حمله تشدیدی است از تهدیدها و هدف قرار دادن اهداف سعودی به یک حمله واقعی علیه دارایی‌های آمریکا در مصر، که کشور جدیدی را مستقیماً به منطقه درگیری می‌کشاند. تحقیقات اولیه تأیید می‌کند که این یک حمله پهپادی بود، اما هنوز هیچ‌کس مسئولیت آن را برعهده نگرفته است.
 
-منابع: [France 24](https://www.france24.com/en/drone-hits-storage-tanker-at-egyptian-port-in-major-middle-east-escalation-security-firm-says) | [Euronews](http://www.euronews.com/2026/07/30/drone-hits-us-lng-vessel-at-damietta-in-first-attack-on-egyptian-soil)
+منابع: [France 24](https://www.france24.com/en/drone-hits-storage-tanker-at-egyptian-port-in-major-middle-east-escalation-security-firm-says) \| [Euronews](http://www.euronews.com/2026/07/30/drone-hits-us-lng-vessel-at-damietta-in-first-attack-on-egyptian-soil)
 
 </details>
 
@@ -56,7 +56,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ در Fox News تأیید کرد که آمریکا و عربستان سعودی حملات را با دولت عراق هماهنگ کردند، اما عراق به هر حال آن‌ها را «نقض آشکار» می‌خواند. لغو ملاقات آسیب دیپلماتیک واقعی را با وجود ادعای هماهنگی نشان می‌دهد. ترامپ گفت که آمریکا پس از حملات به پایگاه اردن، ایران را «به شدت» هدف قرار خواهد داد.
 
-منابع: [France 24](https://www.france24.com/en/two-options-for-trump-in-middle-east-war-he-waits-or-he-escalates-massively) | [France 24](https://www.france24.com/en/middle-east/20260729-live-us-and-saudi-arabia-launch-strikes-on-iraq-target-iran-allies)
+منابع: [France 24](https://www.france24.com/en/two-options-for-trump-in-middle-east-war-he-waits-or-he-escalates-massively) \| [France 24](https://www.france24.com/en/middle-east/20260729-live-us-and-saudi-arabia-launch-strikes-on-iraq-target-iran-allies)
 
 </details>
 

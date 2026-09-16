@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump told reporters Saturday that the US and Iran have a deal that's mostly done, with Iran's state media saying shipping through the Strait could return to pre-war levels within weeks. Secretary of State Marco Rubio said an announcement might come later Sunday. Pakistan has been mediating the talks, and officials say the framework sets a 30-to-60-day window to negotiate final details—though nuclear issues are off the table for now. US media reports that Iran would hand over highly enriched uranium stockpiles as part of the agreement, while an Iranian source denies this claim, indicating disagreement over specifics remains.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/24/iran-war-day-86-trump-announces-potential-deal-amid-cloud-of-mistrust?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/24/marco-rubio-says-significant-progress-made-in-us-iran-talks-to-end-war?traffic_source=rss) | [France 24](https://www.france24.com/en/trump-says-iran-deal-largely-negotiated-would-reopen-strait-of-hormuz) | [Euronews](http://www.euronews.com/2026/05/23/us-and-iran-getting-a-lot-closer-to-an-agreement-to-end-war-trump-says)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/24/iran-war-day-86-trump-announces-potential-deal-amid-cloud-of-mistrust?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/24/marco-rubio-says-significant-progress-made-in-us-iran-talks-to-end-war?traffic_source=rss) \| [France 24](https://www.france24.com/en/trump-says-iran-deal-largely-negotiated-would-reopen-strait-of-hormuz) \| [Euronews](http://www.euronews.com/2026/05/23/us-and-iran-getting-a-lot-closer-to-an-agreement-to-end-war-trump-says)
 
 </details>
 

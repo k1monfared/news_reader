@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: After initial reports of progress yesterday, the parties announced concrete terms. The US-Iran agreement also includes establishing mechanisms to open the Strait of Hormuz, though control arrangements remain unclear. US Vice President JD Vance said it laid a good foundation for ending the broader Middle East war, but significant discrepancies emerged immediately after talks concluded, with Tehran directly contradicting Vance's statements about nuclear inspections and prompting President Trump to reject Iran's claims.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/23/iran-says-technical-talks-with-us-in-switzerland-conclude-successfully?traffic_source=rss) | [France 24](https://www.france24.com/en/us-iran-agree-on-lebanon-ceasefire-and-lifting-sanctions-on-iranian-oil-but-much-remains)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/23/iran-says-technical-talks-with-us-in-switzerland-conclude-successfully?traffic_source=rss) \| [France 24](https://www.france24.com/en/us-iran-agree-on-lebanon-ceasefire-and-lifting-sanctions-on-iranian-oil-but-much-remains)
 
 </details>
 

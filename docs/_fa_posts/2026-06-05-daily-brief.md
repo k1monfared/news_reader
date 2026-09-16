@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: این امر پیش‌بینی‌های قبلی مبنی بر اینکه درگیری باعث بحران جهانی گرسنگی خواهد شد را تأیید می‌کند. برنامه جهانی غذا هشدار داد که تا ۴۵ میلیون نفر ممکن است با گرسنگی شدید روبرو شوند چرا که هزینه‌های بالاتر سوخت و غذا که به جنگ مربوط می‌شوند، ناامنی غذایی را بسیار فراتر از خود منطقه خاورمیانه عمیق‌تر می‌کنند.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/5/us-iran-war-pushing-millions-into-food-crisis-warns-un?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260605-feared-global-hunger-crisis-becoming-reality-as-mideast-war-persists-says-un)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/5/us-iran-war-pushing-millions-into-food-crisis-warns-un?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260605-feared-global-hunger-crisis-becoming-reality-as-mideast-war-persists-says-un)
 
 </details>
 

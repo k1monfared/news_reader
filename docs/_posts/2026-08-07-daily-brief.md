@@ -17,7 +17,7 @@ models_used: ["deepseek-v4-flash-free"]
 
 Context: The leaders — Saudi Crown Prince Mohammed bin Salman, Turkish President Recep Tayyip Erdogan, and Pakistani PM Shehbaz Sharif — held talks in Jeddah. France 24 reports a mutual defence agreement already signed, stating that “any armed attack against any one of the three States shall be regarded as an attack against them all.” Euronews, however, characterises the meeting as a step to formalise the agreement. Both sources tie the move to regional powers seeking to strengthen security ties amid the US-Iran war and its fallout. Analysts expect closer military coordination among the three going forward.
 
-Sources: [france24](https://www.france24.com/en/middle-east/20260807-middle-east-live-saudi-arabia-pakistan-turkey-to-sign-defence-pact) | [euronews](http://www.euronews.com/2026/08/07/saudi-arabia-turkiye-and-pakistan-to-sign-joint-defence-pact-amid-regional-escalation)
+Sources: [france24](https://www.france24.com/en/middle-east/20260807-middle-east-live-saudi-arabia-pakistan-turkey-to-sign-defence-pact) \| [euronews](http://www.euronews.com/2026/08/07/saudi-arabia-turkiye-and-pakistan-to-sign-joint-defence-pact-amid-regional-escalation)
 
 </details>
 

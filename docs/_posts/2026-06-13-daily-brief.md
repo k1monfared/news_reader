@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This represents concrete progress from weekend speculation—both sides now officially confirm a text has been agreed. Iran's Foreign Ministry spokesperson said Sunday the signing won't happen today because of US hesitation, and warned caution on setting any firm date. Pakistan had said earlier the deal would be finalized within 24 hours, but that timeline has now slipped.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/13/iran-war-day-106-us-and-iran-say-deal-close-but-lebanon-fighting-continues?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260612-middle-east-live-iran-says-us-war-deal-could-be-signed-remotely-in-coming-days)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/13/iran-war-day-106-us-and-iran-say-deal-close-but-lebanon-fighting-continues?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260612-middle-east-live-iran-says-us-war-deal-could-be-signed-remotely-in-coming-days)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/13/iran-war-day-106-
 
 Context: Trump's announcement shifted from "close to a deal" to claiming one exists outright. He made the claim just after promising then canceling strikes. On Wednesday, he'd accused Iran of "playing us for suckers" and warned he'd attack "very hard" if negotiations didn't conclude quickly. Iran responded by saying it would reassess diplomatic engagement with Washington.
 
-Sources: [France24](https://www.france24.com/en/trump-touts-iran-deal-some-people-s-response-to-this-will-be-the-boy-who-cried-wolf) | [France24](https://www.france24.com/en/middle-east/20260610-trump-accuses-iran-of-taking-too-long-to-negotiate-peace-deal)
+Sources: [France24](https://www.france24.com/en/trump-touts-iran-deal-some-people-s-response-to-this-will-be-the-boy-who-cried-wolf) \| [France24](https://www.france24.com/en/middle-east/20260610-trump-accuses-iran-of-taking-too-long-to-negotiate-peace-deal)
 
 </details>
 

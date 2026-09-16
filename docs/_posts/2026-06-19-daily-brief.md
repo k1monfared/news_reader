@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump and Iran's President Pezeshkian signed an interim peace deal on Wednesday at Versailles during the G7, pre-empting the formal June 19 signing that was supposed to happen in Switzerland. The deal includes a 60-day timeline for a permanent agreement, uranium dilution by Iran, and a $300 billion reconstruction fund. Iran delayed sending its delegation over Israel's Lebanon campaign, and Switzerland announced that the follow-up talks scheduled for June 19 are postponed entirely, with Vance cancelling his Geneva trip.
 
-Sources: [France24](https://www.france24.com/en/us-iran-peace-negotiations-abruptly-called-off-amid-growing-criticism) | [France24](https://www.france24.com/en/uncertainty-remains-amid-postponed-us-iran-talks-and-continued-fighting-in-lebanon) | [France24](https://www.france24.com/en/tv-shows/the-debate/20260618-signing-off-trump-rushes-to-turn-page-on-iran-war)
+Sources: [France24](https://www.france24.com/en/us-iran-peace-negotiations-abruptly-called-off-amid-growing-criticism) \| [France24](https://www.france24.com/en/uncertainty-remains-amid-postponed-us-iran-talks-and-continued-fighting-in-lebanon) \| [France24](https://www.france24.com/en/tv-shows/the-debate/20260618-signing-off-trump-rushes-to-turn-page-on-iran-war)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [France24](https://www.france24.com/en/us-iran-peace-negotiations-abrup
 
 Context: The ceasefire came on June 19 after deadly exchanges put the broader peace deal under serious strain. Casualty figures vary across sources: one report indicates 20 Lebanese and 4 Israeli soldiers killed, while another cites 18 killed in Israeli airstrikes across southern Lebanon this morning and 4 Israeli soldiers dead. Israel's far-right National Security Minister Itamar Ben Gvir responded to the fighting by saying "all of Lebanon must burn," marking a concrete escalation in fighting intensity since the deal was signed.
 
-Sources: [France24](https://www.france24.com/en/israel-and-hezbollah-say-they-agree-to-truce-despite-renewed-attacks) | [France24](https://www.france24.com/en/video/20260619-israeli-military-strikes-southern-lebanon-as-us-iran-talks-are-postponed) | [France24](https://www.france24.com/en/uncertainty-remains-amid-postponed-us-iran-talks-and-continued-fighting-in-lebanon)
+Sources: [France24](https://www.france24.com/en/israel-and-hezbollah-say-they-agree-to-truce-despite-renewed-attacks) \| [France24](https://www.france24.com/en/video/20260619-israeli-military-strikes-southern-lebanon-as-us-iran-talks-are-postponed) \| [France24](https://www.france24.com/en/uncertainty-remains-amid-postponed-us-iran-talks-and-continued-fighting-in-lebanon)
 
 </details>
 
@@ -48,7 +48,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/6/19/trump-takes-aim-a
 
 Context: The blockade lift was part of the interim deal signed Wednesday. JD Vance announced Thursday that 12.5 million barrels passed through overnight, a concrete sign the agreement is having immediate economic effects even as the diplomatic process falls apart.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260617-middle-east-live-trump-iran-s-president-sign-deal-to-end-mideast-war) | [France24](https://www.france24.com/en/middle-east/20260618-us-forces-lift-iran-ports-blockade-as-uncertainty-clouds-planned-switzerland-talks)
+Sources: [France24](https://www.france24.com/en/middle-east/20260617-middle-east-live-trump-iran-s-president-sign-deal-to-end-mideast-war) \| [France24](https://www.france24.com/en/middle-east/20260618-us-forces-lift-iran-ports-blockade-as-uncertainty-clouds-planned-switzerland-talks)
 
 </details>
 

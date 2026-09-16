@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Daily Brief: September 11, 2026"
+title: "Daily Brief: September 11, 2026 (backfilled)"
 date: 2026-09-11
 categories: [daily-brief]
+backfilled: true
 sources_down: []
 generated_at: "2026-09-16 11:45 UTC-07:00"
 models_used: ["deepseek-v4-flash"]
@@ -17,7 +18,7 @@ models_used: ["deepseek-v4-flash"]
 
 Context: A local government official and eyewitnesses told AFP/France24 that Houthi fighters reached Mayyun/Perim Island after government forces withdrew; the BBC separately reported the fall of Mokha and describes the wider operation as a claimed Houthi advance. BBC analysis calls the coastal push the Houthis’ most impressive military coup in several years and warns it may bring a dangerous new dimension to the Iran war. The reports, dated 11 September, show the group consolidating control around a key international shipping chokepoint.
 
-Sources: [France24](http://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane) | [BBC](https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss) | [BBC analysis](https://www.bbc.co.uk/news/articles/c3v4zgzr1kxo?at_medium=RSS&at_campaign=rss)
+Sources: [France24](http://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane) \| [BBC](https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss) \| [BBC analysis](https://www.bbc.co.uk/news/articles/c3v4zgzr1kxo?at_medium=RSS&at_campaign=rss)
 
 </details>
 

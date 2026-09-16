@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: This is Iran going after the economic jugular—Ras Tanura is one of the world's largest refineries, and Qatar is the biggest LNG exporter globally. Oil prices are spiking and gas prices in Europe jumped 45% after Qatar's shutdown. Iran's clearly trying to make this hurt economically, not just militarily.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/2/qatarenergy-worlds-largest-lng-firm-halts-production-after-iran-attacks) | [Euronews](https://www.euronews.com/2026/03/02/drones-hit-saudi-ras-tanura-refinery-as-iran-strikes-targets-across-region) | [Reuters](https://jp.reuters.com/markets/commodities/HCJ42AFN2VJVRBFE2U6AZG2444-2026-03-02/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/2/qatarenergy-worlds-largest-lng-firm-halts-production-after-iran-attacks) \| [Euronews](https://www.euronews.com/2026/03/02/drones-hit-saudi-ras-tanura-refinery-as-iran-strikes-targets-across-region) \| [Reuters](https://jp.reuters.com/markets/commodities/HCJ42AFN2VJVRBFE2U6AZG2444-2026-03-02/)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/2/qatarenergy-worlds
 
 Context: RAF Akrotiri has been a staging area for operations in the region. Two more drones heading toward the base were intercepted later. The UK government is walking a tightrope here, trying to stay involved without triggering a full declaration of war.
 
-Sources: [Euronews](https://www.euronews.com/2026/03/02/uk-says-it-is-not-at-war-after-iranian-drone-strikes-raf-akrotiri-base-in-cyprus) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/2/british-military-base-in-cyprus-targeted-in-suspected-drone-attack)
+Sources: [Euronews](https://www.euronews.com/2026/03/02/uk-says-it-is-not-at-war-after-iranian-drone-strikes-raf-akrotiri-base-in-cyprus) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/2/british-military-base-in-cyprus-targeted-in-suspected-drone-attack)
 
 </details>
 
@@ -44,7 +44,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/2/three-us-fighter-j
 
 Context: The timeline keeps shifting—first it was days, now weeks. Meanwhile, the Pentagon admitted to Congress they had zero warning about Iran's initial strike that killed Khamenei, which is raising some uncomfortable questions about intelligence failures.
 
-Sources: [Euronews](https://fr.euronews.com/2026/03/02/conflit-en-iran-loperation-pourrait-durer-jusqua-quatre-semaines-estime-donald-trump) | [Reuters](https://jp.reuters.com/world/security/POFLRD4YFFPA3BRY2HM6UFDERA-2026-03-02/)
+Sources: [Euronews](https://fr.euronews.com/2026/03/02/conflit-en-iran-loperation-pourrait-durer-jusqua-quatre-semaines-estime-donald-trump) \| [Reuters](https://jp.reuters.com/world/security/POFLRD4YFFPA3BRY2HM6UFDERA-2026-03-02/)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [Euronews](https://fr.euronews.com/2026/03/02/conflit-en-iran-loperatio
 
 Context: This is exactly the regional widening everyone feared. Hezbollah jumping in opens a second front for Israel. The Lebanese government's ban on Hezbollah operations is probably unenforceable—it's like telling the sun not to rise—but shows how desperate Beirut is to avoid getting dragged deeper in.
 
-Sources: [Euronews](https://it.euronews.com/2026/03/02/razzi-di-hezbollah-su-israele-lidf-attacca-il-libano-almeno-31-morti-e-centinaia-di-feriti) | [Reuters](https://jp.reuters.com/world/us/QJF6TPUD65IZFBWZU7R2L7N7ZA-2026-03-02/)
+Sources: [Euronews](https://it.euronews.com/2026/03/02/razzi-di-hezbollah-su-israele-lidf-attacca-il-libano-almeno-31-morti-e-centinaia-di-feriti) \| [Reuters](https://jp.reuters.com/world/us/QJF6TPUD65IZFBWZU7R2L7N7ZA-2026-03-02/)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/2/fury-on-pakistan-s
 
 Context: The Khamenei assassination took out not just Iran's Supreme Leader but much of his inner circle. Larijani's public denial contradicts other reporting about negotiations, suggesting either internal confusion or deliberate misdirection. The whole power structure is in flux at the worst possible moment.
 
-Sources: [Reuters](https://jp.reuters.com/world/security/RS5KXDHQVBIPBAK2GHIFTB73AQ-2026-03-02/) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/2/irans-larijani-refutes-claims-tehran-pushed-to-resume-us-talks)
+Sources: [Reuters](https://jp.reuters.com/world/security/RS5KXDHQVBIPBAK2GHIFTB73AQ-2026-03-02/) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/2/irans-larijani-refutes-claims-tehran-pushed-to-resume-us-talks)
 
 </details>
 
@@ -95,7 +95,7 @@ Sources: [Reuters](https://jp.reuters.com/markets/global-markets/4SKERUH7YBMY3GB
 
 Context: Spain denied authorizing use of US bases on its soil for the Iran strikes. This is the transatlantic rift everyone worried about—European allies questioning the legal basis and feeling blindsided by Washington's unilateral move, while Israel is pushing back hard on critics.
 
-Sources: [Euronews](https://arabic.euronews.com/my-europe/2026/03/02/spanish-fm-unilateral-us-israeli-attack-iran-not-supported-by-international-law) | [Euronews](https://tr.euronews.com/my-europe/2026/03/02/israil-disisleri-bakani-saar-ispanyayi-iranin-yaninda-durmakla-sucladi)
+Sources: [Euronews](https://arabic.euronews.com/my-europe/2026/03/02/spanish-fm-unilateral-us-israeli-attack-iran-not-supported-by-international-law) \| [Euronews](https://tr.euronews.com/my-europe/2026/03/02/israil-disisleri-bakani-saar-ispanyayi-iranin-yaninda-durmakla-sucladi)
 
 </details>
 

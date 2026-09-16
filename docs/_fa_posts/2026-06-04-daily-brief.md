@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: سفرای اسرائیل و لبنان چهارمین دور مذاکرات خود را در وزارت امور خارجه به پایان رساندند—این کشورها معمولاً حتی روابط دیپلماتیک ندارند. ترامپ گفت هر دو طرف به کاهش تنش متعهد شدند. اما ساعاتی پس از این اعلام، حزب‌الله رسماً طرح را رد کرد و گفت نیروهای اسرائیلی ابتدا باید جنوب لبنان را ترک کنند. این یک شکاف بسیار اساسی است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/4/israel-and-lebanon-agree-on-ceasefire-framework-in-us-led-talks?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260603-middle-east-war-live-israel-and-lebanon-agree-to-implement-a-ceasefire)
+منابع: [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/6/4/israel-and-lebanon-agree-on-ceasefire-framework-in-us-led-talks?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260603-middle-east-war-live-israel-and-lebanon-agree-to-implement-a-ceasefire)
 
 </details>
 

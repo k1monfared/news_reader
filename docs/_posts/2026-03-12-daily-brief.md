@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Khamenei's ultimatum marks a sharp turn from two days ago when Trump claimed the conflict would end quickly. There are conflicting reports about his health and whereabouts since the strikes that killed his father—some sources report concerns about his condition and location.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace?update=4394080) | [Euronews](https://de.euronews.com/2026/03/12/werden-weiter-angreifen-iran-ayatollah-chamenei-botschaft)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace?update=4394080) \| [Euronews](https://de.euronews.com/2026/03/12/werden-weiter-angreifen-iran-ayatollah-chamenei-botschaft)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war
 
 Context: Netanyahu is projecting strength after two weeks of fighting. He specifically mentioned eliminating Iran's senior nuclear scientists and suggested the new supreme leader might also be dead, saying "Iran is no longer what it was"—though this contradicts intelligence assessments indicating continuity in Iran's command structure.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/12/netanyahu-says-israel-stronger-than-ever-in-first-speech-since-iran-war) | [Reuters](https://jp.reuters.com/world/us/24NQDJZGNBOUZKPVTFDMFSSFMM-2026-03-12/)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/12/netanyahu-says-israel-stronger-than-ever-in-first-speech-since-iran-war) \| [Reuters](https://jp.reuters.com/world/us/24NQDJZGNBOUZKPVTFDMFSSFMM-2026-03-12/)
 
 </details>
 
@@ -46,7 +46,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/12/iran-vows-to-make
 
 Context: Yesterday the IEA announced a record emergency oil release to stabilize prices. Today Iranian drone boats and sea mines hit multiple ships near the Strait of Hormuz, sending prices soaring anyway. US gas prices jumped 20% in 11 days to over $3.50/gallon. The US Navy is refusing requests to escort commercial ships through the strait.
 
-Sources: [Euronews](https://www.euronews.com/business/2026/03/12/iran-strikes-neutralise-record-iea-reserves-release-as-oil-tops-100) | [Reuters](https://jp.reuters.com/markets/commodities/KBNYZHAXZFJKBJEWYYX6LA7MBA-2026-03-11/)
+Sources: [Euronews](https://www.euronews.com/business/2026/03/12/iran-strikes-neutralise-record-iea-reserves-release-as-oil-tops-100) \| [Reuters](https://jp.reuters.com/markets/commodities/KBNYZHAXZFJKBJEWYYX6LA7MBA-2026-03-11/)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [Euronews](https://www.euronews.com/business/2026/03/12/iran-strikes-ne
 
 Context: Countries that import oil are facing serious economic pressure while exporters like Russia are getting an unexpected boost. Gulf economies are particularly fractured—caught between the conflict and their dependence on oil exports through the strait.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/12/southeast-asia-shuts-offices-limits-travel-as-oil-crisis-deepens) | [Euronews](https://arabic.euronews.com/business/2026/03/12/iran-oil-shock-splits-the-world-as-exporters-pocket-windfall-and-importers-buckle)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/12/southeast-asia-shuts-offices-limits-travel-as-oil-crisis-deepens) \| [Euronews](https://arabic.euronews.com/business/2026/03/12/iran-oil-shock-splits-the-world-as-exporters-pocket-windfall-and-importers-buckle)
 
 </details>
 
@@ -66,7 +66,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/12/southeast-asia-sh
 
 Context: This is Iran opening multiple fronts at once—hitting coalition bases in Iraq while also going after Gulf states. The US Navy's refusal to provide escorts for commercial vessels is a significant shift that leaves shipping companies on their own in one of the world's most critical oil chokepoints.
 
-Sources: [Euronews](https://es.euronews.com/2026/03/12/iran-ataca-la-base-italiana-y-el-aeropuerto-internacional-de-erbil-en-irak) | [Reuters](https://jp.reuters.com/markets/commodities/FMOD3RGWPZOUNELMDGLL47J2QI-2026-03-12/)
+Sources: [Euronews](https://es.euronews.com/2026/03/12/iran-ataca-la-base-italiana-y-el-aeropuerto-internacional-de-erbil-en-irak) \| [Reuters](https://jp.reuters.com/markets/commodities/FMOD3RGWPZOUNELMDGLL47J2QI-2026-03-12/)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [Euronews](https://es.euronews.com/2026/03/12/iran-ataca-la-base-italia
 
 Context: Initial findings suggest an errant US munition hit the elementary school. This is becoming a major political problem for Trump, who's been vague in his public statements about the incident. The death toll makes it one of the deadliest single strikes of the conflict.
 
-Sources: [Euronews](https://www.euronews.com/2026/03/12/preliminary-inquiry-indicates-us-was-responsible-for-deadly-strike-on-iranian-elementary-s) | [Reuters](https://jp.reuters.com/world/us/5ZJQAAPY3NM6ROUKH6COTLZ37U-2026-03-11/)
+Sources: [Euronews](https://www.euronews.com/2026/03/12/preliminary-inquiry-indicates-us-was-responsible-for-deadly-strike-on-iranian-elementary-s) \| [Reuters](https://jp.reuters.com/world/us/5ZJQAAPY3NM6ROUKH6COTLZ37U-2026-03-11/)
 
 </details>
 
@@ -86,7 +86,7 @@ Sources: [Euronews](https://www.euronews.com/2026/03/12/preliminary-inquiry-indi
 
 Context: Iran is signaling that cloud infrastructure and data centers are now fair game as military targets. Security experts say data centers have become critical in modern warfare. One Iranian hacking group already claimed responsibility for breaching Stryker's systems.
 
-Sources: [Euronews](https://www.euronews.com/next/2026/03/12/enemy-technology-infrastructure-iran-threatens-amazon-google-and-microsoft-assets-in-middl) | [Al Jazeera](https://www.aljazeera.com/news/2026/3/11/iran-linked-hackers-hit-medical-giant-stryker-in-retaliatory-cyberattack)
+Sources: [Euronews](https://www.euronews.com/next/2026/03/12/enemy-technology-infrastructure-iran-threatens-amazon-google-and-microsoft-assets-in-middl) \| [Al Jazeera](https://www.aljazeera.com/news/2026/3/11/iran-linked-hackers-hit-medical-giant-stryker-in-retaliatory-cyberattack)
 
 </details>
 

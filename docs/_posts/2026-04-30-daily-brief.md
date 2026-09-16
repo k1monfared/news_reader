@@ -53,7 +53,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/04/30/eurozone-inflati
 
 Context: France just released Q1 data showing how fast the Iran war's economic impact is spreading through Europe's second-largest economy. The Bank of England, Fed, and Bank of Japan have all held interest rates steady because of the same oil price shock.
 
-Sources: [Euronews](http://www.euronews.com/business/2026/04/30/french-growth-stalls-as-iran-war-energy-shock-hits-economy) | [Euronews](http://www.euronews.com/business/2026/04/30/bank-of-england-holds-rates-as-iran-war-sends-oil-prices-to-new-highs)
+Sources: [Euronews](http://www.euronews.com/business/2026/04/30/french-growth-stalls-as-iran-war-energy-shock-hits-economy) \| [Euronews](http://www.euronews.com/business/2026/04/30/bank-of-england-holds-rates-as-iran-war-sends-oil-prices-to-new-highs)
 
 </details>
 
@@ -64,7 +64,7 @@ Sources: [Euronews](http://www.euronews.com/business/2026/04/30/french-growth-st
 
 Context: This marks the first major domestic political blowback over war costs. Defense Secretary Pete Hegseth appeared before the House Armed Services Committee for the first time since the war began and called the questioning "feckless and defeatist." He's pushing a $1.5 trillion defense budget for 2027.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/30/25bn-or-1-trillion-how-much-has-iran-war-really-cost-the-us?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260429-middle-east-war-live-trump-says-iran-has-been-militarily-defeated-at-state-dinner)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/30/25bn-or-1-trillion-how-much-has-iran-war-really-cost-the-us?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260429-middle-east-war-live-trump-says-iran-has-been-militarily-defeated-at-state-dinner)
 
 </details>
 

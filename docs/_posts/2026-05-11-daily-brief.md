@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Iran submitted their counter-proposal on Sunday through Pakistan as mediator. They want negotiations to focus on ending the war on all fronts—including Lebanon where Israel's fighting Hezbollah—and securing shipping routes. Trump shot it down immediately on social media without explaining why. This marks another collapse in efforts to ease Gulf tensions.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/11/unacceptable-whats-irans-peace-proposal-that-trump-has-rejected?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260510-trump-calls-iran-response-to-us-peace-proposal-totally-unacceptable) | [France 24](https://www.france24.com/en/middle-east/20260510-live-iran-s-guards-threaten-us-sites-in-the-region-if-its-tankers-come-under-fire)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/11/unacceptable-whats-irans-peace-proposal-that-trump-has-rejected?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260510-trump-calls-iran-response-to-us-peace-proposal-totally-unacceptable) \| [France 24](https://www.france24.com/en/middle-east/20260510-live-iran-s-guards-threaten-us-sites-in-the-region-if-its-tankers-come-under-fire)
 
 </details>
 
@@ -37,7 +37,7 @@ Sources: [France 24](https://www.france24.com/en/middle-east/20260511-middle-eas
 
 Context: This is Modi's first concrete policy response to the war-driven energy crisis. He's now publicly urging fuel conservation across India as oil prices spike from the Hormuz disruptions. The guidance covers remote work, travel restrictions, and even luxury purchases like gold.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/11/iran-war-effect-why-is-modi-asking-indians-to-avoid-foreign-trips-gold?traffic_source=rss) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/11/narendra-modi-urges-indians-to-conserve-fuel-amid-war-on-iran?traffic_source=rss)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/11/iran-war-effect-why-is-modi-asking-indians-to-avoid-foreign-trips-gold?traffic_source=rss) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/5/11/narendra-modi-urges-indians-to-conserve-fuel-amid-war-on-iran?traffic_source=rss)
 
 </details>
 

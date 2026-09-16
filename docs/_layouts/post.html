@@ -20,7 +20,7 @@ layout: default
 <article class="post">
   <header class="post-header">
     <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">
-      {% if lang == "fa" and page.date_fa %}{{ page.date_fa }}{% else %}{{ page.date | date: "%B %d, %Y" }}{% endif %}
+      {% if lang == "fa" and page.date_fa %}{{ page.date_fa }}{% else %}{{ page.date | date: "%B %d, %Y" }}{% endif %}{% if page.backfilled %} ({{ t.post_backfilled }}){% endif %}
     </time>
     {% if page.sources_down.size > 0 %}
     <p class="sources-down">
@@ -49,13 +49,13 @@ layout: default
     {% if prev_post %}
     <a href="{{ prev_post.url | relative_url }}" class="post-nav-prev">
       <span class="post-nav-label">{{ t.post_prev }}</span>
-      <span class="post-nav-title">{% if lang == "fa" and prev_post.date_fa %}{{ prev_post.date_fa }}{% else %}{{ prev_post.date | date: "%B %d, %Y" }}{% endif %}</span>
+      <span class="post-nav-title">{% if lang == "fa" and prev_post.date_fa %}{{ prev_post.date_fa }}{% else %}{{ prev_post.date | date: "%B %d, %Y" }}{% endif %}{% if prev_post.backfilled %} ({{ t.post_backfilled }}){% endif %}</span>
     </a>
     {% endif %}
     {% if next_post %}
     <a href="{{ next_post.url | relative_url }}" class="post-nav-next">
       <span class="post-nav-label">{{ t.post_next }}</span>
-      <span class="post-nav-title">{% if lang == "fa" and next_post.date_fa %}{{ next_post.date_fa }}{% else %}{{ next_post.date | date: "%B %d, %Y" }}{% endif %}</span>
+      <span class="post-nav-title">{% if lang == "fa" and next_post.date_fa %}{{ next_post.date_fa }}{% else %}{{ next_post.date | date: "%B %d, %Y" }}{% endif %}{% if next_post.backfilled %} ({{ t.post_backfilled }}){% endif %}</span>
     </a>
     {% endif %}
   </nav>

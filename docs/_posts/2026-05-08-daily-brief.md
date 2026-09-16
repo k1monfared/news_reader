@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: A ceasefire between the US and Iran has technically been in place since April 8, but it's looking pretty shaky. Late Thursday night, shots were fired near the Strait of Hormuz with conflicting accounts from both sides. The US says it intercepted Iranian attacks and struck back at military targets. Iran says it fired missiles at "enemy units" after the US breached the ceasefire by attacking civilian areas and two ships, including an Iranian oil tanker. Trump maintains the ceasefire still holds, but the conflicting accounts and active shooting suggest otherwise.
 
-Sources: [France24](https://www.france24.com/en/video/20260508-what-we-know-about-the-latest-exchange-of-fire-between-the-us-and-iran) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/8/us-iran-clash-in-hormuz-as-war-escalates-what-happened-why-it-matters?traffic_source=rss) | [France24](https://www.france24.com/en/middle-east/20260508-us-military-says-it-intercepted-iranian-attacks-in-strait-of-hormuz) | [France24](https://www.france24.com/en/middle-east/20260507-middle-east-war-live-source-close-to-hezbollah-says-top-commander-killed-in-israeli-strike)
+Sources: [France24](https://www.france24.com/en/video/20260508-what-we-know-about-the-latest-exchange-of-fire-between-the-us-and-iran) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/8/us-iran-clash-in-hormuz-as-war-escalates-what-happened-why-it-matters?traffic_source=rss) \| [France24](https://www.france24.com/en/middle-east/20260508-us-military-says-it-intercepted-iranian-attacks-in-strait-of-hormuz) \| [France24](https://www.france24.com/en/middle-east/20260507-middle-east-war-live-source-close-to-hezbollah-says-top-commander-killed-in-israeli-strike)
 
 </details>
 

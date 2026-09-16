@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: فرماندهی نظامی ایران رسماً در ۸ ژوئن اعلام کرد که عملیات خود علیه اسرائیل را متوقف می‌کند. این اتفاق پس از آن رخ داد که ایران شب یکشنبه به سوی اسرائیل موشک شلیک کرد—اولین بمباران ایرانی از زمانی که آتش‌بس شکننده در اوایل آوریل به اجرا درآمد—و اسرائیل با حمله به تأسیسات نظامی ایران پاسخ داد. با وجود درخواست‌های ترامپ برای خویشتن‌داری، نتانیاهو دستور حمله متقابل را صادر کرد. حزب‌الله شلیک را متوقف نکرده است که این موضوع اوضاع را پیچیده‌تر می‌کند.
 
-منابع: [France24](https://www.france24.com/en/iran-halts-strikes-against-israel-netanyahu-stuck-between-trump-and-ministers) | [France24](https://www.france24.com/en/video/20260608-israel-iran-trade-fire-in-first-clash-since-truce) | [France24](https://www.france24.com/en/middle-east/20260607-iran-launches-missiles-at-israel-in-first-bombardment-since-fragile-ceasefire)
+منابع: [France24](https://www.france24.com/en/iran-halts-strikes-against-israel-netanyahu-stuck-between-trump-and-ministers) \| [France24](https://www.france24.com/en/video/20260608-israel-iran-trade-fire-in-first-clash-since-truce) \| [France24](https://www.france24.com/en/middle-east/20260607-iran-launches-missiles-at-israel-in-first-bombardment-since-fragile-ceasefire)
 
 </details>
 
@@ -38,7 +38,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ روشن کرد که اگر پس از توقف درگیری‌های ایران و اسرائیل، حملات ادامه یابد، نتانیاهو نباید منتظر حمایت آمریکا باشد. او همچنین گفت که بمباران بیشتر ایران تنگه هرمز را برای ماه‌ها بسته نگه می‌دارد و جان‌هایی به قیمت خواهد آمد. دست‌کم ۸ نفر روز دوشنبه در لبنان کشته شدند با وجود توقف ادعایی، که نشان می‌دهد آتش‌بس به سختی پابرجاست.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/9/trump-says-in-final-throes-of-peace-deal-but-at-least-8-killed-in-tyre?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/06/09/trump-insists-iran-deal-is-days-away-as-both-sides-step-back-from-brink)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/6/9/trump-says-in-final-throes-of-peace-deal-but-at-least-8-killed-in-tyre?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/06/09/trump-insists-iran-deal-is-days-away-as-both-sides-step-back-from-brink)
 
 </details>
 

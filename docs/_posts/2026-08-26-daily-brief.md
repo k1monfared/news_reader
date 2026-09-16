@@ -17,7 +17,7 @@ models_used: ["nemotron-3-ultra-free", "mimo-v2.5-free", "hy3-free"]
 
 Context: Trump announced the expanded sanctions Monday, framing them as the economic equivalent of D-Day after months of airstrikes failed to change Iran's calculus. Treasury Secretary Scott Bessent said the measures aim to "sever every economic lifeline" sustaining Iran, targeting digital assets, technology, gold, aviation, and shipping. Iran's Economy Minister Ali Madanizadeh dismissed the effort, saying Tehran had a "two-year plan" to withstand the pressure. China, which buys the bulk of Iranian oil (over 80% per 2025 Kpler data), formally objected and was notably not targeted in the initial sanctions rollout. The sanctions also blacklist tankers — Iran published its own counter-blacklist of vessels it says collaborate with the US/Israel, and at least three Indian refiners say they'll avoid those ships, which include Saudi Aramco and ADNOC tankers.
 
-Sources: [France24](https://www.france24.com/en/iran-threatens-retaliation-as-new-us-sanctions-hit-already-struggling-economy) | [BBC](https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss) | [Euronews](http://www.euronews.com/2026/08/26/us-will-achieve-nothing-with-its-economic-chokehold-tehran-says) | [The Hindu](https://www.thehindu.com/news/international/trumps-new-economic-squeeze-on-iran-has-big-challenge-china/article71391233.ece)
+Sources: [France24](https://www.france24.com/en/iran-threatens-retaliation-as-new-us-sanctions-hit-already-struggling-economy) \| [BBC](https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss) \| [Euronews](http://www.euronews.com/2026/08/26/us-will-achieve-nothing-with-its-economic-chokehold-tehran-says) \| [The Hindu](https://www.thehindu.com/news/international/trumps-new-economic-squeeze-on-iran-has-big-challenge-china/article71391233.ece)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [France24](https://www.france24.com/en/iran-threatens-retaliation-as-ne
 
 Context: Iran has kept the Strait largely shut since the war began in February, choking off ~20% of global oil trade. The Iran-Oman framework creates a "joint temporary navigational corridor" for commercial ships only, with both sides agreeing to clear mines. Omani Foreign Minister Badr Albusaidi said he was hopeful a corridor would be announced soon. Trump stated Tuesday that all mines in international waters had been "removed or detonated" and warned of "zero tolerance" for new mines. However, preliminary Kpler data shows traffic remains a fraction of normal levels, and the US had previously objected to the military-vessel ban. This is either a genuine de-escalation step or a tactical pause — Oman has historically mediated between Iran and the West.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know) | [The Hindu](https://www.thehindu.com/news/international/iran-oman-hold-talks-on-managing-strait-of-hormuz/article71390541.ece) | [BBC](https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss) | [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/five-commodity-vessels-transited-hormuz-strait-tuesday "link may be dead")
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know) \| [The Hindu](https://www.thehindu.com/news/international/iran-oman-hold-talks-on-managing-strait-of-hormuz/article71390541.ece) \| [BBC](https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss) \| [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/five-commodity-vessels-transited-hormuz-strait-tuesday "link may be dead")
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-o
 
 Context: Iranian media has threatened Trump and his family since the war began in February, but naming 18-year-old Barron specifically — and putting a bounty on his head — marks a sharp rhetorical escalation. The Secret Service confirmed awareness and an active probe. Netanyahu's claim, made during a Channel 14 interview ahead of Israel's October election, was presented without evidence. Both narratives feed a political framing of Iran targeting leaders' families, which Washington and Jerusalem may use to justify further pressure.
 
-Sources: [France24](https://www.france24.com/en/iran-offers-10-million-to-kill-trump-s-son) | [Euronews](http://www.euronews.com/2026/08/26/us-secret-service-probes-iranian-video-threatening-barron-trump) | [BBC](https://www.bbc.co.uk/news/articles/cr50n9gnljgo?at_medium=RSS&at_campaign=rss) | [JPost](https://www.jpost.com/israel-news/article-906612)
+Sources: [France24](https://www.france24.com/en/iran-offers-10-million-to-kill-trump-s-son) \| [Euronews](http://www.euronews.com/2026/08/26/us-secret-service-probes-iranian-video-threatening-barron-trump) \| [BBC](https://www.bbc.co.uk/news/articles/cr50n9gnljgo?at_medium=RSS&at_campaign=rss) \| [JPost](https://www.jpost.com/israel-news/article-906612)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260823-iran-discov
 
 Context: The IDF says it targeted a Hamas ambush position approximately 70 meters from Kamal Adwan Hospital and 50 meters from the Yellow Line. BBC Verify analyzed footage from two deadly strikes. Medics and relatives report the 10-year-old girl was hit by a bullet inside her shelter. Separately, Israel's far-right National Security Minister Ben Gvir celebrated a raid on a West Bank UNRWA office, and the IDF warned of "forceful response" to kites flown from Gaza — which Hamas says were launched by children. Three Western allies (UK, Canada, Australia) condemned Israel for refusing a criminal probe into the 2024 killing of seven World Central Kitchen aid workers.
 
-Sources: [BBC](https://www.bbc.co.uk/news/articles/ce8x1rdgp3lo?at_medium=RSS&at_campaign=rss) | [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/ben-gvir-celebrates-israeli-raid-west-bank-unrwa-office "link may be dead") | [JPost](https://www.jpost.com/israel-news/defense-news/article-906650)
+Sources: [BBC](https://www.bbc.co.uk/news/articles/ce8x1rdgp3lo?at_medium=RSS&at_campaign=rss) \| [MEE](https://www.middleeasteye.net/live-blog/live-blog-update/ben-gvir-celebrates-israeli-raid-west-bank-unrwa-office "link may be dead") \| [JPost](https://www.jpost.com/israel-news/defense-news/article-906650)
 
 </details>
 
@@ -64,7 +64,7 @@ Sources: [BBC](https://www.bbc.co.uk/news/articles/ce8x1rdgp3lo?at_medium=RSS&at
 
 Context: BBC reports "significant expansion of building and road construction on Palestinian land occupied by Israel in recent years." MEE details how Jenin is being encircled by 11 newly approved settlements plus four revived ones, with nearly 200 dunams seized in July via military orders — including in Area A, nominally under full Palestinian Authority control. A permanent military base is being built in Jenin city, the first in Area A since Oslo. In East Jerusalem, Israeli forces led by Ben Gvir raided the Qalandiya Vocational Training Institute, evacuated 40 staff, and raised the Israeli flag; the UN condemned the seizure as a violation of international law. The Biden administration previously opposed such moves; the Trump administration has been silent. Forty-five Senate Democrats sent Netanyahu a joint letter urging restraint — a rare show of party unity on West Bank violence.
 
-Sources: [BBC](https://www.bbc.co.uk/news/articles/c2lq5g4dedpo?at_medium=RSS&at_campaign=rss) | [MEE](https://www.middleeasteye.net/news/my-land-forbidden-me-israels-settlement-push-encircles-jenin) | [JPost](https://www.jpost.com/israel-news/article-906646)
+Sources: [BBC](https://www.bbc.co.uk/news/articles/c2lq5g4dedpo?at_medium=RSS&at_campaign=rss) \| [MEE](https://www.middleeasteye.net/news/my-land-forbidden-me-israels-settlement-push-encircles-jenin) \| [JPost](https://www.jpost.com/israel-news/article-906646)
 
 </details>
 
@@ -75,7 +75,7 @@ Sources: [BBC](https://www.bbc.co.uk/news/articles/c2lq5g4dedpo?at_medium=RSS&at
 
 Context: Al-Sharaa (formerly Abu Mohammed al-Jolani) led HTS, which has roots in al-Qaeda's Syrian branch. The delisting is a massive symbolic and practical shift — it opens the door to reconstruction aid, banking access, and diplomatic normalization. Israel's defense minister, meanwhile, visited southern Syria and vowed to keep troops there indefinitely to "thwart threats" and prevent "consolidation of the new regime." Qatar condemned the Israeli minister's entry into Syrian territory as a violation of sovereignty.
 
-Sources: [BBC](https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss) | [The Hindu](https://www.thehindu.com/news/international/us-removes-syria-from-state-sponsor-of-terrorism-list/article71387074.ece) | [France24](https://www.france24.com/en/us-removes-syria-off-its-list-of-state-sponsors-of-terrorism)
+Sources: [BBC](https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss) \| [The Hindu](https://www.thehindu.com/news/international/us-removes-syria-from-state-sponsor-of-terrorism-list/article71387074.ece) \| [France24](https://www.france24.com/en/us-removes-syria-off-its-list-of-state-sponsors-of-terrorism)
 
 </details>
 

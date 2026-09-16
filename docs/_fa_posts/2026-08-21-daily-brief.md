@@ -18,7 +18,7 @@ models_used: ["muse-spark-1.2-contributor-free"]
 
 زمینه: ترامپ گفت ایران «دوست دارد توافق کند، اما به نظر من هنوز آماده توافق درست نیست»، در حالی که آمریکا روز پنجشنبه از متحدان و چین خواست به کارزار منزوی کردن اقتصاد ایران بپیوندند. واشنگتن در حال آماده شدن برای تشدید تحریم‌های اقتصادی است که آن را «روز اقتصادی دی-دی» توصیف کرده است.
 
-منابع: [aljazeera](https://www.aljazeera.com/news/liveblog/2026/8/22/iran-war-live-trump-says-tehran-not-ready-to-make-right-deal-to-end-war?traffic_source=rss) | [france24](https://www.france24.com/en/middle-east/20260821-us-warns-allies-and-china-to-join-iran-economic-pressure-campaign)
+منابع: [aljazeera](https://www.aljazeera.com/news/liveblog/2026/8/22/iran-war-live-trump-says-tehran-not-ready-to-make-right-deal-to-end-war?traffic_source=rss) \| [france24](https://www.france24.com/en/middle-east/20260821-us-warns-allies-and-china-to-join-iran-economic-pressure-campaign)
 
 </details>
 
@@ -36,7 +36,7 @@ models_used: ["muse-spark-1.2-contributor-free"]
 
 زمینه: این تهدید هم‌زمان با پایان مهلت ۶۰ روزه آتش‌بس مطرح شد. این اولین بار نیست که ترامپ عمان را تهدید می‌کند. این تهدید پس از آن مطرح شد که مقام‌ها در اقلیم کردستان عراق گفتند دو پهپاد ایرانی شبانه دفتر نخست‌وزیر را هدف قرار دادند.
 
-منابع: [france24](https://www.france24.com/en/trump-threatens-to-bomb-oman-as-its-ally-tires-to-mediate-iran-negotiations) | [france24](https://www.france24.com/en/middle-east/20260817-middle-east-live-us-envoy-kushner-to-meet-netanyahu-after-talks-with-hamas)
+منابع: [france24](https://www.france24.com/en/trump-threatens-to-bomb-oman-as-its-ally-tires-to-mediate-iran-negotiations) \| [france24](https://www.france24.com/en/middle-east/20260817-middle-east-live-us-envoy-kushner-to-meet-netanyahu-after-talks-with-hamas)
 
 </details>
 
@@ -47,7 +47,7 @@ models_used: ["muse-spark-1.2-contributor-free"]
 
 زمینه: رئیس‌جمهور پزشکیان گفت ایران در موضع «قدرت و عزت» قرار دارد و باید جنگ را با شرایط خود به پایان برساند. این اظهارات در حالی مطرح شد که وزرای خارجه عمان و ایران تماسی تلفنی داشتند و واشنگتن آماده تشدید تحریم‌های اقتصادی است که آن را «روز اقتصادی دی-دی» توصیف کرده است.
 
-منابع: [aljazeera](https://www.aljazeera.com/news/2026/8/22/iranian-president-says-time-to-end-war-with-us-from-position-of?traffic_source=rss) | [euronews](http://www.euronews.com/2026/08/21/irans-president-calls-for-end-to-war-from-position-of-power-as-us-ups-pressure)
+منابع: [aljazeera](https://www.aljazeera.com/news/2026/8/22/iranian-president-says-time-to-end-war-with-us-from-position-of?traffic_source=rss) \| [euronews](http://www.euronews.com/2026/08/21/irans-president-calls-for-end-to-war-from-position-of-power-as-us-ups-pressure)
 
 </details>
 

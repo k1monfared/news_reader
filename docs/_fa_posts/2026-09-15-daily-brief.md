@@ -1,9 +1,10 @@
 ---
 layout: post
 lang: fa
-title: "گزارش روزانه: ۲۴ شهریور ۱۴۰۵"
+title: "گزارش روزانه: ۲۴ شهریور ۱۴۰۵ (با تأخیر)"
 date: 2026-09-15
 date_fa: "۲۴ شهریور ۱۴۰۵"
+backfilled: true
 sources_down: []
 generated_at: "2026-09-16 12:31 UTC-07:00"
 models_used: ["deepseek-v4-flash"]
@@ -18,7 +19,7 @@ models_used: ["deepseek-v4-flash"]
 
 زمینه: [تأیید نشده] هر روایت تنها به دولت مطرح‌کننده آن نسبت داده شده است؛ هیچ تأیید مستقلی گزارش نشده است. خدمه کشتی ۲۵ نفر بودند — ۱۴ تبعه هند و ۱۱ تبعه پاکستان. طبق گزارش‌ها، کشتی در "حالت تاریک" کار می‌کرد و ترانسپوندرهایش خاموش بود. عکس‌های ۱۳ سپتامبر نشان می‌دهند که موتورخانه آسیب دیده است. تا ۱۵ سپتامبر، عمان گفت دو ملوان مفقود شده‌اند.
 
-منابع: [BBC](https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss) | [The Hindu](https://www.thehindu.com/news/international/tanker-hit-by-projectile-near-strait-of-hormuz-was-operating-in-dark-mode/article71469903.ece)
+منابع: [BBC](https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss) \| [The Hindu](https://www.thehindu.com/news/international/tanker-hit-by-projectile-near-strait-of-hormuz-was-operating-in-dark-mode/article71469903.ece)
 
 </details>
 
@@ -29,7 +30,7 @@ models_used: ["deepseek-v4-flash"]
 
 زمینه: این ارزیابی بازرس کل داخلی است، نه نقدی از بیرون. این ارزیابی کمبودهای راهبردی موجودی و گلوگاه‌های پایه صنعتی برای تدارک مجدد مهمات پس از هزینه‌های جنگ را شناسایی کرده است. این تناقض اهمیت دارد زیرا تضمین‌های عمومی درباره اندازه ذخایر آمریکا با ممیزی خود ارتش از موجودی و ظرفیت تدارک مجدد مطابقت ندارد.
 
-منابع: [BBC](https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss) | [The Hindu](https://www.thehindu.com/news/international/us-military-says-iran-war-has-led-to-munitions-shortfall/article71466628.ece)
+منابع: [BBC](https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss) \| [The Hindu](https://www.thehindu.com/news/international/us-military-says-iran-war-has-led-to-munitions-shortfall/article71466628.ece)
 
 </details>
 

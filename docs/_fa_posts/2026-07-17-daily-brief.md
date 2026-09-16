@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ اوایل این هفته تهدید کرده بود که پل‌های ایرانی را هدف قرار خواهد داد، و شب ۱۷-۱۸ ژوئیه آمریکا واقعاً این کار را کرد—پل‌های کلیدی و زیرساخت‌ها در جنوب ایران را تخریب کرد و برای اولین بار به مواضعی اطراف تهران حمله کرد. این نشان‌دهنده یک تشدید جغرافیایی فراتر از اهداف ساحلی و جنوبی است که آمریکا از زمان از سرگیری درگیری‌ها بر سر تنگه هرمز بیش از یک هفته پیش، آنها را هدف قرار داده است.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260716-middle-east-live-us-launches-fresh-strikes-on-iran-as-hormuz-remains-paralyzed) | [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/17/us-strikes-destroy-key-bridges-tower-in-southern-iran?traffic_source=rss)
+منابع: [France24](https://www.france24.com/en/middle-east/20260716-middle-east-live-us-launches-fresh-strikes-on-iran-as-hormuz-remains-paralyzed) \| [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/7/17/us-strikes-destroy-key-bridges-tower-in-southern-iran?traffic_source=rss)
 
 </details>
 

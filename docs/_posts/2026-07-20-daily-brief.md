@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The US has been hitting military command centers, air defense systems, and missile sites in Iran every night for over a week. Three US service members are now dead—two killed in an Iranian attack on a base in Jordan, and one killed in Iraq while disposing of unexploded ordnance from a downed Iranian drone. Iran has responded by launching strikes on US military assets in Bahrain (home of the Navy's 5th Fleet) and Kuwait, plus firing missiles at Jordan's coastal city of Aqaba that were intercepted by Israeli and Jordanian forces. Iran's president publicly declared this a "full-scale war" with the US on Monday.
 
-Sources: [France24 (main)](https://www.france24.com/en/middle-east/20260720-us-strikes-iran-ninth-consecutive-day-more-ships-targeted-strait-of-hormuz-kuwait-bahrain) | [France24 (liveblog)](https://www.france24.com/en/middle-east/20260719-middle-east-live-us-launches-strikes-to-punish-iran-after-troops-killed) | [France24 (deaths)](https://www.france24.com/en/middle-east/20260719-us-announces-death-of-another-service-member-jordan-summons-iranian-envoy-over-attacks) | [Euronews](http://www.euronews.com/2026/07/20/iran-launches-retaliatory-attacks-after-us-completes-ninth-night-of-strikes)
+Sources: [France24 (main)](https://www.france24.com/en/middle-east/20260720-us-strikes-iran-ninth-consecutive-day-more-ships-targeted-strait-of-hormuz-kuwait-bahrain) \| [France24 (liveblog)](https://www.france24.com/en/middle-east/20260719-middle-east-live-us-launches-strikes-to-punish-iran-after-troops-killed) \| [France24 (deaths)](https://www.france24.com/en/middle-east/20260719-us-announces-death-of-another-service-member-jordan-summons-iranian-envoy-over-attacks) \| [Euronews](http://www.euronews.com/2026/07/20/iran-launches-retaliatory-attacks-after-us-completes-ninth-night-of-strikes)
 
 </details>
 
@@ -35,7 +35,7 @@ Sources: [France24](https://www.france24.com/en/middle-east/20260719-middle-east
 
 Context: Iran responded to the US naval blockade of its ports by threatening to halt energy exports across the region and attacking more vessels in the Strait of Hormuz. The US reimposed the blockade last Wednesday during a 90-minute wave of daytime strikes on Iran. If Iran makes good on the threat to close the strait, global oil prices would spike immediately.
 
-Sources: [France24 (today)](https://www.france24.com/en/middle-east/20260720-us-strikes-iran-ninth-consecutive-day-more-ships-targeted-strait-of-hormuz-kuwait-bahrain) | [France24 (Wednesday)](https://www.france24.com/en/middle-east/20260715-us-launches-wave-of-strikes-on-iran-tehran-threatens-to-halt-regional-energy-exports)
+Sources: [France24 (today)](https://www.france24.com/en/middle-east/20260720-us-strikes-iran-ninth-consecutive-day-more-ships-targeted-strait-of-hormuz-kuwait-bahrain) \| [France24 (Wednesday)](https://www.france24.com/en/middle-east/20260715-us-launches-wave-of-strikes-on-iran-tehran-threatens-to-halt-regional-energy-exports)
 
 </details>
 
@@ -44,7 +44,7 @@ Sources: [France24 (today)](https://www.france24.com/en/middle-east/20260720-us-
 
 Context: Iran fired missiles at a US base in Jordan that killed two American troops, then launched another missile at the Jordanian city of Aqaba (a tourist and port city on the Red Sea). Jordan called in Iran's top diplomat in Amman to protest both attacks. The US Embassy in Jordan warned Americans to avoid Aqaba's airport and seaport because of a "specific and credible threat."
 
-Sources: [France24 (envoy)](https://www.france24.com/en/middle-east/20260719-us-announces-death-of-another-service-member-jordan-summons-iranian-envoy-over-attacks) | [France24 (Aqaba)](https://www.france24.com/en/israel-says-iran-s-missile-towards-jordan-s-aqaba-intercepted "link may be dead") | [France24 (Kuwait/Bahrain)](https://www.france24.com/en/kuwait-bahrain-respond-to-iranian-attacks-amid-growing-escalation)
+Sources: [France24 (envoy)](https://www.france24.com/en/middle-east/20260719-us-announces-death-of-another-service-member-jordan-summons-iranian-envoy-over-attacks) \| [France24 (Aqaba)](https://www.france24.com/en/israel-says-iran-s-missile-towards-jordan-s-aqaba-intercepted "link may be dead") \| [France24 (Kuwait/Bahrain)](https://www.france24.com/en/kuwait-bahrain-respond-to-iranian-attacks-amid-growing-escalation)
 
 </details>
 
@@ -55,7 +55,7 @@ Sources: [France24 (envoy)](https://www.france24.com/en/middle-east/20260719-us-
 
 Context: Ayatollah Khamenei declared Trump's signature on the framework ceasefire agreement "worthless and invalid," and an Iranian negotiator announced Tehran is suspending its commitments to the deal. But at the same time, Iran's foreign ministry said diplomacy remains an option, and mediators are now pushing for a 10-day ceasefire to try to revive the framework. Iran's Revolutionary Guard told Khamenei they consider his rejection of the deal "a binding command" and promised an "unforgettable lesson" for the US. [CAVEAT: The contradictory statements from Iran's foreign ministry versus the supreme leader and IRGC may reflect internal divisions or tactical positioning rather than a clear policy direction.]
 
-Sources: [Euronews (rejection)](http://www.euronews.com/2026/07/20/iran-launches-retaliatory-attacks-after-us-completes-ninth-night-of-strikes) | [Euronews (talks)](http://www.euronews.com/2026/07/20/irgc-pledges-unforgettable-lesson-for-us-as-iran-signals-return-to-talks)
+Sources: [Euronews (rejection)](http://www.euronews.com/2026/07/20/iran-launches-retaliatory-attacks-after-us-completes-ninth-night-of-strikes) \| [Euronews (talks)](http://www.euronews.com/2026/07/20/irgc-pledges-unforgettable-lesson-for-us-as-iran-signals-return-to-talks)
 
 </details>
 

@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The Wall Street Journal broke the story that Israeli troops used a secret base in Iraq to conduct attacks against Iran during the conflict. Al Jazeera reported that Israeli forces reportedly used this base to launch attacks against Iran during the war. The revelation could reshape our understanding of how the war was actually fought and represents a significant breach of Iraqi sovereignty.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/12/a-secret-israeli-base-in-iraq-what-we-know?traffic_source=rss) | [Al Jazeera Video](https://www.aljazeera.com/video/newsfeed/2026/5/12/report-alleges-israel-operated-covert-outpost-in-iraq-during-war-on-iran?traffic_source=rss)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/5/12/a-secret-israeli-base-in-iraq-what-we-know?traffic_source=rss) \| [Al Jazeera Video](https://www.aljazeera.com/video/newsfeed/2026/5/12/report-alleges-israel-operated-covert-outpost-in-iraq-during-war-on-iran?traffic_source=rss)
 
 </details>
 

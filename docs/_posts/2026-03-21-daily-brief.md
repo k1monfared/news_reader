@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: The US and Israel hit Iran's Natanz uranium enrichment facility earlier today. Iran responded by launching missiles at the Dimona area in southern Israel, where Israel's nuclear reactor is located. Israel's Defense Minister said strikes will "escalate significantly." IAEA Director General Grossi is calling for restraint from both sides.
 
-Sources: [Euronews German](https://de.euronews.com/2026/03/21/iran-israel-atom) | [Euronews Greek](https://gr.euronews.com/2026/03/21/epithesi-tou-iran-me-pyravlous-se-perioxi-tou-israil-me-pirinika-toulaxiston-40-travmaties) | [Euronews Arabic](https://arabic.euronews.com/2026/03/21/iran-bombs-dimona-in-retaliation-for-the-attack-on-natanz) | [Euronews Italian](https://it.euronews.com/2026/03/21/guerra-in-medio-oriente-trump-valutiamo-riduzione-sforzo-militare)
+Sources: [Euronews German](https://de.euronews.com/2026/03/21/iran-israel-atom) \| [Euronews Greek](https://gr.euronews.com/2026/03/21/epithesi-tou-iran-me-pyravlous-se-perioxi-tou-israil-me-pirinika-toulaxiston-40-travmaties) \| [Euronews Arabic](https://arabic.euronews.com/2026/03/21/iran-bombs-dimona-in-retaliation-for-the-attack-on-natanz) \| [Euronews Italian](https://it.euronews.com/2026/03/21/guerra-in-medio-oriente-trump-valutiamo-riduzione-sforzo-militare)
 
 </details>
 
@@ -26,7 +26,7 @@ Sources: [Euronews German](https://de.euronews.com/2026/03/21/iran-israel-atom) 
 
 Context: Diego Garcia hosts long-range bombers, naval facilities, and serves as a staging point for US operations across the Indo-Pacific and Middle East. Britain has commented on the attempted strike but details aren't clear yet. This is Iran's furthest-reaching attack so far.
 
-Sources: [Euronews Russian](https://ru.euronews.com/2026/03/21/iran-usa-nuclear-base-uk-chagos-oil) | [Euronews English](https://www.euronews.com/2026/03/21/iranian-attack-on-the-diego-garcia-military-base-its-location-and-strategic-role) | [Euronews Greek](https://gr.euronews.com/2026/03/21/iranikh-epithesh-bash-ntiegko-gkarsia-poy-brisketai-giati-einai-shmantikh)
+Sources: [Euronews Russian](https://ru.euronews.com/2026/03/21/iran-usa-nuclear-base-uk-chagos-oil) \| [Euronews English](https://www.euronews.com/2026/03/21/iranian-attack-on-the-diego-garcia-military-base-its-location-and-strategic-role) \| [Euronews Greek](https://gr.euronews.com/2026/03/21/iranikh-epithesh-bash-ntiegko-gkarsia-poy-brisketai-giati-einai-shmantikh)
 
 </details>
 
@@ -57,7 +57,7 @@ Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/3/21/bahrain-says-patr
 
 Context: Multiple sources say the White House is weighing options that include controlling Iranian ports and physically seizing nuclear materials. At the same time, the US is deploying more troops and warships to the Middle East, despite Trump's recent claims about reducing the military footprint.
 
-Sources: [Euronews French](https://fr.euronews.com/2026/03/21/trump-explore-les-options-pour-envoyer-une-force-terrestre-en-iran) | [Euronews English](https://www.euronews.com/2026/03/21/us-to-deploy-more-troops-and-warships-to-middle-east-despite-trump-claiming-to-wind-down-o) | [Euronews Hungarian](https://hu.euronews.com/2026/03/21/a-kikotok-ellenorzesetol-az-urankeszletek-lefoglalasaig-trump-szarazfoldi-erok-iranba-kuld)
+Sources: [Euronews French](https://fr.euronews.com/2026/03/21/trump-explore-les-options-pour-envoyer-une-force-terrestre-en-iran) \| [Euronews English](https://www.euronews.com/2026/03/21/us-to-deploy-more-troops-and-warships-to-middle-east-despite-trump-claiming-to-wind-down-o) \| [Euronews Hungarian](https://hu.euronews.com/2026/03/21/a-kikotok-ellenorzesetol-az-urankeszletek-lefoglalasaig-trump-szarazfoldi-erok-iranba-kuld)
 
 </details>
 
@@ -95,7 +95,7 @@ Sources: [Reuters](https://jp.reuters.com/markets/commodities/4PZAJST3M5OZ5E5YIG
 
 Context: The US Treasury designated a Polish firm for channeling funds to Hezbollah, showing enforcement efforts extending into Europe as the conflict widens.
 
-Sources: [Euronews Spanish](https://es.euronews.com/2026/03/21/el-departamento-del-tesoro-de-eeuu-sanciona-a-una-empresa-de-varsovia-por-apoyar-a-hezbola) | [Euronews Russian](https://ru.euronews.com/2026/03/21/sanctions-polish-company)
+Sources: [Euronews Spanish](https://es.euronews.com/2026/03/21/el-departamento-del-tesoro-de-eeuu-sanciona-a-una-empresa-de-varsovia-por-apoyar-a-hezbola) \| [Euronews Russian](https://ru.euronews.com/2026/03/21/sanctions-polish-company)
 
 </details>
 

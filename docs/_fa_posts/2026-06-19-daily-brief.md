@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ و رئیس‌جمهور ایران پزشکیان یک توافق صلح موقت را روز چهارشنبه در ورسای در جریان نشست جی‌۷ امضا کردند و از امضای رسمی ۱۹ ژوئن که قرار بود در سوئیس اتفاق بیفتد جلو زدند. این توافق شامل جدول زمانی ۶۰ روزه برای یک توافق دائمی، رقیق‌سازی اورانیوم توسط ایران و یک صندوق بازسازی ۳۰۰ میلیارد دلاری است. ایران ارسال هیئت خود را به خاطر کمپین اسرائیل در لبنان به تأخیر انداخت و سوئیس اعلام کرد که مذاکرات بعدی که برای ۱۹ ژوئن برنامه‌ریزی شده بود به طور کامل به تعویق افتاد و ونس سفر خود به ژنو را لغو کرد.
 
-منابع: [France24](https://www.france24.com/en/us-iran-peace-negotiations-abruptly-called-off-amid-growing-criticism) | [France24](https://www.france24.com/en/uncertainty-remains-amid-postponed-us-iran-talks-and-continued-fighting-in-lebanon) | [France24](https://www.france24.com/en/tv-shows/the-debate/20260618-signing-off-trump-rushes-to-turn-page-on-iran-war)
+منابع: [France24](https://www.france24.com/en/us-iran-peace-negotiations-abruptly-called-off-amid-growing-criticism) \| [France24](https://www.france24.com/en/uncertainty-remains-amid-postponed-us-iran-talks-and-continued-fighting-in-lebanon) \| [France24](https://www.france24.com/en/tv-shows/the-debate/20260618-signing-off-trump-rushes-to-turn-page-on-iran-war)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: آتش‌بس در ۱۹ ژوئن پس از تبادلات کشنده که توافق صلح گسترده‌تر را تحت فشار جدی قرار داد به وقوع پیوست. آمار تلفات در منابع مختلف متفاوت است: یک گزارش ۲۰ لبنانی و ۴ سرباز اسرائیلی کشته را نشان می‌دهد، در حالی که گزارش دیگری ۱۸ کشته در حملات هوایی اسرائیل در سراسر جنوب لبنان امروز صبح و ۴ سرباز اسرائیلی کشته را ذکر می‌کند. ایتامار بن‌گویر وزیر امنیت ملی راست‌افراطی اسرائیل در واکنش به درگیری‌ها گفت «همه لبنان باید بسوزد» که نشان‌دهنده تشدید مشخص درگیری‌ها از زمان امضای توافق است.
 
-منابع: [France24](https://www.france24.com/en/israel-and-hezbollah-say-they-agree-to-truce-despite-renewed-attacks) | [France24](https://www.france24.com/en/video/20260619-israeli-military-strikes-southern-lebanon-as-us-iran-talks-are-postponed) | [France24](https://www.france24.com/en/uncertainty-remains-amid-postponed-us-iran-talks-and-continued-fighting-in-lebanon)
+منابع: [France24](https://www.france24.com/en/israel-and-hezbollah-say-they-agree-to-truce-despite-renewed-attacks) \| [France24](https://www.france24.com/en/video/20260619-israeli-military-strikes-southern-lebanon-as-us-iran-talks-are-postponed) \| [France24](https://www.france24.com/en/uncertainty-remains-amid-postponed-us-iran-talks-and-continued-fighting-in-lebanon)
 
 </details>
 
@@ -49,7 +49,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: برداشتن محاصره بخشی از توافق موقت امضا شده روز چهارشنبه بود. جی.دی. ونس روز پنجشنبه اعلام کرد ۱۲.۵ میلیون بشکه یک‌شبه عبور کرد که نشانه مشخصی است که توافق حتی با از هم پاشیدن فرآیند دیپلماتیک تأثیرات اقتصادی فوری دارد.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260617-middle-east-live-trump-iran-s-president-sign-deal-to-end-mideast-war) | [France24](https://www.france24.com/en/middle-east/20260618-us-forces-lift-iran-ports-blockade-as-uncertainty-clouds-planned-switzerland-talks)
+منابع: [France24](https://www.france24.com/en/middle-east/20260617-middle-east-live-trump-iran-s-president-sign-deal-to-end-mideast-war) \| [France24](https://www.france24.com/en/middle-east/20260618-us-forces-lift-iran-ports-blockade-as-uncertainty-clouds-planned-switzerland-talks)
 
 </details>
 

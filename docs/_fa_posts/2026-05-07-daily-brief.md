@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: بیروت و حومه جنوبی آن از ۸ آوریل، زمانی که حملات گسترده اسرائیلی در سراسر لبنان بیش از ۳۵۰ نفر را کشت، دست‌نخورده از حملات اسرائیلی باقی مانده بود. آتش‌بس نزدیک به یک ماه قبل از این حمله برقرار بود.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260506-middle-east-war-live-trump-pauses-us-strait-of-hormuz-escort-operation) | [Euronews](http://www.euronews.com/2026/05/07/israel-strikes-beirut-for-first-time-since-ceasefire-reportedly-killing-hezbollah-commande)
+منابع: [France24](https://www.france24.com/en/middle-east/20260506-middle-east-war-live-trump-pauses-us-strait-of-hormuz-escort-operation) \| [Euronews](http://www.euronews.com/2026/05/07/israel-strikes-beirut-for-first-time-since-ceasefire-reportedly-killing-hezbollah-commande)
 
 </details>
 
@@ -27,7 +27,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: جدول زمانی نشان‌دهنده سیگنال‌های متناقض است: آمریکا روز سه‌شنبه پایان عملیات تهاجمی را اعلام کرد، اما به طور جداگانه عملیات نظامی موفق دوشنبه برای بازگشایی تنگه را گزارش داد، که حدود یک پنجم از ترافیک نفت جهانی را مدیریت می‌کند. این نشان می‌دهد واقعیت‌های نظامی در میدان مستقل از موضع‌گیری دیپلماتیک حرکت کردند.
 
-منابع: [France24](https://www.france24.com/en/middle-east/20260504-us-and-uae-report-iran-attacks-as-military-pushes-to-reopen-strait-of-hormuz) | [France24](https://www.france24.com/en/middle-east/20260505-rubio-says-us-military-has-completed-offensive-operations-in-iran)
+منابع: [France24](https://www.france24.com/en/middle-east/20260504-us-and-uae-report-iran-attacks-as-military-pushes-to-reopen-strait-of-hormuz) \| [France24](https://www.france24.com/en/middle-east/20260505-rubio-says-us-military-has-completed-offensive-operations-in-iran)
 
 </details>
 
@@ -56,7 +56,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: توقف صریحاً به پیشرفت دیپلماتیک مرتبط است. روبیو گفت آمریکا روز سه‌شنبه عملیات تهاجمی را تکمیل کرد اما نسبت به تهدیدهای جدید هشدار داد که پاسخ "ویرانگر" خواهد داشت. این نشان‌دهنده یک آتش‌بس مشروط است، نه امتیاز یکطرفه.
 
-منابع: [France24](https://www.france24.com/en/us-suspends-hormuz-operation-washington-believes-close-to-deal-with-iran) | [France24](https://www.france24.com/en/middle-east/20260505-rubio-says-us-military-has-completed-offensive-operations-in-iran)
+منابع: [France24](https://www.france24.com/en/us-suspends-hormuz-operation-washington-believes-close-to-deal-with-iran) \| [France24](https://www.france24.com/en/middle-east/20260505-rubio-says-us-military-has-completed-offensive-operations-in-iran)
 
 </details>
 

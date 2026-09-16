@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump announced Saturday that the US and Israel agreed to hold off on new strikes, provided a deal to end the conflict is "rapidly" reached. He says the "perimeters of a deal" are agreed to. Iran's acting defense minister responded that the country would "neither be caught off guard nor remain passive" in the face of US threats. This marks a concrete pivot from active military operations to explicit diplomatic negotiations.
 
-Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/2/why-has-trump-halted-iran-attacks-and-what-is-the-deal-he-is-hinting-at?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz) | [Euronews](http://www.euronews.com/2026/08/02/trump-says-hes-cancelling-strikes-on-iran-as-perimeters-of-a-deal-agreed)
+Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/2/why-has-trump-halted-iran-attacks-and-what-is-the-deal-he-is-hinting-at?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz) \| [Euronews](http://www.euronews.com/2026/08/02/trump-says-hes-cancelling-strikes-on-iran-as-perimeters-of-a-deal-agreed)
 
 </details>
 

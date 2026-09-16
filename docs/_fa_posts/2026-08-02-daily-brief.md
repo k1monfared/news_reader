@@ -18,7 +18,7 @@ models_used: ["claude-sonnet-4-5"]
 
 زمینه: ترامپ روز شنبه اعلام کرد که آمریکا و اسرائیل توافق کردند از حملات جدید خودداری کنند، به شرطی که توافقی برای پایان دادن به درگیری «به سرعت» حاصل شود. او می‌گوید «محدوده‌های یک توافق» مورد توافق قرار گرفته است. سرپرست وزیر دفاع ایران در پاسخ گفت که کشور «نه غافلگیر خواهد شد و نه منفعل خواهد ماند» در مواجهه با تهدیدهای آمریکا. این نشان‌دهنده یک تغییر مشخص از عملیات‌های نظامی فعال به مذاکرات دیپلماتیک صریح است.
 
-منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/8/2/why-has-trump-halted-iran-attacks-and-what-is-the-deal-he-is-hinting-at?traffic_source=rss) | [France 24](https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz) | [Euronews](http://www.euronews.com/2026/08/02/trump-says-hes-cancelling-strikes-on-iran-as-perimeters-of-a-deal-agreed)
+منابع: [Al Jazeera](https://www.aljazeera.com/news/2026/8/2/why-has-trump-halted-iran-attacks-and-what-is-the-deal-he-is-hinting-at?traffic_source=rss) \| [France 24](https://www.france24.com/en/middle-east/20260802-live-trump-says-us-to-stop-new-strikes-on-iran-calls-for-rapid-deal-on-hormuz) \| [Euronews](http://www.euronews.com/2026/08/02/trump-says-hes-cancelling-strikes-on-iran-as-perimeters-of-a-deal-agreed)
 
 </details>
 

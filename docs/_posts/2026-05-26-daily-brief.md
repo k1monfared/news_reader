@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: US Central Command targeted missile launch sites and boats placing mines in the Strait of Hormuz on May 25. Iran immediately accused the US of breaching the ceasefire. Awkward timing: this happened while Trump posted that negotiations were "proceeding nicely" and Rubio said a deal could come within days.
 
-Sources: [France24](https://www.france24.com/en/us-strikes-iranian-targets-amid-agreement-talks) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/26/tehran-labels-us-attacks-gross-violation-says-it-is-prepared-to-respond?traffic_source=rss) | [Euronews](http://www.euronews.com/2026/05/26/ayatollah-mojtaba-khamenei-breaks-silence-to-vow-no-us-military-bases-in-the-region)
+Sources: [France24](https://www.france24.com/en/us-strikes-iranian-targets-amid-agreement-talks) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/26/tehran-labels-us-attacks-gross-violation-says-it-is-prepared-to-respond?traffic_source=rss) \| [Euronews](http://www.euronews.com/2026/05/26/ayatollah-mojtaba-khamenei-breaks-silence-to-vow-no-us-military-bases-in-the-region)
 
 </details>
 
@@ -28,7 +28,7 @@ Sources: [France24](https://www.france24.com/en/us-strikes-iranian-targets-amid-
 
 Context: Despite the overnight strikes, both sides insist they're close to an agreement. Iran is pushing for unfreezing of Iranian funds as part of the deal and wants sovereignty over the Strait of Hormuz recognized. The US wants the strait reopened. Trump is reportedly moving closer to Iran's position on destroying enriched uranium. Growing American opposition to the war ahead of midterm elections is putting pressure on Washington to wrap this up, though Trump has also said he told diplomats not to "rush into a deal."
 
-Sources: [France24](https://www.france24.com/en/iran-looking-to-buy-time-to-rebuild-its-military-amid-talks-to-end-war) | [France24](https://www.france24.com/en/us-anxious-to-come-to-deal-with-iran-astehran-seeks-release-of-frozen-assets)
+Sources: [France24](https://www.france24.com/en/iran-looking-to-buy-time-to-rebuild-its-military-amid-talks-to-end-war) \| [France24](https://www.france24.com/en/us-anxious-to-come-to-deal-with-iran-astehran-seeks-release-of-frozen-assets)
 
 </details>
 
@@ -57,7 +57,7 @@ Sources: [Euronews](http://www.euronews.com/2026/05/26/ayatollah-mojtaba-khamene
 
 Context: Pezeshkian issued a concrete order to reopen international internet access after authorities imposed a blackout starting January 8 during protests, then reimposed it when US-Israeli strikes began February 28. But a court intervened before full restoration, leaving Iranians in legal and digital limbo. Some connectivity is flickering back regardless, according to live monitoring.
 
-Sources: [France24](https://www.france24.com/en/middle-east/20260525-middle-east-war-live-rubio-says-iran-deal-still-possible-monday) | [Euronews](http://www.euronews.com/2026/05/26/irans-internet-flickers-back-on-despite-judicial-halt-reports-claim)
+Sources: [France24](https://www.france24.com/en/middle-east/20260525-middle-east-war-live-rubio-says-iran-deal-still-possible-monday) \| [Euronews](http://www.euronews.com/2026/05/26/irans-internet-flickers-back-on-despite-judicial-halt-reports-claim)
 
 </details>
 

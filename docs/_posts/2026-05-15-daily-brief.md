@@ -17,7 +17,7 @@ models_used: ["claude-sonnet-4-5"]
 
 Context: Trump raised expectations before heading to Beijing, but the summit concluded with the two leaders moving toward a "business-first relationship" while punting on the hard stuff. According to Trump and France24, Xi offered China's help reopening the Strait of Hormuz and promised not to send weapons to Iran. However, Euronews reports that on Taiwan and the broader Iran conflict, China didn't budge, and investors weren't impressed. The U.S. and China also disagreed afterward on what was actually agreed upon during the talks.
 
-Sources: [Euronews](http://www.euronews.com/2026/05/15/underwhelming-summit-outcome-in-china-brings-trump-back-to-reality) | [Al Jazeera](https://www.aljazeera.com/news/2026/5/15/trump-and-xi-move-towards-business-first-relationship-after-beijing-summit?traffic_source=rss) | [France24](https://www.france24.com/en/trump-says-xi-offered-help-to-open-hormuz-vowed-not-to-arm-iran)
+Sources: [Euronews](http://www.euronews.com/2026/05/15/underwhelming-summit-outcome-in-china-brings-trump-back-to-reality) \| [Al Jazeera](https://www.aljazeera.com/news/2026/5/15/trump-and-xi-move-towards-business-first-relationship-after-beijing-summit?traffic_source=rss) \| [France24](https://www.france24.com/en/trump-says-xi-offered-help-to-open-hormuz-vowed-not-to-arm-iran)
 
 </details>
 
