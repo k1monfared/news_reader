@@ -1,11 +1,21 @@
 name: Probe Models (Phase 0)
 
-# Phase 0 dry run: authenticated probe of free Zen models with the real key.
+# Phase 0 dry run: authenticated probe of Zen/Go models with the real key.
 # No pipeline changes, no commits. Manually dispatched; uploads
-# probe_results.json so the go/no-go for the full selector can be decided
-# on evidence (does OPENCODE_API_KEY flip any free model GATED -> OK?).
+# probe_results.json so model/provider decisions are made on evidence.
 on:
   workflow_dispatch:
+    inputs:
+      base_url:
+        description: 'API base (zen or go catalog)'
+        default: 'https://opencode.ai/zen/v1'
+        required: false
+        type: string
+      models:
+        description: 'Comma-separated model ids (empty = auto free candidates)'
+        default: ''
+        required: false
+        type: string
 
 permissions:
   contents: read
@@ -21,10 +31,13 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Probe free models (authenticated)
+      - name: Probe models (authenticated)
         env:
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
-        run: python scripts/probe_models.py --out probe_results.json
+        run: >-
+          python scripts/probe_models.py --out probe_results.json
+          --base "${{ inputs.base_url }}"
+          --models "${{ inputs.models }}"
 
       - name: Upload probe results
         if: always()
