@@ -9700,6 +9700,26 @@
         "example_text": "BBC Verify looks at footage from two deadly strikes in under 24 hours in Gaza.",
         "example_url": "https://www.bbc.co.uk/news/videos/cp3rgxzk5x2o?at_medium=RSS&at_campaign=rss",
         "unbiased_text": "The BBC examined footage from two deadly strikes in under 24 hours in Gaza."
+      },
+      {
+        "pattern": "Unattributed illegality editorialization",
+        "detail": "The BBC asserts the occupied West Bank is 'illegally occupied' without quoting a legal body or authority, embedding a contested legal conclusion as neutral description.",
+        "debias": "Attribute the illegality designation to a specific authority (e.g., the UK government's position or UN ruling) rather than stating it as uncontested fact.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "Ed Miliband confirms the UK will ban the import of goods from Israeli settlements in the illegally occupied West Bank.",
+        "example_url": "https://www.bbc.co.uk/news/videos/c5yjp3xylxjo",
+        "unbiased_text": "Ed Miliband confirms the UK will ban the import of goods from Israeli settlements in the West Bank, which the UK government considers illegally occupied."
+      },
+      {
+        "pattern": "Bilateral relations low-point superlative",
+        "detail": "The headline characterizes British-Israeli relations with an unquantified superlative ('lowest ebb in decades') that dramatizes the diplomatic rift without providing comparative metrics or evidence.",
+        "debias": "Use specific diplomatic indicators such as recalled ambassadors, cancelled visits, or trade actions instead of dramatic historical superlatives.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "British-Israeli relations at lowest ebb in decades",
+        "example_url": "https://www.bbc.co.uk/news/articles/c5ydlex9yn3o",
+        "unbiased_text": "British-Israeli relations deteriorate following UK sanctions on settlements"
       }
     ]
   },
