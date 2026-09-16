@@ -16,6 +16,11 @@ on:
         default: ''
         required: false
         type: string
+      session_id:
+        description: 'Stable session id for x-opencode-session (Go catalog)'
+        default: ''
+        required: false
+        type: string
 
 permissions:
   contents: read
@@ -38,6 +43,7 @@ jobs:
           python scripts/probe_models.py --out probe_results.json
           --base "${{ inputs.base_url }}"
           --models "${{ inputs.models }}"
+          --session-id "${{ inputs.session_id }}"
 
       - name: Upload probe results
         if: always()
