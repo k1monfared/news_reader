@@ -3616,6 +3616,16 @@
         "example_text": "War on Iran: US bombs Iran",
         "example_url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/war-on-iran-us-bombs-iran?traffic_source=rss",
         "unbiased_text": "US strikes on Iran; Iran retaliates"
+      },
+      {
+        "pattern": "Host country refugee burden",
+        "detail": "Al Jazeera frames the Yemeni exodus to Djibouti primarily as a burden on the host country calling for assistance, whereas other outlets focus on the humanitarian crisis facing the displaced.",
+        "debias": "When summarizing, balance host-state needs with the experiences and rights of the refugees themselves.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "Djibouti calls for assistance as thousands of Yemenis flee to country",
+        "example_url": "https://www.aljazeera.com/news/2026/9/16/djibouti-calls-for-assistance-as-thousands-of-yemenis-flee-to-country",
+        "unbiased_text": "Thousands of Yemenis flee to Djibouti, which requests international assistance"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -9716,6 +9726,26 @@
         "example_text": "Achilles Shield: Israel, Greece sign over NIS 10b. air defense deal against Turkey",
         "example_url": "https://www.jpost.com/israel-news/defense-news/article-907112",
         "unbiased_text": "Israel, Greece sign $3.5bn multi-layered air defense deal"
+      },
+      {
+        "pattern": "Terrorist group headline labeling",
+        "detail": "JPost labels the Houthis as a 'terror group' in a news headline where other outlets use neutral terms like 'rebels' or 'military spokesman'.",
+        "debias": "When summarizing, avoid adopting partisan labels and instead use the group's own name or neutral descriptor.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "Houthis downed Saudi F-15 fighter jet over Marib, Yemen, terror group spox. claims",
+        "example_url": "https://www.jpost.com/middle-east/article-908742",
+        "unbiased_text": "Houthi spokesman claims group shot down Saudi F-15 fighter jet over Marib, Yemen"
+      },
+      {
+        "pattern": "Attempted attack as accomplished attack",
+        "detail": "JPost frames an intercepted drone near Mecca as an 'attack on Mecca' in a headline, omitting that it was stopped before entering prohibited airspace.",
+        "debias": "When summarizing, distinguish between an actual attack and an attempted or intercepted strike.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "Even an attack on Mecca isn't enough to unite the Middle East against Iran, analyst tells 'Post'",
+        "example_url": "https://www.jpost.com/middle-east/iran-news/article-908807",
+        "unbiased_text": "Even a reported attempt to attack Mecca isn't enough to unite the Middle East against Iran, analyst tells 'Post'"
       }
     ]
   },
@@ -9804,6 +9834,16 @@
         "example_text": "Court says India must uphold Pakistan water treaty",
         "example_url": "https://www.dw.com/en/court-says-india-must-uphold-pakistan-water-treaty/a-78579010?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "International tribunal rules India must comply with Indus Waters Treaty obligations"
+      },
+      {
+        "pattern": "Rescue obstruction attribution",
+        "detail": "DW emphasizes Israeli restrictions on heavy machinery as the reason search efforts were hampered after the Gaza building collapse, a causal attribution not made in other coverage.",
+        "debias": "When summarizing, report the operational limitation without assigning sole responsibility to one party unless verified.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "The search for survivors has been hampered by Israeli restrictions on heavy machinery in the Gaza Strip.",
+        "example_url": "https://www.dw.com/en/gaza-at-least-21-dead-including-children-in-building-collapse/a-79293453",
+        "unbiased_text": "The search for survivors is continuing; heavy machinery is not available in the Gaza Strip."
       }
     ]
   },
