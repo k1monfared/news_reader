@@ -7160,6 +7160,17 @@
         "example_url": "http://www.france24.com/en/middle-east/20260912-saudi-arabia-shut-down-east-west-pipeline-as-houthis-tighten-grip-on-red-sea",
         "unbiased_text": "عربستان سعودی خط لوله شرقی-غربی را پس از حمله به آن می‌بندد",
         "pattern_en": "Grip Metaphor Incremental Control"
+      },
+      {
+        "pattern": "انتساب فشار به زمانبندی انتخابات",
+        "detail": "این مقاله حملات حوثیها به متحدان آمریکا را به «فشار فزاینده بر واشنگتن» در حالی که ترامپ به سمت یک انتخابات میرود مرتبط میکند و به این معناست که این درگیری عمدتاً اهرمی برای سیاست انتخاباتی آمریکاست.",
+        "debias": "وقایع را بدون نسبت دادن انگیزه‌های فشار انتخاباتی یا قاب‌بندی منازعات خارجی به عنوان فشار سیاسی داخلی گزارش کنید.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "فشار فزاینده بر واشنگتن در حالی که این گروه متحدان آمریکا را هدف قرار می‌دهد و دونالد ترامپ به انتخابات سرنوشت‌سازی نزدیک می‌شود",
+        "example_url": "http://www.france24.com/en/video/20260913-yemen-the-houthis-test-iran-s-regional-influence",
+        "unbiased_text": "پیوندهای حوثی‌ها با ایران و حملات آنها به متحدان آمریکا",
+        "pattern_en": "Election Timing Pressure Attribution"
       }
     ]
   },
@@ -11006,6 +11017,17 @@
         "example_url": "https://www.dw.com/en/gaza-at-least-21-dead-including-children-in-building-collapse/a-79293453",
         "unbiased_text": "جستوجو برای یافتن بازماندگان ادامه دارد؛ ماشینآلات سنگین در نوار غزه در دسترس نیست.",
         "pattern_en": "Rescue obstruction attribution"
+      },
+      {
+        "pattern": "قالب‌بندی جنجال ابهام‌آمیز باقی‌مانده",
+        "detail": "گزارشی درباره یک پیروزی بزرگ ورزشی بلافاصله عبارت «اما هنوز جنجال بر سر او باقی است» را اضافه می‌کند بدون اینکه ماهیت جنجال را مشخص کند و به این ترتیب دستاورد را به طرز ظریفی مخدوش می‌کند.",
+        "debias": "اگر جنجال مرتبط است، آن را به طور مشخص بیان کنید؛ در غیر این صورت آن را از گزارش پیروزی حذف کنید.",
+        "date_added": "2026-09-16",
+        "status": "suggested",
+        "example_text": "این دومین قهرمانی گرند اسلم زورف در سال ۲۰۲۶ پس از انتظاری طولانی برای اولین عنوان اوست، اما هنوز جنجال بر سر او باقی است.",
+        "example_url": "https://www.dw.com/en/germany-s-zverev-wins-us-open-in-golden-year/a-79212706?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "این دومین قهرمانی گرند اسلم زورف در سال ۲۰۲۶ پس از انتظاری طولانی برای اولین عنوان اوست.",
+        "pattern_en": "Unspecified Controversy Lingering Framing"
       }
     ]
   },
