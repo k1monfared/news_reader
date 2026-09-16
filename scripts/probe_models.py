@@ -136,6 +136,10 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="probe_results.json")
     ap.add_argument("--base", default=os.environ.get("OPENCODE_API_BASE_URL", DEFAULT_BASE_URL))
+    ap.add_argument("--models", default="",
+                    help="Comma-separated explicit model ids to probe. "
+                         "If empty, auto-discover free candidates (ids ending "
+                         "-free + allowlist) on --base.")
     args = ap.parse_args()
 
     key = os.environ.get("OPENCODE_API_KEY", "")
@@ -154,8 +158,16 @@ def main() -> int:
         return 3
 
     candidates = sorted([i for i in live_ids if i.endswith("-free") or i in ALLOWLIST])
-    print(f"live models: {len(live_ids)}, free candidates: {len(candidates)}")
+    if args.models.strip():
+        wanted = [m.strip() for m in args.models.split(",") if m.strip()]
+        missing = [m for m in wanted if m not in live_ids]
+        if missing:
+            print(f"WARNING: not on {args.base}/models: " + ", ".join(missing),
+                  file=sys.stderr)
+        candidates = wanted
+    print(f"live models: {len(live_ids)}, candidates: {len(candidates)}")
     print("candidates: " + ", ".join(candidates))
+    print(f"base: {args.base}")
 
     results = []
     for model in candidates:
@@ -181,6 +193,7 @@ def main() -> int:
     gated = [r["id"] for r in results if r["outcome"] == "GATED" or r.get("fallback_outcome") == "GATED"]
     summary = {
         "key_health": "OK",
+        "base": args.base,
         "total": len(results),
         "ok": [r["id"] for r in ok],
         "all_gated": len(ok) == 0 and len(gated) == len(results) and len(results) > 0,
@@ -189,9 +202,9 @@ def main() -> int:
         json.dump({"key_health": "OK", "candidates": results, "summary": summary}, f, indent=2)
     print(f"\nOK: {summary['ok'] or 'NONE'}")
     if not ok:
-        print("NONE_ACCESSIBLE: no free model answered under this key. "
-              "If all are GATED, the free tier is session-gated; revisit the "
-              "paid-fallback decision with this evidence.", file=sys.stderr)
+        print("NONE_ACCESSIBLE: no candidate model answered under this key. "
+              "If all are GATED, the tier is session-gated; revisit the "
+              "model/provider decision with this evidence.", file=sys.stderr)
         return 1
     return 0
 
