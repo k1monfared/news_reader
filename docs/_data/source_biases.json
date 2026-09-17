@@ -9846,6 +9846,16 @@
         "example_text": "Pastor of Prestonwood Baptist Church, he is one of the most respected Christian voices championing Israel today.",
         "example_url": "https://www.jpost.com/influencers-26/pro-israel-christians/article-907455",
         "unbiased_text": "Pastor of Prestonwood Baptist Church, he is a Christian voice supporting Israel."
+      },
+      {
+        "pattern": "Donor benevolence framing",
+        "detail": "JPost presents Robert Kraft's $2m donation as a purely humanitarian gesture with a conciliatory quote, omitting the surrounding allegation that Kraft pressured Ed Sheeran to drop Macklemore over pro-Palestinian remarks.",
+        "debias": "When reporting donations in controversies, include the surrounding dispute and both parties' stated motivations rather than isolating the donor's self-description.",
+        "date_added": "2026-09-17",
+        "status": "suggested",
+        "example_text": "\"I have supported efforts that create opportunity for Palestinians and have brought young Palestinians and Israelis together,\" Kraft said in a statement.",
+        "example_url": "https://www.jpost.com/diaspora/antisemitism/article-908916",
+        "unbiased_text": "After Macklemore pledged $1m to Palestinian aid and alleged Kraft pressured venues to drop him, Kraft announced $2m, saying he has supported efforts to create opportunity for Palestinians."
       }
     ]
   },
@@ -9872,6 +9882,26 @@
         "example_text": "Araghchi blames 'serpent' Netanyahu for luring Washington into war on Iran",
         "example_url": "https://www.middleeasteye.net/news/serpent-netanyahu-suckered-washington-fighting-israels-war-iran-araghchi-says",
         "unbiased_text": "Iranian Foreign Minister Araghchi accuses Netanyahu of drawing the US into war with Iran"
+      },
+      {
+        "pattern": "War-crime finding certainty escalation",
+        "detail": "MEE upgrades the UN experts' cautious legal finding of 'reasonable grounds to believe' into a 'confirmed' determination that the attacks are 'tantamount to war crimes', whereas other outlets use 'possible' or 'grounds to believe'.",
+        "debias": "Use the exact legal threshold and modal language of the underlying report when describing international findings.",
+        "date_added": "2026-09-17",
+        "status": "suggested",
+        "example_text": "UN Human rights experts have confirmed following a fact-finding mission that they have \"reasonable grounds\" to believe that the US attacks on an Iranian school and a sports facility in February are tantamount to war crimes.",
+        "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-rights-experts-say-us-likely-committed-war-crimes-iran",
+        "unbiased_text": "UN Human rights experts say they have 'reasonable grounds' to believe that US attacks on an Iranian school and a sports facility in February could amount to war crimes."
+      },
+      {
+        "pattern": "Visa denial speech ban reframing",
+        "detail": "MEE headlines the US action as a ban on the Palestinian president 'speaking' at the UN, escalating a visa denial into a suppression-of-speech frame, while other outlets describe it as a visa denial or block from attending.",
+        "debias": "Describe the administrative action accurately as a visa denial or attendance block rather than expanding it into a ban on speaking.",
+        "date_added": "2026-09-17",
+        "status": "suggested",
+        "example_text": "US bans Palestinian president from speaking at the UN",
+        "example_url": "https://www.middleeasteye.net/news/us-bans-palestinian-president-speaking-un-again-over-icc-icj-action-against-israel",
+        "unbiased_text": "US again denies Palestinian President Abbas a visa to attend the UN General Assembly."
       }
     ]
   },
@@ -10040,6 +10070,16 @@
         "example_text": "FBI chief Kash Patel defends hiring policy changes on prostitution, bestiality at fiery hearing",
         "example_url": "https://www.thehindu.com/news/international/fbi-chief-kash-patel-defends-hiring-policy-changes-on-prostitution-bestiality-at-fiery-hearing/article71470146.ece",
         "unbiased_text": "FBI chief Kash Patel defends FBI hiring policy changes at Senate hearing."
+      },
+      {
+        "pattern": "Accusation-as-fact headline framing",
+        "detail": "The Hindu's headline 'India voices concern over attempted drone attack on Mecca' presents the Houthi drone attack as an established fact, whereas other outlets attribute the claim to Saudi Arabia or note Houthi denials.",
+        "debias": "Attribute contested claims to the accuser and flag the lack of independent confirmation when writing headlines.",
+        "date_added": "2026-09-17",
+        "status": "suggested",
+        "example_text": "India voices concern over attempted drone attack on Mecca",
+        "example_url": "https://www.thehindu.com/news/national/india-voices-concern-over-attempted-drone-attack-on-mecca/article71472296.ece",
+        "unbiased_text": "India voices concern over Saudi Arabia's allegation that the Houthis attempted a drone attack on Mecca."
       }
     ]
   }
