@@ -10922,6 +10922,17 @@
         "example_url": "https://www.jpost.com/influencers-26/pro-israel-christians/article-907455",
         "unbiased_text": "کشیش کلیسای باپتیست پرستونوود، او یک چهره مسیحی حامی اسرائیل است.",
         "pattern_en": "Uncritical Christian Zionist profiling"
+      },
+      {
+        "pattern": "قاب‌بندی خیرخواهانه اهداکننده",
+        "detail": "جی‌پست کمک ۲ میلیون دلاری رابرت کرافت را با نقل‌قولی آشتی‌جویانه به‌عنوان ژستی صرفاً بشردوستانه معرفی می‌کند و اتهام مربوطه مبنی بر اینکه کرافت به اد شیرن فشار آورده تا مکلمور را به‌خاطر اظهارات حامی فلسطین کنار بگذارد را نادیده می‌گیرد.",
+        "debias": "هنگام گزارش کمک‌های مالی در جنجال‌ها، اختلاف پیرامونی و انگیزه‌های اعلام‌شده هر دو طرف را لحاظ کنید، نه اینکه صرفاً خودتوصیفی اهداکننده را جدا کنید.",
+        "date_added": "2026-09-17",
+        "status": "suggested",
+        "example_text": "کرافت در بیانیه‌ای گفت: «من از تلاش‌هایی حمایت کرده‌ام که فرصت‌هایی برای فلسطینی‌ها ایجاد می‌کند و جوانان فلسطینی و اسرائیلی را گرد هم آورده است.»",
+        "example_url": "https://www.jpost.com/diaspora/antisemitism/article-908916",
+        "unbiased_text": "پس از اینکه مکلمور یک میلیون دلار به کمک به فلسطینی‌ها تعهد کرد و ادعا کرد کرافت به سالن‌های برگزاری کنسرت فشار آورده تا او را کنار بگذارند، کرافت ۲ میلیون دلار اعلام کرد و گفت که از تلاش‌ها برای ایجاد فرصت برای فلسطینی‌ها حمایت کرده است.",
+        "pattern_en": "Donor benevolence framing"
       }
     ]
   },
@@ -10950,6 +10961,28 @@
         "example_url": "https://www.middleeasteye.net/news/serpent-netanyahu-suckered-washington-fighting-israels-war-iran-araghchi-says",
         "unbiased_text": "Iranian Foreign Minister Araghchi accuses Netanyahu of drawing the US into war with Iran",
         "pattern_en": "Adversarial rhetoric headline amplification"
+      },
+      {
+        "pattern": "تشدید قطعیت در یافتن جنایت جنگی",
+        "detail": "میدل ایست آی گزارش حقوقی محتاطانه کارشناسان سازمان ملل را که حاکی از «دلایل منطقی برای باور» است، به تعیین «تأییدشده» ارتقا می‌دهد که حملات «معادل جنایت جنگی» هستند، در حالی که رسانه‌های دیگر از «احتمالی» یا «دلایلی برای باور» استفاده می‌کنند.",
+        "debias": "هنگام توصیف یافته‌های بین‌المللی، از آستانه حقوقی دقیق و زبان وجهیِ گزارش اصلی استفاده کنید.",
+        "date_added": "2026-09-17",
+        "status": "suggested",
+        "example_text": "کارشناسان حقوق بشر سازمان ملل پس از یک مأموریت حقیقت‌یاب تأیید کرده‌اند که «دلایل منطقی» دارند باور کنند حملات آمریکا به یک مدرسه ایرانی و یک مرکز ورزشی در فوریه معادل جنایت جنگی است.",
+        "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-rights-experts-say-us-likely-committed-war-crimes-iran",
+        "unbiased_text": "کارشناسان حقوق بشر سازمان ملل می‌گویند «دلایل منطقی» دارند که باور کنند حملات آمریکا به یک مدرسه ایرانی و یک مرکز ورزشی در فوریه ممکن است به منزله جنایت جنگی باشد.",
+        "pattern_en": "War-crime finding certainty escalation"
+      },
+      {
+        "pattern": "بازقالب‌بندی انکار ویزا به ممنوعیت سخنرانی",
+        "detail": "MEE اقدام آمریکا را به عنوان ممنوعیت «سخنرانی» رئیس‌جمهور فلسطین در سازمان ملل عنوان کرده است و بدین ترتیب انکار ویزا را به چارچوب سرکوب آزادی بیان تبدیل می‌کند، در حالی که سایر رسانه‌ها آن را انکار ویزا یا جلوگیری از حضور توصیف می‌کنند.",
+        "debias": "اقدام اداری را به‌دقت به عنوان انکار ویزا یا جلوگیری از حضور توصیف کنید، نه اینکه آن را به ممنوعیت سخنرانی گسترش دهید.",
+        "date_added": "2026-09-17",
+        "status": "suggested",
+        "example_text": "آمریکا رئیس‌جمهور فلسطین را از سخنرانی در سازمان ملل منع کرد",
+        "example_url": "https://www.middleeasteye.net/news/us-bans-palestinian-president-speaking-un-again-over-icc-icj-action-against-israel",
+        "unbiased_text": "آمریکا بار دیگر ویزای حضور محمود عباس، رئیس‌جمهور فلسطین، در مجمع عمومی سازمان ملل را رد کرد.",
+        "pattern_en": "Visa denial speech ban reframing"
       }
     ]
   },
@@ -11133,6 +11166,17 @@
         "example_url": "https://www.thehindu.com/news/international/fbi-chief-kash-patel-defends-hiring-policy-changes-on-prostitution-bestiality-at-fiery-hearing/article71470146.ece",
         "unbiased_text": "رییس افبیآی، کش پاتل، در جلسه استماع سنا از تغییرات سیاست استخدامی افبیآی دفاع میکند.",
         "pattern_en": "Taboo Detail Headline Sensationalism"
+      },
+      {
+        "pattern": "قالببندی تیتر اتهام بهعنوان واقعیت",
+        "detail": "تیتر The Hindu با عنوان «هند نگرانی خود را دربارهٔ تلاش برای حملهٔ پهپادی به مکه ابراز کرد» حملهٔ پهپادی حوثیها را بهعنوان یک واقعیت اثباتشده ارائه میدهد، در حالی که رسانههای دیگر این ادعا را به عربستان سعودی نسبت میدهند یا انکار حوثیها را ذکر میکنند.",
+        "debias": "ادعاهای مورد مناقشه را به طرف اتهام‌زننده نسبت دهید و هنگام نوشتن تیتر، فقدان تأیید مستقل را مشخص کنید.",
+        "date_added": "2026-09-17",
+        "status": "suggested",
+        "example_text": "هند نگرانی خود را دربارهٔ تلاش برای حملهٔ پهپادی به مکه ابراز کرد",
+        "example_url": "https://www.thehindu.com/news/national/india-voices-concern-over-attempted-drone-attack-on-mecca/article71472296.ece",
+        "unbiased_text": "هند نگرانی خود را دربارهٔ ادعای عربستان سعودی مبنی بر تلاش حوثی‌ها برای حملهٔ پهپادی به مکه ابراز کرد.",
+        "pattern_en": "Accusation-as-fact headline framing"
       }
     ]
   }
