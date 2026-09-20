@@ -3626,6 +3626,16 @@
         "example_text": "Djibouti calls for assistance as thousands of Yemenis flee to country",
         "example_url": "https://www.aljazeera.com/news/2026/9/16/djibouti-calls-for-assistance-as-thousands-of-yemenis-flee-to-country",
         "unbiased_text": "Thousands of Yemenis flee to Djibouti, which requests international assistance"
+      },
+      {
+        "pattern": "Religious site storm metaphor",
+        "detail": "Al Jazeera repeatedly uses the verb 'storm' to describe Israeli officials and settlers moving through Al-Aqsa/Western Wall areas, which implies violent forced entry rather than a visit.",
+        "debias": "When describing access to sensitive religious sites, choose neutral verbs such as 'enter' or 'visit' unless forced entry is actually documented.",
+        "date_added": "2026-09-20",
+        "status": "suggested",
+        "example_text": "Netanyahu storms Western Wall tunnels amid Yom Kippur settler incursions, drawing fierce condemnation.",
+        "example_url": "https://www.aljazeera.com/news/2026/9/20/israeli-settlers-storm-al-aqsa-in-latest-targeting-of-east-jerusalem-sites?traffic_source=rss",
+        "unbiased_text": "Israelis, including Netanyahu, entered Western Wall tunnels and the Al-Aqsa compound during Yom Kippur, drawing condemnation."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -6480,6 +6490,16 @@
         "example_text": "'Axis of Iranian centrality' remains \"one of more destabilising forces in the region\", expert says",
         "example_url": "http://www.france24.com/en/axis-of-iranian-centrality-remains-one-of-more-destabilising-forces-in-the-region-expert-says",
         "unbiased_text": "Expert says Iran, its proxies and Israel's regional project are destabilising forces"
+      },
+      {
+        "pattern": "Abandoned ally narrative",
+        "detail": "Coverage emphasizes the US's refusal to defend Saudi Arabia against Houthi attacks, framing the ally as abandoned despite its own military options.",
+        "debias": "When reporting on a US ally under attack, avoid framing the conflict as America's responsibility; present the ally's independent security capabilities and alternatives.",
+        "date_added": "2026-09-20",
+        "status": "suggested",
+        "example_text": "The US is a very close ally to Saudi Arabia. Yet, is visibly unwilling to intervene on its behalf – why?",
+        "example_url": "https://www.france24.com/en/why-doesn-t-the-us-intervene-to-defend-saudi-arabia-against-the-houthis",
+        "unbiased_text": "The US has not intervened militarily in the Saudi-Houthi conflict, despite its alliance with Riyadh."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -9790,6 +9810,16 @@
         "example_text": "Iraq removes a military commander and opens investigations into the attack that came from an area bordering Iran.",
         "example_url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
         "unbiased_text": "Iraq removes a military commander and opens investigations into the attack."
+      },
+      {
+        "pattern": "Source claim headline overstatement",
+        "detail": "Headlines present a source-based claim as an investigative finding, while the article body attributes it to an unnamed source.",
+        "debias": "When summarizing investigative reports, verify whether the headline's assertion is actually confirmed in the body or just a source's claim.",
+        "date_added": "2026-09-20",
+        "status": "suggested",
+        "example_text": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
+        "example_url": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
+        "unbiased_text": "A source claims the Assad regime planned US journalist Austin Tice's kidnap for weeks."
       }
     ]
   },
@@ -9856,6 +9886,16 @@
         "example_text": "\"I have supported efforts that create opportunity for Palestinians and have brought young Palestinians and Israelis together,\" Kraft said in a statement.",
         "example_url": "https://www.jpost.com/diaspora/antisemitism/article-908916",
         "unbiased_text": "After Macklemore pledged $1m to Palestinian aid and alleged Kraft pressured venues to drop him, Kraft announced $2m, saying he has supported efforts to create opportunity for Palestinians."
+      },
+      {
+        "pattern": "Genocide denial portmanteau",
+        "detail": "JPost adopts the made-up term 'GenoLIE' and describes genocide accusations against Israel as a 'weapon' against Jews, framing a legal/human-rights debate as a malicious smear.",
+        "debias": "When covering genocide allegations, do not adopt partisan campaign slogans as headline terms; describe competing legal arguments neutrally.",
+        "date_added": "2026-09-20",
+        "status": "suggested",
+        "example_text": "A growing international coalition of more than 100 organizations says the accusation that Israel commits genocide in Gaza has become a weapon against Israel and Jews worldwide.",
+        "example_url": "https://www.jpost.com/diaspora/antisemitism/article-908304",
+        "unbiased_text": "A coalition of more than 100 organizations disputes accusations that Israel is committing genocide in Gaza."
       }
     ]
   },
