@@ -10064,6 +10064,16 @@
         "example_text": "Why do authoritarian regimes target the LGBTQ+ community?",
         "example_url": "https://www.dw.com/en/why-do-authoritarian-regimes-target-the-lgbtq-community/a-79276831?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "What is behind Turkey's recent LGBTQ+ crackdown?"
+      },
+      {
+        "pattern": "Controlled Election Editorialization",
+        "detail": "DW describes Russia's parliamentary election as 'controlled' in its headline, asserting a lack of democratic process without attribution or qualification.",
+        "debias": "When summarizing election results, describe the vote neutrally or attribute claims of manipulation to specific critics rather than editorializing in the headline.",
+        "date_added": "2026-09-21",
+        "status": "suggested",
+        "example_text": "Russia: Putin party retains majority in controlled parliamentary vote",
+        "example_url": "https://www.dw.com/en/russia-putin-party-retains-majority-in-controlled-parliamentary-vote/a-79353231?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "Russia: Putin party retains majority in parliamentary election"
       }
     ]
   },
@@ -10120,6 +10130,16 @@
         "example_text": "India voices concern over attempted drone attack on Mecca",
         "example_url": "https://www.thehindu.com/news/national/india-voices-concern-over-attempted-drone-attack-on-mecca/article71472296.ece",
         "unbiased_text": "India voices concern over Saudi Arabia's allegation that the Houthis attempted a drone attack on Mecca."
+      },
+      {
+        "pattern": "Political Struggle Metaphorization",
+        "detail": "The Hindu uses dramatic physical metaphors like 'clings on' and 'keeps grip' to describe political situations, implying precariousness or authoritarianism beyond the factual record.",
+        "debias": "When describing political outcomes, use neutral verbs that convey the factual situation without adding metaphorical drama.",
+        "date_added": "2026-09-21",
+        "status": "suggested",
+        "example_text": "German Chancellor Merz clings on after ‘disaster’ in state elections",
+        "example_url": "https://www.thehindu.com/news/international/german-chancellor-merz-clings-on-after-disaster-in-state-elections/article71491044.ece",
+        "unbiased_text": "German Chancellor Merz remains in office after state election losses"
       }
     ]
   }
