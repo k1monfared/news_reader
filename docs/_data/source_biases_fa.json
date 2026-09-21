@@ -11160,6 +11160,17 @@
         "example_url": "https://www.dw.com/en/why-do-authoritarian-regimes-target-the-lgbtq-community/a-79276831?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "علت سرکوب اخیر LGBTQ+ در ترکیه چیست؟",
         "pattern_en": "Single-Case Regime Generalization"
+      },
+      {
+        "pattern": "مدیریتشدهٔ انتخابات در تیتر",
+        "detail": "دویچهوله در تیتر خود انتخابات پارلمانی روسیه را «مدیریتشده» توصیف میکند و بدون ذکر منبع یا قید و شرط، فقدان فرایند دموکراتیک را ادعا میکند.",
+        "debias": "هنگام خلاصهکردن نتایج انتخابات، رأیگیری را بهطور خنثی توصیف کنید یا ادعاهای دستکاری را به منتقدان مشخص نسبت دهید، نه اینکه در تیتر به داوری بپردازید.",
+        "date_added": "2026-09-21",
+        "status": "suggested",
+        "example_text": "روسیه: حزب پوتین اکثریت را در رأیگیری پارلمانیِ مدیریتشده حفظ کرد",
+        "example_url": "https://www.dw.com/en/russia-putin-party-retains-majority-in-controlled-parliamentary-vote/a-79353231?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "روسیه: حزب پوتین اکثریت را در انتخابات پارلمانی حفظ کرد",
+        "pattern_en": "Controlled Election Editorialization"
       }
     ]
   },
@@ -11221,6 +11232,17 @@
         "example_url": "https://www.thehindu.com/news/national/india-voices-concern-over-attempted-drone-attack-on-mecca/article71472296.ece",
         "unbiased_text": "هند نگرانی خود را دربارهٔ ادعای عربستان سعودی مبنی بر تلاش حوثی‌ها برای حملهٔ پهپادی به مکه ابراز کرد.",
         "pattern_en": "Accusation-as-fact headline framing"
+      },
+      {
+        "pattern": "استعارهسازی مبارزه سیاسی",
+        "detail": "هندو از استعارههای فیزیکی دراماتیک مانند «چسبیدن» و «محکم گرفتن» برای توصیف وضعیتهای سیاسی استفاده میکند که حاکی از بیثباتی یا اقتدارگرایی فراتر از واقعیت ثبتشده است.",
+        "debias": "هنگام توصیف نتایج سیاسی، از افعال خنثی استفاده کنید که وضعیت واقعی را بدون افزودن درام استعاری منتقل کنند.",
+        "date_added": "2026-09-21",
+        "status": "suggested",
+        "example_text": "مرتس صدراعظم آلمان پس از «فاجعه» در انتخابات ایالتی همچنان به قدرت چسبیده است",
+        "example_url": "https://www.thehindu.com/news/international/german-chancellor-merz-clings-on-after-disaster-in-state-elections/article71491044.ece",
+        "unbiased_text": "صدراعظم آلمان مرتس پس از شکست در انتخابات ایالتی در مقام خود باقی مانده است",
+        "pattern_en": "Political Struggle Metaphorization"
       }
     ]
   }
