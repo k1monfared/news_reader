@@ -9896,6 +9896,16 @@
         "example_text": "A growing international coalition of more than 100 organizations says the accusation that Israel commits genocide in Gaza has become a weapon against Israel and Jews worldwide.",
         "example_url": "https://www.jpost.com/diaspora/antisemitism/article-908304",
         "unbiased_text": "A coalition of more than 100 organizations disputes accusations that Israel is committing genocide in Gaza."
+      },
+      {
+        "pattern": "Electoral Surge Minority Threat Framing",
+        "detail": "JPost headlines a party's electoral gains as an unrestrained antisemitism threat, adopting an alarming quote as the primary framing rather than reporting vote outcomes.",
+        "debias": "When summarizing, describe election results in terms of seats and coalition options, citing any concrete policy changes rather than projecting community endangerment from a headline quote.",
+        "date_added": "2026-09-22",
+        "status": "suggested",
+        "example_text": "'Unrestrained antisemitism': German politicians, Jewish leaders warn over Left Party’s rise",
+        "example_url": "https://www.jpost.com/diaspora/antisemitism/article-909268",
+        "unbiased_text": "German politicians and Jewish leaders express concern about the Left Party's rise in state elections"
       }
     ]
   },
@@ -9942,6 +9952,16 @@
         "example_text": "US bans Palestinian president from speaking at the UN",
         "example_url": "https://www.middleeasteye.net/news/us-bans-palestinian-president-speaking-un-again-over-icc-icj-action-against-israel",
         "unbiased_text": "US again denies Palestinian President Abbas a visa to attend the UN General Assembly."
+      },
+      {
+        "pattern": "Debunking Headline Pre-Verdict Framing",
+        "detail": "MEE declares an opponent's claim false in the headline with the word 'Debunked', closing the debate before presenting evidence and analysis.",
+        "debias": "When summarizing, attribute claims to their sources and let the evidence speak, avoiding a verdict in the headline unless an authoritative adjudication has been issued.",
+        "date_added": "2026-09-22",
+        "status": "suggested",
+        "example_text": "Debunked: Why Tory claims of UK extremism ‘cover-up’ fail to add up",
+        "example_url": "https://www.middleeasteye.net/news/tory-claims-uk-covered-muslim-extremist-influence-debunked",
+        "unbiased_text": "Tory claims of UK extremism 'cover-up' face scrutiny from the former working group chair and prior reporting"
       }
     ]
   },
@@ -9978,6 +9998,16 @@
         "example_text": "U.S., Venezuela strike oil deal. And, the staggering hidden toll of U.S. heat deaths",
         "example_url": "https://www.npr.org/2026/08/31/g-s1-141187/up-first-newsletter-venezuela-oil-iran-war-house-government-funding-grand-canyon-flash-flooding",
         "unbiased_text": "U.S. and Venezuela reach oil agreement; separately, investigation finds US heat deaths undercounted"
+      },
+      {
+        "pattern": "War Endurance Game Framing",
+        "detail": "NPR frames the U.S.-Iran conflict as a 'high-stakes game of endurance', reducing war to a psychological contest of leaders rather than a humanitarian and strategic crisis.",
+        "debias": "When summarizing, include civilian casualties, diplomatic efforts and military actions instead of framing the conflict as a test of who will blink first.",
+        "date_added": "2026-09-22",
+        "status": "suggested",
+        "example_text": "More than six months into the conflict between the U.S. and Iran, it's become a high-stakes game of endurance.",
+        "example_url": "https://www.npr.org/2026/09/22/nx-s1-5966364/war-between-u-s-and-iran-becomes-a-test-of-who-will-blink-first",
+        "unbiased_text": "The U.S.-Iran conflict continues into its seventh month with no clear end in sight."
       }
     ]
   },
