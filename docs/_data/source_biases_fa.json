@@ -10977,6 +10977,17 @@
         "example_url": "https://www.jpost.com/diaspora/antisemitism/article-908304",
         "unbiased_text": "ائتلافی متشکل از بیش از ۱۰۰ سازمان اتهامات مربوط به ارتکاب نسل‌کشی توسط اسرائیل در غزه را رد می‌کند.",
         "pattern_en": "Genocide denial portmanteau"
+      },
+      {
+        "pattern": "چارچوب‌بندی تهدید اقلیت در پیروزی انتخاباتی",
+        "detail": "جی‌پست پیروزی‌های انتخاباتی یک حزب را به‌عنوان تهدید ضدیهودیِ مهارنشده معرفی می‌کند و به‌جای گزارش نتایج رأی‌گیری، نقل‌قولی هشداردهنده را به‌عنوان چارچوب اصلی برجسته می‌سازد.",
+        "debias": "هنگام خلاصه‌سازی، نتایج انتخابات را بر اساس کرسی‌ها و گزینه‌های ائتلاف توصیف کنید و هرگونه تغییر خط‌مشی مشخص را ذکر کنید، نه اینکه از یک نقل‌قول تیتر، خطر برای جامعه را پیش‌بینی کنید.",
+        "date_added": "2026-09-22",
+        "status": "suggested",
+        "example_text": "«ضدیهودیتِ مهارنشده»: سیاستمداران آلمانی و رهبران یهودی درباره ظهور حزب چپ هشدار می‌دهند",
+        "example_url": "https://www.jpost.com/diaspora/antisemitism/article-909268",
+        "unbiased_text": "سیاستمداران آلمانی و رهبران یهودی درباره ظهور حزب چپ در انتخابات ایالتی ابراز نگرانی می‌کنند",
+        "pattern_en": "Electoral Surge Minority Threat Framing"
       }
     ]
   },
@@ -11027,6 +11038,17 @@
         "example_url": "https://www.middleeasteye.net/news/us-bans-palestinian-president-speaking-un-again-over-icc-icj-action-against-israel",
         "unbiased_text": "آمریکا بار دیگر ویزای حضور محمود عباس، رئیس‌جمهور فلسطین، در مجمع عمومی سازمان ملل را رد کرد.",
         "pattern_en": "Visa denial speech ban reframing"
+      },
+      {
+        "pattern": "قالب‌بندی تیتر با ابطال پیش از داوری",
+        "detail": "MEE در تیتر، ادعای طرف مقابل را با واژه «Debunked» نادرست اعلام می‌کند و پیش از ارائه شواهد و تحلیل، بحث را می‌بندد.",
+        "debias": "هنگام خلاصه‌سازی، ادعاها را به منابعشان نسبت دهید و اجازه دهید شواهد سخن بگویند؛ از صدور حکم در تیتر خودداری کنید مگر آنکه داوری معتبری صادر شده باشد.",
+        "date_added": "2026-09-22",
+        "status": "suggested",
+        "example_text": "ابطال شد: چرا ادعاهای توری درباره «پوشش» افراط‌گرایی در بریتانیا قابل قبول نیست",
+        "example_url": "https://www.middleeasteye.net/news/tory-claims-uk-covered-muslim-extremist-influence-debunked",
+        "unbiased_text": "ادعاهای توری درباره «پوشش» افراط‌گرایی در بریتانیا از سوی رئیس سابق گروه کاری و گزارش‌های پیشین مورد بررسی قرار می‌گیرد",
+        "pattern_en": "Debunking Headline Pre-Verdict Framing"
       }
     ]
   },
@@ -11066,6 +11088,17 @@
         "example_url": "https://www.npr.org/2026/08/31/g-s1-141187/up-first-newsletter-venezuela-oil-iran-war-house-government-funding-grand-canyon-flash-flooding",
         "unbiased_text": "U.S. and Venezuela reach oil agreement; separately, investigation finds US heat deaths undercounted",
         "pattern_en": "Unrelated story headline amalgamation"
+      },
+      {
+        "pattern": "قالببندی جنگ بهمثابه بازی استقامت",
+        "detail": "NPR منازعه آمریکا و ایران را بهعنوان یک «بازی استقامت پرمخاطره» قالببندی میکند و جنگ را به رقابت روانی میان رهبران تقلیل میدهد، بهجای آنکه آن را یک بحران انسانی و استراتژیک بداند.",
+        "debias": "هنگام خلاصهسازی، تلفات غیرنظامی، تلاشهای دیپلماتیک و اقدامات نظامی را لحاظ کنید، بهجای قالببندی منازعه بهعنوان آزمونی برای اینکه چه کسی زودتر کوتاه میآید.",
+        "date_added": "2026-09-22",
+        "status": "suggested",
+        "example_text": "بیش از شش ماه از درگیری میان آمریکا و ایران میگذرد و این درگیری به یک بازی استقامت پرمخاطره تبدیل شده است.",
+        "example_url": "https://www.npr.org/2026/09/22/nx-s1-5966364/war-between-u-s-and-iran-becomes-a-test-of-who-will-blink-first",
+        "unbiased_text": "درگیری آمریکا و ایران وارد هفتمین ماه خود شده است و هیچ پایان روشنی در افق دیده نمیشود.",
+        "pattern_en": "War Endurance Game Framing"
       }
     ]
   },
