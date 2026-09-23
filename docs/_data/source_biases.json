@@ -6500,6 +6500,16 @@
         "example_text": "The US is a very close ally to Saudi Arabia. Yet, is visibly unwilling to intervene on its behalf – why?",
         "example_url": "https://www.france24.com/en/why-doesn-t-the-us-intervene-to-defend-saudi-arabia-against-the-houthis",
         "unbiased_text": "The US has not intervened militarily in the Saudi-Houthi conflict, despite its alliance with Riyadh."
+      },
+      {
+        "pattern": "Speech Soundbite Selection Framing",
+        "detail": "Outlets covering Pezeshkian's UN speech each chose a different headline soundbite—France24 and BBC foreground 'never bend at the knee' defiance, Al Jazeera selected the anti-Western 'They kill, we are punished,' and MEE chose the Gaza 'symbol of failure' line—shaping the same speech to fit their editorial narrative through quote selection.",
+        "debias": "When summarizing a speech, reflect its multiple themes and attributions rather than letting a single dramatic quote stand for the whole address.",
+        "date_added": "2026-09-23",
+        "status": "suggested",
+        "example_text": "Iranian President Masoud Pezeshkian gave a defiant wartime address at the UN on Wednesday accusing the US of terrorism in his country and saying Iran would not \"bend at the knee\".",
+        "example_url": "https://www.france24.com/en/middle-east/20260923-iran-will-never-bend-at-the-knee-pezeshkian-tells-un-defiant-wartime-address",
+        "unbiased_text": "Iranian President Masoud Pezeshkian addressed the UN on Wednesday, accusing the US of terrorism and saying Iran would not 'bend at the knee,' while also calling for diplomacy."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
