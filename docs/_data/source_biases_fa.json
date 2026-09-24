@@ -4047,6 +4047,17 @@
         "example_url": "https://www.aljazeera.com/news/2026/9/20/israeli-settlers-storm-al-aqsa-in-latest-targeting-of-east-jerusalem-sites?traffic_source=rss",
         "unbiased_text": "اسرائیلی‌ها از جمله نتانیاهو در یوم کیپور وارد تونل‌های دیوار ندبه و مجموعه الاقصی شدند که محکومیت در پی داشت.",
         "pattern_en": "Religious site storm metaphor"
+      },
+      {
+        "pattern": "تردید سیاستی با لحن سردبیری",
+        "detail": "الجزیره از فعل جانبدارانه «مردد بودن» برای توصیف واکنش اروپا استفاده میکند، در حالی که اقدام اسرائیل را مستقیم نشان میدهد و لحنی نامتقارن به داستان یکسان تحریم تجاری اعمال میکند.",
+        "debias": "هنگام توصیف مذاکرات یا واکنش‌های سیاستی، از افعال خنثی مانند «تأخیر» یا «بررسی» استفاده کنید.",
+        "date_added": "2026-09-24",
+        "status": "suggested",
+        "example_text": "اسرائیل به شرکت‌های آسیب‌دیده از تحریم تجاری پول نقد پیشنهاد می‌کند؛ اروپا درباره قوانین جدید تردید نشان می‌دهد.",
+        "example_url": "https://www.aljazeera.com/news/2026/9/24/israel-offers-cash-to-firms-hit-by-trade-ban-europe-dithers-on-new-rules",
+        "unbiased_text": "اسرائیل به شرکت‌های آسیب‌دیده از تحریم تجاری پول نقد پیشنهاد می‌کند؛ اروپا درباره قوانین جدید تأمل می‌کند.",
+        "pattern_en": "Policy Dithering Editorialization"
       }
     ]
   },
@@ -7215,6 +7226,17 @@
         "example_url": "https://www.france24.com/en/middle-east/20260923-iran-will-never-bend-at-the-knee-pezeshkian-tells-un-defiant-wartime-address",
         "unbiased_text": "رئیس‌جمهور ایران مسعود پزشکیان روز چهارشنبه در سازمان ملل سخنرانی کرد و ایالات متحده را به تروریسم متهم کرد و گفت ایران «در برابر زانو خم نخواهد شد» و همچنین خواستار دیپلماسی شد.",
         "pattern_en": "Speech Soundbite Selection Framing"
+      },
+      {
+        "pattern": "برچسب‌زنی «سخنرانی سرکشانه در زمان جنگ»",
+        "detail": "France24 سخنرانی پزشکیان در سازمان ملل را در تیتر خود به‌عنوان «سخنرانی سرکشانه در زمان جنگ» توصیف می‌کند و پیش از نقل‌قول از او، تفسیری احساسی و ستیزه‌جویانه به آن اضافه می‌کند.",
+        "debias": "محتوای سخنرانی را بدون استنتاج لحن احساسی گوینده توصیف کنید.",
+        "date_added": "2026-09-24",
+        "status": "suggested",
+        "example_text": "ایران هرگز «زانو نخواهد زد»، پزشکیان در سخنرانی سرکشانه در زمان جنگ به سازمان ملل می‌گوید",
+        "example_url": "https://www.france24.com/en/middle-east/20260923-iran-will-never-bend-at-the-knee-pezeshkian-tells-un-defiant-wartime-address",
+        "unbiased_text": "پزشکیان به سازمان ملل می‌گوید: «ما هرگز زانو نخواهیم زد»",
+        "pattern_en": "Defiant Wartime Address Labeling"
       }
     ]
   },
@@ -10833,6 +10855,17 @@
         "example_url": "http://www.euronews.com/2026/08/31/exclusive-us-naval-blockade-is-paralysing-daily-life-iranians-tell-euronews",
         "unbiased_text": "Iranians report US naval blockade causing severe economic hardship and inflation",
         "pattern_en": "Exclusive adversary humanitarian access framing"
+      },
+      {
+        "pattern": "قاب‌بندی مستند با اعتبار جایزه",
+        "detail": "یورونیوز با عبارت «برنده جایزه ونیز» برای توصیف مستند غزه شروع می‌کند و از جایگاه جایزه به‌عنوان نشانه اعتبار استفاده می‌کند، به‌جای اینکه خبر انتشار را به‌طور بی‌طرفانه گزارش کند.",
+        "debias": "از ذکر جایزه در تیترها خودداری کنید، مگر اینکه خود جایزه موضوع خبر باشد.",
+        "date_added": "2026-09-24",
+        "status": "suggested",
+        "example_text": "مستند «NAZA» درباره غزه که برنده جایزه ونیز شده، برای اکران اروپایی آماده می‌شود",
+        "example_url": "https://www.euronews.com/2026/09/24/venice-winning-gaza-documentary-naza-set-for-european-release",
+        "unbiased_text": "مستند «NAZA» درباره غزه برای انتشار در اروپا آماده می‌شود",
+        "pattern_en": "Award-Credential Documentary Framing"
       }
     ]
   },
@@ -10999,6 +11032,39 @@
         "example_url": "https://www.jpost.com/diaspora/antisemitism/article-909268",
         "unbiased_text": "سیاستمداران آلمانی و رهبران یهودی درباره ظهور حزب چپ در انتخابات ایالتی ابراز نگرانی می‌کنند",
         "pattern_en": "Electoral Surge Minority Threat Framing"
+      },
+      {
+        "pattern": "چارچوب ترویجی گردشگری شهرکسازی",
+        "detail": "جیپست یک پروژه زیرساختی شهرکسازی در کرانه باختری را بهعنوان یک ابتکار گردشگری جذاب معرفی میکند و از مقایسه مثبت با توسکانی استفاده میکند بدون اینکه بافت سرزمینهای اشغالی را ذکر کند.",
+        "debias": "هنگام پوشش پروژهها در سرزمینهای اشغالی، بهجای تکرار زبان تبلیغاتی، زمینه شهرکسازی را نیز لحاظ کنید.",
+        "date_added": "2026-09-24",
+        "status": "suggested",
+        "example_text": "تبدیل شدن به توسکانی اسرائیل: دولت ابتکار «مسیر کتاب مقدس» را برای ترویج گردشگری کرانه باختری راهاندازی میکند",
+        "example_url": "https://www.jpost.com/israel-news/article-909558",
+        "unbiased_text": "دولت پروژه مسیر گردشگری را در منطقه شهرکسازی کرانه باختری اشغالی راهاندازی میکند",
+        "pattern_en": "Settlement Tourism Promotional Framing"
+      },
+      {
+        "pattern": "قالببندی گسترش هدف اعتراضات",
+        "detail": "جیپست اعتراضات مورد انتظار در جریان سفر نتانیاهو به سازمان ملل را «اعتراضات ضد اسرائیل» توصیف میکند و هدف اعتراضات را از نخستوزیر به خود دولت گسترش میدهد.",
+        "debias": "اهداف اعلامشده معترضان، مانند نتانیاهو یا سیاستهای او را مشخص کنید، بهجای تعمیم دادن به کل ملت.",
+        "date_added": "2026-09-24",
+        "status": "suggested",
+        "example_text": "نتانیاهو برای سفر کوتاه به مجمع عمومی سازمان ملل با دیدارهای دیپلماتیک محدود آماده میشود؛ اعتراضات ضد اسرائیلی برنامهریزیشده",
+        "example_url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-909521",
+        "unbiased_text": "نتانیاهو برای سفر کوتاه به مجمع عمومی سازمان ملل با دیدارهای دیپلماتیک محدود آماده میشود؛ اعتراضات برنامهریزیشده علیه سیاستهای او",
+        "pattern_en": "Protest Target Expansion Framing"
+      },
+      {
+        "pattern": "برچسب‌زنی روان‌پریشی بر کنش‌گری",
+        "detail": "تیتر JPost کنش‌گری طرفدار فلسطین را با نامیدن آن به‌عنوان «روان‌پریشی جمعی» آسیب‌شناسی می‌کند؛ اصطلاحی بالینی که به‌عنوان برچسبی طردکننده به کار می‌رود.",
+        "debias": "از به‌کارگیری اصطلاحات بالینی یا آسیب‌شناختی برای توصیف دیدگاه‌های سیاسی پرهیز کنید؛ از واژه‌های خنثی مانند جنبش یا نقد استفاده کنید.",
+        "date_added": "2026-09-24",
+        "status": "suggested",
+        "example_text": "اینات ویلف «روان‌پریشی جمعی» طرفداران فلسطین در جهان را افشا می‌کند",
+        "example_url": "https://www.jpost.com/podcast/article-909612",
+        "unbiased_text": "اینات ویلف از آنچه به‌زعم او دیدگاه‌های گسترده طرفدار فلسطین است انتقاد می‌کند",
+        "pattern_en": "Psychosis Labeling of Advocacy"
       }
     ]
   },
