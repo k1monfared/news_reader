@@ -3636,6 +3636,16 @@
         "example_text": "Netanyahu storms Western Wall tunnels amid Yom Kippur settler incursions, drawing fierce condemnation.",
         "example_url": "https://www.aljazeera.com/news/2026/9/20/israeli-settlers-storm-al-aqsa-in-latest-targeting-of-east-jerusalem-sites?traffic_source=rss",
         "unbiased_text": "Israelis, including Netanyahu, entered Western Wall tunnels and the Al-Aqsa compound during Yom Kippur, drawing condemnation."
+      },
+      {
+        "pattern": "Policy Dithering Editorialization",
+        "detail": "Al Jazeera uses the editorializing verb \"dithers\" for Europe's response while presenting Israel's action as direct, applying asymmetric tone to the same trade-ban story.",
+        "debias": "Use neutral verbs such as delays or considers when describing negotiations or policy responses.",
+        "date_added": "2026-09-24",
+        "status": "suggested",
+        "example_text": "Israel offers cash to firms hit by trade ban; Europe dithers on new rules",
+        "example_url": "https://www.aljazeera.com/news/2026/9/24/israel-offers-cash-to-firms-hit-by-trade-ban-europe-dithers-on-new-rules",
+        "unbiased_text": "Israel offers cash to firms hit by trade ban; Europe deliberates on new rules"
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -6510,6 +6520,16 @@
         "example_text": "Iranian President Masoud Pezeshkian gave a defiant wartime address at the UN on Wednesday accusing the US of terrorism in his country and saying Iran would not \"bend at the knee\".",
         "example_url": "https://www.france24.com/en/middle-east/20260923-iran-will-never-bend-at-the-knee-pezeshkian-tells-un-defiant-wartime-address",
         "unbiased_text": "Iranian President Masoud Pezeshkian addressed the UN on Wednesday, accusing the US of terrorism and saying Iran would not 'bend at the knee,' while also calling for diplomacy."
+      },
+      {
+        "pattern": "Defiant Wartime Address Labeling",
+        "detail": "France24 characterizes Pezeshkian's UN speech as a \"defiant wartime address\" in the headline, adding an emotional and combative interpretation before quoting him.",
+        "debias": "Describe the speech's content without inferring the speaker's emotional tone.",
+        "date_added": "2026-09-24",
+        "status": "suggested",
+        "example_text": "Iran will 'never bend at the knee', Pezeshkian tells UN in defiant wartime address",
+        "example_url": "https://www.france24.com/en/middle-east/20260923-iran-will-never-bend-at-the-knee-pezeshkian-tells-un-defiant-wartime-address",
+        "unbiased_text": "Pezeshkian tells UN: 'We will never bend at the knee'"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -9763,6 +9783,16 @@
         "example_text": "Exclusive: US naval blockade is paralysing daily life, Iranians tell Euronews",
         "example_url": "http://www.euronews.com/2026/08/31/exclusive-us-naval-blockade-is-paralysing-daily-life-iranians-tell-euronews",
         "unbiased_text": "Iranians report US naval blockade causing severe economic hardship and inflation"
+      },
+      {
+        "pattern": "Award-Credential Documentary Framing",
+        "detail": "Euronews leads with \"Venice-winning\" to describe the Gaza documentary, using its award status as a credibility marker rather than reporting the release news neutrally.",
+        "debias": "Omit award status from headlines unless the award is the news itself.",
+        "date_added": "2026-09-24",
+        "status": "suggested",
+        "example_text": "Venice-winning Gaza documentary 'NAZA' set for European release",
+        "example_url": "https://www.euronews.com/2026/09/24/venice-winning-gaza-documentary-naza-set-for-european-release",
+        "unbiased_text": "Gaza documentary 'NAZA' set for European release"
       }
     ],
     "notes": "Reliable but limited conflict coverage"
@@ -9916,6 +9946,36 @@
         "example_text": "'Unrestrained antisemitism': German politicians, Jewish leaders warn over Left Party’s rise",
         "example_url": "https://www.jpost.com/diaspora/antisemitism/article-909268",
         "unbiased_text": "German politicians and Jewish leaders express concern about the Left Party's rise in state elections"
+      },
+      {
+        "pattern": "Settlement Tourism Promotional Framing",
+        "detail": "JPost frames a West Bank settlement infrastructure project as an appealing tourist initiative, using a positive comparison to Tuscany without noting the occupied-territory context.",
+        "debias": "When covering projects in occupied territory, include the settlement context instead of repeating promotional language.",
+        "date_added": "2026-09-24",
+        "status": "suggested",
+        "example_text": "Becoming Israel’s Tuscany: Gov’t launches ‘Biblical Trail’ initiative to promote West Bank tourism",
+        "example_url": "https://www.jpost.com/israel-news/article-909558",
+        "unbiased_text": "Government launches tourism trail project in occupied West Bank settlement area"
+      },
+      {
+        "pattern": "Protest Target Expansion Framing",
+        "detail": "JPost describes protests expected during Netanyahu's UN visit as \"anti-Israel protests,\" broadening the target from the prime minister to the state itself.",
+        "debias": "Specify the stated targets of protesters, such as Netanyahu or his policies, rather than generalizing to the entire nation.",
+        "date_added": "2026-09-24",
+        "status": "suggested",
+        "example_text": "Netanyahu set for brief UNGA visit with limited diplomatic meetings, planned anti-Israel protests",
+        "example_url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-909521",
+        "unbiased_text": "Netanyahu set for brief UNGA visit with limited diplomatic meetings, planned protests against his policies"
+      },
+      {
+        "pattern": "Psychosis Labeling of Advocacy",
+        "detail": "JPost headline pathologizes pro-Palestinian advocacy by calling it \"mass psychosis,\" a clinical term used as a dismissive label.",
+        "debias": "Avoid clinical or pathological terms to describe political viewpoints; use neutral terms like movement or critique.",
+        "date_added": "2026-09-24",
+        "status": "suggested",
+        "example_text": "Einat Wilf exposes the world's pro-Palestinian mass psychosis",
+        "example_url": "https://www.jpost.com/podcast/article-909612",
+        "unbiased_text": "Einat Wilf critiques what she calls widespread pro-Palestinian views"
       }
     ]
   },
