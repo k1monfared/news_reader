@@ -11126,6 +11126,39 @@
         "example_url": "https://www.middleeasteye.net/news/tory-claims-uk-covered-muslim-extremist-influence-debunked",
         "unbiased_text": "ادعاهای توری درباره «پوشش» افراط‌گرایی در بریتانیا از سوی رئیس سابق گروه کاری و گزارش‌های پیشین مورد بررسی قرار می‌گیرد",
         "pattern_en": "Debunking Headline Pre-Verdict Framing"
+      },
+      {
+        "pattern": "عادیسازی برچسب نسلکشی",
+        "detail": "مقاله‌های خبری کمپین اسرائیل در غزه را به‌عنوان «نسل‌کشی» به‌صورت یک توصیفگر واقعی بدون الحاقیه توصیف می‌کنند، نه به‌عنوان یک ادعا یا یافته حقوقی مورد مناقشه.",
+        "debias": "آمار تلفات را به منابع آن‌ها نسبت دهید و واژه «نسل‌کشی» را برای یافته‌های حقوقی رسمی یا ادعاهای دارای منبع ذخیره کنید.",
+        "date_added": "2026-09-25",
+        "status": "suggested",
+        "example_text": "نیروهای اسرائیل از آغاز نسل‌کشی خود در غزه در اکتبر ۲۰۲۳، حداقل ۷۳,۹۲۸ فلسطینی را کشته و بیش از ۱۷۵,۰۳۰ نفر را زخمی کرده‌اند، از جمله ۱,۴۰۸ کشته و بیش از ۴,۹۱۶ زخمی از زمان آتش‌بس اکتبر سال گذشته.",
+        "example_url": "https://www.middleeasteye.net/news/israel-accidentally-exposes-gaza-military-bases-and-widespread-destruction-official-map",
+        "unbiased_text": "بر اساس مقامات بهداشتی غزه، از اکتبر ۲۰۲۳ حداقل ۷۳,۹۲۸ فلسطینی در غزه کشته شده و بیش از ۱۷۵,۰۳۰ نفر زخمی شده‌اند، از جمله ۱,۴۰۸ کشته و بیش از ۴,۹۱۶ زخمی از زمان آتش‌بس اکتبر.",
+        "pattern_en": "Genocide label normalization"
+      },
+      {
+        "pattern": "نسبت‌دهی تصمیم به حامی",
+        "detail": "یک تیتر هنگام گزارش قطع روابط کلمبیا با ایران، دولت این کشور را «حمایت‌شده توسط آمریکا» می‌نامد و القا می‌کند که این تصمیم به‌جای سیاست کلمبیا، از سوی واشنگتن هدایت شده است.",
+        "debias": "دولت‌ها را بر اساس ماهیت سیاسی خودشان معرفی کنید و کنترل حامی بر تصمیم‌های مستقل را القا نکنید.",
+        "date_added": "2026-09-25",
+        "status": "suggested",
+        "example_text": "دولت جدید کلمبیا، که از سوی آمریکا حمایت می‌شود، روابط با ایران را قطع کرد",
+        "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/colombias-new-us-backed-government-cuts-ties-iran",
+        "unbiased_text": "کلمبیا روابط دیپلماتیک با ایران را قطع کرد",
+        "pattern_en": "Patron-backed decision attribution"
+      },
+      {
+        "pattern": "بسترسازی برای ادعای خویشتنداری شورشیان",
+        "detail": "نامه اطمینان‌بخش حوثی‌ها به اتحادیه اروپا به‌عنوان یک «الگوی» منسجم قاب‌بندی شده است که ادعای رئیس‌جمهور ترامپ مبنی بر اینکه این گروه نمی‌خواهد با آمریکا بجنگد را تأیید می‌کند و به دامنه محاصره خودتعریف‌شده این گروه برجستگی می‌بخشد.",
+        "debias": "اطمینان‌های طرف‌های درگیر را به‌عنوان ادعا گزارش کنید و آنها را در برابر حملات مستندشان به سایر طرف‌ها بسنجید.",
+        "date_added": "2026-09-25",
+        "status": "suggested",
+        "example_text": "نامه الگویی برای حوثی‌ها ترسیم می‌کند پس از آنکه رئیس‌جمهور دونالد ترامپ گفت این گروه نمی‌خواهد با آمریکا بجنگد.",
+        "example_url": "https://www.middleeasteye.net/news/houthis-told-eu-they-have-no-intention-attack-european-ships-report",
+        "unbiased_text": "حوثی‌ها به اتحادیه اروپا نوشتند که قصد هدف قرار دادن کشتی‌های اروپایی را ندارند؛ این گروه به حملات خود علیه عربستان سعودی ادامه داده است.",
+        "pattern_en": "Insurgent restraint claim platforming"
       }
     ]
   },
@@ -11176,6 +11209,17 @@
         "example_url": "https://www.npr.org/2026/09/22/nx-s1-5966364/war-between-u-s-and-iran-becomes-a-test-of-who-will-blink-first",
         "unbiased_text": "درگیری آمریکا و ایران وارد هفتمین ماه خود شده است و هیچ پایان روشنی در افق دیده نمیشود.",
         "pattern_en": "War Endurance Game Framing"
+      },
+      {
+        "pattern": "تمرکز بر نمایش دیپلماتیک",
+        "detail": "پوشش یک نشست دیپلماتیک حول محور منوی شام دولتی، مد و فهرست مهمانان ساخته می‌شود نه گفتگوهای اساسی.",
+        "debias": "نتایج اساسی نشست را در اولویت قرار دهید؛ از جلوه‌های نمایشی فقط به‌عنوان نکات حاشیه‌ای یاد کنید.",
+        "date_added": "2026-09-25",
+        "status": "suggested",
+        "example_text": "فهرست مهمانان متشکل از چهره‌های فناوری، انتخاب‌های مد آنان، جای نشستن هرکس و منوی شام، جزئیات نرم‌تر — اغلب و پر زرق و برق‌تر — دیپلماسی را رقم زد، در حالی که دونالد ترامپ شام دولتی پنجشنبه‌شب را به افتخار رهبر چین، شی جین‌پینگ، برگزار کرد.",
+        "example_url": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi",
+        "unbiased_text": "ترامپ میزبان شی جین‌پینگ در شام دولتی کاخ سفید در شب پنجشنبه بود و مدیران فناوری در میان مهمانان حضور داشتند.",
+        "pattern_en": "Diplomatic spectacle focus"
       }
     ]
   },
@@ -11281,6 +11325,17 @@
         "example_url": "https://www.dw.com/en/russia-putin-party-retains-majority-in-controlled-parliamentary-vote/a-79353231?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "روسیه: حزب پوتین اکثریت را در انتخابات پارلمانی حفظ کرد",
         "pattern_en": "Controlled Election Editorialization"
+      },
+      {
+        "pattern": "پرسشگری درباره رفاه اعجوبه",
+        "detail": "موفقیت رکوردشکن یک ورزشکار جوان بلافاصله به بحثی درباره رفاه کودک تبدیل می‌شود که آیا نوجوانان باید در سطح نخبگان رقابت کنند.",
+        "debias": "نتایج ورزشی را جدا از بحث‌های سیاست‌گذاری درباره مشارکت نوجوانان گزارش کنید.",
+        "date_added": "2026-09-25",
+        "status": "suggested",
+        "example_text": "او به‌هیچ‌وجه اولین نوجوان اعجوبه نیست، اما آیا نوجوانان باید در سطح نخبگان رقابت کنند؟",
+        "example_url": "https://www.dw.com/en/china-s-13-year-old-swimming-star-raises-questions-on-child-athletes/a-79394183?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "یو زیدی، ۱۳ ساله، از جمله ورزشکاران جوان‌تری است که در بازی‌های آسیایی رقابت می‌کند.",
+        "pattern_en": "Prodigy welfare questioning"
       }
     ]
   },
@@ -11353,6 +11408,28 @@
         "example_url": "https://www.thehindu.com/news/international/german-chancellor-merz-clings-on-after-disaster-in-state-elections/article71491044.ece",
         "unbiased_text": "صدراعظم آلمان مرتس پس از شکست در انتخابات ایالتی در مقام خود باقی مانده است",
         "pattern_en": "Political Struggle Metaphorization"
+      },
+      {
+        "pattern": "نسبت دادن پیروزی به مشاور خارجی",
+        "detail": "تیترها، پیشروی سریع سرزمینی حوثی‌ها در یمن را عمدتاً به مشاوران ایرانی نسبت می‌دهند تا به توانایی نظامی خودِ این گروه.",
+        "debias": "هنگام گزارش پیشروی‌های میدان نبرد، به توانایی خودِ نیروی درگیر اعتبار دهید و ادعاهای حمایت خارجی را تنها یکی از عوامل متعدد بدانید.",
+        "date_added": "2026-09-25",
+        "status": "suggested",
+        "example_text": "مشاوران ایرانی به حوثی‌ها کمک کردند در کمتر از ۴۸ ساعت سواحل دریای سرخ یمن را تصرف کنند: گزارش",
+        "example_url": "https://www.thehindu.com/news/international/iranian-advisers-helped-houthis-seize-yemens-red-sea-coast-in-less-than-48-hours-report/article71501137.ece",
+        "unbiased_text": "نیروهای حوثی در کمتر از ۴۸ ساعت سواحل دریای سرخ یمن را تصرف کردند؛ یک گزارش به حمایت مشاوره‌ای ایران برای این عملیات اشاره می‌کند.",
+        "pattern_en": "Foreign adviser victory attribution"
+      },
+      {
+        "pattern": "برجستهسازی احترامات در نشست سران",
+        "detail": "پوشش خبری نشست ترامپ و شی‌جین‌پینگ، احترامات تشریفاتی ترامپ به شی را نشانه‌ای از این می‌داند که آمریکا برای گرامیداشت چین سنگ‌تمام می‌گذارد و این امر تغییر در جایگاه نسبی دو کشور را القا می‌کند.",
+        "debias": "جزئیات تشریفاتی را به‌عنوان پروتکل استاندارد گزارش کنید، نه به‌عنوان معیاری برای برتری ژئوپلیتیکی.",
+        "date_added": "2026-09-25",
+        "status": "suggested",
+        "example_text": "تصمیم دونالد ترامپ برای استقبال از شی‌جین‌پینگ در پایگاه مشترک اندروز در حومه واشینگتن به جای دریافت او در اقامتگاه ریاست‌جمهوری نشان می‌دهد که رئیس‌جمهور آمریکا تا چه حد برای گرامیداشت رهبر چین سنگ‌تمام می‌گذارد.",
+        "example_url": "https://www.thehindu.com/news/international/xi-arrives-in-washington-kicking-off-his-state-visit-with-rare-planeside-welcome-from-trump/article71501704.ece",
+        "unbiased_text": "ترامپ از شی‌جین‌پینگ در پایگاه مشترک اندروز در حومه واشینگتن برای آغاز سفر دولتی رهبر چین استقبال کرد.",
+        "pattern_en": "Summit deference highlighting"
       }
     ]
   }
