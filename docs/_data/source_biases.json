@@ -10032,6 +10032,36 @@
         "example_text": "Debunked: Why Tory claims of UK extremism ‘cover-up’ fail to add up",
         "example_url": "https://www.middleeasteye.net/news/tory-claims-uk-covered-muslim-extremist-influence-debunked",
         "unbiased_text": "Tory claims of UK extremism 'cover-up' face scrutiny from the former working group chair and prior reporting"
+      },
+      {
+        "pattern": "Genocide label normalization",
+        "detail": "News articles describe Israel's campaign in Gaza as 'genocide' as an unappended factual descriptor, not as an allegation or contested legal finding.",
+        "debias": "Attribute casualty statistics to their sources and reserve 'genocide' for formal legal findings or attributed allegations.",
+        "date_added": "2026-09-25",
+        "status": "suggested",
+        "example_text": "Israel's forces have killed at least 73,928 Palestinians and wounded more than 175,030 since the start of its genocide in Gaza in October 2023, including 1,408 dead and more than 4,916 wounded since the October ceasefire last year.",
+        "example_url": "https://www.middleeasteye.net/news/israel-accidentally-exposes-gaza-military-bases-and-widespread-destruction-official-map",
+        "unbiased_text": "At least 73,928 Palestinians have been killed and more than 175,030 wounded in Gaza since October 2023, according to Gaza health authorities, including 1,408 killed and over 4,916 wounded since the October ceasefire."
+      },
+      {
+        "pattern": "Patron-backed decision attribution",
+        "detail": "A headline labels Colombia's government 'US-backed' when reporting its severing of ties with Iran, implying the decision was directed by Washington rather than by Colombian policy.",
+        "debias": "Identify governments by their own political character and do not imply patron control over sovereign decisions.",
+        "date_added": "2026-09-25",
+        "status": "suggested",
+        "example_text": "Colombia's new US-backed government cuts ties with Iran",
+        "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/colombias-new-us-backed-government-cuts-ties-iran",
+        "unbiased_text": "Colombia cuts diplomatic ties with Iran"
+      },
+      {
+        "pattern": "Insurgent restraint claim platforming",
+        "detail": "The Houthis' reassurance letter to the EU is framed as a coherent 'pattern' that validates President Trump's claim the group does not want to fight the US, giving the group's self-described blockade scope prominence.",
+        "debias": "Report combatants' assurances as claims and weigh them against their documented attacks on other parties.",
+        "date_added": "2026-09-25",
+        "status": "suggested",
+        "example_text": "Letter marks a pattern for the Houthis after President Donald Trump said the group doesn't want to fight the US",
+        "example_url": "https://www.middleeasteye.net/news/houthis-told-eu-they-have-no-intention-attack-european-ships-report",
+        "unbiased_text": "The Houthis wrote to the EU stating they do not intend to target European vessels; the group has continued its attacks on Saudi Arabia."
       }
     ]
   },
@@ -10078,6 +10108,16 @@
         "example_text": "More than six months into the conflict between the U.S. and Iran, it's become a high-stakes game of endurance.",
         "example_url": "https://www.npr.org/2026/09/22/nx-s1-5966364/war-between-u-s-and-iran-becomes-a-test-of-who-will-blink-first",
         "unbiased_text": "The U.S.-Iran conflict continues into its seventh month with no clear end in sight."
+      },
+      {
+        "pattern": "Diplomatic spectacle focus",
+        "detail": "Coverage of a diplomatic summit is built around the state dinner's menu, fashion, and guest list rather than the substantive talks.",
+        "debias": "Prioritize substantive summit outcomes; mention pageantry only as color.",
+        "date_added": "2026-09-25",
+        "status": "suggested",
+        "example_text": "A tech-heavy guest list, the fashion choices of those on it, who sat where and what was on the menu marked the softer — often and glitzier — details of diplomacy as Donald Trump threw a Thursday night state dinner honoring China's leader Xi Jinping.",
+        "example_url": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi",
+        "unbiased_text": "Trump hosted Xi Jinping at a White House state dinner on Thursday night, with technology executives among the guests."
       }
     ]
   },
@@ -10174,6 +10214,16 @@
         "example_text": "Russia: Putin party retains majority in controlled parliamentary vote",
         "example_url": "https://www.dw.com/en/russia-putin-party-retains-majority-in-controlled-parliamentary-vote/a-79353231?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "Russia: Putin party retains majority in parliamentary election"
+      },
+      {
+        "pattern": "Prodigy welfare questioning",
+        "detail": "A young athlete's record-breaking success is immediately pivoted into a child-welfare debate about whether teens should compete at elite level.",
+        "debias": "Report athletic results separately from policy debates about youth participation.",
+        "date_added": "2026-09-25",
+        "status": "suggested",
+        "example_text": "She is far from the first teen prodigy, but should teens be competing at elite level?",
+        "example_url": "https://www.dw.com/en/china-s-13-year-old-swimming-star-raises-questions-on-child-athletes/a-79394183?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "Yu Zidi, 13, is among the younger athletes competing at the Asian Games."
       }
     ]
   },
@@ -10240,6 +10290,26 @@
         "example_text": "German Chancellor Merz clings on after ‘disaster’ in state elections",
         "example_url": "https://www.thehindu.com/news/international/german-chancellor-merz-clings-on-after-disaster-in-state-elections/article71491044.ece",
         "unbiased_text": "German Chancellor Merz remains in office after state election losses"
+      },
+      {
+        "pattern": "Foreign adviser victory attribution",
+        "detail": "Headlines attribute the Houthis' rapid territorial gains in Yemen primarily to Iranian advisers rather than to the group's own military capability.",
+        "debias": "When reporting battlefield advances, credit the fighting force's own capability and treat external support claims as one factor among several.",
+        "date_added": "2026-09-25",
+        "status": "suggested",
+        "example_text": "Iranian advisers helped Houthis seize Yemen's Red Sea coast in less than 48 hours: report",
+        "example_url": "https://www.thehindu.com/news/international/iranian-advisers-helped-houthis-seize-yemens-red-sea-coast-in-less-than-48-hours-report/article71501137.ece",
+        "unbiased_text": "Houthi forces seized Yemen's Red Sea coast in less than 48 hours; a report cites Iranian advisory support for the operation."
+      },
+      {
+        "pattern": "Summit deference highlighting",
+        "detail": "Coverage of the Trump-Xi summit foregrounds Trump's ceremonial courtesies to Xi as evidence that the US is going out of its way to honour China, implying a shift in relative standing.",
+        "debias": "Report ceremonial details as standard protocol, not as metrics of geopolitical advantage.",
+        "date_added": "2026-09-25",
+        "status": "suggested",
+        "example_text": "Donald Trump's decision to greet Xi Jinping at Joint Base Andrews just outside Washington rather than receiving him at the executive residence shows how far the U.S. President is going to honour China's leader",
+        "example_url": "https://www.thehindu.com/news/international/xi-arrives-in-washington-kicking-off-his-state-visit-with-rare-planeside-welcome-from-trump/article71501704.ece",
+        "unbiased_text": "Trump greeted Xi Jinping at Joint Base Andrews just outside Washington for the start of the Chinese leader's state visit."
       }
     ]
   }
