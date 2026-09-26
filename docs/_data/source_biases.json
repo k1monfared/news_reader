@@ -10062,6 +10062,16 @@
         "example_text": "Letter marks a pattern for the Houthis after President Donald Trump said the group doesn't want to fight the US",
         "example_url": "https://www.middleeasteye.net/news/houthis-told-eu-they-have-no-intention-attack-european-ships-report",
         "unbiased_text": "The Houthis wrote to the EU stating they do not intend to target European vessels; the group has continued its attacks on Saudi Arabia."
+      },
+      {
+        "pattern": "Sovereign Ownership Labeling",
+        "detail": "MEE repeatedly precedes 'Manchester City' with 'UAE-owned' in its headline and text, tying an English football club to a foreign state and inserting a geopolitical subtext absent from other outlets' coverage.",
+        "debias": "Refer to the club by its actual name and mention ownership only when it is relevant to the story.",
+        "date_added": "2026-09-26",
+        "status": "suggested",
+        "example_text": "The UAE-owned Manchester City have been found guilty on all but one of the 115 financial charges it faces for breaching financial rules, the Athletic reported, an outcome that could send shockwaves through English soccer and potentially sour UAE-UK relations.",
+        "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-owned-manchester-city-found-guilty-financial-rules-breach-report",
+        "unbiased_text": "Manchester City have been found guilty on all but one of the 115 financial charges it faces for breaching financial rules, the Athletic reported, an outcome that could send shockwaves through English soccer."
       }
     ]
   },
@@ -10118,6 +10128,16 @@
         "example_text": "A tech-heavy guest list, the fashion choices of those on it, who sat where and what was on the menu marked the softer — often and glitzier — details of diplomacy as Donald Trump threw a Thursday night state dinner honoring China's leader Xi Jinping.",
         "example_url": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi",
         "unbiased_text": "Trump hosted Xi Jinping at a White House state dinner on Thursday night, with technology executives among the guests."
+      },
+      {
+        "pattern": "Emotive Verb Headline Labeling",
+        "detail": "NPR's headline uses 'rages' to characterize Netanyahu's UN speech, attributing unrestrained anger rather than reporting the content of his remarks.",
+        "debias": "Use neutral speech verbs or direct quotes instead of emotionally charged verbs when describing political addresses.",
+        "date_added": "2026-09-26",
+        "status": "suggested",
+        "example_text": "Netanyahu rages against critics, including Mamdani, at the U.N. General Assembly",
+        "example_url": "https://www.npr.org/2026/09/25/nx-s1-5979852/israels-prime-minister-addresses-u-n-general-assembly",
+        "unbiased_text": "Netanyahu criticizes opponents, including Mamdani, at the U.N. General Assembly"
       }
     ]
   },
@@ -10310,6 +10330,16 @@
         "example_text": "Donald Trump's decision to greet Xi Jinping at Joint Base Andrews just outside Washington rather than receiving him at the executive residence shows how far the U.S. President is going to honour China's leader",
         "example_url": "https://www.thehindu.com/news/international/xi-arrives-in-washington-kicking-off-his-state-visit-with-rare-planeside-welcome-from-trump/article71501704.ece",
         "unbiased_text": "Trump greeted Xi Jinping at Joint Base Andrews just outside Washington for the start of the Chinese leader's state visit."
+      },
+      {
+        "pattern": "Belligerent Exchange Framing",
+        "detail": "The Hindu's headline describes Russia's attacks and Ukraine's responses as an 'exchange' of strikes, implying moral symmetry in an asymmetrical invasion.",
+        "debias": "Use active and attributive language that distinguishes the aggressor's strikes from the defender's responses.",
+        "date_added": "2026-09-26",
+        "status": "suggested",
+        "example_text": "At least 7 dead as Russia, Ukraine exchange strikes and aerial war intensifies",
+        "example_url": "https://www.thehindu.com/news/international/several-people-dead-as-russia-and-ukraine-exchange-strikes-and-aerial-war-intensifies/article71512611.ece",
+        "unbiased_text": "At least 7 dead as Russia strikes Ukraine and Ukraine responds, as aerial war intensifies"
       }
     ]
   }
