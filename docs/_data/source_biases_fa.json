@@ -11159,6 +11159,17 @@
         "example_url": "https://www.middleeasteye.net/news/houthis-told-eu-they-have-no-intention-attack-european-ships-report",
         "unbiased_text": "حوثی‌ها به اتحادیه اروپا نوشتند که قصد هدف قرار دادن کشتی‌های اروپایی را ندارند؛ این گروه به حملات خود علیه عربستان سعودی ادامه داده است.",
         "pattern_en": "Insurgent restraint claim platforming"
+      },
+      {
+        "pattern": "برچسب‌گذاری مالکیت دولتی",
+        "detail": "MEE بارها در تیتر و متن خود عبارت «UAE-owned» را قبل از «منچسترسیتی» می‌آورد و این باشگاه فوتبال انگلیسی را به یک دولت خارجی پیوند می‌دهد و زیرمتنی ژئوپلیتیکی را وارد می‌کند که در پوشش رسانه‌های دیگر غایب است.",
+        "debias": "به باشگاه با نام واقعی‌اش اشاره کنید و تنها زمانی به مالکیت اشاره کنید که به داستان مرتبط باشد.",
+        "date_added": "2026-09-26",
+        "status": "suggested",
+        "example_text": "منچسترسیتی که متعلق به امارات است، طبق گزارش The Athletic، در تمامی به‌جز یک مورد از ۱۱۵ اتهام مالی که به دلیل نقض قوانین مالی با آن مواجه است، مجرم شناخته شده است؛ نتیجه‌ای که می‌تواند لرزه بر اندام فوتبال انگلیس بیندازد و به‌طور بالقوه روابط امارات و بریتانیا را تیره کند.",
+        "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-owned-manchester-city-found-guilty-financial-rules-breach-report",
+        "unbiased_text": "منچسترسیتی طبق گزارش The Athletic، در تمامی به‌جز یک مورد از ۱۱۵ اتهام مالی که به دلیل نقض قوانین مالی با آن مواجه است، مجرم شناخته شده است؛ نتیجه‌ای که می‌تواند لرزه بر اندام فوتبال انگلیس بیندازد.",
+        "pattern_en": "Sovereign Ownership Labeling"
       }
     ]
   },
@@ -11220,6 +11231,17 @@
         "example_url": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi",
         "unbiased_text": "ترامپ میزبان شی جین‌پینگ در شام دولتی کاخ سفید در شب پنجشنبه بود و مدیران فناوری در میان مهمانان حضور داشتند.",
         "pattern_en": "Diplomatic spectacle focus"
+      },
+      {
+        "pattern": "برچسب‌گذاری عنوان با فعل عاطفی",
+        "detail": "عنوان NPR برای توصیف سخنرانی نتانیاهو در سازمان ملل از فعل «خشم می‌کند» استفاده کرده است و به‌جای گزارش محتوای سخنان او، خشم بی‌حدوحصر را به او نسبت می‌دهد.",
+        "debias": "هنگام توصیف سخنرانی‌های سیاسی، به‌جای افعال بارِ احساسی، از افعال خنثی یا نقل‌قول مستقیم استفاده کنید.",
+        "date_added": "2026-09-26",
+        "status": "suggested",
+        "example_text": "نتانیاهو در مجمع عمومی سازمان ملل علیه منتقدان، از جمله ممدانی، خشم می‌کند",
+        "example_url": "https://www.npr.org/2026/09/25/nx-s1-5979852/israels-prime-minister-addresses-u-n-general-assembly",
+        "unbiased_text": "نتانیاهو در مجمع عمومی سازمان ملل از منتقدان، از جمله ممدانی، انتقاد می‌کند",
+        "pattern_en": "Emotive Verb Headline Labeling"
       }
     ]
   },
@@ -11430,6 +11452,17 @@
         "example_url": "https://www.thehindu.com/news/international/xi-arrives-in-washington-kicking-off-his-state-visit-with-rare-planeside-welcome-from-trump/article71501704.ece",
         "unbiased_text": "ترامپ از شی‌جین‌پینگ در پایگاه مشترک اندروز در حومه واشینگتن برای آغاز سفر دولتی رهبر چین استقبال کرد.",
         "pattern_en": "Summit deference highlighting"
+      },
+      {
+        "pattern": "چارچوبسازی تبادل خصمانه",
+        "detail": "تیتر روزنامهٔ The Hindu حملات روسیه و پاسخهای اوکراین را به‌عنوان «تبادل» حملات توصیف می‌کند و در یک تجاوز نامتقارن، تقارن اخلاقی را القا می‌کند.",
+        "debias": "از زبان فعال و اسنادی استفاده کنید که حملات مهاجم را از پاسخ‌های مدافع متمایز می‌کند.",
+        "date_added": "2026-09-26",
+        "status": "suggested",
+        "example_text": "حداقل ۷ کشته در حالی که روسیه و اوکراین حملات خود را تبادل می‌کنند و جنگ هوایی تشدید می‌شود",
+        "example_url": "https://www.thehindu.com/news/international/several-people-dead-as-russia-and-ukraine-exchange-strikes-and-aerial-war-intensifies/article71512611.ece",
+        "unbiased_text": "حداقل ۷ کشته در حالی که روسیه به اوکراین حمله می‌کند و اوکراین پاسخ می‌دهد، در حالی که جنگ هوایی تشدید می‌شود",
+        "pattern_en": "Belligerent Exchange Framing"
       }
     ]
   }
