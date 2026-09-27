@@ -9793,6 +9793,16 @@
         "example_text": "Venice-winning Gaza documentary 'NAZA' set for European release",
         "example_url": "https://www.euronews.com/2026/09/24/venice-winning-gaza-documentary-naza-set-for-european-release",
         "unbiased_text": "Gaza documentary 'NAZA' set for European release"
+      },
+      {
+        "pattern": "Sports Federation Depoliticization Soundbite",
+        "detail": "Euronews closes its report on the politically contested Ireland-Israel match by quoting the Israeli FA's 'Football has won' pronouncement, framing the match as apolitical despite black armbands and boycott debates.",
+        "debias": "When covering contested sports fixtures, include player protest actions and unresolved political context rather than letting one federation's statement define the story.",
+        "date_added": "2026-09-27",
+        "status": "suggested",
+        "example_text": "The Israeli FA issued a statement commending the FAI and the Irish squad for deciding to go ahead with the match, saying: \"Football has won.\"",
+        "example_url": "https://www.euronews.com/2026/09/27/ireland-team-to-wear-black-armbands-as-players-vote-to-go-ahead-with-israel-game",
+        "unbiased_text": "The Israeli FA commended the decision to play, while the Irish squad planned to wear black armbands and not shake hands before kickoff."
       }
     ],
     "notes": "Reliable but limited conflict coverage"
@@ -9976,6 +9986,16 @@
         "example_text": "Einat Wilf exposes the world's pro-Palestinian mass psychosis",
         "example_url": "https://www.jpost.com/podcast/article-909612",
         "unbiased_text": "Einat Wilf critiques what she calls widespread pro-Palestinian views"
+      },
+      {
+        "pattern": "Political Dynasty Achievement Attribution",
+        "detail": "A Jerusalem Post influencers ranking credits Jared Kushner and Ivanka Trump with bringing all hostages home and reshaping the Middle East, presenting family members as sole architects of policy outcomes.",
+        "debias": "When crediting diplomatic achievements, name the negotiating teams and chain of command rather than attributing outcomes to political family members.",
+        "date_added": "2026-09-27",
+        "status": "suggested",
+        "example_text": "Jared Kushner and Ivanka Trump helped achieve what few in Jerusalem thought possible, bringing every Israeli hostage home and reshaping the Middle East.",
+        "example_url": "https://www.jpost.com/influencers-26/50jews-26/article-908121",
+        "unbiased_text": "Kushner and Ivanka Trump were involved in the hostage-release efforts, which were the result of broader US and Israeli diplomatic and military coordination."
       }
     ]
   },
@@ -10244,6 +10264,16 @@
         "example_text": "She is far from the first teen prodigy, but should teens be competing at elite level?",
         "example_url": "https://www.dw.com/en/china-s-13-year-old-swimming-star-raises-questions-on-child-athletes/a-79394183?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "Yu Zidi, 13, is among the younger athletes competing at the Asian Games."
+      },
+      {
+        "pattern": "Concrete Outcome Belittlement Framing",
+        "detail": "DW frames the Xi-Trump summit through a panda shipment as one of the few concrete outcomes, trivializing substantive negotiations that also produced trade and AI agreements.",
+        "debias": "When summarizing a summit, enumerate announced agreements and avoid selecting a promotional cultural gesture as evidence of overall failure.",
+        "date_added": "2026-09-27",
+        "status": "suggested",
+        "example_text": "Their trip is one of the few concrete things to come out the Xi-Trump summit.",
+        "example_url": "https://www.dw.com/en/china-sends-two-giant-pandas-off-to-atlanta-zoo-after-xi-trump-summit/a-79447128?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "The pandas' trip follows the summit, during which the two leaders discussed trade, AI, and a channel for AI safety incidents."
       }
     ]
   },
