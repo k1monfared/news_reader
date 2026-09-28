@@ -10092,6 +10092,16 @@
         "example_text": "The UAE-owned Manchester City have been found guilty on all but one of the 115 financial charges it faces for breaching financial rules, the Athletic reported, an outcome that could send shockwaves through English soccer and potentially sour UAE-UK relations.",
         "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-owned-manchester-city-found-guilty-financial-rules-breach-report",
         "unbiased_text": "Manchester City have been found guilty on all but one of the 115 financial charges it faces for breaching financial rules, the Athletic reported, an outcome that could send shockwaves through English soccer."
+      },
+      {
+        "pattern": "Choking Metaphor for Movement Restrictions",
+        "detail": "MEE uses the verb 'chokes' in two headlines to describe Israeli roadblocks and checkpoints during Sukkot, casting routine movement restrictions as deliberate suffocation.",
+        "debias": "Use neutral verbs such as 'restricts' or 'limits' when describing movement restrictions, reserving metaphors for cases of verified medical or humanitarian strangulation.",
+        "date_added": "2026-09-28",
+        "status": "suggested",
+        "example_text": "Israel chokes West Bank movement amid Jewish holiday",
+        "example_url": "https://www.middleeasteye.net/news/israel-chokes-west-bank-movement-during-jewish-holiday",
+        "unbiased_text": "Israel restricts West Bank movement amid Jewish holiday."
       }
     ]
   },
@@ -10158,6 +10168,16 @@
         "example_text": "Netanyahu rages against critics, including Mamdani, at the U.N. General Assembly",
         "example_url": "https://www.npr.org/2026/09/25/nx-s1-5979852/israels-prime-minister-addresses-u-n-general-assembly",
         "unbiased_text": "Netanyahu criticizes opponents, including Mamdani, at the U.N. General Assembly"
+      },
+      {
+        "pattern": "War-Role Base Contextualization",
+        "detail": "In covering the RAF Fairford incident, NPR repeatedly identifies the base by its role in launching US strikes on Iran, embedding a domestic security story within the wider conflict narrative.",
+        "debias": "When reporting incidents at military facilities, omit references to the facility's offensive operations unless directly relevant to the investigation.",
+        "date_added": "2026-09-28",
+        "status": "suggested",
+        "example_text": "U.K. police say five men were arrested on suspicion of preparation of a terrorist act after three vehicles were spotted near an air base the U.S. military has been using to launch attacks on Iran.",
+        "example_url": "https://www.npr.org/2026/09/27/nx-s1-5982718/five-arrested-near-uk-air-base-used-by-u-s-bombers-in-iran-war",
+        "unbiased_text": "U.K. police say five men were arrested on suspicion of preparation of a terrorist act after three vehicles were spotted near RAF Fairford."
       }
     ]
   },
