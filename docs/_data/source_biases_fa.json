@@ -11192,6 +11192,17 @@
         "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-owned-manchester-city-found-guilty-financial-rules-breach-report",
         "unbiased_text": "منچسترسیتی طبق گزارش The Athletic، در تمامی به‌جز یک مورد از ۱۱۵ اتهام مالی که به دلیل نقض قوانین مالی با آن مواجه است، مجرم شناخته شده است؛ نتیجه‌ای که می‌تواند لرزه بر اندام فوتبال انگلیس بیندازد.",
         "pattern_en": "Sovereign Ownership Labeling"
+      },
+      {
+        "pattern": "استعاره خفه‌کردن برای محدودیت‌های تردد",
+        "detail": "MEE از فعل «chokes» در دو تیتر برای توصیف موانع جاده‌ای و ایست‌های بازرسی اسرائیل در جشن سوکوت استفاده می‌کند و محدودیت‌های عادی تردد را به‌عنوان خفگی عمدی معرفی می‌کند.",
+        "debias": "در توصیف محدودیت‌های تردد از افعال خنثی مانند «محدود کردن» یا «کاهش دادن» استفاده کنید و استعاره‌ها را برای موارد اثبات‌شده خفگی پزشکی یا انسانی نگه دارید.",
+        "date_added": "2026-09-28",
+        "status": "suggested",
+        "example_text": "اسرائیل در جریان تعطیلات یهودی، تردد در کرانه باختری را خفه می‌کند",
+        "example_url": "https://www.middleeasteye.net/news/israel-chokes-west-bank-movement-during-jewish-holiday",
+        "unbiased_text": "اسرائیل در جریان تعطیلات یهودی، تردد در کرانه باختری را محدود می‌کند.",
+        "pattern_en": "Choking Metaphor for Movement Restrictions"
       }
     ]
   },
@@ -11264,6 +11275,17 @@
         "example_url": "https://www.npr.org/2026/09/25/nx-s1-5979852/israels-prime-minister-addresses-u-n-general-assembly",
         "unbiased_text": "نتانیاهو در مجمع عمومی سازمان ملل از منتقدان، از جمله ممدانی، انتقاد می‌کند",
         "pattern_en": "Emotive Verb Headline Labeling"
+      },
+      {
+        "pattern": "زمینه‌سازی پایگاه بر اساس نقش جنگی",
+        "detail": "در پوشش حادثهٔ پایگاه هوایی RAF فیرفورد، NPR بارها این پایگاه را بر اساس نقش آن در پرتاب حملات آمریکا به ایران معرفی می‌کند و بدین ترتیب یک خبر امنیت داخلی را در روایت گسترده‌تر جنگ قرار می‌دهد.",
+        "debias": "هنگام گزارش حوادث در تأسیسات نظامی، از اشاره به عملیات تهاجمی پایگاه خودداری کنید مگر اینکه مستقیماً به تحقیقات مرتبط باشد.",
+        "date_added": "2026-09-28",
+        "status": "suggested",
+        "example_text": "پلیس بریتانیا می‌گوید پنج مرد به‌ظن آماده‌سازی یک اقدام تروریستی بازداشت شده‌اند، پس از آن‌که سه خودرو در نزدیکی پایگاه هوایی مشاهده شد که ارتش آمریکا از آن برای پرتاب حملات به ایران استفاده می‌کرد.",
+        "example_url": "https://www.npr.org/2026/09/27/nx-s1-5982718/five-arrested-near-uk-air-base-used-by-u-s-bombers-in-iran-war",
+        "unbiased_text": "پلیس بریتانیا می‌گوید پنج مرد به‌ظن آماده‌سازی یک اقدام تروریستی بازداشت شده‌اند، پس از آن‌که سه خودرو در نزدیکی پایگاه هوایی RAF فیرفورد مشاهده شد.",
+        "pattern_en": "War-Role Base Contextualization"
       }
     ]
   },
