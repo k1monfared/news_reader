@@ -3646,6 +3646,16 @@
         "example_text": "Israel offers cash to firms hit by trade ban; Europe dithers on new rules",
         "example_url": "https://www.aljazeera.com/news/2026/9/24/israel-offers-cash-to-firms-hit-by-trade-ban-europe-dithers-on-new-rules",
         "unbiased_text": "Israel offers cash to firms hit by trade ban; Europe deliberates on new rules"
+      },
+      {
+        "pattern": "Unqualified Verdict Assertion",
+        "detail": "Al Jazeera's headline states Manchester City is 'guilty' of all serious charges without attributing the verdict to the Premier League panel or noting the club's planned appeal, presenting the decision as an uncontested fact.",
+        "debias": "Use attributed phrasing that identifies the ruling body and includes the club's response, such as 'found guilty by a Premier League panel' and 'plans to appeal.'",
+        "date_added": "2026-09-29",
+        "status": "suggested",
+        "example_text": "Man City guilty of all serious financial breach charges: Premier League",
+        "example_url": "https://www.aljazeera.com/sports/2026/9/29/man-city-guilty-of-all-serious-financial-breach-charges-premier-league?traffic_source=rss",
+        "unbiased_text": "Premier League panel finds Manchester City guilty of all serious financial breach charges; club says it is disappointed and will appeal."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -9996,6 +10006,16 @@
         "example_text": "Jared Kushner and Ivanka Trump helped achieve what few in Jerusalem thought possible, bringing every Israeli hostage home and reshaping the Middle East.",
         "example_url": "https://www.jpost.com/influencers-26/50jews-26/article-908121",
         "unbiased_text": "Kushner and Ivanka Trump were involved in the hostage-release efforts, which were the result of broader US and Israeli diplomatic and military coordination."
+      },
+      {
+        "pattern": "Security Force Casualty Headline Emphasis",
+        "detail": "In coverage of the settler attack on the West Bank village of Jalud, the Jerusalem Post's summary leads with injuries to Israeli security forces before mentioning the destruction of Palestinian property and disruption to a Palestinian family's return, while other outlets foreground the Palestinian victims.",
+        "debias": "When summarizing settler violence, describe the impact on the Palestinian community first and mention security-force injuries as a secondary consequence.",
+        "date_added": "2026-09-29",
+        "status": "suggested",
+        "example_text": "Three Border Police officers lightly wounded as extremist settlers clash with forces, setting fire to Palestinian property • Riot sought to prevent Palestinian family’s coordinated return to Jalud",
+        "example_url": "https://www.jpost.com/israel-news/article-910035",
+        "unbiased_text": "Settlers set fire to Palestinian property and attempted to prevent a Palestinian family's return to Jalud; three Border Police officers were lightly wounded in the clashes."
       }
     ]
   },
@@ -10178,6 +10198,16 @@
         "example_text": "U.K. police say five men were arrested on suspicion of preparation of a terrorist act after three vehicles were spotted near an air base the U.S. military has been using to launch attacks on Iran.",
         "example_url": "https://www.npr.org/2026/09/27/nx-s1-5982718/five-arrested-near-uk-air-base-used-by-u-s-bombers-in-iran-war",
         "unbiased_text": "U.K. police say five men were arrested on suspicion of preparation of a terrorist act after three vehicles were spotted near RAF Fairford."
+      },
+      {
+        "pattern": "Terror Suspect Label Retention Post-Bail",
+        "detail": "NPR continues to describe the five men released on bail as being involved in a 'suspected terror plot' even after police reported no explosive devices were found, maintaining the terror label despite evidence weakening the initial narrative.",
+        "debias": "After bail release and a lack of explosives, refer to the individuals as 'men arrested on suspicion' or 'detained and released on bail' rather than 'terror suspects.'",
+        "date_added": "2026-09-29",
+        "status": "suggested",
+        "example_text": "British men released on bail after suspected terror plot",
+        "example_url": "https://www.npr.org/2026/09/28/nx-s1-5983550/british-men-released-on-bail-after-suspected-terror-plot",
+        "unbiased_text": "British men released on bail after arrest near military base; police found no explosive devices."
       }
     ]
   },
