@@ -7248,6 +7248,17 @@
         "example_url": "https://www.france24.com/en/middle-east/20260923-iran-will-never-bend-at-the-knee-pezeshkian-tells-un-defiant-wartime-address",
         "unbiased_text": "پزشکیان به سازمان ملل می‌گوید: «ما هرگز زانو نخواهیم زد»",
         "pattern_en": "Defiant Wartime Address Labeling"
+      },
+      {
+        "pattern": "خشونت شهرکنشینان با محوریت تلفات اسرائیلی",
+        "detail": "عنوان خبری، حمله شهرکنشینان به یک روستای کرانه باختری را با تأکید بر زخمی شدن نیروهای اسرائیلی و سرزنش نادر دولت مطرح میکند، نه با تأکید بر تخریب اموال و آوارگی فلسطینیان.",
+        "debias": "با تأثیر حمله بر ساکنان فلسطینی شروع کنید و تلفات اسرائیلی و بیانیه دولت را به‌عنوان جزئیات ثانویه ذکر کنید.",
+        "date_added": "2026-09-30",
+        "status": "suggested",
+        "example_text": "حمله شهرکنشینان به روستایی در کرانه باختری به زخمی شدن نیروهای اسرائیلی انجامید و سرزنش نادر دولت را برانگیخت",
+        "example_url": "https://www.france24.com/en/middle-east/20260929-settler-raid-on-west-bank-village-injures-israeli-forces-drawing-rare-government-rebuke",
+        "unbiased_text": "شهرکنشینان به روستایی در کرانه باختری یورش بردند، خانه‌های فلسطینیان را سوزاندند و نیروهای اسرائیلی را زخمی کردند",
+        "pattern_en": "Settler violence Israeli casualty lead"
       }
     ]
   },
@@ -11109,6 +11120,28 @@
         "example_url": "https://www.jpost.com/israel-news/article-910035",
         "unbiased_text": "شهرکنشینان اموال فلسطینیان را به آتش کشیدند و تلاش کردند مانع بازگشت یک خانواده فلسطینی به جالود شوند؛ در درگیری‌ها سه افسر پلیس مرزبانی زخمی سطحی برداشتند.",
         "pattern_en": "Security Force Casualty Headline Emphasis"
+      },
+      {
+        "pattern": "برچسب هواپیماربایی برای حمله به کابین خلبان",
+        "detail": "در تیترها، حمله با چاقوی یک خلبان به خلبان دیگر و تلاش برای سقوط را «هواپیماربایی» و «تروریسم» می‌نامد، واژه‌ای که سایر رسانه‌ها آن را به گروگان‌گیری یا حملات با انگیزه سیاسی محدود می‌کنند.",
+        "debias": "از اصطلاحات خنثی و مشخص مانند «حمله به کابین خلبان» یا «تلاش برای سقوط» استفاده کنید، مگر اینکه هواپیماربایی توسط مقامات تأیید شود.",
+        "date_added": "2026-09-30",
+        "status": "suggested",
+        "example_text": "تماشا کنید: پرواز نجات با تمام مسافران از تلاش قبلی هواپیماربایی فلای دوبی در اسرائیل فرود آمد",
+        "example_url": "https://www.jpost.com/middle-east/article-910203",
+        "unbiased_text": "تماشا کنید: پرواز نجات با تمام مسافران از حادثه قبلی فلای دوبی در اسرائیل فرود آمد",
+        "pattern_en": "Hijacking label for cockpit assault"
+      },
+      {
+        "pattern": "ملی‌سازی قهرمانی مسافران",
+        "detail": "با برجسته کردن و تقویت اقدامات قهرمانانه مسافران اسرائیلی که خلبان را مهار کردند، مداخله غیرنظامی را به شیوه‌ای که سایر رسانه‌ها انجام نمی‌دهند، ملی‌سازی می‌کند.",
+        "debias": "اقدامات مسافران را به‌صورت واقعی گزارش کنید بدون اینکه آن‌ها را به‌عنوان قهرمانان ملی قاب کنید؛ هرگونه تمجید را به مقامات نسبت دهید.",
+        "date_added": "2026-09-30",
+        "status": "suggested",
+        "example_text": "نتانیاهو تأیید کرد که خلبان فلایدوبای اقدام به چاقوکشی کرده است و از قهرمانی مسافران در بن‌گوریون تمجید کرد",
+        "example_url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-910205",
+        "unbiased_text": "نتانیاهو تأیید کرد که خلبان به همکارش چاقو زده است؛ مقامات از مسافران که مداخله کردند تشکر کردند",
+        "pattern_en": "Passenger heroism nationalization"
       }
     ]
   },
@@ -11225,6 +11258,17 @@
         "example_url": "https://www.middleeasteye.net/news/israel-chokes-west-bank-movement-during-jewish-holiday",
         "unbiased_text": "اسرائیل در جریان تعطیلات یهودی، تردد در کرانه باختری را محدود می‌کند.",
         "pattern_en": "Choking Metaphor for Movement Restrictions"
+      },
+      {
+        "pattern": "قاب‌سازی کم‌اهمیت جلوه دادن هراس امنیتی",
+        "detail": "از واژه «هراس» برای توصیف یک حادثه امنیتی بزرگ در یک پایگاه نظامی استفاده می‌کند و در مقایسه با قاب‌سازی «حادثه» یا «توطئه تروریستی» سایر رسانه‌ها، جدیت آن را کم‌اهمیت جلوه می‌دهد.",
+        "debias": "واژه «هراس» را با «حادثه امنیتی» یا «توطئه مشکوک» خنثی جایگزین کنید تا زمانی که تحقیقات به نتیجه برسد.",
+        "date_added": "2026-09-30",
+        "status": "suggested",
+        "example_text": "نخست‌وزیر بریتانیا می‌گوید «نشانه‌های قوی» از دخالت ایران در هراس پایگاه هوایی وجود دارد",
+        "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-pm-says-strong-indications-iran-involved-airbase-scare",
+        "unbiased_text": "نخست‌وزیر بریتانیا می‌گوید «نشانه‌های قوی» از دخالت ایران در حادثه امنیتی پایگاه هوایی فیرفورد وجود دارد",
+        "pattern_en": "Security scare minimization framing"
       }
     ]
   },
