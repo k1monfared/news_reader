@@ -6540,6 +6540,16 @@
         "example_text": "Iran will 'never bend at the knee', Pezeshkian tells UN in defiant wartime address",
         "example_url": "https://www.france24.com/en/middle-east/20260923-iran-will-never-bend-at-the-knee-pezeshkian-tells-un-defiant-wartime-address",
         "unbiased_text": "Pezeshkian tells UN: 'We will never bend at the knee'"
+      },
+      {
+        "pattern": "Settler violence Israeli casualty lead",
+        "detail": "Headlines a settler attack on a West Bank village by emphasizing injuries to Israeli forces and the rare government rebuke, rather than the Palestinian property destruction and displacement.",
+        "debias": "Lead with the attack's impact on Palestinian residents, and mention the Israeli casualties and government statement as secondary details.",
+        "date_added": "2026-09-30",
+        "status": "suggested",
+        "example_text": "Settler raid on West Bank village injures Israeli forces, drawing rare government rebuke",
+        "example_url": "https://www.france24.com/en/middle-east/20260929-settler-raid-on-west-bank-village-injures-israeli-forces-drawing-rare-government-rebuke",
+        "unbiased_text": "Settlers storm West Bank village, burn Palestinian homes and wound Israeli forces"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -10016,6 +10026,26 @@
         "example_text": "Three Border Police officers lightly wounded as extremist settlers clash with forces, setting fire to Palestinian property • Riot sought to prevent Palestinian family’s coordinated return to Jalud",
         "example_url": "https://www.jpost.com/israel-news/article-910035",
         "unbiased_text": "Settlers set fire to Palestinian property and attempted to prevent a Palestinian family's return to Jalud; three Border Police officers were lightly wounded in the clashes."
+      },
+      {
+        "pattern": "Hijacking label for cockpit assault",
+        "detail": "Labels a pilot-on-pilot stabbing and attempted crash as 'hijacking' and 'terror' in headlines, a term other outlets restrict to hostage-taking or politically motivated attacks.",
+        "debias": "Use neutral incident-specific terms like 'cockpit assault' or 'attempted crash' unless confirmed as a hijacking by authorities.",
+        "date_added": "2026-09-30",
+        "status": "suggested",
+        "example_text": "WATCH: Rescue flight lands in Israel with all passengers from earlier flydubai hijacking attempt",
+        "example_url": "https://www.jpost.com/middle-east/article-910203",
+        "unbiased_text": "WATCH: Rescue flight lands in Israel with all passengers from earlier flydubai incident"
+      },
+      {
+        "pattern": "Passenger heroism nationalization",
+        "detail": "Leads with and amplifies the heroic actions of Israeli passengers who subdued the pilot, nationalizing a civilian intervention in a way other outlets do not.",
+        "debias": "Report the passengers' actions factually without framing them as national heroes; attribute any praise to officials.",
+        "date_added": "2026-09-30",
+        "status": "suggested",
+        "example_text": "Netanyahu confirms flydubai pilot conducted stabbing, praises passengers' heroism at Ben-Gurion",
+        "example_url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-910205",
+        "unbiased_text": "Netanyahu confirms pilot stabbed colleague; officials thank passengers who intervened"
       }
     ]
   },
@@ -10122,6 +10152,16 @@
         "example_text": "Israel chokes West Bank movement amid Jewish holiday",
         "example_url": "https://www.middleeasteye.net/news/israel-chokes-west-bank-movement-during-jewish-holiday",
         "unbiased_text": "Israel restricts West Bank movement amid Jewish holiday."
+      },
+      {
+        "pattern": "Security scare minimization framing",
+        "detail": "Uses the word 'scare' to describe a major security incident at a military base, downplaying its seriousness compared to other outlets' 'incident' or 'terror plot' framing.",
+        "debias": "Replace 'scare' with neutral 'security incident' or 'suspected plot' until the investigation resolves.",
+        "date_added": "2026-09-30",
+        "status": "suggested",
+        "example_text": "UK PM says 'strong indications' Iran involved in airbase scare",
+        "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-pm-says-strong-indications-iran-involved-airbase-scare",
+        "unbiased_text": "UK PM says 'strong indications' Iran involved in RAF Fairford security incident"
       }
     ]
   },
