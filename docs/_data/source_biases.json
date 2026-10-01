@@ -6550,6 +6550,16 @@
         "example_text": "Settler raid on West Bank village injures Israeli forces, drawing rare government rebuke",
         "example_url": "https://www.france24.com/en/middle-east/20260929-settler-raid-on-west-bank-village-injures-israeli-forces-drawing-rare-government-rebuke",
         "unbiased_text": "Settlers storm West Bank village, burn Palestinian homes and wound Israeli forces"
+      },
+      {
+        "pattern": "Withdrawal Security Vacuum Framing",
+        "detail": "France 24 frames the US withdrawal from Iraq as creating a 'security vacuum' that could embolden Iran-backed militias, rather than emphasizing the pullout as an agreed Iraqi sovereignty milestone.",
+        "debias": "Present troop withdrawals with balanced context, noting both the completion of an agreed pullout and analysts' security assessments without adopting 'vacuum' language.",
+        "date_added": "2026-10-01",
+        "status": "suggested",
+        "example_text": "US forces are withdrawing from their remaining bases in Iraq on Wednesday, completing a pullout agreed under former president Joe Biden as fears grow over the security vacuum it could leave.",
+        "example_url": "https://www.france24.com/en/middle-east/20260930-us-forces-leave-iraq-raising-fears-of-iran-backed-militias-amid-power-vacuum",
+        "unbiased_text": "US forces are withdrawing from their remaining bases in Iraq, completing a pullout agreed under former president Joe Biden; Iraqi officials and analysts are assessing the potential security implications."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -10364,6 +10374,16 @@
         "example_text": "Their trip is one of the few concrete things to come out the Xi-Trump summit.",
         "example_url": "https://www.dw.com/en/china-sends-two-giant-pandas-off-to-atlanta-zoo-after-xi-trump-summit/a-79447128?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "The pandas' trip follows the summit, during which the two leaders discussed trade, AI, and a channel for AI safety incidents."
+      },
+      {
+        "pattern": "Botched Execution Terminology Adoption",
+        "detail": "DW and The Hindu describe a halted lethal injection as a 'failed' or 'botched' execution rather than neutrally reporting that the process was stopped after complications.",
+        "debias": "Use operational language such as 'execution halted after complications' instead of value-laden terms like 'failed' or 'botched'.",
+        "date_added": "2026-10-01",
+        "status": "suggested",
+        "example_text": "Christa Pike was found alive and snoring, despite being administered two injections of a lethal drug. The state governor has ordered a review of the botched execution.",
+        "example_url": "https://www.dw.com/en/tennessee-halts-woman-s-execution-after-failed-attempt/a-79496561?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "Christa Pike remained alive after receiving two injections of a lethal drug. The state governor ordered a review of the halted execution."
       }
     ]
   },
