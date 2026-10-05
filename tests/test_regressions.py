@@ -187,6 +187,23 @@ class TestMalformedResponse:
         assert _call(client) == "recovered"
 
 
+class TestEmptyContentAttempts:
+    def test_empty_content_attempts_configurable(self, tmp_path, scripted_http):
+        """llm_empty_content_attempts controls how many tries an empty reply gets."""
+        http = scripted_http([
+            JsonResponse(200, content=""),
+            JsonResponse(200, content="recovered"),
+        ])
+        client = AuditedLLMClient(
+            str(tmp_path / "run"),
+            {"max_cost_per_run_usd": 1.0, "llm_empty_content_attempts": 2},
+            {"default": "model-a", "fallbacks": ["model-b"]},
+        )
+
+        assert _call(client) == "recovered"
+        assert [c["payload"]["model"] for c in http["calls"]] == ["model-a", "model-a"]
+
+
 # ---------------------------------------------------------------------------
 # Farsi translation: unclosed tags + foreign-script leakage (Oct 3 incident)
 # ---------------------------------------------------------------------------

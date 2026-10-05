@@ -140,8 +140,21 @@ class AuditedLLMClient:
         self._run_dir = Path(run_dir)
         self._max_cost = float(config.get("max_cost_per_run_usd", 1.0))
         self._max_attempts = int(config.get("llm_retry_attempts", 3))
+        # Empty content means the model emitted only reasoning and no answer.
+        # It is almost never transient, so try it far fewer times than a
+        # rate limit or 5xx before failing over to the next model.
+        self._empty_content_attempts = max(
+            1, int(config.get("llm_empty_content_attempts", 1))
+        )
         self._fallbacks: list[str] = list((models_cfg or {}).get("fallbacks", []))
         self._primary_default: str = (models_cfg or {}).get("default", "")
+        # Stages that should try the paid/config models before the selected
+        # free models. Long prompts (editorial, bias detection) tend to make
+        # free models return reasoning-only empty content, so paying a little
+        # to avoid minutes of wasted failover is worth it there.
+        self._paid_first_stages: set[str] = set(
+            (models_cfg or {}).get("paid_first_stages", [])
+        )
         # Probe-verified free models written by scripts/select_models.py.
         # When the key is absent (as in most tests) the static chain is used.
         self._selected_file: str = (models_cfg or {}).get(
@@ -255,14 +268,19 @@ class AuditedLLMClient:
                 f">= cap ${self._max_cost:.2f}"
             )
 
-        # Save full input payload. The failover chain starts with the
-        # probe-verified free models (each on its own catalog base), then the
-        # static config primary and fallbacks on the default base. Dedup by
-        # (base, model) so the primary is never tried twice.
+        # Save full input payload. By default the failover chain starts with
+        # the probe-verified free models (each on its own catalog base), then
+        # the static config primary and fallbacks on the default base. For
+        # stages in ``paid_first_stages`` the order is reversed so long
+        # prompts go to the paid models first. Dedup by (base, model) so the
+        # primary is never tried twice.
         primary = model or self._primary_default
-        raw_chain: list[tuple[str, str]] = list(self._selected_models)
-        raw_chain.append((self._base_url, primary))
-        raw_chain.extend((self._base_url, m) for m in self._fallbacks)
+        configured: list[tuple[str, str]] = [(self._base_url, primary)]
+        configured.extend((self._base_url, m) for m in self._fallbacks)
+        if stage in self._paid_first_stages:
+            raw_chain = configured + list(self._selected_models)
+        else:
+            raw_chain = list(self._selected_models) + configured
 
         chain: list[tuple[str, str]] = []
         seen: set[tuple[str, str]] = set()
@@ -407,11 +425,13 @@ class AuditedLLMClient:
         for a single model.
 
         Free-tier Zen models can fail transiently (429 rate limits, 5xx,
-        network errors) or return an empty ``content`` field (the model
-        emitted only ``reasoning_content``), so retry a few times with
-        backoff before giving up on this model. Permanent rejections (400/
-        401/403/404, e.g. "Model is unavailable") raise
-        ``ModelUnavailableError`` immediately so the caller can fail over.
+        network errors) and are retried a few times with backoff. An empty
+        ``content`` field (the model emitted only ``reasoning_content``) is
+        treated as almost-never transient and gets only
+        ``llm_empty_content_attempts`` tries (default 1) before failing over,
+        so a dead model does not burn minutes. Permanent rejections (400/
+        401/402/403/404) raise ``ModelUnavailableError`` immediately so the
+        caller can fail over.
 
         Returns ``(response_text, tokens_in, tokens_out, stop_reason)``.
         """
@@ -424,7 +444,10 @@ class AuditedLLMClient:
             ],
         }
         last_error: Exception | None = None
+        empty_attempts = 0
+        attempts_used = 0
         for attempt in range(self._max_attempts):
+            attempts_used = attempt + 1
             try:
                 with httpx.Client(
                     timeout=httpx.Timeout(600.0, connect=10.0)
@@ -483,10 +506,15 @@ class AuditedLLMClient:
                             )
                         else:
                             if not content:
+                                empty_attempts += 1
                                 last_error = RuntimeError(
-                                    f"Model {model} returned empty content; retrying "
-                                    "(free models may emit only reasoning_content)"
+                                    f"Model {model} returned empty content "
+                                    f"(attempt {empty_attempts}/"
+                                    f"{self._empty_content_attempts}); "
+                                    "free models may emit only reasoning_content"
                                 )
+                                if empty_attempts >= self._empty_content_attempts:
+                                    break
                             else:
                                 usage = data.get("usage", {}) if isinstance(data.get("usage"), dict) else {}
                                 return (
@@ -498,7 +526,7 @@ class AuditedLLMClient:
             if attempt < self._max_attempts - 1:
                 time.sleep(2 ** attempt)
         raise RuntimeError(
-            f"Model {model} failed after {self._max_attempts} attempts: "
+            f"Model {model} failed after {attempts_used} attempt(s): "
             f"{last_error}"
         )
 

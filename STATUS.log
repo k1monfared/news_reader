@@ -4,6 +4,15 @@
     - Stage: MVP
     - Next Milestone: Confirm a green CI run with the free-model-first chain and the failure notifier
 
+- Free-Model Latency Fixes and Farsi-Only Regeneration (2026-10-05)
+    - Live CI test: Backfill 2026-10-04 (23m17s) and Daily Brief 2026-10-05 (26m1s) both green, EN + FA published, EN broadcast sent, FA broadcast failed 422 (Farsi audience has no contacts, data issue)
+    - Findings from the live run: free models returned reasoning-only empty content on the long prompts, so editorial and bias detection burned minutes failing over; editorial now pays a little to skip that
+    - config.budget: added llm_retry_attempts (3) and llm_empty_content_attempts (1); empty content now fails over after one attempt instead of three
+    - config.models: added paid_first_stages [editorial] so paid/config models are tried before the selected free models for the long editorial and bias prompts; other stages stay free-first
+    - select_models.py now dedups by model id, so a model served on both catalogs is kept once (Go base wins); models.json pruned to two entries
+    - scripts/translate_fa_for_date.py + translate-fa.yml: regenerate only the Farsi edition for a date from its existing English post, no English re-run and no email
+    - Tests: 123 passing (was 117)
+
 - Failure Regression Tests and Failure Notifications (2026-10-05)
     - Added tests/test_regressions.py locking in past incident fixes and the new automations: account-funds 402, malformed LLM bodies, Farsi autoclose, foreign-script leakage, degraded editorial, summarize propagation, empty brief and streak notifications
     - Added tests/test_failure_notice.py for the post-failure summary logic

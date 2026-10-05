@@ -1,0 +1,41 @@
+name: Translate FA for Date
+
+# Regenerate the Farsi edition for a date from its already-published English
+# post. No English re-run, no email. Commits and pushes docs/_fa_posts/ and
+# the Farsi bias mirror only.
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Date of the existing English post (YYYY-MM-DD)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  translate-fa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Translate Farsi for date
+        env:
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          OPENCODE_API_BASE_URL: https://opencode.ai/zen/go/v1
+          OPENCODE_SESSION_ID: news-reader-fa-${{ github.run_id }}
+        run: python scripts/translate_fa_for_date.py --date "${{ inputs.date }}"

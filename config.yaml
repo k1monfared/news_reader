@@ -131,6 +131,11 @@ models:
   # Select Free Models workflow. When present, these are tried before the
   # static chain above, each on its own catalog base.
   selected_models_file: models.json
+  # Stages that try the paid/config models before the selected free models.
+  # The long editorial and bias prompts make free models emit reasoning-only
+  # empty content, so paying a little there beats minutes of failed polling.
+  paid_first_stages:
+    - editorial
 
 # ---------------------------------------------------------------------------
 # Dynamic Buckets
@@ -281,6 +286,11 @@ schedule:
 budget:
   max_cost_per_run_usd: 10.00
   alert_threshold_usd: 8.0
+  # Per-model retry attempts for transient errors (429/5xx/network).
+  llm_retry_attempts: 3
+  # Attempts for an empty response (reasoning-only). Empty content is almost
+  # never transient, so keep this at 1 to fail over quickly.
+  llm_empty_content_attempts: 1
 
 # ---------------------------------------------------------------------------
 # Audit

@@ -160,11 +160,9 @@ class TestFailover:
         entries = read_calls_jsonl(tmp_path / "run")
         assert entries[-1]["failed_over_from"] == ["model-a"]
 
-    def test_empty_content_retries_then_fails_over(self, tmp_path, scripted_http):
-        """Empty content (reasoning-only responses) retries, then fails over."""
+    def test_empty_content_fails_over_immediately(self, tmp_path, scripted_http):
+        """Empty content (reasoning-only) gets one attempt, then fails over."""
         http = scripted_http([
-            FakeResponse(200, content=""),
-            FakeResponse(200, content="   "),
             FakeResponse(200, content=""),
             FakeResponse(200, content="recovered"),
         ])
@@ -180,6 +178,7 @@ class TestFailover:
         )
 
         assert out == "recovered"
+        assert [c["payload"]["model"] for c in http["calls"]] == ["model-a", "model-b"]
         entries = read_calls_jsonl(tmp_path / "run")
         assert entries[-1]["model"] == "model-b"
 

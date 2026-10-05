@@ -12,10 +12,6 @@
     {
       "id": "space-bunny-free",
       "base_url": "https://opencode.ai/zen/go/v1"
-    },
-    {
-      "id": "space-bunny-free",
-      "base_url": "https://opencode.ai/zen/v1"
     }
   ],
   "probes": [

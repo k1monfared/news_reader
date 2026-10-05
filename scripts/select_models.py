@@ -123,18 +123,21 @@ def select_from_probes(probes: list[dict]) -> list[dict]:
     """Keep free models that answered on the chat/completions route.
 
     ``AuditedLLMClient`` only speaks ``/chat/completions``, so a model that
-    only works on ``/responses`` is skipped despite being free.
+    only works on ``/responses`` is skipped despite being free. Dedup is by
+    model id: a model served on both catalogs is kept once, on the first base
+    that answered (bases are probed Go first, so the pipeline's own base wins
+    over the Zen mirror).
     """
     selected: list[dict] = []
-    seen: set[tuple[str, str]] = set()
+    seen_ids: set[str] = set()
     for probe in probes:
         if probe.get("outcome") != "OK" or probe.get("route") != "chat/completions":
             continue
         base = probe.get("base_url", "")
         model_id = probe.get("id", "")
-        if not model_id or (base, model_id) in seen:
+        if not model_id or model_id in seen_ids:
             continue
-        seen.add((base, model_id))
+        seen_ids.add(model_id)
         selected.append({"id": model_id, "base_url": base})
     return selected
 

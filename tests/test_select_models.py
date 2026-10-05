@@ -57,6 +57,14 @@ class TestSelection:
         ]
         assert len(select_from_probes(probes)) == 1
 
+    def test_dedup_by_id_across_bases(self):
+        """A model served on both catalogs is kept once, on the first base."""
+        probes = [
+            {"id": "space-bunny-free", "base_url": GO, "outcome": "OK", "route": "chat/completions"},
+            {"id": "space-bunny-free", "base_url": ZEN, "outcome": "OK", "route": "chat/completions"},
+        ]
+        assert select_from_probes(probes) == [{"id": "space-bunny-free", "base_url": GO}]
+
     def test_seeds_when_catalog_empty(self):
         assert "longcat-2.5-preview-free" in candidates_for_base(GO, [])
         assert "big-pickle" in candidates_for_base(ZEN, [])
@@ -241,3 +249,37 @@ class TestRuntimeSelection:
         scripted_http([_Resp(200, content="paid answer")])
 
         assert _call(_make_client(tmp_path, selected_file)) == "paid answer"
+
+    def test_paid_first_stage_orders_paid_before_free(
+        self, tmp_path, monkeypatch, scripted_http
+    ):
+        monkeypatch.setenv("OPENCODE_API_BASE_URL", "https://paid.example/v1")
+        selected_file = tmp_path / "models.json"
+        selected_file.write_text(json.dumps({
+            "selected": [{"id": "longcat-2.5-preview-free", "base_url": GO}]
+        }))
+        http = scripted_http([_Resp(200, content="paid answer")])
+        client = AuditedLLMClient(
+            str(tmp_path / "run"),
+            {"max_cost_per_run_usd": 1.0},
+            {
+                "default": "paid-model",
+                "fallbacks": [],
+                "selected_models_file": str(selected_file),
+                "paid_first_stages": ["editorial"],
+            },
+        )
+
+        out = client.call(
+            stage="editorial",
+            prompt_name="p",
+            prompt_version=1,
+            system="s",
+            user_message="u",
+        )
+
+        assert out == "paid answer"
+        assert http["calls"][0] == {
+            "url": "https://paid.example/v1/chat/completions",
+            "model": "paid-model",
+        }
