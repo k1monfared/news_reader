@@ -4,6 +4,13 @@
     - Stage: MVP
     - Next Milestone: Confirm a green CI run with the free-model-first chain and the failure notifier
 
+- Broadcast Ledger to Prevent Double Emails (2026-10-05)
+    - Incident: the 2026-10-05 English broadcast was sent while a delayed scheduled Daily Brief for the same date was still queued; if it had run it would have republished and emailed subscribers a second time
+    - mailer now keeps data/sent_broadcasts.json, a per-date per-language ledger; it records broadcast ids after each successful send and skips any date+language already recorded
+    - Seeded the ledger with the 2026-10-05 English send so a late duplicate run cannot re-email it
+    - The ledger is committed by the mailer (reusing empty_streak's _git_commit_file)
+    - Tests: 126 passing
+
 - Free-Model Latency Fixes and Farsi-Only Regeneration (2026-10-05)
     - Live CI test: Backfill 2026-10-04 (23m17s) and Daily Brief 2026-10-05 (26m1s) both green, EN + FA published, EN broadcast sent, FA broadcast failed 422 (Farsi audience has no contacts, data issue)
     - Findings from the live run: free models returned reasoning-only empty content on the long prompts, so editorial and bias detection burned minutes failing over; editorial now pays a little to skip that

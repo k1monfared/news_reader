@@ -17,9 +17,10 @@ invoked.
 
 from __future__ import annotations
 
+import json
 import logging
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 from models import PipelineConfig
@@ -36,9 +37,35 @@ from newsletter.render import (
 from resend_broadcast import BroadcastError, send_broadcast
 
 # Empty brief streak handling
-from stages.empty_streak import is_empty_brief, update_streak_and_notify
+from stages.empty_streak import (
+    _git_commit_file,
+    is_empty_brief,
+    update_streak_and_notify,
+)
 
 logger = logging.getLogger(__name__)
+
+
+def _load_sent_state(path: str) -> dict:
+    """Load the per-date/per-language broadcast ledger."""
+    state_path = Path(path)
+    if not state_path.exists():
+        return {}
+    try:
+        data = json.loads(state_path.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except (OSError, json.JSONDecodeError):
+        logger.warning(f"Could not read broadcast ledger {path}; treating as empty")
+        return {}
+
+
+def _save_sent_state(path: str, state: dict) -> None:
+    state_path = Path(path)
+    state_path.parent.mkdir(parents=True, exist_ok=True)
+    state_path.write_text(
+        json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+
 
 
 EMAIL_CSS = """
@@ -290,11 +317,22 @@ def run_mailer(
 
     results: list[dict] = []
     errors: list[str] = []
+    skipped: list[str] = []
+
+    # Broadcast ledger: never send the same date+language twice, even if a
+    # delayed scheduled run or a manual re-run lands after the first send.
+    sent_state_file = mailer_cfg.get("sent_state_file", "data/sent_broadcasts.json")
+    sent_state = _load_sent_state(sent_state_file)
+    already_sent = dict(sent_state.get(date_str, {}))
+    state_changed = False
 
     en_audience = mailer_cfg.get("audience_id_en")
-    if en_post.exists() and en_audience:
+    if en_audience and "en" in already_sent:
+        logger.info(f"English broadcast already sent for {date_str}; skipping.")
+        skipped.append("en")
+    elif en_post.exists() and en_audience:
         try:
-            results.append(_send_for_language(
+            result = _send_for_language(
                 post_path=en_post,
                 audience_id=en_audience,
                 lang="en",
@@ -303,7 +341,13 @@ def run_mailer(
                 site_base_url=site_base_url,
                 site_title=en_site_title,
                 labels=en_labels,
-            ))
+            )
+            results.append(result)
+            already_sent["en"] = {
+                "broadcast_id": result.get("broadcast_id"),
+                "sent_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            }
+            state_changed = True
         except (BroadcastError, RuntimeError) as e:
             logger.error(f"English broadcast failed: {e}")
             errors.append(f"en: {e}")
@@ -313,9 +357,12 @@ def run_mailer(
         logger.warning(f"English post not found at {en_post}; skipping.")
 
     fa_audience = mailer_cfg.get("audience_id_fa")
-    if fa_post.exists() and fa_audience:
+    if fa_audience and "fa" in already_sent:
+        logger.info(f"Farsi broadcast already sent for {date_str}; skipping.")
+        skipped.append("fa")
+    elif fa_post.exists() and fa_audience:
         try:
-            results.append(_send_for_language(
+            result = _send_for_language(
                 post_path=fa_post,
                 audience_id=fa_audience,
                 lang="fa",
@@ -324,15 +371,36 @@ def run_mailer(
                 site_base_url=site_base_url,
                 site_title=fa_site_title,
                 labels=fa_labels,
-            ))
+            )
+            results.append(result)
+            already_sent["fa"] = {
+                "broadcast_id": result.get("broadcast_id"),
+                "sent_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            }
+            state_changed = True
         except (BroadcastError, RuntimeError) as e:
             logger.error(f"Farsi broadcast failed: {e}")
             errors.append(f"fa: {e}")
     elif not fa_audience:
         logger.info("No audience_id_fa configured; skipping Farsi broadcast.")
 
-    if errors and not results:
+    if state_changed:
+        sent_state[date_str] = already_sent
+        _save_sent_state(sent_state_file, sent_state)
+        _git_commit_file(
+            sent_state_file,
+            f"Record broadcast sent: {date_str} ({', '.join(sorted(already_sent))})",
+        )
+
+    if errors and not results and not skipped:
         return {"status": "failed", "errors": errors}
     if errors:
-        return {"status": "partial", "results": results, "errors": errors}
-    return {"status": "sent", "results": results}
+        return {
+            "status": "partial",
+            "results": results,
+            "errors": errors,
+            "skipped": skipped,
+        }
+    if not results and skipped:
+        return {"status": "skipped", "reason": "already_sent", "skipped": skipped}
+    return {"status": "sent", "results": results, "skipped": skipped}

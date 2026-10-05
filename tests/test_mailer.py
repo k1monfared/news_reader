@@ -6,6 +6,7 @@ mailer broadcasts only when the brief's date equals today's date.
 
 from __future__ import annotations
 
+import json
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -15,6 +16,14 @@ import pytest
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from run_pipeline import get_timezone_offset
+
+
+@pytest.fixture(autouse=True)
+def _no_git(monkeypatch):
+    """Keep the broadcast ledger commit out of the real git repo in tests."""
+    import stages.mailer as mailer_module
+
+    monkeypatch.setattr(mailer_module, "_git_commit_file", lambda *a, **k: None)
 
 
 def _today_str(config) -> str:
@@ -110,6 +119,7 @@ class TestTodayOnlyRule:
 
         config = sample_config.model_copy(deep=True)
         config.mailer["enabled"] = True
+        config.mailer["sent_state_file"] = str(tmp_path / "sent.json")
         config.publish["site_dir"] = str(site_dir)
 
         result = mailer_module.run_mailer(str(run_dir), config, None, None)
@@ -147,3 +157,77 @@ class TestTodayOnlyRule:
 
         result = mailer_module.run_mailer(str(run_dir), config, None, None)
         assert result == {"status": "skipped"}
+
+
+class TestBroadcastLedger:
+    def _setup(self, tmp_path, sample_config):
+        today = _today_str(sample_config)
+        run_dir = tmp_path / f"{today}-080000"
+        run_dir.mkdir(parents=True)
+        site_dir = tmp_path / "site"
+        _make_posts(site_dir, today)
+        config = sample_config.model_copy(deep=True)
+        config.mailer["enabled"] = True
+        config.mailer["sent_state_file"] = str(tmp_path / "sent.json")
+        config.publish["site_dir"] = str(site_dir)
+        return today, run_dir, config
+
+    def test_marks_languages_sent(self, tmp_path, monkeypatch, sample_config):
+        import stages.mailer as mailer_module
+
+        _, run_dir, config = self._setup(tmp_path, sample_config)
+
+        monkeypatch.setattr(
+            mailer_module,
+            "_send_for_language",
+            lambda **kw: {"lang": kw["lang"], "broadcast_id": f"b-{kw['lang']}"},
+        )
+
+        result = mailer_module.run_mailer(str(run_dir), config, None, None)
+
+        assert result["status"] == "sent"
+        ledger = json.loads((tmp_path / "sent.json").read_text())
+        date_key = next(iter(ledger))
+        assert set(ledger[date_key]) == {"en", "fa"}
+
+    def test_already_sent_language_is_skipped(self, tmp_path, monkeypatch, sample_config):
+        import stages.mailer as mailer_module
+
+        today, run_dir, config = self._setup(tmp_path, sample_config)
+        (tmp_path / "sent.json").write_text(json.dumps({
+            today: {"en": {"broadcast_id": "old", "sent_at": "2026-10-05T00:00:00Z"}}
+        }))
+
+        sent: list[str] = []
+        monkeypatch.setattr(
+            mailer_module,
+            "_send_for_language",
+            lambda **kw: (sent.append(kw["lang"]) or {"lang": kw["lang"], "broadcast_id": "b"}),
+        )
+
+        result = mailer_module.run_mailer(str(run_dir), config, None, None)
+
+        assert sent == ["fa"]
+        assert result["skipped"] == ["en"]
+
+    def test_all_already_sent_skips_everything(self, tmp_path, monkeypatch, sample_config):
+        import stages.mailer as mailer_module
+
+        today, run_dir, config = self._setup(tmp_path, sample_config)
+        (tmp_path / "sent.json").write_text(json.dumps({
+            today: {
+                "en": {"broadcast_id": "e", "sent_at": "x"},
+                "fa": {"broadcast_id": "f", "sent_at": "x"},
+            }
+        }))
+
+        def boom(**kwargs):
+            raise AssertionError("must not send when already sent")
+
+        monkeypatch.setattr(mailer_module, "_send_for_language", boom)
+
+        result = mailer_module.run_mailer(str(run_dir), config, None, None)
+
+        assert result["status"] == "skipped"
+        assert result["reason"] == "already_sent"
+        assert sorted(result["skipped"]) == ["en", "fa"]
