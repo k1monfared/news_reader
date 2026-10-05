@@ -422,3 +422,15 @@ empty_brief:
   stop_after_days: 28
   state_file: "data/empty_streak.json"
   stopped_flag: "data/PIPELINE_STOPPED"
+
+# ---------------------------------------------------------------------------
+# Dashboard metrics
+# ---------------------------------------------------------------------------
+# The metrics stage (runs after mailer) writes docs/_data/dashboard.json, which
+# the /dashboard/ page renders. Subscribe stats come from the subscribe-proxy
+# /stats endpoint; when unset, cumulative joins show blank but the page still
+# builds. Current subscriber counts come from the Resend audience API.
+metrics:
+  enabled: true
+  dashboard_file: "docs/_data/dashboard.json"
+  subscribe_stats_url: ""

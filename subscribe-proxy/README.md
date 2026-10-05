@@ -64,8 +64,26 @@ Static sites cannot safely hold API keys. Resend's API also auto-confirms contac
    npx wrangler secret put AUDIENCE_ID
    # Optional per-list audience overrides:
    npx wrangler secret put AUDIENCE_ID_FA
+   # Optional: enables the GET /stats endpoint used by the dashboard:
+   npx wrangler secret put STATS_TOKEN
    ```
 8. Deploy: `npx wrangler deploy`. Wrangler prints the Worker URL, e.g. `https://subscribe-proxy.<you>.workers.dev`.
+
+## Stats endpoint
+
+`GET /stats` returns cumulative subscribe counts from the audit log, so a
+dashboard can show how many distinct emails ever subscribed (Resend only
+exposes the current list). It requires `Authorization: Bearer $STATS_TOKEN`;
+without a valid token it returns 404 so the endpoint is not advertised.
+
+```
+curl -H "Authorization: Bearer $STATS_TOKEN" \
+  https://subscribe-proxy.<you>.workers.dev/stats
+# {"distinct_emails":123,"by_list":{"en":100,"fa":23}}
+```
+
+The pipeline reads this URL from `metrics.subscribe_stats_url` in `config.yaml`
+and the token from the `SUBSCRIBE_STATS_TOKEN` environment variable.
 
 ## Querying the audit log
 

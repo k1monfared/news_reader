@@ -870,3 +870,114 @@ main {
   color: #c0392b;
   font-size: 0.9rem;
 }
+
+/* ---------------------------------------------------------------------------
+   Dashboard
+   --------------------------------------------------------------------------- */
+
+.dashboard .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 20px 0 28px;
+}
+
+.dashboard .card {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background-color: var(--bg);
+}
+
+.dashboard .card-value {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--text);
+}
+
+.dashboard .card-label {
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.dashboard .card-sub {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.dashboard .chart-note {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin: 4px 0 10px;
+}
+
+.dashboard .bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 120px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 28px;
+}
+
+.dashboard .bar-col {
+  flex: 1 1 0;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  min-width: 0;
+}
+
+.dashboard .bar {
+  width: 100%;
+  min-height: 2px;
+  background-color: var(--link);
+  border-radius: 2px 2px 0 0;
+}
+
+.dashboard .table-wrap {
+  max-height: 540px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.dashboard .dash-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.dashboard .dash-table th,
+.dashboard .dash-table td {
+  padding: 7px 10px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-light);
+  white-space: nowrap;
+}
+
+.dashboard .dash-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: var(--bg);
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.dashboard .badge {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 0.72rem;
+  text-transform: lowercase;
+}
+
+.dashboard .badge-success { background-color: rgba(46, 160, 67, 0.18); color: #2ea043; }
+.dashboard .badge-degraded { background-color: rgba(210, 153, 34, 0.18); color: #d29922; }
+.dashboard .badge-failed { background-color: rgba(248, 81, 73, 0.18); color: #f85149; }
+.dashboard .badge-unknown { background-color: var(--border-light); color: var(--text-muted); }

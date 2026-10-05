@@ -209,6 +209,7 @@ def run_pipeline(
         "publish",
         "translate_fa",
         "mailer",
+        "metrics",
     ]
 
     try:

@@ -36,6 +36,8 @@ from newsletter.render import (
 )
 from resend_broadcast import BroadcastError, send_broadcast
 
+from stats_client import audience_count
+
 # Empty brief streak handling
 from stages.empty_streak import (
     _git_commit_file,
@@ -325,6 +327,7 @@ def run_mailer(
     sent_state = _load_sent_state(sent_state_file)
     already_sent = dict(sent_state.get(date_str, {}))
     state_changed = False
+    resend_key = os.environ.get("RESEND_API_KEY", "")
 
     en_audience = mailer_cfg.get("audience_id_en")
     if en_audience and "en" in already_sent:
@@ -345,6 +348,7 @@ def run_mailer(
             results.append(result)
             already_sent["en"] = {
                 "broadcast_id": result.get("broadcast_id"),
+                "recipients": audience_count(resend_key, en_audience),
                 "sent_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             }
             state_changed = True
@@ -375,6 +379,7 @@ def run_mailer(
             results.append(result)
             already_sent["fa"] = {
                 "broadcast_id": result.get("broadcast_id"),
+                "recipients": audience_count(resend_key, fa_audience),
                 "sent_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             }
             state_changed = True

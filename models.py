@@ -133,6 +133,7 @@ class PipelineConfig(BaseModel):
     translate_fa: dict = {}
     mailer: dict = {}
     empty_brief: dict = {}
+    metrics: dict = {}
 
 
 # --- Helper ---

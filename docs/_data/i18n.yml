@@ -7,6 +7,7 @@ en:
   site_description: "Automated daily intelligence digest covering the US-Israel war on Iran. Tracks military operations, diplomacy, economic impacts, and regional developments from multiple sources with different perspectives."
   nav_about: "About"
   nav_bias: "Bias"
+  nav_dashboard: "Dashboard"
   nav_rss: "RSS"
   nav_subscribe: "Subscribe"
   nav_sponsor: "Sponsor"

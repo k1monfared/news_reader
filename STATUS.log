@@ -4,6 +4,15 @@
     - Stage: MVP
     - Next Milestone: Confirm a green CI run with the free-model-first chain and the failure notifier
 
+- Site Dashboard (2026-10-05)
+    - New /dashboard/ page (English) showing days running, briefs EN/FA, brief entries posted, links processed and cited, emails sent and recipient deliveries, subscribers now/peak/total-ever, and failed/degraded/empty day counts, plus a 30-day zero-baseline bar chart and a per-day status table
+    - New non-critical metrics stage (runs after mailer) writes docs/_data/dashboard.json from run_meta, the day's posts, the broadcast ledger, and empty_streak, then recomputes totals and commits
+    - scripts/backfill_metrics.py seeded 214 days of history from committed posts, the ledger, and empty_streak
+    - stats_client.py: Resend audience contact counts (current subscribers) and subscribe-proxy /stats (cumulative distinct emails ever subscribed); both best-effort and null-safe
+    - subscribe-proxy gains a token-protected GET /stats endpoint (STATS_TOKEN secret) returning distinct confirmed emails overall and per list; needs a wrangler deploy and the metrics.subscribe_stats_url config plus SUBSCRIBE_STATS_TOKEN secret to light up total-ever joins
+    - Historical days show status "unknown" (run_meta is not committed) and emails before the ledger are not counted; both fill in going forward
+    - Tests: 142 passing
+
 - Broadcast Ledger to Prevent Double Emails (2026-10-05)
     - Incident: the 2026-10-05 English broadcast was sent while a delayed scheduled Daily Brief for the same date was still queued; if it had run it would have republished and emailed subscribers a second time
     - mailer now keeps data/sent_broadcasts.json, a per-date per-language ledger; it records broadcast ids after each successful send and skips any date+language already recorded

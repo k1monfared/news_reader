@@ -1,0 +1,7519 @@
+{
+  "totals": {
+    "generated_at": "2026-10-05T21:06:48Z",
+    "first_date": "2026-02-26",
+    "last_date": "2026-10-05",
+    "days_recorded": 214,
+    "days_running": 222,
+    "briefs_en": 214,
+    "briefs_fa": 162,
+    "posted": 2266,
+    "posted_en": 1422,
+    "posted_fa": 844,
+    "links": 3258,
+    "processed": null,
+    "included": null,
+    "emails_en": 1,
+    "emails_fa": 0,
+    "deliveries": null,
+    "subscribers_current": null,
+    "subscribers_peak": null,
+    "days_failed": 0,
+    "days_degraded": 0,
+    "days_empty": 0,
+    "emails_total": 1,
+    "subscribers_total_ever": null
+  },
+  "days": [
+    {
+      "date": "2026-02-26",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 5,
+      "posted_fa": 0,
+      "posted": 5,
+      "links_en": 11,
+      "links_fa": 0,
+      "links": 11,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-02-27",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 1,
+      "posted_fa": 0,
+      "posted": 1,
+      "links_en": 1,
+      "links_fa": 0,
+      "links": 1,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-02-28",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 1,
+      "posted_fa": 0,
+      "posted": 1,
+      "links_en": 2,
+      "links_fa": 0,
+      "links": 2,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-01",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 11,
+      "posted_fa": 0,
+      "posted": 11,
+      "links_en": 19,
+      "links_fa": 0,
+      "links": 19,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-02",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 17,
+      "links_fa": 0,
+      "links": 17,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-03",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 23,
+      "links_fa": 0,
+      "links": 23,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-04",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 12,
+      "posted_fa": 0,
+      "posted": 12,
+      "links_en": 17,
+      "links_fa": 0,
+      "links": 17,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-05",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 7,
+      "posted_fa": 0,
+      "posted": 7,
+      "links_en": 7,
+      "links_fa": 0,
+      "links": 7,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-06",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 13,
+      "links_fa": 0,
+      "links": 13,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-07",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 15,
+      "links_fa": 0,
+      "links": 15,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-08",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 15,
+      "links_fa": 0,
+      "links": 15,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-09",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 14,
+      "posted_fa": 0,
+      "posted": 14,
+      "links_en": 23,
+      "links_fa": 0,
+      "links": 23,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-10",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 15,
+      "posted_fa": 0,
+      "posted": 15,
+      "links_en": 20,
+      "links_fa": 0,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-11",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 22,
+      "posted_fa": 0,
+      "posted": 22,
+      "links_en": 32,
+      "links_fa": 0,
+      "links": 32,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-12",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 9,
+      "posted_fa": 0,
+      "posted": 9,
+      "links_en": 16,
+      "links_fa": 0,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-13",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 27,
+      "posted_fa": 0,
+      "posted": 27,
+      "links_en": 34,
+      "links_fa": 0,
+      "links": 34,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-14",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 11,
+      "posted_fa": 0,
+      "posted": 11,
+      "links_en": 14,
+      "links_fa": 0,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-15",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 9,
+      "posted_fa": 0,
+      "posted": 9,
+      "links_en": 14,
+      "links_fa": 0,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-16",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 17,
+      "links_fa": 0,
+      "links": 17,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-17",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 13,
+      "posted_fa": 0,
+      "posted": 13,
+      "links_en": 23,
+      "links_fa": 0,
+      "links": 23,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-18",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 14,
+      "posted_fa": 0,
+      "posted": 14,
+      "links_en": 19,
+      "links_fa": 0,
+      "links": 19,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-19",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 13,
+      "posted_fa": 0,
+      "posted": 13,
+      "links_en": 24,
+      "links_fa": 0,
+      "links": 24,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-20",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 16,
+      "posted_fa": 0,
+      "posted": 16,
+      "links_en": 19,
+      "links_fa": 0,
+      "links": 19,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-21",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 18,
+      "links_fa": 0,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-22",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 14,
+      "links_fa": 0,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-23",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 12,
+      "posted_fa": 0,
+      "posted": 12,
+      "links_en": 20,
+      "links_fa": 0,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-24",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 12,
+      "posted_fa": 0,
+      "posted": 12,
+      "links_en": 36,
+      "links_fa": 0,
+      "links": 36,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-25",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 11,
+      "posted_fa": 0,
+      "posted": 11,
+      "links_en": 19,
+      "links_fa": 0,
+      "links": 19,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-26",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 11,
+      "posted_fa": 0,
+      "posted": 11,
+      "links_en": 17,
+      "links_fa": 0,
+      "links": 17,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-27",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 11,
+      "posted_fa": 0,
+      "posted": 11,
+      "links_en": 16,
+      "links_fa": 0,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-28",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 13,
+      "posted_fa": 0,
+      "posted": 13,
+      "links_en": 22,
+      "links_fa": 0,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-29",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 2,
+      "posted_fa": 0,
+      "posted": 2,
+      "links_en": 2,
+      "links_fa": 0,
+      "links": 2,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-30",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 9,
+      "posted_fa": 0,
+      "posted": 9,
+      "links_en": 14,
+      "links_fa": 0,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-03-31",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 12,
+      "posted_fa": 0,
+      "posted": 12,
+      "links_en": 23,
+      "links_fa": 0,
+      "links": 23,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-01",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 11,
+      "posted_fa": 0,
+      "posted": 11,
+      "links_en": 15,
+      "links_fa": 0,
+      "links": 15,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-02",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 27,
+      "links_fa": 0,
+      "links": 27,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-03",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 20,
+      "links_fa": 0,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-04",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 13,
+      "links_fa": 0,
+      "links": 13,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-05",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 16,
+      "links_fa": 0,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-06",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 17,
+      "links_fa": 0,
+      "links": 17,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-07",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 11,
+      "posted_fa": 0,
+      "posted": 11,
+      "links_en": 23,
+      "links_fa": 0,
+      "links": 23,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-08",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 20,
+      "links_fa": 0,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-09",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 9,
+      "posted_fa": 0,
+      "posted": 9,
+      "links_en": 17,
+      "links_fa": 0,
+      "links": 17,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-10",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 26,
+      "links_fa": 0,
+      "links": 26,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-11",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 18,
+      "links_fa": 0,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-12",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 11,
+      "posted_fa": 0,
+      "posted": 11,
+      "links_en": 14,
+      "links_fa": 0,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-13",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 9,
+      "posted_fa": 0,
+      "posted": 9,
+      "links_en": 17,
+      "links_fa": 0,
+      "links": 17,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-14",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 22,
+      "links_fa": 0,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-15",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 19,
+      "links_fa": 0,
+      "links": 19,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-16",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-17",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 9,
+      "posted_fa": 9,
+      "posted": 18,
+      "links_en": 12,
+      "links_fa": 12,
+      "links": 24,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-18",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-19",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 3,
+      "links_fa": 3,
+      "links": 6,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-20",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 3,
+      "links_fa": 3,
+      "links": 6,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-21",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 9,
+      "links_fa": 9,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-22",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 6,
+      "posted_fa": 6,
+      "posted": 12,
+      "links_en": 9,
+      "links_fa": 9,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-23",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 10,
+      "posted_fa": 10,
+      "posted": 20,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-24",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-25",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 6,
+      "posted_fa": 6,
+      "posted": 12,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-26",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 6,
+      "links_fa": 6,
+      "links": 12,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-27",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 7,
+      "links_fa": 7,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-28",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 9,
+      "posted_fa": 9,
+      "posted": 18,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-29",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-04-30",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-01",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-02",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 6,
+      "posted_fa": 6,
+      "posted": 12,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-03",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 6,
+      "posted_fa": 6,
+      "posted": 12,
+      "links_en": 9,
+      "links_fa": 9,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-04",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 9,
+      "posted_fa": 9,
+      "posted": 18,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-05",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-06",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 12,
+      "links_fa": 12,
+      "links": 24,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-07",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-08",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 9,
+      "posted_fa": 9,
+      "posted": 18,
+      "links_en": 12,
+      "links_fa": 12,
+      "links": 24,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-09",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-10",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-11",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-12",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 9,
+      "links_fa": 9,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-13",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 6,
+      "links_fa": 6,
+      "links": 12,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-14",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 12,
+      "links_fa": 12,
+      "links": 24,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-15",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-16",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-17",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 3,
+      "links_fa": 3,
+      "links": 6,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-18",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 12,
+      "links_fa": 12,
+      "links": 24,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-19",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 6,
+      "posted_fa": 6,
+      "posted": 12,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-20",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-21",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 6,
+      "posted_fa": 6,
+      "posted": 12,
+      "links_en": 7,
+      "links_fa": 7,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-22",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-23",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 9,
+      "posted_fa": 9,
+      "posted": 18,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-24",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 6,
+      "links_fa": 6,
+      "links": 12,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-25",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-26",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-27",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 4,
+      "links_fa": 4,
+      "links": 8,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-28",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 11,
+      "posted_fa": 11,
+      "posted": 22,
+      "links_en": 12,
+      "links_fa": 12,
+      "links": 24,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-29",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 7,
+      "links_fa": 7,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-30",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-05-31",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 6,
+      "posted_fa": 6,
+      "posted": 12,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-01",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-02",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 7,
+      "links_fa": 7,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-03",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-04",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 6,
+      "posted_fa": 6,
+      "posted": 12,
+      "links_en": 7,
+      "links_fa": 7,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-05",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 4,
+      "links_fa": 4,
+      "links": 8,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-06",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-07",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 3,
+      "links_fa": 3,
+      "links": 6,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-08",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-09",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-10",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 4,
+      "links_fa": 4,
+      "links": 8,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-11",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-12",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-13",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 9,
+      "links_fa": 9,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-14",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 6,
+      "posted_fa": 6,
+      "posted": 12,
+      "links_en": 9,
+      "links_fa": 9,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-15",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 12,
+      "links_fa": 12,
+      "links": 24,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-16",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 7,
+      "links_fa": 7,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-17",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-18",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 6,
+      "links_fa": 6,
+      "links": 12,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-19",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-20",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 6,
+      "links_fa": 6,
+      "links": 12,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-21",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-22",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-23",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 6,
+      "links_fa": 6,
+      "links": 12,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-24",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-25",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 4,
+      "links_fa": 4,
+      "links": 8,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-26",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-27",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-28",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-29",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-06-30",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 6,
+      "links_fa": 6,
+      "links": 12,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-01",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 0,
+      "posted_fa": 0,
+      "posted": 0,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-02",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-03",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 6,
+      "posted_fa": 6,
+      "posted": 12,
+      "links_en": 6,
+      "links_fa": 6,
+      "links": 12,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-04",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 6,
+      "links_fa": 6,
+      "links": 12,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-05",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 3,
+      "links_fa": 3,
+      "links": 6,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-06",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 6,
+      "posted_fa": 6,
+      "posted": 12,
+      "links_en": 9,
+      "links_fa": 9,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-07",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 3,
+      "links_fa": 3,
+      "links": 6,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-08",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-09",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 7,
+      "links_fa": 7,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-10",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 4,
+      "links_fa": 4,
+      "links": 8,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-11",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-12",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-13",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 6,
+      "links_fa": 6,
+      "links": 12,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-14",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 9,
+      "posted_fa": 9,
+      "posted": 18,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-15",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-16",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 6,
+      "posted_fa": 6,
+      "posted": 12,
+      "links_en": 6,
+      "links_fa": 6,
+      "links": 12,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-17",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-18",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 6,
+      "links_fa": 6,
+      "links": 12,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-19",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-20",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 6,
+      "posted_fa": 6,
+      "posted": 12,
+      "links_en": 9,
+      "links_fa": 9,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-21",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 9,
+      "posted_fa": 9,
+      "posted": 18,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-22",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 8,
+      "posted_fa": 8,
+      "posted": 16,
+      "links_en": 14,
+      "links_fa": 14,
+      "links": 28,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-23",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 10,
+      "posted_fa": 10,
+      "posted": 20,
+      "links_en": 14,
+      "links_fa": 14,
+      "links": 28,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-24",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 4,
+      "links_fa": 4,
+      "links": 8,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-25",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 9,
+      "links_fa": 9,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-26",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 6,
+      "posted_fa": 6,
+      "posted": 12,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-27",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 2,
+      "posted_fa": 2,
+      "posted": 4,
+      "links_en": 3,
+      "links_fa": 3,
+      "links": 6,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-28",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 4,
+      "links_fa": 4,
+      "links": 8,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-29",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 9,
+      "posted_fa": 9,
+      "posted": 18,
+      "links_en": 12,
+      "links_fa": 12,
+      "links": 24,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-30",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-07-31",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 7,
+      "links_fa": 7,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-02",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-03",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-04",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-05",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 20,
+      "posted_fa": 20,
+      "posted": 40,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-06",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 10,
+      "links_fa": 8,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-07",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 2,
+      "posted_fa": 2,
+      "posted": 4,
+      "links_en": 3,
+      "links_fa": 3,
+      "links": 6,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-09",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-11",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 7,
+      "links_fa": 7,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-16",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 1,
+      "posted_fa": 1,
+      "posted": 2,
+      "links_en": 1,
+      "links_fa": 1,
+      "links": 2,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-17",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 0,
+      "posted_fa": 0,
+      "posted": 0,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-18",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 1,
+      "posted_fa": 1,
+      "posted": 2,
+      "links_en": 1,
+      "links_fa": 1,
+      "links": 2,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-19",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 1,
+      "posted_fa": 1,
+      "posted": 2,
+      "links_en": 1,
+      "links_fa": 1,
+      "links": 2,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-20",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 1,
+      "posted_fa": 1,
+      "posted": 2,
+      "links_en": 1,
+      "links_fa": 1,
+      "links": 2,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-21",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-22",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 7,
+      "posted_fa": 7,
+      "posted": 14,
+      "links_en": 10,
+      "links_fa": 10,
+      "links": 20,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-23",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 9,
+      "posted_fa": 9,
+      "posted": 18,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-24",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 21,
+      "links_fa": 0,
+      "links": 21,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-26",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 10,
+      "posted_fa": 0,
+      "posted": 10,
+      "links_en": 25,
+      "links_fa": 0,
+      "links": 25,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-27",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 12,
+      "posted_fa": 2,
+      "posted": 14,
+      "links_en": 23,
+      "links_fa": 0,
+      "links": 23,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-28",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 13,
+      "posted_fa": 1,
+      "posted": 14,
+      "links_en": 18,
+      "links_fa": 0,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-29",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 10,
+      "posted_fa": 10,
+      "posted": 20,
+      "links_en": 22,
+      "links_fa": 22,
+      "links": 44,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-30",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 13,
+      "posted_fa": 0,
+      "posted": 13,
+      "links_en": 19,
+      "links_fa": 0,
+      "links": 19,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-08-31",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": false,
+      "posted_en": 11,
+      "posted_fa": 0,
+      "posted": 11,
+      "links_en": 35,
+      "links_fa": 0,
+      "links": 35,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-09-01",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 10,
+      "posted_fa": 10,
+      "posted": 20,
+      "links_en": 20,
+      "links_fa": 20,
+      "links": 40,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": null
+    },
+    {
+      "date": "2026-09-02",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 11,
+      "links_fa": 11,
+      "links": 22,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-03",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 9,
+      "links_fa": 9,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-04",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 9,
+      "posted_fa": 19,
+      "posted": 28,
+      "links_en": 19,
+      "links_fa": 0,
+      "links": 19,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-05",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 5,
+      "posted": 8,
+      "links_en": 11,
+      "links_fa": 7,
+      "links": 18,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-06",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 4,
+      "links_fa": 4,
+      "links": 8,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-07",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 0,
+      "posted_fa": 0,
+      "posted": 0,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-08",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 1,
+      "posted_fa": 1,
+      "posted": 2,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-09",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 1,
+      "posted_fa": 1,
+      "posted": 2,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-10",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 1,
+      "posted_fa": 1,
+      "posted": 2,
+      "links_en": 1,
+      "links_fa": 1,
+      "links": 2,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-11",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-12",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 1,
+      "posted_fa": 1,
+      "posted": 2,
+      "links_en": 2,
+      "links_fa": 2,
+      "links": 4,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-13",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 3,
+      "links_fa": 3,
+      "links": 6,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-14",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 1,
+      "posted_fa": 1,
+      "posted": 2,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-15",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-16",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 16,
+      "links_fa": 16,
+      "links": 32,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-17",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-18",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-19",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-20",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 1,
+      "posted_fa": 1,
+      "posted": 2,
+      "links_en": 1,
+      "links_fa": 1,
+      "links": 2,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-21",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 7,
+      "links_fa": 7,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-22",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 7,
+      "links_fa": 7,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-23",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 7,
+      "links_fa": 7,
+      "links": 14,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-24",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 1,
+      "posted_fa": 1,
+      "posted": 2,
+      "links_en": 1,
+      "links_fa": 1,
+      "links": 2,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-25",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 6,
+      "links_fa": 6,
+      "links": 12,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-26",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-27",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-28",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 5,
+      "posted_fa": 5,
+      "posted": 10,
+      "links_en": 8,
+      "links_fa": 8,
+      "links": 16,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-29",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-09-30",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 1,
+      "posted_fa": 1,
+      "posted": 2,
+      "links_en": 1,
+      "links_fa": 1,
+      "links": 2,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-10-01",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 1,
+      "posted_fa": 1,
+      "posted": 2,
+      "links_en": 1,
+      "links_fa": 1,
+      "links": 2,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-10-02",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 6,
+      "links_fa": 6,
+      "links": 12,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-10-03",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 2,
+      "posted_fa": 2,
+      "posted": 4,
+      "links_en": 2,
+      "links_fa": 2,
+      "links": 4,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-10-04",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 1,
+      "posted_fa": 1,
+      "posted": 2,
+      "links_en": 1,
+      "links_fa": 1,
+      "links": 2,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    },
+    {
+      "date": "2026-10-05",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 3,
+      "posted_fa": 3,
+      "posted": 6,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": true,
+          "broadcast_id": "93030bc0-8d45-4d61-839a-31009f6e4e29",
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "models_used": [],
+      "duration_s": null,
+      "empty": false
+    }
+  ]
+}

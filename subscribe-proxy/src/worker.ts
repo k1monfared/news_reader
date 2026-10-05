@@ -64,6 +64,7 @@ export interface Env {
   ERROR_URL?: string;
   SUBSCRIBE_KV: KVNamespace;
   AUDIT_DB: D1Database;
+  STATS_TOKEN?: string;
   [key: string]: string | KVNamespace | D1Database | undefined;
 }
 
@@ -496,6 +497,32 @@ async function handleBlock(req: Request, env: Env): Promise<Response> {
   return Response.redirect(resolveUrl(env, "BLOCKED_URL", list), 303);
 }
 
+async function handleStats(req: Request, env: Env): Promise<Response> {
+  const token = env.STATS_TOKEN;
+  const auth = req.headers.get("Authorization") || "";
+  // Return 404 (not 401) to avoid advertising the endpoint.
+  if (!token || auth !== `Bearer ${token}`) {
+    return new Response("Not Found", { status: 404 });
+  }
+  const total = await env.AUDIT_DB.prepare(
+    "SELECT COUNT(DISTINCT email) AS n FROM subscribe_logs " +
+      "WHERE event = 'confirm_attempt' AND outcome = 'confirmed'"
+  ).first<{ n: number }>();
+  const rows = await env.AUDIT_DB.prepare(
+    "SELECT list, COUNT(DISTINCT email) AS n FROM subscribe_logs " +
+      "WHERE event = 'confirm_attempt' AND outcome = 'confirmed' " +
+      "GROUP BY list"
+  ).all<{ list: string | null; n: number }>();
+  const byList: Record<string, number> = {};
+  for (const row of rows.results || []) {
+    byList[row.list || "unknown"] = row.n;
+  }
+  return new Response(
+    JSON.stringify({ distinct_emails: total?.n ?? 0, by_list: byList }),
+    { status: 200, headers: { "Content-Type": "application/json" } }
+  );
+}
+
 export default {
   async fetch(req: Request, env: Env): Promise<Response> {
     const url = new URL(req.url);
@@ -507,6 +534,9 @@ export default {
     }
     if (req.method === "GET" && url.pathname === "/block") {
       return handleBlock(req, env);
+    }
+    if (req.method === "GET" && url.pathname === "/stats") {
+      return handleStats(req, env);
     }
     return new Response("Not Found", { status: 404 });
   },
