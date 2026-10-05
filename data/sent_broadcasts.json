@@ -1,8 +1,1528 @@
 {
+  "2026-04-17": {
+    "en": {
+      "broadcast_id": "2a4cc50c-1660-4d91-9640-98e84d10df97",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-21 00:19:17.617+00"
+    },
+    "fa": {
+      "broadcast_id": "82c323b4-42e1-4761-9124-e7d5cbbf5da4",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-21 00:19:11.648+00"
+    }
+  },
+  "2026-04-18": {
+    "en": {
+      "broadcast_id": "e2fe2ddb-a8e6-452b-8090-1c056f44b8ce",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-21 00:23:26.954+00"
+    },
+    "fa": {
+      "broadcast_id": "d63558be-2e72-49c8-840a-c7d505c922b1",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-21 00:23:28.433+00"
+    }
+  },
+  "2026-04-19": {
+    "en": {
+      "broadcast_id": "b9afd871-a3e0-465d-a81c-607bc8c52d79",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-21 00:27:41.911+00"
+    },
+    "fa": {
+      "broadcast_id": "70561074-f0ae-4c4b-b2d6-b39408897947",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-21 00:27:42.219+00"
+    }
+  },
+  "2026-04-20": {
+    "en": {
+      "broadcast_id": "a7403cfa-bfd7-4291-ae6a-659eab09a9fa",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-21 00:32:25.906+00"
+    },
+    "fa": {
+      "broadcast_id": "6eacde89-a1da-440b-af7a-3723fb62d0f0",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-21 00:32:33.147+00"
+    }
+  },
+  "2026-04-21": {
+    "en": {
+      "broadcast_id": "c2ad441a-af0e-4511-aebd-a79bd7d6291d",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-21 14:07:50.795+00"
+    },
+    "fa": {
+      "broadcast_id": "354f7b93-c2cf-407e-9d2e-eb7ad4f238e6",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-21 14:07:50.872+00"
+    }
+  },
+  "2026-04-22": {
+    "en": {
+      "broadcast_id": "99534c8d-5766-4c79-908c-0443207f68fc",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-22 14:07:59.874+00"
+    },
+    "fa": {
+      "broadcast_id": "bacab75d-99af-4f8a-bd1d-1ede9a569fb7",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-22 14:07:59.977+00"
+    }
+  },
+  "2026-04-23": {
+    "en": {
+      "broadcast_id": "88325106-204d-45a5-b7ea-1f0c496bda1a",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-23 14:09:51.274+00"
+    },
+    "fa": {
+      "broadcast_id": "29a1335c-f0ae-4896-b9ec-b008267f1570",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-23 14:09:56.306+00"
+    }
+  },
+  "2026-04-24": {
+    "en": {
+      "broadcast_id": "b9386f6d-96cc-4dd2-9372-207158709b16",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-24 14:03:58.036+00"
+    },
+    "fa": {
+      "broadcast_id": "82f2ab60-779d-4d30-9afc-e8f1bec973c9",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-24 14:03:58.628+00"
+    }
+  },
+  "2026-04-25": {
+    "en": {
+      "broadcast_id": "dc41b21c-63ee-499c-8a51-32392cbd2683",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-25 13:27:03.108+00"
+    },
+    "fa": {
+      "broadcast_id": "e7f3d6d8-13d9-4320-8ba7-2f93c33505b0",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-25 13:27:04.491+00"
+    }
+  },
+  "2026-04-26": {
+    "en": {
+      "broadcast_id": "c7738d0f-c643-440f-b550-d2653362a5a0",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-26 13:27:35.135+00"
+    },
+    "fa": {
+      "broadcast_id": "800f2959-7c9d-4029-8dc4-a3ad58f30997",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-26 13:27:42.826+00"
+    }
+  },
+  "2026-04-27": {
+    "en": {
+      "broadcast_id": "678199e9-82cd-4e66-901f-2361cb6747bc",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-27 14:20:30.318+00"
+    },
+    "fa": {
+      "broadcast_id": "710702cd-83f4-4e90-b5f3-5cddda53b293",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-27 14:20:31.304+00"
+    }
+  },
+  "2026-04-28": {
+    "en": {
+      "broadcast_id": "a98e8c41-66a1-4859-a1c3-03bc801411f8",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-28 19:42:25.002+00"
+    }
+  },
+  "2026-04-29": {
+    "en": {
+      "broadcast_id": "c14ccee1-3e8f-40b4-a2ac-8b66f475f6d8",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-29 14:27:20.137+00"
+    }
+  },
+  "2026-04-30": {
+    "en": {
+      "broadcast_id": "d7dc758e-acd6-45ab-b67e-85f894b340a0",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-04-30 14:20:54.469+00"
+    }
+  },
+  "2026-05-01": {
+    "en": {
+      "broadcast_id": "c664e482-6411-4a25-a9d9-6f1b75b46f5a",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-01 13:49:28.394+00"
+    }
+  },
+  "2026-05-02": {
+    "en": {
+      "broadcast_id": "d77709d6-5b56-465a-a565-01c051022bc8",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-02 13:32:23.235+00"
+    }
+  },
+  "2026-05-03": {
+    "en": {
+      "broadcast_id": "17c8d190-9702-4f27-9230-0c84a5ffdc2c",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-03 13:32:27.376+00"
+    }
+  },
+  "2026-05-04": {
+    "en": {
+      "broadcast_id": "723abdba-ae62-40cd-8be9-6f8fc56be4bf",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-04 14:28:26.227+00"
+    }
+  },
+  "2026-05-05": {
+    "en": {
+      "broadcast_id": "3047a04a-f42f-4490-92a3-d20ea4bdcfc3",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-05 14:19:33.994+00"
+    }
+  },
+  "2026-05-06": {
+    "en": {
+      "broadcast_id": "5e748ca1-3dd0-44ca-9d80-b6472269eff3",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-06 14:43:29.94+00"
+    }
+  },
+  "2026-05-07": {
+    "en": {
+      "broadcast_id": "5911ffc8-8b1a-4e8f-9cb9-31947aea9da9",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-07 14:42:39.297+00"
+    }
+  },
+  "2026-05-08": {
+    "en": {
+      "broadcast_id": "e8e06d50-4c58-40e8-be3b-6a191a10d684",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-08 14:13:23.102+00"
+    }
+  },
+  "2026-05-09": {
+    "en": {
+      "broadcast_id": "766c0afc-1d41-422d-9854-c79fd86d0f8a",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-09 13:47:43.847+00"
+    }
+  },
+  "2026-05-10": {
+    "en": {
+      "broadcast_id": "f64e2203-e5df-4fcc-8924-132af516dbf2",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-10 13:48:42.711+00"
+    }
+  },
+  "2026-05-11": {
+    "en": {
+      "broadcast_id": "9b29f83a-feca-4213-b5e2-37c60198ebc5",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-11 15:35:33.657+00"
+    }
+  },
+  "2026-05-12": {
+    "en": {
+      "broadcast_id": "bb23d37b-0444-4f7f-a6d7-3777f0d54994",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-12 14:47:37.848+00"
+    }
+  },
+  "2026-05-13": {
+    "en": {
+      "broadcast_id": "4cf9e456-0628-47b4-8736-54f7ad0e747a",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-13 14:56:53.879+00"
+    }
+  },
+  "2026-05-14": {
+    "en": {
+      "broadcast_id": "045c0dff-375d-44ef-8bdc-b2dba589aedb",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-14 14:39:19.554+00"
+    }
+  },
+  "2026-05-15": {
+    "en": {
+      "broadcast_id": "1163ccad-bdb2-4ec6-873a-0efd1932134b",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-15 14:32:14.618+00"
+    }
+  },
+  "2026-05-16": {
+    "en": {
+      "broadcast_id": "ad22de16-fb0e-4f18-bfaf-a3647be2a90d",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-16 13:52:23.812+00"
+    }
+  },
+  "2026-05-17": {
+    "en": {
+      "broadcast_id": "9dd53678-f8f4-4dbd-afcd-3e1fbf6a87ec",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-17 13:50:45.989+00"
+    }
+  },
+  "2026-05-18": {
+    "en": {
+      "broadcast_id": "e3baca31-5293-46e4-9000-ce41d52ff44b",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-18 15:56:04.803+00"
+    }
+  },
+  "2026-05-19": {
+    "en": {
+      "broadcast_id": "e4fca882-f902-4a19-aeb4-bdbf24124cb3",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-19 15:47:12.845+00"
+    }
+  },
+  "2026-05-20": {
+    "en": {
+      "broadcast_id": "17a146a2-1e34-4010-acdf-3f98275a3710",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-20 15:47:10.064+00"
+    }
+  },
+  "2026-05-21": {
+    "en": {
+      "broadcast_id": "cfa18b42-6877-45cf-aee9-42ab3eca4697",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-21 15:48:51.121+00"
+    }
+  },
+  "2026-05-22": {
+    "en": {
+      "broadcast_id": "bdf67aed-2dd4-48e9-b1f3-1d3f8babe5fd",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-22 14:57:41.202+00"
+    }
+  },
+  "2026-05-23": {
+    "en": {
+      "broadcast_id": "45f85d49-502d-464a-8fca-78adc1bd846b",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-23 13:58:33.949+00"
+    }
+  },
+  "2026-05-24": {
+    "en": {
+      "broadcast_id": "ddaf9fac-d8c0-4f22-9632-a1a0993eb39c",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-24 13:54:41.179+00"
+    }
+  },
+  "2026-05-25": {
+    "en": {
+      "broadcast_id": "0920c91b-8f91-4560-850f-cd1bc43a32b5",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-25 15:26:04.554+00"
+    }
+  },
+  "2026-05-26": {
+    "en": {
+      "broadcast_id": "c4b01b56-2d34-432d-9e1d-e27efe992bbf",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-26 16:04:55.265+00"
+    }
+  },
+  "2026-05-27": {
+    "en": {
+      "broadcast_id": "ea5c2f4d-5863-4ce4-8f8c-d18aee9c6373",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-27 16:07:23.886+00"
+    }
+  },
+  "2026-05-28": {
+    "en": {
+      "broadcast_id": "5c5d007b-57e5-4209-8f10-37704bc3ab15",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-28 16:23:52.27+00"
+    }
+  },
+  "2026-05-29": {
+    "en": {
+      "broadcast_id": "02b774e0-09af-4909-9c5a-056c2d1a8b48",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-29 16:05:04.002+00"
+    }
+  },
+  "2026-05-30": {
+    "en": {
+      "broadcast_id": "ab6310f6-3d45-4cf8-b2c0-7a92d2745a1f",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-30 14:01:48.493+00"
+    }
+  },
+  "2026-05-31": {
+    "en": {
+      "broadcast_id": "96a64bb9-dfe7-4994-9995-ae9bb522b2e8",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-05-31 14:06:38.517+00"
+    }
+  },
+  "2026-06-01": {
+    "en": {
+      "broadcast_id": "66a70bb7-8302-47f5-b1ab-4d8bf6760234",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-01 18:01:37.268804+00"
+    }
+  },
+  "2026-06-02": {
+    "en": {
+      "broadcast_id": "ae610083-4277-4f02-b785-9db7b09ab2c4",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-02 16:54:21.042822+00"
+    }
+  },
+  "2026-06-03": {
+    "en": {
+      "broadcast_id": "79dd5ed2-f690-4ebf-9e0b-fd4392b5dd5f",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-03 17:08:03.483413+00"
+    }
+  },
+  "2026-06-04": {
+    "en": {
+      "broadcast_id": "3db109b5-21a4-4b46-94cd-a9098fe0efea",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-04 15:38:41.860054+00"
+    }
+  },
+  "2026-06-05": {
+    "en": {
+      "broadcast_id": "24a1823b-386a-43b5-bc2e-78d8e9bc24c5",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-05 15:25:37.082157+00"
+    }
+  },
+  "2026-06-06": {
+    "en": {
+      "broadcast_id": "53020089-188e-41dc-add9-a091c6d4e391",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-06 14:05:51.82754+00"
+    }
+  },
+  "2026-06-07": {
+    "en": {
+      "broadcast_id": "48bfe8f7-546d-420f-bf2e-b87d3b5b092d",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-07 14:13:55.198408+00"
+    }
+  },
+  "2026-06-08": {
+    "en": {
+      "broadcast_id": "460bff1a-a72e-4cb4-b107-1ddcd24e07e6",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-08 16:18:04.053401+00"
+    }
+  },
+  "2026-06-09": {
+    "en": {
+      "broadcast_id": "6d5470af-13f9-4353-b762-5caa68a02abd",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-09 15:26:26.564886+00"
+    }
+  },
+  "2026-06-10": {
+    "en": {
+      "broadcast_id": "8401debe-355f-4a3f-b4aa-e2b05d3e1f41",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-10 16:00:04.412789+00"
+    }
+  },
+  "2026-06-11": {
+    "en": {
+      "broadcast_id": "372b3d2c-13cf-46a7-bcf2-4ea0ce5e1c04",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-11 16:21:24.697835+00"
+    }
+  },
+  "2026-06-12": {
+    "en": {
+      "broadcast_id": "53eabc4e-f8bd-4d99-bfb3-732f4729cf8c",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-12 15:38:19.599232+00"
+    }
+  },
+  "2026-06-13": {
+    "en": {
+      "broadcast_id": "4899e5ef-d98f-4c4b-9da9-916040e1b6a9",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-13 14:21:54.385336+00"
+    }
+  },
+  "2026-06-14": {
+    "en": {
+      "broadcast_id": "c291168a-3053-4342-a70f-7a360d0a403b",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-14 14:25:55.05875+00"
+    }
+  },
+  "2026-06-15": {
+    "en": {
+      "broadcast_id": "4c2f10df-231f-4ebd-b91b-ae41366024da",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-15 17:29:59.474418+00"
+    }
+  },
+  "2026-06-16": {
+    "en": {
+      "broadcast_id": "f0330c2b-d223-4924-86b0-0fe5caa87572",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-16 17:15:43.546362+00"
+    }
+  },
+  "2026-06-17": {
+    "en": {
+      "broadcast_id": "45088fb2-fafa-470e-aa9b-d19b461adff8",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-17 16:00:38.128533+00"
+    }
+  },
+  "2026-06-18": {
+    "en": {
+      "broadcast_id": "6d2b8c7a-3ede-4387-abd9-8b85e49b6b5f",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-18 15:48:43.76801+00"
+    }
+  },
+  "2026-06-19": {
+    "en": {
+      "broadcast_id": "0a07a1e6-be5e-4428-a0df-f1d89e163336",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-19 15:42:32.09293+00"
+    }
+  },
+  "2026-06-20": {
+    "en": {
+      "broadcast_id": "6537c1cb-ddb9-4753-add6-e7aece919a02",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-20 14:26:04.474326+00"
+    }
+  },
+  "2026-06-21": {
+    "en": {
+      "broadcast_id": "49ccfd58-a593-474c-bf18-0fd00d18372e",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-21 14:31:17.944318+00"
+    }
+  },
+  "2026-06-22": {
+    "en": {
+      "broadcast_id": "a23b3360-c21f-429f-8945-b2ca090324df",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-22 17:14:56.358027+00"
+    }
+  },
+  "2026-06-23": {
+    "en": {
+      "broadcast_id": "b06ffcab-9d1b-4cf4-ba63-219904ba44c5",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-23 15:23:15.409015+00"
+    }
+  },
+  "2026-06-24": {
+    "en": {
+      "broadcast_id": "ea965da6-4363-41fe-a19d-08982f38e38b",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-24 14:54:10.142413+00"
+    }
+  },
+  "2026-06-25": {
+    "en": {
+      "broadcast_id": "b3cf375c-3b9a-426d-bfbd-ef5a96cd0c36",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-25 14:52:22.323028+00"
+    }
+  },
+  "2026-06-26": {
+    "en": {
+      "broadcast_id": "c5fe9be5-cbb1-42d0-af02-7684fc98c326",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-26 14:45:08.99451+00"
+    }
+  },
+  "2026-06-27": {
+    "en": {
+      "broadcast_id": "5f27f9ef-dd17-48c6-9c57-f07c31160597",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-27 14:03:57.491363+00"
+    }
+  },
+  "2026-06-28": {
+    "en": {
+      "broadcast_id": "7a717e42-a52b-42fc-97da-4acf4b01a502",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-28 14:10:47.457296+00"
+    }
+  },
+  "2026-06-29": {
+    "en": {
+      "broadcast_id": "eaeb0698-40bb-48bb-b44c-4250a3880a16",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-29 16:05:00.237329+00"
+    }
+  },
+  "2026-06-30": {
+    "en": {
+      "broadcast_id": "b2a0ddcd-5c87-4c5d-9242-a648df5f9636",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-06-30 14:40:39.363685+00"
+    }
+  },
+  "2026-07-01": {
+    "en": {
+      "broadcast_id": "1f4fcf72-8545-4bb9-b4f0-81a3baa88b3c",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-01 14:56:04.541445+00"
+    }
+  },
+  "2026-07-02": {
+    "en": {
+      "broadcast_id": "a82bc4b7-42dd-4109-a9c6-60467e10bf8e",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-02 14:26:28.094156+00"
+    }
+  },
+  "2026-07-03": {
+    "en": {
+      "broadcast_id": "00e03907-8932-41e4-8a8e-04b68b360ff7",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-03 14:31:02.831247+00"
+    }
+  },
+  "2026-07-04": {
+    "en": {
+      "broadcast_id": "424fba00-c49d-4498-9ac6-12d94dc5a45e",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-04 13:54:26.469121+00"
+    }
+  },
+  "2026-07-05": {
+    "en": {
+      "broadcast_id": "354fef83-dadc-4449-abc3-b542fd2fad0d",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-05 13:59:34.799838+00"
+    }
+  },
+  "2026-07-06": {
+    "en": {
+      "broadcast_id": "eb2b8508-98d0-425e-923c-436042312f37",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-06 15:54:55.287506+00"
+    }
+  },
+  "2026-07-07": {
+    "en": {
+      "broadcast_id": "d7e6232b-f30e-43d4-b7d6-83b56ee338d0",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-07 14:57:47.089815+00"
+    }
+  },
+  "2026-07-08": {
+    "en": {
+      "broadcast_id": "0dd8db65-5025-4238-b378-19229adbdde7",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-08 14:36:31.497928+00"
+    }
+  },
+  "2026-07-09": {
+    "en": {
+      "broadcast_id": "5c089d28-6bc4-4fec-9a58-dc98499b67da",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-09 15:31:57.653713+00"
+    }
+  },
+  "2026-07-10": {
+    "en": {
+      "broadcast_id": "83d03f08-cb55-4fca-a2e0-d136b723e42f",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-10 14:49:03.135265+00"
+    }
+  },
+  "2026-07-11": {
+    "en": {
+      "broadcast_id": "c01a4e20-7e23-4385-bf88-2b16e040e7d0",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-11 13:46:35.137814+00"
+    }
+  },
+  "2026-07-12": {
+    "en": {
+      "broadcast_id": "f36be326-7b3c-46d8-8ece-7380c9094acf",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-12 13:57:29.584615+00"
+    }
+  },
+  "2026-07-13": {
+    "en": {
+      "broadcast_id": "4e0e3346-25fd-4ada-a562-aa1f68f5be4e",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-13 14:56:29.248971+00"
+    }
+  },
+  "2026-07-14": {
+    "en": {
+      "broadcast_id": "05ef54b9-1f92-4971-98e9-7f037ee56974",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-14 14:07:57.906646+00"
+    }
+  },
+  "2026-07-15": {
+    "en": {
+      "broadcast_id": "8926b694-187e-49d2-8c5d-61fc6e3f4bc6",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-15 14:05:29.669349+00"
+    }
+  },
+  "2026-07-16": {
+    "en": {
+      "broadcast_id": "0058ac45-0740-4296-b06f-411c85ff23d6",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-16 14:15:38.121784+00"
+    }
+  },
+  "2026-07-17": {
+    "en": {
+      "broadcast_id": "57c24dd9-b2c2-41b1-ae58-debe35577a79",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-17 14:00:05.066203+00"
+    }
+  },
+  "2026-07-18": {
+    "en": {
+      "broadcast_id": "054b2bec-86db-4d19-bc98-05aa61e9a0cd",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-18 13:42:21.444345+00"
+    }
+  },
+  "2026-07-19": {
+    "en": {
+      "broadcast_id": "d984f915-eabd-4f94-959d-93692e8c425f",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-19 13:46:00.8858+00"
+    }
+  },
+  "2026-07-20": {
+    "en": {
+      "broadcast_id": "8426ac50-ac35-45e4-8003-a09b55a66cd9",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-20 14:29:29.903456+00"
+    }
+  },
+  "2026-07-21": {
+    "en": {
+      "broadcast_id": "5eced686-9650-4c04-a742-815e2568d2c1",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-21 14:15:44.207529+00"
+    }
+  },
+  "2026-07-22": {
+    "en": {
+      "broadcast_id": "734868ef-8ce2-43e0-bf4e-14fb11e2319b",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-22 14:18:45.116152+00"
+    }
+  },
+  "2026-07-23": {
+    "en": {
+      "broadcast_id": "74ea019a-3461-409e-981a-10d32e7178d0",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-23 14:29:52.461902+00"
+    }
+  },
+  "2026-07-24": {
+    "en": {
+      "broadcast_id": "cc919419-813e-447f-a3d0-a1a110730d03",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-24 14:04:44.388709+00"
+    }
+  },
+  "2026-07-25": {
+    "en": {
+      "broadcast_id": "331f00eb-d848-4348-9147-4d6b5fbe2e83",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-25 13:56:30.277936+00"
+    }
+  },
+  "2026-07-26": {
+    "en": {
+      "broadcast_id": "72c10c21-2621-4356-a0be-40ec66796188",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-26 13:48:49.32841+00"
+    }
+  },
+  "2026-07-27": {
+    "en": {
+      "broadcast_id": "9c711631-ee95-4795-b2c8-845d3d7b8eea",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-27 14:55:45.250796+00"
+    }
+  },
+  "2026-07-28": {
+    "en": {
+      "broadcast_id": "2ae0ac02-9d81-4737-ae0a-7535f2ab77d3",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-28 14:29:41.735954+00"
+    }
+  },
+  "2026-07-29": {
+    "en": {
+      "broadcast_id": "63261ba4-f10d-4009-9b68-32a44ab87530",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-29 14:32:34.577347+00"
+    }
+  },
+  "2026-07-30": {
+    "en": {
+      "broadcast_id": "8006525f-8ddf-4c93-9865-53599b8640a9",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-30 14:27:32.360536+00"
+    }
+  },
+  "2026-07-31": {
+    "en": {
+      "broadcast_id": "4becf1e0-3af1-449d-9c83-ce07ff52ccc3",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-07-31 14:33:12.795864+00"
+    }
+  },
+  "2026-08-01": {
+    "en": {
+      "broadcast_id": "590ad777-2ff4-4749-9cf2-170b22d0a27b",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-01 13:44:20.478285+00"
+    }
+  },
+  "2026-08-02": {
+    "en": {
+      "broadcast_id": "f102696f-3170-44b4-9212-506172ffd985",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-02 13:47:34.681739+00"
+    }
+  },
+  "2026-08-03": {
+    "en": {
+      "broadcast_id": "7efdb3a5-1658-456d-85c1-b603e778e701",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-03 15:01:45.475738+00"
+    }
+  },
+  "2026-08-04": {
+    "en": {
+      "broadcast_id": "767ec41b-0241-460c-9f43-a8ee39a546e0",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-04 14:35:27.315519+00"
+    }
+  },
+  "2026-08-05": {
+    "en": {
+      "broadcast_id": "64c21ec3-7237-4f9b-a585-dd5cf3b35619",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-05 14:26:32.901107+00"
+    }
+  },
+  "2026-08-06": {
+    "en": {
+      "broadcast_id": "e03400bd-faca-4af7-83b4-6aa20f708945",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-06 19:54:09.951757+00"
+    }
+  },
+  "2026-08-07": {
+    "en": {
+      "broadcast_id": "5d51683e-d660-4aaf-8435-4fde69134a03",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-07 13:29:00.385509+00"
+    }
+  },
+  "2026-08-08": {
+    "en": {
+      "broadcast_id": "dbea6584-e741-4a48-84c9-91114a533405",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-08 13:37:49.595517+00"
+    }
+  },
+  "2026-08-09": {
+    "en": {
+      "broadcast_id": "d7b4e746-9034-4321-a8ea-1acc6c0896fe",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-09 13:54:02.742004+00"
+    }
+  },
+  "2026-08-10": {
+    "en": {
+      "broadcast_id": "24a96c6d-2599-4624-8467-9b6a653de42d",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-10 14:21:14.921789+00"
+    }
+  },
+  "2026-08-11": {
+    "en": {
+      "broadcast_id": "9a8dddf5-61eb-437a-8797-c3510bdd4108",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-11 13:32:34.640116+00"
+    }
+  },
+  "2026-08-12": {
+    "en": {
+      "broadcast_id": "202b5473-14d7-4620-8dfd-caecd57e4732",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-12 13:30:52.668176+00"
+    }
+  },
+  "2026-08-13": {
+    "en": {
+      "broadcast_id": "204e4452-02c3-4b6c-a9ab-024304c77f32",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-13 13:28:35.571272+00"
+    }
+  },
+  "2026-08-14": {
+    "en": {
+      "broadcast_id": "44cc7828-3862-4008-ad0c-e22e2b8385f5",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-14 13:26:08.430054+00"
+    }
+  },
+  "2026-08-15": {
+    "en": {
+      "broadcast_id": "62cb2e6f-1e40-4443-858a-7409e7256a74",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-15 12:52:47.427649+00"
+    }
+  },
+  "2026-08-16": {
+    "en": {
+      "broadcast_id": "72b4e42e-4267-4ee8-bba8-5cf5e87eaee4",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-16 12:59:40.607002+00"
+    }
+  },
+  "2026-08-17": {
+    "en": {
+      "broadcast_id": "d57ca9c1-82cf-4aa5-afd6-858d217abea8",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-17 13:08:29.10375+00"
+    }
+  },
+  "2026-08-18": {
+    "en": {
+      "broadcast_id": "7c3a4889-6424-479a-844d-b8d57100dc01",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-18 13:05:19.027757+00"
+    }
+  },
+  "2026-08-19": {
+    "en": {
+      "broadcast_id": "bd83b867-5845-4cb5-b8d9-3370f88a46f5",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-19 13:04:24.824844+00"
+    }
+  },
+  "2026-08-20": {
+    "en": {
+      "broadcast_id": "fb982940-ed5e-4c78-8db7-c592fdf1ee57",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-20 13:07:57.75193+00"
+    }
+  },
+  "2026-08-21": {
+    "en": {
+      "broadcast_id": "05965afd-0b25-48f3-aca8-537d55784a17",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-21 13:00:42.404059+00"
+    }
+  },
+  "2026-08-22": {
+    "en": {
+      "broadcast_id": "22c41c65-fe5c-47c7-8a76-ccaffa968fde",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-22 13:20:33.714618+00"
+    }
+  },
+  "2026-08-23": {
+    "en": {
+      "broadcast_id": "9d553ae6-27e6-4872-94d3-81a6251bf7b4",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-23 13:12:52.495721+00"
+    }
+  },
+  "2026-08-24": {
+    "en": {
+      "broadcast_id": "fac833ec-f4ca-4b59-8b30-8212966b4751",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-24 14:32:50.368553+00"
+    }
+  },
+  "2026-08-26": {
+    "en": {
+      "broadcast_id": "cbb48a56-092a-4b22-afde-197f7775e85d",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-26 16:48:33.068894+00"
+    }
+  },
+  "2026-08-27": {
+    "en": {
+      "broadcast_id": "bd4923fe-3c94-4f43-a1b6-4f9deddd69e7",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-27 23:41:15.802554+00"
+    }
+  },
+  "2026-08-28": {
+    "en": {
+      "broadcast_id": "66b0e2b4-b474-43b8-ac79-849612fc6094",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-28 22:53:28.699017+00"
+    }
+  },
+  "2026-08-29": {
+    "en": {
+      "broadcast_id": "bf0f61ad-e9f6-4c8d-a0d8-5cfb29f5610c",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-29 18:07:34.985477+00"
+    }
+  },
+  "2026-08-30": {
+    "en": {
+      "broadcast_id": "f258b090-d0b8-4182-bc50-4ac4c4ce642d",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-30 19:12:48.440915+00"
+    }
+  },
+  "2026-08-31": {
+    "en": {
+      "broadcast_id": "0c5e6a89-b5aa-4be2-b36f-6d550aba5c3c",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-08-31 20:58:18.051805+00"
+    }
+  },
+  "2026-09-01": {
+    "en": {
+      "broadcast_id": "c25c7e3a-0d03-4ca1-9755-9360ef6dc15f",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-01 20:17:46.417433+00"
+    }
+  },
+  "2026-09-02": {
+    "en": {
+      "broadcast_id": "11550bd1-cdd2-4a2d-a865-f0746e917c9c",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-02 17:46:51.499289+00"
+    }
+  },
+  "2026-09-03": {
+    "en": {
+      "broadcast_id": "d6c6e0e8-e40a-46a3-bcca-8201362c348f",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-03 17:35:07.650566+00"
+    }
+  },
+  "2026-09-04": {
+    "en": {
+      "broadcast_id": "3d221837-7531-48c8-bc52-957d51b78ce1",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-04 17:47:31.560551+00"
+    }
+  },
+  "2026-09-05": {
+    "en": {
+      "broadcast_id": "37244b9f-cace-4d8d-844a-41acabdf4f44",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-05 16:39:21.26533+00"
+    }
+  },
+  "2026-09-06": {
+    "en": {
+      "broadcast_id": "78e058bc-f758-40e6-979c-bc4ad1ceb270",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-06 17:43:18.235122+00"
+    }
+  },
+  "2026-09-16": {
+    "en": {
+      "broadcast_id": "b9184362-bf11-454d-ae6d-6820a0f74d54",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-16 18:01:12.508259+00"
+    }
+  },
+  "2026-09-17": {
+    "en": {
+      "broadcast_id": "84fc66d2-dd28-4aff-b6d5-fd895bdfe754",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-17 17:06:51.434577+00"
+    }
+  },
+  "2026-09-18": {
+    "en": {
+      "broadcast_id": "f2e97601-00d6-4443-a515-97b6b6d248cb",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-18 16:44:08.430499+00"
+    }
+  },
+  "2026-09-19": {
+    "en": {
+      "broadcast_id": "1e26b04a-6ea8-467a-a59d-d62d50c0ffd2",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-19 16:16:09.458289+00"
+    }
+  },
+  "2026-09-20": {
+    "en": {
+      "broadcast_id": "0cf8d83d-2827-4d48-bcc4-1f9e1cfb6c48",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-20 16:07:21.175645+00"
+    }
+  },
+  "2026-09-21": {
+    "en": {
+      "broadcast_id": "2d0d0db7-ba67-47f0-b35b-f9dc8cf5d1ae",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-21 18:34:58.910165+00"
+    }
+  },
+  "2026-09-22": {
+    "en": {
+      "broadcast_id": "0030b062-80a6-4a77-bbbb-94fc99e8c4ae",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-22 17:20:01.618765+00"
+    }
+  },
+  "2026-09-23": {
+    "en": {
+      "broadcast_id": "54bd3507-08a9-4bf7-be27-52e909a5d89d",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-23 17:27:54.649183+00"
+    }
+  },
+  "2026-09-24": {
+    "en": {
+      "broadcast_id": "3c7ce08d-f794-44ee-903b-56e2adcdce3c",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-24 17:26:49.222065+00"
+    }
+  },
+  "2026-09-25": {
+    "en": {
+      "broadcast_id": "e6539735-5f8f-4cb6-bacb-acc53c2d1096",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-25 17:12:37.228905+00"
+    }
+  },
+  "2026-09-26": {
+    "en": {
+      "broadcast_id": "bbcb0ead-4eb6-427f-a024-50c6f7c52f79",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-26 16:33:52.798242+00"
+    }
+  },
+  "2026-09-27": {
+    "en": {
+      "broadcast_id": "d98a7717-b8eb-4aba-b212-9a4abebf9af8",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-27 16:54:34.309179+00"
+    }
+  },
+  "2026-09-28": {
+    "en": {
+      "broadcast_id": "59e7d5a7-aeea-45ea-8c06-b6d6f624ed26",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-28 19:40:49.222953+00"
+    }
+  },
+  "2026-09-29": {
+    "en": {
+      "broadcast_id": "3b9fa4ac-0117-4fab-b888-47f43982d9c6",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-29 18:05:36.957189+00"
+    }
+  },
+  "2026-09-30": {
+    "en": {
+      "broadcast_id": "447e57d8-c98f-4a63-8f0b-72dd8105e6f9",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-09-30 17:59:35.792751+00"
+    }
+  },
+  "2026-10-01": {
+    "en": {
+      "broadcast_id": "1fee6852-1313-4657-803d-5321c3892070",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-10-01 18:26:03.523577+00"
+    }
+  },
+  "2026-10-02": {
+    "en": {
+      "broadcast_id": "750e100e-2a75-4da5-bf59-d6ecf72c96e5",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-10-02 17:51:23.141177+00"
+    }
+  },
+  "2026-10-03": {
+    "en": {
+      "broadcast_id": "56c7300a-5683-410e-ac8a-cef9fe005819",
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-10-03 16:14:27.554528+00"
+    }
+  },
   "2026-10-05": {
     "en": {
       "broadcast_id": "93030bc0-8d45-4d61-839a-31009f6e4e29",
-      "sent_at": "2026-10-05T19:31:59Z"
+      "delivered": null,
+      "recipients": null,
+      "sent": null,
+      "sent_at": "2026-10-05 19:32:31.128821+00"
     }
   }
 }
