@@ -32,17 +32,16 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: python scripts/backfill_broadcasts.py
 
+      - name: Rebuild dashboard totals
+        run: python scripts/backfill_metrics.py
+
       - name: Commit ledger
         if: always()
         run: |
-          if [ ! -f data/sent_broadcasts.json ]; then
-            echo "no ledger written"
-            exit 0
-          fi
-          git add data/sent_broadcasts.json
+          git add data/sent_broadcasts.json docs/_data/dashboard.json
           if git diff --cached --quiet; then
-            echo "ledger unchanged"
+            echo "nothing changed"
             exit 0
           fi
-          git commit -m "Backfill broadcast ledger from Resend"
+          git commit -m "Backfill broadcast ledger and dashboard totals from Resend"
           git push origin master

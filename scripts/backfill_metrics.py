@@ -78,8 +78,26 @@ def main() -> int:
             )
         )
 
-    payload = {"totals": recompute_totals(days, None), "days": days}
+    payload_days = days
     out = Path(dashboard_file)
+    # Preserve the live total-ever subscriber count (this script has no network
+    # and cannot recompute it); it is refreshed by the metrics stage each run.
+    prior_total_ever = None
+    if out.exists():
+        try:
+            prior_total_ever = (
+                json.loads(out.read_text(encoding="utf-8"))
+                .get("totals", {})
+                .get("subscribers_total_ever")
+            )
+        except (OSError, json.JSONDecodeError):
+            prior_total_ever = None
+
+    totals = recompute_totals(payload_days, None)
+    if prior_total_ever is not None:
+        totals["subscribers_total_ever"] = prior_total_ever
+
+    payload = {"totals": totals, "days": payload_days}
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {out} with {len(days)} day(s)")
