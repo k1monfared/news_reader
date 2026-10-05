@@ -10384,6 +10384,16 @@
         "example_text": "Christa Pike was found alive and snoring, despite being administered two injections of a lethal drug. The state governor has ordered a review of the botched execution.",
         "example_url": "https://www.dw.com/en/tennessee-halts-woman-s-execution-after-failed-attempt/a-79496561?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "Christa Pike remained alive after receiving two injections of a lethal drug. The state governor ordered a review of the halted execution."
+      },
+      {
+        "pattern": "Police equipment injury causality speculation",
+        "detail": "DW attributes a teenager losing a hand to a police tear gas grenade through speculative phrasing, implying police responsibility without confirmed facts.",
+        "debias": "Report only confirmed injury details and avoid linking the injury to police equipment until authorities establish the cause.",
+        "date_added": "2026-10-05",
+        "status": "suggested",
+        "example_text": "A teenage boy lost his hand, seemingly while trying to pick up a police tear gas grenade.",
+        "example_url": "https://www.dw.com/en/hundreds-of-french-schools-shut-teen-loses-hand-in-protests/a-79542656?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "A teenage boy lost a hand during the French school protests; authorities have not confirmed how the injury happened."
       }
     ]
   },
