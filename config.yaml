@@ -433,4 +433,6 @@ empty_brief:
 metrics:
   enabled: true
   dashboard_file: "docs/_data/dashboard.json"
-  subscribe_stats_url: ""
+  # subscribe-proxy /stats returns cumulative distinct emails ever subscribed.
+  # The bearer token is the SUBSCRIBE_STATS_TOKEN secret (env), not stored here.
+  subscribe_stats_url: "https://subscribe-proxy.usraelwar.workers.dev/stats"

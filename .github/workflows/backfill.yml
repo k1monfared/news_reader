@@ -42,4 +42,5 @@ jobs:
           OPENCODE_API_BASE_URL: https://opencode.ai/zen/go/v1
           OPENCODE_SESSION_ID: news-reader-backfill-${{ github.run_id }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          SUBSCRIBE_STATS_TOKEN: ${{ secrets.SUBSCRIBE_STATS_TOKEN }}
         run: python scripts/backfill_dates.py --dates ${{ inputs.dates }}
