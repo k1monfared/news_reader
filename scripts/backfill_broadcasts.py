@@ -72,7 +72,11 @@ def list_broadcasts(api_key: str, timeout: float = 30.0) -> list[dict]:
 def broadcast_metrics(
     api_key: str, start_date: str, end_date: str, timeout: float = 30.0
 ) -> dict[str, dict]:
-    """Return ``{broadcast_id: {sent, delivered}}``; empty on any failure."""
+    """Return ``{broadcast_id: {sent, delivered}}``; empty on any failure.
+
+    Tries the broadcast metrics endpoint first (private beta) and falls back to
+    the general email metrics endpoint grouped by broadcast.
+    """
     headers = {"Authorization": f"Bearer {api_key}"}
     params = {
         "start_date": start_date,
@@ -80,29 +84,28 @@ def broadcast_metrics(
         "metrics": "sent,delivered",
         "dimensions": "broadcast",
     }
-    try:
-        with httpx.Client(timeout=timeout) as client:
-            resp = client.get(f"{API_BASE}/broadcasts/metrics", headers=headers, params=params)
-            if resp.status_code != 200:
-                print(
-                    f"WARNING: broadcast metrics unavailable ({resp.status_code}); "
-                    "delivery counts will be blank",
-                    file=sys.stderr,
-                )
-                return {}
-            data = resp.json()
-    except (httpx.HTTPError, ValueError) as exc:
-        print(f"WARNING: broadcast metrics request failed: {exc}", file=sys.stderr)
-        return {}
-    result: dict[str, dict] = {}
-    for row in data.get("data") or []:
-        bid = row.get("id")
-        if bid:
-            result[bid] = {
-                "sent": row.get("sent"),
-                "delivered": row.get("delivered"),
-            }
-    return result
+    for path in ("/broadcasts/metrics", "/emails/metrics"):
+        try:
+            with httpx.Client(timeout=timeout) as client:
+                resp = client.get(f"{API_BASE}{path}", headers=headers, params=params)
+        except (httpx.HTTPError, ValueError) as exc:
+            print(f"WARNING: {path} request failed: {exc}", file=sys.stderr)
+            continue
+        if resp.status_code != 200:
+            print(
+                f"WARNING: {path} unavailable ({resp.status_code})",
+                file=sys.stderr,
+            )
+            continue
+        result: dict[str, dict] = {}
+        for row in resp.json().get("data") or []:
+            bid = row.get("id")
+            if bid:
+                result[bid] = {"sent": row.get("sent"), "delivered": row.get("delivered")}
+        if result:
+            print(f"Metrics from {path}: {len(result)} broadcast(s)")
+            return result
+    return {}
 
 
 def build_ledger(

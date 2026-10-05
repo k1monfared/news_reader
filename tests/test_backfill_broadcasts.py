@@ -8,6 +8,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scripts.backfill_broadcasts import (
+    broadcast_metrics,
     build_ledger,
     merge_ledgers,
     parse_broadcast,
@@ -68,3 +69,56 @@ class TestMerge:
         existing = {"2026-10-05": {"en": {"broadcast_id": "x", "recipients": 42}}}
         merged = merge_ledgers(existing, {"2026-10-05": {"en": {"broadcast_id": "x", "recipients": None}}})
         assert merged["2026-10-05"]["en"]["recipients"] == 42
+
+
+class TestMetricsFallback:
+    def test_falls_back_to_emails_metrics(self, monkeypatch):
+        class Resp:
+            def __init__(self, status, body):
+                self.status_code = status
+                self._body = body
+
+            def json(self):
+                return self._body
+
+        class Client:
+            def __init__(self, *a, **k):
+                pass
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *exc):
+                return False
+
+            def get(self, url, headers=None, params=None):
+                if url.endswith("/broadcasts/metrics"):
+                    return Resp(422, {})
+                return Resp(200, {"data": [{"id": "b1", "sent": 50, "delivered": 48}]})
+
+        monkeypatch.setattr("scripts.backfill_broadcasts.httpx.Client", Client)
+        out = broadcast_metrics("key", "2026-01-01", "2026-10-05")
+        assert out == {"b1": {"sent": 50, "delivered": 48}}
+
+    def test_returns_empty_when_both_fail(self, monkeypatch):
+        class Resp:
+            status_code = 422
+
+            def json(self):
+                return {}
+
+        class Client:
+            def __init__(self, *a, **k):
+                pass
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *exc):
+                return False
+
+            def get(self, *a, **k):
+                return Resp()
+
+        monkeypatch.setattr("scripts.backfill_broadcasts.httpx.Client", Client)
+        assert broadcast_metrics("key", "2026-01-01", "2026-10-05") == {}
