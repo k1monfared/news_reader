@@ -6,6 +6,7 @@ permalink: /dashboard/
 
 {% assign d = site.data.dashboard %}
 {% assign t = d.totals %}
+{% assign today = d.today %}
 
 <div class="page-content dashboard" markdown="0">
 
@@ -13,43 +14,89 @@ permalink: /dashboard/
 
 <p class="chart-note">Automated status and counts for this brief, rebuilt once per day after the run. Counts cover both languages. Last updated {{ t.generated_at | default: "unknown" }}.</p>
 
-{% assign latest = d.days | last %}
-
-<h2>Latest run — {{ latest.date | default: "—" }}</h2>
+<h2>Today's run{% if today %} — {{ today.target_date }}{% endif %}</h2>
+{% if today %}
 <section class="cards">
   <div class="card">
-    <span class="card-value"><span class="badge badge-{{ latest.status | default: 'unknown' }}">{{ latest.status | default: "unknown" }}</span></span>
+    <span class="card-value"><span class="badge badge-{{ today.status | default: 'unknown' }}">{{ today.status | default: "unknown" }}</span></span>
     <span class="card-label">Status</span>
-    {% if latest.failed_stages and latest.failed_stages.size > 0 %}
-    <span class="card-sub">failed: {{ latest.failed_stages | join: ", " }}</span>
-    {% elsif latest.degraded_stages and latest.degraded_stages.size > 0 %}
-    <span class="card-sub">degraded: {{ latest.degraded_stages | join: ", " }}</span>
-    {% endif %}
+    {% if today.failed_stages.size > 0 %}<span class="card-sub">failed: {{ today.failed_stages | join: ", " }}</span>{% elsif today.degraded_stages.size > 0 %}<span class="card-sub">degraded: {{ today.degraded_stages | join: ", " }}</span>{% endif %}
   </div>
   <div class="card">
-    <span class="card-value">{{ latest.posted | default: 0 }}</span>
+    <span class="card-value">{{ today.duration_s | default: "—" }}</span>
+    <span class="card-label">Duration (s)</span>
+  </div>
+  <div class="card">
+    <span class="card-value">{{ today.funnel.fetched | default: "—" }}</span>
+    <span class="card-label">Links processed</span>
+    <span class="card-sub">{{ today.funnel.included | default: "—" }} made the cut</span>
+  </div>
+  <div class="card">
+    <span class="card-value">{{ today.posted | default: 0 }}</span>
     <span class="card-label">Entries posted</span>
-    <span class="card-sub">{{ latest.posted_en | default: 0 }} EN · {{ latest.posted_fa | default: 0 }} FA</span>
+    <span class="card-sub">{{ today.posted_en | default: 0 }} EN · {{ today.posted_fa | default: 0 }} FA</span>
   </div>
   <div class="card">
-    <span class="card-value">{{ latest.links | default: 0 }}</span>
+    <span class="card-value">{{ today.links | default: 0 }}</span>
     <span class="card-label">Source links cited</span>
   </div>
   <div class="card">
-    <span class="card-value">{{ latest.processed | default: "—" }}</span>
-    <span class="card-label">Links processed</span>
-    <span class="card-sub">{{ latest.included | default: "—" }} made the cut</span>
-  </div>
-  <div class="card">
-    <span class="card-value">{% if latest.emails.en.sent %}EN{% endif %}{% if latest.emails.en.sent and latest.emails.fa.sent %} · {% endif %}{% if latest.emails.fa.sent %}FA{% endif %}{% unless latest.emails.en.sent or latest.emails.fa.sent %}—{% endunless %}</span>
+    <span class="card-value">{% if today.emails.en.sent %}EN{% endif %}{% if today.emails.en.sent and today.emails.fa.sent %} · {% endif %}{% if today.emails.fa.sent %}FA{% endif %}{% unless today.emails.en.sent or today.emails.fa.sent %}—{% endunless %}</span>
     <span class="card-label">Emails sent</span>
-    <span class="card-sub">{% if latest.emails.en.sent %}{{ latest.emails.en.recipients | default: "?" }} EN{% endif %}{% if latest.emails.fa.sent %} · {{ latest.emails.fa.recipients | default: "?" }} FA{% endif %}</span>
+    <span class="card-sub">{% if today.emails.en.sent %}{{ today.emails.en.recipients | default: "?" }} EN{% endif %}{% if today.emails.fa.sent %} · {{ today.emails.fa.recipients | default: "?" }} FA{% endif %}</span>
   </div>
   <div class="card">
-    <span class="card-value">{{ latest.subscribers | default: "—" }}</span>
+    <span class="card-value">{{ today.subscribers | default: "—" }}</span>
     <span class="card-label">Subscribers</span>
   </div>
+  <div class="card">
+    <span class="card-value">{{ today.tokens.total.input | default: "—" }}</span>
+    <span class="card-label">Input tokens</span>
+    <span class="card-sub">{{ today.tokens.total.output | default: 0 }} out · {{ today.tokens.total.thinking | default: 0 }} think</span>
+  </div>
 </section>
+
+<h3>Funnel</h3>
+<ol class="funnel">
+  {% for stage in today.stages %}
+  <li class="funnel-step funnel-{{ stage.status }}{% if stage.degraded %} funnel-degraded{% endif %}">
+    <span class="funnel-name">{{ stage.name | replace: "_", " " }}</span>
+    <span class="funnel-status">{{ stage.status }}{% if stage.degraded %} · degraded{% endif %}</span>
+    {% if stage.duration_s != nil %}<span class="funnel-dur">{{ stage.duration_s }}s</span>{% endif %}
+    {% if stage.error %}<span class="funnel-err">{{ stage.error | truncate: 140 }}</span>{% endif %}
+  </li>
+  {% endfor %}
+</ol>
+
+<h3>Tokens this run</h3>
+<div class="table-wrap">
+<table class="dash-table">
+  <thead><tr><th>Stage</th><th>Calls</th><th>Input</th><th>Output</th><th>Thinking</th><th>Total</th></tr></thead>
+  <tbody>
+    {% for s in today.tokens.by_stage %}
+    <tr>
+      <td>{{ s[0] | replace: "_", " " }}</td>
+      <td>{{ s[1].calls }}</td>
+      <td>{{ s[1].input }}</td>
+      <td>{{ s[1].output }}</td>
+      <td>{{ s[1].thinking }}</td>
+      <td>{{ s[1].input | plus: s[1].output | plus: s[1].thinking }}</td>
+    </tr>
+    {% endfor %}
+    <tr>
+      <td><strong>Total</strong></td>
+      <td>{{ today.tokens.total.calls | default: 0 }}</td>
+      <td>{{ today.tokens.total.input | default: 0 }}</td>
+      <td>{{ today.tokens.total.output | default: 0 }}</td>
+      <td>{{ today.tokens.total.thinking | default: 0 }}</td>
+      <td>{{ today.tokens.total.input | default: 0 | plus: today.tokens.total.output | plus: today.tokens.total.thinking }}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+{% else %}
+<p class="chart-note">No run recorded yet. The next pipeline run will populate today's status, funnel, and tokens.</p>
+{% endif %}
 
 <h2>All time</h2>
 <section class="cards">
@@ -93,39 +140,58 @@ permalink: /dashboard/
     <span class="card-sub">distinct emails</span>
   </div>
   <div class="card">
+    <span class="card-value">{{ t.tokens_total | default: "—" }}</span>
+    <span class="card-label">LLM tokens</span>
+    <span class="card-sub">{{ t.llm_calls | default: 0 }} calls</span>
+  </div>
+  <div class="card">
     <span class="card-value">{{ t.days_failed | default: 0 }}</span>
     <span class="card-label">Failed days</span>
     <span class="card-sub">{{ t.days_degraded | default: 0 }} degraded · {{ t.days_empty | default: 0 }} empty</span>
   </div>
 </section>
 
-{% assign recent = d.days | slice: -30, 30 %}
-{% assign max_posted = 1 %}
-{% for day in recent %}{% if day.posted and day.posted > max_posted %}{% assign max_posted = day.posted %}{% endif %}{% endfor %}
-{% assign mid_posted = max_posted | divided_by: 2 %}
+<h2>Averages</h2>
+<p class="chart-note">Over {{ t.days_running | default: "—" }} days. Average entries per brief: {{ t.entries_per_brief_en | default: "—" }} EN, {{ t.entries_per_brief_fa | default: "—" }} FA.{% if t.subscribers_growth %} Subscriber growth: {{ t.subscribers_growth.total }} total{% if t.subscribers_growth.per_week != nil %}, {{ t.subscribers_growth.per_week }}/week{% endif %}.{% endif %}</p>
+<div class="table-wrap">
+<table class="dash-table">
+  <thead>
+    <tr><th>Metric</th><th>Per day</th><th>Per week</th><th>Per month</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Brief entries posted</td><td>{{ t.rates.posted.per_day | default: "—" }}</td><td>{{ t.rates.posted.per_week | default: "—" }}</td><td>{{ t.rates.posted.per_month | default: "—" }}</td></tr>
+    <tr><td>Entries posted (EN)</td><td>{{ t.rates.posted_en.per_day | default: "—" }}</td><td>{{ t.rates.posted_en.per_week | default: "—" }}</td><td>{{ t.rates.posted_en.per_month | default: "—" }}</td></tr>
+    <tr><td>Entries posted (FA)</td><td>{{ t.rates.posted_fa.per_day | default: "—" }}</td><td>{{ t.rates.posted_fa.per_week | default: "—" }}</td><td>{{ t.rates.posted_fa.per_month | default: "—" }}</td></tr>
+    <tr><td>Links processed</td><td>{{ t.rates.processed.per_day | default: "—" }}</td><td>{{ t.rates.processed.per_week | default: "—" }}</td><td>{{ t.rates.processed.per_month | default: "—" }}</td></tr>
+    <tr><td>Links included</td><td>{{ t.rates.included.per_day | default: "—" }}</td><td>{{ t.rates.included.per_week | default: "—" }}</td><td>{{ t.rates.included.per_month | default: "—" }}</td></tr>
+    <tr><td>Source links cited</td><td>{{ t.rates.links.per_day | default: "—" }}</td><td>{{ t.rates.links.per_week | default: "—" }}</td><td>{{ t.rates.links.per_month | default: "—" }}</td></tr>
+    <tr><td>Emails sent</td><td>{{ t.rates.emails.per_day | default: "—" }}</td><td>{{ t.rates.emails.per_week | default: "—" }}</td><td>{{ t.rates.emails.per_month | default: "—" }}</td></tr>
+    <tr><td>Recipient deliveries</td><td>{{ t.rates.deliveries.per_day | default: "—" }}</td><td>{{ t.rates.deliveries.per_week | default: "—" }}</td><td>{{ t.rates.deliveries.per_month | default: "—" }}</td></tr>
+    <tr><td>Input tokens</td><td>{{ t.rates.tokens_input.per_day | default: "—" }}</td><td>{{ t.rates.tokens_input.per_week | default: "—" }}</td><td>{{ t.rates.tokens_input.per_month | default: "—" }}</td></tr>
+    <tr><td>Output tokens</td><td>{{ t.rates.tokens_output.per_day | default: "—" }}</td><td>{{ t.rates.tokens_output.per_week | default: "—" }}</td><td>{{ t.rates.tokens_output.per_month | default: "—" }}</td></tr>
+    <tr><td>Thinking tokens</td><td>{{ t.rates.tokens_thinking.per_day | default: "—" }}</td><td>{{ t.rates.tokens_thinking.per_week | default: "—" }}</td><td>{{ t.rates.tokens_thinking.per_month | default: "—" }}</td></tr>
+    <tr><td>Total tokens</td><td>{{ t.rates.tokens_total.per_day | default: "—" }}</td><td>{{ t.rates.tokens_total.per_week | default: "—" }}</td><td>{{ t.rates.tokens_total.per_month | default: "—" }}</td></tr>
+  </tbody>
+</table>
+</div>
 
 <h2>Brief entries per day</h2>
-<p class="chart-note">Last {{ recent | size }} days, zero baseline. Hover a bar for its date and count. Tallest bar is {{ max_posted }} entries.</p>
+<p class="chart-note">Zero baseline. Drag to pan, scroll sideways, or use the buttons (Ctrl/⌘ + wheel also zooms). Hover a bar for its date and count. {{ d.days | size }} days available.</p>
+<div class="chart-toolbar">
+  <button type="button" id="chart-zoom-out" class="chart-btn" aria-label="Zoom out">-</button>
+  <button type="button" id="chart-zoom-in" class="chart-btn" aria-label="Zoom in">+</button>
+  <button type="button" id="chart-reset" class="chart-btn">Reset</button>
+</div>
 <div class="chart">
   <div class="chart-y" aria-hidden="true">
-    <span>{{ max_posted }}</span>
-    <span>{{ mid_posted }}</span>
-    <span>0</span>
+    <span data-y="max">-</span>
+    <span data-y="mid">-</span>
+    <span data-y="min">0</span>
   </div>
   <div class="chart-body">
-    <div class="bars" role="img" aria-label="Brief entries per day over the last {{ recent | size }} days">
-      {% for day in recent %}
-      {% assign h = day.posted | times: 100.0 | divided_by: max_posted %}
-      <div class="bar-col" data-tip="{{ day.date }}: {{ day.posted }} entries" title="{{ day.date }}: {{ day.posted }} entries">
-        <div class="bar" style="height: {{ h }}%"></div>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="chart-x" aria-hidden="true">
-      {% for day in recent %}
-      {% assign mod = forloop.index0 | modulo: 5 %}
-      <span class="x-label">{% if mod == 0 or forloop.last %}{{ day.date | slice: 5, 5 }}{% endif %}</span>
-      {% endfor %}
+    <div class="chart-scroll" id="chart-scroll">
+      <div class="bars" id="chart-bars" role="img" aria-label="Brief entries per day"></div>
+      <div class="chart-x" id="chart-x" aria-hidden="true"></div>
     </div>
   </div>
 </div>
@@ -161,5 +227,8 @@ permalink: /dashboard/
 <p class="chart-note">
   <strong>success</strong>: all critical stages passed. <strong>degraded</strong>: a non-critical stage failed or editorial shipped an unedited draft. <strong>failed</strong>: a critical stage failed. <strong>unknown</strong>: historical day before status tracking began.
 </p>
+
+<script id="dashboard-days" type="application/json">[{% for day in d.days %}{"date":"{{ day.date }}","posted":{{ day.posted | default: 0 }}}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
+<script src="{{ '/assets/js/dashboard.js' | relative_url }}" defer></script>
 
 </div>

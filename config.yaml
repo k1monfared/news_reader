@@ -433,6 +433,9 @@ empty_brief:
 metrics:
   enabled: true
   dashboard_file: "docs/_data/dashboard.json"
+  # The run database: one comprehensive JSON record per run (funnel, per-stage
+  # token usage, emails, subscribers). The dashboard is one view over it.
+  db_file: "data/run_metrics.jsonl"
   # subscribe-proxy /stats returns cumulative distinct emails ever subscribed.
   # The bearer token is the SUBSCRIBE_STATS_TOKEN secret (env), not stored here.
   subscribe_stats_url: "https://subscribe-proxy.usraelwar.workers.dev/stats"

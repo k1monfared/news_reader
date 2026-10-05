@@ -4,6 +4,15 @@
     - Stage: MVP
     - Next Milestone: Confirm a green CI run with the free-model-first chain and the failure notifier
 
+- Run Metrics Database and Today's Run Dashboard (2026-10-05)
+    - New run database data/run_metrics.jsonl: one comprehensive JSON record per run (ordered stage funnel with status/duration/errors, per-stage and total token usage, emails with recipients, subscribers, models). Append/update by run_id; meant to be re-queried and re-visualised later
+    - docs/_data/dashboard.json is now one view over that database plus posts/ledger history: today's full run, per-day aggregates, all-time totals and rates
+    - Dashboard top section is now "Today's run" (status, duration, links processed/included, entries posted, source links, emails, subscribers, input tokens) with a stage funnel list and a per-stage token table
+    - Token capture: llm_client now records thinking tokens (usage.completion_tokens_details.reasoning_tokens) in the audit and exposes per-stage usage; metrics aggregates the run's audit/llm_calls.jsonl
+    - Averages table gains input/output/thinking/total token rates per day/week/month; all-time cards gain total tokens and LLM calls
+    - Historical days still show status "unknown" and null processed/token counts (run_meta is not committed); they fill in from the next run onward
+    - Tests: 160 passing
+
 - Dashboard Polish and Broadcast Backfill (2026-10-05)
     - Dashboard page: added a "Latest run" panel at the top (status, entries, links, emails, subscribers) and split the old summary into "All time"
     - Chart now has a y-axis (max, mid, 0), x-axis date labels every 5 days plus the last, and a hover tooltip showing the date and entry count

@@ -1,10 +1,16 @@
-"""Metrics stage: builds ``docs/_data/dashboard.json`` for the site dashboard.
+"""Metrics stage: the run database and the dashboard view.
 
-Runs last and is non-critical. It reads the run's ``run_meta.json``, the day's
-English and Farsi posts, the broadcast ledger, and the empty-brief history,
-plus best-effort Resend and subscribe-proxy stats, then records or updates that
-day's entry and recomputes totals. The file is committed so the Jekyll
-dashboard page refreshes after each run.
+Two artifacts:
+
+* ``data/run_metrics.jsonl`` -- the database. One comprehensive JSON record per
+  pipeline run (stage funnel, per-stage token usage, emails, subscribers,
+  models). Append/update by ``run_id``. This is the source of truth meant to be
+  queried and re-visualised in new ways later.
+* ``docs/_data/dashboard.json`` -- one view over that database, rendered by the
+  ``/dashboard/`` page. Contains today's full run, per-day aggregates, and
+  all-time totals/rates.
+
+The stage is non-critical: a failure is recorded but never fails the run.
 """
 
 from __future__ import annotations
@@ -34,6 +40,7 @@ DETAILS_RE = re.compile(r"<details\b")
 LINK_RE = re.compile(r"\]\((https?://[^)]+)\)")
 
 DEFAULT_DASHBOARD_FILE = "docs/_data/dashboard.json"
+DEFAULT_DB_FILE = "data/run_metrics.jsonl"
 
 
 # ---------------------------------------------------------------------------
@@ -72,13 +79,67 @@ def day_status(meta: dict) -> tuple[str, list[str], list[str]]:
     return status, failed, degraded
 
 
-def _read_post(path: Path) -> str | None:
+def read_audit(run_dir: str) -> dict:
+    """Aggregate the run's ``audit/llm_calls.jsonl`` by stage and model."""
+    by_stage: dict[str, dict[str, int]] = {}
+    models: list[str] = []
+    total = {"input": 0, "output": 0, "thinking": 0, "calls": 0}
+    path = Path(run_dir) / "audit" / "llm_calls.jsonl"
     if not path.exists():
-        return None
-    return path.read_text(encoding="utf-8")
+        return {"by_stage": by_stage, "models": models, "total": total}
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        try:
+            entry = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        stage = entry.get("stage", "unknown")
+        usage = by_stage.setdefault(
+            stage, {"input": 0, "output": 0, "thinking": 0, "calls": 0}
+        )
+        usage["input"] += entry.get("tokens_in", 0) or 0
+        usage["output"] += entry.get("tokens_out", 0) or 0
+        usage["thinking"] += entry.get("tokens_thinking", 0) or 0
+        usage["calls"] += 1
+        model = entry.get("model")
+        if model and model not in models:
+            models.append(model)
+    for usage in by_stage.values():
+        for key in ("input", "output", "thinking", "calls"):
+            total[key] += usage[key]
+    return {"by_stage": by_stage, "models": models, "total": total}
 
 
-def build_day_record(
+def _stage_list(meta: dict) -> list[dict]:
+    stages = meta.get("stages", {}) if isinstance(meta.get("stages"), dict) else {}
+    out = []
+    for name, info in stages.items():
+        info = info if isinstance(info, dict) else {}
+        out.append({
+            "name": name,
+            "status": info.get("status", "unknown"),
+            "duration_s": info.get("duration_s"),
+            "error": info.get("error"),
+            "degraded": bool(info.get("degraded")),
+        })
+    return out
+
+
+def _funnel(meta: dict, posted_en: int, posted_fa: int) -> dict:
+    stages = meta.get("stages", {}) if isinstance(meta.get("stages"), dict) else {}
+    fetch = stages.get("fetch", {}) if isinstance(stages.get("fetch"), dict) else {}
+    filt = stages.get("filter", {}) if isinstance(stages.get("filter"), dict) else {}
+    return {
+        "fetched": meta.get("items_fetched") or fetch.get("total_items"),
+        "included": meta.get("items_included") or filt.get("items_included"),
+        "posted_en": posted_en,
+        "posted_fa": posted_fa,
+        "posted": posted_en + posted_fa,
+    }
+
+
+def build_run_record(
     date_str: str,
     *,
     run_meta: dict | None,
@@ -86,15 +147,11 @@ def build_day_record(
     fa_post: str | None,
     ledger: dict,
     subscribers: dict | None,
-    empty: bool | None,
+    audit: dict | None,
 ) -> dict:
-    """Assemble one day's dashboard record from available sources."""
+    """Assemble the comprehensive per-run database record."""
     meta = run_meta or {}
     status, failed, degraded = day_status(meta) if run_meta else ("unknown", [], [])
-    stories = meta.get("stages", {}) if isinstance(meta.get("stages"), dict) else {}
-    fetch = stories.get("fetch", {}) if isinstance(stories.get("fetch"), dict) else {}
-    filtered = stories.get("filter", {}) if isinstance(stories.get("filter"), dict) else {}
-
     posted_en = count_entries(en_post) if en_post else 0
     posted_fa = count_entries(fa_post) if fa_post else 0
     links_en = count_links(en_post) if en_post else 0
@@ -110,6 +167,7 @@ def build_day_record(
         for lang in ("en", "fa")
     }
 
+    audit = audit or {"by_stage": {}, "models": [], "total": {}}
     subscribers = subscribers or {}
     subs_en = subscribers.get("en")
     subs_fa = subscribers.get("fa")
@@ -118,11 +176,144 @@ def build_day_record(
         subs_total = (subs_en or 0) + (subs_fa or 0)
 
     return {
-        "date": date_str,
         "run_id": meta.get("run_id"),
+        "target_date": date_str,
+        "backfill": bool(meta.get("backfill")),
+        "started_at": meta.get("started_at"),
+        "finished_at": meta.get("finished_at"),
+        "duration_s": meta.get("total_duration_s"),
         "status": status,
         "failed_stages": failed,
         "degraded_stages": degraded,
+        "stages": _stage_list(meta),
+        "funnel": _funnel(meta, posted_en, posted_fa),
+        "tokens": {
+            "by_stage": audit.get("by_stage", {}),
+            "total": audit.get("total", {}),
+        },
+        "models": audit.get("models", []),
+        "posted_en": posted_en,
+        "posted_fa": posted_fa,
+        "posted": posted_en + posted_fa,
+        "links_en": links_en,
+        "links_fa": links_fa,
+        "links": links_en + links_fa,
+        "emails": emails,
+        "subscribers_en": subs_en,
+        "subscribers_fa": subs_fa,
+        "subscribers": subs_total,
+    }
+
+
+# ---------------------------------------------------------------------------
+# Database (append/update JSONL)
+# ---------------------------------------------------------------------------
+
+
+def load_run_records(db_file: str) -> list[dict]:
+    path = Path(db_file)
+    if not path.exists():
+        return []
+    records: list[dict] = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        try:
+            records.append(json.loads(line))
+        except json.JSONDecodeError:
+            continue
+    return records
+
+
+def append_run_record(db_file: str, record: dict) -> None:
+    """Insert or replace a record by run_id, preserving file order."""
+    records = load_run_records(db_file)
+    run_id = record.get("run_id")
+    replaced = False
+    for i, existing in enumerate(records):
+        if run_id and existing.get("run_id") == run_id:
+            records[i] = record
+            replaced = True
+            break
+    if not replaced:
+        records.append(record)
+    path = Path(db_file)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        "\n".join(json.dumps(r, sort_keys=True) for r in records) + "\n",
+        encoding="utf-8",
+    )
+
+
+def latest_by_date(records: list[dict]) -> dict[str, dict]:
+    """Pick the latest run per target date (max run_id sorts by time)."""
+    out: dict[str, dict] = {}
+    for rec in records:
+        date = rec.get("target_date")
+        if not date:
+            continue
+        cur = out.get(date)
+        if cur is None or (rec.get("run_id") or "") >= (cur.get("run_id") or ""):
+            out[date] = rec
+    return out
+
+
+# ---------------------------------------------------------------------------
+# Dashboard view
+# ---------------------------------------------------------------------------
+
+
+def _read_post(path: Path) -> str | None:
+    if not path.exists():
+        return None
+    return path.read_text(encoding="utf-8")
+
+
+def _day_from_record(rec: dict, en_post: str | None, fa_post: str | None, empty) -> dict:
+    tokens = rec.get("tokens", {}) or {}
+    total = tokens.get("total", {}) or {}
+    return {
+        "date": rec["target_date"],
+        "run_id": rec.get("run_id"),
+        "status": rec.get("status", "unknown"),
+        "failed_stages": rec.get("failed_stages", []),
+        "degraded_stages": rec.get("degraded_stages", []),
+        "en": en_post is not None,
+        "fa": fa_post is not None,
+        "posted_en": rec.get("posted_en", 0),
+        "posted_fa": rec.get("posted_fa", 0),
+        "posted": rec.get("posted", 0),
+        "links_en": rec.get("links_en", 0),
+        "links_fa": rec.get("links_fa", 0),
+        "links": rec.get("links", 0),
+        "processed": (rec.get("funnel", {}) or {}).get("fetched"),
+        "included": (rec.get("funnel", {}) or {}).get("included"),
+        "emails": rec.get("emails", {}),
+        "subscribers_en": rec.get("subscribers_en"),
+        "subscribers_fa": rec.get("subscribers_fa"),
+        "subscribers": rec.get("subscribers"),
+        "tokens": {
+            "input": total.get("input"),
+            "output": total.get("output"),
+            "thinking": total.get("thinking"),
+            "calls": total.get("calls"),
+        },
+        "empty": empty,
+    }
+
+
+def _day_from_posts(date_str: str, en_post, fa_post, ledger, empty) -> dict:
+    sent = ledger.get(date_str, {}) if isinstance(ledger, dict) else {}
+    posted_en = count_entries(en_post) if en_post else 0
+    posted_fa = count_entries(fa_post) if fa_post else 0
+    links_en = count_links(en_post) if en_post else 0
+    links_fa = count_links(fa_post) if fa_post else 0
+    return {
+        "date": date_str,
+        "run_id": None,
+        "status": "unknown",
+        "failed_stages": [],
+        "degraded_stages": [],
         "en": en_post is not None,
         "fa": fa_post is not None,
         "posted_en": posted_en,
@@ -131,20 +322,48 @@ def build_day_record(
         "links_en": links_en,
         "links_fa": links_fa,
         "links": links_en + links_fa,
-        "processed": meta.get("items_fetched") or fetch.get("total_items"),
-        "included": meta.get("items_included") or filtered.get("included"),
-        "emails": emails,
-        "subscribers_en": subs_en,
-        "subscribers_fa": subs_fa,
-        "subscribers": subs_total,
-        "models_used": meta.get("models_used") or [],
-        "duration_s": meta.get("total_duration_s"),
+        "processed": None,
+        "included": None,
+        "emails": {
+            lang: {
+                "sent": lang in sent,
+                "broadcast_id": (sent.get(lang) or {}).get("broadcast_id"),
+                "recipients": (sent.get(lang) or {}).get("recipients"),
+            }
+            for lang in ("en", "fa")
+        },
+        "subscribers_en": None,
+        "subscribers_fa": None,
+        "subscribers": None,
+        "tokens": {"input": None, "output": None, "thinking": None, "calls": None},
         "empty": empty,
     }
 
 
+def build_days(records: list[dict], en_dir: Path, fa_dir: Path, ledger: dict, empty_by_date: dict) -> list[dict]:
+    by_date = latest_by_date(records)
+    dates: set[str] = set(by_date)
+    for d in en_dir.glob("*-daily-brief.md"):
+        dates.add(d.name[:10])
+    for d in fa_dir.glob("*-daily-brief.md"):
+        dates.add(d.name[:10])
+    dates.update(ledger.keys())
+
+    days = []
+    for date_str in sorted(dates):
+        en_post = _read_post(en_dir / f"{date_str}-daily-brief.md")
+        fa_post = _read_post(fa_dir / f"{date_str}-daily-brief.md")
+        empty = empty_by_date.get(date_str)
+        rec = by_date.get(date_str)
+        if rec:
+            days.append(_day_from_record(rec, en_post, fa_post, empty))
+        else:
+            days.append(_day_from_posts(date_str, en_post, fa_post, ledger, empty))
+    return days
+
+
 def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
-    """Aggregate per-day records into dashboard totals."""
+    """Aggregate per-day records into dashboard totals and rates."""
     days = sorted(days, key=lambda d: d.get("date") or "")
     if not days:
         return {"generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
@@ -155,6 +374,14 @@ def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
 
     def _bool_count(key: str) -> int:
         return sum(1 for d in days if d.get(key))
+
+    def _token(key: str):
+        vals = [
+            (d.get("tokens") or {}).get(key)
+            for d in days
+            if (d.get("tokens") or {}).get(key) is not None
+        ]
+        return sum(vals) if vals else None
 
     subscribers = [d["subscribers"] for d in days if d.get("subscribers") is not None]
     deliveries_vals = [
@@ -186,12 +413,69 @@ def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
         "days_failed": sum(1 for d in days if d.get("status") == "failed"),
         "days_degraded": sum(1 for d in days if d.get("status") == "degraded"),
         "days_empty": sum(1 for d in days if d.get("empty")),
+        "tokens_input": _token("input"),
+        "tokens_output": _token("output"),
+        "tokens_thinking": _token("thinking"),
+        "llm_calls": _token("calls"),
     }
     totals["emails_total"] = totals["emails_en"] + totals["emails_fa"]
+    tin, tout, tthink = totals["tokens_input"], totals["tokens_output"], totals["tokens_thinking"]
+    totals["tokens_total"] = (
+        (tin or 0) + (tout or 0) + (tthink or 0) if (tin or tout or tthink) else None
+    )
+
     if joins:
         totals["subscribers_total_ever"] = joins.get("distinct_emails")
     else:
         totals["subscribers_total_ever"] = None
+
+    running = totals["days_running"] or 0
+
+    def _rate(total):
+        if total is None or running <= 0:
+            return {"per_day": None, "per_week": None, "per_month": None}
+        per_day = total / running
+        return {
+            "per_day": round(per_day, 1),
+            "per_week": round(per_day * 7, 1),
+            "per_month": round(per_day * 30.44, 1),
+        }
+
+    totals["rates"] = {
+        "posted": _rate(totals["posted"]),
+        "posted_en": _rate(totals["posted_en"]),
+        "posted_fa": _rate(totals["posted_fa"]),
+        "processed": _rate(totals["processed"]),
+        "included": _rate(totals["included"]),
+        "links": _rate(totals["links"]),
+        "emails": _rate(totals["emails_total"]),
+        "deliveries": _rate(totals["deliveries"]),
+        "tokens_input": _rate(totals["tokens_input"]),
+        "tokens_output": _rate(totals["tokens_output"]),
+        "tokens_thinking": _rate(totals["tokens_thinking"]),
+        "tokens_total": _rate(totals["tokens_total"]),
+    }
+
+    totals["entries_per_brief_en"] = (
+        round(totals["posted_en"] / totals["briefs_en"], 1) if totals["briefs_en"] else None
+    )
+    totals["entries_per_brief_fa"] = (
+        round(totals["posted_fa"] / totals["briefs_fa"], 1) if totals["briefs_fa"] else None
+    )
+
+    subs_pairs = [
+        (d["date"], d["subscribers"]) for d in days if d.get("subscribers") is not None
+    ]
+    if len(subs_pairs) >= 2:
+        span = _days_between(subs_pairs[0][0], subs_pairs[-1][0])
+        delta = subs_pairs[-1][1] - subs_pairs[0][1]
+        totals["subscribers_growth"] = {
+            "total": delta,
+            "per_week": round(delta / (span / 7), 1) if span > 0 else None,
+        }
+    else:
+        totals["subscribers_growth"] = None
+
     return totals
 
 
@@ -202,6 +486,17 @@ def _days_between(first: str, last: str) -> int:
         return (b - a).days + 1
     except (TypeError, ValueError):
         return 0
+
+
+def build_dashboard(records: list[dict], en_dir: Path, fa_dir: Path, ledger: dict, empty_by_date: dict, joins: dict | None, today_date: str | None) -> dict:
+    days = build_days(records, en_dir, fa_dir, ledger, empty_by_date)
+    totals = recompute_totals(days, joins)
+    by_date = latest_by_date(records)
+    if today_date and today_date in by_date:
+        today = by_date[today_date]
+    else:
+        today = by_date[max(by_date)] if by_date else None
+    return {"generated_at": totals["generated_at"], "today": today, "days": days, "totals": totals}
 
 
 # ---------------------------------------------------------------------------
@@ -234,14 +529,21 @@ def run_metrics(
         if isinstance(metrics_cfg, dict)
         else DEFAULT_DASHBOARD_FILE
     )
-    dashboard_path = Path(dashboard_file)
+    db_file = (
+        metrics_cfg.get("db_file", DEFAULT_DB_FILE)
+        if isinstance(metrics_cfg, dict)
+        else DEFAULT_DB_FILE
+    )
 
     site_dir = Path(config.publish.get("site_dir", "docs"))
+    en_dir = site_dir / "_posts"
+    fa_dir = site_dir / "_fa_posts"
     date_str = Path(run_dir).name[:10]
 
     run_meta = _load_json(Path(run_dir) / "run_meta.json", None)
-    en_post = _read_post(site_dir / "_posts" / f"{date_str}-daily-brief.md")
-    fa_post = _read_post(site_dir / "_fa_posts" / f"{date_str}-daily-brief.md")
+    en_post = _read_post(en_dir / f"{date_str}-daily-brief.md")
+    fa_post = _read_post(fa_dir / f"{date_str}-daily-brief.md")
+    audit = read_audit(run_dir)
 
     mailer_cfg = getattr(config, "mailer", None) or {}
     ledger_file = (
@@ -258,13 +560,12 @@ def run_metrics(
         else Path("data/empty_streak.json"),
         {},
     )
-    empty = None
-    for entry in reversed(streak.get("history", []) if isinstance(streak, dict) else []):
-        if entry.get("date") == date_str:
-            empty = bool(entry.get("empty"))
-            break
+    empty_by_date = {
+        h.get("date"): h.get("empty")
+        for h in (streak.get("history", []) if isinstance(streak, dict) else [])
+    }
 
-    # Best-effort live stats (today's run only).
+    # Best-effort live stats.
     api_key = os.environ.get("RESEND_API_KEY", "")
     subscribers: dict = {}
     if isinstance(mailer_cfg, dict):
@@ -273,24 +574,27 @@ def run_metrics(
     stats_url, stats_token = configured_subscribe_stats_url(config)
     joins = subscribe_joins(stats_url, stats_token)
 
-    dashboard = _load_json(dashboard_path, {"days": []})
-    days = [d for d in dashboard.get("days", []) if d.get("date") != date_str]
-    record = build_day_record(
+    record = build_run_record(
         date_str,
         run_meta=run_meta,
         en_post=en_post,
         fa_post=fa_post,
         ledger=ledger,
         subscribers=subscribers,
-        empty=empty,
+        audit=audit,
     )
-    days.append(record)
-    totals = recompute_totals(days, joins)
-    payload = {"totals": totals, "days": sorted(days, key=lambda d: d.get("date") or "")}
+    append_run_record(db_file, record)
 
+    records = load_run_records(db_file)
+    dashboard = build_dashboard(
+        records, en_dir, fa_dir, ledger, empty_by_date, joins, today_date=date_str
+    )
+    dashboard_path = Path(dashboard_file)
     dashboard_path.parent.mkdir(parents=True, exist_ok=True)
-    dashboard_path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
-    _git_commit_file(dashboard_file, f"Update dashboard metrics: {date_str}")
-    logger.info(f"Dashboard updated for {date_str}: status={record['status']}")
+    dashboard_path.write_text(json.dumps(dashboard, indent=2) + "\n", encoding="utf-8")
 
-    return {"status": "completed", "dashboard_file": dashboard_file, "day": record}
+    _git_commit_file(db_file, f"Record run metrics: {date_str}")
+    _git_commit_file(dashboard_file, f"Update dashboard: {date_str}")
+    logger.info(f"Metrics recorded for {date_str}: status={record['status']}")
+
+    return {"status": "completed", "db_file": db_file, "dashboard_file": dashboard_file, "run": record}

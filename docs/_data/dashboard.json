@@ -1,29 +1,6 @@
 {
-  "totals": {
-    "generated_at": "2026-10-05T22:38:36Z",
-    "first_date": "2026-02-26",
-    "last_date": "2026-10-05",
-    "days_recorded": 214,
-    "days_running": 222,
-    "briefs_en": 214,
-    "briefs_fa": 162,
-    "posted": 2266,
-    "posted_en": 1422,
-    "posted_fa": 844,
-    "links": 3258,
-    "processed": null,
-    "included": null,
-    "emails_en": 154,
-    "emails_fa": 11,
-    "deliveries": null,
-    "subscribers_current": null,
-    "subscribers_peak": null,
-    "days_failed": 0,
-    "days_degraded": 0,
-    "days_empty": 0,
-    "emails_total": 165,
-    "subscribers_total_ever": 7
-  },
+  "generated_at": "2026-10-05T22:51:14Z",
+  "today": null,
   "days": [
     {
       "date": "2026-02-26",
@@ -56,8 +33,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -91,8 +72,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -126,8 +111,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -161,8 +150,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -196,8 +189,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -231,8 +228,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -266,8 +267,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -301,8 +306,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -336,8 +345,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -371,8 +384,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -406,8 +423,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -441,8 +462,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -476,8 +501,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -511,8 +540,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -546,8 +579,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -581,8 +618,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -616,8 +657,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -651,8 +696,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -686,8 +735,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -721,8 +774,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -756,8 +813,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -791,8 +852,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -826,8 +891,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -861,8 +930,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -896,8 +969,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -931,8 +1008,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -966,8 +1047,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1001,8 +1086,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1036,8 +1125,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1071,8 +1164,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1106,8 +1203,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1141,8 +1242,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1176,8 +1281,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1211,8 +1320,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1246,8 +1359,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1281,8 +1398,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1316,8 +1437,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1351,8 +1476,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1386,8 +1515,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1421,8 +1554,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1456,8 +1593,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1491,8 +1632,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1526,8 +1671,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1561,8 +1710,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1596,8 +1749,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1631,8 +1788,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1666,8 +1827,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1701,8 +1866,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1736,8 +1905,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1771,8 +1944,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1806,8 +1983,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1841,8 +2022,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1876,8 +2061,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1911,8 +2100,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1946,8 +2139,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -1981,8 +2178,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2016,8 +2217,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2051,8 +2256,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2086,8 +2295,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2121,8 +2334,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2156,8 +2373,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2191,8 +2412,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2226,8 +2451,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2261,8 +2490,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2296,8 +2529,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2331,8 +2568,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2366,8 +2607,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2401,8 +2646,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2436,8 +2685,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2471,8 +2724,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2506,8 +2763,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2541,8 +2802,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2576,8 +2841,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2611,8 +2880,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2646,8 +2919,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2681,8 +2958,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2716,8 +2997,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2751,8 +3036,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2786,8 +3075,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2821,8 +3114,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2856,8 +3153,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2891,8 +3192,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2926,8 +3231,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2961,8 +3270,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -2996,8 +3309,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3031,8 +3348,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3066,8 +3387,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3101,8 +3426,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3136,8 +3465,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3171,8 +3504,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3206,8 +3543,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3241,8 +3582,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3276,8 +3621,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3311,8 +3660,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3346,8 +3699,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3381,8 +3738,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3416,8 +3777,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3451,8 +3816,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3486,8 +3855,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3521,8 +3894,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3556,8 +3933,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3591,8 +3972,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3626,8 +4011,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3661,8 +4050,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3696,8 +4089,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3731,8 +4128,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3766,8 +4167,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3801,8 +4206,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3836,8 +4245,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3871,8 +4284,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3906,8 +4323,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3941,8 +4362,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -3976,8 +4401,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4011,8 +4440,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4046,8 +4479,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4081,8 +4518,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4116,8 +4557,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4151,8 +4596,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4186,8 +4635,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4221,8 +4674,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4256,8 +4713,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4291,8 +4752,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4326,8 +4791,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4361,8 +4830,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4396,8 +4869,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4431,8 +4908,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4466,8 +4947,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4501,8 +4986,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4536,8 +5025,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4571,8 +5064,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4606,8 +5103,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4641,8 +5142,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4676,8 +5181,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4711,8 +5220,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4746,8 +5259,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4781,8 +5298,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4816,8 +5337,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4851,8 +5376,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4886,8 +5415,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4921,8 +5454,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4956,8 +5493,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -4991,8 +5532,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5026,8 +5571,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5061,8 +5610,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5096,8 +5649,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5131,8 +5688,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5166,8 +5727,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5201,8 +5766,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5236,8 +5805,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5271,8 +5844,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5306,8 +5883,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5341,8 +5922,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5376,8 +5961,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5411,8 +6000,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5446,8 +6039,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5481,8 +6078,51 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
+      "empty": null
+    },
+    {
+      "date": "2026-08-01",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": false,
+      "fa": false,
+      "posted_en": 0,
+      "posted_fa": 0,
+      "posted": 0,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": true,
+          "broadcast_id": "590ad777-2ff4-4749-9cf2-170b22d0a27b",
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5516,8 +6156,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5551,8 +6195,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5586,8 +6234,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5621,8 +6273,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5656,8 +6312,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5691,8 +6351,51 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
+      "empty": null
+    },
+    {
+      "date": "2026-08-08",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": false,
+      "fa": false,
+      "posted_en": 0,
+      "posted_fa": 0,
+      "posted": 0,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": true,
+          "broadcast_id": "dbea6584-e741-4a48-84c9-91114a533405",
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5726,8 +6429,51 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
+      "empty": null
+    },
+    {
+      "date": "2026-08-10",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": false,
+      "fa": false,
+      "posted_en": 0,
+      "posted_fa": 0,
+      "posted": 0,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": true,
+          "broadcast_id": "24a96c6d-2599-4624-8467-9b6a653de42d",
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5761,8 +6507,168 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
+      "empty": null
+    },
+    {
+      "date": "2026-08-12",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": false,
+      "fa": false,
+      "posted_en": 0,
+      "posted_fa": 0,
+      "posted": 0,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": true,
+          "broadcast_id": "202b5473-14d7-4620-8dfd-caecd57e4732",
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
+      "empty": null
+    },
+    {
+      "date": "2026-08-13",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": false,
+      "fa": false,
+      "posted_en": 0,
+      "posted_fa": 0,
+      "posted": 0,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": true,
+          "broadcast_id": "204e4452-02c3-4b6c-a9ab-024304c77f32",
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
+      "empty": null
+    },
+    {
+      "date": "2026-08-14",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": false,
+      "fa": false,
+      "posted_en": 0,
+      "posted_fa": 0,
+      "posted": 0,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": true,
+          "broadcast_id": "44cc7828-3862-4008-ad0c-e22e2b8385f5",
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
+      "empty": null
+    },
+    {
+      "date": "2026-08-15",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": false,
+      "fa": false,
+      "posted_en": 0,
+      "posted_fa": 0,
+      "posted": 0,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": null,
+      "included": null,
+      "emails": {
+        "en": {
+          "sent": true,
+          "broadcast_id": "62cb2e6f-1e40-4443-858a-7409e7256a74",
+          "recipients": null
+        },
+        "fa": {
+          "sent": false,
+          "broadcast_id": null,
+          "recipients": null
+        }
+      },
+      "subscribers_en": null,
+      "subscribers_fa": null,
+      "subscribers": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5796,8 +6702,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5831,8 +6741,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5866,8 +6780,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5901,8 +6819,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5936,8 +6858,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -5971,8 +6897,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -6006,8 +6936,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -6041,8 +6975,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -6076,8 +7014,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -6111,8 +7053,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -6146,8 +7092,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -6181,8 +7131,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -6216,8 +7170,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -6251,8 +7209,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -6286,8 +7248,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -6321,8 +7287,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": null
     },
     {
@@ -6356,8 +7326,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6391,8 +7365,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6426,8 +7404,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6461,8 +7443,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6496,8 +7482,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6531,8 +7521,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6566,8 +7560,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6601,8 +7599,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6636,8 +7638,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6671,8 +7677,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6706,8 +7716,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6741,8 +7755,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6776,8 +7794,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6811,8 +7833,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6846,8 +7872,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6881,8 +7911,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6916,8 +7950,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6951,8 +7989,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -6986,8 +8028,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7021,8 +8067,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7056,8 +8106,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7091,8 +8145,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7126,8 +8184,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7161,8 +8223,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7196,8 +8262,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7231,8 +8301,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7266,8 +8340,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7301,8 +8379,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7336,8 +8418,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7371,8 +8457,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7406,8 +8496,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7441,8 +8535,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7476,8 +8574,12 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     },
     {
@@ -7511,9 +8613,108 @@
       "subscribers_en": null,
       "subscribers_fa": null,
       "subscribers": null,
-      "models_used": [],
-      "duration_s": null,
+      "tokens": {
+        "input": null,
+        "output": null,
+        "thinking": null,
+        "calls": null
+      },
       "empty": false
     }
-  ]
+  ],
+  "totals": {
+    "generated_at": "2026-10-05T22:51:14Z",
+    "first_date": "2026-02-26",
+    "last_date": "2026-10-05",
+    "days_recorded": 221,
+    "days_running": 222,
+    "briefs_en": 214,
+    "briefs_fa": 162,
+    "posted": 2266,
+    "posted_en": 1422,
+    "posted_fa": 844,
+    "links": 3258,
+    "processed": null,
+    "included": null,
+    "emails_en": 161,
+    "emails_fa": 11,
+    "deliveries": null,
+    "subscribers_current": null,
+    "subscribers_peak": null,
+    "days_failed": 0,
+    "days_degraded": 0,
+    "days_empty": 0,
+    "tokens_input": null,
+    "tokens_output": null,
+    "tokens_thinking": null,
+    "llm_calls": null,
+    "emails_total": 172,
+    "tokens_total": null,
+    "subscribers_total_ever": 7,
+    "rates": {
+      "posted": {
+        "per_day": 10.2,
+        "per_week": 71.5,
+        "per_month": 310.7
+      },
+      "posted_en": {
+        "per_day": 6.4,
+        "per_week": 44.8,
+        "per_month": 195.0
+      },
+      "posted_fa": {
+        "per_day": 3.8,
+        "per_week": 26.6,
+        "per_month": 115.7
+      },
+      "processed": {
+        "per_day": null,
+        "per_week": null,
+        "per_month": null
+      },
+      "included": {
+        "per_day": null,
+        "per_week": null,
+        "per_month": null
+      },
+      "links": {
+        "per_day": 14.7,
+        "per_week": 102.7,
+        "per_month": 446.7
+      },
+      "emails": {
+        "per_day": 0.8,
+        "per_week": 5.4,
+        "per_month": 23.6
+      },
+      "deliveries": {
+        "per_day": null,
+        "per_week": null,
+        "per_month": null
+      },
+      "tokens_input": {
+        "per_day": null,
+        "per_week": null,
+        "per_month": null
+      },
+      "tokens_output": {
+        "per_day": null,
+        "per_week": null,
+        "per_month": null
+      },
+      "tokens_thinking": {
+        "per_day": null,
+        "per_week": null,
+        "per_month": null
+      },
+      "tokens_total": {
+        "per_day": null,
+        "per_week": null,
+        "per_month": null
+      }
+    },
+    "entries_per_brief_en": 6.6,
+    "entries_per_brief_fa": 5.2,
+    "subscribers_growth": null
+  }
 }

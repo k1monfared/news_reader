@@ -1,9 +1,9 @@
-"""Seed ``docs/_data/dashboard.json`` from committed history.
+"""Rebuild ``docs/_data/dashboard.json`` from committed history and the run DB.
 
-Scans ``docs/_posts`` and ``docs/_fa_posts``, the broadcast ledger, and the
-empty-streak history, and writes a dashboard data file covering every date
-that has at least one post. No network calls: historical subscriber counts and
-processed-link counts are left null.
+Reads ``data/run_metrics.jsonl`` (real runs), plus the posts, broadcast ledger,
+and empty-streak history, and writes the dashboard view. No network calls:
+historical subscriber counts and processed-link counts stay null, and the
+existing total-ever subscriber count is preserved.
 
 Usage:
   python scripts/backfill_metrics.py
@@ -19,13 +19,12 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from models import load_config
-from stages.metrics import DEFAULT_DASHBOARD_FILE, build_day_record, recompute_totals
-
-
-def _dates(posts_dir: Path) -> set[str]:
-    if not posts_dir.is_dir():
-        return set()
-    return {p.name[:10] for p in posts_dir.glob("*-daily-brief.md")}
+from stages.metrics import (
+    DEFAULT_DASHBOARD_FILE,
+    DEFAULT_DB_FILE,
+    build_dashboard,
+    load_run_records,
+)
 
 
 def main() -> int:
@@ -37,10 +36,10 @@ def main() -> int:
     site_dir = Path(config.publish.get("site_dir", "docs"))
     metrics_cfg = config.metrics or {}
     dashboard_file = metrics_cfg.get("dashboard_file", DEFAULT_DASHBOARD_FILE)
+    db_file = metrics_cfg.get("db_file", DEFAULT_DB_FILE)
 
     en_dir = site_dir / "_posts"
     fa_dir = site_dir / "_fa_posts"
-    dates = sorted(_dates(en_dir) | _dates(fa_dir))
 
     ledger_file = (config.mailer or {}).get(
         "sent_state_file", "data/sent_broadcasts.json"
@@ -62,26 +61,13 @@ def main() -> int:
         h.get("date"): h.get("empty") for h in streak.get("history", [])
     }
 
-    days = []
-    for date_str in dates:
-        en_path = en_dir / f"{date_str}-daily-brief.md"
-        fa_path = fa_dir / f"{date_str}-daily-brief.md"
-        days.append(
-            build_day_record(
-                date_str,
-                run_meta=None,
-                en_post=en_path.read_text(encoding="utf-8") if en_path.exists() else None,
-                fa_post=fa_path.read_text(encoding="utf-8") if fa_path.exists() else None,
-                ledger=ledger,
-                subscribers=None,
-                empty=empty_by_date.get(date_str),
-            )
-        )
+    records = load_run_records(db_file)
+    payload = build_dashboard(
+        records, en_dir, fa_dir, ledger, empty_by_date, joins=None, today_date=None
+    )
 
-    payload_days = days
+    # Preserve the live total-ever subscriber count (no network here).
     out = Path(dashboard_file)
-    # Preserve the live total-ever subscriber count (this script has no network
-    # and cannot recompute it); it is refreshed by the metrics stage each run.
     prior_total_ever = None
     if out.exists():
         try:
@@ -92,15 +78,12 @@ def main() -> int:
             )
         except (OSError, json.JSONDecodeError):
             prior_total_ever = None
-
-    totals = recompute_totals(payload_days, None)
     if prior_total_ever is not None:
-        totals["subscribers_total_ever"] = prior_total_ever
+        payload["totals"]["subscribers_total_ever"] = prior_total_ever
 
-    payload = {"totals": totals, "days": payload_days}
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {out} with {len(days)} day(s)")
+    print(f"Wrote {out}: {len(payload['days'])} day(s), {len(records)} run record(s)")
     return 0
 
 

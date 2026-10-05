@@ -10,9 +10,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import stages.metrics as metrics_module
 from stages.metrics import (
+    append_run_record,
+    build_run_record,
     count_entries,
     count_links,
     day_status,
+    latest_by_date,
+    load_run_records,
+    read_audit,
     recompute_totals,
     run_metrics,
 )
@@ -100,6 +105,18 @@ class TestTotals:
         days = [self._day("2026-09-01"), self._day("2026-09-10")]
         assert recompute_totals(days, None)["days_running"] == 10
 
+    def test_rates(self):
+        days = [self._day("2026-10-01", posted=2), self._day("2026-10-02", posted=4)]
+        totals = recompute_totals(days, None)
+        assert totals["rates"]["posted"]["per_day"] == 3.0
+        assert totals["rates"]["posted"]["per_week"] == 21.0
+        assert totals["rates"]["posted"]["per_month"] == round(3.0 * 30.44, 1)
+        assert totals["rates"]["processed"]["per_day"] is None
+
+    def test_entries_per_brief(self):
+        totals = recompute_totals([self._day("2026-10-01", posted=2)], None)
+        assert totals["entries_per_brief_en"] == 2.0
+
 
 class TestRunMetrics:
     def _setup(self, tmp_path, sample_config):
@@ -132,6 +149,7 @@ class TestRunMetrics:
         config.mailer["sent_state_file"] = str(ledger)
         config.empty_brief["state_file"] = str(streak)
         config.metrics["dashboard_file"] = str(tmp_path / "dashboard.json")
+        config.metrics["db_file"] = str(tmp_path / "run_metrics.jsonl")
         return date, run_dir, config
 
     def test_writes_dashboard(self, tmp_path, monkeypatch, sample_config):
@@ -169,3 +187,83 @@ class TestRunMetrics:
         _, run_dir, config = self._setup(tmp_path, sample_config)
         config.metrics["enabled"] = False
         assert run_metrics(str(run_dir), config, None, None) == {"status": "skipped"}
+
+
+class TestAuditTokens:
+    def test_aggregates_by_stage(self, tmp_path):
+        run_dir = tmp_path / "run"
+        (run_dir / "audit").mkdir(parents=True)
+        lines = [
+            {"stage": "filter", "tokens_in": 100, "tokens_out": 20, "tokens_thinking": 5, "model": "m1"},
+            {"stage": "filter", "tokens_in": 50, "tokens_out": 10, "tokens_thinking": 0, "model": "m1"},
+            {"stage": "summarize", "tokens_in": 200, "tokens_out": 80, "model": "m2"},
+        ]
+        (run_dir / "audit" / "llm_calls.jsonl").write_text(
+            "\n".join(json.dumps(x) for x in lines) + "\n"
+        )
+        audit = read_audit(str(run_dir))
+        assert audit["by_stage"]["filter"] == {"input": 150, "output": 30, "thinking": 5, "calls": 2}
+        assert audit["total"] == {"input": 350, "output": 110, "thinking": 5, "calls": 3}
+        assert set(audit["models"]) == {"m1", "m2"}
+
+    def test_missing_file(self, tmp_path):
+        assert read_audit(str(tmp_path / "run"))["total"]["calls"] == 0
+
+
+class TestRunRecord:
+    def test_builds_funnel_and_tokens(self):
+        meta = {
+            "run_id": "2026-10-06-090000",
+            "items_fetched": 292,
+            "items_included": 33,
+            "total_duration_s": 120.0,
+            "stages": {
+                "fetch": {"status": "completed", "duration_s": 10},
+                "summarize": {"status": "completed", "duration_s": 5},
+                "publish": {"status": "failed", "error": "boom"},
+            },
+        }
+        audit = {"by_stage": {"summarize": {"input": 1, "output": 2, "thinking": 0, "calls": 1}},
+                 "models": ["m"], "total": {"input": 1, "output": 2, "thinking": 0, "calls": 1}}
+        rec = build_run_record(
+            "2026-10-06", run_meta=meta, en_post=POST, fa_post=None,
+            ledger={}, subscribers={"en": 10, "fa": 5}, audit=audit,
+        )
+        assert rec["status"] == "failed"
+        assert rec["funnel"]["fetched"] == 292
+        assert rec["funnel"]["included"] == 33
+        assert rec["posted_en"] == 2
+        assert rec["subscribers"] == 15
+        assert rec["tokens"]["total"]["input"] == 1
+        assert [s["name"] for s in rec["stages"]] == ["fetch", "summarize", "publish"]
+
+
+class TestRunDb:
+    def test_append_and_replace_by_run_id(self, tmp_path):
+        db = str(tmp_path / "run_metrics.jsonl")
+        append_run_record(db, {"run_id": "r1", "target_date": "2026-10-01", "posted": 1})
+        append_run_record(db, {"run_id": "r2", "target_date": "2026-10-02", "posted": 2})
+        append_run_record(db, {"run_id": "r1", "target_date": "2026-10-01", "posted": 9})
+        records = load_run_records(db)
+        assert len(records) == 2
+        assert next(r for r in records if r["run_id"] == "r1")["posted"] == 9
+
+    def test_latest_by_date(self):
+        records = [
+            {"run_id": "2026-10-01-080000", "target_date": "2026-10-01"},
+            {"run_id": "2026-10-01-200000", "target_date": "2026-10-01"},
+        ]
+        latest = latest_by_date(records)
+        assert latest["2026-10-01"]["run_id"] == "2026-10-01-200000"
+
+    def test_token_totals_in_recompute(self):
+        days = [
+            {"date": "2026-10-01", "posted": 1, "posted_en": 1, "posted_fa": 0, "links": 1,
+             "en": True, "fa": False, "emails": {}, "subscribers": None, "status": "success",
+             "empty": False, "processed": None, "included": None,
+             "tokens": {"input": 100, "output": 20, "thinking": 5, "calls": 2}},
+        ]
+        totals = recompute_totals(days, None)
+        assert totals["tokens_input"] == 100
+        assert totals["tokens_total"] == 125
+        assert totals["rates"]["tokens_total"]["per_day"] == 125.0

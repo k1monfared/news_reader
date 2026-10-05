@@ -165,6 +165,8 @@ class AuditedLLMClient:
         self._cumulative_cost = 0.0
         self._total_input_tokens = 0
         self._total_output_tokens = 0
+        self._total_thinking_tokens = 0
+        self._tokens_by_stage: dict[str, dict[str, int]] = {}
         self._prompt_versions_used: dict[str, int] = {}
 
         # Build audit directory structure
@@ -317,7 +319,7 @@ class AuditedLLMClient:
         }
         attempts: list[dict] = []
         response_text = ""
-        tokens_in = tokens_out = 0
+        tokens_in = tokens_out = tokens_thinking = 0
         stop_reason: str | None = None
         served_model: str | None = None
         for entry_base, chain_model in chain:
@@ -326,6 +328,7 @@ class AuditedLLMClient:
                     response_text,
                     tokens_in,
                     tokens_out,
+                    tokens_thinking,
                     stop_reason,
                 ) = self._complete(
                     entry_base, chain_model, system, user_message, max_tokens, headers
@@ -382,6 +385,14 @@ class AuditedLLMClient:
         self._cumulative_cost += call_cost
         self._total_input_tokens += tokens_in
         self._total_output_tokens += tokens_out
+        self._total_thinking_tokens += tokens_thinking
+        stage_usage = self._tokens_by_stage.setdefault(
+            stage, {"input": 0, "output": 0, "thinking": 0, "calls": 0}
+        )
+        stage_usage["input"] += tokens_in
+        stage_usage["output"] += tokens_out
+        stage_usage["thinking"] += tokens_thinking
+        stage_usage["calls"] += 1
 
         # Append summary line to JSONL
         timestamp = datetime.now(timezone.utc).isoformat()
@@ -394,6 +405,7 @@ class AuditedLLMClient:
             "output_hash": output_hash,
             "tokens_in": tokens_in,
             "tokens_out": tokens_out,
+            "tokens_thinking": tokens_thinking,
             "duration_s": duration_s,
             "timestamp": timestamp,
             "model": served_model,
@@ -420,7 +432,7 @@ class AuditedLLMClient:
         user_message: str,
         max_tokens: int,
         headers: dict,
-    ) -> tuple[str, int, int, str | None]:
+    ) -> tuple[str, int, int, int, str | None]:
         """POST to the OpenCode Zen chat completions endpoint with retries
         for a single model.
 
@@ -433,7 +445,10 @@ class AuditedLLMClient:
         401/402/403/404) raise ``ModelUnavailableError`` immediately so the
         caller can fail over.
 
-        Returns ``(response_text, tokens_in, tokens_out, stop_reason)``.
+        Returns ``(response_text, tokens_in, tokens_out, tokens_thinking,
+        stop_reason)``. Thinking tokens come from
+        ``usage.completion_tokens_details.reasoning_tokens`` when the provider
+        reports them, else 0.
         """
         payload = {
             "model": model,
@@ -517,10 +532,17 @@ class AuditedLLMClient:
                                     break
                             else:
                                 usage = data.get("usage", {}) if isinstance(data.get("usage"), dict) else {}
+                                details = usage.get("completion_tokens_details")
+                                thinking = (
+                                    details.get("reasoning_tokens", 0)
+                                    if isinstance(details, dict)
+                                    else 0
+                                )
                                 return (
                                     content,
                                     usage.get("prompt_tokens", 0),
                                     usage.get("completion_tokens", 0),
+                                    thinking,
                                     first.get("finish_reason"),
                                 )
             if attempt < self._max_attempts - 1:
@@ -541,7 +563,13 @@ class AuditedLLMClient:
         return {
             "input": self._total_input_tokens,
             "output": self._total_output_tokens,
+            "thinking": self._total_thinking_tokens,
         }
+
+    @property
+    def token_usage_by_stage(self) -> dict[str, dict[str, int]]:
+        """Per-stage cumulative token counts and call counts for this run."""
+        return {stage: dict(usage) for stage, usage in self._tokens_by_stage.items()}
 
     @property
     def prompt_versions_used(self) -> dict[str, int]:
