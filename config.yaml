@@ -115,14 +115,22 @@ sources:
 # `default` drives the English pipeline stages, `translate_fa` overrides the
 # Farsi translation/bias-sync stages (falls back to `default` when unset).
 # When a model fails at runtime (rate limited, provider outage, or empty
-# responses), `fallbacks` are tried in order. Go catalog, verified 2026-09-16:
-# deepseek-v4-flash answers on /chat/completions with a session header;
-# Zen free-tier ids are delisted or session-gated from CI, so they are out.
+# responses), `fallbacks` are tried in order. Free models come first so the
+# paid Go balance is not spent when a free model answers; the paid deepseek
+# ids sit behind them so a free-model delisting or outage still ships a brief.
+# The free ids are Go-catalog models (unlimited, limited-time offers). Zen
+# free-tier ids remain session-gated from CI and are intentionally absent.
 models:
-  default: deepseek-v4-flash
-  translate_fa: deepseek-v4-flash
+  default: longcat-2.5-preview-free
+  translate_fa: longcat-2.5-preview-free
   fallbacks:
+    - space-bunny-free
+    - deepseek-v4-flash
     - deepseek-v4-pro
+  # Probe-verified free models, refreshed by scripts/select_models.py via the
+  # Select Free Models workflow. When present, these are tried before the
+  # static chain above, each on its own catalog base.
+  selected_models_file: models.json
 
 # ---------------------------------------------------------------------------
 # Dynamic Buckets

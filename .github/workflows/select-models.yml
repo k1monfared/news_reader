@@ -1,0 +1,53 @@
+name: Select Free Models
+
+# Discover + probe the free models on the Zen and Go catalogs, then commit the
+# ones that answered on the chat/completions route to models.json. The daily
+# pipeline's AuditedLLMClient reads models.json and tries those models first.
+on:
+  workflow_dispatch:
+  schedule:
+    # Weekly, Sunday 06:17 UTC, ahead of the daily run.
+    - cron: '17 6 * * 0'
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  select:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Select free models
+        env:
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          OPENCODE_SESSION_ID: news-reader-select-${{ github.run_id }}
+        run: python scripts/select_models.py --out models.json
+
+      - name: Commit selected models
+        if: always()
+        run: |
+          if [ ! -f models.json ]; then
+            echo "models.json not written; nothing to commit"
+            exit 0
+          fi
+          git add models.json
+          if git diff --cached --quiet; then
+            echo "models.json unchanged"
+            exit 0
+          fi
+          git commit -m "Update selected free models"
+          git push origin master

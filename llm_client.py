@@ -11,10 +11,14 @@ request carries a stable per-run x-opencode-session header as required by Go.
 
 Runtime failover: each call resolves a chain of models from config
 (``models.default`` / ``models.translate_fa`` primary plus ``models.fallbacks``).
-Transient errors (429 rate limits, 5xx, network failures, empty responses)
-are retried per model; permanent provider errors (e.g. 400 "Model is
-unavailable") skip to the next model immediately. The winning model and any
-failed-over attempts are recorded in the audit trail.
+When ``models.selected_models_file`` is set, probe-verified free models from
+that file (written by ``scripts/select_models.py``) are tried first, each on
+its own catalog base, so a paid-account outage falls through to a model that
+is not billed. Transient errors (429 rate limits, 5xx, network failures, empty
+responses) are retried per model; permanent provider errors (400 "Model is
+unavailable", 402 account funds exhausted) skip to the next model immediately.
+The winning model and any failed-over attempts are recorded in the audit
+trail.
 
 Env vars:
     OPENCODE_API_KEY       required; OpenCode Zen / OpenCode Go API key
@@ -138,6 +142,12 @@ class AuditedLLMClient:
         self._max_attempts = int(config.get("llm_retry_attempts", 3))
         self._fallbacks: list[str] = list((models_cfg or {}).get("fallbacks", []))
         self._primary_default: str = (models_cfg or {}).get("default", "")
+        # Probe-verified free models written by scripts/select_models.py.
+        # When the key is absent (as in most tests) the static chain is used.
+        self._selected_file: str = (models_cfg or {}).get(
+            "selected_models_file", ""
+        )
+        self._selected_models: list[tuple[str, str]] = self._load_selected_models()
 
         self._cumulative_cost = 0.0
         self._total_input_tokens = 0
@@ -154,6 +164,42 @@ class AuditedLLMClient:
         self._outputs_dir.mkdir(parents=True, exist_ok=True)
         # Touch the JSONL file so it exists from the start
         self._calls_file.touch(exist_ok=True)
+
+    def _load_selected_models(self) -> list[tuple[str, str]]:
+        """Load free models selected by ``scripts/select_models.py``.
+
+        Returns ``(base_url, model_id)`` pairs to try before the static
+        config chain. A missing or malformed file is ignored so the static
+        chain always remains a working fallback.
+        """
+        if not self._selected_file:
+            return []
+        path = Path(self._selected_file)
+        if not path.exists():
+            return []
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            logger.warning(
+                f"Could not read selected models file {self._selected_file}; "
+                "using the static config chain"
+            )
+            return []
+        entries: list[tuple[str, str]] = []
+        for item in data.get("selected", []) if isinstance(data, dict) else []:
+            if not isinstance(item, dict):
+                continue
+            model_id = item.get("id")
+            if not model_id:
+                continue
+            base = (item.get("base_url") or self._base_url).rstrip("/")
+            entries.append((base, model_id))
+        if entries:
+            logger.info(
+                f"Selected models from {self._selected_file}: "
+                + ", ".join(f"{model}@{base}" for base, model in entries)
+            )
+        return entries
 
     # ------------------------------------------------------------------
     # Public API
@@ -209,16 +255,31 @@ class AuditedLLMClient:
                 f">= cap ${self._max_cost:.2f}"
             )
 
-        # Save full input payload (chain primary recorded as requested model)
+        # Save full input payload. The failover chain starts with the
+        # probe-verified free models (each on its own catalog base), then the
+        # static config primary and fallbacks on the default base. Dedup by
+        # (base, model) so the primary is never tried twice.
         primary = model or self._primary_default
-        chain = [primary] + [m for m in self._fallbacks if m != primary]
+        raw_chain: list[tuple[str, str]] = list(self._selected_models)
+        raw_chain.append((self._base_url, primary))
+        raw_chain.extend((self._base_url, m) for m in self._fallbacks)
+
+        chain: list[tuple[str, str]] = []
+        seen: set[tuple[str, str]] = set()
+        for entry in raw_chain:
+            if not entry[1] or entry in seen:
+                continue
+            seen.add(entry)
+            chain.append(entry)
+
         input_payload = {
             "call_id": call_id,
             "stage": stage,
             "prompt_name": prompt_name,
             "prompt_version": prompt_version,
-            "model": chain[0],
-            "failover_chain": chain,
+            "model": chain[0][1],
+            "failover_chain": [m for _, m in chain],
+            "failover_bases": [b for b, _ in chain],
             "max_tokens": max_tokens,
             "system": system,
             "user_message": user_message,
@@ -241,27 +302,33 @@ class AuditedLLMClient:
         tokens_in = tokens_out = 0
         stop_reason: str | None = None
         served_model: str | None = None
-        for chain_model in chain:
+        for entry_base, chain_model in chain:
             try:
                 (
                     response_text,
                     tokens_in,
                     tokens_out,
                     stop_reason,
-                ) = self._complete(chain_model, system, user_message, max_tokens, headers)
+                ) = self._complete(
+                    entry_base, chain_model, system, user_message, max_tokens, headers
+                )
                 served_model = chain_model
                 break
             except ModelUnavailableError as e:
-                attempts.append({"model": chain_model, "error": str(e)})
+                attempts.append(
+                    {"model": chain_model, "base_url": entry_base, "error": str(e)}
+                )
                 logger.warning(
-                    f"Stage {stage}: model {chain_model} is unavailable, "
-                    f"failing over to next model"
+                    f"Stage {stage}: model {chain_model} ({entry_base}) is "
+                    f"unavailable, failing over to next model"
                 )
             except RuntimeError as e:
-                attempts.append({"model": chain_model, "error": str(e)})
+                attempts.append(
+                    {"model": chain_model, "base_url": entry_base, "error": str(e)}
+                )
                 logger.warning(
-                    f"Stage {stage}: model {chain_model} exhausted retries, "
-                    f"failing over to next model: {e}"
+                    f"Stage {stage}: model {chain_model} ({entry_base}) "
+                    f"exhausted retries, failing over to next model: {e}"
                 )
         if served_model is None:
             raise RuntimeError(
@@ -329,6 +396,7 @@ class AuditedLLMClient:
 
     def _complete(
         self,
+        base_url: str,
         model: str,
         system: str,
         user_message: str,
@@ -362,7 +430,7 @@ class AuditedLLMClient:
                     timeout=httpx.Timeout(600.0, connect=10.0)
                 ) as client:
                     response = client.post(
-                        f"{self._base_url}/chat/completions",
+                        f"{base_url}/chat/completions",
                         headers=headers,
                         json=payload,
                     )
@@ -373,6 +441,15 @@ class AuditedLLMClient:
                     last_error = RuntimeError(
                         f"OpenCode Zen API error {response.status_code} "
                         f"from {model}: {response.text[:200]}"
+                    )
+                elif response.status_code == 402:
+                    # Account-level "insufficient funds": the whole paid
+                    # account is out of credit, so retrying the same provider
+                    # is pointless. Fail over immediately; a free model later
+                    # in the chain can still answer (it is not billed).
+                    raise ModelUnavailableError(
+                        f"Model {model} rejected the request (402, account "
+                        f"funds exhausted); failing over: {response.text[:300]}"
                     )
                 elif response.status_code != 200:
                     raise ModelUnavailableError(

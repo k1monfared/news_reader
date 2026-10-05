@@ -1,8 +1,27 @@
 - Project Status
-    - Last Updated: 2026-09-16
+    - Last Updated: 2026-10-05
     - Development Mode: Claude Code
     - Stage: MVP
-    - Next Milestone: Confirm green CI run with render_check in the stage chain
+    - Next Milestone: Confirm a green CI run with the free-model-first chain and the failure notifier
+
+- Failure Regression Tests and Failure Notifications (2026-10-05)
+    - Added tests/test_regressions.py locking in past incident fixes and the new automations: account-funds 402, malformed LLM bodies, Farsi autoclose, foreign-script leakage, degraded editorial, summarize propagation, empty brief and streak notifications
+    - Added tests/test_failure_notice.py for the post-failure summary logic
+    - Account-level 402: free Go models now sit first in models.default and models.fallbacks (longcat-2.5-preview-free, space-bunny-free) with deepseek-v4-flash/pro behind them; a 402 fails over immediately so a paid-account outage still ships a brief
+    - translate_fa: on a render-check rejection it now retries once with a correction prompt, then autocloses unclosed details/summary tags, then fails if still structurally broken
+    - Reasoning-leak guard now flags stray Cyrillic/CJK/Hangul scripts in addition to the latin-ratio and length heuristics
+    - scripts/failure_notice.py reads the newest run_meta.json plus a teed pipeline.log, writes a summary to the GitHub job summary, emits an ::error:: annotation, and emails the owner via Resend
+    - daily-brief.yml tees pipeline output to pipeline.log under pipefail and runs the notifier on failure so the failure email carries the log summary
+    - Test suite now 105 passing (was 83)
+    - Note: the free Go models are limited-time offers and were not probed from CI in this change; run the Select Free Models workflow before relying on them
+
+- Automated Free-Model Selection Loop (2026-10-05)
+    - Closes the gap: previously the Phase 0 probe could list and test free models but nothing consumed the result, and the static free chain was removed when the pipeline switched to the Go catalog
+    - scripts/select_models.py probes both the Go and Zen catalogs, keeps the free models that answer on the chat/completions route the pipeline uses, and writes models.json with a base URL per model
+    - llm_client now reads models.selected_models_file (models.json) and tries those probe-verified free models first, switching base per entry so one selection can span both catalogs; a missing or malformed file falls back to the static config chain
+    - .github/workflows/select-models.yml runs the selector weekly and on demand, then commits models.json; it preserves an existing selection when a catalog is unreachable or the key is rejected
+    - config.yaml models gains selected_models_file: models.json
+    - Tests: tests/test_select_models.py covers selection filtering, seeding, the preserve-on-key-rejection guard, and runtime base switching; suite now 117 passing
 
 - Render Checks and Backfill Labels (2026-09-16)
     - Fixed rendering errors on six posts (EN and FA for Sep 8, 9, 14): bare <details>/<summary> tags collapsed the whole brief into the toggle label and leaked literal </summary>/</details> text

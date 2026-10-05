@@ -19,7 +19,6 @@ import json
 import logging
 import re
 import subprocess
-from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import jdatetime
@@ -52,6 +51,18 @@ REASONING_MARKERS = (
     "check for any missed",
     "return only the translated",
 )
+
+# Scripts that never belong in a Farsi brief (Arabic script plus Latin for
+# URLs and untranslated names). A model answering in the wrong language or
+# leaking reasoning often shows up as stray Cyrillic/CJK/Hangul text.
+FOREIGN_SCRIPT_RANGES = {
+    "Cyrillic": (0x0400, 0x04FF),
+    "CJK": (0x4E00, 0x9FFF),
+    "Hangul": (0xAC00, 0xD7AF),
+}
+FOREIGN_SCRIPT_MIN_CHARS = 3
+
+UNCLOSED_TAGS_RE = re.compile(r"unclosed tag\(s\):\s*(.+)$")
 
 
 PERSIAN_DIGITS = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
@@ -141,6 +152,11 @@ def _reasoning_leak_issues(fa_body: str, en_body: str) -> list[str]:
             f"latin-letter ratio {latin / non_space:.2f} suggests untranslated text"
         )
 
+    for name, (lo, hi) in FOREIGN_SCRIPT_RANGES.items():
+        count = sum(1 for ch in fa_body if lo <= ord(ch) <= hi)
+        if count >= FOREIGN_SCRIPT_MIN_CHARS:
+            issues.append(f"stray {name} script ({count} chars) in Farsi body")
+
     if en_body and len(en_body) > 300 and len(fa_body) > 2.5 * len(en_body):
         issues.append(
             f"Farsi body is {len(fa_body) / len(en_body):.1f}x the English body"
@@ -148,11 +164,54 @@ def _reasoning_leak_issues(fa_body: str, en_body: str) -> list[str]:
     return issues
 
 
+def _autoclose_unclosed_tags(body: str, issues: list[str]) -> tuple[str, list[str]]:
+    """Close details/summary tags left open by a truncated translation.
+
+    Only attempted when the sole structural problem is unclosed tags; any
+    other damage (an unbalanced closing tag, escaped entities) is left for
+    the caller to reject. Kramdown mis-renders a bare unclosed
+    ``<details>``/``<summary>`` (the brief collapses into the toggle label),
+    so appending the missing closers turns the worst case into a renderable
+    page instead of failing the whole Farsi edition.
+    """
+    tags: list[str] = []
+    for issue in issues:
+        match = UNCLOSED_TAGS_RE.search(issue)
+        if match:
+            tags = [t.strip() for t in match.group(1).split(",") if t.strip()]
+            break
+    if not tags:
+        return body, []
+    closers = "\n".join(f"</{tag}>" for tag in reversed(tags))
+    fixed = body.rstrip() + "\n" + closers + "\n"
+    return fixed, [f"autoclosed unclosed tag(s): {', '.join(tags)}"]
+
+
+def _validate_fa_body(
+    fa_body: str, en_body: str, *, allow_autoclose: bool
+) -> tuple[str, list[str], list[str]]:
+    """Run the render check and reasoning-leak guard on a Farsi body.
+
+    Returns ``(body, repairs, blocking_issues)``. When ``allow_autoclose`` is
+    set, a body whose only structural problem is unclosed tags is closed and
+    re-checked.
+    """
+    body, repairs, issues = check_and_repair(fa_body)
+    if allow_autoclose and issues and all("unclosed tag" in i for i in issues):
+        body, ac_repairs = _autoclose_unclosed_tags(body, issues)
+        repairs.extend(ac_repairs)
+        body, more_repairs, issues = check_and_repair(body)
+        repairs.extend(more_repairs)
+    blocking = issues + _reasoning_leak_issues(body, en_body)
+    return body, repairs, blocking
+
+
 def _translate_brief(
     body_markdown: str,
     category_translations: dict[str, str],
     llm_client: AuditedLLMClient,
     config: PipelineConfig,
+    correction: str | None = None,
 ) -> str:
     template = load_prompt("translate_brief_fa", config.paths.get("prompts_dir", "prompts"))
     dictionary = "\n".join(
@@ -162,6 +221,8 @@ def _translate_brief(
         category_dictionary=dictionary or "(none)",
         brief_markdown=body_markdown,
     )
+    if correction:
+        user_msg = f"{user_msg}\n\n{correction}"
     model = config.models.get("translate_fa") or config.models.get(
         "default", ""
     )
@@ -355,20 +416,45 @@ def run_translate_fa(
     raw_post = en_post_path.read_text(encoding="utf-8")
     frontmatter, body = _split_frontmatter(raw_post)
 
-    # Translate the brief body to Farsi.
+    # Translate, then validate. A rejection triggers one correction retry
+    # (asking the model to close its tags and return a complete translation);
+    # if that still fails, unclosed tags are auto-closed as a last resort.
+    # Anything still structurally broken fails the stage, so nothing broken
+    # is pushed.
     category_translations = tfa.get("category_translations", {})
     logger.info("Translating English brief body to Farsi...")
     fa_body = _translate_brief(body, category_translations, llm_client, config)
 
-    # Repair safe rendering issues and reject output that looks like a
-    # reasoning dump (free-tier models sometimes ignore the prompt). A
-    # rejected translation fails the stage, so nothing broken is pushed.
-    fa_body, fa_repairs, fa_issues = check_and_repair(fa_body)
+    fa_body, fa_repairs, validation_issues = _validate_fa_body(
+        fa_body, body, allow_autoclose=False
+    )
+    if validation_issues:
+        logger.warning(
+            "Farsi translation rejected (%s); retrying once with a "
+            "correction prompt",
+            "; ".join(validation_issues),
+        )
+        correction = (
+            "Your previous reply was rejected: "
+            + "; ".join(validation_issues)
+            + ". Return ONLY the complete Farsi translation. Open and close "
+            "every <details> block with </details> and every <summary> with "
+            "</summary>."
+        )
+        fa_body = _translate_brief(
+            body,
+            category_translations,
+            llm_client,
+            config,
+            correction=correction,
+        )
+        fa_body, fa_repairs, validation_issues = _validate_fa_body(
+            fa_body, body, allow_autoclose=True
+        )
     if fa_repairs:
         logger.warning(
             "Farsi post render check repaired: " + "; ".join(sorted(set(fa_repairs)))
         )
-    validation_issues = fa_issues + _reasoning_leak_issues(fa_body, body)
     if validation_issues:
         raise RuntimeError(
             "Farsi translation rejected by render check: "
