@@ -981,3 +981,65 @@ main {
 .dashboard .badge-degraded { background-color: rgba(210, 153, 34, 0.18); color: #d29922; }
 .dashboard .badge-failed { background-color: rgba(248, 81, 73, 0.18); color: #f85149; }
 .dashboard .badge-unknown { background-color: var(--border-light); color: var(--text-muted); }
+
+/* Dashboard chart: axes + hover tooltip */
+
+.dashboard .chart {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.dashboard .chart-y {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 120px;
+  min-width: 2.2ch;
+  text-align: right;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+.dashboard .chart-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.dashboard .chart .bars {
+  margin-bottom: 4px;
+}
+
+.dashboard .chart-x {
+  display: flex;
+  font-size: 0.65rem;
+  color: var(--text-muted);
+}
+
+.dashboard .chart-x .x-label {
+  flex: 1 1 0;
+  min-width: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.dashboard .bar-col {
+  position: relative;
+}
+
+.dashboard .bar-col:hover::after {
+  content: attr(data-tip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 4px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background-color: var(--text);
+  color: var(--bg);
+  font-size: 0.7rem;
+  white-space: nowrap;
+  z-index: 5;
+  pointer-events: none;
+}

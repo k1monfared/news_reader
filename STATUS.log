@@ -4,6 +4,13 @@
     - Stage: MVP
     - Next Milestone: Confirm a green CI run with the free-model-first chain and the failure notifier
 
+- Dashboard Polish and Broadcast Backfill (2026-10-05)
+    - Dashboard page: added a "Latest run" panel at the top (status, entries, links, emails, subscribers) and split the old summary into "All time"
+    - Chart now has a y-axis (max, mid, 0), x-axis date labels every 5 days plus the last, and a hover tooltip showing the date and entry count
+    - scripts/backfill_broadcasts.py + backfill-broadcasts.yml: reconstruct data/sent_broadcasts.json from Resend List Broadcasts and the per-broadcast metrics endpoint (sent/delivered), so the dashboard email and delivery totals cover history
+    - Confirmed no historical run_meta is committed, so past "links processed"/"included" cannot be recovered; they are recorded from the next run onward
+    - Tests: 150 passing
+
 - Site Dashboard (2026-10-05)
     - New /dashboard/ page (English) showing days running, briefs EN/FA, brief entries posted, links processed and cited, emails sent and recipient deliveries, subscribers now/peak/total-ever, and failed/degraded/empty day counts, plus a 30-day zero-baseline bar chart and a per-day status table
     - New non-critical metrics stage (runs after mailer) writes docs/_data/dashboard.json from run_meta, the day's posts, the broadcast ledger, and empty_streak, then recomputes totals and commits

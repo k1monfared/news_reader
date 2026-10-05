@@ -1,0 +1,48 @@
+name: Backfill Broadcasts
+
+# Reconstruct data/sent_broadcasts.json from Resend broadcast history so the
+# dashboard's email and delivery totals cover past days. Manual dispatch.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Backfill broadcast ledger
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: python scripts/backfill_broadcasts.py
+
+      - name: Commit ledger
+        if: always()
+        run: |
+          if [ ! -f data/sent_broadcasts.json ]; then
+            echo "no ledger written"
+            exit 0
+          fi
+          git add data/sent_broadcasts.json
+          if git diff --cached --quiet; then
+            echo "ledger unchanged"
+            exit 0
+          fi
+          git commit -m "Backfill broadcast ledger from Resend"
+          git push origin master
