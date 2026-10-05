@@ -11512,6 +11512,17 @@
         "example_url": "https://www.dw.com/en/tennessee-halts-woman-s-execution-after-failed-attempt/a-79496561?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "کریستا پایک پس از دریافت دو تزریق داروی کشنده زنده ماند. فرماندار ایالت دستور بررسی اعدام متوقف‌شده را صادر کرد.",
         "pattern_en": "Botched Execution Terminology Adoption"
+      },
+      {
+        "pattern": "گمانه‌زنی درباره علت آسیب ناشی از تجهیزات پلیس",
+        "detail": "DW با بیان گمانه‌زنانه، از دست رفتن دست یک نوجوان را به نارنجک گاز اشک‌آور پلیس نسبت می‌دهد و بدون هیچ واقعیت تأییدشده‌ای، مسئولیت را به پلیس تحمیل می‌کند.",
+        "debias": "فقط جزئیات تأییدشده آسیب را گزارش کنید و تا زمانی که مقامات علت را مشخص نکرده‌اند، آسیب را به تجهیزات پلیس مرتبط نسازید.",
+        "date_added": "2026-10-05",
+        "status": "suggested",
+        "example_text": "یک پسر نوجوان دستش را از دست داد، ظاهراً در حالی که سعی می‌کرد نارنجک گاز اشک‌آور پلیس را بردارد.",
+        "example_url": "https://www.dw.com/en/hundreds-of-french-schools-shut-teen-loses-hand-in-protests/a-79542656?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "یک پسر نوجوان در جریان اعتراضات مدارس فرانسه دستش را از دست داد؛ مقامات نحوه وقوع این آسیب را تأیید نکرده‌اند.",
+        "pattern_en": "Police equipment injury causality speculation"
       }
     ]
   },
