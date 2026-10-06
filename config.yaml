@@ -439,3 +439,14 @@ metrics:
   # subscribe-proxy /stats returns cumulative distinct emails ever subscribed.
   # The bearer token is the SUBSCRIBE_STATS_TOKEN secret (env), not stored here.
   subscribe_stats_url: "https://subscribe-proxy.usraelwar.workers.dev/stats"
+
+# ---------------------------------------------------------------------------
+# Live run progress
+# ---------------------------------------------------------------------------
+# Writes docs/_data/run_status.json as each stage runs and commits it, so the
+# run's progress is visible on GitHub/the dashboard before the job finishes.
+# commit: false writes the file without pushing (fewer commits).
+progress:
+  enabled: true
+  commit: true
+  status_file: "docs/_data/run_status.json"

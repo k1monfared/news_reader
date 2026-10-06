@@ -1,8 +1,15 @@
 - Project Status
-    - Last Updated: 2026-10-05
+    - Last Updated: 2026-10-06
     - Development Mode: Claude Code
     - Stage: MVP
     - Next Milestone: Confirm a green CI run with the free-model-first chain and the failure notifier
+
+- Live Run Progress and 7am ET Schedule (2026-10-06)
+    - progress.py: writes docs/_data/run_status.json as each stage runs and commits it, so run progress is visible on GitHub and the dashboard before the job finishes (commits are best-effort, never fail the run); config progress.enabled / commit / status_file
+    - run_pipeline wires Progress into the stage loop (start, per-stage done with status/duration/error, finish)
+    - Dashboard shows a "Run in progress" panel with the stage funnel and current stage while run_status.status is running
+    - Daily Brief cron moved to ~7am US Eastern: '7 11 * * *' (11:07 UTC during EDT)
+    - Tests: 173 passing
 
 - Dashboard charts, story/bias metrics, and Failures page (2026-10-05)
     - Today's run is always present: the run DB record for today, else the latest recorded run, else the latest day derived from posts/ledger; a JS staleness banner warns when the last brief is more than ~26h old

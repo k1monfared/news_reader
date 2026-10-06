@@ -14,6 +14,24 @@ permalink: /dashboard/
 
 <p class="chart-note">Automated status and counts for this brief, rebuilt once per day after the run. Counts cover both languages. Last updated {{ t.generated_at | default: "unknown" }}.</p>
 
+{% assign rs = site.data.run_status %}
+{% if rs and rs.status == "running" %}
+<div class="run-live">
+  <strong>Run in progress</strong> — {{ rs.target_date }} ({{ rs.run_id }}). Current stage: <strong>{{ rs.current_stage | default: "starting" }}</strong>.
+  <ol class="funnel">
+    {% for stage in rs.stages %}
+    <li class="funnel-step funnel-{{ stage.status }}">
+      <span class="funnel-name">{{ stage.name | replace: "_", " " }}</span>
+      <span class="funnel-status">{{ stage.status }}</span>
+      {% if stage.duration_s != nil %}<span class="funnel-dur">{{ stage.duration_s }}s</span>{% endif %}
+      {% if stage.error %}<span class="funnel-err">{{ stage.error | truncate: 100 }}</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+  <p class="chart-note">Updated {{ rs.updated_at }}. This view refreshes on the next status push.</p>
+</div>
+{% endif %}
+
 <h2>Today's run{% if today %} — {{ today.target_date }}{% endif %}</h2>
 <div id="run-stale" class="run-stale" hidden>
   <strong>No recent run detected.</strong> The last recorded brief is <span id="run-stale-date"></span>. If it is more than about 26 hours old, the scheduled run likely failed.

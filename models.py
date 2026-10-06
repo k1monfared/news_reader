@@ -134,6 +134,7 @@ class PipelineConfig(BaseModel):
     mailer: dict = {}
     empty_brief: dict = {}
     metrics: dict = {}
+    progress: dict = {}
 
 
 # --- Helper ---

@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import json
 import logging
-import os
 import sys
 import time
 from datetime import datetime, timezone, timedelta
@@ -212,6 +211,29 @@ def run_pipeline(
         "metrics",
     ]
 
+    from progress import Progress
+
+    progress_cfg = getattr(config, "progress", None) or {}
+    progress = Progress(
+        run_id=run_id,
+        target_date=target_date,
+        stage_order=stage_order,
+        status_file=(
+            progress_cfg.get("status_file", "docs/_data/run_status.json")
+            if isinstance(progress_cfg, dict)
+            else "docs/_data/run_status.json"
+        ),
+        commit=(
+            progress_cfg.get("commit", True) if isinstance(progress_cfg, dict) else True
+        ),
+        enabled=(
+            progress_cfg.get("enabled", True)
+            if isinstance(progress_cfg, dict)
+            else True
+        ),
+    )
+    progress.start()
+
     try:
         for stage_name in stage_order:
             stage_start = time.time()
@@ -230,6 +252,7 @@ def run_pipeline(
                         "status": "skipped",
                         "reason": "render_check_failed",
                     }
+                    progress.stage_done(stage_name, "skipped")
                     continue
 
             try:
@@ -249,6 +272,9 @@ def run_pipeline(
                     "error": str(e),
                     "duration_s": round(time.time() - stage_start, 2),
                 }
+                progress.stage_done(
+                    stage_name, "failed", round(time.time() - stage_start, 2), str(e)
+                )
 
                 # Fetch failure with no sources = abort
                 if stage_name == "fetch":
@@ -265,6 +291,7 @@ def run_pipeline(
                 **(stage_result if isinstance(stage_result, dict) else {}),
             }
             logger.info(f"Stage {stage_name} completed in {stage_duration}s")
+            progress.stage_done(stage_name, "completed", stage_duration)
 
             # Date-scoped backfill: right after fetch, drop items that were
             # not published on the target date. Aborting here (before any
@@ -281,6 +308,7 @@ def run_pipeline(
 
     finally:
         http_client.close()
+        progress.finish("failed" if meta.errors else "completed")
 
     # Finalize run metadata
     meta.finished_at = datetime.now(tz).isoformat()
