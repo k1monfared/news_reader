@@ -1,46 +1,99 @@
 {
-  "generated_at": "2026-10-06T00:19:01Z",
+  "generated_at": "2026-10-06T16:22:40Z",
   "today": {
-    "target_date": "2026-10-05",
-    "run_id": null,
-    "status": "unknown",
-    "failed_stages": [],
+    "backfill": false,
     "degraded_stages": [],
-    "stages": [],
-    "funnel": {
-      "fetched": null,
-      "included": null,
-      "posted_en": 3,
-      "posted_fa": 3,
-      "posted": 6
-    },
-    "tokens": {
-      "by_stage": {},
-      "total": {}
-    },
-    "models": [],
-    "posted_en": 3,
-    "posted_fa": 3,
-    "posted": 6,
-    "links_en": 5,
-    "links_fa": 5,
-    "links": 10,
+    "duration_s": null,
     "emails": {
       "en": {
-        "sent": true,
-        "broadcast_id": "93030bc0-8d45-4d61-839a-31009f6e4e29",
-        "recipients": null
+        "broadcast_id": "cf9b24e1-6ac0-45bd-914e-af085f705a50",
+        "recipients": 8,
+        "sent": true
       },
       "fa": {
-        "sent": false,
         "broadcast_id": null,
-        "recipients": null
+        "recipients": null,
+        "sent": false
       }
     },
-    "subscribers": null,
-    "duration_s": null,
+    "errors": [],
+    "failed_stages": [],
     "finished_at": null,
-    "recorded": false
+    "funnel": {
+      "continuation": null,
+      "development": null,
+      "fetched": null,
+      "included": null,
+      "new": null,
+      "posted": 8,
+      "posted_en": 4,
+      "posted_fa": 4
+    },
+    "links": 10,
+    "links_en": 5,
+    "links_fa": 5,
+    "models": [
+      "longcat-2.5-preview-free",
+      "deepseek-v4-pro"
+    ],
+    "posted": 8,
+    "posted_en": 4,
+    "posted_fa": 4,
+    "run_id": null,
+    "stages": [],
+    "started_at": null,
+    "status": "unknown",
+    "subscribers": 9,
+    "subscribers_en": 8,
+    "subscribers_fa": 1,
+    "target_date": "2026-10-06",
+    "tokens": {
+      "by_stage": {
+        "categorize": {
+          "calls": 1,
+          "input": 1728,
+          "output": 3700,
+          "thinking": 2958
+        },
+        "editorial": {
+          "calls": 2,
+          "input": 305159,
+          "output": 17581,
+          "thinking": 16775
+        },
+        "filter": {
+          "calls": 3,
+          "input": 20650,
+          "output": 5863,
+          "thinking": 3838
+        },
+        "summarize": {
+          "calls": 1,
+          "input": 1613,
+          "output": 864,
+          "thinking": 259
+        },
+        "track_developments": {
+          "calls": 14,
+          "input": 25087,
+          "output": 4967,
+          "thinking": 4243
+        },
+        "translate_fa": {
+          "calls": 1,
+          "input": 1563,
+          "output": 5148,
+          "thinking": 3160
+        }
+      },
+      "total": {
+        "calls": 22,
+        "input": 355800,
+        "output": 38123,
+        "thinking": 31233
+      }
+    },
+    "recorded": true
   },
   "days": [
     {
@@ -10208,56 +10261,102 @@
       },
       "tokens_total": null,
       "empty": false
+    },
+    {
+      "date": "2026-10-06",
+      "run_id": null,
+      "status": "unknown",
+      "failed_stages": [],
+      "degraded_stages": [],
+      "en": true,
+      "fa": true,
+      "posted_en": 4,
+      "posted_fa": 4,
+      "posted": 8,
+      "links_en": 5,
+      "links_fa": 5,
+      "links": 10,
+      "processed": null,
+      "included": null,
+      "new_stories": null,
+      "continuations": null,
+      "developments": null,
+      "biases": 0,
+      "emails": {
+        "en": {
+          "broadcast_id": "cf9b24e1-6ac0-45bd-914e-af085f705a50",
+          "recipients": 8,
+          "sent": true
+        },
+        "fa": {
+          "broadcast_id": null,
+          "recipients": null,
+          "sent": false
+        }
+      },
+      "emails_total": 1,
+      "deliveries": 8,
+      "subscribers_en": 8,
+      "subscribers_fa": 1,
+      "subscribers": 9,
+      "tokens": {
+        "input": 355800,
+        "output": 38123,
+        "thinking": 31233,
+        "calls": 22
+      },
+      "tokens_total": 425156,
+      "empty": false
     }
   ],
   "totals": {
-    "generated_at": "2026-10-06T00:19:01Z",
+    "generated_at": "2026-10-06T16:22:40Z",
     "first_date": "2026-02-26",
-    "last_date": "2026-10-05",
-    "days_recorded": 221,
-    "days_running": 222,
-    "briefs_en": 214,
-    "briefs_fa": 162,
-    "posted": 2266,
-    "posted_en": 1422,
-    "posted_fa": 844,
-    "links": 3258,
+    "last_date": "2026-10-06",
+    "days_recorded": 222,
+    "days_running": 223,
+    "briefs_en": 215,
+    "briefs_fa": 163,
+    "posted": 2274,
+    "posted_en": 1426,
+    "posted_fa": 848,
+    "links": 3268,
     "processed": null,
     "included": null,
     "new_stories": null,
     "continuations": null,
     "developments": null,
     "biases": 1003,
-    "emails_en": 161,
+    "emails_en": 162,
     "emails_fa": 11,
-    "deliveries": null,
-    "subscribers_current": null,
-    "subscribers_peak": null,
+    "deliveries": 8,
+    "subscribers_current": 9,
+    "subscribers_peak": 9,
     "days_failed": 0,
     "days_degraded": 0,
     "days_empty": 0,
-    "tokens_input": null,
-    "tokens_output": null,
-    "tokens_thinking": null,
-    "llm_calls": null,
-    "emails_total": 172,
-    "tokens_total": null,
+    "tokens_input": 355800,
+    "tokens_output": 38123,
+    "tokens_thinking": 31233,
+    "llm_calls": 22,
+    "emails_total": 173,
+    "tokens_total": 425156,
     "subscribers_total_ever": 7,
     "rates": {
       "posted": {
         "per_day": 10.2,
-        "per_week": 71.5,
-        "per_month": 310.7
+        "per_week": 71.4,
+        "per_month": 310.4
       },
       "posted_en": {
         "per_day": 6.4,
         "per_week": 44.8,
-        "per_month": 195.0
+        "per_month": 194.7
       },
       "posted_fa": {
         "per_day": 3.8,
         "per_week": 26.6,
-        "per_month": 115.7
+        "per_month": 115.8
       },
       "processed": {
         "per_day": null,
@@ -10286,13 +10385,13 @@
       },
       "biases": {
         "per_day": 4.5,
-        "per_week": 31.6,
-        "per_month": 137.5
+        "per_week": 31.5,
+        "per_month": 136.9
       },
       "links": {
         "per_day": 14.7,
-        "per_week": 102.7,
-        "per_month": 446.7
+        "per_week": 102.6,
+        "per_month": 446.1
       },
       "emails": {
         "per_day": 0.8,
@@ -10300,29 +10399,29 @@
         "per_month": 23.6
       },
       "deliveries": {
-        "per_day": null,
-        "per_week": null,
-        "per_month": null
+        "per_day": 0.0,
+        "per_week": 0.3,
+        "per_month": 1.1
       },
       "tokens_input": {
-        "per_day": null,
-        "per_week": null,
-        "per_month": null
+        "per_day": 1595.5,
+        "per_week": 11168.6,
+        "per_month": 48567.5
       },
       "tokens_output": {
-        "per_day": null,
-        "per_week": null,
-        "per_month": null
+        "per_day": 171.0,
+        "per_week": 1196.7,
+        "per_month": 5203.9
       },
       "tokens_thinking": {
-        "per_day": null,
-        "per_week": null,
-        "per_month": null
+        "per_day": 140.1,
+        "per_week": 980.4,
+        "per_month": 4263.4
       },
       "tokens_total": {
-        "per_day": null,
-        "per_week": null,
-        "per_month": null
+        "per_day": 1906.5,
+        "per_week": 13345.7,
+        "per_month": 58034.7
       }
     },
     "entries_per_brief_en": 6.6,
