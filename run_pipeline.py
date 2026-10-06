@@ -208,7 +208,6 @@ def run_pipeline(
         "publish",
         "translate_fa",
         "mailer",
-        "metrics",
     ]
 
     from progress import Progress
@@ -320,6 +319,15 @@ def run_pipeline(
 
     meta_path = run_dir / "run_meta.json"
     meta_path.write_text(json.dumps(meta.model_dump(), indent=2))
+
+    # Metrics runs AFTER run_meta.json is written so the record carries the
+    # final status, funnel, and stage list. Non-critical.
+    try:
+        from stages.metrics import run_metrics
+
+        run_metrics(str(run_dir), config, llm_client, None)
+    except Exception as e:
+        logger.warning(f"metrics stage failed (non-fatal): {e}", exc_info=True)
 
     # Update latest symlink only if no critical errors
     failed_critical = [

@@ -4,6 +4,11 @@
     - Stage: MVP
     - Next Milestone: Confirm a green CI run with the free-model-first chain and the failure notifier
 
+- Fix: metrics ran before run_meta was written (2026-10-06)
+    - The metrics stage was in the stage loop, so it read run_meta.json before run_pipeline wrote it, producing a run record with no run_id/status/funnel (only tokens)
+    - metrics now runs after run_meta.json is finalized (removed from stage_order, invoked explicitly, still non-critical)
+    - The 2026-10-06 record already committed keeps its token data but has status unknown and an empty funnel; runs from 2026-10-07 onward record correctly
+
 - Live Run Progress and 7am ET Schedule (2026-10-06)
     - progress.py: writes docs/_data/run_status.json as each stage runs and commits it, so run progress is visible on GitHub and the dashboard before the job finishes (commits are best-effort, never fail the run); config progress.enabled / commit / status_file
     - run_pipeline wires Progress into the stage loop (start, per-stage done with status/duration/error, finish)
