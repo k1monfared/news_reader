@@ -187,6 +187,12 @@ def run_pipeline(
         backfill=backfill,
     )
 
+    # Write run_meta.json up front so stages that read it (publish's backfill
+    # marking, etc.) see the flags; it is rewritten with final data at the end.
+    (run_dir / "run_meta.json").write_text(
+        json.dumps(meta.model_dump(), indent=2)
+    )
+
     # Import stages lazily to avoid circular imports
     from llm_client import AuditedLLMClient
     from audit_logger import AuditedHTTPClient

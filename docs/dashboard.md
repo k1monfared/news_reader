@@ -58,8 +58,8 @@ permalink: /dashboard/
   </div>
   <div class="card">
     <span class="card-value">{{ today.posted | default: 0 }}</span>
-    <span class="card-label">Entries posted</span>
-    <span class="card-sub">{{ today.posted_en | default: 0 }} EN · {{ today.posted_fa | default: 0 }} FA</span>
+    <span class="card-label">Entries posted (EN)</span>
+    <span class="card-sub">{{ today.posted_fa | default: 0 }} FA</span>
   </div>
   <div class="card">
     <span class="card-value">{{ today.links | default: 0 }}</span>
@@ -137,7 +137,7 @@ permalink: /dashboard/
   </div>
   <div class="card">
     <span class="card-value">{{ t.posted | default: "—" }}</span>
-    <span class="card-label">Brief entries posted</span>
+    <span class="card-label">Brief entries posted (EN)</span>
     <span class="card-sub">{{ t.links | default: 0 }} source links cited</span>
   </div>
   <div class="card">
@@ -185,41 +185,41 @@ permalink: /dashboard/
 {% endif %}
 
 <h2>Averages</h2>
-<p class="chart-note">Over {{ t.days_running | default: "—" }} days. Average entries per brief: {{ t.entries_per_brief_en | default: "—" }} EN, {{ t.entries_per_brief_fa | default: "—" }} FA.{% if t.subscribers_growth %} Subscriber growth: {{ t.subscribers_growth.total }} total{% if t.subscribers_growth.per_week != nil %}, {{ t.subscribers_growth.per_week }}/week{% endif %}.{% endif %}</p>
+<p class="chart-note">Averages divide by the number of days that actually have data for each metric (the Days column), not the full period. "Est. all-time" extrapolates that average across all {{ t.days_running | default: "—" }} days, so metrics with partial records are estimates. Average entries per EN brief: {{ t.entries_per_brief_en | default: "—" }}.{% if t.subscribers_growth %} Subscriber growth: {{ t.subscribers_growth.total }} total{% if t.subscribers_growth.per_week != nil %}, {{ t.subscribers_growth.per_week }}/week{% endif %}.{% endif %}</p>
 <div class="table-wrap">
 <table class="dash-table">
   <thead>
-    <tr><th>Metric</th><th>Per day</th><th>Per week</th><th>Per month</th></tr>
+    <tr><th>Metric</th><th>Days</th><th>Per day</th><th>Per week</th><th>Per month</th><th>Est. all-time</th></tr>
   </thead>
   <tbody>
-    <tr><td>Brief entries posted</td><td>{{ t.rates.posted.per_day | default: "—" }}</td><td>{{ t.rates.posted.per_week | default: "—" }}</td><td>{{ t.rates.posted.per_month | default: "—" }}</td></tr>
-    <tr><td>Entries posted (EN)</td><td>{{ t.rates.posted_en.per_day | default: "—" }}</td><td>{{ t.rates.posted_en.per_week | default: "—" }}</td><td>{{ t.rates.posted_en.per_month | default: "—" }}</td></tr>
-    <tr><td>Entries posted (FA)</td><td>{{ t.rates.posted_fa.per_day | default: "—" }}</td><td>{{ t.rates.posted_fa.per_week | default: "—" }}</td><td>{{ t.rates.posted_fa.per_month | default: "—" }}</td></tr>
-    <tr><td>Links processed</td><td>{{ t.rates.processed.per_day | default: "—" }}</td><td>{{ t.rates.processed.per_week | default: "—" }}</td><td>{{ t.rates.processed.per_month | default: "—" }}</td></tr>
-    <tr><td>Links included</td><td>{{ t.rates.included.per_day | default: "—" }}</td><td>{{ t.rates.included.per_week | default: "—" }}</td><td>{{ t.rates.included.per_month | default: "—" }}</td></tr>
-    <tr><td>New stories</td><td>{{ t.rates.new_stories.per_day | default: "—" }}</td><td>{{ t.rates.new_stories.per_week | default: "—" }}</td><td>{{ t.rates.new_stories.per_month | default: "—" }}</td></tr>
-    <tr><td>Continuations (repeats, excluded)</td><td>{{ t.rates.continuations.per_day | default: "—" }}</td><td>{{ t.rates.continuations.per_week | default: "—" }}</td><td>{{ t.rates.continuations.per_month | default: "—" }}</td></tr>
-    <tr><td>Developments (updates)</td><td>{{ t.rates.developments.per_day | default: "—" }}</td><td>{{ t.rates.developments.per_week | default: "—" }}</td><td>{{ t.rates.developments.per_month | default: "—" }}</td></tr>
-    <tr><td>Biases found</td><td>{{ t.rates.biases.per_day | default: "—" }}</td><td>{{ t.rates.biases.per_week | default: "—" }}</td><td>{{ t.rates.biases.per_month | default: "—" }}</td></tr>
-    <tr><td>Source links cited</td><td>{{ t.rates.links.per_day | default: "—" }}</td><td>{{ t.rates.links.per_week | default: "—" }}</td><td>{{ t.rates.links.per_month | default: "—" }}</td></tr>
-    <tr><td>Emails sent</td><td>{{ t.rates.emails.per_day | default: "—" }}</td><td>{{ t.rates.emails.per_week | default: "—" }}</td><td>{{ t.rates.emails.per_month | default: "—" }}</td></tr>
-    <tr><td>Recipient deliveries</td><td>{{ t.rates.deliveries.per_day | default: "—" }}</td><td>{{ t.rates.deliveries.per_week | default: "—" }}</td><td>{{ t.rates.deliveries.per_month | default: "—" }}</td></tr>
-    <tr><td>Input tokens</td><td>{{ t.rates.tokens_input.per_day | default: "—" }}</td><td>{{ t.rates.tokens_input.per_week | default: "—" }}</td><td>{{ t.rates.tokens_input.per_month | default: "—" }}</td></tr>
-    <tr><td>Output tokens</td><td>{{ t.rates.tokens_output.per_day | default: "—" }}</td><td>{{ t.rates.tokens_output.per_week | default: "—" }}</td><td>{{ t.rates.tokens_output.per_month | default: "—" }}</td></tr>
-    <tr><td>Thinking tokens</td><td>{{ t.rates.tokens_thinking.per_day | default: "—" }}</td><td>{{ t.rates.tokens_thinking.per_week | default: "—" }}</td><td>{{ t.rates.tokens_thinking.per_month | default: "—" }}</td></tr>
-    <tr><td>Total tokens</td><td>{{ t.rates.tokens_total.per_day | default: "—" }}</td><td>{{ t.rates.tokens_total.per_week | default: "—" }}</td><td>{{ t.rates.tokens_total.per_month | default: "—" }}</td></tr>
+    <tr><td>Brief entries posted (EN)</td><td>{{ t.rates.posted.days | default: 0 }}</td><td>{{ t.rates.posted.per_day | default: "—" }}</td><td>{{ t.rates.posted.per_week | default: "—" }}</td><td>{{ t.rates.posted.per_month | default: "—" }}</td><td>{{ t.rates.posted.estimated_total | default: "—" }}</td></tr>
+    <tr><td>Entries posted (FA)</td><td>{{ t.rates.posted_fa.days | default: 0 }}</td><td>{{ t.rates.posted_fa.per_day | default: "—" }}</td><td>{{ t.rates.posted_fa.per_week | default: "—" }}</td><td>{{ t.rates.posted_fa.per_month | default: "—" }}</td><td>{{ t.rates.posted_fa.estimated_total | default: "—" }}</td></tr>
+    <tr><td>Links processed</td><td>{{ t.rates.processed.days | default: 0 }}</td><td>{{ t.rates.processed.per_day | default: "—" }}</td><td>{{ t.rates.processed.per_week | default: "—" }}</td><td>{{ t.rates.processed.per_month | default: "—" }}</td><td>{{ t.rates.processed.estimated_total | default: "—" }}</td></tr>
+    <tr><td>Links included</td><td>{{ t.rates.included.days | default: 0 }}</td><td>{{ t.rates.included.per_day | default: "—" }}</td><td>{{ t.rates.included.per_week | default: "—" }}</td><td>{{ t.rates.included.per_month | default: "—" }}</td><td>{{ t.rates.included.estimated_total | default: "—" }}</td></tr>
+    <tr><td>New stories</td><td>{{ t.rates.new_stories.days | default: 0 }}</td><td>{{ t.rates.new_stories.per_day | default: "—" }}</td><td>{{ t.rates.new_stories.per_week | default: "—" }}</td><td>{{ t.rates.new_stories.per_month | default: "—" }}</td><td>{{ t.rates.new_stories.estimated_total | default: "—" }}</td></tr>
+    <tr><td>Continuations (repeats, excluded)</td><td>{{ t.rates.continuations.days | default: 0 }}</td><td>{{ t.rates.continuations.per_day | default: "—" }}</td><td>{{ t.rates.continuations.per_week | default: "—" }}</td><td>{{ t.rates.continuations.per_month | default: "—" }}</td><td>{{ t.rates.continuations.estimated_total | default: "—" }}</td></tr>
+    <tr><td>Developments (updates)</td><td>{{ t.rates.developments.days | default: 0 }}</td><td>{{ t.rates.developments.per_day | default: "—" }}</td><td>{{ t.rates.developments.per_week | default: "—" }}</td><td>{{ t.rates.developments.per_month | default: "—" }}</td><td>{{ t.rates.developments.estimated_total | default: "—" }}</td></tr>
+    <tr><td>Biases found</td><td>{{ t.rates.biases.days | default: 0 }}</td><td>{{ t.rates.biases.per_day | default: "—" }}</td><td>{{ t.rates.biases.per_week | default: "—" }}</td><td>{{ t.rates.biases.per_month | default: "—" }}</td><td>{{ t.rates.biases.estimated_total | default: "—" }}</td></tr>
+    <tr><td>Source links cited (EN)</td><td>{{ t.rates.links.days | default: 0 }}</td><td>{{ t.rates.links.per_day | default: "—" }}</td><td>{{ t.rates.links.per_week | default: "—" }}</td><td>{{ t.rates.links.per_month | default: "—" }}</td><td>{{ t.rates.links.estimated_total | default: "—" }}</td></tr>
+    <tr><td>Emails sent</td><td>{{ t.rates.emails.days | default: 0 }}</td><td>{{ t.rates.emails.per_day | default: "—" }}</td><td>{{ t.rates.emails.per_week | default: "—" }}</td><td>{{ t.rates.emails.per_month | default: "—" }}</td><td>{{ t.rates.emails.estimated_total | default: "—" }}</td></tr>
+    <tr><td>Recipient deliveries</td><td>{{ t.rates.deliveries.days | default: 0 }}</td><td>{{ t.rates.deliveries.per_day | default: "—" }}</td><td>{{ t.rates.deliveries.per_week | default: "—" }}</td><td>{{ t.rates.deliveries.per_month | default: "—" }}</td><td>{{ t.rates.deliveries.estimated_total | default: "—" }}</td></tr>
+    <tr><td>Input tokens</td><td>{{ t.rates.tokens_input.days | default: 0 }}</td><td>{{ t.rates.tokens_input.per_day | default: "—" }}</td><td>{{ t.rates.tokens_input.per_week | default: "—" }}</td><td>{{ t.rates.tokens_input.per_month | default: "—" }}</td><td>{{ t.rates.tokens_input.estimated_total | default: "—" }}</td></tr>
+    <tr><td>Output tokens</td><td>{{ t.rates.tokens_output.days | default: 0 }}</td><td>{{ t.rates.tokens_output.per_day | default: "—" }}</td><td>{{ t.rates.tokens_output.per_week | default: "—" }}</td><td>{{ t.rates.tokens_output.per_month | default: "—" }}</td><td>{{ t.rates.tokens_output.estimated_total | default: "—" }}</td></tr>
+    <tr><td>Thinking tokens</td><td>{{ t.rates.tokens_thinking.days | default: 0 }}</td><td>{{ t.rates.tokens_thinking.per_day | default: "—" }}</td><td>{{ t.rates.tokens_thinking.per_week | default: "—" }}</td><td>{{ t.rates.tokens_thinking.per_month | default: "—" }}</td><td>{{ t.rates.tokens_thinking.estimated_total | default: "—" }}</td></tr>
+    <tr><td>Total tokens</td><td>{{ t.rates.tokens_total.days | default: 0 }}</td><td>{{ t.rates.tokens_total.per_day | default: "—" }}</td><td>{{ t.rates.tokens_total.per_week | default: "—" }}</td><td>{{ t.rates.tokens_total.per_month | default: "—" }}</td><td>{{ t.rates.tokens_total.estimated_total | default: "—" }}</td></tr>
   </tbody>
 </table>
 </div>
+<p class="chart-note">A blank Days means no recorded data for that metric yet (for example processed links, story statuses, and tokens before run tracking); averages and estimates fill in as runs are recorded. Story and link totals count the English brief only, since the Farsi edition is a translation, not separate stories.</p>
 
 <h2>Per-day metrics</h2>
 <p class="chart-note">Zero baseline. Drag to pan, scroll sideways, Ctrl/⌘ + wheel zooms, click a bar to open that day's brief. {{ d.days | size }} days available.</p>
-{% include chart.html metric="posted" label="Brief entries posted" %}
+{% include chart.html metric="posted" label="Brief entries posted (EN)" %}
 {% include chart.html metric="posted_en" label="Entries posted (EN)" %}
 {% include chart.html metric="posted_fa" label="Entries posted (FA)" %}
 {% include chart.html metric="processed" label="Links processed" %}
 {% include chart.html metric="included" label="Links included" %}
-{% include chart.html metric="links" label="Source links cited" %}
+{% include chart.html metric="links" label="Source links cited (EN)" %}
 {% include chart.html metric="new_stories" label="New stories" %}
 {% include chart.html metric="continuations" label="Continuations (repeats, excluded)" %}
 {% include chart.html metric="developments" label="Developments (updates)" %}

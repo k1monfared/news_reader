@@ -397,6 +397,7 @@ def run_translate_fa(
     config: PipelineConfig,
     llm_client: AuditedLLMClient,
     http_client: AuditedHTTPClient,
+    force_backfilled: bool = False,
 ) -> dict:
     tfa = config.translate_fa or {}
     if not tfa.get("enabled", False):
@@ -462,7 +463,9 @@ def run_translate_fa(
         )
 
     # Build Farsi frontmatter.
-    backfilled = str(frontmatter.get("backfilled", "")).lower() == "true"
+    backfilled = force_backfilled or (
+        str(frontmatter.get("backfilled", "")).lower() == "true"
+    )
     fa_date_str = _shamsi_date(date_str)
     fa_title = _fa_title_for_date(fa_date_str, backfilled=backfilled)
     sources_down = []

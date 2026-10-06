@@ -166,7 +166,8 @@ class TestRunMetrics:
         assert len(data["days"]) == 1
         day = data["days"][0]
         assert day["date"] == date
-        assert day["posted"] == 4  # two entries per language, two languages
+        assert day["posted"] == 2  # English only; FA is a translation
+        assert day["posted_en"] == 2 and day["posted_fa"] == 2
         assert day["processed"] == 292
         assert day["emails"]["en"]["recipients"] == 42
         assert data["totals"]["subscribers_current"] == 84  # 42 + 42
@@ -283,6 +284,26 @@ class TestRunDb:
         assert totals["developments"] == 1
         assert totals["biases"] == 2
         assert totals["rates"]["new_stories"]["per_day"] == 5.0
+
+    def test_average_uses_known_days_and_estimates(self):
+        days = [
+            {"date": "2026-10-01", "posted": 2, "posted_en": 2, "posted_fa": 0, "links": 1,
+             "en": True, "fa": False, "emails": {}, "subscribers": None, "status": "success",
+             "empty": False, "processed": 100, "included": 10,
+             "tokens": {"input": None, "output": None, "thinking": None, "calls": None}},
+            {"date": "2026-10-02", "posted": 4, "posted_en": 4, "posted_fa": 0, "links": 1,
+             "en": True, "fa": False, "emails": {}, "subscribers": None, "status": "success",
+             "empty": False, "processed": None, "included": None,
+             "tokens": {"input": None, "output": None, "thinking": None, "calls": None}},
+        ]
+        totals = recompute_totals(days, None)
+        # processed is known on 1 of the 2 days
+        assert totals["rates"]["processed"]["days"] == 1
+        assert totals["rates"]["processed"]["per_day"] == 100.0
+        assert totals["rates"]["processed"]["estimated_total"] == 200
+        # posted is known on both days
+        assert totals["rates"]["posted"]["days"] == 2
+        assert totals["rates"]["posted"]["estimated_total"] == 6
 
 
 class TestBiasCounts:

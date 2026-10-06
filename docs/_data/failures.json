@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-06T14:26:02Z",
+  "generated_at": "2026-10-06T17:05:35Z",
   "counts": {
     "failed": 19,
-    "backfilled": 14,
-    "failed_and_backfilled": 9,
+    "backfilled": 16,
+    "failed_and_backfilled": 11,
     "failed_not_backfilled": [
       "2026-04-28",
       "2026-08-24",
@@ -12,8 +12,6 @@
       "2026-08-31",
       "2026-09-01",
       "2026-09-16",
-      "2026-10-03",
-      "2026-10-04",
       "2026-10-05"
     ],
     "backfilled_without_failed": [
@@ -111,21 +109,21 @@
           "hash": "09ec1f7f6e830a27dcba246f0ecde8a08557e608",
           "short": "09ec1f7f",
           "message": "Daily brief: 2026-09-07 (fa)",
-          "date": "2026-09-16T18:12:44Z",
+          "date": "2026-09-16T18:12:44+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/09ec1f7f6e830a27dcba246f0ecde8a08557e608"
         },
         {
           "hash": "1f60dc67208e8b020241b3c43ba70bc79e07221c",
           "short": "1f60dc67",
           "message": "Daily brief: 2026-09-07",
-          "date": "2026-09-16T18:12:30Z",
+          "date": "2026-09-16T18:12:30+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/1f60dc67208e8b020241b3c43ba70bc79e07221c"
         },
         {
           "hash": "dbc3868f7b27dafc6e6e235d214987799663f9b8",
           "short": "dbc3868f",
           "message": "Update empty streak: 2026-09-07 empty=False consecutive=0",
-          "date": "2026-09-07T17:43:02Z",
+          "date": "2026-09-07T17:43:02+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/dbc3868f7b27dafc6e6e235d214987799663f9b8"
         }
       ]
@@ -150,21 +148,21 @@
           "hash": "5d6c28d7fd2727ad953ca2df52682d58f9ac7ab3",
           "short": "5d6c28d7",
           "message": "Daily brief: 2026-09-08 (fa)",
-          "date": "2026-09-16T18:18:15Z",
+          "date": "2026-09-16T18:18:15+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/5d6c28d7fd2727ad953ca2df52682d58f9ac7ab3"
         },
         {
           "hash": "ad85ca5515c6200a539252e052ec51dd3641a561",
           "short": "ad85ca55",
           "message": "Daily brief: 2026-09-08",
-          "date": "2026-09-16T18:15:59Z",
+          "date": "2026-09-16T18:15:59+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/ad85ca5515c6200a539252e052ec51dd3641a561"
         },
         {
           "hash": "ec952507a086f3cff63e842ead05389d0cb9ec2f",
           "short": "ec952507",
           "message": "Update empty streak: 2026-09-08 empty=False consecutive=0",
-          "date": "2026-09-08T16:30:36Z",
+          "date": "2026-09-08T16:30:36+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/ec952507a086f3cff63e842ead05389d0cb9ec2f"
         }
       ]
@@ -189,21 +187,21 @@
           "hash": "683c2ae9d8d04da745f6cf24944af42042d35c25",
           "short": "683c2ae9",
           "message": "Daily brief: 2026-09-09 (fa)",
-          "date": "2026-09-16T18:20:47Z",
+          "date": "2026-09-16T18:20:47+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/683c2ae9d8d04da745f6cf24944af42042d35c25"
         },
         {
           "hash": "33a0bd2e2e34c216ff3a8b6c8bb6e56b0bcc66fa",
           "short": "33a0bd2e",
           "message": "Daily brief: 2026-09-09",
-          "date": "2026-09-16T18:19:47Z",
+          "date": "2026-09-16T18:19:47+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/33a0bd2e2e34c216ff3a8b6c8bb6e56b0bcc66fa"
         },
         {
           "hash": "4c104930e3f45692be9bf857f9680763dcc8767a",
           "short": "4c104930",
           "message": "Update empty streak: 2026-09-09 empty=False consecutive=0",
-          "date": "2026-09-09T16:27:22Z",
+          "date": "2026-09-09T16:27:22+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/4c104930e3f45692be9bf857f9680763dcc8767a"
         }
       ]
@@ -228,21 +226,21 @@
           "hash": "1d8126c443caffeb1f6a000979054e447bb553ee",
           "short": "1d8126c4",
           "message": "Daily brief: 2026-09-10 (fa)",
-          "date": "2026-09-16T18:28:52Z",
+          "date": "2026-09-16T18:28:52+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/1d8126c443caffeb1f6a000979054e447bb553ee"
         },
         {
           "hash": "1de7cda714a96decd3f2859586813d8390a5b967",
           "short": "1de7cda7",
           "message": "Daily brief: 2026-09-10",
-          "date": "2026-09-16T18:24:23Z",
+          "date": "2026-09-16T18:24:23+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/1de7cda714a96decd3f2859586813d8390a5b967"
         },
         {
           "hash": "df9919b9b682c85ae0927344c522d8c9a1743993",
           "short": "df9919b9",
           "message": "Update empty streak: 2026-09-10 empty=False consecutive=0",
-          "date": "2026-09-10T16:17:29Z",
+          "date": "2026-09-10T16:17:29+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/df9919b9b682c85ae0927344c522d8c9a1743993"
         }
       ]
@@ -267,21 +265,21 @@
           "hash": "c4e5560b362170ca390405503108904e253b9348",
           "short": "c4e5560b",
           "message": "Daily brief: 2026-09-11 (fa)",
-          "date": "2026-09-16T18:48:14Z",
+          "date": "2026-09-16T18:48:14+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/c4e5560b362170ca390405503108904e253b9348"
         },
         {
           "hash": "8f93bb938c4da507dba1344aa133bb1c565005f7",
           "short": "8f93bb93",
           "message": "Daily brief: 2026-09-11",
-          "date": "2026-09-16T18:45:07Z",
+          "date": "2026-09-16T18:45:07+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/8f93bb938c4da507dba1344aa133bb1c565005f7"
         },
         {
           "hash": "3318afe69b17dae2b94a7577738090924ece7ddb",
           "short": "3318afe6",
           "message": "Update empty streak: 2026-09-11 empty=False consecutive=0",
-          "date": "2026-09-11T16:20:50Z",
+          "date": "2026-09-11T16:20:50+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/3318afe69b17dae2b94a7577738090924ece7ddb"
         }
       ]
@@ -306,21 +304,21 @@
           "hash": "fb4b6a73a988edddef1a359ca34b98229462e9c1",
           "short": "fb4b6a73",
           "message": "Daily brief: 2026-09-12 (fa)",
-          "date": "2026-09-16T18:57:44Z",
+          "date": "2026-09-16T18:57:44+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/fb4b6a73a988edddef1a359ca34b98229462e9c1"
         },
         {
           "hash": "b6d517403245bd626c2609f02d93a64270759423",
           "short": "b6d51740",
           "message": "Daily brief: 2026-09-12",
-          "date": "2026-09-16T18:54:40Z",
+          "date": "2026-09-16T18:54:40+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/b6d517403245bd626c2609f02d93a64270759423"
         },
         {
           "hash": "3ee1b167fd04558dccf62a5dc00e1387ecbfdf78",
           "short": "3ee1b167",
           "message": "Update empty streak: 2026-09-12 empty=False consecutive=0",
-          "date": "2026-09-12T15:28:24Z",
+          "date": "2026-09-12T15:28:24+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/3ee1b167fd04558dccf62a5dc00e1387ecbfdf78"
         }
       ]
@@ -345,21 +343,21 @@
           "hash": "2b5a6aaaf1b107c2a8ce23c206b191af94157549",
           "short": "2b5a6aaa",
           "message": "Daily brief: 2026-09-13 (fa)",
-          "date": "2026-09-16T19:07:28Z",
+          "date": "2026-09-16T19:07:28+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/2b5a6aaaf1b107c2a8ce23c206b191af94157549"
         },
         {
           "hash": "19b8ad16c56925d2e9781b7afaa3e52ec4bcf9e3",
           "short": "19b8ad16",
           "message": "Daily brief: 2026-09-13",
-          "date": "2026-09-16T19:06:07Z",
+          "date": "2026-09-16T19:06:07+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/19b8ad16c56925d2e9781b7afaa3e52ec4bcf9e3"
         },
         {
           "hash": "ed2db1778401cfa4f83ede631b3224e302c16e47",
           "short": "ed2db177",
           "message": "Update empty streak: 2026-09-13 empty=False consecutive=0",
-          "date": "2026-09-13T16:06:06Z",
+          "date": "2026-09-13T16:06:06+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/ed2db1778401cfa4f83ede631b3224e302c16e47"
         }
       ]
@@ -384,21 +382,21 @@
           "hash": "21f17f986cc3a06fa039bcf5c4d71e7bb2f42568",
           "short": "21f17f98",
           "message": "Daily brief: 2026-09-14 (fa)",
-          "date": "2026-09-16T19:19:46Z",
+          "date": "2026-09-16T19:19:46+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/21f17f986cc3a06fa039bcf5c4d71e7bb2f42568"
         },
         {
           "hash": "337c1c7936cfe17ef8abada5897c43480a92cf39",
           "short": "337c1c79",
           "message": "Daily brief: 2026-09-14",
-          "date": "2026-09-16T19:16:44Z",
+          "date": "2026-09-16T19:16:44+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/337c1c7936cfe17ef8abada5897c43480a92cf39"
         },
         {
           "hash": "dceda33accfbf305636fa9e4750466840746620f",
           "short": "dceda33a",
           "message": "Update empty streak: 2026-09-14 empty=False consecutive=0",
-          "date": "2026-09-14T18:00:10Z",
+          "date": "2026-09-14T18:00:10+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/dceda33accfbf305636fa9e4750466840746620f"
         }
       ]
@@ -423,21 +421,21 @@
           "hash": "b7cec09325fa078d25a19961e08ae53bfeb05fb1",
           "short": "b7cec093",
           "message": "Daily brief: 2026-09-15 (fa)",
-          "date": "2026-09-16T19:36:05Z",
+          "date": "2026-09-16T19:36:05+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/b7cec09325fa078d25a19961e08ae53bfeb05fb1"
         },
         {
           "hash": "3d26d3d6b4f449ab6894eb83939b099e7cd8239c",
           "short": "3d26d3d6",
           "message": "Daily brief: 2026-09-15",
-          "date": "2026-09-16T19:31:18Z",
+          "date": "2026-09-16T19:31:18+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/3d26d3d6b4f449ab6894eb83939b099e7cd8239c"
         },
         {
           "hash": "69187d1854a8976c42157b09609d812f5eaedfd0",
           "short": "69187d18",
           "message": "Update empty streak: 2026-09-15 empty=False consecutive=0",
-          "date": "2026-09-15T16:45:33Z",
+          "date": "2026-09-15T16:45:33+00:00",
           "url": "https://github.com/k1monfared/news_reader/commit/69187d1854a8976c42157b09609d812f5eaedfd0"
         }
       ]
@@ -460,9 +458,37 @@
       "created_at": "2026-10-03T16:03:59Z",
       "failed_stages": [],
       "errors": [],
-      "backfilled": false,
-      "backfill_commit": null,
-      "fix_commits": []
+      "backfilled": true,
+      "backfill_commit": {
+        "hash": "8f09341fb70509cad0f16879467fe9e90f8d51b4",
+        "short": "8f09341f",
+        "message": "Daily brief: 2026-10-03 (fa)",
+        "date": "2026-10-05T20:30:47+00:00",
+        "url": "https://github.com/k1monfared/news_reader/commit/8f09341fb70509cad0f16879467fe9e90f8d51b4"
+      },
+      "fix_commits": [
+        {
+          "hash": "8f09341fb70509cad0f16879467fe9e90f8d51b4",
+          "short": "8f09341f",
+          "message": "Daily brief: 2026-10-03 (fa)",
+          "date": "2026-10-05T20:30:47+00:00",
+          "url": "https://github.com/k1monfared/news_reader/commit/8f09341fb70509cad0f16879467fe9e90f8d51b4"
+        },
+        {
+          "hash": "8dacd5c4be284f810405a90ed158b108d9770826",
+          "short": "8dacd5c4",
+          "message": "Update empty streak: 2026-10-03 empty=False consecutive=0",
+          "date": "2026-10-03T16:14:22+00:00",
+          "url": "https://github.com/k1monfared/news_reader/commit/8dacd5c4be284f810405a90ed158b108d9770826"
+        },
+        {
+          "hash": "9fc574632e6b81ed41de248138817cd9ba7cada4",
+          "short": "9fc57463",
+          "message": "Daily brief: 2026-10-03",
+          "date": "2026-10-03T16:13:50+00:00",
+          "url": "https://github.com/k1monfared/news_reader/commit/9fc574632e6b81ed41de248138817cd9ba7cada4"
+        }
+      ]
     },
     {
       "date": "2026-10-04",
@@ -471,9 +497,37 @@
       "created_at": "2026-10-04T16:43:36Z",
       "failed_stages": [],
       "errors": [],
-      "backfilled": false,
-      "backfill_commit": null,
-      "fix_commits": []
+      "backfilled": true,
+      "backfill_commit": {
+        "hash": "205ff35538d230d8000f088b6788b7a8fafdc9bc",
+        "short": "205ff355",
+        "message": "Daily brief: 2026-10-04",
+        "date": "2026-10-05T19:02:53+00:00",
+        "url": "https://github.com/k1monfared/news_reader/commit/205ff35538d230d8000f088b6788b7a8fafdc9bc"
+      },
+      "fix_commits": [
+        {
+          "hash": "39517d5d472fb91403e5c43dd5879a866bf57179",
+          "short": "39517d5d",
+          "message": "Daily brief: 2026-10-04 (fa)",
+          "date": "2026-10-05T19:03:59+00:00",
+          "url": "https://github.com/k1monfared/news_reader/commit/39517d5d472fb91403e5c43dd5879a866bf57179"
+        },
+        {
+          "hash": "205ff35538d230d8000f088b6788b7a8fafdc9bc",
+          "short": "205ff355",
+          "message": "Daily brief: 2026-10-04",
+          "date": "2026-10-05T19:02:53+00:00",
+          "url": "https://github.com/k1monfared/news_reader/commit/205ff35538d230d8000f088b6788b7a8fafdc9bc"
+        },
+        {
+          "hash": "f919ff4e943d8fe28f1acfdb998c7b63ef2f4696",
+          "short": "f919ff4e",
+          "message": "Update empty streak: 2026-10-04 empty=False consecutive=0",
+          "date": "2026-10-04T16:44:35+00:00",
+          "url": "https://github.com/k1monfared/news_reader/commit/f919ff4e943d8fe28f1acfdb998c7b63ef2f4696"
+        }
+      ]
     },
     {
       "date": "2026-10-05",
@@ -682,6 +736,33 @@
         "message": "Fix kramdown rendering errors, add render_check stage, label backfilled posts",
         "date": "2026-09-16T14:53:10-07:00",
         "url": "https://github.com/k1monfared/news_reader/commit/9c3591bee68c27b6c1f22d41d6e992269720424e"
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "posts": [
+        "docs/_fa_posts/2026-10-03-daily-brief.md"
+      ],
+      "commit": {
+        "hash": "8f09341fb70509cad0f16879467fe9e90f8d51b4",
+        "short": "8f09341f",
+        "message": "Daily brief: 2026-10-03 (fa)",
+        "date": "2026-10-05T20:30:47+00:00",
+        "url": "https://github.com/k1monfared/news_reader/commit/8f09341fb70509cad0f16879467fe9e90f8d51b4"
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "posts": [
+        "docs/_posts/2026-10-04-daily-brief.md",
+        "docs/_fa_posts/2026-10-04-daily-brief.md"
+      ],
+      "commit": {
+        "hash": "205ff35538d230d8000f088b6788b7a8fafdc9bc",
+        "short": "205ff355",
+        "message": "Daily brief: 2026-10-04",
+        "date": "2026-10-05T19:02:53+00:00",
+        "url": "https://github.com/k1monfared/news_reader/commit/205ff35538d230d8000f088b6788b7a8fafdc9bc"
       }
     }
   ]

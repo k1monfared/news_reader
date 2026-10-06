@@ -1,10 +1,11 @@
 ---
 layout: post
 lang: fa
-title: "گزارش روزانه: ۱۱ مهر ۱۴۰۵"
+title: "گزارش روزانه: ۱۱ مهر ۱۴۰۵ (با تأخیر)"
 date: 2026-10-03
 date_fa: "۱۱ مهر ۱۴۰۵"
 sources_down: []
+backfilled: true
 generated_at: "2026-10-03 09:13 UTC-07:00"
 models_used: ["deepseek-v4-flash", "deepseek-v4-pro"]
 ---

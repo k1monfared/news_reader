@@ -68,7 +68,9 @@ def main() -> int:
     http_client = AuditedHTTPClient(str(run_dir))
     result: dict = {}
     try:
-        result = run_translate_fa(str(run_dir), config, llm_client, http_client)
+        result = run_translate_fa(
+            str(run_dir), config, llm_client, http_client, force_backfilled=True
+        )
     except Exception as exc:  # noqa: BLE001 - record and exit non-zero
         logger.error(f"translate_fa failed for {date_str}: {exc}", exc_info=True)
         result = {"status": "failed", "error": str(exc)}

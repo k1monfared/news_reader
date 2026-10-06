@@ -4,6 +4,14 @@
     - Stage: MVP
     - Next Milestone: Confirm a green CI run with the free-model-first chain and the failure notifier
 
+- Averages by recorded days, EN-only story counts, backfill markers (2026-10-06)
+    - Averages now divide by the number of days with data for each metric (new Days column) and add an "Est. all-time" extrapolation across the full period; footnote notes partial metrics are estimates
+    - Story and link totals count the English brief only, since the Farsi edition is a translation; FA counts remain as separate breakdown charts
+    - Fixed backfill marking: run_meta.json is now written before the stage loop, so publish sees the backfill flag (previously the marker was never applied during a run)
+    - translate_fa gains force_backfilled, used by the Farsi-only regeneration so a late FA edition is marked backfilled
+    - Retroactively marked 2026-10-04 (EN+FA) and 2026-10-03 (FA) as backfilled; failures view now shows 10-03 and 10-04 as backfilled with commit links (19 failed, 16 backfilled, 11 repaired)
+    - Tests: 174 passing
+
 - Fix: metrics ran before run_meta was written (2026-10-06)
     - The metrics stage was in the stage loop, so it read run_meta.json before run_pipeline wrote it, producing a run record with no run_id/status/funnel (only tokens)
     - metrics now runs after run_meta.json is finalized (removed from stage_order, invoked explicitly, still non-critical)

@@ -37,8 +37,9 @@ def _install_fakes(monkeypatch, config, recorder):
     monkeypatch.setattr(mod, "AuditedLLMClient", lambda *a, **k: _FakeLLM())
     monkeypatch.setattr(mod, "AuditedHTTPClient", lambda *a, **k: _FakeHTTP())
 
-    def fake_run(run_dir, cfg, llm, http):
+    def fake_run(run_dir, cfg, llm, http, **kwargs):
         recorder["run_dir"] = run_dir
+        recorder["force_backfilled"] = kwargs.get("force_backfilled")
         return {"status": "published", "fa_post": "x"}
 
     monkeypatch.setattr(mod, "run_translate_fa", fake_run)

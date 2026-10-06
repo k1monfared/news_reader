@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Daily Brief: October 04, 2026"
+title: "Daily Brief: October 04, 2026 (backfilled)"
 date: 2026-10-04
 categories: [daily-brief]
+backfilled: true
 sources_down: []
 generated_at: "2026-10-05 12:02 UTC-07:00"
 models_used: ["longcat-2.5-preview-free", "deepseek-v4-pro"]

@@ -159,7 +159,7 @@ def _funnel(meta: dict, posted_en: int, posted_fa: int) -> dict:
         "development": track.get("development"),
         "posted_en": posted_en,
         "posted_fa": posted_fa,
-        "posted": posted_en + posted_fa,
+        "posted": posted_en,
     }
 
 
@@ -219,10 +219,10 @@ def build_run_record(
         "models": audit.get("models", []),
         "posted_en": posted_en,
         "posted_fa": posted_fa,
-        "posted": posted_en + posted_fa,
+        "posted": posted_en,
         "links_en": links_en,
         "links_fa": links_fa,
-        "links": links_en + links_fa,
+        "links": links_en,
         "emails": emails,
         "subscribers_en": subs_en,
         "subscribers_fa": subs_fa,
@@ -325,10 +325,10 @@ def _day_from_record(rec: dict, en_post: str | None, fa_post: str | None, empty)
         "fa": fa_post is not None,
         "posted_en": rec.get("posted_en", 0),
         "posted_fa": rec.get("posted_fa", 0),
-        "posted": rec.get("posted", 0),
+        "posted": rec.get("posted_en", 0),
         "links_en": rec.get("links_en", 0),
         "links_fa": rec.get("links_fa", 0),
-        "links": rec.get("links", 0),
+        "links": rec.get("links_en", 0),
         "processed": (rec.get("funnel", {}) or {}).get("fetched"),
         "included": (rec.get("funnel", {}) or {}).get("included"),
         "new_stories": (rec.get("funnel", {}) or {}).get("new"),
@@ -383,10 +383,10 @@ def _day_from_posts(date_str: str, en_post, fa_post, ledger, empty) -> dict:
         "fa": fa_post is not None,
         "posted_en": posted_en,
         "posted_fa": posted_fa,
-        "posted": posted_en + posted_fa,
+        "posted": posted_en,
         "links_en": links_en,
         "links_fa": links_fa,
-        "links": links_en + links_fa,
+        "links": links_en,
         "processed": None,
         "included": None,
         "new_stories": None,
@@ -502,34 +502,50 @@ def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
         totals["subscribers_total_ever"] = None
 
     running = totals["days_running"] or 0
+    token_days = sum(
+        1 for d in days if (d.get("tokens") or {}).get("input") is not None
+    )
 
-    def _rate(total):
-        if total is None or running <= 0:
-            return {"per_day": None, "per_week": None, "per_month": None}
-        per_day = total / running
+    def _known(key: str) -> int:
+        return sum(1 for d in days if d.get(key) is not None)
+
+    def _rate(total, known: int):
+        """Average over the days that actually have data, plus an extrapolated
+        all-time estimate across the full running period."""
+        if total is None or known <= 0:
+            return {
+                "per_day": None,
+                "per_week": None,
+                "per_month": None,
+                "days": known,
+                "estimated_total": None,
+            }
+        per_day = total / known
         return {
             "per_day": round(per_day, 1),
             "per_week": round(per_day * 7, 1),
             "per_month": round(per_day * 30.44, 1),
+            "days": known,
+            "estimated_total": round(per_day * running) if running else None,
         }
 
     totals["rates"] = {
-        "posted": _rate(totals["posted"]),
-        "posted_en": _rate(totals["posted_en"]),
-        "posted_fa": _rate(totals["posted_fa"]),
-        "processed": _rate(totals["processed"]),
-        "included": _rate(totals["included"]),
-        "new_stories": _rate(totals["new_stories"]),
-        "continuations": _rate(totals["continuations"]),
-        "developments": _rate(totals["developments"]),
-        "biases": _rate(totals["biases"]),
-        "links": _rate(totals["links"]),
-        "emails": _rate(totals["emails_total"]),
-        "deliveries": _rate(totals["deliveries"]),
-        "tokens_input": _rate(totals["tokens_input"]),
-        "tokens_output": _rate(totals["tokens_output"]),
-        "tokens_thinking": _rate(totals["tokens_thinking"]),
-        "tokens_total": _rate(totals["tokens_total"]),
+        "posted": _rate(totals["posted"], _known("posted")),
+        "posted_en": _rate(totals["posted_en"], _known("posted_en")),
+        "posted_fa": _rate(totals["posted_fa"], _known("posted_fa")),
+        "processed": _rate(totals["processed"], _known("processed")),
+        "included": _rate(totals["included"], _known("included")),
+        "new_stories": _rate(totals["new_stories"], _known("new_stories")),
+        "continuations": _rate(totals["continuations"], _known("continuations")),
+        "developments": _rate(totals["developments"], _known("developments")),
+        "biases": _rate(totals["biases"], _known("biases")),
+        "links": _rate(totals["links"], _known("links")),
+        "emails": _rate(totals["emails_total"], _known("emails_total")),
+        "deliveries": _rate(totals["deliveries"], _known("deliveries")),
+        "tokens_input": _rate(totals["tokens_input"], token_days),
+        "tokens_output": _rate(totals["tokens_output"], token_days),
+        "tokens_thinking": _rate(totals["tokens_thinking"], token_days),
+        "tokens_total": _rate(totals["tokens_total"], token_days),
     }
 
     totals["entries_per_brief_en"] = (
