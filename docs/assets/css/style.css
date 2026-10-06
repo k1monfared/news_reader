@@ -985,6 +985,7 @@ main {
 /* Dashboard chart: axes + hover tooltip */
 
 .dashboard .chart {
+  position: relative;
   display: flex;
   gap: 8px;
   margin-bottom: 28px;
@@ -1027,20 +1028,16 @@ main {
   position: relative;
 }
 
-.dashboard .bar-col:hover::after {
-  content: attr(data-tip);
+.dashboard .chart-tip {
   position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 4px;
+  transform: translate(-50%, -100%);
   padding: 2px 7px;
   border-radius: 4px;
   background-color: var(--text);
   color: var(--bg);
   font-size: 0.7rem;
   white-space: nowrap;
-  z-index: 5;
+  z-index: 10;
   pointer-events: none;
 }
 
@@ -1091,6 +1088,7 @@ main {
 
 .dashboard .chart-scroll .chart-x {
   width: max-content;
+  gap: 2px;
 }
 
 .dashboard .chart-scroll .x-label {
@@ -1147,3 +1145,21 @@ main {
 .dashboard .funnel-failed { background-color: rgba(248, 81, 73, 0.08); }
 .dashboard .funnel-degraded { background-color: rgba(210, 153, 34, 0.08); }
 .dashboard .funnel-skipped { opacity: 0.7; }
+
+.dashboard .run-stale {
+  margin: 8px 0 14px;
+  padding: 10px 14px;
+  border: 1px solid var(--sources-down-border, #6b3a3a);
+  border-radius: 8px;
+  background-color: var(--sources-down-bg, #3a2828);
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.dashboard .chart-block {
+  margin-bottom: 20px;
+}
+
+.dashboard .chart-block .chart {
+  margin-bottom: 0;
+}

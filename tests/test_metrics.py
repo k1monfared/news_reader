@@ -18,6 +18,7 @@ from stages.metrics import (
     latest_by_date,
     load_run_records,
     read_audit,
+    read_bias_counts,
     recompute_totals,
     run_metrics,
 )
@@ -267,3 +268,36 @@ class TestRunDb:
         assert totals["tokens_input"] == 100
         assert totals["tokens_total"] == 125
         assert totals["rates"]["tokens_total"]["per_day"] == 125.0
+
+    def test_status_and_bias_totals(self):
+        days = [{
+            "date": "2026-10-01", "posted": 2, "posted_en": 2, "posted_fa": 0, "links": 2,
+            "en": True, "fa": False, "emails": {}, "subscribers": None, "status": "success",
+            "empty": False, "processed": None, "included": None,
+            "tokens": {"input": None, "output": None, "thinking": None, "calls": None},
+            "new_stories": 5, "continuations": 3, "developments": 1, "biases": 2,
+        }]
+        totals = recompute_totals(days, None)
+        assert totals["new_stories"] == 5
+        assert totals["continuations"] == 3
+        assert totals["developments"] == 1
+        assert totals["biases"] == 2
+        assert totals["rates"]["new_stories"]["per_day"] == 5.0
+
+
+class TestBiasCounts:
+    def test_counts_by_date(self, tmp_path):
+        path = tmp_path / "source_biases.json"
+        path.write_text(json.dumps({
+            "src": {"biases": [
+                {"date_added": "2026-10-01"},
+                {"date_added": "2026-10-01"},
+                {"date_added": "2026-10-02"},
+            ]}
+        }))
+        counts = read_bias_counts(str(path))
+        assert counts["2026-10-01"] == 2
+        assert counts["2026-10-02"] == 1
+
+    def test_missing_file(self, tmp_path):
+        assert read_bias_counts(str(tmp_path / "nope.json")) == {}

@@ -1,0 +1,50 @@
+name: Build Failures
+
+# Rebuild docs/_data/failures.json from GitHub Actions runs, the run database,
+# and git history. Runs on its own schedule so failures are recorded even when
+# the pipeline aborts before its own stages run. Manual dispatch supported.
+on:
+  schedule:
+    - cron: '30 7 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Build failures view
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/build_failures.py
+
+      - name: Commit failures view
+        if: always()
+        run: |
+          git add docs/_data/failures.json
+          if git diff --cached --quiet; then
+            echo "unchanged"
+            exit 0
+          fi
+          git commit -m "Update failures view"
+          git push origin master

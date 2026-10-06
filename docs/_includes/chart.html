@@ -1,0 +1,22 @@
+<h3>{{ include.label }}</h3>
+<div class="chart-block" data-chart="{{ include.metric }}">
+  <div class="chart-toolbar">
+    <button type="button" class="chart-btn" data-zoom="out" aria-label="Zoom out">-</button>
+    <button type="button" class="chart-btn" data-zoom="in" aria-label="Zoom in">+</button>
+    <button type="button" class="chart-btn" data-zoom="reset">Reset</button>
+  </div>
+  <div class="chart">
+    <div class="chart-y" aria-hidden="true">
+      <span data-y="max">-</span>
+      <span data-y="mid">-</span>
+      <span data-y="min">0</span>
+    </div>
+    <div class="chart-body">
+      <div class="chart-scroll">
+        <div class="bars" role="img" aria-label="{{ include.label }} per day"></div>
+        <div class="chart-x" aria-hidden="true"></div>
+      </div>
+    </div>
+    <div class="chart-tip" hidden></div>
+  </div>
+</div>

@@ -15,7 +15,14 @@ permalink: /dashboard/
 <p class="chart-note">Automated status and counts for this brief, rebuilt once per day after the run. Counts cover both languages. Last updated {{ t.generated_at | default: "unknown" }}.</p>
 
 <h2>Today's run{% if today %} — {{ today.target_date }}{% endif %}</h2>
+<div id="run-stale" class="run-stale" hidden>
+  <strong>No recent run detected.</strong> The last recorded brief is <span id="run-stale-date"></span>. If it is more than about 26 hours old, the scheduled run likely failed.
+</div>
 {% if today %}
+<span id="dashboard-last-run" data-last-run="{{ today.finished_at | default: today.target_date }}" hidden></span>
+{% if today.recorded == false %}
+<p class="chart-note">Stage funnel and token data were not recorded for this day (it predates run tracking); they will appear after the next run.</p>
+{% endif %}
 <section class="cards">
   <div class="card">
     <span class="card-value"><span class="badge badge-{{ today.status | default: 'unknown' }}">{{ today.status | default: "unknown" }}</span></span>
@@ -151,6 +158,14 @@ permalink: /dashboard/
   </div>
 </section>
 
+<h2>Failures</h2>
+{% assign f = site.data.failures %}
+{% if f and f.counts %}
+<p class="chart-note">{{ f.counts.failed }} failed day(s), {{ f.counts.backfilled }} backfilled day(s), {{ f.counts.failed_and_backfilled }} of them repaired. <a href="{{ '/failures/' | relative_url }}">Failure log</a>.</p>
+{% else %}
+<p class="chart-note">No failure data yet.</p>
+{% endif %}
+
 <h2>Averages</h2>
 <p class="chart-note">Over {{ t.days_running | default: "—" }} days. Average entries per brief: {{ t.entries_per_brief_en | default: "—" }} EN, {{ t.entries_per_brief_fa | default: "—" }} FA.{% if t.subscribers_growth %} Subscriber growth: {{ t.subscribers_growth.total }} total{% if t.subscribers_growth.per_week != nil %}, {{ t.subscribers_growth.per_week }}/week{% endif %}.{% endif %}</p>
 <div class="table-wrap">
@@ -164,6 +179,10 @@ permalink: /dashboard/
     <tr><td>Entries posted (FA)</td><td>{{ t.rates.posted_fa.per_day | default: "—" }}</td><td>{{ t.rates.posted_fa.per_week | default: "—" }}</td><td>{{ t.rates.posted_fa.per_month | default: "—" }}</td></tr>
     <tr><td>Links processed</td><td>{{ t.rates.processed.per_day | default: "—" }}</td><td>{{ t.rates.processed.per_week | default: "—" }}</td><td>{{ t.rates.processed.per_month | default: "—" }}</td></tr>
     <tr><td>Links included</td><td>{{ t.rates.included.per_day | default: "—" }}</td><td>{{ t.rates.included.per_week | default: "—" }}</td><td>{{ t.rates.included.per_month | default: "—" }}</td></tr>
+    <tr><td>New stories</td><td>{{ t.rates.new_stories.per_day | default: "—" }}</td><td>{{ t.rates.new_stories.per_week | default: "—" }}</td><td>{{ t.rates.new_stories.per_month | default: "—" }}</td></tr>
+    <tr><td>Continuations (repeats, excluded)</td><td>{{ t.rates.continuations.per_day | default: "—" }}</td><td>{{ t.rates.continuations.per_week | default: "—" }}</td><td>{{ t.rates.continuations.per_month | default: "—" }}</td></tr>
+    <tr><td>Developments (updates)</td><td>{{ t.rates.developments.per_day | default: "—" }}</td><td>{{ t.rates.developments.per_week | default: "—" }}</td><td>{{ t.rates.developments.per_month | default: "—" }}</td></tr>
+    <tr><td>Biases found</td><td>{{ t.rates.biases.per_day | default: "—" }}</td><td>{{ t.rates.biases.per_week | default: "—" }}</td><td>{{ t.rates.biases.per_month | default: "—" }}</td></tr>
     <tr><td>Source links cited</td><td>{{ t.rates.links.per_day | default: "—" }}</td><td>{{ t.rates.links.per_week | default: "—" }}</td><td>{{ t.rates.links.per_month | default: "—" }}</td></tr>
     <tr><td>Emails sent</td><td>{{ t.rates.emails.per_day | default: "—" }}</td><td>{{ t.rates.emails.per_week | default: "—" }}</td><td>{{ t.rates.emails.per_month | default: "—" }}</td></tr>
     <tr><td>Recipient deliveries</td><td>{{ t.rates.deliveries.per_day | default: "—" }}</td><td>{{ t.rates.deliveries.per_week | default: "—" }}</td><td>{{ t.rates.deliveries.per_month | default: "—" }}</td></tr>
@@ -175,26 +194,24 @@ permalink: /dashboard/
 </table>
 </div>
 
-<h2>Brief entries per day</h2>
-<p class="chart-note">Zero baseline. Drag to pan, scroll sideways, or use the buttons (Ctrl/⌘ + wheel also zooms). Hover a bar for its date and count. {{ d.days | size }} days available.</p>
-<div class="chart-toolbar">
-  <button type="button" id="chart-zoom-out" class="chart-btn" aria-label="Zoom out">-</button>
-  <button type="button" id="chart-zoom-in" class="chart-btn" aria-label="Zoom in">+</button>
-  <button type="button" id="chart-reset" class="chart-btn">Reset</button>
-</div>
-<div class="chart">
-  <div class="chart-y" aria-hidden="true">
-    <span data-y="max">-</span>
-    <span data-y="mid">-</span>
-    <span data-y="min">0</span>
-  </div>
-  <div class="chart-body">
-    <div class="chart-scroll" id="chart-scroll">
-      <div class="bars" id="chart-bars" role="img" aria-label="Brief entries per day"></div>
-      <div class="chart-x" id="chart-x" aria-hidden="true"></div>
-    </div>
-  </div>
-</div>
+<h2>Per-day metrics</h2>
+<p class="chart-note">Zero baseline. Drag to pan, scroll sideways, Ctrl/⌘ + wheel zooms, click a bar to open that day's brief. {{ d.days | size }} days available.</p>
+{% include chart.html metric="posted" label="Brief entries posted" %}
+{% include chart.html metric="posted_en" label="Entries posted (EN)" %}
+{% include chart.html metric="posted_fa" label="Entries posted (FA)" %}
+{% include chart.html metric="processed" label="Links processed" %}
+{% include chart.html metric="included" label="Links included" %}
+{% include chart.html metric="links" label="Source links cited" %}
+{% include chart.html metric="new_stories" label="New stories" %}
+{% include chart.html metric="continuations" label="Continuations (repeats, excluded)" %}
+{% include chart.html metric="developments" label="Developments (updates)" %}
+{% include chart.html metric="biases" label="Biases found" %}
+{% include chart.html metric="emails_total" label="Emails sent" %}
+{% include chart.html metric="deliveries" label="Recipient deliveries" %}
+{% include chart.html metric="tokens_input" label="Input tokens" %}
+{% include chart.html metric="tokens_output" label="Output tokens" %}
+{% include chart.html metric="tokens_thinking" label="Thinking tokens" %}
+{% include chart.html metric="tokens_total" label="Total tokens" %}
 
 <h2>Daily status</h2>
 <div class="table-wrap">
@@ -228,7 +245,8 @@ permalink: /dashboard/
   <strong>success</strong>: all critical stages passed. <strong>degraded</strong>: a non-critical stage failed or editorial shipped an unedited draft. <strong>failed</strong>: a critical stage failed. <strong>unknown</strong>: historical day before status tracking began.
 </p>
 
-<script id="dashboard-days" type="application/json">[{% for day in d.days %}{"date":"{{ day.date }}","posted":{{ day.posted | default: 0 }}}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
+<script id="dashboard-days" type="application/json">{{ d.days | jsonify }}</script>
+<span id="dashboard-base" data-base="{{ '/' | relative_url }}" hidden></span>
 <script src="{{ '/assets/js/dashboard.js' | relative_url }}" defer></script>
 
 </div>

@@ -24,6 +24,7 @@ from stages.metrics import (
     DEFAULT_DB_FILE,
     build_dashboard,
     load_run_records,
+    read_bias_counts,
 )
 
 
@@ -62,8 +63,10 @@ def main() -> int:
     }
 
     records = load_run_records(db_file)
+    bias_by_date = read_bias_counts(str(site_dir / "_data" / "source_biases.json"))
     payload = build_dashboard(
-        records, en_dir, fa_dir, ledger, empty_by_date, joins=None, today_date=None
+        records, en_dir, fa_dir, ledger, empty_by_date, joins=None, today_date=None,
+        bias_by_date=bias_by_date,
     )
 
     # Preserve the live total-ever subscriber count (no network here).

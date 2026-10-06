@@ -4,6 +4,16 @@
     - Stage: MVP
     - Next Milestone: Confirm a green CI run with the free-model-first chain and the failure notifier
 
+- Dashboard charts, story/bias metrics, and Failures page (2026-10-05)
+    - Today's run is always present: the run DB record for today, else the latest recorded run, else the latest day derived from posts/ledger; a JS staleness banner warns when the last brief is more than ~26h old
+    - Interactive charts: horizontal scroll, zoom in/out, drag-to-pan, hover tooltip, and click a bar to open that day's English brief; one stacked chart per metric
+    - New per-day metrics and averages: biases found (from source_biases.json date_added), new stories / continuations (repeats, excluded) / developments (updates) from track_developments, plus the existing links/emails/token series
+    - Run DB record now includes errors and funnel status counts; day records carry biases, new_stories, continuations, developments
+    - New /failures/ page + Build Failures workflow (scripts/build_failures.py): failed days from GitHub Actions runs mapped to the brief date, with run-log links, what failed (from the DB), whether backfilled, and the fix/backfill commit; counts of failed vs backfilled vs repaired; runs on its own schedule so failures are recorded even when the pipeline aborts
+    - Dashboard gains a Failures summary linking to /failures/
+    - Tests: 170 passing
+    - Note: historical new/continuation/development counts are null (run_meta not committed); they fill in from the next run. Failed-stage detail for old GitHub-only failures is empty (no DB record); the run log link covers those.
+
 - Run Metrics Database and Today's Run Dashboard (2026-10-05)
     - New run database data/run_metrics.jsonl: one comprehensive JSON record per run (ordered stage funnel with status/duration/errors, per-stage and total token usage, emails with recipients, subscribers, models). Append/update by run_id; meant to be re-queried and re-visualised later
     - docs/_data/dashboard.json is now one view over that database plus posts/ledger history: today's full run, per-day aggregates, all-time totals and rates
