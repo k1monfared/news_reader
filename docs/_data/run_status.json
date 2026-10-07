@@ -1,0 +1,10 @@
+{
+  "run_id": "2026-10-07-104633",
+  "target_date": "2026-10-07",
+  "status": "running",
+  "started_at": "2026-10-07T17:46:33Z",
+  "updated_at": "2026-10-07T17:46:33Z",
+  "current_stage": "fetch",
+  "total_stages": 13,
+  "stages": []
+}
