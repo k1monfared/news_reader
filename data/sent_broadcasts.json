@@ -1538,5 +1538,12 @@
       "recipients": 8,
       "sent_at": "2026-10-07T18:26:02Z"
     }
+  },
+  "2026-10-08": {
+    "en": {
+      "broadcast_id": "21c4b5fb-96ee-4037-9694-1bd5ef95a6d2",
+      "recipients": 8,
+      "sent_at": "2026-10-08T18:14:00Z"
+    }
   }
 }
