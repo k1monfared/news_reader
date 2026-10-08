@@ -11153,6 +11153,17 @@
         "example_url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-910205",
         "unbiased_text": "نتانیاهو تأیید کرد که خلبان به همکارش چاقو زده است؛ مقامات از مسافران که مداخله کردند تشکر کردند",
         "pattern_en": "Passenger heroism nationalization"
+      },
+      {
+        "pattern": "خودتوجیهی در دیپلماسی تلافی‌جویانه",
+        "detail": "The Jerusalem Post گزارش می‌دهد که اسرائیل با بستن اجباری کنسولگری بریتانیا، از قاب رسمی اعمال پیامدها بر کشوری دشمن‌گونه استفاده می‌کند و اقدام تلافی‌جویانه را به‌جای به چالش کشیده شدن، توجیه‌شده تلقی می‌کند.",
+        "debias": "اقدام دیپلماتیک و مواضع اعلام‌شده هر دو دولت را بدون پذیرش این قاب که تلافی مشروع یا سزاوارانه است، توصیف کنید.",
+        "date_added": "2026-10-08",
+        "status": "suggested",
+        "example_text": "گیدوئین ساعر، وزیر امور خارجه، به The Jerusalem Post گفت که اسرائیل در برابر کشورهایی که اقدام دیپلماتیک دشمن‌گونه انجام می‌دهند تلافی خواهد کرد و به بریتانیا هشدار داد که خطر از دست دادن نفوذ در غزه و اورشلیم را دارد.",
+        "example_url": "https://www.jpost.com/israel-news/article-911092",
+        "unbiased_text": "گیدوئین ساعر، وزیر امور خارجه اسرائیل، گفت که اسرائیل علیه کشورهایی که اقدامات دیپلماتیکی را که دشمن‌گونه می‌داند انجام می‌دهند، اقدام خواهد کرد و به بریتانیا هشدار داد که ممکن است نفوذ خود را در غزه و اورشلیم از دست دهد؛ بریتانیا گفت که مأموریت و خدمات حیاتی خود را حفظ خواهد کرد.",
+        "pattern_en": "Retaliatory Diplomacy Self-Vindication"
       }
     ]
   },
@@ -11280,6 +11291,17 @@
         "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-pm-says-strong-indications-iran-involved-airbase-scare",
         "unbiased_text": "نخست‌وزیر بریتانیا می‌گوید «نشانه‌های قوی» از دخالت ایران در حادثه امنیتی پایگاه هوایی فیرفورد وجود دارد",
         "pattern_en": "Security scare minimization framing"
+      },
+      {
+        "pattern": "Capitulation Accusation Framing",
+        "detail": "Middle East Eye characterizes Britain's decision not to retaliate or defy Israel's consulate closure as a weaker, less strident choice that ignored calls to resist, framing diplomatic compromise as appeasement.",
+        "debias": "Report the UK's actual actions and stated justification without labelling the decision as weakness, capitulation, or failure to resist.",
+        "date_added": "2026-10-08",
+        "status": "suggested",
+        "example_text": "Britain has announced it is closing its consulate in occupied East Jerusalem and downgrading its building to the status of a mission, ignoring calls to defy Israel's orders.",
+        "example_url": "https://www.middleeasteye.net/news/ed-miliband-insists-uk-will-build-back-presence-jerusalem-british-consulate-jerusalem-closes",
+        "unbiased_text": "Britain has announced that its consulate in occupied East Jerusalem will operate as the UK Mission, Jerusalem; Foreign Secretary Miliband said the building would remain open and would continue delivering vital services.",
+        "pattern_en": "Capitulation Accusation Framing"
       }
     ]
   },
@@ -11628,6 +11650,17 @@
         "example_url": "https://www.thehindu.com/news/international/several-people-dead-as-russia-and-ukraine-exchange-strikes-and-aerial-war-intensifies/article71512611.ece",
         "unbiased_text": "حداقل ۷ کشته در حالی که روسیه به اوکراین حمله می‌کند و اوکراین پاسخ می‌دهد، در حالی که جنگ هوایی تشدید می‌شود",
         "pattern_en": "Belligerent Exchange Framing"
+      },
+      {
+        "pattern": "پیش‌روی تأثیر ذی‌نفعان هندی",
+        "detail": "The Hindu داستان تعلیق ویزای آمریکا را با نام شرکت‌های فناوری اطلاعات هندی متأثر آغاز می‌کند، نه با اقدام اصلی سیاست آمریکا، و تأثیر ملی شرکت‌ها را بر خود رویداد پیش‌زمینه می‌کند.",
+        "debias": "با تصمیم اصلی سیاست و بازیگران اصلی آن آغاز کنید، سپس تأثیرات مخصوص هند را به‌عنوان زمینه فرعی ذکر کنید.",
+        "date_added": "2026-10-08",
+        "status": "suggested",
+        "example_text": "Cognizant، Infosys، Tata، Wipro و HCL از جمله شرکت‌های فناوری اطلاعاتی هستند که از برنامه کارت سبز آمریکا تعلیق شده‌اند",
+        "example_url": "https://www.thehindu.com/news/international/ussuspends-microsoft-adobe-and-major-it-firms-from-perm-green-card-programme/article71560826.ece",
+        "unbiased_text": "آمریکا Microsoft، Adobe و سایر شرکت‌های بزرگ را از برنامه کارت سبز PERM تعلیق کرده است؛ شرکت‌های فناوری اطلاعات هندی از جمله Cognizant، Infosys، Tata، Wipro و HCL از جمله متأثران هستند.",
+        "pattern_en": "Indian Stakeholder Impact Lead"
       }
     ]
   }
