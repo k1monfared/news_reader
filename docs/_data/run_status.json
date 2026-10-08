@@ -3,8 +3,8 @@
   "target_date": "2026-10-08",
   "status": "running",
   "started_at": "2026-10-08T17:50:26Z",
-  "updated_at": "2026-10-08T18:00:57Z",
-  "current_stage": "summarize",
+  "updated_at": "2026-10-08T18:02:17Z",
+  "current_stage": "editorial",
   "total_stages": 13,
   "stages": [
     {
@@ -48,6 +48,13 @@
       "duration_s": 352.31,
       "error": null,
       "finished_at": "2026-10-08T18:00:57Z"
+    },
+    {
+      "name": "summarize",
+      "status": "completed",
+      "duration_s": 78.42,
+      "error": null,
+      "finished_at": "2026-10-08T18:02:17Z"
     }
   ]
 }
