@@ -10056,6 +10056,16 @@
         "example_text": "Netanyahu confirms flydubai pilot conducted stabbing, praises passengers' heroism at Ben-Gurion",
         "example_url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-910205",
         "unbiased_text": "Netanyahu confirms pilot stabbed colleague; officials thank passengers who intervened"
+      },
+      {
+        "pattern": "Retaliatory Diplomacy Self-Vindication",
+        "detail": "The Jerusalem Post reports Israel's forced closure of the UK consulate through the official framing of enacting consequences on a hostile country, treating retaliatory action as justified rather than contested.",
+        "debias": "Describe the diplomatic action and both governments' stated positions without adopting the framing that the retaliation is legitimate or deserved.",
+        "date_added": "2026-10-08",
+        "status": "suggested",
+        "example_text": "Foreign Minister Gideon Sa'ar told The Jerusalem Post that Israel will retaliate against countries taking hostile diplomatic action, warning Britain it risks losing influence in Gaza and Jerusalem.",
+        "example_url": "https://www.jpost.com/israel-news/article-911092",
+        "unbiased_text": "Israeli Foreign Minister Gideon Sa'ar said Israel would take measures against countries taking diplomatic actions it considers hostile, and warned Britain it could lose influence in Gaza and Jerusalem; Britain said it would maintain a mission and vital services."
       }
     ]
   },
@@ -10172,6 +10182,16 @@
         "example_text": "UK PM says 'strong indications' Iran involved in airbase scare",
         "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-pm-says-strong-indications-iran-involved-airbase-scare",
         "unbiased_text": "UK PM says 'strong indications' Iran involved in RAF Fairford security incident"
+      },
+      {
+        "pattern": "Capitulation Accusation Framing",
+        "detail": "Middle East Eye characterizes Britain's decision not to retaliate or defy Israel's consulate closure as a weaker, less strident choice that ignored calls to resist, framing diplomatic compromise as appeasement.",
+        "debias": "Report the UK's actual actions and stated justification without labelling the decision as weakness, capitulation, or failure to resist.",
+        "date_added": "2026-10-08",
+        "status": "suggested",
+        "example_text": "Britain has announced it is closing its consulate in occupied East Jerusalem and downgrading its building to the status of a mission, ignoring calls to defy Israel's orders.",
+        "example_url": "https://www.middleeasteye.net/news/ed-miliband-insists-uk-will-build-back-presence-jerusalem-british-consulate-jerusalem-closes",
+        "unbiased_text": "Britain has announced that its consulate in occupied East Jerusalem will operate as the UK Mission, Jerusalem; Foreign Secretary Miliband said the building would remain open and would continue delivering vital services."
       }
     ]
   },
@@ -10490,6 +10510,16 @@
         "example_text": "At least 7 dead as Russia, Ukraine exchange strikes and aerial war intensifies",
         "example_url": "https://www.thehindu.com/news/international/several-people-dead-as-russia-and-ukraine-exchange-strikes-and-aerial-war-intensifies/article71512611.ece",
         "unbiased_text": "At least 7 dead as Russia strikes Ukraine and Ukraine responds, as aerial war intensifies"
+      },
+      {
+        "pattern": "Indian Stakeholder Impact Lead",
+        "detail": "The Hindu leads the US visa-suspension story with the names of affected Indian IT firms rather than the primary US policy action, foregrounding national corporate impact over the event itself.",
+        "debias": "Lead with the main policy decision and its primary actors, then note Indian-specific effects as secondary context.",
+        "date_added": "2026-10-08",
+        "status": "suggested",
+        "example_text": "Cognizant, Infosys, Tata, Wipro and HCL among IT firms suspended from U.S. green card programme",
+        "example_url": "https://www.thehindu.com/news/international/ussuspends-microsoft-adobe-and-major-it-firms-from-perm-green-card-programme/article71560826.ece",
+        "unbiased_text": "US suspends Microsoft, Adobe and other major firms from the PERM green card programme; Indian IT companies including Cognizant, Infosys, Tata, Wipro and HCL are among those affected."
       }
     ]
   }
