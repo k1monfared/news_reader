@@ -3,8 +3,8 @@
   "target_date": "2026-10-09",
   "status": "running",
   "started_at": "2026-10-09T17:25:08Z",
-  "updated_at": "2026-10-09T17:30:40Z",
-  "current_stage": "track_developments",
+  "updated_at": "2026-10-09T17:33:53Z",
+  "current_stage": "summarize",
   "total_stages": 13,
   "stages": [
     {
@@ -41,6 +41,13 @@
       "duration_s": 42.93,
       "error": null,
       "finished_at": "2026-10-09T17:30:40Z"
+    },
+    {
+      "name": "track_developments",
+      "status": "completed",
+      "duration_s": 192.14,
+      "error": null,
+      "finished_at": "2026-10-09T17:33:53Z"
     }
   ]
 }
