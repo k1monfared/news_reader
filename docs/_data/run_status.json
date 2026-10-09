@@ -3,8 +3,8 @@
   "target_date": "2026-10-09",
   "status": "running",
   "started_at": "2026-10-09T17:25:08Z",
-  "updated_at": "2026-10-09T17:25:19Z",
-  "current_stage": "translate",
+  "updated_at": "2026-10-09T17:25:20Z",
+  "current_stage": "dedup",
   "total_stages": 13,
   "stages": [
     {
@@ -13,6 +13,13 @@
       "duration_s": 10.47,
       "error": null,
       "finished_at": "2026-10-09T17:25:19Z"
+    },
+    {
+      "name": "translate",
+      "status": "completed",
+      "duration_s": 0.01,
+      "error": null,
+      "finished_at": "2026-10-09T17:25:20Z"
     }
   ]
 }
