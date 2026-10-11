@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T17:51:34.861857+00:00",
+  "generated_at": "2026-10-11T12:44:22.447509+00:00",
   "bases_probed": [
     "https://opencode.ai/zen/go/v1",
     "https://opencode.ai/zen/v1"
@@ -7,10 +7,6 @@
   "selected": [
     {
       "id": "longcat-2.5-preview-free",
-      "base_url": "https://opencode.ai/zen/go/v1"
-    },
-    {
-      "id": "space-bunny-free",
       "base_url": "https://opencode.ai/zen/go/v1"
     }
   ],
@@ -23,11 +19,18 @@
       "status": 200
     },
     {
+      "id": "step-5-preview-free",
+      "base_url": "https://opencode.ai/zen/go/v1",
+      "route": "chat/completions",
+      "outcome": "HTTP_429_OTHER",
+      "status": 429
+    },
+    {
       "id": "space-bunny-free",
       "base_url": "https://opencode.ai/zen/go/v1",
       "route": "chat/completions",
-      "outcome": "OK",
-      "status": 200
+      "outcome": "UPSTREAM_DOWN",
+      "status": 400
     },
     {
       "id": "big-pickle",
@@ -37,18 +40,11 @@
       "status": 403
     },
     {
-      "id": "deepseek-v4-flash-free",
+      "id": "exo-free",
       "base_url": "https://opencode.ai/zen/v1",
       "route": "chat/completions",
-      "outcome": "UPSTREAM_DOWN",
-      "status": 400
-    },
-    {
-      "id": "fledge-alpha-free",
-      "base_url": "https://opencode.ai/zen/v1",
-      "route": "chat/completions",
-      "outcome": "HTTP_403_OTHER",
-      "status": 403
+      "outcome": "HTTP_410_OTHER",
+      "status": 410
     },
     {
       "id": "jev-1.13-free",
@@ -61,8 +57,8 @@
       "id": "ling-3.0-flash-fin-free",
       "base_url": "https://opencode.ai/zen/v1",
       "route": "chat/completions",
-      "outcome": "HTTP_403_OTHER",
-      "status": 403
+      "outcome": "UPSTREAM_DOWN",
+      "status": 400
     },
     {
       "id": "ling-3.1-flash-free",
@@ -73,13 +69,6 @@
     },
     {
       "id": "longcat-2.5-preview-free",
-      "base_url": "https://opencode.ai/zen/v1",
-      "route": "chat/completions",
-      "outcome": "HTTP_403_OTHER",
-      "status": 403
-    },
-    {
-      "id": "mimo-v2.5-free",
       "base_url": "https://opencode.ai/zen/v1",
       "route": "chat/completions",
       "outcome": "HTTP_403_OTHER",
@@ -124,8 +113,29 @@
       "id": "space-bunny-free",
       "base_url": "https://opencode.ai/zen/v1",
       "route": "chat/completions",
-      "outcome": "OK",
-      "status": 200
+      "outcome": "HTTP_403_OTHER",
+      "status": 403
+    },
+    {
+      "id": "step-5-preview-free",
+      "base_url": "https://opencode.ai/zen/v1",
+      "route": "chat/completions",
+      "outcome": "HTTP_403_OTHER",
+      "status": 403
+    },
+    {
+      "id": "mimo-v2.5-free",
+      "base_url": "https://opencode.ai/zen/v1",
+      "route": "chat/completions",
+      "outcome": "HTTP_410_OTHER",
+      "status": 410
+    },
+    {
+      "id": "fledge-alpha-free",
+      "base_url": "https://opencode.ai/zen/v1",
+      "route": "chat/completions",
+      "outcome": "HTTP_410_OTHER",
+      "status": 410
     }
   ]
 }
