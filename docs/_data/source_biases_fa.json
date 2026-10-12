@@ -10982,6 +10982,17 @@
         "example_url": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
         "unbiased_text": "یک منبع ادعا می‌کند رژیم اسد هفته‌ها ربودن روزنامه‌نگار آمریکایی آستین تایس را برنامه‌ریزی کرده بود.",
         "pattern_en": "Source claim headline overstatement"
+      },
+      {
+        "pattern": "آسیب به اعتبار بر پیامد عملیاتی",
+        "detail": "بی‌بی‌سی به شکل سردبیرانه‌ای گزارش می‌دهد که آسیب واقعی حملات حوثی‌ها به اعتبار عربستان سعودی در پایداری است و تأثیر بر تصویر را بر واقعیات عملیاتی تقدم می‌دهد.",
+        "debias": "آسیب فیزیکی و پاسخ‌های رسمی را بدون گزارش‌نویسی تحمیلی درباره اعتبار گزارش کنید.",
+        "date_added": "2026-10-12",
+        "status": "suggested",
+        "example_text": "در حالی که آسیب فیزیکی ناشی از حملات حوثی‌ها می‌تواند به سرعت ترمیم شود، اعتبار عربستان سعودی در پایداری آسیب جدی می‌بیند.",
+        "example_url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_medium=RSS&at_campaign=rss",
+        "unbiased_text": "حملات حوثی‌ها باعث آسیب فیزیکی شده‌اند و نگرانی‌هایی درباره پایداری در عربستان سعودی وجود دارد.",
+        "pattern_en": "Reputational damage over operational impact"
       }
     ]
   },
@@ -11164,6 +11175,17 @@
         "example_url": "https://www.jpost.com/israel-news/article-911092",
         "unbiased_text": "گیدوئین ساعر، وزیر امور خارجه اسرائیل، گفت که اسرائیل علیه کشورهایی که اقدامات دیپلماتیکی را که دشمن‌گونه می‌داند انجام می‌دهند، اقدام خواهد کرد و به بریتانیا هشدار داد که ممکن است نفوذ خود را در غزه و اورشلیم از دست دهد؛ بریتانیا گفت که مأموریت و خدمات حیاتی خود را حفظ خواهد کرد.",
         "pattern_en": "Retaliatory Diplomacy Self-Vindication"
+      },
+      {
+        "pattern": "تشدید بیان غرورآمیز اعتراف حریب",
+        "detail": "Jpost نقل‌قول یک مقام فتح را انتخاب کرده و آن را با عنوان فخرفروشی منتشر می‌کند و راه‌حل دو دولتی را به‌عنوان یک دام فریب‌دهنده علیه اسرائیل معرفی می‌کند.",
+        "debias": "بیان مقام را به‌صورت خنثی و بدون قضاوت نقل کنید و زمینه سیاسی گسترده‌تر را نیز شامل کنید، به‌جای آنکه آن را به‌عنوان غرور یا فخرفروشی توصیف کنید.",
+        "date_added": "2026-10-12",
+        "status": "suggested",
+        "example_text": "«ما دامی که با خواستاری راه‌حل دو دولتی برای اسرائیل گذاشته‌ایم را می‌دانیم. اما اسرائیل می‌فهمد که چرا نمی‌خواهد به ما دولت بدهد: او می‌داند که آینده چه چیزی را می‌تواند در بر بگیرد»، ابوشعب گفت.",
+        "example_url": "https://www.jpost.com/middle-east/article-911419",
+        "unbiased_text": "یک مقام فتح مقیم لبنان گفت که خواستاری راه‌حل دو دولتی یک دام برای اسرائیل بود و اسرائیل می‌داند که آینده چه چیزی را می‌تواند در بر بگیرد.",
+        "pattern_en": "Adversary admission bragging amplification"
       }
     ]
   },
@@ -11302,6 +11324,17 @@
         "example_url": "https://www.middleeasteye.net/news/ed-miliband-insists-uk-will-build-back-presence-jerusalem-british-consulate-jerusalem-closes",
         "unbiased_text": "Britain has announced that its consulate in occupied East Jerusalem will operate as the UK Mission, Jerusalem; Foreign Secretary Miliband said the building would remain open and would continue delivering vital services.",
         "pattern_en": "Capitulation Accusation Framing"
+      },
+      {
+        "pattern": "شخصی‌سازی ترس اتباع خارجی برای تضعیف روایت امنیتی عربستان",
+        "detail": "MEE با ترس عاطفی اتباع خارجی پیش می‌رود تا حملات حوثی‌ها را چیزی تصویر کند که حس امنیت عربستان سعودی را از بین برده است، به جای آنکه ابعاد فیزیکی و رسمی حادثه را گزارش کند.",
+        "debias": "ارزیابی‌های امنیتی رسمی و آمار تلفات را در کنار واکنش‌های اتباع خارجی بیاورید.",
+        "date_added": "2026-10-12",
+        "status": "suggested",
+        "example_text": "اما حملات کشنده حوثی‌ها به فرودگاه اصلی پایتخت عربستان سعودی، آن حس امنیت را در هم شکسته و خانواده‌های اتباع خارجی را در حال زیر سؤال بردن این موضوع گذاشته که آیا می‌توانند به ساختن زندگی خود در این پادشاهی ادامه دهند یا نه.",
+        "example_url": "https://www.middleeasteye.net/news/houthi-strikes-shatter-saudi-arabia-riyadh-aura-calm",
+        "unbiased_text": "حملات کشنده حوثی‌ها به فرودگاه ریاض، نگرانی‌های امنیتی را در میان برخی از اتباع خارجی افزایش داده است.",
+        "pattern_en": "Expat fear personalization to undermine Saudi security narrative"
       }
     ]
   },
