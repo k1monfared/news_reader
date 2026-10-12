@@ -9900,6 +9900,16 @@
         "example_text": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
         "example_url": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
         "unbiased_text": "A source claims the Assad regime planned US journalist Austin Tice's kidnap for weeks."
+      },
+      {
+        "pattern": "Reputational damage over operational impact",
+        "detail": "BBC editorializes that the real damage from Houthi attacks is to Saudi Arabia's reputation for stability, prioritizing image impact over operational facts.",
+        "debias": "Report physical damage and official responses without speculative reputational editorializing.",
+        "date_added": "2026-10-12",
+        "status": "suggested",
+        "example_text": "While the physical damage from Houthi attacks can be quickly repaired, the Saudi reputation for stability is taking a battering.",
+        "example_url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_medium=RSS&at_campaign=rss",
+        "unbiased_text": "The Houthi attacks caused physical damage, and there are concerns about stability in Saudi Arabia."
       }
     ]
   },
@@ -10066,6 +10076,16 @@
         "example_text": "Foreign Minister Gideon Sa'ar told The Jerusalem Post that Israel will retaliate against countries taking hostile diplomatic action, warning Britain it risks losing influence in Gaza and Jerusalem.",
         "example_url": "https://www.jpost.com/israel-news/article-911092",
         "unbiased_text": "Israeli Foreign Minister Gideon Sa'ar said Israel would take measures against countries taking diplomatic actions it considers hostile, and warned Britain it could lose influence in Gaza and Jerusalem; Britain said it would maintain a mission and vital services."
+      },
+      {
+        "pattern": "Adversary admission bragging amplification",
+        "detail": "Jpost selects a Fatah official's quote and headlines it as 'brags,' presenting the two-state solution as a deceptive trap against Israel.",
+        "debias": "Attribute the official's statement neutrally and include the broader political context rather than characterizing it as bragging.",
+        "date_added": "2026-10-12",
+        "status": "suggested",
+        "example_text": "“We know the trap we have set for Israel by demanding a two-state solution. But Israel understands why it does not want to give us a state: it knows what the future could hold,” said Abu Shahab.",
+        "example_url": "https://www.jpost.com/middle-east/article-911419",
+        "unbiased_text": "A Lebanon-based Fatah official said that demanding a two-state solution was a trap for Israel, and that Israel knows what the future could hold."
       }
     ]
   },
@@ -10192,6 +10212,16 @@
         "example_text": "Britain has announced it is closing its consulate in occupied East Jerusalem and downgrading its building to the status of a mission, ignoring calls to defy Israel's orders.",
         "example_url": "https://www.middleeasteye.net/news/ed-miliband-insists-uk-will-build-back-presence-jerusalem-british-consulate-jerusalem-closes",
         "unbiased_text": "Britain has announced that its consulate in occupied East Jerusalem will operate as the UK Mission, Jerusalem; Foreign Secretary Miliband said the building would remain open and would continue delivering vital services."
+      },
+      {
+        "pattern": "Expat fear personalization to undermine Saudi security narrative",
+        "detail": "MEE leads with expatriates' emotional fear to frame Houthi strikes as having destroyed Saudi Arabia's sense of security, rather than reporting the incident's physical and official dimensions.",
+        "debias": "Include official security assessments and casualty facts alongside expatriate reactions.",
+        "date_added": "2026-10-12",
+        "status": "suggested",
+        "example_text": "But deadly Houthi strikes on the Saudi capital's main airport have shattered that sense of security, leaving expatriate families questioning whether they can continue to build their lives in the kingdom.",
+        "example_url": "https://www.middleeasteye.net/news/houthi-strikes-shatter-saudi-arabia-riyadh-aura-calm",
+        "unbiased_text": "Deadly Houthi strikes on Riyadh's airport have raised safety concerns among some expatriates."
       }
     ]
   },
