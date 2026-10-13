@@ -11,14 +11,14 @@ request carries a stable per-run x-opencode-session header as required by Go.
 
 Runtime failover: each call resolves a chain of models from config
 (``models.default`` / ``models.translate_fa`` primary plus ``models.fallbacks``).
-When ``models.selected_models_file`` is set, probe-verified free models from
-that file (written by ``scripts/select_models.py``) are tried first, each on
-its own catalog base, so a paid-account outage falls through to a model that
-is not billed. Transient errors (429 rate limits, 5xx, network failures, empty
-responses) are retried per model; permanent provider errors (400 "Model is
-unavailable", 402 account funds exhausted) skip to the next model immediately.
-The winning model and any failed-over attempts are recorded in the audit
-trail.
+The config primary is tried first, then ``models.fallbacks``; when
+``models.selected_models_file`` is set, probe-verified free models from that
+file (written by ``scripts/select_models.py``) follow, each on its own catalog
+base, so a paid-account outage falls through to a model that is not billed.
+Transient errors (429 rate limits, 5xx, network failures, empty responses) are
+retried per model; permanent provider errors (400 "Model is unavailable", 402
+account funds exhausted) skip to the next model immediately. The winning model
+and any failed-over attempts are recorded in the audit trail.
 
 Env vars:
     OPENCODE_API_KEY       required; OpenCode Zen / OpenCode Go API key
@@ -26,6 +26,8 @@ Env vars:
     OPENCODE_SESSION_ID    optional; stable per-run id for x-opencode-session
                            (defaults to news-reader-<UTC date>)
 """
+
+from __future__ import annotations
 
 import hashlib
 import json
@@ -148,13 +150,6 @@ class AuditedLLMClient:
         )
         self._fallbacks: list[str] = list((models_cfg or {}).get("fallbacks", []))
         self._primary_default: str = (models_cfg or {}).get("default", "")
-        # Stages that should try the paid/config models before the selected
-        # free models. Long prompts (editorial, bias detection) tend to make
-        # free models return reasoning-only empty content, so paying a little
-        # to avoid minutes of wasted failover is worth it there.
-        self._paid_first_stages: set[str] = set(
-            (models_cfg or {}).get("paid_first_stages", [])
-        )
         # Probe-verified free models written by scripts/select_models.py.
         # When the key is absent (as in most tests) the static chain is used.
         self._selected_file: str = (models_cfg or {}).get(
@@ -183,9 +178,9 @@ class AuditedLLMClient:
     def _load_selected_models(self) -> list[tuple[str, str]]:
         """Load free models selected by ``scripts/select_models.py``.
 
-        Returns ``(base_url, model_id)`` pairs to try before the static
-        config chain. A missing or malformed file is ignored so the static
-        chain always remains a working fallback.
+        Returns ``(base_url, model_id)`` pairs tried after the static config
+        chain. A missing or malformed file is ignored so the static chain
+        always remains a working fallback.
         """
         if not self._selected_file:
             return []
@@ -234,8 +229,8 @@ class AuditedLLMClient:
 
         Every call is fully audited: input saved, output saved, and a
         summary line appended to ``llm_calls.jsonl``. The request walks the
-        failover chain (requested model first, then configured fallbacks)
-        until one answers.
+        failover chain (the config primary first, then fallbacks and any
+        probe-verified free models) until one answers.
 
         Args:
             stage:          Pipeline stage name (e.g. ``"fetch"``, ``"rank"``).
@@ -270,19 +265,13 @@ class AuditedLLMClient:
                 f">= cap ${self._max_cost:.2f}"
             )
 
-        # Save full input payload. By default the failover chain starts with
-        # the probe-verified free models (each on its own catalog base), then
-        # the static config primary and fallbacks on the default base. For
-        # stages in ``paid_first_stages`` the order is reversed so long
-        # prompts go to the paid models first. Dedup by (base, model) so the
-        # primary is never tried twice.
+        # The paid/config primary is tried first, then the probe-verified free
+        # models (each on its own catalog base). Dedup by (base, model) so a
+        # model is never tried twice.
         primary = model or self._primary_default
-        configured: list[tuple[str, str]] = [(self._base_url, primary)]
-        configured.extend((self._base_url, m) for m in self._fallbacks)
-        if stage in self._paid_first_stages:
-            raw_chain = configured + list(self._selected_models)
-        else:
-            raw_chain = list(self._selected_models) + configured
+        raw_chain: list[tuple[str, str]] = [(self._base_url, primary)]
+        raw_chain.extend((self._base_url, m) for m in self._fallbacks)
+        raw_chain.extend(self._selected_models)
 
         chain: list[tuple[str, str]] = []
         seen: set[tuple[str, str]] = set()

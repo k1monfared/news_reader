@@ -191,7 +191,7 @@ def _call(client):
 
 
 class TestRuntimeSelection:
-    def test_selected_free_model_tried_first_on_its_base(
+    def test_primary_tried_before_selected_free_model(
         self, tmp_path, monkeypatch, scripted_http
     ):
         monkeypatch.setenv("OPENCODE_API_BASE_URL", "https://paid.example/v1")
@@ -199,32 +199,32 @@ class TestRuntimeSelection:
         selected_file.write_text(json.dumps({
             "selected": [{"id": "longcat-2.5-preview-free", "base_url": GO}]
         }))
-        http = scripted_http([_Resp(200, content="free answer")])
-
-        out = _call(_make_client(tmp_path, selected_file))
-
-        assert out == "free answer"
-        assert http["calls"][0] == {
-            "url": f"{GO}/chat/completions",
-            "model": "longcat-2.5-preview-free",
-        }
-
-    def test_falls_back_to_configured_primary_base(
-        self, tmp_path, monkeypatch, scripted_http
-    ):
-        monkeypatch.setenv("OPENCODE_API_BASE_URL", "https://paid.example/v1")
-        selected_file = tmp_path / "models.json"
-        selected_file.write_text(json.dumps({
-            "selected": [{"id": "longcat-2.5-preview-free", "base_url": GO}]
-        }))
-        http = scripted_http([_Resp(400), _Resp(200, content="paid answer")])
+        http = scripted_http([_Resp(200, content="paid answer")])
 
         out = _call(_make_client(tmp_path, selected_file))
 
         assert out == "paid answer"
+        assert http["calls"][0] == {
+            "url": "https://paid.example/v1/chat/completions",
+            "model": "paid-model",
+        }
+
+    def test_falls_back_to_selected_free_after_primary(
+        self, tmp_path, monkeypatch, scripted_http
+    ):
+        monkeypatch.setenv("OPENCODE_API_BASE_URL", "https://paid.example/v1")
+        selected_file = tmp_path / "models.json"
+        selected_file.write_text(json.dumps({
+            "selected": [{"id": "longcat-2.5-preview-free", "base_url": GO}]
+        }))
+        http = scripted_http([_Resp(400), _Resp(200, content="free answer")])
+
+        out = _call(_make_client(tmp_path, selected_file))
+
+        assert out == "free answer"
         assert http["calls"] == [
-            {"url": f"{GO}/chat/completions", "model": "longcat-2.5-preview-free"},
             {"url": "https://paid.example/v1/chat/completions", "model": "paid-model"},
+            {"url": f"{GO}/chat/completions", "model": "longcat-2.5-preview-free"},
         ]
 
     def test_missing_selected_file_uses_static_chain(
@@ -250,7 +250,7 @@ class TestRuntimeSelection:
 
         assert _call(_make_client(tmp_path, selected_file)) == "paid answer"
 
-    def test_paid_first_stage_orders_paid_before_free(
+    def test_chain_is_primary_first_for_all_stages(
         self, tmp_path, monkeypatch, scripted_http
     ):
         monkeypatch.setenv("OPENCODE_API_BASE_URL", "https://paid.example/v1")
@@ -259,27 +259,8 @@ class TestRuntimeSelection:
             "selected": [{"id": "longcat-2.5-preview-free", "base_url": GO}]
         }))
         http = scripted_http([_Resp(200, content="paid answer")])
-        client = AuditedLLMClient(
-            str(tmp_path / "run"),
-            {"max_cost_per_run_usd": 1.0},
-            {
-                "default": "paid-model",
-                "fallbacks": [],
-                "selected_models_file": str(selected_file),
-                "paid_first_stages": ["editorial"],
-            },
-        )
 
-        out = client.call(
-            stage="editorial",
-            prompt_name="p",
-            prompt_version=1,
-            system="s",
-            user_message="u",
-        )
+        out = _call(_make_client(tmp_path, selected_file))
 
         assert out == "paid answer"
-        assert http["calls"][0] == {
-            "url": "https://paid.example/v1/chat/completions",
-            "model": "paid-model",
-        }
+        assert http["calls"][0]["model"] == "paid-model"
