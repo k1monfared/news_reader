@@ -210,6 +210,7 @@ def build_run_record(
         "failed_stages": failed,
         "degraded_stages": degraded,
         "errors": meta.get("errors", []),
+        "cost_usd": round(meta.get("total_cost_usd") or 0.0, 4),
         "stages": _stage_list(meta),
         "funnel": _funnel(meta, posted_en, posted_fa),
         "tokens": {
@@ -321,6 +322,7 @@ def _day_from_record(rec: dict, en_post: str | None, fa_post: str | None, empty)
         "status": rec.get("status", "unknown"),
         "failed_stages": rec.get("failed_stages", []),
         "degraded_stages": rec.get("degraded_stages", []),
+        "cost_usd": rec.get("cost_usd"),
         "en": en_post is not None,
         "fa": fa_post is not None,
         "posted_en": rec.get("posted_en", 0),
@@ -379,6 +381,7 @@ def _day_from_posts(date_str: str, en_post, fa_post, ledger, empty) -> dict:
         "status": "unknown",
         "failed_stages": [],
         "degraded_stages": [],
+        "cost_usd": None,
         "en": en_post is not None,
         "fa": fa_post is not None,
         "posted_en": posted_en,
@@ -489,6 +492,7 @@ def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
         "tokens_output": _token("output"),
         "tokens_thinking": _token("thinking"),
         "llm_calls": _token("calls"),
+        "cost_usd": _sum("cost_usd"),
     }
     totals["emails_total"] = totals["emails_en"] + totals["emails_fa"]
     tin, tout, tthink = totals["tokens_input"], totals["tokens_output"], totals["tokens_thinking"]
@@ -509,7 +513,7 @@ def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
     def _known(key: str) -> int:
         return sum(1 for d in days if d.get(key) is not None)
 
-    def _rate(total, known: int):
+    def _rate(total, known: int, places: int = 1):
         """Average over the days that actually have data, plus an extrapolated
         all-time estimate across the full running period."""
         if total is None or known <= 0:
@@ -522,9 +526,9 @@ def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
             }
         per_day = total / known
         return {
-            "per_day": round(per_day, 1),
-            "per_week": round(per_day * 7, 1),
-            "per_month": round(per_day * 30.44, 1),
+            "per_day": round(per_day, places),
+            "per_week": round(per_day * 7, places),
+            "per_month": round(per_day * 30.44, places),
             "days": known,
             "estimated_total": round(per_day * running) if running else None,
         }
@@ -546,6 +550,7 @@ def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
         "tokens_output": _rate(totals["tokens_output"], token_days),
         "tokens_thinking": _rate(totals["tokens_thinking"], token_days),
         "tokens_total": _rate(totals["tokens_total"], token_days),
+        "cost_usd": _rate(totals["cost_usd"], _known("cost_usd"), places=4),
     }
 
     totals["entries_per_brief_en"] = (
@@ -588,6 +593,7 @@ def _today_from_day(day: dict) -> dict:
         "status": day.get("status", "unknown"),
         "failed_stages": day.get("failed_stages", []),
         "degraded_stages": day.get("degraded_stages", []),
+        "cost_usd": day.get("cost_usd"),
         "stages": [],
         "funnel": {
             "fetched": day.get("processed"),

@@ -306,6 +306,43 @@ class TestRunDb:
         assert totals["rates"]["posted"]["estimated_total"] == 6
 
 
+class TestCost:
+    def test_run_record_carries_cost(self):
+        meta = {
+            "run_id": "r",
+            "stages": {},
+            "total_cost_usd": 0.1234,
+        }
+        rec = build_run_record(
+            "2026-10-06", run_meta=meta, en_post=None, fa_post=None,
+            ledger={}, subscribers={}, audit={},
+        )
+        assert rec["cost_usd"] == 0.1234
+
+    def test_run_record_missing_cost_is_zero(self):
+        meta = {"run_id": "r", "stages": {}}
+        rec = build_run_record(
+            "2026-10-06", run_meta=meta, en_post=None, fa_post=None,
+            ledger={}, subscribers={}, audit={},
+        )
+        assert rec["cost_usd"] == 0.0
+
+    def test_totals_sum_cost(self):
+        days = [
+            {"date": "2026-10-01", "cost_usd": 0.1, "posted": 1, "posted_en": 1,
+             "posted_fa": 0, "links": 1, "en": True, "fa": False, "emails": {},
+             "subscribers": None, "status": "success", "empty": False,
+             "processed": None, "included": None},
+            {"date": "2026-10-02", "cost_usd": 0.2, "posted": 1, "posted_en": 1,
+             "posted_fa": 0, "links": 1, "en": True, "fa": False, "emails": {},
+             "subscribers": None, "status": "success", "empty": False,
+             "processed": None, "included": None},
+        ]
+        totals = recompute_totals(days, None)
+        assert round(totals["cost_usd"], 4) == 0.3
+        assert round(totals["rates"]["cost_usd"]["per_day"], 4) == 0.15
+
+
 class TestBiasCounts:
     def test_counts_by_date(self, tmp_path):
         path = tmp_path / "source_biases.json"
