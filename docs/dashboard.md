@@ -79,6 +79,11 @@ permalink: /dashboard/
     <span class="card-label">Input tokens</span>
     <span class="card-sub">{{ today.tokens.total.output | default: 0 }} out · {{ today.tokens.total.thinking | default: 0 }} think</span>
   </div>
+  <div class="card">
+    <span class="card-value">${{ today.cost_usd | default: 0 | round: 2 }}</span>
+    <span class="card-label">Cost this run</span>
+    <span class="card-sub">flat peak rates</span>
+  </div>
 </section>
 
 <h3>Funnel</h3>
@@ -170,6 +175,11 @@ permalink: /dashboard/
     <span class="card-sub">{{ t.llm_calls | default: 0 }} calls</span>
   </div>
   <div class="card">
+    <span class="card-value">${{ t.cost_usd | default: 0 | round: 2 }}</span>
+    <span class="card-label">LLM cost</span>
+    <span class="card-sub">${{ t.rates.cost_usd.per_day | default: 0 | round: 2 }}/day</span>
+  </div>
+  <div class="card">
     <span class="card-value">{{ t.days_failed | default: 0 }}</span>
     <span class="card-label">Failed days</span>
     <span class="card-sub">{{ t.days_degraded | default: 0 }} degraded · {{ t.days_empty | default: 0 }} empty</span>
@@ -207,6 +217,7 @@ permalink: /dashboard/
     <tr><td>Output tokens</td><td>{{ t.rates.tokens_output.days | default: 0 }}</td><td>{{ t.rates.tokens_output.per_day | default: "—" }}</td><td>{{ t.rates.tokens_output.per_week | default: "—" }}</td><td>{{ t.rates.tokens_output.per_month | default: "—" }}</td><td>{{ t.rates.tokens_output.estimated_total | default: "—" }}</td></tr>
     <tr><td>Thinking tokens</td><td>{{ t.rates.tokens_thinking.days | default: 0 }}</td><td>{{ t.rates.tokens_thinking.per_day | default: "—" }}</td><td>{{ t.rates.tokens_thinking.per_week | default: "—" }}</td><td>{{ t.rates.tokens_thinking.per_month | default: "—" }}</td><td>{{ t.rates.tokens_thinking.estimated_total | default: "—" }}</td></tr>
     <tr><td>Total tokens</td><td>{{ t.rates.tokens_total.days | default: 0 }}</td><td>{{ t.rates.tokens_total.per_day | default: "—" }}</td><td>{{ t.rates.tokens_total.per_week | default: "—" }}</td><td>{{ t.rates.tokens_total.per_month | default: "—" }}</td><td>{{ t.rates.tokens_total.estimated_total | default: "—" }}</td></tr>
+    <tr><td>LLM cost (USD)</td><td>{{ t.rates.cost_usd.days | default: 0 }}</td><td>{{ t.rates.cost_usd.per_day | default: "—" }}</td><td>{{ t.rates.cost_usd.per_week | default: "—" }}</td><td>{{ t.rates.cost_usd.per_month | default: "—" }}</td><td>{{ t.rates.cost_usd.estimated_total | default: "—" }}</td></tr>
   </tbody>
 </table>
 </div>
@@ -230,6 +241,7 @@ permalink: /dashboard/
 {% include chart.html metric="tokens_output" label="Output tokens" %}
 {% include chart.html metric="tokens_thinking" label="Thinking tokens" %}
 {% include chart.html metric="tokens_total" label="Total tokens" %}
+{% include chart.html metric="cost_usd" label="LLM cost (USD)" %}
 
 <h2>Daily status</h2>
 <div class="table-wrap">

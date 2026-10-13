@@ -24,6 +24,7 @@
     if (metric === "tokens_output") return (day.tokens && day.tokens.output) || 0;
     if (metric === "tokens_thinking") return (day.tokens && day.tokens.thinking) || 0;
     if (metric === "tokens_total") return day.tokens_total || 0;
+    if (metric === "cost_usd") return day.cost_usd || 0;
     if (metric === "biases") return day.biases || 0;
     if (metric === "new_stories") return day.new_stories || 0;
     if (metric === "continuations") return day.continuations || 0;
