@@ -308,11 +308,29 @@ class TestCost:
         c = self._client(tmp_path, {"paid-x": {"input": 1.0, "output": 2.0}})
         assert c._cost_for("paid-x", 0, 0) == 0.0
 
-    def test_total_cost_uses_served_model(
+    def test_total_cost_uses_served_model_after_failover(
         self, tmp_path, monkeypatch, scripted_http
     ):
         monkeypatch.setenv("OPENCODE_API_BASE_URL", "https://paid.example/v1")
-        scripted_http([_UsageResp(content="answer")])
-        c = self._client(tmp_path, self.RATES)
-        _call(c)
-        assert c.total_cost == pytest.approx(1.50)
+        selected_file = tmp_path / "models.json"
+        selected_file.write_text(json.dumps({
+            "selected": [{"id": "fallback-y", "base_url": GO}]
+        }))
+        scripted_http([_Resp(400), _UsageResp(content="answer")])
+        client = AuditedLLMClient(
+            str(tmp_path / "run"),
+            {"max_cost_per_run_usd": 10.0},
+            {
+                "default": "primary-x",
+                "fallbacks": [],
+                "selected_models_file": str(selected_file),
+                "pricing": {
+                    "primary-x": {"input": 5.0, "output": 5.0},
+                    "fallback-y": {"input": 0.30, "output": 1.20},
+                },
+            },
+        )
+        _call(client)
+        # 1M in + 1M out at the fallback rate = 0.30 + 1.20 = 1.50; pricing the
+        # requested primary instead would give 5.0 + 5.0 = 10.0.
+        assert client.total_cost == pytest.approx(1.50)
