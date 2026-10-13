@@ -97,10 +97,6 @@ class AuditedLLMClient:
         audit/llm_outputs/      -- full output payloads, one file per call
     """
 
-    # Cost estimates per million tokens (all configured models are free tier)
-    _INPUT_COST_PER_M = 0.0
-    _OUTPUT_COST_PER_M = 0.0
-
     _DEFAULT_BASE_URL = "https://opencode.ai/zen/v1"
 
     def __init__(
@@ -156,6 +152,8 @@ class AuditedLLMClient:
             "selected_models_file", ""
         )
         self._selected_models: list[tuple[str, str]] = self._load_selected_models()
+        # Flat per-model token rates in USD per million, keyed by model id.
+        self._pricing: dict = (models_cfg or {}).get("pricing", {}) or {}
 
         self._cumulative_cost = 0.0
         self._total_input_tokens = 0
@@ -210,6 +208,21 @@ class AuditedLLMClient:
                 + ", ".join(f"{model}@{base}" for base, model in entries)
             )
         return entries
+
+    def _cost_for(self, model: str, tokens_in: int, tokens_out: int) -> float:
+        """Cost in USD for a call, from the served model's rate.
+
+        Unknown models (the free backstops) are priced at $0. Completion
+        tokens already include reasoning tokens, so thinking is not billed
+        twice.
+        """
+        rates = self._pricing.get(model)
+        if not isinstance(rates, dict):
+            return 0.0
+        return (
+            (tokens_in / 1_000_000) * float(rates.get("input", 0.0))
+            + (tokens_out / 1_000_000) * float(rates.get("output", 0.0))
+        )
 
     # ------------------------------------------------------------------
     # Public API
@@ -367,10 +380,7 @@ class AuditedLLMClient:
         self._prompt_versions_used[prompt_name] = prompt_version
 
         # Cost accounting
-        call_cost = (
-            (tokens_in / 1_000_000) * self._INPUT_COST_PER_M
-            + (tokens_out / 1_000_000) * self._OUTPUT_COST_PER_M
-        )
+        call_cost = self._cost_for(served_model or "", tokens_in, tokens_out)
         self._cumulative_cost += call_cost
         self._total_input_tokens += tokens_in
         self._total_output_tokens += tokens_out

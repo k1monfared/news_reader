@@ -264,3 +264,55 @@ class TestRuntimeSelection:
 
         assert out == "paid answer"
         assert http["calls"][0]["model"] == "paid-model"
+
+
+class _UsageResp:
+    def __init__(self, content="ok", tokens_in=1_000_000, tokens_out=1_000_000):
+        self.status_code = 200
+        self._content = content
+        self._tokens_in = tokens_in
+        self._tokens_out = tokens_out
+        self.text = json.dumps({"raw": True})
+
+    def json(self):
+        return {
+            "choices": [{"message": {"content": self._content}, "finish_reason": "stop"}],
+            "usage": {"prompt_tokens": self._tokens_in, "completion_tokens": self._tokens_out},
+        }
+
+
+class TestCost:
+    RATES = {"deepseek-v4.1-flash": {"input": 0.30, "output": 1.20}}
+
+    def _client(self, tmp_path, pricing):
+        return AuditedLLMClient(
+            str(tmp_path / "run"),
+            {"max_cost_per_run_usd": 10.0},
+            {"default": "deepseek-v4.1-flash", "fallbacks": [], "pricing": pricing},
+        )
+
+    def test_known_model(self, tmp_path):
+        c = self._client(tmp_path, self.RATES)
+        assert c._cost_for("deepseek-v4.1-flash", 1_000_000, 1_000_000) == pytest.approx(1.50)
+
+    def test_free_and_unknown_are_zero(self, tmp_path):
+        c = self._client(tmp_path, self.RATES)
+        assert c._cost_for("longcat-2.5-preview-free", 1_000_000, 1_000_000) == 0.0
+        assert c._cost_for("mystery", 1_000_000, 1_000_000) == 0.0
+
+    def test_missing_output_key(self, tmp_path):
+        c = self._client(tmp_path, {"paid-x": {"input": 1.0}})
+        assert c._cost_for("paid-x", 1_000_000, 1_000_000) == pytest.approx(1.0)
+
+    def test_zero_tokens(self, tmp_path):
+        c = self._client(tmp_path, {"paid-x": {"input": 1.0, "output": 2.0}})
+        assert c._cost_for("paid-x", 0, 0) == 0.0
+
+    def test_total_cost_uses_served_model(
+        self, tmp_path, monkeypatch, scripted_http
+    ):
+        monkeypatch.setenv("OPENCODE_API_BASE_URL", "https://paid.example/v1")
+        scripted_http([_UsageResp(content="answer")])
+        c = self._client(tmp_path, self.RATES)
+        _call(c)
+        assert c.total_cost == pytest.approx(1.50)
