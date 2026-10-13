@@ -23,19 +23,19 @@ class TestDiscover:
         monkeypatch.setattr(
             model_discovery,
             "discover",
-            lambda base: ["free-a", "free-b", "free-c", "paid-x"],
+            lambda base: ["alpha-free", "beta-free", "gamma-free", "paid-x"],
         )
         responses = {
-            "free-a": _ok("ok"),
-            "free-b": (403, json.dumps({"error": {"message": "MissingSessionID", "type": "x"}})),
-            "free-c": (200, json.dumps({"choices": [{"message": {"content": ""}}]})),
+            "alpha-free": _ok("ok"),
+            "beta-free": (403, json.dumps({"error": {"message": "MissingSessionID", "type": "x"}})),
+            "gamma-free": (200, json.dumps({"choices": [{"message": {"content": ""}}]})),
         }
         monkeypatch.setattr(
             model_discovery,
             "probe_chat",
             lambda base, key, model, session_id="", max_tokens=5, timeout_s=10: responses[model],
         )
-        assert discover_free_models(GO, "k") == [{"id": "free-a", "base_url": GO}]
+        assert discover_free_models(GO, "k") == [{"id": "alpha-free", "base_url": GO}]
 
     def test_catalog_failure_returns_empty(self, monkeypatch):
         def boom(base):
@@ -48,15 +48,15 @@ class TestDiscover:
         assert discover_free_models(GO, "") == []
 
     def test_probe_exception_skips_model(self, monkeypatch):
-        monkeypatch.setattr(model_discovery, "discover", lambda base: ["free-a", "free-b"])
+        monkeypatch.setattr(model_discovery, "discover", lambda base: ["alpha-free", "beta-free"])
 
         def probe(base, key, model, session_id="", max_tokens=5, timeout_s=10):
-            if model == "free-a":
+            if model == "alpha-free":
                 raise RuntimeError("timeout")
             return _ok("ok")
 
         monkeypatch.setattr(model_discovery, "probe_chat", probe)
-        assert discover_free_models(GO, "k") == [{"id": "free-b", "base_url": GO}]
+        assert discover_free_models(GO, "k") == [{"id": "beta-free", "base_url": GO}]
 
 
 class TestRefreshFile:

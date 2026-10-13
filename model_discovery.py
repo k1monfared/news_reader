@@ -39,7 +39,7 @@ def discover_free_models(
         return []
 
     selected: list[dict] = []
-    for model in sorted(i for i in live_ids if "free" in i):
+    for model in sorted(i for i in live_ids if i.endswith("-free")):
         try:
             status, body = probe_chat(
                 base_url, api_key, model, session_id, timeout_s=timeout_s
