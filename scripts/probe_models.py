@@ -42,12 +42,12 @@ RULES = [
 ]
 
 
-def _http(method: str, url: str, headers: dict, payload: dict | None) -> tuple[int, str]:
+def _http(method: str, url: str, headers: dict, payload: dict | None, timeout_s: int = TIMEOUT_S) -> tuple[int, str]:
     data = json.dumps(payload).encode() if payload is not None else None
     headers = {"User-Agent": "news_reader-phase0-probe/1.0", **headers}
     req = urllib.request.Request(url, data=data, headers=headers, method=method)
     try:
-        with urllib.request.urlopen(req, timeout=TIMEOUT_S) as resp:
+        with urllib.request.urlopen(req, timeout=timeout_s) as resp:
             return resp.status, resp.read().decode("utf-8", "replace")
     except urllib.error.HTTPError as e:
         try:
@@ -114,7 +114,7 @@ def discover(base: str) -> list[str]:
 
 
 def probe_chat(base: str, key: str, model: str, session_id: str = "",
-               max_tokens: int = 5) -> tuple[int, str]:
+               max_tokens: int = 5, timeout_s: int = TIMEOUT_S) -> tuple[int, str]:
     headers = {"Content-Type": "application/json", "Authorization": f"Bearer {key}"}
     if session_id:
         headers["x-opencode-session"] = session_id
@@ -124,6 +124,7 @@ def probe_chat(base: str, key: str, model: str, session_id: str = "",
         headers,
         {"model": model, "max_tokens": max_tokens,
          "messages": [{"role": "user", "content": "Reply with the word ok."}]},
+        timeout_s=timeout_s,
     )
 
 
