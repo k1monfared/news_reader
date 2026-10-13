@@ -207,11 +207,14 @@ def run_pipeline(
     api_key = os.environ.get("OPENCODE_API_KEY", "")
     session_id = os.environ.get("OPENCODE_SESSION_ID", "")
     if base_url and api_key:
-        discovered = refresh_models_file(models_path, base_url, api_key, session_id)
-        logger.info(
-            "Discovered free models: "
-            + (", ".join(m["id"] for m in discovered) or "none")
-        )
+        try:
+            discovered = refresh_models_file(models_path, base_url, api_key, session_id)
+            logger.info(
+                "Discovered free models: "
+                + (", ".join(m["id"] for m in discovered) or "none")
+            )
+        except Exception as e:
+            logger.warning(f"Model discovery failed (non-fatal): {e}")
 
     llm_client = AuditedLLMClient(str(run_dir), config.budget, config.models)
     http_client = AuditedHTTPClient(str(run_dir))
