@@ -114,12 +114,10 @@ sources:
 # ---------------------------------------------------------------------------
 # `default` drives the English pipeline stages, `translate_fa` overrides the
 # Farsi translation/bias-sync stages (falls back to `default` when unset).
-# When a model fails at runtime (rate limited, provider outage, or empty
-# responses), `fallbacks` are tried in order. Free models come first so the
-# paid Go balance is not spent when a free model answers; the paid deepseek
-# ids sit behind them so a free-model delisting or outage still ships a brief.
-# The free ids are Go-catalog models (unlimited, limited-time offers). Zen
-# free-tier ids remain session-gated from CI and are intentionally absent.
+# The paid primary is tried first. On failure (rate limited, provider outage,
+# or empty responses) the free models discovered live at run start are tried
+# next, then any ids in `fallbacks` (currently empty). Zen free-tier ids are
+# session-gated from CI and intentionally absent.
 models:
   default: deepseek-v4.1-flash
   translate_fa: deepseek-v4.1-flash
