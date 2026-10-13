@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 import sys
 import time
 from datetime import datetime, timezone, timedelta
@@ -197,6 +198,21 @@ def run_pipeline(
     from llm_client import AuditedLLMClient
     from audit_logger import AuditedHTTPClient
 
+    from model_discovery import refresh_models_file
+
+    models_path = (
+        getattr(config, "models", None) or {}
+    ).get("selected_models_file", "models.json")
+    base_url = os.environ.get("OPENCODE_API_BASE_URL", "")
+    api_key = os.environ.get("OPENCODE_API_KEY", "")
+    session_id = os.environ.get("OPENCODE_SESSION_ID", "")
+    if base_url and api_key:
+        discovered = refresh_models_file(models_path, base_url, api_key, session_id)
+        logger.info(
+            "Discovered free models: "
+            + (", ".join(m["id"] for m in discovered) or "none")
+        )
+
     llm_client = AuditedLLMClient(str(run_dir), config.budget, config.models)
     http_client = AuditedHTTPClient(str(run_dir))
 
@@ -334,6 +350,13 @@ def run_pipeline(
         run_metrics(str(run_dir), config, llm_client, None)
     except Exception as e:
         logger.warning(f"metrics stage failed (non-fatal): {e}", exc_info=True)
+
+    try:
+        from stages.empty_streak import _git_commit_file
+
+        _git_commit_file(models_path, f"Refresh model list: {target_date}")
+    except Exception as e:
+        logger.warning(f"models.json commit failed (non-fatal): {e}")
 
     # Update latest symlink only if no critical errors
     failed_critical = [

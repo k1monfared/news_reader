@@ -78,3 +78,16 @@ class TestRefreshFile:
         monkeypatch.setattr(model_discovery, "discover_free_models", lambda *a, **k: [])
         refresh_models_file(str(out), GO, "k")
         assert json.loads(out.read_text())["selected"][0]["id"] == "old"
+
+
+class TestConfig:
+    def test_primary_is_deepseek_v41_flash(self):
+        import yaml
+        from pathlib import Path
+
+        root = Path(__file__).resolve().parent.parent
+        cfg = yaml.safe_load((root / "config.yaml").read_text())
+        assert cfg["models"]["default"] == "deepseek-v4.1-flash"
+        assert cfg["models"]["translate_fa"] == "deepseek-v4.1-flash"
+        assert cfg["models"]["fallbacks"] == []
+        assert "paid_first_stages" not in cfg["models"]

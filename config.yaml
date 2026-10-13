@@ -121,21 +121,19 @@ sources:
 # The free ids are Go-catalog models (unlimited, limited-time offers). Zen
 # free-tier ids remain session-gated from CI and are intentionally absent.
 models:
-  default: longcat-2.5-preview-free
-  translate_fa: longcat-2.5-preview-free
-  fallbacks:
-    - space-bunny-free
-    - deepseek-v4-flash
-    - deepseek-v4-pro
-  # Probe-verified free models, refreshed by scripts/select_models.py via the
-  # Select Free Models workflow. When present, these are tried before the
-  # static chain above, each on its own catalog base.
+  default: deepseek-v4.1-flash
+  translate_fa: deepseek-v4.1-flash
+  # The free-model backstop is discovered live at run start by
+  # model_discovery.py and cached here. A failed discovery leaves the existing
+  # file in place, so the last known good free models remain the fallback.
+  fallbacks: []
   selected_models_file: models.json
-  # Stages that try the paid/config models before the selected free models.
-  # The long editorial and bias prompts make free models emit reasoning-only
-  # empty content, so paying a little there beats minutes of failed polling.
-  paid_first_stages:
-    - editorial
+  # Flat peak token rates in USD per million, keyed by model id. Models absent
+  # from the table (the free backstops) are priced at $0.
+  pricing:
+    deepseek-v4.1-flash: { input: 0.30, output: 1.20 }
+    deepseek-v4-flash:   { input: 0.30, output: 1.20 }
+    deepseek-v4-pro:     { input: 1.32, output: 3.96 }
 
 # ---------------------------------------------------------------------------
 # Dynamic Buckets
