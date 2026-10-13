@@ -3,8 +3,8 @@
   "target_date": "2026-10-13",
   "status": "running",
   "started_at": "2026-10-13T18:08:34Z",
-  "updated_at": "2026-10-13T18:25:59Z",
-  "current_stage": "publish",
+  "updated_at": "2026-10-13T18:26:00Z",
+  "current_stage": "translate_fa",
   "total_stages": 13,
   "stages": [
     {
@@ -76,6 +76,13 @@
       "duration_s": 0.0,
       "error": "Render check failed: unbalanced closing tag </details>",
       "finished_at": "2026-10-13T18:25:59Z"
+    },
+    {
+      "name": "publish",
+      "status": "skipped",
+      "duration_s": null,
+      "error": null,
+      "finished_at": "2026-10-13T18:26:00Z"
     }
   ]
 }
