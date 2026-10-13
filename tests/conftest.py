@@ -6,6 +6,7 @@ pipeline without requiring network access or API keys.
 
 from __future__ import annotations
 
+import importlib
 import json
 import sys
 from pathlib import Path
@@ -18,6 +19,35 @@ if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
 from models import load_config, PipelineConfig, SourceConfig
+
+
+# ---------------------------------------------------------------------------
+# Git isolation guard
+# ---------------------------------------------------------------------------
+
+# Every stage module that can add/commit/push to the real repository.  The
+# guard below no-ops ``_git_commit_file`` on each so no test can ever create a
+# commit or push.  ``_git_commit_push`` and ``_run_git`` are deliberately NOT
+# patched: tests of translate_fa exercise those directly.
+_GIT_COMMIT_MODULES = [
+    "stages.empty_streak",
+    "stages.metrics",
+    "stages.mailer",
+    "stages.publish",
+    "stages.translate_fa",
+]
+
+
+@pytest.fixture(autouse=True)
+def _no_real_git(monkeypatch):
+    """No test may commit or push to the real repository."""
+    for name in _GIT_COMMIT_MODULES:
+        try:
+            module = importlib.import_module(name)
+        except Exception:
+            continue
+        if hasattr(module, "_git_commit_file"):
+            monkeypatch.setattr(module, "_git_commit_file", lambda *a, **k: None)
 
 
 # ---------------------------------------------------------------------------
