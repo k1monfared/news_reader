@@ -2,10 +2,12 @@ name: Daily Brief
 
 on:
   schedule:
-    # ~7am US Eastern. 11:07 UTC during EDT (Mar-Nov), 12:07 UTC during EST.
-    # Offset a few minutes to avoid the :00 stampede. Note GitHub's scheduler
-    # has been firing this 4-8h late under load, so completion lands later.
-    - cron: '7 11 * * *'
+    # 6am US Pacific. 13:07 UTC during PDT (Mar-Nov), 14:07 UTC during PST.
+    # GitHub fires scheduled jobs in UTC and does not follow DST, so the local
+    # start drifts by one hour in standard time. Offset a few minutes to avoid
+    # the :00 stampede. GitHub's scheduler has been firing this 4-8h late under
+    # load, so completion lands later.
+    - cron: '7 13 * * *'
   workflow_dispatch:
 
 permissions:
