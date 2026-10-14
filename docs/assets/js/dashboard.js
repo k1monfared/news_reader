@@ -51,15 +51,18 @@
     var yMid = block.querySelector('[data-y="mid"]');
     if (!bars || !scroll || !chart) return;
 
-    var vals = days.map(function (d) {
-      return valueOf(d, metric);
-    });
-    var max = 1;
-    vals.forEach(function (v) {
-      if (v > max) max = v;
-    });
-    if (yMax) yMax.textContent = max;
-    if (yMid) yMid.textContent = Math.floor(max / 2);
+    var isFractional = metric === "cost_usd";
+    var vals = days.map(function (d) { return valueOf(d, metric); });
+    var max = 0;
+    vals.forEach(function (v) { if (v > max) max = v; });
+    if (max <= 0) max = isFractional ? 0.01 : 1;
+    var mid = max / 2;
+    function fmt(n) {
+      if (!isFractional) return String(Math.round(n));
+      return n.toFixed(n < 0.1 ? 3 : 2);
+    }
+    if (yMax) yMax.textContent = fmt(max);
+    if (yMid) yMid.textContent = fmt(mid);
 
     var barW = DEFAULT_W;
 

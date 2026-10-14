@@ -1173,3 +1173,21 @@ main {
   color: var(--text);
   font-size: 0.9rem;
 }
+
+.dash-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5rem 0 1.5rem;
+  border-bottom: 1px solid var(--border, #2a2f3a);
+  padding-bottom: 0.5rem;
+}
+.dash-nav a {
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.dash-nav a.active {
+  background: var(--accent, #3b82f6);
+  color: #fff;
+}

@@ -1,0 +1,9 @@
+{% assign base = '/' | relative_url %}
+<nav class="dash-nav" aria-label="Dashboard sections">
+  <a href="{{ base }}dashboard/"{% if page.url == '/dashboard/' %} class="active" aria-current="page"{% endif %}>Overview</a>
+  <a href="{{ base }}dashboard/cost/"{% if page.url == '/dashboard/cost/' %} class="active" aria-current="page"{% endif %}>Cost</a>
+  <a href="{{ base }}dashboard/reliability/"{% if page.url == '/dashboard/reliability/' %} class="active" aria-current="page"{% endif %}>Reliability</a>
+  <a href="{{ base }}dashboard/content/"{% if page.url == '/dashboard/content/' %} class="active" aria-current="page"{% endif %}>Content</a>
+  <a href="{{ base }}dashboard/sources/"{% if page.url == '/dashboard/sources/' %} class="active" aria-current="page"{% endif %}>Sources</a>
+  <a href="{{ base }}dashboard/audience/"{% if page.url == '/dashboard/audience/' %} class="active" aria-current="page"{% endif %}>Audience</a>
+</nav>
