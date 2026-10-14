@@ -13,9 +13,13 @@ permalink: /dashboard/content/
 <p class="chart-note">
   All time: {{ t.posted | default: 0 }} entries posted
   ({{ t.posted_en | default: 0 }} EN, {{ t.posted_fa | default: 0 }} FA),
-  {{ t.links | default: 0 }} source links cited from {{ t.included | default: 0 }} included links,
+  {{ t.links | default: 0 }} source links cited from {{ t.included | default: 0 }} included stories,
   and {{ t.biases | default: 0 }} bias observations.
 </p>
+
+<h2>Stories processed</h2>
+<p class="chart-note">Stories fetched from all sources and run through the pipeline each day, before dedup and filtering.</p>
+{% include chart.html metric="processed" label="Stories processed" %}
 
 <h2>Entries posted</h2>
 {% include chart.html metric="posted" label="Entries posted" %}
@@ -24,8 +28,7 @@ permalink: /dashboard/content/
 
 <h2>Links and inclusion</h2>
 {% include chart.html metric="links" label="Source links cited" %}
-{% include chart.html metric="included" label="Links included" %}
-{% include chart.html metric="processed" label="Links processed" %}
+{% include chart.html metric="included" label="Stories included" %}
 
 <h2>Story mix</h2>
 {% include chart.html metric="new_stories" label="New stories" %}
