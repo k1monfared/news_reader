@@ -11,6 +11,7 @@ import pytest
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import stages.metrics as metrics_module
+from stages.source_stats import read_source_stats
 from stages.metrics import (
     append_run_record,
     build_run_record,
@@ -419,3 +420,42 @@ class TestBiasCounts:
 
     def test_missing_file(self, tmp_path):
         assert read_bias_counts(str(tmp_path / "nope.json")) == {}
+
+
+class TestCostAndSources:
+    def test_run_record_carries_sources_and_cost(self, tmp_path):
+        run_dir = tmp_path / "2026-10-13-090000"
+        (run_dir / "audit").mkdir(parents=True)
+        (run_dir / "source_stats.json").write_text(json.dumps({
+            "aljazeera": {"fetched": 25, "down": False, "prefilter_passed": 1, "included": 0, "posted": 0},
+            "bbc": {"fetched": 35, "down": False, "prefilter_passed": 7, "included": 5, "posted": 3},
+        }))
+        meta = {"run_id": "r", "stages": {}, "total_cost_usd": 0.12}
+        audit = {"by_stage": {}, "models": ["m"], "total": {},
+                 "cost_by_stage": {"filter": 0.02}, "cost_by_model": {"m": 0.02},
+                 "total_cost": 0.02, "failovers": {"m1": 1}}
+        sources = read_source_stats(str(run_dir))
+        rec = build_run_record(
+            "2026-10-13", run_meta=meta, en_post=None, fa_post=None,
+            ledger={}, subscribers={}, audit=audit, sources=sources,
+        )
+        assert {s["name"] for s in rec["sources"]} == {"aljazeera", "bbc"}
+        assert rec["cost"]["total"] == pytest.approx(0.12)
+        assert rec["cost"]["by_stage"]["filter"] == pytest.approx(0.02)
+        assert rec["failovers"] == {"m1": 1}
+
+    def test_projection_uses_extra_runs(self):
+        days = [{"date": "2026-10-13", "cost_usd": 0.10, "posted": 1, "posted_en": 1,
+                 "posted_fa": 0, "links": 1, "en": True, "fa": False, "emails": {},
+                 "subscribers": None, "status": "success", "empty": False,
+                 "processed": None, "included": None}]
+        totals = recompute_totals(days, None, extra_runs=8)
+        # per_day over 1 cost day = 0.10; days_running = 1; + 8 extra runs
+        assert totals["cost_projected"] == pytest.approx(0.90)
+
+    def test_projection_null_without_cost_days(self):
+        days = [{"date": "2026-10-13", "cost_usd": None, "posted": 1, "posted_en": 1,
+                 "posted_fa": 0, "links": 1, "en": True, "fa": False, "emails": {},
+                 "subscribers": None, "status": "success", "empty": False,
+                 "processed": None, "included": None}]
+        assert recompute_totals(days, None, extra_runs=8)["cost_projected"] is None

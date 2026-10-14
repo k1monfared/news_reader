@@ -31,6 +31,7 @@ from stats_client import (
     subscribe_joins,
 )
 from stages.empty_streak import _git_commit_file
+from stages.source_stats import read_source_stats
 
 logger = logging.getLogger(__name__)
 
@@ -191,6 +192,7 @@ def build_run_record(
     ledger: dict,
     subscribers: dict | None,
     audit: dict | None,
+    sources: dict | None = None,
 ) -> dict:
     """Assemble the comprehensive per-run database record."""
     meta = run_meta or {}
@@ -211,6 +213,16 @@ def build_run_record(
     }
 
     audit = audit or {"by_stage": {}, "models": [], "total": {}}
+    sources = sources or {}
+    source_list = [
+        {"name": name, **counters}
+        for name, counters in sorted(sources.items())
+    ]
+    cost = {
+        "total": round(meta.get("total_cost_usd") or 0.0, 4),
+        "by_stage": audit.get("cost_by_stage", {}),
+        "by_model": audit.get("cost_by_model", {}),
+    }
     subscribers = subscribers or {}
     subs_en = subscribers.get("en")
     subs_fa = subscribers.get("fa")
@@ -237,6 +249,9 @@ def build_run_record(
             "total": audit.get("total", {}),
         },
         "models": audit.get("models", []),
+        "cost": cost,
+        "failovers": audit.get("failovers", {}),
+        "sources": source_list,
         "posted_en": posted_en,
         "posted_fa": posted_fa,
         "posted": posted_en,
@@ -452,9 +467,15 @@ def build_days(records: list[dict], en_dir: Path, fa_dir: Path, ledger: dict, em
     return days
 
 
-def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
+def recompute_totals(
+    days: list[dict],
+    joins: dict | None = None,
+    extra_runs: int = 0,
+    failures: dict | None = None,
+) -> dict:
     """Aggregate per-day records into dashboard totals and rates."""
     days = sorted(days, key=lambda d: d.get("date") or "")
+    failures = failures or {}
     if not days:
         return {"generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
 
@@ -481,6 +502,14 @@ def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
         if isinstance(((d.get("emails") or {}).get(lang) or {}).get("recipients"), int)
     ]
 
+    cost_days = [d for d in days if d.get("cost_usd") is not None]
+    cost_actual = sum(d["cost_usd"] for d in cost_days) if cost_days else None
+    cost_per_day = (cost_actual / len(cost_days)) if cost_days else None
+    tok_days = [
+        d for d in days if (d.get("tokens") or {}).get("input") is not None
+    ]
+    first_token_date = tok_days[0]["date"] if tok_days else None
+
     totals = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "first_date": days[0]["date"],
@@ -506,7 +535,18 @@ def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
         "subscribers_peak": max(subscribers) if subscribers else None,
         "days_failed": sum(1 for d in days if d.get("status") == "failed"),
         "days_degraded": sum(1 for d in days if d.get("status") == "degraded"),
+        "days_succeeded": sum(1 for d in days if d.get("status") == "success"),
+        "days_failed_ever": failures.get("failed"),
+        "days_repaired": failures.get("failed_and_backfilled"),
         "days_empty": sum(1 for d in days if d.get("empty")),
+        "days_with_tokens": len(tok_days),
+        "days_with_cost": len(cost_days),
+        "first_token_date": first_token_date,
+        "cost_actual": round(cost_actual, 4) if cost_actual is not None else None,
+        "cost_per_day_over_cost_days": (
+            round(cost_per_day, 4) if cost_per_day is not None else None
+        ),
+        "cost_extra_runs": extra_runs,
         "tokens_input": _token("input"),
         "tokens_output": _token("output"),
         "tokens_thinking": _token("thinking"),
@@ -525,6 +565,10 @@ def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
         totals["subscribers_total_ever"] = None
 
     running = totals["days_running"] or 0
+    totals["cost_projected"] = (
+        round(cost_per_day * (running + extra_runs), 4)
+        if cost_per_day is not None else None
+    )
     token_days = sum(
         1 for d in days if (d.get("tokens") or {}).get("input") is not None
     )
@@ -651,9 +695,20 @@ def _today_from_day(day: dict) -> dict:
     }
 
 
-def build_dashboard(records: list[dict], en_dir: Path, fa_dir: Path, ledger: dict, empty_by_date: dict, joins: dict | None, today_date: str | None, bias_by_date: dict | None = None) -> dict:
+def build_dashboard(
+    records: list[dict],
+    en_dir: Path,
+    fa_dir: Path,
+    ledger: dict,
+    empty_by_date: dict,
+    joins: dict | None,
+    today_date: str | None,
+    bias_by_date: dict | None = None,
+    extra_runs: int = 0,
+    failures: dict | None = None,
+) -> dict:
     days = build_days(records, en_dir, fa_dir, ledger, empty_by_date, bias_by_date)
-    totals = recompute_totals(days, joins)
+    totals = recompute_totals(days, joins, extra_runs=extra_runs, failures=failures)
     by_date = latest_by_date(records)
     # "Today's run" is always present: the requested date's run, else the most
     # recent recorded run, else the most recent day derived from posts/ledger.
@@ -714,6 +769,7 @@ def run_metrics(
     en_post = _read_post(en_dir / f"{date_str}-daily-brief.md")
     fa_post = _read_post(fa_dir / f"{date_str}-daily-brief.md")
     audit = read_audit(run_dir)
+    sources = read_source_stats(run_dir)
 
     mailer_cfg = getattr(config, "mailer", None) or {}
     ledger_file = (
@@ -752,14 +808,24 @@ def run_metrics(
         ledger=ledger,
         subscribers=subscribers,
         audit=audit,
+        sources=sources,
     )
     append_run_record(db_file, record)
 
     records = load_run_records(db_file)
     bias_by_date = read_bias_counts(str(site_dir / "_data" / "source_biases.json"))
+    failures_data = _load_json(site_dir / "_data" / "failures.json", {})
+    failures = (
+        failures_data.get("counts", {})
+        if isinstance(failures_data, dict)
+        else {}
+    )
+    extra_runs = (failures.get("backfilled") or 0) + len(
+        failures.get("failed_not_backfilled") or []
+    )
     dashboard = build_dashboard(
         records, en_dir, fa_dir, ledger, empty_by_date, joins, today_date=date_str,
-        bias_by_date=bias_by_date,
+        bias_by_date=bias_by_date, extra_runs=extra_runs, failures=failures,
     )
     dashboard_path = Path(dashboard_file)
     dashboard_path.parent.mkdir(parents=True, exist_ok=True)
