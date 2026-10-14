@@ -28,6 +28,28 @@ from stages.metrics import (
 )
 
 
+def _failures_counts(site_dir: Path) -> tuple[dict, int]:
+    """Read ``failures.json`` counts and derive the extra-run allowance.
+
+    Defensive: a missing or malformed file yields empty counts and zero extra
+    runs, so a rebuild never clamps the reliability or projected-cost fields.
+    """
+    path = site_dir / "_data" / "failures.json"
+    data = {}
+    if path.exists():
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            data = {}
+    counts = data.get("counts", {}) if isinstance(data, dict) else {}
+    if not isinstance(counts, dict):
+        counts = {}
+    extra_runs = (counts.get("backfilled") or 0) + len(
+        counts.get("failed_not_backfilled") or []
+    )
+    return counts, extra_runs
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--config", default="config.yaml")
@@ -64,9 +86,10 @@ def main() -> int:
 
     records = load_run_records(db_file)
     bias_by_date = read_bias_counts(str(site_dir / "_data" / "source_biases.json"))
+    failures, extra_runs = _failures_counts(site_dir)
     payload = build_dashboard(
         records, en_dir, fa_dir, ledger, empty_by_date, joins=None, today_date=None,
-        bias_by_date=bias_by_date,
+        bias_by_date=bias_by_date, extra_runs=extra_runs, failures=failures,
     )
 
     # Preserve the live total-ever subscriber count (no network here).
