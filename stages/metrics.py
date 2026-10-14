@@ -142,7 +142,8 @@ def read_audit(run_dir: str) -> dict:
         total["cost_usd"] += usage["cost_usd"]
     return {
         "by_stage": by_stage, "models": models, "total": total,
-        "cost_by_stage": cost_by_stage, "cost_by_model": cost_by_model,
+        "cost_by_stage": {k: round(v, 4) for k, v in cost_by_stage.items()},
+        "cost_by_model": {k: round(v, 4) for k, v in cost_by_model.items()},
         "total_cost": round(total["cost_usd"], 4), "failovers": failovers,
     }
 
@@ -183,6 +184,19 @@ def _funnel(meta: dict, posted_en: int, posted_fa: int) -> dict:
     }
 
 
+def _recorded_calls(audit: dict | None) -> int:
+    """Number of LLM calls the audit recorded for a run (0 if none/unknown)."""
+    if not isinstance(audit, dict):
+        return 0
+    total = audit.get("total")
+    if not isinstance(total, dict):
+        return 0
+    calls = total.get("calls")
+    if isinstance(calls, bool) or not isinstance(calls, (int, float)):
+        return 0
+    return int(calls)
+
+
 def build_run_record(
     date_str: str,
     *,
@@ -218,6 +232,14 @@ def build_run_record(
         {"name": name, **counters}
         for name, counters in sorted(sources.items())
     ]
+    # A day is a cost day only if the run actually recorded LLM calls. A run
+    # with no calls (for example an aborted fetch-run) has no cost data, so its
+    # day-level cost is None rather than a recorded $0 that would dilute the
+    # per-cost-day average and projection.
+    recorded_calls = _recorded_calls(audit)
+    cost_usd = (
+        round(meta.get("total_cost_usd") or 0.0, 4) if recorded_calls > 0 else None
+    )
     cost = {
         "total": round(meta.get("total_cost_usd") or 0.0, 4),
         "by_stage": audit.get("cost_by_stage", {}),
@@ -241,7 +263,7 @@ def build_run_record(
         "failed_stages": failed,
         "degraded_stages": degraded,
         "errors": meta.get("errors", []),
-        "cost_usd": round(meta.get("total_cost_usd") or 0.0, 4),
+        "cost_usd": cost_usd,
         "stages": _stage_list(meta),
         "funnel": _funnel(meta, posted_en, posted_fa),
         "tokens": {
@@ -569,9 +591,6 @@ def recompute_totals(
         round(cost_per_day * (running + extra_runs), 4)
         if cost_per_day is not None else None
     )
-    token_days = sum(
-        1 for d in days if (d.get("tokens") or {}).get("input") is not None
-    )
 
     def _known(key: str) -> int:
         return sum(1 for d in days if d.get(key) is not None)
@@ -621,10 +640,10 @@ def recompute_totals(
         "links": _rate(totals["links"], _known("links")),
         "emails": _rate(totals["emails_total"], _known("emails_total")),
         "deliveries": _rate(totals["deliveries"], _known("deliveries")),
-        "tokens_input": _rate(totals["tokens_input"], token_days),
-        "tokens_output": _rate(totals["tokens_output"], token_days),
-        "tokens_thinking": _rate(totals["tokens_thinking"], token_days),
-        "tokens_total": _rate(totals["tokens_total"], token_days),
+        "tokens_input": _rate(totals["tokens_input"], len(tok_days)),
+        "tokens_output": _rate(totals["tokens_output"], len(tok_days)),
+        "tokens_thinking": _rate(totals["tokens_thinking"], len(tok_days)),
+        "tokens_total": _rate(totals["tokens_total"], len(tok_days)),
         "cost_usd": _rate(
             totals["cost_usd"], _known("cost_usd"), places=4, est_places=4
         ),

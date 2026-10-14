@@ -18,10 +18,13 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import llm_client as llm_client_module
 from llm_client import AuditedLLMClient
+import bias_tracker
 import stages.editorial as editorial_module
 import stages.empty_streak as empty_streak_module
+import stages.filter as filter_module
 import stages.summarize as summarize_module
 from stages.empty_streak import is_empty_brief, update_streak_and_notify
+from stages.source_stats import read_source_stats
 from stages.translate_fa import (
     _autoclose_unclosed_tags,
     _reasoning_leak_issues,
@@ -317,6 +320,72 @@ class TestSummarizePropagates:
             summarize_module.run_summarize(
                 str(run_dir), _config_stub(), _RaisingClient(), None
             )
+
+
+def _deduped_item(
+    fetch_id: str,
+    source: str,
+    title_en: str,
+    *,
+    is_primary: bool = True,
+    event_id: str | None = None,
+) -> dict:
+    return {
+        "source": source,
+        "source_url": f"https://example.com/{fetch_id}",
+        "timestamp": "2026-03-29T06:00:00+00:00",
+        "title": title_en,
+        "text": title_en,
+        "language": "en",
+        "fetch_id": fetch_id,
+        "text_en": title_en,
+        "title_en": title_en,
+        "event_id": event_id or fetch_id,
+        "is_primary": is_primary,
+        "related_sources": [],
+        "similarity_scores": {},
+    }
+
+
+class TestFilterSourceStats:
+    def test_records_prefilter_and_included_per_source(
+        self, tmp_run_dir, tmp_path, monkeypatch, sample_config, mock_llm_client
+    ):
+        run_path = Path(tmp_run_dir)
+        items = [
+            _deduped_item("aj1", "aljazeera", "Iran strike near Isfahan"),
+            _deduped_item("aj2", "aljazeera", "Local weather report"),
+            _deduped_item(
+                "rt1", "reuters", "Strait of Hormuz shipping resumes", event_id="e3"
+            ),
+            _deduped_item(
+                "rt2", "reuters", "Hormuz update", is_primary=False, event_id="e3"
+            ),
+        ]
+        (run_path / "deduped_items.json").write_text(json.dumps(items))
+        monkeypatch.setattr(
+            filter_module, "CACHE_PATH", tmp_path / "filter_cache.json"
+        )
+        monkeypatch.setattr(bias_tracker, "track_biases", lambda *a, **k: None)
+        mock_llm_client.mock_response = json.dumps([
+            {"fetch_id": "aj1", "included": True, "confidence": 0.9,
+             "filter_reason": "Iran war"},
+            {"fetch_id": "rt1", "included": False, "confidence": 0.9,
+             "filter_reason": "not Iran war"},
+        ])
+
+        result = filter_module.run_filter(
+            tmp_run_dir, sample_config, mock_llm_client, None
+        )
+
+        stats = read_source_stats(tmp_run_dir)
+        assert result["items_included"] == 1
+        # aj2 is primary with no Iran signal -> prefilter excluded.
+        assert stats["aljazeera"]["prefilter_passed"] == 1
+        assert stats["aljazeera"]["included"] == 1
+        # rt1 (primary) and rt2 (non-primary) both survive the pre-filter.
+        assert stats["reuters"]["prefilter_passed"] == 2
+        assert stats["reuters"].get("included", 0) == 0
 
 
 # ---------------------------------------------------------------------------

@@ -12,9 +12,10 @@ permalink: /dashboard/cost/
 
 <h2>Today's cost</h2>
 {% if today %}
+{% assign run_cost = today.cost.total | default: today.cost_usd %}
 <p class="chart-note">
   Run {{ today.target_date | default: "—" }} cost
-  ${{ today.cost.total | default: today.cost_usd | default: 0 | round: 4 }}
+  {% if run_cost %}${{ run_cost | round: 4 }}{% else %}$0.0000{% endif %}
   ({{ today.tokens.total.calls | default: 0 }} LLM call(s)).
 </p>
 {% else %}
@@ -52,6 +53,7 @@ permalink: /dashboard/cost/
 {% else %}
 <p class="chart-note">No per-model cost recorded for today's run.</p>
 {% endif %}
+<p class="chart-note">The by-model table can sum below the run total when a call has no model recorded.</p>
 
 <h2>Cost per day</h2>
 {% include chart.html metric="cost_usd" label="LLM cost (USD)" %}
@@ -114,9 +116,11 @@ permalink: /dashboard/cost/
 
 <h2>Projection</h2>
 <p class="chart-note">
-  Recorded cost ${{ t.cost_actual | default: 0 | round: 2 }} over {{ t.days_with_cost | default: 0 }} priced day(s),
+  Recorded cost {% if t.cost_actual %}${{ t.cost_actual | round: 2 }}{% else %}$0.00{% endif %}
+  over {{ t.days_with_cost | default: 0 }} day(s) with recorded LLM cost,
   averaging ${{ t.cost_per_day_over_cost_days | default: 0 | round: 4 }}/day.
-  Projected ${{ t.cost_projected | default: 0 | round: 2 }} across {{ t.days_running | default: 0 }} running day(s)
+  Projected {% if t.cost_projected %}${{ t.cost_projected | round: 2 }}{% else %}$0.00{% endif %}
+  across {{ t.days_running | default: 0 }} running day(s)
   plus {{ t.cost_extra_runs | default: 0 }} extra run(s).
 </p>
 

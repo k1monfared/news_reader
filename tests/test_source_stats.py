@@ -8,6 +8,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+import stages.summarize as summarize_module
 from stages.source_stats import (
     count_by_source,
     read_source_stats,
@@ -66,3 +67,43 @@ def test_summarize_posted_counts_includes_related():
         {"source": "france24", "related_sources": []},
     ]
     assert summarize_posted_counts(items) == {"bbc": 1, "aj": 1, "france24": 1}
+
+
+class _FakeTrackedItem:
+    def __init__(self, fetch_id, source, *, included=True, related=()):
+        self.fetch_id = fetch_id
+        self.source = source
+        self.included = included
+        self.primary_category = "Other"
+        self.related_sources = list(related)
+        self.sole_source_flag = False
+        self.story_status = "new"
+        self.title_en = "Headline"
+        self.text_en = "Body text for the item. " * 5
+        self.source_url = "https://example.com"
+        self.development_note = None
+        self.story_timeline = []
+
+
+def test_run_summarize_records_posted_per_source(
+    tmp_path, monkeypatch, sample_config, mock_llm_client
+):
+    run_dir = tmp_path / "run"
+    run_dir.mkdir()
+    items = [
+        _FakeTrackedItem("aj1", "aljazeera"),
+        _FakeTrackedItem("bb1", "bbc", related=["aljazeera"]),
+        _FakeTrackedItem("rt1", "reuters", included=False),
+    ]
+    monkeypatch.setattr(summarize_module, "_load_items", lambda p: items)
+
+    summarize_module.run_summarize(
+        str(run_dir), sample_config, mock_llm_client, None
+    )
+
+    stats = read_source_stats(str(run_dir))
+    # aljazeera is credited as the source of aj1 and as a related source of bb1.
+    assert stats["aljazeera"]["posted"] == 2
+    assert stats["bbc"]["posted"] == 1
+    # reuters was not included, so it is not credited.
+    assert "posted" not in stats.get("reuters", {})

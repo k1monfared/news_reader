@@ -358,25 +358,45 @@ class TestRunDb:
 
 
 class TestCost:
-    def test_run_record_carries_cost(self):
+    def test_run_record_carries_cost_when_calls_recorded(self):
         meta = {
             "run_id": "r",
             "stages": {},
             "total_cost_usd": 0.1234,
         }
+        audit = {"by_stage": {}, "models": ["m"], "total": {"calls": 2}}
         rec = build_run_record(
             "2026-10-06", run_meta=meta, en_post=None, fa_post=None,
-            ledger={}, subscribers={}, audit={},
+            ledger={}, subscribers={}, audit=audit,
         )
         assert rec["cost_usd"] == 0.1234
 
-    def test_run_record_missing_cost_is_zero(self):
-        meta = {"run_id": "r", "stages": {}}
+    def test_run_record_no_calls_has_null_cost(self):
+        """A run with no LLM calls has no cost data, not a recorded $0."""
+        meta = {"run_id": "r", "stages": {}, "total_cost_usd": 0.0}
         rec = build_run_record(
             "2026-10-06", run_meta=meta, en_post=None, fa_post=None,
             ledger={}, subscribers={}, audit={},
         )
-        assert rec["cost_usd"] == 0.0
+        assert rec["cost_usd"] is None
+
+    def test_zero_call_day_excluded_from_cost_days(self):
+        """An aborted fetch-run must not dilute the per-cost-day average."""
+        days = [
+            {"date": "2026-10-01", "cost_usd": 0.4, "posted": 1, "posted_en": 1,
+             "posted_fa": 0, "links": 1, "en": True, "fa": False, "emails": {},
+             "subscribers": None, "status": "success", "empty": False,
+             "processed": None, "included": None},
+            {"date": "2026-10-02", "cost_usd": None, "posted": 0, "posted_en": 0,
+             "posted_fa": 0, "links": 0, "en": True, "fa": False, "emails": {},
+             "subscribers": None, "status": "failed", "empty": False,
+             "processed": None, "included": None},
+        ]
+        totals = recompute_totals(days, None)
+        # Only the priced day counts (0.4), not a diluted 0.2 average.
+        assert totals["days_with_cost"] == 1
+        assert totals["cost_per_day_over_cost_days"] == 0.4
+        assert totals["cost_projected"] == 0.8  # 0.4/day * 2 running days
 
     def test_totals_sum_cost(self):
         days = [

@@ -14,11 +14,17 @@ permalink: /dashboard/sources/
 {% if today and today.sources and today.sources.size > 0 %}
 <p class="chart-note">
   Per-source counts for run {{ today.target_date | default: "—" }}. Fetched is the fetch stage total,
-  prefilter passed is after the pre-filter, included is after filtering, and posted counts items that reached the brief.
+  prefilter passed is after the pre-filter, included is after filtering, and cited counts the
+  items that reached the brief plus their related (clustered) sources.
+</p>
+<p class="chart-note">
+  Note: <em>prefilter passed</em> counts deduped items that were not deterministically excluded
+  (it still includes related and non-primary items), so it is an approximation of the true
+  Iran-signal pass rate, not an exact count.
 </p>
 <div class="table-wrap">
 <table class="dash-table">
-  <thead><tr><th>Source</th><th>Fetched</th><th>Prefilter passed</th><th>Included</th><th>Posted</th><th>Down</th></tr></thead>
+  <thead><tr><th>Source</th><th>Fetched</th><th>Prefilter passed</th><th>Included</th><th>Cited</th><th>Down</th></tr></thead>
   <tbody>
   {% for src in today.sources %}
     <tr>

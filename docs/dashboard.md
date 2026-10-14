@@ -13,7 +13,7 @@ permalink: /dashboard/
 <h1>Dashboard</h1>
 {% include dashnav.html %}
 
-<p class="chart-note">Automated status and counts for this brief, rebuilt once per day after the run. Counts cover both languages. Last updated {{ t.generated_at | default: "unknown" }}.</p>
+<p class="chart-note">Automated status and counts for this brief, rebuilt once per day after the run. Cards mix English-only and bilingual counts; each label says which. Last updated {{ t.generated_at | default: "unknown" }}.</p>
 
 {% assign rs = site.data.run_status %}
 {% if rs and rs.status == "running" %}
@@ -81,7 +81,7 @@ permalink: /dashboard/
     <span class="card-sub">{{ today.tokens.total.output | default: 0 }} out · {{ today.tokens.total.thinking | default: 0 }} think</span>
   </div>
   <div class="card">
-    <span class="card-value">${{ today.cost_usd | default: 0 | round: 2 }}</span>
+    <span class="card-value">{% if today.cost_usd %}${{ today.cost_usd | round: 2 }}{% else %}$0.00{% endif %}</span>
     <span class="card-label">Cost this run</span>
     <span class="card-sub">flat peak rates</span>
   </div>
@@ -110,9 +110,9 @@ permalink: /dashboard/
     <span class="card-sub">{{ t.days_running | default: 0 }} days running, {{ t.days_running | minus: t.briefs_en }} without a brief</span>
   </div>
   <div class="card">
-    <span class="card-value">${{ t.cost_actual | default: 0 | round: 2 }}</span>
+    <span class="card-value">{% if t.cost_actual %}${{ t.cost_actual | round: 2 }}{% else %}$0.00{% endif %}</span>
     <span class="card-label">LLM cost (recorded)</span>
-    <span class="card-sub">${{ t.cost_projected | default: 0 | round: 2 }} projected over {{ t.days_running | plus: t.cost_extra_runs }} run-days</span>
+    <span class="card-sub">{% if t.cost_projected %}${{ t.cost_projected | round: 2 }}{% else %}$0.00{% endif %} projected over {{ t.days_running | plus: t.cost_extra_runs }} run-days</span>
   </div>
   <div class="card">
     <span class="card-value">{{ t.days_failed_ever | default: 0 }}</span>
@@ -129,7 +129,7 @@ permalink: /dashboard/
 <h2>Source health</h2>
 {% if today and today.sources and today.sources.size > 0 %}
 <p class="chart-note">
-  Per-source funnel for today's run:
+  Per-source funnel for today's run only (no trend across days):
   {% for src in today.sources %}<strong>{{ src.name }}</strong>: {{ src.fetched | default: 0 }} fetched, {% if src.prefilter_passed == nil %}prefilter not recorded{% else %}{{ src.prefilter_passed }} passed prefilter{% endif %}, {{ src.included | default: 0 }} included{% unless forloop.last %} &middot; {% endunless %}{% endfor %}
 </p>
 {% assign flagged_sources = "" %}

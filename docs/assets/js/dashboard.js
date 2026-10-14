@@ -61,8 +61,14 @@
       if (!isFractional) return String(Math.round(n));
       return n.toFixed(n < 0.1 ? 3 : 2);
     }
+    function fmtMid(n) {
+      // Integer metrics floor the midpoint (never round the mid up to the
+      // max); fractional metrics round like the max label.
+      if (!isFractional) return String(Math.floor(n));
+      return n.toFixed(n < 0.1 ? 3 : 2);
+    }
     if (yMax) yMax.textContent = fmt(max);
-    if (yMid) yMid.textContent = fmt(mid);
+    if (yMid) yMid.textContent = fmtMid(mid);
 
     var barW = DEFAULT_W;
 

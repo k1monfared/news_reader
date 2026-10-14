@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -45,13 +46,22 @@ def update_source_stats(run_dir: str, source: str, **counters) -> None:
         if isinstance(value, bool):
             entry[key] = value
         elif isinstance(value, (int, float)):
-            entry[key] = entry.get(key, 0) + value
+            current = entry.get(key, 0)
+            # A non-numeric existing value (malformed stats file) is treated
+            # as 0 so the merge cannot raise a TypeError.
+            if isinstance(current, bool) or not isinstance(current, (int, float)):
+                current = 0
+            entry[key] = current + value
         else:
             entry[key] = value
     path = _path(run_dir)
     try:
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(json.dumps(stats, indent=2, sort_keys=True), encoding="utf-8")
+        # Write via a temp file + os.replace so a reader never sees a partial
+        # file and concurrent stages cannot interleave writes.
+        tmp = path.with_name(path.name + ".tmp")
+        tmp.write_text(json.dumps(stats, indent=2, sort_keys=True), encoding="utf-8")
+        os.replace(tmp, path)
     except OSError as exc:
         logger.warning(f"Could not write source stats for {source}: {exc}")
 

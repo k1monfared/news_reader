@@ -10,8 +10,10 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from models import SourceConfig, RawItem
+from models import PipelineConfig, SourceConfig, RawItem
+from stages.fetch import run_fetch
 from stages.fetchers.rss import RSSFetcher
+from stages.source_stats import read_source_stats
 
 
 # ---------------------------------------------------------------------------
@@ -83,6 +85,19 @@ def _make_mock_http_client(response: MagicMock) -> MagicMock:
     client.request_with_retry.return_value = response
     client.get.return_value = response
     return client
+
+
+def _make_pipeline_config(sources: list[SourceConfig], data_dir: Path) -> PipelineConfig:
+    return PipelineConfig(
+        sources=sources,
+        models={},
+        buckets=[],
+        schedule={},
+        budget={},
+        pipeline={},
+        publish={},
+        paths={"data_dir": str(data_dir)},
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -195,3 +210,24 @@ class TestRSSFetcher:
 
         assert len(items) == 1
         assert "Valid headline" in items[0].title
+
+
+class TestRunFetchSourceStats:
+    def test_records_fetched_and_down_per_source(self, tmp_path):
+        run_dir = tmp_path / "run"
+        run_dir.mkdir()
+        response = _make_mock_response(200, SAMPLE_RSS_XML)
+        http_client = _make_mock_http_client(response)
+
+        ok = _make_source_config("aljazeera")
+        broken = _make_source_config("reuters")
+        broken.type = "unknown"  # no fetcher -> the source is recorded down
+        config = _make_pipeline_config([ok, broken], tmp_path / "data")
+
+        run_fetch(str(run_dir), config, None, http_client)
+
+        stats = read_source_stats(str(run_dir))
+        assert stats["aljazeera"]["fetched"] == 3
+        assert stats["aljazeera"]["down"] is False
+        assert stats["reuters"]["fetched"] == 0
+        assert stats["reuters"]["down"] is True

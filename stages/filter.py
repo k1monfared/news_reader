@@ -148,6 +148,10 @@ def run_filter(
     Reads deduped_items.json, filters items via batched LLM calls, and
     writes filtered_items.json.
 
+    Per-source ``prefilter_passed`` counts deduped items not excluded by the
+    deterministic pre-filter (including related/non-primary items), so it is an
+    approximation of the true Iran-signal pass rate rather than an exact count.
+
     Returns:
         Stage result dict with filter stats.
     """
