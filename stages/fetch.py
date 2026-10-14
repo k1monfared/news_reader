@@ -68,6 +68,16 @@ def run_fetch(
             sources_down.append(source.name)
             items_by_source[source.name] = 0
 
+    from stages.source_stats import update_source_stats
+
+    for source in config.sources:
+        update_source_stats(
+            run_dir,
+            source.name,
+            fetched=items_by_source.get(source.name, 0),
+            down=source.name in sources_down,
+        )
+
     # Save etag cache
     etag_path.write_text(json.dumps(etag_cache, indent=2))
 
