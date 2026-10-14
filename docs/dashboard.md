@@ -11,6 +11,7 @@ permalink: /dashboard/
 <div class="page-content dashboard" markdown="0">
 
 <h1>Dashboard</h1>
+{% include dashnav.html %}
 
 <p class="chart-note">Automated status and counts for this brief, rebuilt once per day after the run. Counts cover both languages. Last updated {{ t.generated_at | default: "unknown" }}.</p>
 
@@ -97,183 +98,63 @@ permalink: /dashboard/
   </li>
   {% endfor %}
 </ol>
-
-<h3>Tokens this run</h3>
-<div class="table-wrap">
-<table class="dash-table">
-  <thead><tr><th>Stage</th><th>Calls</th><th>Input</th><th>Output</th><th>Thinking</th><th>Total</th></tr></thead>
-  <tbody>
-    {% for s in today.tokens.by_stage %}
-    <tr>
-      <td>{{ s[0] | replace: "_", " " }}</td>
-      <td>{{ s[1].calls }}</td>
-      <td>{{ s[1].input }}</td>
-      <td>{{ s[1].output }}</td>
-      <td>{{ s[1].thinking }}</td>
-      <td>{{ s[1].input | plus: s[1].output | plus: s[1].thinking }}</td>
-    </tr>
-    {% endfor %}
-    <tr>
-      <td><strong>Total</strong></td>
-      <td>{{ today.tokens.total.calls | default: 0 }}</td>
-      <td>{{ today.tokens.total.input | default: 0 }}</td>
-      <td>{{ today.tokens.total.output | default: 0 }}</td>
-      <td>{{ today.tokens.total.thinking | default: 0 }}</td>
-      <td>{{ today.tokens.total.input | default: 0 | plus: today.tokens.total.output | plus: today.tokens.total.thinking }}</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 {% else %}
-<p class="chart-note">No run recorded yet. The next pipeline run will populate today's status, funnel, and tokens.</p>
+<p class="chart-note">No run recorded yet. The next pipeline run will populate today's status and funnel.</p>
 {% endif %}
 
 <h2>All time</h2>
 <section class="cards">
   <div class="card">
-    <span class="card-value">{{ t.days_running | default: "—" }}</span>
-    <span class="card-label">Days running</span>
-    <span class="card-sub">since {{ t.first_date | default: "—" }}</span>
-  </div>
-  <div class="card">
-    <span class="card-value">{{ t.briefs_en | default: "—" }}</span>
+    <span class="card-value">{{ t.briefs_en | default: 0 }}</span>
     <span class="card-label">Briefs published (EN)</span>
-    <span class="card-sub">{{ t.briefs_fa | default: 0 }} in Farsi</span>
+    <span class="card-sub">{{ t.days_running | default: 0 }} days running, {{ t.days_running | minus: t.briefs_en }} without a brief</span>
   </div>
   <div class="card">
-    <span class="card-value">{{ t.posted | default: "—" }}</span>
-    <span class="card-label">Brief entries posted (EN)</span>
-    <span class="card-sub">{{ t.links | default: 0 }} source links cited</span>
+    <span class="card-value">${{ t.cost_actual | default: 0 | round: 2 }}</span>
+    <span class="card-label">LLM cost (recorded)</span>
+    <span class="card-sub">${{ t.cost_projected | default: 0 | round: 2 }} projected over {{ t.days_running | plus: t.cost_extra_runs }} run-days</span>
   </div>
   <div class="card">
-    <span class="card-value">{{ t.processed | default: "—" }}</span>
-    <span class="card-label">Links processed</span>
-    <span class="card-sub">{{ t.included | default: "—" }} made the cut</span>
-  </div>
-  <div class="card">
-    <span class="card-value">{{ t.emails_total | default: 0 }}</span>
-    <span class="card-label">Emails sent</span>
-    <span class="card-sub">{{ t.emails_en | default: 0 }} EN · {{ t.emails_fa | default: 0 }} FA</span>
-  </div>
-  <div class="card">
-    <span class="card-value">{{ t.deliveries | default: "—" }}</span>
-    <span class="card-label">Recipient deliveries</span>
+    <span class="card-value">{{ t.days_failed_ever | default: 0 }}</span>
+    <span class="card-label">Failed days (ever)</span>
+    <span class="card-sub">{{ t.days_repaired | default: 0 }} repaired, {{ t.days_degraded | default: 0 }} degraded</span>
   </div>
   <div class="card">
     <span class="card-value">{{ t.subscribers_current | default: "—" }}</span>
     <span class="card-label">Subscribers now</span>
     <span class="card-sub">peak {{ t.subscribers_peak | default: "—" }}</span>
   </div>
-  <div class="card">
-    <span class="card-value">{{ t.subscribers_total_ever | default: "—" }}</span>
-    <span class="card-label">Total ever subscribed</span>
-    <span class="card-sub">distinct emails</span>
-  </div>
-  <div class="card">
-    <span class="card-value">{{ t.tokens_total | default: "—" }}</span>
-    <span class="card-label">LLM tokens</span>
-    <span class="card-sub">{{ t.llm_calls | default: 0 }} calls</span>
-  </div>
-  <div class="card">
-    <span class="card-value">${{ t.cost_usd | default: 0 | round: 2 }}</span>
-    <span class="card-label">LLM cost</span>
-    <span class="card-sub">${{ t.rates.cost_usd.per_day | default: 0 | round: 2 }}/day</span>
-  </div>
-  <div class="card">
-    <span class="card-value">{{ t.days_failed | default: 0 }}</span>
-    <span class="card-label">Failed days</span>
-    <span class="card-sub">{{ t.days_degraded | default: 0 }} degraded · {{ t.days_empty | default: 0 }} empty</span>
-  </div>
 </section>
 
-<h2>Failures</h2>
-{% assign f = site.data.failures %}
-{% if f and f.counts %}
-<p class="chart-note">{{ f.counts.failed }} failed day(s), {{ f.counts.backfilled }} backfilled day(s), {{ f.counts.failed_and_backfilled }} of them repaired. <a href="{{ '/failures/' | relative_url }}">Failure log</a>.</p>
+<h2>Source health</h2>
+{% if today and today.sources and today.sources.size > 0 %}
+<p class="chart-note">
+  Per-source funnel for today's run:
+  {% for src in today.sources %}<strong>{{ src.name }}</strong>: {{ src.fetched | default: 0 }} fetched, {% if src.prefilter_passed == nil %}prefilter not recorded{% else %}{{ src.prefilter_passed }} passed prefilter{% endif %}, {{ src.included | default: 0 }} included{% unless forloop.last %} &middot; {% endunless %}{% endfor %}
+</p>
+{% assign flagged_sources = "" %}
+{% for src in today.sources %}
+{% if src.fetched > 0 %}
+{% if src.prefilter_passed == nil or src.prefilter_passed == 0 %}
+{% assign flagged_sources = flagged_sources | append: src.name | append: " " %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% if flagged_sources != "" %}
+<div class="sources-down"><strong>Source health flag:</strong> {{ flagged_sources }}fetched items but recorded no prefilter pass. Check the fetchers and the prefilter.</div>
+{% endif %}
 {% else %}
-<p class="chart-note">No failure data yet.</p>
+<p class="chart-note">No per-source funnel recorded for today's run.</p>
 {% endif %}
 
-<h2>Averages</h2>
-<p class="chart-note">Averages divide by the number of days that actually have data for each metric (the Days column), not the full period. "Est. all-time" extrapolates that average across all {{ t.days_running | default: "—" }} days, so metrics with partial records are estimates. Average entries per EN brief: {{ t.entries_per_brief_en | default: "—" }}.{% if t.subscribers_growth %} Subscriber growth: {{ t.subscribers_growth.total }} total{% if t.subscribers_growth.per_week != nil %}, {{ t.subscribers_growth.per_week }}/week{% endif %}.{% endif %}</p>
-<div class="table-wrap">
-<table class="dash-table">
-  <thead>
-    <tr><th>Metric</th><th>Days</th><th>Per day</th><th>Per week</th><th>Per month</th><th>Est. all-time</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>Brief entries posted (EN)</td><td>{{ t.rates.posted.days | default: 0 }}</td><td>{{ t.rates.posted.per_day | default: "—" }}</td><td>{{ t.rates.posted.per_week | default: "—" }}</td><td>{{ t.rates.posted.per_month | default: "—" }}</td><td>{{ t.rates.posted.estimated_total | default: "—" }}</td></tr>
-    <tr><td>Entries posted (FA)</td><td>{{ t.rates.posted_fa.days | default: 0 }}</td><td>{{ t.rates.posted_fa.per_day | default: "—" }}</td><td>{{ t.rates.posted_fa.per_week | default: "—" }}</td><td>{{ t.rates.posted_fa.per_month | default: "—" }}</td><td>{{ t.rates.posted_fa.estimated_total | default: "—" }}</td></tr>
-    <tr><td>Links processed</td><td>{{ t.rates.processed.days | default: 0 }}</td><td>{{ t.rates.processed.per_day | default: "—" }}</td><td>{{ t.rates.processed.per_week | default: "—" }}</td><td>{{ t.rates.processed.per_month | default: "—" }}</td><td>{{ t.rates.processed.estimated_total | default: "—" }}</td></tr>
-    <tr><td>Links included</td><td>{{ t.rates.included.days | default: 0 }}</td><td>{{ t.rates.included.per_day | default: "—" }}</td><td>{{ t.rates.included.per_week | default: "—" }}</td><td>{{ t.rates.included.per_month | default: "—" }}</td><td>{{ t.rates.included.estimated_total | default: "—" }}</td></tr>
-    <tr><td>New stories</td><td>{{ t.rates.new_stories.days | default: 0 }}</td><td>{{ t.rates.new_stories.per_day | default: "—" }}</td><td>{{ t.rates.new_stories.per_week | default: "—" }}</td><td>{{ t.rates.new_stories.per_month | default: "—" }}</td><td>{{ t.rates.new_stories.estimated_total | default: "—" }}</td></tr>
-    <tr><td>Continuations (repeats, excluded)</td><td>{{ t.rates.continuations.days | default: 0 }}</td><td>{{ t.rates.continuations.per_day | default: "—" }}</td><td>{{ t.rates.continuations.per_week | default: "—" }}</td><td>{{ t.rates.continuations.per_month | default: "—" }}</td><td>{{ t.rates.continuations.estimated_total | default: "—" }}</td></tr>
-    <tr><td>Developments (updates)</td><td>{{ t.rates.developments.days | default: 0 }}</td><td>{{ t.rates.developments.per_day | default: "—" }}</td><td>{{ t.rates.developments.per_week | default: "—" }}</td><td>{{ t.rates.developments.per_month | default: "—" }}</td><td>{{ t.rates.developments.estimated_total | default: "—" }}</td></tr>
-    <tr><td>Biases found</td><td>{{ t.rates.biases.days | default: 0 }}</td><td>{{ t.rates.biases.per_day | default: "—" }}</td><td>{{ t.rates.biases.per_week | default: "—" }}</td><td>{{ t.rates.biases.per_month | default: "—" }}</td><td>{{ t.rates.biases.estimated_total | default: "—" }}</td></tr>
-    <tr><td>Source links cited (EN)</td><td>{{ t.rates.links.days | default: 0 }}</td><td>{{ t.rates.links.per_day | default: "—" }}</td><td>{{ t.rates.links.per_week | default: "—" }}</td><td>{{ t.rates.links.per_month | default: "—" }}</td><td>{{ t.rates.links.estimated_total | default: "—" }}</td></tr>
-    <tr><td>Emails sent</td><td>{{ t.rates.emails.days | default: 0 }}</td><td>{{ t.rates.emails.per_day | default: "—" }}</td><td>{{ t.rates.emails.per_week | default: "—" }}</td><td>{{ t.rates.emails.per_month | default: "—" }}</td><td>{{ t.rates.emails.estimated_total | default: "—" }}</td></tr>
-    <tr><td>Recipient deliveries</td><td>{{ t.rates.deliveries.days | default: 0 }}</td><td>{{ t.rates.deliveries.per_day | default: "—" }}</td><td>{{ t.rates.deliveries.per_week | default: "—" }}</td><td>{{ t.rates.deliveries.per_month | default: "—" }}</td><td>{{ t.rates.deliveries.estimated_total | default: "—" }}</td></tr>
-    <tr><td>Input tokens</td><td>{{ t.rates.tokens_input.days | default: 0 }}</td><td>{{ t.rates.tokens_input.per_day | default: "—" }}</td><td>{{ t.rates.tokens_input.per_week | default: "—" }}</td><td>{{ t.rates.tokens_input.per_month | default: "—" }}</td><td>{{ t.rates.tokens_input.estimated_total | default: "—" }}</td></tr>
-    <tr><td>Output tokens</td><td>{{ t.rates.tokens_output.days | default: 0 }}</td><td>{{ t.rates.tokens_output.per_day | default: "—" }}</td><td>{{ t.rates.tokens_output.per_week | default: "—" }}</td><td>{{ t.rates.tokens_output.per_month | default: "—" }}</td><td>{{ t.rates.tokens_output.estimated_total | default: "—" }}</td></tr>
-    <tr><td>Thinking tokens</td><td>{{ t.rates.tokens_thinking.days | default: 0 }}</td><td>{{ t.rates.tokens_thinking.per_day | default: "—" }}</td><td>{{ t.rates.tokens_thinking.per_week | default: "—" }}</td><td>{{ t.rates.tokens_thinking.per_month | default: "—" }}</td><td>{{ t.rates.tokens_thinking.estimated_total | default: "—" }}</td></tr>
-    <tr><td>Total tokens</td><td>{{ t.rates.tokens_total.days | default: 0 }}</td><td>{{ t.rates.tokens_total.per_day | default: "—" }}</td><td>{{ t.rates.tokens_total.per_week | default: "—" }}</td><td>{{ t.rates.tokens_total.per_month | default: "—" }}</td><td>{{ t.rates.tokens_total.estimated_total | default: "—" }}</td></tr>
-    <tr><td>LLM cost (USD)</td><td>{{ t.rates.cost_usd.days | default: 0 }}</td><td>{{ t.rates.cost_usd.per_day | default: "—" }}</td><td>{{ t.rates.cost_usd.per_week | default: "—" }}</td><td>{{ t.rates.cost_usd.per_month | default: "—" }}</td><td>{{ t.rates.cost_usd.estimated_total | default: "—" }}</td></tr>
-  </tbody>
-</table>
+<h2>Sections</h2>
+<div class="cards">
+  <a class="card" href="{{ '/dashboard/cost/' | relative_url }}"><span class="card-label">Cost &amp; usage</span><span class="card-sub">spend, tokens, projections</span></a>
+  <a class="card" href="{{ '/dashboard/reliability/' | relative_url }}"><span class="card-label">Reliability</span><span class="card-sub">status, failures, repairs</span></a>
+  <a class="card" href="{{ '/dashboard/content/' | relative_url }}"><span class="card-label">Content</span><span class="card-sub">entries, links, story mix</span></a>
+  <a class="card" href="{{ '/dashboard/sources/' | relative_url }}"><span class="card-label">Sources &amp; models</span><span class="card-sub">funnel, models, failover</span></a>
+  <a class="card" href="{{ '/dashboard/audience/' | relative_url }}"><span class="card-label">Audience</span><span class="card-sub">subscribers, deliveries</span></a>
 </div>
-<p class="chart-note">A blank Days means no recorded data for that metric yet (for example processed links, story statuses, and tokens before run tracking); averages and estimates fill in as runs are recorded. Story and link totals count the English brief only, since the Farsi edition is a translation, not separate stories.</p>
-
-<h2>Per-day metrics</h2>
-<p class="chart-note">Zero baseline. Drag to pan, scroll sideways, Ctrl/⌘ + wheel zooms, click a bar to open that day's brief. {{ d.days | size }} days available.</p>
-{% include chart.html metric="posted" label="Brief entries posted (EN)" %}
-{% include chart.html metric="posted_en" label="Entries posted (EN)" %}
-{% include chart.html metric="posted_fa" label="Entries posted (FA)" %}
-{% include chart.html metric="processed" label="Links processed" %}
-{% include chart.html metric="included" label="Links included" %}
-{% include chart.html metric="links" label="Source links cited (EN)" %}
-{% include chart.html metric="new_stories" label="New stories" %}
-{% include chart.html metric="continuations" label="Continuations (repeats, excluded)" %}
-{% include chart.html metric="developments" label="Developments (updates)" %}
-{% include chart.html metric="biases" label="Biases found" %}
-{% include chart.html metric="emails_total" label="Emails sent" %}
-{% include chart.html metric="deliveries" label="Recipient deliveries" %}
-{% include chart.html metric="tokens_input" label="Input tokens" %}
-{% include chart.html metric="tokens_output" label="Output tokens" %}
-{% include chart.html metric="tokens_thinking" label="Thinking tokens" %}
-{% include chart.html metric="tokens_total" label="Total tokens" %}
-{% include chart.html metric="cost_usd" label="LLM cost (USD)" %}
-
-<h2>Daily status</h2>
-<div class="table-wrap">
-<table class="dash-table">
-  <thead>
-    <tr>
-      <th>Date</th><th>Status</th><th>EN</th><th>FA</th>
-      <th>Posted</th><th>Links</th><th>Email</th><th>Subs</th><th>Failures</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% assign rows = d.days | reverse %}
-    {% for day in rows %}
-    <tr>
-      <td>{{ day.date }}</td>
-      <td><span class="badge badge-{{ day.status | default: 'unknown' }}">{{ day.status | default: "unknown" }}</span></td>
-      <td>{% if day.en %}yes{% else %}—{% endif %}</td>
-      <td>{% if day.fa %}yes{% else %}—{% endif %}</td>
-      <td>{{ day.posted | default: 0 }}</td>
-      <td>{{ day.links | default: 0 }}</td>
-      <td>{% if day.emails.en.sent %}EN{% endif %}{% if day.emails.fa.sent %} FA{% endif %}{% unless day.emails.en.sent or day.emails.fa.sent %}—{% endunless %}</td>
-      <td>{{ day.subscribers | default: "—" }}</td>
-      <td>{{ day.failed_stages | join: ", " | default: "—" }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-</div>
-
-<p class="chart-note">
-  <strong>success</strong>: all critical stages passed. <strong>degraded</strong>: a non-critical stage failed or editorial shipped an unedited draft. <strong>failed</strong>: a critical stage failed. <strong>unknown</strong>: historical day before status tracking began.
-</p>
 
 <script id="dashboard-days" type="application/json">{{ d.days | jsonify }}</script>
 <span id="dashboard-base" data-base="{{ '/' | relative_url }}" hidden></span>
