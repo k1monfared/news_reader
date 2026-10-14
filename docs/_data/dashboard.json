@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T00:26:52Z",
+  "generated_at": "2026-10-14T02:30:51Z",
   "today": {
     "backfill": false,
     "cost_usd": 0.1218,
@@ -10953,7 +10953,7 @@
     }
   ],
   "totals": {
-    "generated_at": "2026-10-14T00:26:52Z",
+    "generated_at": "2026-10-14T02:30:51Z",
     "first_date": "2026-02-26",
     "last_date": "2026-10-13",
     "days_recorded": 229,
@@ -10977,7 +10977,16 @@
     "subscribers_peak": 9,
     "days_failed": 0,
     "days_degraded": 0,
+    "days_succeeded": 7,
+    "days_failed_ever": 19,
+    "days_repaired": 11,
     "days_empty": 0,
+    "days_with_tokens": 8,
+    "days_with_cost": 1,
+    "first_token_date": "2026-10-06",
+    "cost_actual": 0.1218,
+    "cost_per_day_over_cost_days": 0.1218,
+    "cost_extra_runs": 24,
     "tokens_input": 2294824,
     "tokens_output": 302532,
     "tokens_thinking": 234339,
@@ -10986,6 +10995,7 @@
     "emails_total": 180,
     "tokens_total": 2831695,
     "subscribers_total_ever": 7,
+    "cost_projected": 30.9372,
     "rates": {
       "posted": {
         "per_day": 6.3,

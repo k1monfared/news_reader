@@ -61,6 +61,7 @@ permalink: /dashboard/cost/
 <h2>Tokens per day</h2>
 {% include chart.html metric="tokens_input" label="Input tokens" %}
 {% include chart.html metric="tokens_output" label="Output tokens" %}
+{% include chart.html metric="tokens_thinking" label="Thinking tokens" %}
 {% include chart.html metric="tokens_total" label="Total tokens" %}
 
 <h2>All-time averages</h2>
