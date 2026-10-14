@@ -3,8 +3,8 @@
   "target_date": "2026-10-14",
   "status": "running",
   "started_at": "2026-10-14T17:59:08Z",
-  "updated_at": "2026-10-14T17:59:33Z",
-  "current_stage": "filter",
+  "updated_at": "2026-10-14T18:00:56Z",
+  "current_stage": "categorize",
   "total_stages": 13,
   "stages": [
     {
@@ -27,6 +27,13 @@
       "duration_s": 1.27,
       "error": null,
       "finished_at": "2026-10-14T17:59:33Z"
+    },
+    {
+      "name": "filter",
+      "status": "completed",
+      "duration_s": 82.27,
+      "error": null,
+      "finished_at": "2026-10-14T18:00:56Z"
     }
   ]
 }
