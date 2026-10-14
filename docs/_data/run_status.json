@@ -1,102 +1,10 @@
 {
-  "run_id": "2026-10-13-110833",
+  "run_id": "2026-10-13-171912",
   "target_date": "2026-10-13",
-  "status": "failed",
-  "started_at": "2026-10-13T18:08:34Z",
-  "updated_at": "2026-10-13T18:26:03Z",
-  "current_stage": null,
+  "status": "running",
+  "started_at": "2026-10-14T00:19:17Z",
+  "updated_at": "2026-10-14T00:19:17Z",
+  "current_stage": "fetch",
   "total_stages": 13,
-  "stages": [
-    {
-      "name": "fetch",
-      "status": "completed",
-      "duration_s": 49.27,
-      "error": null,
-      "finished_at": "2026-10-13T18:09:25Z"
-    },
-    {
-      "name": "translate",
-      "status": "completed",
-      "duration_s": 0.01,
-      "error": null,
-      "finished_at": "2026-10-13T18:09:26Z"
-    },
-    {
-      "name": "dedup",
-      "status": "completed",
-      "duration_s": 1.47,
-      "error": null,
-      "finished_at": "2026-10-13T18:09:34Z"
-    },
-    {
-      "name": "filter",
-      "status": "completed",
-      "duration_s": 345.63,
-      "error": null,
-      "finished_at": "2026-10-13T18:15:21Z"
-    },
-    {
-      "name": "categorize",
-      "status": "completed",
-      "duration_s": 59.63,
-      "error": null,
-      "finished_at": "2026-10-13T18:16:22Z"
-    },
-    {
-      "name": "track_developments",
-      "status": "completed",
-      "duration_s": 291.61,
-      "error": null,
-      "finished_at": "2026-10-13T18:21:15Z"
-    },
-    {
-      "name": "summarize",
-      "status": "completed",
-      "duration_s": 33.49,
-      "error": null,
-      "finished_at": "2026-10-13T18:21:50Z"
-    },
-    {
-      "name": "editorial",
-      "status": "completed",
-      "duration_s": 243.56,
-      "error": null,
-      "finished_at": "2026-10-13T18:25:54Z"
-    },
-    {
-      "name": "verify",
-      "status": "completed",
-      "duration_s": 2.06,
-      "error": null,
-      "finished_at": "2026-10-13T18:25:58Z"
-    },
-    {
-      "name": "render_check",
-      "status": "failed",
-      "duration_s": 0.0,
-      "error": "Render check failed: unbalanced closing tag </details>",
-      "finished_at": "2026-10-13T18:25:59Z"
-    },
-    {
-      "name": "publish",
-      "status": "skipped",
-      "duration_s": null,
-      "error": null,
-      "finished_at": "2026-10-13T18:26:00Z"
-    },
-    {
-      "name": "translate_fa",
-      "status": "skipped",
-      "duration_s": null,
-      "error": null,
-      "finished_at": "2026-10-13T18:26:01Z"
-    },
-    {
-      "name": "mailer",
-      "status": "skipped",
-      "duration_s": null,
-      "error": null,
-      "finished_at": "2026-10-13T18:26:02Z"
-    }
-  ]
+  "stages": []
 }
