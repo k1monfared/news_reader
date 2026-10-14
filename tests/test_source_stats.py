@@ -8,7 +8,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from stages.source_stats import count_by_source, read_source_stats, update_source_stats
+from stages.source_stats import (
+    count_by_source,
+    read_source_stats,
+    summarize_posted_counts,
+    update_source_stats,
+)
 
 
 def test_creates_and_merges(tmp_path):
@@ -53,3 +58,11 @@ def test_count_by_source():
     items = [{"source": "aj"}, {"source": "aj"}, {"source": "bbc"}]
     assert count_by_source(items, lambda i: True) == {"aj": 2, "bbc": 1}
     assert count_by_source(items, lambda i: i["source"] == "aj") == {"aj": 2}
+
+
+def test_summarize_posted_counts_includes_related():
+    items = [
+        {"source": "bbc", "related_sources": ["aj"]},
+        {"source": "france24", "related_sources": []},
+    ]
+    assert summarize_posted_counts(items) == {"bbc": 1, "aj": 1, "france24": 1}

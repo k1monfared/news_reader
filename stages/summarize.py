@@ -142,6 +142,11 @@ def run_summarize(
     # Write plain-text headlines for terminal output
     _write_headlines(run_path, sorted_cats)
 
+    from stages.source_stats import summarize_posted_counts, update_source_stats
+
+    for name, n in summarize_posted_counts(included).items():
+        update_source_stats(run_dir, name, posted=n)
+
     logger.info(f"Summarized {len(included)} items into report")
     return {"items_summarized": len(included), "categories_used": len(sorted_cats)}
 

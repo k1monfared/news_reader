@@ -65,3 +65,16 @@ def count_by_source(items, predicate) -> dict[str, int]:
             if name:
                 counts[name] = counts.get(name, 0) + 1
     return counts
+
+
+def summarize_posted_counts(items) -> dict[str, int]:
+    """Count each item's source and its related sources as 'posted'."""
+    counts: dict[str, int] = {}
+    for item in items:
+        src = item.get("source") if isinstance(item, dict) else getattr(item, "source", None)
+        related = (item.get("related_sources") if isinstance(item, dict)
+                   else getattr(item, "related_sources", [])) or []
+        for name in [src, *related]:
+            if name:
+                counts[name] = counts.get(name, 0) + 1
+    return counts
