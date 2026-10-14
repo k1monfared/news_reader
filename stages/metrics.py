@@ -513,9 +513,14 @@ def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
     def _known(key: str) -> int:
         return sum(1 for d in days if d.get(key) is not None)
 
-    def _rate(total, known: int, places: int = 1):
+    def _rate(total, known: int, places: int = 1, est_places: int | None = None):
         """Average over the days that actually have data, plus an extrapolated
-        all-time estimate across the full running period."""
+        all-time estimate across the full running period.
+
+        ``places`` controls the per-day/week/month rounding.  ``est_places``
+        overrides the rounding of the extrapolated ``estimated_total`` (counts
+        round to whole numbers by default, cost rounds to 4 decimals).
+        """
         if total is None or known <= 0:
             return {
                 "per_day": None,
@@ -525,12 +530,19 @@ def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
                 "estimated_total": None,
             }
         per_day = total / known
+        estimated_total = None
+        if running:
+            estimated_total = (
+                round(per_day * running, est_places)
+                if est_places is not None
+                else round(per_day * running)
+            )
         return {
             "per_day": round(per_day, places),
             "per_week": round(per_day * 7, places),
             "per_month": round(per_day * 30.44, places),
             "days": known,
-            "estimated_total": round(per_day * running) if running else None,
+            "estimated_total": estimated_total,
         }
 
     totals["rates"] = {
@@ -550,7 +562,9 @@ def recompute_totals(days: list[dict], joins: dict | None = None) -> dict:
         "tokens_output": _rate(totals["tokens_output"], token_days),
         "tokens_thinking": _rate(totals["tokens_thinking"], token_days),
         "tokens_total": _rate(totals["tokens_total"], token_days),
-        "cost_usd": _rate(totals["cost_usd"], _known("cost_usd"), places=4),
+        "cost_usd": _rate(
+            totals["cost_usd"], _known("cost_usd"), places=4, est_places=4
+        ),
     }
 
     totals["entries_per_brief_en"] = (

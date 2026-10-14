@@ -25,29 +25,46 @@ from models import load_config, PipelineConfig, SourceConfig
 # Git isolation guard
 # ---------------------------------------------------------------------------
 
-# Every stage module that can add/commit/push to the real repository.  The
-# guard below no-ops ``_git_commit_file`` on each so no test can ever create a
-# commit or push.  ``_git_commit_push`` and ``_run_git`` are deliberately NOT
-# patched: tests of translate_fa exercise those directly.
-_GIT_COMMIT_MODULES = [
-    "stages.empty_streak",
-    "stages.metrics",
-    "stages.mailer",
-    "stages.publish",
-    "stages.translate_fa",
+# Every module that can add/commit/push to the real repository, paired with the
+# lowest-level git helper it uses.  The guard no-ops that helper on each so no
+# test can ever create a commit or push.  ``stages.publish`` has no
+# ``_git_commit_file``: it pushes through its ``_git_publish`` helper.
+# ``stages.translate_fa`` is neutralised at ``_run_git``, NOT
+# ``_git_commit_push``: tests exercise ``_git_commit_push`` by replacing
+# ``_run_git`` themselves, and patching the low-level runner keeps that working.
+_GIT_HELPERS = [
+    ("stages.empty_streak", "_git_commit_file"),
+    ("stages.metrics", "_git_commit_file"),
+    ("stages.mailer", "_git_commit_file"),
+    ("progress", "_git_commit_file"),
+    ("stages.publish", "_git_publish"),
+    ("stages.translate_fa", "_run_git"),
 ]
+
+
+class _NoGitResult:
+    """Stand-in for ``subprocess.CompletedProcess`` reporting a clean tree."""
+
+    returncode = 0
+    stdout = ""
+    stderr = ""
+
+
+def _noop_git(*args, **kwargs):
+    """Do nothing, as if there were no staged changes to commit or push."""
+    return _NoGitResult()
 
 
 @pytest.fixture(autouse=True)
 def _no_real_git(monkeypatch):
     """No test may commit or push to the real repository."""
-    for name in _GIT_COMMIT_MODULES:
+    for module_name, helper in _GIT_HELPERS:
         try:
-            module = importlib.import_module(name)
+            module = importlib.import_module(module_name)
         except Exception:
             continue
-        if hasattr(module, "_git_commit_file"):
-            monkeypatch.setattr(module, "_git_commit_file", lambda *a, **k: None)
+        if hasattr(module, helper):
+            monkeypatch.setattr(module, helper, _noop_git)
 
 
 # ---------------------------------------------------------------------------

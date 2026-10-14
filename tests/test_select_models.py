@@ -1,8 +1,8 @@
 """Tests for the free-model selection loop.
 
 Covers the pure selection logic in scripts/select_models.py and the runtime
-that consumes models.json (AuditedLLMClient preferring the selected free
-models before the static config chain, switching base per entry).
+that consumes models.json (AuditedLLMClient tries the config primary first,
+then the selected free models, switching base per entry).
 """
 
 from __future__ import annotations
@@ -307,6 +307,11 @@ class TestCost:
     def test_zero_tokens(self, tmp_path):
         c = self._client(tmp_path, {"paid-x": {"input": 1.0, "output": 2.0}})
         assert c._cost_for("paid-x", 0, 0) == 0.0
+
+    def test_non_numeric_rate_is_priced_at_zero(self, tmp_path):
+        """A hand-maintained non-numeric rate must not raise; it prices at 0."""
+        c = self._client(tmp_path, {"paid-x": {"input": "unlisted", "output": None}})
+        assert c._cost_for("paid-x", 1_000_000, 1_000_000) == 0.0
 
     def test_total_cost_uses_served_model_after_failover(
         self, tmp_path, monkeypatch, scripted_http

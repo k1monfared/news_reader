@@ -42,7 +42,12 @@ def discover_free_models(
     for model in sorted(i for i in live_ids if i.endswith("-free")):
         try:
             status, body = probe_chat(
-                base_url, api_key, model, session_id, timeout_s=timeout_s
+                base_url,
+                api_key,
+                model,
+                session_id,
+                max_tokens=64,
+                timeout_s=timeout_s,
             )
         except Exception as exc:
             logger.warning(f"Probe failed for {model}: {exc}")

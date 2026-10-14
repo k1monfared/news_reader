@@ -23,14 +23,24 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+import progress as progress_module
 import stages.empty_streak as empty_streak_module
+import stages.mailer as mailer_module
+import stages.metrics as metrics_module
+import stages.publish as publish_module
+import stages.translate_fa as tfa_module
 from run_pipeline import get_timezone_offset
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-# Captured at import time, before any autouse fixture runs, so this is the real
-# implementation regardless of test ordering.
+# Captured at import time, before any autouse fixture runs, so these are the
+# real implementations regardless of test ordering.
 _REAL_GIT_COMMIT_FILE = empty_streak_module._git_commit_file
+_REAL_MAILER_COMMIT_FILE = mailer_module._git_commit_file
+_REAL_METRICS_COMMIT_FILE = metrics_module._git_commit_file
+_REAL_PROGRESS_COMMIT_FILE = progress_module._git_commit_file
+_REAL_GIT_PUBLISH = publish_module._git_publish
+_REAL_RUN_GIT = tfa_module._run_git
 
 
 def _head_sha() -> str:
@@ -42,6 +52,21 @@ def _head_sha() -> str:
         check=True,
     )
     return result.stdout.strip()
+
+
+def test_guard_neutralises_every_push_capable_helper():
+    """Every module that can push is no-oped at its low-level git helper."""
+    assert empty_streak_module._git_commit_file is not _REAL_GIT_COMMIT_FILE
+    assert mailer_module._git_commit_file is not _REAL_MAILER_COMMIT_FILE
+    assert metrics_module._git_commit_file is not _REAL_METRICS_COMMIT_FILE
+    assert progress_module._git_commit_file is not _REAL_PROGRESS_COMMIT_FILE
+    assert publish_module._git_publish is not _REAL_GIT_PUBLISH
+    assert tfa_module._run_git is not _REAL_RUN_GIT
+
+    # The no-op runner looks like a clean tree, so publish/translate_fa bail
+    # out before any real git command runs.
+    assert publish_module._git_publish("2026-10-13").returncode == 0
+    assert tfa_module._run_git("diff", "--cached", "--quiet").returncode == 0
 
 
 def test_no_commit_on_empty_streak_path(tmp_path, monkeypatch, sample_config):

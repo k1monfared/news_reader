@@ -219,9 +219,18 @@ class AuditedLLMClient:
         rates = self._pricing.get(model)
         if not isinstance(rates, dict):
             return 0.0
+
+        def _rate(key: str) -> float:
+            # A hand-maintained rate may be non-numeric (e.g. "free", "N/A").
+            # Understate the cost rather than fail the stage mid-run.
+            try:
+                return float(rates.get(key, 0.0))
+            except (TypeError, ValueError):
+                return 0.0
+
         return (
-            (tokens_in / 1_000_000) * float(rates.get("input", 0.0))
-            + (tokens_out / 1_000_000) * float(rates.get("output", 0.0))
+            (tokens_in / 1_000_000) * _rate("input")
+            + (tokens_out / 1_000_000) * _rate("output")
         )
 
     # ------------------------------------------------------------------

@@ -342,6 +342,16 @@ class TestCost:
         assert round(totals["cost_usd"], 4) == 0.3
         assert round(totals["rates"]["cost_usd"]["per_day"], 4) == 0.15
 
+    def test_cost_estimated_total_keeps_four_decimals(self):
+        """The extrapolated cost estimate is sub-dollar and must not round to 0."""
+        days = [
+            {"date": "2026-10-01", "cost_usd": 0.1234},
+            {"date": "2026-10-02", "cost_usd": 0.2},
+        ]
+        totals = recompute_totals(days, None)
+        # days_running = 2, per_day = 0.1617, estimate = 0.3234 (not 0).
+        assert totals["rates"]["cost_usd"]["estimated_total"] == 0.3234
+
 
 class TestBiasCounts:
     def test_counts_by_date(self, tmp_path):

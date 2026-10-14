@@ -47,6 +47,24 @@ class TestDiscover:
     def test_empty_key_returns_empty(self):
         assert discover_free_models(GO, "") == []
 
+    def test_probe_uses_reasoning_budget(self, monkeypatch):
+        """The probe budget must have headroom for reasoning free models.
+
+        With the old 5-token default a reasoning model spends its whole budget
+        on reasoning, returns empty content, and is misclassified as
+        EMPTY_CONTENT, silently emptying the backstop.
+        """
+        seen: dict = {}
+        monkeypatch.setattr(model_discovery, "discover", lambda base: ["alpha-free"])
+
+        def probe(base, key, model, session_id="", max_tokens=5, timeout_s=10):
+            seen["max_tokens"] = max_tokens
+            return _ok("ok")
+
+        monkeypatch.setattr(model_discovery, "probe_chat", probe)
+        assert discover_free_models(GO, "k") == [{"id": "alpha-free", "base_url": GO}]
+        assert seen["max_tokens"] == 64
+
     def test_probe_exception_skips_model(self, monkeypatch):
         monkeypatch.setattr(model_discovery, "discover", lambda base: ["alpha-free", "beta-free"])
 
