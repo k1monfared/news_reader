@@ -418,6 +418,7 @@ class AuditedLLMClient:
             "timestamp": timestamp,
             "model": served_model,
             "failed_over_from": [a["model"] for a in attempts],
+            "cost_usd": call_cost,
         }
         with self._calls_file.open("a", encoding="utf-8") as f:
             f.write(json.dumps(summary) + "\n")

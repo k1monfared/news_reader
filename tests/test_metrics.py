@@ -6,6 +6,8 @@ import json
 import sys
 from pathlib import Path
 
+import pytest
+
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import stages.metrics as metrics_module
@@ -204,12 +206,60 @@ class TestAuditTokens:
             "\n".join(json.dumps(x) for x in lines) + "\n"
         )
         audit = read_audit(str(run_dir))
-        assert audit["by_stage"]["filter"] == {"input": 150, "output": 30, "thinking": 5, "calls": 2}
-        assert audit["total"] == {"input": 350, "output": 110, "thinking": 5, "calls": 3}
+        assert audit["by_stage"]["filter"] == {
+            "input": 150, "output": 30, "thinking": 5, "calls": 2, "cost_usd": 0.0
+        }
+        assert audit["total"] == {
+            "input": 350, "output": 110, "thinking": 5, "calls": 3, "cost_usd": 0.0
+        }
         assert set(audit["models"]) == {"m1", "m2"}
 
     def test_missing_file(self, tmp_path):
         assert read_audit(str(tmp_path / "run"))["total"]["calls"] == 0
+
+    def test_aggregates_cost_by_stage_and_model(self, tmp_path):
+        run_dir = tmp_path / "run"
+        (run_dir / "audit").mkdir(parents=True)
+        lines = [
+            {"stage": "filter", "tokens_in": 100, "tokens_out": 20, "tokens_thinking": 0,
+             "model": "deepseek-v4.1-flash", "cost_usd": 0.02},
+            {"stage": "filter", "tokens_in": 50, "tokens_out": 10, "tokens_thinking": 0,
+             "model": "deepseek-v4.1-flash", "cost_usd": 0.01},
+            {"stage": "summarize", "tokens_in": 200, "tokens_out": 80,
+             "model": "longcat-2.5-preview-free", "cost_usd": 0.0},
+        ]
+        (run_dir / "audit" / "llm_calls.jsonl").write_text(
+            "\n".join(json.dumps(x) for x in lines) + "\n"
+        )
+        audit = read_audit(str(run_dir))
+        assert audit["cost_by_stage"]["filter"] == pytest.approx(0.03)
+        assert audit["cost_by_model"]["deepseek-v4.1-flash"] == pytest.approx(0.03)
+        assert audit["total_cost"] == pytest.approx(0.03)
+        assert audit["by_stage"]["filter"]["cost_usd"] == pytest.approx(0.03)
+
+    def test_read_audit_tolerates_missing_cost(self, tmp_path):
+        run_dir = tmp_path / "run"
+        (run_dir / "audit").mkdir(parents=True)
+        (run_dir / "audit" / "llm_calls.jsonl").write_text(
+            json.dumps({"stage": "filter", "tokens_in": 1, "tokens_out": 1, "model": "m"}) + "\n"
+        )
+        audit = read_audit(str(run_dir))
+        assert audit["total_cost"] == 0.0
+        assert "filter" in audit["cost_by_stage"]
+
+    def test_aggregates_failovers(self, tmp_path):
+        run_dir = tmp_path / "run"
+        (run_dir / "audit").mkdir(parents=True)
+        lines = [
+            {"stage": "filter", "tokens_in": 1, "tokens_out": 1, "model": "m2",
+             "failed_over_from": ["m1"]},
+            {"stage": "filter", "tokens_in": 1, "tokens_out": 1, "model": "m2",
+             "failed_over_from": ["m1"]},
+        ]
+        (run_dir / "audit" / "llm_calls.jsonl").write_text(
+            "\n".join(json.dumps(x) for x in lines) + "\n"
+        )
+        assert read_audit(str(run_dir))["failovers"] == {"m1": 2}
 
 
 class TestRunRecord:

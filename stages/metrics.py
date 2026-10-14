@@ -96,13 +96,19 @@ def read_bias_counts(path: str) -> dict[str, int]:
 
 
 def read_audit(run_dir: str) -> dict:
-    """Aggregate the run's ``audit/llm_calls.jsonl`` by stage and model."""
-    by_stage: dict[str, dict[str, int]] = {}
+    by_stage: dict[str, dict] = {}
     models: list[str] = []
-    total = {"input": 0, "output": 0, "thinking": 0, "calls": 0}
+    total = {"input": 0, "output": 0, "thinking": 0, "calls": 0, "cost_usd": 0.0}
+    cost_by_stage: dict[str, float] = {}
+    cost_by_model: dict[str, float] = {}
+    failovers: dict[str, int] = {}
     path = Path(run_dir) / "audit" / "llm_calls.jsonl"
     if not path.exists():
-        return {"by_stage": by_stage, "models": models, "total": total}
+        return {
+            "by_stage": by_stage, "models": models, "total": total,
+            "cost_by_stage": cost_by_stage, "cost_by_model": cost_by_model,
+            "total_cost": 0.0, "failovers": failovers,
+        }
     for line in path.read_text(encoding="utf-8").splitlines():
         if not line.strip():
             continue
@@ -112,19 +118,32 @@ def read_audit(run_dir: str) -> dict:
             continue
         stage = entry.get("stage", "unknown")
         usage = by_stage.setdefault(
-            stage, {"input": 0, "output": 0, "thinking": 0, "calls": 0}
+            stage,
+            {"input": 0, "output": 0, "thinking": 0, "calls": 0, "cost_usd": 0.0},
         )
+        cost = float(entry.get("cost_usd", 0.0) or 0.0)
         usage["input"] += entry.get("tokens_in", 0) or 0
         usage["output"] += entry.get("tokens_out", 0) or 0
         usage["thinking"] += entry.get("tokens_thinking", 0) or 0
         usage["calls"] += 1
+        usage["cost_usd"] += cost
         model = entry.get("model")
         if model and model not in models:
             models.append(model)
+        cost_by_stage[stage] = cost_by_stage.get(stage, 0.0) + cost
+        if model:
+            cost_by_model[model] = cost_by_model.get(model, 0.0) + cost
+        for src in entry.get("failed_over_from", []) or []:
+            failovers[src] = failovers.get(src, 0) + 1
     for usage in by_stage.values():
         for key in ("input", "output", "thinking", "calls"):
             total[key] += usage[key]
-    return {"by_stage": by_stage, "models": models, "total": total}
+        total["cost_usd"] += usage["cost_usd"]
+    return {
+        "by_stage": by_stage, "models": models, "total": total,
+        "cost_by_stage": cost_by_stage, "cost_by_model": cost_by_model,
+        "total_cost": round(total["cost_usd"], 4), "failovers": failovers,
+    }
 
 
 def _stage_list(meta: dict) -> list[dict]:

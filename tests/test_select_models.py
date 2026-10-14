@@ -339,3 +339,11 @@ class TestCost:
         # 1M in + 1M out at the fallback rate = 0.30 + 1.20 = 1.50; pricing the
         # requested primary instead would give 5.0 + 5.0 = 10.0.
         assert client.total_cost == pytest.approx(1.50)
+
+    def test_audit_summary_records_cost(self, tmp_path, monkeypatch, scripted_http):
+        monkeypatch.setenv("OPENCODE_API_BASE_URL", "https://paid.example/v1")
+        scripted_http([_UsageResp(content="answer")])
+        c = self._client(tmp_path, self.RATES)
+        _call(c)
+        calls = (tmp_path / "run" / "audit" / "llm_calls.jsonl").read_text().strip().splitlines()
+        assert json.loads(calls[-1])["cost_usd"] == pytest.approx(1.50)
