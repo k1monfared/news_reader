@@ -8,7 +8,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from stages.source_stats import read_source_stats, update_source_stats
+from stages.source_stats import count_by_source, read_source_stats, update_source_stats
 
 
 def test_creates_and_merges(tmp_path):
@@ -47,3 +47,9 @@ def test_tolerates_non_dict_entries(tmp_path):
     stats = read_source_stats(run)
     assert stats["aj"]["fetched"] == 1
     assert stats["bbc"]["fetched"] == 2
+
+
+def test_count_by_source():
+    items = [{"source": "aj"}, {"source": "aj"}, {"source": "bbc"}]
+    assert count_by_source(items, lambda i: True) == {"aj": 2, "bbc": 1}
+    assert count_by_source(items, lambda i: i["source"] == "aj") == {"aj": 2}

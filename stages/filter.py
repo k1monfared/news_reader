@@ -180,6 +180,7 @@ def run_filter(
     # pre-filter that drops obvious non-Iran items without an LLM call.
     items_needing_llm: list[DedupedItem] = []
     prefiltered_excluded = 0
+    prefilter_excluded_ids: set[str] = set()
 
     for item in primary_items:
         combined = f"{item.title_en or ''} {item.text_en or ''}"
@@ -195,6 +196,7 @@ def run_filter(
             decisions[item.fetch_id] = decision
             cache[item.fetch_id] = decision
             prefiltered_excluded += 1
+            prefilter_excluded_ids.add(item.fetch_id)
             continue
 
         cached_entry = cache.get(item.fetch_id)
@@ -356,6 +358,23 @@ def run_filter(
 
     # Track bias patterns
     bias_tracker.track_biases(filtered, run_dir)
+
+    # Per-source funnel: prefilter survivors are every deduped item that was
+    # not dropped by the deterministic Iran pre-filter (non-primary items are
+    # never pre-filter excluded), keyed by item.source.
+    from stages.source_stats import count_by_source, update_source_stats
+
+    prefilter_passed_items = [
+        item for item in items if item.fetch_id not in prefilter_excluded_ids
+    ]
+    included_items = [item for item in filtered if item.included]
+
+    prefilter_passed_counts = count_by_source(prefilter_passed_items, lambda i: True)
+    included_counts = count_by_source(included_items, lambda i: True)
+    for name, n in prefilter_passed_counts.items():
+        update_source_stats(run_dir, name, prefilter_passed=n)
+    for name, n in included_counts.items():
+        update_source_stats(run_dir, name, included=n)
 
     items_included = sum(1 for item in filtered if item.included)
     items_excluded = len(filtered) - items_included

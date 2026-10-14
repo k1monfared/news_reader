@@ -54,3 +54,14 @@ def update_source_stats(run_dir: str, source: str, **counters) -> None:
         path.write_text(json.dumps(stats, indent=2, sort_keys=True), encoding="utf-8")
     except OSError as exc:
         logger.warning(f"Could not write source stats for {source}: {exc}")
+
+
+def count_by_source(items, predicate) -> dict[str, int]:
+    """Count items per item.source where predicate(item) is true."""
+    counts: dict[str, int] = {}
+    for item in items:
+        if predicate(item):
+            name = item.get("source") if isinstance(item, dict) else getattr(item, "source", None)
+            if name:
+                counts[name] = counts.get(name, 0) + 1
+    return counts
