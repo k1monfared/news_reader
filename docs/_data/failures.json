@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T15:13:53Z",
+  "generated_at": "2026-10-14T13:00:43Z",
   "counts": {
-    "failed": 19,
+    "failed": 20,
     "backfilled": 16,
     "failed_and_backfilled": 11,
     "failed_not_backfilled": [
@@ -12,7 +12,8 @@
       "2026-08-31",
       "2026-09-01",
       "2026-09-16",
-      "2026-10-05"
+      "2026-10-05",
+      "2026-10-13"
     ],
     "backfilled_without_failed": [
       "2026-08-16",
@@ -534,6 +535,17 @@
       "run_url": "https://github.com/k1monfared/news_reader/actions/runs/37369892488",
       "run_id": 37369892488,
       "created_at": "2026-10-05T20:27:54Z",
+      "failed_stages": [],
+      "errors": [],
+      "backfilled": false,
+      "backfill_commit": null,
+      "fix_commits": []
+    },
+    {
+      "date": "2026-10-13",
+      "run_url": "https://github.com/k1monfared/news_reader/actions/runs/38444280117",
+      "run_id": 38444280117,
+      "created_at": "2026-10-13T18:08:06Z",
       "failed_stages": [],
       "errors": [],
       "backfilled": false,
