@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T02:30:51Z",
+  "generated_at": "2026-10-14T02:38:01Z",
   "today": {
     "backfill": false,
     "cost_usd": 0.1218,
@@ -10953,7 +10953,7 @@
     }
   ],
   "totals": {
-    "generated_at": "2026-10-14T02:30:51Z",
+    "generated_at": "2026-10-14T02:38:01Z",
     "first_date": "2026-02-26",
     "last_date": "2026-10-13",
     "days_recorded": 229,
@@ -10975,6 +10975,8 @@
     "deliveries": 64,
     "subscribers_current": 9,
     "subscribers_peak": 9,
+    "subscribers_en_current": 8,
+    "subscribers_fa_current": 1,
     "days_failed": 0,
     "days_degraded": 0,
     "days_succeeded": 7,

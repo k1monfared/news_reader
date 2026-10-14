@@ -442,6 +442,24 @@ class TestBiasCounts:
         assert read_bias_counts(str(tmp_path / "nope.json")) == {}
 
 
+class TestSubscriberSplit:
+    def test_split_current(self):
+        def day(date, total, en, fa):
+            return {
+                "date": date, "subscribers": total, "subscribers_en": en,
+                "subscribers_fa": fa, "posted": 1, "posted_en": 1, "posted_fa": 0,
+                "links": 1, "en": True, "fa": False, "emails": {},
+                "status": "success", "empty": False, "processed": None, "included": None,
+            }
+
+        totals = recompute_totals(
+            [day("2026-10-01", 7, 6, 1), day("2026-10-02", 9, 8, 1)], None
+        )
+        assert totals["subscribers_current"] == 9
+        assert totals["subscribers_en_current"] == 8
+        assert totals["subscribers_fa_current"] == 1
+
+
 class TestCostAndSources:
     def test_run_record_carries_sources_and_cost(self, tmp_path):
         run_dir = tmp_path / "2026-10-13-090000"

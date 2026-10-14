@@ -17,8 +17,12 @@ permalink: /dashboard/audience/
     <span class="card-sub">peak {{ t.subscribers_peak | default: "—" }}</span>
   </div>
   <div class="card">
-    <span class="card-value">{{ t.subscribers_total_ever | default: "—" }}</span>
-    <span class="card-label">Proxy distinct emails</span>
+    <span class="card-value">{{ t.subscribers_en_current | default: "—" }}</span>
+    <span class="card-label">Subscribers (EN)</span>
+  </div>
+  <div class="card">
+    <span class="card-value">{{ t.subscribers_fa_current | default: "—" }}</span>
+    <span class="card-label">Subscribers (FA)</span>
   </div>
   <div class="card">
     <span class="card-value">{{ t.emails_en | default: 0 }}</span>

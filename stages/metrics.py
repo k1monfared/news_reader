@@ -517,6 +517,8 @@ def recompute_totals(
         return sum(vals) if vals else None
 
     subscribers = [d["subscribers"] for d in days if d.get("subscribers") is not None]
+    subs_en_series = [d["subscribers_en"] for d in days if d.get("subscribers_en") is not None]
+    subs_fa_series = [d["subscribers_fa"] for d in days if d.get("subscribers_fa") is not None]
     deliveries_vals = [
         ((d.get("emails") or {}).get(lang) or {}).get("recipients")
         for d in days
@@ -555,6 +557,8 @@ def recompute_totals(
         "deliveries": sum(deliveries_vals) if deliveries_vals else None,
         "subscribers_current": subscribers[-1] if subscribers else None,
         "subscribers_peak": max(subscribers) if subscribers else None,
+        "subscribers_en_current": subs_en_series[-1] if subs_en_series else None,
+        "subscribers_fa_current": subs_fa_series[-1] if subs_fa_series else None,
         "days_failed": sum(1 for d in days if d.get("status") == "failed"),
         "days_degraded": sum(1 for d in days if d.get("status") == "degraded"),
         "days_succeeded": sum(1 for d in days if d.get("status") == "success"),
