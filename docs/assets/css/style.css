@@ -520,7 +520,7 @@ main {
 
 .post-nav-next {
   align-items: flex-end;
-  margin-left: auto;
+  margin-inline-start: auto;
 }
 
 /* ===================================
@@ -817,11 +817,11 @@ main {
   }
 
   .post-nav-prev {
-    margin-right: auto;
+    margin-inline-end: auto;
   }
 
   .post-nav-next {
-    margin-left: auto;
+    margin-inline-start: auto;
   }
 }
 
