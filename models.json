@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T17:59:08.513644+00:00",
+  "generated_at": "2026-10-15T17:45:41.102698+00:00",
   "bases_probed": [
     "https://opencode.ai/zen/go/v1"
   ],
@@ -10,10 +10,6 @@
     },
     {
       "id": "longcat-2.5-preview-free",
-      "base_url": "https://opencode.ai/zen/go/v1"
-    },
-    {
-      "id": "step-5-preview-free",
       "base_url": "https://opencode.ai/zen/go/v1"
     }
   ],
