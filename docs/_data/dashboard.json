@@ -1,30 +1,29 @@
 {
-  "generated_at": "2026-10-16T17:28:36Z",
+  "generated_at": "2026-10-17T16:28:50Z",
   "today": {
     "backfill": false,
     "cost": {
       "by_model": {
         "beam-free": 0.0,
-        "deepseek-v4.1-flash": 0.0364
+        "deepseek-v4.1-flash": 0.0375
       },
       "by_stage": {
-        "categorize": 0.0032,
+        "categorize": 0.0,
         "editorial": 0.0,
-        "filter": 0.0141,
-        "summarize": 0.0014,
-        "track_developments": 0.0176,
-        "translate_fa": 0.0
+        "filter": 0.0139,
+        "summarize": 0.0033,
+        "track_developments": 0.0202
       },
-      "total": 0.0364
+      "total": 0.0375
     },
-    "cost_usd": 0.0364,
+    "cost_usd": 0.0375,
     "degraded_stages": [],
-    "duration_s": 25573.79,
+    "duration_s": 25662.61,
     "emails": {
       "en": {
-        "broadcast_id": "ebe5305f-95c2-427d-a580-9cff21cff0bf",
-        "recipients": 8,
-        "sent": true
+        "broadcast_id": null,
+        "recipients": null,
+        "sent": false
       },
       "fa": {
         "broadcast_id": null,
@@ -32,60 +31,65 @@
         "sent": false
       }
     },
-    "errors": [],
-    "failed_stages": [],
+    "errors": [
+      "render_check: Render check failed: unclosed tag(s): details"
+    ],
+    "failed_stages": [
+      "render_check"
+    ],
     "failovers": {
       "deepseek-v4.1-flash": 2
     },
-    "finished_at": "2026-10-16T10:28:35.785854-07:00",
+    "finished_at": "2026-10-17T09:28:49.606640-07:00",
     "funnel": {
-      "continuation": 14,
+      "continuation": 13,
       "development": 1,
       "fetched": 295,
-      "included": 16,
-      "new": 1,
-      "posted": 2,
-      "posted_en": 2,
-      "posted_fa": 2
+      "included": 17,
+      "new": 3,
+      "posted": 0,
+      "posted_en": 0,
+      "posted_fa": 0
     },
-    "links": 3,
-    "links_en": 3,
-    "links_fa": 3,
+    "links": 0,
+    "links_en": 0,
+    "links_fa": 0,
     "models": [
       "deepseek-v4.1-flash",
       "beam-free"
     ],
-    "posted": 2,
-    "posted_en": 2,
-    "posted_fa": 2,
-    "run_id": "2026-10-16-102222",
+    "posted": 0,
+    "posted_en": 0,
+    "posted_fa": 0,
+    "run_id": "2026-10-17-092107",
     "sources": [
       {
         "down": false,
         "fetched": 25,
+        "included": 1,
         "name": "aljazeera",
-        "prefilter_passed": 1
+        "prefilter_passed": 2
       },
       {
         "down": false,
         "fetched": 35,
         "included": 5,
         "name": "bbc",
+        "posted": 1,
         "prefilter_passed": 7
       },
       {
         "down": false,
         "fetched": 50,
-        "included": 1,
         "name": "dw",
-        "prefilter_passed": 4
+        "prefilter_passed": 1
       },
       {
         "down": false,
         "fetched": 50,
         "included": 1,
         "name": "euronews",
-        "prefilter_passed": 2
+        "prefilter_passed": 3
       },
       {
         "down": false,
@@ -96,17 +100,18 @@
       {
         "down": false,
         "fetched": 25,
-        "included": 2,
+        "included": 4,
         "name": "jpost",
-        "prefilter_passed": 2
+        "posted": 1,
+        "prefilter_passed": 5
       },
       {
         "down": false,
         "fetched": 20,
-        "included": 4,
+        "included": 2,
         "name": "mee",
         "posted": 1,
-        "prefilter_passed": 6
+        "prefilter_passed": 5
       },
       {
         "down": false,
@@ -121,16 +126,16 @@
       {
         "down": false,
         "fetched": 50,
-        "included": 3,
+        "included": 4,
         "name": "thehindu",
         "posted": 1,
-        "prefilter_passed": 3
+        "prefilter_passed": 6
       }
     ],
     "stages": [
       {
         "degraded": false,
-        "duration_s": 14.39,
+        "duration_s": 10.09,
         "error": null,
         "name": "fetch",
         "status": "completed"
@@ -144,49 +149,49 @@
       },
       {
         "degraded": false,
-        "duration_s": 1.49,
+        "duration_s": 1.0,
         "error": null,
         "name": "dedup",
         "status": "completed"
       },
       {
         "degraded": false,
-        "duration_s": 56.81,
+        "duration_s": 55.49,
         "error": null,
         "name": "filter",
         "status": "completed"
       },
       {
         "degraded": false,
-        "duration_s": 12.16,
+        "duration_s": 36.24,
         "error": null,
         "name": "categorize",
         "status": "completed"
       },
       {
         "degraded": false,
-        "duration_s": 67.72,
+        "duration_s": 85.19,
         "error": null,
         "name": "track_developments",
         "status": "completed"
       },
       {
         "degraded": false,
-        "duration_s": 6.92,
+        "duration_s": 15.74,
         "error": null,
         "name": "summarize",
         "status": "completed"
       },
       {
         "degraded": false,
-        "duration_s": 115.7,
+        "duration_s": 238.94,
         "error": null,
         "name": "editorial",
         "status": "completed"
       },
       {
         "degraded": false,
-        "duration_s": 10.97,
+        "duration_s": 0.0,
         "error": null,
         "name": "verify",
         "status": "completed"
@@ -194,89 +199,82 @@
       {
         "degraded": false,
         "duration_s": 0.0,
-        "error": null,
+        "error": "Render check failed: unclosed tag(s): details",
         "name": "render_check",
-        "status": "passed"
+        "status": "failed"
       },
       {
         "degraded": false,
-        "duration_s": 1.17,
+        "duration_s": null,
         "error": null,
         "name": "publish",
-        "status": "published"
+        "status": "skipped"
       },
       {
         "degraded": false,
-        "duration_s": 57.04,
+        "duration_s": null,
         "error": null,
         "name": "translate_fa",
-        "status": "published"
+        "status": "skipped"
       },
       {
         "degraded": false,
-        "duration_s": 3.2,
+        "duration_s": null,
         "error": null,
         "name": "mailer",
-        "status": "partial"
+        "status": "skipped"
       }
     ],
-    "started_at": "2026-10-16T10:22:22.864760-07:00",
-    "status": "success",
+    "started_at": "2026-10-17T09:21:07.228969-07:00",
+    "status": "failed",
     "subscribers": 9,
     "subscribers_en": 8,
     "subscribers_fa": 1,
-    "target_date": "2026-10-16",
+    "target_date": "2026-10-17",
     "tokens": {
       "by_stage": {
         "categorize": {
           "calls": 1,
-          "cost_usd": 0.0032114999999999995,
-          "input": 1941,
-          "output": 2191,
-          "thinking": 1399
+          "cost_usd": 0.0,
+          "input": 2094,
+          "output": 4096,
+          "thinking": 3561
         },
         "editorial": {
           "calls": 1,
           "cost_usd": 0.0,
-          "input": 197611,
-          "output": 6380,
-          "thinking": 5834
+          "input": 186389,
+          "output": 8192,
+          "thinking": 8004
         },
         "filter": {
           "calls": 4,
-          "cost_usd": 0.0141105,
-          "input": 10559,
-          "output": 9119,
-          "thinking": 6731
+          "cost_usd": 0.0139254,
+          "input": 15874,
+          "output": 7636,
+          "thinking": 4982
         },
         "summarize": {
           "calls": 1,
-          "cost_usd": 0.0014016,
-          "input": 1376,
-          "output": 824,
-          "thinking": 369
+          "cost_usd": 0.0033422999999999994,
+          "input": 1657,
+          "output": 2371,
+          "thinking": 1783
         },
         "track_developments": {
-          "calls": 16,
-          "cost_usd": 0.0176439,
-          "input": 32561,
-          "output": 6563,
-          "thinking": 5517
-        },
-        "translate_fa": {
-          "calls": 1,
-          "cost_usd": 0.0,
-          "input": 1321,
-          "output": 4186,
-          "thinking": 2908
+          "calls": 17,
+          "cost_usd": 0.020248799999999997,
+          "input": 32760,
+          "output": 8684,
+          "thinking": 7553
         }
       },
       "total": {
         "calls": 24,
-        "cost_usd": 0.036367500000000004,
-        "input": 245369,
-        "output": 29263,
-        "thinking": 22758
+        "cost_usd": 0.037516499999999994,
+        "input": 238774,
+        "output": 30979,
+        "thinking": 25883
       }
     },
     "recorded": true
@@ -11185,25 +11183,74 @@
       },
       "tokens_total": 297390,
       "empty": false
+    },
+    {
+      "date": "2026-10-17",
+      "run_id": "2026-10-17-092107",
+      "status": "failed",
+      "failed_stages": [
+        "render_check"
+      ],
+      "degraded_stages": [],
+      "cost_usd": 0.0375,
+      "en": false,
+      "fa": false,
+      "posted_en": 0,
+      "posted_fa": 0,
+      "posted": 0,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": 295,
+      "included": 17,
+      "new_stories": 3,
+      "continuations": 13,
+      "developments": 1,
+      "biases": 0,
+      "emails": {
+        "en": {
+          "broadcast_id": null,
+          "recipients": null,
+          "sent": false
+        },
+        "fa": {
+          "broadcast_id": null,
+          "recipients": null,
+          "sent": false
+        }
+      },
+      "emails_total": 0,
+      "deliveries": null,
+      "subscribers_en": 8,
+      "subscribers_fa": 1,
+      "subscribers": 9,
+      "tokens": {
+        "input": 238774,
+        "output": 30979,
+        "thinking": 25883,
+        "calls": 24
+      },
+      "tokens_total": 295636,
+      "empty": null
     }
   ],
   "totals": {
-    "generated_at": "2026-10-16T17:28:36Z",
+    "generated_at": "2026-10-17T16:28:50Z",
     "first_date": "2026-02-26",
-    "last_date": "2026-10-16",
-    "days_recorded": 232,
-    "days_running": 233,
+    "last_date": "2026-10-17",
+    "days_recorded": 233,
+    "days_running": 234,
     "briefs_en": 225,
     "briefs_fa": 173,
     "posted": 1462,
     "posted_en": 1462,
     "posted_fa": 884,
     "links": 2208,
-    "processed": 2947,
-    "included": 167,
-    "new_stories": 43,
-    "continuations": 110,
-    "developments": 14,
+    "processed": 3242,
+    "included": 184,
+    "new_stories": 46,
+    "continuations": 123,
+    "developments": 15,
     "biases": 1009,
     "emails_en": 172,
     "emails_fa": 11,
@@ -11212,103 +11259,103 @@
     "subscribers_peak": 9,
     "subscribers_en_current": 8,
     "subscribers_fa_current": 1,
-    "days_failed": 0,
+    "days_failed": 1,
     "days_degraded": 0,
     "days_succeeded": 10,
     "days_failed_ever": 20,
     "days_repaired": 11,
     "days_empty": 0,
-    "days_with_tokens": 11,
-    "days_with_cost": 4,
+    "days_with_tokens": 12,
+    "days_with_cost": 5,
     "first_token_date": "2026-10-06",
-    "cost_actual": 0.264,
-    "cost_per_day_over_cost_days": 0.066,
+    "cost_actual": 0.3015,
+    "cost_per_day_over_cost_days": 0.0603,
     "cost_extra_runs": 25,
-    "tokens_input": 3043122,
-    "tokens_output": 411052,
-    "tokens_thinking": 318712,
-    "llm_calls": 282,
-    "cost_usd": 0.264,
+    "tokens_input": 3281896,
+    "tokens_output": 442031,
+    "tokens_thinking": 344595,
+    "llm_calls": 306,
+    "cost_usd": 0.3015,
     "emails_total": 183,
-    "tokens_total": 3772886,
+    "tokens_total": 4068522,
     "subscribers_total_ever": 7,
-    "cost_projected": 17.028,
+    "cost_projected": 15.6177,
     "rates": {
       "posted": {
         "per_day": 6.3,
-        "per_week": 44.1,
-        "per_month": 191.8,
-        "days": 232,
+        "per_week": 43.9,
+        "per_month": 191.0,
+        "days": 233,
         "estimated_total": 1468
       },
       "posted_en": {
         "per_day": 6.3,
-        "per_week": 44.1,
-        "per_month": 191.8,
-        "days": 232,
+        "per_week": 43.9,
+        "per_month": 191.0,
+        "days": 233,
         "estimated_total": 1468
       },
       "posted_fa": {
         "per_day": 3.8,
-        "per_week": 26.7,
-        "per_month": 116.0,
-        "days": 232,
+        "per_week": 26.6,
+        "per_month": 115.5,
+        "days": 233,
         "estimated_total": 888
       },
       "processed": {
         "per_day": 294.7,
-        "per_week": 2062.9,
-        "per_month": 8970.7,
-        "days": 10,
-        "estimated_total": 68665
+        "per_week": 2063.1,
+        "per_month": 8971.5,
+        "days": 11,
+        "estimated_total": 68966
       },
       "included": {
         "per_day": 16.7,
-        "per_week": 116.9,
-        "per_month": 508.3,
-        "days": 10,
-        "estimated_total": 3891
+        "per_week": 117.1,
+        "per_month": 509.2,
+        "days": 11,
+        "estimated_total": 3914
       },
       "new_stories": {
-        "per_day": 4.3,
-        "per_week": 30.1,
-        "per_month": 130.9,
-        "days": 10,
-        "estimated_total": 1002
+        "per_day": 4.2,
+        "per_week": 29.3,
+        "per_month": 127.3,
+        "days": 11,
+        "estimated_total": 979
       },
       "continuations": {
-        "per_day": 11.0,
-        "per_week": 77.0,
-        "per_month": 334.8,
-        "days": 10,
-        "estimated_total": 2563
+        "per_day": 11.2,
+        "per_week": 78.3,
+        "per_month": 340.4,
+        "days": 11,
+        "estimated_total": 2617
       },
       "developments": {
         "per_day": 1.4,
-        "per_week": 9.8,
-        "per_month": 42.6,
-        "days": 10,
-        "estimated_total": 326
+        "per_week": 9.5,
+        "per_month": 41.5,
+        "days": 11,
+        "estimated_total": 319
       },
       "biases": {
         "per_day": 4.3,
-        "per_week": 30.4,
-        "per_month": 132.4,
-        "days": 232,
+        "per_week": 30.3,
+        "per_month": 131.8,
+        "days": 233,
         "estimated_total": 1013
       },
       "links": {
         "per_day": 9.5,
-        "per_week": 66.6,
-        "per_month": 289.7,
-        "days": 232,
-        "estimated_total": 2218
+        "per_week": 66.3,
+        "per_month": 288.5,
+        "days": 233,
+        "estimated_total": 2217
       },
       "emails": {
         "per_day": 0.8,
         "per_week": 5.5,
-        "per_month": 24.0,
-        "days": 232,
+        "per_month": 23.9,
+        "days": 233,
         "estimated_total": 184
       },
       "deliveries": {
@@ -11316,42 +11363,42 @@
         "per_week": 56.0,
         "per_month": 243.5,
         "days": 11,
-        "estimated_total": 1864
+        "estimated_total": 1872
       },
       "tokens_input": {
-        "per_day": 276647.5,
-        "per_week": 1936532.2,
-        "per_month": 8421148.5,
-        "days": 11,
-        "estimated_total": 64458857
+        "per_day": 273491.3,
+        "per_week": 1914439.3,
+        "per_month": 8325076.2,
+        "days": 12,
+        "estimated_total": 63996972
       },
       "tokens_output": {
-        "per_day": 37368.4,
-        "per_week": 261578.5,
-        "per_month": 1137493.0,
-        "days": 11,
-        "estimated_total": 8706829
+        "per_day": 36835.9,
+        "per_week": 257851.4,
+        "per_month": 1121285.3,
+        "days": 12,
+        "estimated_total": 8619604
       },
       "tokens_thinking": {
-        "per_day": 28973.8,
-        "per_week": 202816.7,
-        "per_month": 881963.0,
-        "days": 11,
-        "estimated_total": 6750900
+        "per_day": 28716.2,
+        "per_week": 201013.8,
+        "per_month": 874122.7,
+        "days": 12,
+        "estimated_total": 6719602
       },
       "tokens_total": {
-        "per_day": 342989.6,
-        "per_week": 2400927.5,
-        "per_month": 10440604.5,
-        "days": 11,
-        "estimated_total": 79916585
+        "per_day": 339043.5,
+        "per_week": 2373304.5,
+        "per_month": 10320484.1,
+        "days": 12,
+        "estimated_total": 79336179
       },
       "cost_usd": {
-        "per_day": 0.066,
-        "per_week": 0.462,
-        "per_month": 2.009,
-        "days": 4,
-        "estimated_total": 15.378
+        "per_day": 0.0603,
+        "per_week": 0.4221,
+        "per_month": 1.8355,
+        "days": 5,
+        "estimated_total": 14.1102
       }
     },
     "entries_per_brief_en": 6.5,
