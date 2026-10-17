@@ -3,8 +3,8 @@
   "target_date": "2026-10-17",
   "status": "running",
   "started_at": "2026-10-17T16:21:10Z",
-  "updated_at": "2026-10-17T16:28:42Z",
-  "current_stage": "render_check",
+  "updated_at": "2026-10-17T16:28:43Z",
+  "current_stage": "publish",
   "total_stages": 13,
   "stages": [
     {
@@ -69,6 +69,13 @@
       "duration_s": 0.0,
       "error": null,
       "finished_at": "2026-10-17T16:28:42Z"
+    },
+    {
+      "name": "render_check",
+      "status": "failed",
+      "duration_s": 0.0,
+      "error": "Render check failed: unclosed tag(s): details",
+      "finished_at": "2026-10-17T16:28:43Z"
     }
   ]
 }
