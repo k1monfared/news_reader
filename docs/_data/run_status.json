@@ -3,8 +3,8 @@
   "target_date": "2026-10-17",
   "status": "running",
   "started_at": "2026-10-17T16:21:10Z",
-  "updated_at": "2026-10-17T16:24:41Z",
-  "current_stage": "editorial",
+  "updated_at": "2026-10-17T16:28:41Z",
+  "current_stage": "verify",
   "total_stages": 13,
   "stages": [
     {
@@ -55,6 +55,13 @@
       "duration_s": 15.74,
       "error": null,
       "finished_at": "2026-10-17T16:24:41Z"
+    },
+    {
+      "name": "editorial",
+      "status": "completed",
+      "duration_s": 238.94,
+      "error": null,
+      "finished_at": "2026-10-17T16:28:41Z"
     }
   ]
 }
