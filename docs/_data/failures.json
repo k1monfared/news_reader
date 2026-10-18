@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-17T11:43:31Z",
+  "generated_at": "2026-10-18T12:09:39Z",
   "counts": {
-    "failed": 20,
+    "failed": 21,
     "backfilled": 16,
     "failed_and_backfilled": 11,
     "failed_not_backfilled": [
@@ -13,7 +13,8 @@
       "2026-09-01",
       "2026-09-16",
       "2026-10-05",
-      "2026-10-13"
+      "2026-10-13",
+      "2026-10-17"
     ],
     "backfilled_without_failed": [
       "2026-08-16",
@@ -548,6 +549,21 @@
       "created_at": "2026-10-13T18:08:06Z",
       "failed_stages": [],
       "errors": [],
+      "backfilled": false,
+      "backfill_commit": null,
+      "fix_commits": []
+    },
+    {
+      "date": "2026-10-17",
+      "run_url": "https://github.com/k1monfared/news_reader/actions/runs/39049000482",
+      "run_id": 39049000482,
+      "created_at": "2026-10-17T16:20:47Z",
+      "failed_stages": [
+        "render_check"
+      ],
+      "errors": [
+        "render_check: Render check failed: unclosed tag(s): details"
+      ],
       "backfilled": false,
       "backfill_commit": null,
       "fix_commits": []
