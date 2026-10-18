@@ -1,24 +1,15 @@
 {
-  "generated_at": "2026-10-17T16:28:50Z",
+  "generated_at": "2026-10-18T16:30:04Z",
   "today": {
     "backfill": false,
     "cost": {
-      "by_model": {
-        "beam-free": 0.0,
-        "deepseek-v4.1-flash": 0.0375
-      },
-      "by_stage": {
-        "categorize": 0.0,
-        "editorial": 0.0,
-        "filter": 0.0139,
-        "summarize": 0.0033,
-        "track_developments": 0.0202
-      },
-      "total": 0.0375
+      "by_model": {},
+      "by_stage": {},
+      "total": 0.0
     },
-    "cost_usd": 0.0375,
+    "cost_usd": null,
     "degraded_stages": [],
-    "duration_s": 25662.61,
+    "duration_s": 25237.08,
     "emails": {
       "en": {
         "broadcast_id": null,
@@ -32,21 +23,21 @@
       }
     },
     "errors": [
-      "render_check: Render check failed: unclosed tag(s): details"
+      "summarize: Stage summarize: all 1 models in failover chain failed: [{\"model\": \"deepseek-v4.1-flash\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model deepseek-v4.1-flash rejected the request (401): {\\\"error\\\":{\\\"type\\\":\\\"authentication_error\\\",\\\"code\\\":\\\"api_key_expired\\\",\\\"message\\\":\\\"This API key has expired. Create a new API key in OpenCode Console and replace it in your client or secret store. Signing in again will not renew this key.\\\"}}\"}]"
     ],
     "failed_stages": [
-      "render_check"
+      "publish",
+      "summarize",
+      "translate_fa"
     ],
-    "failovers": {
-      "deepseek-v4.1-flash": 2
-    },
-    "finished_at": "2026-10-17T09:28:49.606640-07:00",
+    "failovers": {},
+    "finished_at": "2026-10-18T09:30:03.081816-07:00",
     "funnel": {
-      "continuation": 13,
-      "development": 1,
-      "fetched": 295,
-      "included": 17,
-      "new": 3,
+      "continuation": 0,
+      "development": 0,
+      "fetched": 297,
+      "included": 42,
+      "new": 42,
       "posted": 0,
       "posted_en": 0,
       "posted_fa": 0
@@ -54,64 +45,60 @@
     "links": 0,
     "links_en": 0,
     "links_fa": 0,
-    "models": [
-      "deepseek-v4.1-flash",
-      "beam-free"
-    ],
+    "models": [],
     "posted": 0,
     "posted_en": 0,
     "posted_fa": 0,
-    "run_id": "2026-10-17-092107",
+    "run_id": "2026-10-18-092926",
     "sources": [
       {
         "down": false,
         "fetched": 25,
-        "included": 1,
+        "included": 2,
         "name": "aljazeera",
         "prefilter_passed": 2
       },
       {
         "down": false,
-        "fetched": 35,
-        "included": 5,
+        "fetched": 36,
+        "included": 7,
         "name": "bbc",
-        "posted": 1,
         "prefilter_passed": 7
       },
       {
         "down": false,
         "fetched": 50,
+        "included": 1,
         "name": "dw",
         "prefilter_passed": 1
       },
       {
         "down": false,
         "fetched": 50,
-        "included": 1,
+        "included": 2,
         "name": "euronews",
-        "prefilter_passed": 3
+        "prefilter_passed": 5
       },
       {
         "down": false,
         "fetched": 30,
+        "included": 14,
         "name": "france24",
-        "prefilter_passed": 14
+        "prefilter_passed": 15
       },
       {
         "down": false,
-        "fetched": 25,
-        "included": 4,
+        "fetched": 26,
+        "included": 5,
         "name": "jpost",
-        "posted": 1,
         "prefilter_passed": 5
       },
       {
         "down": false,
         "fetched": 20,
-        "included": 2,
+        "included": 6,
         "name": "mee",
-        "posted": 1,
-        "prefilter_passed": 5
+        "prefilter_passed": 6
       },
       {
         "down": false,
@@ -126,16 +113,15 @@
       {
         "down": false,
         "fetched": 50,
-        "included": 4,
+        "included": 5,
         "name": "thehindu",
-        "posted": 1,
-        "prefilter_passed": 6
+        "prefilter_passed": 5
       }
     ],
     "stages": [
       {
         "degraded": false,
-        "duration_s": 10.09,
+        "duration_s": 10.7,
         "error": null,
         "name": "fetch",
         "status": "completed"
@@ -149,132 +135,96 @@
       },
       {
         "degraded": false,
-        "duration_s": 1.0,
+        "duration_s": 1.13,
         "error": null,
         "name": "dedup",
         "status": "completed"
       },
       {
         "degraded": false,
-        "duration_s": 55.49,
+        "duration_s": 0.66,
         "error": null,
         "name": "filter",
         "status": "completed"
       },
       {
         "degraded": false,
-        "duration_s": 36.24,
+        "duration_s": 0.16,
         "error": null,
         "name": "categorize",
         "status": "completed"
       },
       {
         "degraded": false,
-        "duration_s": 85.19,
+        "duration_s": 5.83,
         "error": null,
         "name": "track_developments",
         "status": "completed"
       },
       {
         "degraded": false,
-        "duration_s": 15.74,
-        "error": null,
+        "duration_s": 0.11,
+        "error": "Stage summarize: all 1 models in failover chain failed: [{\"model\": \"deepseek-v4.1-flash\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model deepseek-v4.1-flash rejected the request (401): {\\\"error\\\":{\\\"type\\\":\\\"authentication_error\\\",\\\"code\\\":\\\"api_key_expired\\\",\\\"message\\\":\\\"This API key has expired. Create a new API key in OpenCode Console and replace it in your client or secret store. Signing in again will not renew this key.\\\"}}\"}]",
         "name": "summarize",
-        "status": "completed"
+        "status": "failed"
       },
       {
         "degraded": false,
-        "duration_s": 238.94,
+        "duration_s": 0.0,
         "error": null,
         "name": "editorial",
-        "status": "completed"
+        "status": "skipped"
       },
       {
         "degraded": false,
         "duration_s": 0.0,
         "error": null,
         "name": "verify",
-        "status": "completed"
+        "status": "skipped"
       },
       {
         "degraded": false,
         "duration_s": 0.0,
-        "error": "Render check failed: unclosed tag(s): details",
+        "error": null,
         "name": "render_check",
+        "status": "skipped"
+      },
+      {
+        "degraded": false,
+        "duration_s": 0.0,
+        "error": null,
+        "name": "publish",
         "status": "failed"
       },
       {
         "degraded": false,
-        "duration_s": null,
-        "error": null,
-        "name": "publish",
-        "status": "skipped"
-      },
-      {
-        "degraded": false,
-        "duration_s": null,
+        "duration_s": 0.0,
         "error": null,
         "name": "translate_fa",
-        "status": "skipped"
+        "status": "failed"
       },
       {
         "degraded": false,
-        "duration_s": null,
+        "duration_s": 1.04,
         "error": null,
         "name": "mailer",
-        "status": "skipped"
+        "status": "sent"
       }
     ],
-    "started_at": "2026-10-17T09:21:07.228969-07:00",
+    "started_at": "2026-10-18T09:29:26.540237-07:00",
     "status": "failed",
     "subscribers": 9,
     "subscribers_en": 8,
     "subscribers_fa": 1,
-    "target_date": "2026-10-17",
+    "target_date": "2026-10-18",
     "tokens": {
-      "by_stage": {
-        "categorize": {
-          "calls": 1,
-          "cost_usd": 0.0,
-          "input": 2094,
-          "output": 4096,
-          "thinking": 3561
-        },
-        "editorial": {
-          "calls": 1,
-          "cost_usd": 0.0,
-          "input": 186389,
-          "output": 8192,
-          "thinking": 8004
-        },
-        "filter": {
-          "calls": 4,
-          "cost_usd": 0.0139254,
-          "input": 15874,
-          "output": 7636,
-          "thinking": 4982
-        },
-        "summarize": {
-          "calls": 1,
-          "cost_usd": 0.0033422999999999994,
-          "input": 1657,
-          "output": 2371,
-          "thinking": 1783
-        },
-        "track_developments": {
-          "calls": 17,
-          "cost_usd": 0.020248799999999997,
-          "input": 32760,
-          "output": 8684,
-          "thinking": 7553
-        }
-      },
+      "by_stage": {},
       "total": {
-        "calls": 24,
-        "cost_usd": 0.037516499999999994,
-        "input": 238774,
-        "output": 30979,
-        "thinking": 25883
+        "calls": 0,
+        "cost_usd": 0.0,
+        "input": 0,
+        "output": 0,
+        "thinking": 0
       }
     },
     "recorded": true
@@ -11232,23 +11182,74 @@
       },
       "tokens_total": 295636,
       "empty": null
+    },
+    {
+      "date": "2026-10-18",
+      "run_id": "2026-10-18-092926",
+      "status": "failed",
+      "failed_stages": [
+        "publish",
+        "summarize",
+        "translate_fa"
+      ],
+      "degraded_stages": [],
+      "cost_usd": null,
+      "en": false,
+      "fa": false,
+      "posted_en": 0,
+      "posted_fa": 0,
+      "posted": 0,
+      "links_en": 0,
+      "links_fa": 0,
+      "links": 0,
+      "processed": 297,
+      "included": 42,
+      "new_stories": 42,
+      "continuations": 0,
+      "developments": 0,
+      "biases": 0,
+      "emails": {
+        "en": {
+          "broadcast_id": null,
+          "recipients": null,
+          "sent": false
+        },
+        "fa": {
+          "broadcast_id": null,
+          "recipients": null,
+          "sent": false
+        }
+      },
+      "emails_total": 0,
+      "deliveries": null,
+      "subscribers_en": 8,
+      "subscribers_fa": 1,
+      "subscribers": 9,
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "thinking": 0,
+        "calls": 0
+      },
+      "tokens_total": 0,
+      "empty": false
     }
   ],
   "totals": {
-    "generated_at": "2026-10-17T16:28:50Z",
+    "generated_at": "2026-10-18T16:30:04Z",
     "first_date": "2026-02-26",
-    "last_date": "2026-10-17",
-    "days_recorded": 233,
-    "days_running": 234,
+    "last_date": "2026-10-18",
+    "days_recorded": 234,
+    "days_running": 235,
     "briefs_en": 225,
     "briefs_fa": 173,
     "posted": 1462,
     "posted_en": 1462,
     "posted_fa": 884,
     "links": 2208,
-    "processed": 3242,
-    "included": 184,
-    "new_stories": 46,
+    "processed": 3539,
+    "included": 226,
+    "new_stories": 88,
     "continuations": 123,
     "developments": 15,
     "biases": 1009,
@@ -11259,18 +11260,18 @@
     "subscribers_peak": 9,
     "subscribers_en_current": 8,
     "subscribers_fa_current": 1,
-    "days_failed": 1,
+    "days_failed": 2,
     "days_degraded": 0,
     "days_succeeded": 10,
-    "days_failed_ever": 20,
+    "days_failed_ever": 21,
     "days_repaired": 11,
     "days_empty": 0,
-    "days_with_tokens": 12,
+    "days_with_tokens": 13,
     "days_with_cost": 5,
     "first_token_date": "2026-10-06",
     "cost_actual": 0.3015,
     "cost_per_day_over_cost_days": 0.0603,
-    "cost_extra_runs": 25,
+    "cost_extra_runs": 26,
     "tokens_input": 3281896,
     "tokens_output": 442031,
     "tokens_thinking": 344595,
@@ -11279,83 +11280,83 @@
     "emails_total": 183,
     "tokens_total": 4068522,
     "subscribers_total_ever": 7,
-    "cost_projected": 15.6177,
+    "cost_projected": 15.7383,
     "rates": {
       "posted": {
-        "per_day": 6.3,
-        "per_week": 43.9,
-        "per_month": 191.0,
-        "days": 233,
+        "per_day": 6.2,
+        "per_week": 43.7,
+        "per_month": 190.2,
+        "days": 234,
         "estimated_total": 1468
       },
       "posted_en": {
-        "per_day": 6.3,
-        "per_week": 43.9,
-        "per_month": 191.0,
-        "days": 233,
+        "per_day": 6.2,
+        "per_week": 43.7,
+        "per_month": 190.2,
+        "days": 234,
         "estimated_total": 1468
       },
       "posted_fa": {
         "per_day": 3.8,
-        "per_week": 26.6,
-        "per_month": 115.5,
-        "days": 233,
+        "per_week": 26.4,
+        "per_month": 115.0,
+        "days": 234,
         "estimated_total": 888
       },
       "processed": {
-        "per_day": 294.7,
-        "per_week": 2063.1,
-        "per_month": 8971.5,
-        "days": 11,
-        "estimated_total": 68966
+        "per_day": 294.9,
+        "per_week": 2064.4,
+        "per_month": 8977.3,
+        "days": 12,
+        "estimated_total": 69305
       },
       "included": {
-        "per_day": 16.7,
-        "per_week": 117.1,
-        "per_month": 509.2,
-        "days": 11,
-        "estimated_total": 3914
+        "per_day": 18.8,
+        "per_week": 131.8,
+        "per_month": 573.3,
+        "days": 12,
+        "estimated_total": 4426
       },
       "new_stories": {
-        "per_day": 4.2,
-        "per_week": 29.3,
-        "per_month": 127.3,
-        "days": 11,
-        "estimated_total": 979
+        "per_day": 7.3,
+        "per_week": 51.3,
+        "per_month": 223.2,
+        "days": 12,
+        "estimated_total": 1723
       },
       "continuations": {
-        "per_day": 11.2,
-        "per_week": 78.3,
-        "per_month": 340.4,
-        "days": 11,
-        "estimated_total": 2617
+        "per_day": 10.2,
+        "per_week": 71.8,
+        "per_month": 312.0,
+        "days": 12,
+        "estimated_total": 2409
       },
       "developments": {
-        "per_day": 1.4,
-        "per_week": 9.5,
-        "per_month": 41.5,
-        "days": 11,
-        "estimated_total": 319
+        "per_day": 1.2,
+        "per_week": 8.8,
+        "per_month": 38.1,
+        "days": 12,
+        "estimated_total": 294
       },
       "biases": {
         "per_day": 4.3,
-        "per_week": 30.3,
-        "per_month": 131.8,
-        "days": 233,
+        "per_week": 30.2,
+        "per_month": 131.3,
+        "days": 234,
         "estimated_total": 1013
       },
       "links": {
-        "per_day": 9.5,
-        "per_week": 66.3,
-        "per_month": 288.5,
-        "days": 233,
+        "per_day": 9.4,
+        "per_week": 66.1,
+        "per_month": 287.2,
+        "days": 234,
         "estimated_total": 2217
       },
       "emails": {
         "per_day": 0.8,
         "per_week": 5.5,
-        "per_month": 23.9,
-        "days": 233,
+        "per_month": 23.8,
+        "days": 234,
         "estimated_total": 184
       },
       "deliveries": {
@@ -11363,42 +11364,42 @@
         "per_week": 56.0,
         "per_month": 243.5,
         "days": 11,
-        "estimated_total": 1872
+        "estimated_total": 1880
       },
       "tokens_input": {
-        "per_day": 273491.3,
-        "per_week": 1914439.3,
-        "per_month": 8325076.2,
-        "days": 12,
-        "estimated_total": 63996972
+        "per_day": 252453.5,
+        "per_week": 1767174.8,
+        "per_month": 7684685.7,
+        "days": 13,
+        "estimated_total": 59326582
       },
       "tokens_output": {
-        "per_day": 36835.9,
-        "per_week": 257851.4,
-        "per_month": 1121285.3,
-        "days": 12,
-        "estimated_total": 8619604
+        "per_day": 34002.4,
+        "per_week": 238016.7,
+        "per_month": 1035032.6,
+        "days": 13,
+        "estimated_total": 7990560
       },
       "tokens_thinking": {
-        "per_day": 28716.2,
-        "per_week": 201013.8,
-        "per_month": 874122.7,
-        "days": 12,
-        "estimated_total": 6719602
+        "per_day": 26507.3,
+        "per_week": 185551.2,
+        "per_month": 806882.4,
+        "days": 13,
+        "estimated_total": 6229217
       },
       "tokens_total": {
-        "per_day": 339043.5,
-        "per_week": 2373304.5,
-        "per_month": 10320484.1,
-        "days": 12,
-        "estimated_total": 79336179
+        "per_day": 312963.2,
+        "per_week": 2190742.6,
+        "per_month": 9526600.7,
+        "days": 13,
+        "estimated_total": 73546359
       },
       "cost_usd": {
         "per_day": 0.0603,
         "per_week": 0.4221,
         "per_month": 1.8355,
         "days": 5,
-        "estimated_total": 14.1102
+        "estimated_total": 14.1705
       }
     },
     "entries_per_brief_en": 6.5,
