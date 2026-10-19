@@ -1,102 +1,10 @@
 {
-  "run_id": "2026-10-18-092926",
-  "target_date": "2026-10-18",
-  "status": "failed",
-  "started_at": "2026-10-18T16:29:27Z",
-  "updated_at": "2026-10-18T16:30:02Z",
-  "current_stage": null,
+  "run_id": "2026-10-19-121623",
+  "target_date": "2026-10-19",
+  "status": "running",
+  "started_at": "2026-10-19T19:16:24Z",
+  "updated_at": "2026-10-19T19:16:24Z",
+  "current_stage": "fetch",
   "total_stages": 13,
-  "stages": [
-    {
-      "name": "fetch",
-      "status": "completed",
-      "duration_s": 10.7,
-      "error": null,
-      "finished_at": "2026-10-18T16:29:38Z"
-    },
-    {
-      "name": "translate",
-      "status": "completed",
-      "duration_s": 0.01,
-      "error": null,
-      "finished_at": "2026-10-18T16:29:40Z"
-    },
-    {
-      "name": "dedup",
-      "status": "completed",
-      "duration_s": 1.13,
-      "error": null,
-      "finished_at": "2026-10-18T16:29:42Z"
-    },
-    {
-      "name": "filter",
-      "status": "completed",
-      "duration_s": 0.66,
-      "error": null,
-      "finished_at": "2026-10-18T16:29:43Z"
-    },
-    {
-      "name": "categorize",
-      "status": "completed",
-      "duration_s": 0.16,
-      "error": null,
-      "finished_at": "2026-10-18T16:29:45Z"
-    },
-    {
-      "name": "track_developments",
-      "status": "completed",
-      "duration_s": 5.83,
-      "error": null,
-      "finished_at": "2026-10-18T16:29:52Z"
-    },
-    {
-      "name": "summarize",
-      "status": "failed",
-      "duration_s": 0.11,
-      "error": "Stage summarize: all 1 models in failover chain failed: [{\"model\": \"deepseek-v4.1-flash\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model deepseek-v4.1-flash rejected the request (401): {\\\"error\\\":{\\\"type\\\":\\\"authentication_error\\\",\\\"code\\\":\\\"api_key_expired\\\",\\\"message\\\":\\\"This API key has expired. Create a new API key in OpenCode Console and replace it in your client or secret store. Signing in again will not renew this key.\\\"}}\"}]",
-      "finished_at": "2026-10-18T16:29:53Z"
-    },
-    {
-      "name": "editorial",
-      "status": "completed",
-      "duration_s": 0.0,
-      "error": null,
-      "finished_at": "2026-10-18T16:29:54Z"
-    },
-    {
-      "name": "verify",
-      "status": "completed",
-      "duration_s": 0.0,
-      "error": null,
-      "finished_at": "2026-10-18T16:29:55Z"
-    },
-    {
-      "name": "render_check",
-      "status": "completed",
-      "duration_s": 0.0,
-      "error": null,
-      "finished_at": "2026-10-18T16:29:56Z"
-    },
-    {
-      "name": "publish",
-      "status": "completed",
-      "duration_s": 0.0,
-      "error": null,
-      "finished_at": "2026-10-18T16:29:57Z"
-    },
-    {
-      "name": "translate_fa",
-      "status": "completed",
-      "duration_s": 0.0,
-      "error": null,
-      "finished_at": "2026-10-18T16:29:58Z"
-    },
-    {
-      "name": "mailer",
-      "status": "completed",
-      "duration_s": 1.04,
-      "error": null,
-      "finished_at": "2026-10-18T16:30:00Z"
-    }
-  ]
+  "stages": []
 }
