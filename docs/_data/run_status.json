@@ -1,102 +1,10 @@
 {
-  "run_id": "2026-10-21-124903",
-  "target_date": "2026-10-21",
-  "status": "completed",
-  "started_at": "2026-10-21T19:49:06Z",
-  "updated_at": "2026-10-21T19:52:38Z",
-  "current_stage": null,
+  "run_id": "2026-10-17-125341",
+  "target_date": "2026-10-17",
+  "status": "running",
+  "started_at": "2026-10-21T19:53:52Z",
+  "updated_at": "2026-10-21T19:53:52Z",
+  "current_stage": "fetch",
   "total_stages": 13,
-  "stages": [
-    {
-      "name": "fetch",
-      "status": "completed",
-      "duration_s": 11.82,
-      "error": null,
-      "finished_at": "2026-10-21T19:49:19Z"
-    },
-    {
-      "name": "translate",
-      "status": "completed",
-      "duration_s": 0.0,
-      "error": null,
-      "finished_at": "2026-10-21T19:49:21Z"
-    },
-    {
-      "name": "dedup",
-      "status": "completed",
-      "duration_s": 0.02,
-      "error": null,
-      "finished_at": "2026-10-21T19:49:22Z"
-    },
-    {
-      "name": "filter",
-      "status": "completed",
-      "duration_s": 13.59,
-      "error": null,
-      "finished_at": "2026-10-21T19:49:37Z"
-    },
-    {
-      "name": "categorize",
-      "status": "completed",
-      "duration_s": 15.58,
-      "error": null,
-      "finished_at": "2026-10-21T19:49:54Z"
-    },
-    {
-      "name": "track_developments",
-      "status": "completed",
-      "duration_s": 35.56,
-      "error": null,
-      "finished_at": "2026-10-21T19:50:30Z"
-    },
-    {
-      "name": "summarize",
-      "status": "completed",
-      "duration_s": 15.14,
-      "error": null,
-      "finished_at": "2026-10-21T19:50:47Z"
-    },
-    {
-      "name": "editorial",
-      "status": "completed",
-      "duration_s": 64.84,
-      "error": null,
-      "finished_at": "2026-10-21T19:51:53Z"
-    },
-    {
-      "name": "verify",
-      "status": "completed",
-      "duration_s": 12.08,
-      "error": null,
-      "finished_at": "2026-10-21T19:52:07Z"
-    },
-    {
-      "name": "render_check",
-      "status": "completed",
-      "duration_s": 0.0,
-      "error": null,
-      "finished_at": "2026-10-21T19:52:08Z"
-    },
-    {
-      "name": "publish",
-      "status": "completed",
-      "duration_s": 1.17,
-      "error": null,
-      "finished_at": "2026-10-21T19:52:10Z"
-    },
-    {
-      "name": "translate_fa",
-      "status": "completed",
-      "duration_s": 20.16,
-      "error": null,
-      "finished_at": "2026-10-21T19:52:32Z"
-    },
-    {
-      "name": "mailer",
-      "status": "completed",
-      "duration_s": 3.77,
-      "error": null,
-      "finished_at": "2026-10-21T19:52:37Z"
-    }
-  ]
+  "stages": []
 }
