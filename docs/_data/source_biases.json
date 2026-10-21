@@ -10464,6 +10464,36 @@
         "example_text": "The Swedish native has built a most unusual home under the porch of a house worth over €200 million. How did that happen?",
         "example_url": "https://www.dw.com/en/the-homeless-man-living-in-front-of-a-london-mega-mansion/a-79400925?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "The Swedish native sleeps under the porch of a house worth over €200 million, one of many people living without shelter in London."
+      },
+      {
+        "pattern": "Domestic Regulation Global Threat Extrapolation",
+        "detail": "Frames a country's internal regulatory regime as an outward-reaching force affecting the rest of the world, asserting cross-border impact without specifying any mechanism or evidence.",
+        "debias": "Separate verified domestic rules from claimed extraterritorial effects, and require the article to name concrete mechanisms before adopting a spillover framing.",
+        "date_added": "2026-10-21",
+        "status": "suggested",
+        "example_text": "Home to more than 700 million gamers, China is the world's largest gaming market — but it's also one of the most tightly regulated. The effects reach far beyond China, impacting players around the world.",
+        "example_url": "https://www.dw.com/en/china-s-influence-in-the-gaming-industry-is-growing/a-79484755?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "China has more than 700 million gamers and is the world's largest gaming market, with strict domestic regulations; this report examines specific ways those rules affect players outside China."
+      },
+      {
+        "pattern": "Psychological Readiness Deficit Framing",
+        "detail": "Extends a military threat assessment into claims about a whole society's mental preparedness, treating public mindset as a measurable vulnerability alongside hardware shortfalls.",
+        "debias": "Keep documented capability gaps separate from speculative claims about national morale, and attribute the latter to named analysts rather than presenting it as a parallel finding.",
+        "date_added": "2026-10-21",
+        "status": "suggested",
+        "example_text": "Experts believe that, so far, Germany has been ill-prepared — both militarily and mentally — for Russian provocations.",
+        "example_url": "https://www.dw.com/en/how-big-is-russia-s-threat-against-germany/a-79688426?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "Experts say Germany's military capabilities fall short of what would be needed to respond to Russian provocations."
+      },
+      {
+        "pattern": "Societal Polarization Diagnosis Framing",
+        "detail": "Attaches a broad societal-decline diagnosis to a headline about a specific protest, presenting a contested trend claim as established context for the day's events.",
+        "debias": "Report the concrete events, demands and incidents first, and label any polarization trend as an attributed analytic claim rather than headline context.",
+        "date_added": "2026-10-21",
+        "status": "suggested",
+        "example_text": "France: Protesters clash with police in nationwide protests, amid rising social polarization",
+        "example_url": "https://www.dw.com/en/france-protesters-clash-with-police-in-nationwide-protests-amid-rising-social-polarization/a-79685584?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "France: Protesters clash with police in nationwide demonstrations over prices and inequality"
       }
     ]
   },
