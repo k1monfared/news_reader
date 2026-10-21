@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-10-21T19:49:06.929024+00:00",
+  "generated_at": "2026-10-21T19:53:52.730870+00:00",
   "bases_probed": [
     "https://opencode.ai/zen/go/v1"
   ],
   "selected": [
     {
       "id": "beam-free",
-      "base_url": "https://opencode.ai/zen/go/v1"
-    },
-    {
-      "id": "minimax-m3.1-flash-free",
       "base_url": "https://opencode.ai/zen/go/v1"
     }
   ],
