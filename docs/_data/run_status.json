@@ -3,8 +3,16 @@
   "target_date": "2026-10-21",
   "status": "running",
   "started_at": "2026-10-21T19:49:06Z",
-  "updated_at": "2026-10-21T19:49:06Z",
-  "current_stage": "fetch",
+  "updated_at": "2026-10-21T19:49:19Z",
+  "current_stage": "translate",
   "total_stages": 13,
-  "stages": []
+  "stages": [
+    {
+      "name": "fetch",
+      "status": "completed",
+      "duration_s": 11.82,
+      "error": null,
+      "finished_at": "2026-10-21T19:49:19Z"
+    }
+  ]
 }
