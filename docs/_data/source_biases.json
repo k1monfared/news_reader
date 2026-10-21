@@ -10444,6 +10444,26 @@
         "example_text": "A teenage boy lost his hand, seemingly while trying to pick up a police tear gas grenade.",
         "example_url": "https://www.dw.com/en/hundreds-of-french-schools-shut-teen-loses-hand-in-protests/a-79542656?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "A teenage boy lost a hand during the French school protests; authorities have not confirmed how the injury happened."
+      },
+      {
+        "pattern": "Guilt-by-analogy foreign attribution",
+        "detail": "The report implies Russian involvement in the Bulgarian Starlink arson by likening it to a separate Polish case attributed to Moscow, without offering evidence tying the two.",
+        "debias": "Report each case's known facts and attributions separately, and state explicitly when no link between incidents has been established.",
+        "date_added": "2026-10-21",
+        "status": "suggested",
+        "example_text": "The case is reminiscent of another in Poland, which Warsaw says was orchestrated by Russia.",
+        "example_url": "https://www.dw.com/en/bulgaria-seeks-suspects-in-germany-after-starlink-sabotage/a-79706745?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "Polish authorities have separately attributed a similar arson case in Poland to Russia; investigators have not said whether the two cases are connected."
+      },
+      {
+        "pattern": "Homelessness as eccentric curiosity framing",
+        "detail": "The piece presents a homeless man's shelter under a luxury mansion's porch as an oddity and lifestyle curiosity, sidelining housing and destitution as the story's substance.",
+        "debias": "Frame rough sleeping around housing costs, shelter capacity and the subject's circumstances rather than dwelling on the novelty of the arrangement.",
+        "date_added": "2026-10-21",
+        "status": "suggested",
+        "example_text": "The Swedish native has built a most unusual home under the porch of a house worth over €200 million. How did that happen?",
+        "example_url": "https://www.dw.com/en/the-homeless-man-living-in-front-of-a-london-mega-mansion/a-79400925?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "The Swedish native sleeps under the porch of a house worth over €200 million, one of many people living without shelter in London."
       }
     ]
   },
