@@ -295,6 +295,44 @@ class TestEditorialDegraded:
         assert (run_dir / "report_edited.md").read_text() == "# Draft brief\n"
 
 
+class _TruncatingClient:
+    """Reports stop_reason='length' for the first ``truncated`` calls."""
+
+    def __init__(self, truncated):
+        self.truncated = truncated
+        self.max_tokens_seen = []
+        self.last_stop_reason = None
+
+    def call(self, **kwargs):
+        self.max_tokens_seen.append(kwargs["max_tokens"])
+        cut = len(self.max_tokens_seen) <= self.truncated
+        self.last_stop_reason = "length" if cut else "stop"
+        return "<details>cut" if cut else "# Edited brief\n"
+
+
+class TestEditorialTruncation:
+    def _run(self, tmp_path, monkeypatch, client):
+        run_dir = tmp_path / "run"
+        run_dir.mkdir()
+        (run_dir / "report.md").write_text("# Draft brief\n")
+        monkeypatch.setattr(editorial_module, "load_prompt", lambda *a, **k: _FakeTemplate())
+        result = editorial_module.run_editorial(str(run_dir), _config_stub(), client, None)
+        return result, (run_dir / "report_edited.md").read_text()
+
+    def test_truncation_retries_with_larger_budget(self, tmp_path, monkeypatch):
+        client = _TruncatingClient(truncated=1)
+        result, text = self._run(tmp_path, monkeypatch, client)
+        assert client.max_tokens_seen == [8192, 16384]
+        assert "degraded" not in result
+        assert text == "# Edited brief\n"
+
+    def test_persistent_truncation_falls_back_to_draft(self, tmp_path, monkeypatch):
+        client = _TruncatingClient(truncated=2)
+        result, text = self._run(tmp_path, monkeypatch, client)
+        assert result["degraded"] is True
+        assert text == "# Draft brief\n"
+
+
 class _FakeItem:
     included = True
     primary_category = "Other"

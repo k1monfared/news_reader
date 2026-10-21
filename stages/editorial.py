@@ -15,6 +15,9 @@ from prompt_loader import load_prompt
 
 logger = logging.getLogger(__name__)
 
+# Token budgets tried in order when the editorial output is truncated.
+EDITORIAL_MAX_TOKENS = (8192, 16384)
+
 BIASES_PATH = Path("docs/_data/source_biases.json")
 
 # Stop words for bias dedup similarity
@@ -255,15 +258,27 @@ def run_editorial(
 
     degraded_reason: str | None = None
     try:
-        edited = llm_client.call(
-            stage="editorial",
-            prompt_name=prompt_name,
-            prompt_version=version,
-            system=system,
-            user_message=user_msg,
-            model=model,
-            max_tokens=8192,
-        )
+        edited = ""
+        # Reasoning tokens count against max_tokens, so a long draft can be
+        # cut off mid-document (leaving <details> unclosed). Retry once with
+        # a larger budget; never ship a truncated edit.
+        for max_tokens in EDITORIAL_MAX_TOKENS:
+            edited = llm_client.call(
+                stage="editorial",
+                prompt_name=prompt_name,
+                prompt_version=version,
+                system=system,
+                user_message=user_msg,
+                model=model,
+                max_tokens=max_tokens,
+            )
+            if getattr(llm_client, "last_stop_reason", None) != "length":
+                break
+            logger.warning(f"Editorial output truncated at max_tokens={max_tokens}")
+        else:
+            raise RuntimeError(
+                f"editorial output truncated at max_tokens={EDITORIAL_MAX_TOKENS[-1]}"
+            )
     except Exception as e:
         logger.error(f"Editorial LLM call failed: {e}. Using draft as-is.")
         edited = report

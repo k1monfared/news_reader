@@ -159,6 +159,8 @@ class AuditedLLMClient:
         self._total_input_tokens = 0
         self._total_output_tokens = 0
         self._total_thinking_tokens = 0
+        # Provider finish_reason of the most recent call ("length" = truncated).
+        self.last_stop_reason: str | None = None
         self._tokens_by_stage: dict[str, dict[str, int]] = {}
         self._prompt_versions_used: dict[str, int] = {}
 
@@ -422,6 +424,8 @@ class AuditedLLMClient:
         }
         with self._calls_file.open("a", encoding="utf-8") as f:
             f.write(json.dumps(summary) + "\n")
+
+        self.last_stop_reason = stop_reason
 
         # Post-call budget check
         if self._cumulative_cost >= self._max_cost:
