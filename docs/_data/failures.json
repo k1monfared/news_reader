@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T13:08:28Z",
+  "generated_at": "2026-10-22T13:08:40Z",
   "counts": {
-    "failed": 24,
-    "backfilled": 16,
-    "failed_and_backfilled": 11,
+    "failed": 25,
+    "backfilled": 21,
+    "failed_and_backfilled": 16,
     "failed_not_backfilled": [
       "2026-04-28",
       "2026-08-24",
@@ -13,11 +13,7 @@
       "2026-09-01",
       "2026-09-16",
       "2026-10-05",
-      "2026-10-13",
-      "2026-10-17",
-      "2026-10-18",
-      "2026-10-19",
-      "2026-10-20"
+      "2026-10-13"
     ],
     "backfilled_without_failed": [
       "2026-08-16",
@@ -561,66 +557,195 @@
       "run_url": "https://github.com/k1monfared/news_reader/actions/runs/39049000482",
       "run_id": 39049000482,
       "created_at": "2026-10-17T16:20:47Z",
-      "failed_stages": [
-        "render_check"
-      ],
-      "errors": [
-        "render_check: Render check failed: unclosed tag(s): details"
-      ],
-      "backfilled": false,
-      "backfill_commit": null,
-      "fix_commits": []
+      "failed_stages": [],
+      "errors": [],
+      "backfilled": true,
+      "backfill_commit": {
+        "hash": "e62ec66bf8f36e795cc9131abe2cfcd70b592f78",
+        "short": "e62ec66b",
+        "message": "Daily brief: 2026-10-17",
+        "date": "2026-10-21T19:54:46Z",
+        "url": "https://github.com/k1monfared/news_reader/commit/e62ec66bf8f36e795cc9131abe2cfcd70b592f78"
+      },
+      "fix_commits": [
+        {
+          "hash": "07304db2f94ea2cd09bee70da36ccd89d8145188",
+          "short": "07304db2",
+          "message": "Retry editorial with larger token budget when output is truncated",
+          "date": "2026-10-21T13:14:55-07:00",
+          "url": "https://github.com/k1monfared/news_reader/commit/07304db2f94ea2cd09bee70da36ccd89d8145188"
+        },
+        {
+          "hash": "b3d0cba1d3de45504a1d017e7aefaa2d6494ff28",
+          "short": "b3d0cba1",
+          "message": "Refresh model list: 2026-10-17",
+          "date": "2026-10-21T19:55:17Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/b3d0cba1d3de45504a1d017e7aefaa2d6494ff28"
+        },
+        {
+          "hash": "76e48c59faedc539ccb8c71aa068ef8373666330",
+          "short": "76e48c59",
+          "message": "Update dashboard: 2026-10-17",
+          "date": "2026-10-21T19:55:16Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/76e48c59faedc539ccb8c71aa068ef8373666330"
+        }
+      ]
     },
     {
       "date": "2026-10-18",
       "run_url": "https://github.com/k1monfared/news_reader/actions/runs/39145200500",
       "run_id": 39145200500,
       "created_at": "2026-10-18T16:29:05Z",
-      "failed_stages": [
-        "publish",
-        "summarize",
-        "translate_fa"
-      ],
-      "errors": [
-        "summarize: Stage summarize: all 1 models in failover chain failed: [{\"model\": \"deepseek-v4.1-flash\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model deepseek-v4.1-flash rejected the request (401): {\\\"error\\\":{\\\"type\\\":\\\"authentication_error\\\",\\\"code\\\":\\\"api_key_expired\\\",\\\"message\\\":\\\"This API key has expired. Create a new API key in OpenCode Console and replace it in your client or secret store. Signing in again will not renew this key.\\\"}}\"}]"
-      ],
-      "backfilled": false,
-      "backfill_commit": null,
-      "fix_commits": []
+      "failed_stages": [],
+      "errors": [],
+      "backfilled": true,
+      "backfill_commit": {
+        "hash": "dce853e3ff7ba5e63c16bcee295cbc701374b5af",
+        "short": "dce853e3",
+        "message": "Daily brief: 2026-10-18",
+        "date": "2026-10-21T19:44:25Z",
+        "url": "https://github.com/k1monfared/news_reader/commit/dce853e3ff7ba5e63c16bcee295cbc701374b5af"
+      },
+      "fix_commits": [
+        {
+          "hash": "fff608c98414169f0ff2be4e66b2e57e1eef908b",
+          "short": "fff608c9",
+          "message": "Refresh model list: 2026-10-18",
+          "date": "2026-10-21T19:44:55Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/fff608c98414169f0ff2be4e66b2e57e1eef908b"
+        },
+        {
+          "hash": "1cb3b5cd53247f756d95f4f6544107ae0008de99",
+          "short": "1cb3b5cd",
+          "message": "Update dashboard: 2026-10-18",
+          "date": "2026-10-21T19:44:54Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/1cb3b5cd53247f756d95f4f6544107ae0008de99"
+        },
+        {
+          "hash": "a3e0d56ef48970b280582452992059d184076fe8",
+          "short": "a3e0d56e",
+          "message": "Record run metrics: 2026-10-18",
+          "date": "2026-10-21T19:44:53Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/a3e0d56ef48970b280582452992059d184076fe8"
+        }
+      ]
     },
     {
       "date": "2026-10-19",
       "run_url": "https://github.com/k1monfared/news_reader/actions/runs/39309526904",
       "run_id": 39309526904,
       "created_at": "2026-10-19T19:16:02Z",
-      "failed_stages": [
-        "publish",
-        "summarize",
-        "translate_fa"
-      ],
-      "errors": [
-        "summarize: Stage summarize: all 1 models in failover chain failed: [{\"model\": \"deepseek-v4.1-flash\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model deepseek-v4.1-flash rejected the request (401): {\\\"error\\\":{\\\"type\\\":\\\"authentication_error\\\",\\\"code\\\":\\\"api_key_expired\\\",\\\"message\\\":\\\"This API key has expired. Create a new API key in OpenCode Console and replace it in your client or secret store. Signing in again will not renew this key.\\\"}}\"}]"
-      ],
-      "backfilled": false,
-      "backfill_commit": null,
-      "fix_commits": []
+      "failed_stages": [],
+      "errors": [],
+      "backfilled": true,
+      "backfill_commit": {
+        "hash": "d28e4cb50d1e056d9f7f70cd5349c62cc1a0f5a3",
+        "short": "d28e4cb5",
+        "message": "Daily brief: 2026-10-19",
+        "date": "2026-10-21T19:56:38Z",
+        "url": "https://github.com/k1monfared/news_reader/commit/d28e4cb50d1e056d9f7f70cd5349c62cc1a0f5a3"
+      },
+      "fix_commits": [
+        {
+          "hash": "14125da0fc6be9d0da0b7ec2336b1811d2e39f15",
+          "short": "14125da0",
+          "message": "Refresh model list: 2026-10-19",
+          "date": "2026-10-21T19:56:54Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/14125da0fc6be9d0da0b7ec2336b1811d2e39f15"
+        },
+        {
+          "hash": "d7cb66f30136e09634f907a3e663a2457191e132",
+          "short": "d7cb66f3",
+          "message": "Update dashboard: 2026-10-19",
+          "date": "2026-10-21T19:56:53Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/d7cb66f30136e09634f907a3e663a2457191e132"
+        },
+        {
+          "hash": "af181ca31124ff5229c49901b2ab374747b71079",
+          "short": "af181ca3",
+          "message": "Record run metrics: 2026-10-19",
+          "date": "2026-10-21T19:56:50Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/af181ca31124ff5229c49901b2ab374747b71079"
+        }
+      ]
     },
     {
       "date": "2026-10-20",
       "run_url": "https://github.com/k1monfared/news_reader/actions/runs/39470453947",
       "run_id": 39470453947,
       "created_at": "2026-10-20T17:56:45Z",
-      "failed_stages": [
-        "publish",
-        "summarize",
-        "translate_fa"
-      ],
-      "errors": [
-        "summarize: Stage summarize: all 1 models in failover chain failed: [{\"model\": \"deepseek-v4.1-flash\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model deepseek-v4.1-flash rejected the request (401): {\\\"error\\\":{\\\"type\\\":\\\"authentication_error\\\",\\\"code\\\":\\\"api_key_expired\\\",\\\"message\\\":\\\"This API key has expired. Create a new API key in OpenCode Console and replace it in your client or secret store. Signing in again will not renew this key.\\\"}}\"}]"
-      ],
-      "backfilled": false,
-      "backfill_commit": null,
-      "fix_commits": []
+      "failed_stages": [],
+      "errors": [],
+      "backfilled": true,
+      "backfill_commit": {
+        "hash": "b3d41402e2018c8845b5be2fde1f2001e38e2719",
+        "short": "b3d41402",
+        "message": "Daily brief: 2026-10-20",
+        "date": "2026-10-21T19:48:33Z",
+        "url": "https://github.com/k1monfared/news_reader/commit/b3d41402e2018c8845b5be2fde1f2001e38e2719"
+      },
+      "fix_commits": [
+        {
+          "hash": "1f3ab34e6b4c10f0f3e255e29e61672d7f91b25f",
+          "short": "1f3ab34e",
+          "message": "Refresh model list: 2026-10-20",
+          "date": "2026-10-21T19:49:02Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/1f3ab34e6b4c10f0f3e255e29e61672d7f91b25f"
+        },
+        {
+          "hash": "cb6ea03494421fec49dfa324f59b276f4c74997b",
+          "short": "cb6ea034",
+          "message": "Update dashboard: 2026-10-20",
+          "date": "2026-10-21T19:49:01Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/cb6ea03494421fec49dfa324f59b276f4c74997b"
+        },
+        {
+          "hash": "12f1a90b4c3a50a569abcef1dac2a6c0bada494f",
+          "short": "12f1a90b",
+          "message": "Record run metrics: 2026-10-20",
+          "date": "2026-10-21T19:48:59Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/12f1a90b4c3a50a569abcef1dac2a6c0bada494f"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "run_url": "https://github.com/k1monfared/news_reader/actions/runs/39648731833",
+      "run_id": 39648731833,
+      "created_at": "2026-10-21T17:59:50Z",
+      "failed_stages": [],
+      "errors": [],
+      "backfilled": true,
+      "backfill_commit": {
+        "hash": "5511e2317f970efffbfc98e2db1338fc068bd213",
+        "short": "5511e231",
+        "message": "Daily brief: 2026-10-21",
+        "date": "2026-10-21T19:52:09Z",
+        "url": "https://github.com/k1monfared/news_reader/commit/5511e2317f970efffbfc98e2db1338fc068bd213"
+      },
+      "fix_commits": [
+        {
+          "hash": "7cac72dc3a0defca1a5b8b94031ad75f49e6148e",
+          "short": "7cac72dc",
+          "message": "Refresh model list: 2026-10-21",
+          "date": "2026-10-21T19:52:43Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/7cac72dc3a0defca1a5b8b94031ad75f49e6148e"
+        },
+        {
+          "hash": "66a229c2076824e71b6f6a7dc6814729a659a0f6",
+          "short": "66a229c2",
+          "message": "Update dashboard: 2026-10-21",
+          "date": "2026-10-21T19:52:41Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/66a229c2076824e71b6f6a7dc6814729a659a0f6"
+        },
+        {
+          "hash": "f8479552c7a7df19ae0f73195aab1efd32ab94e9",
+          "short": "f8479552",
+          "message": "Record run metrics: 2026-10-21",
+          "date": "2026-10-21T19:52:40Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/f8479552c7a7df19ae0f73195aab1efd32ab94e9"
+        }
+      ]
     }
   ],
   "backfilled_dates": [
@@ -845,6 +970,76 @@
         "message": "Averages by recorded days, EN-only story counts, backfill markers",
         "date": "2026-10-06T10:06:29-07:00",
         "url": "https://github.com/k1monfared/news_reader/commit/7e8bf072887c6844797dcdc92464721cc5692468"
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "posts": [
+        "docs/_posts/2026-10-17-daily-brief.md",
+        "docs/_fa_posts/2026-10-17-daily-brief.md"
+      ],
+      "commit": {
+        "hash": "e62ec66bf8f36e795cc9131abe2cfcd70b592f78",
+        "short": "e62ec66b",
+        "message": "Daily brief: 2026-10-17",
+        "date": "2026-10-21T19:54:46Z",
+        "url": "https://github.com/k1monfared/news_reader/commit/e62ec66bf8f36e795cc9131abe2cfcd70b592f78"
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "posts": [
+        "docs/_posts/2026-10-18-daily-brief.md",
+        "docs/_fa_posts/2026-10-18-daily-brief.md"
+      ],
+      "commit": {
+        "hash": "dce853e3ff7ba5e63c16bcee295cbc701374b5af",
+        "short": "dce853e3",
+        "message": "Daily brief: 2026-10-18",
+        "date": "2026-10-21T19:44:25Z",
+        "url": "https://github.com/k1monfared/news_reader/commit/dce853e3ff7ba5e63c16bcee295cbc701374b5af"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "posts": [
+        "docs/_posts/2026-10-19-daily-brief.md",
+        "docs/_fa_posts/2026-10-19-daily-brief.md"
+      ],
+      "commit": {
+        "hash": "d28e4cb50d1e056d9f7f70cd5349c62cc1a0f5a3",
+        "short": "d28e4cb5",
+        "message": "Daily brief: 2026-10-19",
+        "date": "2026-10-21T19:56:38Z",
+        "url": "https://github.com/k1monfared/news_reader/commit/d28e4cb50d1e056d9f7f70cd5349c62cc1a0f5a3"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "posts": [
+        "docs/_posts/2026-10-20-daily-brief.md",
+        "docs/_fa_posts/2026-10-20-daily-brief.md"
+      ],
+      "commit": {
+        "hash": "b3d41402e2018c8845b5be2fde1f2001e38e2719",
+        "short": "b3d41402",
+        "message": "Daily brief: 2026-10-20",
+        "date": "2026-10-21T19:48:33Z",
+        "url": "https://github.com/k1monfared/news_reader/commit/b3d41402e2018c8845b5be2fde1f2001e38e2719"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "posts": [
+        "docs/_posts/2026-10-21-daily-brief.md",
+        "docs/_fa_posts/2026-10-21-daily-brief.md"
+      ],
+      "commit": {
+        "hash": "5511e2317f970efffbfc98e2db1338fc068bd213",
+        "short": "5511e231",
+        "message": "Daily brief: 2026-10-21",
+        "date": "2026-10-21T19:52:09Z",
+        "url": "https://github.com/k1monfared/news_reader/commit/5511e2317f970efffbfc98e2db1338fc068bd213"
       }
     }
   ]
