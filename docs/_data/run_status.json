@@ -3,8 +3,8 @@
   "target_date": "2026-10-30",
   "status": "running",
   "started_at": "2026-10-30T18:34:19Z",
-  "updated_at": "2026-10-30T18:39:45Z",
-  "current_stage": "translate_fa",
+  "updated_at": "2026-10-30T18:40:05Z",
+  "current_stage": "mailer",
   "total_stages": 13,
   "stages": [
     {
@@ -83,6 +83,13 @@
       "duration_s": 1.12,
       "error": null,
       "finished_at": "2026-10-30T18:39:45Z"
+    },
+    {
+      "name": "translate_fa",
+      "status": "completed",
+      "duration_s": 19.31,
+      "error": null,
+      "finished_at": "2026-10-30T18:40:05Z"
     }
   ]
 }
