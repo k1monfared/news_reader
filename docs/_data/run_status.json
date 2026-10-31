@@ -4,13 +4,20 @@
   "status": "running",
   "started_at": "2026-10-31T17:41:51Z",
   "updated_at": "2026-10-31T17:42:02Z",
-  "current_stage": "translate",
+  "current_stage": "dedup",
   "total_stages": 13,
   "stages": [
     {
       "name": "fetch",
       "status": "completed",
       "duration_s": 9.88,
+      "error": null,
+      "finished_at": "2026-10-31T17:42:02Z"
+    },
+    {
+      "name": "translate",
+      "status": "completed",
+      "duration_s": 0.01,
       "error": null,
       "finished_at": "2026-10-31T17:42:02Z"
     }
