@@ -1,9 +1,9 @@
 {
   "run_id": "2026-10-31-104150",
   "target_date": "2026-10-31",
-  "status": "running",
+  "status": "completed",
   "started_at": "2026-10-31T17:41:51Z",
-  "updated_at": "2026-10-31T17:49:20Z",
+  "updated_at": "2026-10-31T17:49:21Z",
   "current_stage": null,
   "total_stages": 13,
   "stages": [
