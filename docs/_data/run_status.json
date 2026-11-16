@@ -3,8 +3,8 @@
   "target_date": "2026-11-16",
   "status": "running",
   "started_at": "2026-11-16T22:52:05Z",
-  "updated_at": "2026-11-16T23:04:08Z",
-  "current_stage": "mailer",
+  "updated_at": "2026-11-16T23:04:13Z",
+  "current_stage": null,
   "total_stages": 13,
   "stages": [
     {
@@ -90,6 +90,13 @@
       "duration_s": 33.55,
       "error": null,
       "finished_at": "2026-11-16T23:04:08Z"
+    },
+    {
+      "name": "mailer",
+      "status": "completed",
+      "duration_s": 3.69,
+      "error": null,
+      "finished_at": "2026-11-16T23:04:13Z"
     }
   ]
 }
