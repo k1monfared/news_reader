@@ -7270,6 +7270,17 @@
         "example_url": "https://www.france24.com/en/middle-east/20260930-us-forces-leave-iraq-raising-fears-of-iran-backed-militias-amid-power-vacuum",
         "unbiased_text": "نیروهای آمریکایی از پایگاه‌های باقی‌مانده خود در عراق خارج می‌شوند و خروجی را که تحت ریاست‌جمهوری جو بایدن توافق شده بود تکمیل می‌کنند؛ مقامات و تحلیلگران عراقی در حال بررسی پیامدهای امنیتی احتمالی هستند.",
         "pattern_en": "Withdrawal Security Vacuum Framing"
+      },
+      {
+        "pattern": "هم‌افزایی تجمعی تراژدی در تیتر",
+        "detail": "France24 دو مرگ غیرنظامی متمایز (قربانیان حمله به بیمارستان و یک نوزاد یخ‌زده) را در یک تیتر واحد ادغام می‌کند و از طریق هم‌نشینی، به‌جای گزارش جداگانه، تأثیر احساسی را تشدید می‌کند.",
+        "debias": "هر حادثه را جداگانه و با جزئیات متناسب پوشش دهید؛ از گنجاندن تراژدی‌های نامرتبط در یک تیتر بپرهیزید تا از تشدید مصنوعی تلفات غیرنظامیان جلوگیری شود.",
+        "date_added": "2026-11-19",
+        "status": "suggested",
+        "example_text": "اسرائیل در حمله به بیمارستانی در غزه شش نفر را می‌کشد؛ در همان حال نوزاد ۹ ماهه از سرما جان می‌دهد",
+        "example_url": "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death",
+        "unbiased_text": "حمله اسرائیل به بیمارستانی در غزه شش کشته برجای می‌گذارد؛ به‌طور جداگانه، نوزادی در شرایط آوارگی بر اثر سرما جان می‌دهد",
+        "pattern_en": "Cumulative Tragedy Headline Compounding"
       }
     ]
   },
@@ -11335,6 +11346,28 @@
         "example_url": "https://www.middleeasteye.net/news/houthi-strikes-shatter-saudi-arabia-riyadh-aura-calm",
         "unbiased_text": "حملات کشنده حوثی‌ها به فرودگاه ریاض، نگرانی‌های امنیتی را در میان برخی از اتباع خارجی افزایش داده است.",
         "pattern_en": "Expat fear personalization to undermine Saudi security narrative"
+      },
+      {
+        "pattern": "انتساب تقصیر به قربانی دریایی",
+        "detail": "MEE با توصیف یک شناور آسیب‌دیده به‌عنوان «متخلف» و برجسته‌کردن اقدام‌های پیش‌دستانه آن (خاموش‌کردن ناوبری)، تقصیر را به گردن آن می‌اندازد و تمرکز را از مین‌گذار منحرف می‌کند.",
+        "debias": "حادثه را به‌صورت بی‌طرفانه گزارش کنید—بیان کنید که یک نفتکش به مین برخورد کرد و آتش گرفت، بدون توصیف شناور به‌عنوان متخلف یا القای تقصیر سهیم.",
+        "date_added": "2026-11-19",
+        "status": "suggested",
+        "example_text": "IRIB به نقل از نیروی دریایی ایران در بیانیه‌ای گزارش داد که نفتکش «متخلف» «سیستم‌های ناوبری خود را خاموش کرده بود».",
+        "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-navy-says-oil-tanker-struck-naval-mine-east-strait-hormuz",
+        "unbiased_text": "IRIB به نقل از نیروی دریایی ایران در بیانیه‌ای گزارش داد که نفتکش «سیستم‌های ناوبری خود را خاموش کرده بود».",
+        "pattern_en": "Maritime Victim Culpability Attribution"
+      },
+      {
+        "pattern": "ابزارسازی از رویهٔ قضایی در منازعات مختلف",
+        "detail": "MEE به‌صراحت رأی دیوان بین‌المللی دادگستری دربارهٔ نسل‌زدایی در میانمار را به پروندهٔ آفریقای جنوبی علیه اسرائیل پیوند می‌زند و یک رویهٔ قضایی را به‌عنوان ابزاری برای تقویت پیگرد قانونی در منازعه‌ای دیگر چارچوب‌بندی می‌کند.",
+        "debias": "پیامدهای مستقیم این رأی را برای روهینگیا گزارش کنید و اشاره کنید که کارشناسان حقوقی مقایسه‌هایی انجام می‌دهند، بدون آنکه ادعا کنید این رویهٔ قضایی «پروندهٔ دیگری را تقویت می‌کند» به‌عنوان واقعیتی مسلّم.",
+        "date_added": "2026-11-19",
+        "status": "suggested",
+        "example_text": "رأی دیوان بین‌المللی دادگستری دربارهٔ نسل‌زدایی روهینگیا می‌تواند پروندهٔ آفریقای جنوبی علیه اسرائیل را تقویت کند",
+        "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/icj-ruling-rohingya-genocide-could-strengthen-south-africas-case-against",
+        "unbiased_text": "رأی دیوان بین‌المللی دادگستری دربارهٔ نسل‌زدایی روهینگیا: کارشناسان حقوقی پیامدهای آن برای دیگر پرونده‌های نسل‌زدایی را بررسی می‌کنند",
+        "pattern_en": "Precedent Instrumentalization Across Conflicts"
       }
     ]
   },
