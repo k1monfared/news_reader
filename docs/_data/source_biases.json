@@ -6560,6 +6560,16 @@
         "example_text": "US forces are withdrawing from their remaining bases in Iraq on Wednesday, completing a pullout agreed under former president Joe Biden as fears grow over the security vacuum it could leave.",
         "example_url": "https://www.france24.com/en/middle-east/20260930-us-forces-leave-iraq-raising-fears-of-iran-backed-militias-amid-power-vacuum",
         "unbiased_text": "US forces are withdrawing from their remaining bases in Iraq, completing a pullout agreed under former president Joe Biden; Iraqi officials and analysts are assessing the potential security implications."
+      },
+      {
+        "pattern": "Cumulative Tragedy Headline Compounding",
+        "detail": "France24 merges two distinct civilian deaths (hospital strike victims and a frozen infant) into a single headline, amplifying emotional impact through juxtaposition rather than separate reporting.",
+        "debias": "Cover each incident separately with proportional detail; avoid bundling unrelated tragedies into one headline to prevent artificial escalation of civilian toll.",
+        "date_added": "2026-11-19",
+        "status": "suggested",
+        "example_text": "Israel kills six in Gaza hospital strike as 9-month-old baby freezes to death",
+        "example_url": "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death",
+        "unbiased_text": "Israeli strike on Gaza hospital kills six; separately, infant dies from cold amid displacement"
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -10222,6 +10232,26 @@
         "example_text": "But deadly Houthi strikes on the Saudi capital's main airport have shattered that sense of security, leaving expatriate families questioning whether they can continue to build their lives in the kingdom.",
         "example_url": "https://www.middleeasteye.net/news/houthi-strikes-shatter-saudi-arabia-riyadh-aura-calm",
         "unbiased_text": "Deadly Houthi strikes on Riyadh's airport have raised safety concerns among some expatriates."
+      },
+      {
+        "pattern": "Maritime Victim Culpability Attribution",
+        "detail": "MEE assigns blame to a struck vessel by characterizing it as 'offending' and highlighting its preemptive actions (switching off navigation), displacing focus from the mine-layer.",
+        "debias": "Report the incident neutrally—state that a tanker struck a mine and caught fire, without characterising the vessel as offending or implying contributory fault.",
+        "date_added": "2026-11-19",
+        "status": "suggested",
+        "example_text": "The \"offending\" tanker \"had switched off its navigation systems\", IRIB reported the Iranian navy as saying in a statement.",
+        "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-navy-says-oil-tanker-struck-naval-mine-east-strait-hormuz",
+        "unbiased_text": "The tanker \"had switched off its navigation systems\", IRIB reported the Iranian navy as saying in a statement."
+      },
+      {
+        "pattern": "Precedent Instrumentalization Across Conflicts",
+        "detail": "MEE explicitly bridges the ICJ Myanmar genocide ruling to South Africa's case against Israel, framing one legal precedent as a tool to strengthen another conflict's prosecution.",
+        "debias": "Report the ruling's direct implications for the Rohingya and note that legal experts draw comparisons, without asserting the precedent 'strengthens' another case as established fact.",
+        "date_added": "2026-11-19",
+        "status": "suggested",
+        "example_text": "ICJ ruling on Rohingya genocide could strengthen South Africa's case against Israel",
+        "example_url": "https://www.middleeasteye.net/live-blog/live-blog-update/icj-ruling-rohingya-genocide-could-strengthen-south-africas-case-against",
+        "unbiased_text": "ICJ ruling on Rohingya genocide: Legal experts discuss implications for other genocide cases"
       }
     ]
   },
