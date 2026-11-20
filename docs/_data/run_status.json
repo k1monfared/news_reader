@@ -3,8 +3,8 @@
   "target_date": "2026-11-20",
   "status": "running",
   "started_at": "2026-11-20T21:02:04Z",
-  "updated_at": "2026-11-20T21:17:53Z",
-  "current_stage": "render_check",
+  "updated_at": "2026-11-20T21:17:54Z",
+  "current_stage": "publish",
   "total_stages": 13,
   "stages": [
     {
@@ -69,6 +69,13 @@
       "duration_s": 1.77,
       "error": null,
       "finished_at": "2026-11-20T21:17:53Z"
+    },
+    {
+      "name": "render_check",
+      "status": "completed",
+      "duration_s": 0.0,
+      "error": null,
+      "finished_at": "2026-11-20T21:17:54Z"
     }
   ]
 }
