@@ -3,8 +3,8 @@
   "target_date": "2026-11-24",
   "status": "running",
   "started_at": "2026-11-24T22:59:30Z",
-  "updated_at": "2026-11-24T23:06:09Z",
-  "current_stage": "publish",
+  "updated_at": "2026-11-24T23:06:12Z",
+  "current_stage": "translate_fa",
   "total_stages": 13,
   "stages": [
     {
@@ -76,6 +76,13 @@
       "duration_s": 0.0,
       "error": null,
       "finished_at": "2026-11-24T23:06:09Z"
+    },
+    {
+      "name": "publish",
+      "status": "completed",
+      "duration_s": 1.27,
+      "error": null,
+      "finished_at": "2026-11-24T23:06:12Z"
     }
   ]
 }
