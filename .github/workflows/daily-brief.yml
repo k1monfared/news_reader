@@ -2,12 +2,15 @@ name: Daily Brief
 
 on:
   schedule:
-    # 6am US Pacific. 13:07 UTC during PDT (Mar-Nov), 14:07 UTC during PST.
-    # GitHub fires scheduled jobs in UTC and does not follow DST, so the local
-    # start drifts by one hour in standard time. Offset a few minutes to avoid
-    # the :00 stampede. GitHub's scheduler has been firing this 4-8h late under
-    # load, so completion lands later.
-    - cron: '7 13 * * *'
+    # Goal: finish around 6am Vancouver (UTC-7 year round, no DST shift).
+    # GitHub fires scheduled jobs 6 to 12 hours late (observed 6.2h to 11.7h
+    # across the last 12 runs), so the cron is set early on purpose:
+    # 01:07 UTC is 6:07pm Vancouver the evening before. With that delay the
+    # run starts between roughly 12:20am and 5:50am Vancouver and takes 5 to
+    # 20 minutes. Do not move it earlier than 01:00 UTC: a run that starts
+    # before midnight Vancouver would be dated as the previous day.
+    # Offset a few minutes to avoid the :00 stampede.
+    - cron: '7 1 * * *'
   workflow_dispatch:
 
 permissions:

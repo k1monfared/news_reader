@@ -437,6 +437,9 @@ class AuditedLLMClient:
 
         return response_text
 
+    # Ceiling for the empty-content budget escalation in _complete.
+    _MAX_TOKENS_CAP = 32768
+
     def _complete(
         self,
         base_url: str,
@@ -533,6 +536,24 @@ class AuditedLLMClient:
                                 f"missing 'choices': {e}; body={str(data)[:400]}"
                             )
                         else:
+                            if not content and (
+                                first.get("finish_reason") == "length"
+                                and payload["max_tokens"] < self._MAX_TOKENS_CAP
+                            ):
+                                # Reasoning consumed the whole token budget
+                                # before any answer. The model is healthy, so
+                                # retry it with a bigger budget instead of
+                                # failing over to the next model.
+                                payload["max_tokens"] = min(
+                                    payload["max_tokens"] * 2,
+                                    self._MAX_TOKENS_CAP,
+                                )
+                                last_error = RuntimeError(
+                                    f"Model {model} spent max_tokens on "
+                                    "reasoning with no answer; retrying with "
+                                    f"max_tokens={payload['max_tokens']}"
+                                )
+                                continue
                             if not content:
                                 empty_attempts += 1
                                 last_error = RuntimeError(

@@ -23,9 +23,10 @@ from run_pipeline import critical_failures
 
 
 class FakeResponse:
-    def __init__(self, status_code=200, content="ok", text=None):
+    def __init__(self, status_code=200, content="ok", text=None, finish_reason="stop"):
         self.status_code = status_code
         self._content = content
+        self._finish_reason = finish_reason
         self.text = text if text is not None else json.dumps({"raw": True})
 
     def json(self):
@@ -33,7 +34,7 @@ class FakeResponse:
             "choices": [
                 {
                     "message": {"content": self._content},
-                    "finish_reason": "stop",
+                    "finish_reason": self._finish_reason,
                 }
             ],
             "usage": {"prompt_tokens": 10, "completion_tokens": 5},
@@ -68,7 +69,7 @@ def scripted_http(monkeypatch):
                 return False
 
             def post(self, url, headers=None, json=None):
-                state["calls"].append({"url": url, "payload": json})
+                state["calls"].append({"url": url, "payload": dict(json)})
                 item = script[min(idx["i"], len(script) - 1)]
                 idx["i"] += 1
                 if isinstance(item, Exception):
@@ -181,6 +182,31 @@ class TestFailover:
         assert [c["payload"]["model"] for c in http["calls"]] == ["model-a", "model-b"]
         entries = read_calls_jsonl(tmp_path / "run")
         assert entries[-1]["model"] == "model-b"
+
+    def test_empty_content_on_length_retries_with_bigger_budget(
+        self, tmp_path, scripted_http
+    ):
+        """Reasoning ate the whole max_tokens (empty content, finish_reason
+        length): retry the same model with a doubled budget, do not fail over."""
+        http = scripted_http([
+            FakeResponse(200, content="", finish_reason="length"),
+            FakeResponse(200, content="translated"),
+        ])
+        client = make_client(tmp_path, ["model-b"])
+
+        out = client.call(
+            stage="translate_fa",
+            prompt_name="p",
+            prompt_version=1,
+            system="s",
+            user_message="u",
+            model="model-a",
+            max_tokens=8192,
+        )
+
+        assert out == "translated"
+        sent = [(c["payload"]["model"], c["payload"]["max_tokens"]) for c in http["calls"]]
+        assert sent == [("model-a", 8192), ("model-a", 16384)]
 
     def test_all_models_failing_raises(self, tmp_path, scripted_http):
         """When every model in the chain fails, a RuntimeError surfaces."""
