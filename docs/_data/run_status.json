@@ -1,9 +1,9 @@
 {
   "run_id": "2026-11-26-151612",
   "target_date": "2026-11-26",
-  "status": "running",
+  "status": "failed",
   "started_at": "2026-11-26T22:16:15Z",
-  "updated_at": "2026-11-26T22:26:02Z",
+  "updated_at": "2026-11-26T22:26:03Z",
   "current_stage": null,
   "total_stages": 13,
   "stages": [
