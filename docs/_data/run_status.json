@@ -3,8 +3,8 @@
   "target_date": "2026-11-26",
   "status": "running",
   "started_at": "2026-11-26T22:16:15Z",
-  "updated_at": "2026-11-26T22:26:00Z",
-  "current_stage": "mailer",
+  "updated_at": "2026-11-26T22:26:02Z",
+  "current_stage": null,
   "total_stages": 13,
   "stages": [
     {
@@ -90,6 +90,13 @@
       "duration_s": 227.83,
       "error": "Stage translate_fa: all 4 models in failover chain failed: [{\"model\": \"deepseek-v4.1-flash\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model deepseek-v4.1-flash failed after 1 attempt(s): Model deepseek-v4.1-flash returned empty content (attempt 1/1); free models may emit only reasoning_content\"}, {\"model\": \"beam-free\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model beam-free failed after 1 attempt(s): Model beam-free returned empty content (attempt 1/1); free models may emit only reasoning_content\"}, {\"model\": \"hungerg-free\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model hungerg-free failed after 1 attempt(s): Model hungerg-free returned empty content (attempt 1/1); free models may emit only reasoning_content\"}, {\"model\": \"hy4-flash-free\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model hy4-flash-free failed after 1 attempt(s): Model hy4-flash-free returned empty content (attempt 1/1); free models may emit only reasoning_content\"}]",
       "finished_at": "2026-11-26T22:26:00Z"
+    },
+    {
+      "name": "mailer",
+      "status": "completed",
+      "duration_s": 1.17,
+      "error": null,
+      "finished_at": "2026-11-26T22:26:02Z"
     }
   ]
 }
