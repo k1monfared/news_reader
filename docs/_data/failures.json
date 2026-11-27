@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-26T17:51:40Z",
+  "generated_at": "2026-11-27T17:37:20Z",
   "counts": {
-    "failed": 25,
-    "backfilled": 21,
-    "failed_and_backfilled": 16,
+    "failed": 26,
+    "backfilled": 22,
+    "failed_and_backfilled": 17,
     "failed_not_backfilled": [
       "2026-04-28",
       "2026-08-24",
@@ -746,6 +746,49 @@
           "url": "https://github.com/k1monfared/news_reader/commit/f8479552c7a7df19ae0f73195aab1efd32ab94e9"
         }
       ]
+    },
+    {
+      "date": "2026-11-26",
+      "run_url": "https://github.com/k1monfared/news_reader/actions/runs/45903658922",
+      "run_id": 45903658922,
+      "created_at": "2026-11-26T22:15:56Z",
+      "failed_stages": [
+        "translate_fa"
+      ],
+      "errors": [
+        "translate_fa: Stage translate_fa: all 4 models in failover chain failed: [{\"model\": \"deepseek-v4.1-flash\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model deepseek-v4.1-flash failed after 1 attempt(s): Model deepseek-v4.1-flash returned empty content (attempt 1/1); free models may emit only reasoning_content\"}, {\"model\": \"beam-free\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model beam-free failed after 1 attempt(s): Model beam-free returned empty content (attempt 1/1); free models may emit only reasoning_content\"}, {\"model\": \"hungerg-free\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model hungerg-free failed after 1 attempt(s): Model hungerg-free returned empty content (attempt 1/1); free models may emit only reasoning_content\"}, {\"model\": \"hy4-flash-free\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model hy4-flash-free failed after 1 attempt(s): Model hy4-flash-free returned empty content (attempt 1/1); free models may emit only reasoning_content\"}]"
+      ],
+      "backfilled": true,
+      "backfill_commit": {
+        "hash": "026ea8662995e51627a1c4119a5a7fe71bb5c25f",
+        "short": "026ea866",
+        "message": "Daily brief: 2026-11-26 (fa)",
+        "date": "2026-11-26T22:49:31Z",
+        "url": "https://github.com/k1monfared/news_reader/commit/026ea8662995e51627a1c4119a5a7fe71bb5c25f"
+      },
+      "fix_commits": [
+        {
+          "hash": "026ea8662995e51627a1c4119a5a7fe71bb5c25f",
+          "short": "026ea866",
+          "message": "Daily brief: 2026-11-26 (fa)",
+          "date": "2026-11-26T22:49:31Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/026ea8662995e51627a1c4119a5a7fe71bb5c25f"
+        },
+        {
+          "hash": "338c6baa842a85654640f69eb3d020e7fb63869f",
+          "short": "338c6baa",
+          "message": "Retry empty reasoning-only replies with a bigger token budget; schedule run early to offset GitHub delay",
+          "date": "2026-11-26T15:46:52-07:00",
+          "url": "https://github.com/k1monfared/news_reader/commit/338c6baa842a85654640f69eb3d020e7fb63869f"
+        },
+        {
+          "hash": "63929cfb8b287a964f7411fa8d1c45144240f76c",
+          "short": "63929cfb",
+          "message": "Refresh model list: 2026-11-26",
+          "date": "2026-11-26T22:26:08Z",
+          "url": "https://github.com/k1monfared/news_reader/commit/63929cfb8b287a964f7411fa8d1c45144240f76c"
+        }
+      ]
     }
   ],
   "backfilled_dates": [
@@ -1040,6 +1083,19 @@
         "message": "Daily brief: 2026-10-21",
         "date": "2026-10-21T19:52:09Z",
         "url": "https://github.com/k1monfared/news_reader/commit/5511e2317f970efffbfc98e2db1338fc068bd213"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "posts": [
+        "docs/_fa_posts/2026-11-26-daily-brief.md"
+      ],
+      "commit": {
+        "hash": "026ea8662995e51627a1c4119a5a7fe71bb5c25f",
+        "short": "026ea866",
+        "message": "Daily brief: 2026-11-26 (fa)",
+        "date": "2026-11-26T22:49:31Z",
+        "url": "https://github.com/k1monfared/news_reader/commit/026ea8662995e51627a1c4119a5a7fe71bb5c25f"
       }
     }
   ]
