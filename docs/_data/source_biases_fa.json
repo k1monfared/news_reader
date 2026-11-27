@@ -4069,6 +4069,28 @@
         "example_url": "https://www.aljazeera.com/sports/2026/9/29/man-city-guilty-of-all-serious-financial-breach-charges-premier-league?traffic_source=rss",
         "unbiased_text": "کمیته لیگ برتر منچسترسیتی را در تمام اتهامات جدی نقض مالی مقصر می‌داند؛ باشگاه می‌گوید ناامید است و تجدیدنظر خواهد کرد.",
         "pattern_en": "Unqualified Verdict Assertion"
+      },
+      {
+        "pattern": "انتساب تفرقه در جامعه مذهبی",
+        "detail": "Al Jazeera نزدیک‌شدن اسرائیل به روستاهای مسیحی جنوب لبنان را تلاشی عامدانه برای تکه‌تکه کردن لبنان چارچوب‌بندی می‌کند.",
+        "debias": "ادعای تفرقه بینداز و حکومت کن را به منبعش نسبت دهید و یادآوری کنید که اهداف اسرائیل مورد مناقشه است.",
+        "date_added": "2026-11-27",
+        "status": "suggested",
+        "example_text": "اسرائیل می‌کوشد با جدا کردن ساکنان مسیحی جنوب لبنان از بقیه، لبنان را تکه‌تکه کند.",
+        "example_url": "https://www.aljazeera.com/features/2026/11/27/israel-uses-christian-villages-in-southern-lebanon-to-divide-and-conquer?traffic_source=rss",
+        "unbiased_text": "اسرائیل در حال تعامل با جوامع مسیحی در جنوب لبنان است؛ منتقدان می‌گویند این کار خطر تکه‌تکه شدن کشور را در پی دارد، در حالی که مقام‌های اسرائیلی آن را نزدیک‌شدن یا حمایت توصیف می‌کنند.",
+        "pattern_en": "Religious community fragmentation attribution"
+      },
+      {
+        "pattern": "چارچوب‌بندی دامنه تحریم‌ها در راستای حفاظت از دولت",
+        "detail": "Al Jazeera تحریم‌های غربی علیه شهرک‌نشینان را به‌گونه‌ای روایت می‌کند که گویی در خدمت حفاظت از دولت اسرائیل است.",
+        "debias": "ادعای حفاظت را به نویسنده نسبت دهید و مناقشه بر سر دامنه تحریم‌ها را ارائه کنید.",
+        "date_added": "2026-11-27",
+        "status": "suggested",
+        "example_text": "تصرف شهرک‌نشینان در اریحا ناکافی‌بودن تحریم‌هایی را آشکار می‌کند که تنها شهرک‌نشینان و سازمان‌هایشان را هدف می‌گیرند.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/11/27/western-sanctions-on-israeli-settlers-serve-to-shield-the-israeli-state?traffic_source=rss",
+        "unbiased_text": "تحریم‌هایی که شهرک‌نشینان و سازمان‌های اسرائیلی را هدف می‌گیرند، بحث‌هایی درباره کافی‌بودن آن‌ها برانگیخته‌اند؛ منتقدان می‌گویند پاسخگویی گسترده‌تر دولت لازم است.",
+        "pattern_en": "Sanctions scope shielding state framing"
       }
     ]
   },
@@ -7281,6 +7303,17 @@
         "example_url": "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death",
         "unbiased_text": "حمله اسرائیل به بیمارستانی در غزه شش کشته برجای می‌گذارد؛ به‌طور جداگانه، نوزادی در شرایط آوارگی بر اثر سرما جان می‌دهد",
         "pattern_en": "Cumulative Tragedy Headline Compounding"
+      },
+      {
+        "pattern": "قالب‌بندی تقویت قضایی برای رهبر متهم‌شده",
+        "detail": "France24 توصیه قضایی برای لغو اتهامات را تقویت عمده‌ای برای نتانیاهو توصیف می‌کند.",
+        "debias": "توصیه و مخالفت دادستانی را بدون قالب‌بندی آن به‌عنوان تقویت سیاسی بیان کنید.",
+        "date_added": "2026-11-27",
+        "status": "suggested",
+        "example_text": "قاضی‌ها در دادگاه طولانی‌مدت فساد بنیامین نتانیاهو، نخست‌وزیر سرپرست اسرائیل، روز چهارشنبه با توصیه به دادستانی برای کنار گذاشتن یکی از پرونده‌هایی که او در آن به رشوه‌خواری متهم است، تقویت عمده‌ای به تیم دفاع او دادند.",
+        "example_url": "https://www.france24.com/en/in-boost-for-netanyahu-judges-question-corruption-trial-charges",
+        "unbiased_text": "قاضی‌ها توصیه کردند یکی از پرونده‌های رشوه‌خواری علیه نتانیاهو کنار گذاشته شود؛ دادستانی با این توصیه مخالف است و ممکن است درخواست تجدیدنظر کند.",
+        "pattern_en": "Judicial boost for indicted leader framing"
       }
     ]
   },
@@ -11004,6 +11037,17 @@
         "example_url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_medium=RSS&at_campaign=rss",
         "unbiased_text": "حملات حوثی‌ها باعث آسیب فیزیکی شده‌اند و نگرانی‌هایی درباره پایداری در عربستان سعودی وجود دارد.",
         "pattern_en": "Reputational damage over operational impact"
+      },
+      {
+        "pattern": "قاب‌بندی آزمایش تصویر امنیتی پادشاهی",
+        "detail": "BBC حملات حوثی را به‌عنوان آزمون تصویر امنیتی عربستان سعودی قاب‌بندی می‌کند.",
+        "debias": "حملات و پاسخ‌ها را بدون پیش‌فرض بحران تصویر یا اعتبار توصیف کنید.",
+        "date_added": "2026-11-27",
+        "status": "suggested",
+        "example_text": "در داخل عربستان سعودی، حملات حوثی تصویر امنیتی پادشاهی را می‌آزماید",
+        "example_url": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_medium=RSS&at_campaign=rss",
+        "unbiased_text": "حملات حوثی به عربستان سعودی ادامه دارد؛ ساکنان و مقام‌ها تدابیر امنیتی و زندگی روزمره را توصیف می‌کنند.",
+        "pattern_en": "Kingdom security image testing framing"
       }
     ]
   },
@@ -11197,6 +11241,17 @@
         "example_url": "https://www.jpost.com/middle-east/article-911419",
         "unbiased_text": "یک مقام فتح مقیم لبنان گفت که خواستاری راه‌حل دو دولتی یک دام برای اسرائیل بود و اسرائیل می‌داند که آینده چه چیزی را می‌تواند در بر بگیرد.",
         "pattern_en": "Adversary admission bragging amplification"
+      },
+      {
+        "pattern": "شرطی‌بودن ورود حزب اقلیت به ائتلاف",
+        "detail": "JPost تعیین احتمالی حماس به‌عنوان گروه تروریستی از سوی منصور عباس را چنان روایت می‌کند که راه راعم را برای ورود به ائتلاف به رهبری آیزنکوت هموار می‌کند.",
+        "debias": "پیامد ائتلافی را به عباس یا به گزارش‌ها نسبت دهید و از القای فرصت‌طلبی سیاسی بپرهیزید.",
+        "date_added": "2026-11-27",
+        "status": "suggested",
+        "example_text": "منصور عباس در آستانه اعلام حماس به‌عنوان یک گروه تروریستی است؛ اقدامی که راه راعم را به ائتلاف آیزنکوت هموار می‌کند",
+        "example_url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-916313",
+        "unbiased_text": "گزارش‌ها حاکی است منصور عباس در حال آماده‌سازی برای تعیین حماس به‌عنوان یک سازمان تروریستی است؛ تحلیلگران می‌گویند این امر می‌تواند مشارکت راعم در ائتلاف به رهبری آیزنکوت را تسهیل کند.",
+        "pattern_en": "Minority party coalition entry conditionality"
       }
     ]
   },
@@ -11666,6 +11721,17 @@
         "example_url": "https://www.dw.com/en/france-protesters-clash-with-police-in-nationwide-protests-amid-rising-social-polarization/a-79685584?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "فرانسه: درگیری معترضان با پلیس در تظاهرات سراسری بر سر قیمت‌ها و نابرابری",
         "pattern_en": "Societal Polarization Diagnosis Framing"
+      },
+      {
+        "pattern": "بدبینی به شکوفایی فرهنگی در دولت اقتدارگرا",
+        "detail": "DW این پرسش را مطرح می‌کند که آیا رشد موسیقی عربستان با تأمین مالی دولتی، از یک دولت اقتدارگرا حمایت می‌کند.",
+        "debias": "تأمین مالی دولتی و خوش‌بینی نوازندگان را در کنار نگرانی‌های منتقدان ارائه کنید، بدون آنکه از پیش فرض همدستی داشته باشید.",
+        "date_added": "2026-11-27",
+        "status": "suggested",
+        "example_text": "به‌عنوان بخشی از چشم‌انداز ۲۰۳۰، صحنه موسیقی عربستان سعودی به لطف تأمین مالی و حمایت دولتی بسیار متحول شده است. نوازندگان و دی‌جی‌های محلی خوش‌بین‌اند. اما آیا آنان در واقع فقط به حمایت از یک دولت اقتدارگرا کمک می‌کنند؟",
+        "example_url": "https://www.dw.com/en/saudi-pop-music-is-thriving-but-for-the-right-reasons/a-80036013?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "صحنه موسیقی عربستان سعودی با تأمین مالی دولتی چشم‌انداز ۲۰۳۰ گسترش یافته است؛ نوازندگان ابراز خوش‌بینی می‌کنند در حالی که منتقدان پیامدهای سیاسی را زیر سؤال می‌برند.",
+        "pattern_en": "Authoritarian cultural thriving skepticism"
       }
     ]
   },
