@@ -3656,6 +3656,26 @@
         "example_text": "Man City guilty of all serious financial breach charges: Premier League",
         "example_url": "https://www.aljazeera.com/sports/2026/9/29/man-city-guilty-of-all-serious-financial-breach-charges-premier-league?traffic_source=rss",
         "unbiased_text": "Premier League panel finds Manchester City guilty of all serious financial breach charges; club says it is disappointed and will appeal."
+      },
+      {
+        "pattern": "Religious community fragmentation attribution",
+        "detail": "Al Jazeera frames Israeli outreach to south Lebanon Christian villages as a deliberate effort to fragment Lebanon.",
+        "debias": "Attribute the divide-and-conquer claim to its source and note Israeli aims are contested.",
+        "date_added": "2026-11-27",
+        "status": "suggested",
+        "example_text": "Israel is trying to fragment Lebanon by separating its Christian residents in south Lebanon from the rest.",
+        "example_url": "https://www.aljazeera.com/features/2026/11/27/israel-uses-christian-villages-in-southern-lebanon-to-divide-and-conquer?traffic_source=rss",
+        "unbiased_text": "Israel is engaging with Christian communities in south Lebanon; critics say this risks fragmenting the country, while Israeli officials describe it as outreach or protection."
+      },
+      {
+        "pattern": "Sanctions scope shielding state framing",
+        "detail": "Al Jazeera frames Western settler sanctions as serving to shield the Israeli state.",
+        "debias": "Attribute the shielding claim to the author and present the sanctions scope debate.",
+        "date_added": "2026-11-27",
+        "status": "suggested",
+        "example_text": "The settler takeover in Jericho exposes the inadequacy of sanctions targeting only settlers and their organisations.",
+        "example_url": "https://www.aljazeera.com/opinions/2026/11/27/western-sanctions-on-israeli-settlers-serve-to-shield-the-israeli-state?traffic_source=rss",
+        "unbiased_text": "Sanctions targeting Israeli settlers and organizations have drawn debate over whether they are sufficient; critics argue broader state accountability is needed."
       }
     ],
     "notes": "Generally reliable on facts, but editorializes framing"
@@ -6570,6 +6590,16 @@
         "example_text": "Israel kills six in Gaza hospital strike as 9-month-old baby freezes to death",
         "example_url": "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death",
         "unbiased_text": "Israeli strike on Gaza hospital kills six; separately, infant dies from cold amid displacement"
+      },
+      {
+        "pattern": "Judicial boost for indicted leader framing",
+        "detail": "France24 characterizes a judicial recommendation to drop charges as a major boost for Netanyahu.",
+        "debias": "State the recommendation and prosecutorial opposition without framing it as a political boost.",
+        "date_added": "2026-11-27",
+        "status": "suggested",
+        "example_text": "Judges in the long-running corruption trial of Israeli caretaker Prime Minister Benjamin Netanyahu handed his defence a major boost on Wednesday in recommending the prosecution drop one of the cases in which he is accused of bribery.",
+        "example_url": "https://www.france24.com/en/in-boost-for-netanyahu-judges-question-corruption-trial-charges",
+        "unbiased_text": "Judges recommended dropping one bribery case against Netanyahu; prosecutors oppose the recommendation and may appeal."
       }
     ],
     "notes": "Strong on diplomacy, moderate editorial tone"
@@ -9920,6 +9950,16 @@
         "example_text": "While the physical damage from Houthi attacks can be quickly repaired, the Saudi reputation for stability is taking a battering.",
         "example_url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_medium=RSS&at_campaign=rss",
         "unbiased_text": "The Houthi attacks caused physical damage, and there are concerns about stability in Saudi Arabia."
+      },
+      {
+        "pattern": "Kingdom security image testing framing",
+        "detail": "BBC frames Houthi attacks as testing Saudi Arabia's image of security.",
+        "debias": "Describe the attacks and responses without presuming an image or credibility crisis.",
+        "date_added": "2026-11-27",
+        "status": "suggested",
+        "example_text": "Inside Saudi Arabia, Houthi attacks test kingdom's image of security",
+        "example_url": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_medium=RSS&at_campaign=rss",
+        "unbiased_text": "Houthi attacks on Saudi Arabia continue; residents and officials describe security measures and daily life."
       }
     ]
   },
@@ -10096,6 +10136,16 @@
         "example_text": "“We know the trap we have set for Israel by demanding a two-state solution. But Israel understands why it does not want to give us a state: it knows what the future could hold,” said Abu Shahab.",
         "example_url": "https://www.jpost.com/middle-east/article-911419",
         "unbiased_text": "A Lebanon-based Fatah official said that demanding a two-state solution was a trap for Israel, and that Israel knows what the future could hold."
+      },
+      {
+        "pattern": "Minority party coalition entry conditionality",
+        "detail": "JPost frames Mansour Abbas's potential Hamas terror designation as paving Ra'am's way into an Eisenkot-led coalition.",
+        "debias": "Attribute the coalition implication to Abbas or reporting and avoid implying political opportunism.",
+        "date_added": "2026-11-27",
+        "status": "suggested",
+        "example_text": "Mansour Abbas set to declare Hamas a terror group, paving Ra'am's way to Eisenkot's coalition",
+        "example_url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-916313",
+        "unbiased_text": "Mansour Abbas is reportedly preparing to designate Hamas a terrorist organization; analysts say this could facilitate Ra'am's participation in an Eisenkot-led coalition."
       }
     ]
   },
@@ -10524,6 +10574,16 @@
         "example_text": "France: Protesters clash with police in nationwide protests, amid rising social polarization",
         "example_url": "https://www.dw.com/en/france-protesters-clash-with-police-in-nationwide-protests-amid-rising-social-polarization/a-79685584?maca=en-rss-en-all-1573-xml-mrss",
         "unbiased_text": "France: Protesters clash with police in nationwide demonstrations over prices and inequality"
+      },
+      {
+        "pattern": "Authoritarian cultural thriving skepticism",
+        "detail": "DW questions whether Saudi music's growth under state funding props up an authoritarian state.",
+        "debias": "Present state funding and musician optimism alongside critics' concerns without presuming complicity.",
+        "date_added": "2026-11-27",
+        "status": "suggested",
+        "example_text": "As part of Vision 2030, Saudi Arabia's music scene has evolved hugely thanks to state funding and support. Local musicians and DJs are optimistic. But are they actually just helping prop up an authoritarian state?",
+        "example_url": "https://www.dw.com/en/saudi-pop-music-is-thriving-but-for-the-right-reasons/a-80036013?maca=en-rss-en-all-1573-xml-mrss",
+        "unbiased_text": "Saudi Arabia's music scene has expanded under Vision 2030 state funding; musicians express optimism while critics question political implications."
       }
     ]
   },
