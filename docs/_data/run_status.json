@@ -1,102 +1,10 @@
 {
-  "run_id": "2026-11-26-151612",
-  "target_date": "2026-11-26",
-  "status": "failed",
-  "started_at": "2026-11-26T22:16:15Z",
-  "updated_at": "2026-11-26T22:26:03Z",
-  "current_stage": null,
+  "run_id": "2026-11-27-023630",
+  "target_date": "2026-11-27",
+  "status": "running",
+  "started_at": "2026-11-27T09:36:32Z",
+  "updated_at": "2026-11-27T09:36:32Z",
+  "current_stage": "fetch",
   "total_stages": 13,
-  "stages": [
-    {
-      "name": "fetch",
-      "status": "completed",
-      "duration_s": 10.1,
-      "error": null,
-      "finished_at": "2026-11-26T22:16:27Z"
-    },
-    {
-      "name": "translate",
-      "status": "completed",
-      "duration_s": 0.01,
-      "error": null,
-      "finished_at": "2026-11-26T22:16:29Z"
-    },
-    {
-      "name": "dedup",
-      "status": "completed",
-      "duration_s": 0.67,
-      "error": null,
-      "finished_at": "2026-11-26T22:16:30Z"
-    },
-    {
-      "name": "filter",
-      "status": "completed",
-      "duration_s": 68.45,
-      "error": null,
-      "finished_at": "2026-11-26T22:17:40Z"
-    },
-    {
-      "name": "categorize",
-      "status": "completed",
-      "duration_s": 2.28,
-      "error": null,
-      "finished_at": "2026-11-26T22:17:44Z"
-    },
-    {
-      "name": "track_developments",
-      "status": "completed",
-      "duration_s": 18.07,
-      "error": null,
-      "finished_at": "2026-11-26T22:18:03Z"
-    },
-    {
-      "name": "summarize",
-      "status": "completed",
-      "duration_s": 0.01,
-      "error": null,
-      "finished_at": "2026-11-26T22:18:04Z"
-    },
-    {
-      "name": "editorial",
-      "status": "completed",
-      "duration_s": 240.05,
-      "error": null,
-      "finished_at": "2026-11-26T22:22:06Z"
-    },
-    {
-      "name": "verify",
-      "status": "completed",
-      "duration_s": 0.0,
-      "error": null,
-      "finished_at": "2026-11-26T22:22:07Z"
-    },
-    {
-      "name": "render_check",
-      "status": "completed",
-      "duration_s": 0.0,
-      "error": null,
-      "finished_at": "2026-11-26T22:22:08Z"
-    },
-    {
-      "name": "publish",
-      "status": "completed",
-      "duration_s": 1.16,
-      "error": null,
-      "finished_at": "2026-11-26T22:22:11Z"
-    },
-    {
-      "name": "translate_fa",
-      "status": "failed",
-      "duration_s": 227.83,
-      "error": "Stage translate_fa: all 4 models in failover chain failed: [{\"model\": \"deepseek-v4.1-flash\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model deepseek-v4.1-flash failed after 1 attempt(s): Model deepseek-v4.1-flash returned empty content (attempt 1/1); free models may emit only reasoning_content\"}, {\"model\": \"beam-free\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model beam-free failed after 1 attempt(s): Model beam-free returned empty content (attempt 1/1); free models may emit only reasoning_content\"}, {\"model\": \"hungerg-free\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model hungerg-free failed after 1 attempt(s): Model hungerg-free returned empty content (attempt 1/1); free models may emit only reasoning_content\"}, {\"model\": \"hy4-flash-free\", \"base_url\": \"https://opencode.ai/zen/go/v1\", \"error\": \"Model hy4-flash-free failed after 1 attempt(s): Model hy4-flash-free returned empty content (attempt 1/1); free models may emit only reasoning_content\"}]",
-      "finished_at": "2026-11-26T22:26:00Z"
-    },
-    {
-      "name": "mailer",
-      "status": "completed",
-      "duration_s": 1.17,
-      "error": null,
-      "finished_at": "2026-11-26T22:26:02Z"
-    }
-  ]
+  "stages": []
 }
