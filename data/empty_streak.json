@@ -1,6 +1,6 @@
 {
-  "consecutive_empty": 1,
-  "last_date": "2026-11-26",
+  "consecutive_empty": 0,
+  "last_date": "2026-11-27",
   "last_empty_date": "2026-11-26",
   "notifications_sent": [],
   "stopped": false,
@@ -929,6 +929,11 @@
       "date": "2026-11-26",
       "empty": true,
       "consecutive": 1
+    },
+    {
+      "date": "2026-11-27",
+      "empty": false,
+      "consecutive": 0
     }
   ]
 }
