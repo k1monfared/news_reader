@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:36:32.639489+00:00",
+  "generated_at": "2026-11-28T08:50:18.780083+00:00",
   "bases_probed": [
     "https://opencode.ai/zen/go/v1"
   ],
@@ -10,10 +10,6 @@
     },
     {
       "id": "hungerg-free",
-      "base_url": "https://opencode.ai/zen/go/v1"
-    },
-    {
-      "id": "hy4-flash-free",
       "base_url": "https://opencode.ai/zen/go/v1"
     }
   ],
