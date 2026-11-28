@@ -3,8 +3,8 @@
   "target_date": "2026-11-28",
   "status": "running",
   "started_at": "2026-11-28T08:50:18Z",
-  "updated_at": "2026-11-28T08:51:35Z",
-  "current_stage": "categorize",
+  "updated_at": "2026-11-28T08:52:10Z",
+  "current_stage": "track_developments",
   "total_stages": 13,
   "stages": [
     {
@@ -34,6 +34,13 @@
       "duration_s": 61.41,
       "error": null,
       "finished_at": "2026-11-28T08:51:35Z"
+    },
+    {
+      "name": "categorize",
+      "status": "completed",
+      "duration_s": 34.06,
+      "error": null,
+      "finished_at": "2026-11-28T08:52:10Z"
     }
   ]
 }
